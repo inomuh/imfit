@@ -1,0 +1,274 @@
+{ 
+    "code_snippets":[
+    {
+        "Snippets":{
+            "Snippet_Name": "if",
+            "Snippet_Number":"1",
+            "Regex_Code":"if.*:",
+            "Tag":"Python if Statement Syntax",
+            "Process":"if test expression:\n\tstatement(s)"
+            }
+    },
+    {
+        "Snippets":{
+            "Snippet_Name": "elif",
+            "Snippet_Number":"2",
+            "Regex_Code":"elif.*:",
+            "Tag":"Python elif Statement Syntax",
+            "Process":"elif test expression:\nBody of elif"
+            }
+    },
+    {
+        "Snippets":{
+            "Snippet_Name": "else",
+            "Snippet_Number":"3",
+            "Regex_Code":"else.*:",
+            "Tag":"Python else Statement Syntax",
+            "Process":"else:\nBody of else"
+            }
+    },
+    {
+        "Snippets":{
+            "Snippet_Name": "for",
+            "Snippet_Number":"4",
+            "Regex_Code":"for.*:",
+            "Tag":"Syntax of for Loop",
+            "Process":"for val in sequence:\nloop body"
+            }
+    },
+    {
+        "Snippets":{
+            "Snippet_Name": "while",
+            "Snippet_Number":"5",
+            "Regex_Code":"while.*:",
+            "Tag":"Syntax of while Loop in Python",
+            "Process":"while test_expression:\nBody of while"
+            }
+    },
+    {
+        "Snippets":{
+            "Snippet_Name": "break",
+            "Snippet_Number":"6",
+            "Regex_Code":"break",
+            "Tag":"Syntax of break",
+            "Process":"break"
+            }
+    },
+    {
+        "Snippets":{
+            "Snippet_Name": "continue",
+            "Snippet_Number":"7",
+            "Regex_Code":"continue",
+            "Tag":"Syntax of Continue",
+            "Process":"continue"
+            }
+    },
+    {
+        "Snippets":{
+            "Snippet_Name": "pass",
+            "Snippet_Number":"8",
+            "Regex_Code":"pass",
+            "Tag":"Syntax of pass",
+            "Process":"def function(args):\npass\nclass Example:\npass"
+            }
+    },
+    {
+        "Snippets":{
+            "Snippet_Name": "return",
+            "Snippet_Number":"9",
+            "Regex_Code":"return",
+            "Tag":"Syntax of return",
+            "Process":"def function(args):\npass\nclass Example:\npass"
+            }
+    },
+    {
+        "Snippets":{
+            "Snippet_Name": "lambda function",
+            "Snippet_Number":"10",
+            "Regex_Code":"lambda",
+            "Tag":"Syntax of Lambda Function",
+            "Process":"lambda arguments:\nexpression"
+            }
+    },
+    {
+        "Snippets":{
+            "Snippet_Name": "__init__",
+            "Snippet_Number":"11",
+            "Regex_Code":"__init__",
+            "Tag":"Syntax of __init__",
+            "Process":"__init__"
+            }
+    },
+    {
+        "Snippets":{
+            "Snippet_Name": "__main__",
+            "Snippet_Number":"12",
+            "Regex_Code":"__main__",
+            "Tag":"Syntax of __main__",
+            "Process":"if __name__ == '__main__':\nmain()"
+            }
+    },
+    {
+        "Snippets":{
+            "Snippet_Name": "class",
+            "Snippet_Number":"13",
+            "Regex_Code":"class.*:",
+            "Tag":"Syntax of class",
+            "Process":"class ClassName(object):\ndef __init__(self, arg):\nsuper(ClassName, self).__init__()\nself.arg = arg" 
+            }
+    },
+    {
+        "Snippets":{
+            "Snippet_Name": "Try/Except",
+            "Snippet_Number":"14",
+            "Regex_Code":"try.*:",
+            "Tag":"Syntax of Try/Except",
+            "Process":"try:\npass\nexcept Exception as e:\nraise e "
+            }
+    },
+    {
+        "Snippets":{
+            "Snippet_Name": "Try/Except/Else",
+            "Snippet_Number":"15",
+            "Regex_Code":"try.*:",
+            "Tag":"Syntax of Try/Except/Else",
+            "Process":"try:\npass\nexcept Exception as e:\nraise e\nelse:\npass"
+            }
+    },
+    {
+        "Snippets":{
+            "Snippet_Name": "Try/Except/Finally",
+            "Snippet_Number":"16",
+            "Regex_Code":"try.*:",
+            "Tag":"Syntax of Try/Except/Finally",
+            "Process":"try:\npass\nexcept Exception as e:\nraise e\nfinally:\npass"
+            }
+    },
+    {
+        "Snippets":{
+            "Snippet_Name": "Try/Except/Else/Finally",
+            "Snippet_Number":"17",
+            "Regex_Code":"try.*:",
+            "Tag":"Syntax of __main__",
+            "Process":"try:\npass\nexcept Exception as e:\nraise\nelse:\npass\nfinally:\npass"
+            }
+    },
+    {
+        "Snippets":{
+            "Snippet_Name": "Shebang",
+            "Snippet_Number":"18",
+            "Regex_Code":"#!/usr/bin/env python",
+            "Tag":"Syntax of Shebang",
+            "Process":"#!/usr/bin/env python"
+            }
+    },
+    {
+        "Snippets":{
+            "Snippet_Name": "Subscriber",
+            "Snippet_Number":"19",
+            "Regex_Code":"rospy.Subscriber",
+            "Tag":"Syntax of rospy Subscriber",
+            "Process":"rospy.Subscriber('topic', Type, callback)"
+            }
+    },
+    {
+        "Snippets":{
+            "Snippet_Name": "Publisher",
+            "Snippet_Number":"20",
+            "Regex_Code":"rospy.Publisher",
+            "Tag":"Syntax of rospy Publisher",
+            "Process":"rospy.Publisher('topic', Type, callback)"
+            }
+    },
+    {
+        "Snippets":{
+            "Snippet_Name": "ROS Node Template",
+            "Snippet_Number":"21",
+            "Regex_Code":"RosNode()",
+            "Tag":"Syntax of Node Template",
+            "Process":"#!/usr/bin/env python\nimport rospy\nclass RosNode:\ndef __init__(self):\nrospy.init_node(node_name, anonymous=True)\nrospy.loginfo(Starting RosNode.)\npass\nif __name__ == __main__:\nros_node = RosNode()\nrospy.spin()"
+            }
+    },
+    {
+        "Snippets":{
+            "Snippet_Name": "Periodic Timer",
+            "Snippet_Number":"22",
+            "Regex_Code":"rospy.Timer",
+            "Tag":"Syntax of Periodic Timer",
+            "Process":"rospy.Timer(rospy.Duration(1.0 / 10), callback)"
+            }
+    },
+    {
+        "Snippets":{
+            "Snippet_Name": "ROS Get a Global Parameter",
+            "Snippet_Number":"23",
+            "Regex_Code":"rospy.get_param('global",
+            "Tag":"Syntax of Get a Global Parameter",
+            "Process":"param = rospy.get_param('global_param_name')"
+            }
+    },
+    {
+        "Snippets":{
+            "Snippet_Name": "ROS Get a Parameter From Our Parent Namespace",
+            "Snippet_Number":"24",
+            "Regex_Code":"rospy.get_param('param_",
+            "Tag":"Syntax of Get a Parameter From Our Parent Namespace",
+            "Process":"param = rospy.get_param('param_name')"
+            }
+    },
+    {
+        "Snippets":{
+            "Snippet_Name": "ROS Get a Parameter From Our Private Namespace",
+            "Snippet_Number":"25",
+            "Regex_Code":"param = rospy.get_param('~private",
+            "Tag":"Syntax of Get a Parameter From Our Private Namespace",
+            "Process":"param = rospy.get_param('~private_param_name')"
+            }
+    },
+    {
+        "Snippets":{
+            "Snippet_Name": "ROS Get a Default Value",
+            "Snippet_Number":"26",
+            "Regex_Code":"param = rospy.get_param('foo', ",
+            "Tag":"Syntax of Get a Default Value",
+            "Process":"param = rospy.get_param('foo', 'default_value')"
+            }
+    },
+    {
+        "Snippets":{
+            "Snippet_Name": "ROS Service Server",
+            "Snippet_Number":"27",
+            "Regex_Code":"rospy.Service(",
+            "Tag":"Syntax of Service Server",
+            "Process":"srv_server_handler = rospy.Service(2:service_name, service_type, service_callback)"
+            }
+    },
+    {
+        "Snippets":{
+            "Snippet_Name": "ROS Service Client",
+            "Snippet_Number":"28",
+            "Regex_Code":"rospy.ServiceProxy(",
+            "Tag":"Syntax of Service Client",
+            "Process":"srv_client_handler = rospy.ServiceProxy(service_name, service_type)"
+            }
+    },
+    {
+        "Snippets":{
+            "Snippet_Name": "ROS Service Wait",
+            "Snippet_Number":"29",
+            "Regex_Code":"rospy.wait_for_service(",
+            "Tag":"Syntax of Service Wait",
+            "Process":"rospy.wait_for_service(service_name)"
+            }
+    },
+    {
+        "Snippets":{
+            "Snippet_Name": "ROS Waits For Service",
+            "Snippet_Number":"30",
+            "Regex_Code":"rospy.ServiceException as",
+            "Tag":"Syntax of ROS Waits For Service",
+            "Process":"rospy.wait_for_service(service_name)\ntry:\nsrv_client_handler = rospy.ServiceProxy(service_name, service_type)\nexcept rospy.ServiceException as e:\nprint(e)"
+            }
+    }
+    ]   
+}

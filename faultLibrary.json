@@ -1,0 +1,96 @@
+{ 
+    "fault_library":[
+    {
+        "fault":{
+            "Fault_Name": "Assignment Missing",
+            "Explain":"Matematiksel Sembollerin Olmadığı Durumlar",
+            "Example": "z = x + y -> z x y"
+            }
+    },
+    {
+        "fault":{
+            "Fault_Name": "Assignment Wrong",
+            "Explain":"Matematiksel Sembollerin Değiştiği Durumlar",
+            "Example":""
+            }
+    },
+    {
+        "fault":{
+            "Fault_Name": "Assignment Extraneous",
+            "Explain":"Assignment Extraneous"
+            }
+    },
+    {
+        "fault":{
+            "Fault_Name": "Checking Missing",
+            "Explain":"Checking Missing"
+            }
+    },
+    {
+        "fault":{
+            "Fault_Name": "Checking Wrong",
+            "Explain":"Checking Wrong"
+            }
+    },
+    {
+        "fault":{
+            "Fault_Name": "Checking Extraneous",
+            "Explain":"Checking Extraneous"
+            }
+    },
+    {
+        "fault":{
+            "Fault_Name": "Interface Missing",
+            "Explain":"Interface Missing"
+            }
+    },
+    {
+        "fault":{
+            "Fault_Name": "Interface Wrong",
+            "Explain":"Interface Wrong"
+            }
+    },
+    {
+        "fault":{
+            "Fault_Name": "Interface Extraneous",
+            "Explain":"Interface Extraneous"
+            }
+    },
+    {
+        "fault":{
+            "Fault_Name": "Algortihm Missing",
+            "Explain":"Algorithm Missing"
+            }
+    },
+    {
+        "fault":{
+            "Fault_Name": "Algortihm Wrong",
+            "Explain":"Algorithm Wrong"
+            }
+    },
+    {
+        "fault":{
+            "Fault_Name": "Algortihm Extraneous",
+            "Explain":"Algorithm Extraneous"
+            }
+    },
+    {
+        "fault":{
+            "Fault_Name": "Function Missing",
+            "Explain":"Function Missing"
+            }
+    },
+    {
+        "fault":{
+            "Fault_Name": "Function Wrong",
+            "Explain":"Function Wrong"
+            }
+    },
+    {
+        "fault":{
+            "Fault_Name": "Function Extraneous",
+            "Explain":"Function Extraneous"
+            }
+    }
+    ]
+}
