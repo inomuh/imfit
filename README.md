@@ -8,15 +8,23 @@ The user can show informations about the its tested codes. If the user wants to 
 
 Installations
 -------------------------------
-sudo apt-get update
-sudo apt-get install python3 python3-venv python3-pip
 
-pip install PySide6
-pip install PyQt6==6.1.0
+    sudo apt-get update
+
+    sudo apt-get install python3 python3-venv python3-pip
+
+    pip install PySide6
+
+    pip install PyQt6==6.1.0
 
 Usage
 -------------------------------
 Terminal command to open interface
-- python3 main.py
 
-PS: Before first run IM-FIT, the command "chmod +x *" must enter the terminal opened from IM-FIT folder.
+    python3 main.py
+
+PS: Before first run IM-FIT, the command 
+
+    chmod +x * 
+
+must enter the terminal opened from IM-FIT folder.
