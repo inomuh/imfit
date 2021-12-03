@@ -8,11 +8,17 @@ The user can show informations about the its tested codes. If the user wants to 
 
 Installations
 -------------------------------
-    sudo apt-get update && sudo apt-get install python3 python3-venv python3-pip
--------------------------- 
-    pip install PySide6
--------------------------
-    pip install PyQt6==6.1.0
+- Firstly, you must install python3 and some requirements:
+
+        sudo apt-get update && sudo apt-get install python3 python3-venv python3-pip
+
+- Install PySide6:
+
+        pip install PySide6
+
+- Install PyQt6:
+
+        pip install PyQt6==6.1.0
 
 Usage
 -------------------------------
