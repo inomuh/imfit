@@ -1,0 +1,605 @@
+
+{
+    "all_faults": [    
+        {
+            "fault": {
+                "Fault_Name": "Subscriber Delete",
+                "Target_to_Change": "rospy.Subscriber",
+                "Changed": " ",
+                "Explanation": "Subscriber deletes"
+            }
+        },
+        {
+            "fault": {
+                "Fault_Name": "Subscriber Change",
+                "Target_to_Change": "rospy.Subscriber",
+                "Changed": "rospy.Publisher",
+                "Explanation": "Subscriber is wrong"
+            }
+        },
+        {
+            "fault": {
+                "Fault_Name": "Subscriber External",
+                "Target_to_Change": "rospy.Subscriber",
+                "Changed": "rospy.Subscriber rospy.Subscriber",
+                "Explanation": "One more subscriber"
+            }
+        },
+        {
+            "fault": {
+                "Fault_Name": "Publisher Delete",
+                "Target_to_Change": "rospy.Publisher",
+                "Changed": " ",
+                "Explanation": "Publisher deletes"
+            }
+        },
+        {
+            "fault": {
+                "Fault_Name": "Publisher Change",
+                "Target_to_Change": "rospy.Publisher",
+                "Changed": "rospy.Subscriber",
+                "Explanation": "Publisher is wrong"
+            }
+        },
+        {
+            "fault": {
+                "Fault_Name": "Publisher External",
+                "Target_to_Change": "rospy.Publisher",
+                "Changed": "rospy.Publisher rospy.Publisher",
+                "Explanation": "One more publisher"
+            }
+        },
+        {
+            "fault": {
+                "Fault_Name": "Periodic Timer Delete",
+                "Target_to_Change": "rospy.Timer",
+                "Changed": " ",
+                "Explanation": "Periodic timer deletes"
+            }
+        },
+        {
+            "fault": {
+                "Fault_Name": "Periodic Timer Change",
+                "Target_to_Change": "rospy.Timer",
+                "Changed": "rospy.Time",
+                "Explanation": "Periodic timer is wrong"
+            }
+        },
+        {
+            "fault": {
+                "Fault_Name": "Periodic Timer External",
+                "Target_to_Change": "rospy.Timer",
+                "Changed": "rospy.Timer rospy.Timer",
+                "Explanation": "One more rospy.Timer"
+            }
+        },
+        {
+            "fault": {
+                "Fault_Name": "Delete ROS Get a Global Parameter",
+                "Target_to_Change": "[rospy.get_param('global]{23}",
+                "Changed": " ",
+                "Explanation": "Delete ROS Get a Global Parameter"
+            }
+        },
+        {
+            "fault": {
+                "Fault_Name": "Change ROS Get a Global Parameter",
+                "Target_to_Change": "[rospy.get_param('global]{23}",
+                "Changed": "rospy.get_param('param",
+                "Explanation": "Change ROS Get a Global Parameter"
+            }
+        },
+        {
+            "fault": {
+                "Fault_Name": "External ROS Get a Global Parameter",
+                "Target_to_Change": "[rospy.get_param('global]{23}",
+                "Changed": "ROS Get a Global Parameter ROS Get a Global Parameter",
+                "Explanation": "One more ROS Get a Global Parameter"
+            }
+        },
+        {
+            "fault": {
+                "Fault_Name": "Delete ROS Get a Parameter From Our Parent Namespace",
+                "Target_to_Change": "[rospy.get_param('param]{22}",
+                "Changed": " ",
+                "Explanation": "Delete ROS Get a Parameter From Our Parent Namespace"
+            }
+        },
+        {
+            "fault": {
+                "Fault_Name": "Change ROS Get a Parameter From Our Parent Namespace",
+                "Target_to_Change": "[rospy.get_param('param]{22}",
+                "Changed": "rospy.get_param('global",
+                "Explanation": "Change ROS Get a Parameter From Our Parent Namespace"
+            }
+        },
+        {
+            "fault": {
+                "Fault_Name": "External ROS Get a Parameter From Our Parent Namespace",
+                "Target_to_Change": "[rospy.get_param('param]{22}",
+                "Changed": "rospy.get_param('param rospy.get_param('param",
+                "Explanation": "External ROS Get a Parameter From Our Parent Namespace"
+            }
+        },
+        {
+            "fault": {
+                "Fault_Name": "Delete ROS Get a Parameter From Our Private Namespace",
+                "Target_to_Change": "rospy.get_param('~private]{25}",
+                "Changed": " ",
+                "Explanation": "Delete ROS Get a Parameter From Our Private Namespace"
+            }
+        },
+        {
+            "fault": {
+                "Fault_Name": "Change ROS Get a Parameter From Our Private Namespace",
+                "Target_to_Change": "rospy.get_param('~private]{25}",
+                "Changed": "rospy.get_param('global",
+                "Explanation": "Change ROS Get a Parameter From Our Private Namespace"
+            }
+        },
+        {
+            "fault": {
+                "Fault_Name": "External ROS Get a Parameter From Our Private Namespace",
+                "Target_to_Change": "rospy.get_param('~private]{25}",
+                "Changed": "rospy.get_param('~private rospy.get_param('~private",
+                "Explanation": "External ROS Get a Parameter From Our Private Namespace"
+            }
+        },
+        {
+            "fault": {
+                "Fault_Name": "Delete ROS Get a Default Value",
+                "Target_to_Change": "[rospy.get_param('foo','default_value')]{38}",
+                "Changed": " ",
+                "Explanation": "Delete ROS Get a Default Value"
+            }
+        },
+        {
+            "fault": {
+                "Fault_Name": "Change ROS Get a Default Value",
+                "Target_to_Change": "[rospy.get_param('foo','default_value')]{38}",
+                "Changed": "rospy.get_param('~private')",
+                "Explanation": "Change ROS Get a Default Value"
+            }
+        },
+        {
+            "fault": {
+                "Fault_Name": "External ROS Get a Default Value",
+                "Target_to_Change": "[rospy.get_param('foo','default_value')]{38}",
+                "Changed": "rospy.get_param('foo','default_value rospy.get_param('foo','default_value",
+                "Explanation": "External ROS Get a Default Value"
+            }
+        },
+        {
+            "fault": {
+                "Fault_Name": "Delete ROS Service Server",
+                "Target_to_Change": "[rospy.ServiceServer]{19}",
+                "Changed": " ",
+                "Explanation": "ROS Service Server"
+            }
+        },
+        {
+            "fault": {
+                "Fault_Name": "Change ROS Service Server",
+                "Target_to_Change": "[rospy.ServiceServer]{19}",
+                "Changed": "rospy.wait_for_service",
+                "Explanation": "ROS Service Server"
+            }
+        },
+        {
+            "fault": {
+                "Fault_Name": "External ROS Service Server",
+                "Target_to_Change": "[rospy.ServiceServer]{19}",
+                "Changed": "rospy.ServiceServer rospy.ServiceServer",
+                "Explanation": "ROS Service Server"
+            }
+        },
+        {
+            "fault": {
+                "Fault_Name": "Delete ROS Service Client",
+                "Target_to_Change": "[rospy.ServiceProxy]{18}",
+                "Changed": " ",
+                "Explanation": "Delete ROS Service Client"
+            }
+        },
+        {
+            "fault": {
+                "Fault_Name": "Change ROS Service Client",
+                "Target_to_Change": "[rospy.ServiceProxy]{18}",
+                "Changed": "rospy.ServiceServer",
+                "Explanation": "Change ROS Service Client"
+            }
+        },
+        {
+            "fault": {
+                "Fault_Name": "External ROS Service Client",
+                "Target_to_Change": "[rospy.ServiceProxy]{18}",
+                "Changed": "rospy.ServiceProxy rospy.ServiceProxy",
+                "Explanation": "External ROS Service Client"
+            }
+        },
+        {
+            "fault": {
+                "Fault_Name": "Delete ROS Service Wait",
+                "Target_to_Change": "[rospy.wait_for_service]{22}",
+                "Changed": " ",
+                "Explanation": "Delete ROS Service Wait"
+            }
+        },
+        {
+            "fault": {
+                "Fault_Name": "Change ROS Service Wait",
+                "Target_to_Change": "[rospy.wait_for_service]{22}",
+                "Changed": "rospy.ServiceProxy",
+                "Explanation": "Change ROS Service Wait"
+            }
+        },
+        {
+            "fault": {
+                "Fault_Name": "External ROS Service Wait",
+                "Target_to_Change": "[rospy.wait_for_service]{22}",
+                "Changed": "rospy.wait_for_service rospy.wait_for_service",
+                "Explanation": "External ROS Service Wait"
+            }
+        },
+        {
+            "fault": {
+                "Fault_Name": "Delete ROS Waits For Service",
+                "Target_to_Change": "[rospy.ServiceExceptions]{23}",
+                "Changed": " ",
+                "Explanation": "Delete ROS Waits For Service"
+            }
+        },
+        {
+            "fault": {
+                "Fault_Name": "Change ROS Waits For Service",
+                "Target_to_Change": "[rospy.ServiceExceptions]{23}",
+                "Changed": "rospy.wait_for_service",
+                "Explanation": "Change ROS Waits For Service"
+            }
+        },
+        {
+            "fault": {
+                "Fault_Name": "External ROS ServiceExceptions",
+                "Target_to_Change": "[rospy.ServiceExceptions]{23}",
+                "Changed": "rospy.ServiceExceptions rospy.ServiceExceptions",
+                "Explanation": "External ROS ServiceExceptions"
+            }
+        },
+        {
+            "fault": {
+                "Fault_Name": "Delete ROS Header",
+                "Target_to_Change": "[rospy.Header]{12}",
+                "Changed": " ",
+                "Explanation": "Delete ROS Header"
+            }
+        },
+        {
+            "fault": {
+                "Fault_Name": "Change ROS Header",
+                "Target_to_Change": "[rospy.Header]{12}",
+                "Changed": "rospy.init_node",
+                "Explanation": "Change ROS Header"
+            }
+        },
+        {
+            "fault": {
+                "Fault_Name": "External ROS Header",
+                "Target_to_Change": "[rospy.Header]{12}",
+                "Changed": "rospy.Header rospy.Header",
+                "Explanation": "External ROS Header"
+            }
+        },
+        {
+            "fault": {
+                "Fault_Name": "Delete ROS init node",
+                "Target_to_Change": "[rospy.init_node]{15}",
+                "Changed": " ",
+                "Explanation": "Delete ROS init node"
+            }
+        },
+        {
+            "fault": {
+                "Fault_Name": "Change ROS init node",
+                "Target_to_Change": "[rospy.init_node]{15}",
+                "Changed": "wait_for_service",
+                "Explanation": "Change ROS init node"
+            }
+        },
+        {
+            "fault": {
+                "Fault_Name": "External ROS init node",
+                "Target_to_Change": "[rospy.init_node]{15}",
+                "Changed": "rospy.init_node rospy.init_node",
+                "Explanation": "External ROS init node"
+            }
+        },
+        {
+            "fault": {
+                "Fault_Name": "Delete ROS on shutdown",
+                "Target_to_Change": "[rospy.on_shutdown]{17}",
+                "Changed": " ",
+                "Explanation": "Delete ROS Waits For Service"
+            }
+        },
+        {
+            "fault": {
+                "Fault_Name": "Change ROS on shutdown",
+                "Target_to_Change": "[rospy.on_shutdown]{17}",
+                "Changed": "rospy.init_node",
+                "Explanation": "Change ROS on shutdown"
+            }
+        },
+        {
+            "fault": {
+                "Fault_Name": "External ROS on shutdown",
+                "Target_to_Change": "[rospy.on_shutdown]{17}",
+                "Changed": "rospy.on_shutdown rospy.on_shutdown",
+                "Explanation": "External ROS on shutdown"
+            }
+        },
+        {
+            "fault": {
+                "Fault_Name": "Delete ROS Sleep",
+                "Target_to_Change": "[rospy.sleep]{11}",
+                "Changed": " ",
+                "Explanation": "Delete ROS Sleep"
+            }
+        },
+        {
+            "fault": {
+                "Fault_Name": "Change ROS Sleep",
+                "Target_to_Change": "[rospy.sleep]{11}",
+                "Changed": "rospy.on_shutdown",
+                "Explanation": "Change ROS Sleep"
+            }
+        },
+        {
+            "fault": {
+                "Fault_Name": "External ROS Sleep",
+                "Target_to_Change": "[rospy.sleep]{11}",
+                "Changed": "rospy.sleep rospy.sleep",
+                "Explanation": "External ROS Sleep"
+            }
+        },
+        {
+            "fault": {
+                "Fault_Name": "Delete ROS Rate",
+                "Target_to_Change": "[rospy.Rate]{10}",
+                "Changed": " ",
+                "Explanation": "Delete ROS Rate"
+            }
+        },
+        {
+            "fault": {
+                "Fault_Name": "Change ROS Rate",
+                "Target_to_Change": "[rospy.Rate]{10}",
+                "Changed": "rospy.sleep",
+                "Explanation": "Change ROS Rate"
+            }
+        },
+        {
+            "fault": {
+                "Fault_Name": "External ROS Rate",
+                "Target_to_Change": "[rospy.Rate]{10}",
+                "Changed": "rospy.Rate rospy.Rate",
+                "Explanation": "External ROS Rate"
+            }
+        },
+        {
+            "fault": {
+                "Fault_Name": "Delete ROS is shutdown",
+                "Target_to_Change": "[rospy.is_shutdown]{17}",
+                "Changed": " ",
+                "Explanation": "Delete ROS is shutdown"
+            }
+        },
+        {
+            "fault": {
+                "Fault_Name": "Change ROS is shutdown",
+                "Target_to_Change": "[rospy.is_shutdown]{17}",
+                "Changed": "rospy.sleep",
+                "Explanation": "Change ROS is shutdown"
+            }
+        },
+        {
+            "fault": {
+                "Fault_Name": "External ROS Waits For Service",
+                "Target_to_Change": "[rospy.is_shutdown]{17}",
+                "Changed": "rospy.is_shutdown rospy.is_shutdown",
+                "Explanation": "External ROS is shutdown"
+            }
+        },
+        {
+            "fault": {
+                "Fault_Name": "Delete ROS Loginfo",
+                "Target_to_Change": "[rospy.loginfo]{13}",
+                "Changed": " ",
+                "Explanation": "Delete ROS Loginfo"
+            }
+        },
+        {
+            "fault": {
+                "Fault_Name": "Change ROS Loginfo",
+                "Target_to_Change": "[rospy.loginfo]{13}",
+                "Changed": "rospy.is_shutdown",
+                "Explanation": "Change ROS Loginfo"
+            }
+        },
+        {
+            "fault": {
+                "Fault_Name": "External ROS Loginfo",
+                "Target_to_Change": "[rospy.loginfo]{13}",
+                "Changed": "rospy.loginfo rospy.loginfo",
+                "Explanation": "External ROS Loginfo"
+            }
+        },
+        {
+            "fault": {
+                "Fault_Name": "Delete ROS loginfo_once",
+                "Target_to_Change": "[rospy.loginfo_once]{18}",
+                "Changed": " ",
+                "Explanation": "Delete ROS loginfo_once"
+            }
+        },
+        {
+            "fault": {
+                "Fault_Name": "Change ROS loginfo_once",
+                "Target_to_Change": "[rospy.loginfo_once]{18}",
+                "Changed": "rospy.loginfo",
+                "Explanation": "Change ROS loginfo_once"
+            }
+        },
+        {
+            "fault": {
+                "Fault_Name": "External ROS loginfo_once",
+                "Target_to_Change": "[rospy.loginfo_once]{18}",
+                "Changed": "rospy.loginfo_once rospy.loginfo_once",
+                "Explanation": "External ROS loginfo_once"
+            }
+        },
+        {
+            "fault": {
+                "Fault_Name": "Delete ROS logout",
+                "Target_to_Change": "[rospy.logout]{12}",
+                "Changed": " ",
+                "Explanation": "Delete ROS logout"
+            }
+        },
+        {
+            "fault": {
+                "Fault_Name": "Change ROS logout",
+                "Target_to_Change": "[rospy.logout]{12}",
+                "Changed": "rospy.loginfo",
+                "Explanation": "Change ROS logout"
+            }
+        },
+        {
+            "fault": {
+                "Fault_Name": "External ROS logout",
+                "Target_to_Change": "[rospy.logout]{12}",
+                "Changed": "rospy.logout rospy.logout",
+                "Explanation": "External ROS logout"
+            }
+        },
+        {
+            "fault": {
+                "Fault_Name": "Delete ROS ROSException",
+                "Target_to_Change": "[rospy.ROSException]{18}",
+                "Changed": " ",
+                "Explanation": "Delete ROS ROSException"
+            }
+        },
+        {
+            "fault": {
+                "Fault_Name": "Change ROS ROSException",
+                "Target_to_Change": "[rospy.ROSException]{18}",
+                "Changed": "rospy.logout",
+                "Explanation": "Change ROS ROSException"
+            }
+        },
+        {
+            "fault": {
+                "Fault_Name": "External ROS ROSException",
+                "Target_to_Change": "[rospy.ROSException]{18}",
+                "Changed": "rospy.ROSException rospy.ROSException",
+                "Explanation": "External ROS ROSException"
+            }
+        },
+        {
+            "fault": {
+                "Fault_Name": "Delete ROS Message",
+                "Target_to_Change": "[rospy.Message]{13}",
+                "Changed": " ",
+                "Explanation": "Delete ROS Message"
+            }
+        },
+        {
+            "fault": {
+                "Fault_Name": "Change ROS Message",
+                "Target_to_Change": "[rospy.Message]{13}",
+                "Changed": "rospy.ROSException",
+                "Explanation": "Change ROS Message"
+            }
+        },
+        {
+            "fault": {
+                "Fault_Name": "External ROS Message",
+                "Target_to_Change": "[rospy.Message]{13}",
+                "Changed": "rospy.Message rospy.Message",
+                "Explanation": "External ROS Message"
+            }
+        },
+        {
+            "fault": {
+                "Fault_Name": "Delete ROS get_name",
+                "Target_to_Change": "[rospy.get_name]{14}",
+                "Changed": " ",
+                "Explanation": "Delete ROS get_name"
+            }
+        },
+        {
+            "fault": {
+                "Fault_Name": "Change ROS get_name",
+                "Target_to_Change": "[rospy.get_name]{14}",
+                "Changed": "rospy.get_param",
+                "Explanation": "Change ROS get_name"
+            }
+        },
+        {
+            "fault": {
+                "Fault_Name": "External ROS get_name",
+                "Target_to_Change": "[rospy.get_name]{14}",
+                "Changed": "rospy.get_name rospy.get_name",
+                "Explanation": "External ROS get_name"
+            }
+        },
+        {
+            "fault": {
+                "Fault_Name": "Delete ROS time",
+                "Target_to_Change": "[rospy.Time]{10}",
+                "Changed": " ",
+                "Explanation": "Delete ROS time"
+            }
+        },
+        {
+            "fault": {
+                "Fault_Name": "Change ROS time",
+                "Target_to_Change": "[rospy.Time]{10}",
+                "Changed": "rospy.Timer",
+                "Explanation": "Change ROS time"
+            }
+        },
+        {
+            "fault": {
+                "Fault_Name": "External ROS time",
+                "Target_to_Change": "[rospy.Time]{10}",
+                "Changed": "rospy.Time rospy.Time",
+                "Explanation": "External ROS time"
+            }
+        },
+        {
+            "fault": {
+                "Fault_Name": "Delete ROS Service",
+                "Target_to_Change": "[rospy.Service]{13}",
+                "Changed": " ",
+                "Explanation": "Delete ROS Service"
+            }
+        },
+        {
+            "fault": {
+                "Fault_Name": "Change ROS Service",
+                "Target_to_Change": "[rospy.Service]{13}",
+                "Changed": "rospy.wait_for_service",
+                "Explanation": "Change ROS Service"
+            }
+        },
+        {
+            "fault": {
+                "Fault_Name": "External ROS Service",
+                "Target_to_Change": "[rospy.Service]{13}",
+                "Changed": "rospy.Service rospy.Service",
+                "Explanation": "External ROS Service"
+            }
+        }
+    ]
+}

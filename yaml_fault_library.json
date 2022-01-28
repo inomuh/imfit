@@ -1,0 +1,76 @@
+{
+    "all_faults": [
+        {
+            "fault": {
+                "Fault_Name": "YAML Boolean Mutator",
+                "Function_Name": "boolean_yaml_mutator()"
+            }
+        },
+        {
+            "fault": {
+                "Fault_Name": "YAML Float Mutator",
+                "Function_Name": "float_yaml_mutator()"
+            }
+        },
+        {
+            "fault": {
+                "Fault_Name": "YAML Integer Mutator",
+                "Function_Name": "int_yaml_mutator()"
+            }
+        },
+        {
+            "fault": {
+                "Fault_Name": "YAML String Mutator",
+                "Function_Name": "int_yaml_mutator()"
+            }
+        },
+        {
+            "fault": {
+                "Fault_Name": "ROS LAUNCH Node Mutator",
+                "Function_Name": "pkg, type, args, respawn, output"
+            }
+        },
+        {
+            "fault": {
+                "Fault_Name": "ROS LAUNCH Param Mutator",
+                "Function_Name": "pkg, type, args, file, command, ns"
+            }
+        },
+        {
+            "fault": {
+                "Fault_Name": "ROS LAUNCH Topic Mutator",
+                "Function_Name": "default, from, to"
+            }
+        },
+        {
+            "fault": {
+                "Fault_Name": "SRV - MSG string Mutator",
+                "Function_Name": "int_yaml_mutator()"
+            }
+        },
+        {
+            "fault": {
+                "Fault_Name": "SRV - MSG float32 Mutator",
+                "Function_Name": "int_yaml_mutator()"
+            }
+        },
+        {
+            "fault": {
+                "Fault_Name": "SRV - MSG int8 Mutator",
+                "Function_Name": "int_yaml_mutator()"
+            }
+        },
+        {
+            "fault": {
+                "Fault_Name": "SRV - MSG uint32 Mutator",
+                "Function_Name": "int_yaml_mutator()"
+            }
+        },
+        {
+            "fault": {
+                "Fault_Name": "SRV - MSG int32 Mutator",
+                "Function_Name": "int_yaml_mutator()"
+            }
+        }
+    ]
+}
