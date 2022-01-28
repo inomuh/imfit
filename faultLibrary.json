@@ -1,96 +1,316 @@
-{ 
-    "fault_library":[
-    {
-        "fault":{
-            "Fault_Name": "Assignment Missing",
-            "Explain":"Matematiksel Sembollerin Olmadığı Durumlar",
-            "Example": "z = x + y -> z x y"
+{
+    "all_faults": [
+        {
+            "fault": {
+                "Fault_Name": "(AOM) Arithmetic Operator Delete",
+                "Target_to_Change": "\\+,\\-,\\*,\\/,[%]{1},[**]{2},[//]{2}",
+                "Changed": " ",
+                "Explanation": "Arithmetic Operators Delete\nOriginal Code: x + y\nMutated Code: x   y"
             }
-    },
-    {
-        "fault":{
-            "Fault_Name": "Assignment Wrong",
-            "Explain":"Matematiksel Sembollerin Değiştiği Durumlar",
-            "Example":""
+        },
+        {
+            "fault": {
+                "Fault_Name": "(AOW) Arithmetic Operator Change",
+                "Target_to_Change": "\\+,\\-,\\*,\\/,[%]{1},[**]{2},[//]{2}",
+                "Changed": "+,-,*,/,%,**,//",
+                "Explanation": "Arithmetic Operators Change\nOriginal Code: x + y\nMutated Code: x - y"
             }
-    },
-    {
-        "fault":{
-            "Fault_Name": "Assignment Extraneous",
-            "Explain":"Assignment Extraneous"
+        },
+        {
+            "fault": {
+                "Fault_Name": "(AOE) Arithmetic Operator External",
+                "Target_to_Change": "\\+,\\-,\\*,\\/,[%]{1},[**]{2},[//]{2}",
+                "Changed": "++,--,**,//,%%,****,////",
+                "Explanation": "Arithmetic Operators External\nOriginal Code: x + y\nMutated Code: x +- y"
             }
-    },
-    {
-        "fault":{
-            "Fault_Name": "Checking Missing",
-            "Explain":"Checking Missing"
+        },
+        {
+            "fault": {
+                "Fault_Name": "(AOM) Assignment Operator Delete",
+                "Target_to_Change": "[=]{1},[\\+=]{2},[\\-=]{2},[\\*=]{2},[/=]{2},[%=]{2},[//=]{3},[**=]{3},[\\&=]{2},[\\|=]{2},[\\^=]{2},[>>=]{3},[<<=]{3}",
+                "Changed": " ",
+                "Explanation": "Assignment Operators Delete\nOriginal Code: x += y\nMutated Code: x   y"
             }
-    },
-    {
-        "fault":{
-            "Fault_Name": "Checking Wrong",
-            "Explain":"Checking Wrong"
+        },
+        {
+            "fault": {
+                "Fault_Name": "(AOW) Assignment Operator Change",
+                "Target_to_Change": "[=]{1},[\\+=]{2},[\\-=]{2},[\\*=]{2},[/=]{2},[%=]{2},[//=]{3},[**=]{3},[\\&=]{2},[\\|=]{2},[\\^=]{2},[>>=]{3},[<<=]{3}",
+                "Changed": "=,+=,-=,*=,/=,%=,//=,**=,&=,|=,^=,>>=,<<=",
+                "Explanation": "Assignment Operators Change\nOriginal Code: x += y\nMutated Code: x -= y"
             }
-    },
-    {
-        "fault":{
-            "Fault_Name": "Checking Extraneous",
-            "Explain":"Checking Extraneous"
+        },
+        {
+            "fault": {
+                "Fault_Name": "(AOE) Assignment Operator External",
+                "Target_to_Change": "[=]{1},[\\+=]{2},[\\-=]{2},[\\*=]{2},[/=]{2},[%=]{2},[//=]{3},[**=]{3},[\\&=]{2},[\\|=]{2},[\\^=]{2},[>>=]{3},[<<=]{3}",
+                "Changed": "==,+=+=,-=-=,*=*=,/=/=,%=%=,//=//=,**=**=,&=&=,|=|=,^=^=,>>=>>=,<<=<<=",
+                "Explanation": "Assignment Operators External\nOriginal Code: x += y\nMutated Code: x +== y"
             }
-    },
-    {
-        "fault":{
-            "Fault_Name": "Interface Missing",
-            "Explain":"Interface Missing"
+        },
+        {
+            "fault": {
+                "Fault_Name": "(COM) Comparison Operator Delete",
+                "Target_to_Change": "[==]{2},[!=]{2},[>]{1},[<]{1},[>=]{2},[<=]{2}",
+                "Changed": " ",
+                "Explanation": "Comparison Operators Delete\nOriginal Code: x != y\nMutated Code: x   y"
             }
-    },
-    {
-        "fault":{
-            "Fault_Name": "Interface Wrong",
-            "Explain":"Interface Wrong"
+        },
+        {
+            "fault": {
+                "Fault_Name": "(COW) Comparison Operator Change",
+                "Target_to_Change": "[==]{2},[!=]{2},[>]{1},[<]{1},[>=]{2},[<=]{2}",
+                "Changed": "==,!=,>,<,>=,<=",
+                "Explanation": "Comparison Operators Change\nOriginal Code: x != y\nMutated Code: x == y"
             }
-    },
-    {
-        "fault":{
-            "Fault_Name": "Interface Extraneous",
-            "Explain":"Interface Extraneous"
+        },
+        {
+            "fault": {
+                "Fault_Name": "(COE) Comparison Operator External",
+                "Target_to_Change": "[==]{2},[!=]{2},[>]{1},[<]{1},[>=]{2},[<=]{2}",
+                "Changed": "====,!==,>>,<<,>=>=,<=<=",
+                "Explanation": "Comparison Operators External\nOriginal Code: x != y\nMutated Code: x !== y"
             }
-    },
-    {
-        "fault":{
-            "Fault_Name": "Algortihm Missing",
-            "Explain":"Algorithm Missing"
+        },
+        {
+            "fault": {
+                "Fault_Name": "(LOM) Logical Operator Delete",
+                "Target_to_Change": "[ and ]{5},[ or ]{4},[ not ]{5}",
+                "Changed": " ",
+                "Explanation": "Logical Operators Delete\nOriginal Code: x < 5 and  x < 10\nMutated Code: x < 5   x < 10"
             }
-    },
-    {
-        "fault":{
-            "Fault_Name": "Algortihm Wrong",
-            "Explain":"Algorithm Wrong"
+        },
+        {
+            "fault": {
+                "Fault_Name": "(LOW) Logical Operator Change",
+                "Target_to_Change": "[ and ]{5},[ or ]{4},[ not ]{5}",
+                "Changed": " and , or , not ",
+                "Explanation": "Logical Operators Change\nOriginal Code: x < 5 and  x < 10\nMutated Code: x < 5 or x < 10"
             }
-    },
-    {
-        "fault":{
-            "Fault_Name": "Algortihm Extraneous",
-            "Explain":"Algorithm Extraneous"
+        },
+        {
+            "fault": {
+                "Fault_Name": "(LOE) Logical Operator External",
+                "Target_to_Change": "[ and ]{5},[ or ]{4},[ not ]{5}",
+                "Changed": " and and , or or , not not ",
+                "Explanation": "Logical Operators External\nOriginal Code: x < 5 and  x < 10\nMutated Code: x < 5 and and x < 10"
             }
-    },
-    {
-        "fault":{
-            "Fault_Name": "Function Missing",
-            "Explain":"Function Missing"
+        },
+        {
+            "fault": {
+                "Fault_Name": "(IOM) Identity Operator Delete",
+                "Target_to_Change": "[ is ]{4},[ is not ]{8}",
+                "Changed": " ",
+                "Explanation": "Identity Operators Delete\nOriginal Code: x is y\nMutated Code: x   y"
             }
-    },
-    {
-        "fault":{
-            "Fault_Name": "Function Wrong",
-            "Explain":"Function Wrong"
+        },
+        {
+            "fault": {
+                "Fault_Name": "(IOW) Identity  Operator Change",
+                "Target_to_Change": "[ is ]{4},[ is not ]{8}",
+                "Changed": " is , is not ",
+                "Explanation": "Identity Operators Change\nOriginal Code: x is y\nMutated Code: x is not y"
             }
-    },
-    {
-        "fault":{
-            "Fault_Name": "Function Extraneous",
-            "Explain":"Function Extraneous"
+        },
+        {
+            "fault": {
+                "Fault_Name": "(IOE) Identity Operator External",
+                "Target_to_Change": "[ is ]{4},[ is not ]{8}",
+                "Changed": " is is , is not is not ",
+                "Explanation": "Identity Operators External\nOriginal Code: x is y\nMutated Code: x is not is y"
             }
-    }
+        },
+        {
+            "fault": {
+                "Fault_Name": "(MOM) Membership Operator Delete",
+                "Target_to_Change": "[ in ]{4},[ not in ]{8}",
+                "Changed": " ",
+                "Explanation": "Membership Operators Delete\nOriginal Code: x in y\nMutated Code: x   y"
+            }
+        },
+        {
+            "fault": {
+                "Fault_Name": "(MOW) Membership Operator Change",
+                "Target_to_Change": "[ in ]{4},[ not in ]{8}",
+                "Changed": " is , is not ",
+                "Explanation": "Membership Operators Change\nOriginal Code: x in y\nMutated Code: x not in y"
+            }
+        },
+        {
+            "fault": {
+                "Fault_Name": "(MOE) Membership Operator External",
+                "Target_to_Change": "[ in ]{4},[ not in ]{8}",
+                "Changed": " in in , not in not in ",
+                "Explanation": "Membership Operators External\nOriginal Code: x in y\nMutated Code: x in not in y"
+            }
+        },
+        {
+            "fault": {
+                "Fault_Name": "(bM) break Delete",
+                "Target_to_Change": "[ in ]{4},[ not in ]{8}",
+                "Changed": " ",
+                "Explanation": "break Statements Delete\nOriginal Code: break\nMutated Code: "
+            }
+        },
+        {
+            "fault": {
+                "Fault_Name": "(bW) break Change",
+                "Target_to_Change": "[ in ]{4},[ not in ]{8}",
+                "Changed": "continue",
+                "Explanation": "break Statements Change\nOriginal Code: break\nMutated Code: continue"
+            }
+        },
+        {
+            "fault": {
+                "Fault_Name": "(bE) break External",
+                "Target_to_Change": "[ in ]{4},[ not in ]{8}",
+                "Changed": "break break",
+                "Explanation": "break Statements External\nOriginal Code: break\nMutated Code: break break"
+            }
+        },
+        {
+            "fault": {
+                "Fault_Name": "(cM) continue Delete",
+                "Target_to_Change": "continue",
+                "Changed": " ",
+                "Explanation": "continue Statements Delete\nOriginal Code: continue\nMutated Code: "
+            }
+        },
+        {
+            "fault": {
+                "Fault_Name": "(cW) continue Change",
+                "Target_to_Change": "continue",
+                "Changed": "break",
+                "Explanation": "continue Statements Change\nOriginal Code: continue\nMutated Code: break"
+            }
+        },
+        {
+            "fault": {
+                "Fault_Name": "(cE) continue External",
+                "Target_to_Change": "continue",
+                "Changed": "continue continue",
+                "Explanation": "continue Statements Change\nOriginal Code: continue\nMutated Code: continue continue"
+            }
+        },
+        {
+            "fault": {
+                "Fault_Name": "(FM) False Delete",
+                "Target_to_Change": "False",
+                "Changed": " ",
+                "Explanation": "False Statements Delete\nOriginal Code: False\nMutated Code: "
+            }
+        },
+        {
+            "fault": {
+                "Fault_Name": "(FW) False Change",
+                "Target_to_Change": "False",
+                "Changed": "True",
+                "Explanation": "False Statements Change\nOriginal Code: False\nMutated Code: True"
+            }
+        },
+        {
+            "fault": {
+                "Fault_Name": "(FE) False External",
+                "Target_to_Change": "False",
+                "Changed": "False False",
+                "Explanation": "False Statements External\nOriginal Code: False\nMutated Code: False False"
+            }
+        },
+        {
+            "fault": {
+                "Fault_Name": "(pM) pass Delete",
+                "Target_to_Change": "pass",
+                "Changed": " ",
+                "Explanation": "pass Statements Delete\nOriginal Code: pass\nMutated Code: "
+            }
+        },
+        {
+            "fault": {
+                "Fault_Name": "(pW) pass Change",
+                "Target_to_Change": "pass",
+                "Changed": "return, break, continue",
+                "Explanation": "pass Statements Change\nOriginal Code: break\nMutated Code: continue"
+            }
+        },
+        {
+            "fault": {
+                "Fault_Name": "(pE) pass External",
+                "Target_to_Change": "pass",
+                "Changed": "pass pass",
+                "Explanation": "pass Statements External\nOriginal Code: pass\nMutated Code: pass pass"
+            }
+        },
+        {
+            "fault": {
+                "Fault_Name": "(TM) True Delete",
+                "Target_to_Change": "True",
+                "Changed": " ",
+                "Explanation": "True Statements External\nOriginal Code: True\nMutated Code: "
+            }
+        },
+        {
+            "fault": {
+                "Fault_Name": "(TW) True Change",
+                "Target_to_Change": "True",
+                "Changed": "False",
+                "Explanation": "True Statements Change\nOriginal Code: True\nMutated Code: False"
+            }
+        },
+        {
+            "fault": {
+                "Fault_Name": "(TE) True External",
+                "Target_to_Change": "True",
+                "Changed": "True True",
+                "Explanation": "True Statements Change\nOriginal Code: True\nMutated Code: True True"
+            }
+        },
+        {
+            "fault": {
+                "Fault_Name": "ROS Initializing Node Mutation",
+                "Target_to_Change": "pass",
+                "Changed": "pass pass",
+                "Explanation": "pass Statements External\nOriginal Code: pass\nMutated Code: pass pass"
+            }
+        },
+        {
+            "fault": {
+                "Fault_Name": "ROS Pub-Sub Mutation",
+                "Target_to_Change": "pass",
+                "Changed": "pass pass",
+                "Explanation": "pass Statements External\nOriginal Code: pass\nMutated Code: pass pass"
+            }
+        },
+        {
+            "fault": {
+                "Fault_Name": "ROS Time Mutation",
+                "Target_to_Change": "pass",
+                "Changed": "pass pass",
+                "Explanation": "pass Statements External\nOriginal Code: pass\nMutated Code: pass pass"
+            }
+        },
+        {
+            "fault": {
+                "Fault_Name": "ROS Service Mutation",
+                "Target_to_Change": "pass",
+                "Changed": "pass pass",
+                "Explanation": "pass Statements External\nOriginal Code: pass\nMutated Code: pass pass"
+            }
+        },
+        {
+            "fault": {
+                "Fault_Name": "ROS Parameter Mutation",
+                "Target_to_Change": "pass",
+                "Changed": "pass pass",
+                "Explanation": "pass Statements External\nOriginal Code: pass\nMutated Code: pass pass"
+            }
+        },
+        {
+            "fault": {
+                "Fault_Name": "ROS Log Mutation",
+                "Target_to_Change": "pass",
+                "Changed": "pass pass",
+                "Explanation": "pass Statements External\nOriginal Code: pass\nMutated Code: pass pass"
+            }
+        }        
     ]
 }

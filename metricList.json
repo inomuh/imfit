@@ -1,0 +1,94 @@
+{
+    "Metrics": [
+        {
+            "Metric": {
+                "Name": "Killed",
+                "Info": "When at least one test failed while this mutant was active, the mutant is killed. This is what you want, good job!"
+            }
+        },
+        {
+            "Metric": {
+                "Name": "Survived",
+                "Info": "When all tests passed while this mutant was active, the mutant survived. You're missing a test for it."
+            }
+        },
+        {
+            "Metric": {
+                "Name": "No Coverage",
+                "Info": "The mutant isn't covered by one of your tests and survived as a result."
+            }
+        },
+        {
+            "Metric": {
+                "Name": "Timeout",
+                "Info": "The running of tests with this mutant active resulted in a timeout. For example, the mutant resulted in an infinite loop in your code. Don't spend too much attention to this mutant. It is counted as detected. The logic here is that if this mutant were to be injected in your code, your CI build would detect it because the tests will never complete."
+            }
+        },
+        {
+            "Metric": {
+                "Name": "Runtime Error",
+                "Info": "The running of the tests resulted in an error (rather than a failed test). This can happen when the test runner fails. For example, when a test runner throws an OutOfMemoryError or for dynamic languages where the mutant resulted in unparsable code. Don't spend too much attention looking at this mutant. It is not represented in your mutation score."
+            }
+        },
+        {
+            "Metric": {
+                "Name": "Compile Error",
+                "Info": "The mutant caused a compile error. This can happen in compiled languages. Don't spend too much attention looking at this mutant. It is not represented in your mutation score."
+            }
+        },
+        {
+            "Metric": {
+                "Name": "Ignored",
+                "Info": "The mutant wasn't tested because it is ignored. Either by user action, or for another reason. This will not count against your mutation score but will show up in reports."
+            }
+        },
+        {
+            "Metric": {
+                "Name": "Detected",
+                "Info": "The number of mutants detected by your tests."
+            }
+        },
+        {
+            "Metric": {
+                "Name": "Undetected",
+                "Info": "The number of mutants that are not detected by your tests."
+            }
+        },
+        {
+            "Metric": {
+                "Name": "Covered",
+                "Info": "The number of mutants that your tests produce code coverage for."
+            }
+        },
+        {
+            "Metric": {
+                "Name": "Valid",
+                "Info": "The number of valid mutants. They didn't result in a compile error or runtime error."
+            }
+        },
+        {
+            "Metric": {
+                "Name": "Invalid",
+                "Info": "The number of invalid mutants. They couldn't be tested because they produce either a compile error or a runtime error."
+            }
+        },
+        {
+            "Metric": {
+                "Name": "Ignored",
+                "Info": "The mutant wasn't tested because it is ignored. Either by user action, or for another reason. This will not count against your mutation score but will show up in reports."
+            }
+        },
+        {
+            "Metric": {
+                "Name": "Total Mutants",
+                "Info": "All mutants."
+            }
+        },
+        {
+            "Metric": {
+                "Name": "Mutation Score",
+                "Info": "The total percentage of mutants that were detected. The higher, the better!"
+            }
+        }
+    ]
+}
