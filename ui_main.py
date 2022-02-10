@@ -1019,6 +1019,21 @@ class Ui_MainWindow(object):
 
         self.verticalLayout_12.addWidget(self.label_50)
 
+        self.label_104 = QLabel(self.start)
+        self.label_104.setObjectName(u"label_104")
+
+        self.verticalLayout_12.addWidget(self.label_104)
+
+        self.open_ros_page = QPushButton(self.start)
+        self.open_ros_page.setObjectName(u"open_ros_page")
+        self.open_ros_page.setMinimumSize(QSize(200, 30))
+        self.open_ros_page.setStyleSheet(u"background-color: rgb(52, 59, 72);")
+        icon5 = QIcon()
+        icon5.addFile(u":/icons/images/icons/cil-dialpad.png", QSize(), QIcon.Normal, QIcon.Off)
+        self.open_ros_page.setIcon(icon5)
+
+        self.verticalLayout_12.addWidget(self.open_ros_page)
+
         self.label_81 = QLabel(self.start)
         self.label_81.setObjectName(u"label_81")
 
@@ -1035,9 +1050,9 @@ class Ui_MainWindow(object):
         self.btn_open_folder.setFont(font)
         self.btn_open_folder.setCursor(QCursor(Qt.PointingHandCursor))
         self.btn_open_folder.setStyleSheet(u"background-color: rgb(52, 59, 72);")
-        icon5 = QIcon()
-        icon5.addFile(u":/icons/images/icons/cil-folder-open.png", QSize(), QIcon.Normal, QIcon.Off)
-        self.btn_open_folder.setIcon(icon5)
+        icon6 = QIcon()
+        icon6.addFile(u":/icons/images/icons/cil-folder-open.png", QSize(), QIcon.Normal, QIcon.Off)
+        self.btn_open_folder.setIcon(icon6)
 
         self.verticalLayout_12.addWidget(self.btn_open_folder)
 
@@ -1047,9 +1062,9 @@ class Ui_MainWindow(object):
         self.btn_clear_codes.setSizePolicy(sizePolicy5)
         self.btn_clear_codes.setMinimumSize(QSize(200, 30))
         self.btn_clear_codes.setStyleSheet(u"background-color: rgb(52, 59, 72);")
-        icon6 = QIcon()
-        icon6.addFile(u":/icons/images/icons/cil-x.png", QSize(), QIcon.Normal, QIcon.Off)
-        self.btn_clear_codes.setIcon(icon6)
+        icon7 = QIcon()
+        icon7.addFile(u":/icons/images/icons/cil-x.png", QSize(), QIcon.Normal, QIcon.Off)
+        self.btn_clear_codes.setIcon(icon7)
 
         self.verticalLayout_12.addWidget(self.btn_clear_codes)
 
@@ -1060,9 +1075,9 @@ class Ui_MainWindow(object):
         self.checkBox_8.setMinimumSize(QSize(200, 30))
         self.checkBox_8.setMaximumSize(QSize(16777215, 16777215))
         self.checkBox_8.setStyleSheet(u"background-color: rgb(52, 59, 72);")
-        icon7 = QIcon()
-        icon7.addFile(u":/icons/images/icons/cil-pencil.png", QSize(), QIcon.Normal, QIcon.Off)
-        self.checkBox_8.setIcon(icon7)
+        icon8 = QIcon()
+        icon8.addFile(u":/icons/images/icons/cil-pencil.png", QSize(), QIcon.Normal, QIcon.Off)
+        self.checkBox_8.setIcon(icon8)
 
         self.verticalLayout_12.addWidget(self.checkBox_8)
 
@@ -1077,9 +1092,9 @@ class Ui_MainWindow(object):
         self.btn_prepare_plan.setSizePolicy(sizePolicy5)
         self.btn_prepare_plan.setMinimumSize(QSize(200, 30))
         self.btn_prepare_plan.setStyleSheet(u"background-color: rgb(52, 59, 72);")
-        icon8 = QIcon()
-        icon8.addFile(u":/icons/images/icons/cil-clipboard.png", QSize(), QIcon.Normal, QIcon.Off)
-        self.btn_prepare_plan.setIcon(icon8)
+        icon9 = QIcon()
+        icon9.addFile(u":/icons/images/icons/cil-clipboard.png", QSize(), QIcon.Normal, QIcon.Off)
+        self.btn_prepare_plan.setIcon(icon9)
 
         self.verticalLayout_12.addWidget(self.btn_prepare_plan)
 
@@ -1101,7 +1116,7 @@ class Ui_MainWindow(object):
         self.btn_select_workload.setFont(font)
         self.btn_select_workload.setCursor(QCursor(Qt.PointingHandCursor))
         self.btn_select_workload.setStyleSheet(u"background-color: rgb(52, 59, 72);")
-        self.btn_select_workload.setIcon(icon5)
+        self.btn_select_workload.setIcon(icon6)
 
         self.verticalLayout_12.addWidget(self.btn_select_workload, 0, Qt.AlignHCenter)
 
@@ -1112,9 +1127,9 @@ class Ui_MainWindow(object):
         self.btn_create_workload.setMinimumSize(QSize(200, 30))
         self.btn_create_workload.setCursor(QCursor(Qt.PointingHandCursor))
         self.btn_create_workload.setStyleSheet(u"background-color: rgb(52, 59, 72);")
-        icon9 = QIcon()
-        icon9.addFile(u":/icons/images/icons/cil-plus.png", QSize(), QIcon.Normal, QIcon.Off)
-        self.btn_create_workload.setIcon(icon9)
+        icon10 = QIcon()
+        icon10.addFile(u":/icons/images/icons/cil-plus.png", QSize(), QIcon.Normal, QIcon.Off)
+        self.btn_create_workload.setIcon(icon10)
 
         self.verticalLayout_12.addWidget(self.btn_create_workload, 0, Qt.AlignHCenter)
 
@@ -1126,9 +1141,9 @@ class Ui_MainWindow(object):
         self.btn_save_workload.setMaximumSize(QSize(16777215, 16777215))
         self.btn_save_workload.setCursor(QCursor(Qt.PointingHandCursor))
         self.btn_save_workload.setStyleSheet(u"background-color: rgb(52, 59, 72);")
-        icon10 = QIcon()
-        icon10.addFile(u":/icons/images/icons/cil-save.png", QSize(), QIcon.Normal, QIcon.Off)
-        self.btn_save_workload.setIcon(icon10)
+        icon11 = QIcon()
+        icon11.addFile(u":/icons/images/icons/cil-save.png", QSize(), QIcon.Normal, QIcon.Off)
+        self.btn_save_workload.setIcon(icon11)
 
         self.verticalLayout_12.addWidget(self.btn_save_workload, 0, Qt.AlignHCenter)
 
@@ -1138,7 +1153,7 @@ class Ui_MainWindow(object):
         self.btn_clear_workload.setSizePolicy(sizePolicy5)
         self.btn_clear_workload.setMinimumSize(QSize(200, 30))
         self.btn_clear_workload.setStyleSheet(u"background-color: rgb(52, 59, 72);")
-        self.btn_clear_workload.setIcon(icon6)
+        self.btn_clear_workload.setIcon(icon7)
 
         self.verticalLayout_12.addWidget(self.btn_clear_workload)
 
@@ -1149,7 +1164,7 @@ class Ui_MainWindow(object):
         self.checkBox_5.setMinimumSize(QSize(200, 30))
         self.checkBox_5.setMaximumSize(QSize(16777215, 16777215))
         self.checkBox_5.setStyleSheet(u"background-color: rgb(52, 59, 72);")
-        self.checkBox_5.setIcon(icon7)
+        self.checkBox_5.setIcon(icon8)
 
         self.verticalLayout_12.addWidget(self.checkBox_5)
 
@@ -1190,9 +1205,9 @@ class Ui_MainWindow(object):
         self.btn_create_code.setMinimumSize(QSize(0, 30))
         self.btn_create_code.setStyleSheet(u"background-color: rgb(52, 59, 72);\n"
 "")
-        icon11 = QIcon()
-        icon11.addFile(u":/icons/images/icons/cil-code.png", QSize(), QIcon.Normal, QIcon.Off)
-        self.btn_create_code.setIcon(icon11)
+        icon12 = QIcon()
+        icon12.addFile(u":/icons/images/icons/cil-code.png", QSize(), QIcon.Normal, QIcon.Off)
+        self.btn_create_code.setIcon(icon12)
 
         self.gridLayout_22.addWidget(self.btn_create_code, 8, 0, 1, 1)
 
@@ -1208,7 +1223,7 @@ class Ui_MainWindow(object):
         self.btn_add_custom.setMinimumSize(QSize(0, 30))
         self.btn_add_custom.setStyleSheet(u"background-color: rgb(52, 59, 72);\n"
 "")
-        self.btn_add_custom.setIcon(icon9)
+        self.btn_add_custom.setIcon(icon10)
 
         self.gridLayout_22.addWidget(self.btn_add_custom, 8, 1, 1, 1)
 
@@ -1229,9 +1244,9 @@ class Ui_MainWindow(object):
         self.btn_select_snippet.setMinimumSize(QSize(0, 30))
         self.btn_select_snippet.setStyleSheet(u"background-color: rgb(52, 59, 72);\n"
 "")
-        icon12 = QIcon()
-        icon12.addFile(u":/icons/images/icons/cil-hand-point-up.png", QSize(), QIcon.Normal, QIcon.Off)
-        self.btn_select_snippet.setIcon(icon12)
+        icon13 = QIcon()
+        icon13.addFile(u":/icons/images/icons/cil-hand-point-up.png", QSize(), QIcon.Normal, QIcon.Off)
+        self.btn_select_snippet.setIcon(icon13)
 
         self.gridLayout_22.addWidget(self.btn_select_snippet, 7, 0, 1, 2)
 
@@ -1313,9 +1328,9 @@ class Ui_MainWindow(object):
         self.btn_remove_snip.setMaximumSize(QSize(16777215, 16777215))
         self.btn_remove_snip.setStyleSheet(u"background-color: rgb(52, 59, 72);\n"
 "")
-        icon13 = QIcon()
-        icon13.addFile(u":/icons/images/icons/cil-minus.png", QSize(), QIcon.Normal, QIcon.Off)
-        self.btn_remove_snip.setIcon(icon13)
+        icon14 = QIcon()
+        icon14.addFile(u":/icons/images/icons/cil-minus.png", QSize(), QIcon.Normal, QIcon.Off)
+        self.btn_remove_snip.setIcon(icon14)
 
         self.gridLayout_22.addWidget(self.btn_remove_snip, 9, 2, 1, 2)
 
@@ -1350,9 +1365,9 @@ class Ui_MainWindow(object):
         self.pushButton_5.setMaximumSize(QSize(200, 30))
         self.pushButton_5.setStyleSheet(u"font: 11pt \"Ubuntu\";\n"
 "background-color: rgb(52, 59, 72);")
-        icon14 = QIcon()
-        icon14.addFile(u":/icons/images/icons/cil-arrow-circle-left.png", QSize(), QIcon.Normal, QIcon.Off)
-        self.pushButton_5.setIcon(icon14)
+        icon15 = QIcon()
+        icon15.addFile(u":/icons/images/icons/cil-arrow-circle-left.png", QSize(), QIcon.Normal, QIcon.Off)
+        self.pushButton_5.setIcon(icon15)
 
         self.gridLayout_35.addWidget(self.pushButton_5, 0, 0, 1, 1, Qt.AlignLeft)
 
@@ -1365,105 +1380,411 @@ class Ui_MainWindow(object):
         self.verticalLayout_32 = QVBoxLayout(self.ros_page)
         self.verticalLayout_32.setObjectName(u"verticalLayout_32")
         self.gridLayout_10 = QGridLayout()
+        self.gridLayout_10.setSpacing(10)
         self.gridLayout_10.setObjectName(u"gridLayout_10")
+        self.open_ros_btn = QPushButton(self.ros_page)
+        self.open_ros_btn.setObjectName(u"open_ros_btn")
+        self.open_ros_btn.setMinimumSize(QSize(80, 30))
+        self.open_ros_btn.setMaximumSize(QSize(80, 16777215))
+        self.open_ros_btn.setStyleSheet(u"background-color: rgb(52, 59, 72);")
+        self.open_ros_btn.setIcon(icon6)
+
+        self.gridLayout_10.addWidget(self.open_ros_btn, 0, 5, 1, 1)
+
         self.label_90 = QLabel(self.ros_page)
         self.label_90.setObjectName(u"label_90")
+        self.label_90.setMaximumSize(QSize(16777215, 30))
 
-        self.gridLayout_10.addWidget(self.label_90, 2, 1, 1, 1)
+        self.gridLayout_10.addWidget(self.label_90, 0, 6, 1, 3)
+
+        self.label_92 = QLabel(self.ros_page)
+        self.label_92.setObjectName(u"label_92")
+        sizePolicy6 = QSizePolicy(QSizePolicy.Minimum, QSizePolicy.Minimum)
+        sizePolicy6.setHorizontalStretch(0)
+        sizePolicy6.setVerticalStretch(0)
+        sizePolicy6.setHeightForWidth(self.label_92.sizePolicy().hasHeightForWidth())
+        self.label_92.setSizePolicy(sizePolicy6)
+        self.label_92.setMinimumSize(QSize(90, 0))
+        self.label_92.setMaximumSize(QSize(90, 16777215))
+
+        self.gridLayout_10.addWidget(self.label_92, 0, 3, 1, 1)
+
+        self.label_101 = QLabel(self.ros_page)
+        self.label_101.setObjectName(u"label_101")
+        self.label_101.setMaximumSize(QSize(16777215, 30))
+
+        self.gridLayout_10.addWidget(self.label_101, 4, 6, 1, 1)
+
+        self.lineEdit = QLineEdit(self.ros_page)
+        self.lineEdit.setObjectName(u"lineEdit")
+        self.lineEdit.setEnabled(False)
+        self.lineEdit.setMinimumSize(QSize(0, 30))
+        self.lineEdit.setStyleSheet(u"background-color: rgb(52, 59, 72);")
+        self.lineEdit.setReadOnly(True)
+
+        self.gridLayout_10.addWidget(self.lineEdit, 0, 1, 1, 1)
+
+        self.gridLayout_31 = QGridLayout()
+        self.gridLayout_31.setSpacing(10)
+        self.gridLayout_31.setObjectName(u"gridLayout_31")
+        self.listWidget_29 = QListWidget(self.ros_page)
+        self.listWidget_29.setObjectName(u"listWidget_29")
+        self.listWidget_29.setStyleSheet(u"background-color: rgb(52, 59, 72);")
+
+        self.gridLayout_31.addWidget(self.listWidget_29, 5, 2, 1, 1)
+
+        self.listWidget_30 = QListWidget(self.ros_page)
+        self.listWidget_30.setObjectName(u"listWidget_30")
+        self.listWidget_30.setStyleSheet(u"background-color: rgb(52, 59, 72);")
+
+        self.gridLayout_31.addWidget(self.listWidget_30, 5, 3, 1, 1)
+
+        self.label_94 = QLabel(self.ros_page)
+        self.label_94.setObjectName(u"label_94")
+        self.label_94.setMaximumSize(QSize(16777215, 30))
+
+        self.gridLayout_31.addWidget(self.label_94, 4, 1, 1, 1)
+
+        self.gridLayout_32 = QGridLayout()
+        self.gridLayout_32.setSpacing(10)
+        self.gridLayout_32.setObjectName(u"gridLayout_32")
+        self.label_100 = QLabel(self.ros_page)
+        self.label_100.setObjectName(u"label_100")
+
+        self.gridLayout_32.addWidget(self.label_100, 0, 2, 1, 1)
+
+        self.listWidget_33 = QListWidget(self.ros_page)
+        self.listWidget_33.setObjectName(u"listWidget_33")
+        self.listWidget_33.setStyleSheet(u"background-color: rgb(52, 59, 72);")
+
+        self.gridLayout_32.addWidget(self.listWidget_33, 1, 0, 5, 1)
+
+        self.listWidget_35 = QListWidget(self.ros_page)
+        self.listWidget_35.setObjectName(u"listWidget_35")
+        self.listWidget_35.setStyleSheet(u"background-color: rgb(52, 59, 72);")
+
+        self.gridLayout_32.addWidget(self.listWidget_35, 1, 2, 3, 1)
+
+        self.listWidget_34 = QListWidget(self.ros_page)
+        QListWidgetItem(self.listWidget_34)
+        QListWidgetItem(self.listWidget_34)
+        QListWidgetItem(self.listWidget_34)
+        QListWidgetItem(self.listWidget_34)
+        QListWidgetItem(self.listWidget_34)
+        QListWidgetItem(self.listWidget_34)
+        self.listWidget_34.setObjectName(u"listWidget_34")
+        self.listWidget_34.setStyleSheet(u"background-color: rgb(52, 59, 72);")
+
+        self.gridLayout_32.addWidget(self.listWidget_34, 1, 1, 3, 1)
+
+        self.add_ros_btn = QPushButton(self.ros_page)
+        self.add_ros_btn.setObjectName(u"add_ros_btn")
+        self.add_ros_btn.setMinimumSize(QSize(0, 30))
+        self.add_ros_btn.setMaximumSize(QSize(16777215, 30))
+        self.add_ros_btn.setStyleSheet(u"background-color: rgb(52, 59, 72);")
+        self.add_ros_btn.setIcon(icon13)
+
+        self.gridLayout_32.addWidget(self.add_ros_btn, 4, 1, 1, 1)
+
+        self.mutate_ros_btn = QPushButton(self.ros_page)
+        self.mutate_ros_btn.setObjectName(u"mutate_ros_btn")
+        self.mutate_ros_btn.setMinimumSize(QSize(0, 30))
+        self.mutate_ros_btn.setMaximumSize(QSize(16777215, 30))
+        self.mutate_ros_btn.setStyleSheet(u"background-color: rgb(52, 59, 72);")
+        icon16 = QIcon()
+        icon16.addFile(u":/icons/images/icons/cil-media-play.png", QSize(), QIcon.Normal, QIcon.Off)
+        self.mutate_ros_btn.setIcon(icon16)
+
+        self.gridLayout_32.addWidget(self.mutate_ros_btn, 5, 2, 1, 1)
+
+        self.label_99 = QLabel(self.ros_page)
+        self.label_99.setObjectName(u"label_99")
+
+        self.gridLayout_32.addWidget(self.label_99, 0, 0, 1, 1)
+
+        self.checkBox_9 = QCheckBox(self.ros_page)
+        self.checkBox_9.setObjectName(u"checkBox_9")
+        self.checkBox_9.setMinimumSize(QSize(0, 30))
+        self.checkBox_9.setMaximumSize(QSize(16777215, 30))
+        self.checkBox_9.setStyleSheet(u"background-color: rgb(52, 59, 72);")
+
+        self.gridLayout_32.addWidget(self.checkBox_9, 5, 1, 1, 1)
 
         self.label_91 = QLabel(self.ros_page)
         self.label_91.setObjectName(u"label_91")
 
-        self.gridLayout_10.addWidget(self.label_91, 2, 0, 1, 1)
+        self.gridLayout_32.addWidget(self.label_91, 0, 1, 1, 1)
 
-        self.gridLayout_31 = QGridLayout()
-        self.gridLayout_31.setObjectName(u"gridLayout_31")
-        self.topics_btn = QPushButton(self.ros_page)
-        self.topics_btn.setObjectName(u"topics_btn")
-        self.topics_btn.setMinimumSize(QSize(0, 30))
-        self.topics_btn.setMaximumSize(QSize(16777215, 30))
-        self.topics_btn.setStyleSheet(u"background-color: rgb(52, 59, 72);")
+        self.remove_ros_btn = QPushButton(self.ros_page)
+        self.remove_ros_btn.setObjectName(u"remove_ros_btn")
+        self.remove_ros_btn.setMinimumSize(QSize(0, 30))
+        self.remove_ros_btn.setMaximumSize(QSize(16777215, 30))
+        self.remove_ros_btn.setStyleSheet(u"background-color: rgb(52, 59, 72);")
+        self.remove_ros_btn.setIcon(icon14)
 
-        self.gridLayout_31.addWidget(self.topics_btn, 0, 0, 1, 1)
+        self.gridLayout_32.addWidget(self.remove_ros_btn, 4, 2, 1, 1)
 
-        self.params_btn = QPushButton(self.ros_page)
-        self.params_btn.setObjectName(u"params_btn")
-        self.params_btn.setMinimumSize(QSize(0, 30))
-        self.params_btn.setMaximumSize(QSize(16777215, 30))
-        self.params_btn.setStyleSheet(u"background-color: rgb(52, 59, 72);")
 
-        self.gridLayout_31.addWidget(self.params_btn, 0, 2, 1, 1)
+        self.gridLayout_31.addLayout(self.gridLayout_32, 7, 0, 5, 4)
 
-        self.services_btn = QPushButton(self.ros_page)
-        self.services_btn.setObjectName(u"services_btn")
-        self.services_btn.setMinimumSize(QSize(0, 30))
-        self.services_btn.setMaximumSize(QSize(16777215, 30))
-        self.services_btn.setStyleSheet(u"background-color: rgb(52, 59, 72);")
+        self.scan_ros_btn = QPushButton(self.ros_page)
+        self.scan_ros_btn.setObjectName(u"scan_ros_btn")
+        self.scan_ros_btn.setMinimumSize(QSize(0, 30))
+        self.scan_ros_btn.setStyleSheet(u"background-color: rgb(52, 59, 72);")
+        icon17 = QIcon()
+        icon17.addFile(u":/icons/images/icons/cil-magnifying-glass.png", QSize(), QIcon.Normal, QIcon.Off)
+        self.scan_ros_btn.setIcon(icon17)
 
-        self.gridLayout_31.addWidget(self.services_btn, 0, 1, 1, 1)
+        self.gridLayout_31.addWidget(self.scan_ros_btn, 6, 0, 1, 4)
 
         self.listWidget_27 = QListWidget(self.ros_page)
         self.listWidget_27.setObjectName(u"listWidget_27")
         self.listWidget_27.setStyleSheet(u"background-color: rgb(52, 59, 72);")
 
-        self.gridLayout_31.addWidget(self.listWidget_27, 1, 0, 1, 3)
+        self.gridLayout_31.addWidget(self.listWidget_27, 5, 0, 1, 1)
 
+        self.label_96 = QLabel(self.ros_page)
+        self.label_96.setObjectName(u"label_96")
+        self.label_96.setMaximumSize(QSize(16777215, 30))
 
-        self.gridLayout_10.addLayout(self.gridLayout_31, 3, 0, 1, 1)
-
-        self.gridLayout_32 = QGridLayout()
-        self.gridLayout_32.setObjectName(u"gridLayout_32")
-        self.rosrun_btn = QPushButton(self.ros_page)
-        self.rosrun_btn.setObjectName(u"rosrun_btn")
-        self.rosrun_btn.setMinimumSize(QSize(0, 30))
-        self.rosrun_btn.setMaximumSize(QSize(16777215, 30))
-        self.rosrun_btn.setStyleSheet(u"background-color: rgb(52, 59, 72);")
-
-        self.gridLayout_32.addWidget(self.rosrun_btn, 3, 0, 1, 2)
-
-        self.treeView = QTreeView(self.ros_page)
-        self.treeView.setObjectName(u"treeView")
-        self.treeView.setStyleSheet(u"background-color: rgb(52, 59, 72);")
-
-        self.gridLayout_32.addWidget(self.treeView, 2, 0, 1, 2)
-
-        self.textEdit_42 = QTextEdit(self.ros_page)
-        self.textEdit_42.setObjectName(u"textEdit_42")
-        self.textEdit_42.setMaximumSize(QSize(16777215, 30))
-        self.textEdit_42.setStyleSheet(u"background-color: rgb(52, 59, 72);")
-        self.textEdit_42.setReadOnly(True)
-
-        self.gridLayout_32.addWidget(self.textEdit_42, 1, 0, 1, 1)
-
-        self.open_ros_btn = QPushButton(self.ros_page)
-        self.open_ros_btn.setObjectName(u"open_ros_btn")
-        self.open_ros_btn.setMinimumSize(QSize(200, 30))
-        self.open_ros_btn.setMaximumSize(QSize(200, 16777215))
-        self.open_ros_btn.setStyleSheet(u"background-color: rgb(52, 59, 72);")
-
-        self.gridLayout_32.addWidget(self.open_ros_btn, 1, 1, 1, 1)
-
-        self.label_92 = QLabel(self.ros_page)
-        self.label_92.setObjectName(u"label_92")
-
-        self.gridLayout_32.addWidget(self.label_92, 0, 0, 1, 2)
+        self.gridLayout_31.addWidget(self.label_96, 4, 2, 1, 1)
 
         self.listWidget_26 = QListWidget(self.ros_page)
         self.listWidget_26.setObjectName(u"listWidget_26")
+        self.listWidget_26.setMaximumSize(QSize(16777215, 16777215))
         self.listWidget_26.setStyleSheet(u"background-color: rgb(52, 59, 72);")
 
-        self.gridLayout_32.addWidget(self.listWidget_26, 4, 0, 1, 2)
+        self.gridLayout_31.addWidget(self.listWidget_26, 1, 2, 1, 2)
+
+        self.label_97 = QLabel(self.ros_page)
+        self.label_97.setObjectName(u"label_97")
+        self.label_97.setMaximumSize(QSize(16777215, 30))
+
+        self.gridLayout_31.addWidget(self.label_97, 4, 3, 1, 1)
+
+        self.label_95 = QLabel(self.ros_page)
+        self.label_95.setObjectName(u"label_95")
+        self.label_95.setMaximumSize(QSize(16777215, 30))
+
+        self.gridLayout_31.addWidget(self.label_95, 4, 0, 1, 1)
+
+        self.rosrun_btn = QPushButton(self.ros_page)
+        self.rosrun_btn.setObjectName(u"rosrun_btn")
+        sizePolicy.setHeightForWidth(self.rosrun_btn.sizePolicy().hasHeightForWidth())
+        self.rosrun_btn.setSizePolicy(sizePolicy)
+        self.rosrun_btn.setMinimumSize(QSize(0, 30))
+        self.rosrun_btn.setMaximumSize(QSize(16777215, 30))
+        self.rosrun_btn.setStyleSheet(u"background-color: rgb(52, 59, 72);")
+        self.rosrun_btn.setIcon(icon16)
+
+        self.gridLayout_31.addWidget(self.rosrun_btn, 3, 2, 1, 1)
+
+        self.add_order_btn = QPushButton(self.ros_page)
+        self.add_order_btn.setObjectName(u"add_order_btn")
+        sizePolicy.setHeightForWidth(self.add_order_btn.sizePolicy().hasHeightForWidth())
+        self.add_order_btn.setSizePolicy(sizePolicy)
+        self.add_order_btn.setMinimumSize(QSize(0, 30))
+        self.add_order_btn.setMaximumSize(QSize(16777215, 30))
+        self.add_order_btn.setStyleSheet(u"background-color: rgb(52, 59, 72);")
+        self.add_order_btn.setIcon(icon10)
+
+        self.gridLayout_31.addWidget(self.add_order_btn, 3, 0, 1, 2)
+
+        self.label_89 = QLabel(self.ros_page)
+        self.label_89.setObjectName(u"label_89")
+        sizePolicy.setHeightForWidth(self.label_89.sizePolicy().hasHeightForWidth())
+        self.label_89.setSizePolicy(sizePolicy)
+        self.label_89.setMaximumSize(QSize(16777215, 30))
+
+        self.gridLayout_31.addWidget(self.label_89, 0, 0, 1, 2)
+
+        self.remove_order_btn = QPushButton(self.ros_page)
+        self.remove_order_btn.setObjectName(u"remove_order_btn")
+        sizePolicy.setHeightForWidth(self.remove_order_btn.sizePolicy().hasHeightForWidth())
+        self.remove_order_btn.setSizePolicy(sizePolicy)
+        self.remove_order_btn.setMaximumSize(QSize(16777215, 30))
+        self.remove_order_btn.setStyleSheet(u"background-color: rgb(52, 59, 72);")
+        self.remove_order_btn.setIcon(icon14)
+
+        self.gridLayout_31.addWidget(self.remove_order_btn, 3, 3, 1, 1)
+
+        self.label_93 = QLabel(self.ros_page)
+        self.label_93.setObjectName(u"label_93")
+        sizePolicy3.setHeightForWidth(self.label_93.sizePolicy().hasHeightForWidth())
+        self.label_93.setSizePolicy(sizePolicy3)
+        self.label_93.setMaximumSize(QSize(16777215, 30))
+
+        self.gridLayout_31.addWidget(self.label_93, 0, 2, 1, 2)
+
+        self.listWidget_28 = QListWidget(self.ros_page)
+        self.listWidget_28.setObjectName(u"listWidget_28")
+        self.listWidget_28.setStyleSheet(u"background-color: rgb(52, 59, 72);")
+
+        self.gridLayout_31.addWidget(self.listWidget_28, 5, 1, 1, 1)
+
+        self.treeView = QTreeView(self.ros_page)
+        self.treeView.setObjectName(u"treeView")
+        self.treeView.setMinimumSize(QSize(0, 0))
+        self.treeView.setMaximumSize(QSize(16777215, 16777215))
+        self.treeView.setStyleSheet(u"background-color: rgb(52, 59, 72);")
+
+        self.gridLayout_31.addWidget(self.treeView, 1, 0, 2, 2)
+
+        self.checkBox_11 = QCheckBox(self.ros_page)
+        self.checkBox_11.setObjectName(u"checkBox_11")
+
+        self.gridLayout_31.addWidget(self.checkBox_11, 2, 2, 1, 2)
 
 
-        self.gridLayout_10.addLayout(self.gridLayout_32, 1, 0, 1, 1)
+        self.gridLayout_10.addLayout(self.gridLayout_31, 1, 3, 9, 3)
 
-        self.textEdit_43 = QTextEdit(self.ros_page)
-        self.textEdit_43.setObjectName(u"textEdit_43")
+        self.label_98 = QLabel(self.ros_page)
+        self.label_98.setObjectName(u"label_98")
+        self.label_98.setMaximumSize(QSize(16777215, 30))
 
-        self.gridLayout_10.addWidget(self.textEdit_43, 1, 1, 1, 1)
+        self.gridLayout_10.addWidget(self.label_98, 0, 0, 1, 1)
+
+        self.label_103 = QLabel(self.ros_page)
+        self.label_103.setObjectName(u"label_103")
+        self.label_103.setMaximumSize(QSize(16777215, 30))
+
+        self.gridLayout_10.addWidget(self.label_103, 5, 6, 1, 1)
+
+        self.listWidget_36 = QListWidget(self.ros_page)
+        self.listWidget_36.setObjectName(u"listWidget_36")
+        self.listWidget_36.setMaximumSize(QSize(16777215, 100))
+        self.listWidget_36.setStyleSheet(u"background-color: rgb(52, 59, 72);")
+
+        self.gridLayout_10.addWidget(self.listWidget_36, 8, 6, 1, 3)
+
+        self.lineEdit_2 = QLineEdit(self.ros_page)
+        self.lineEdit_2.setObjectName(u"lineEdit_2")
+        self.lineEdit_2.setEnabled(False)
+        self.lineEdit_2.setMinimumSize(QSize(0, 30))
+        self.lineEdit_2.setMaximumSize(QSize(16777215, 30))
+        self.lineEdit_2.setStyleSheet(u"background-color: rgb(52, 59, 72);")
+        self.lineEdit_2.setReadOnly(True)
+
+        self.gridLayout_10.addWidget(self.lineEdit_2, 0, 4, 1, 1)
+
+        self.listWidget_32 = QListWidget(self.ros_page)
+        self.listWidget_32.setObjectName(u"listWidget_32")
+        self.listWidget_32.setMinimumSize(QSize(410, 0))
+        self.listWidget_32.setMaximumSize(QSize(16777215, 16777215))
+        self.listWidget_32.setStyleSheet(u"background-color: rgb(52, 59, 72);")
+
+        self.gridLayout_10.addWidget(self.listWidget_32, 1, 0, 9, 3)
+
+        self.select_trgt_btn = QPushButton(self.ros_page)
+        self.select_trgt_btn.setObjectName(u"select_trgt_btn")
+        sizePolicy.setHeightForWidth(self.select_trgt_btn.sizePolicy().hasHeightForWidth())
+        self.select_trgt_btn.setSizePolicy(sizePolicy)
+        self.select_trgt_btn.setMinimumSize(QSize(80, 30))
+        self.select_trgt_btn.setMaximumSize(QSize(80, 30))
+        self.select_trgt_btn.setStyleSheet(u"background-color: rgb(52, 59, 72);")
+        self.select_trgt_btn.setIcon(icon6)
+
+        self.gridLayout_10.addWidget(self.select_trgt_btn, 0, 2, 1, 1)
+
+        self.listWidget_31 = QListWidget(self.ros_page)
+        self.listWidget_31.setObjectName(u"listWidget_31")
+        self.listWidget_31.setMinimumSize(QSize(410, 150))
+        self.listWidget_31.setStyleSheet(u"background-color: rgb(52, 59, 72);")
+
+        self.gridLayout_10.addWidget(self.listWidget_31, 1, 6, 2, 3)
+
+        self.lineEdit_3 = QLineEdit(self.ros_page)
+        self.lineEdit_3.setObjectName(u"lineEdit_3")
+        self.lineEdit_3.setEnabled(True)
+        self.lineEdit_3.setMinimumSize(QSize(0, 30))
+        self.lineEdit_3.setMaximumSize(QSize(16777215, 30))
+        self.lineEdit_3.setStyleSheet(u"background-color: rgb(52, 59, 72);")
+        self.lineEdit_3.setReadOnly(False)
+
+        self.gridLayout_10.addWidget(self.lineEdit_3, 5, 7, 1, 2)
+
+        self.lineEdit_4 = QLineEdit(self.ros_page)
+        self.lineEdit_4.setObjectName(u"lineEdit_4")
+        self.lineEdit_4.setMinimumSize(QSize(0, 30))
+        self.lineEdit_4.setMaximumSize(QSize(16777215, 30))
+        self.lineEdit_4.setStyleSheet(u"background-color: rgb(52, 59, 72);")
+        self.lineEdit_4.setReadOnly(True)
+
+        self.gridLayout_10.addWidget(self.lineEdit_4, 4, 7, 1, 2)
+
+        self.ros_fiplan_remove = QPushButton(self.ros_page)
+        self.ros_fiplan_remove.setObjectName(u"ros_fiplan_remove")
+        self.ros_fiplan_remove.setMinimumSize(QSize(130, 30))
+        self.ros_fiplan_remove.setMaximumSize(QSize(16777215, 30))
+        self.ros_fiplan_remove.setStyleSheet(u"background-color: rgb(52, 59, 72);")
+        self.ros_fiplan_remove.setIcon(icon3)
+
+        self.gridLayout_10.addWidget(self.ros_fiplan_remove, 9, 6, 1, 3)
+
+        self.remove_ros_mutant = QPushButton(self.ros_page)
+        self.remove_ros_mutant.setObjectName(u"remove_ros_mutant")
+        self.remove_ros_mutant.setMinimumSize(QSize(0, 30))
+        self.remove_ros_mutant.setMaximumSize(QSize(16777215, 30))
+        self.remove_ros_mutant.setStyleSheet(u"background-color: rgb(52, 59, 72);")
+        self.remove_ros_mutant.setIcon(icon14)
+
+        self.gridLayout_10.addWidget(self.remove_ros_mutant, 3, 6, 1, 3)
+
+        self.label_102 = QLabel(self.ros_page)
+        self.label_102.setObjectName(u"label_102")
+        self.label_102.setMaximumSize(QSize(16777215, 30))
+
+        self.gridLayout_10.addWidget(self.label_102, 7, 6, 1, 3)
+
+        self.gridLayout_42 = QGridLayout()
+        self.gridLayout_42.setSpacing(10)
+        self.gridLayout_42.setObjectName(u"gridLayout_42")
+        self.ros_slct_fiplan = QPushButton(self.ros_page)
+        self.ros_slct_fiplan.setObjectName(u"ros_slct_fiplan")
+        self.ros_slct_fiplan.setMinimumSize(QSize(130, 30))
+        self.ros_slct_fiplan.setMaximumSize(QSize(200, 30))
+        self.ros_slct_fiplan.setStyleSheet(u"background-color: rgb(52, 59, 72);")
+        self.ros_slct_fiplan.setIcon(icon6)
+
+        self.gridLayout_42.addWidget(self.ros_slct_fiplan, 0, 0, 1, 1)
+
+        self.ros_fiplan_save = QPushButton(self.ros_page)
+        self.ros_fiplan_save.setObjectName(u"ros_fiplan_save")
+        self.ros_fiplan_save.setMinimumSize(QSize(130, 30))
+        self.ros_fiplan_save.setMaximumSize(QSize(16777215, 30))
+        self.ros_fiplan_save.setStyleSheet(u"background-color: rgb(52, 59, 72);")
+        self.ros_fiplan_save.setIcon(icon11)
+
+        self.gridLayout_42.addWidget(self.ros_fiplan_save, 0, 1, 1, 1)
+
+
+        self.gridLayout_10.addLayout(self.gridLayout_42, 6, 6, 1, 3)
 
 
         self.verticalLayout_32.addLayout(self.gridLayout_10)
+
+        self.gridLayout_41 = QGridLayout()
+        self.gridLayout_41.setObjectName(u"gridLayout_41")
+        self.back_start_page = QPushButton(self.ros_page)
+        self.back_start_page.setObjectName(u"back_start_page")
+        self.back_start_page.setMinimumSize(QSize(200, 30))
+        self.back_start_page.setMaximumSize(QSize(200, 30))
+        self.back_start_page.setStyleSheet(u"background-color: rgb(52, 59, 72);")
+        self.back_start_page.setIcon(icon15)
+
+        self.gridLayout_41.addWidget(self.back_start_page, 0, 0, 1, 1, Qt.AlignLeft)
+
+        self.go_execution = QPushButton(self.ros_page)
+        self.go_execution.setObjectName(u"go_execution")
+        self.go_execution.setMinimumSize(QSize(200, 30))
+        self.go_execution.setMaximumSize(QSize(200, 30))
+        self.go_execution.setStyleSheet(u"background-color: rgb(52, 59, 72);")
+        self.go_execution.setIcon(icon4)
+
+        self.gridLayout_41.addWidget(self.go_execution, 0, 1, 1, 1, Qt.AlignRight)
+
+
+        self.verticalLayout_32.addLayout(self.gridLayout_41)
 
         self.stackedWidget.addWidget(self.ros_page)
         self.scan = QWidget()
@@ -1570,9 +1891,7 @@ class Ui_MainWindow(object):
         self.btn_scan2.setCursor(QCursor(Qt.PointingHandCursor))
         self.btn_scan2.setStyleSheet(u"background-color:black;\n"
 "color:white;")
-        icon15 = QIcon()
-        icon15.addFile(u":/icons/images/icons/cil-magnifying-glass.png", QSize(), QIcon.Normal, QIcon.Off)
-        self.btn_scan2.setIcon(icon15)
+        self.btn_scan2.setIcon(icon17)
 
         self.gridLayout_4.addWidget(self.btn_scan2, 10, 3, 4, 1)
 
@@ -1604,7 +1923,7 @@ class Ui_MainWindow(object):
         self.btn_back_code.setCursor(QCursor(Qt.PointingHandCursor))
         self.btn_back_code.setStyleSheet(u"font: 11pt \"Ubuntu\";\n"
 "background-color: rgb(52, 59, 72);")
-        self.btn_back_code.setIcon(icon14)
+        self.btn_back_code.setIcon(icon15)
 
         self.gridLayout_38.addWidget(self.btn_back_code, 0, 0, 1, 1, Qt.AlignLeft)
 
@@ -1626,8 +1945,6 @@ class Ui_MainWindow(object):
         self.btn_start_mutation.setMaximumSize(QSize(16777215, 30))
         self.btn_start_mutation.setStyleSheet(u"background-color: rgb(52, 59, 72);\n"
 "font: 13pt \"Ubuntu\";")
-        icon16 = QIcon()
-        icon16.addFile(u":/icons/images/icons/cil-media-play.png", QSize(), QIcon.Normal, QIcon.Off)
         self.btn_start_mutation.setIcon(icon16)
 
         self.gridLayout_7.addWidget(self.btn_start_mutation, 9, 2, 1, 1)
@@ -1661,9 +1978,9 @@ class Ui_MainWindow(object):
         self.btn_random_fault.setObjectName(u"btn_random_fault")
         self.btn_random_fault.setMinimumSize(QSize(0, 30))
         self.btn_random_fault.setStyleSheet(u"background-color: rgb(52, 59, 72);")
-        icon17 = QIcon()
-        icon17.addFile(u":/icons/images/icons/cil-laptop.png", QSize(), QIcon.Normal, QIcon.Off)
-        self.btn_random_fault.setIcon(icon17)
+        icon18 = QIcon()
+        icon18.addFile(u":/icons/images/icons/cil-laptop.png", QSize(), QIcon.Normal, QIcon.Off)
+        self.btn_random_fault.setIcon(icon18)
 
         self.gridLayout_7.addWidget(self.btn_random_fault, 1, 1, 1, 1)
 
@@ -1673,7 +1990,7 @@ class Ui_MainWindow(object):
         self.btn_create_custom.setSizePolicy(sizePolicy2)
         self.btn_create_custom.setMinimumSize(QSize(0, 30))
         self.btn_create_custom.setStyleSheet(u"background-color: rgb(52, 59, 72);")
-        self.btn_create_custom.setIcon(icon11)
+        self.btn_create_custom.setIcon(icon12)
 
         self.gridLayout_7.addWidget(self.btn_create_custom, 1, 2, 1, 1)
 
@@ -1691,7 +2008,7 @@ class Ui_MainWindow(object):
         self.btn_remove_fault.setObjectName(u"btn_remove_fault")
         self.btn_remove_fault.setMinimumSize(QSize(0, 30))
         self.btn_remove_fault.setStyleSheet(u"background-color: rgb(52, 59, 72);")
-        self.btn_remove_fault.setIcon(icon13)
+        self.btn_remove_fault.setIcon(icon14)
 
         self.gridLayout_25.addWidget(self.btn_remove_fault, 2, 0, 1, 1)
 
@@ -1817,15 +2134,6 @@ class Ui_MainWindow(object):
         __qlistwidgetitem5 = QListWidgetItem(self.listWidget_3)
         __qlistwidgetitem5.setFont(font5);
         __qlistwidgetitem5.setFlags(Qt.NoItemFlags);
-        QListWidgetItem(self.listWidget_3)
-        QListWidgetItem(self.listWidget_3)
-        QListWidgetItem(self.listWidget_3)
-        QListWidgetItem(self.listWidget_3)
-        QListWidgetItem(self.listWidget_3)
-        QListWidgetItem(self.listWidget_3)
-        __qlistwidgetitem6 = QListWidgetItem(self.listWidget_3)
-        __qlistwidgetitem6.setFont(font5);
-        __qlistwidgetitem6.setFlags(Qt.NoItemFlags);
         self.listWidget_3.setObjectName(u"listWidget_3")
         self.listWidget_3.setMinimumSize(QSize(300, 0))
         self.listWidget_3.setStyleSheet(u"background-color: rgb(52, 59, 72);")
@@ -1836,7 +2144,7 @@ class Ui_MainWindow(object):
         self.btn_select_fault.setObjectName(u"btn_select_fault")
         self.btn_select_fault.setMinimumSize(QSize(0, 30))
         self.btn_select_fault.setStyleSheet(u"background-color: rgb(52, 59, 72);")
-        self.btn_select_fault.setIcon(icon12)
+        self.btn_select_fault.setIcon(icon13)
 
         self.gridLayout_27.addWidget(self.btn_select_fault, 2, 0, 1, 1)
 
@@ -1866,7 +2174,7 @@ class Ui_MainWindow(object):
         self.pushButton.setObjectName(u"pushButton")
         self.pushButton.setMinimumSize(QSize(0, 30))
         self.pushButton.setStyleSheet(u"background-color: rgb(52, 59, 72);")
-        self.pushButton.setIcon(icon13)
+        self.pushButton.setIcon(icon14)
 
         self.gridLayout_23.addWidget(self.pushButton, 2, 0, 3, 2)
 
@@ -1877,7 +2185,7 @@ class Ui_MainWindow(object):
         self.btn_slct_fiplan.setMinimumSize(QSize(0, 30))
         self.btn_slct_fiplan.setCursor(QCursor(Qt.PointingHandCursor))
         self.btn_slct_fiplan.setStyleSheet(u"background-color: rgb(52, 59, 72);")
-        self.btn_slct_fiplan.setIcon(icon5)
+        self.btn_slct_fiplan.setIcon(icon6)
 
         self.gridLayout_23.addWidget(self.btn_slct_fiplan, 7, 0, 1, 1)
 
@@ -1905,7 +2213,7 @@ class Ui_MainWindow(object):
         self.btn_save_fiplan.setMaximumSize(QSize(16777215, 30))
         self.btn_save_fiplan.setCursor(QCursor(Qt.PointingHandCursor))
         self.btn_save_fiplan.setStyleSheet(u"background-color: rgb(52, 59, 72);")
-        self.btn_save_fiplan.setIcon(icon10)
+        self.btn_save_fiplan.setIcon(icon11)
 
         self.gridLayout_23.addWidget(self.btn_save_fiplan, 7, 1, 1, 1)
 
@@ -1932,7 +2240,7 @@ class Ui_MainWindow(object):
         self.btn_remove_fiplan.setMinimumSize(QSize(0, 30))
         self.btn_remove_fiplan.setMaximumSize(QSize(16777215, 30))
         self.btn_remove_fiplan.setStyleSheet(u"background-color: rgb(52, 59, 72);")
-        self.btn_remove_fiplan.setIcon(icon13)
+        self.btn_remove_fiplan.setIcon(icon14)
 
         self.gridLayout_23.addWidget(self.btn_remove_fiplan, 7, 2, 1, 1)
 
@@ -1968,7 +2276,7 @@ class Ui_MainWindow(object):
         self.pushButton_7.setMaximumSize(QSize(200, 30))
         self.pushButton_7.setStyleSheet(u"font: 11pt \"Ubuntu\";\n"
 "background-color: rgb(52, 59, 72);")
-        self.pushButton_7.setIcon(icon14)
+        self.pushButton_7.setIcon(icon15)
 
         self.gridLayout_39.addWidget(self.pushButton_7, 0, 0, 1, 1, Qt.AlignLeft)
 
@@ -2013,7 +2321,7 @@ class Ui_MainWindow(object):
         self.pushButton_9.setMinimumSize(QSize(0, 30))
         self.pushButton_9.setMaximumSize(QSize(16777215, 30))
         self.pushButton_9.setStyleSheet(u"background-color: rgb(52, 59, 72);")
-        self.pushButton_9.setIcon(icon12)
+        self.pushButton_9.setIcon(icon13)
 
         self.gridLayout_6.addWidget(self.pushButton_9, 3, 0, 1, 1)
 
@@ -2063,7 +2371,7 @@ class Ui_MainWindow(object):
         self.btn_new_exe.setMaximumSize(QSize(16777215, 30))
         self.btn_new_exe.setCursor(QCursor(Qt.PointingHandCursor))
         self.btn_new_exe.setStyleSheet(u"background-color: rgb(52, 59, 72);")
-        self.btn_new_exe.setIcon(icon9)
+        self.btn_new_exe.setIcon(icon10)
 
         self.gridLayout_40.addWidget(self.btn_new_exe, 6, 0, 1, 2)
 
@@ -2107,9 +2415,9 @@ class Ui_MainWindow(object):
         self.btn_start_exe.setCursor(QCursor(Qt.PointingHandCursor))
         self.btn_start_exe.setStyleSheet(u"background-color:black;\n"
 "color:white;")
-        icon18 = QIcon()
-        icon18.addFile(u":/icons/images/icons/cil-caret-right.png", QSize(), QIcon.Normal, QIcon.Off)
-        self.btn_start_exe.setIcon(icon18)
+        icon19 = QIcon()
+        icon19.addFile(u":/icons/images/icons/cil-caret-right.png", QSize(), QIcon.Normal, QIcon.Off)
+        self.btn_start_exe.setIcon(icon19)
 
         self.gridLayout_40.addWidget(self.btn_start_exe, 7, 0, 1, 4)
 
@@ -2176,11 +2484,11 @@ class Ui_MainWindow(object):
 
         self.textEdit_7 = QTextEdit(self.execution)
         self.textEdit_7.setObjectName(u"textEdit_7")
-        sizePolicy6 = QSizePolicy(QSizePolicy.Expanding, QSizePolicy.Minimum)
-        sizePolicy6.setHorizontalStretch(0)
-        sizePolicy6.setVerticalStretch(0)
-        sizePolicy6.setHeightForWidth(self.textEdit_7.sizePolicy().hasHeightForWidth())
-        self.textEdit_7.setSizePolicy(sizePolicy6)
+        sizePolicy7 = QSizePolicy(QSizePolicy.Expanding, QSizePolicy.Minimum)
+        sizePolicy7.setHorizontalStretch(0)
+        sizePolicy7.setVerticalStretch(0)
+        sizePolicy7.setHeightForWidth(self.textEdit_7.sizePolicy().hasHeightForWidth())
+        self.textEdit_7.setSizePolicy(sizePolicy7)
         self.textEdit_7.setMinimumSize(QSize(0, 30))
         self.textEdit_7.setMaximumSize(QSize(16777215, 30))
         self.textEdit_7.setStyleSheet(u"background-color: rgb(52, 59, 72);")
@@ -2230,7 +2538,7 @@ class Ui_MainWindow(object):
         self.pushButton_3.setMinimumSize(QSize(0, 30))
         self.pushButton_3.setMaximumSize(QSize(16777215, 30))
         self.pushButton_3.setStyleSheet(u"background-color: rgb(52, 59, 72);")
-        self.pushButton_3.setIcon(icon10)
+        self.pushButton_3.setIcon(icon11)
 
         self.gridLayout_40.addWidget(self.pushButton_3, 6, 2, 1, 2)
 
@@ -2242,9 +2550,9 @@ class Ui_MainWindow(object):
         self.btn_select_metrics.setMaximumSize(QSize(16777215, 30))
         self.btn_select_metrics.setCursor(QCursor(Qt.PointingHandCursor))
         self.btn_select_metrics.setStyleSheet(u"background-color: rgb(52, 59, 72);")
-        icon19 = QIcon()
-        icon19.addFile(u":/icons/images/icons/cil-equalizer.png", QSize(), QIcon.Normal, QIcon.Off)
-        self.btn_select_metrics.setIcon(icon19)
+        icon20 = QIcon()
+        icon20.addFile(u":/icons/images/icons/cil-equalizer.png", QSize(), QIcon.Normal, QIcon.Off)
+        self.btn_select_metrics.setIcon(icon20)
 
         self.gridLayout_40.addWidget(self.btn_select_metrics, 4, 3, 1, 1)
 
@@ -2333,7 +2641,7 @@ class Ui_MainWindow(object):
         self.pushButton_6.setMaximumSize(QSize(200, 30))
         self.pushButton_6.setStyleSheet(u"font: 11pt \"Ubuntu\";\n"
 "background-color: rgb(52, 59, 72);")
-        self.pushButton_6.setIcon(icon14)
+        self.pushButton_6.setIcon(icon15)
 
         self.gridLayout_43.addWidget(self.pushButton_6, 0, 0, 1, 1, Qt.AlignLeft)
 
@@ -2449,9 +2757,9 @@ class Ui_MainWindow(object):
         self.btn_create_report.setCursor(QCursor(Qt.PointingHandCursor))
         self.btn_create_report.setStyleSheet(u"background-color: black;\n"
 "color:white;")
-        icon20 = QIcon()
-        icon20.addFile(u":/icons/images/icons/cil-task.png", QSize(), QIcon.Normal, QIcon.Off)
-        self.btn_create_report.setIcon(icon20)
+        icon21 = QIcon()
+        icon21.addFile(u":/icons/images/icons/cil-task.png", QSize(), QIcon.Normal, QIcon.Off)
+        self.btn_create_report.setIcon(icon21)
 
         self.gridLayout_44.addWidget(self.btn_create_report, 5, 1, 1, 1)
 
@@ -2480,7 +2788,7 @@ class Ui_MainWindow(object):
         self.btn_select_scenario.setFont(font)
         self.btn_select_scenario.setCursor(QCursor(Qt.PointingHandCursor))
         self.btn_select_scenario.setStyleSheet(u"background-color: rgb(52, 59, 72);")
-        self.btn_select_scenario.setIcon(icon5)
+        self.btn_select_scenario.setIcon(icon6)
 
         self.gridLayout_44.addWidget(self.btn_select_scenario, 2, 1, 1, 1)
 
@@ -2513,9 +2821,9 @@ class Ui_MainWindow(object):
         self.btn_new_one.setMinimumSize(QSize(200, 50))
         self.btn_new_one.setCursor(QCursor(Qt.PointingHandCursor))
         self.btn_new_one.setStyleSheet(u"background-color: rgb(52, 59, 72);")
-        icon21 = QIcon()
-        icon21.addFile(u":/icons/images/icons/cil-star.png", QSize(), QIcon.Normal, QIcon.Off)
-        self.btn_new_one.setIcon(icon21)
+        icon22 = QIcon()
+        icon22.addFile(u":/icons/images/icons/cil-star.png", QSize(), QIcon.Normal, QIcon.Off)
+        self.btn_new_one.setIcon(icon22)
 
         self.gridLayout_44.addWidget(self.btn_new_one, 6, 1, 1, 1)
 
@@ -2555,7 +2863,7 @@ class Ui_MainWindow(object):
         self.btn_workload_save.setMinimumSize(QSize(120, 30))
         self.btn_workload_save.setCursor(QCursor(Qt.PointingHandCursor))
         self.btn_workload_save.setStyleSheet(u"background-color: rgb(52, 59, 72);")
-        self.btn_workload_save.setIcon(icon10)
+        self.btn_workload_save.setIcon(icon11)
 
         self.gridLayout_12.addWidget(self.btn_workload_save, 3, 3, 1, 1)
 
@@ -2597,9 +2905,9 @@ class Ui_MainWindow(object):
         self.btn_changeDir.setMinimumSize(QSize(120, 30))
         self.btn_changeDir.setMaximumSize(QSize(16777215, 30))
         self.btn_changeDir.setStyleSheet(u"background-color: rgb(52, 59, 72);")
-        icon22 = QIcon()
-        icon22.addFile(u":/icons/images/icons/cil-arrow-right.png", QSize(), QIcon.Normal, QIcon.Off)
-        self.btn_changeDir.setIcon(icon22)
+        icon23 = QIcon()
+        icon23.addFile(u":/icons/images/icons/cil-arrow-right.png", QSize(), QIcon.Normal, QIcon.Off)
+        self.btn_changeDir.setIcon(icon23)
 
         self.gridLayout_12.addWidget(self.btn_changeDir, 0, 4, 1, 1)
 
@@ -2632,7 +2940,7 @@ class Ui_MainWindow(object):
         self.btn_back_start2.setCursor(QCursor(Qt.PointingHandCursor))
         self.btn_back_start2.setStyleSheet(u"background-color:black;\n"
 "color:white;")
-        self.btn_back_start2.setIcon(icon14)
+        self.btn_back_start2.setIcon(icon15)
 
         self.verticalLayout_51.addWidget(self.btn_back_start2, 0, Qt.AlignHCenter)
 
@@ -2656,11 +2964,11 @@ class Ui_MainWindow(object):
 
         self.textEdit_9 = QTextEdit(self.selectMetrics)
         self.textEdit_9.setObjectName(u"textEdit_9")
-        sizePolicy7 = QSizePolicy(QSizePolicy.Fixed, QSizePolicy.Expanding)
-        sizePolicy7.setHorizontalStretch(0)
-        sizePolicy7.setVerticalStretch(0)
-        sizePolicy7.setHeightForWidth(self.textEdit_9.sizePolicy().hasHeightForWidth())
-        self.textEdit_9.setSizePolicy(sizePolicy7)
+        sizePolicy8 = QSizePolicy(QSizePolicy.Fixed, QSizePolicy.Expanding)
+        sizePolicy8.setHorizontalStretch(0)
+        sizePolicy8.setVerticalStretch(0)
+        sizePolicy8.setHeightForWidth(self.textEdit_9.sizePolicy().hasHeightForWidth())
+        self.textEdit_9.setSizePolicy(sizePolicy8)
         self.textEdit_9.setMinimumSize(QSize(500, 0))
         self.textEdit_9.setStyleSheet(u"background-color: rgb(52, 59, 72);")
 
@@ -2678,7 +2986,7 @@ class Ui_MainWindow(object):
         self.btn_metric_list.setSizePolicy(sizePolicy5)
         self.btn_metric_list.setMinimumSize(QSize(120, 30))
         self.btn_metric_list.setStyleSheet(u"background-color: rgb(52, 59, 72);")
-        self.btn_metric_list.setIcon(icon12)
+        self.btn_metric_list.setIcon(icon13)
 
         self.gridLayout_14.addWidget(self.btn_metric_list, 3, 0, 1, 1, Qt.AlignHCenter)
 
@@ -2689,7 +2997,7 @@ class Ui_MainWindow(object):
         self.saveMetrics.setMinimumSize(QSize(120, 30))
         self.saveMetrics.setCursor(QCursor(Qt.PointingHandCursor))
         self.saveMetrics.setStyleSheet(u"background-color: rgb(52, 59, 72);")
-        self.saveMetrics.setIcon(icon10)
+        self.saveMetrics.setIcon(icon11)
 
         self.gridLayout_14.addWidget(self.saveMetrics, 3, 1, 1, 1, Qt.AlignHCenter)
 
@@ -2702,17 +3010,17 @@ class Ui_MainWindow(object):
         font8 = QFont()
         font8.setPointSize(18)
         font8.setBold(True)
+        __qlistwidgetitem6 = QListWidgetItem(self.listWidget_18)
+        __qlistwidgetitem6.setFont(font8);
+        __qlistwidgetitem6.setFlags(Qt.NoItemFlags);
+        QListWidgetItem(self.listWidget_18)
+        QListWidgetItem(self.listWidget_18)
+        QListWidgetItem(self.listWidget_18)
+        QListWidgetItem(self.listWidget_18)
+        QListWidgetItem(self.listWidget_18)
         __qlistwidgetitem7 = QListWidgetItem(self.listWidget_18)
         __qlistwidgetitem7.setFont(font8);
         __qlistwidgetitem7.setFlags(Qt.NoItemFlags);
-        QListWidgetItem(self.listWidget_18)
-        QListWidgetItem(self.listWidget_18)
-        QListWidgetItem(self.listWidget_18)
-        QListWidgetItem(self.listWidget_18)
-        QListWidgetItem(self.listWidget_18)
-        __qlistwidgetitem8 = QListWidgetItem(self.listWidget_18)
-        __qlistwidgetitem8.setFont(font8);
-        __qlistwidgetitem8.setFlags(Qt.NoItemFlags);
         QListWidgetItem(self.listWidget_18)
         QListWidgetItem(self.listWidget_18)
         QListWidgetItem(self.listWidget_18)
@@ -2730,8 +3038,8 @@ class Ui_MainWindow(object):
 
         self.listWidget_15 = QListWidget(self.selectMetrics)
         self.listWidget_15.setObjectName(u"listWidget_15")
-        sizePolicy7.setHeightForWidth(self.listWidget_15.sizePolicy().hasHeightForWidth())
-        self.listWidget_15.setSizePolicy(sizePolicy7)
+        sizePolicy8.setHeightForWidth(self.listWidget_15.sizePolicy().hasHeightForWidth())
+        self.listWidget_15.setSizePolicy(sizePolicy8)
         self.listWidget_15.setMinimumSize(QSize(400, 200))
         self.listWidget_15.setStyleSheet(u"background-color: rgb(52, 59, 72);")
 
@@ -2752,7 +3060,7 @@ class Ui_MainWindow(object):
         self.btn_back_exe.setCursor(QCursor(Qt.PointingHandCursor))
         self.btn_back_exe.setStyleSheet(u"background-color:black;\n"
 "color:white;")
-        self.btn_back_exe.setIcon(icon14)
+        self.btn_back_exe.setIcon(icon15)
 
         self.verticalLayout_52.addWidget(self.btn_back_exe, 0, Qt.AlignHCenter)
 
@@ -2773,7 +3081,7 @@ class Ui_MainWindow(object):
         self.btn_create_fault.setObjectName(u"btn_create_fault")
         self.btn_create_fault.setMinimumSize(QSize(0, 30))
         self.btn_create_fault.setStyleSheet(u"background-color: rgb(52, 59, 72);")
-        self.btn_create_fault.setIcon(icon9)
+        self.btn_create_fault.setIcon(icon10)
 
         self.gridLayout_3.addWidget(self.btn_create_fault, 0, 0, 1, 1)
 
@@ -2781,7 +3089,7 @@ class Ui_MainWindow(object):
         self.btn_delete_fault.setObjectName(u"btn_delete_fault")
         self.btn_delete_fault.setMinimumSize(QSize(0, 30))
         self.btn_delete_fault.setStyleSheet(u"background-color: rgb(52, 59, 72);")
-        self.btn_delete_fault.setIcon(icon6)
+        self.btn_delete_fault.setIcon(icon7)
 
         self.gridLayout_3.addWidget(self.btn_delete_fault, 0, 1, 1, 1)
 
@@ -2820,7 +3128,7 @@ class Ui_MainWindow(object):
         self.btn_back_fi.setCursor(QCursor(Qt.PointingHandCursor))
         self.btn_back_fi.setStyleSheet(u"background-color: black;\n"
 "color:white;")
-        self.btn_back_fi.setIcon(icon14)
+        self.btn_back_fi.setIcon(icon15)
 
         self.gridLayout_16.addWidget(self.btn_back_fi, 8, 8, 1, 1)
 
@@ -2884,11 +3192,11 @@ class Ui_MainWindow(object):
 
         self.label_61 = QLabel(self.customFault)
         self.label_61.setObjectName(u"label_61")
-        sizePolicy8 = QSizePolicy(QSizePolicy.Fixed, QSizePolicy.Preferred)
-        sizePolicy8.setHorizontalStretch(0)
-        sizePolicy8.setVerticalStretch(0)
-        sizePolicy8.setHeightForWidth(self.label_61.sizePolicy().hasHeightForWidth())
-        self.label_61.setSizePolicy(sizePolicy8)
+        sizePolicy9 = QSizePolicy(QSizePolicy.Fixed, QSizePolicy.Preferred)
+        sizePolicy9.setHorizontalStretch(0)
+        sizePolicy9.setVerticalStretch(0)
+        sizePolicy9.setHeightForWidth(self.label_61.sizePolicy().hasHeightForWidth())
+        self.label_61.setSizePolicy(sizePolicy9)
 
         self.gridLayout_16.addWidget(self.label_61, 8, 6, 1, 2)
 
@@ -2906,7 +3214,7 @@ class Ui_MainWindow(object):
         self.btn_save_fault.setSizePolicy(sizePolicy5)
         self.btn_save_fault.setMinimumSize(QSize(120, 30))
         self.btn_save_fault.setStyleSheet(u"background-color: rgb(52, 59, 72);")
-        self.btn_save_fault.setIcon(icon10)
+        self.btn_save_fault.setIcon(icon11)
 
         self.gridLayout_16.addWidget(self.btn_save_fault, 8, 4, 1, 2)
 
@@ -2944,7 +3252,7 @@ class Ui_MainWindow(object):
         self.btn_remove_createdFault.setMinimumSize(QSize(0, 30))
         self.btn_remove_createdFault.setMaximumSize(QSize(16777215, 30))
         self.btn_remove_createdFault.setStyleSheet(u"background-color: rgb(52, 59, 72);")
-        self.btn_remove_createdFault.setIcon(icon13)
+        self.btn_remove_createdFault.setIcon(icon14)
 
         self.gridLayout_8.addWidget(self.btn_remove_createdFault, 4, 0, 1, 1)
 
@@ -2988,9 +3296,9 @@ class Ui_MainWindow(object):
         self.btn_take_tasks.setSizePolicy(sizePolicy5)
         self.btn_take_tasks.setMinimumSize(QSize(180, 30))
         self.btn_take_tasks.setStyleSheet(u"background-color: rgb(52, 59, 72);")
-        icon23 = QIcon()
-        icon23.addFile(u":/icons/images/icons/cil-vertical-align-bottom.png", QSize(), QIcon.Normal, QIcon.Off)
-        self.btn_take_tasks.setIcon(icon23)
+        icon24 = QIcon()
+        icon24.addFile(u":/icons/images/icons/cil-vertical-align-bottom.png", QSize(), QIcon.Normal, QIcon.Off)
+        self.btn_take_tasks.setIcon(icon24)
 
         self.gridLayout_5.addWidget(self.btn_take_tasks, 2, 0, 1, 1, Qt.AlignHCenter)
 
@@ -3025,8 +3333,8 @@ class Ui_MainWindow(object):
 
         self.listWidget_21 = QListWidget(self.cWorkload)
         self.listWidget_21.setObjectName(u"listWidget_21")
-        sizePolicy7.setHeightForWidth(self.listWidget_21.sizePolicy().hasHeightForWidth())
-        self.listWidget_21.setSizePolicy(sizePolicy7)
+        sizePolicy8.setHeightForWidth(self.listWidget_21.sizePolicy().hasHeightForWidth())
+        self.listWidget_21.setSizePolicy(sizePolicy8)
         self.listWidget_21.setMinimumSize(QSize(0, 200))
         self.listWidget_21.setStyleSheet(u"background-color: rgb(52, 59, 72);")
 
@@ -3039,7 +3347,7 @@ class Ui_MainWindow(object):
         self.btn_select_task.setMinimumSize(QSize(180, 30))
         self.btn_select_task.setCursor(QCursor(Qt.PointingHandCursor))
         self.btn_select_task.setStyleSheet(u"background-color: rgb(52, 59, 72);")
-        self.btn_select_task.setIcon(icon12)
+        self.btn_select_task.setIcon(icon13)
 
         self.gridLayout_18.addWidget(self.btn_select_task, 4, 0, 3, 1, Qt.AlignHCenter)
 
@@ -3062,7 +3370,7 @@ class Ui_MainWindow(object):
         self.btn_save_task.setMinimumSize(QSize(120, 30))
         self.btn_save_task.setCursor(QCursor(Qt.PointingHandCursor))
         self.btn_save_task.setStyleSheet(u"background-color: rgb(52, 59, 72);")
-        self.btn_save_task.setIcon(icon10)
+        self.btn_save_task.setIcon(icon11)
 
         self.gridLayout_18.addWidget(self.btn_save_task, 5, 1, 1, 2)
 
@@ -3077,7 +3385,7 @@ class Ui_MainWindow(object):
         self.btn_remove_task.setSizePolicy(sizePolicy5)
         self.btn_remove_task.setMinimumSize(QSize(120, 30))
         self.btn_remove_task.setStyleSheet(u"background-color: rgb(52, 59, 72);")
-        self.btn_remove_task.setIcon(icon13)
+        self.btn_remove_task.setIcon(icon14)
 
         self.gridLayout_18.addWidget(self.btn_remove_task, 5, 5, 1, 1)
 
@@ -3113,7 +3421,7 @@ class Ui_MainWindow(object):
         self.btn_back_start.setCursor(QCursor(Qt.PointingHandCursor))
         self.btn_back_start.setStyleSheet(u"background-color: black;\n"
 "color:white;")
-        self.btn_back_start.setIcon(icon14)
+        self.btn_back_start.setIcon(icon15)
 
         self.verticalLayout_18.addWidget(self.btn_back_start, 0, Qt.AlignHCenter)
 
@@ -3151,7 +3459,7 @@ class Ui_MainWindow(object):
         self.btn_save_yaml.setObjectName(u"btn_save_yaml")
         self.btn_save_yaml.setMinimumSize(QSize(150, 30))
         self.btn_save_yaml.setStyleSheet(u"background-color: rgb(52, 59, 72);")
-        self.btn_save_yaml.setIcon(icon10)
+        self.btn_save_yaml.setIcon(icon11)
 
         self.gridLayout_29.addWidget(self.btn_save_yaml, 2, 1, 2, 1)
 
@@ -3174,7 +3482,7 @@ class Ui_MainWindow(object):
         self.btn_clear_yaml.setObjectName(u"btn_clear_yaml")
         self.btn_clear_yaml.setMinimumSize(QSize(150, 30))
         self.btn_clear_yaml.setStyleSheet(u"background-color: rgb(52, 59, 72);")
-        self.btn_clear_yaml.setIcon(icon6)
+        self.btn_clear_yaml.setIcon(icon7)
 
         self.gridLayout_36.addWidget(self.btn_clear_yaml, 0, 1, 1, 1)
 
@@ -3197,7 +3505,7 @@ class Ui_MainWindow(object):
         self.btn_open_yaml.setMinimumSize(QSize(150, 30))
         self.btn_open_yaml.setMaximumSize(QSize(16777215, 16777215))
         self.btn_open_yaml.setStyleSheet(u"background-color: rgb(52, 59, 72);")
-        self.btn_open_yaml.setIcon(icon5)
+        self.btn_open_yaml.setIcon(icon6)
 
         self.gridLayout_36.addWidget(self.btn_open_yaml, 0, 0, 1, 1)
 
@@ -3239,7 +3547,7 @@ class Ui_MainWindow(object):
         self.btn_remove_yaml.setObjectName(u"btn_remove_yaml")
         self.btn_remove_yaml.setMinimumSize(QSize(0, 30))
         self.btn_remove_yaml.setStyleSheet(u"background-color: rgb(52, 59, 72);")
-        self.btn_remove_yaml.setIcon(icon13)
+        self.btn_remove_yaml.setIcon(icon14)
 
         self.gridLayout_33.addWidget(self.btn_remove_yaml, 6, 1, 1, 1)
 
@@ -3247,7 +3555,7 @@ class Ui_MainWindow(object):
         self.btn_yaml_fault.setObjectName(u"btn_yaml_fault")
         self.btn_yaml_fault.setMinimumSize(QSize(0, 30))
         self.btn_yaml_fault.setStyleSheet(u"background-color: rgb(52, 59, 72);")
-        self.btn_yaml_fault.setIcon(icon12)
+        self.btn_yaml_fault.setIcon(icon13)
 
         self.gridLayout_33.addWidget(self.btn_yaml_fault, 2, 0, 1, 2)
 
@@ -3262,7 +3570,7 @@ class Ui_MainWindow(object):
         self.btn_apply_yaml.setMinimumSize(QSize(0, 30))
         self.btn_apply_yaml.setMaximumSize(QSize(16777215, 30))
         self.btn_apply_yaml.setStyleSheet(u"background-color: rgb(52, 59, 72);")
-        self.btn_apply_yaml.setIcon(icon11)
+        self.btn_apply_yaml.setIcon(icon12)
 
         self.gridLayout_33.addWidget(self.btn_apply_yaml, 6, 0, 1, 1)
 
@@ -3293,7 +3601,7 @@ class Ui_MainWindow(object):
         self.btn_go_start_2.setMinimumSize(QSize(200, 30))
         self.btn_go_start_2.setMaximumSize(QSize(200, 30))
         self.btn_go_start_2.setStyleSheet(u"background-color: rgb(52, 59, 72);")
-        self.btn_go_start_2.setIcon(icon14)
+        self.btn_go_start_2.setIcon(icon15)
 
         self.gridLayout_37.addWidget(self.btn_go_start_2, 0, 0, 1, 1, Qt.AlignLeft)
 
@@ -3320,8 +3628,8 @@ class Ui_MainWindow(object):
         self.gridLayout_11.setVerticalSpacing(6)
         self.label_23 = QLabel(self.cSnippets)
         self.label_23.setObjectName(u"label_23")
-        sizePolicy8.setHeightForWidth(self.label_23.sizePolicy().hasHeightForWidth())
-        self.label_23.setSizePolicy(sizePolicy8)
+        sizePolicy9.setHeightForWidth(self.label_23.sizePolicy().hasHeightForWidth())
+        self.label_23.setSizePolicy(sizePolicy9)
 
         self.gridLayout_11.addWidget(self.label_23, 15, 7, 1, 2)
 
@@ -3348,7 +3656,7 @@ class Ui_MainWindow(object):
         self.btn_save_snip.setFont(font9)
         self.btn_save_snip.setCursor(QCursor(Qt.PointingHandCursor))
         self.btn_save_snip.setStyleSheet(u"background-color: rgb(52, 59, 72);")
-        self.btn_save_snip.setIcon(icon10)
+        self.btn_save_snip.setIcon(icon11)
 
         self.gridLayout_11.addWidget(self.btn_save_snip, 15, 10, 1, 1)
 
@@ -3405,7 +3713,7 @@ class Ui_MainWindow(object):
         self.btn_create_snip.setMinimumSize(QSize(200, 30))
         self.btn_create_snip.setMaximumSize(QSize(16777215, 30))
         self.btn_create_snip.setStyleSheet(u"background-color: rgb(52, 59, 72);")
-        self.btn_create_snip.setIcon(icon9)
+        self.btn_create_snip.setIcon(icon10)
 
         self.gridLayout_2.addWidget(self.btn_create_snip, 8, 0, 1, 1)
 
@@ -3422,7 +3730,7 @@ class Ui_MainWindow(object):
         self.btn_delete_snip.setMinimumSize(QSize(200, 0))
         self.btn_delete_snip.setMaximumSize(QSize(16777215, 30))
         self.btn_delete_snip.setStyleSheet(u"background-color: rgb(52, 59, 72);")
-        self.btn_delete_snip.setIcon(icon6)
+        self.btn_delete_snip.setIcon(icon7)
 
         self.gridLayout_2.addWidget(self.btn_delete_snip, 8, 1, 1, 1)
 
@@ -3497,7 +3805,7 @@ class Ui_MainWindow(object):
         self.back_snip.setCursor(QCursor(Qt.PointingHandCursor))
         self.back_snip.setStyleSheet(u"background-color: black;\n"
 "color:white;")
-        self.back_snip.setIcon(icon14)
+        self.back_snip.setIcon(icon15)
 
         self.gridLayout_11.addWidget(self.back_snip, 17, 7, 1, 4)
 
@@ -3646,7 +3954,7 @@ class Ui_MainWindow(object):
 
         self.retranslateUi(MainWindow)
 
-        self.stackedWidget.setCurrentIndex(2)
+        self.stackedWidget.setCurrentIndex(1)
 
 
         QMetaObject.connectSlotsByName(MainWindow)
@@ -3716,11 +4024,13 @@ class Ui_MainWindow(object):
                         "se in execution.</p></body></html>", None))
         self.btn_go_start.setText(QCoreApplication.translate("MainWindow", u"Start", None))
         self.label_50.setText(QCoreApplication.translate("MainWindow", u"Source Codes Settings", None))
-        self.label_81.setText(QCoreApplication.translate("MainWindow", u"Python - ROS", None))
+        self.label_104.setText(QCoreApplication.translate("MainWindow", u"ROS-Py", None))
+        self.open_ros_page.setText(QCoreApplication.translate("MainWindow", u"ROS Page", None))
+        self.label_81.setText(QCoreApplication.translate("MainWindow", u"Python ", None))
         self.btn_open_folder.setText(QCoreApplication.translate("MainWindow", u"Open Source Code", None))
         self.btn_clear_codes.setText(QCoreApplication.translate("MainWindow", u"Clear Source Codes", None))
         self.checkBox_8.setText(QCoreApplication.translate("MainWindow", u"Edit Codes", None))
-        self.label_85.setText(QCoreApplication.translate("MainWindow", u"Other F\u0130le Types", None))
+        self.label_85.setText(QCoreApplication.translate("MainWindow", u"YAML - Launch - SRV - MSG", None))
         self.btn_prepare_plan.setText(QCoreApplication.translate("MainWindow", u"Prepare FI Plan", None))
         self.label_51.setText(QCoreApplication.translate("MainWindow", u"Workload Settings", None))
         self.btn_select_workload.setText(QCoreApplication.translate("MainWindow", u"Open Workload", None))
@@ -3801,14 +4111,55 @@ class Ui_MainWindow(object):
         self.btn_remove_snip.setText(QCoreApplication.translate("MainWindow", u"Remove", None))
         self.btn_go_scan.setText(QCoreApplication.translate("MainWindow", u"Scan Page", None))
         self.pushButton_5.setText(QCoreApplication.translate("MainWindow", u"Home Page", None))
-        self.label_90.setText(QCoreApplication.translate("MainWindow", u"TextLabel", None))
-        self.label_91.setText(QCoreApplication.translate("MainWindow", u"Processes", None))
-        self.topics_btn.setText(QCoreApplication.translate("MainWindow", u"Topics", None))
-        self.params_btn.setText(QCoreApplication.translate("MainWindow", u"Params", None))
-        self.services_btn.setText(QCoreApplication.translate("MainWindow", u"Services", None))
-        self.rosrun_btn.setText(QCoreApplication.translate("MainWindow", u"Run", None))
         self.open_ros_btn.setText(QCoreApplication.translate("MainWindow", u"Open", None))
-        self.label_92.setText(QCoreApplication.translate("MainWindow", u"Folder Tree", None))
+        self.label_90.setText(QCoreApplication.translate("MainWindow", u"Mutant Codes", None))
+        self.label_92.setText(QCoreApplication.translate("MainWindow", u"ROS Package:", None))
+        self.label_101.setText(QCoreApplication.translate("MainWindow", u"Total Mutants:", None))
+        self.label_94.setText(QCoreApplication.translate("MainWindow", u"Topic List", None))
+        self.label_100.setText(QCoreApplication.translate("MainWindow", u"Selected Line & Fault", None))
+
+        __sortingEnabled1 = self.listWidget_34.isSortingEnabled()
+        self.listWidget_34.setSortingEnabled(False)
+        ___qlistwidgetitem28 = self.listWidget_34.item(0)
+        ___qlistwidgetitem28.setText(QCoreApplication.translate("MainWindow", u"ROS Initializing Node Mutation", None));
+        ___qlistwidgetitem29 = self.listWidget_34.item(1)
+        ___qlistwidgetitem29.setText(QCoreApplication.translate("MainWindow", u"ROS Pub-Sub Mutation", None));
+        ___qlistwidgetitem30 = self.listWidget_34.item(2)
+        ___qlistwidgetitem30.setText(QCoreApplication.translate("MainWindow", u"ROS Time Mutation", None));
+        ___qlistwidgetitem31 = self.listWidget_34.item(3)
+        ___qlistwidgetitem31.setText(QCoreApplication.translate("MainWindow", u"ROS Service Mutation", None));
+        ___qlistwidgetitem32 = self.listWidget_34.item(4)
+        ___qlistwidgetitem32.setText(QCoreApplication.translate("MainWindow", u"ROS Parameter Mutation", None));
+        ___qlistwidgetitem33 = self.listWidget_34.item(5)
+        ___qlistwidgetitem33.setText(QCoreApplication.translate("MainWindow", u"ROS Log Mutation", None));
+        self.listWidget_34.setSortingEnabled(__sortingEnabled1)
+
+        self.add_ros_btn.setText(QCoreApplication.translate("MainWindow", u"Select", None))
+        self.mutate_ros_btn.setText(QCoreApplication.translate("MainWindow", u"Apply Mutation", None))
+        self.label_99.setText(QCoreApplication.translate("MainWindow", u"Found Lines for Mutation", None))
+        self.checkBox_9.setText(QCoreApplication.translate("MainWindow", u"Apply All Mutations", None))
+        self.label_91.setText(QCoreApplication.translate("MainWindow", u"Fault Library", None))
+        self.remove_ros_btn.setText(QCoreApplication.translate("MainWindow", u"Remove", None))
+        self.scan_ros_btn.setText(QCoreApplication.translate("MainWindow", u"Scan Codes for Mutation", None))
+        self.label_96.setText(QCoreApplication.translate("MainWindow", u"Service List", None))
+        self.label_97.setText(QCoreApplication.translate("MainWindow", u"Parameter List", None))
+        self.label_95.setText(QCoreApplication.translate("MainWindow", u"Node List", None))
+        self.rosrun_btn.setText(QCoreApplication.translate("MainWindow", u"Run", None))
+        self.add_order_btn.setText(QCoreApplication.translate("MainWindow", u"Add to Run Order", None))
+        self.label_89.setText(QCoreApplication.translate("MainWindow", u"ROS Package Contents", None))
+        self.remove_order_btn.setText(QCoreApplication.translate("MainWindow", u"Remove", None))
+        self.label_93.setText(QCoreApplication.translate("MainWindow", u"Run Order", None))
+        self.checkBox_11.setText(QCoreApplication.translate("MainWindow", u"Ready", None))
+        self.label_98.setText(QCoreApplication.translate("MainWindow", u"ROS-Py File:", None))
+        self.label_103.setText(QCoreApplication.translate("MainWindow", u"FI Plan Name:", None))
+        self.select_trgt_btn.setText(QCoreApplication.translate("MainWindow", u"Open", None))
+        self.ros_fiplan_remove.setText(QCoreApplication.translate("MainWindow", u"Delete", None))
+        self.remove_ros_mutant.setText(QCoreApplication.translate("MainWindow", u"Remove", None))
+        self.label_102.setText(QCoreApplication.translate("MainWindow", u"FI Plan List", None))
+        self.ros_slct_fiplan.setText(QCoreApplication.translate("MainWindow", u"Select FI Plan", None))
+        self.ros_fiplan_save.setText(QCoreApplication.translate("MainWindow", u"Save", None))
+        self.back_start_page.setText(QCoreApplication.translate("MainWindow", u"Start Page", None))
+        self.go_execution.setText(QCoreApplication.translate("MainWindow", u"Execution Page", None))
         self.label_15.setText(QCoreApplication.translate("MainWindow", u"Workload", None))
         self.checkBox_2.setText(QCoreApplication.translate("MainWindow", u"Ready To Scan", None))
         self.label_49.setText(QCoreApplication.translate("MainWindow", u"Detected Parts", None))
@@ -3834,95 +4185,81 @@ class Ui_MainWindow(object):
 "<p style=\"-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><br /></p></body></html>", None))
         self.label_6.setText(QCoreApplication.translate("MainWindow", u"Fault Library", None))
 
-        __sortingEnabled1 = self.listWidget_3.isSortingEnabled()
+        __sortingEnabled2 = self.listWidget_3.isSortingEnabled()
         self.listWidget_3.setSortingEnabled(False)
-        ___qlistwidgetitem28 = self.listWidget_3.item(0)
-        ___qlistwidgetitem28.setText(QCoreApplication.translate("MainWindow", u"OPERATORS", None));
-        ___qlistwidgetitem29 = self.listWidget_3.item(1)
-        ___qlistwidgetitem29.setText(QCoreApplication.translate("MainWindow", u"(AOM) Arithmetic Operator Missing", None));
-        ___qlistwidgetitem30 = self.listWidget_3.item(2)
-        ___qlistwidgetitem30.setText(QCoreApplication.translate("MainWindow", u"(AOW) Arithmetic Operator Wrong", None));
-        ___qlistwidgetitem31 = self.listWidget_3.item(3)
-        ___qlistwidgetitem31.setText(QCoreApplication.translate("MainWindow", u"(AOE) Arithmetic Operator Extraneous", None));
-        ___qlistwidgetitem32 = self.listWidget_3.item(4)
-        ___qlistwidgetitem32.setText(QCoreApplication.translate("MainWindow", u"(COM) Comparison Operator Missing", None));
-        ___qlistwidgetitem33 = self.listWidget_3.item(5)
-        ___qlistwidgetitem33.setText(QCoreApplication.translate("MainWindow", u"(COW) Comparison Operator Wrong", None));
-        ___qlistwidgetitem34 = self.listWidget_3.item(6)
-        ___qlistwidgetitem34.setText(QCoreApplication.translate("MainWindow", u"(COE) Comparison Operator Extraneous", None));
-        ___qlistwidgetitem35 = self.listWidget_3.item(7)
-        ___qlistwidgetitem35.setText(QCoreApplication.translate("MainWindow", u"(AOM) Assignment Operator Missing", None));
-        ___qlistwidgetitem36 = self.listWidget_3.item(8)
-        ___qlistwidgetitem36.setText(QCoreApplication.translate("MainWindow", u"(AOW) Assignment Operator Wrong", None));
-        ___qlistwidgetitem37 = self.listWidget_3.item(9)
-        ___qlistwidgetitem37.setText(QCoreApplication.translate("MainWindow", u"(AOE) Assignment Operator Extraneous", None));
-        ___qlistwidgetitem38 = self.listWidget_3.item(10)
-        ___qlistwidgetitem38.setText(QCoreApplication.translate("MainWindow", u"(LOM) Logical Operator Missing", None));
-        ___qlistwidgetitem39 = self.listWidget_3.item(11)
-        ___qlistwidgetitem39.setText(QCoreApplication.translate("MainWindow", u"(LOW) Logical Operator Wrong", None));
-        ___qlistwidgetitem40 = self.listWidget_3.item(12)
-        ___qlistwidgetitem40.setText(QCoreApplication.translate("MainWindow", u"(LOE) Logical Operator Extraneous", None));
-        ___qlistwidgetitem41 = self.listWidget_3.item(13)
-        ___qlistwidgetitem41.setText(QCoreApplication.translate("MainWindow", u"(MOM) Membership Operator Missing", None));
-        ___qlistwidgetitem42 = self.listWidget_3.item(14)
-        ___qlistwidgetitem42.setText(QCoreApplication.translate("MainWindow", u"(MOW) Membership Operator Wrong", None));
-        ___qlistwidgetitem43 = self.listWidget_3.item(15)
-        ___qlistwidgetitem43.setText(QCoreApplication.translate("MainWindow", u"(MOE) Membership Operator Extraneous", None));
-        ___qlistwidgetitem44 = self.listWidget_3.item(16)
-        ___qlistwidgetitem44.setText(QCoreApplication.translate("MainWindow", u"(IOM) Identity Operator Missing", None));
-        ___qlistwidgetitem45 = self.listWidget_3.item(17)
-        ___qlistwidgetitem45.setText(QCoreApplication.translate("MainWindow", u"(IOW) Identity  Operator Wrong", None));
-        ___qlistwidgetitem46 = self.listWidget_3.item(18)
-        ___qlistwidgetitem46.setText(QCoreApplication.translate("MainWindow", u"(IOE) Identity Operator Extraneous", None));
-        ___qlistwidgetitem47 = self.listWidget_3.item(19)
-        ___qlistwidgetitem47.setText(QCoreApplication.translate("MainWindow", u"STATEMENTS", None));
-        ___qlistwidgetitem48 = self.listWidget_3.item(20)
-        ___qlistwidgetitem48.setText(QCoreApplication.translate("MainWindow", u"(bM) break Missing", None));
-        ___qlistwidgetitem49 = self.listWidget_3.item(21)
-        ___qlistwidgetitem49.setText(QCoreApplication.translate("MainWindow", u"(bW) break Wrong", None));
-        ___qlistwidgetitem50 = self.listWidget_3.item(22)
-        ___qlistwidgetitem50.setText(QCoreApplication.translate("MainWindow", u"(bE) break Extraneous", None));
-        ___qlistwidgetitem51 = self.listWidget_3.item(23)
-        ___qlistwidgetitem51.setText(QCoreApplication.translate("MainWindow", u"(cM) continue Missing", None));
-        ___qlistwidgetitem52 = self.listWidget_3.item(24)
-        ___qlistwidgetitem52.setText(QCoreApplication.translate("MainWindow", u"(cW) continue Wrong", None));
-        ___qlistwidgetitem53 = self.listWidget_3.item(25)
-        ___qlistwidgetitem53.setText(QCoreApplication.translate("MainWindow", u"(cE) continue Extraneous", None));
-        ___qlistwidgetitem54 = self.listWidget_3.item(26)
-        ___qlistwidgetitem54.setText(QCoreApplication.translate("MainWindow", u"(FM) False Missing", None));
-        ___qlistwidgetitem55 = self.listWidget_3.item(27)
-        ___qlistwidgetitem55.setText(QCoreApplication.translate("MainWindow", u"(FW) False Wrong", None));
-        ___qlistwidgetitem56 = self.listWidget_3.item(28)
-        ___qlistwidgetitem56.setText(QCoreApplication.translate("MainWindow", u"(FE) False Extraneous", None));
-        ___qlistwidgetitem57 = self.listWidget_3.item(29)
-        ___qlistwidgetitem57.setText(QCoreApplication.translate("MainWindow", u"(pM) pass Missing", None));
-        ___qlistwidgetitem58 = self.listWidget_3.item(30)
-        ___qlistwidgetitem58.setText(QCoreApplication.translate("MainWindow", u"(pW) pass Wrong", None));
-        ___qlistwidgetitem59 = self.listWidget_3.item(31)
-        ___qlistwidgetitem59.setText(QCoreApplication.translate("MainWindow", u"(pE) pass Extraneous", None));
-        ___qlistwidgetitem60 = self.listWidget_3.item(32)
-        ___qlistwidgetitem60.setText(QCoreApplication.translate("MainWindow", u"(TM) True Missing", None));
-        ___qlistwidgetitem61 = self.listWidget_3.item(33)
-        ___qlistwidgetitem61.setText(QCoreApplication.translate("MainWindow", u"(TW) True Wrong", None));
-        ___qlistwidgetitem62 = self.listWidget_3.item(34)
-        ___qlistwidgetitem62.setText(QCoreApplication.translate("MainWindow", u"(TE) True Extraneous", None));
-        ___qlistwidgetitem63 = self.listWidget_3.item(35)
-        ___qlistwidgetitem63.setText(QCoreApplication.translate("MainWindow", u"ROS FAULTS", None));
-        ___qlistwidgetitem64 = self.listWidget_3.item(36)
-        ___qlistwidgetitem64.setText(QCoreApplication.translate("MainWindow", u"ROS Initializing Node Mutation", None));
-        ___qlistwidgetitem65 = self.listWidget_3.item(37)
-        ___qlistwidgetitem65.setText(QCoreApplication.translate("MainWindow", u"ROS Pub-Sub Mutation ", None));
-        ___qlistwidgetitem66 = self.listWidget_3.item(38)
-        ___qlistwidgetitem66.setText(QCoreApplication.translate("MainWindow", u"ROS Time Mutation", None));
-        ___qlistwidgetitem67 = self.listWidget_3.item(39)
-        ___qlistwidgetitem67.setText(QCoreApplication.translate("MainWindow", u"ROS Service Mutation", None));
-        ___qlistwidgetitem68 = self.listWidget_3.item(40)
-        ___qlistwidgetitem68.setText(QCoreApplication.translate("MainWindow", u"ROS Parameter Mutation", None));
-        ___qlistwidgetitem69 = self.listWidget_3.item(41)
-        ___qlistwidgetitem69.setText(QCoreApplication.translate("MainWindow", u"ROS Log Mutation", None));
-        ___qlistwidgetitem70 = self.listWidget_3.item(42)
-        ___qlistwidgetitem70.setText(QCoreApplication.translate("MainWindow", u"CREATED FAULTS", None));
-        self.listWidget_3.setSortingEnabled(__sortingEnabled1)
+        ___qlistwidgetitem34 = self.listWidget_3.item(0)
+        ___qlistwidgetitem34.setText(QCoreApplication.translate("MainWindow", u"OPERATORS", None));
+        ___qlistwidgetitem35 = self.listWidget_3.item(1)
+        ___qlistwidgetitem35.setText(QCoreApplication.translate("MainWindow", u"(AOM) Arithmetic Operator Missing", None));
+        ___qlistwidgetitem36 = self.listWidget_3.item(2)
+        ___qlistwidgetitem36.setText(QCoreApplication.translate("MainWindow", u"(AOW) Arithmetic Operator Wrong", None));
+        ___qlistwidgetitem37 = self.listWidget_3.item(3)
+        ___qlistwidgetitem37.setText(QCoreApplication.translate("MainWindow", u"(AOE) Arithmetic Operator Extraneous", None));
+        ___qlistwidgetitem38 = self.listWidget_3.item(4)
+        ___qlistwidgetitem38.setText(QCoreApplication.translate("MainWindow", u"(COM) Comparison Operator Missing", None));
+        ___qlistwidgetitem39 = self.listWidget_3.item(5)
+        ___qlistwidgetitem39.setText(QCoreApplication.translate("MainWindow", u"(COW) Comparison Operator Wrong", None));
+        ___qlistwidgetitem40 = self.listWidget_3.item(6)
+        ___qlistwidgetitem40.setText(QCoreApplication.translate("MainWindow", u"(COE) Comparison Operator Extraneous", None));
+        ___qlistwidgetitem41 = self.listWidget_3.item(7)
+        ___qlistwidgetitem41.setText(QCoreApplication.translate("MainWindow", u"(AOM) Assignment Operator Missing", None));
+        ___qlistwidgetitem42 = self.listWidget_3.item(8)
+        ___qlistwidgetitem42.setText(QCoreApplication.translate("MainWindow", u"(AOW) Assignment Operator Wrong", None));
+        ___qlistwidgetitem43 = self.listWidget_3.item(9)
+        ___qlistwidgetitem43.setText(QCoreApplication.translate("MainWindow", u"(AOE) Assignment Operator Extraneous", None));
+        ___qlistwidgetitem44 = self.listWidget_3.item(10)
+        ___qlistwidgetitem44.setText(QCoreApplication.translate("MainWindow", u"(LOM) Logical Operator Missing", None));
+        ___qlistwidgetitem45 = self.listWidget_3.item(11)
+        ___qlistwidgetitem45.setText(QCoreApplication.translate("MainWindow", u"(LOW) Logical Operator Wrong", None));
+        ___qlistwidgetitem46 = self.listWidget_3.item(12)
+        ___qlistwidgetitem46.setText(QCoreApplication.translate("MainWindow", u"(LOE) Logical Operator Extraneous", None));
+        ___qlistwidgetitem47 = self.listWidget_3.item(13)
+        ___qlistwidgetitem47.setText(QCoreApplication.translate("MainWindow", u"(MOM) Membership Operator Missing", None));
+        ___qlistwidgetitem48 = self.listWidget_3.item(14)
+        ___qlistwidgetitem48.setText(QCoreApplication.translate("MainWindow", u"(MOW) Membership Operator Wrong", None));
+        ___qlistwidgetitem49 = self.listWidget_3.item(15)
+        ___qlistwidgetitem49.setText(QCoreApplication.translate("MainWindow", u"(MOE) Membership Operator Extraneous", None));
+        ___qlistwidgetitem50 = self.listWidget_3.item(16)
+        ___qlistwidgetitem50.setText(QCoreApplication.translate("MainWindow", u"(IOM) Identity Operator Missing", None));
+        ___qlistwidgetitem51 = self.listWidget_3.item(17)
+        ___qlistwidgetitem51.setText(QCoreApplication.translate("MainWindow", u"(IOW) Identity  Operator Wrong", None));
+        ___qlistwidgetitem52 = self.listWidget_3.item(18)
+        ___qlistwidgetitem52.setText(QCoreApplication.translate("MainWindow", u"(IOE) Identity Operator Extraneous", None));
+        ___qlistwidgetitem53 = self.listWidget_3.item(19)
+        ___qlistwidgetitem53.setText(QCoreApplication.translate("MainWindow", u"STATEMENTS", None));
+        ___qlistwidgetitem54 = self.listWidget_3.item(20)
+        ___qlistwidgetitem54.setText(QCoreApplication.translate("MainWindow", u"(bM) break Missing", None));
+        ___qlistwidgetitem55 = self.listWidget_3.item(21)
+        ___qlistwidgetitem55.setText(QCoreApplication.translate("MainWindow", u"(bW) break Wrong", None));
+        ___qlistwidgetitem56 = self.listWidget_3.item(22)
+        ___qlistwidgetitem56.setText(QCoreApplication.translate("MainWindow", u"(bE) break Extraneous", None));
+        ___qlistwidgetitem57 = self.listWidget_3.item(23)
+        ___qlistwidgetitem57.setText(QCoreApplication.translate("MainWindow", u"(cM) continue Missing", None));
+        ___qlistwidgetitem58 = self.listWidget_3.item(24)
+        ___qlistwidgetitem58.setText(QCoreApplication.translate("MainWindow", u"(cW) continue Wrong", None));
+        ___qlistwidgetitem59 = self.listWidget_3.item(25)
+        ___qlistwidgetitem59.setText(QCoreApplication.translate("MainWindow", u"(cE) continue Extraneous", None));
+        ___qlistwidgetitem60 = self.listWidget_3.item(26)
+        ___qlistwidgetitem60.setText(QCoreApplication.translate("MainWindow", u"(FM) False Missing", None));
+        ___qlistwidgetitem61 = self.listWidget_3.item(27)
+        ___qlistwidgetitem61.setText(QCoreApplication.translate("MainWindow", u"(FW) False Wrong", None));
+        ___qlistwidgetitem62 = self.listWidget_3.item(28)
+        ___qlistwidgetitem62.setText(QCoreApplication.translate("MainWindow", u"(FE) False Extraneous", None));
+        ___qlistwidgetitem63 = self.listWidget_3.item(29)
+        ___qlistwidgetitem63.setText(QCoreApplication.translate("MainWindow", u"(pM) pass Missing", None));
+        ___qlistwidgetitem64 = self.listWidget_3.item(30)
+        ___qlistwidgetitem64.setText(QCoreApplication.translate("MainWindow", u"(pW) pass Wrong", None));
+        ___qlistwidgetitem65 = self.listWidget_3.item(31)
+        ___qlistwidgetitem65.setText(QCoreApplication.translate("MainWindow", u"(pE) pass Extraneous", None));
+        ___qlistwidgetitem66 = self.listWidget_3.item(32)
+        ___qlistwidgetitem66.setText(QCoreApplication.translate("MainWindow", u"(TM) True Missing", None));
+        ___qlistwidgetitem67 = self.listWidget_3.item(33)
+        ___qlistwidgetitem67.setText(QCoreApplication.translate("MainWindow", u"(TW) True Wrong", None));
+        ___qlistwidgetitem68 = self.listWidget_3.item(34)
+        ___qlistwidgetitem68.setText(QCoreApplication.translate("MainWindow", u"(TE) True Extraneous", None));
+        ___qlistwidgetitem69 = self.listWidget_3.item(35)
+        ___qlistwidgetitem69.setText(QCoreApplication.translate("MainWindow", u"CREATED FAULTS", None));
+        self.listWidget_3.setSortingEnabled(__sortingEnabled2)
 
         self.btn_select_fault.setText(QCoreApplication.translate("MainWindow", u"Select Fault", None))
         self.checkBox_4.setText(QCoreApplication.translate("MainWindow", u"Apply Mutation for All Possible Line", None))
@@ -4002,30 +4339,30 @@ class Ui_MainWindow(object):
         self.label_11.setText(QCoreApplication.translate("MainWindow", u"Execution Plan List", None))
         self.btn_remove_exe.setText(QCoreApplication.translate("MainWindow", u"Remove", None))
 
-        __sortingEnabled2 = self.listWidget_6.isSortingEnabled()
+        __sortingEnabled3 = self.listWidget_6.isSortingEnabled()
         self.listWidget_6.setSortingEnabled(False)
-        ___qlistwidgetitem71 = self.listWidget_6.item(0)
-        ___qlistwidgetitem71.setText(QCoreApplication.translate("MainWindow", u"Plan01", None));
-        ___qlistwidgetitem72 = self.listWidget_6.item(1)
-        ___qlistwidgetitem72.setText(QCoreApplication.translate("MainWindow", u"Plan02", None));
-        ___qlistwidgetitem73 = self.listWidget_6.item(2)
-        ___qlistwidgetitem73.setText(QCoreApplication.translate("MainWindow", u"Plan03", None));
-        ___qlistwidgetitem74 = self.listWidget_6.item(3)
-        ___qlistwidgetitem74.setText(QCoreApplication.translate("MainWindow", u"Plan04", None));
-        ___qlistwidgetitem75 = self.listWidget_6.item(4)
-        ___qlistwidgetitem75.setText(QCoreApplication.translate("MainWindow", u"Plan05", None));
-        self.listWidget_6.setSortingEnabled(__sortingEnabled2)
+        ___qlistwidgetitem70 = self.listWidget_6.item(0)
+        ___qlistwidgetitem70.setText(QCoreApplication.translate("MainWindow", u"Plan01", None));
+        ___qlistwidgetitem71 = self.listWidget_6.item(1)
+        ___qlistwidgetitem71.setText(QCoreApplication.translate("MainWindow", u"Plan02", None));
+        ___qlistwidgetitem72 = self.listWidget_6.item(2)
+        ___qlistwidgetitem72.setText(QCoreApplication.translate("MainWindow", u"Plan03", None));
+        ___qlistwidgetitem73 = self.listWidget_6.item(3)
+        ___qlistwidgetitem73.setText(QCoreApplication.translate("MainWindow", u"Plan04", None));
+        ___qlistwidgetitem74 = self.listWidget_6.item(4)
+        ___qlistwidgetitem74.setText(QCoreApplication.translate("MainWindow", u"Plan05", None));
+        self.listWidget_6.setSortingEnabled(__sortingEnabled3)
 
 
-        __sortingEnabled3 = self.listWidget_13.isSortingEnabled()
+        __sortingEnabled4 = self.listWidget_13.isSortingEnabled()
         self.listWidget_13.setSortingEnabled(False)
-        ___qlistwidgetitem76 = self.listWidget_13.item(0)
-        ___qlistwidgetitem76.setText(QCoreApplication.translate("MainWindow", u"Execution01", None));
-        ___qlistwidgetitem77 = self.listWidget_13.item(1)
-        ___qlistwidgetitem77.setText(QCoreApplication.translate("MainWindow", u"Execution02", None));
-        ___qlistwidgetitem78 = self.listWidget_13.item(2)
-        ___qlistwidgetitem78.setText(QCoreApplication.translate("MainWindow", u"Execution03", None));
-        self.listWidget_13.setSortingEnabled(__sortingEnabled3)
+        ___qlistwidgetitem75 = self.listWidget_13.item(0)
+        ___qlistwidgetitem75.setText(QCoreApplication.translate("MainWindow", u"Execution01", None));
+        ___qlistwidgetitem76 = self.listWidget_13.item(1)
+        ___qlistwidgetitem76.setText(QCoreApplication.translate("MainWindow", u"Execution02", None));
+        ___qlistwidgetitem77 = self.listWidget_13.item(2)
+        ___qlistwidgetitem77.setText(QCoreApplication.translate("MainWindow", u"Execution03", None));
+        self.listWidget_13.setSortingEnabled(__sortingEnabled4)
 
         self.btn_go_monitoring.setText(QCoreApplication.translate("MainWindow", u"Monitoring Page", None))
         self.pushButton_6.setText(QCoreApplication.translate("MainWindow", u"FI Plan Page", None))
@@ -4039,19 +4376,19 @@ class Ui_MainWindow(object):
         self.label_87.setText(QCoreApplication.translate("MainWindow", u"V&V Report", None))
         self.btn_create_report.setText(QCoreApplication.translate("MainWindow", u"Create Report", None))
 
-        __sortingEnabled4 = self.listWidget_12.isSortingEnabled()
+        __sortingEnabled5 = self.listWidget_12.isSortingEnabled()
         self.listWidget_12.setSortingEnabled(False)
-        ___qlistwidgetitem79 = self.listWidget_12.item(0)
-        ___qlistwidgetitem79.setText(QCoreApplication.translate("MainWindow", u"rosbag_record01.bag", None));
-        ___qlistwidgetitem80 = self.listWidget_12.item(1)
-        ___qlistwidgetitem80.setText(QCoreApplication.translate("MainWindow", u"rosbag_record02.bag", None));
-        ___qlistwidgetitem81 = self.listWidget_12.item(2)
-        ___qlistwidgetitem81.setText(QCoreApplication.translate("MainWindow", u"rosbag_rercord03.bag", None));
-        ___qlistwidgetitem82 = self.listWidget_12.item(3)
-        ___qlistwidgetitem82.setText(QCoreApplication.translate("MainWindow", u"rosbag_record04.bag", None));
-        ___qlistwidgetitem83 = self.listWidget_12.item(4)
-        ___qlistwidgetitem83.setText(QCoreApplication.translate("MainWindow", u"rosbag_record05.bag", None));
-        self.listWidget_12.setSortingEnabled(__sortingEnabled4)
+        ___qlistwidgetitem78 = self.listWidget_12.item(0)
+        ___qlistwidgetitem78.setText(QCoreApplication.translate("MainWindow", u"rosbag_record01.bag", None));
+        ___qlistwidgetitem79 = self.listWidget_12.item(1)
+        ___qlistwidgetitem79.setText(QCoreApplication.translate("MainWindow", u"rosbag_record02.bag", None));
+        ___qlistwidgetitem80 = self.listWidget_12.item(2)
+        ___qlistwidgetitem80.setText(QCoreApplication.translate("MainWindow", u"rosbag_rercord03.bag", None));
+        ___qlistwidgetitem81 = self.listWidget_12.item(3)
+        ___qlistwidgetitem81.setText(QCoreApplication.translate("MainWindow", u"rosbag_record04.bag", None));
+        ___qlistwidgetitem82 = self.listWidget_12.item(4)
+        ___qlistwidgetitem82.setText(QCoreApplication.translate("MainWindow", u"rosbag_record05.bag", None));
+        self.listWidget_12.setSortingEnabled(__sortingEnabled5)
 
         self.btn_select_scenario.setText(QCoreApplication.translate("MainWindow", u"Select Scenario", None))
         self.label_77.setText("")
@@ -4092,37 +4429,37 @@ class Ui_MainWindow(object):
         self.saveMetrics.setText(QCoreApplication.translate("MainWindow", u"Save Metrics", None))
         self.label_35.setText(QCoreApplication.translate("MainWindow", u"Information", None))
 
-        __sortingEnabled5 = self.listWidget_18.isSortingEnabled()
+        __sortingEnabled6 = self.listWidget_18.isSortingEnabled()
         self.listWidget_18.setSortingEnabled(False)
-        ___qlistwidgetitem84 = self.listWidget_18.item(0)
-        ___qlistwidgetitem84.setText(QCoreApplication.translate("MainWindow", u"Metrics", None));
-        ___qlistwidgetitem85 = self.listWidget_18.item(1)
-        ___qlistwidgetitem85.setText(QCoreApplication.translate("MainWindow", u"Detected", None));
-        ___qlistwidgetitem86 = self.listWidget_18.item(2)
-        ___qlistwidgetitem86.setText(QCoreApplication.translate("MainWindow", u"Undetected", None));
-        ___qlistwidgetitem87 = self.listWidget_18.item(3)
-        ___qlistwidgetitem87.setText(QCoreApplication.translate("MainWindow", u"Covered", None));
-        ___qlistwidgetitem88 = self.listWidget_18.item(4)
-        ___qlistwidgetitem88.setText(QCoreApplication.translate("MainWindow", u"Valid", None));
-        ___qlistwidgetitem89 = self.listWidget_18.item(5)
-        ___qlistwidgetitem89.setText(QCoreApplication.translate("MainWindow", u"Total Mutants", None));
-        ___qlistwidgetitem90 = self.listWidget_18.item(6)
-        ___qlistwidgetitem90.setText(QCoreApplication.translate("MainWindow", u"Mutant States", None));
-        ___qlistwidgetitem91 = self.listWidget_18.item(7)
-        ___qlistwidgetitem91.setText(QCoreApplication.translate("MainWindow", u"Killed", None));
-        ___qlistwidgetitem92 = self.listWidget_18.item(8)
-        ___qlistwidgetitem92.setText(QCoreApplication.translate("MainWindow", u"Survived", None));
-        ___qlistwidgetitem93 = self.listWidget_18.item(9)
-        ___qlistwidgetitem93.setText(QCoreApplication.translate("MainWindow", u"No Coverage", None));
-        ___qlistwidgetitem94 = self.listWidget_18.item(10)
-        ___qlistwidgetitem94.setText(QCoreApplication.translate("MainWindow", u"Timeout", None));
-        ___qlistwidgetitem95 = self.listWidget_18.item(11)
-        ___qlistwidgetitem95.setText(QCoreApplication.translate("MainWindow", u"Runtime Error", None));
-        ___qlistwidgetitem96 = self.listWidget_18.item(12)
-        ___qlistwidgetitem96.setText(QCoreApplication.translate("MainWindow", u"Compile Error", None));
-        ___qlistwidgetitem97 = self.listWidget_18.item(13)
-        ___qlistwidgetitem97.setText(QCoreApplication.translate("MainWindow", u"Ignored", None));
-        self.listWidget_18.setSortingEnabled(__sortingEnabled5)
+        ___qlistwidgetitem83 = self.listWidget_18.item(0)
+        ___qlistwidgetitem83.setText(QCoreApplication.translate("MainWindow", u"Metrics", None));
+        ___qlistwidgetitem84 = self.listWidget_18.item(1)
+        ___qlistwidgetitem84.setText(QCoreApplication.translate("MainWindow", u"Detected", None));
+        ___qlistwidgetitem85 = self.listWidget_18.item(2)
+        ___qlistwidgetitem85.setText(QCoreApplication.translate("MainWindow", u"Undetected", None));
+        ___qlistwidgetitem86 = self.listWidget_18.item(3)
+        ___qlistwidgetitem86.setText(QCoreApplication.translate("MainWindow", u"Covered", None));
+        ___qlistwidgetitem87 = self.listWidget_18.item(4)
+        ___qlistwidgetitem87.setText(QCoreApplication.translate("MainWindow", u"Valid", None));
+        ___qlistwidgetitem88 = self.listWidget_18.item(5)
+        ___qlistwidgetitem88.setText(QCoreApplication.translate("MainWindow", u"Total Mutants", None));
+        ___qlistwidgetitem89 = self.listWidget_18.item(6)
+        ___qlistwidgetitem89.setText(QCoreApplication.translate("MainWindow", u"Mutant States", None));
+        ___qlistwidgetitem90 = self.listWidget_18.item(7)
+        ___qlistwidgetitem90.setText(QCoreApplication.translate("MainWindow", u"Killed", None));
+        ___qlistwidgetitem91 = self.listWidget_18.item(8)
+        ___qlistwidgetitem91.setText(QCoreApplication.translate("MainWindow", u"Survived", None));
+        ___qlistwidgetitem92 = self.listWidget_18.item(9)
+        ___qlistwidgetitem92.setText(QCoreApplication.translate("MainWindow", u"No Coverage", None));
+        ___qlistwidgetitem93 = self.listWidget_18.item(10)
+        ___qlistwidgetitem93.setText(QCoreApplication.translate("MainWindow", u"Timeout", None));
+        ___qlistwidgetitem94 = self.listWidget_18.item(11)
+        ___qlistwidgetitem94.setText(QCoreApplication.translate("MainWindow", u"Runtime Error", None));
+        ___qlistwidgetitem95 = self.listWidget_18.item(12)
+        ___qlistwidgetitem95.setText(QCoreApplication.translate("MainWindow", u"Compile Error", None));
+        ___qlistwidgetitem96 = self.listWidget_18.item(13)
+        ___qlistwidgetitem96.setText(QCoreApplication.translate("MainWindow", u"Ignored", None));
+        self.listWidget_18.setSortingEnabled(__sortingEnabled6)
 
         self.btn_back_exe.setText(QCoreApplication.translate("MainWindow", u"Back To Execution Step", None))
         self.customFault.setStyleSheet("")
