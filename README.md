@@ -1,5 +1,5 @@
 # IM-FIT
-![last_commit](https://img.shields.io/github/last-commit/inomuh/imfit?color=green) ![repo_size](https://img.shields.io/github/repo-size/inomuh/imfit) ![Apache-2.0 License](https://img.shields.io/github/license/inomuh/imfit?color=blue) ![lang](https://img.shields.io/github/languages/top/inomuh/imfit)
+![last_commit](https://img.shields.io/github/last-commit/inomuh/imfit?color=green) ![repo_size](https://img.shields.io/github/repo-size/inomuh/imfit) ![Apache-2.0 License](https://img.shields.io/github/license/inomuh/imfit?color=blue) ![lang](https://img.shields.io/github/languages/top/inomuh/imfit) [![CodeFactor](https://www.codefactor.io/repository/github/akerdogmus/imfit/badge)](https://www.codefactor.io/repository/github/akerdogmus/imfit)
 
 IM-FIT provides to find the weaknesses on Python and ROS. 
 The user can use IM-FIT with workload and/or code snippets. At the same time the user can create custom workload and code snippets for its codes.
@@ -33,14 +33,26 @@ PS: Before first run IM-FIT, the command
 
 must enter the terminal opened from IM-FIT folder.
 
+
 ### Credits
 
 <a href="http://valu3s.eu">
-  <img align=left img src="https://valu3s.eu/wp-content/uploads/2020/04/VALU3S_green_transparent-1024x576.png" 
+  <img align=left img src="https://upload.wikimedia.org/wikipedia/tr/d/d0/TUBITAK-Logo.jpg" 
+       alt="tübitak_logo" height="100" >
+</a>
+
+---
+
+This work is supported by [TÜBİTAK](https://www.tubitak.gov.tr/) Project under grant number 120N803 which conducted by the İnovasyon Mühendislik.
+
+---
+
+<a href="http://valu3s.eu">
+  <img align=right img src="https://valu3s.eu/wp-content/uploads/2020/04/VALU3S_green_transparent-1024x576.png" 
        alt="valu3s_logo" height="100" >
 </a>
 
-This work is done by [Inovasyon Muhendislik](https://www.inovasyonmuhendislik.com/) and [ESOGU-SRLAB](https://srlab.ogu.edu.tr/) under [VALU3S](https://valu3s.eu) project. This project has received funding from the [ECSEL](https://www.ecsel.eu) Joint Undertaking (JU) under grant agreement No 876852. The JU receives support from the European Union’s Horizon 2020 research and innovation programme and Austria, Czech Republic, Germany, Ireland, Italy, Portugal, Spain, Sweden, Turkey.
+  This work is also done by [Inovasyon Muhendislik](https://www.inovasyonmuhendislik.com/) and [ESOGU-SRLAB](https://srlab.ogu.edu.tr/) under [VALU3S](https://valu3s.eu) project. This project has received funding from the [ECSEL](https://www.ecsel.eu) Joint Undertaking (JU) under grant agreement No 876852. The JU receives support from the European Union’s Horizon 2020 research and innovation programme and Austria, Czech Republic, Germany, Ireland, Italy, Portugal, Spain, Sweden, Turkey.
 
 ### License
 
