@@ -1,5 +1,5 @@
 # IM-FIT
-![last_commit](https://img.shields.io/github/last-commit/inomuh/imfit?color=green) ![repo_size](https://img.shields.io/github/repo-size/inomuh/imfit) ![Apache-2.0 License](https://img.shields.io/github/license/inomuh/imfit?color=blue) ![lang](https://img.shields.io/github/languages/top/inomuh/imfit)
+![last_commit](https://img.shields.io/github/last-commit/inomuh/imfit?color=green) ![repo_size](https://img.shields.io/github/repo-size/inomuh/imfit) ![Apache-2.0 License](https://img.shields.io/github/license/inomuh/imfit?color=blue) ![lang](https://img.shields.io/github/languages/top/inomuh/imfit) [![CodeFactor](https://www.codefactor.io/repository/github/akerdogmus/imfit/badge)](https://www.codefactor.io/repository/github/akerdogmus/imfit)
 
 IM-FIT provides to find the weaknesses on Python and ROS. 
 The user can use IM-FIT with workload and/or code snippets. At the same time the user can create custom workload and code snippets for its codes.
