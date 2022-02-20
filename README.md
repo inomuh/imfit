@@ -26,7 +26,7 @@ With IM-FIT, the user can inject fault loads that the user has created, either s
 IM-FIT checks if the user has source codes loaded into IM-FIT, the workload usage status, and whether it has selected code snippets. If the user is going to use the workload, it loads the workload or creates them within the IM-FIT interface. The user selects which code snippets to use in the scanning process from the table of code snippets. If the user wants to create its own code snippets, it does so within the IM-FIT interface.
 
 
-![Image of IM-FIT Scan Page](https://github.com/cembglm/create_readmeS/blob/main/scan-page.png)
+![Image of IM-FIT Scan Page](https://github.com/inomuh/imfit/blob/main/scan-page.png)
 <p align="center">
         <b><i>Fig 3. IM-FIT Scan Page</i></b>
 </p>
