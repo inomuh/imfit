@@ -18,11 +18,13 @@ IM-FIT is a software tool for industrial robot software that can customize. By u
 With IM-FIT, the user can inject fault loads that the user has created, either selected from the fault library or already created, into the workload. By running IM-FIT fault-injected codes in a virtual operating system environment with Docker software, it is possible to collect the data of the fault results, while the injected faults are prevented from affecting each other and the system with this method. In the display of the collected data, classical analyzes and log analyzes are provided. By using graphics and Gazebo simulation environment in the visualization part, it is provided to show which events may occur as a result of fault injections. These analyzes are made into a “json” type report and presented to the user as a V&V report, thus completing the process verification.
 
 ![Image of IM-FIT Start Page](https://github.com/inomuh/imfit/blob/main/start-page.png)
+
 <p align="center">
         <b><i>Fig 2. IM-FIT Start Page</i></b>
 </p>
 
 IM-FIT checks if the user has source codes loaded into IM-FIT, the workload usage status, and whether it has selected code snippets. If the user is going to use the workload, it loads the workload or creates them within the IM-FIT interface. The user selects which code snippets to use in the scanning process from the table of code snippets. If the user wants to create its own code snippets, it does so within the IM-FIT interface.
+
 
 ![Image of IM-FIT Scan Page](https://github.com/cembglm/create_readmeS/blob/main/scan-page.png)
 <p align="center">
@@ -30,6 +32,7 @@ IM-FIT checks if the user has source codes loaded into IM-FIT, the workload usag
 </p>
 
 On the start page, when all the operations for the scanning step are completed, the scan page is entered.
+
 
 ![Image of IM-FIT ROS Page](https://github.com/inomuh/imfit/blob/main/ros-page.png)
 <p align="center">
