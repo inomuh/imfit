@@ -16,6 +16,9 @@ import random
 import astunparse
 import inspect
 import string
+import dbConnection
+import psycopg2
+import IMFIT_functions
 
 from PySide6 import *
 from modules import *
@@ -27,9 +30,30 @@ from ui_main import Ui_MainWindow
 
 from fpdf import FPDF
 
+# connection = psycopg2.connect(user="postgres",
+#                                 password="root",
+#                                 host="127.0.0.1",
+#                                 port="5432",
+#                                 database="postgres")
+# cursor = connection.cursor()
+
 
 class MainWindow(QMainWindow):
     widgets = None
+
+    global connection
+
+    connection = dbConnection.connect("VVToolDataBase","postgres","root")
+    connection.commit()
+
+    global run_order_list_just_path
+    run_order_list_just_path = list()
+
+    global ros_source_codes
+    ros_source_codes = ""
+
+    global ros_queue
+    ros_queue = list()
 
     global possible_mutant_list
     possible_mutant_list = list()
@@ -1399,280 +1423,391 @@ class MainWindow(QMainWindow):
             global faultNameList
             global timeoutList
             global sourceAndMutatedCode
+            global ros_source_mutant
+            global ros_source_codes
 
-            start_time = time.time()
+            if widgets.checkBox_13.isChecked() is True:
 
-            timeoutCounter = 0
+                killed_counter = 0
+                survived_counter = 0
+                ros_source_code = ""
 
-            sourceCodeData = widgets.textEdit.toPlainText()
+                len_ros_source_mutant = len(ros_source_mutant)
 
-            fname = "original_code.py"
-            data = sourceCodeData
-            with open(fname, "w") as f:
-                f.write(data)
+                working_directory = widgets.lineEdit_2.text()
 
-            lengthMutatedLines = widgets.listWidget_4.count()
-            timeLimitPerProcess = widgets.textEdit_18.toPlainText()
+                for i in range(len_ros_source_mutant):
+                    if i % 2 == 1:
+                        new_data = ros_source_codes.replace(
+                            ros_source_mutant[i - 1], ros_source_mutant[i]
+                        )
 
-            subprocess.run("python3 original_code.py", shell=True)
-            # cmd = ["python3", "original_code.py"]
-            # try:
-            # 	subprocess.run(cmd, stdout=subprocess.PIPE, shell=True, timeout=int(timeLimitPerProcess))
-            # except subprocess.TimeoutExpired:
-            # 	pass
+                        save_path = widgets.lineEdit_2.text()
+                        fname = "mutant" + str(int(i / 2)) + ".py"
 
-            print(
-                "############################################################################"
-            )
-            print(
-                "########################         Original Code     #########################"
-            )
-            print(
-                "############################################################################"
-            )
+                        completeName = os.path.join(save_path, fname)
+                        file1 = open(completeName, "w")
+                        file1.write(new_data)
+                        file1.close()
 
-            with open("faultPlans.json") as faultsFromJson:
-                faultList = json.load(faultsFromJson)
+                        subprocess.Popen(["chmod", "+x", fname], cwd=working_directory)
 
-            print(lengthMutatedLines)
+                        print(
+                            "\n\n############################################################################"
+                        )
+                        print(
+                            "######################       Mutant:{mutant_name}        ######################".format(
+                                mutant_name=fname
+                            )
+                        )
+                        print(
+                            "############################################################################"
+                        )
 
-            for i in range(0, lengthMutatedLines):
-                targetLineFromJson = faultList["fault_plans"][i]["Fault"]["Source_Code"]
-                mutatedCodeFromJson = faultList["fault_plans"][i]["Fault"][
-                    "Mutate_Code"
-                ]
-
-                mutationProcess = sourceCodeData.replace(
-                    targetLineFromJson, mutatedCodeFromJson
+                        try:
+                            roscore_process = subprocess.Popen(["roscore"])
+                            time.sleep(5)
+                            status_output = subprocess.Popen(
+                                ["rosrun", "deneme_paket", fname]
+                            )
+                            status_output.wait(timeout=5)
+                        except subprocess.TimeoutExpired:
+                            status_output.terminate()
+                            roscore_process.terminate()
+                            survived_counter += 1
+                            print(
+                                "############################################################################"
+                            )
+                            print(
+                                "######################       Survived Mutant          ######################"
+                            )
+                            print(
+                                "############################################################################\n\n"
+                            )
+                            print(
+                                "----------------------------------------------------------------------------"
+                            )
+                        else:
+                            status_output.terminate()
+                            roscore_process.terminate()
+                            killed_counter += 1
+                            print(
+                                "############################################################################"
+                            )
+                            print(
+                                "######################       Killed Mutant            ######################"
+                            )
+                            print(
+                                "############################################################################\n\n"
+                            )
+                            print(
+                                "----------------------------------------------------------------------------"
+                            )
+                print(
+                    "\n\n############################################################################"
                 )
-                fname = "fault" + str(i) + ".py"
-                data = mutationProcess
+                print(
+                    "#########################       Results            #########################"
+                )
+                print(
+                    "############################################################################\n\n"
+                )
+
+                print("Total Killed Mutant(s):", killed_counter)
+                print("Total Survived Mutant(s):", survived_counter)
+
+                print(
+                    "\nMutation Score:",
+                    (killed_counter / (killed_counter + survived_counter)) * 100,
+                )
+
+                print(
+                    "----------------------------------------------------------------------------\n\n"
+                )
+
+            else:
+
+                start_time = time.time()
+
+                timeoutCounter = 0
+
+                sourceCodeData = widgets.textEdit.toPlainText()
+
+                fname = "original_code.py"
+                data = sourceCodeData
                 with open(fname, "w") as f:
                     f.write(data)
 
-                print("\n\nFault Number: ", i)
+                lengthMutatedLines = widgets.listWidget_4.count()
+                timeLimitPerProcess = widgets.textEdit_18.toPlainText()
+
+                subprocess.run("python3 original_code.py", shell=True)
+                # cmd = ["python3", "original_code.py"]
+                # try:
+                # 	subprocess.run(cmd, stdout=subprocess.PIPE, shell=True, timeout=int(timeLimitPerProcess))
+                # except subprocess.TimeoutExpired:
+                # 	pass
+
                 print(
-                    "\n############################################################################"
+                    "############################################################################"
+                )
+                print(
+                    "########################         Original Code     #########################"
+                )
+                print(
+                    "############################################################################"
                 )
 
-                cmd = ["python3", "fault" + str(i) + ".py"]
-                try:
-                    res = subprocess.run(
-                        cmd, stdout=subprocess.PIPE, timeout=int(timeLimitPerProcess)
+                with open("faultPlans.json") as faultsFromJson:
+                    faultList = json.load(faultsFromJson)
+
+                print(lengthMutatedLines)
+
+                for i in range(0, lengthMutatedLines):
+                    targetLineFromJson = faultList["fault_plans"][i]["Fault"][
+                        "Source_Code"
+                    ]
+                    mutatedCodeFromJson = faultList["fault_plans"][i]["Fault"][
+                        "Mutate_Code"
+                    ]
+
+                    mutationProcess = sourceCodeData.replace(
+                        targetLineFromJson, mutatedCodeFromJson
                     )
-                except subprocess.TimeoutExpired:
-                    timeoutCounter += 1
-                    timeoutList.append("python3 fault" + str(i) + ".py")
-                    killedMutants += 1
-                    listOfKilledMutants.append("python3 fault" + str(i) + ".py")
-                    # errorCodeList.append(mutantCodeOutput)
-                    continue
-                else:
+                    fname = "fault" + str(i) + ".py"
+                    data = mutationProcess
+                    with open(fname, "w") as f:
+                        f.write(data)
 
-                    mutantCodeExecution = "python3 fault" + str(i) + ".py"
+                    print("\n\nFault Number: ", i)
+                    print(
+                        "\n############################################################################"
+                    )
 
-                    statusOfOutput = subprocess.getstatusoutput(
-                        mutantCodeExecution
-                    )  # Mutant kodları çalıştırıp çıktılarını alır.
-                    mutantCodeOutput = statusOfOutput[1]
-                    errorCodeList.append(mutantCodeOutput)
-
-                    coverageRun = (
-                        "coverage run fault" + str(i) + ".py"
-                    )  # Çalıştırılacak "fault"ların isimleri oluşturulur.
-                    coverageReport = "coverage report"
-
-                    os.system(coverageRun)  # Faultlar ayrı ayrı çalıştırılır
-                    os.system(
-                        coverageReport
-                    )  # Çalıştırılan "fault"un coverage raporunu oluşturur.
-
-                    if statusOfOutput[0] != 0:
-                        print(mutantCodeOutput)
-                        print(
-                            "############################################################################"
+                    cmd = ["python3", "fault" + str(i) + ".py"]
+                    try:
+                        res = subprocess.run(
+                            cmd,
+                            stdout=subprocess.PIPE,
+                            timeout=int(timeLimitPerProcess),
                         )
-                        print(
-                            "######################       Killed Mutant            ######################"
-                        )
-                        print(
-                            "############################################################################"
-                        )
+                    except subprocess.TimeoutExpired:
+                        timeoutCounter += 1
+                        timeoutList.append("python3 fault" + str(i) + ".py")
                         killedMutants += 1
-                        listOfKilledMutants.append(mutantCodeExecution)
-                        errorCodeList.append(mutantCodeOutput)
-
+                        listOfKilledMutants.append("python3 fault" + str(i) + ".py")
+                        # errorCodeList.append(mutantCodeOutput)
+                        continue
                     else:
 
-                        if mutantCodeOutput == originalSourceCodeOutput:
+                        mutantCodeExecution = "python3 fault" + str(i) + ".py"
+
+                        statusOfOutput = subprocess.getstatusoutput(
+                            mutantCodeExecution
+                        )  # Mutant kodları çalıştırıp çıktılarını alır.
+                        mutantCodeOutput = statusOfOutput[1]
+                        errorCodeList.append(mutantCodeOutput)
+
+                        coverageRun = (
+                            "coverage run fault" + str(i) + ".py"
+                        )  # Çalıştırılacak "fault"ların isimleri oluşturulur.
+                        coverageReport = "coverage report"
+
+                        os.system(coverageRun)  # Faultlar ayrı ayrı çalıştırılır
+                        os.system(
+                            coverageReport
+                        )  # Çalıştırılan "fault"un coverage raporunu oluşturur.
+
+                        if statusOfOutput[0] != 0:
                             print(mutantCodeOutput)
                             print(
                                 "############################################################################"
                             )
                             print(
-                                "######################       Equivalent Mutant        ######################"
+                                "######################       Killed Mutant            ######################"
                             )
                             print(
                                 "############################################################################"
                             )
-                            equivalentMutants += 1
-                            listOfEquivalentMutants.append(mutantCodeExecution)
+                            killedMutants += 1
+                            listOfKilledMutants.append(mutantCodeExecution)
+                            errorCodeList.append(mutantCodeOutput)
 
                         else:
-                            print(mutantCodeOutput)
-                            print(
-                                "############################################################################"
-                            )
-                            print(
-                                "######################       Survivor Mutant          ######################"
-                            )
-                            print(
-                                "############################################################################"
-                            )
-                            survivorMutants += 1
-                            listOfSurvivorMutants.append(mutantCodeExecution)
 
-            end_time = time.time()
+                            if mutantCodeOutput == originalSourceCodeOutput:
+                                print(mutantCodeOutput)
+                                print(
+                                    "############################################################################"
+                                )
+                                print(
+                                    "######################       Equivalent Mutant        ######################"
+                                )
+                                print(
+                                    "############################################################################"
+                                )
+                                equivalentMutants += 1
+                                listOfEquivalentMutants.append(mutantCodeExecution)
 
-            print("\n\n")
-            print(
-                "############################################################################"
-            )
-            print(
-                "#                                RESULTS                                   #"
-            )
-            print(
-                "############################################################################"
-            )
-            print("\n")
+                            else:
+                                print(mutantCodeOutput)
+                                print(
+                                    "############################################################################"
+                                )
+                                print(
+                                    "######################       Survivor Mutant          ######################"
+                                )
+                                print(
+                                    "############################################################################"
+                                )
+                                survivorMutants += 1
+                                listOfSurvivorMutants.append(mutantCodeExecution)
 
-            print("Process Time: ", end_time - start_time)
-            widgets.listWidget_9.addItem("Process Time:" + str(end_time - start_time))
-            print("\n")
+                end_time = time.time()
 
-            mutationScore = (killedMutants / (killedMutants + survivorMutants)) * 100
+                print("\n\n")
+                print(
+                    "############################################################################"
+                )
+                print(
+                    "#                                RESULTS                                   #"
+                )
+                print(
+                    "############################################################################"
+                )
+                print("\n")
 
-            print("Mutation Score: %", mutationScore)
-            widgets.listWidget_9.addItem("Mutation Score: %" + str(mutationScore))
-            print("\n")
-            print(
-                "Number of Total Mutants:",
-                killedMutants + survivorMutants + equivalentMutants,
-            )
-            widgets.listWidget_9.addItem(
-                "All Mutants: "
-                + str(killedMutants + survivorMutants + equivalentMutants)
-            )
-            print("\n")
-            print("Killed Mutants: ", killedMutants)
-            widgets.listWidget_9.addItem("Killed: " + str(killedMutants))
-            print("Survivor Mutants: ", survivorMutants)
-            widgets.listWidget_9.addItem("Survived: " + str(survivorMutants))
-            print("Equivalent Mutants: ", equivalentMutants)
-            widgets.listWidget_9.addItem("Equivalent: " + str(equivalentMutants))
-            print("Timeout: ", timeoutCounter)
-            widgets.listWidget_9.addItem("Timeout: " + str(timeoutCounter))
+                print("Process Time: ", end_time - start_time)
+                widgets.listWidget_9.addItem(
+                    "Process Time:" + str(end_time - start_time)
+                )
+                print("\n")
 
-            print("\n")
-            print(
-                "############################################################################"
-            )
-            print(
-                "#                                DETAILS                                   #"
-            )
-            print(
-                "############################################################################"
-            )
-            print("\n")
+                mutationScore = (
+                    killedMutants / (killedMutants + survivorMutants)
+                ) * 100
 
-            lengthOfKilledMutantsList = len(listOfKilledMutants)
+                print("Mutation Score: %", mutationScore)
+                widgets.listWidget_9.addItem("Mutation Score: %" + str(mutationScore))
+                print("\n")
+                print(
+                    "Number of Total Mutants:",
+                    killedMutants + survivorMutants + equivalentMutants,
+                )
+                widgets.listWidget_9.addItem(
+                    "All Mutants: "
+                    + str(killedMutants + survivorMutants + equivalentMutants)
+                )
+                print("\n")
+                print("Killed Mutants: ", killedMutants)
+                widgets.listWidget_9.addItem("Killed: " + str(killedMutants))
+                print("Survivor Mutants: ", survivorMutants)
+                widgets.listWidget_9.addItem("Survived: " + str(survivorMutants))
+                print("Equivalent Mutants: ", equivalentMutants)
+                widgets.listWidget_9.addItem("Equivalent: " + str(equivalentMutants))
+                print("Timeout: ", timeoutCounter)
+                widgets.listWidget_9.addItem("Timeout: " + str(timeoutCounter))
 
-            print("Killed Mutants List: ")
-            widgets.listWidget_16.addItem("Killed Mutants List: ")
-            for i in range(lengthOfKilledMutantsList):
-                print(listOfKilledMutants[i])
-                widgets.listWidget_16.addItem(str(listOfKilledMutants[i]))
-
-            print("\n")
-
-            print("Survivor Mutants List: ")
-            widgets.listWidget_16.addItem("Survivor Mutants List: ")
-            for i in listOfSurvivorMutants:
-                print(i)
-                widgets.listWidget_16.addItem(str(i))
-
-            print("\n")
-
-            print("Equivalent Mutants List: ")
-            widgets.listWidget_16.addItem("Equivalent Mutants List: ")
-            for i in listOfEquivalentMutants:
-                print(i)
-                widgets.listWidget_16.addItem(str(i))
-
-            print("Timeout List: ")
-            widgets.listWidget_16.addItem("Timeout Mutants List: ")
-            for i in timeoutList:
-                print(i)
-                widgets.listWidget_16.addItem(str(i))
-
-            print("\n")
-            print(
-                "############################################################################"
-            )
-            print(
-                "#                     Outputs of Killed Mutants                            #"
-            )
-            print(
-                "############################################################################"
-            )
-
-            for i in range(lengthOfKilledMutantsList):
                 print("\n")
                 print(
                     "############################################################################"
                 )
-                print(listOfKilledMutants[i])
-                widgets.listWidget_19.addItem(str(listOfKilledMutants[i]))
                 print(
-                    "----------------------------------------------------------------------------"
+                    "#                                DETAILS                                   #"
                 )
-                errorOutput = errorCodeList[i]
-                onlyError = errorOutput.split("\n")
-                print(onlyError[-1])
-                widgets.listWidget_19.addItem(str(onlyError[-1]))
                 print(
                     "############################################################################"
                 )
-            print("\n")
+                print("\n")
 
-            if widgets.checkBox_7.isChecked() is True:
-                for i in range(0, lengthMutatedLines):
-                    path = "fault" + str(i) + ".py"
-                    os.remove(path)
+                lengthOfKilledMutantsList = len(listOfKilledMutants)
 
-                os.remove("original_code.py")
-                os.remove(".coverage")
-            else:
-                pass
+                print("Killed Mutants List: ")
+                widgets.listWidget_16.addItem("Killed Mutants List: ")
+                for i in range(lengthOfKilledMutantsList):
+                    print(listOfKilledMutants[i])
+                    widgets.listWidget_16.addItem(str(listOfKilledMutants[i]))
 
-            widgets.label_10.setText("Mutation Score: %" + str(mutationScore))
+                print("\n")
 
-            lenfaultNameList = len(faultNameList)
-            for i in range(0, lenfaultNameList):
-                widgets.listWidget_14.addItem(
-                    "fault" + str(i) + ".py --> " + str(faultNameList[i])
+                print("Survivor Mutants List: ")
+                widgets.listWidget_16.addItem("Survivor Mutants List: ")
+                for i in listOfSurvivorMutants:
+                    print(i)
+                    widgets.listWidget_16.addItem(str(i))
+
+                print("\n")
+
+                print("Equivalent Mutants List: ")
+                widgets.listWidget_16.addItem("Equivalent Mutants List: ")
+                for i in listOfEquivalentMutants:
+                    print(i)
+                    widgets.listWidget_16.addItem(str(i))
+
+                print("Timeout List: ")
+                widgets.listWidget_16.addItem("Timeout Mutants List: ")
+                for i in timeoutList:
+                    print(i)
+                    widgets.listWidget_16.addItem(str(i))
+
+                print("\n")
+                print(
+                    "############################################################################"
                 )
-                print(str(faultNameList[i]))
+                print(
+                    "#                     Outputs of Killed Mutants                            #"
+                )
+                print(
+                    "############################################################################"
+                )
 
-            # lenSourceAndMutatedCode = len(sourceAndMutatedCode)
+                for i in range(lengthOfKilledMutantsList):
+                    print("\n")
+                    print(
+                        "############################################################################"
+                    )
+                    print(listOfKilledMutants[i])
+                    widgets.listWidget_19.addItem(str(listOfKilledMutants[i]))
+                    print(
+                        "----------------------------------------------------------------------------"
+                    )
+                    errorOutput = errorCodeList[i]
+                    onlyError = errorOutput.split("\n")
+                    print(onlyError[-1])
+                    widgets.listWidget_19.addItem(str(onlyError[-1]))
+                    print(
+                        "############################################################################"
+                    )
+                print("\n")
 
-            # for i in (0,lenSourceAndMutatedCode):
-            # 	if i % 2 == 0:
-            # 		continue
-            # 	else:
-            # 		sourceCode = sourceAndMutatedCode[i-1]
-            # 		mutatedCode = sourceAndMutatedCode[i]
-            # 		widgets.listWidget_14.addItem(sourceCode + " --> " + mutatedCode)
+                if widgets.checkBox_7.isChecked() is True:
+                    for i in range(0, lengthMutatedLines):
+                        path = "fault" + str(i) + ".py"
+                        os.remove(path)
+
+                    os.remove("original_code.py")
+                    os.remove(".coverage")
+                else:
+                    pass
+
+                widgets.label_10.setText("Mutation Score: %" + str(mutationScore))
+
+                lenfaultNameList = len(faultNameList)
+                for i in range(0, lenfaultNameList):
+                    widgets.listWidget_14.addItem(
+                        "fault" + str(i) + ".py --> " + str(faultNameList[i])
+                    )
+                    print(str(faultNameList[i]))
+
+                # lenSourceAndMutatedCode = len(sourceAndMutatedCode)
+
+                # for i in (0,lenSourceAndMutatedCode):
+                # 	if i % 2 == 0:
+                # 		continue
+                # 	else:
+                # 		sourceCode = sourceAndMutatedCode[i-1]
+                # 		mutatedCode = sourceAndMutatedCode[i]
+                # 		widgets.listWidget_14.addItem(sourceCode + " --> " + mutatedCode)
 
         def selectedMetricInformations():
             try:
@@ -1920,6 +2055,11 @@ class MainWindow(QMainWindow):
             )
             widgets.titleRightInfo.setText("START")
 
+            name = "Source Code Example"
+            description = "Settings Example"
+
+            IMFIT_functions.insert_system(connection, name, description)
+
         if btnName == "btn_go_start_2":
             widgets.stackedWidget.setCurrentWidget(widgets.start)
             UIFunctions.resetStyle(self, widgets.btn_home.styleSheet())
@@ -2072,20 +2212,34 @@ class MainWindow(QMainWindow):
         # SAVE WORKLOAD PAGE FROM START PAGE
 
         if btnName == "btn_workload_save":
-            workloadText = widgets.textEdit_12.toPlainText()
-            workloadName = widgets.textEdit_8.toPlainText()
-            pathName = widgets.textEdit_21.toPlainText()
+            if widgets.plainTextEdit_2.toPlainText() != "":
+                dialog = QFileDialog()
+                workload_content = widgets.plainTextEdit_2.toPlainText()
+                workload_name = widgets.textEdit_42.toPlainText() + ".json"
+                desired_dir = QFileDialog.getExistingDirectory()
 
-            completeName = os.path.join(pathName, workloadName + ".json")
+                def write_workload_json(desired_dir, workload_name, workload_content):
+                    full_path = os.path.join(desired_dir, workload_name)
+                    with open(full_path, "w") as f:
+                        json_string = json.dumps(workload_content, indent=4)
+                        f.write(json_string)
 
-            jsonFile = open(completeName, "w")
-            jsonFile.write(workloadText)
-            jsonFile.close()
+                write_workload_json(desired_dir, workload_name, workload_content)
 
         if btnName == "btn_changeDir":
             dialog = QFileDialog()
-            pathName = response = QFileDialog.getExistingDirectory()
-            widgets.textEdit_21.setPlainText(pathName)
+            dialog.setFileMode(QFileDialog.AnyFile)
+            dialog.setNameFilter(("*.json"))
+
+            if dialog.exec_():
+                file_name = dialog.selectedFiles()
+
+                if file_name[0].endswith(".json"):
+                    with open(file_name[0], "r") as f:
+                        data = f.read()
+                        widgets.plainTextEdit.setPlainText(data)
+                        widgets.lineEdit_5.setText(file_name[0])
+                        f.close()
 
         if btnName == "btn_back_start2":
             widgets.stackedWidget.setCurrentWidget(widgets.start)
@@ -2246,57 +2400,58 @@ class MainWindow(QMainWindow):
                 msgBox.exec()
 
         if btnName == "rosrun_btn":
-            # Çalıştırmaya başlamak istiyor musunuz -Evet -Hayır gibi bir doğrulama yapılacak
-
-            # os.system("gnome-terminal -- killall roscore")
-
-            # os.system("gnome-terminal -- roscore")
-
-            # time.sleep(3) # condition
-            # os.system("gnome-terminal -- rosrun deneme_paket talker.py")
-
-            # time.sleep(3)
-            # os.system("gnome-terminal -- rosrun deneme_paket listener.py")
-
-            # time.sleep(3)
-            # os.system("gnome-terminal -- rostopic list")
-
-            # time.sleep(3) # condition
-            # os.system("gnome-terminal -- killall")
-
             def main_func():
                 """main func"""
+                global run_order_list_just_path
+                global ros_process
 
+                len_run_order_list_just_path = len(run_order_list_just_path)
                 roscore_process = subprocess.Popen(["roscore"])
-                time.sleep(3)
-                ros_queue = ["talker.py", "listener.py"]
+                time.sleep(5)
 
-                # for i in ros_queue:
-                talker_process = subprocess.Popen(
-                    ["rosrun", "deneme_paket", ros_queue[0]]
-                )
-                listener_process = subprocess.Popen(
-                    ["rosrun", "deneme_paket", ros_queue[1]]
-                )
+                msgBox.setIcon(QMessageBox.Information)
+                msgBox.setText("Roscore is ready!")
+                msgBox.setWindowTitle("Ready!")
+                msgBox.setStandardButtons(QMessageBox.Ok)
+                msgBox.exec()
 
-                try:
-                    print("Running in process", talker_process.pid)
-                    talker_process.wait(timeout=5)
-                except subprocess.TimeoutExpired:
-                    rosnode_list = subprocess.getoutput("rosnode list")
-                    rostopic_list = subprocess.getoutput("rostopic list")
-                    rosparam_list = subprocess.getoutput("rosparam list")
-                    rosservice_list = subprocess.getoutput("rosservice list")
-                    # rosmsg_list = subprocess.getoutput('rosmsg list')
-                    # rossrv_list = subprocess.getoutput('rossrv list')
-                    print("Timed out - killing", talker_process.pid)
-                    talker_process.terminate()
-                    listener_process.terminate()
-                    roscore_process.terminate()
+                for i in range(len_run_order_list_just_path):
+                    if i % 2 == 0:
+                        ros_directory = run_order_list_just_path[i]
+                        split_rospy_file_name = ros_directory.split("/")
+                        package_name = split_rospy_file_name[-2]
+
+                    else:
+                        rospy_file_name = run_order_list_just_path[i]
+                        print("###---> ", rospy_file_name)
+                        if i == 1:
+                            target_ros_process = subprocess.Popen(
+                                ["rosrun", package_name, rospy_file_name]
+                            )
+                        else:
+                            ros_subprocess = subprocess.Popen(
+                                ["rosrun", package_name, rospy_file_name]
+                            )
+                            try:
+                                print("Running in process", target_ros_process.pid)
+                                target_ros_process.wait(timeout=5)
+                            except subprocess.TimeoutExpired:
+                                rosnode_list = subprocess.getoutput("rosnode list")
+                                rostopic_list = subprocess.getoutput("rostopic list")
+                                rosparam_list = subprocess.getoutput("rosparam list")
+                                rosservice_list = subprocess.getoutput(
+                                    "rosservice list"
+                                )
+                                # rosmsg_list = subprocess.getoutput('rosmsg list')
+                                # rossrv_list = subprocess.getoutput('rossrv list')
+                                print("Timed out - killing", target_ros_process.pid)
+                                target_ros_process.terminate()
+                                ros_subprocess.terminate()
+                                roscore_process.terminate()
+
                 time.sleep(1)
                 print("Process Done")
 
-                # ROS NODE LIST
                 rosnodes = rosnode_list.split("\n")
                 widgets.listWidget_27.addItems(rosnodes)
 
@@ -2332,13 +2487,39 @@ class MainWindow(QMainWindow):
                 msgBox.exec()
 
         if btnName == "add_order_btn":
-            adding_item = ()
-            path = widgets.lineEdit_2.text()
-            file_from_tree = str(widgets.treeView.selectedIndexes()[0].data())
-            adding_item = (file_from_tree, path)
-            widgets.listWidget_26.addItem(str(adding_item))
+            # ROS Package
+            target_file_path = widgets.lineEdit.text()
+            splitted_target_path = target_file_path.split("/")
+
+            script_path = widgets.lineEdit_2.text()
+            splitted_path = script_path.split("/")
+
+            if (
+                splitted_target_path[-2] == "scripts"
+                and splitted_path[-1] == "scripts"
+                and splitted_target_path[-3] == splitted_path[-2]
+            ):
+                adding_item = list()
+                path = widgets.lineEdit_2.text()
+                file_from_tree = str(widgets.treeView.selectedIndexes()[0].data())
+                adding_item = [file_from_tree, path]
+                widgets.listWidget_26.addItem(str(adding_item))
+                run_order_list_just_path.append(path)
+                run_order_list_just_path.append(file_from_tree)
+
+            else:
+                msgBox = QMessageBox()
+                msgBox.setIcon(QMessageBox.Critical)
+                msgBox.setText(
+                    "Check the folder and the package!\nPlease be sure to open scripts folder!"
+                )
+                msgBox.setWindowTitle("Caution!")
+                msgBox.setStandardButtons(QMessageBox.Ok)
+                msgBox.exec()
 
         if btnName == "select_trgt_btn":
+            global ros_source_codes
+
             dialog = QFileDialog()
             dialog.setFileMode(QFileDialog.AnyFile)
             dialog.setNameFilter(("*.py"))
@@ -2349,8 +2530,9 @@ class MainWindow(QMainWindow):
                         data = f.read()
                         ros_file_directory = file_name[0]
                         widgets.lineEdit.setText(ros_file_directory)
-                        ros_source_codes = data.split("\n")
-                        widgets.listWidget_32.addItems(ros_source_codes)
+                        ros_source_codes = data
+                        splitted_ros_source_codes = data.split("\n")
+                        widgets.listWidget_32.addItems(splitted_ros_source_codes)
                         f.close()
 
         if btnName == "remove_order_btn":
@@ -2385,8 +2567,8 @@ class MainWindow(QMainWindow):
 
                         print(zipped_ros_list)
 
-                    except AttributeError():
-                        pass
+                    except AttributeError() or TypeError():
+                        print("Error!")
                 else:
                     pass
 
@@ -2841,7 +3023,7 @@ class MainWindow(QMainWindow):
 
         if btnName == "btn_snip_location":
             dialog = QFileDialog()
-            pathName = response = QFileDialog.getExistingDirectory()
+            pathName = QFileDialog.getExistingDirectory()
             widgets.textEdit_25.setPlainText(pathName)
 
         if btnName == "back_snip":
