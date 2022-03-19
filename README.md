@@ -1,21 +1,14 @@
 # IM-FIT
-![last_commit](https://img.shields.io/github/last-commit/inomuh/imfit?color=green) ![repo_size](https://img.shields.io/github/repo-size/inomuh/imfit) ![Apache-2.0 License](https://img.shields.io/github/license/inomuh/imfit?color=blue) ![lang](https://img.shields.io/github/languages/top/inomuh/imfit) [![CodeFactor](https://www.codefactor.io/repository/github/akerdogmus/imfit/badge)](https://www.codefactor.io/repository/github/akerdogmus/imfit)
+![repo_size](https://img.shields.io/github/repo-size/inomuh/imfit) ![Apache-2.0 License](https://img.shields.io/github/license/inomuh/imfit?color=blue) ![lang](https://img.shields.io/github/languages/top/inomuh/imfit) [![CodeFactor](https://www.codefactor.io/repository/github/akerdogmus/imfit/badge)](https://www.codefactor.io/repository/github/akerdogmus/imfit)
 
-IM-FIT provides to find the weaknesses on Python and ROS. 
-The user can use IM-FIT with workload and/or code snippets. At the same time the user can create custom workload and code snippets for its codes.
-The codes scan by IM-FIT to detect the lines. The user can select the lines to use for execution. At the execution modul, the user can select what it wants features to run.
-The user can show informations about the its tested codes. If the user wants to watch the created scenarios by IM-FIT, it can do it on Gazebo.
-
-Details of IM-FIT
--------------------------------
-IM-FIT is a software tool for industrial robot software that can customize. By using IM-FIT, you can scan the mutation-applicable lines in source codes for **Python, ROS-Py, Launch, Yaml, SRV, MSG** file types, create fault plans, execute according to fault plans, and get a V&V report containing the information obtained in the process.
+IM-FIT applies mutation testing to **Python, ROS-Py, Launch, Yaml, SRV, MSG** file types.
 
 ![Image of IM-FIT Home Page](https://github.com/inomuh/imfit/blob/main/home-page.png)
 <p align="center">
         <b><i>Fig 1. IM-FIT Home Page</i></b>
 </p>
 
-With IM-FIT, the user can inject fault loads that the user has created, either selected from the fault library or already created, into the workload. By running IM-FIT fault-injected codes in a virtual operating system environment with Docker software, it is possible to collect the data of the fault results, while the injected faults are prevented from affecting each other and the system with this method. In the display of the collected data, classical analyzes and log analyzes are provided. By using graphics and Gazebo simulation environment in the visualization part, it is provided to show which events may occur as a result of fault injections. These analyzes are made into a “json” type report and presented to the user as a V&V report, thus completing the process verification.
+IM-FIT, which presents a user manual to the user when opened, aims to provide an efficient and detailed use to the user with this manual.
 
 ![Image of IM-FIT Start Page](https://github.com/inomuh/imfit/blob/main/start-page.png)
 
@@ -23,23 +16,21 @@ With IM-FIT, the user can inject fault loads that the user has created, either s
         <b><i>Fig 2. IM-FIT Start Page</i></b>
 </p>
 
-IM-FIT checks if the user has source codes loaded into IM-FIT, the workload usage status, and whether it has selected code snippets. If the user is going to use the workload, it loads the workload or creates them within the IM-FIT interface. The user selects which code snippets to use in the scanning process from the table of code snippets. If the user wants to create its own code snippets, it does so within the IM-FIT interface.
-
+IM-FIT scans are fully customizable for workloads and selected code snippets. After the scanning process is applied, fault plans are created to be used in test processes. Fault plans keep information about which file to apply a code mutation.
 
 ![Image of IM-FIT Scan Page](https://github.com/inomuh/imfit/blob/main/scan-page.png)
 <p align="center">
         <b><i>Fig 3. IM-FIT Scan Page</i></b>
 </p>
 
-On the start page, when all the operations for the scanning step are completed, the scan page is entered.
-
+Mutants that are compared to the original code in the run are classified as killed or survived. Killing a mutant is the main objective of our testing process. Surviving mutants show that the software we tested works with the fault.
 
 ![Image of IM-FIT ROS Page](https://github.com/inomuh/imfit/blob/main/ros-page.png)
 <p align="center">
         <b><i>Fig 4. IM-FIT ROS Page</i></b>
 </p>
 
-IM-FIT collects this data by running the file that the user wants to mutate to display nodes, topics, services, parameters and messages on the ROS page. IM-FIT performs mutation operations on ROS-Py and Launch files according to the collected data and user requests.
+IM-FIT performs mutation operations on ROS-Py and Launch files according to the collected data and user requests.
 On the execution page, IM-FIT runs the mutants on Docker. At the end of the execution process, you can go to the monitoring page to take detailed information about the V&V process.
 
 Installations
