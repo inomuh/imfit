@@ -1,122 +1,67 @@
+""" IM-FIT """
+
 #!/usr/bin/env python3
 
+import os
+import re
 import sys
 import time
 import ast
-import astpretty
 import json
-import os
-import re
 import subprocess
-import coverage
-import rospy
-import yaml
 import xml.etree.ElementTree as ET
 import random
+import pytest
 import astunparse
-import inspect
-import string
-import dbConnection
-import psycopg2
-import IMFIT_functions
+import fpdf as FPDF
+
+from PySide6.QtWidgets import QApplication, QMainWindow, QFileDialog, QMessageBox
 
 from PySide6 import *
+
 from modules import *
 from widgets import *
 
-from PySide6.QtWidgets import QApplication, QMainWindow, QFileDialog
-from PyQt6.QtCore import QDir
 from ui_main import Ui_MainWindow
 
-from fpdf import FPDF
+import IMFIT_functions
+import dbConnection
 
-# connection = psycopg2.connect(user="postgres",
-#                                 password="root",
-#                                 host="127.0.0.1",
-#                                 port="5432",
-#                                 database="postgres")
-# cursor = connection.cursor()
+import module_bir
+
+import module_uc
 
 
 class MainWindow(QMainWindow):
+    """ IM-FIT UI Window """
     widgets = None
 
-    global connection
+    global RUN_ORDER_LIST_JUST_PATH
+    RUN_ORDER_LIST_JUST_PATH = []
 
-    connection = dbConnection.connect("VVToolDataBase","postgres","root")
-    connection.commit()
+    global ROS_SOURCE_CODE
+    ROS_SOURCE_CODE = ""
 
-    global run_order_list_just_path
-    run_order_list_just_path = list()
+    global POSSIBLE_MUTANT_LIST
+    POSSIBLE_MUTANT_LIST = []
 
-    global ros_source_codes
-    ros_source_codes = ""
+    global ZIPPED_LIST
+    ZIPPED_LIST = []
 
-    global ros_queue
-    ros_queue = list()
+    global ZIPPED_ROS_LIST
+    ZIPPED_ROS_LIST = []
 
-    global possible_mutant_list
-    possible_mutant_list = list()
+    global ROS_SOURCE_MUTANT
+    ROS_SOURCE_MUTANT = []
 
-    global zippedList
-    zippedList = list()
+    global source_and_mutate_code
+    source_and_mutate_code = []
 
-    global zipped_ros_list
-    zipped_ros_list = list()
-
-    global zipped_list_yaml
-    zipped_list_yaml = list()
-
-    global ros_source_mutant
-    ros_source_mutant = list()
-
-    global sourceAndMutatedCode
-    sourceAndMutatedCode = list()
-
-    global sourceCode
-    sourceCode = ""
-
-    global mutatedCode
-    mutatedCode = ""
-
-    global lineNumberAndLineInfo
-    lineNumberAndLineInfo = list()
-
-    global killedMutants
-    killedMutants = 0
-
-    global survivorMutants
-    survivorMutants = 0
-
-    global equivalentMutants
-    equivalentMutants = 0
-
-    global listOfKilledMutants
-    listOfKilledMutants = list()
-
-    global listOfSurvivorMutants
-    listOfSurvivorMutants = list()
-
-    global listOfEquivalentMutants
-    listOfEquivalentMutants = list()
-
-    global errorCodeList
-    errorCodeList = list()
-
-    global originalSourceCodeOutput
-    originalSourceCodeOutput = ""
-
-    global faultNameList
-    faultNameList = list()
-
-    global timeoutList
-    timeoutList = list()
-
-    global file_type
-    file_type = ""
+    global fault_name_list
+    fault_name_list = []
 
     global fi_plan_directory_list
-    fi_plan_directory_list = list()
+    fi_plan_directory_list = []
 
     def __init__(self, parent=None):
         super(MainWindow, self).__init__(parent)
@@ -142,135 +87,48 @@ class MainWindow(QMainWindow):
         # SET UI DEFINITIONS
         UIFunctions.uiDefinitions(self)
 
-        # DATAS
-        self.placeForMutation = list()
-        self.lineNumberForMutation = list()
+        # DATA
+        self.code_part_for_mutation = []
 
         ### FUNCTIONS
 
-        # TAKE FILE FUNCTIONS
+        ### TAKE FILE FUNCTIONS
 
-        # General files function
-        def get_file(self):
-            dialog = QFileDialog()
-            dialog.setFileMode(QFileDialog.AnyFile)
-
-            if dialog.exec_():
-                file_name = dialog.selectedFiles()
-
-                with open(file_name[0], "r") as f:
-                    data = f.read()
-                    widgets.textEdit.setPlainText(data)
-                    f.close()
-
-        def check_empty():
-            length_file_content = widgets.listWidget_24.count()
-            lentgh_mutation_library = widgets.listWidget_20.count()
-
-            if length_file_content > 0 or lentgh_mutation_library > 0:
-                widgets.listWidget_24.clear()  # File Content
-                widgets.listWidget_20.clear()  # Mutation Library
-                widgets.listWidget_23.clear()  # Selected Line  & Fault
-                widgets.listWidget_25.clear()  # Mutation Applied Content
-                widgets.textEdit_41.clear()  # Selected Line
-
-        def take_yaml_file(data):
-            global file_type
-            file_type = "yaml"
-            split_data = data.split("\n")
-            widgets.listWidget_24.addItems(split_data)
-            with open("yaml_fault_library.json") as faultsFromJson:
-                faultList = json.load(faultsFromJson)
-                for i in range(0, 4):
-                    targetLineFromJson = faultList["all_faults"][i]["fault"][
-                        "Fault_Name"
-                    ]
-                    adding_fault = targetLineFromJson.split("\n")
-                    widgets.listWidget_20.addItems(adding_fault)
-
-        def take_launch_file(data):
-            global file_type
-            file_type = "launch"
-            split_data = data.split("\n")
-            widgets.listWidget_24.addItems(split_data)
-            with open("yaml_fault_library.json") as faultsFromJson:
-                faultList = json.load(faultsFromJson)
-                for i in range(4, 7):
-                    targetLineFromJson = faultList["all_faults"][i]["fault"][
-                        "Fault_Name"
-                    ]
-                    adding_fault = targetLineFromJson.split("\n")
-                    widgets.listWidget_20.addItems(adding_fault)
-
-        def take_srv_msg_file(data):
-            global file_type
-            split_data = data.split("\n")
-            widgets.listWidget_24.addItems(split_data)
-            file_type = "srv"
-            with open("yaml_fault_library.json") as faultsFromJson:
-                faultList = json.load(faultsFromJson)
-                for i in range(7, 12):
-                    targetLineFromJson = faultList["all_faults"][i]["fault"][
-                        "Fault_Name"
-                    ]
-                    adding_fault = targetLineFromJson.split("\n")
-                    widgets.listWidget_20.addItems(adding_fault)
-
-        def check_file_type(file_name, data):
-            if file_name.endswith(".yaml") or file_name.endswith(".yml"):
-                take_yaml_file(data)
-            elif file_name.endswith(".launch"):
-                take_launch_file(data)
-            elif file_name.endswith(".srv") or file_name.endswith(".msg"):
-                take_srv_msg_file(data)
-            else:
-                pass
-
-        def get_yaml_file(self):
-            dialog = QFileDialog()
-            dialog.setFileMode(QFileDialog.AnyFile)
-
-            if dialog.exec_():
-                file_name = dialog.selectedFiles()
-
-                with open(file_name[0], "r") as f:
-                    file_name = file_name[0]
-                    check_empty()
-                    data = f.read()
-                    check_file_type(file_name, data)
-                    f.close()
-
-        # Take ".py" file function
-        def get_file_py(self):
+        # Take ".py" file for source code
+        def get_file_py_for_source_code():
             dialog = QFileDialog()
             dialog.setFileMode(QFileDialog.AnyFile)
             dialog.setNameFilter(("*.py"))
 
             if dialog.exec_():
                 file_name = dialog.selectedFiles()
+                # .py file is choosed by the user
+                if file_name[0].endswith(".py") or file_name[0].endswith(".txt"):
+                    # file_name[0] is directory of file
+                    with open(file_name[0], mode = "r", encoding="utf-8") as json_file:
+                        source_code_data = json_file.read()
+                        # Source code directory is added to the text
+                        widgets.source_code_directory_text.setPlainText(
+                            str(file_name[0])
+                        )
+                        widgets.source_code_content.setPlainText(source_code_data)
 
+        # Take ".py" file for test case
+        def get_file_py_for_test_case():
+            dialog = QFileDialog()
+            dialog.setFileMode(QFileDialog.AnyFile)
+            dialog.setNameFilter(("*.py"))
+
+            if dialog.exec_():
+                file_name = dialog.selectedFiles()
                 if file_name[0].endswith(".py"):
-                    with open(file_name[0], "r") as f:
-                        data = f.read()
-                        widgets.textEdit.setPlainText(data)
-                        f.close()
+                    with open(file_name[0], mode = "r", encoding="utf-8") as json_file:
+                        data = json_file.read()
+                        widgets.test_case_directory_text.setPlainText(str(file_name[0]))
+                        widgets.test_case_content.setPlainText(data)
 
-        # 	insert_sourcecodeWithStr(connection, codename , codestr)
-
-        # def insert_sourcecodeWithStr(connection, codename , codestr):
-        # 	print("oldu")
-        # 	try:
-        # 		cursor = connection.cursor()
-        # 		cursor.execute("INSERT INTO tblsourcecode( systemid, codename, sourcecode) VALUES( %s, %s, %s)",
-        # 					(sysID, codename, codestr))
-        # 		connection.commit()
-        # 		cursor.close()
-        # 	except(Exception, psycopg2.Error) as errorMsg:
-        # 		print("A database-related error occured: ", errorMsg)
-        # 		return []
-
-        # Take ".json" file function
-        def get_file_json(self):
+        # Take ".json" file for workload
+        def workload_get_file_json():
             dialog = QFileDialog()
             dialog.setFileMode(QFileDialog.AnyFile)
             dialog.setNameFilter(("*.json"))
@@ -279,13 +137,39 @@ class MainWindow(QMainWindow):
                 file_name = dialog.selectedFiles()
 
                 if file_name[0].endswith(".json"):
-                    with open(file_name[0], "r") as f:
-                        data = f.read()
+                    with open(file_name[0], mode = "r", encoding = "utf-8") as file:
+                        data = file.read()
+                        widgets.textEdit_46.setPlainText(str(file_name[0]))
                         widgets.textEdit_3.setPlainText(data)
-                        f.close()
+
+        # Take ".json" file function
+        def fiplan_get_file_json():
+            dialog = QFileDialog()
+            dialog.setFileMode(QFileDialog.AnyFile)
+            dialog.setNameFilter(("*.json"))
+
+            if dialog.exec_():
+                file_name = dialog.selectedFiles()
+
+                if file_name[0].endswith(".json"):
+                    with open(file_name[0], mode = "r", encoding="utf-8") as file:
+                        widgets.listWidget_11.addItem(str(file_name[0]))
+
+        def get_file_json_for_workload():
+            dialog = QFileDialog()
+            dialog.setFileMode(QFileDialog.AnyFile)
+            dialog.setNameFilter(("*.json"))
+
+            if dialog.exec_():
+                file_name = dialog.selectedFiles()
+
+                if file_name[0].endswith(".json"):
+                    with open(file_name[0], mode = "r", encoding="utf-8") as file:
+                        data = file.read()
+                        widgets.textEdit_3.setPlainText(data)
 
         # Take ".rosbag" file function
-        def get_file_rosbag(self):
+        def get_file_rosbag():
             dialog = QFileDialog()
             dialog.setFileMode(QFileDialog.AnyFile)
             dialog.setNameFilter(("*.bag"))
@@ -294,1567 +178,887 @@ class MainWindow(QMainWindow):
                 file_name = dialog.selectedFiles()
 
                 if file_name[0].endswith(".bag"):
-                    with open(file_name[0], "r") as f:
-                        data = f.read()
+                    with open(file_name[0], mode = "r", encoding="utf-8") as file:
+                        data = file.read()
                         widgets.textEditor.setPlainText(data)
-                        f.close()
 
         # EDIT BUTTONS
 
         # Source Code Edit Checkbox on START PAGE
-        def editSourceCodes(self):
-            if widgets.checkBox_8.isChecked() == True:
-                widgets.textEdit.setReadOnly(False)
+        def edit_source_code():
+            if widgets.checkBox_8.isChecked() is True:
+                widgets.source_code_content.setReadOnly(False)
             else:
-                widgets.textEdit.setReadOnly(True)
+                widgets.source_code_content.setReadOnly(True)
 
         # Workload Edit Checkbox on START PAGE
-        def editWorkload(self):
-            if widgets.checkBox_5.isChecked() == True:
+        def edit_workload():
+            if widgets.checkBox_5.isChecked() is True:
                 widgets.textEdit_3.setReadOnly(False)
             else:
                 widgets.textEdit_3.setReadOnly(True)
 
         # Select Code Snippets wit One Click
-        def selectWithOneClickedForCS(self):
+        def code_snippet_select_with_one_clicked():
             try:
-                clickedItemText = widgets.listWidget_10.currentItem().text()
+                clicked_item_text = widgets.code_snippet_list.currentItem().text()
 
-                with open("code_snippets.json") as codeSnippetsFromJson:
-                    codeSnippetNameList = json.load(codeSnippetsFromJson)
+                with open("code_snippets.json", encoding = "utf-8") as code_snippets_from_json:
+                    code_snippets_name_list = json.load(code_snippets_from_json)
 
-                    lenOfCodeSnipList = (widgets.listWidget_10.count()) - 3
-
-                    for i in range(20):
-                        snippetName = codeSnippetNameList["code_snippets"][i][
+                    added_snippet_regex_length = len(
+                        code_snippets_name_list["code_snippets"]
+                    )
+                    for i in range(0, added_snippet_regex_length):
+                        code_snippet_name = code_snippets_name_list["code_snippets"][i][
                             "Snippets"
                         ]["Snippet_Name"]
 
-                        if clickedItemText == snippetName:
-                            snippetDescription = codeSnippetNameList["code_snippets"][
-                                i
-                            ]["Snippets"]["Process"]
-                            widgets.textEdit_24.setPlainText(snippetDescription)
+                        if clicked_item_text == code_snippet_name:
+                            code_snippet_description = code_snippets_name_list[
+                                "code_snippets"
+                            ][i]["Snippets"]["Process"]
+                            widgets.textEdit_24.setPlainText(code_snippet_description)
             except AttributeError:
                 pass
 
         # Select Snippet Button on Start Page
-        def codeSnippetSelect(self):
-            selectedRow = widgets.listWidget_10.currentItem().text()
-            row = selectedRow.split("\n")
-            widgets.listWidget_8.addItems(row)
+        def code_snippet_selection():
+            code_snippet_list_is_empty = True
+
+            len_of_selected_code_snippets = widgets.listWidget_8.count()
+
+            selected_row = widgets.code_snippet_list.currentItem().text()
+            row = selected_row.split("\n")
+
+            ### Check Double Enter
+            if len_of_selected_code_snippets:
+                for i in range(len_of_selected_code_snippets):
+                    code_snippet_list_element = widgets.listWidget_8.item(i).text()
+                    if code_snippet_list_element == selected_row:
+                        code_snippet_list_is_empty = False
+
+                if code_snippet_list_is_empty is True:
+                    widgets.listWidget_8.addItems(row)
+            else:
+                widgets.listWidget_8.addItems(row)
 
         # Select Task on Create on Workload Page
-        def taskSelect(self):
-            selectedRow = widgets.listWidget_21.currentItem().text()
-            row = selectedRow.split("\n")
+        def task_selection():
+            selected_row = widgets.listWidget_21.currentItem().text()
+            row = selected_row.split("\n")
             widgets.listWidget_22.addItems(row)
 
         # Select Task with One Click on Workload Page
-        def taskInfoWithOneClick(self):
-            clickedItemText = widgets.listWidget_21.currentItem().text()
+        def task_info_with_one_click():
+            clicked_item_text = widgets.listWidget_21.currentItem().text()
             widgets.textEdit_14.clear()
 
-            jsonTypeTasks = widgets.plainTextEdit.toPlainText()
-            tasksJsonList = json.loads(jsonTypeTasks)
+            json_type_task = widgets.plainTextEdit.toPlainText()
+            tasks_list_json = json.loads(json_type_task)
 
-            for i in range(0, len(tasksJsonList["gorevler"])):
-                taskName = str(tasksJsonList["gorevler"][i]["Task"]["Task_ID"])
-                if taskName == clickedItemText:
-                    taskDetails = str(tasksJsonList["gorevler"][i]["Task"])
-                    for i in taskDetails:
+            for i in range(0, len(tasks_list_json["Tasks"])):
+                task_name = str(tasks_list_json["Tasks"][i]["Task"]["Task_ID"])
+                if task_name == clicked_item_text:
+                    task_detail = str(tasks_list_json["Tasks"][i]["Task"])
+                    for j in task_detail:
                         widgets.textEdit_14.setPlainText(
-                            widgets.textEdit_14.toPlainText() + i
+                            widgets.textEdit_14.toPlainText() + j
                         )
 
-        def selectPossibleMutationLine(self):
+        def possible_mutation_line_selection():
             """Select Line For Mutation on FI Plan Page"""
-            possibleMutationLine = widgets.listWidget.currentItem().text()
-            widgets.textEdit_13.setPlainText(possibleMutationLine)
+            possible_mutation_line = widgets.listWidget.currentItem().text()
+            widgets.textEdit_13.setPlainText(possible_mutation_line)
 
-        def selectPossibleMutationLineYAML(self):
-            """Select Line For Mutation on FI Plan Page"""
-            possibleMutationLine = widgets.listWidget_24.currentItem().text()
-            widgets.textEdit_41.setPlainText(possibleMutationLine)
-
-        def fault_select_from_yaml_lib(self):
-            """# Select Fault From Fault Library on YAML - LAUNCH Page"""
-
-            global zipped_list_yaml  # yaml zipped list eklenecek
-
-            if len(widgets.textEdit_41.toPlainText()) != 0:
-
-                selectedLine = widgets.textEdit_41.toPlainText()
-                selectedFault = widgets.listWidget_20.currentItem().text()
-
-                textSelectedLine = "Line: " + selectedLine
-                textSelectedFault = "\tFault: " + selectedFault
-
-                zipped_list_yaml.append(selectedLine)
-                zipped_list_yaml.append(selectedFault)
-
-                selectedLineAndFault = textSelectedLine + textSelectedFault
-
-                lineAndFault = selectedLineAndFault.split("\n")
-
-                widgets.listWidget_23.addItems(lineAndFault)
-
-            else:
-                pass
-
-        def faultSelectFromLibrary(self):
+        def fault_selection_from_library():
             """Select Fault From Fault Library on FI Plan Page"""
-            global zippedList
+            global ZIPPED_LIST
+            ZIPPED_LIST = []
 
-            if len(widgets.textEdit_13.toPlainText()) != 0:
+            text_check = widgets.textEdit_13.toPlainText()
 
-                selectedLine = widgets.textEdit_13.toPlainText()
-                selectedFault = widgets.listWidget_3.currentItem().text()
+            if text_check:
 
-                textSelectedLine = "Line: " + selectedLine
-                textSelectedFault = "\tFault: " + selectedFault
+                selected_line = widgets.textEdit_13.toPlainText()
+                selected_fault = widgets.listWidget_3.currentItem().text()
 
-                zippedList.append(selectedLine)
-                zippedList.append(selectedFault)
+                text_selected_line_and_fault = (
+                    selected_line + " #==># " + selected_fault
+                )
 
-                selectedLineAndFault = textSelectedLine + textSelectedFault
+                ZIPPED_LIST.append(text_selected_line_and_fault)
 
-                lineAndFault = selectedLineAndFault.split("\n")
+                line_and_fault = text_selected_line_and_fault.split("\n")
 
-                widgets.listWidget_7.addItems(lineAndFault)
-
-            else:
-                pass
+                widgets.listWidget_7.addItems(line_and_fault)
 
         # This Function Shows Fault's Information from Fault Library on FI Plan Page
-        def selectWithOneClickedForFIPlan(self):
+        def show_fault_info_with_one_click():
             try:
-                clickedItemText = widgets.listWidget_3.currentItem().text()
+                clicked_item_text = widgets.listWidget_3.currentItem().text()
 
-                with open("faultLibrary.json") as faultsFromJson:
-                    faultList = json.load(faultsFromJson)
+                with open("faultLibrary.json", encoding = "utf-8") as file:
+                    fault_list = json.load(file)
 
-                lenOfFaultList = widgets.listWidget_3.count()
+                fault_list_size = widgets.listWidget_3.count()
 
-                for i in range(lenOfFaultList):
-                    faultName = faultList["all_faults"][i]["fault"]["Fault_Name"]
+                for i in range(fault_list_size):
+                    fault_name = fault_list["all_faults"][i]["fault"]["Fault_Name"]
 
-                    if clickedItemText == faultName:
-                        faultDescription = faultList["all_faults"][i]["fault"][
+                    if clicked_item_text == fault_name:
+                        fault_description = fault_list["all_faults"][i]["fault"][
                             "Explanation"
                         ]
-                        widgets.textEdit_17.setPlainText(faultDescription)
+                        widgets.textEdit_17.setPlainText(fault_description)
             except:
                 IndexError()
 
-        def mutationForFIPlan(self):
-            widgets.btn_start_mutation.setEnabled(False)
+        def nth_replace(string, old, new, replace_num=1):
+            """Replace Funtion"""
 
-            global zippedList
-            global sourceCode
-            global mutatedCode
-            global sourceAndMutatedCode
-            global faultNameList
+            left_join = old
+            right_join = old
+            groups = string.split(old)
+            nth_split = [
+                left_join.join(groups[:replace_num]),
+                right_join.join(groups[replace_num:]),
+            ]
+            return new.join(nth_split)
 
-            for i in range(100):
-                time.sleep(0.01)
-                widgets.progressBar.setValue(i + 10)
+        def mutation_process_function(target_text, start_json_value, finish_json_value):
+            global source_and_mutate_code
+            source_and_mutate_code = []
 
-            with open("faultLibrary.json") as faultsFromJson:
-                faultList = json.load(faultsFromJson)
+            # try:
+            # Fault Lİbrary JSON is opened
+            with open("faultLibrary.json", encoding = "utf-8") as file:
+                fault_list = json.load(file)
 
-            operators = list()
-            opss = list()
+            for fault_number in range(start_json_value, finish_json_value):
+                target_operators_from_library = fault_list["all_faults"][fault_number][
+                    "fault"
+                ]["Target_to_Change"]
+                operators = target_operators_from_library.split(",")
 
-            zippedListLength = len(zippedList)
-
-            sizeOfFaultAndLineList = widgets.listWidget_7.count()
-
-            lengthFaultList = len(faultList["all_faults"]) - 1
-
-            lengthPossibleMutationLines = widgets.listWidget.count()
-
-            lengthFaultLibrary = widgets.listWidget_3.count()
-
-            if widgets.checkBox_4.isChecked() == True:
-
-                for j in range(0, lengthPossibleMutationLines):
-                    lineWithInfo = widgets.listWidget.item(j).text()
-
-                    find_rospy = re.findall("rospy", lineWithInfo)
-
-                    if find_rospy != []:
-                        try:
-
-                            def mutate_function(code):
-                                """Goes to the node to apply the mutation."""
-                                node = ast.parse(code)
-                                renamer = GeneralROSMutator()
-                                node2 = renamer.visit(node)
-                                codes_print(code, node2)
-
-                            def change_code(code):
-                                """Adding random value to the source code line to be a mutant"""
-                                list1 = list(code)
-                                random_number = random_value_generate()
-                                string_random_number = str(random_number)
-                                list1[-1] = string_random_number + ")"
-                                str1 = "".join(list1)
-                                # print(str1)
-                                mutated_rospy = str1.split("\n")
-                                widgets.listWidget_4.addItems(mutated_rospy)
-
-                            def random_value_generate():
-                                """Creating the random value"""
-                                random_number = random.randint(1, 20)
-                                return random_number
-
-                            def codes_print(code, node2):
-                                """The function shows prime and mutated code after the process."""
-                                # print("\n######### Original Code ##########\n")
-                                # print(code)
-                                # print("\n######### Mutated Code ##########\n")
-                                unparsed_code = astunparse.unparse(node2)
-                                strip_code = code.strip()
-                                strip_unparsed_code = unparsed_code.strip()
-
-                                if strip_code == strip_unparsed_code:
-                                    change_code(code)
+                changed_operators_from_library = fault_list["all_faults"][fault_number][
+                    "fault"
+                ]["Changed"]
+                split_operators = changed_operators_from_library.split(",")
+                for k in operators:
+                    find_k_in_text = re.findall(k, target_text)
+                    if find_k_in_text:
+                        found_target = find_k_in_text[0]
+                        number_of_pattern = len(find_k_in_text)
+                        for changing_number in range(1, number_of_pattern + 1):
+                            for changed_line in split_operators:
+                                mutated_line = nth_replace(
+                                    target_text,
+                                    found_target,
+                                    changed_line,
+                                    replace_num=changing_number,
+                                )
+                                if mutated_line != target_text:
+                                    # Mutated line is added to mutation list on IM-FIT UI
+                                    widgets.listWidget_4.addItem(mutated_line)
+                                    # Original source code line and mutated line are added to
+                                    # list to use for execution
+                                    source_and_mutate_code.append(target_text)
+                                    source_and_mutate_code.append(mutated_line)
                                 else:
-                                    # print(unparsed_code)
-                                    listForMutatedVersions = unparsed_code.split("\n")
-                                    # print(listForMutatedVersions)
-                                    for i in listForMutatedVersions:
-                                        if i != "":
-                                            mutated_rospy = i.split("\n")
-                                            widgets.listWidget_4.addItems(mutated_rospy)
+                                    continue
 
-                            class GeneralROSMutator(ast.NodeTransformer):
-                                """This class mutates for Initializing ROS Node"""
+            total_mut = widgets.listWidget_4.count()
+            widgets.label_17.setText(str(total_mut))
+            # except:
+            #     message_box = QMessageBox()
+            #     message_box.setIcon(QMessageBox.Critical)
+            #     message_box.setText("Failed to create mutant!")
+            #     message_box.setWindowTitle("Caution!")
+            #     message_box.setStandardButtons(QMessageBox.Ok)
+            #     message_box.exec()
 
-                                def __init__(self):
-                                    self._arg_count = 0
+        def fault_lib_size():
+            with open("faultLibrary.json", encoding = "utf-8") as file:
+                fault_list = json.load(file)
+            fault_library_size = len(fault_list["all_faults"])
+            return fault_library_size
 
-                                def visit_Constant(self, node):
-                                    """The visitor function."""
-                                    if isinstance(node.value, str):
-                                        node.value = "MUTANT"
-                                        self.generic_visit(node)
-                                        return node
-
-                                    if isinstance(node.value, bool):
-                                        if node.value is True:
-                                            node.value = False
-                                            self.generic_visit(node)
-                                            return node
-                                        node.value = True
-                                        self.generic_visit(node)
-                                        return node
-                                    node.value = random.randint(1, 20)
-                                    self.generic_visit(node)
-                                    return node
-
-                                def visit_FunctionDef(self, node):
-                                    """The visitor function."""
-                                    node.name = "MUTANT"
-                                    self.generic_visit(node)
-                                    return node
-
-                                def visit_arg(self, node):
-                                    """The visitor function."""
-                                    node.arg = "arg_{}".format(self._arg_count)
-                                    self._arg_count += 1
-                                    self.generic_visit(node)
-                                    return node
-
-                                def visit_Return(self, node):
-                                    """The visitor function."""
-                                    node.value = None
-                                    self.generic_visit(node)
-                                    return node
-
-                            mutate_function(lineWithInfo)
-                        except:
-                            pass
-
-                    else:
-                        for faultNumber in range(0, lengthFaultList):
-                            operatorsFromLibrary = faultList["all_faults"][faultNumber][
-                                "fault"
-                            ]["Target_to_Change"]
-                            opssFromLibrary = faultList["all_faults"][faultNumber][
-                                "fault"
-                            ]["Changed"]
-
-                            operators = operatorsFromLibrary.split(",")
-                            opss = opssFromLibrary.split(",")
-
-                            text = lineWithInfo
-
-                            findOperator = re.findall("\W", text)
-
-                            try:
-
-                                if findOperator != []:
-                                    temp = 0
-                                    uzunluk = 0
-                                    target = ""
-                                    kelime = ""
-
-                                    for i in findOperator:
-                                        if i == " ":
-                                            findOperator.remove(i)
-
-                                    targetWord = ""
-
-                                    for i in range(0, len(findOperator)):
-                                        targetWord = targetWord + (findOperator[i])
-
-                                    for i in operators:
-                                        result = re.findall(i, text)
-                                        if len(result) != 2:
-                                            for i in result:
-                                                uzunluk = len(i)
-                                                if uzunluk > temp:
-                                                    temp = uzunluk
-                                                    target = result
-
-                                    if target[0] == targetWord:
-                                        if uzunluk == 3:
-                                            for j in opss:
-                                                if target[0] != j:
-                                                    if target[0] == "**=":
-                                                        kelime = ""
-                                                        kelime = "\\" + target[0]
-                                                        mutatedVersions = re.sub(
-                                                            kelime, j, text
-                                                        )
-                                                        listForMutatedVersions = (
-                                                            mutatedVersions.split("\n")
-                                                        )
-                                                        widgets.listWidget_4.addItems(
-                                                            listForMutatedVersions
-                                                        )
-                                                        faultNameForMonitoring = (
-                                                            faultList["all_faults"][
-                                                                faultNumber
-                                                            ]["fault"]["Fault_Name"]
-                                                        )
-                                                        faultNameList.append(
-                                                            faultNameForMonitoring
-                                                        )
-                                                        sourceCode = lineWithInfo
-                                                        mutatedCode = mutatedVersions
-
-                                                        sourceAndMutatedCode.append(
-                                                            sourceCode
-                                                        )
-                                                        sourceAndMutatedCode.append(
-                                                            mutatedCode
-                                                        )
-                                                    else:
-                                                        mutatedVersions = re.sub(
-                                                            target[0], j, text
-                                                        )
-                                                        listForMutatedVersions = (
-                                                            mutatedVersions.split("\n")
-                                                        )
-                                                        widgets.listWidget_4.addItems(
-                                                            listForMutatedVersions
-                                                        )
-                                                        faultNameForMonitoring = (
-                                                            faultList["all_faults"][
-                                                                faultNumber
-                                                            ]["fault"]["Fault_Name"]
-                                                        )
-                                                        faultNameList.append(
-                                                            faultNameForMonitoring
-                                                        )
-                                                        sourceCode = lineWithInfo
-                                                        mutatedCode = mutatedVersions
-
-                                                        sourceAndMutatedCode.append(
-                                                            sourceCode
-                                                        )
-                                                        sourceAndMutatedCode.append(
-                                                            mutatedCode
-                                                        )
-
-                                        elif uzunluk == 2:
-                                            for j in opss:
-                                                if target[0] != j:
-                                                    if (
-                                                        target[0] == "+="
-                                                        or "*="
-                                                        or "^="
-                                                        or "**"
-                                                    ):
-                                                        kelime = ""
-                                                        kelime = (
-                                                            "[\\" + target[0] + "]{2}"
-                                                        )
-                                                        mutatedVersions = re.sub(
-                                                            kelime, j, text
-                                                        )
-                                                        listForMutatedVersions = (
-                                                            mutatedVersions.split("\n")
-                                                        )
-                                                        widgets.listWidget_4.addItems(
-                                                            listForMutatedVersions
-                                                        )
-                                                        faultNameForMonitoring = (
-                                                            faultList["all_faults"][
-                                                                faultNumber
-                                                            ]["fault"]["Fault_Name"]
-                                                        )
-                                                        faultNameList.append(
-                                                            faultNameForMonitoring
-                                                        )
-                                                        sourceCode = lineWithInfo
-                                                        mutatedCode = mutatedVersions
-
-                                                        sourceAndMutatedCode.append(
-                                                            sourceCode
-                                                        )
-                                                        sourceAndMutatedCode.append(
-                                                            mutatedCode
-                                                        )
-                                                    else:
-                                                        mutatedVersions = re.sub(
-                                                            target[0], j, text
-                                                        )
-                                                        listForMutatedVersions = (
-                                                            mutatedVersions.split("\n")
-                                                        )
-                                                        widgets.listWidget_4.addItems(
-                                                            listForMutatedVersions
-                                                        )
-                                                        faultNameForMonitoring = (
-                                                            faultList["all_faults"][
-                                                                faultNumber
-                                                            ]["fault"]["Fault_Name"]
-                                                        )
-                                                        faultNameList.append(
-                                                            faultNameForMonitoring
-                                                        )
-                                                        sourceCode = lineWithInfo
-                                                        mutatedCode = mutatedVersions
-
-                                                        sourceAndMutatedCode.append(
-                                                            sourceCode
-                                                        )
-                                                        sourceAndMutatedCode.append(
-                                                            mutatedCode
-                                                        )
-
-                                        else:
-                                            for j in opss:
-                                                if target[0] != j:
-                                                    if (
-                                                        target[0] == "+"
-                                                        or "-"
-                                                        or "*"
-                                                        or "/"
-                                                    ):
-                                                        kelime = ""
-                                                        kelime = "\\" + target[0]
-                                                        mutatedVersions = re.sub(
-                                                            kelime, j, text
-                                                        )
-                                                        listForMutatedVersions = (
-                                                            mutatedVersions.split("\n")
-                                                        )
-                                                        widgets.listWidget_4.addItems(
-                                                            listForMutatedVersions
-                                                        )
-                                                        faultNameForMonitoring = (
-                                                            faultList["all_faults"][
-                                                                faultNumber
-                                                            ]["fault"]["Fault_Name"]
-                                                        )
-                                                        faultNameList.append(
-                                                            faultNameForMonitoring
-                                                        )
-                                                        sourceCode = lineWithInfo
-                                                        mutatedCode = mutatedVersions
-
-                                                        sourceAndMutatedCode.append(
-                                                            sourceCode
-                                                        )
-                                                        sourceAndMutatedCode.append(
-                                                            mutatedCode
-                                                        )
-
-                                                    else:
-                                                        mutatedVersions = re.sub(
-                                                            target[0], j, text
-                                                        )
-                                                        listForMutatedVersions = (
-                                                            mutatedVersions.split("\n")
-                                                        )
-                                                        widgets.listWidget_4.addItems(
-                                                            listForMutatedVersions
-                                                        )
-                                                        faultNameForMonitoring = (
-                                                            faultList["all_faults"][
-                                                                faultNumber
-                                                            ]["fault"]["Fault_Name"]
-                                                        )
-                                                        faultNameList.append(
-                                                            faultNameForMonitoring
-                                                        )
-                                                        sourceCode = lineWithInfo
-                                                        mutatedCode = mutatedVersions
-
-                                                        sourceAndMutatedCode.append(
-                                                            sourceCode
-                                                        )
-                                                        sourceAndMutatedCode.append(
-                                                            mutatedCode
-                                                        )
-
-                                    elif target[0] == "or" or " and " or " not ":
-                                        for j in opss:
-                                            if target[0] != j:
-                                                mutatedVersions = re.sub(
-                                                    target[0], j, text
-                                                )
-                                                listForMutatedVersions = (
-                                                    mutatedVersions.split("\n")
-                                                )
-                                                widgets.listWidget_4.addItems(
-                                                    listForMutatedVersions
-                                                )
-                                                faultNameForMonitoring = faultList[
-                                                    "all_faults"
-                                                ][faultNumber]["fault"]["Fault_Name"]
-                                                faultNameList.append(
-                                                    faultNameForMonitoring
-                                                )
-                                                sourceCode = lineWithInfo
-                                                mutatedCode = mutatedVersions
-
-                                                sourceAndMutatedCode.append(sourceCode)
-                                                sourceAndMutatedCode.append(mutatedCode)
-
-                                    elif target[0] == " is " or " is not ":
-                                        for j in opss:
-                                            if target[0] != j:
-                                                mutatedVersions = re.sub(
-                                                    target[0], j, text
-                                                )
-                                                listForMutatedVersions = (
-                                                    mutatedVersions.split("\n")
-                                                )
-                                                widgets.listWidget_4.addItems(
-                                                    listForMutatedVersions
-                                                )
-                                                faultNameForMonitoring = faultList[
-                                                    "all_faults"
-                                                ][faultNumber]["fault"]["Fault_Name"]
-                                                faultNameList.append(
-                                                    faultNameForMonitoring
-                                                )
-                                                sourceCode = lineWithInfo
-                                                mutatedCode = mutatedVersions
-
-                                                sourceAndMutatedCode.append(sourceCode)
-                                                sourceAndMutatedCode.append(mutatedCode)
-
-                                    elif target[0] == " in " or " not in ":
-                                        for j in opss:
-                                            if target[0] != j:
-                                                mutatedVersions = re.sub(
-                                                    target[0], j, text
-                                                )
-                                                listForMutatedVersions = (
-                                                    mutatedVersions.split("\n")
-                                                )
-                                                widgets.listWidget_4.addItems(
-                                                    listForMutatedVersions
-                                                )
-                                                faultNameForMonitoring = faultList[
-                                                    "all_faults"
-                                                ][faultNumber]["fault"]["Fault_Name"]
-                                                faultNameList.append(
-                                                    faultNameForMonitoring
-                                                )
-                                                sourceCode = lineWithInfo
-                                                mutatedCode = mutatedVersions
-
-                                                sourceAndMutatedCode.append(sourceCode)
-                                                sourceAndMutatedCode.append(mutatedCode)
-
-                                    elif (
-                                        target[0] == "&"
-                                        or "|"
-                                        or "^"
-                                        or "~"
-                                        or "<<"
-                                        or ">>"
-                                    ):
-                                        for j in opss:
-                                            if target[0] != j:
-                                                mutatedVersions = re.sub(
-                                                    target[0], j, text
-                                                )
-                                                listForMutatedVersions = (
-                                                    mutatedVersions.split("\n")
-                                                )
-                                                widgets.listWidget_4.addItems(
-                                                    listForMutatedVersions
-                                                )
-                                                faultNameForMonitoring = faultList[
-                                                    "all_faults"
-                                                ][faultNumber]["fault"]["Fault_Name"]
-                                                faultNameList.append(
-                                                    faultNameForMonitoring
-                                                )
-                                                sourceCode = lineWithInfo
-                                                mutatedCode = mutatedVersions
-
-                                                sourceAndMutatedCode.append(sourceCode)
-                                                sourceAndMutatedCode.append(mutatedCode)
-
-                                    else:
-                                        pass
-
-                                else:
-                                    for j in opss:
-                                        mutatedVersions = re.sub(operators, j, text)
-                                        listForMutatedVersions = mutatedVersions.split(
-                                            "\n"
-                                        )
-                                        widgets.listWidget_4.addItems(
-                                            listForMutatedVersions
-                                        )
-                                        faultNameForMonitoring = faultList[
-                                            "all_faults"
-                                        ][faultNumber]["fault"]["Fault_Name"]
-                                        faultNameList.append(faultNameForMonitoring)
-                                        sourceCode = lineWithInfo
-                                        mutatedCode = mutatedVersions
-
-                                        sourceAndMutatedCode.append(sourceCode)
-                                        sourceAndMutatedCode.append(mutatedCode)
-
-                            except:
-                                pass
-
+        def basla_func():
+            with open("faultLibrary.json", encoding = "utf-8") as file:
+                fault_list = json.load(file)
+            fault_library_size = fault_lib_size()
+            if widgets.checkBox_4.isChecked() is True:
+                len_selected_line_mutation = widgets.listWidget.count()
+                for i in range(0, len_selected_line_mutation):
+                    line = widgets.listWidget.item(i).text()
+                    mutation_process_function(line, 0, fault_library_size)
             else:
+                len_selected_line_mutation = widgets.listWidget_7.count()
+                for i in range(0, len_selected_line_mutation):
+                    hata_ve_line = widgets.listWidget_7.item(i).text()
+                    split_hata_ve_line = hata_ve_line.split(" #==># ")
+                    hata_ismi = split_hata_ve_line[1]
+                    line = split_hata_ve_line[0]
+                    for fault_number in range(fault_library_size):
+                        fault_name_from_library = fault_list["all_faults"][
+                            fault_number
+                        ]["fault"]["Fault_Name"]
+                        if hata_ismi == fault_name_from_library:
+                            mutation_process_function(
+                                line, fault_number, fault_number + 1
+                            )
 
-                if sizeOfFaultAndLineList != 0:
-                    try:
-                        for j in range(0, zippedListLength):
-                            if j % 2 == 0:
-                                lineWithInfo = zippedList[j]
-                            else:
-                                faultWithInfo = zippedList[j]
-                                find_rospy = re.findall("rospy", lineWithInfo)
-                                if find_rospy != []:
+        def random_hata_bas():
+            fault_library_size = fault_lib_size()
+            random_fault = random.randint(0, fault_library_size)
+            target_text = widgets.listWidget.currentItem().text()
+            mutation_process_function(target_text, random_fault, random_fault + 1)
 
-                                    def mutate_function(code):
-                                        """Goes to the node to apply the mutation."""
-                                        node = ast.parse(code)
-                                        renamer = GeneralROSMutator()
-                                        node2 = renamer.visit(node)
-                                        codes_print(code, node2)
+        def execution_module_function():
+            global ROS_SOURCE_MUTANT
+            global ROS_SOURCE_CODE
+            ROS_SOURCE_MUTANT = []
+            ROS_SOURCE_CODE = []
 
-                                    def change_code(code):
-                                        """Adding random value to the source code line to be a mutant"""
-                                        list1 = list(code)
-                                        random_number = random_value_generate()
-                                        string_random_number = str(random_number)
-                                        list1[-1] = string_random_number + ")"
-                                        str1 = "".join(list1)
-                                        # print(str1)
-                                        mutated_rospy = str1.split("\n")
-                                        widgets.listWidget_4.addItems(mutated_rospy)
+            killed_mutants_list = []
+            survived_mutants_list = []
+            equivalent_mutants_list = []
 
-                                    def random_value_generate():
-                                        """Creating the random value"""
-                                        random_number = random.randint(1, 20)
-                                        return random_number
+            error_code_list = []
 
-                                    def codes_print(code, node2):
-                                        """The function shows prime and mutated code after the process."""
-                                        # print("\n######### Original Code ##########\n")
-                                        # print(code)
-                                        # print("\n######### Mutated Code ##########\n")
-                                        unparsed_code = astunparse.unparse(node2)
-                                        strip_code = code.strip()
-                                        strip_unparsed_code = unparsed_code.strip()
+            killed_mutants = 0
+            survivor_mutants = 0
+            equivalent_mutants = 0
+            fault_name_list = []
+            execution_timeout_list = []
+            original_source_code_output = ""
 
-                                        if strip_code == strip_unparsed_code:
-                                            change_code(code)
-                                        else:
-                                            # print(unparsed_code)
-                                            listForMutatedVersions = (
-                                                unparsed_code.split("\n")
-                                            )
-                                            # print(listForMutatedVersions)
-                                            for i in listForMutatedVersions:
-                                                if i != "":
-                                                    mutated_rospy = i.split("\n")
-                                                    widgets.listWidget_4.addItems(
-                                                        mutated_rospy
-                                                    )
+            execution_fiplan_list_length = widgets.listWidget_6.count()
 
-                                    class GeneralROSMutator(ast.NodeTransformer):
-                                        """This class mutates for Initializing ROS Node"""
+            for execution_step in range(0, execution_fiplan_list_length):
+                execution_fiplan_directory = widgets.listWidget_6.item(
+                    execution_step
+                ).text()
+                file_type_keywords = [
+                    "_type_python.json",
+                    "_type_launch.json",
+                    "_type_rospy.json",
+                ]
+                for file_type_pattern in file_type_keywords:
+                    find_file_type = re.findall(
+                        file_type_pattern, execution_fiplan_directory
+                    )
+                    if find_file_type:
+                        # ROS-Py execution settings
+                        if find_file_type[0] == "_type_rospy.json":
 
-                                        def __init__(self):
-                                            self._arg_count = 0
+                            killed_counter = 0
+                            survived_counter = 0
 
-                                        def visit_Constant(self, node):
-                                            """The visitor function."""
-                                            if isinstance(node.value, str):
-                                                node.value = "MUTANT"
-                                                self.generic_visit(node)
-                                                return node
+                            # Length of ROS source mutant list
+                            len_ros_source_mutant = len(ROS_SOURCE_MUTANT)
 
-                                            if isinstance(node.value, bool):
-                                                if node.value is True:
-                                                    node.value = False
-                                                    self.generic_visit(node)
-                                                    return node
-                                                node.value = True
-                                                self.generic_visit(node)
-                                                return node
-                                            node.value = random.randint(1, 20)
-                                            self.generic_visit(node)
-                                            return node
+                            working_directory = widgets.textEdit_47.toPlainText()
 
-                                        def visit_FunctionDef(self, node):
-                                            """The visitor function."""
-                                            node.name = "mutated_function"
-                                            self.generic_visit(node)
-                                            return node
+                            for i in range(len_ros_source_mutant):
+                                if i % 2 == 1:
+                                    new_data = ROS_SOURCE_CODE.replace(
+                                        ROS_SOURCE_MUTANT[i - 1], ROS_SOURCE_MUTANT[i]
+                                    )
 
-                                        def visit_arg(self, node):
-                                            """The visitor function."""
-                                            node.arg = "arg_{}".format(self._arg_count)
-                                            self._arg_count += 1
-                                            self.generic_visit(node)
-                                            return node
+                                    fname = "mutant" + str(int(i / 2)) + ".py"
 
-                                        def visit_Return(self, node):
-                                            """The visitor function."""
-                                            node.value = None
-                                            self.generic_visit(node)
-                                            return node
+                                    complete_name = os.path.join(
+                                        working_directory, fname
+                                    )
+                                    file1 = open(complete_name, mode = "w", encoding = "utf-8")
+                                    file1.write(new_data)
+                                    file1.close()
 
-                                    mutate_function(lineWithInfo)
+                                    subprocess.Popen(
+                                        ["chmod", "+x", fname], cwd=working_directory
+                                    )
+
+                                    print("\n\n############")
+                                    print(
+                                        "#      Mutant:{mutant_name}        #".format(
+                                            mutant_name=fname
+                                        )
+                                    )
+                                    print("#" * 10)
+
+                                    try:
+                                        roscore_process = subprocess.Popen(["roscore"])
+                                        time.sleep(5)
+                                        status_output = subprocess.Popen(
+                                            ["rosrun", "deneme_paket", fname]
+                                        )
+                                        status_output.wait(timeout=5)
+                                    except subprocess.TimeoutExpired:
+                                        status_output.terminate()
+                                        roscore_process.terminate()
+                                        survived_counter += 1
+                                        print("#" * 10)
+                                        print("#       Survived Mutant          #")
+                                        print("#" * 10)
+                                        print("\n\n")
+                                        print("-" * 10)
+                                    else:
+                                        status_output.terminate()
+                                        roscore_process.terminate()
+                                        killed_counter += 1
+                                        print("#" * 10)
+                                        print("#     Killed Mutant            #")
+                                        print("#" * 10)
+                                        print("\n\n")
+                                        print("" - "*10")
+                            print("\n\n############")
+                            print("#       Results            #")
+                            print("#" * 10)
+                            print("\n\n")
+
+                            print("Total Killed Mutant(s):", killed_counter)
+                            print("Total Survived Mutant(s):", survived_counter)
+
+                            print(
+                                "\nMutation Score:",
+                                (killed_counter / (killed_counter + survived_counter))
+                                * 100,
+                            )
+
+                            print("" - "*10\n\n")
+
+                        elif find_file_type[0] == "_type_launch.json":
+                            killed_counter = 0
+                            survived_counter = 0
+
+                            fiplan_directory = widgets.listWidget_36.item(0).text()
+                            with open(fiplan_directory, encoding = "utf-8") as json_file:
+                                fault_list = json.load(json_file)
+
+                            for i in range(len(fault_list)):
+                                directory = fault_list[i]["Fault"]["File_Directory"]
+
+                                split_directory = directory.split("/")
+                                folder_name = split_directory[-3]
+
+                                ros_exe_file_name = fault_list[i]["Fault"]["Exe_File"]
+
+                                with open(directory, mode = "r", encoding = "utf-8") as file:
+                                    python_file_content = file.read()
+
+                                source_code = fault_list[i]["Fault"]["Source_Code"]
+                                mutant_code = fault_list[i]["Fault"]["Mutate_Code"]
+
+                                mutation_process = python_file_content.replace(
+                                    source_code, mutant_code
+                                )
+
+                                with open(directory, mode = "w", encoding = "utf-8") as file:
+                                    file.write(mutation_process)
+
+                                print("\n\n############")
+                                print(
+                                    "                 Mutant:{mutant_name}".format(
+                                        mutant_name=i
+                                    )
+                                )
+                                print("#" * 10)
+
+                                try:
+
+                                    status_output = subprocess.Popen(
+                                        [
+                                            "roslaunch",
+                                            folder_name,
+                                            ros_exe_file_name,
+                                        ]
+                                    )
+                                    status_output.wait(timeout=60)
+                                except subprocess.TimeoutExpired:
+                                    status_output.terminate()
+                                    survived_counter += 1
+                                    print("#" * 10)
+                                    print("#      Survived Mutant        #")
+                                    print("#" * 10)
+                                    print("\n\n")
+                                    print("#" * 10)
+
                                 else:
-                                    for faultNumber in range(0, lengthFaultList):
-                                        faultName = faultList["all_faults"][
-                                            faultNumber
-                                        ]["fault"]["Fault_Name"]
-                                        if faultName == faultWithInfo:
-                                            operatorsFromLibrary = faultList[
-                                                "all_faults"
-                                            ][faultNumber]["fault"]["Target_to_Change"]
-                                            opssFromLibrary = faultList["all_faults"][
-                                                faultNumber
-                                            ]["fault"]["Changed"]
+                                    status_output.terminate()
+                                    killed_counter += 1
+                                    print("#" * 10)
+                                    print("#     Killed Mutant           #")
+                                    print("#" * 10)
+                                    print("\n\n")
+                                    print("#" * 10)
 
-                                            operators = operatorsFromLibrary.split(",")
-                                            opss = opssFromLibrary.split(",")
+                                with open(directory, mode = "w", encoding = "utf-8") as file:
+                                    file.write(python_file_content)
 
-                                            text = lineWithInfo
+                            print("\n\n############")
+                            print("#      Results            #")
+                            print("#" * 10)
+                            print("\n\n")
 
-                                            findOperator = re.findall("\W", text)
+                            print("Total Killed Mutant(s):", killed_counter)
+                            print("Total Survived Mutant(s):", survived_counter)
 
-                                            if findOperator != []:
-                                                temp = 0
-                                                uzunluk = 0
-                                                target = ""
-                                                kelime = ""
+                            print(
+                                "\nMutation Score:",
+                                (killed_counter / (killed_counter + survived_counter))
+                                * 100,
+                            )
 
-                                                for i in findOperator:
-                                                    if i == " ":
-                                                        findOperator.remove(i)
+                            print("#" * 10)
+                            print("\n\n")
 
-                                                targetWord = ""
+                        else:
 
-                                                for i in range(0, len(findOperator)):
-                                                    targetWord = targetWord + (
-                                                        findOperator[i]
-                                                    )
+                            is_empty_dependent = widgets.textEdit_40.toPlainText()
+                            if is_empty_dependent == "":
 
-                                                for i in operators:
-                                                    result = re.findall(i, text)
-                                                    if len(result) != 2:
-                                                        for i in result:
-                                                            uzunluk = len(i)
-                                                            if uzunluk > temp:
-                                                                temp = uzunluk
-                                                                target = result
+                                start_time = time.time()
 
-                                                if target[0] == targetWord:
-                                                    if uzunluk == 3:
-                                                        for j in opss:
-                                                            if target[0] != j:
-                                                                if target[0] == "**=":
-                                                                    kelime = ""
-                                                                    kelime = (
-                                                                        "\\" + target[0]
-                                                                    )
-                                                                    mutatedVersions = (
-                                                                        re.sub(
-                                                                            kelime,
-                                                                            j,
-                                                                            text,
-                                                                        )
-                                                                    )
-                                                                    listForMutatedVersions = mutatedVersions.split(
-                                                                        "\n"
-                                                                    )
-                                                                    widgets.listWidget_4.addItems(
-                                                                        listForMutatedVersions
-                                                                    )
-                                                                    faultNameForMonitoring = faultList[
-                                                                        "all_faults"
-                                                                    ][
-                                                                        faultNumber
-                                                                    ][
-                                                                        "fault"
-                                                                    ][
-                                                                        "Fault_Name"
-                                                                    ]
-                                                                    faultNameList.append(
-                                                                        faultNameForMonitoring
-                                                                    )
-                                                                else:
-                                                                    mutatedVersions = (
-                                                                        re.sub(
-                                                                            target[0],
-                                                                            j,
-                                                                            text,
-                                                                        )
-                                                                    )
-                                                                    listForMutatedVersions = mutatedVersions.split(
-                                                                        "\n"
-                                                                    )
-                                                                    widgets.listWidget_4.addItems(
-                                                                        listForMutatedVersions
-                                                                    )
-                                                                    faultNameForMonitoring = faultList[
-                                                                        "all_faults"
-                                                                    ][
-                                                                        faultNumber
-                                                                    ][
-                                                                        "fault"
-                                                                    ][
-                                                                        "Fault_Name"
-                                                                    ]
-                                                                    faultNameList.append(
-                                                                        faultNameForMonitoring
-                                                                    )
+                                timeout_counter = 0
 
-                                                    elif uzunluk == 2:
-                                                        for j in opss:
-                                                            if target[0] != j:
-                                                                if (
-                                                                    target[0] == "+="
-                                                                    or "*="
-                                                                    or "^="
-                                                                    or "**"
-                                                                ):
-                                                                    kelime = ""
-                                                                    kelime = (
-                                                                        "[\\"
-                                                                        + target[0]
-                                                                        + "]{2}"
-                                                                    )
-                                                                    mutatedVersions = (
-                                                                        re.sub(
-                                                                            kelime,
-                                                                            j,
-                                                                            text,
-                                                                        )
-                                                                    )
-                                                                    listForMutatedVersions = mutatedVersions.split(
-                                                                        "\n"
-                                                                    )
-                                                                    widgets.listWidget_4.addItems(
-                                                                        listForMutatedVersions
-                                                                    )
-                                                                    faultNameForMonitoring = faultList[
-                                                                        "all_faults"
-                                                                    ][
-                                                                        faultNumber
-                                                                    ][
-                                                                        "fault"
-                                                                    ][
-                                                                        "Fault_Name"
-                                                                    ]
-                                                                    faultNameList.append(
-                                                                        faultNameForMonitoring
-                                                                    )
-                                                                else:
-                                                                    mutatedVersions = (
-                                                                        re.sub(
-                                                                            target[0],
-                                                                            j,
-                                                                            text,
-                                                                        )
-                                                                    )
-                                                                    listForMutatedVersions = mutatedVersions.split(
-                                                                        "\n"
-                                                                    )
-                                                                    widgets.listWidget_4.addItems(
-                                                                        listForMutatedVersions
-                                                                    )
-                                                                    faultNameForMonitoring = faultList[
-                                                                        "all_faults"
-                                                                    ][
-                                                                        faultNumber
-                                                                    ][
-                                                                        "fault"
-                                                                    ][
-                                                                        "Fault_Name"
-                                                                    ]
-                                                                    faultNameList.append(
-                                                                        faultNameForMonitoring
-                                                                    )
-                                                    else:
-                                                        for j in opss:
-                                                            if target[0] != j:
-                                                                if (
-                                                                    target[0] == "+"
-                                                                    or "-"
-                                                                    or "*"
-                                                                    or "/"
-                                                                ):
-                                                                    kelime = ""
-                                                                    kelime = (
-                                                                        "\\" + target[0]
-                                                                    )
-                                                                    mutatedVersions = (
-                                                                        re.sub(
-                                                                            kelime,
-                                                                            j,
-                                                                            text,
-                                                                        )
-                                                                    )
-                                                                    listForMutatedVersions = mutatedVersions.split(
-                                                                        "\n"
-                                                                    )
-                                                                    widgets.listWidget_4.addItems(
-                                                                        listForMutatedVersions
-                                                                    )
-                                                                    faultNameForMonitoring = faultList[
-                                                                        "all_faults"
-                                                                    ][
-                                                                        faultNumber
-                                                                    ][
-                                                                        "fault"
-                                                                    ][
-                                                                        "Fault_Name"
-                                                                    ]
-                                                                    faultNameList.append(
-                                                                        faultNameForMonitoring
-                                                                    )
-                                                                else:
-                                                                    mutatedVersions = (
-                                                                        re.sub(
-                                                                            target[0],
-                                                                            j,
-                                                                            text,
-                                                                        )
-                                                                    )
-                                                                    listForMutatedVersions = mutatedVersions.split(
-                                                                        "\n"
-                                                                    )
-                                                                    widgets.listWidget_4.addItems(
-                                                                        listForMutatedVersions
-                                                                    )
-                                                                    faultNameForMonitoring = faultList[
-                                                                        "all_faults"
-                                                                    ][
-                                                                        faultNumber
-                                                                    ][
-                                                                        "fault"
-                                                                    ][
-                                                                        "Fault_Name"
-                                                                    ]
-                                                                    faultNameList.append(
-                                                                        faultNameForMonitoring
-                                                                    )
+                                source_code_text = (
+                                    widgets.source_code_content.toPlainText()
+                                )
 
-                                                elif (
-                                                    target[0] == "or"
-                                                    or " and "
-                                                    or " not "
-                                                ):
-                                                    for j in opss:
-                                                        if target[0] != j:
-                                                            mutatedVersions = re.sub(
-                                                                target[0], j, text
-                                                            )
-                                                            listForMutatedVersions = (
-                                                                mutatedVersions.split(
-                                                                    "\n"
-                                                                )
-                                                            )
-                                                            widgets.listWidget_4.addItems(
-                                                                listForMutatedVersions
-                                                            )
-                                                            faultNameForMonitoring = (
-                                                                faultList["all_faults"][
-                                                                    faultNumber
-                                                                ]["fault"]["Fault_Name"]
-                                                            )
-                                                            faultNameList.append(
-                                                                faultNameForMonitoring
-                                                            )
+                                fname = "original_code.py"
+                                data = source_code_text
+                                with open(fname, mode = "w", encoding = "utf-8") as file:
+                                    file.write(data)
 
-                                                elif target[0] == " is " or " is not ":
-                                                    for j in opss:
-                                                        if target[0] != j:
-                                                            mutatedVersions = re.sub(
-                                                                target[0], j, text
-                                                            )
-                                                            listForMutatedVersions = (
-                                                                mutatedVersions.split(
-                                                                    "\n"
-                                                                )
-                                                            )
-                                                            widgets.listWidget_4.addItems(
-                                                                listForMutatedVersions
-                                                            )
-                                                            faultNameForMonitoring = (
-                                                                faultList["all_faults"][
-                                                                    faultNumber
-                                                                ]["fault"]["Fault_Name"]
-                                                            )
-                                                            faultNameList.append(
-                                                                faultNameForMonitoring
-                                                            )
+                                mutation_list_size = widgets.listWidget_4.count()
+                                time_limit_per_process = (
+                                    widgets.textEdit_18.toPlainText()
+                                )
 
-                                                elif target[0] == " in " or " not in ":
-                                                    for j in opss:
-                                                        if target[0] != j:
-                                                            mutatedVersions = re.sub(
-                                                                target[0], j, text
-                                                            )
-                                                            listForMutatedVersions = (
-                                                                mutatedVersions.split(
-                                                                    "\n"
-                                                                )
-                                                            )
-                                                            widgets.listWidget_4.addItems(
-                                                                listForMutatedVersions
-                                                            )
-                                                            faultNameForMonitoring = (
-                                                                faultList["all_faults"][
-                                                                    faultNumber
-                                                                ]["fault"]["Fault_Name"]
-                                                            )
-                                                            faultNameList.append(
-                                                                faultNameForMonitoring
-                                                            )
+                                subprocess.run("python3 original_code.py")
+                                # cmd = ["python3", "original_code.py"]
+                                # try:
+                                # 	subprocess.run(cmd, stdout=subprocess.PIPE, shell=True,
+                                # timeout=int(time_limit_per_process))
+                                # except subprocess.TimeoutExpired:
+                                # 	pass
 
-                                                elif (
-                                                    target[0] == "&"
-                                                    or "|"
-                                                    or "^"
-                                                    or "~"
-                                                    or "<<"
-                                                    or ">>"
-                                                ):
-                                                    for j in opss:
-                                                        if target[0] != j:
-                                                            mutatedVersions = re.sub(
-                                                                target[0], j, text
-                                                            )
-                                                            listForMutatedVersions = (
-                                                                mutatedVersions.split(
-                                                                    "\n"
-                                                                )
-                                                            )
-                                                            widgets.listWidget_4.addItems(
-                                                                listForMutatedVersions
-                                                            )
-                                                            faultNameForMonitoring = (
-                                                                faultList["all_faults"][
-                                                                    faultNumber
-                                                                ]["fault"]["Fault_Name"]
-                                                            )
-                                                            faultNameList.append(
-                                                                faultNameForMonitoring
-                                                            )
+                                print("#" * 10)
+                                print("#       Original Code       #")
+                                print("#" * 10)
 
-                                                else:
-                                                    pass
+                                # Directory liste içerisinden alınmalı
+                                fiplan_directory = widgets.listWidget_6.item(0).text()
+                                with open(fiplan_directory, encoding = "utf-8") as json_file:
+                                    fault_list = json.load(json_file)
+
+                                # with open("faultPlans.json") as file:
+                                #     fault_list = json.load(file)
+
+                                for i in range(0, mutation_list_size):
+                                    target_line_from_json = fault_list[i]["Fault"][
+                                        "Source_Code"
+                                    ]
+                                    mutated_code_from_json = fault_list[i]["Fault"][
+                                        "Mutate_Code"
+                                    ]
+
+                                    main_mutation_process = source_code_text.replace(
+                                        target_line_from_json, mutated_code_from_json
+                                    )
+                                    fname = "fault" + str(i) + ".py"
+                                    data = main_mutation_process
+                                    with open(fname, mode = "w", encoding = "utf-8") as file:
+                                        file.write(data)
+
+                                    print("\n\nFault Number: ", i)
+                                    print("\n############")
+
+                                    cmd = ["python3", "fault" + str(i) + ".py"]
+                                    try:
+                                        res = subprocess.run(
+                                            cmd,
+                                            stdout=subprocess.PIPE,
+                                            timeout=int(time_limit_per_process),
+                                        )
+                                    except subprocess.TimeoutExpired:
+                                        timeout_counter += 1
+                                        execution_timeout_list.append(
+                                            "python3 fault" + str(i) + ".py"
+                                        )
+                                        killed_mutants += 1
+                                        killed_mutants_list.append(
+                                            "python3 fault" + str(i) + ".py"
+                                        )
+                                        # error_code_list.append(mutant_code_output)
+                                        continue
+                                    else:
+
+                                        mutant_code_execution = (
+                                            "python3 fault" + str(i) + ".py"
+                                        )
+
+                                        subprocess_output_status = (
+                                            subprocess.getstatusoutput(
+                                                mutant_code_execution
+                                            )
+                                        )  # Mutant kodları çalıştırıp çıktılarını alır.
+                                        mutant_code_output = subprocess_output_status[1]
+                                        error_code_list.append(mutant_code_output)
+
+                                        coverage_run_process = (
+                                            "coverage run fault" + str(i) + ".py"
+                                        )  # Çalıştırılacak "fault"ların isimleri oluşturulur.
+                                        coverage_run_process_report = "coverage report"
+
+                                        os.system(
+                                            coverage_run_process
+                                        )  # Faultlar ayrı ayrı çalıştırılır
+                                        os.system(
+                                            coverage_run_process_report
+                                        )  # Çalıştırılan "fault"un coverage raporunu oluşturur.
+
+                                        if subprocess_output_status[0] != 0:
+                                            print(mutant_code_output)
+                                            print("#" * 10)
+                                            print("#      Killed Mutant         #")
+                                            print("#" * 10)
+                                            killed_mutants += 1
+                                            killed_mutants_list.append(
+                                                mutant_code_execution
+                                            )
+                                            error_code_list.append(mutant_code_output)
+
+                                        else:
+
+                                            if (
+                                                mutant_code_output
+                                                == original_source_code_output
+                                            ):
+                                                print(mutant_code_output)
+                                                print("#" * 10)
+                                                print(
+                                                    "#          Equivalent Mutant           #"
+                                                )
+                                                print("#" * 10)
+                                                equivalent_mutants += 1
+                                                equivalent_mutants_list.append(
+                                                    mutant_code_execution
+                                                )
 
                                             else:
-                                                for j in opss:
-                                                    mutatedVersions = re.sub(
-                                                        operators, j, text
-                                                    )
-                                                    listForMutatedVersions = (
-                                                        mutatedVersions.split("\n")
-                                                    )
-                                                    widgets.listWidget_4.addItems(
-                                                        listForMutatedVersions
-                                                    )
-                                                    faultNameForMonitoring = faultList[
-                                                        "all_faults"
-                                                    ][faultNumber]["fault"][
-                                                        "Fault_Name"
-                                                    ]
-                                                    faultNameList.append(
-                                                        faultNameForMonitoring
-                                                    )
-                    except:
-                        pass
+                                                print(mutant_code_output)
+                                                print("#" * 10)
+                                                print(
+                                                    "#       Survivor Mutant          #"
+                                                )
+                                                print("#" * 10)
+                                                survivor_mutants += 1
+                                                survived_mutants_list.append(
+                                                    mutant_code_execution
+                                                )
 
-            # # Mutasyon işlemi sonucunda oluşturulan mutantların sayısını
-            # # listenin içindeki elemanların sayısını alarak gösterir.
-            # totalMutantsNumber = widgets.listWidget_4.count()
-            # widgets.label_76.setText("Number of Total Mutants: " + str(totalMutantsNumber))
+                                end_time = time.time()
 
-        def executionModule(self):
-            global killedMutants
-            global survivorMutants
-            global equivalentMutants
-            global faultNameList
-            global timeoutList
-            global sourceAndMutatedCode
-            global ros_source_mutant
-            global ros_source_codes
-
-            if widgets.checkBox_13.isChecked() is True:
-
-                killed_counter = 0
-                survived_counter = 0
-                ros_source_code = ""
-
-                len_ros_source_mutant = len(ros_source_mutant)
-
-                working_directory = widgets.lineEdit_2.text()
-
-                for i in range(len_ros_source_mutant):
-                    if i % 2 == 1:
-                        new_data = ros_source_codes.replace(
-                            ros_source_mutant[i - 1], ros_source_mutant[i]
-                        )
-
-                        save_path = widgets.lineEdit_2.text()
-                        fname = "mutant" + str(int(i / 2)) + ".py"
-
-                        completeName = os.path.join(save_path, fname)
-                        file1 = open(completeName, "w")
-                        file1.write(new_data)
-                        file1.close()
-
-                        subprocess.Popen(["chmod", "+x", fname], cwd=working_directory)
-
-                        print(
-                            "\n\n############################################################################"
-                        )
-                        print(
-                            "######################       Mutant:{mutant_name}        ######################".format(
-                                mutant_name=fname
-                            )
-                        )
-                        print(
-                            "############################################################################"
-                        )
-
-                        try:
-                            roscore_process = subprocess.Popen(["roscore"])
-                            time.sleep(5)
-                            status_output = subprocess.Popen(
-                                ["rosrun", "deneme_paket", fname]
-                            )
-                            status_output.wait(timeout=5)
-                        except subprocess.TimeoutExpired:
-                            status_output.terminate()
-                            roscore_process.terminate()
-                            survived_counter += 1
-                            print(
-                                "############################################################################"
-                            )
-                            print(
-                                "######################       Survived Mutant          ######################"
-                            )
-                            print(
-                                "############################################################################\n\n"
-                            )
-                            print(
-                                "----------------------------------------------------------------------------"
-                            )
-                        else:
-                            status_output.terminate()
-                            roscore_process.terminate()
-                            killed_counter += 1
-                            print(
-                                "############################################################################"
-                            )
-                            print(
-                                "######################       Killed Mutant            ######################"
-                            )
-                            print(
-                                "############################################################################\n\n"
-                            )
-                            print(
-                                "----------------------------------------------------------------------------"
-                            )
-                print(
-                    "\n\n############################################################################"
-                )
-                print(
-                    "#########################       Results            #########################"
-                )
-                print(
-                    "############################################################################\n\n"
-                )
-
-                print("Total Killed Mutant(s):", killed_counter)
-                print("Total Survived Mutant(s):", survived_counter)
-
-                print(
-                    "\nMutation Score:",
-                    (killed_counter / (killed_counter + survived_counter)) * 100,
-                )
-
-                print(
-                    "----------------------------------------------------------------------------\n\n"
-                )
-
-            else:
-
-                start_time = time.time()
-
-                timeoutCounter = 0
-
-                sourceCodeData = widgets.textEdit.toPlainText()
-
-                fname = "original_code.py"
-                data = sourceCodeData
-                with open(fname, "w") as f:
-                    f.write(data)
-
-                lengthMutatedLines = widgets.listWidget_4.count()
-                timeLimitPerProcess = widgets.textEdit_18.toPlainText()
-
-                subprocess.run("python3 original_code.py", shell=True)
-                # cmd = ["python3", "original_code.py"]
-                # try:
-                # 	subprocess.run(cmd, stdout=subprocess.PIPE, shell=True, timeout=int(timeLimitPerProcess))
-                # except subprocess.TimeoutExpired:
-                # 	pass
-
-                print(
-                    "############################################################################"
-                )
-                print(
-                    "########################         Original Code     #########################"
-                )
-                print(
-                    "############################################################################"
-                )
-
-                with open("faultPlans.json") as faultsFromJson:
-                    faultList = json.load(faultsFromJson)
-
-                print(lengthMutatedLines)
-
-                for i in range(0, lengthMutatedLines):
-                    targetLineFromJson = faultList["fault_plans"][i]["Fault"][
-                        "Source_Code"
-                    ]
-                    mutatedCodeFromJson = faultList["fault_plans"][i]["Fault"][
-                        "Mutate_Code"
-                    ]
-
-                    mutationProcess = sourceCodeData.replace(
-                        targetLineFromJson, mutatedCodeFromJson
-                    )
-                    fname = "fault" + str(i) + ".py"
-                    data = mutationProcess
-                    with open(fname, "w") as f:
-                        f.write(data)
-
-                    print("\n\nFault Number: ", i)
-                    print(
-                        "\n############################################################################"
-                    )
-
-                    cmd = ["python3", "fault" + str(i) + ".py"]
-                    try:
-                        res = subprocess.run(
-                            cmd,
-                            stdout=subprocess.PIPE,
-                            timeout=int(timeLimitPerProcess),
-                        )
-                    except subprocess.TimeoutExpired:
-                        timeoutCounter += 1
-                        timeoutList.append("python3 fault" + str(i) + ".py")
-                        killedMutants += 1
-                        listOfKilledMutants.append("python3 fault" + str(i) + ".py")
-                        # errorCodeList.append(mutantCodeOutput)
-                        continue
-                    else:
-
-                        mutantCodeExecution = "python3 fault" + str(i) + ".py"
-
-                        statusOfOutput = subprocess.getstatusoutput(
-                            mutantCodeExecution
-                        )  # Mutant kodları çalıştırıp çıktılarını alır.
-                        mutantCodeOutput = statusOfOutput[1]
-                        errorCodeList.append(mutantCodeOutput)
-
-                        coverageRun = (
-                            "coverage run fault" + str(i) + ".py"
-                        )  # Çalıştırılacak "fault"ların isimleri oluşturulur.
-                        coverageReport = "coverage report"
-
-                        os.system(coverageRun)  # Faultlar ayrı ayrı çalıştırılır
-                        os.system(
-                            coverageReport
-                        )  # Çalıştırılan "fault"un coverage raporunu oluşturur.
-
-                        if statusOfOutput[0] != 0:
-                            print(mutantCodeOutput)
-                            print(
-                                "############################################################################"
-                            )
-                            print(
-                                "######################       Killed Mutant            ######################"
-                            )
-                            print(
-                                "############################################################################"
-                            )
-                            killedMutants += 1
-                            listOfKilledMutants.append(mutantCodeExecution)
-                            errorCodeList.append(mutantCodeOutput)
-
-                        else:
-
-                            if mutantCodeOutput == originalSourceCodeOutput:
-                                print(mutantCodeOutput)
+                                print("\n\n")
+                                print("#" * 10)
                                 print(
-                                    "############################################################################"
+                                    "#                     RESULTS                        #"
                                 )
+                                print("#" * 10)
+                                print("\n")
+
+                                print("Process Time: ", end_time - start_time)
+                                widgets.listWidget_9.addItem(
+                                    "Process Time:" + str(end_time - start_time)
+                                )
+                                print("\n")
+
+                                mutation_score = (
+                                    killed_mutants / (killed_mutants + survivor_mutants)
+                                ) * 100
+
+                                print("Mutation Score: %", mutation_score)
+                                widgets.listWidget_9.addItem(
+                                    "Mutation Score: %" + str(mutation_score)
+                                )
+                                print("\n")
                                 print(
-                                    "######################       Equivalent Mutant        ######################"
+                                    "Number of Total Mutants:",
+                                    killed_mutants
+                                    + survivor_mutants
+                                    + equivalent_mutants,
                                 )
+                                widgets.listWidget_9.addItem(
+                                    "All Mutants: "
+                                    + str(
+                                        killed_mutants
+                                        + survivor_mutants
+                                        + equivalent_mutants
+                                    )
+                                )
+                                print("\n")
+                                print("Killed Mutants: ", killed_mutants)
+                                widgets.listWidget_9.addItem(
+                                    "Killed: " + str(killed_mutants)
+                                )
+                                print("Survivor Mutants: ", survivor_mutants)
+                                widgets.listWidget_9.addItem(
+                                    "Survived: " + str(survivor_mutants)
+                                )
+                                print("Equivalent Mutants: ", equivalent_mutants)
+                                widgets.listWidget_9.addItem(
+                                    "Equivalent: " + str(equivalent_mutants)
+                                )
+                                print("Timeout: ", timeout_counter)
+                                widgets.listWidget_9.addItem(
+                                    "Timeout: " + str(timeout_counter)
+                                )
+
+                                print("\n")
+                                print("#" * 10)
                                 print(
-                                    "############################################################################"
+                                    "#                      DETAILS                       #"
                                 )
-                                equivalentMutants += 1
-                                listOfEquivalentMutants.append(mutantCodeExecution)
+                                print("#" * 10)
+                                print("\n")
+
+                                killed_mutant_list_size = len(killed_mutants_list)
+
+                                print("Killed Mutants List: ")
+                                widgets.listWidget_16.addItem("Killed Mutants List: ")
+                                for i in range(killed_mutant_list_size):
+                                    print(killed_mutants_list[i])
+                                    widgets.listWidget_16.addItem(
+                                        str(killed_mutants_list[i])
+                                    )
+
+                                print("\n")
+
+                                print("Survivor Mutants List: ")
+                                widgets.listWidget_16.addItem("Survivor Mutants List: ")
+                                for i in survived_mutants_list:
+                                    print(i)
+                                    widgets.listWidget_16.addItem(str(i))
+
+                                print("\n")
+
+                                print("Equivalent Mutants List: ")
+                                widgets.listWidget_16.addItem(
+                                    "Equivalent Mutants List: "
+                                )
+                                for i in equivalent_mutants_list:
+                                    print(i)
+                                    widgets.listWidget_16.addItem(str(i))
+
+                                print("Timeout List: ")
+                                widgets.listWidget_16.addItem("Timeout Mutants List: ")
+                                for i in execution_timeout_list:
+                                    print(i)
+                                    widgets.listWidget_16.addItem(str(i))
+
+                                print("\n")
+                                print("#" * 10)
+                                print(
+                                    "#             Outputs of Killed Mutants              #"
+                                )
+                                print("#" * 10)
+
+                                for i in range(killed_mutant_list_size):
+                                    print("\n")
+                                    print("#" * 10)
+                                    print(killed_mutants_list[i])
+                                    widgets.listWidget_19.addItem(
+                                        str(killed_mutants_list[i])
+                                    )
+                                    print(
+                                        "" - "*10" - "*10" - "*10" - "*10" - "*10----"
+                                    )
+                                    error_output = error_code_list[i]
+                                    error_output_split = error_output.split("\n")
+                                    print(error_output_split[-1])
+                                    widgets.listWidget_19.addItem(
+                                        str(error_output_split[-1])
+                                    )
+                                    print("#" * 10)
+                                print("\n")
+
+                                if widgets.checkBox_7.isChecked() is True:
+                                    for i in range(0, mutation_list_size):
+                                        path = "fault" + str(i) + ".py"
+                                        os.remove(path)
+
+                                    os.remove("original_code.py")
+                                    os.remove(".coverage")
+
+                                widgets.label_10.setText(
+                                    "Mutation Score: %" + str(mutation_score)
+                                )
+
+                                fault_name_list_size = len(fault_name_list)
+                                for i in range(0, fault_name_list_size):
+                                    widgets.listWidget_14.addItem(
+                                        "fault"
+                                        + str(i)
+                                        + ".py --> "
+                                        + str(fault_name_list[i])
+                                    )
+                                    print(str(fault_name_list[i]))
 
                             else:
-                                print(mutantCodeOutput)
+                                killed_counter = 0
+                                survived_counter = 0
+
+                                fiplan_directory = widgets.listWidget_6.item(0).text()
+                                with open(fiplan_directory, encoding = "utf-8") as json_file:
+                                    fault_list = json.load(json_file)
+
+                                for i in range(len(fault_list)):
+                                    directory = fault_list[i]["Fault"]["File_Directory"]
+
+                                    split_directory = directory.split("/")
+                                    folder_name = split_directory[-3]
+
+                                    ros_exe_file_name = fault_list[i]["Fault"][
+                                        "Exe_File"
+                                    ]
+
+                                    with open(directory, mode = "r", encoding = "utf-8") as file:
+                                        python_file_content = file.read()
+
+                                    source_code = fault_list[i]["Fault"]["Source_Code"]
+                                    mutant_code = fault_list[i]["Fault"]["Mutate_Code"]
+
+                                    print("Source codeeeeeeeeeeeeee:", source_code)
+                                    print("Mutant codeeeeeeeeeeeeee:", mutant_code)
+
+                                    mutation_process = python_file_content.replace(
+                                        source_code, mutant_code
+                                    )
+
+                                    with open(directory, mode = "w", encoding = "utf-8") as file:
+                                        file.write(mutation_process)
+
+                                    print("\n\n############")
+                                    print(
+                                        "                 Mutant:{mutant_name}".format(
+                                            mutant_name=i
+                                        )
+                                    )
+                                    print("#" * 10)
+
+                                    try:
+                                        status_output = subprocess.Popen(
+                                            [
+                                                "roslaunch",
+                                                folder_name,
+                                                ros_exe_file_name,
+                                            ]
+                                        )
+                                        status_output.wait(timeout=60)
+                                    except subprocess.TimeoutExpired:
+                                        status_output.terminate()
+                                        survived_counter += 1
+                                        print("#" * 10)
+                                        print("#       Survived Mutant        #")
+                                        print("#" * 10)
+                                        print("\n\n")
+                                        print("#" * 10)
+
+                                    else:
+                                        status_output.terminate()
+                                        killed_counter += 1
+                                        print("#" * 10)
+                                        print("#    Killed Mutant            #")
+                                        print("#" * 10)
+                                        print("\n\n")
+                                        print("#" * 10)
+
+                                    with open(directory, mode = "w", encoding = "utf-8") as file:
+                                        file.write(python_file_content)
+
+                                print("\n\n############")
+                                print("#     Results            #")
+                                print("#" * 10)
+                                print("\n\n")
+
+                                print("Total Killed Mutant(s):", killed_counter)
+                                print("Total Survived Mutant(s):", survived_counter)
+
                                 print(
-                                    "############################################################################"
+                                    "\nMutation Score:",
+                                    (
+                                        killed_counter
+                                        / (killed_counter + survived_counter)
+                                    )
+                                    * 100,
                                 )
-                                print(
-                                    "######################       Survivor Mutant          ######################"
-                                )
-                                print(
-                                    "############################################################################"
-                                )
-                                survivorMutants += 1
-                                listOfSurvivorMutants.append(mutantCodeExecution)
 
-                end_time = time.time()
+                                print("#" * 10)
+                                print("\n\n")
 
-                print("\n\n")
-                print(
-                    "############################################################################"
-                )
-                print(
-                    "#                                RESULTS                                   #"
-                )
-                print(
-                    "############################################################################"
-                )
-                print("\n")
-
-                print("Process Time: ", end_time - start_time)
-                widgets.listWidget_9.addItem(
-                    "Process Time:" + str(end_time - start_time)
-                )
-                print("\n")
-
-                mutationScore = (
-                    killedMutants / (killedMutants + survivorMutants)
-                ) * 100
-
-                print("Mutation Score: %", mutationScore)
-                widgets.listWidget_9.addItem("Mutation Score: %" + str(mutationScore))
-                print("\n")
-                print(
-                    "Number of Total Mutants:",
-                    killedMutants + survivorMutants + equivalentMutants,
-                )
-                widgets.listWidget_9.addItem(
-                    "All Mutants: "
-                    + str(killedMutants + survivorMutants + equivalentMutants)
-                )
-                print("\n")
-                print("Killed Mutants: ", killedMutants)
-                widgets.listWidget_9.addItem("Killed: " + str(killedMutants))
-                print("Survivor Mutants: ", survivorMutants)
-                widgets.listWidget_9.addItem("Survived: " + str(survivorMutants))
-                print("Equivalent Mutants: ", equivalentMutants)
-                widgets.listWidget_9.addItem("Equivalent: " + str(equivalentMutants))
-                print("Timeout: ", timeoutCounter)
-                widgets.listWidget_9.addItem("Timeout: " + str(timeoutCounter))
-
-                print("\n")
-                print(
-                    "############################################################################"
-                )
-                print(
-                    "#                                DETAILS                                   #"
-                )
-                print(
-                    "############################################################################"
-                )
-                print("\n")
-
-                lengthOfKilledMutantsList = len(listOfKilledMutants)
-
-                print("Killed Mutants List: ")
-                widgets.listWidget_16.addItem("Killed Mutants List: ")
-                for i in range(lengthOfKilledMutantsList):
-                    print(listOfKilledMutants[i])
-                    widgets.listWidget_16.addItem(str(listOfKilledMutants[i]))
-
-                print("\n")
-
-                print("Survivor Mutants List: ")
-                widgets.listWidget_16.addItem("Survivor Mutants List: ")
-                for i in listOfSurvivorMutants:
-                    print(i)
-                    widgets.listWidget_16.addItem(str(i))
-
-                print("\n")
-
-                print("Equivalent Mutants List: ")
-                widgets.listWidget_16.addItem("Equivalent Mutants List: ")
-                for i in listOfEquivalentMutants:
-                    print(i)
-                    widgets.listWidget_16.addItem(str(i))
-
-                print("Timeout List: ")
-                widgets.listWidget_16.addItem("Timeout Mutants List: ")
-                for i in timeoutList:
-                    print(i)
-                    widgets.listWidget_16.addItem(str(i))
-
-                print("\n")
-                print(
-                    "############################################################################"
-                )
-                print(
-                    "#                     Outputs of Killed Mutants                            #"
-                )
-                print(
-                    "############################################################################"
-                )
-
-                for i in range(lengthOfKilledMutantsList):
-                    print("\n")
-                    print(
-                        "############################################################################"
-                    )
-                    print(listOfKilledMutants[i])
-                    widgets.listWidget_19.addItem(str(listOfKilledMutants[i]))
-                    print(
-                        "----------------------------------------------------------------------------"
-                    )
-                    errorOutput = errorCodeList[i]
-                    onlyError = errorOutput.split("\n")
-                    print(onlyError[-1])
-                    widgets.listWidget_19.addItem(str(onlyError[-1]))
-                    print(
-                        "############################################################################"
-                    )
-                print("\n")
-
-                if widgets.checkBox_7.isChecked() is True:
-                    for i in range(0, lengthMutatedLines):
-                        path = "fault" + str(i) + ".py"
-                        os.remove(path)
-
-                    os.remove("original_code.py")
-                    os.remove(".coverage")
-                else:
-                    pass
-
-                widgets.label_10.setText("Mutation Score: %" + str(mutationScore))
-
-                lenfaultNameList = len(faultNameList)
-                for i in range(0, lenfaultNameList):
-                    widgets.listWidget_14.addItem(
-                        "fault" + str(i) + ".py --> " + str(faultNameList[i])
-                    )
-                    print(str(faultNameList[i]))
-
-                # lenSourceAndMutatedCode = len(sourceAndMutatedCode)
-
-                # for i in (0,lenSourceAndMutatedCode):
-                # 	if i % 2 == 0:
-                # 		continue
-                # 	else:
-                # 		sourceCode = sourceAndMutatedCode[i-1]
-                # 		mutatedCode = sourceAndMutatedCode[i]
-                # 		widgets.listWidget_14.addItem(sourceCode + " --> " + mutatedCode)
-
-        def selectedMetricInformations():
+        def metric_info_selection():
             try:
-                clickedItemText = widgets.listWidget_18.currentItem().text()
-                selectedMetric = widgets.listWidget_18.currentItem().text()
+                clicked_item_text = widgets.listWidget_18.currentItem().text()
+                selected_metric = widgets.listWidget_18.currentItem().text()
 
-                with open("metricList.json") as metricsFromJson:
-                    faultList = json.load(metricsFromJson)
+                with open("metricList.json", encoding = "utf-8") as file:
+                    fault_list = json.load(file)
 
-                lenOfMetricList = widgets.listWidget_18.count()
+                metric_list_size = widgets.listWidget_18.count()
 
-                for i in range(0, lenOfMetricList):
-                    metricName = faultList["Metrics"][i]["Metric"]["Name"]
+                for i in range(0, metric_list_size):
+                    metric_name = fault_list["Metrics"][i]["Metric"]["Name"]
 
-                    if clickedItemText == metricName:
-                        metricInfo = faultList["Metrics"][i]["Metric"]["Info"]
-                        widgets.textEdit_9.setPlainText(metricInfo)
+                    if clicked_item_text == metric_name:
+                        metric_information = fault_list["Metrics"][i]["Metric"]["Info"]
+                        widgets.textEdit_9.setPlainText(metric_information)
             except:
                 IndexError()
 
-        def selectMetricFromListDoubleClick():
-            selectedMetric = widgets.listWidget_18.currentItem().text()
-            widgets.listWidget_15.addItem(selectedMetric)
+        def metric_from_list_selection_with_double_click():
+            selected_metric = widgets.listWidget_18.currentItem().text()
+            widgets.listWidget_15.addItem(selected_metric)
+
+        def show_message(message_box_type, message_box_text, message_box_title):
+            message_box = QMessageBox()
+            if message_box_type == "Critical":
+                message_box.setIcon(QMessageBox.Critical)
+            if message_box_type == "Ok":
+                message_box.setIcon(QMessageBox.Ok)
+            if message_box_type == "Critical":
+                message_box.setIcon(QMessageBox.Critical)
+            message_box.setText(message_box_text)
+            message_box.setWindowTitle(message_box_title)
+            message_box.setStandardButtons(QMessageBox.Ok)
+            message_box.exec()
 
         # LIST'S (listWidget's) CLICK CONNECTS
 
         # Line Selection For Mutation on FI Plan Page
-        widgets.listWidget.itemClicked.connect(selectPossibleMutationLine)
-
-        # Line Selection For Mutation on YAML - LAUNCH FI Plan Page
-        widgets.listWidget_24.itemClicked.connect(selectPossibleMutationLineYAML)
+        widgets.listWidget.itemClicked.connect(possible_mutation_line_selection)
 
         # Line Selection and Show Information About Fault on FI Plan Page
-        widgets.listWidget_3.itemDoubleClicked.connect(faultSelectFromLibrary)
-        widgets.listWidget_3.itemClicked.connect(selectWithOneClickedForFIPlan)
+        widgets.listWidget_3.itemDoubleClicked.connect(fault_selection_from_library)
+        widgets.listWidget_3.itemClicked.connect(show_fault_info_with_one_click)
 
         # Code Snippet Selection on Start Page
-        widgets.listWidget_10.itemDoubleClicked.connect(codeSnippetSelect)
-        widgets.listWidget_10.itemClicked.connect(selectWithOneClickedForCS)
+        widgets.code_snippet_list.itemDoubleClicked.connect(code_snippet_selection)
+        widgets.code_snippet_list.itemClicked.connect(
+            code_snippet_select_with_one_clicked
+        )
 
         # Select Task and Show Task's Details on Workload Page
-        widgets.listWidget_21.itemClicked.connect(taskInfoWithOneClick)
-        widgets.listWidget_21.itemDoubleClicked.connect(taskSelect)
+        widgets.listWidget_21.itemClicked.connect(task_info_with_one_click)
+        widgets.listWidget_21.itemDoubleClicked.connect(task_selection)
 
         # Select Metric
-        widgets.listWidget_18.itemClicked.connect(selectedMetricInformations)
-        widgets.listWidget_18.itemDoubleClicked.connect(selectMetricFromListDoubleClick)
+        widgets.listWidget_18.itemClicked.connect(metric_info_selection)
+        widgets.listWidget_18.itemDoubleClicked.connect(
+            metric_from_list_selection_with_double_click
+        )
 
         # BUTTONS CLICK CONNECTS
 
@@ -1863,42 +1067,40 @@ class MainWindow(QMainWindow):
         widgets.btn_start.clicked.connect(self.buttonClick)
         widgets.btn_scan.clicked.connect(self.buttonClick)
         widgets.btn_fiplan.clicked.connect(self.buttonClick)
-        widgets.btn_execution.clicked.connect(self.buttonClick)
+        widgets.btn_execution.clicked.connect(self.left_menu_execution_page)
         widgets.btn_monitoring.clicked.connect(self.buttonClick)
+        widgets.open_ros_page.clicked.connect(self.buttonClick)
 
         # GO TO BUTTON CONNECTS
-        widgets.btn_go_start.clicked.connect(self.buttonClick)
-        widgets.btn_go_start_2.clicked.connect(self.buttonClick)
+        widgets.btn_go_start.clicked.connect(self.go_to_start_page)
         widgets.btn_go_scan.clicked.connect(self.buttonClick)
         widgets.btn_go_fiplan.clicked.connect(self.buttonClick)
         widgets.btn_go_exe.clicked.connect(self.buttonClick)
-        widgets.btn_go_exe_2.clicked.connect(self.buttonClick)
         widgets.btn_go_monitoring.clicked.connect(self.buttonClick)
         widgets.btn_new_one.clicked.connect(self.buttonClick)
         widgets.back_start_page.clicked.connect(self.buttonClick)
         widgets.go_execution.clicked.connect(self.buttonClick)
 
         # START PAGE BUTTON CONNECTS
-        widgets.btn_open_folder.clicked.connect(get_file_py)
-        widgets.btn_select_workload.clicked.connect(get_file_json)
+        widgets.btn_open_folder.clicked.connect(get_file_py_for_source_code)
+        widgets.btn_select_workload.clicked.connect(workload_get_file_json)
         widgets.btn_create_workload.clicked.connect(self.buttonClick)
-        widgets.btn_save_workload.clicked.connect(self.buttonClick)
         widgets.checkBox_5.clicked.connect(self.buttonClick)
         widgets.btn_clear_codes.clicked.connect(self.buttonClick)
         widgets.btn_clear_workload.clicked.connect(self.buttonClick)
         widgets.btn_add_custom.clicked.connect(self.buttonClick)
-        widgets.checkBox_8.clicked.connect(editSourceCodes)
-        widgets.checkBox_5.clicked.connect(editWorkload)
-        widgets.btn_prepare_plan.clicked.connect(self.buttonClick)
-        widgets.open_ros_page.clicked.connect(self.buttonClick)
+        widgets.checkBox_8.clicked.connect(edit_source_code)
+        widgets.checkBox_5.clicked.connect(edit_workload)
+        widgets.btn_open_tc.clicked.connect(get_file_py_for_test_case)
+        widgets.try_test_case.clicked.connect(self.buttonClick)
+        widgets.pushButton_10.clicked.connect(self.buttonClick)
 
         # CODE SNIPPET BUTTON CONNECTS
         widgets.btn_create_code.clicked.connect(self.buttonClick)
-        widgets.btn_select_snippet.clicked.connect(codeSnippetSelect)
+        widgets.btn_select_snippet.clicked.connect(code_snippet_selection)
         widgets.btn_remove_snip.clicked.connect(self.buttonClick)
 
         # ROS PAGE BUTTON CONNECTS
-        widgets.open_ros_btn.clicked.connect(self.buttonClick)
         widgets.rosrun_btn.clicked.connect(self.buttonClick)
         widgets.add_order_btn.clicked.connect(self.buttonClick)
         widgets.select_trgt_btn.clicked.connect(self.buttonClick)
@@ -1911,18 +1113,24 @@ class MainWindow(QMainWindow):
         widgets.ros_slct_fiplan.clicked.connect(self.buttonClick)
         widgets.ros_fiplan_save.clicked.connect(self.buttonClick)
         widgets.ros_fiplan_remove.clicked.connect(self.buttonClick)
+        widgets.open_target_ros.clicked.connect(self.buttonClick)
+        widgets.ros_test_case.clicked.connect(self.buttonClick)
+        widgets.open_ros_test_case.clicked.connect(self.buttonClick)
+        widgets.ros_try_test_case.clicked.connect(self.buttonClick)
+        widgets.ros_save_test_case.clicked.connect(self.buttonClick)
+        widgets.back_to_start.clicked.connect(self.buttonClick)
 
         # SCAN PAGE BUTTON CONNECTS
         widgets.btn_back_code.clicked.connect(self.buttonClick)
-        widgets.btn_scan2.clicked.connect(self.buttonClick)
+        widgets.btn_scan_process.clicked.connect(self.scan_islemi)
 
         # FI PLAN PAGE BUTTONS
-        widgets.btn_random_fault.clicked.connect(self.buttonClick)
-        widgets.btn_slct_fiplan.clicked.connect(get_file_json)
+        widgets.btn_random_fault.clicked.connect(random_hata_bas)
+        widgets.btn_slct_fiplan.clicked.connect(fiplan_get_file_json)
         widgets.btn_create_custom.clicked.connect(self.buttonClick)
-        widgets.btn_select_fault.clicked.connect(faultSelectFromLibrary)
+        widgets.btn_select_fault.clicked.connect(fault_selection_from_library)
         widgets.btn_remove_fault.clicked.connect(self.buttonClick)
-        widgets.btn_start_mutation.clicked.connect(mutationForFIPlan)
+        widgets.btn_start_mutation.clicked.connect(basla_func)
         widgets.btn_save_fiplan.clicked.connect(self.buttonClick)
         widgets.btn_remove_fiplan.clicked.connect(self.buttonClick)
 
@@ -1930,19 +1138,16 @@ class MainWindow(QMainWindow):
         widgets.btn_new_exe.clicked.connect(self.buttonClick)
         widgets.btn_remove_exe.clicked.connect(self.buttonClick)
         widgets.btn_select_metrics.clicked.connect(self.buttonClick)
-        widgets.btn_start_exe.clicked.connect(executionModule)
+        widgets.btn_start_exe.clicked.connect(execution_module_function)
 
         # MONITORING PAGE BUTTONS
         widgets.btn_select_scenario.clicked.connect(get_file_rosbag)
         widgets.btn_run_scenario.clicked.connect(self.buttonClick)
         widgets.btn_create_report.clicked.connect(self.buttonClick)
 
-        # SAVE WORKLOAD PAGE BUTTONS
-        widgets.btn_workload_save.clicked.connect(self.buttonClick)
-        widgets.btn_changeDir.clicked.connect(self.buttonClick)
-        widgets.btn_back_start2.clicked.connect(self.buttonClick)
-
         # CREATE WORKLOAD PAGE BUTTONS
+        widgets.btn_changeDir.clicked.connect(self.buttonClick)
+        widgets.btn_workload_save.clicked.connect(self.buttonClick)
         widgets.btn_take_tasks.clicked.connect(self.buttonClick)
         widgets.btn_select_task.clicked.connect(self.buttonClick)
         widgets.btn_remove_task.clicked.connect(self.buttonClick)
@@ -1963,24 +1168,17 @@ class MainWindow(QMainWindow):
         widgets.btn_remove_createdFault.clicked.connect(self.buttonClick)
 
         # METRICS PAGE BUTTONS
-        widgets.btn_metric_list.clicked.connect(selectMetricFromListDoubleClick)
+        widgets.btn_metric_list.clicked.connect(
+            metric_from_list_selection_with_double_click
+        )
         widgets.saveMetrics.clicked.connect(self.buttonClick)
         widgets.btn_back_exe.clicked.connect(self.buttonClick)
-
-        # YAML-LAUNCH FILE PAGE BUTTONS
-        widgets.btn_open_yaml.clicked.connect(get_yaml_file)
-        widgets.btn_clear_yaml.clicked.connect(check_empty)
-        widgets.btn_yaml_fault.clicked.connect(fault_select_from_yaml_lib)
-        widgets.btn_apply_yaml.clicked.connect(self.buttonClick)
-        widgets.btn_remove_yaml.clicked.connect(self.buttonClick)
-        widgets.btn_save_yaml.clicked.connect(self.buttonClick)
-        widgets.checkBox_10.clicked.connect(self.buttonClick)
 
         # SHOW APP
         self.show()
 
         # SET CUSTOM THEME
-        useCustomTheme = False
+        use_custom_theme = False
 
         # SET HOME PAGE AND SELECT MENU
         widgets.stackedWidget.setCurrentWidget(widgets.home)
@@ -1988,10 +1186,133 @@ class MainWindow(QMainWindow):
             UIFunctions.selectMenu(widgets.btn_home.styleSheet())
         )
 
+    def cem_baba(self):
+        self.ui.titleRightInfo.setText(module_bir.cem_yazdir())
+
+    def left_menu_execution_page(self):
+        widgets.stackedWidget.setCurrentWidget(widgets.execution)
+        UIFunctions.resetStyle(self, widgets.btn_execution)
+        self.sender().setStyleSheet(UIFunctions.selectMenu(self.sender().styleSheet()))
+        widgets.titleRightInfo.setText("EXECUTION")
+
+    def go_to_start_page(self):
+        # connection = dbConnection.connect("VVToolDataBase","postgres","root")
+        # connection.commit()
+
+
+        self.ui.stackedWidget.setCurrentWidget(self.ui.start)
+        UIFunctions.resetStyle(self, self.ui.btn_home.styleSheet())
+        widgets.btn_start.setStyleSheet(
+            UIFunctions.selectMenu(self.ui.btn_start.styleSheet())
+        )
+        self.ui.titleRightInfo.setText("START")
+
+        name = "Source Code Example"
+        description = "Settings Example"
+
+        # db_connection_status = False
+
+        # if db_connection_status is True:
+        #     IMFIT_functions.insert_system(connection, name, description)
+
+    def mutasyon_uygula(self):
+        pass
+
+
+
+    # Scan Process
+    def scan_islemi(self):
+        """ Start of scan process """
+        check_detected_parts_list = widgets.listWidget_2.count()
+        if check_detected_parts_list:
+            widgets.listWidget_2.clear()
+
+        scan_page_source_code_check = widgets.textEdit_4.toPlainText()
+
+        if scan_page_source_code_check:
+
+            is_empty_workload = len(widgets.textEdit_22.toPlainText())
+            selected_code_snippet_length = widgets.listWidget_17.count()
+
+            # Progress Bar
+            # for i in range(100):
+            # 	time.sleep(0.01)
+            # 	widgets.progressBar_2.setValue(i+1)
+
+            # Source code divided
+            pure_source_code_content = self.ui.textEdit_4.toPlainText()
+            split_text = pure_source_code_content.split("\n")
+            self.ui.listWidget_2.addItems(split_text)
+            detected_part_list_size = self.ui.listWidget_2.count()
+
+
+            code_snippet_regex_code = module_uc.open_code_snip()
+
+            workload_text = self.ui.textEdit_22.toPlainText()
+            workload_data = json.loads(workload_text)
+
+            workload_function_name_list = module_uc.take_workload_yes_wl_yes_cs(workload_data)
+
+            painted_lines = module_uc.workload_lines(split_text, workload_function_name_list)
+            self.paint_workload_lines(painted_lines)
+            added_snippet_regex_length, code_snippet_data_list = self.find_selected_code_snippet(selected_code_snippet_length, code_snippet_regex_code)
+            patterns = module_uc.find_patterns_yes_wl_yes_cs(added_snippet_regex_length, code_snippet_data_list)
+            source_code_list = self.take_source_code()
+            faultable_line_list, faultable_line_number_list = module_uc.scan_yes_wl_yes_cs(patterns, source_code_list, painted_lines)
+            self.paint_sky_blue(faultable_line_number_list)
+            self.add_fi_plan(faultable_line_list)
+
+    def take_source_code(self):
+        """ Take Source Code from UI """
+        source_code_list = []
+        source_code = self.ui.textEdit_4.toPlainText()
+        source_code_list = source_code.split("\n")
+
+        return source_code_list
+    
+    def paint_sky_blue(self,faultable_line_number_list):
+        """ In "Yes Workload, Yes Workload" Process, 
+        this function paints the detected parts of code as sky blue """
+        for i in faultable_line_number_list:
+            widgets.listWidget_2.item(i).setBackground(
+                QtGui.QColor(0, 128, 255)
+            )  # Colored as sky blue
+
+    # Bu fonksiyon main.py içerisinden çağrılacak
+    def paint_workload_lines(self,painted_lines):
+        """ In "Yes Workload, Yes Workload" Process, 
+        this function paints the detected parts of workload as purple """
+        for number in painted_lines:
+            self.ui.listWidget_2.item(
+                number
+            ).setBackground(
+                QtGui.QColor(102, 0, 102)
+            )  # Colored as purple
+
+    # Bu fonksiyon main.py içerisinde yer alacak
+    def find_selected_code_snippet(self,selected_code_snippet_length, code_snippet_regex_code):
+        """ Selected code snippets by the user are finded by IM-FIT """
+        code_snippet_data_list = []
+        for i in range(selected_code_snippet_length):
+            code_snippet_data = self.ui.listWidget_17.item(i).text()
+            code_snippet_data_list.append(code_snippet_data)
+            added_snippet_regex_length = len(
+            code_snippet_regex_code["code_snippets"]
+            )
+        return added_snippet_regex_length, code_snippet_data_list
+
+    # main.py içerisinde yer alacak
+    def add_fi_plan(self,faultable_line_list):
+        for painted_line in faultable_line_list:
+            strip_painted_line = painted_line.strip()
+            self.ui.listWidget.addItem(strip_painted_line)
+
+
+
+
     # BUTTONS CLICK FUNCTIONS
 
     def buttonClick(self):
-        global file_type
         # GET BUTTON CLICKED
         btn = self.sender()
         btnName = btn.objectName()
@@ -2055,11 +1376,6 @@ class MainWindow(QMainWindow):
             )
             widgets.titleRightInfo.setText("START")
 
-            name = "Source Code Example"
-            description = "Settings Example"
-
-            IMFIT_functions.insert_system(connection, name, description)
-
         if btnName == "btn_go_start_2":
             widgets.stackedWidget.setCurrentWidget(widgets.start)
             UIFunctions.resetStyle(self, widgets.btn_home.styleSheet())
@@ -2073,27 +1389,39 @@ class MainWindow(QMainWindow):
             widgets.titleRightInfo.setText("START")
 
         if btnName == "btn_go_scan":
-            widgets.btn_go_scan.setEnabled(False)
-            if widgets.checkBox_3.isChecked() == True:
-                widgets.stackedWidget.setCurrentWidget(widgets.scan)
-                UIFunctions.resetStyle(self, widgets.btn_start.styleSheet())
-                widgets.btn_scan.setStyleSheet(
-                    UIFunctions.selectMenu(widgets.btn_scan.styleSheet())
+            widgets.stackedWidget.setCurrentWidget(widgets.scan)
+            UIFunctions.resetStyle(self, widgets.btn_start.styleSheet())
+            widgets.btn_scan.setStyleSheet(
+                UIFunctions.selectMenu(widgets.btn_scan.styleSheet())
+            )
+            widgets.titleRightInfo.setText("SCAN")
+            # widgets.textEdit_3.clear()
+
+            # check_source_code_text = widgets.textEdit_4.toPlainText()
+            # check_workload_text = widgets.textEdit_22.toPlainText()
+            # check_code_snippet_list = widgets.listWidget_17.count()
+
+            # if check_source_code_text or check_workload_text or check_code_snippet_list:
+            #     widgets.textEdit_4.clear()
+            #     widgets.textEdit_22.clear()
+            #     widgets.listWidget_17.clear()
+
+            if widgets.checkBox_3.isChecked() is True:
+                widgets.textEdit_4.setPlainText(
+                    widgets.source_code_content.toPlainText()
                 )
-                widgets.titleRightInfo.setText("SCAN")
-                widgets.textEdit_4.setPlainText(widgets.textEdit.toPlainText())
                 widgets.textEdit_22.setPlainText(widgets.textEdit_3.toPlainText())
+                check_selected_code_snippet_list = widgets.listWidget_8.count()
 
-                if widgets.listWidget_8.count() != 0:
-                    csDatasList = []
-                    for i in range(widgets.listWidget_8.count()):
-                        csDatas = widgets.listWidget_8.item(i).text()
-                        csDatasList.append(csDatas)
+                if check_selected_code_snippet_list:
+                    code_snippet_data_list = []
+                    for i in range(0, check_selected_code_snippet_list):
+                        code_snippet_data = widgets.listWidget_8.item(i).text()
+                        code_snippet_data_list.append(code_snippet_data)
 
-                    widgets.listWidget_17.addItems(csDatasList)
+                    widgets.listWidget_17.addItems(code_snippet_data_list)
 
         if btnName == "btn_go_fiplan":
-            widgets.btn_go_fiplan.setEnabled(False)
             widgets.stackedWidget.setCurrentWidget(widgets.fiplan)
             UIFunctions.resetStyle(self, widgets.btn_scan.styleSheet())
             widgets.btn_fiplan.setStyleSheet(
@@ -2101,16 +1429,14 @@ class MainWindow(QMainWindow):
             )
             widgets.titleRightInfo.setText("FAULT INJECTION PLAN")
 
-            for originalLine in self.placeForMutation:
-                if type(originalLine) == int:
-                    pass
-                else:
-                    newLine = originalLine.lstrip()
-                    widgets.listWidget.addItem(newLine)
+            for original_line in self.code_part_for_mutation:
+                if not isinstance(original_line, int):
+                    new_line = original_line.lstrip()
+                    widgets.listWidget.addItem(new_line)
 
-            lineNumber = widgets.listWidget.count()
+            line_number = widgets.listWidget.count()
 
-            for number in range(0, lineNumber):
+            for number in range(0, line_number):
                 if number % 2 == 0:
                     widgets.listWidget.item(number).setBackground(
                         QtGui.QColor(52, 59, 72)
@@ -2166,22 +1492,15 @@ class MainWindow(QMainWindow):
 
         if btnName == "open_ros_page":
             widgets.stackedWidget.setCurrentWidget(widgets.ros_page)
-            widgets.titleRightInfo.setText("ROS Page")
-
-        if btnName == "btn_prepare_plan":
-            widgets.stackedWidget.setCurrentWidget(widgets.yaml_launch)
-            widgets.titleRightInfo.setText("YAML - Launch - SRV - MSG")
+            widgets.titleRightInfo.setText("ROS Mutation Module")
+            UIFunctions.resetStyle(self, btnName)
+            btn.setStyleSheet(UIFunctions.selectMenu(btn.styleSheet()))
 
         if btnName == "btn_create_workload":
             widgets.stackedWidget.setCurrentWidget(widgets.cWorkload)
             widgets.leftMenuBg.hide()
             widgets.toggleButton.show()
             widgets.titleRightInfo.setText("START - CREATE WORKLOAD")
-
-        if btnName == "btn_save_workload":
-            widgets.stackedWidget.setCurrentWidget(widgets.sWorkload)
-            widgets.leftMenuBg.hide()
-            widgets.titleRightInfo.setText("START - WORKLOAD SAVE")
 
         if btnName == "btn_add_custom":
             dialog = QFileDialog()
@@ -2192,39 +1511,61 @@ class MainWindow(QMainWindow):
                 file_name = dialog.selectedFiles()
 
                 if file_name[0].endswith(".json"):
-                    with open(file_name[0], "r") as f:
-                        data = f.read()
+                    with open(file_name[0], mode = "r", encoding = "utf-8") as file:
+                        data = file.read()
                         widgets.textEdit_24.setPlainText(data)
-                        snippetsJsonList = json.loads(data)
+                        code_snippets_list_json = json.loads(data)
 
-                        taskName = str(snippetsJsonList["Snippet_Name"])
-                        widgets.listWidget_8.addItem(taskName)
-                        widgets.listWidget_10.addItem(taskName)
-
-                        f.close()
+                        task_name = str(code_snippets_list_json["Snippet_Name"])
+                        widgets.listWidget_8.addItem(task_name)
+                        widgets.code_snippet_list.addItem(task_name)
 
         if btnName == "btn_clear_codes":
-            widgets.textEdit.clear()
+            widgets.source_code_content.clear()
 
         if btnName == "btn_clear_workload":
             widgets.textEdit_3.clear()
 
-        # SAVE WORKLOAD PAGE FROM START PAGE
+        if btnName == "try_test_case":
+            test_code_for_test_case = (
+                "import pytest\n"
+                + widgets.source_code_content.toPlainText()
+                + "\n"
+                + widgets.test_case_content.toPlainText()
+            )
+            with open("test_code.py", mode = "w+", encoding = "utf-8") as file:
+                file.write(test_code_for_test_case)
 
-        if btnName == "btn_workload_save":
-            if widgets.plainTextEdit_2.toPlainText() != "":
-                dialog = QFileDialog()
-                workload_content = widgets.plainTextEdit_2.toPlainText()
-                workload_name = widgets.textEdit_42.toPlainText() + ".json"
-                desired_dir = QFileDialog.getExistingDirectory()
+            output = subprocess.getstatusoutput("pytest test_code.py")
+            new_output = re.sub("=", "", output[1])
 
-                def write_workload_json(desired_dir, workload_name, workload_content):
-                    full_path = os.path.join(desired_dir, workload_name)
-                    with open(full_path, "w") as f:
-                        json_string = json.dumps(workload_content, indent=4)
-                        f.write(json_string)
+            widgets.test_case_terminal.setPlainText(new_output)
 
-                write_workload_json(desired_dir, workload_name, workload_content)
+        if btnName == "pushButton_10":
+
+            dialog = QFileDialog()
+            dialog.setFileMode(QFileDialog.AnyFile)
+            dialog.setNameFilter("*.py *.launch")
+
+            if dialog.exec_():
+                file_name = dialog.selectedFiles()
+                if file_name[0].endswith(".py") or file_name[0].endswith(".launch"):
+
+                    with open(file_name[0], mode = "r", encoding = "utf-8") as file:
+                        data = file.read()
+                        widgets.textEdit_21.setPlainText(file_name[0])
+                        widgets.textEdit_40.setPlainText(data)
+                else:
+                    message_box = QMessageBox()
+                    message_box.setIcon(QMessageBox.Critical)
+                    message_box.setText(
+                        "Please be sure to selected .py or .launch file!"
+                    )
+                    message_box.setWindowTitle("Attention!")
+                    message_box.setStandardButtons(QMessageBox.Ok)
+                    message_box.exec()
+
+        # CREATE WORKLOAD PAGE FROM START PAGE
 
         if btnName == "btn_changeDir":
             dialog = QFileDialog()
@@ -2233,81 +1574,101 @@ class MainWindow(QMainWindow):
 
             if dialog.exec_():
                 file_name = dialog.selectedFiles()
+                if file_name[0].endswith(".json"):  # .json file is choosed by the user
+                    with open(
+                        file_name[0], mode = "r", encoding = "utf-8"
+                    ) as file:  # file_name[0] is directory of file
+                        workload_content_data = file.read()
+                        widgets.textEdit_44.setPlainText(
+                            str(file_name[0])
+                        )  # Source code directory is added to the text
+                        widgets.plainTextEdit.setPlainText(workload_content_data)
+                        widgets.plainTextEdit_2.setPlainText(workload_content_data)
 
-                if file_name[0].endswith(".json"):
-                    with open(file_name[0], "r") as f:
-                        data = f.read()
-                        widgets.plainTextEdit.setPlainText(data)
-                        widgets.lineEdit_5.setText(file_name[0])
-                        f.close()
+        if btnName == "btn_workload_save":
+            dialog = QFileDialog()
+            path_name = QFileDialog.getExistingDirectory()
+            text = widgets.textEdit_42.toPlainText() + ".json"
+            full_path = os.path.join(path_name, text)
+            created_workload_content = widgets.plainTextEdit_2.toPlainText()
 
-        if btnName == "btn_back_start2":
-            widgets.stackedWidget.setCurrentWidget(widgets.start)
-            widgets.leftMenuBg.show()
-            widgets.titleRightInfo.setText("START")
-
-        # CREATE WORKLOAD PAGE FROM START PAGE
+            with open(full_path, mode = "w", encoding = "utf-8") as file:
+                file.write(created_workload_content)
 
         if btnName == "btn_take_tasks":
             try:
-                dataSize = widgets.listWidget_21.count()
-                jsonTypeTasks = widgets.plainTextEdit.toPlainText()
-                loadTasks = json.loads(jsonTypeTasks)
+                all_task_list_size = widgets.listWidget_21.count()
+                json_type_task = widgets.plainTextEdit.toPlainText()
+                json_loaded_task = json.loads(json_type_task)
 
-                if dataSize == 0:
+                if all_task_list_size == 0:
 
-                    for i in range(0, len(loadTasks["gorevler"])):
-                        workloadTask = str(loadTasks["gorevler"][i]["Task"]["Task_ID"])
-                        workloadTask = workloadTask.split("\n")
-                        widgets.listWidget_21.addItems(workloadTask)
+                    for i in range(0, len(json_loaded_task["Tasks"])):
+                        workload_task = str(json_loaded_task["Tasks"][i]["Task"]["Task_ID"])
+                        split_workload_task = workload_task.split("\n")
+                        widgets.listWidget_21.addItems(split_workload_task)
                 else:
                     widgets.listWidget_21.clear()
 
-                    for i in range(0, len(loadTasks["gorevler"])):
-                        workloadTask = str(loadTasks["gorevler"][i]["Task"]["Task_ID"])
-                        workloadTask = workloadTask.split("\n")
-                        widgets.listWidget_21.addItems(workloadTask)
+                    for i in range(0, len(json_loaded_task["Tasks"])):
+                        workload_task = str(json_loaded_task["Tasks"][i]["Task"]["Task_ID"])
+                        split_workload_task = workload_task.split("\n")
+                        widgets.listWidget_21.addItems(split_workload_task)
             except:
-                print("Please, Edit Workload")
+                message_box = QMessageBox()
+                message_box.setIcon(QMessageBox.Critical)
+                caution_text = """Please Fix Workload!
+                This is the example workload template.
+                
+                "Task":{
+                    "Task_ID": DATA,
+                    "Tag": DATA TAG,
+                    "Process": DATA PROCESS,
+                    "Sayilar": {
+                        "Sayi1":XX,
+                        "Sayi2":XX
+                    }
+                }"""
+                message_box.setText(caution_text)
+                message_box.setWindowTitle("Fix Workload!")
+                message_box.setStandardButtons(QMessageBox.Ok)
+                message_box.exec()
 
         if btnName == "btn_select_task":
-            selectedTaskFromList = widgets.listWidget_21.currentItem().text()
-            selectedTaskFromList = selectedTaskFromList.split("\n")
-            widgets.listWidget_22.addItems(selectedTaskFromList)
+            selected_task_from_list = widgets.listWidget_21.currentItem().text()
+            split_selected_task_from_list = selected_task_from_list.split("\n")
+            widgets.listWidget_22.addItems(split_selected_task_from_list)
 
         if btnName == "btn_save_task":
-            allSelectedSnippets = ""
+            all_selected_snippets = ""
 
-            dataSizeOfSelected = widgets.listWidget_22.count()
+            selected_task_list_size = widgets.listWidget_22.count()
 
-            jsonTypeTasks = widgets.plainTextEdit.toPlainText()
-            tasksJsonList = json.loads(jsonTypeTasks)
+            json_type_task = widgets.plainTextEdit.toPlainText()
+            tasks_list_json = json.loads(json_type_task)
 
-            if dataSizeOfSelected != 0:
+            if selected_task_list_size:
                 dialog = QFileDialog()
-                pathName = QFileDialog.getExistingDirectory()
+                path_name = QFileDialog.getExistingDirectory()
 
-                taskName = widgets.textEdit_5.toPlainText()
+                task_name = widgets.textEdit_5.toPlainText()
 
-                taskPathAndName = os.path.join(pathName, taskName + ".json")
+                task_path_and_name = os.path.join(path_name, task_name + ".json")
 
-                for i in range(0, len(tasksJsonList["gorevler"])):
-                    taskName = str(tasksJsonList["gorevler"][i]["Task"]["Task_ID"])
+                for i in range(0, len(tasks_list_json["Tasks"])):
+                    task_name = str(tasks_list_json["Tasks"][i]["Task"]["Task_ID"])
                     for j in range(0, widgets.listWidget_22.count()):
-                        listItem = widgets.listWidget_22.item(j).text()
-                        if taskName == listItem:
-                            taskDetails = str(tasksJsonList["gorevler"][i]["Task"])
-                            for i in taskDetails:
-                                allSelectedSnippets += i
+                        list_item = widgets.listWidget_22.item(j).text()
+                        if task_name == list_item:
+                            task_detail = str(tasks_list_json["Tasks"][i]["Task"])
+                            for i in task_detail:
+                                all_selected_snippets += i
 
-                jsonFile = open(taskPathAndName, "w")
-                jsonFile.write(allSelectedSnippets)
-                jsonFile.close()
+                json_file = open(task_path_and_name, mode = "w", encoding = "utf-8")
+                json_file.write(all_selected_snippets)
+                json_file.close()
 
                 widgets.label_4.setText("SAVED!")
-
-            else:
-                pass
 
         if btnName == "btn_remove_task":
             row = widgets.listWidget_22.currentRow()
@@ -2320,110 +1681,120 @@ class MainWindow(QMainWindow):
 
         # ROS PAGE at START PAGE
 
-        if btnName == "open_ros_btn":
-            dialog = QFileDialog()
-            pathName = QFileDialog.getExistingDirectory()
-            widgets.lineEdit_2.setText(pathName)
-
-            model = QFileSystemModel()
-            model.setRootPath(pathName)
-
-            widgets.treeView.setModel(model)
-            widgets.treeView.setRootIndex(model.index(pathName))
-            widgets.treeView.setSortingEnabled(True)
-            widgets.treeView.hideColumn(1)
-            widgets.treeView.hideColumn(2)
-            widgets.treeView.hideColumn(3)
-
         if btnName == "ros_fiplan_save":
-            if widgets.lineEdit_3.text() != "":
-                global ros_source_mutant
+            if widgets.textEdit_45.toPlainText() != "":
+                global ROS_SOURCE_MUTANT
+                ROS_SOURCE_MUTANT = []
+
                 global fi_plan_directory_list
 
-                mut_list = list()
-
-                len_ros_mutants = widgets.listWidget_31.count()
+                mut_list = []
 
                 dialog = QFileDialog()
-                pathName = QFileDialog.getExistingDirectory()
+                path_name = QFileDialog.getExistingDirectory()
 
-                ros_fiplan_name = widgets.lineEdit_3.text() + ".json"
+                directory = widgets.textEdit_47.toPlainText()
 
-                len_ros_source_mutant = len(ros_source_mutant)
+                split_directory = directory.split("/")
 
-                for i in range(0, len_ros_source_mutant):
-                    if i % 2 == 0:
-                        originalCode = ros_source_mutant[i]
+                if path_name != "":
+                    if split_directory[-2] == "launch":
+                        ros_fiplan_name = (
+                            widgets.textEdit_45.toPlainText() + "_type_launch.json"
+                        )
                     else:
-                        mutantCode = ros_source_mutant[i]
+                        ros_fiplan_name = (
+                            widgets.textEdit_45.toPlainText() + "_type_rospy.json"
+                        )
 
-                        createdFault = {
-                            "Fault": {
-                                "Source_Code": originalCode,
-                                "Mutate_Code": mutantCode,
-                            }
-                        }
+                    len_ros_source_mutant = len(ROS_SOURCE_MUTANT)
 
-                        mut_list.append(createdFault)
+                    for i in range(0, len_ros_source_mutant):
 
-                        with open("faultPlans.json", "r+") as file:
-                            # First we load existing data into a dict.
-                            file_data = json.load(file)
-                            # Join new_data with file_data inside emp_details
-                            file_data["fault_plans"].append(createdFault)
-                            # Sets file's current position at offset.
-                            file.seek(0)
-                            # convert back to json.
-                            json.dump(file_data, file, indent=4)
+                        if i % 3 == 0:
+                            file_directory = ROS_SOURCE_MUTANT[i]
+                            original_code = ROS_SOURCE_MUTANT[i + 1]
+                            mutant_code = ROS_SOURCE_MUTANT[i + 2]
+                            if original_code != mutant_code:
+                                created_fault = {
+                                    "Fault": {
+                                        "File_Directory": file_directory,
+                                        "Source_Code": original_code,
+                                        "Mutate_Code": mutant_code,
+                                        "Exe_File:": widgets.label_86.text(),
+                                    }
+                                }
 
-                        def write_json(new_data, filename):
-                            desired_dir = pathName
-                            full_path = os.path.join(desired_dir, ros_fiplan_name)
-                            with open(full_path, "w") as f:
-                                json_string = json.dumps(new_data, indent=4)
-                                f.write(json_string)
-                            return ros_fiplan_name, full_path
+                                mut_list.append(created_fault)
 
-                name_and_path = write_json(mut_list, ros_fiplan_name)
-                # ROS FI Plan Name and Directory Path added to the list
-                fi_plan_directory_list.append(name_and_path)
+                                # with open("faultPlans", "r+") as file:
+                                #     file_data = json.load(file)
+                                #     file_data["fault_plans"].append(created_fault)
+                                #     file.seek(0)
+                                #     json.dump(file_data, file, indent=4)
 
-                splitText = str(fi_plan_directory_list[-1]).split("\n")
-                widgets.listWidget_36.addItems(splitText)
+                                def write_json(new_data, filename):
+                                    desired_dir = path_name
+                                    full_path = os.path.join(
+                                        desired_dir, ros_fiplan_name
+                                    )
+                                    with open(full_path, mode = "w", encoding = "utf-8") as file:
+                                        # file_data["fault_plans"].append(created_fault)
+                                        # file.seek(0)
+                                        json_string = json.dumps(new_data, indent=4)
+                                        file.write(json_string)
+                                    return full_path
+
+                    ros_fi_plan_path = write_json(mut_list, ros_fiplan_name)
+                    # ROS FI Plan Name and Directory Path added to the list
+                    fi_plan_directory_list.append(ros_fi_plan_path)
+
+                    split_text = str(fi_plan_directory_list[-1]).split("\n")
+                    widgets.listWidget_36.addItems(split_text)
+                    widgets.listWidget_6.addItems(split_text)
+
+                else:
+                    message_box = QMessageBox()
+                    message_box.setIcon(QMessageBox.Critical)
+                    message_box.setText("Select Directory to Save FI Plan")
+                    message_box.setWindowTitle("Warning!")
+                    message_box.setStandardButtons(QMessageBox.Ok)
+                    message_box.exec()
 
             else:
-                msgBox = QMessageBox()
-                msgBox.setIcon(QMessageBox.Critical)
-                msgBox.setText("Check Mutant Codes and FI Plan Name")
-                msgBox.setWindowTitle("Caution!")
-                msgBox.setStandardButtons(QMessageBox.Ok)
-                msgBox.exec()
+                message_box = QMessageBox()
+                message_box.setIcon(QMessageBox.Critical)
+                message_box.setText("Check Mutant Codes and FI Plan Name")
+                message_box.setWindowTitle("Caution!")
+                message_box.setStandardButtons(QMessageBox.Ok)
+                message_box.exec()
 
         if btnName == "rosrun_btn":
-            def main_func():
+
+            def rospy_run():
                 """main func"""
-                global run_order_list_just_path
+                global RUN_ORDER_LIST_JUST_PATH
+                RUN_ORDER_LIST_JUST_PATH = []
                 global ros_process
 
-                len_run_order_list_just_path = len(run_order_list_just_path)
+                len_run_order_list_just_path = len(RUN_ORDER_LIST_JUST_PATH)
                 roscore_process = subprocess.Popen(["roscore"])
                 time.sleep(5)
 
-                msgBox.setIcon(QMessageBox.Information)
-                msgBox.setText("Roscore is ready!")
-                msgBox.setWindowTitle("Ready!")
-                msgBox.setStandardButtons(QMessageBox.Ok)
-                msgBox.exec()
+                message_box.setIcon(QMessageBox.Information)
+                message_box.setText("Roscore is ready!")
+                message_box.setWindowTitle("Ready!")
+                message_box.setStandardButtons(QMessageBox.Ok)
+                message_box.exec()
 
                 for i in range(len_run_order_list_just_path):
                     if i % 2 == 0:
-                        ros_directory = run_order_list_just_path[i]
+                        ros_directory = RUN_ORDER_LIST_JUST_PATH[i]
                         split_rospy_file_name = ros_directory.split("/")
-                        package_name = split_rospy_file_name[-2]
+                        package_name = split_rospy_file_name[-3]
 
                     else:
-                        rospy_file_name = run_order_list_just_path[i]
-                        print("###---> ", rospy_file_name)
+                        rospy_file_name = RUN_ORDER_LIST_JUST_PATH[i]
                         if i == 1:
                             target_ros_process = subprocess.Popen(
                                 ["rosrun", package_name, rospy_file_name]
@@ -2472,68 +1843,204 @@ class MainWindow(QMainWindow):
                 # # ROS SRV LIST
                 # print(rossrv_list)
 
-            if widgets.checkBox_11.isChecked() == True:
-                msgBox = QMessageBox()
-                msgBox.setIcon(QMessageBox.Information)
-                msgBox.setText("Process Started. Please Wait!")
-                msgBox.setWindowTitle("Started!")
-                msgBox.setStandardButtons(QMessageBox.Ok)
-                msgBox.exec()
-                main_func()
-                msgBox.setIcon(QMessageBox.Information)
-                msgBox.setText("Process Done")
-                msgBox.setWindowTitle("Done!")
-                msgBox.setStandardButtons(QMessageBox.Ok)
-                msgBox.exec()
+            def launch_run():
+                """main func"""
+
+                roscore_process = subprocess.Popen(["roscore"])
+                time.sleep(5)
+
+                message_box.setIcon(QMessageBox.Information)
+                message_box.setText("Roscore is ready!")
+                message_box.setWindowTitle("Ready!")
+                message_box.setStandardButtons(QMessageBox.Ok)
+                message_box.exec()
+
+                roslaunch_folder_directory_path = widgets.textEdit_47.toPlainText()
+                split_roslaunch_folder_directory_path = (
+                    roslaunch_folder_directory_path.split("/")
+                )
+
+                folder_name = split_roslaunch_folder_directory_path[-3]
+                print(folder_name)
+
+                ros_exe_file_name = widgets.label_86.text()
+
+                ros_process = subprocess.Popen(
+                    [
+                        "roslaunch",
+                        folder_name,
+                        ros_exe_file_name,
+                    ]
+                )
+                try:
+                    print("Running in process", ros_process.pid)
+                    ros_process.wait(timeout=5)
+                except subprocess.TimeoutExpired:
+                    rosnode_list = subprocess.getoutput("rosnode list")
+                    rostopic_list = subprocess.getoutput("rostopic list")
+                    rosparam_list = subprocess.getoutput("rosparam list")
+                    rosservice_list = subprocess.getoutput("rosservice list")
+                    # rosmsg_list = subprocess.getoutput('rosmsg list')
+                    # rossrv_list = subprocess.getoutput('rossrv list')
+                    print("Timed out - killing", ros_process.pid)
+                    ros_process.terminate()
+                    roscore_process.terminate()
+
+                time.sleep(1)
+                print("Process Done")
+
+                rosnodes = rosnode_list.split("\n")
+                widgets.listWidget_27.addItems(rosnodes)
+
+                # ROS TOPIC LIST
+                rostopics = rostopic_list.split("\n")
+                widgets.listWidget_28.addItems(rostopics)
+
+                # ROS SERVICE LIST
+                rosservices = rosservice_list.split("\n")
+                widgets.listWidget_29.addItems(rosservices)
+
+                # ROS PARAMETER LIST
+                rosparams = rosparam_list.split("\n")
+                widgets.listWidget_30.addItems(rosparams)
+
+                # # ROS MESSAGE LIST
+                # print(rosmsg_list)
+                # # ROS SRV LIST
+                # print(rossrv_list)
+
+            directory = widgets.textEdit_47.toPlainText()
+            split_directory = directory.split("/")
+
+            if split_directory[-2] == "launch":
+                message_box = QMessageBox()
+                message_box.setIcon(QMessageBox.Information)
+                message_box.setText("Process Started. Please Wait!")
+                message_box.setWindowTitle("Started!")
+                message_box.setStandardButtons(QMessageBox.Ok)
+                message_box.exec()
+                launch_run()
+                message_box.setIcon(QMessageBox.Information)
+                message_box.setText("Process Done")
+                message_box.setWindowTitle("Done!")
+                message_box.setStandardButtons(QMessageBox.Ok)
+                message_box.exec()
+
+            elif split_directory[-2] == "scripts" or split_directory[-2] == "src":
+                if widgets.checkBox_11.isChecked() is True:
+                    message_box = QMessageBox()
+                    message_box.setIcon(QMessageBox.Information)
+                    message_box.setText("Process Started. Please Wait!")
+                    message_box.setWindowTitle("Started!")
+                    message_box.setStandardButtons(QMessageBox.Ok)
+                    message_box.exec()
+                    rospy_run()
+                    message_box.setIcon(QMessageBox.Information)
+                    message_box.setText("Process Done")
+                    message_box.setWindowTitle("Done!")
+                    message_box.setStandardButtons(QMessageBox.Ok)
+                    message_box.exec()
+                else:
+                    message_box = QMessageBox()
+                    message_box.setIcon(QMessageBox.Warning)
+                    message_box.setText("Be sure to select launch or scripts/src file!")
+                    message_box.setWindowTitle("Attention")
+                    message_box.setStandardButtons(QMessageBox.Ok)
+                    message_box.exec()
+            else:
+                message_box = QMessageBox()
+                message_box.setIcon(QMessageBox.Warning)
+                message_box.setText("Be sure to select launch or scripts/src file!")
+                message_box.setWindowTitle("Attention")
+                message_box.setStandardButtons(QMessageBox.Ok)
+                message_box.exec()
 
         if btnName == "add_order_btn":
             # ROS Package
-            target_file_path = widgets.lineEdit.text()
+            target_file_path = widgets.textEdit_47.toPlainText()
             splitted_target_path = target_file_path.split("/")
 
-            script_path = widgets.lineEdit_2.text()
-            splitted_path = script_path.split("/")
-
-            if (
-                splitted_target_path[-2] == "scripts"
-                and splitted_path[-1] == "scripts"
-                and splitted_target_path[-3] == splitted_path[-2]
-            ):
-                adding_item = list()
-                path = widgets.lineEdit_2.text()
+            try:
                 file_from_tree = str(widgets.treeView.selectedIndexes()[0].data())
-                adding_item = [file_from_tree, path]
-                widgets.listWidget_26.addItem(str(adding_item))
-                run_order_list_just_path.append(path)
-                run_order_list_just_path.append(file_from_tree)
 
-            else:
-                msgBox = QMessageBox()
-                msgBox.setIcon(QMessageBox.Critical)
-                msgBox.setText(
-                    "Check the folder and the package!\nPlease be sure to open scripts folder!"
-                )
-                msgBox.setWindowTitle("Caution!")
-                msgBox.setStandardButtons(QMessageBox.Ok)
-                msgBox.exec()
+                if (
+                    splitted_target_path[-2] == "scripts"
+                    or splitted_target_path[-2] == "src"
+                    and file_from_tree != ""
+                ):
+                    path = widgets.textEdit_47.toPlainText()
+                    rospy_directory_and_file_name = path + file_from_tree
+                    widgets.listWidget_26.addItem(rospy_directory_and_file_name)
+                    RUN_ORDER_LIST_JUST_PATH.append(path)
+                    RUN_ORDER_LIST_JUST_PATH.append(file_from_tree)
+
+                else:
+                    message_box = QMessageBox()
+                    message_box.setIcon(QMessageBox.Critical)
+                    message_box.setText(
+                        "Check the folder and the package!\nPlease be sure to open scripts folder!"
+                    )
+                    message_box.setWindowTitle("Caution!")
+                    message_box.setStandardButtons(QMessageBox.Ok)
+                    message_box.exec()
+
+            except:
+                message_box = QMessageBox()
+                message_box.setIcon(QMessageBox.Critical)
+                message_box.setText("Please select a file!")
+                message_box.setWindowTitle("Warning!")
+                message_box.setStandardButtons(QMessageBox.Ok)
+                message_box.exec()
 
         if btnName == "select_trgt_btn":
-            global ros_source_codes
+            global ROS_SOURCE_CODE
 
             dialog = QFileDialog()
             dialog.setFileMode(QFileDialog.AnyFile)
-            dialog.setNameFilter(("*.py"))
+            dialog.setNameFilter("*.py *.launch")
+
             if dialog.exec_():
                 file_name = dialog.selectedFiles()
-                if file_name[0].endswith(".py"):
-                    with open(file_name[0], "r") as f:
-                        data = f.read()
-                        ros_file_directory = file_name[0]
-                        widgets.lineEdit.setText(ros_file_directory)
-                        ros_source_codes = data
-                        splitted_ros_source_codes = data.split("\n")
+                if file_name[0].endswith(".py") or file_name[0].endswith(".launch"):
+
+                    with open(file_name[0], mode = "r", encoding = "utf-8") as file:
+                        data = file.read()
+
+                        directory_split = file_name[0].split("/")
+                        ros_file_name = directory_split[-1]
+
+                        widgets.label_86.setText(ros_file_name)
+                        directory_split.pop(-1)
+
+                        ros_launch_directory = ""
+
+                        for i in directory_split:
+                            ros_launch_directory += i + "/"
+
+                        widgets.textEdit_47.setPlainText(ros_launch_directory)
+                        ROS_SOURCE_CODE = data
+                        splitted_ros_source_codes = ROS_SOURCE_CODE.split("\n")
                         widgets.listWidget_32.addItems(splitted_ros_source_codes)
-                        f.close()
+
+                    model = QFileSystemModel()
+                    model.setRootPath(ros_launch_directory)
+
+                    widgets.treeView.setModel(model)
+                    widgets.treeView.setRootIndex(model.index(ros_launch_directory))
+                    widgets.treeView.setSortingEnabled(True)
+                    widgets.treeView.hideColumn(1)
+                    widgets.treeView.hideColumn(2)
+                    widgets.treeView.hideColumn(3)
+
+                else:
+                    message_box = QMessageBox()
+                    message_box.setIcon(QMessageBox.Critical)
+                    message_box.setText(
+                        "Please be sure to selected .py or .launch file!"
+                    )
+                    message_box.setWindowTitle("Attention!")
+                    message_box.setStandardButtons(QMessageBox.Ok)
+                    message_box.exec()
 
         if btnName == "remove_order_btn":
 
@@ -2546,36 +2053,34 @@ class MainWindow(QMainWindow):
         if btnName == "add_ros_btn":
 
             def fault_select_ros():
-                global zipped_ros_list
+                global ZIPPED_ROS_LIST
+                ZIPPED_ROS_LIST = []
 
-                if len(widgets.textEdit_33.toPlainText()) != 0:
+                is_text_full = widgets.textEdit_33.toPlainText()
+
+                if is_text_full:
                     try:
-                        selectedLine = widgets.listWidget_33.currentItem().text()
-                        selectedFault = widgets.listWidget_34.currentItem().text()
+                        selected_line = widgets.listWidget_33.currentItem().text()
+                        selected_fault = widgets.listWidget_34.currentItem().text()
 
-                        textSelectedLine = "Line: " + selectedLine
-                        textSelectedFault = "\tFault: " + selectedFault
+                        selected_line_text = "Line: " + selected_line
+                        selected_fault_text = "\tFault: " + selected_fault
 
-                        zipped_ros_list.append(selectedLine)
-                        zipped_ros_list.append(selectedFault)
+                        ZIPPED_ROS_LIST.append(selected_line)
+                        ZIPPED_ROS_LIST.append(selected_fault)
 
-                        selectedLineAndFault = textSelectedLine + textSelectedFault
+                        selected_line_and_fault = selected_line_text + selected_fault_text
 
-                        lineAndFault = selectedLineAndFault.split("\n")
+                        line_and_fault = selected_line_and_fault.split("\n")
 
-                        widgets.listWidget_35.addItems(lineAndFault)
-
-                        print(zipped_ros_list)
+                        widgets.listWidget_35.addItems(line_and_fault)
 
                     except AttributeError() or TypeError():
                         print("Error!")
-                else:
-                    pass
 
             fault_select_ros()
 
         if btnName == "ros_slct_fiplan":
-            name_and_path = ()
             dialog = QFileDialog()
             dialog.setFileMode(QFileDialog.AnyFile)
             dialog.setNameFilter(("*.json"))
@@ -2586,57 +2091,158 @@ class MainWindow(QMainWindow):
                     directory = file_name[0]
                     new_file_name = directory.split("/")
                     ros_fi_plan_name = new_file_name[-1]
-                    name_and_path = (ros_fi_plan_name, directory)
-                    widgets.listWidget_36.addItem(str(name_and_path))
-                    fi_plan_directory_list.append(str(name_and_path))
-                    print(fi_plan_directory_list)
+                    name_and_path = ros_fi_plan_name + "    Directory: " + directory
+                    widgets.listWidget_36.addItem(name_and_path)
+                    fi_plan_directory_list.append(name_and_path)
 
         if btnName == "ros_fiplan_remove":
 
             def ros_fiplan_remove():
-                if len(fi_plan_directory_list) > 0:
+                fi_plan_directory_list = []
+
+                if fi_plan_directory_list:
                     row = widgets.listWidget_36.currentRow()
                     widgets.listWidget_36.takeItem(row)
                     fi_plan_directory_list.pop(row)
 
             ros_fiplan_remove()
 
+        if btnName == "ros_test_case":
+            ros_source_code_list_count = widgets.listWidget_10.count()
+            widgets.stackedWidget.setCurrentWidget(widgets.rospagetest)
+            widgets.leftMenuBg.hide()
+            widgets.titleRightInfo.setText("CODE SNIPPETS - CREATE CUSTOM SNIPPETS")
+            if ros_source_code_list_count > 0:
+                for line_number in range(0, ros_source_code_list_count):
+                    ros_line_content = widgets.listWidget_10.item(line_number).text()
+                    widgets.listWidget_20.addItem(ros_line_content)
+
+        if btnName == "open_ros_test_case":
+            dialog = QFileDialog()
+            dialog.setFileMode(QFileDialog.AnyFile)
+            dialog.setNameFilter("*.py *.launch *.test")
+
+            if dialog.exec_():
+                file_name = dialog.selectedFiles()
+                if (
+                    file_name[0].endswith(".py")
+                    or file_name[0].endswith(".launch")
+                    or file_name[0].endswith(".test")
+                ):
+
+                    with open(file_name[0], mode = "r", encoding = "utf-8") as file:
+                        data = file.read()
+                        widgets.textEdit_43.setPlainText(file_name[0])
+                        widgets.textEdit_12.setPlainText(data)
+
+                else:
+                    QMessageBox().setIcon(QMessageBox.Critical)
+                    QMessageBox().setText(
+                        "Please be sure to selected .py/.launch/.test file!"
+                    )
+                    QMessageBox().setWindowTitle("Attention!")
+                    QMessageBox().setStandardButtons(QMessageBox.Ok)
+                    QMessageBox().exec()
+
+        if btnName == "ros_try_test_case":
+
+            roscore_process = subprocess.Popen(["roscore"])
+            time.sleep(3)
+
+            cmd = "rostest eva_security_test evasec_test.test"
+
+            ros_process = subprocess.getoutput(cmd)
+            try:
+                roscore_process.wait(timeout=5)
+            except subprocess.TimeoutExpired:
+
+                roscore_process.terminate()
+
+            widgets.textEdit_41.setPlainText(ros_process)
+
+        if btnName == "ros_save_test_case":
+            widgets.stackedWidget.setCurrentWidget(widgets.rospagetest)
+            widgets.leftMenuBg.hide()
+            widgets.titleRightInfo.setText("CODE SNIPPETS - CREATE CUSTOM SNIPPETS")
+
+        if btnName == "back_to_start":
+            widgets.stackedWidget.setCurrentWidget(widgets.ros_page)
+            widgets.leftMenuBg.hide()
+            widgets.titleRightInfo.setText("CODE SNIPPETS - CREATE CUSTOM SNIPPETS")
+
+        # Target ROS file is opened to apply mutation process
+        if btnName == "open_target_ros":
+            size_target_ros_list = widgets.listWidget_10.count()
+
+            dialog = QFileDialog()
+            dialog.setFileMode(QFileDialog.AnyFile)
+            dialog.setNameFilter("*.py")
+
+            if dialog.exec_():
+                file_name = dialog.selectedFiles()
+                if file_name[0].endswith(".py"):
+                    if size_target_ros_list > 0:
+                        # Clear the list for the new file
+                        widgets.listWidget_10.clear()
+
+                    with open(file_name[0], mode = "r", encoding = "utf-8") as file:
+                        data = file.read()
+                        widgets.textEdit_20.setPlainText(file_name[0])
+                        ROS_SOURCE_CODE = data
+                        splitted_ros_source_codes = data.split("\n")
+                        widgets.listWidget_10.addItems(splitted_ros_source_codes)
+
+                else:
+                    message_box = QMessageBox()
+                    message_box.setIcon(QMessageBox.Critical)
+                    message_box.setText("Please be sure to selected .py file!")
+                    message_box.setWindowTitle("Attention!")
+                    message_box.setStandardButtons(QMessageBox.Ok)
+                    message_box.exec()
+
         if btnName == "remove_ros_btn":
 
             def remove_ros():
-                global zipped_ros_list
+                global ZIPPED_ROS_LIST
+                ZIPPED_ROS_LIST = []
 
                 row = widgets.listWidget_35.currentRow()
                 widgets.listWidget_35.takeItem(row)
 
                 for i in range(2):
-                    del zipped_ros_list[row]
+                    del ZIPPED_ROS_LIST[row]
 
             remove_ros()
 
         if btnName == "remove_ros_mutant":
 
             def remove_ros_mutant():
-                global ros_source_mutant
+                global ROS_SOURCE_MUTANT
+                ROS_SOURCE_MUTANT = []
+
                 row = widgets.listWidget_31.currentRow()
                 row_text = widgets.listWidget_31.item(row).text()
                 widgets.listWidget_31.takeItem(row)
-                widgets.lineEdit_4.setText(str(widgets.listWidget_31.count()))
+                widgets.label_81.setText(str(widgets.listWidget_31.count()))
 
                 if row > 0:
-                    for i in range(len(ros_source_mutant)):
-                        if ros_source_mutant[i] == row_text:
-                            ros_source_mutant.pop(i)
-                            ros_source_mutant.pop(i - 1)
+                    for i in range(len(ROS_SOURCE_MUTANT)):
+                        if ROS_SOURCE_MUTANT[i] == row_text:
+                            ROS_SOURCE_MUTANT.pop(i)
+                            ROS_SOURCE_MUTANT.pop(i - 1)
                             break
 
             if widgets.listWidget_31.count() > 0:
                 remove_ros_mutant()
-            else:
-                pass
 
         if btnName == "scan_ros_btn":
-            total_ros_items = list()
+            tam_konum = ""
+            total_ros_items = []
+            file_location = widgets.textEdit_47.toPlainText()
+            split_file_location = file_location.split("/")
+
+            find_scripts_type = re.findall("scripts", split_file_location[-2])
+            find_src_type = re.findall("src", split_file_location[-2])
 
             len_node_list = widgets.listWidget_27.count()
             len_topic_list = widgets.listWidget_28.count()
@@ -2650,7 +2256,10 @@ class MainWindow(QMainWindow):
 
             for i in range(len_topic_list):
                 topic_list_item = widgets.listWidget_28.item(i).text()
-                topic_list_item = topic_list_item[1:]
+                if find_scripts_type or find_src_type:
+                    topic_list_item = topic_list_item[1:]
+                else:
+                    topic_list_item = topic_list_item
                 total_ros_items.append(topic_list_item)
 
             for i in range(len_service_list):
@@ -2665,27 +2274,194 @@ class MainWindow(QMainWindow):
 
             len_ros_code = widgets.listWidget_32.count()
 
-            for i in range(len_ros_code):
-                ros_code_line = widgets.listWidget_32.item(i).text()
-                for pattern in total_ros_items:
-                    find_possible_line = re.findall(
-                        pattern, ros_code_line, re.MULTILINE
-                    )
-                    if find_possible_line != []:
-                        check_rospy = re.findall("rospy", ros_code_line, re.MULTILINE)
-                        if check_rospy != []:
-                            ros_code_line = ros_code_line.lstrip()
-                            widgets.listWidget_33.addItem(ros_code_line)
+            directory = widgets.textEdit_47.toPlainText()
+            split_directory = directory.split("/")
+
+            if split_directory[-2] == "launch":
+                python_files_list = []
+                launch_files_list = []
+
+                key_list = ["type", "file"]
+
+                def mutate_all_keys(key_data_list, konum, target_file):
+                    """Mutation testing applies to  the all possible nodes"""
+                    ros_launch_directory_path = widgets.textEdit_47.toPlainText()
+
+                    os.chdir(ros_launch_directory_path)
+                    tree = ET.parse(target_file)
+                    root = tree.getroot()
+                    lenroot = len(root)
+                    for i in range(0, lenroot):
+                        dictof = root[i].attrib
+
+                        key_list = list(dictof.keys())  # "file" keyleri
+
+                        for target_key in key_list:
+                            if target_key == "type":
+                                python_files_list.append(
+                                    dictof["type"]
+                                )  # python dosyalarını içeren liste
+
+                            elif target_key == "file":
+                                launch_files_list.append(
+                                    dictof["file"]
+                                )  # launch dosyalarını içeren liste
+
+                def open_python(konum, python_files_list):
+                    is_ros_for_mutation_list_empty = widgets.listWidget_10.count()
+
+                    if is_ros_for_mutation_list_empty > 0:
+                        target_ros_py_location = widgets.textEdit_20.toPlainText()
+                        target_ros_file_size = widgets.listWidget_10.count()
+
+                        for line_number in range(0, target_ros_file_size):
+                            ros_file_line = widgets.listWidget_10.item(
+                                line_number
+                            ).text()
+                            for pattern in total_ros_items:
+                                find_possible_line = re.findall(
+                                    pattern, ros_file_line, re.MULTILINE
+                                )
+                                check_rospy = re.findall(
+                                    "rospy", ros_file_line, re.MULTILINE
+                                )
+                                if find_possible_line and check_rospy:
+                                    widgets.listWidget_10.item(
+                                        line_number
+                                    ).setBackground(
+                                        QtGui.QColor(102, 0, 102)
+                                    )  # Mor renge boyar
+                                    line_and_location = []
+                                    line_and_location = [
+                                        ros_file_line.strip(),
+                                        " Directory: ",
+                                        target_ros_py_location,
+                                    ]
+                                    str_line_and_location = (
+                                        line_and_location[0]
+                                        + line_and_location[1]
+                                        + line_and_location[2]
+                                    )
+                                    widgets.listWidget_33.addItem(str_line_and_location)
+
+                    else:
+                        for i in python_files_list:
+                            x_file = open(os.path.join(konum, i), mode = "r", encoding = "utf-8")
+
+                            pure_file_content = x_file.read()
+
+                            split_file_content = pure_file_content.split("\n")
+
+                            lstrip_lines = []
+
+                            for line in split_file_content:
+                                changed_line = line.lstrip()
+                                lstrip_lines.append(changed_line)
+
+                            for ros_code_line in lstrip_lines:
+                                for pattern in total_ros_items:
+                                    find_possible_line = re.findall(
+                                        pattern, ros_code_line, re.MULTILINE
+                                    )
+                                    if find_possible_line:
+                                        check_rospy = re.findall(
+                                            "rospy", ros_code_line, re.MULTILINE
+                                        )
+                                        if check_rospy:
+                                            line_and_location = []
+                                            target_ros_py_location = konum + "/" + i
+                                            ros_code_line = ros_code_line.lstrip()
+                                            line_and_location = [
+                                                ros_code_line,
+                                                " Directory: ",
+                                                target_ros_py_location,
+                                            ]
+                                            str_line_and_location = (
+                                                line_and_location[0]
+                                                + line_and_location[1]
+                                                + line_and_location[2]
+                                            )
+                                            widgets.listWidget_33.addItem(
+                                                str_line_and_location
+                                            )
+
+                yeni_konum = ""
+
+                complete_directory_path = widgets.textEdit_47.toPlainText()
+
+                split_complete_directory_path = complete_directory_path.split("/")
+
+                target_file = (
+                    widgets.label_86.text()
+                )  # "eva_security_patrol_start.launch"
+
+                for i in range(0, 6):
+                    tam_konum += (
+                        split_complete_directory_path[i] + "/"
+                    )  # "/home/ino/catkin_ws/src/eva_security/"
+
+                mutate_all_keys(key_list, tam_konum, target_file)
+
+                if launch_files_list:
+                    for i in launch_files_list:
+                        split_value = i.split("/")
+                        target_file = split_value[-1]
+                        mutate_all_keys(key_list, tam_konum, target_file)
+
+                    for i in range(0, 7):
+                        yeni_konum += (
+                            split_complete_directory_path[i] + "/"
+                        )  # "/home/ino/catkin_ws/src/eva_security/"
+
+                    kullanilacak_konum = yeni_konum + "scripts"
+
+                    open_python(kullanilacak_konum, python_files_list)
+
+            else:
+                for i in range(len_ros_code):
+                    ros_code_line = widgets.listWidget_32.item(i).text()
+                    for pattern in total_ros_items:
+                        find_possible_line = re.findall(
+                            pattern, ros_code_line, re.MULTILINE
+                        )
+                        if find_possible_line:
+                            check_rospy = re.findall(
+                                "rospy", ros_code_line, re.MULTILINE
+                            )
+                            if check_rospy:
+                                folder_name = widgets.textEdit_47.toPlainText()
+                                file_name = widgets.label_86.text
+                                complete_name = folder_name + file_name
+
+                                ros_code_line = ros_code_line.lstrip()
+                                ros_line_and_directory = (
+                                    ros_code_line + " Directory: " + complete_name
+                                )
+                                widgets.listWidget_33.addItem(ros_line_and_directory)
 
         if btnName == "mutate_ros_btn":
-            global zipped_ros_list
+            global ZIPPED_ROS_LIST
 
             length_found_lines = widgets.listWidget_33.count()
-            if length_found_lines != 0:
-                node_list = list()
-                topic_list = list()
-                service_list = list()
-                parameter_list = list()
+            length_mutant_codes_list = widgets.listWidget_31.count()
+
+            directory = widgets.textEdit_47.toPlainText()
+            split_directory = directory.split("/")
+
+            if length_mutant_codes_list:
+                widgets.listWidget_31.clear()
+                message_box = QMessageBox()
+                message_box.setIcon(QMessageBox.Critical)
+                message_box.setText("Mutants have already been updated!")
+                message_box.setWindowTitle("Warning!")
+                message_box.setStandardButtons(QMessageBox.Ok)
+                message_box.exec()
+
+            if length_found_lines:
+                node_list = []
+                topic_list = []
+                service_list = []
+                parameter_list = []
 
                 len_node_list = widgets.listWidget_27.count()
                 len_topic_list = widgets.listWidget_28.count()
@@ -2698,7 +2474,10 @@ class MainWindow(QMainWindow):
 
                 for i in range(len_topic_list):
                     item = widgets.listWidget_28.item(i).text()
-                    topic_list.append(item[1:])
+                    if split_directory[-2] == "scripts" or split_directory[-2] == "src":
+                        topic_list.append(item[1:])
+                    if split_directory[-2] == "launch":
+                        topic_list.append(item)
 
                 for i in range(len_service_list):
                     item = widgets.listWidget_29.item(i).text()
@@ -2708,11 +2487,16 @@ class MainWindow(QMainWindow):
                     item = widgets.listWidget_30.item(i).text()
                     parameter_list.append(item[1:])
 
-                def constant_mutate_function(target):
-                    global zipped_ros_list
-                    global possible_mutant_list
+                def constant_mutate_function(target_line, loc):
+                    global ZIPPED_ROS_LIST
+                    global POSSIBLE_MUTANT_LIST
 
-                    constant_list = list()
+                    ZIPPED_ROS_LIST = []
+                    POSSIBLE_MUTANT_LIST = []
+
+                    ROS_SOURCE_MUTANT = []
+
+                    constant_list = []
 
                     class ConstantMutator(ast.NodeTransformer):
                         def visit_Constant(self, node):
@@ -2741,25 +2525,25 @@ class MainWindow(QMainWindow):
 
                     for ros_pattern in all_ros_patterns:
                         ros_result = re.findall(ros_pattern, target)
-                        if ros_result != []:
+                        if ros_result:
                             if (
                                 ros_result[0] == "rospy.Sub"
                                 or ros_result[0] == "rospy.Pub"
                             ):
-                                possible_mutant_list = [
-                                    widgets.listWidget_28.item(x).text()
+                                POSSIBLE_MUTANT_LIST = [
+                                    "/" + widgets.listWidget_28.item(x).text()
                                     for x in range(widgets.listWidget_28.count())
                                 ]
                             elif (
                                 ros_result[0] == "rospy.Log"
                                 or ros_result[0] == "rospy.log"
                             ):
-                                possible_mutant_list = [
+                                POSSIBLE_MUTANT_LIST = [
                                     widgets.listWidget_28.item(x).text()
                                     for x in range(widgets.listWidget_28.count())
                                 ]
                             elif ros_result[0] == "rospy.Par":
-                                possible_mutant_list = [
+                                POSSIBLE_MUTANT_LIST = [
                                     widgets.listWidget_30.item(x).text()
                                     for x in range(widgets.listWidget_30.count())
                                 ]
@@ -2767,34 +2551,36 @@ class MainWindow(QMainWindow):
                                 ros_result[0] == "rospy.Ser"
                                 or ros_result[0] == "rospy.ser"
                             ):
-                                possible_mutant_list = [
+                                POSSIBLE_MUTANT_LIST = [
                                     widgets.listWidget_29.item(x).text()
                                     for x in range(widgets.listWidget_29.count())
                                 ]
                             elif ros_result[0] == "rospy.init":
-                                possible_mutant_list = [
+                                POSSIBLE_MUTANT_LIST = [
                                     widgets.listWidget_27.item(x).text()
                                     for x in range(widgets.listWidget_27.count())
                                 ]
                             else:
-                                possible_mutant_list = [
+                                POSSIBLE_MUTANT_LIST = [
                                     "mutant_1",
                                     "mutant_2",
                                     "mutant_3",
                                 ]
 
                             for i in constant_list:
-                                for j in possible_mutant_list:
+                                for j in POSSIBLE_MUTANT_LIST:
                                     x = j[1:].join(target.rsplit(i, 1))
-                                    if target != x:
+                                    if target_line != x:
                                         widgets.listWidget_31.addItem(x)
-                                        ros_source_mutant.append(target)
-                                        ros_source_mutant.append(x)
+                                        add_location(loc)
+                                        ROS_SOURCE_MUTANT.append(loc)
+                                        ROS_SOURCE_MUTANT.append(target_line)
+                                        ROS_SOURCE_MUTANT.append(x)
 
                 ### AST NAME MUTATOR ###
 
-                def function_name_mutator(target):
-                    name_list = list()
+                def function_name_mutator(target_line, loc):
+                    name_list = []
 
                     class NameIdMutator(ast.NodeTransformer):
                         def visit_Name(self, node):
@@ -2819,22 +2605,24 @@ class MainWindow(QMainWindow):
 
                     for i in name_list:
                         for j in mutant_list:
-                            x = j.join(target.rsplit(i, 1))
+                            x = j[1:].join(target.rsplit(i, 1))
                             if target_line != x:
                                 widgets.listWidget_31.addItem(x)
-                                ros_source_mutant.append(target)
-                                ros_source_mutant.append(x)
+                                add_location(loc)
+                                ROS_SOURCE_MUTANT.append(loc)
+                                ROS_SOURCE_MUTANT.append(target_line)
+                                ROS_SOURCE_MUTANT.append(x)
 
                 ### AST VALUE MUTATOR ###
 
-                def value_mutate_function(target):
+                def value_mutate_function(target_line, loc):
                     class ConstantMutator(ast.NodeTransformer):
                         global constant_list
-                        constant_list = list()
+                        constant_list = []
 
                         def visit_Constant(self, node):
                             """The visitor function."""
-                            if type(node.value) != str:
+                            if not isinstance(node.value, str):
                                 if isinstance(node.value, bool):
                                     if node.value is True:
                                         node.value = False
@@ -2843,8 +2631,14 @@ class MainWindow(QMainWindow):
                                     node.value = True
                                     self.generic_visit(node)
                                     return node
-                                node.value = random.randint(1, 20)
-                                return node
+                                value_number = node.value
+                                random_number_for_node_value = random.randint(1, 100)
+                                if value_number != random_number_for_node_value:
+                                    node.value = random.randint(1, 100)
+                                    return node
+                                else:
+                                    node.value = (random.randint(1, 100)) + 1
+                                    return node
                             return node
 
                     node = ast.parse(target_line)
@@ -2852,84 +2646,148 @@ class MainWindow(QMainWindow):
                     node2 = renamer.visit(node)
                     unparsed_code = astunparse.unparse(node2)
                     unparsed_code = unparsed_code.strip()
-                    widgets.listWidget_31.addItem(unparsed_code)
-                    ros_source_mutant.append(target)
-                    ros_source_mutant.append(unparsed_code)
+                    if target_line != unparsed_code:
+                        widgets.listWidget_31.addItem(unparsed_code)
+                        add_location(loc)
+                        ROS_SOURCE_MUTANT.append(loc)
+                        ROS_SOURCE_MUTANT.append(target_line)
+                        ROS_SOURCE_MUTANT.append(unparsed_code)
+
+                def add_location(loc):
+                    mutant_code_list_size = widgets.listWidget_31.count()
+
+                    if mutant_code_list_size > 0:
+                        line_of_mutant_list = widgets.listWidget_31.item(
+                            mutant_code_list_size - 1
+                        ).text()
+                        widgets.listWidget_31.takeItem(mutant_code_list_size - 1)
+                        new_line = line_of_mutant_list + "        Directory: " + loc
+                        widgets.listWidget_31.addItem(new_line)
 
                 if (
-                    widgets.checkBox_9.isChecked() == True
+                    widgets.checkBox_9.isChecked() is True
                     and widgets.listWidget_33.count() > 0
                 ):
-                    list_found_lines = list()
+                    list_found_lines = []
+                    list_directories = []
                     len_found_lines = widgets.listWidget_33.count()
                     for i in range(len_found_lines):
-                        item_found_lines = widgets.listWidget_33.item(i).text()
+                        found_line_and_directory = widgets.listWidget_33.item(i).text()
+                        split_found_line_and_directory = found_line_and_directory.split(
+                            " Directory: "
+                        )
+                        item_found_lines = split_found_line_and_directory[0]
+                        item_found_directory = split_found_line_and_directory[1]
                         list_found_lines.append(item_found_lines)
+                        list_directories.append(item_found_directory)
 
-                    for target_line in list_found_lines:
-                        constant_mutate_function(target_line)
-                        value_mutate_function(target_line)
-
-                        result = re.findall("rospy.log", target_line)
-                        if result != []:
-                            function_name_mutator(target_line)
+                    for target_line in range(len(list_found_lines)):
+                        target = list_found_lines[target_line]
+                        loc = list_directories[target_line]
+                        constant_mutate_function(target, loc)
+                        value_mutate_function(target, loc)
+                        result = re.findall("rospy.log", target)
+                        if result:
+                            function_name_mutator(target, loc)
 
                 else:
-                    len_zipped_ros_list = len(zipped_ros_list)
+                    len_zipped_ros_list = len(ZIPPED_ROS_LIST)
                     for i in range(len_zipped_ros_list):
                         if i % 2 == 1:
-                            target_line = str(zipped_ros_list[i - 1])
-                            selected_fault = str(zipped_ros_list[i])
+                            target_line = str(ZIPPED_ROS_LIST[i - 1])
+                            selected_fault = str(ZIPPED_ROS_LIST[i])
                             if selected_fault == "ROS Pub-Sub Mutation":
                                 find_snip = ["rospy.Sub", "rospy.Pub"]
                                 for snip in find_snip:
                                     result = re.findall(snip, target_line)
-                                    if result != []:
-                                        constant_mutate_function(target_line)
-                                        value_mutate_function(target_line)
+                                    if result:
+                                        split_found_line_and_directory = (
+                                            target_line.split(" Directory: ")
+                                        )
+                                        target = split_found_line_and_directory[0]
+                                        loc = split_found_line_and_directory[1]
+
+                                        constant_mutate_function(target, loc)
+                                        value_mutate_function(target, loc)
+
                             elif selected_fault == "ROS Log Mutation":
                                 find_snip = ["rospy.Log", "rospy.log"]
                                 for snip in find_snip:
                                     result = re.findall(snip, target_line)
-                                    if result != []:
-                                        function_name_mutator(target_line)
-                                        value_mutate_function(target_line)
+
+                                    if result:
+                                        split_found_line_and_directory = (
+                                            target_line.split(" Directory: ")
+                                        )
+                                        target = split_found_line_and_directory[0]
+                                        loc = split_found_line_and_directory[1]
+
+                                        function_name_mutator(target, loc)
+                                        value_mutate_function(target, loc)
+
                             elif selected_fault == "ROS Time Mutation":
-                                find_snip = ["rospy.Time", "rospy.Dur", "rospy.Rate"]
+                                find_snip = [
+                                    "rospy.Time",
+                                    "rospy.Dur",
+                                    "rospy.Rate",
+                                ]
                                 for snip in find_snip:
                                     result = re.findall(snip, target_line)
-                                    if result != []:
-                                        value_mutate_function(target_line)
+                                    if result:
+                                        split_found_line_and_directory = (
+                                            target_line.split(" Directory: ")
+                                        )
+                                        target = split_found_line_and_directory[0]
+                                        loc = split_found_line_and_directory[1]
+
+                                        value_mutate_function(target, loc)
+
                             elif selected_fault == "ROS Parameter Mutation":
                                 find_snip = ["rospy.Par"]
                                 for snip in find_snip:
                                     result = re.findall(snip, target_line)
-                                    if result != []:
-                                        function_name_mutator(target_line)
-                                        constant_mutate_function(target_line)
-                                value_mutate_function(target_line)
+                                    split_found_line_and_directory = target_line.split(
+                                        " Directory: "
+                                    )
+                                    target = split_found_line_and_directory[0]
+                                    loc = split_found_line_and_directory[1]
+                                    if result:
+                                        function_name_mutator(target, loc)
+                                        constant_mutate_function(target, loc)
+                                        value_mutate_function(target, loc)
+
                             elif selected_fault == "ROS Service Mutation":
                                 find_snip = ["rospy.Ser", "rospy.ser"]
                                 for snip in find_snip:
                                     result = re.findall(snip, target_line)
-                                    if result != []:
-                                        function_name_mutator(target_line)
-                                        constant_mutate_function(target_line)
-                                        value_mutate_function(target_line)
+                                    if result:
+                                        split_found_line_and_directory = (
+                                            target_line.split(" Directory: ")
+                                        )
+                                        target = split_found_line_and_directory[0]
+                                        loc = split_found_line_and_directory[1]
+
+                                        function_name_mutator(target, loc)
+                                        constant_mutate_function(target, loc)
+                                        value_mutate_function(target, loc)
+
                             elif selected_fault == "ROS Initializing Node Mutation":
                                 find_snip = ["rospy.init"]
                                 for snip in find_snip:
                                     result = re.findall(snip, target_line)
-                                    if result != []:
-                                        constant_mutate_function(target_line)
-                                        value_mutate_function(target_line)
-                            else:
-                                pass
+                                    if result:
+                                        split_found_line_and_directory = (
+                                            target_line.split(" Directory: ")
+                                        )
+                                        target = split_found_line_and_directory[0]
+                                        loc = split_found_line_and_directory[1]
+                                        constant_mutate_function(target, loc)
+                                        value_mutate_function(target, loc)
 
-        total_mutant_number = widgets.listWidget_31.count()
+            total_mutant_number = widgets.listWidget_31.count()
 
-        if total_mutant_number != 0:
-            widgets.lineEdit_4.setText(str(total_mutant_number))
+            if total_mutant_number:
+                widgets.label_81.setText(str(total_mutant_number))
 
         #  CODE SNIPPETS FROM START PAGE
 
@@ -2945,21 +2803,23 @@ class MainWindow(QMainWindow):
         # CREATE CUSTOM SNIPPETS FROM START PAGE
 
         if btnName == "btn_create_snip":
-            snippetName = widgets.textEdit_2.toPlainText()
-            snippetTitle = widgets.textEdit_27.toPlainText()
-            snippetProcess = widgets.textEdit_29.toPlainText()
-            snippetRegex = widgets.textEdit_28.toPlainText()
+            snippet_name = widgets.textEdit_2.toPlainText()
+            snippet_title = widgets.textEdit_27.toPlainText()
+            snippet_process = widgets.textEdit_29.toPlainText()
+            snippet_regex = widgets.textEdit_28.toPlainText()
 
-            codeSnippetJson = {
-                "Snippet_Name": snippetName,
-                "Title": snippetTitle,
-                "Process": snippetProcess,
-                "Regex_Code": snippetRegex,
+            created_snippet_json = {
+                "Snippets": {
+                    "Snippet_Name": snippet_name,
+                    "Title": snippet_title,
+                    "Process": snippet_process,
+                    "Regex_Code": snippet_regex,
+                }
             }
 
-            jsonSnippet = json.dumps(codeSnippetJson, indent=4)
+            json_snippet = json.dumps(created_snippet_json, indent=4)
 
-            widgets.textEdit_25.setPlainText(jsonSnippet)
+            widgets.textEdit_25.setPlainText(json_snippet)
 
         if btnName == "btn_delete_snip":
             widgets.textEdit_2.clear()
@@ -2971,60 +2831,59 @@ class MainWindow(QMainWindow):
 
         if btnName == "btn_save_snip":
 
-            isEmptyCodeSnip = widgets.textEdit_25.toPlainText()
+            is_empty_code_snippet = widgets.textEdit_25.toPlainText()
 
-            if isEmptyCodeSnip != "" and widgets.checkBox_6.isChecked() == True:
+            if is_empty_code_snippet != "" and widgets.checkBox_6.isChecked() is True:
 
-                snippetName = widgets.textEdit_2.toPlainText()
-                snippetTitle = widgets.textEdit_27.toPlainText()
-                snippetProcess = widgets.textEdit_29.toPlainText()
-                snippetRegex = widgets.textEdit_28.toPlainText()
+                snippet_name = widgets.textEdit_2.toPlainText()
+                snippet_title = widgets.textEdit_27.toPlainText()
+                snippet_process = widgets.textEdit_29.toPlainText()
+                snippet_regex = widgets.textEdit_28.toPlainText()
 
-                createdSnippet = {
+                created_snippet = {
                     "Snippets": {
-                        "Snippet_Name": snippetName,
-                        "Title": snippetTitle,
-                        "Process": snippetProcess,
-                        "Regex_Code": snippetRegex,
+                        "Snippet_Name": snippet_name,
+                        "Title": snippet_title,
+                        "Process": snippet_process,
+                        "Regex_Code": snippet_regex,
                     }
                 }
 
-                with open("code_snippets.json", "r+") as file:
+                with open("code_snippets.json", mode = "r+", encoding = "utf-8") as file:
                     # First we load existing data into a dict.
                     file_data = json.load(file)
                     # Join new_data with file_data inside emp_details
-                    file_data["code_snippets"].append(createdSnippet)
+                    file_data["code_snippets"].append(created_snippet)
                     # Sets file's current position at offset.
                     file.seek(0)
                     # convert back to json.
                     json.dump(file_data, file, indent=4)
 
-                    codeSnippetFileName = widgets.textEdit_16.toPlainText()
+                code_snippet_file_name = widgets.textEdit_16.toPlainText()
 
-                    dialog = QFileDialog()
-                    pathName = QFileDialog.getExistingDirectory()
+                dialog = QFileDialog()
+                path_name = QFileDialog.getExistingDirectory()
 
-                    codeSnippetPathAndName = os.path.join(
-                        pathName, codeSnippetFileName + ".json"
-                    )
+                code_snippet_path_and_name = os.path.join(
+                    path_name, code_snippet_file_name + ".json"
+                )
 
-                    createdCodeSnippets = widgets.textEdit_25.toPlainText()
+                created_code_snippets = widgets.textEdit_25.toPlainText()
 
-                    jsonFile = open(codeSnippetPathAndName, "w")
-                    jsonFile.write(createdCodeSnippets)
-                    jsonFile.close()
+                with open(code_snippet_path_and_name, mode = "w", encoding = "utf-8") as file:
+                    file.write(created_code_snippets)
 
-                    widgets.label_60.setText("SAVED!")
+                with open("customSnippets.json", mode = "w", encoding = "utf-8") as file:
+                    file.write(created_code_snippets)
 
-                widgets.listWidget_10.addItem(snippetName)
+                widgets.label_60.setText("SAVED!")
 
-            else:
-                pass
+                widgets.code_snippet_list.addItem(snippet_name)
 
         if btnName == "btn_snip_location":
             dialog = QFileDialog()
-            pathName = QFileDialog.getExistingDirectory()
-            widgets.textEdit_25.setPlainText(pathName)
+            path_name = QFileDialog.getExistingDirectory()
+            widgets.textEdit_25.setPlainText(path_name)
 
         if btnName == "back_snip":
             widgets.stackedWidget.setCurrentWidget(widgets.start)
@@ -3040,217 +2899,403 @@ class MainWindow(QMainWindow):
                 UIFunctions.selectMenu(widgets.btn_start.styleSheet())
             )
 
-        patterns = list()
-        csDatasList = list()
-        paintedLines = list()
-        jsonFonksiyonlari = list()
-        codeSnippetsRegexCodes = list()
-        csDataSequence = list()
+        patterns = []
+        code_snippet_data_list = []
+        painted_lines = []
+        workload_function_name_list = []
+        code_snippet_regex_code_list = []
+        painted_line_for_mutation = []
+        faultable_line_list = []
 
-        if btnName == "btn_scan2":
-            widgets.btn_scan2.setEnabled(False)
+        if btnName == "btn_scan_process":
 
-            if widgets.checkBox_2.isChecked() == True:
-                isEmptyCodes = len(widgets.textEdit_4.toPlainText())
-                isEmptyWorkloads = len(widgets.textEdit_22.toPlainText())
-                if isEmptyCodes != 0:
-                    pureText = widgets.textEdit_4.toPlainText()
-                    tree = ast.dump(ast.parse(pureText))
-                    tree = astpretty.pprint(ast.parse(pureText).body[0], indent="  ")
-                    widgets.textEdit_23.setPlainText(tree)
+            if widgets.checkBox_2.isChecked() is True:
 
+                check_detected_parts_list = widgets.listWidget_2.count()
+
+                if check_detected_parts_list:
+                    widgets.listWidget_2.clear()
+
+                scan_page_source_code_check = widgets.textEdit_4.toPlainText()
+
+                if scan_page_source_code_check:
+
+                    is_empty_workload = len(widgets.textEdit_22.toPlainText())
+                    selected_code_snippet_length = widgets.listWidget_17.count()
+
+                    # Progress Bar
                     # for i in range(100):
                     # 	time.sleep(0.01)
                     # 	widgets.progressBar_2.setValue(i+1)
 
-                    splitText = pureText.split("\n")
-                    widgets.listWidget_2.addItems(splitText)
-                    if isEmptyWorkloads != 0:
-                        workloadText = widgets.textEdit_22.toPlainText()
-                        workloadData = json.loads(workloadText)
+                    # Source code divided
+                    pure_source_code_content = widgets.textEdit_4.toPlainText()
+                    split_text = pure_source_code_content.split("\n")
+                    widgets.listWidget_2.addItems(split_text)
+                    detected_part_list_size = widgets.listWidget_2.count()
+
+                    # İlgili json dosyaları açılır
+                    with open("code_snippets.json", encoding = "utf-8") as code_snippets_from_json:
+                        code_snippet_regex_code = json.load(code_snippets_from_json)
+
+                    if (
+                        is_empty_workload == 0 and selected_code_snippet_length == 0
+                    ):  # Tüm kodları kod parçalarına göre tarar (wL ve CS yok)
+                        print("Workload yok, CS yok")
+                        added_snippet_regex_length = len(
+                            code_snippet_regex_code["code_snippets"]
+                        )
+                        for i in range(0, added_snippet_regex_length):
+                            added_snippet_regex = code_snippet_regex_code["code_snippets"][
+                                i
+                            ]["Snippets"]["Regex_Code"]
+                            code_snippet_regex_code_list.append(added_snippet_regex)
+
+                        for line_number in range(detected_part_list_size):  # satır sayısı
+                            line = widgets.listWidget_2.item(
+                                line_number
+                            ).text()  # satırdaki text verisi
+                            find_function = re.findall("def:*", line)
+                            find_class = re.findall("class:*", line)
+                            find_import = re.findall("import", line)
+                            find_comment = re.findall("#", line)
+                            if (
+                                find_function
+                                or find_class
+                                or find_import
+                                or find_comment
+                            ):
+                                continue
+                            else:
+                                for regex_pattern in code_snippet_regex_code_list:
+                                    is_exist = re.findall(
+                                        regex_pattern, line
+                                    )  # regex ile satırda code snippet var mı kontrolü yapıldı
+                                    if (
+                                        is_exist
+                                    ):  # eğer satır içerisinde code snippet varsa tetiklenir
+                                        widgets.listWidget_2.item(
+                                            line_number
+                                        ).setBackground(
+                                            QtGui.QColor(102, 0, 102)
+                                        )  # Mor renk olarak boyanır
+                                        painted_line_for_mutation = widgets.listWidget_2.item(
+                                            line_number
+                                        ).text()  # Mutasyon işleminde kullanmak için listeye ekledi
+                                        faultable_line_list.append(
+                                            painted_line_for_mutation
+                                        )
+
+                        for painted_line in faultable_line_list:
+                            strip_painted_line = painted_line.strip()
+                            widgets.listWidget.addItem(strip_painted_line)
+
+                    elif (
+                        is_empty_workload > 0 and selected_code_snippet_length == 0
+                    ):  # kodlar wL göre taranıp, bütün kod snippetları tespit edilir
+                        # (workload var, CS yok )
+
+                        print("Workload var, CS yok!")
+                        workload_text = widgets.textEdit_22.toPlainText()
+                        workload_data = json.loads(workload_text)
 
                         try:
-                            for i in range(0, len(workloadData["gorevler"])):
-                                fonksiyon_adi = workloadData["gorevler"][i]["Task"][
+                            for i in range(0, len(workload_data["Tasks"])):
+                                fonksiyon_adi = workload_data["Tasks"][i]["Task"][
                                     "Task_ID"
                                 ]
                                 fonksiyon_ara = "def " + fonksiyon_adi
-                                jsonFonksiyonlari.append(fonksiyon_ara)
+                                workload_function_name_list.append(fonksiyon_ara)
 
                         except:
-                            print("Workload Build Error!")
+                            print("Workload Build Error!")  # Hata mesaj kutusu çıkacak
 
-                        for number, line in enumerate(splitText):
-                            for j in jsonFonksiyonlari:
-                                if j in line:
+                        for number, line in enumerate(split_text):
+                            for function_name_from_workload in workload_function_name_list:
+                                is_function_in_sentence = re.findall(
+                                    function_name_from_workload, line
+                                )  # workload isimleri kaynak kodlar içerisinde aranır
+                                if is_function_in_sentence:
                                     while number != 0:
-                                        leading_spaces = len(splitText[number]) - len(
-                                            splitText[number].lstrip()
+                                        leading_spaces = len(split_text[number]) - len(
+                                            split_text[number].lstrip()
                                         )
                                         if leading_spaces != 0:
                                             widgets.listWidget_2.item(
                                                 number
                                             ).setBackground(
                                                 QtGui.QColor(102, 0, 102)
-                                            )  # Mavi renk
-                                            paintedLines.append(number)
+                                            )  # Mor renk
+                                            painted_lines.append(number)
+                                            number += 1
+                                        else:
+                                            break
+                        added_snippet_regex_length = len(
+                            code_snippet_regex_code["code_snippets"]
+                        )
+                        for i in range(0, added_snippet_regex_length):
+                            added_snippet_regex = code_snippet_regex_code["code_snippets"][
+                                i
+                            ]["Snippets"]["Regex_Code"]
+                            patterns.append(added_snippet_regex)
+
+                        for i in painted_lines:
+                            detected_parts_list_line = widgets.listWidget_2.item(i).text()
+                            find_function = re.findall("def:*", detected_parts_list_line)
+                            find_class = re.findall("class:*", detected_parts_list_line)
+                            find_import = re.findall("import", detected_parts_list_line)
+                            find_comment = re.findall("#", detected_parts_list_line)
+                            if (
+                                find_function
+                                or find_class
+                                or find_import
+                                or find_comment
+                            ):
+                                continue
+                            else:
+                                for pattern in patterns:
+                                    result = re.findall(
+                                        pattern, detected_parts_list_line, re.MULTILINE
+                                    )
+                                    if result:
+                                        widgets.listWidget_2.item(i).setBackground(
+                                            QtGui.QColor(0, 128, 255)
+                                        )  # Mavi renk
+                                        painted_line_for_mutation = widgets.listWidget_2.item(
+                                            i
+                                        ).text()  # Mutasyon işleminde kullanmak için listeye ekledi
+                                        faultable_line_list.append(
+                                            painted_line_for_mutation
+                                        )
+
+                        for painted_line in faultable_line_list:
+                            strip_painted_line = painted_line.strip()
+                            widgets.listWidget.addItem(strip_painted_line)
+
+                    elif (
+                        is_empty_workload == 0 and selected_code_snippet_length > 0
+                    ):  # Kodların tamamı seçili kod parçalarına göre taranacak (wL yok, CS var)
+                        print("Workload yok, CS var!")
+
+                        for line_number in range(
+                            selected_code_snippet_length
+                        ):  # code snippet list
+                            line_from_code_snippet_list = widgets.listWidget_17.item(
+                                line_number
+                            ).text()  # code snippet list içerisindeki eleman
+                            code_snippet_data_list.append(
+                                line_from_code_snippet_list
+                            )  # eleman listeye eklendi
+                        added_snippet_regex_length = len(
+                            code_snippet_regex_code["code_snippets"]
+                        )
+                        for i in range(0, added_snippet_regex_length):
+                            added_snippet_name = code_snippet_regex_code["code_snippets"][
+                                i
+                            ]["Snippets"]["Snippet_Name"]
+                            added_snippet_regex = code_snippet_regex_code["code_snippets"][
+                                i
+                            ]["Snippets"]["Regex_Code"]
+                            for (
+                                snippet
+                            ) in (
+                                code_snippet_data_list
+                            ):  # cs listesi içerisindeki eleman ile json code_snipet içerisindeki
+                                # isim uyuşuyorsa liste içerisine ekliyor
+                                if snippet == added_snippet_name:
+                                    patterns.append(added_snippet_regex)
+
+                        for i in range(detected_part_list_size):
+                            line_from_source_code = widgets.listWidget_2.item(i).text()
+                            find_function = re.findall("def:*", line_from_source_code)
+                            find_class = re.findall("class:*", line_from_source_code)
+                            find_import = re.findall("import", line_from_source_code)
+                            find_comment = re.findall("#", line_from_source_code)
+                            if (
+                                find_function
+                                or find_class
+                                or find_import
+                                or find_comment
+                            ):
+                                continue
+                            else:
+                                for pattern in patterns:
+                                    result = re.findall(
+                                        pattern, line_from_source_code, re.MULTILINE
+                                    )
+                                    if result:
+                                        widgets.listWidget_2.item(i).setBackground(
+                                            QtGui.QColor(0, 128, 255)
+                                        )  # Mavi renk
+                                        painted_line_for_mutation = widgets.listWidget_2.item(
+                                            i
+                                        ).text()  # Mutasyon işleminde kullanmak için listeye ekledi
+                                        faultable_line_list.append(
+                                            painted_line_for_mutation
+                                        )
+
+                        for painted_line in faultable_line_list:
+                            strip_painted_line = painted_line.strip()
+                            widgets.listWidget.addItem(strip_painted_line)
+
+                    else:
+                        """Workload var, CS var!"""
+                        print("Workload var, CS var!")
+                        workload_text = widgets.textEdit_22.toPlainText()
+                        workload_data = json.loads(workload_text)
+
+                        try:
+                            for i in range(0, len(workload_data["Tasks"])):
+                                fonksiyon_adi = workload_data["Tasks"][i]["Task"][
+                                    "Task_ID"
+                                ]
+                                fonksiyon_ara = "def " + fonksiyon_adi
+                                workload_function_name_list.append(fonksiyon_ara)
+
+                        except:
+                            print("Workload Build Error!")  # message box eklenecek
+
+                        for number, line in enumerate(split_text):
+                            for function_name_from_workload in workload_function_name_list:
+                                is_function_in_sentence = re.findall(
+                                    function_name_from_workload, line
+                                )  # workload isimleri kaynak kodlar içerisinde aranır
+                                if is_function_in_sentence:
+                                    while number != 0:
+                                        leading_spaces = len(split_text[number]) - len(
+                                            split_text[number].lstrip()
+                                        )
+                                        if leading_spaces != 0:
+                                            widgets.listWidget_2.item(
+                                                number
+                                            ).setBackground(
+                                                QtGui.QColor(102, 0, 102)
+                                            )  # Mor
+                                            painted_lines.append(number)
                                             number += 1
                                         else:
                                             break
 
-                        if widgets.listWidget_8.count() != 0:
+                        for i in range(selected_code_snippet_length):
+                            code_snippet_data = widgets.listWidget_17.item(i).text()
+                            code_snippet_data_list.append(code_snippet_data)
+                        added_snippet_regex_length = len(
+                            code_snippet_regex_code["code_snippets"]
+                        )
+                        for i in range(0, added_snippet_regex_length):
+                            added_snippet_name = code_snippet_regex_code["code_snippets"][
+                                i
+                            ]["Snippets"]["Snippet_Name"]
+                            added_snippet_regex = code_snippet_regex_code["code_snippets"][
+                                i
+                            ]["Snippets"]["Regex_Code"]
+                            for snippet in code_snippet_data_list:
+                                if snippet == added_snippet_name:
+                                    patterns.append(added_snippet_regex)
 
-                            for i in range(widgets.listWidget_8.count()):
-                                csDatas = widgets.listWidget_17.item(i).text()
-                                csDatasList.append(csDatas)
-
-                            with open("code_snippets.json") as codeSnippetsFromJson:
-                                codeSnippetRegexCode = json.load(codeSnippetsFromJson)
-
-                            for i in range(20):
-                                addedSnippetName = codeSnippetRegexCode[
-                                    "code_snippets"
-                                ][i]["Snippets"]["Snippet_Name"]
-                                for snippet in csDatasList:
-                                    if snippet == addedSnippetName:
-                                        addedSnippetRegex = codeSnippetRegexCode[
-                                            "code_snippets"
-                                        ][i]["Snippets"]["Regex_Code"]
-                                        patterns.append(addedSnippetRegex)
-
-                            for i in paintedLines:
-                                listOfCodes = widgets.listWidget_2.item(i).text()
+                        for i in painted_lines:
+                            detected_parts_list_line = widgets.listWidget_2.item(i).text()
+                            find_function = re.findall("def:*", detected_parts_list_line)
+                            find_class = re.findall("class:*", detected_parts_list_line)
+                            find_import = re.findall("import", detected_parts_list_line)
+                            find_comment = re.findall("#", detected_parts_list_line)
+                            if (
+                                find_function
+                                or find_class
+                                or find_import
+                                or find_comment
+                            ):
+                                continue
+                            else:
                                 for pattern in patterns:
                                     result = re.findall(
-                                        pattern, listOfCodes, re.MULTILINE
+                                        pattern, detected_parts_list_line, re.MULTILINE
                                     )
-                                    if result != []:
+                                    if result:
                                         widgets.listWidget_2.item(i).setBackground(
                                             QtGui.QColor(0, 128, 255)
                                         )  # Açık mavi
-                                        paintedLineForMutation = (
+                                        painted_line_for_mutation = (
                                             widgets.listWidget_2.item(i).text()
                                         )
-                                        self.placeForMutation.append(i)
-                                        self.placeForMutation.append(
-                                            paintedLineForMutation
+                                        faultable_line_list.append(
+                                            painted_line_for_mutation
                                         )
-                        else:
-                            pass
 
-                    else:
-                        with open("code_snippets.json") as codeSnippetsFromJson:
-                            codeSnippetRegexCode = json.load(codeSnippetsFromJson)
-
-                        for i in range(widgets.listWidget_8.count()):
-                            csDatas = widgets.listWidget_17.item(i).text()
-                            csDatasList.append(csDatas)
-
-                        for i in range(20):
-                            addedSnippetName = codeSnippetRegexCode["code_snippets"][i][
-                                "Snippets"
-                            ]["Snippet_Name"]
-                            for snippet in csDatasList:
-                                if snippet == addedSnippetName:
-                                    addedSnippetRegex = codeSnippetRegexCode[
-                                        "code_snippets"
-                                    ][i]["Snippets"]["Regex_Code"]
-                                    patterns.append(addedSnippetRegex)
-                        else:
-                            with open("code_snippets.json") as codeSnippetsFromJson:
-                                codeSnippetRegexCode = json.load(codeSnippetsFromJson)
-                            for i in range(20):
-                                gerekli = codeSnippetRegexCode["code_snippets"][i][
-                                    "Snippets"
-                                ]["Regex_Code"]
-                                patterns.append(gerekli)
-
-                        for i in range(widgets.listWidget_2.count()):
-                            listOfCodes = widgets.listWidget_2.item(i).text()
-                            for pattern in patterns:
-                                result = re.findall(pattern, listOfCodes, re.MULTILINE)
-                                itemsCount = len(
-                                    re.findall(pattern, pureText, re.MULTILINE)
-                                )
-                                if result != []:
-                                    paintedLineForMutation = widgets.listWidget_2.item(
-                                        i
-                                    ).setBackground(
-                                        QtGui.QColor(102, 0, 102)
-                                    )  # Mor
-                                    purple_line_for_mutation = (
-                                        widgets.listWidget_2.item(i).text()
-                                    )
-                                    selectedCodeSnippetCount = (
-                                        widgets.listWidget_17.count()
-                                    )
-                                    if (
-                                        selectedCodeSnippetCount == 0
-                                        and widgets.textEdit_22.toPlainText() == ""
-                                    ):
-                                        listOfCodes = listOfCodes.lstrip()
-                                        widgets.listWidget.addItem(listOfCodes)
-
-        # FAULT PLAN PAGE
+                        for painted_line in faultable_line_list:
+                            strip_painted_line = painted_line.strip()
+                            widgets.listWidget.addItem(strip_painted_line)
+                else:
+                    pass  # Kaynak kodlar yok mesaj kutusu gelecek
+            else:
+                pass  # Warning mesaj kutusu gelecek "Checkbox işaretlenmedi"
+                # FAULT PLAN PAGE
 
         if btnName == "btn_random_fault":
-            print("Random Fault Injection Under Development")
+            pass
 
         if btnName == "btn_create_custom":
             widgets.stackedWidget.setCurrentWidget(widgets.customFault)
             widgets.leftMenuBg.hide()
             widgets.titleRightInfo.setText("FAULT INJECTION PLAN - CREATE CUSTOM FAULT")
 
-        if btnName == "btn_remove_fault":
-            global zippedList
+        if btnName == "btn_remove_fault":  # Tekrar düzenlenecek
+            global ZIPPED_LIST
 
             row = widgets.listWidget_7.currentRow()
             widgets.listWidget_7.takeItem(row)
-            print(row)
 
             for i in range(2):
-                del zippedList[row]
-
-            print(zippedList)
+                del ZIPPED_LIST[row]
 
         if btnName == "btn_save_fiplan":
 
-            dataSizeOfSelected = widgets.listWidget_4.count()
+            global source_and_mutate_code
+            selected_task_list_size = widgets.listWidget_4.count()
+            created_fault_plan_list = []
 
-            if dataSizeOfSelected != widgets.checkBox_4.isChecked() == True:
+            if selected_task_list_size:
                 dialog = QFileDialog()
-                pathName = QFileDialog.getExistingDirectory()
+                path_name = QFileDialog.getExistingDirectory()
+                if path_name != "":
+                    widgets.textEdit_26.toPlainText() + ".json"
 
-                FIPlanName = widgets.textEdit_26.toPlainText()
+                mutant_code_list_length = len(source_and_mutate_code)
+                source_code_directory = widgets.source_code_directory_text.toPlainText()
 
-                taskPathAndName = os.path.join(pathName, FIPlanName + ".json")
-
-                global sourceAndMutatedCode
-
-                lengthMutatedList = len(sourceAndMutatedCode)
-
-                for i in range(0, lengthMutatedList):
+                for i in range(0, mutant_code_list_length):
                     if i % 2 == 0:
-                        originalCode = sourceAndMutatedCode[i]
+                        original_code = source_and_mutate_code[i]
                     else:
-                        mutantCode = sourceAndMutatedCode[i]
+                        mutant_code = source_and_mutate_code[i]
 
-                        createdFault = {
+                        created_fault = {
                             "Fault": {
-                                "Source_Code": originalCode,
-                                "Mutate_Code": mutantCode,
+                                "File_Directory": source_code_directory,
+                                "Source_Code": original_code,
+                                "Mutate_Code": mutant_code,
                             }
                         }
+                        created_fault_plan_list.append(created_fault)
 
-                        with open("faultPlans.json", "r+") as file:
-                            file_data = json.load(file)
-                            file_data["fault_plans"].append(createdFault)
-                            file.seek(0)
-                            json.dump(file_data, file, indent=4)
+                with open("faultPlans.json", mode = "w", encoding="utf-8") as file:
+                    fault_plan_json_format = json.dumps(
+                        created_fault_plan_list, indent=4
+                    )
+                    file.write(fault_plan_json_format)
 
-                text = widgets.textEdit_26.toPlainText()
-                splitText = text.split("\n")
-                widgets.listWidget_11.addItems(splitText)
+                text = widgets.textEdit_26.toPlainText() + "_type_python.json"
+                full_path = os.path.join(path_name, text)
+
+                with open(full_path, mode = "w", encoding="utf-8") as file:
+                    fault_plan_json_format = json.dumps(
+                        created_fault_plan_list, indent=4
+                    )
+                    file.write(fault_plan_json_format)
+
+                split_text = full_path.split("\n")
+                widgets.listWidget_11.addItems(split_text)
+                widgets.listWidget_6.addItems(split_text)
 
         if btnName == "btn_remove_fiplan":
             row = widgets.listWidget_11.currentRow()
@@ -3263,31 +3308,31 @@ class MainWindow(QMainWindow):
             widgets.leftMenuBg.show()
             widgets.titleRightInfo.setText("FAULT INJECTION PLAN")
 
-            lengthCreatedFaultsList = widgets.listWidget_5.count()
+            created_fault_list_size = widgets.listWidget_5.count()
 
-            if lengthCreatedFaultsList != 0:
-                for i in range(0, lengthCreatedFaultsList):
-                    createdFaultFromList = widgets.listWidget_5.item(i).text()
-                    widgets.listWidget_3.addItem(createdFaultFromList)
+            if created_fault_list_size:
+                for i in range(0, created_fault_list_size):
+                    created_fault_list_line = widgets.listWidget_5.item(i).text()
+                    widgets.listWidget_3.addItem(created_fault_list_line)
 
         if btnName == "btn_create_fault":
-            faultName = widgets.textEdit_11.toPlainText()
+            fault_name = widgets.textEdit_11.toPlainText()
             target = widgets.textEdit_30.toPlainText()
             changed = widgets.textEdit_31.toPlainText()
             explanation = widgets.textEdit_32.toPlainText()
 
-            createdFaultJson = {
+            created_fault_json = {
                 "fault": {
-                    "Fault_Name": faultName,
+                    "Fault_Name": fault_name,
                     "Target_to_Change": target,
                     "Changed": changed,
                     "Explanation": explanation,
                 }
             }
 
-            jsonFault = json.dumps(createdFaultJson, indent=4)
+            json_fault = json.dumps(created_fault_json, indent=4)
 
-            widgets.textEdit_34.setPlainText(jsonFault)
+            widgets.textEdit_34.setPlainText(json_fault)
 
         if btnName == "btn_delete_fault":
             widgets.textEdit_11.clear()
@@ -3303,48 +3348,53 @@ class MainWindow(QMainWindow):
                 and widgets.textEdit_31.toPlainText() != ""
                 and widgets.textEdit_32.toPlainText() != ""
             ):
-                faultName = widgets.textEdit_11.toPlainText()
+                fault_name = widgets.textEdit_11.toPlainText()
                 target = widgets.textEdit_30.toPlainText()
                 changed = widgets.textEdit_31.toPlainText()
                 explanation = widgets.textEdit_32.toPlainText()
 
-                createdFaultJson = {
+                created_fault_json = {
                     "fault": {
-                        "Fault_Name": faultName,
+                        "Fault_Name": fault_name,
                         "Target_to_Change": target,
                         "Changed": changed,
                         "Explanation": explanation,
                     }
                 }
 
-                with open("faultLibrary.json", "r+") as file:
+                with open("faultLibrary.json", mode = "r+", encoding = "utf-8") as file:
                     # First we load existing data into a dict.
                     file_data = json.load(file)
                     # Join new_data with file_data inside emp_details
-                    file_data["all_faults"].append(createdFaultJson)
+                    file_data["all_faults"].append(created_fault_json)
                     # Sets file's current position at offset.
                     file.seek(0)
                     # convert back to json.
                     json.dump(file_data, file, indent=4)
 
-                    jsonFault = json.dumps(createdFaultJson, indent=4)
+                    json_fault = json.dumps(created_fault_json, indent=4)
 
-                    faultFileName = widgets.textEdit_10.toPlainText()
+                    workload_file_name = widgets.textEdit_10.toPlainText()
 
                     dialog = QFileDialog()
-                    pathName = QFileDialog.getExistingDirectory()
+                    path_name = QFileDialog.getExistingDirectory()
 
-                    taskPathAndName = os.path.join(pathName, faultFileName + ".json")
+                    task_path_and_name = os.path.join(
+                        path_name, workload_file_name + ".json"
+                    )
 
-                    createdFault = widgets.textEdit_34.toPlainText()
+                    created_fault = widgets.textEdit_34.toPlainText()
 
-                    jsonFile = open(taskPathAndName, "w")
-                    jsonFile.write(createdFault)
-                    jsonFile.close()
+                    json_file = open(task_path_and_name, mode = "w", encoding = "utf-8")
+                    json_file.write(created_fault)
+                    json_file.close()
+
+                    with open("customFaults.json", mode = "w", encoding = "utf-8") as file:
+                        file.write(created_fault)
 
                     widgets.label_61.setText("SAVED!")
 
-                widgets.listWidget_5.addItem(faultName)
+                widgets.listWidget_5.addItem(fault_name)
 
                 widgets.textEdit_11.clear()
                 widgets.textEdit_30.clear()
@@ -3368,7 +3418,6 @@ class MainWindow(QMainWindow):
             print("Remove execution!!!")
 
         if btnName == "btn_select_metrics":
-            print("Select Execution Metrics")
             widgets.stackedWidget.setCurrentWidget(widgets.selectMetrics)
             widgets.leftMenuBg.hide()
             widgets.titleRightInfo.setText("EXECUTION - METRICS")
@@ -3407,295 +3456,56 @@ class MainWindow(QMainWindow):
             # that you want in the pdf
             pdf.set_font("Arial", size=9)
 
-            txt = """
+            v_and_v_report_introduction = """
             The V&V Report Created by IM-FIT
             This reports shows information about AST Diagram of Source Codes, Fault List, Metric List, Rosbag Scenarios, etc.
             Therefore the user can learn about its source codes.
             IM-FIT
             """
-            pdf.cell(200, 10, txt=txt, ln=1, align="C")
+            pdf.cell(200, 10, txt=v_and_v_report_introduction, ln=1, align="C")
 
             # contents
             # ast diagram
-            astText = widgets.textEdit_23.toPlainText()
-            pdf.cell(200, 10, txt=astText, ln=1, align="L")
+            monitoring_ast_diagram = widgets.textEdit_23.toPlainText()
+            pdf.cell(200, 10, txt=monitoring_ast_diagram, ln=1, align="L")
 
-            lenMetricList = widgets.listWidget_9.count()
-            for i in range(0, lenMetricList):
+            monitoring_metric_list_size = widgets.listWidget_9.count()
+            for i in range(0, monitoring_metric_list_size):
                 # create a cell
-                line = widgets.listWidget_9.item(i).text()
-                pdf.cell(200, 10, txt=line, ln=2, align="L")
+                line_of_metric_list = widgets.listWidget_9.item(i).text()
+                pdf.cell(200, 10, txt=line_of_metric_list, ln=2, align="L")
 
-            lenMetricList = widgets.listWidget_16.count()
-            for i in range(0, lenMetricList):
+            monitoring_mutant_list_size = widgets.listWidget_16.count()
+            for i in range(0, monitoring_mutant_list_size):
                 # create a cell
-                line = widgets.listWidget_16.item(i).text()
-                pdf.cell(200, 10, txt=line, ln=3, align="L")
+                line_of_mutant_list = widgets.listWidget_16.item(i).text()
+                pdf.cell(200, 10, txt=line_of_mutant_list, ln=3, align="L")
 
-            lenMetricList = widgets.listWidget_19.count()
-            for i in range(0, lenMetricList):
+            monitoring_killed_mutants_output_list_size = widgets.listWidget_19.count()
+            for i in range(0, monitoring_killed_mutants_output_list_size):
                 # create a cell
-                line = widgets.listWidget_19.item(i).text()
-                pdf.cell(200, 10, txt=line, ln=4, align="L")
+                line_of_killed_mutants_output_list = widgets.listWidget_19.item(
+                    i
+                ).text()
+                pdf.cell(
+                    200, 10, txt=line_of_killed_mutants_output_list, ln=4, align="L"
+                )
 
-            lenMetricList = widgets.listWidget_14.count()
-            for i in range(0, lenMetricList):
+            monitoring_faults_list_size = widgets.listWidget_14.count()
+            for i in range(0, monitoring_faults_list_size):
                 # create a cell
-                line = widgets.listWidget_14.item(i).text()
-                pdf.cell(200, 10, txt=line, ln=5, align="L")
+                line_of_faults_list = widgets.listWidget_14.item(i).text()
+                pdf.cell(200, 10, txt=line_of_faults_list, ln=5, align="L")
 
-            lenMetricList = widgets.listWidget_12.count()
-            for i in range(0, lenMetricList):
+            monitoring_rosbag_scenarios_list_size = widgets.listWidget_12.count()
+            for i in range(0, monitoring_rosbag_scenarios_list_size):
                 # create a cell
-                line = widgets.listWidget_12.item(i).text()
-                pdf.cell(200, 10, txt=line, ln=6, align="L")
+                line_of_rosbag_scenarios_list = widgets.listWidget_12.item(i).text()
+                pdf.cell(200, 10, txt=line_of_rosbag_scenarios_list, ln=6, align="L")
 
             # # save the pdf with name .pdf
             pdf.output("V&V_Report_by_IM-FIT.pdf")
             widgets.label_77.setText("V&V Report is Created")
-
-        if btnName == "btn_apply_yaml":
-            applied_mutation_list_count = widgets.listWidget_25.count()
-            if applied_mutation_list_count > 0:
-                widgets.listWidget_25.clear()
-            if widgets.checkBox_10.isChecked() == True:
-                if file_type == "yaml":
-
-                    def mutate_all_value(yaml_value):
-                        """Define the data to apply mutation testing for yaml files"""
-                        len_yaml_value_list = len(yaml_value)
-
-                        for i in range(0, len_yaml_value_list):
-                            if type(yaml_value[i]) == str:
-                                yaml_value[i] = "MUTANT"
-                            elif type(yaml_value[0]) == int:
-                                yaml_value[0] = 310911711697110116
-                            elif type(yaml_value[0]) == float:
-                                yaml_value[0] = 0.310911711697110116
-                            elif type(yaml_value[0]) == bool:
-                                if yaml_value[0] == False:
-                                    yaml_value[0] = True
-                                else:
-                                    yaml_value[0] = False
-                            else:
-                                yaml_value[0]
-                        return yaml_value
-
-                    content_list_length = widgets.listWidget_24.count()
-                    for i in range(0, content_list_length):
-                        row_info = widgets.listWidget_24.item(i).text()
-                        yaml_data_line = yaml.full_load(row_info)
-                        if row_info == "":
-                            pass
-                        else:
-                            try:
-                                dict_values = yaml_data_line.values()
-                                dict_values = list(dict_values)
-
-                                dict_keys = yaml_data_line.keys()
-                                dict_keys = list(dict_keys)
-
-                                zipped = zip(dict_keys, mutate_all_value(dict_values))
-
-                                zipped_list = dict(zipped)
-
-                                dict_yaml = yaml.dump(zipped_list)
-                                # print(dict_yaml)
-
-                                split_dict_yaml = dict_yaml.split("\n")
-                                mutated_yaml_data = split_dict_yaml[0]
-                                split_data = mutated_yaml_data.split("\n")
-
-                                widgets.listWidget_25.addItems(split_data)
-
-                            except:
-                                AttributeError()
-
-                elif file_type == "launch":
-                    key_list = [
-                        "name",
-                        "pkg",
-                        "type",
-                        "args",
-                        "default",
-                        "file",
-                        "respawn",
-                        "output",
-                        "command",
-                        "ns",
-                        "from",
-                        "to",
-                        "if",
-                        "group",
-                    ]
-
-                    def mutate_all_keys(key_data_list):
-                        """Mutation testing applies to  the all possible nodes"""
-                        tree = ET.parse("ornek_launch.launch")
-                        root = tree.getroot()
-                        lenroot = len(root)
-                        for i in range(0, lenroot):
-                            dictof = root[i].attrib
-                            for key in key_data_list:
-                                if key in dictof:
-                                    dictof[key] = "mutated_data"
-                                    split_data = str(dictof).split("\n")
-                                    widgets.listWidget_25.addItems(split_data)
-
-                    mutate_all_keys(key_list)
-
-                elif file_type == "msg" or "srv":
-                    content_list_length = widgets.listWidget_24.count()
-                    data_types_list = ["string", "float32", "int8", "uint32", "int32"]
-
-                    for i in range(0, content_list_length):
-                        SRV_CODE = widgets.listWidget_24.item(i).text()
-                        for i in data_types_list:
-                            result = re.findall(i, SRV_CODE)
-                            if result != []:
-                                for j in data_types_list:
-                                    if result[0] != j:
-                                        MUTATED_SRV_CODE = SRV_CODE.replace(
-                                            result[0], j
-                                        )
-                                        split_data = MUTATED_SRV_CODE.split("\n")
-                                        widgets.listWidget_25.addItems(split_data)
-                else:
-                    pas
-
-            else:
-                if file_type == "yaml":
-
-                    def mutate_all_value(yaml_value, secim):
-                        """Define the data to apply mutation testing for yaml files"""
-                        old_value = yaml_value
-
-                        if (
-                            type(yaml_value[0]) == str
-                            and secim == "YAML String Mutator"
-                        ):
-                            yaml_value[0] = "MUTANT"
-
-                        elif (
-                            type(yaml_value[0]) == int
-                            and secim == "YAML Integer Mutator"
-                        ):
-                            yaml_value[0] = 310911711697110116
-
-                        elif (
-                            type(yaml_value[0]) == float
-                            and secim == "YAML Float Mutator"
-                        ):
-                            yaml_value[0] = 0.310911711697110116
-
-                        elif (
-                            type(yaml_value[0]) == bool
-                            and secim == "YAML Boolean Mutator"
-                        ):
-                            if yaml_value[0] == False:
-                                yaml_value[0] = True
-                            else:
-                                yaml_value[0] = False
-                        else:
-                            yaml_value[0]
-
-                        return yaml_value
-
-                    def analyze_yaml_line(YAML_DOCUMENT, secim):
-                        try:
-                            yaml_data_line = yaml.full_load(YAML_DOCUMENT)
-
-                            dict_values = yaml_data_line.values()
-                            dict_values = list(dict_values)
-
-                            dict_keys = yaml_data_line.keys()
-                            dict_keys = list(dict_keys)
-
-                            zipped = zip(
-                                dict_keys, mutate_all_value(dict_values, secim)
-                            )
-
-                            zipped_list = dict(zipped)
-
-                            dict_yaml = yaml.dump(zipped_list)
-
-                            new_yaml = dict_yaml.split("\n")
-
-                            mutated_yaml_line = new_yaml[0]
-
-                            check_lines(YAML_DOCUMENT, mutated_yaml_line)
-                        except:
-                            pass
-
-                    def check_lines(YAML_DOCUMENT, mutated_yaml_line):
-                        if YAML_DOCUMENT != mutated_yaml_line:
-                            # Success mutation
-                            split_data = mutated_yaml_line.split("\n")
-                            widgets.listWidget_25.addItems(split_data)
-
-                    zipped_yaml_list_length = len(zipped_list_yaml)
-                    selected_list_length = widgets.listWidget_23.count()
-                    if zipped_yaml_list_length != 0 and selected_list_length != 0:
-                        for i in range(0, zipped_yaml_list_length):
-                            if i % 2 == 0:
-                                lineWithInfo = zipped_list_yaml[i]
-                            else:
-                                fault = zipped_list_yaml[i]
-                                analyze_yaml_line(lineWithInfo, fault)
-
-                if file_type == "srv":
-
-                    def analyze_srv_line(line, selected_fault):
-                        if selected_fault == "SRV - MSG string Mutator":
-                            target = "string"
-                            apply_srv_line_mutation(line, target)
-                        elif selected_fault == "SRV - MSG float32 Mutator":
-                            target = "float32"
-                            apply_srv_line_mutation(line, target)
-                        elif selected_fault == "SRV - MSG int8 Mutator":
-                            target = "int8"
-                            apply_srv_line_mutation(line, target)
-                        elif selected_fault == "SRV - MSG uint32 Mutator":
-                            target = "uint32"
-                            apply_srv_line_mutation(line, target)
-                        elif selected_fault == "SRV - MSG int32 Mutator":
-                            target = "int32"
-                            apply_srv_line_mutation(line, target)
-                        else:
-                            pass
-
-                    def apply_srv_line_mutation(line, target):
-                        SRV_CODE = line
-                        data_types_list = [
-                            "string",
-                            "float32",
-                            "int8",
-                            "uint32",
-                            "int32",
-                        ]
-                        for i in data_types_list:
-                            result = re.findall(i, SRV_CODE)
-                            if result != [] and result[0] != target:
-                                MUTATED_SRV_CODE = SRV_CODE.replace(result[0], target)
-                                # Success Mutation
-                                split_data = MUTATED_SRV_CODE.split("\n")
-                                widgets.listWidget_25.addItems(split_data)
-
-                    zipped_yaml_list_length = len(zipped_list_yaml)
-                    selected_list_length = widgets.listWidget_23.count()
-                    if zipped_yaml_list_length != 0 and selected_list_length != 0:
-                        for i in range(0, zipped_yaml_list_length):
-                            if i % 2 == 0:
-                                lineWithInfo = zipped_list_yaml[i]
-                            else:
-                                fault = zipped_list_yaml[i]
-                                analyze_srv_line(lineWithInfo, fault)
-
-        if btnName == "btn_remove_yaml":
-            pass
-
-        if btnName == "btn_save_yaml":
-            pass
 
     # RESIZE EVENTS
 
