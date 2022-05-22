@@ -27,9 +27,7 @@ from ui_main import Ui_MainWindow
 import IMFIT_functions
 import dbConnection
 
-import module_bir
-
-import module_uc
+import scan_process
 
 
 class MainWindow(QMainWindow):
@@ -1122,7 +1120,7 @@ class MainWindow(QMainWindow):
 
         # SCAN PAGE BUTTON CONNECTS
         widgets.btn_back_code.clicked.connect(self.buttonClick)
-        widgets.btn_scan_process.clicked.connect(self.scan_islemi)
+        widgets.btn_scan_process.clicked.connect(self.start_scan_process)
 
         # FI PLAN PAGE BUTTONS
         widgets.btn_random_fault.clicked.connect(random_hata_bas)
@@ -1186,9 +1184,6 @@ class MainWindow(QMainWindow):
             UIFunctions.selectMenu(widgets.btn_home.styleSheet())
         )
 
-    def cem_baba(self):
-        self.ui.titleRightInfo.setText(module_bir.cem_yazdir())
-
     def left_menu_execution_page(self):
         widgets.stackedWidget.setCurrentWidget(widgets.execution)
         UIFunctions.resetStyle(self, widgets.btn_execution)
@@ -1198,7 +1193,6 @@ class MainWindow(QMainWindow):
     def go_to_start_page(self):
         # connection = dbConnection.connect("VVToolDataBase","postgres","root")
         # connection.commit()
-
 
         self.ui.stackedWidget.setCurrentWidget(self.ui.start)
         UIFunctions.resetStyle(self, self.ui.btn_home.styleSheet())
@@ -1215,13 +1209,9 @@ class MainWindow(QMainWindow):
         # if db_connection_status is True:
         #     IMFIT_functions.insert_system(connection, name, description)
 
-    def mutasyon_uygula(self):
-        pass
 
-
-
-    # Scan Process
-    def scan_islemi(self):
+    # Scan Process Main Function
+    def start_scan_process(self):
         """ Start of scan process """
         check_detected_parts_list = widgets.listWidget_2.count()
         if check_detected_parts_list:
@@ -1246,22 +1236,23 @@ class MainWindow(QMainWindow):
             detected_part_list_size = self.ui.listWidget_2.count()
 
 
-            code_snippet_regex_code = module_uc.open_code_snip()
+            code_snippet_regex_code = scan_process.open_code_snip()
 
             workload_text = self.ui.textEdit_22.toPlainText()
             workload_data = json.loads(workload_text)
 
-            workload_function_name_list = module_uc.take_workload_yes_wl_yes_cs(workload_data)
+            workload_function_name_list = scan_process.take_workload_yes_wl_yes_cs(workload_data)
 
-            painted_lines = module_uc.workload_lines(split_text, workload_function_name_list)
+            painted_lines = scan_process.workload_lines(split_text, workload_function_name_list)
             self.paint_workload_lines(painted_lines)
             added_snippet_regex_length, code_snippet_data_list = self.find_selected_code_snippet(selected_code_snippet_length, code_snippet_regex_code)
-            patterns = module_uc.find_patterns_yes_wl_yes_cs(added_snippet_regex_length, code_snippet_data_list)
+            patterns = scan_process.find_patterns_yes_wl_yes_cs(added_snippet_regex_length, code_snippet_data_list)
             source_code_list = self.take_source_code()
-            faultable_line_list, faultable_line_number_list = module_uc.scan_yes_wl_yes_cs(patterns, source_code_list, painted_lines)
+            faultable_line_list, faultable_line_number_list = scan_process.scan_yes_wl_yes_cs(patterns, source_code_list, painted_lines)
             self.paint_sky_blue(faultable_line_number_list)
             self.add_fi_plan(faultable_line_list)
 
+    # Function takes source code to use on IM-FIT
     def take_source_code(self):
         """ Take Source Code from UI """
         source_code_list = []
@@ -1269,7 +1260,9 @@ class MainWindow(QMainWindow):
         source_code_list = source_code.split("\n")
 
         return source_code_list
-    
+
+    # Function paints workload covered and
+    # selected code snippets lines to show to the user on UI
     def paint_sky_blue(self,faultable_line_number_list):
         """ In "Yes Workload, Yes Workload" Process, 
         this function paints the detected parts of code as sky blue """
@@ -1278,7 +1271,7 @@ class MainWindow(QMainWindow):
                 QtGui.QColor(0, 128, 255)
             )  # Colored as sky blue
 
-    # Bu fonksiyon main.py içerisinden çağrılacak
+    # Function paints workload covered lines to show to the user on UI
     def paint_workload_lines(self,painted_lines):
         """ In "Yes Workload, Yes Workload" Process, 
         this function paints the detected parts of workload as purple """
@@ -1289,7 +1282,7 @@ class MainWindow(QMainWindow):
                 QtGui.QColor(102, 0, 102)
             )  # Colored as purple
 
-    # Bu fonksiyon main.py içerisinde yer alacak
+    # Function finds selected code snippets by the user in source code
     def find_selected_code_snippet(self,selected_code_snippet_length, code_snippet_regex_code):
         """ Selected code snippets by the user are finded by IM-FIT """
         code_snippet_data_list = []
@@ -1301,7 +1294,7 @@ class MainWindow(QMainWindow):
             )
         return added_snippet_regex_length, code_snippet_data_list
 
-    # main.py içerisinde yer alacak
+    # Function adds the faultable lines to FI Plan page
     def add_fi_plan(self,faultable_line_list):
         for painted_line in faultable_line_list:
             strip_painted_line = painted_line.strip()
