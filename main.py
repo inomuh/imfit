@@ -1141,7 +1141,7 @@ class MainWindow(QMainWindow):
         # MONITORING PAGE BUTTONS
         widgets.btn_select_scenario.clicked.connect(get_file_rosbag)
         widgets.btn_run_scenario.clicked.connect(self.buttonClick)
-        widgets.btn_create_report.clicked.connect(self.buttonClick)
+        widgets.btn_create_report.clicked.connect(self.create_v_and_v_report)
 
         # CREATE WORKLOAD PAGE BUTTONS
         widgets.btn_changeDir.clicked.connect(self.buttonClick)
@@ -1208,49 +1208,64 @@ class MainWindow(QMainWindow):
 
         # if db_connection_status is True:
         #     IMFIT_functions.insert_system(connection, name, description)
+    def take_split_source_code(self):
+        pure_source_code_content = self.ui.textEdit_4.toPlainText()
+        split_text = pure_source_code_content.split("\n")
+        self.ui.listWidget_2.addItems(split_text)
+        
+        return split_text
 
-
-    # Scan Process Main Function
+    # Yes Workload, Yes Code Snippet Scan Process Main Function
     def start_scan_process(self):
         """ Start of scan process """
         check_detected_parts_list = widgets.listWidget_2.count()
+
+        # widgets.listWidget_2.add
         if check_detected_parts_list:
             widgets.listWidget_2.clear()
 
         scan_page_source_code_check = widgets.textEdit_4.toPlainText()
 
         if scan_page_source_code_check:
+            split_text = self.take_split_source_code
+            
 
             is_empty_workload = len(widgets.textEdit_22.toPlainText())
             selected_code_snippet_length = widgets.listWidget_17.count()
 
-            # Progress Bar
-            # for i in range(100):
-            # 	time.sleep(0.01)
-            # 	widgets.progressBar_2.setValue(i+1)
+            if (
+                is_empty_workload == 0 and selected_code_snippet_length == 0
+            ):
+                self.start_no_workload_no_code_snippet_process()
+            else:
+                # Source code divided
+                detected_part_list_size = self.ui.listWidget_2.count()
 
-            # Source code divided
-            pure_source_code_content = self.ui.textEdit_4.toPlainText()
-            split_text = pure_source_code_content.split("\n")
-            self.ui.listWidget_2.addItems(split_text)
-            detected_part_list_size = self.ui.listWidget_2.count()
+                code_snippet_regex_code = scan_process.open_code_snip()
 
+                workload_text = self.ui.textEdit_22.toPlainText()
+                workload_data = json.loads(workload_text)
 
-            code_snippet_regex_code = scan_process.open_code_snip()
+                workload_function_name_list = scan_process.take_workload_yes_wl_yes_cs(workload_data)
 
-            workload_text = self.ui.textEdit_22.toPlainText()
-            workload_data = json.loads(workload_text)
+                painted_lines = scan_process.workload_lines(split_text, workload_function_name_list)
+                added_snippet_regex_length, code_snippet_data_list = self.find_selected_code_snippet(selected_code_snippet_length, code_snippet_regex_code)
+                patterns = scan_process.find_patterns_yes_wl_yes_cs(added_snippet_regex_length, code_snippet_data_list)
+                source_code_list = self.take_source_code()
+                faultable_line_list, faultable_line_number_list = scan_process.scan_yes_wl_yes_cs(patterns, source_code_list, painted_lines)
+                
+                self.scan_process_progress_bar()
+                self.paint_workload_lines(painted_lines)
+                self.paint_sky_blue(faultable_line_number_list)
+                self.add_fi_plan(faultable_line_list)
 
-            workload_function_name_list = scan_process.take_workload_yes_wl_yes_cs(workload_data)
-
-            painted_lines = scan_process.workload_lines(split_text, workload_function_name_list)
-            self.paint_workload_lines(painted_lines)
-            added_snippet_regex_length, code_snippet_data_list = self.find_selected_code_snippet(selected_code_snippet_length, code_snippet_regex_code)
-            patterns = scan_process.find_patterns_yes_wl_yes_cs(added_snippet_regex_length, code_snippet_data_list)
-            source_code_list = self.take_source_code()
-            faultable_line_list, faultable_line_number_list = scan_process.scan_yes_wl_yes_cs(patterns, source_code_list, painted_lines)
-            self.paint_sky_blue(faultable_line_number_list)
-            self.add_fi_plan(faultable_line_list)
+            
+    # Progress bar on scan page
+    def scan_process_progress_bar(self):
+        """ Progress Bar """
+        for i in range(100):
+            time.sleep(0.01)
+            widgets.progressBar_2.setValue(i+1)
 
     # Function takes source code to use on IM-FIT
     def take_source_code(self):
@@ -1300,6 +1315,83 @@ class MainWindow(QMainWindow):
             strip_painted_line = painted_line.strip()
             self.ui.listWidget.addItem(strip_painted_line)
 
+    def start_no_workload_no_code_snippet_process(self):
+        code_snippet_regex_code_list = scan_process.no_wl_no_cs_prepare_code_snippet()
+        source_code_list = self.take_source_code()
+        faultable_line_number_list, faultable_line_list = scan_process.no_wl_no_cs_find_target_line(source_code_list, code_snippet_regex_code_list)
+        self.paint_sky_blue(faultable_line_number_list)
+        self.add_fi_plan(faultable_line_list)
+
+    def start_yes_workload_no_code_snippet_process(self):
+        split_text = self.take_split_source_code
+        workload_text = widgets.textEdit_22.toPlainText()
+        workload_data = json.loads(workload_text)
+
+        workload_test_yes_workload_no_snippet(workload_data, split_text)
+
+
+    def create_v_and_v_report(self):
+        # save FPDF() class into a
+        # variable pdf
+        pdf = FPDF()
+
+        # Add a page
+        pdf.add_page()
+
+        # set style and size of font
+        # that you want in the pdf
+        pdf.set_font("Arial", size=9)
+
+        v_and_v_report_introduction = """
+        The V&V Report Created by IM-FIT
+        This reports shows information about AST Diagram of Source Codes, Fault List, Metric List, Rosbag Scenarios, etc.
+        Therefore the user can learn about its source codes.
+        
+        IM-FIT
+        """
+        pdf.cell(200, 10, txt=v_and_v_report_introduction, ln=1, align="C")
+
+
+        monitoring_ast_diagram = widgets.textEdit_23.toPlainText()
+        pdf.cell(200, 10, txt=monitoring_ast_diagram, ln=1, align="L")
+
+        monitoring_metric_list_size = widgets.listWidget_9.count()
+        for i in range(0, monitoring_metric_list_size):
+            # create a cell
+            line_of_metric_list = widgets.listWidget_9.item(i).text()
+            pdf.cell(200, 10, txt=line_of_metric_list, ln=2, align="L")
+
+        monitoring_mutant_list_size = widgets.listWidget_16.count()
+        for i in range(0, monitoring_mutant_list_size):
+            # create a cell
+            line_of_mutant_list = widgets.listWidget_16.item(i).text()
+            pdf.cell(200, 10, txt=line_of_mutant_list, ln=3, align="L")
+
+        monitoring_killed_mutants_output_list_size = widgets.listWidget_19.count()
+        for i in range(0, monitoring_killed_mutants_output_list_size):
+            # create a cell
+            line_of_killed_mutants_output_list = widgets.listWidget_19.item(
+                i
+            ).text()
+            pdf.cell(
+                200, 10, txt=line_of_killed_mutants_output_list, ln=4, align="L"
+            )
+
+        monitoring_faults_list_size = widgets.listWidget_14.count()
+        for i in range(0, monitoring_faults_list_size):
+            # create a cell
+            line_of_faults_list = widgets.listWidget_14.item(i).text()
+            pdf.cell(200, 10, txt=line_of_faults_list, ln=5, align="L")
+
+        monitoring_rosbag_scenarios_list_size = widgets.listWidget_12.count()
+        for i in range(0, monitoring_rosbag_scenarios_list_size):
+            # create a cell
+            line_of_rosbag_scenarios_list = widgets.listWidget_12.item(i).text()
+            pdf.cell(200, 10, txt=line_of_rosbag_scenarios_list, ln=6, align="L")
+
+        # # save the pdf with name .pdf
+        pdf.output("V&V_Report_by_IM-FIT.pdf")
+        widgets.label_77.setText("V&V Report is Created")
 
 
 
@@ -3436,70 +3528,10 @@ class MainWindow(QMainWindow):
         if btnName == "btn_run_scenario":
             print("Run The Scenario")
 
-        if btnName == "btn_create_report":
+        
+            
 
-            # save FPDF() class into a
-            # variable pdf
-            pdf = FPDF()
-
-            # Add a page
-            pdf.add_page()
-
-            # set style and size of font
-            # that you want in the pdf
-            pdf.set_font("Arial", size=9)
-
-            v_and_v_report_introduction = """
-            The V&V Report Created by IM-FIT
-            This reports shows information about AST Diagram of Source Codes, Fault List, Metric List, Rosbag Scenarios, etc.
-            Therefore the user can learn about its source codes.
-            IM-FIT
-            """
-            pdf.cell(200, 10, txt=v_and_v_report_introduction, ln=1, align="C")
-
-            # contents
-            # ast diagram
-            monitoring_ast_diagram = widgets.textEdit_23.toPlainText()
-            pdf.cell(200, 10, txt=monitoring_ast_diagram, ln=1, align="L")
-
-            monitoring_metric_list_size = widgets.listWidget_9.count()
-            for i in range(0, monitoring_metric_list_size):
-                # create a cell
-                line_of_metric_list = widgets.listWidget_9.item(i).text()
-                pdf.cell(200, 10, txt=line_of_metric_list, ln=2, align="L")
-
-            monitoring_mutant_list_size = widgets.listWidget_16.count()
-            for i in range(0, monitoring_mutant_list_size):
-                # create a cell
-                line_of_mutant_list = widgets.listWidget_16.item(i).text()
-                pdf.cell(200, 10, txt=line_of_mutant_list, ln=3, align="L")
-
-            monitoring_killed_mutants_output_list_size = widgets.listWidget_19.count()
-            for i in range(0, monitoring_killed_mutants_output_list_size):
-                # create a cell
-                line_of_killed_mutants_output_list = widgets.listWidget_19.item(
-                    i
-                ).text()
-                pdf.cell(
-                    200, 10, txt=line_of_killed_mutants_output_list, ln=4, align="L"
-                )
-
-            monitoring_faults_list_size = widgets.listWidget_14.count()
-            for i in range(0, monitoring_faults_list_size):
-                # create a cell
-                line_of_faults_list = widgets.listWidget_14.item(i).text()
-                pdf.cell(200, 10, txt=line_of_faults_list, ln=5, align="L")
-
-            monitoring_rosbag_scenarios_list_size = widgets.listWidget_12.count()
-            for i in range(0, monitoring_rosbag_scenarios_list_size):
-                # create a cell
-                line_of_rosbag_scenarios_list = widgets.listWidget_12.item(i).text()
-                pdf.cell(200, 10, txt=line_of_rosbag_scenarios_list, ln=6, align="L")
-
-            # # save the pdf with name .pdf
-            pdf.output("V&V_Report_by_IM-FIT.pdf")
-            widgets.label_77.setText("V&V Report is Created")
-
+    
     # RESIZE EVENTS
 
     def resizeEvent(self, event):
