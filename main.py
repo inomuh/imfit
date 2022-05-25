@@ -31,7 +31,8 @@ import scan_process
 
 
 class MainWindow(QMainWindow):
-    """ IM-FIT UI Window """
+    """IM-FIT UI Window"""
+
     widgets = None
 
     global RUN_ORDER_LIST_JUST_PATH
@@ -103,7 +104,7 @@ class MainWindow(QMainWindow):
                 # .py file is choosed by the user
                 if file_name[0].endswith(".py") or file_name[0].endswith(".txt"):
                     # file_name[0] is directory of file
-                    with open(file_name[0], mode = "r", encoding="utf-8") as json_file:
+                    with open(file_name[0], mode="r", encoding="utf-8") as json_file:
                         source_code_data = json_file.read()
                         # Source code directory is added to the text
                         widgets.source_code_directory_text.setPlainText(
@@ -120,7 +121,7 @@ class MainWindow(QMainWindow):
             if dialog.exec_():
                 file_name = dialog.selectedFiles()
                 if file_name[0].endswith(".py"):
-                    with open(file_name[0], mode = "r", encoding="utf-8") as json_file:
+                    with open(file_name[0], mode="r", encoding="utf-8") as json_file:
                         data = json_file.read()
                         widgets.test_case_directory_text.setPlainText(str(file_name[0]))
                         widgets.test_case_content.setPlainText(data)
@@ -135,7 +136,7 @@ class MainWindow(QMainWindow):
                 file_name = dialog.selectedFiles()
 
                 if file_name[0].endswith(".json"):
-                    with open(file_name[0], mode = "r", encoding = "utf-8") as file:
+                    with open(file_name[0], mode="r", encoding="utf-8") as file:
                         data = file.read()
                         widgets.textEdit_46.setPlainText(str(file_name[0]))
                         widgets.textEdit_3.setPlainText(data)
@@ -150,7 +151,7 @@ class MainWindow(QMainWindow):
                 file_name = dialog.selectedFiles()
 
                 if file_name[0].endswith(".json"):
-                    with open(file_name[0], mode = "r", encoding="utf-8") as file:
+                    with open(file_name[0], mode="r", encoding="utf-8") as file:
                         widgets.listWidget_11.addItem(str(file_name[0]))
 
         def get_file_json_for_workload():
@@ -162,7 +163,7 @@ class MainWindow(QMainWindow):
                 file_name = dialog.selectedFiles()
 
                 if file_name[0].endswith(".json"):
-                    with open(file_name[0], mode = "r", encoding="utf-8") as file:
+                    with open(file_name[0], mode="r", encoding="utf-8") as file:
                         data = file.read()
                         widgets.textEdit_3.setPlainText(data)
 
@@ -176,7 +177,7 @@ class MainWindow(QMainWindow):
                 file_name = dialog.selectedFiles()
 
                 if file_name[0].endswith(".bag"):
-                    with open(file_name[0], mode = "r", encoding="utf-8") as file:
+                    with open(file_name[0], mode="r", encoding="utf-8") as file:
                         data = file.read()
                         widgets.textEditor.setPlainText(data)
 
@@ -201,7 +202,9 @@ class MainWindow(QMainWindow):
             try:
                 clicked_item_text = widgets.code_snippet_list.currentItem().text()
 
-                with open("code_snippets.json", encoding = "utf-8") as code_snippets_from_json:
+                with open(
+                    "code_snippets.json", encoding="utf-8"
+                ) as code_snippets_from_json:
                     code_snippets_name_list = json.load(code_snippets_from_json)
 
                     added_snippet_regex_length = len(
@@ -296,7 +299,7 @@ class MainWindow(QMainWindow):
             try:
                 clicked_item_text = widgets.listWidget_3.currentItem().text()
 
-                with open("faultLibrary.json", encoding = "utf-8") as file:
+                with open("faultLibrary.json", encoding="utf-8") as file:
                     fault_list = json.load(file)
 
                 fault_list_size = widgets.listWidget_3.count()
@@ -330,7 +333,7 @@ class MainWindow(QMainWindow):
 
             # try:
             # Fault Lİbrary JSON is opened
-            with open("faultLibrary.json", encoding = "utf-8") as file:
+            with open("faultLibrary.json", encoding="utf-8") as file:
                 fault_list = json.load(file)
 
             for fault_number in range(start_json_value, finish_json_value):
@@ -377,13 +380,13 @@ class MainWindow(QMainWindow):
             #     message_box.exec()
 
         def fault_lib_size():
-            with open("faultLibrary.json", encoding = "utf-8") as file:
+            with open("faultLibrary.json", encoding="utf-8") as file:
                 fault_list = json.load(file)
             fault_library_size = len(fault_list["all_faults"])
             return fault_library_size
 
         def basla_func():
-            with open("faultLibrary.json", encoding = "utf-8") as file:
+            with open("faultLibrary.json", encoding="utf-8") as file:
                 fault_list = json.load(file)
             fault_library_size = fault_lib_size()
             if widgets.checkBox_4.isChecked() is True:
@@ -470,7 +473,9 @@ class MainWindow(QMainWindow):
                                     complete_name = os.path.join(
                                         working_directory, fname
                                     )
-                                    file1 = open(complete_name, mode = "w", encoding = "utf-8")
+                                    file1 = open(
+                                        complete_name, mode="w", encoding="utf-8"
+                                    )
                                     file1.write(new_data)
                                     file1.close()
 
@@ -532,7 +537,7 @@ class MainWindow(QMainWindow):
                             survived_counter = 0
 
                             fiplan_directory = widgets.listWidget_36.item(0).text()
-                            with open(fiplan_directory, encoding = "utf-8") as json_file:
+                            with open(fiplan_directory, encoding="utf-8") as json_file:
                                 fault_list = json.load(json_file)
 
                             for i in range(len(fault_list)):
@@ -543,7 +548,9 @@ class MainWindow(QMainWindow):
 
                                 ros_exe_file_name = fault_list[i]["Fault"]["Exe_File"]
 
-                                with open(directory, mode = "r", encoding = "utf-8") as file:
+                                with open(
+                                    directory, mode="r", encoding="utf-8"
+                                ) as file:
                                     python_file_content = file.read()
 
                                 source_code = fault_list[i]["Fault"]["Source_Code"]
@@ -553,7 +560,9 @@ class MainWindow(QMainWindow):
                                     source_code, mutant_code
                                 )
 
-                                with open(directory, mode = "w", encoding = "utf-8") as file:
+                                with open(
+                                    directory, mode="w", encoding="utf-8"
+                                ) as file:
                                     file.write(mutation_process)
 
                                 print("\n\n############")
@@ -592,7 +601,9 @@ class MainWindow(QMainWindow):
                                     print("\n\n")
                                     print("#" * 10)
 
-                                with open(directory, mode = "w", encoding = "utf-8") as file:
+                                with open(
+                                    directory, mode="w", encoding="utf-8"
+                                ) as file:
                                     file.write(python_file_content)
 
                             print("\n\n############")
@@ -627,7 +638,7 @@ class MainWindow(QMainWindow):
 
                                 fname = "original_code.py"
                                 data = source_code_text
-                                with open(fname, mode = "w", encoding = "utf-8") as file:
+                                with open(fname, mode="w", encoding="utf-8") as file:
                                     file.write(data)
 
                                 mutation_list_size = widgets.listWidget_4.count()
@@ -649,7 +660,9 @@ class MainWindow(QMainWindow):
 
                                 # Directory liste içerisinden alınmalı
                                 fiplan_directory = widgets.listWidget_6.item(0).text()
-                                with open(fiplan_directory, encoding = "utf-8") as json_file:
+                                with open(
+                                    fiplan_directory, encoding="utf-8"
+                                ) as json_file:
                                     fault_list = json.load(json_file)
 
                                 # with open("faultPlans.json") as file:
@@ -668,7 +681,9 @@ class MainWindow(QMainWindow):
                                     )
                                     fname = "fault" + str(i) + ".py"
                                     data = main_mutation_process
-                                    with open(fname, mode = "w", encoding = "utf-8") as file:
+                                    with open(
+                                        fname, mode="w", encoding="utf-8"
+                                    ) as file:
                                         file.write(data)
 
                                     print("\n\nFault Number: ", i)
@@ -910,7 +925,9 @@ class MainWindow(QMainWindow):
                                 survived_counter = 0
 
                                 fiplan_directory = widgets.listWidget_6.item(0).text()
-                                with open(fiplan_directory, encoding = "utf-8") as json_file:
+                                with open(
+                                    fiplan_directory, encoding="utf-8"
+                                ) as json_file:
                                     fault_list = json.load(json_file)
 
                                 for i in range(len(fault_list)):
@@ -923,7 +940,9 @@ class MainWindow(QMainWindow):
                                         "Exe_File"
                                     ]
 
-                                    with open(directory, mode = "r", encoding = "utf-8") as file:
+                                    with open(
+                                        directory, mode="r", encoding="utf-8"
+                                    ) as file:
                                         python_file_content = file.read()
 
                                     source_code = fault_list[i]["Fault"]["Source_Code"]
@@ -936,7 +955,9 @@ class MainWindow(QMainWindow):
                                         source_code, mutant_code
                                     )
 
-                                    with open(directory, mode = "w", encoding = "utf-8") as file:
+                                    with open(
+                                        directory, mode="w", encoding="utf-8"
+                                    ) as file:
                                         file.write(mutation_process)
 
                                     print("\n\n############")
@@ -974,7 +995,9 @@ class MainWindow(QMainWindow):
                                         print("\n\n")
                                         print("#" * 10)
 
-                                    with open(directory, mode = "w", encoding = "utf-8") as file:
+                                    with open(
+                                        directory, mode="w", encoding="utf-8"
+                                    ) as file:
                                         file.write(python_file_content)
 
                                 print("\n\n############")
@@ -1002,7 +1025,7 @@ class MainWindow(QMainWindow):
                 clicked_item_text = widgets.listWidget_18.currentItem().text()
                 selected_metric = widgets.listWidget_18.currentItem().text()
 
-                with open("metricList.json", encoding = "utf-8") as file:
+                with open("metricList.json", encoding="utf-8") as file:
                     fault_list = json.load(file)
 
                 metric_list_size = widgets.listWidget_18.count()
@@ -1208,16 +1231,17 @@ class MainWindow(QMainWindow):
 
         # if db_connection_status is True:
         #     IMFIT_functions.insert_system(connection, name, description)
+
     def take_split_source_code(self):
         pure_source_code_content = self.ui.textEdit_4.toPlainText()
         split_text = pure_source_code_content.split("\n")
         self.ui.listWidget_2.addItems(split_text)
-        
+
         return split_text
 
     # Yes Workload, Yes Code Snippet Scan Process Main Function
     def start_scan_process(self):
-        """ Start of scan process """
+        """Start of scan process"""
         check_detected_parts_list = widgets.listWidget_2.count()
 
         # widgets.listWidget_2.add
@@ -1227,49 +1251,62 @@ class MainWindow(QMainWindow):
         scan_page_source_code_check = widgets.textEdit_4.toPlainText()
 
         if scan_page_source_code_check:
-            split_text = self.take_split_source_code
-            
-
             is_empty_workload = len(widgets.textEdit_22.toPlainText())
             selected_code_snippet_length = widgets.listWidget_17.count()
 
-            if (
-                is_empty_workload == 0 and selected_code_snippet_length == 0
-            ):
+            if is_empty_workload == 0 and selected_code_snippet_length == 0:
                 self.start_no_workload_no_code_snippet_process()
+            elif is_empty_workload > 0 and selected_code_snippet_length == 0:
+                self.start_yes_workload_no_code_snippet_process()
+            elif is_empty_workload == 0 and selected_code_snippet_length > 0:
+                self.start_no_workload_yes_code_snippet_process()
             else:
-                # Source code divided
-                detected_part_list_size = self.ui.listWidget_2.count()
+                self.start_yes_workload_yes_code_snippet_process()
 
-                code_snippet_regex_code = scan_process.open_code_snip()
+    def start_yes_workload_yes_code_snippet_process(self):
+        """Yes Workload, Yes Code Snippet"""
+        detected_part_list_size = self.ui.listWidget_2.count()
+        selected_code_snippet_length = widgets.listWidget_17.count()
+        code_snippet_regex_code = scan_process.open_code_snip()
+        workload_text = self.ui.textEdit_22.toPlainText()
+        workload_data = json.loads(workload_text)
+        workload_function_name_list = scan_process.take_workload_name_list(
+            workload_data
+        )
+        split_text = self.take_split_source_code()
+        painted_lines = scan_process.workload_lines(
+            split_text, workload_function_name_list
+        )
+        (
+            added_snippet_regex_length,
+            code_snippet_data_list,
+        ) = self.find_selected_code_snippet(
+            selected_code_snippet_length, code_snippet_regex_code
+        )
+        patterns = scan_process.find_patterns_yes_wl_yes_cs(
+            added_snippet_regex_length, code_snippet_data_list
+        )
+        source_code_list = self.take_source_code()
+        (
+            faultable_line_list,
+            faultable_line_number_list,
+        ) = scan_process.scan_yes_wl_yes_cs(patterns, source_code_list, painted_lines)
 
-                workload_text = self.ui.textEdit_22.toPlainText()
-                workload_data = json.loads(workload_text)
+        self.scan_process_progress_bar()
+        self.paint_workload_lines(painted_lines)
+        self.paint_sky_blue(faultable_line_number_list)
+        self.add_fi_plan(faultable_line_list)
 
-                workload_function_name_list = scan_process.take_workload_yes_wl_yes_cs(workload_data)
-
-                painted_lines = scan_process.workload_lines(split_text, workload_function_name_list)
-                added_snippet_regex_length, code_snippet_data_list = self.find_selected_code_snippet(selected_code_snippet_length, code_snippet_regex_code)
-                patterns = scan_process.find_patterns_yes_wl_yes_cs(added_snippet_regex_length, code_snippet_data_list)
-                source_code_list = self.take_source_code()
-                faultable_line_list, faultable_line_number_list = scan_process.scan_yes_wl_yes_cs(patterns, source_code_list, painted_lines)
-                
-                self.scan_process_progress_bar()
-                self.paint_workload_lines(painted_lines)
-                self.paint_sky_blue(faultable_line_number_list)
-                self.add_fi_plan(faultable_line_list)
-
-            
     # Progress bar on scan page
     def scan_process_progress_bar(self):
-        """ Progress Bar """
+        """Progress Bar"""
         for i in range(100):
             time.sleep(0.01)
-            widgets.progressBar_2.setValue(i+1)
+            widgets.progressBar_2.setValue(i + 1)
 
     # Function takes source code to use on IM-FIT
     def take_source_code(self):
-        """ Take Source Code from UI """
+        """Take Source Code from UI"""
         source_code_list = []
         source_code = self.ui.textEdit_4.toPlainText()
         source_code_list = source_code.split("\n")
@@ -1278,57 +1315,105 @@ class MainWindow(QMainWindow):
 
     # Function paints workload covered and
     # selected code snippets lines to show to the user on UI
-    def paint_sky_blue(self,faultable_line_number_list):
-        """ In "Yes Workload, Yes Workload" Process, 
-        this function paints the detected parts of code as sky blue """
+    def paint_sky_blue(self, faultable_line_number_list):
+        """In "Yes Workload, Yes Workload" Process,
+        this function paints the detected parts of code as sky blue"""
         for i in faultable_line_number_list:
             widgets.listWidget_2.item(i).setBackground(
                 QtGui.QColor(0, 128, 255)
             )  # Colored as sky blue
 
     # Function paints workload covered lines to show to the user on UI
-    def paint_workload_lines(self,painted_lines):
-        """ In "Yes Workload, Yes Workload" Process, 
-        this function paints the detected parts of workload as purple """
+    def paint_workload_lines(self, painted_lines):
+        """In "Yes Workload, Yes Workload" Process,
+        this function paints the detected parts of workload as purple"""
         for number in painted_lines:
-            self.ui.listWidget_2.item(
-                number
-            ).setBackground(
+            self.ui.listWidget_2.item(number).setBackground(
                 QtGui.QColor(102, 0, 102)
             )  # Colored as purple
 
     # Function finds selected code snippets by the user in source code
-    def find_selected_code_snippet(self,selected_code_snippet_length, code_snippet_regex_code):
-        """ Selected code snippets by the user are finded by IM-FIT """
+    def find_selected_code_snippet(
+        self, selected_code_snippet_length, code_snippet_regex_code
+    ):
+        """Selected code snippets by the user are finded by IM-FIT"""
         code_snippet_data_list = []
         for i in range(selected_code_snippet_length):
             code_snippet_data = self.ui.listWidget_17.item(i).text()
             code_snippet_data_list.append(code_snippet_data)
-            added_snippet_regex_length = len(
-            code_snippet_regex_code["code_snippets"]
-            )
+            added_snippet_regex_length = len(code_snippet_regex_code["code_snippets"])
         return added_snippet_regex_length, code_snippet_data_list
 
     # Function adds the faultable lines to FI Plan page
-    def add_fi_plan(self,faultable_line_list):
+    def add_fi_plan(self, faultable_line_list):
         for painted_line in faultable_line_list:
             strip_painted_line = painted_line.strip()
             self.ui.listWidget.addItem(strip_painted_line)
 
     def start_no_workload_no_code_snippet_process(self):
-        code_snippet_regex_code_list = scan_process.no_wl_no_cs_prepare_code_snippet()
+        code_snippet_regex_code_list = scan_process.take_code_snippet_regex_code_list()
         source_code_list = self.take_source_code()
-        faultable_line_number_list, faultable_line_list = scan_process.no_wl_no_cs_find_target_line(source_code_list, code_snippet_regex_code_list)
+        (
+            faultable_line_number_list,
+            faultable_line_list,
+        ) = scan_process.no_wl_no_cs_find_target_line(
+            source_code_list, code_snippet_regex_code_list
+        )
+        self.take_split_source_code()
+        self.scan_process_progress_bar()
         self.paint_sky_blue(faultable_line_number_list)
         self.add_fi_plan(faultable_line_list)
 
     def start_yes_workload_no_code_snippet_process(self):
-        split_text = self.take_split_source_code
+        split_text = self.take_split_source_code()
         workload_text = widgets.textEdit_22.toPlainText()
         workload_data = json.loads(workload_text)
+        workload_function_name_list = scan_process.take_workload_name_list(
+            workload_data
+        )
+        painted_lines = scan_process.workload_lines(
+            split_text, workload_function_name_list
+        )
+        patterns = scan_process.take_code_snippet_regex_code_list()
+        (
+            faultable_line_list,
+            faultable_line_number_list,
+        ) = scan_process.yes_workload_no_snippet_target_line(
+            patterns, painted_lines, split_text
+        )
+        self.scan_process_progress_bar()
+        self.paint_workload_lines(painted_lines)
+        self.paint_sky_blue(faultable_line_number_list)
+        self.add_fi_plan(faultable_line_list)
 
-        workload_test_yes_workload_no_snippet(workload_data, split_text)
+    def take_code_snippet_no_workload_yes_code_snippet(self):
+        selected_code_snippet_length = widgets.listWidget_17.count()
+        code_snippet_data_list = []
+        for line_number in range(selected_code_snippet_length):  # code snippet list
+            line_from_code_snippet_list = widgets.listWidget_17.item(
+                line_number
+            ).text()  # code snippet list içerisindeki eleman
+            code_snippet_data_list.append(
+                line_from_code_snippet_list
+            )  # eleman listeye eklendi
+        return code_snippet_data_list
 
+    def start_no_workload_yes_code_snippet_process(self):
+        detected_part_list_size = self.ui.listWidget_2.count()
+        code_snippet_data_list = self.take_code_snippet_no_workload_yes_code_snippet()
+        patterns = scan_process.define_code_snippet_no_workload_yes_code_snippet(
+            code_snippet_data_list
+        )
+        split_text = self.take_split_source_code()
+        (
+            faultable_line_list,
+            faultable_line_number_list,
+        ) = scan_process.find_target_no_workload_yes_code_snippet(
+            detected_part_list_size, split_text, patterns
+        )
+        self.scan_process_progress_bar()
+        self.paint_sky_blue(faultable_line_number_list)
+        self.add_fi_plan(faultable_line_list)
 
     def create_v_and_v_report(self):
         # save FPDF() class into a
@@ -1351,7 +1436,6 @@ class MainWindow(QMainWindow):
         """
         pdf.cell(200, 10, txt=v_and_v_report_introduction, ln=1, align="C")
 
-
         monitoring_ast_diagram = widgets.textEdit_23.toPlainText()
         pdf.cell(200, 10, txt=monitoring_ast_diagram, ln=1, align="L")
 
@@ -1370,12 +1454,8 @@ class MainWindow(QMainWindow):
         monitoring_killed_mutants_output_list_size = widgets.listWidget_19.count()
         for i in range(0, monitoring_killed_mutants_output_list_size):
             # create a cell
-            line_of_killed_mutants_output_list = widgets.listWidget_19.item(
-                i
-            ).text()
-            pdf.cell(
-                200, 10, txt=line_of_killed_mutants_output_list, ln=4, align="L"
-            )
+            line_of_killed_mutants_output_list = widgets.listWidget_19.item(i).text()
+            pdf.cell(200, 10, txt=line_of_killed_mutants_output_list, ln=4, align="L")
 
         monitoring_faults_list_size = widgets.listWidget_14.count()
         for i in range(0, monitoring_faults_list_size):
@@ -1392,8 +1472,6 @@ class MainWindow(QMainWindow):
         # # save the pdf with name .pdf
         pdf.output("V&V_Report_by_IM-FIT.pdf")
         widgets.label_77.setText("V&V Report is Created")
-
-
 
     # BUTTONS CLICK FUNCTIONS
 
@@ -1596,7 +1674,7 @@ class MainWindow(QMainWindow):
                 file_name = dialog.selectedFiles()
 
                 if file_name[0].endswith(".json"):
-                    with open(file_name[0], mode = "r", encoding = "utf-8") as file:
+                    with open(file_name[0], mode="r", encoding="utf-8") as file:
                         data = file.read()
                         widgets.textEdit_24.setPlainText(data)
                         code_snippets_list_json = json.loads(data)
@@ -1618,7 +1696,7 @@ class MainWindow(QMainWindow):
                 + "\n"
                 + widgets.test_case_content.toPlainText()
             )
-            with open("test_code.py", mode = "w+", encoding = "utf-8") as file:
+            with open("test_code.py", mode="w+", encoding="utf-8") as file:
                 file.write(test_code_for_test_case)
 
             output = subprocess.getstatusoutput("pytest test_code.py")
@@ -1636,7 +1714,7 @@ class MainWindow(QMainWindow):
                 file_name = dialog.selectedFiles()
                 if file_name[0].endswith(".py") or file_name[0].endswith(".launch"):
 
-                    with open(file_name[0], mode = "r", encoding = "utf-8") as file:
+                    with open(file_name[0], mode="r", encoding="utf-8") as file:
                         data = file.read()
                         widgets.textEdit_21.setPlainText(file_name[0])
                         widgets.textEdit_40.setPlainText(data)
@@ -1661,7 +1739,7 @@ class MainWindow(QMainWindow):
                 file_name = dialog.selectedFiles()
                 if file_name[0].endswith(".json"):  # .json file is choosed by the user
                     with open(
-                        file_name[0], mode = "r", encoding = "utf-8"
+                        file_name[0], mode="r", encoding="utf-8"
                     ) as file:  # file_name[0] is directory of file
                         workload_content_data = file.read()
                         widgets.textEdit_44.setPlainText(
@@ -1677,7 +1755,7 @@ class MainWindow(QMainWindow):
             full_path = os.path.join(path_name, text)
             created_workload_content = widgets.plainTextEdit_2.toPlainText()
 
-            with open(full_path, mode = "w", encoding = "utf-8") as file:
+            with open(full_path, mode="w", encoding="utf-8") as file:
                 file.write(created_workload_content)
 
         if btnName == "btn_take_tasks":
@@ -1689,14 +1767,18 @@ class MainWindow(QMainWindow):
                 if all_task_list_size == 0:
 
                     for i in range(0, len(json_loaded_task["Tasks"])):
-                        workload_task = str(json_loaded_task["Tasks"][i]["Task"]["Task_ID"])
+                        workload_task = str(
+                            json_loaded_task["Tasks"][i]["Task"]["Task_ID"]
+                        )
                         split_workload_task = workload_task.split("\n")
                         widgets.listWidget_21.addItems(split_workload_task)
                 else:
                     widgets.listWidget_21.clear()
 
                     for i in range(0, len(json_loaded_task["Tasks"])):
-                        workload_task = str(json_loaded_task["Tasks"][i]["Task"]["Task_ID"])
+                        workload_task = str(
+                            json_loaded_task["Tasks"][i]["Task"]["Task_ID"]
+                        )
                         split_workload_task = workload_task.split("\n")
                         widgets.listWidget_21.addItems(split_workload_task)
             except:
@@ -1749,7 +1831,7 @@ class MainWindow(QMainWindow):
                             for i in task_detail:
                                 all_selected_snippets += i
 
-                json_file = open(task_path_and_name, mode = "w", encoding = "utf-8")
+                json_file = open(task_path_and_name, mode="w", encoding="utf-8")
                 json_file.write(all_selected_snippets)
                 json_file.close()
 
@@ -1823,7 +1905,9 @@ class MainWindow(QMainWindow):
                                     full_path = os.path.join(
                                         desired_dir, ros_fiplan_name
                                     )
-                                    with open(full_path, mode = "w", encoding = "utf-8") as file:
+                                    with open(
+                                        full_path, mode="w", encoding="utf-8"
+                                    ) as file:
                                         # file_data["fault_plans"].append(created_fault)
                                         # file.seek(0)
                                         json_string = json.dumps(new_data, indent=4)
@@ -2088,7 +2172,7 @@ class MainWindow(QMainWindow):
                 file_name = dialog.selectedFiles()
                 if file_name[0].endswith(".py") or file_name[0].endswith(".launch"):
 
-                    with open(file_name[0], mode = "r", encoding = "utf-8") as file:
+                    with open(file_name[0], mode="r", encoding="utf-8") as file:
                         data = file.read()
 
                         directory_split = file_name[0].split("/")
@@ -2154,7 +2238,9 @@ class MainWindow(QMainWindow):
                         ZIPPED_ROS_LIST.append(selected_line)
                         ZIPPED_ROS_LIST.append(selected_fault)
 
-                        selected_line_and_fault = selected_line_text + selected_fault_text
+                        selected_line_and_fault = (
+                            selected_line_text + selected_fault_text
+                        )
 
                         line_and_fault = selected_line_and_fault.split("\n")
 
@@ -2215,7 +2301,7 @@ class MainWindow(QMainWindow):
                     or file_name[0].endswith(".test")
                 ):
 
-                    with open(file_name[0], mode = "r", encoding = "utf-8") as file:
+                    with open(file_name[0], mode="r", encoding="utf-8") as file:
                         data = file.read()
                         widgets.textEdit_43.setPlainText(file_name[0])
                         widgets.textEdit_12.setPlainText(data)
@@ -2270,7 +2356,7 @@ class MainWindow(QMainWindow):
                         # Clear the list for the new file
                         widgets.listWidget_10.clear()
 
-                    with open(file_name[0], mode = "r", encoding = "utf-8") as file:
+                    with open(file_name[0], mode="r", encoding="utf-8") as file:
                         data = file.read()
                         widgets.textEdit_20.setPlainText(file_name[0])
                         ROS_SOURCE_CODE = data
@@ -2431,7 +2517,9 @@ class MainWindow(QMainWindow):
 
                     else:
                         for i in python_files_list:
-                            x_file = open(os.path.join(konum, i), mode = "r", encoding = "utf-8")
+                            x_file = open(
+                                os.path.join(konum, i), mode="r", encoding="utf-8"
+                            )
 
                             pure_file_content = x_file.read()
 
@@ -2934,7 +3022,7 @@ class MainWindow(QMainWindow):
                     }
                 }
 
-                with open("code_snippets.json", mode = "r+", encoding = "utf-8") as file:
+                with open("code_snippets.json", mode="r+", encoding="utf-8") as file:
                     # First we load existing data into a dict.
                     file_data = json.load(file)
                     # Join new_data with file_data inside emp_details
@@ -2955,10 +3043,12 @@ class MainWindow(QMainWindow):
 
                 created_code_snippets = widgets.textEdit_25.toPlainText()
 
-                with open(code_snippet_path_and_name, mode = "w", encoding = "utf-8") as file:
+                with open(
+                    code_snippet_path_and_name, mode="w", encoding="utf-8"
+                ) as file:
                     file.write(created_code_snippets)
 
-                with open("customSnippets.json", mode = "w", encoding = "utf-8") as file:
+                with open("customSnippets.json", mode="w", encoding="utf-8") as file:
                     file.write(created_code_snippets)
 
                 widgets.label_60.setText("SAVED!")
@@ -2991,330 +3081,6 @@ class MainWindow(QMainWindow):
         code_snippet_regex_code_list = []
         painted_line_for_mutation = []
         faultable_line_list = []
-
-        if btnName == "btn_scan_process":
-
-            if widgets.checkBox_2.isChecked() is True:
-
-                check_detected_parts_list = widgets.listWidget_2.count()
-
-                if check_detected_parts_list:
-                    widgets.listWidget_2.clear()
-
-                scan_page_source_code_check = widgets.textEdit_4.toPlainText()
-
-                if scan_page_source_code_check:
-
-                    is_empty_workload = len(widgets.textEdit_22.toPlainText())
-                    selected_code_snippet_length = widgets.listWidget_17.count()
-
-                    # Progress Bar
-                    # for i in range(100):
-                    # 	time.sleep(0.01)
-                    # 	widgets.progressBar_2.setValue(i+1)
-
-                    # Source code divided
-                    pure_source_code_content = widgets.textEdit_4.toPlainText()
-                    split_text = pure_source_code_content.split("\n")
-                    widgets.listWidget_2.addItems(split_text)
-                    detected_part_list_size = widgets.listWidget_2.count()
-
-                    # İlgili json dosyaları açılır
-                    with open("code_snippets.json", encoding = "utf-8") as code_snippets_from_json:
-                        code_snippet_regex_code = json.load(code_snippets_from_json)
-
-                    if (
-                        is_empty_workload == 0 and selected_code_snippet_length == 0
-                    ):  # Tüm kodları kod parçalarına göre tarar (wL ve CS yok)
-                        print("Workload yok, CS yok")
-                        added_snippet_regex_length = len(
-                            code_snippet_regex_code["code_snippets"]
-                        )
-                        for i in range(0, added_snippet_regex_length):
-                            added_snippet_regex = code_snippet_regex_code["code_snippets"][
-                                i
-                            ]["Snippets"]["Regex_Code"]
-                            code_snippet_regex_code_list.append(added_snippet_regex)
-
-                        for line_number in range(detected_part_list_size):  # satır sayısı
-                            line = widgets.listWidget_2.item(
-                                line_number
-                            ).text()  # satırdaki text verisi
-                            find_function = re.findall("def:*", line)
-                            find_class = re.findall("class:*", line)
-                            find_import = re.findall("import", line)
-                            find_comment = re.findall("#", line)
-                            if (
-                                find_function
-                                or find_class
-                                or find_import
-                                or find_comment
-                            ):
-                                continue
-                            else:
-                                for regex_pattern in code_snippet_regex_code_list:
-                                    is_exist = re.findall(
-                                        regex_pattern, line
-                                    )  # regex ile satırda code snippet var mı kontrolü yapıldı
-                                    if (
-                                        is_exist
-                                    ):  # eğer satır içerisinde code snippet varsa tetiklenir
-                                        widgets.listWidget_2.item(
-                                            line_number
-                                        ).setBackground(
-                                            QtGui.QColor(102, 0, 102)
-                                        )  # Mor renk olarak boyanır
-                                        painted_line_for_mutation = widgets.listWidget_2.item(
-                                            line_number
-                                        ).text()  # Mutasyon işleminde kullanmak için listeye ekledi
-                                        faultable_line_list.append(
-                                            painted_line_for_mutation
-                                        )
-
-                        for painted_line in faultable_line_list:
-                            strip_painted_line = painted_line.strip()
-                            widgets.listWidget.addItem(strip_painted_line)
-
-                    elif (
-                        is_empty_workload > 0 and selected_code_snippet_length == 0
-                    ):  # kodlar wL göre taranıp, bütün kod snippetları tespit edilir
-                        # (workload var, CS yok )
-
-                        print("Workload var, CS yok!")
-                        workload_text = widgets.textEdit_22.toPlainText()
-                        workload_data = json.loads(workload_text)
-
-                        try:
-                            for i in range(0, len(workload_data["Tasks"])):
-                                fonksiyon_adi = workload_data["Tasks"][i]["Task"][
-                                    "Task_ID"
-                                ]
-                                fonksiyon_ara = "def " + fonksiyon_adi
-                                workload_function_name_list.append(fonksiyon_ara)
-
-                        except:
-                            print("Workload Build Error!")  # Hata mesaj kutusu çıkacak
-
-                        for number, line in enumerate(split_text):
-                            for function_name_from_workload in workload_function_name_list:
-                                is_function_in_sentence = re.findall(
-                                    function_name_from_workload, line
-                                )  # workload isimleri kaynak kodlar içerisinde aranır
-                                if is_function_in_sentence:
-                                    while number != 0:
-                                        leading_spaces = len(split_text[number]) - len(
-                                            split_text[number].lstrip()
-                                        )
-                                        if leading_spaces != 0:
-                                            widgets.listWidget_2.item(
-                                                number
-                                            ).setBackground(
-                                                QtGui.QColor(102, 0, 102)
-                                            )  # Mor renk
-                                            painted_lines.append(number)
-                                            number += 1
-                                        else:
-                                            break
-                        added_snippet_regex_length = len(
-                            code_snippet_regex_code["code_snippets"]
-                        )
-                        for i in range(0, added_snippet_regex_length):
-                            added_snippet_regex = code_snippet_regex_code["code_snippets"][
-                                i
-                            ]["Snippets"]["Regex_Code"]
-                            patterns.append(added_snippet_regex)
-
-                        for i in painted_lines:
-                            detected_parts_list_line = widgets.listWidget_2.item(i).text()
-                            find_function = re.findall("def:*", detected_parts_list_line)
-                            find_class = re.findall("class:*", detected_parts_list_line)
-                            find_import = re.findall("import", detected_parts_list_line)
-                            find_comment = re.findall("#", detected_parts_list_line)
-                            if (
-                                find_function
-                                or find_class
-                                or find_import
-                                or find_comment
-                            ):
-                                continue
-                            else:
-                                for pattern in patterns:
-                                    result = re.findall(
-                                        pattern, detected_parts_list_line, re.MULTILINE
-                                    )
-                                    if result:
-                                        widgets.listWidget_2.item(i).setBackground(
-                                            QtGui.QColor(0, 128, 255)
-                                        )  # Mavi renk
-                                        painted_line_for_mutation = widgets.listWidget_2.item(
-                                            i
-                                        ).text()  # Mutasyon işleminde kullanmak için listeye ekledi
-                                        faultable_line_list.append(
-                                            painted_line_for_mutation
-                                        )
-
-                        for painted_line in faultable_line_list:
-                            strip_painted_line = painted_line.strip()
-                            widgets.listWidget.addItem(strip_painted_line)
-
-                    elif (
-                        is_empty_workload == 0 and selected_code_snippet_length > 0
-                    ):  # Kodların tamamı seçili kod parçalarına göre taranacak (wL yok, CS var)
-                        print("Workload yok, CS var!")
-
-                        for line_number in range(
-                            selected_code_snippet_length
-                        ):  # code snippet list
-                            line_from_code_snippet_list = widgets.listWidget_17.item(
-                                line_number
-                            ).text()  # code snippet list içerisindeki eleman
-                            code_snippet_data_list.append(
-                                line_from_code_snippet_list
-                            )  # eleman listeye eklendi
-                        added_snippet_regex_length = len(
-                            code_snippet_regex_code["code_snippets"]
-                        )
-                        for i in range(0, added_snippet_regex_length):
-                            added_snippet_name = code_snippet_regex_code["code_snippets"][
-                                i
-                            ]["Snippets"]["Snippet_Name"]
-                            added_snippet_regex = code_snippet_regex_code["code_snippets"][
-                                i
-                            ]["Snippets"]["Regex_Code"]
-                            for (
-                                snippet
-                            ) in (
-                                code_snippet_data_list
-                            ):  # cs listesi içerisindeki eleman ile json code_snipet içerisindeki
-                                # isim uyuşuyorsa liste içerisine ekliyor
-                                if snippet == added_snippet_name:
-                                    patterns.append(added_snippet_regex)
-
-                        for i in range(detected_part_list_size):
-                            line_from_source_code = widgets.listWidget_2.item(i).text()
-                            find_function = re.findall("def:*", line_from_source_code)
-                            find_class = re.findall("class:*", line_from_source_code)
-                            find_import = re.findall("import", line_from_source_code)
-                            find_comment = re.findall("#", line_from_source_code)
-                            if (
-                                find_function
-                                or find_class
-                                or find_import
-                                or find_comment
-                            ):
-                                continue
-                            else:
-                                for pattern in patterns:
-                                    result = re.findall(
-                                        pattern, line_from_source_code, re.MULTILINE
-                                    )
-                                    if result:
-                                        widgets.listWidget_2.item(i).setBackground(
-                                            QtGui.QColor(0, 128, 255)
-                                        )  # Mavi renk
-                                        painted_line_for_mutation = widgets.listWidget_2.item(
-                                            i
-                                        ).text()  # Mutasyon işleminde kullanmak için listeye ekledi
-                                        faultable_line_list.append(
-                                            painted_line_for_mutation
-                                        )
-
-                        for painted_line in faultable_line_list:
-                            strip_painted_line = painted_line.strip()
-                            widgets.listWidget.addItem(strip_painted_line)
-
-                    else:
-                        """Workload var, CS var!"""
-                        print("Workload var, CS var!")
-                        workload_text = widgets.textEdit_22.toPlainText()
-                        workload_data = json.loads(workload_text)
-
-                        try:
-                            for i in range(0, len(workload_data["Tasks"])):
-                                fonksiyon_adi = workload_data["Tasks"][i]["Task"][
-                                    "Task_ID"
-                                ]
-                                fonksiyon_ara = "def " + fonksiyon_adi
-                                workload_function_name_list.append(fonksiyon_ara)
-
-                        except:
-                            print("Workload Build Error!")  # message box eklenecek
-
-                        for number, line in enumerate(split_text):
-                            for function_name_from_workload in workload_function_name_list:
-                                is_function_in_sentence = re.findall(
-                                    function_name_from_workload, line
-                                )  # workload isimleri kaynak kodlar içerisinde aranır
-                                if is_function_in_sentence:
-                                    while number != 0:
-                                        leading_spaces = len(split_text[number]) - len(
-                                            split_text[number].lstrip()
-                                        )
-                                        if leading_spaces != 0:
-                                            widgets.listWidget_2.item(
-                                                number
-                                            ).setBackground(
-                                                QtGui.QColor(102, 0, 102)
-                                            )  # Mor
-                                            painted_lines.append(number)
-                                            number += 1
-                                        else:
-                                            break
-
-                        for i in range(selected_code_snippet_length):
-                            code_snippet_data = widgets.listWidget_17.item(i).text()
-                            code_snippet_data_list.append(code_snippet_data)
-                        added_snippet_regex_length = len(
-                            code_snippet_regex_code["code_snippets"]
-                        )
-                        for i in range(0, added_snippet_regex_length):
-                            added_snippet_name = code_snippet_regex_code["code_snippets"][
-                                i
-                            ]["Snippets"]["Snippet_Name"]
-                            added_snippet_regex = code_snippet_regex_code["code_snippets"][
-                                i
-                            ]["Snippets"]["Regex_Code"]
-                            for snippet in code_snippet_data_list:
-                                if snippet == added_snippet_name:
-                                    patterns.append(added_snippet_regex)
-
-                        for i in painted_lines:
-                            detected_parts_list_line = widgets.listWidget_2.item(i).text()
-                            find_function = re.findall("def:*", detected_parts_list_line)
-                            find_class = re.findall("class:*", detected_parts_list_line)
-                            find_import = re.findall("import", detected_parts_list_line)
-                            find_comment = re.findall("#", detected_parts_list_line)
-                            if (
-                                find_function
-                                or find_class
-                                or find_import
-                                or find_comment
-                            ):
-                                continue
-                            else:
-                                for pattern in patterns:
-                                    result = re.findall(
-                                        pattern, detected_parts_list_line, re.MULTILINE
-                                    )
-                                    if result:
-                                        widgets.listWidget_2.item(i).setBackground(
-                                            QtGui.QColor(0, 128, 255)
-                                        )  # Açık mavi
-                                        painted_line_for_mutation = (
-                                            widgets.listWidget_2.item(i).text()
-                                        )
-                                        faultable_line_list.append(
-                                            painted_line_for_mutation
-                                        )
-
-                        for painted_line in faultable_line_list:
-                            strip_painted_line = painted_line.strip()
-                            widgets.listWidget.addItem(strip_painted_line)
-                else:
-                    pass  # Kaynak kodlar yok mesaj kutusu gelecek
-            else:
-                pass  # Warning mesaj kutusu gelecek "Checkbox işaretlenmedi"
-                # FAULT PLAN PAGE
 
         if btnName == "btn_random_fault":
             pass
@@ -3363,7 +3129,7 @@ class MainWindow(QMainWindow):
                         }
                         created_fault_plan_list.append(created_fault)
 
-                with open("faultPlans.json", mode = "w", encoding="utf-8") as file:
+                with open("faultPlans.json", mode="w", encoding="utf-8") as file:
                     fault_plan_json_format = json.dumps(
                         created_fault_plan_list, indent=4
                     )
@@ -3372,7 +3138,7 @@ class MainWindow(QMainWindow):
                 text = widgets.textEdit_26.toPlainText() + "_type_python.json"
                 full_path = os.path.join(path_name, text)
 
-                with open(full_path, mode = "w", encoding="utf-8") as file:
+                with open(full_path, mode="w", encoding="utf-8") as file:
                     fault_plan_json_format = json.dumps(
                         created_fault_plan_list, indent=4
                     )
@@ -3447,7 +3213,7 @@ class MainWindow(QMainWindow):
                     }
                 }
 
-                with open("faultLibrary.json", mode = "r+", encoding = "utf-8") as file:
+                with open("faultLibrary.json", mode="r+", encoding="utf-8") as file:
                     # First we load existing data into a dict.
                     file_data = json.load(file)
                     # Join new_data with file_data inside emp_details
@@ -3470,11 +3236,11 @@ class MainWindow(QMainWindow):
 
                     created_fault = widgets.textEdit_34.toPlainText()
 
-                    json_file = open(task_path_and_name, mode = "w", encoding = "utf-8")
+                    json_file = open(task_path_and_name, mode="w", encoding="utf-8")
                     json_file.write(created_fault)
                     json_file.close()
 
-                    with open("customFaults.json", mode = "w", encoding = "utf-8") as file:
+                    with open("customFaults.json", mode="w", encoding="utf-8") as file:
                         file.write(created_fault)
 
                     widgets.label_61.setText("SAVED!")
@@ -3528,10 +3294,6 @@ class MainWindow(QMainWindow):
         if btnName == "btn_run_scenario":
             print("Run The Scenario")
 
-        
-            
-
-    
     # RESIZE EVENTS
 
     def resizeEvent(self, event):
