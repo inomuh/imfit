@@ -1408,66 +1408,6 @@ class MainWindow(QMainWindow):
         self.paint_sky_blue(faultable_line_number_list)
         self.add_fi_plan(faultable_line_list)
 
-    # # Method creates V&V report to show details of the mutation process to the user
-    # def create_v_and_v_report(self):
-    #     """ v&v Report is created by IM-FIT with using this method """
-    #     # save FPDF() class into a
-    #     # variable pdf
-    #     pdf = FPDF()
-
-    #     # Add a page
-    #     pdf.add_page()
-
-    #     # set style and size of font
-    #     # that you want in the pdf
-    #     pdf.set_font("Arial", size=9)
-
-    #     v_and_v_report_introduction = """
-    #     The V&V Report Created by IM-FIT
-    #     This reports shows information about AST Diagram of Source Codes, Fault List, Metric List, Rosbag Scenarios, etc.
-    #     Therefore the user can learn about its source codes.
-
-    #     IM-FIT
-    #     """
-    #     pdf.cell(200, 10, txt=v_and_v_report_introduction, ln=1, align="C")
-
-    #     monitoring_ast_diagram = self.ui.textEdit_23.toPlainText()
-    #     pdf.cell(200, 10, txt=monitoring_ast_diagram, ln=1, align="L")
-
-    #     monitoring_metric_list_size = self.ui.listWidget_9.count()
-    #     for i in range(0, monitoring_metric_list_size):
-    #         # create a cell
-    #         line_of_metric_list = self.ui.listWidget_9.item(i).text()
-    #         pdf.cell(200, 10, txt=line_of_metric_list, ln=2, align="L")
-
-    #     monitoring_mutant_list_size = self.ui.listWidget_16.count()
-    #     for i in range(0, monitoring_mutant_list_size):
-    #         # create a cell
-    #         line_of_mutant_list = self.ui.listWidget_16.item(i).text()
-    #         pdf.cell(200, 10, txt=line_of_mutant_list, ln=3, align="L")
-
-    #     monitoring_killed_mutants_output_list_size = self.ui.listWidget_19.count()
-    #     for i in range(0, monitoring_killed_mutants_output_list_size):
-    #         # create a cell
-    #         line_of_killed_mutants_output_list = self.ui.listWidget_19.item(i).text()
-    #         pdf.cell(200, 10, txt=line_of_killed_mutants_output_list, ln=4, align="L")
-
-    #     monitoring_faults_list_size = self.ui.listWidget_14.count()
-    #     for i in range(0, monitoring_faults_list_size):
-    #         # create a cell
-    #         line_of_faults_list = self.ui.listWidget_14.item(i).text()
-    #         pdf.cell(200, 10, txt=line_of_faults_list, ln=5, align="L")
-
-    #     monitoring_rosbag_scenarios_list_size = self.ui.listWidget_12.count()
-    #     for i in range(0, monitoring_rosbag_scenarios_list_size):
-    #         # create a cell
-    #         line_of_rosbag_scenarios_list = self.ui.listWidget_12.item(i).text()
-    #         pdf.cell(200, 10, txt=line_of_rosbag_scenarios_list, ln=6, align="L")
-
-    #     # # save the pdf with name .pdf
-    #     pdf.output("V&V_Report_by_IM-FIT.pdf")
-    #     self.ui.label_77.setText("V&V Report is Created")
-
     def monitoring_report_rosbag_scenarios_list(self):
         """Method adds rosbag scenarios to the rosbag scenarios list on monitoring page"""
         monitoring_rosbag_scenarios_list = []
@@ -1478,7 +1418,8 @@ class MainWindow(QMainWindow):
         return monitoring_rosbag_scenarios_list
 
     def monitoring_report_faults_list(self):
-        """Method shows the detected faults after execution process in fault list on monitoring page"""
+        """Method shows the detected faults
+        after execution process in fault list on monitoring page"""
         monitoring_faults_list = []
         monitoring_faults_list_size = self.ui.listWidget_14.count()
         for i in range(0, monitoring_faults_list_size):
@@ -1487,7 +1428,8 @@ class MainWindow(QMainWindow):
         return monitoring_faults_list
 
     def monitoring_report_killed_mutants_output_list(self):
-        """Outputs of detected killed mutants are added to the killed mutants output list by IM-FIT on monitoring page"""
+        """Outputs of detected killed mutants are added
+        to the killed mutants output list by IM-FIT on monitoring page"""
         monitoring_killed_mutants_output_list = []
         monitoring_killed_mutants_output_list_size = self.ui.listWidget_19.count()
         for i in range(0, monitoring_killed_mutants_output_list_size):
@@ -1507,7 +1449,8 @@ class MainWindow(QMainWindow):
         return monitroing_mutant_list
 
     def monitoring_report_metric_list(self):
-        """Used metrics for the execution process and their results are shown to the user in the list on monitoring page"""
+        """Used metrics for the execution process and
+        their results are shown to the user in the list on monitoring page"""
         monitoring_metric_list = []
         monitoring_metric_list_size = self.ui.listWidget_9.count()
         for i in range(0, monitoring_metric_list_size):
@@ -1536,7 +1479,6 @@ class MainWindow(QMainWindow):
         self.ui.label_77.setText("V&V Report is Created")
 
     # BUTTONS CLICK FUNCTIONS
-
     def buttonClick(self):
         """Button click function"""
         # GET BUTTON CLICKED
