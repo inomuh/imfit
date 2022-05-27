@@ -13,7 +13,6 @@ import xml.etree.ElementTree as ET
 import random
 import pytest
 import astunparse
-import fpdf as FPDF
 
 from PySide6.QtWidgets import QApplication, QMainWindow, QFileDialog, QMessageBox
 
@@ -28,12 +27,11 @@ import IMFIT_functions
 import dbConnection
 
 import scan_process
+import monitoring_process
 
 
 class MainWindow(QMainWindow):
     """IM-FIT UI Window"""
-
-    widgets = None
 
     global RUN_ORDER_LIST_JUST_PATH
     RUN_ORDER_LIST_JUST_PATH = []
@@ -67,8 +65,6 @@ class MainWindow(QMainWindow):
 
         self.ui = Ui_MainWindow()
         self.ui.setupUi(self)
-        global widgets
-        widgets = self.ui
 
         Settings.ENABLE_CUSTOM_TITLE_BAR = True
 
@@ -78,10 +74,10 @@ class MainWindow(QMainWindow):
 
         #  APPLY TEXTS
         self.setWindowTitle(title)
-        widgets.titleRightInfo.setText(description)
+        self.ui.titleRightInfo.setText(description)
 
         # TOGGLE MENU
-        widgets.toggleButton.clicked.connect(lambda: UIFunctions.toggleMenu(self, True))
+        self.ui.toggleButton.clicked.connect(lambda: UIFunctions.toggleMenu(self, True))
 
         # SET UI DEFINITIONS
         UIFunctions.uiDefinitions(self)
@@ -107,10 +103,10 @@ class MainWindow(QMainWindow):
                     with open(file_name[0], mode="r", encoding="utf-8") as json_file:
                         source_code_data = json_file.read()
                         # Source code directory is added to the text
-                        widgets.source_code_directory_text.setPlainText(
+                        self.ui.source_code_directory_text.setPlainText(
                             str(file_name[0])
                         )
-                        widgets.source_code_content.setPlainText(source_code_data)
+                        self.ui.source_code_content.setPlainText(source_code_data)
 
         # Take ".py" file for test case
         def get_file_py_for_test_case():
@@ -123,8 +119,8 @@ class MainWindow(QMainWindow):
                 if file_name[0].endswith(".py"):
                     with open(file_name[0], mode="r", encoding="utf-8") as json_file:
                         data = json_file.read()
-                        widgets.test_case_directory_text.setPlainText(str(file_name[0]))
-                        widgets.test_case_content.setPlainText(data)
+                        self.ui.test_case_directory_text.setPlainText(str(file_name[0]))
+                        self.ui.test_case_content.setPlainText(data)
 
         # Take ".json" file for workload
         def workload_get_file_json():
@@ -138,8 +134,8 @@ class MainWindow(QMainWindow):
                 if file_name[0].endswith(".json"):
                     with open(file_name[0], mode="r", encoding="utf-8") as file:
                         data = file.read()
-                        widgets.textEdit_46.setPlainText(str(file_name[0]))
-                        widgets.textEdit_3.setPlainText(data)
+                        self.ui.textEdit_46.setPlainText(str(file_name[0]))
+                        self.ui.textEdit_3.setPlainText(data)
 
         # Take ".json" file function
         def fiplan_get_file_json():
@@ -151,8 +147,7 @@ class MainWindow(QMainWindow):
                 file_name = dialog.selectedFiles()
 
                 if file_name[0].endswith(".json"):
-                    with open(file_name[0], mode="r", encoding="utf-8") as file:
-                        widgets.listWidget_11.addItem(str(file_name[0]))
+                    self.ui.listWidget_11.addItem(str(file_name[0]))
 
         def get_file_json_for_workload():
             dialog = QFileDialog()
@@ -165,7 +160,7 @@ class MainWindow(QMainWindow):
                 if file_name[0].endswith(".json"):
                     with open(file_name[0], mode="r", encoding="utf-8") as file:
                         data = file.read()
-                        widgets.textEdit_3.setPlainText(data)
+                        self.ui.textEdit_3.setPlainText(data)
 
         # Take ".rosbag" file function
         def get_file_rosbag():
@@ -179,28 +174,28 @@ class MainWindow(QMainWindow):
                 if file_name[0].endswith(".bag"):
                     with open(file_name[0], mode="r", encoding="utf-8") as file:
                         data = file.read()
-                        widgets.textEditor.setPlainText(data)
+                        self.ui.textEditor.setPlainText(data)
 
         # EDIT BUTTONS
 
         # Source Code Edit Checkbox on START PAGE
         def edit_source_code():
-            if widgets.checkBox_8.isChecked() is True:
-                widgets.source_code_content.setReadOnly(False)
+            if self.ui.checkBox_8.isChecked() is True:
+                self.ui.source_code_content.setReadOnly(False)
             else:
-                widgets.source_code_content.setReadOnly(True)
+                self.ui.source_code_content.setReadOnly(True)
 
         # Workload Edit Checkbox on START PAGE
         def edit_workload():
-            if widgets.checkBox_5.isChecked() is True:
-                widgets.textEdit_3.setReadOnly(False)
+            if self.ui.checkBox_5.isChecked() is True:
+                self.ui.textEdit_3.setReadOnly(False)
             else:
-                widgets.textEdit_3.setReadOnly(True)
+                self.ui.textEdit_3.setReadOnly(True)
 
         # Select Code Snippets wit One Click
         def code_snippet_select_with_one_clicked():
             try:
-                clicked_item_text = widgets.code_snippet_list.currentItem().text()
+                clicked_item_text = self.ui.code_snippet_list.currentItem().text()
 
                 with open(
                     "code_snippets.json", encoding="utf-8"
@@ -219,7 +214,7 @@ class MainWindow(QMainWindow):
                             code_snippet_description = code_snippets_name_list[
                                 "code_snippets"
                             ][i]["Snippets"]["Process"]
-                            widgets.textEdit_24.setPlainText(code_snippet_description)
+                            self.ui.textEdit_24.setPlainText(code_snippet_description)
             except AttributeError:
                 pass
 
@@ -227,35 +222,35 @@ class MainWindow(QMainWindow):
         def code_snippet_selection():
             code_snippet_list_is_empty = True
 
-            len_of_selected_code_snippets = widgets.listWidget_8.count()
+            len_of_selected_code_snippets = self.ui.listWidget_8.count()
 
-            selected_row = widgets.code_snippet_list.currentItem().text()
+            selected_row = self.ui.code_snippet_list.currentItem().text()
             row = selected_row.split("\n")
 
             ### Check Double Enter
             if len_of_selected_code_snippets:
                 for i in range(len_of_selected_code_snippets):
-                    code_snippet_list_element = widgets.listWidget_8.item(i).text()
+                    code_snippet_list_element = self.ui.listWidget_8.item(i).text()
                     if code_snippet_list_element == selected_row:
                         code_snippet_list_is_empty = False
 
                 if code_snippet_list_is_empty is True:
-                    widgets.listWidget_8.addItems(row)
+                    self.ui.listWidget_8.addItems(row)
             else:
-                widgets.listWidget_8.addItems(row)
+                self.ui.listWidget_8.addItems(row)
 
         # Select Task on Create on Workload Page
         def task_selection():
-            selected_row = widgets.listWidget_21.currentItem().text()
+            selected_row = self.ui.listWidget_21.currentItem().text()
             row = selected_row.split("\n")
-            widgets.listWidget_22.addItems(row)
+            self.ui.listWidget_22.addItems(row)
 
         # Select Task with One Click on Workload Page
         def task_info_with_one_click():
-            clicked_item_text = widgets.listWidget_21.currentItem().text()
-            widgets.textEdit_14.clear()
+            clicked_item_text = self.ui.listWidget_21.currentItem().text()
+            self.ui.textEdit_14.clear()
 
-            json_type_task = widgets.plainTextEdit.toPlainText()
+            json_type_task = self.ui.plainTextEdit.toPlainText()
             tasks_list_json = json.loads(json_type_task)
 
             for i in range(0, len(tasks_list_json["Tasks"])):
@@ -263,26 +258,26 @@ class MainWindow(QMainWindow):
                 if task_name == clicked_item_text:
                     task_detail = str(tasks_list_json["Tasks"][i]["Task"])
                     for j in task_detail:
-                        widgets.textEdit_14.setPlainText(
-                            widgets.textEdit_14.toPlainText() + j
+                        self.ui.textEdit_14.setPlainText(
+                            self.ui.textEdit_14.toPlainText() + j
                         )
 
         def possible_mutation_line_selection():
             """Select Line For Mutation on FI Plan Page"""
-            possible_mutation_line = widgets.listWidget.currentItem().text()
-            widgets.textEdit_13.setPlainText(possible_mutation_line)
+            possible_mutation_line = self.ui.listWidget.currentItem().text()
+            self.ui.textEdit_13.setPlainText(possible_mutation_line)
 
         def fault_selection_from_library():
             """Select Fault From Fault Library on FI Plan Page"""
             global ZIPPED_LIST
             ZIPPED_LIST = []
 
-            text_check = widgets.textEdit_13.toPlainText()
+            text_check = self.ui.textEdit_13.toPlainText()
 
             if text_check:
 
-                selected_line = widgets.textEdit_13.toPlainText()
-                selected_fault = widgets.listWidget_3.currentItem().text()
+                selected_line = self.ui.textEdit_13.toPlainText()
+                selected_fault = self.ui.listWidget_3.currentItem().text()
 
                 text_selected_line_and_fault = (
                     selected_line + " #==># " + selected_fault
@@ -292,17 +287,17 @@ class MainWindow(QMainWindow):
 
                 line_and_fault = text_selected_line_and_fault.split("\n")
 
-                widgets.listWidget_7.addItems(line_and_fault)
+                self.ui.listWidget_7.addItems(line_and_fault)
 
         # This Function Shows Fault's Information from Fault Library on FI Plan Page
         def show_fault_info_with_one_click():
             try:
-                clicked_item_text = widgets.listWidget_3.currentItem().text()
+                clicked_item_text = self.ui.listWidget_3.currentItem().text()
 
                 with open("faultLibrary.json", encoding="utf-8") as file:
                     fault_list = json.load(file)
 
-                fault_list_size = widgets.listWidget_3.count()
+                fault_list_size = self.ui.listWidget_3.count()
 
                 for i in range(fault_list_size):
                     fault_name = fault_list["all_faults"][i]["fault"]["Fault_Name"]
@@ -311,7 +306,7 @@ class MainWindow(QMainWindow):
                         fault_description = fault_list["all_faults"][i]["fault"][
                             "Explanation"
                         ]
-                        widgets.textEdit_17.setPlainText(fault_description)
+                        self.ui.textEdit_17.setPlainText(fault_description)
             except:
                 IndexError()
 
@@ -361,7 +356,7 @@ class MainWindow(QMainWindow):
                                 )
                                 if mutated_line != target_text:
                                     # Mutated line is added to mutation list on IM-FIT UI
-                                    widgets.listWidget_4.addItem(mutated_line)
+                                    self.ui.listWidget_4.addItem(mutated_line)
                                     # Original source code line and mutated line are added to
                                     # list to use for execution
                                     source_and_mutate_code.append(target_text)
@@ -369,8 +364,8 @@ class MainWindow(QMainWindow):
                                 else:
                                     continue
 
-            total_mut = widgets.listWidget_4.count()
-            widgets.label_17.setText(str(total_mut))
+            total_mut = self.ui.listWidget_4.count()
+            self.ui.label_17.setText(str(total_mut))
             # except:
             #     message_box = QMessageBox()
             #     message_box.setIcon(QMessageBox.Critical)
@@ -389,15 +384,15 @@ class MainWindow(QMainWindow):
             with open("faultLibrary.json", encoding="utf-8") as file:
                 fault_list = json.load(file)
             fault_library_size = fault_lib_size()
-            if widgets.checkBox_4.isChecked() is True:
-                len_selected_line_mutation = widgets.listWidget.count()
+            if self.ui.checkBox_4.isChecked() is True:
+                len_selected_line_mutation = self.ui.listWidget.count()
                 for i in range(0, len_selected_line_mutation):
-                    line = widgets.listWidget.item(i).text()
+                    line = self.ui.listWidget.item(i).text()
                     mutation_process_function(line, 0, fault_library_size)
             else:
-                len_selected_line_mutation = widgets.listWidget_7.count()
+                len_selected_line_mutation = self.ui.listWidget_7.count()
                 for i in range(0, len_selected_line_mutation):
-                    hata_ve_line = widgets.listWidget_7.item(i).text()
+                    hata_ve_line = self.ui.listWidget_7.item(i).text()
                     split_hata_ve_line = hata_ve_line.split(" #==># ")
                     hata_ismi = split_hata_ve_line[1]
                     line = split_hata_ve_line[0]
@@ -413,7 +408,7 @@ class MainWindow(QMainWindow):
         def random_hata_bas():
             fault_library_size = fault_lib_size()
             random_fault = random.randint(0, fault_library_size)
-            target_text = widgets.listWidget.currentItem().text()
+            target_text = self.ui.listWidget.currentItem().text()
             mutation_process_function(target_text, random_fault, random_fault + 1)
 
         def execution_module_function():
@@ -435,10 +430,10 @@ class MainWindow(QMainWindow):
             execution_timeout_list = []
             original_source_code_output = ""
 
-            execution_fiplan_list_length = widgets.listWidget_6.count()
+            execution_fiplan_list_length = self.ui.listWidget_6.count()
 
             for execution_step in range(0, execution_fiplan_list_length):
-                execution_fiplan_directory = widgets.listWidget_6.item(
+                execution_fiplan_directory = self.ui.listWidget_6.item(
                     execution_step
                 ).text()
                 file_type_keywords = [
@@ -460,7 +455,7 @@ class MainWindow(QMainWindow):
                             # Length of ROS source mutant list
                             len_ros_source_mutant = len(ROS_SOURCE_MUTANT)
 
-                            working_directory = widgets.textEdit_47.toPlainText()
+                            working_directory = self.ui.textEdit_47.toPlainText()
 
                             for i in range(len_ros_source_mutant):
                                 if i % 2 == 1:
@@ -473,22 +468,18 @@ class MainWindow(QMainWindow):
                                     complete_name = os.path.join(
                                         working_directory, fname
                                     )
-                                    file1 = open(
+
+                                    with open(
                                         complete_name, mode="w", encoding="utf-8"
-                                    )
-                                    file1.write(new_data)
-                                    file1.close()
+                                    ) as file1:
+                                        file1.write(new_data)
 
                                     subprocess.Popen(
                                         ["chmod", "+x", fname], cwd=working_directory
                                     )
 
                                     print("\n\n############")
-                                    print(
-                                        "#      Mutant:{mutant_name}        #".format(
-                                            mutant_name=fname
-                                        )
-                                    )
+                                    print("Mutant:", fname)
                                     print("#" * 10)
 
                                     try:
@@ -536,7 +527,7 @@ class MainWindow(QMainWindow):
                             killed_counter = 0
                             survived_counter = 0
 
-                            fiplan_directory = widgets.listWidget_36.item(0).text()
+                            fiplan_directory = self.ui.listWidget_36.item(0).text()
                             with open(fiplan_directory, encoding="utf-8") as json_file:
                                 fault_list = json.load(json_file)
 
@@ -566,11 +557,7 @@ class MainWindow(QMainWindow):
                                     file.write(mutation_process)
 
                                 print("\n\n############")
-                                print(
-                                    "                 Mutant:{mutant_name}".format(
-                                        mutant_name=i
-                                    )
-                                )
+                                print("Mutant:", str(i))
                                 print("#" * 10)
 
                                 try:
@@ -625,7 +612,7 @@ class MainWindow(QMainWindow):
 
                         else:
 
-                            is_empty_dependent = widgets.textEdit_40.toPlainText()
+                            is_empty_dependent = self.ui.textEdit_40.toPlainText()
                             if is_empty_dependent == "":
 
                                 start_time = time.time()
@@ -633,7 +620,7 @@ class MainWindow(QMainWindow):
                                 timeout_counter = 0
 
                                 source_code_text = (
-                                    widgets.source_code_content.toPlainText()
+                                    self.ui.source_code_content.toPlainText()
                                 )
 
                                 fname = "original_code.py"
@@ -641,12 +628,12 @@ class MainWindow(QMainWindow):
                                 with open(fname, mode="w", encoding="utf-8") as file:
                                     file.write(data)
 
-                                mutation_list_size = widgets.listWidget_4.count()
+                                mutation_list_size = self.ui.listWidget_4.count()
                                 time_limit_per_process = (
-                                    widgets.textEdit_18.toPlainText()
+                                    self.ui.textEdit_18.toPlainText()
                                 )
 
-                                subprocess.run("python3 original_code.py")
+                                subprocess.run("python3 original_code.py", check=True)
                                 # cmd = ["python3", "original_code.py"]
                                 # try:
                                 # 	subprocess.run(cmd, stdout=subprocess.PIPE, shell=True,
@@ -659,7 +646,7 @@ class MainWindow(QMainWindow):
                                 print("#" * 10)
 
                                 # Directory liste içerisinden alınmalı
-                                fiplan_directory = widgets.listWidget_6.item(0).text()
+                                fiplan_directory = self.ui.listWidget_6.item(0).text()
                                 with open(
                                     fiplan_directory, encoding="utf-8"
                                 ) as json_file:
@@ -695,6 +682,7 @@ class MainWindow(QMainWindow):
                                             cmd,
                                             stdout=subprocess.PIPE,
                                             timeout=int(time_limit_per_process),
+                                            check=True,
                                         )
                                     except subprocess.TimeoutExpired:
                                         timeout_counter += 1
@@ -784,7 +772,7 @@ class MainWindow(QMainWindow):
                                 print("\n")
 
                                 print("Process Time: ", end_time - start_time)
-                                widgets.listWidget_9.addItem(
+                                self.ui.listWidget_9.addItem(
                                     "Process Time:" + str(end_time - start_time)
                                 )
                                 print("\n")
@@ -794,7 +782,7 @@ class MainWindow(QMainWindow):
                                 ) * 100
 
                                 print("Mutation Score: %", mutation_score)
-                                widgets.listWidget_9.addItem(
+                                self.ui.listWidget_9.addItem(
                                     "Mutation Score: %" + str(mutation_score)
                                 )
                                 print("\n")
@@ -804,7 +792,7 @@ class MainWindow(QMainWindow):
                                     + survivor_mutants
                                     + equivalent_mutants,
                                 )
-                                widgets.listWidget_9.addItem(
+                                self.ui.listWidget_9.addItem(
                                     "All Mutants: "
                                     + str(
                                         killed_mutants
@@ -814,19 +802,19 @@ class MainWindow(QMainWindow):
                                 )
                                 print("\n")
                                 print("Killed Mutants: ", killed_mutants)
-                                widgets.listWidget_9.addItem(
+                                self.ui.listWidget_9.addItem(
                                     "Killed: " + str(killed_mutants)
                                 )
                                 print("Survivor Mutants: ", survivor_mutants)
-                                widgets.listWidget_9.addItem(
+                                self.ui.listWidget_9.addItem(
                                     "Survived: " + str(survivor_mutants)
                                 )
                                 print("Equivalent Mutants: ", equivalent_mutants)
-                                widgets.listWidget_9.addItem(
+                                self.ui.listWidget_9.addItem(
                                     "Equivalent: " + str(equivalent_mutants)
                                 )
                                 print("Timeout: ", timeout_counter)
-                                widgets.listWidget_9.addItem(
+                                self.ui.listWidget_9.addItem(
                                     "Timeout: " + str(timeout_counter)
                                 )
 
@@ -841,36 +829,36 @@ class MainWindow(QMainWindow):
                                 killed_mutant_list_size = len(killed_mutants_list)
 
                                 print("Killed Mutants List: ")
-                                widgets.listWidget_16.addItem("Killed Mutants List: ")
+                                self.ui.listWidget_16.addItem("Killed Mutants List: ")
                                 for i in range(killed_mutant_list_size):
                                     print(killed_mutants_list[i])
-                                    widgets.listWidget_16.addItem(
+                                    self.ui.listWidget_16.addItem(
                                         str(killed_mutants_list[i])
                                     )
 
                                 print("\n")
 
                                 print("Survivor Mutants List: ")
-                                widgets.listWidget_16.addItem("Survivor Mutants List: ")
+                                self.ui.listWidget_16.addItem("Survivor Mutants List: ")
                                 for i in survived_mutants_list:
                                     print(i)
-                                    widgets.listWidget_16.addItem(str(i))
+                                    self.ui.listWidget_16.addItem(str(i))
 
                                 print("\n")
 
                                 print("Equivalent Mutants List: ")
-                                widgets.listWidget_16.addItem(
+                                self.ui.listWidget_16.addItem(
                                     "Equivalent Mutants List: "
                                 )
                                 for i in equivalent_mutants_list:
                                     print(i)
-                                    widgets.listWidget_16.addItem(str(i))
+                                    self.ui.listWidget_16.addItem(str(i))
 
                                 print("Timeout List: ")
-                                widgets.listWidget_16.addItem("Timeout Mutants List: ")
+                                self.ui.listWidget_16.addItem("Timeout Mutants List: ")
                                 for i in execution_timeout_list:
                                     print(i)
-                                    widgets.listWidget_16.addItem(str(i))
+                                    self.ui.listWidget_16.addItem(str(i))
 
                                 print("\n")
                                 print("#" * 10)
@@ -883,7 +871,7 @@ class MainWindow(QMainWindow):
                                     print("\n")
                                     print("#" * 10)
                                     print(killed_mutants_list[i])
-                                    widgets.listWidget_19.addItem(
+                                    self.ui.listWidget_19.addItem(
                                         str(killed_mutants_list[i])
                                     )
                                     print(
@@ -892,13 +880,13 @@ class MainWindow(QMainWindow):
                                     error_output = error_code_list[i]
                                     error_output_split = error_output.split("\n")
                                     print(error_output_split[-1])
-                                    widgets.listWidget_19.addItem(
+                                    self.ui.listWidget_19.addItem(
                                         str(error_output_split[-1])
                                     )
                                     print("#" * 10)
                                 print("\n")
 
-                                if widgets.checkBox_7.isChecked() is True:
+                                if self.ui.checkBox_7.isChecked() is True:
                                     for i in range(0, mutation_list_size):
                                         path = "fault" + str(i) + ".py"
                                         os.remove(path)
@@ -906,13 +894,13 @@ class MainWindow(QMainWindow):
                                     os.remove("original_code.py")
                                     os.remove(".coverage")
 
-                                widgets.label_10.setText(
+                                self.ui.label_10.setText(
                                     "Mutation Score: %" + str(mutation_score)
                                 )
 
                                 fault_name_list_size = len(fault_name_list)
                                 for i in range(0, fault_name_list_size):
-                                    widgets.listWidget_14.addItem(
+                                    self.ui.listWidget_14.addItem(
                                         "fault"
                                         + str(i)
                                         + ".py --> "
@@ -924,7 +912,7 @@ class MainWindow(QMainWindow):
                                 killed_counter = 0
                                 survived_counter = 0
 
-                                fiplan_directory = widgets.listWidget_6.item(0).text()
+                                fiplan_directory = self.ui.listWidget_6.item(0).text()
                                 with open(
                                     fiplan_directory, encoding="utf-8"
                                 ) as json_file:
@@ -961,11 +949,7 @@ class MainWindow(QMainWindow):
                                         file.write(mutation_process)
 
                                     print("\n\n############")
-                                    print(
-                                        "                 Mutant:{mutant_name}".format(
-                                            mutant_name=i
-                                        )
-                                    )
+                                    print("Mutant:", (str(i)))
                                     print("#" * 10)
 
                                     try:
@@ -1022,26 +1006,26 @@ class MainWindow(QMainWindow):
 
         def metric_info_selection():
             try:
-                clicked_item_text = widgets.listWidget_18.currentItem().text()
-                selected_metric = widgets.listWidget_18.currentItem().text()
+                clicked_item_text = self.ui.listWidget_18.currentItem().text()
+                selected_metric = self.ui.listWidget_18.currentItem().text()
 
                 with open("metricList.json", encoding="utf-8") as file:
                     fault_list = json.load(file)
 
-                metric_list_size = widgets.listWidget_18.count()
+                metric_list_size = self.ui.listWidget_18.count()
 
                 for i in range(0, metric_list_size):
                     metric_name = fault_list["Metrics"][i]["Metric"]["Name"]
 
                     if clicked_item_text == metric_name:
                         metric_information = fault_list["Metrics"][i]["Metric"]["Info"]
-                        widgets.textEdit_9.setPlainText(metric_information)
+                        self.ui.textEdit_9.setPlainText(metric_information)
             except:
                 IndexError()
 
         def metric_from_list_selection_with_double_click():
-            selected_metric = widgets.listWidget_18.currentItem().text()
-            widgets.listWidget_15.addItem(selected_metric)
+            selected_metric = self.ui.listWidget_18.currentItem().text()
+            self.ui.listWidget_15.addItem(selected_metric)
 
         def show_message(message_box_type, message_box_text, message_box_title):
             message_box = QMessageBox()
@@ -1059,141 +1043,141 @@ class MainWindow(QMainWindow):
         # LIST'S (listWidget's) CLICK CONNECTS
 
         # Line Selection For Mutation on FI Plan Page
-        widgets.listWidget.itemClicked.connect(possible_mutation_line_selection)
+        self.ui.listWidget.itemClicked.connect(possible_mutation_line_selection)
 
         # Line Selection and Show Information About Fault on FI Plan Page
-        widgets.listWidget_3.itemDoubleClicked.connect(fault_selection_from_library)
-        widgets.listWidget_3.itemClicked.connect(show_fault_info_with_one_click)
+        self.ui.listWidget_3.itemDoubleClicked.connect(fault_selection_from_library)
+        self.ui.listWidget_3.itemClicked.connect(show_fault_info_with_one_click)
 
         # Code Snippet Selection on Start Page
-        widgets.code_snippet_list.itemDoubleClicked.connect(code_snippet_selection)
-        widgets.code_snippet_list.itemClicked.connect(
+        self.ui.code_snippet_list.itemDoubleClicked.connect(code_snippet_selection)
+        self.ui.code_snippet_list.itemClicked.connect(
             code_snippet_select_with_one_clicked
         )
 
         # Select Task and Show Task's Details on Workload Page
-        widgets.listWidget_21.itemClicked.connect(task_info_with_one_click)
-        widgets.listWidget_21.itemDoubleClicked.connect(task_selection)
+        self.ui.listWidget_21.itemClicked.connect(task_info_with_one_click)
+        self.ui.listWidget_21.itemDoubleClicked.connect(task_selection)
 
         # Select Metric
-        widgets.listWidget_18.itemClicked.connect(metric_info_selection)
-        widgets.listWidget_18.itemDoubleClicked.connect(
+        self.ui.listWidget_18.itemClicked.connect(metric_info_selection)
+        self.ui.listWidget_18.itemDoubleClicked.connect(
             metric_from_list_selection_with_double_click
         )
 
         # BUTTONS CLICK CONNECTS
 
         # LEFT MENU BUTTON CONNECTS
-        widgets.btn_home.clicked.connect(self.buttonClick)
-        widgets.btn_start.clicked.connect(self.buttonClick)
-        widgets.btn_scan.clicked.connect(self.buttonClick)
-        widgets.btn_fiplan.clicked.connect(self.buttonClick)
-        widgets.btn_execution.clicked.connect(self.left_menu_execution_page)
-        widgets.btn_monitoring.clicked.connect(self.buttonClick)
-        widgets.open_ros_page.clicked.connect(self.buttonClick)
+        self.ui.btn_home.clicked.connect(self.buttonClick)
+        self.ui.btn_start.clicked.connect(self.buttonClick)
+        self.ui.btn_scan.clicked.connect(self.buttonClick)
+        self.ui.btn_fiplan.clicked.connect(self.buttonClick)
+        self.ui.btn_execution.clicked.connect(self.left_menu_execution_page)
+        self.ui.btn_monitoring.clicked.connect(self.buttonClick)
+        self.ui.open_ros_page.clicked.connect(self.buttonClick)
 
         # GO TO BUTTON CONNECTS
-        widgets.btn_go_start.clicked.connect(self.go_to_start_page)
-        widgets.btn_go_scan.clicked.connect(self.buttonClick)
-        widgets.btn_go_fiplan.clicked.connect(self.buttonClick)
-        widgets.btn_go_exe.clicked.connect(self.buttonClick)
-        widgets.btn_go_monitoring.clicked.connect(self.buttonClick)
-        widgets.btn_new_one.clicked.connect(self.buttonClick)
-        widgets.back_start_page.clicked.connect(self.buttonClick)
-        widgets.go_execution.clicked.connect(self.buttonClick)
+        self.ui.btn_go_start.clicked.connect(self.go_to_start_page)
+        self.ui.btn_go_scan.clicked.connect(self.buttonClick)
+        self.ui.btn_go_fiplan.clicked.connect(self.buttonClick)
+        self.ui.btn_go_exe.clicked.connect(self.buttonClick)
+        self.ui.btn_go_monitoring.clicked.connect(self.buttonClick)
+        self.ui.btn_new_one.clicked.connect(self.buttonClick)
+        self.ui.back_start_page.clicked.connect(self.buttonClick)
+        self.ui.go_execution.clicked.connect(self.buttonClick)
 
         # START PAGE BUTTON CONNECTS
-        widgets.btn_open_folder.clicked.connect(get_file_py_for_source_code)
-        widgets.btn_select_workload.clicked.connect(workload_get_file_json)
-        widgets.btn_create_workload.clicked.connect(self.buttonClick)
-        widgets.checkBox_5.clicked.connect(self.buttonClick)
-        widgets.btn_clear_codes.clicked.connect(self.buttonClick)
-        widgets.btn_clear_workload.clicked.connect(self.buttonClick)
-        widgets.btn_add_custom.clicked.connect(self.buttonClick)
-        widgets.checkBox_8.clicked.connect(edit_source_code)
-        widgets.checkBox_5.clicked.connect(edit_workload)
-        widgets.btn_open_tc.clicked.connect(get_file_py_for_test_case)
-        widgets.try_test_case.clicked.connect(self.buttonClick)
-        widgets.pushButton_10.clicked.connect(self.buttonClick)
+        self.ui.btn_open_folder.clicked.connect(get_file_py_for_source_code)
+        self.ui.btn_select_workload.clicked.connect(workload_get_file_json)
+        self.ui.btn_create_workload.clicked.connect(self.buttonClick)
+        self.ui.checkBox_5.clicked.connect(self.buttonClick)
+        self.ui.btn_clear_codes.clicked.connect(self.buttonClick)
+        self.ui.btn_clear_workload.clicked.connect(self.buttonClick)
+        self.ui.btn_add_custom.clicked.connect(self.buttonClick)
+        self.ui.checkBox_8.clicked.connect(edit_source_code)
+        self.ui.checkBox_5.clicked.connect(edit_workload)
+        self.ui.btn_open_tc.clicked.connect(get_file_py_for_test_case)
+        self.ui.try_test_case.clicked.connect(self.buttonClick)
+        self.ui.pushButton_10.clicked.connect(self.buttonClick)
 
         # CODE SNIPPET BUTTON CONNECTS
-        widgets.btn_create_code.clicked.connect(self.buttonClick)
-        widgets.btn_select_snippet.clicked.connect(code_snippet_selection)
-        widgets.btn_remove_snip.clicked.connect(self.buttonClick)
+        self.ui.btn_create_code.clicked.connect(self.buttonClick)
+        self.ui.btn_select_snippet.clicked.connect(code_snippet_selection)
+        self.ui.btn_remove_snip.clicked.connect(self.buttonClick)
 
         # ROS PAGE BUTTON CONNECTS
-        widgets.rosrun_btn.clicked.connect(self.buttonClick)
-        widgets.add_order_btn.clicked.connect(self.buttonClick)
-        widgets.select_trgt_btn.clicked.connect(self.buttonClick)
-        widgets.scan_ros_btn.clicked.connect(self.buttonClick)
-        widgets.mutate_ros_btn.clicked.connect(self.buttonClick)
-        widgets.remove_order_btn.clicked.connect(self.buttonClick)
-        widgets.add_ros_btn.clicked.connect(self.buttonClick)
-        widgets.remove_ros_btn.clicked.connect(self.buttonClick)
-        widgets.remove_ros_mutant.clicked.connect(self.buttonClick)
-        widgets.ros_slct_fiplan.clicked.connect(self.buttonClick)
-        widgets.ros_fiplan_save.clicked.connect(self.buttonClick)
-        widgets.ros_fiplan_remove.clicked.connect(self.buttonClick)
-        widgets.open_target_ros.clicked.connect(self.buttonClick)
-        widgets.ros_test_case.clicked.connect(self.buttonClick)
-        widgets.open_ros_test_case.clicked.connect(self.buttonClick)
-        widgets.ros_try_test_case.clicked.connect(self.buttonClick)
-        widgets.ros_save_test_case.clicked.connect(self.buttonClick)
-        widgets.back_to_start.clicked.connect(self.buttonClick)
+        self.ui.rosrun_btn.clicked.connect(self.buttonClick)
+        self.ui.add_order_btn.clicked.connect(self.buttonClick)
+        self.ui.select_trgt_btn.clicked.connect(self.buttonClick)
+        self.ui.scan_ros_btn.clicked.connect(self.buttonClick)
+        self.ui.mutate_ros_btn.clicked.connect(self.buttonClick)
+        self.ui.remove_order_btn.clicked.connect(self.buttonClick)
+        self.ui.add_ros_btn.clicked.connect(self.buttonClick)
+        self.ui.remove_ros_btn.clicked.connect(self.buttonClick)
+        self.ui.remove_ros_mutant.clicked.connect(self.buttonClick)
+        self.ui.ros_slct_fiplan.clicked.connect(self.buttonClick)
+        self.ui.ros_fiplan_save.clicked.connect(self.buttonClick)
+        self.ui.ros_fiplan_remove.clicked.connect(self.buttonClick)
+        self.ui.open_target_ros.clicked.connect(self.buttonClick)
+        self.ui.ros_test_case.clicked.connect(self.buttonClick)
+        self.ui.open_ros_test_case.clicked.connect(self.buttonClick)
+        self.ui.ros_try_test_case.clicked.connect(self.buttonClick)
+        self.ui.ros_save_test_case.clicked.connect(self.buttonClick)
+        self.ui.back_to_start.clicked.connect(self.buttonClick)
 
         # SCAN PAGE BUTTON CONNECTS
-        widgets.btn_back_code.clicked.connect(self.buttonClick)
-        widgets.btn_scan_process.clicked.connect(self.start_scan_process)
+        self.ui.btn_back_code.clicked.connect(self.buttonClick)
+        self.ui.btn_scan_process.clicked.connect(self.start_scan_process)
 
         # FI PLAN PAGE BUTTONS
-        widgets.btn_random_fault.clicked.connect(random_hata_bas)
-        widgets.btn_slct_fiplan.clicked.connect(fiplan_get_file_json)
-        widgets.btn_create_custom.clicked.connect(self.buttonClick)
-        widgets.btn_select_fault.clicked.connect(fault_selection_from_library)
-        widgets.btn_remove_fault.clicked.connect(self.buttonClick)
-        widgets.btn_start_mutation.clicked.connect(basla_func)
-        widgets.btn_save_fiplan.clicked.connect(self.buttonClick)
-        widgets.btn_remove_fiplan.clicked.connect(self.buttonClick)
+        self.ui.btn_random_fault.clicked.connect(random_hata_bas)
+        self.ui.btn_slct_fiplan.clicked.connect(fiplan_get_file_json)
+        self.ui.btn_create_custom.clicked.connect(self.buttonClick)
+        self.ui.btn_select_fault.clicked.connect(fault_selection_from_library)
+        self.ui.btn_remove_fault.clicked.connect(self.buttonClick)
+        self.ui.btn_start_mutation.clicked.connect(basla_func)
+        self.ui.btn_save_fiplan.clicked.connect(self.buttonClick)
+        self.ui.btn_remove_fiplan.clicked.connect(self.buttonClick)
 
         # EXECUTION PAGE BUTTONS
-        widgets.btn_new_exe.clicked.connect(self.buttonClick)
-        widgets.btn_remove_exe.clicked.connect(self.buttonClick)
-        widgets.btn_select_metrics.clicked.connect(self.buttonClick)
-        widgets.btn_start_exe.clicked.connect(execution_module_function)
+        self.ui.btn_new_exe.clicked.connect(self.buttonClick)
+        self.ui.btn_remove_exe.clicked.connect(self.buttonClick)
+        self.ui.btn_select_metrics.clicked.connect(self.buttonClick)
+        self.ui.btn_start_exe.clicked.connect(execution_module_function)
 
         # MONITORING PAGE BUTTONS
-        widgets.btn_select_scenario.clicked.connect(get_file_rosbag)
-        widgets.btn_run_scenario.clicked.connect(self.buttonClick)
-        widgets.btn_create_report.clicked.connect(self.create_v_and_v_report)
+        self.ui.btn_select_scenario.clicked.connect(get_file_rosbag)
+        self.ui.btn_run_scenario.clicked.connect(self.buttonClick)
+        self.ui.btn_create_report.clicked.connect(self.create_v_and_v_report)
 
         # CREATE WORKLOAD PAGE BUTTONS
-        widgets.btn_changeDir.clicked.connect(self.buttonClick)
-        widgets.btn_workload_save.clicked.connect(self.buttonClick)
-        widgets.btn_take_tasks.clicked.connect(self.buttonClick)
-        widgets.btn_select_task.clicked.connect(self.buttonClick)
-        widgets.btn_remove_task.clicked.connect(self.buttonClick)
-        widgets.btn_save_task.clicked.connect(self.buttonClick)
-        widgets.btn_back_start.clicked.connect(self.buttonClick)
+        self.ui.btn_changeDir.clicked.connect(self.buttonClick)
+        self.ui.btn_workload_save.clicked.connect(self.buttonClick)
+        self.ui.btn_take_tasks.clicked.connect(self.buttonClick)
+        self.ui.btn_select_task.clicked.connect(self.buttonClick)
+        self.ui.btn_remove_task.clicked.connect(self.buttonClick)
+        self.ui.btn_save_task.clicked.connect(self.buttonClick)
+        self.ui.btn_back_start.clicked.connect(self.buttonClick)
 
         # CREATE CUSTOM SNIPPET PAGE BUTTONS
-        widgets.btn_create_snip.clicked.connect(self.buttonClick)
-        widgets.btn_save_snip.clicked.connect(self.buttonClick)
-        widgets.back_snip.clicked.connect(self.buttonClick)
-        widgets.btn_delete_snip.clicked.connect(self.buttonClick)
+        self.ui.btn_create_snip.clicked.connect(self.buttonClick)
+        self.ui.btn_save_snip.clicked.connect(self.buttonClick)
+        self.ui.back_snip.clicked.connect(self.buttonClick)
+        self.ui.btn_delete_snip.clicked.connect(self.buttonClick)
 
         # CREATE CUSTOM FAULT PAGE
-        widgets.btn_back_fi.clicked.connect(self.buttonClick)
-        widgets.btn_save_fault.clicked.connect(self.buttonClick)
-        widgets.btn_create_fault.clicked.connect(self.buttonClick)
-        widgets.btn_delete_fault.clicked.connect(self.buttonClick)
-        widgets.btn_remove_createdFault.clicked.connect(self.buttonClick)
+        self.ui.btn_back_fi.clicked.connect(self.buttonClick)
+        self.ui.btn_save_fault.clicked.connect(self.buttonClick)
+        self.ui.btn_create_fault.clicked.connect(self.buttonClick)
+        self.ui.btn_delete_fault.clicked.connect(self.buttonClick)
+        self.ui.btn_remove_createdFault.clicked.connect(self.buttonClick)
 
         # METRICS PAGE BUTTONS
-        widgets.btn_metric_list.clicked.connect(
+        self.ui.btn_metric_list.clicked.connect(
             metric_from_list_selection_with_double_click
         )
-        widgets.saveMetrics.clicked.connect(self.buttonClick)
-        widgets.btn_back_exe.clicked.connect(self.buttonClick)
+        self.ui.saveMetrics.clicked.connect(self.buttonClick)
+        self.ui.btn_back_exe.clicked.connect(self.buttonClick)
 
         # SHOW APP
         self.show()
@@ -1202,24 +1186,26 @@ class MainWindow(QMainWindow):
         use_custom_theme = False
 
         # SET HOME PAGE AND SELECT MENU
-        widgets.stackedWidget.setCurrentWidget(widgets.home)
-        widgets.btn_home.setStyleSheet(
-            UIFunctions.selectMenu(widgets.btn_home.styleSheet())
+        self.ui.stackedWidget.setCurrentWidget(self.ui.home)
+        self.ui.btn_home.setStyleSheet(
+            UIFunctions.selectMenu(self.ui.btn_home.styleSheet())
         )
 
     def left_menu_execution_page(self):
-        widgets.stackedWidget.setCurrentWidget(widgets.execution)
-        UIFunctions.resetStyle(self, widgets.btn_execution)
+        """Go to execution page from left menu"""
+        self.ui.stackedWidget.setCurrentWidget(self.ui.execution)
+        UIFunctions.resetStyle(self, self.ui.btn_execution)
         self.sender().setStyleSheet(UIFunctions.selectMenu(self.sender().styleSheet()))
-        widgets.titleRightInfo.setText("EXECUTION")
+        self.ui.titleRightInfo.setText("EXECUTION")
 
     def go_to_start_page(self):
+        """GO to start page button"""
         # connection = dbConnection.connect("VVToolDataBase","postgres","root")
         # connection.commit()
 
         self.ui.stackedWidget.setCurrentWidget(self.ui.start)
         UIFunctions.resetStyle(self, self.ui.btn_home.styleSheet())
-        widgets.btn_start.setStyleSheet(
+        self.ui.btn_start.setStyleSheet(
             UIFunctions.selectMenu(self.ui.btn_start.styleSheet())
         )
         self.ui.titleRightInfo.setText("START")
@@ -1232,27 +1218,29 @@ class MainWindow(QMainWindow):
         # if db_connection_status is True:
         #     IMFIT_functions.insert_system(connection, name, description)
 
+    # Splits source code to scan line by line
     def take_split_source_code(self):
+        """The function provides the splitted code to scan line by line"""
         pure_source_code_content = self.ui.textEdit_4.toPlainText()
         split_text = pure_source_code_content.split("\n")
         self.ui.listWidget_2.addItems(split_text)
 
         return split_text
 
-    # Yes Workload, Yes Code Snippet Scan Process Main Function
+    # Scan Process Main Function
     def start_scan_process(self):
-        """Start of scan process"""
-        check_detected_parts_list = widgets.listWidget_2.count()
+        """The function decides which scan process path to use"""
+        check_detected_parts_list = self.ui.listWidget_2.count()
 
-        # widgets.listWidget_2.add
+        # self.ui.listWidget_2.add
         if check_detected_parts_list:
-            widgets.listWidget_2.clear()
+            self.ui.listWidget_2.clear()
 
-        scan_page_source_code_check = widgets.textEdit_4.toPlainText()
+        scan_page_source_code_check = self.ui.textEdit_4.toPlainText()
 
         if scan_page_source_code_check:
-            is_empty_workload = len(widgets.textEdit_22.toPlainText())
-            selected_code_snippet_length = widgets.listWidget_17.count()
+            is_empty_workload = len(self.ui.textEdit_22.toPlainText())
+            selected_code_snippet_length = self.ui.listWidget_17.count()
 
             if is_empty_workload == 0 and selected_code_snippet_length == 0:
                 self.start_no_workload_no_code_snippet_process()
@@ -1263,10 +1251,11 @@ class MainWindow(QMainWindow):
             else:
                 self.start_yes_workload_yes_code_snippet_process()
 
+    # Function starts "Yes Workload, Yes Code Snipet" Scan Process
     def start_yes_workload_yes_code_snippet_process(self):
-        """Yes Workload, Yes Code Snippet"""
+        """Function manages yes workload, yes code snippet scan process"""
         detected_part_list_size = self.ui.listWidget_2.count()
-        selected_code_snippet_length = widgets.listWidget_17.count()
+        selected_code_snippet_length = self.ui.listWidget_17.count()
         code_snippet_regex_code = scan_process.open_code_snip()
         workload_text = self.ui.textEdit_22.toPlainText()
         workload_data = json.loads(workload_text)
@@ -1302,7 +1291,7 @@ class MainWindow(QMainWindow):
         """Progress Bar"""
         for i in range(100):
             time.sleep(0.01)
-            widgets.progressBar_2.setValue(i + 1)
+            self.ui.progressBar_2.setValue(i + 1)
 
     # Function takes source code to use on IM-FIT
     def take_source_code(self):
@@ -1319,7 +1308,7 @@ class MainWindow(QMainWindow):
         """In "Yes Workload, Yes Workload" Process,
         this function paints the detected parts of code as sky blue"""
         for i in faultable_line_number_list:
-            widgets.listWidget_2.item(i).setBackground(
+            self.ui.listWidget_2.item(i).setBackground(
                 QtGui.QColor(0, 128, 255)
             )  # Colored as sky blue
 
@@ -1346,11 +1335,15 @@ class MainWindow(QMainWindow):
 
     # Function adds the faultable lines to FI Plan page
     def add_fi_plan(self, faultable_line_list):
+        """Detected fault applicable lines
+        add to FI Plan page to apply mutation testing"""
         for painted_line in faultable_line_list:
             strip_painted_line = painted_line.strip()
             self.ui.listWidget.addItem(strip_painted_line)
 
+    # Function starts "No Workload, No Code Snipet" Scan Process
     def start_no_workload_no_code_snippet_process(self):
+        """Function manages no workload, no code snippet scan process"""
         code_snippet_regex_code_list = scan_process.take_code_snippet_regex_code_list()
         source_code_list = self.take_source_code()
         (
@@ -1364,9 +1357,11 @@ class MainWindow(QMainWindow):
         self.paint_sky_blue(faultable_line_number_list)
         self.add_fi_plan(faultable_line_list)
 
+    # Function starts "Yes Workload, No Code Snippet" Scan Process
     def start_yes_workload_no_code_snippet_process(self):
+        """Function manages yes workload, no code snippet scan process"""
         split_text = self.take_split_source_code()
-        workload_text = widgets.textEdit_22.toPlainText()
+        workload_text = self.ui.textEdit_22.toPlainText()
         workload_data = json.loads(workload_text)
         workload_function_name_list = scan_process.take_workload_name_list(
             workload_data
@@ -1386,19 +1381,19 @@ class MainWindow(QMainWindow):
         self.paint_sky_blue(faultable_line_number_list)
         self.add_fi_plan(faultable_line_list)
 
+    # Method takes code snippet for "No Workload, Yes Code Snippet" Scan Process
     def take_code_snippet_no_workload_yes_code_snippet(self):
-        selected_code_snippet_length = widgets.listWidget_17.count()
+        """Code snippets are taken by IM-FIT to use on no workload yes code snippet scan process"""
+        selected_code_snippet_length = self.ui.listWidget_17.count()
         code_snippet_data_list = []
-        for line_number in range(selected_code_snippet_length):  # code snippet list
-            line_from_code_snippet_list = widgets.listWidget_17.item(
-                line_number
-            ).text()  # code snippet list içerisindeki eleman
-            code_snippet_data_list.append(
-                line_from_code_snippet_list
-            )  # eleman listeye eklendi
+        for line_number in range(selected_code_snippet_length):
+            line_from_code_snippet_list = self.ui.listWidget_17.item(line_number).text()
+            code_snippet_data_list.append(line_from_code_snippet_list)
         return code_snippet_data_list
 
+    # Method start "No Workload, Yes Code Snippet" Scan Process
     def start_no_workload_yes_code_snippet_process(self):
+        """Method manages no workload yes code snippet scan process"""
         detected_part_list_size = self.ui.listWidget_2.count()
         code_snippet_data_list = self.take_code_snippet_no_workload_yes_code_snippet()
         patterns = scan_process.define_code_snippet_no_workload_yes_code_snippet(
@@ -1408,262 +1403,330 @@ class MainWindow(QMainWindow):
         (
             faultable_line_list,
             faultable_line_number_list,
-        ) = scan_process.find_target_no_workload_yes_code_snippet(
-            detected_part_list_size, split_text, patterns
-        )
+        ) = scan_process.find_target_no_workload_yes_code_snippet(split_text, patterns)
         self.scan_process_progress_bar()
         self.paint_sky_blue(faultable_line_number_list)
         self.add_fi_plan(faultable_line_list)
 
-    def create_v_and_v_report(self):
-        # save FPDF() class into a
-        # variable pdf
-        pdf = FPDF()
+    # # Method creates V&V report to show details of the mutation process to the user
+    # def create_v_and_v_report(self):
+    #     """ v&v Report is created by IM-FIT with using this method """
+    #     # save FPDF() class into a
+    #     # variable pdf
+    #     pdf = FPDF()
 
-        # Add a page
-        pdf.add_page()
+    #     # Add a page
+    #     pdf.add_page()
 
-        # set style and size of font
-        # that you want in the pdf
-        pdf.set_font("Arial", size=9)
+    #     # set style and size of font
+    #     # that you want in the pdf
+    #     pdf.set_font("Arial", size=9)
 
-        v_and_v_report_introduction = """
-        The V&V Report Created by IM-FIT
-        This reports shows information about AST Diagram of Source Codes, Fault List, Metric List, Rosbag Scenarios, etc.
-        Therefore the user can learn about its source codes.
-        
-        IM-FIT
-        """
-        pdf.cell(200, 10, txt=v_and_v_report_introduction, ln=1, align="C")
+    #     v_and_v_report_introduction = """
+    #     The V&V Report Created by IM-FIT
+    #     This reports shows information about AST Diagram of Source Codes, Fault List, Metric List, Rosbag Scenarios, etc.
+    #     Therefore the user can learn about its source codes.
 
-        monitoring_ast_diagram = widgets.textEdit_23.toPlainText()
-        pdf.cell(200, 10, txt=monitoring_ast_diagram, ln=1, align="L")
+    #     IM-FIT
+    #     """
+    #     pdf.cell(200, 10, txt=v_and_v_report_introduction, ln=1, align="C")
 
-        monitoring_metric_list_size = widgets.listWidget_9.count()
-        for i in range(0, monitoring_metric_list_size):
-            # create a cell
-            line_of_metric_list = widgets.listWidget_9.item(i).text()
-            pdf.cell(200, 10, txt=line_of_metric_list, ln=2, align="L")
+    #     monitoring_ast_diagram = self.ui.textEdit_23.toPlainText()
+    #     pdf.cell(200, 10, txt=monitoring_ast_diagram, ln=1, align="L")
 
-        monitoring_mutant_list_size = widgets.listWidget_16.count()
-        for i in range(0, monitoring_mutant_list_size):
-            # create a cell
-            line_of_mutant_list = widgets.listWidget_16.item(i).text()
-            pdf.cell(200, 10, txt=line_of_mutant_list, ln=3, align="L")
+    #     monitoring_metric_list_size = self.ui.listWidget_9.count()
+    #     for i in range(0, monitoring_metric_list_size):
+    #         # create a cell
+    #         line_of_metric_list = self.ui.listWidget_9.item(i).text()
+    #         pdf.cell(200, 10, txt=line_of_metric_list, ln=2, align="L")
 
-        monitoring_killed_mutants_output_list_size = widgets.listWidget_19.count()
-        for i in range(0, monitoring_killed_mutants_output_list_size):
-            # create a cell
-            line_of_killed_mutants_output_list = widgets.listWidget_19.item(i).text()
-            pdf.cell(200, 10, txt=line_of_killed_mutants_output_list, ln=4, align="L")
+    #     monitoring_mutant_list_size = self.ui.listWidget_16.count()
+    #     for i in range(0, monitoring_mutant_list_size):
+    #         # create a cell
+    #         line_of_mutant_list = self.ui.listWidget_16.item(i).text()
+    #         pdf.cell(200, 10, txt=line_of_mutant_list, ln=3, align="L")
 
-        monitoring_faults_list_size = widgets.listWidget_14.count()
-        for i in range(0, monitoring_faults_list_size):
-            # create a cell
-            line_of_faults_list = widgets.listWidget_14.item(i).text()
-            pdf.cell(200, 10, txt=line_of_faults_list, ln=5, align="L")
+    #     monitoring_killed_mutants_output_list_size = self.ui.listWidget_19.count()
+    #     for i in range(0, monitoring_killed_mutants_output_list_size):
+    #         # create a cell
+    #         line_of_killed_mutants_output_list = self.ui.listWidget_19.item(i).text()
+    #         pdf.cell(200, 10, txt=line_of_killed_mutants_output_list, ln=4, align="L")
 
-        monitoring_rosbag_scenarios_list_size = widgets.listWidget_12.count()
+    #     monitoring_faults_list_size = self.ui.listWidget_14.count()
+    #     for i in range(0, monitoring_faults_list_size):
+    #         # create a cell
+    #         line_of_faults_list = self.ui.listWidget_14.item(i).text()
+    #         pdf.cell(200, 10, txt=line_of_faults_list, ln=5, align="L")
+
+    #     monitoring_rosbag_scenarios_list_size = self.ui.listWidget_12.count()
+    #     for i in range(0, monitoring_rosbag_scenarios_list_size):
+    #         # create a cell
+    #         line_of_rosbag_scenarios_list = self.ui.listWidget_12.item(i).text()
+    #         pdf.cell(200, 10, txt=line_of_rosbag_scenarios_list, ln=6, align="L")
+
+    #     # # save the pdf with name .pdf
+    #     pdf.output("V&V_Report_by_IM-FIT.pdf")
+    #     self.ui.label_77.setText("V&V Report is Created")
+
+    def monitoring_report_rosbag_scenarios_list(self):
+        """Method adds rosbag scenarios to the rosbag scenarios list on monitoring page"""
+        monitoring_rosbag_scenarios_list = []
+        monitoring_rosbag_scenarios_list_size = self.ui.listWidget_12.count()
         for i in range(0, monitoring_rosbag_scenarios_list_size):
-            # create a cell
-            line_of_rosbag_scenarios_list = widgets.listWidget_12.item(i).text()
-            pdf.cell(200, 10, txt=line_of_rosbag_scenarios_list, ln=6, align="L")
+            line_of_rosbag_scenarios_list_line = self.ui.listWidget_12.item(i).text()
+            monitoring_rosbag_scenarios_list.append(line_of_rosbag_scanarios_list_line)
+        return monitoring_rosbag_scenarios_list
 
-        # # save the pdf with name .pdf
-        pdf.output("V&V_Report_by_IM-FIT.pdf")
-        widgets.label_77.setText("V&V Report is Created")
+    def monitoring_report_faults_list(self):
+        """Method shows the detected faults after execution process in fault list on monitoring page"""
+        monitoring_faults_list = []
+        monitoring_faults_list_size = self.ui.listWidget_14.count()
+        for i in range(0, monitoring_faults_list_size):
+            line_of_faults_list = self.ui.listWidget_14.item(i).text()
+            monitoring_faults_list.append(line_of_faults_list)
+        return monitoring_faults_list
+
+    def monitoring_report_killed_mutants_output_list(self):
+        """Outputs of detected killed mutants are added to the killed mutants output list by IM-FIT on monitoring page"""
+        monitoring_killed_mutants_output_list = []
+        monitoring_killed_mutants_output_list_size = self.ui.listWidget_19.count()
+        for i in range(0, monitoring_killed_mutants_output_list_size):
+            line_of_killed_mutants_output_list = self.ui.listWidget_19.item(i).text()
+            monitoring_killed_mutants_output_list.append(
+                line_of_killed_mutants_output_list
+            )
+        return monitoring_killed_mutants_output_list
+
+    def monitoring_report_mutant_list(self):
+        """Detected mutants are shown to the user by IM-FIT on monitoring page"""
+        monitoring_mutant_list = []
+        monitoring_mutant_list_size = self.ui.listWidget_16.count()
+        for i in range(0, monitoring_mutant_list_size):
+            line_of_mutant_list = self.ui.listWidget_16.item(i).text()
+            monitoring_mutant_list.append(line_of_mutant_list)
+        return monitroing_mutant_list
+
+    def monitoring_report_metric_list(self):
+        """Used metrics for the execution process and their results are shown to the user in the list on monitoring page"""
+        monitoring_metric_list = []
+        monitoring_metric_list_size = self.ui.listWidget_9.count()
+        for i in range(0, monitoring_metric_list_size):
+            line_of_metric_list = self.ui.listWidget_9.item(i).text()
+            monitoring_metric_list.append(line_of_metric_list)
+        return monitoring_metric_list
+
+    def create_v_and_v_report(self):
+        """Method manages creating a V&V report"""
+        monitoring_metric_list = self.monitoring_report_metric_list()
+        monitroing_mutant_list = self.monitoring_report_mutant_list()
+        monitoring_killed_mutants_output_list = (
+            self.monitoring_report_killed_mutants_output_list()
+        )
+        monitoring_faults_list = self.monitoring_report_faults_list()
+        monitoring_rosbag_scenarios_list = (
+            self.monitoring_report_rosbag_scenarios_list()
+        )
+        monitoring_process.create_new_v_and_v_report(
+            monitoring_metric_list,
+            monitroing_mutant_list,
+            monitoring_killed_mutants_output_list,
+            monitoring_faults_list,
+            monitoring_rosbag_scenarios_list,
+        )
+        self.ui.label_77.setText("V&V Report is Created")
 
     # BUTTONS CLICK FUNCTIONS
 
     def buttonClick(self):
+        """Button click function"""
         # GET BUTTON CLICKED
         btn = self.sender()
         btnName = btn.objectName()
 
         # HOME PAGE
         if btnName == "btn_home":
-            widgets.stackedWidget.setCurrentWidget(widgets.home)
+            self.ui.stackedWidget.setCurrentWidget(self.ui.home)
             UIFunctions.resetStyle(self, btnName)
             btn.setStyleSheet(UIFunctions.selectMenu(btn.styleSheet()))
-            widgets.titleRightInfo.setText("HOME")
+            self.ui.titleRightInfo.setText("HOME")
 
         # START PAGE
         if btnName == "btn_start":
-            widgets.stackedWidget.setCurrentWidget(widgets.start)
+            self.ui.stackedWidget.setCurrentWidget(self.ui.start)
             UIFunctions.resetStyle(self, btnName)
             btn.setStyleSheet(UIFunctions.selectMenu(btn.styleSheet()))
-            widgets.titleRightInfo.setText("START")
+            self.ui.titleRightInfo.setText("START")
 
         # SCAN PAGE
         if btnName == "btn_scan":
-            widgets.stackedWidget.setCurrentWidget(widgets.scan)
+            self.ui.stackedWidget.setCurrentWidget(self.ui.scan)
             UIFunctions.resetStyle(self, btnName)
             btn.setStyleSheet(UIFunctions.selectMenu(btn.styleSheet()))
-            widgets.titleRightInfo.setText("SCAN")
+            self.ui.titleRightInfo.setText("SCAN")
 
         # CODE SNIPPETS PAGE
         if btnName == "btn_code":
-            widgets.stackedWidget.setCurrentWidget(widgets.code)
+            self.ui.stackedWidget.setCurrentWidget(self.ui.code)
             UIFunctions.resetStyle(self, btnName)
             btn.setStyleSheet(UIFunctions.selectMenu(btn.styleSheet()))
-            widgets.titleRightInfo.setText("CODE SNIPPETS")
+            self.ui.titleRightInfo.setText("CODE SNIPPETS")
 
         # FIPLAN PAGE
         if btnName == "btn_fiplan":
-            widgets.stackedWidget.setCurrentWidget(widgets.fiplan)
+            self.ui.stackedWidget.setCurrentWidget(self.ui.fiplan)
             UIFunctions.resetStyle(self, btnName)
             btn.setStyleSheet(UIFunctions.selectMenu(btn.styleSheet()))
-            widgets.titleRightInfo.setText("FAULT INJECTION PLAN")
+            self.ui.titleRightInfo.setText("FAULT INJECTION PLAN")
 
         # EXECUTION PAGE
         if btnName == "btn_execution":
-            widgets.stackedWidget.setCurrentWidget(widgets.execution)
+            self.ui.stackedWidget.setCurrentWidget(self.ui.execution)
             UIFunctions.resetStyle(self, btnName)
             btn.setStyleSheet(UIFunctions.selectMenu(btn.styleSheet()))
-            widgets.titleRightInfo.setText("EXECUTION")
+            self.ui.titleRightInfo.setText("EXECUTION")
 
         # MONITORING PAGE
         if btnName == "btn_monitoring":
-            widgets.stackedWidget.setCurrentWidget(widgets.monitoring)
+            self.ui.stackedWidget.setCurrentWidget(self.ui.monitoring)
             UIFunctions.resetStyle(self, btnName)
             btn.setStyleSheet(UIFunctions.selectMenu(btn.styleSheet()))
-            widgets.titleRightInfo.setText("MONITORING")
+            self.ui.titleRightInfo.setText("MONITORING")
 
         ### PAGE CHANGE BUTTONS ###
 
         if btnName == "btn_go_start":
-            widgets.stackedWidget.setCurrentWidget(widgets.start)
-            UIFunctions.resetStyle(self, widgets.btn_home.styleSheet())
-            widgets.btn_start.setStyleSheet(
-                UIFunctions.selectMenu(widgets.btn_start.styleSheet())
+            self.ui.stackedWidget.setCurrentWidget(self.ui.start)
+            UIFunctions.resetStyle(self, self.ui.btn_home.styleSheet())
+            self.ui.btn_start.setStyleSheet(
+                UIFunctions.selectMenu(self.ui.btn_start.styleSheet())
             )
-            widgets.titleRightInfo.setText("START")
+            self.ui.titleRightInfo.setText("START")
 
         if btnName == "btn_go_start_2":
-            widgets.stackedWidget.setCurrentWidget(widgets.start)
-            UIFunctions.resetStyle(self, widgets.btn_home.styleSheet())
-            widgets.btn_start.setStyleSheet(
-                UIFunctions.selectMenu(widgets.btn_start.styleSheet())
+            self.ui.stackedWidget.setCurrentWidget(self.ui.start)
+            UIFunctions.resetStyle(self, self.ui.btn_home.styleSheet())
+            self.ui.btn_start.setStyleSheet(
+                UIFunctions.selectMenu(self.ui.btn_start.styleSheet())
             )
-            widgets.titleRightInfo.setText("START")
+            self.ui.titleRightInfo.setText("START")
 
         if btnName == "back_start_page":
-            widgets.stackedWidget.setCurrentWidget(widgets.start)
-            widgets.titleRightInfo.setText("START")
+            self.ui.stackedWidget.setCurrentWidget(self.ui.start)
+            self.ui.titleRightInfo.setText("START")
 
         if btnName == "btn_go_scan":
-            widgets.stackedWidget.setCurrentWidget(widgets.scan)
-            UIFunctions.resetStyle(self, widgets.btn_start.styleSheet())
-            widgets.btn_scan.setStyleSheet(
-                UIFunctions.selectMenu(widgets.btn_scan.styleSheet())
+            self.ui.stackedWidget.setCurrentWidget(self.ui.scan)
+            UIFunctions.resetStyle(self, self.ui.btn_start.styleSheet())
+            self.ui.btn_scan.setStyleSheet(
+                UIFunctions.selectMenu(self.ui.btn_scan.styleSheet())
             )
-            widgets.titleRightInfo.setText("SCAN")
-            # widgets.textEdit_3.clear()
+            self.ui.titleRightInfo.setText("SCAN")
+            # self.ui.textEdit_3.clear()
 
-            # check_source_code_text = widgets.textEdit_4.toPlainText()
-            # check_workload_text = widgets.textEdit_22.toPlainText()
-            # check_code_snippet_list = widgets.listWidget_17.count()
+            # check_source_code_text = self.ui.textEdit_4.toPlainText()
+            # check_workload_text = self.ui.textEdit_22.toPlainText()
+            # check_code_snippet_list = self.ui.listWidget_17.count()
 
             # if check_source_code_text or check_workload_text or check_code_snippet_list:
-            #     widgets.textEdit_4.clear()
-            #     widgets.textEdit_22.clear()
-            #     widgets.listWidget_17.clear()
+            #     self.ui.textEdit_4.clear()
+            #     self.ui.textEdit_22.clear()
+            #     self.ui.listWidget_17.clear()
 
-            if widgets.checkBox_3.isChecked() is True:
-                widgets.textEdit_4.setPlainText(
-                    widgets.source_code_content.toPlainText()
+            if self.ui.checkBox_3.isChecked() is True:
+                self.ui.textEdit_4.setPlainText(
+                    self.ui.source_code_content.toPlainText()
                 )
-                widgets.textEdit_22.setPlainText(widgets.textEdit_3.toPlainText())
-                check_selected_code_snippet_list = widgets.listWidget_8.count()
+                self.ui.textEdit_22.setPlainText(self.ui.textEdit_3.toPlainText())
+                check_selected_code_snippet_list = self.ui.listWidget_8.count()
 
                 if check_selected_code_snippet_list:
                     code_snippet_data_list = []
                     for i in range(0, check_selected_code_snippet_list):
-                        code_snippet_data = widgets.listWidget_8.item(i).text()
+                        code_snippet_data = self.ui.listWidget_8.item(i).text()
                         code_snippet_data_list.append(code_snippet_data)
 
-                    widgets.listWidget_17.addItems(code_snippet_data_list)
+                    self.ui.listWidget_17.addItems(code_snippet_data_list)
 
         if btnName == "btn_go_fiplan":
-            widgets.stackedWidget.setCurrentWidget(widgets.fiplan)
-            UIFunctions.resetStyle(self, widgets.btn_scan.styleSheet())
-            widgets.btn_fiplan.setStyleSheet(
-                UIFunctions.selectMenu(widgets.btn_fiplan.styleSheet())
+            self.ui.stackedWidget.setCurrentWidget(self.ui.fiplan)
+            UIFunctions.resetStyle(self, self.ui.btn_scan.styleSheet())
+            self.ui.btn_fiplan.setStyleSheet(
+                UIFunctions.selectMenu(self.ui.btn_fiplan.styleSheet())
             )
-            widgets.titleRightInfo.setText("FAULT INJECTION PLAN")
+            self.ui.titleRightInfo.setText("FAULT INJECTION PLAN")
 
             for original_line in self.code_part_for_mutation:
                 if not isinstance(original_line, int):
                     new_line = original_line.lstrip()
-                    widgets.listWidget.addItem(new_line)
+                    self.ui.listWidget.addItem(new_line)
 
-            line_number = widgets.listWidget.count()
+            line_number = self.ui.listWidget.count()
 
             for number in range(0, line_number):
                 if number % 2 == 0:
-                    widgets.listWidget.item(number).setBackground(
+                    self.ui.listWidget.item(number).setBackground(
                         QtGui.QColor(52, 59, 72)
                     )  # Gri
                 else:
-                    widgets.listWidget.item(number).setBackground(
+                    self.ui.listWidget.item(number).setBackground(
                         QtGui.QColor(40, 44, 52)
                     )  # Arka plan rengi
 
         if btnName == "btn_go_exe":
-            widgets.stackedWidget.setCurrentWidget(widgets.execution)
-            UIFunctions.resetStyle(self, widgets.btn_fiplan.styleSheet())
-            widgets.btn_execution.setStyleSheet(
-                UIFunctions.selectMenu(widgets.btn_execution.styleSheet())
+            self.ui.stackedWidget.setCurrentWidget(self.ui.execution)
+            UIFunctions.resetStyle(self, self.ui.btn_fiplan.styleSheet())
+            self.ui.btn_execution.setStyleSheet(
+                UIFunctions.selectMenu(self.ui.btn_execution.styleSheet())
             )
-            widgets.titleRightInfo.setText("EXECUTION")
+            self.ui.titleRightInfo.setText("EXECUTION")
 
         if btnName == "btn_go_exe_2":
-            widgets.stackedWidget.setCurrentWidget(widgets.execution)
-            UIFunctions.resetStyle(self, widgets.btn_fiplan.styleSheet())
-            widgets.btn_execution.setStyleSheet(
-                UIFunctions.selectMenu(widgets.btn_execution.styleSheet())
+            self.ui.stackedWidget.setCurrentWidget(self.ui.execution)
+            UIFunctions.resetStyle(self, self.ui.btn_fiplan.styleSheet())
+            self.ui.btn_execution.setStyleSheet(
+                UIFunctions.selectMenu(self.ui.btn_execution.styleSheet())
             )
-            widgets.titleRightInfo.setText("EXECUTION")
+            self.ui.titleRightInfo.setText("EXECUTION")
 
         if btnName == "go_execution":
-            widgets.stackedWidget.setCurrentWidget(widgets.execution)
-            UIFunctions.resetStyle(self, widgets.btn_start.styleSheet())
-            widgets.btn_execution.setStyleSheet(
-                UIFunctions.selectMenu(widgets.btn_execution.styleSheet())
+            self.ui.stackedWidget.setCurrentWidget(self.ui.execution)
+            UIFunctions.resetStyle(self, self.ui.btn_start.styleSheet())
+            self.ui.btn_execution.setStyleSheet(
+                UIFunctions.selectMenu(self.ui.btn_execution.styleSheet())
             )
-            widgets.titleRightInfo.setText("EXECUTION")
+            self.ui.titleRightInfo.setText("EXECUTION")
 
         if btnName == "btn_go_monitoring":
-            widgets.stackedWidget.setCurrentWidget(widgets.monitoring)
-            UIFunctions.resetStyle(self, widgets.btn_execution.styleSheet())
-            widgets.btn_monitoring.setStyleSheet(
-                UIFunctions.selectMenu(widgets.btn_monitoring.styleSheet())
+            self.ui.stackedWidget.setCurrentWidget(self.ui.monitoring)
+            UIFunctions.resetStyle(self, self.ui.btn_execution.styleSheet())
+            self.ui.btn_monitoring.setStyleSheet(
+                UIFunctions.selectMenu(self.ui.btn_monitoring.styleSheet())
             )
-            widgets.titleRightInfo.setText("MONITORING")
+            self.ui.titleRightInfo.setText("MONITORING")
 
         if btnName == "btn_new_one":
-            widgets.stackedWidget.setCurrentWidget(widgets.start)
-            UIFunctions.resetStyle(self, widgets.btn_monitoring.styleSheet())
-            widgets.btn_start.setStyleSheet(
-                UIFunctions.selectMenu(widgets.btn_start.styleSheet())
+            self.ui.stackedWidget.setCurrentWidget(self.ui.start)
+            UIFunctions.resetStyle(self, self.ui.btn_monitoring.styleSheet())
+            self.ui.btn_start.setStyleSheet(
+                UIFunctions.selectMenu(self.ui.btn_start.styleSheet())
             )
-            widgets.titleRightInfo.setText("START")
+            self.ui.titleRightInfo.setText("START")
 
         ### PAGES ###
 
         # START PAGE
 
         if btnName == "open_ros_page":
-            widgets.stackedWidget.setCurrentWidget(widgets.ros_page)
-            widgets.titleRightInfo.setText("ROS Mutation Module")
+            self.ui.stackedWidget.setCurrentWidget(self.ui.ros_page)
+            self.ui.titleRightInfo.setText("ROS Mutation Module")
             UIFunctions.resetStyle(self, btnName)
             btn.setStyleSheet(UIFunctions.selectMenu(btn.styleSheet()))
 
         if btnName == "btn_create_workload":
-            widgets.stackedWidget.setCurrentWidget(widgets.cWorkload)
-            widgets.leftMenuBg.hide()
-            widgets.toggleButton.show()
-            widgets.titleRightInfo.setText("START - CREATE WORKLOAD")
+            self.ui.stackedWidget.setCurrentWidget(self.ui.cWorkload)
+            self.ui.leftMenuBg.hide()
+            self.ui.toggleButton.show()
+            self.ui.titleRightInfo.setText("START - CREATE WORKLOAD")
 
         if btnName == "btn_add_custom":
             dialog = QFileDialog()
@@ -1676,25 +1739,25 @@ class MainWindow(QMainWindow):
                 if file_name[0].endswith(".json"):
                     with open(file_name[0], mode="r", encoding="utf-8") as file:
                         data = file.read()
-                        widgets.textEdit_24.setPlainText(data)
+                        self.ui.textEdit_24.setPlainText(data)
                         code_snippets_list_json = json.loads(data)
 
                         task_name = str(code_snippets_list_json["Snippet_Name"])
-                        widgets.listWidget_8.addItem(task_name)
-                        widgets.code_snippet_list.addItem(task_name)
+                        self.ui.listWidget_8.addItem(task_name)
+                        self.ui.code_snippet_list.addItem(task_name)
 
         if btnName == "btn_clear_codes":
-            widgets.source_code_content.clear()
+            self.ui.source_code_content.clear()
 
         if btnName == "btn_clear_workload":
-            widgets.textEdit_3.clear()
+            self.ui.textEdit_3.clear()
 
         if btnName == "try_test_case":
             test_code_for_test_case = (
                 "import pytest\n"
-                + widgets.source_code_content.toPlainText()
+                + self.ui.source_code_content.toPlainText()
                 + "\n"
-                + widgets.test_case_content.toPlainText()
+                + self.ui.test_case_content.toPlainText()
             )
             with open("test_code.py", mode="w+", encoding="utf-8") as file:
                 file.write(test_code_for_test_case)
@@ -1702,7 +1765,7 @@ class MainWindow(QMainWindow):
             output = subprocess.getstatusoutput("pytest test_code.py")
             new_output = re.sub("=", "", output[1])
 
-            widgets.test_case_terminal.setPlainText(new_output)
+            self.ui.test_case_terminal.setPlainText(new_output)
 
         if btnName == "pushButton_10":
 
@@ -1716,8 +1779,8 @@ class MainWindow(QMainWindow):
 
                     with open(file_name[0], mode="r", encoding="utf-8") as file:
                         data = file.read()
-                        widgets.textEdit_21.setPlainText(file_name[0])
-                        widgets.textEdit_40.setPlainText(data)
+                        self.ui.textEdit_21.setPlainText(file_name[0])
+                        self.ui.textEdit_40.setPlainText(data)
                 else:
                     message_box = QMessageBox()
                     message_box.setIcon(QMessageBox.Critical)
@@ -1742,26 +1805,26 @@ class MainWindow(QMainWindow):
                         file_name[0], mode="r", encoding="utf-8"
                     ) as file:  # file_name[0] is directory of file
                         workload_content_data = file.read()
-                        widgets.textEdit_44.setPlainText(
+                        self.ui.textEdit_44.setPlainText(
                             str(file_name[0])
                         )  # Source code directory is added to the text
-                        widgets.plainTextEdit.setPlainText(workload_content_data)
-                        widgets.plainTextEdit_2.setPlainText(workload_content_data)
+                        self.ui.plainTextEdit.setPlainText(workload_content_data)
+                        self.ui.plainTextEdit_2.setPlainText(workload_content_data)
 
         if btnName == "btn_workload_save":
             dialog = QFileDialog()
             path_name = QFileDialog.getExistingDirectory()
-            text = widgets.textEdit_42.toPlainText() + ".json"
+            text = self.ui.textEdit_42.toPlainText() + ".json"
             full_path = os.path.join(path_name, text)
-            created_workload_content = widgets.plainTextEdit_2.toPlainText()
+            created_workload_content = self.ui.plainTextEdit_2.toPlainText()
 
             with open(full_path, mode="w", encoding="utf-8") as file:
                 file.write(created_workload_content)
 
         if btnName == "btn_take_tasks":
             try:
-                all_task_list_size = widgets.listWidget_21.count()
-                json_type_task = widgets.plainTextEdit.toPlainText()
+                all_task_list_size = self.ui.listWidget_21.count()
+                json_type_task = self.ui.plainTextEdit.toPlainText()
                 json_loaded_task = json.loads(json_type_task)
 
                 if all_task_list_size == 0:
@@ -1771,16 +1834,16 @@ class MainWindow(QMainWindow):
                             json_loaded_task["Tasks"][i]["Task"]["Task_ID"]
                         )
                         split_workload_task = workload_task.split("\n")
-                        widgets.listWidget_21.addItems(split_workload_task)
+                        self.ui.listWidget_21.addItems(split_workload_task)
                 else:
-                    widgets.listWidget_21.clear()
+                    self.ui.listWidget_21.clear()
 
                     for i in range(0, len(json_loaded_task["Tasks"])):
                         workload_task = str(
                             json_loaded_task["Tasks"][i]["Task"]["Task_ID"]
                         )
                         split_workload_task = workload_task.split("\n")
-                        widgets.listWidget_21.addItems(split_workload_task)
+                        self.ui.listWidget_21.addItems(split_workload_task)
             except:
                 message_box = QMessageBox()
                 message_box.setIcon(QMessageBox.Critical)
@@ -1802,54 +1865,53 @@ class MainWindow(QMainWindow):
                 message_box.exec()
 
         if btnName == "btn_select_task":
-            selected_task_from_list = widgets.listWidget_21.currentItem().text()
+            selected_task_from_list = self.ui.listWidget_21.currentItem().text()
             split_selected_task_from_list = selected_task_from_list.split("\n")
-            widgets.listWidget_22.addItems(split_selected_task_from_list)
+            self.ui.listWidget_22.addItems(split_selected_task_from_list)
 
         if btnName == "btn_save_task":
             all_selected_snippets = ""
 
-            selected_task_list_size = widgets.listWidget_22.count()
+            selected_task_list_size = self.ui.listWidget_22.count()
 
-            json_type_task = widgets.plainTextEdit.toPlainText()
+            json_type_task = self.ui.plainTextEdit.toPlainText()
             tasks_list_json = json.loads(json_type_task)
 
             if selected_task_list_size:
                 dialog = QFileDialog()
                 path_name = QFileDialog.getExistingDirectory()
 
-                task_name = widgets.textEdit_5.toPlainText()
+                task_name = self.ui.textEdit_5.toPlainText()
 
                 task_path_and_name = os.path.join(path_name, task_name + ".json")
 
                 for i in range(0, len(tasks_list_json["Tasks"])):
                     task_name = str(tasks_list_json["Tasks"][i]["Task"]["Task_ID"])
-                    for j in range(0, widgets.listWidget_22.count()):
-                        list_item = widgets.listWidget_22.item(j).text()
+                    for j in range(0, self.ui.listWidget_22.count()):
+                        list_item = self.ui.listWidget_22.item(j).text()
                         if task_name == list_item:
                             task_detail = str(tasks_list_json["Tasks"][i]["Task"])
                             for i in task_detail:
                                 all_selected_snippets += i
 
-                json_file = open(task_path_and_name, mode="w", encoding="utf-8")
-                json_file.write(all_selected_snippets)
-                json_file.close()
+                with open(task_path_and_name, mode="w", encoding="utf-8") as json_file:
+                    json_file.write(all_selected_snippets)
 
-                widgets.label_4.setText("SAVED!")
+                self.ui.label_4.setText("SAVED!")
 
         if btnName == "btn_remove_task":
-            row = widgets.listWidget_22.currentRow()
-            widgets.listWidget_22.takeItem(row)
+            row = self.ui.listWidget_22.currentRow()
+            self.ui.listWidget_22.takeItem(row)
 
         if btnName == "btn_back_start":
-            widgets.stackedWidget.setCurrentWidget(widgets.start)
-            widgets.leftMenuBg.show()
-            widgets.titleRightInfo.setText("START")
+            self.ui.stackedWidget.setCurrentWidget(self.ui.start)
+            self.ui.leftMenuBg.show()
+            self.ui.titleRightInfo.setText("START")
 
         # ROS PAGE at START PAGE
 
         if btnName == "ros_fiplan_save":
-            if widgets.textEdit_45.toPlainText() != "":
+            if self.ui.textEdit_45.toPlainText() != "":
                 global ROS_SOURCE_MUTANT
                 ROS_SOURCE_MUTANT = []
 
@@ -1860,18 +1922,18 @@ class MainWindow(QMainWindow):
                 dialog = QFileDialog()
                 path_name = QFileDialog.getExistingDirectory()
 
-                directory = widgets.textEdit_47.toPlainText()
+                directory = self.ui.textEdit_47.toPlainText()
 
                 split_directory = directory.split("/")
 
                 if path_name != "":
                     if split_directory[-2] == "launch":
                         ros_fiplan_name = (
-                            widgets.textEdit_45.toPlainText() + "_type_launch.json"
+                            self.ui.textEdit_45.toPlainText() + "_type_launch.json"
                         )
                     else:
                         ros_fiplan_name = (
-                            widgets.textEdit_45.toPlainText() + "_type_rospy.json"
+                            self.ui.textEdit_45.toPlainText() + "_type_rospy.json"
                         )
 
                     len_ros_source_mutant = len(ROS_SOURCE_MUTANT)
@@ -1888,7 +1950,7 @@ class MainWindow(QMainWindow):
                                         "File_Directory": file_directory,
                                         "Source_Code": original_code,
                                         "Mutate_Code": mutant_code,
-                                        "Exe_File:": widgets.label_86.text(),
+                                        "Exe_File:": self.ui.label_86.text(),
                                     }
                                 }
 
@@ -1919,8 +1981,8 @@ class MainWindow(QMainWindow):
                     fi_plan_directory_list.append(ros_fi_plan_path)
 
                     split_text = str(fi_plan_directory_list[-1]).split("\n")
-                    widgets.listWidget_36.addItems(split_text)
-                    widgets.listWidget_6.addItems(split_text)
+                    self.ui.listWidget_36.addItems(split_text)
+                    self.ui.listWidget_6.addItems(split_text)
 
                 else:
                     message_box = QMessageBox()
@@ -1993,19 +2055,19 @@ class MainWindow(QMainWindow):
                 print("Process Done")
 
                 rosnodes = rosnode_list.split("\n")
-                widgets.listWidget_27.addItems(rosnodes)
+                self.ui.listWidget_27.addItems(rosnodes)
 
                 # ROS TOPIC LIST
                 rostopics = rostopic_list.split("\n")
-                widgets.listWidget_28.addItems(rostopics)
+                self.ui.listWidget_28.addItems(rostopics)
 
                 # ROS SERVICE LIST
                 rosservices = rosservice_list.split("\n")
-                widgets.listWidget_29.addItems(rosservices)
+                self.ui.listWidget_29.addItems(rosservices)
 
                 # ROS PARAMETER LIST
                 rosparams = rosparam_list.split("\n")
-                widgets.listWidget_30.addItems(rosparams)
+                self.ui.listWidget_30.addItems(rosparams)
 
                 # # ROS MESSAGE LIST
                 # print(rosmsg_list)
@@ -2024,7 +2086,7 @@ class MainWindow(QMainWindow):
                 message_box.setStandardButtons(QMessageBox.Ok)
                 message_box.exec()
 
-                roslaunch_folder_directory_path = widgets.textEdit_47.toPlainText()
+                roslaunch_folder_directory_path = self.ui.textEdit_47.toPlainText()
                 split_roslaunch_folder_directory_path = (
                     roslaunch_folder_directory_path.split("/")
                 )
@@ -2032,7 +2094,7 @@ class MainWindow(QMainWindow):
                 folder_name = split_roslaunch_folder_directory_path[-3]
                 print(folder_name)
 
-                ros_exe_file_name = widgets.label_86.text()
+                ros_exe_file_name = self.ui.label_86.text()
 
                 ros_process = subprocess.Popen(
                     [
@@ -2059,26 +2121,26 @@ class MainWindow(QMainWindow):
                 print("Process Done")
 
                 rosnodes = rosnode_list.split("\n")
-                widgets.listWidget_27.addItems(rosnodes)
+                self.ui.listWidget_27.addItems(rosnodes)
 
                 # ROS TOPIC LIST
                 rostopics = rostopic_list.split("\n")
-                widgets.listWidget_28.addItems(rostopics)
+                self.ui.listWidget_28.addItems(rostopics)
 
                 # ROS SERVICE LIST
                 rosservices = rosservice_list.split("\n")
-                widgets.listWidget_29.addItems(rosservices)
+                self.ui.listWidget_29.addItems(rosservices)
 
                 # ROS PARAMETER LIST
                 rosparams = rosparam_list.split("\n")
-                widgets.listWidget_30.addItems(rosparams)
+                self.ui.listWidget_30.addItems(rosparams)
 
                 # # ROS MESSAGE LIST
                 # print(rosmsg_list)
                 # # ROS SRV LIST
                 # print(rossrv_list)
 
-            directory = widgets.textEdit_47.toPlainText()
+            directory = self.ui.textEdit_47.toPlainText()
             split_directory = directory.split("/")
 
             if split_directory[-2] == "launch":
@@ -2096,7 +2158,7 @@ class MainWindow(QMainWindow):
                 message_box.exec()
 
             elif split_directory[-2] == "scripts" or split_directory[-2] == "src":
-                if widgets.checkBox_11.isChecked() is True:
+                if self.ui.checkBox_11.isChecked() is True:
                     message_box = QMessageBox()
                     message_box.setIcon(QMessageBox.Information)
                     message_box.setText("Process Started. Please Wait!")
@@ -2126,20 +2188,20 @@ class MainWindow(QMainWindow):
 
         if btnName == "add_order_btn":
             # ROS Package
-            target_file_path = widgets.textEdit_47.toPlainText()
+            target_file_path = self.ui.textEdit_47.toPlainText()
             splitted_target_path = target_file_path.split("/")
 
             try:
-                file_from_tree = str(widgets.treeView.selectedIndexes()[0].data())
+                file_from_tree = str(self.ui.treeView.selectedIndexes()[0].data())
 
                 if (
                     splitted_target_path[-2] == "scripts"
                     or splitted_target_path[-2] == "src"
                     and file_from_tree != ""
                 ):
-                    path = widgets.textEdit_47.toPlainText()
+                    path = self.ui.textEdit_47.toPlainText()
                     rospy_directory_and_file_name = path + file_from_tree
-                    widgets.listWidget_26.addItem(rospy_directory_and_file_name)
+                    self.ui.listWidget_26.addItem(rospy_directory_and_file_name)
                     RUN_ORDER_LIST_JUST_PATH.append(path)
                     RUN_ORDER_LIST_JUST_PATH.append(file_from_tree)
 
@@ -2178,7 +2240,7 @@ class MainWindow(QMainWindow):
                         directory_split = file_name[0].split("/")
                         ros_file_name = directory_split[-1]
 
-                        widgets.label_86.setText(ros_file_name)
+                        self.ui.label_86.setText(ros_file_name)
                         directory_split.pop(-1)
 
                         ros_launch_directory = ""
@@ -2186,20 +2248,20 @@ class MainWindow(QMainWindow):
                         for i in directory_split:
                             ros_launch_directory += i + "/"
 
-                        widgets.textEdit_47.setPlainText(ros_launch_directory)
+                        self.ui.textEdit_47.setPlainText(ros_launch_directory)
                         ROS_SOURCE_CODE = data
                         splitted_ros_source_codes = ROS_SOURCE_CODE.split("\n")
-                        widgets.listWidget_32.addItems(splitted_ros_source_codes)
+                        self.ui.listWidget_32.addItems(splitted_ros_source_codes)
 
                     model = QFileSystemModel()
                     model.setRootPath(ros_launch_directory)
 
-                    widgets.treeView.setModel(model)
-                    widgets.treeView.setRootIndex(model.index(ros_launch_directory))
-                    widgets.treeView.setSortingEnabled(True)
-                    widgets.treeView.hideColumn(1)
-                    widgets.treeView.hideColumn(2)
-                    widgets.treeView.hideColumn(3)
+                    self.ui.treeView.setModel(model)
+                    self.ui.treeView.setRootIndex(model.index(ros_launch_directory))
+                    self.ui.treeView.setSortingEnabled(True)
+                    self.ui.treeView.hideColumn(1)
+                    self.ui.treeView.hideColumn(2)
+                    self.ui.treeView.hideColumn(3)
 
                 else:
                     message_box = QMessageBox()
@@ -2214,8 +2276,8 @@ class MainWindow(QMainWindow):
         if btnName == "remove_order_btn":
 
             def remove_ros():
-                row = widgets.listWidget_26.currentRow()
-                widgets.listWidget_26.takeItem(row)
+                row = self.ui.listWidget_26.currentRow()
+                self.ui.listWidget_26.takeItem(row)
 
             remove_ros()
 
@@ -2225,12 +2287,12 @@ class MainWindow(QMainWindow):
                 global ZIPPED_ROS_LIST
                 ZIPPED_ROS_LIST = []
 
-                is_text_full = widgets.textEdit_33.toPlainText()
+                is_text_full = self.ui.textEdit_33.toPlainText()
 
                 if is_text_full:
                     try:
-                        selected_line = widgets.listWidget_33.currentItem().text()
-                        selected_fault = widgets.listWidget_34.currentItem().text()
+                        selected_line = self.ui.listWidget_33.currentItem().text()
+                        selected_fault = self.ui.listWidget_34.currentItem().text()
 
                         selected_line_text = "Line: " + selected_line
                         selected_fault_text = "\tFault: " + selected_fault
@@ -2244,7 +2306,7 @@ class MainWindow(QMainWindow):
 
                         line_and_fault = selected_line_and_fault.split("\n")
 
-                        widgets.listWidget_35.addItems(line_and_fault)
+                        self.ui.listWidget_35.addItems(line_and_fault)
 
                     except AttributeError() or TypeError():
                         print("Error!")
@@ -2263,7 +2325,7 @@ class MainWindow(QMainWindow):
                     new_file_name = directory.split("/")
                     ros_fi_plan_name = new_file_name[-1]
                     name_and_path = ros_fi_plan_name + "    Directory: " + directory
-                    widgets.listWidget_36.addItem(name_and_path)
+                    self.ui.listWidget_36.addItem(name_and_path)
                     fi_plan_directory_list.append(name_and_path)
 
         if btnName == "ros_fiplan_remove":
@@ -2272,21 +2334,21 @@ class MainWindow(QMainWindow):
                 fi_plan_directory_list = []
 
                 if fi_plan_directory_list:
-                    row = widgets.listWidget_36.currentRow()
-                    widgets.listWidget_36.takeItem(row)
+                    row = self.ui.listWidget_36.currentRow()
+                    self.ui.listWidget_36.takeItem(row)
                     fi_plan_directory_list.pop(row)
 
             ros_fiplan_remove()
 
         if btnName == "ros_test_case":
-            ros_source_code_list_count = widgets.listWidget_10.count()
-            widgets.stackedWidget.setCurrentWidget(widgets.rospagetest)
-            widgets.leftMenuBg.hide()
-            widgets.titleRightInfo.setText("CODE SNIPPETS - CREATE CUSTOM SNIPPETS")
+            ros_source_code_list_count = self.ui.listWidget_10.count()
+            self.ui.stackedWidget.setCurrentWidget(self.ui.rospagetest)
+            self.ui.leftMenuBg.hide()
+            self.ui.titleRightInfo.setText("CODE SNIPPETS - CREATE CUSTOM SNIPPETS")
             if ros_source_code_list_count > 0:
                 for line_number in range(0, ros_source_code_list_count):
-                    ros_line_content = widgets.listWidget_10.item(line_number).text()
-                    widgets.listWidget_20.addItem(ros_line_content)
+                    ros_line_content = self.ui.listWidget_10.item(line_number).text()
+                    self.ui.listWidget_20.addItem(ros_line_content)
 
         if btnName == "open_ros_test_case":
             dialog = QFileDialog()
@@ -2303,8 +2365,8 @@ class MainWindow(QMainWindow):
 
                     with open(file_name[0], mode="r", encoding="utf-8") as file:
                         data = file.read()
-                        widgets.textEdit_43.setPlainText(file_name[0])
-                        widgets.textEdit_12.setPlainText(data)
+                        self.ui.textEdit_43.setPlainText(file_name[0])
+                        self.ui.textEdit_12.setPlainText(data)
 
                 else:
                     QMessageBox().setIcon(QMessageBox.Critical)
@@ -2329,21 +2391,21 @@ class MainWindow(QMainWindow):
 
                 roscore_process.terminate()
 
-            widgets.textEdit_41.setPlainText(ros_process)
+            self.ui.textEdit_41.setPlainText(ros_process)
 
         if btnName == "ros_save_test_case":
-            widgets.stackedWidget.setCurrentWidget(widgets.rospagetest)
-            widgets.leftMenuBg.hide()
-            widgets.titleRightInfo.setText("CODE SNIPPETS - CREATE CUSTOM SNIPPETS")
+            self.ui.stackedWidget.setCurrentWidget(self.ui.rospagetest)
+            self.ui.leftMenuBg.hide()
+            self.ui.titleRightInfo.setText("CODE SNIPPETS - CREATE CUSTOM SNIPPETS")
 
         if btnName == "back_to_start":
-            widgets.stackedWidget.setCurrentWidget(widgets.ros_page)
-            widgets.leftMenuBg.hide()
-            widgets.titleRightInfo.setText("CODE SNIPPETS - CREATE CUSTOM SNIPPETS")
+            self.ui.stackedWidget.setCurrentWidget(self.ui.ros_page)
+            self.ui.leftMenuBg.hide()
+            self.ui.titleRightInfo.setText("CODE SNIPPETS - CREATE CUSTOM SNIPPETS")
 
         # Target ROS file is opened to apply mutation process
         if btnName == "open_target_ros":
-            size_target_ros_list = widgets.listWidget_10.count()
+            size_target_ros_list = self.ui.listWidget_10.count()
 
             dialog = QFileDialog()
             dialog.setFileMode(QFileDialog.AnyFile)
@@ -2354,14 +2416,14 @@ class MainWindow(QMainWindow):
                 if file_name[0].endswith(".py"):
                     if size_target_ros_list > 0:
                         # Clear the list for the new file
-                        widgets.listWidget_10.clear()
+                        self.ui.listWidget_10.clear()
 
                     with open(file_name[0], mode="r", encoding="utf-8") as file:
                         data = file.read()
-                        widgets.textEdit_20.setPlainText(file_name[0])
+                        self.ui.textEdit_20.setPlainText(file_name[0])
                         ROS_SOURCE_CODE = data
                         splitted_ros_source_codes = data.split("\n")
-                        widgets.listWidget_10.addItems(splitted_ros_source_codes)
+                        self.ui.listWidget_10.addItems(splitted_ros_source_codes)
 
                 else:
                     message_box = QMessageBox()
@@ -2377,8 +2439,8 @@ class MainWindow(QMainWindow):
                 global ZIPPED_ROS_LIST
                 ZIPPED_ROS_LIST = []
 
-                row = widgets.listWidget_35.currentRow()
-                widgets.listWidget_35.takeItem(row)
+                row = self.ui.listWidget_35.currentRow()
+                self.ui.listWidget_35.takeItem(row)
 
                 for i in range(2):
                     del ZIPPED_ROS_LIST[row]
@@ -2391,10 +2453,10 @@ class MainWindow(QMainWindow):
                 global ROS_SOURCE_MUTANT
                 ROS_SOURCE_MUTANT = []
 
-                row = widgets.listWidget_31.currentRow()
-                row_text = widgets.listWidget_31.item(row).text()
-                widgets.listWidget_31.takeItem(row)
-                widgets.label_81.setText(str(widgets.listWidget_31.count()))
+                row = self.ui.listWidget_31.currentRow()
+                row_text = self.ui.listWidget_31.item(row).text()
+                self.ui.listWidget_31.takeItem(row)
+                self.ui.label_81.setText(str(self.ui.listWidget_31.count()))
 
                 if row > 0:
                     for i in range(len(ROS_SOURCE_MUTANT)):
@@ -2403,30 +2465,30 @@ class MainWindow(QMainWindow):
                             ROS_SOURCE_MUTANT.pop(i - 1)
                             break
 
-            if widgets.listWidget_31.count() > 0:
+            if self.ui.listWidget_31.count() > 0:
                 remove_ros_mutant()
 
         if btnName == "scan_ros_btn":
             tam_konum = ""
             total_ros_items = []
-            file_location = widgets.textEdit_47.toPlainText()
+            file_location = self.ui.textEdit_47.toPlainText()
             split_file_location = file_location.split("/")
 
             find_scripts_type = re.findall("scripts", split_file_location[-2])
             find_src_type = re.findall("src", split_file_location[-2])
 
-            len_node_list = widgets.listWidget_27.count()
-            len_topic_list = widgets.listWidget_28.count()
-            len_service_list = widgets.listWidget_29.count()
-            len_param_list = widgets.listWidget_30.count()
+            len_node_list = self.ui.listWidget_27.count()
+            len_topic_list = self.ui.listWidget_28.count()
+            len_service_list = self.ui.listWidget_29.count()
+            len_param_list = self.ui.listWidget_30.count()
 
             for i in range(len_node_list):
-                node_list_item = widgets.listWidget_27.item(i).text()
+                node_list_item = self.ui.listWidget_27.item(i).text()
                 node_list_item = node_list_item[1:]
                 total_ros_items.append(node_list_item)
 
             for i in range(len_topic_list):
-                topic_list_item = widgets.listWidget_28.item(i).text()
+                topic_list_item = self.ui.listWidget_28.item(i).text()
                 if find_scripts_type or find_src_type:
                     topic_list_item = topic_list_item[1:]
                 else:
@@ -2434,18 +2496,18 @@ class MainWindow(QMainWindow):
                 total_ros_items.append(topic_list_item)
 
             for i in range(len_service_list):
-                service_list_item = widgets.listWidget_29.item(i).text()
+                service_list_item = self.ui.listWidget_29.item(i).text()
                 service_list_item = service_list_item[1:]
                 total_ros_items.append(service_list_item)
 
             for i in range(len_node_list):
-                param_list_item = widgets.listWidget_30.item(i).text()
+                param_list_item = self.ui.listWidget_30.item(i).text()
                 param_list_item = param_list_item[1:]
                 total_ros_items.append(param_list_item)
 
-            len_ros_code = widgets.listWidget_32.count()
+            len_ros_code = self.ui.listWidget_32.count()
 
-            directory = widgets.textEdit_47.toPlainText()
+            directory = self.ui.textEdit_47.toPlainText()
             split_directory = directory.split("/")
 
             if split_directory[-2] == "launch":
@@ -2456,7 +2518,7 @@ class MainWindow(QMainWindow):
 
                 def mutate_all_keys(key_data_list, konum, target_file):
                     """Mutation testing applies to  the all possible nodes"""
-                    ros_launch_directory_path = widgets.textEdit_47.toPlainText()
+                    ros_launch_directory_path = self.ui.textEdit_47.toPlainText()
 
                     os.chdir(ros_launch_directory_path)
                     tree = ET.parse(target_file)
@@ -2479,14 +2541,14 @@ class MainWindow(QMainWindow):
                                 )  # launch dosyalarını içeren liste
 
                 def open_python(konum, python_files_list):
-                    is_ros_for_mutation_list_empty = widgets.listWidget_10.count()
+                    is_ros_for_mutation_list_empty = self.ui.listWidget_10.count()
 
                     if is_ros_for_mutation_list_empty > 0:
-                        target_ros_py_location = widgets.textEdit_20.toPlainText()
-                        target_ros_file_size = widgets.listWidget_10.count()
+                        target_ros_py_location = self.ui.textEdit_20.toPlainText()
+                        target_ros_file_size = self.ui.listWidget_10.count()
 
                         for line_number in range(0, target_ros_file_size):
-                            ros_file_line = widgets.listWidget_10.item(
+                            ros_file_line = self.ui.listWidget_10.item(
                                 line_number
                             ).text()
                             for pattern in total_ros_items:
@@ -2497,7 +2559,7 @@ class MainWindow(QMainWindow):
                                     "rospy", ros_file_line, re.MULTILINE
                                 )
                                 if find_possible_line and check_rospy:
-                                    widgets.listWidget_10.item(
+                                    self.ui.listWidget_10.item(
                                         line_number
                                     ).setBackground(
                                         QtGui.QColor(102, 0, 102)
@@ -2513,15 +2575,15 @@ class MainWindow(QMainWindow):
                                         + line_and_location[1]
                                         + line_and_location[2]
                                     )
-                                    widgets.listWidget_33.addItem(str_line_and_location)
+                                    self.ui.listWidget_33.addItem(str_line_and_location)
 
                     else:
                         for i in python_files_list:
-                            x_file = open(
+                            with open(
                                 os.path.join(konum, i), mode="r", encoding="utf-8"
-                            )
+                            ) as x_file:
 
-                            pure_file_content = x_file.read()
+                                pure_file_content = x_file.read()
 
                             split_file_content = pure_file_content.split("\n")
 
@@ -2554,18 +2616,18 @@ class MainWindow(QMainWindow):
                                                 + line_and_location[1]
                                                 + line_and_location[2]
                                             )
-                                            widgets.listWidget_33.addItem(
+                                            self.ui.listWidget_33.addItem(
                                                 str_line_and_location
                                             )
 
                 yeni_konum = ""
 
-                complete_directory_path = widgets.textEdit_47.toPlainText()
+                complete_directory_path = self.ui.textEdit_47.toPlainText()
 
                 split_complete_directory_path = complete_directory_path.split("/")
 
                 target_file = (
-                    widgets.label_86.text()
+                    self.ui.label_86.text()
                 )  # "eva_security_patrol_start.launch"
 
                 for i in range(0, 6):
@@ -2592,7 +2654,7 @@ class MainWindow(QMainWindow):
 
             else:
                 for i in range(len_ros_code):
-                    ros_code_line = widgets.listWidget_32.item(i).text()
+                    ros_code_line = self.ui.listWidget_32.item(i).text()
                     for pattern in total_ros_items:
                         find_possible_line = re.findall(
                             pattern, ros_code_line, re.MULTILINE
@@ -2602,27 +2664,27 @@ class MainWindow(QMainWindow):
                                 "rospy", ros_code_line, re.MULTILINE
                             )
                             if check_rospy:
-                                folder_name = widgets.textEdit_47.toPlainText()
-                                file_name = widgets.label_86.text
+                                folder_name = self.ui.textEdit_47.toPlainText()
+                                file_name = self.ui.label_86.text
                                 complete_name = folder_name + file_name
 
                                 ros_code_line = ros_code_line.lstrip()
                                 ros_line_and_directory = (
                                     ros_code_line + " Directory: " + complete_name
                                 )
-                                widgets.listWidget_33.addItem(ros_line_and_directory)
+                                self.ui.listWidget_33.addItem(ros_line_and_directory)
 
         if btnName == "mutate_ros_btn":
             global ZIPPED_ROS_LIST
 
-            length_found_lines = widgets.listWidget_33.count()
-            length_mutant_codes_list = widgets.listWidget_31.count()
+            length_found_lines = self.ui.listWidget_33.count()
+            length_mutant_codes_list = self.ui.listWidget_31.count()
 
-            directory = widgets.textEdit_47.toPlainText()
+            directory = self.ui.textEdit_47.toPlainText()
             split_directory = directory.split("/")
 
             if length_mutant_codes_list:
-                widgets.listWidget_31.clear()
+                self.ui.listWidget_31.clear()
                 message_box = QMessageBox()
                 message_box.setIcon(QMessageBox.Critical)
                 message_box.setText("Mutants have already been updated!")
@@ -2636,28 +2698,28 @@ class MainWindow(QMainWindow):
                 service_list = []
                 parameter_list = []
 
-                len_node_list = widgets.listWidget_27.count()
-                len_topic_list = widgets.listWidget_28.count()
-                len_service_list = widgets.listWidget_29.count()
-                len_param_list = widgets.listWidget_30.count()
+                len_node_list = self.ui.listWidget_27.count()
+                len_topic_list = self.ui.listWidget_28.count()
+                len_service_list = self.ui.listWidget_29.count()
+                len_param_list = self.ui.listWidget_30.count()
 
                 for i in range(len_node_list):
-                    item = widgets.listWidget_27.item(i).text()
+                    item = self.ui.listWidget_27.item(i).text()
                     node_list.append(item[1:])
 
                 for i in range(len_topic_list):
-                    item = widgets.listWidget_28.item(i).text()
+                    item = self.ui.listWidget_28.item(i).text()
                     if split_directory[-2] == "scripts" or split_directory[-2] == "src":
                         topic_list.append(item[1:])
                     if split_directory[-2] == "launch":
                         topic_list.append(item)
 
                 for i in range(len_service_list):
-                    item = widgets.listWidget_29.item(i).text()
+                    item = self.ui.listWidget_29.item(i).text()
                     service_list.append(item[1:])
 
                 for i in range(len_param_list):
-                    item = widgets.listWidget_30.item(i).text()
+                    item = self.ui.listWidget_30.item(i).text()
                     parameter_list.append(item[1:])
 
                 def constant_mutate_function(target_line, loc):
@@ -2672,6 +2734,8 @@ class MainWindow(QMainWindow):
                     constant_list = []
 
                     class ConstantMutator(ast.NodeTransformer):
+                        """Constant Mutator Class"""
+
                         def visit_Constant(self, node):
                             """The visitor function."""
                             if isinstance(node.value, str):
@@ -2704,34 +2768,34 @@ class MainWindow(QMainWindow):
                                 or ros_result[0] == "rospy.Pub"
                             ):
                                 POSSIBLE_MUTANT_LIST = [
-                                    "/" + widgets.listWidget_28.item(x).text()
-                                    for x in range(widgets.listWidget_28.count())
+                                    "/" + self.ui.listWidget_28.item(x).text()
+                                    for x in range(self.ui.listWidget_28.count())
                                 ]
                             elif (
                                 ros_result[0] == "rospy.Log"
                                 or ros_result[0] == "rospy.log"
                             ):
                                 POSSIBLE_MUTANT_LIST = [
-                                    widgets.listWidget_28.item(x).text()
-                                    for x in range(widgets.listWidget_28.count())
+                                    self.ui.listWidget_28.item(x).text()
+                                    for x in range(self.ui.listWidget_28.count())
                                 ]
                             elif ros_result[0] == "rospy.Par":
                                 POSSIBLE_MUTANT_LIST = [
-                                    widgets.listWidget_30.item(x).text()
-                                    for x in range(widgets.listWidget_30.count())
+                                    self.ui.listWidget_30.item(x).text()
+                                    for x in range(self.ui.listWidget_30.count())
                                 ]
                             elif (
                                 ros_result[0] == "rospy.Ser"
                                 or ros_result[0] == "rospy.ser"
                             ):
                                 POSSIBLE_MUTANT_LIST = [
-                                    widgets.listWidget_29.item(x).text()
-                                    for x in range(widgets.listWidget_29.count())
+                                    self.ui.listWidget_29.item(x).text()
+                                    for x in range(self.ui.listWidget_29.count())
                                 ]
                             elif ros_result[0] == "rospy.init":
                                 POSSIBLE_MUTANT_LIST = [
-                                    widgets.listWidget_27.item(x).text()
-                                    for x in range(widgets.listWidget_27.count())
+                                    self.ui.listWidget_27.item(x).text()
+                                    for x in range(self.ui.listWidget_27.count())
                                 ]
                             else:
                                 POSSIBLE_MUTANT_LIST = [
@@ -2744,7 +2808,7 @@ class MainWindow(QMainWindow):
                                 for j in POSSIBLE_MUTANT_LIST:
                                     x = j[1:].join(target.rsplit(i, 1))
                                     if target_line != x:
-                                        widgets.listWidget_31.addItem(x)
+                                        self.ui.listWidget_31.addItem(x)
                                         add_location(loc)
                                         ROS_SOURCE_MUTANT.append(loc)
                                         ROS_SOURCE_MUTANT.append(target_line)
@@ -2752,11 +2816,16 @@ class MainWindow(QMainWindow):
 
                 ### AST NAME MUTATOR ###
 
+                # Funciton name is mutated by IM-FIT with using the method
                 def function_name_mutator(target_line, loc):
+                    """Method applies mutation for function name of ROS source codes"""
                     name_list = []
 
                     class NameIdMutator(ast.NodeTransformer):
+                        """Name ID mutator class"""
+
                         def visit_Name(self, node):
+                            """Method applies mutation for Name ID"""
                             target = node.id
                             if (
                                 target != "rospy"
@@ -2780,7 +2849,7 @@ class MainWindow(QMainWindow):
                         for j in mutant_list:
                             x = j[1:].join(target.rsplit(i, 1))
                             if target_line != x:
-                                widgets.listWidget_31.addItem(x)
+                                self.ui.listWidget_31.addItem(x)
                                 add_location(loc)
                                 ROS_SOURCE_MUTANT.append(loc)
                                 ROS_SOURCE_MUTANT.append(target_line)
@@ -2790,6 +2859,8 @@ class MainWindow(QMainWindow):
 
                 def value_mutate_function(target_line, loc):
                     class ConstantMutator(ast.NodeTransformer):
+                        """Constant Mutator Class"""
+
                         global constant_list
                         constant_list = []
 
@@ -2820,32 +2891,32 @@ class MainWindow(QMainWindow):
                     unparsed_code = astunparse.unparse(node2)
                     unparsed_code = unparsed_code.strip()
                     if target_line != unparsed_code:
-                        widgets.listWidget_31.addItem(unparsed_code)
+                        self.ui.listWidget_31.addItem(unparsed_code)
                         add_location(loc)
                         ROS_SOURCE_MUTANT.append(loc)
                         ROS_SOURCE_MUTANT.append(target_line)
                         ROS_SOURCE_MUTANT.append(unparsed_code)
 
                 def add_location(loc):
-                    mutant_code_list_size = widgets.listWidget_31.count()
+                    mutant_code_list_size = self.ui.listWidget_31.count()
 
                     if mutant_code_list_size > 0:
-                        line_of_mutant_list = widgets.listWidget_31.item(
+                        line_of_mutant_list = self.ui.listWidget_31.item(
                             mutant_code_list_size - 1
                         ).text()
-                        widgets.listWidget_31.takeItem(mutant_code_list_size - 1)
+                        self.ui.listWidget_31.takeItem(mutant_code_list_size - 1)
                         new_line = line_of_mutant_list + "        Directory: " + loc
-                        widgets.listWidget_31.addItem(new_line)
+                        self.ui.listWidget_31.addItem(new_line)
 
                 if (
-                    widgets.checkBox_9.isChecked() is True
-                    and widgets.listWidget_33.count() > 0
+                    self.ui.checkBox_9.isChecked() is True
+                    and self.ui.listWidget_33.count() > 0
                 ):
                     list_found_lines = []
                     list_directories = []
-                    len_found_lines = widgets.listWidget_33.count()
+                    len_found_lines = self.ui.listWidget_33.count()
                     for i in range(len_found_lines):
-                        found_line_and_directory = widgets.listWidget_33.item(i).text()
+                        found_line_and_directory = self.ui.listWidget_33.item(i).text()
                         split_found_line_and_directory = found_line_and_directory.split(
                             " Directory: "
                         )
@@ -2957,29 +3028,29 @@ class MainWindow(QMainWindow):
                                         constant_mutate_function(target, loc)
                                         value_mutate_function(target, loc)
 
-            total_mutant_number = widgets.listWidget_31.count()
+            total_mutant_number = self.ui.listWidget_31.count()
 
             if total_mutant_number:
-                widgets.label_81.setText(str(total_mutant_number))
+                self.ui.label_81.setText(str(total_mutant_number))
 
         #  CODE SNIPPETS FROM START PAGE
 
         if btnName == "btn_create_code":
-            widgets.stackedWidget.setCurrentWidget(widgets.cSnippets)
-            widgets.leftMenuBg.hide()
-            widgets.titleRightInfo.setText("CODE SNIPPETS - CREATE CUSTOM SNIPPETS")
+            self.ui.stackedWidget.setCurrentWidget(self.ui.cSnippets)
+            self.ui.leftMenuBg.hide()
+            self.ui.titleRightInfo.setText("CODE SNIPPETS - CREATE CUSTOM SNIPPETS")
 
         if btnName == "btn_remove_snip":
-            row = widgets.listWidget_8.currentRow()
-            widgets.listWidget_8.takeItem(row)
+            row = self.ui.listWidget_8.currentRow()
+            self.ui.listWidget_8.takeItem(row)
 
         # CREATE CUSTOM SNIPPETS FROM START PAGE
 
         if btnName == "btn_create_snip":
-            snippet_name = widgets.textEdit_2.toPlainText()
-            snippet_title = widgets.textEdit_27.toPlainText()
-            snippet_process = widgets.textEdit_29.toPlainText()
-            snippet_regex = widgets.textEdit_28.toPlainText()
+            snippet_name = self.ui.textEdit_2.toPlainText()
+            snippet_title = self.ui.textEdit_27.toPlainText()
+            snippet_process = self.ui.textEdit_29.toPlainText()
+            snippet_regex = self.ui.textEdit_28.toPlainText()
 
             created_snippet_json = {
                 "Snippets": {
@@ -2992,26 +3063,26 @@ class MainWindow(QMainWindow):
 
             json_snippet = json.dumps(created_snippet_json, indent=4)
 
-            widgets.textEdit_25.setPlainText(json_snippet)
+            self.ui.textEdit_25.setPlainText(json_snippet)
 
         if btnName == "btn_delete_snip":
-            widgets.textEdit_2.clear()
-            widgets.textEdit_27.clear()
-            widgets.textEdit_29.clear()
-            widgets.textEdit_28.clear()
-            widgets.textEdit_25.clear()
-            widgets.textEdit_16.clear()
+            self.ui.textEdit_2.clear()
+            self.ui.textEdit_27.clear()
+            self.ui.textEdit_29.clear()
+            self.ui.textEdit_28.clear()
+            self.ui.textEdit_25.clear()
+            self.ui.textEdit_16.clear()
 
         if btnName == "btn_save_snip":
 
-            is_empty_code_snippet = widgets.textEdit_25.toPlainText()
+            is_empty_code_snippet = self.ui.textEdit_25.toPlainText()
 
-            if is_empty_code_snippet != "" and widgets.checkBox_6.isChecked() is True:
+            if is_empty_code_snippet != "" and self.ui.checkBox_6.isChecked() is True:
 
-                snippet_name = widgets.textEdit_2.toPlainText()
-                snippet_title = widgets.textEdit_27.toPlainText()
-                snippet_process = widgets.textEdit_29.toPlainText()
-                snippet_regex = widgets.textEdit_28.toPlainText()
+                snippet_name = self.ui.textEdit_2.toPlainText()
+                snippet_title = self.ui.textEdit_27.toPlainText()
+                snippet_process = self.ui.textEdit_29.toPlainText()
+                snippet_regex = self.ui.textEdit_28.toPlainText()
 
                 created_snippet = {
                     "Snippets": {
@@ -3032,7 +3103,7 @@ class MainWindow(QMainWindow):
                     # convert back to json.
                     json.dump(file_data, file, indent=4)
 
-                code_snippet_file_name = widgets.textEdit_16.toPlainText()
+                code_snippet_file_name = self.ui.textEdit_16.toPlainText()
 
                 dialog = QFileDialog()
                 path_name = QFileDialog.getExistingDirectory()
@@ -3041,7 +3112,7 @@ class MainWindow(QMainWindow):
                     path_name, code_snippet_file_name + ".json"
                 )
 
-                created_code_snippets = widgets.textEdit_25.toPlainText()
+                created_code_snippets = self.ui.textEdit_25.toPlainText()
 
                 with open(
                     code_snippet_path_and_name, mode="w", encoding="utf-8"
@@ -3051,27 +3122,27 @@ class MainWindow(QMainWindow):
                 with open("customSnippets.json", mode="w", encoding="utf-8") as file:
                     file.write(created_code_snippets)
 
-                widgets.label_60.setText("SAVED!")
+                self.ui.label_60.setText("SAVED!")
 
-                widgets.code_snippet_list.addItem(snippet_name)
+                self.ui.code_snippet_list.addItem(snippet_name)
 
         if btnName == "btn_snip_location":
             dialog = QFileDialog()
             path_name = QFileDialog.getExistingDirectory()
-            widgets.textEdit_25.setPlainText(path_name)
+            self.ui.textEdit_25.setPlainText(path_name)
 
         if btnName == "back_snip":
-            widgets.stackedWidget.setCurrentWidget(widgets.start)
-            widgets.leftMenuBg.show()
-            widgets.titleRightInfo.setText("START")
+            self.ui.stackedWidget.setCurrentWidget(self.ui.start)
+            self.ui.leftMenuBg.show()
+            self.ui.titleRightInfo.setText("START")
 
         #  SCAN PAGE
 
         if btnName == "btn_back_code":
-            widgets.stackedWidget.setCurrentWidget(widgets.start)
-            UIFunctions.resetStyle(self, widgets.btn_scan.styleSheet())
-            widgets.btn_start.setStyleSheet(
-                UIFunctions.selectMenu(widgets.btn_start.styleSheet())
+            self.ui.stackedWidget.setCurrentWidget(self.ui.start)
+            UIFunctions.resetStyle(self, self.ui.btn_scan.styleSheet())
+            self.ui.btn_start.setStyleSheet(
+                UIFunctions.selectMenu(self.ui.btn_start.styleSheet())
             )
 
         patterns = []
@@ -3086,15 +3157,15 @@ class MainWindow(QMainWindow):
             pass
 
         if btnName == "btn_create_custom":
-            widgets.stackedWidget.setCurrentWidget(widgets.customFault)
-            widgets.leftMenuBg.hide()
-            widgets.titleRightInfo.setText("FAULT INJECTION PLAN - CREATE CUSTOM FAULT")
+            self.ui.stackedWidget.setCurrentWidget(self.ui.customFault)
+            self.ui.leftMenuBg.hide()
+            self.ui.titleRightInfo.setText("FAULT INJECTION PLAN - CREATE CUSTOM FAULT")
 
         if btnName == "btn_remove_fault":  # Tekrar düzenlenecek
             global ZIPPED_LIST
 
-            row = widgets.listWidget_7.currentRow()
-            widgets.listWidget_7.takeItem(row)
+            row = self.ui.listWidget_7.currentRow()
+            self.ui.listWidget_7.takeItem(row)
 
             for i in range(2):
                 del ZIPPED_LIST[row]
@@ -3102,17 +3173,17 @@ class MainWindow(QMainWindow):
         if btnName == "btn_save_fiplan":
 
             global source_and_mutate_code
-            selected_task_list_size = widgets.listWidget_4.count()
+            selected_task_list_size = self.ui.listWidget_4.count()
             created_fault_plan_list = []
 
             if selected_task_list_size:
                 dialog = QFileDialog()
                 path_name = QFileDialog.getExistingDirectory()
                 if path_name != "":
-                    widgets.textEdit_26.toPlainText() + ".json"
+                    file_name = self.ui.textEdit_26.toPlainText() + ".json"
 
                 mutant_code_list_length = len(source_and_mutate_code)
-                source_code_directory = widgets.source_code_directory_text.toPlainText()
+                source_code_directory = self.ui.source_code_directory_text.toPlainText()
 
                 for i in range(0, mutant_code_list_length):
                     if i % 2 == 0:
@@ -3135,7 +3206,7 @@ class MainWindow(QMainWindow):
                     )
                     file.write(fault_plan_json_format)
 
-                text = widgets.textEdit_26.toPlainText() + "_type_python.json"
+                text = self.ui.textEdit_26.toPlainText() + "_type_python.json"
                 full_path = os.path.join(path_name, text)
 
                 with open(full_path, mode="w", encoding="utf-8") as file:
@@ -3145,32 +3216,32 @@ class MainWindow(QMainWindow):
                     file.write(fault_plan_json_format)
 
                 split_text = full_path.split("\n")
-                widgets.listWidget_11.addItems(split_text)
-                widgets.listWidget_6.addItems(split_text)
+                self.ui.listWidget_11.addItems(split_text)
+                self.ui.listWidget_6.addItems(split_text)
 
         if btnName == "btn_remove_fiplan":
-            row = widgets.listWidget_11.currentRow()
-            widgets.listWidget_11.takeItem(row)
+            row = self.ui.listWidget_11.currentRow()
+            self.ui.listWidget_11.takeItem(row)
 
         # CREATE CUSTOM FAULT FROM FI PLAN
 
         if btnName == "btn_back_fi":
-            widgets.stackedWidget.setCurrentWidget(widgets.fiplan)
-            widgets.leftMenuBg.show()
-            widgets.titleRightInfo.setText("FAULT INJECTION PLAN")
+            self.ui.stackedWidget.setCurrentWidget(self.ui.fiplan)
+            self.ui.leftMenuBg.show()
+            self.ui.titleRightInfo.setText("FAULT INJECTION PLAN")
 
-            created_fault_list_size = widgets.listWidget_5.count()
+            created_fault_list_size = self.ui.listWidget_5.count()
 
             if created_fault_list_size:
                 for i in range(0, created_fault_list_size):
-                    created_fault_list_line = widgets.listWidget_5.item(i).text()
-                    widgets.listWidget_3.addItem(created_fault_list_line)
+                    created_fault_list_line = self.ui.listWidget_5.item(i).text()
+                    self.ui.listWidget_3.addItem(created_fault_list_line)
 
         if btnName == "btn_create_fault":
-            fault_name = widgets.textEdit_11.toPlainText()
-            target = widgets.textEdit_30.toPlainText()
-            changed = widgets.textEdit_31.toPlainText()
-            explanation = widgets.textEdit_32.toPlainText()
+            fault_name = self.ui.textEdit_11.toPlainText()
+            target = self.ui.textEdit_30.toPlainText()
+            changed = self.ui.textEdit_31.toPlainText()
+            explanation = self.ui.textEdit_32.toPlainText()
 
             created_fault_json = {
                 "fault": {
@@ -3183,26 +3254,26 @@ class MainWindow(QMainWindow):
 
             json_fault = json.dumps(created_fault_json, indent=4)
 
-            widgets.textEdit_34.setPlainText(json_fault)
+            self.ui.textEdit_34.setPlainText(json_fault)
 
         if btnName == "btn_delete_fault":
-            widgets.textEdit_11.clear()
-            widgets.textEdit_30.clear()
-            widgets.textEdit_31.clear()
-            widgets.textEdit_32.clear()
-            widgets.textEdit_34.clear()
+            self.ui.textEdit_11.clear()
+            self.ui.textEdit_30.clear()
+            self.ui.textEdit_31.clear()
+            self.ui.textEdit_32.clear()
+            self.ui.textEdit_34.clear()
 
         if btnName == "btn_save_fault":
             if (
-                widgets.textEdit_11.toPlainText() != ""
-                and widgets.textEdit_30.toPlainText() != ""
-                and widgets.textEdit_31.toPlainText() != ""
-                and widgets.textEdit_32.toPlainText() != ""
+                self.ui.textEdit_11.toPlainText() != ""
+                and self.ui.textEdit_30.toPlainText() != ""
+                and self.ui.textEdit_31.toPlainText() != ""
+                and self.ui.textEdit_32.toPlainText() != ""
             ):
-                fault_name = widgets.textEdit_11.toPlainText()
-                target = widgets.textEdit_30.toPlainText()
-                changed = widgets.textEdit_31.toPlainText()
-                explanation = widgets.textEdit_32.toPlainText()
+                fault_name = self.ui.textEdit_11.toPlainText()
+                target = self.ui.textEdit_30.toPlainText()
+                changed = self.ui.textEdit_31.toPlainText()
+                explanation = self.ui.textEdit_32.toPlainText()
 
                 created_fault_json = {
                     "fault": {
@@ -3225,7 +3296,7 @@ class MainWindow(QMainWindow):
 
                     json_fault = json.dumps(created_fault_json, indent=4)
 
-                    workload_file_name = widgets.textEdit_10.toPlainText()
+                    workload_file_name = self.ui.textEdit_10.toPlainText()
 
                     dialog = QFileDialog()
                     path_name = QFileDialog.getExistingDirectory()
@@ -3234,31 +3305,32 @@ class MainWindow(QMainWindow):
                         path_name, workload_file_name + ".json"
                     )
 
-                    created_fault = widgets.textEdit_34.toPlainText()
+                    created_fault = self.ui.textEdit_34.toPlainText()
 
-                    json_file = open(task_path_and_name, mode="w", encoding="utf-8")
-                    json_file.write(created_fault)
-                    json_file.close()
+                    with open(
+                        task_path_and_name, mode="w", encoding="utf-8"
+                    ) as json_file:
+                        json_file.write(created_fault)
 
                     with open("customFaults.json", mode="w", encoding="utf-8") as file:
                         file.write(created_fault)
 
-                    widgets.label_61.setText("SAVED!")
+                    self.ui.label_61.setText("SAVED!")
 
-                widgets.listWidget_5.addItem(fault_name)
+                self.ui.listWidget_5.addItem(fault_name)
 
-                widgets.textEdit_11.clear()
-                widgets.textEdit_30.clear()
-                widgets.textEdit_31.clear()
-                widgets.textEdit_32.clear()
-                widgets.textEdit_34.clear()
+                self.ui.textEdit_11.clear()
+                self.ui.textEdit_30.clear()
+                self.ui.textEdit_31.clear()
+                self.ui.textEdit_32.clear()
+                self.ui.textEdit_34.clear()
 
             else:
-                widgets.label_61.setText("FAULT DOES NOT EXIST!")
+                self.ui.label_61.setText("FAULT DOES NOT EXIST!")
 
         if btnName == "btn_remove_createdFault":
-            row = widgets.listWidget_5.currentRow()
-            widgets.listWidget_5.takeItem(row)
+            row = self.ui.listWidget_5.currentRow()
+            self.ui.listWidget_5.takeItem(row)
 
         # EXECUTION PAGE
 
@@ -3269,9 +3341,9 @@ class MainWindow(QMainWindow):
             print("Remove execution!!!")
 
         if btnName == "btn_select_metrics":
-            widgets.stackedWidget.setCurrentWidget(widgets.selectMetrics)
-            widgets.leftMenuBg.hide()
-            widgets.titleRightInfo.setText("EXECUTION - METRICS")
+            self.ui.stackedWidget.setCurrentWidget(self.ui.selectMetrics)
+            self.ui.leftMenuBg.hide()
+            self.ui.titleRightInfo.setText("EXECUTION - METRICS")
 
         if btnName == "btn_start_exe":
             pass
@@ -3282,9 +3354,9 @@ class MainWindow(QMainWindow):
             print("Metrics Saved!!!")
 
         if btnName == "btn_back_exe":
-            widgets.stackedWidget.setCurrentWidget(widgets.execution)
-            widgets.leftMenuBg.show()
-            widgets.titleRightInfo.setText("EXECUTION")
+            self.ui.stackedWidget.setCurrentWidget(self.ui.execution)
+            self.ui.leftMenuBg.show()
+            self.ui.titleRightInfo.setText("EXECUTION")
 
         # MONITORING PAGE
 
@@ -3297,12 +3369,14 @@ class MainWindow(QMainWindow):
     # RESIZE EVENTS
 
     def resizeEvent(self, event):
+        """Resize UI window method"""
         # UPDATE SIZE GRIPS
         UIFunctions.resize_grips(self)
 
     # MOUSE CLICK EVENTS
 
     def mousePressEvent(self, event):
+        """Mouse press event method for UI"""
         # SET DRAG POS WINDOW
         self.dragPos = event.globalPos()
 
