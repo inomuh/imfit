@@ -936,9 +936,6 @@ class MainWindow(QMainWindow):
                                     source_code = fault_list[i]["Fault"]["Source_Code"]
                                     mutant_code = fault_list[i]["Fault"]["Mutate_Code"]
 
-                                    print("Source codeeeeeeeeeeeeee:", source_code)
-                                    print("Mutant codeeeeeeeeeeeeee:", mutant_code)
-
                                     mutation_process = python_file_content.replace(
                                         source_code, mutant_code
                                     )
@@ -2867,7 +2864,7 @@ class MainWindow(QMainWindow):
                         list_found_lines.append(item_found_lines)
                         list_directories.append(item_found_directory)
 
-                    for target_line in range(len(list_found_lines)):
+                    for target_line, _ in enumerate(list_found_lines):
                         target = list_found_lines[target_line]
                         loc = list_directories[target_line]
                         constant_mutate_function(target, loc)
@@ -3087,13 +3084,13 @@ class MainWindow(QMainWindow):
                 UIFunctions.selectMenu(self.ui.btn_start.styleSheet())
             )
 
-        patterns = []
-        code_snippet_data_list = []
-        painted_lines = []
-        workload_function_name_list = []
-        code_snippet_regex_code_list = []
-        painted_line_for_mutation = []
-        faultable_line_list = []
+        # patterns = []
+        # code_snippet_data_list = []
+        # painted_lines = []
+        # workload_function_name_list = []
+        # code_snippet_regex_code_list = []
+        # painted_line_for_mutation = []
+        # faultable_line_list = []
 
         if btnName == "btn_random_fault":
             pass
