@@ -2,26 +2,82 @@
     "code_snippets": [
         {
             "Snippets": {
-                "Snippet_Name": "if",
-                "Regex_Code": "if.*:",
-                "Title": "Python if Statement Syntax",
-                "Process": "if test expression:\n\tstatement(s)"
+                "Snippet_Name": "and",
+                "Regex_Code": " and ",
+                "Title": "Syntax of while Loop in Python",
+                "Process": "while test_expression:\nBody of while"
+            }
+        },
+        {
+            "Snippets": {
+                "Snippet_Name": "assert",
+                "Regex_Code": "assert ",
+                "Title": "Syntax of while Loop in Python",
+                "Process": "while test_expression:\nBody of while"
+            }
+        },
+        {
+            "Snippets": {
+                "Snippet_Name": "break",
+                "Regex_Code": " break",
+                "Title": "Syntax of while Loop in Python",
+                "Process": "while test_expression:\nBody of while"
+            }
+        },
+        {
+            "Snippets": {
+                "Snippet_Name": "continue",
+                "Regex_Code": " continue",
+                "Title": "Syntax of while Loop in Python",
+                "Process": "while test_expression:\nBody of while"
+            }
+        },
+        {
+            "Snippets": {
+                "Snippet_Name": "del",
+                "Regex_Code": "del ",
+                "Title": "Syntax of while Loop in Python",
+                "Process": "while test_expression:\nBody of while"
             }
         },
         {
             "Snippets": {
                 "Snippet_Name": "elif",
                 "Regex_Code": "elif.*:",
-                "Title": "Python elif Statement Syntax",
-                "Process": "elif test expression:\nBody of elif"
+                "Title": "Python if Statement Syntax",
+                "Process": "if test expression:\n\tstatement(s)"
             }
         },
         {
             "Snippets": {
                 "Snippet_Name": "else",
-                "Regex_Code": "else.*:",
-                "Title": "Python else Statement Syntax",
-                "Process": "else:\nBody of else"
+                "Regex_Code": "else:",
+                "Title": "Syntax of while Loop in Python",
+                "Process": "while test_expression:\nBody of while"
+            }
+        },
+        {
+            "Snippets": {
+                "Snippet_Name": "except",
+                "Regex_Code": "except.*:",
+                "Title": "Python if Statement Syntax",
+                "Process": "if test expression:\n\tstatement(s)"
+            }
+        },
+        {
+            "Snippets": {
+                "Snippet_Name": "False",
+                "Regex_Code": "False",
+                "Title": "Syntax of while Loop in Python",
+                "Process": "while test_expression:\nBody of while"
+            }
+        },
+        {
+            "Snippets": {
+                "Snippet_Name": "finally",
+                "Regex_Code": "finally:",
+                "Title": "Syntax of while Loop in Python",
+                "Process": "while test_expression:\nBody of while"
             }
         },
         {
@@ -34,6 +90,110 @@
         },
         {
             "Snippets": {
+                "Snippet_Name": "global",
+                "Regex_Code": "global ",
+                "Title": "Syntax of while Loop in Python",
+                "Process": "while test_expression:\nBody of while"
+            }
+        },
+        {
+            "Snippets": {
+                "Snippet_Name": "if",
+                "Regex_Code": "if.*:",
+                "Title": "Python if Statement Syntax",
+                "Process": "if test expression:\n\tstatement(s)"
+            }
+        },
+        {
+            "Snippets": {
+                "Snippet_Name": "is",
+                "Regex_Code": " is ",
+                "Title": "Syntax of while Loop in Python",
+                "Process": "while test_expression:\nBody of while"
+            }
+        },
+        {
+            "Snippets": {
+                "Snippet_Name": "lambda",
+                "Regex_Code": "lambda ",
+                "Title": "Syntax of while Loop in Python",
+                "Process": "while test_expression:\nBody of while"
+            }
+        },
+        {
+            "Snippets": {
+                "Snippet_Name": "None",
+                "Regex_Code": "None",
+                "Title": "Syntax of while Loop in Python",
+                "Process": "while test_expression:\nBody of while"
+            }
+        },
+        {
+            "Snippets": {
+                "Snippet_Name": "nonlocal",
+                "Regex_Code": "nonlocal ",
+                "Title": "Syntax of while Loop in Python",
+                "Process": "while test_expression:\nBody of while"
+            }
+        },
+        {
+            "Snippets": {
+                "Snippet_Name": "not",
+                "Regex_Code": "not ",
+                "Title": "Syntax of while Loop in Python",
+                "Process": "while test_expression:\nBody of while"
+            }
+        },
+        {
+            "Snippets": {
+                "Snippet_Name": "or",
+                "Regex_Code": " or ",
+                "Title": "Syntax of while Loop in Python",
+                "Process": "while test_expression:\nBody of while"
+            }
+        },
+        {
+            "Snippets": {
+                "Snippet_Name": "pass",
+                "Regex_Code": " pass",
+                "Title": "Syntax of while Loop in Python",
+                "Process": "while test_expression:\nBody of while"
+            }
+        },
+        {
+            "Snippets": {
+                "Snippet_Name": "raise",
+                "Regex_Code": "raise ",
+                "Title": "Syntax of while Loop in Python",
+                "Process": "while test_expression:\nBody of while"
+            }
+        },
+        {
+            "Snippets": {
+                "Snippet_Name": "return",
+                "Regex_Code": "return ",
+                "Title": "Syntax of while Loop in Python",
+                "Process": "while test_expression:\nBody of while"
+            }
+        },
+        {
+            "Snippets": {
+                "Snippet_Name": "True",
+                "Regex_Code": " True",
+                "Title": "Syntax of while Loop in Python",
+                "Process": "while test_expression:\nBody of while"
+            }
+        },
+        {
+            "Snippets": {
+                "Snippet_Name": "try",
+                "Regex_Code": "try:",
+                "Title": "Syntax of while Loop in Python",
+                "Process": "while test_expression:\nBody of while"
+            }
+        },
+        {
+            "Snippets": {
                 "Snippet_Name": "while",
                 "Regex_Code": "while.*:",
                 "Title": "Syntax of while Loop in Python",
@@ -42,171 +202,763 @@
         },
         {
             "Snippets": {
-                "Snippet_Name": "break",
-                "Regex_Code": "break",
-                "Title": "Syntax of break",
-                "Process": "break"
+                "Snippet_Name": "with",
+                "Regex_Code": "with.*:",
+                "Title": "Syntax of while Loop in Python",
+                "Process": "while test_expression:\nBody of while"
             }
         },
         {
             "Snippets": {
-                "Snippet_Name": "continue",
-                "Regex_Code": "continue",
-                "Title": "Syntax of Continue",
-                "Process": "continue"
+                "Snippet_Name": "yield",
+                "Regex_Code": "yield ",
+                "Title": "Syntax of while Loop in Python",
+                "Process": "while test_expression:\nBody of while"
             }
         },
         {
             "Snippets": {
-                "Snippet_Name": "pass",
-                "Regex_Code": "pass",
-                "Title": "Syntax of pass",
-                "Process": "def function(args):\npass\nclass Example:\npass"
+                "Snippet_Name": "abs()",
+                "Regex_Code": "abs\\(([^)]+|)\\)",
+                "Title": "Syntax of while Loop in Python",
+                "Process": "while test_expression:\nBody of while"
             }
         },
         {
             "Snippets": {
-                "Snippet_Name": "return",
-                "Regex_Code": "return",
-                "Title": "Syntax of return",
-                "Process": "def function(args):\npass\nclass Example:\npass"
+                "Snippet_Name": "all()",
+                "Regex_Code": "all\\(([^)]+|)\\)",
+                "Title": "Syntax of while Loop in Python",
+                "Process": "while test_expression:\nBody of while"
             }
         },
         {
             "Snippets": {
-                "Snippet_Name": "lambda function",
-                "Regex_Code": "lambda",
-                "Title": "Syntax of Lambda Function",
-                "Process": "lambda arguments:\nexpression"
+                "Snippet_Name": "ascii()",
+                "Regex_Code": "ascii\\(([^)]+|)\\)",
+                "Title": "Syntax of while Loop in Python",
+                "Process": "while test_expression:\nBody of while"
             }
         },
         {
             "Snippets": {
-                "Snippet_Name": "__init__",
-                "Regex_Code": "__init__",
-                "Title": "Syntax of __init__",
-                "Process": "__init__"
+                "Snippet_Name": "bin()",
+                "Regex_Code": "bin\\(([^)]+|)\\)",
+                "Title": "Syntax of while Loop in Python",
+                "Process": "while test_expression:\nBody of while"
             }
         },
         {
             "Snippets": {
-                "Snippet_Name": "__main__",
-                "Regex_Code": "__main__",
-                "Title": "Syntax of __main__",
-                "Process": "if __name__ == '__main__':\nmain()"
+                "Snippet_Name": "bool()",
+                "Regex_Code": "bool\\(([^)]+|)\\)",
+                "Title": "Syntax of while Loop in Python",
+                "Process": "while test_expression:\nBody of while"
             }
         },
         {
             "Snippets": {
-                "Snippet_Name": "class",
-                "Regex_Code": "class.*:",
-                "Title": "Syntax of class",
-                "Process": "class ClassName(object):\ndef __init__(self, arg):\nsuper(ClassName, self).__init__()\nself.arg = arg"
+                "Snippet_Name": "bytearray()",
+                "Regex_Code": "bytearray\\(([^)]+|)\\)",
+                "Title": "Syntax of while Loop in Python",
+                "Process": "while test_expression:\nBody of while"
             }
         },
         {
             "Snippets": {
-                "Snippet_Name": "Try/Except",
-                "Regex_Code": "try.*:",
-                "Title": "Syntax of Try/Except",
-                "Process": "try:\npass\nexcept Exception as e:\nraise e "
+                "Snippet_Name": "bytes()",
+                "Regex_Code": "bytes\\(([^)]+|)\\)",
+                "Title": "Syntax of while Loop in Python",
+                "Process": "while test_expression:\nBody of while"
             }
         },
         {
             "Snippets": {
-                "Snippet_Name": "Try/Except/Else",
-                "Regex_Code": "try.*:",
-                "Title": "Syntax of Try/Except/Else",
-                "Process": "try:\npass\nexcept Exception as e:\nraise e\nelse:\npass"
+                "Snippet_Name": "chr()",
+                "Regex_Code": "chr\\(([^)]+|)\\)",
+                "Title": "Syntax of while Loop in Python",
+                "Process": "while test_expression:\nBody of while"
             }
         },
         {
             "Snippets": {
-                "Snippet_Name": "Try/Except/Finally",
-                "Regex_Code": "try.*:",
-                "Title": "Syntax of Try/Except/Finally",
-                "Process": "try:\npass\nexcept Exception as e:\nraise e\nfinally:\npass"
+                "Snippet_Name": "delattr()",
+                "Regex_Code": "delattr\\(([^)]+|)\\)",
+                "Title": "Syntax of while Loop in Python",
+                "Process": "while test_expression:\nBody of while"
             }
         },
         {
             "Snippets": {
-                "Snippet_Name": "Try/Except/Else/Finally",
-                "Regex_Code": "try.*:",
-                "Title": "Syntax of __main__",
-                "Process": "try:\npass\nexcept Exception as e:\nraise\nelse:\npass\nfinally:\npass"
+                "Snippet_Name": "dict()",
+                "Regex_Code": "dict\\(([^)]+|)\\)",
+                "Title": "Syntax of while Loop in Python",
+                "Process": "while test_expression:\nBody of while"
             }
         },
         {
             "Snippets": {
-                "Snippet_Name": "Shebang",
-                "Regex_Code": "#!/usr/bin/env python",
-                "Title": "Syntax of Shebang",
-                "Process": "#!/usr/bin/env python"
+                "Snippet_Name": "divmod()",
+                "Regex_Code": "divmod\\(([^)]+|)\\)",
+                "Title": "Syntax of while Loop in Python",
+                "Process": "while test_expression:\nBody of while"
             }
         },
         {
             "Snippets": {
-                "Snippet_Name": "Function",
-                "Regex_Code": "def.*:",
-                "Title": "Syntax of Shebang",
-                "Process": "#!/usr/bin/env python"
+                "Snippet_Name": "enumerate()",
+                "Regex_Code": "enumerate\\(([^)]+|)\\)",
+                "Title": "Syntax of while Loop in Python",
+                "Process": "while test_expression:\nBody of while"
             }
         },
         {
             "Snippets": {
-                "Snippet_Name": "ROS Initializing Node",
-                "Regex_Code": "rospy.",
-                "Title": "Syntax of Periodic Timer",
-                "Process": "rospy.Timer(rospy.Duration(1.0/10),callback)"
+                "Snippet_Name": "eval()",
+                "Regex_Code": "eval\\(([^)]+|)\\)",
+                "Title": "Syntax of while Loop in Python",
+                "Process": "while test_expression:\nBody of while"
             }
         },
         {
             "Snippets": {
-                "Snippet_Name": "ROS Publishers",
-                "Regex_Code": "rospy.Publisher",
-                "Title": "Syntax of rospy Publisher",
-                "Process": "rospy.Publisher('topic',Type,callback)"
+                "Snippet_Name": "exec()",
+                "Regex_Code": "exec\\(([^)]+|)\\)",
+                "Title": "Syntax of while Loop in Python",
+                "Process": "while test_expression:\nBody of while"
             }
         },
         {
             "Snippets": {
-                "Snippet_Name": "ROS Subscribers",
-                "Regex_Code": "rospy.Subscriber",
-                "Title": "Syntax of rospy Subscriber",
-                "Process": "rospy.Subscriber('topic',Type,callback)"
+                "Snippet_Name": "filter()",
+                "Regex_Code": "filter\\(([^)]+|)\\)",
+                "Title": "Syntax of while Loop in Python",
+                "Process": "while test_expression:\nBody of while"
             }
         },
         {
             "Snippets": {
-                "Snippet_Name": "ROS Time Values",
-                "Regex_Code": "rospy",
-                "Title": "Syntax of Get a Global Parameter",
-                "Process": "param=rospy.get_param('global_param_name')"
+                "Snippet_Name": "float()",
+                "Regex_Code": "float\\(([^)]+|)\\)",
+                "Title": "Syntax of while Loop in Python",
+                "Process": "while test_expression:\nBody of while"
             }
         },
         {
             "Snippets": {
-                "Snippet_Name": "ROS Services",
-                "Regex_Code": "rospy",
-                "Title": "Syntax of Get a Parameter From Our Parent Namespace",
-                "Process": "param=rospy.get_param('param_name')"
+                "Snippet_Name": "frozenset()",
+                "Regex_Code": "frozenset\\(([^)]+|)\\)",
+                "Title": "Syntax of while Loop in Python",
+                "Process": "while test_expression:\nBody of while"
             }
         },
         {
             "Snippets": {
-                "Snippet_Name": "ROS Parameters",
-                "Regex_Code": "rospy",
-                "Title": "Syntax of Get a Parameter From Our Private Namespace",
-                "Process": "param=rospy.get_param('~private_param_name')"
+                "Snippet_Name": "getattr()",
+                "Regex_Code": "getattr\\(([^)]+|)\\)",
+                "Title": "Syntax of while Loop in Python",
+                "Process": "while test_expression:\nBody of while"
             }
         },
         {
             "Snippets": {
-                "Snippet_Name": "ROS Logs",
-                "Regex_Code": "rospy",
-                "Title": "Syntax of Get a Parameter From Our Private Namespace",
-                "Process": "param=rospy.get_param('~private_param_name')"
+                "Snippet_Name": "hasattr()",
+                "Regex_Code": "hasattr\\(([^)]+|)\\)",
+                "Title": "Syntax of while Loop in Python",
+                "Process": "while test_expression:\nBody of while"
             }
-        }         
+        },
+        {
+            "Snippets": {
+                "Snippet_Name": "hash()",
+                "Regex_Code": "hash\\(([^)]+|)\\)",
+                "Title": "Syntax of while Loop in Python",
+                "Process": "while test_expression:\nBody of while"
+            }
+        },
+        {
+            "Snippets": {
+                "Snippet_Name": "help()",
+                "Regex_Code": "help\\(([^)]+|)\\)",
+                "Title": "Syntax of while Loop in Python",
+                "Process": "while test_expression:\nBody of while"
+            }
+        },
+        {
+            "Snippets": {
+                "Snippet_Name": "hex()",
+                "Regex_Code": "hex\\(([^)]+|)\\)",
+                "Title": "Syntax of while Loop in Python",
+                "Process": "while test_expression:\nBody of while"
+            }
+        },
+        {
+            "Snippets": {
+                "Snippet_Name": "id()",
+                "Regex_Code": "id\\(([^)]+|)\\)",
+                "Title": "Syntax of while Loop in Python",
+                "Process": "while test_expression:\nBody of while"
+            }
+        },
+        {
+            "Snippets": {
+                "Snippet_Name": "int()",
+                "Regex_Code": "int\\(([^)]+|)\\)",
+                "Title": "Syntax of while Loop in Python",
+                "Process": "while test_expression:\nBody of while"
+            }
+        },
+        {
+            "Snippets": {
+                "Snippet_Name": "isinstance()",
+                "Regex_Code": "isinstance\\(([^)]+|)\\)",
+                "Title": "Syntax of while Loop in Python",
+                "Process": "while test_expression:\nBody of while"
+            }
+        },
+        {
+            "Snippets": {
+                "Snippet_Name": "iter()",
+                "Regex_Code": "iter\\(([^)]+|)\\)",
+                "Title": "Syntax of while Loop in Python",
+                "Process": "while test_expression:\nBody of while"
+            }
+        },
+        {
+            "Snippets": {
+                "Snippet_Name": "len()",
+                "Regex_Code": "len\\(([^)]+|)\\)",
+                "Title": "Syntax of while Loop in Python",
+                "Process": "while test_expression:\nBody of while"
+            }
+        },
+        {
+            "Snippets": {
+                "Snippet_Name": "list()",
+                "Regex_Code": "list\\(([^)]+|)\\)",
+                "Title": "Syntax of while Loop in Python",
+                "Process": "while test_expression:\nBody of while"
+            }
+        },
+        {
+            "Snippets": {
+                "Snippet_Name": "map()",
+                "Regex_Code": "map\\(([^)]+|)\\)",
+                "Title": "Syntax of while Loop in Python",
+                "Process": "while test_expression:\nBody of while"
+            }
+        },
+        {
+            "Snippets": {
+                "Snippet_Name": "max()",
+                "Regex_Code": "max\\(([^)]+|)\\)",
+                "Title": "Syntax of while Loop in Python",
+                "Process": "while test_expression:\nBody of while"
+            }
+        },
+        {
+            "Snippets": {
+                "Snippet_Name": "memoryview()",
+                "Regex_Code": "memoryview\\(([^)]+|)\\)",
+                "Title": "Syntax of while Loop in Python",
+                "Process": "while test_expression:\nBody of while"
+            }
+        },
+        {
+            "Snippets": {
+                "Snippet_Name": "min()",
+                "Regex_Code": "min\\(([^)]+|)\\)",
+                "Title": "Syntax of while Loop in Python",
+                "Process": "while test_expression:\nBody of while"
+            }
+        },
+        {
+            "Snippets": {
+                "Snippet_Name": "next()",
+                "Regex_Code": "next\\(([^)]+|)\\)",
+                "Title": "Syntax of while Loop in Python",
+                "Process": "while test_expression:\nBody of while"
+            }
+        },
+        {
+            "Snippets": {
+                "Snippet_Name": "oct()",
+                "Regex_Code": "oct\\(([^)]+|)\\)",
+                "Title": "Syntax of while Loop in Python",
+                "Process": "while test_expression:\nBody of while"
+            }
+        },
+        {
+            "Snippets": {
+                "Snippet_Name": "open()",
+                "Regex_Code": "open\\(([^)]+|)\\)",
+                "Title": "Syntax of while Loop in Python",
+                "Process": "while test_expression:\nBody of while"
+            }
+        },
+        {
+            "Snippets": {
+                "Snippet_Name": "ord()",
+                "Regex_Code": "ord\\(([^)]+|)\\)",
+                "Title": "Syntax of while Loop in Python",
+                "Process": "while test_expression:\nBody of while"
+            }
+        },
+        {
+            "Snippets": {
+                "Snippet_Name": "pow()",
+                "Regex_Code": "pow\\(([^)]+|)\\)",
+                "Title": "Syntax of while Loop in Python",
+                "Process": "while test_expression:\nBody of while"
+            }
+        },
+        {
+            "Snippets": {
+                "Snippet_Name": "property()",
+                "Regex_Code": "property\\(([^)]+|)\\)",
+                "Title": "Syntax of while Loop in Python",
+                "Process": "while test_expression:\nBody of while"
+            }
+        },
+        {
+            "Snippets": {
+                "Snippet_Name": "range()",
+                "Regex_Code": "range\\(([^)]+|)\\)",
+                "Title": "Syntax of while Loop in Python",
+                "Process": "while test_expression:\nBody of while"
+            }
+        },
+        {
+            "Snippets": {
+                "Snippet_Name": "reversed()",
+                "Regex_Code": "reversed\\(([^)]+|)\\)",
+                "Title": "Syntax of while Loop in Python",
+                "Process": "while test_expression:\nBody of while"
+            }
+        },
+        {
+            "Snippets": {
+                "Snippet_Name": "round()",
+                "Regex_Code": "round\\(([^)]+|)\\)",
+                "Title": "Syntax of while Loop in Python",
+                "Process": "while test_expression:\nBody of while"
+            }
+        },
+        {
+            "Snippets": {
+                "Snippet_Name": "set()",
+                "Regex_Code": "set\\(([^)]+|)\\)",
+                "Title": "Syntax of while Loop in Python",
+                "Process": "while test_expression:\nBody of while"
+            }
+        },
+        {
+            "Snippets": {
+                "Snippet_Name": "setattr()",
+                "Regex_Code": "setattr\\(([^)]+|)\\)",
+                "Title": "Syntax of while Loop in Python",
+                "Process": "while test_expression:\nBody of while"
+            }
+        },
+        {
+            "Snippets": {
+                "Snippet_Name": "slice()",
+                "Regex_Code": "slice\\(([^)]+|)\\)",
+                "Title": "Syntax of while Loop in Python",
+                "Process": "while test_expression:\nBody of while"
+            }
+        },
+        {
+            "Snippets": {
+                "Snippet_Name": "sorted()",
+                "Regex_Code": "sorted\\(([^)]+|)\\)",
+                "Title": "Syntax of while Loop in Python",
+                "Process": "while test_expression:\nBody of while"
+            }
+        },
+        {
+            "Snippets": {
+                "Snippet_Name": "str()",
+                "Regex_Code": "str\\(([^)]+|)\\)",
+                "Title": "Syntax of while Loop in Python",
+                "Process": "while test_expression:\nBody of while"
+            }
+        },
+        {
+            "Snippets": {
+                "Snippet_Name": "sum()",
+                "Regex_Code": "sum\\(([^)]+|)\\)",
+                "Title": "Syntax of while Loop in Python",
+                "Process": "while test_expression:\nBody of while"
+            }
+        },
+        {
+            "Snippets": {
+                "Snippet_Name": "tuple()",
+                "Regex_Code": "tuple\\(([^)]+|)\\)",
+                "Title": "Syntax of while Loop in Python",
+                "Process": "while test_expression:\nBody of while"
+            }
+        },
+        {
+            "Snippets": {
+                "Snippet_Name": "type()",
+                "Regex_Code": "type\\(([^)]+|)\\)",
+                "Title": "Syntax of while Loop in Python",
+                "Process": "while test_expression:\nBody of while"
+            }
+        },
+        {
+            "Snippets": {
+                "Snippet_Name": "vars()",
+                "Regex_Code": "vars\\(([^)]+|)\\)",
+                "Title": "Syntax of while Loop in Python",
+                "Process": "while test_expression:\nBody of while"
+            }
+        },
+        {
+            "Snippets": {
+                "Snippet_Name": "zip()",
+                "Regex_Code": "zip\\(([^)]+|)\\)",
+                "Title": "Syntax of while Loop in Python",
+                "Process": "while test_expression:\nBody of while"
+            }
+        },
+        {
+            "Snippets": {
+                "Snippet_Name": "count()",
+                "Regex_Code": "count\\(([^)]+|)\\)",
+                "Title": "Syntax of while Loop in Python",
+                "Process": "while test_expression:\nBody of while"
+            }
+        },
+        {
+            "Snippets": {
+                "Snippet_Name": "index()",
+                "Regex_Code": "index\\(([^)]+|)\\)",
+                "Title": "Syntax of while Loop in Python",
+                "Process": "while test_expression:\nBody of while"
+            }
+        },
+        {
+            "Snippets": {
+                "Snippet_Name": "fromkeys()",
+                "Regex_Code": "fromkeys\\(([^)]+|)\\)",
+                "Title": "Syntax of while Loop in Python",
+                "Process": "while test_expression:\nBody of while"
+            }
+        },
+        {
+            "Snippets": {
+                "Snippet_Name": "get()",
+                "Regex_Code": "get\\(([^)]+|)\\)",
+                "Title": "Syntax of while Loop in Python",
+                "Process": "while test_expression:\nBody of while"
+            }
+        },
+        {
+            "Snippets": {
+                "Snippet_Name": "update()",
+                "Regex_Code": "update\\(([^)]+|)\\)",
+                "Title": "Syntax of while Loop in Python",
+                "Process": "while test_expression:\nBody of while"
+            }
+        },
+        {
+            "Snippets": {
+                "Snippet_Name": "append()",
+                "Regex_Code": "append\\(([^)]+|)\\)",
+                "Title": "Syntax of while Loop in Python",
+                "Process": "while test_expression:\nBody of while"
+            }
+        },
+        {
+            "Snippets": {
+                "Snippet_Name": "extend()",
+                "Regex_Code": "extend\\(([^)]+|)\\)",
+                "Title": "Syntax of while Loop in Python",
+                "Process": "while test_expression:\nBody of while"
+            }
+        },
+        {
+            "Snippets": {
+                "Snippet_Name": "insert()",
+                "Regex_Code": "insert\\(([^)]+|)\\)",
+                "Title": "Syntax of while Loop in Python",
+                "Process": "while test_expression:\nBody of while"
+            }
+        },
+        {
+            "Snippets": {
+                "Snippet_Name": "remove()",
+                "Regex_Code": "remove\\(([^)]+|)\\)",
+                "Title": "Syntax of while Loop in Python",
+                "Process": "while test_expression:\nBody of while"
+            }
+        },
+        {
+            "Snippets": {
+                "Snippet_Name": "seek()",
+                "Regex_Code": "seek\\(([^)]+|)\\)",
+                "Title": "Syntax of while Loop in Python",
+                "Process": "while test_expression:\nBody of while"
+            }
+        },
+        {
+            "Snippets": {
+                "Snippet_Name": "truncate()",
+                "Regex_Code": "truncate\\(([^)]+|)\\)",
+                "Title": "Syntax of while Loop in Python",
+                "Process": "while test_expression:\nBody of while"
+            }
+        },
+        {
+            "Snippets": {
+                "Snippet_Name": "write()",
+                "Regex_Code": "write\\(([^)]+|)\\)",
+                "Title": "Syntax of while Loop in Python",
+                "Process": "while test_expression:\nBody of while"
+            }
+        },
+        {
+            "Snippets": {
+                "Snippet_Name": "writelines()",
+                "Regex_Code": "writelines\\(([^)]+|)\\)",
+                "Title": "Syntax of while Loop in Python",
+                "Process": "while test_expression:\nBody of while"
+            }
+        },
+        {
+            "Snippets": {
+                "Snippet_Name": "add()",
+                "Regex_Code": "add\\(([^)]+|)\\)",
+                "Title": "Syntax of while Loop in Python",
+                "Process": "while test_expression:\nBody of while"
+            }
+        },
+        {
+            "Snippets": {
+                "Snippet_Name": "difference()",
+                "Regex_Code": "difference\\(([^)]+|)\\)",
+                "Title": "Syntax of while Loop in Python",
+                "Process": "while test_expression:\nBody of while"
+            }
+        },
+        {
+            "Snippets": {
+                "Snippet_Name": "difference_update()",
+                "Regex_Code": "difference_update\\(([^)]+|)\\)",
+                "Title": "Syntax of while Loop in Python",
+                "Process": "while test_expression:\nBody of while"
+            }
+        },
+        {
+            "Snippets": {
+                "Snippet_Name": "discard()",
+                "Regex_Code": "discard\\(([^)]+|)\\)",
+                "Title": "Syntax of while Loop in Python",
+                "Process": "while test_expression:\nBody of while"
+            }
+        },
+        {
+            "Snippets": {
+                "Snippet_Name": "intersection()",
+                "Regex_Code": "intersection\\(([^)]+|)\\)",
+                "Title": "Syntax of while Loop in Python",
+                "Process": "while test_expression:\nBody of while"
+            }
+        },
+        {
+            "Snippets": {
+                "Snippet_Name": "intersection_update()",
+                "Regex_Code": "intersection_update\\(([^)]+|)\\)",
+                "Title": "Syntax of while Loop in Python",
+                "Process": "while test_expression:\nBody of while"
+            }
+        },
+        {
+            "Snippets": {
+                "Snippet_Name": "isdisjoint()",
+                "Regex_Code": "isdisjoint\\(([^)]+|)\\)",
+                "Title": "Syntax of while Loop in Python",
+                "Process": "while test_expression:\nBody of while"
+            }
+        },
+        {
+            "Snippets": {
+                "Snippet_Name": "issubset()",
+                "Regex_Code": "issubset\\(([^)]+|)\\)",
+                "Title": "Syntax of while Loop in Python",
+                "Process": "while test_expression:\nBody of while"
+            }
+        },
+        {
+            "Snippets": {
+                "Snippet_Name": "issuperset()",
+                "Regex_Code": "issuperset\\(([^)]+|)\\)",
+                "Title": "Syntax of while Loop in Python",
+                "Process": "while test_expression:\nBody of while"
+            }
+        },
+        {
+            "Snippets": {
+                "Snippet_Name": "symmetric_difference()",
+                "Regex_Code": "symmetric_difference\\(([^)]+|)\\)",
+                "Title": "Syntax of while Loop in Python",
+                "Process": "while test_expression:\nBody of while"
+            }
+        },
+        {
+            "Snippets": {
+                "Snippet_Name": "symmetric_difference_update()",
+                "Regex_Code": "symmetric_difference_update\\(([^)]+|)\\)",
+                "Title": "Syntax of while Loop in Python",
+                "Process": "while test_expression:\nBody of while"
+            }
+        },
+        {
+            "Snippets": {
+                "Snippet_Name": "union()",
+                "Regex_Code": "union\\(([^)]+|)\\)",
+                "Title": "Syntax of while Loop in Python",
+                "Process": "while test_expression:\nBody of while"
+            }
+        },
+        {
+            "Snippets": {
+                "Snippet_Name": "update()",
+                "Regex_Code": "update\\(([^)]+|)\\)",
+                "Title": "Syntax of while Loop in Python",
+                "Process": "while test_expression:\nBody of while"
+            }
+        },
+        {
+            "Snippets": {
+                "Snippet_Name": "center()",
+                "Regex_Code": "center\\(([^)]+|)\\)",
+                "Title": "Syntax of while Loop in Python",
+                "Process": "while test_expression:\nBody of while"
+            }
+        },
+        {
+            "Snippets": {
+                "Snippet_Name": "endswith()",
+                "Regex_Code": "endswith\\(([^)]+|)\\)",
+                "Title": "Syntax of while Loop in Python",
+                "Process": "while test_expression:\nBody of while"
+            }
+        },
+        {
+            "Snippets": {
+                "Snippet_Name": "expandtabs()",
+                "Regex_Code": "expandtabs\\(([^)]+|)\\)",
+                "Title": "Syntax of while Loop in Python",
+                "Process": "while test_expression:\nBody of while"
+            }
+        },
+        {
+            "Snippets": {
+                "Snippet_Name": "find()",
+                "Regex_Code": "find\\(([^)]+|)\\)",
+                "Title": "Syntax of while Loop in Python",
+                "Process": "while test_expression:\nBody of while"
+            }
+        },
+        {
+            "Snippets": {
+                "Snippet_Name": "index()",
+                "Regex_Code": "index\\(([^)]+|)\\)",
+                "Title": "Syntax of while Loop in Python",
+                "Process": "while test_expression:\nBody of while"
+            }
+        },
+        {
+            "Snippets": {
+                "Snippet_Name": "join()",
+                "Regex_Code": "join\\(([^)]+|)\\)",
+                "Title": "Syntax of while Loop in Python",
+                "Process": "while test_expression:\nBody of while"
+            }
+        },
+        {
+            "Snippets": {
+                "Snippet_Name": "ljust()",
+                "Regex_Code": "ljust\\(([^)]+|)\\)",
+                "Title": "Syntax of while Loop in Python",
+                "Process": "while test_expression:\nBody of while"
+            }
+        },
+        {
+            "Snippets": {
+                "Snippet_Name": "maketrans()",
+                "Regex_Code": "maketrans\\(([^)]+|)\\)",
+                "Title": "Syntax of while Loop in Python",
+                "Process": "while test_expression:\nBody of while"
+            }
+        },
+        {
+            "Snippets": {
+                "Snippet_Name": "partition()",
+                "Regex_Code": "partition\\(([^)]+|)\\)",
+                "Title": "Syntax of while Loop in Python",
+                "Process": "while test_expression:\nBody of while"
+            }
+        },
+        {
+            "Snippets": {
+                "Snippet_Name": "replace()",
+                "Regex_Code": "replace\\(([^)]+|)\\)",
+                "Title": "Syntax of while Loop in Python",
+                "Process": "while test_expression:\nBody of while"
+            }
+        },
+        {
+            "Snippets": {
+                "Snippet_Name": "rfind()",
+                "Regex_Code": "rfind\\(([^)]+|)\\)",
+                "Title": "Syntax of while Loop in Python",
+                "Process": "while test_expression:\nBody of while"
+            }
+        },
+        {
+            "Snippets": {
+                "Snippet_Name": "rindex()",
+                "Regex_Code": "rindex\\(([^)]+|)\\)",
+                "Title": "Syntax of while Loop in Python",
+                "Process": "while test_expression:\nBody of while"
+            }
+        },
+        {
+            "Snippets": {
+                "Snippet_Name": "rjust()",
+                "Regex_Code": "rjust\\(([^)]+|)\\)",
+                "Title": "Syntax of while Loop in Python",
+                "Process": "while test_expression:\nBody of while"
+            }
+        },
+        {
+            "Snippets": {
+                "Snippet_Name": "rpartition()",
+                "Regex_Code": "rpartition\\(([^)]+|)\\)",
+                "Title": "Syntax of while Loop in Python",
+                "Process": "while test_expression:\nBody of while"
+            }
+        },
+        {
+            "Snippets": {
+                "Snippet_Name": "startswith()",
+                "Regex_Code": "startswith\\(([^)]+|)\\)",
+                "Title": "Syntax of while Loop in Python",
+                "Process": "while test_expression:\nBody of while"
+            }
+        },
+        {
+            "Snippets": {
+                "Snippet_Name": "zfill()",
+                "Regex_Code": "zfill\\(([^)]+|)\\)",
+                "Title": "Syntax of while Loop in Python",
+                "Process": "while test_expression:\nBody of while"
+            }
+        }
     ]
 }
