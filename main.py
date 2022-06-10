@@ -91,6 +91,9 @@ class MainWindow(QMainWindow):
 
         # Take ".py" file for source code
         def get_file_py_for_source_code():
+            #
+            # Source code data will add to the database
+            #
             dialog = QFileDialog()
             dialog.setFileMode(QFileDialog.AnyFile)
             dialog.setNameFilter(("*.py"))
@@ -110,6 +113,9 @@ class MainWindow(QMainWindow):
 
         # Take ".py" file for test case
         def get_file_py_for_test_case():
+            #
+            # Test case file will add to the database
+            #
             dialog = QFileDialog()
             dialog.setFileMode(QFileDialog.AnyFile)
             dialog.setNameFilter(("*.py"))
@@ -124,6 +130,9 @@ class MainWindow(QMainWindow):
 
         # Take ".json" file for workload
         def workload_get_file_json():
+            #
+            # Workload file content will add to the database
+            #
             dialog = QFileDialog()
             dialog.setFileMode(QFileDialog.AnyFile)
             dialog.setNameFilter(("*.json"))
@@ -412,6 +421,9 @@ class MainWindow(QMainWindow):
             mutation_process_function(target_text, random_fault, random_fault + 1)
 
         def execution_module_function():
+            #
+            # Execution settings, files, terminal outputs and metrics-states will add to the database
+            #
             global ROS_SOURCE_MUTANT
             global ROS_SOURCE_CODE
             ROS_SOURCE_MUTANT = []
@@ -1554,6 +1566,10 @@ class MainWindow(QMainWindow):
             self.ui.titleRightInfo.setText("START")
 
         if btnName == "btn_go_scan":
+            #
+            # The last file contents will add to the start page database table
+            #
+
             self.ui.stackedWidget.setCurrentWidget(self.ui.scan)
             UIFunctions.resetStyle(self, self.ui.btn_start.styleSheet())
             self.ui.btn_scan.setStyleSheet(
@@ -1587,6 +1603,9 @@ class MainWindow(QMainWindow):
                     self.ui.listWidget_17.addItems(code_snippet_data_list)
 
         if btnName == "btn_go_fiplan":
+            #
+            # Scanned code will add to the database
+            #
             self.ui.stackedWidget.setCurrentWidget(self.ui.fiplan)
             UIFunctions.resetStyle(self, self.ui.btn_scan.styleSheet())
             self.ui.btn_fiplan.setStyleSheet(
@@ -1707,7 +1726,9 @@ class MainWindow(QMainWindow):
             self.ui.test_case_terminal.setPlainText(new_output)
 
         if btnName == "pushButton_10":
-
+            #
+            # Exe file data will add to the database
+            #
             dialog = QFileDialog()
             dialog.setFileMode(QFileDialog.AnyFile)
             dialog.setNameFilter("*.py *.launch")
@@ -1850,6 +1871,9 @@ class MainWindow(QMainWindow):
         # ROS PAGE at START PAGE
 
         if btnName == "ros_fiplan_save":
+            #
+            # ROS mutant codes and ROS FI Plan will add to the database
+            #
             if self.ui.textEdit_45.toPlainText() != "":
                 global ROS_SOURCE_MUTANT
                 ROS_SOURCE_MUTANT = []
@@ -2163,6 +2187,9 @@ class MainWindow(QMainWindow):
                 message_box.exec()
 
         if btnName == "select_trgt_btn":
+            #
+            # ROS file will add to the data base
+            #
             global ROS_SOURCE_CODE
 
             dialog = QFileDialog()
@@ -2344,6 +2371,9 @@ class MainWindow(QMainWindow):
 
         # Target ROS file is opened to apply mutation process
         if btnName == "open_target_ros":
+            #
+            # Target ROS file will add to the database
+            #
             size_target_ros_list = self.ui.listWidget_10.count()
 
             dialog = QFileDialog()
@@ -2408,6 +2438,9 @@ class MainWindow(QMainWindow):
                 remove_ros_mutant()
 
         if btnName == "scan_ros_btn":
+            #
+            # Found lines from ROS system will add to the database
+            #
             tam_konum = ""
             total_ros_items = []
             file_location = self.ui.textEdit_47.toPlainText()
@@ -3110,6 +3143,9 @@ class MainWindow(QMainWindow):
                 del ZIPPED_LIST[row]
 
         if btnName == "btn_save_fiplan":
+            #
+            # Mutated codes and FI Plans will add to the database
+            #
 
             global source_and_mutate_code
             selected_task_list_size = self.ui.listWidget_4.count()
