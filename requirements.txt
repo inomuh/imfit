@@ -1,0 +1,8 @@
+astunparse==1.6.3
+fpdf==1.7.2
+matplotlib==3.5.2
+numpy==1.17.4
+PyQt5==5.15.7
+pytest==7.1.2
+psycopg2-binary
+PySide6
