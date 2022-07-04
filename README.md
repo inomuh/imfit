@@ -3,6 +3,10 @@
 
 IM-FIT applies mutation testing to **Python, ROS-Py, Launch, Yaml, SRV, MSG** file types.
 
+The requirements.txt file should list all Python libraries that your notebooks depend on, and they will be installed using:
+```
+pip install -r requirements.txt
+```
 ![Image of IM-FIT Home Page](https://github.com/inomuh/imfit/blob/main/home-page.png)
 <p align="center">
         <b><i>Fig 1. IM-FIT Home Page</i></b>
