@@ -1,1 +1,1 @@
-Fault plaans are created by IM-FIT
+# Fault plans are created by IM-FIT
