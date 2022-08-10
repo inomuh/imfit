@@ -1,0 +1,1640 @@
+[
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T21_LCPN_42-Trapping-Rain-Water.py",
+            "Source_Code": "if not height:",
+            "Mutate_Code": "if height:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T21_LCPN_42-Trapping-Rain-Water.py",
+            "Source_Code": "if not height:",
+            "Mutate_Code": "if and height:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T21_LCPN_42-Trapping-Rain-Water.py",
+            "Source_Code": "if not height:",
+            "Mutate_Code": "if or height:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T21_LCPN_42-Trapping-Rain-Water.py",
+            "Source_Code": "if not height:",
+            "Mutate_Code": "if and and height:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T21_LCPN_42-Trapping-Rain-Water.py",
+            "Source_Code": "if not height:",
+            "Mutate_Code": "if or or height:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T21_LCPN_42-Trapping-Rain-Water.py",
+            "Source_Code": "if not height:",
+            "Mutate_Code": "if not not height:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T21_LCPN_42-Trapping-Rain-Water.py",
+            "Source_Code": "if not height:",
+            "Mutate_Code": " "
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T21_LCPN_42-Trapping-Rain-Water.py",
+            "Source_Code": "if not height:",
+            "Mutate_Code": "elif:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T21_LCPN_42-Trapping-Rain-Water.py",
+            "Source_Code": "if not height:",
+            "Mutate_Code": "else:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T21_LCPN_42-Trapping-Rain-Water.py",
+            "Source_Code": "if not height:",
+            "Mutate_Code": "if if"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T21_LCPN_42-Trapping-Rain-Water.py",
+            "Source_Code": "if not height:",
+            "Mutate_Code": "if height:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T21_LCPN_42-Trapping-Rain-Water.py",
+            "Source_Code": "if not height:",
+            "Mutate_Code": "if and height:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T21_LCPN_42-Trapping-Rain-Water.py",
+            "Source_Code": "if not height:",
+            "Mutate_Code": "if or height:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T21_LCPN_42-Trapping-Rain-Water.py",
+            "Source_Code": "if not height:",
+            "Mutate_Code": "if and and height:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T21_LCPN_42-Trapping-Rain-Water.py",
+            "Source_Code": "if not height:",
+            "Mutate_Code": "if or or height:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T21_LCPN_42-Trapping-Rain-Water.py",
+            "Source_Code": "if not height:",
+            "Mutate_Code": "if not not height:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T21_LCPN_42-Trapping-Rain-Water.py",
+            "Source_Code": "if not height:",
+            "Mutate_Code": " "
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T21_LCPN_42-Trapping-Rain-Water.py",
+            "Source_Code": "if not height:",
+            "Mutate_Code": "elif:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T21_LCPN_42-Trapping-Rain-Water.py",
+            "Source_Code": "if not height:",
+            "Mutate_Code": "else:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T21_LCPN_42-Trapping-Rain-Water.py",
+            "Source_Code": "if not height:",
+            "Mutate_Code": "if if"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T21_LCPN_42-Trapping-Rain-Water.py",
+            "Source_Code": "return 0",
+            "Mutate_Code": " 0"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T21_LCPN_42-Trapping-Rain-Water.py",
+            "Source_Code": "return 0",
+            "Mutate_Code": "pass0"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T21_LCPN_42-Trapping-Rain-Water.py",
+            "Source_Code": "return 0",
+            "Mutate_Code": "return return0"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T21_LCPN_42-Trapping-Rain-Water.py",
+            "Source_Code": "l, r = 0, len(height) - 1",
+            "Mutate_Code": "l, r = 0, len(height) 1"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T21_LCPN_42-Trapping-Rain-Water.py",
+            "Source_Code": "l, r = 0, len(height) - 1",
+            "Mutate_Code": "l, r = 0, len(height) + 1"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T21_LCPN_42-Trapping-Rain-Water.py",
+            "Source_Code": "l, r = 0, len(height) - 1",
+            "Mutate_Code": "l, r = 0, len(height) * 1"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T21_LCPN_42-Trapping-Rain-Water.py",
+            "Source_Code": "l, r = 0, len(height) - 1",
+            "Mutate_Code": "l, r = 0, len(height) / 1"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T21_LCPN_42-Trapping-Rain-Water.py",
+            "Source_Code": "l, r = 0, len(height) - 1",
+            "Mutate_Code": "l, r = 0, len(height) % 1"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T21_LCPN_42-Trapping-Rain-Water.py",
+            "Source_Code": "l, r = 0, len(height) - 1",
+            "Mutate_Code": "l, r = 0, len(height) ** 1"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T21_LCPN_42-Trapping-Rain-Water.py",
+            "Source_Code": "l, r = 0, len(height) - 1",
+            "Mutate_Code": "l, r = 0, len(height) // 1"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T21_LCPN_42-Trapping-Rain-Water.py",
+            "Source_Code": "l, r = 0, len(height) - 1",
+            "Mutate_Code": "l, r = 0, len(height) ++ 1"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T21_LCPN_42-Trapping-Rain-Water.py",
+            "Source_Code": "l, r = 0, len(height) - 1",
+            "Mutate_Code": "l, r = 0, len(height) -- 1"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T21_LCPN_42-Trapping-Rain-Water.py",
+            "Source_Code": "l, r = 0, len(height) - 1",
+            "Mutate_Code": "l, r = 0, len(height) ** 1"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T21_LCPN_42-Trapping-Rain-Water.py",
+            "Source_Code": "l, r = 0, len(height) - 1",
+            "Mutate_Code": "l, r = 0, len(height) // 1"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T21_LCPN_42-Trapping-Rain-Water.py",
+            "Source_Code": "l, r = 0, len(height) - 1",
+            "Mutate_Code": "l, r = 0, len(height) %% 1"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T21_LCPN_42-Trapping-Rain-Water.py",
+            "Source_Code": "l, r = 0, len(height) - 1",
+            "Mutate_Code": "l, r = 0, len(height) **** 1"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T21_LCPN_42-Trapping-Rain-Water.py",
+            "Source_Code": "l, r = 0, len(height) - 1",
+            "Mutate_Code": "l, r = 0, len(height) //// 1"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T21_LCPN_42-Trapping-Rain-Water.py",
+            "Source_Code": "l, r = 0, len(height) - 1",
+            "Mutate_Code": "l, r 0, len(height) - 1"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T21_LCPN_42-Trapping-Rain-Water.py",
+            "Source_Code": "l, r = 0, len(height) - 1",
+            "Mutate_Code": "l, r 0, len(height) - 1"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T21_LCPN_42-Trapping-Rain-Water.py",
+            "Source_Code": "l, r = 0, len(height) - 1",
+            "Mutate_Code": "l, r += 0, len(height) - 1"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T21_LCPN_42-Trapping-Rain-Water.py",
+            "Source_Code": "l, r = 0, len(height) - 1",
+            "Mutate_Code": "l, r -= 0, len(height) - 1"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T21_LCPN_42-Trapping-Rain-Water.py",
+            "Source_Code": "l, r = 0, len(height) - 1",
+            "Mutate_Code": "l, r *= 0, len(height) - 1"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T21_LCPN_42-Trapping-Rain-Water.py",
+            "Source_Code": "l, r = 0, len(height) - 1",
+            "Mutate_Code": "l, r /= 0, len(height) - 1"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T21_LCPN_42-Trapping-Rain-Water.py",
+            "Source_Code": "l, r = 0, len(height) - 1",
+            "Mutate_Code": "l, r %= 0, len(height) - 1"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T21_LCPN_42-Trapping-Rain-Water.py",
+            "Source_Code": "l, r = 0, len(height) - 1",
+            "Mutate_Code": "l, r //= 0, len(height) - 1"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T21_LCPN_42-Trapping-Rain-Water.py",
+            "Source_Code": "l, r = 0, len(height) - 1",
+            "Mutate_Code": "l, r **= 0, len(height) - 1"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T21_LCPN_42-Trapping-Rain-Water.py",
+            "Source_Code": "l, r = 0, len(height) - 1",
+            "Mutate_Code": "l, r &= 0, len(height) - 1"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T21_LCPN_42-Trapping-Rain-Water.py",
+            "Source_Code": "l, r = 0, len(height) - 1",
+            "Mutate_Code": "l, r |= 0, len(height) - 1"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T21_LCPN_42-Trapping-Rain-Water.py",
+            "Source_Code": "l, r = 0, len(height) - 1",
+            "Mutate_Code": "l, r ^= 0, len(height) - 1"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T21_LCPN_42-Trapping-Rain-Water.py",
+            "Source_Code": "l, r = 0, len(height) - 1",
+            "Mutate_Code": "l, r >>= 0, len(height) - 1"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T21_LCPN_42-Trapping-Rain-Water.py",
+            "Source_Code": "l, r = 0, len(height) - 1",
+            "Mutate_Code": "l, r <<= 0, len(height) - 1"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T21_LCPN_42-Trapping-Rain-Water.py",
+            "Source_Code": "l, r = 0, len(height) - 1",
+            "Mutate_Code": "l, r += 0, len(height) - 1"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T21_LCPN_42-Trapping-Rain-Water.py",
+            "Source_Code": "l, r = 0, len(height) - 1",
+            "Mutate_Code": "l, r -= 0, len(height) - 1"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T21_LCPN_42-Trapping-Rain-Water.py",
+            "Source_Code": "l, r = 0, len(height) - 1",
+            "Mutate_Code": "l, r *= 0, len(height) - 1"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T21_LCPN_42-Trapping-Rain-Water.py",
+            "Source_Code": "l, r = 0, len(height) - 1",
+            "Mutate_Code": "l, r /= 0, len(height) - 1"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T21_LCPN_42-Trapping-Rain-Water.py",
+            "Source_Code": "l, r = 0, len(height) - 1",
+            "Mutate_Code": "l, r %= 0, len(height) - 1"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T21_LCPN_42-Trapping-Rain-Water.py",
+            "Source_Code": "l, r = 0, len(height) - 1",
+            "Mutate_Code": "l, r //= 0, len(height) - 1"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T21_LCPN_42-Trapping-Rain-Water.py",
+            "Source_Code": "l, r = 0, len(height) - 1",
+            "Mutate_Code": "l, r **= 0, len(height) - 1"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T21_LCPN_42-Trapping-Rain-Water.py",
+            "Source_Code": "l, r = 0, len(height) - 1",
+            "Mutate_Code": "l, r &= 0, len(height) - 1"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T21_LCPN_42-Trapping-Rain-Water.py",
+            "Source_Code": "l, r = 0, len(height) - 1",
+            "Mutate_Code": "l, r |= 0, len(height) - 1"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T21_LCPN_42-Trapping-Rain-Water.py",
+            "Source_Code": "l, r = 0, len(height) - 1",
+            "Mutate_Code": "l, r ^= 0, len(height) - 1"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T21_LCPN_42-Trapping-Rain-Water.py",
+            "Source_Code": "l, r = 0, len(height) - 1",
+            "Mutate_Code": "l, r >>= 0, len(height) - 1"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T21_LCPN_42-Trapping-Rain-Water.py",
+            "Source_Code": "l, r = 0, len(height) - 1",
+            "Mutate_Code": "l, r <<= 0, len(height) - 1"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T21_LCPN_42-Trapping-Rain-Water.py",
+            "Source_Code": "l, r = 0, len(height) - 1",
+            "Mutate_Code": "l, r == 0, len(height) - 1"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T21_LCPN_42-Trapping-Rain-Water.py",
+            "Source_Code": "l, r = 0, len(height) - 1",
+            "Mutate_Code": "l, r +=+= 0, len(height) - 1"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T21_LCPN_42-Trapping-Rain-Water.py",
+            "Source_Code": "l, r = 0, len(height) - 1",
+            "Mutate_Code": "l, r -=-= 0, len(height) - 1"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T21_LCPN_42-Trapping-Rain-Water.py",
+            "Source_Code": "l, r = 0, len(height) - 1",
+            "Mutate_Code": "l, r *=*= 0, len(height) - 1"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T21_LCPN_42-Trapping-Rain-Water.py",
+            "Source_Code": "l, r = 0, len(height) - 1",
+            "Mutate_Code": "l, r /=/= 0, len(height) - 1"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T21_LCPN_42-Trapping-Rain-Water.py",
+            "Source_Code": "l, r = 0, len(height) - 1",
+            "Mutate_Code": "l, r %=%= 0, len(height) - 1"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T21_LCPN_42-Trapping-Rain-Water.py",
+            "Source_Code": "l, r = 0, len(height) - 1",
+            "Mutate_Code": "l, r //=//= 0, len(height) - 1"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T21_LCPN_42-Trapping-Rain-Water.py",
+            "Source_Code": "l, r = 0, len(height) - 1",
+            "Mutate_Code": "l, r **=**= 0, len(height) - 1"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T21_LCPN_42-Trapping-Rain-Water.py",
+            "Source_Code": "l, r = 0, len(height) - 1",
+            "Mutate_Code": "l, r &=&= 0, len(height) - 1"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T21_LCPN_42-Trapping-Rain-Water.py",
+            "Source_Code": "l, r = 0, len(height) - 1",
+            "Mutate_Code": "l, r |=|= 0, len(height) - 1"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T21_LCPN_42-Trapping-Rain-Water.py",
+            "Source_Code": "l, r = 0, len(height) - 1",
+            "Mutate_Code": "l, r ^=^= 0, len(height) - 1"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T21_LCPN_42-Trapping-Rain-Water.py",
+            "Source_Code": "l, r = 0, len(height) - 1",
+            "Mutate_Code": "l, r >>=>>= 0, len(height) - 1"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T21_LCPN_42-Trapping-Rain-Water.py",
+            "Source_Code": "l, r = 0, len(height) - 1",
+            "Mutate_Code": "l, r <<=<<=0, len(height) - 1"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T21_LCPN_42-Trapping-Rain-Water.py",
+            "Source_Code": "l, r = 0, len(height) - 1",
+            "Mutate_Code": "l, r == 0, len(height) - 1"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T21_LCPN_42-Trapping-Rain-Water.py",
+            "Source_Code": "l, r = 0, len(height) - 1",
+            "Mutate_Code": "l, r +=+= 0, len(height) - 1"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T21_LCPN_42-Trapping-Rain-Water.py",
+            "Source_Code": "l, r = 0, len(height) - 1",
+            "Mutate_Code": "l, r -=-= 0, len(height) - 1"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T21_LCPN_42-Trapping-Rain-Water.py",
+            "Source_Code": "l, r = 0, len(height) - 1",
+            "Mutate_Code": "l, r *=*= 0, len(height) - 1"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T21_LCPN_42-Trapping-Rain-Water.py",
+            "Source_Code": "l, r = 0, len(height) - 1",
+            "Mutate_Code": "l, r /=/= 0, len(height) - 1"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T21_LCPN_42-Trapping-Rain-Water.py",
+            "Source_Code": "l, r = 0, len(height) - 1",
+            "Mutate_Code": "l, r %=%= 0, len(height) - 1"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T21_LCPN_42-Trapping-Rain-Water.py",
+            "Source_Code": "l, r = 0, len(height) - 1",
+            "Mutate_Code": "l, r //=//= 0, len(height) - 1"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T21_LCPN_42-Trapping-Rain-Water.py",
+            "Source_Code": "l, r = 0, len(height) - 1",
+            "Mutate_Code": "l, r **=**= 0, len(height) - 1"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T21_LCPN_42-Trapping-Rain-Water.py",
+            "Source_Code": "l, r = 0, len(height) - 1",
+            "Mutate_Code": "l, r &=&= 0, len(height) - 1"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T21_LCPN_42-Trapping-Rain-Water.py",
+            "Source_Code": "l, r = 0, len(height) - 1",
+            "Mutate_Code": "l, r |=|= 0, len(height) - 1"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T21_LCPN_42-Trapping-Rain-Water.py",
+            "Source_Code": "l, r = 0, len(height) - 1",
+            "Mutate_Code": "l, r ^=^= 0, len(height) - 1"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T21_LCPN_42-Trapping-Rain-Water.py",
+            "Source_Code": "l, r = 0, len(height) - 1",
+            "Mutate_Code": "l, r >>=>>= 0, len(height) - 1"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T21_LCPN_42-Trapping-Rain-Water.py",
+            "Source_Code": "l, r = 0, len(height) - 1",
+            "Mutate_Code": "l, r <<=<<=0, len(height) - 1"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T21_LCPN_42-Trapping-Rain-Water.py",
+            "Source_Code": "l, r = 0, len(height) - 1",
+            "Mutate_Code": "l, r = 0, len( ) - 1"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T21_LCPN_42-Trapping-Rain-Water.py",
+            "Source_Code": "while l < r:",
+            "Mutate_Code": "while l   r:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T21_LCPN_42-Trapping-Rain-Water.py",
+            "Source_Code": "while l < r:",
+            "Mutate_Code": "while l == r:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T21_LCPN_42-Trapping-Rain-Water.py",
+            "Source_Code": "while l < r:",
+            "Mutate_Code": "while l != r:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T21_LCPN_42-Trapping-Rain-Water.py",
+            "Source_Code": "while l < r:",
+            "Mutate_Code": "while l > r:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T21_LCPN_42-Trapping-Rain-Water.py",
+            "Source_Code": "while l < r:",
+            "Mutate_Code": "while l >= r:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T21_LCPN_42-Trapping-Rain-Water.py",
+            "Source_Code": "while l < r:",
+            "Mutate_Code": "while l <= r:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T21_LCPN_42-Trapping-Rain-Water.py",
+            "Source_Code": "while l < r:",
+            "Mutate_Code": "while l  ====  r:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T21_LCPN_42-Trapping-Rain-Water.py",
+            "Source_Code": "while l < r:",
+            "Mutate_Code": "while l  !==  r:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T21_LCPN_42-Trapping-Rain-Water.py",
+            "Source_Code": "while l < r:",
+            "Mutate_Code": "while l  >>  r:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T21_LCPN_42-Trapping-Rain-Water.py",
+            "Source_Code": "while l < r:",
+            "Mutate_Code": "while l  <<  r:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T21_LCPN_42-Trapping-Rain-Water.py",
+            "Source_Code": "while l < r:",
+            "Mutate_Code": "while l  >=>=  r:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T21_LCPN_42-Trapping-Rain-Water.py",
+            "Source_Code": "while l < r:",
+            "Mutate_Code": "while l  <=<=  r:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T21_LCPN_42-Trapping-Rain-Water.py",
+            "Source_Code": "while l < r:",
+            "Mutate_Code": " "
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T21_LCPN_42-Trapping-Rain-Water.py",
+            "Source_Code": "while l < r:",
+            "Mutate_Code": "for "
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T21_LCPN_42-Trapping-Rain-Water.py",
+            "Source_Code": "while l < r:",
+            "Mutate_Code": "while while:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T21_LCPN_42-Trapping-Rain-Water.py",
+            "Source_Code": "if leftMax < rightMax:",
+            "Mutate_Code": "if leftMax   rightMax:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T21_LCPN_42-Trapping-Rain-Water.py",
+            "Source_Code": "if leftMax < rightMax:",
+            "Mutate_Code": "if leftMax == rightMax:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T21_LCPN_42-Trapping-Rain-Water.py",
+            "Source_Code": "if leftMax < rightMax:",
+            "Mutate_Code": "if leftMax != rightMax:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T21_LCPN_42-Trapping-Rain-Water.py",
+            "Source_Code": "if leftMax < rightMax:",
+            "Mutate_Code": "if leftMax > rightMax:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T21_LCPN_42-Trapping-Rain-Water.py",
+            "Source_Code": "if leftMax < rightMax:",
+            "Mutate_Code": "if leftMax >= rightMax:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T21_LCPN_42-Trapping-Rain-Water.py",
+            "Source_Code": "if leftMax < rightMax:",
+            "Mutate_Code": "if leftMax <= rightMax:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T21_LCPN_42-Trapping-Rain-Water.py",
+            "Source_Code": "if leftMax < rightMax:",
+            "Mutate_Code": "if leftMax  ====  rightMax:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T21_LCPN_42-Trapping-Rain-Water.py",
+            "Source_Code": "if leftMax < rightMax:",
+            "Mutate_Code": "if leftMax  !==  rightMax:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T21_LCPN_42-Trapping-Rain-Water.py",
+            "Source_Code": "if leftMax < rightMax:",
+            "Mutate_Code": "if leftMax  >>  rightMax:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T21_LCPN_42-Trapping-Rain-Water.py",
+            "Source_Code": "if leftMax < rightMax:",
+            "Mutate_Code": "if leftMax  <<  rightMax:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T21_LCPN_42-Trapping-Rain-Water.py",
+            "Source_Code": "if leftMax < rightMax:",
+            "Mutate_Code": "if leftMax  >=>=  rightMax:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T21_LCPN_42-Trapping-Rain-Water.py",
+            "Source_Code": "if leftMax < rightMax:",
+            "Mutate_Code": "if leftMax  <=<=  rightMax:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T21_LCPN_42-Trapping-Rain-Water.py",
+            "Source_Code": "if leftMax < rightMax:",
+            "Mutate_Code": " "
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T21_LCPN_42-Trapping-Rain-Water.py",
+            "Source_Code": "if leftMax < rightMax:",
+            "Mutate_Code": "elif:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T21_LCPN_42-Trapping-Rain-Water.py",
+            "Source_Code": "if leftMax < rightMax:",
+            "Mutate_Code": "else:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T21_LCPN_42-Trapping-Rain-Water.py",
+            "Source_Code": "if leftMax < rightMax:",
+            "Mutate_Code": "if if"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T21_LCPN_42-Trapping-Rain-Water.py",
+            "Source_Code": "leftMax = max(leftMax, height[l])",
+            "Mutate_Code": "leftMax max(leftMax, height[l])"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T21_LCPN_42-Trapping-Rain-Water.py",
+            "Source_Code": "leftMax = max(leftMax, height[l])",
+            "Mutate_Code": "leftMax max(leftMax, height[l])"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T21_LCPN_42-Trapping-Rain-Water.py",
+            "Source_Code": "leftMax = max(leftMax, height[l])",
+            "Mutate_Code": "leftMax += max(leftMax, height[l])"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T21_LCPN_42-Trapping-Rain-Water.py",
+            "Source_Code": "leftMax = max(leftMax, height[l])",
+            "Mutate_Code": "leftMax -= max(leftMax, height[l])"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T21_LCPN_42-Trapping-Rain-Water.py",
+            "Source_Code": "leftMax = max(leftMax, height[l])",
+            "Mutate_Code": "leftMax *= max(leftMax, height[l])"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T21_LCPN_42-Trapping-Rain-Water.py",
+            "Source_Code": "leftMax = max(leftMax, height[l])",
+            "Mutate_Code": "leftMax /= max(leftMax, height[l])"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T21_LCPN_42-Trapping-Rain-Water.py",
+            "Source_Code": "leftMax = max(leftMax, height[l])",
+            "Mutate_Code": "leftMax %= max(leftMax, height[l])"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T21_LCPN_42-Trapping-Rain-Water.py",
+            "Source_Code": "leftMax = max(leftMax, height[l])",
+            "Mutate_Code": "leftMax //= max(leftMax, height[l])"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T21_LCPN_42-Trapping-Rain-Water.py",
+            "Source_Code": "leftMax = max(leftMax, height[l])",
+            "Mutate_Code": "leftMax **= max(leftMax, height[l])"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T21_LCPN_42-Trapping-Rain-Water.py",
+            "Source_Code": "leftMax = max(leftMax, height[l])",
+            "Mutate_Code": "leftMax &= max(leftMax, height[l])"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T21_LCPN_42-Trapping-Rain-Water.py",
+            "Source_Code": "leftMax = max(leftMax, height[l])",
+            "Mutate_Code": "leftMax |= max(leftMax, height[l])"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T21_LCPN_42-Trapping-Rain-Water.py",
+            "Source_Code": "leftMax = max(leftMax, height[l])",
+            "Mutate_Code": "leftMax ^= max(leftMax, height[l])"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T21_LCPN_42-Trapping-Rain-Water.py",
+            "Source_Code": "leftMax = max(leftMax, height[l])",
+            "Mutate_Code": "leftMax >>= max(leftMax, height[l])"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T21_LCPN_42-Trapping-Rain-Water.py",
+            "Source_Code": "leftMax = max(leftMax, height[l])",
+            "Mutate_Code": "leftMax <<= max(leftMax, height[l])"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T21_LCPN_42-Trapping-Rain-Water.py",
+            "Source_Code": "leftMax = max(leftMax, height[l])",
+            "Mutate_Code": "leftMax += max(leftMax, height[l])"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T21_LCPN_42-Trapping-Rain-Water.py",
+            "Source_Code": "leftMax = max(leftMax, height[l])",
+            "Mutate_Code": "leftMax -= max(leftMax, height[l])"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T21_LCPN_42-Trapping-Rain-Water.py",
+            "Source_Code": "leftMax = max(leftMax, height[l])",
+            "Mutate_Code": "leftMax *= max(leftMax, height[l])"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T21_LCPN_42-Trapping-Rain-Water.py",
+            "Source_Code": "leftMax = max(leftMax, height[l])",
+            "Mutate_Code": "leftMax /= max(leftMax, height[l])"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T21_LCPN_42-Trapping-Rain-Water.py",
+            "Source_Code": "leftMax = max(leftMax, height[l])",
+            "Mutate_Code": "leftMax %= max(leftMax, height[l])"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T21_LCPN_42-Trapping-Rain-Water.py",
+            "Source_Code": "leftMax = max(leftMax, height[l])",
+            "Mutate_Code": "leftMax //= max(leftMax, height[l])"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T21_LCPN_42-Trapping-Rain-Water.py",
+            "Source_Code": "leftMax = max(leftMax, height[l])",
+            "Mutate_Code": "leftMax **= max(leftMax, height[l])"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T21_LCPN_42-Trapping-Rain-Water.py",
+            "Source_Code": "leftMax = max(leftMax, height[l])",
+            "Mutate_Code": "leftMax &= max(leftMax, height[l])"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T21_LCPN_42-Trapping-Rain-Water.py",
+            "Source_Code": "leftMax = max(leftMax, height[l])",
+            "Mutate_Code": "leftMax |= max(leftMax, height[l])"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T21_LCPN_42-Trapping-Rain-Water.py",
+            "Source_Code": "leftMax = max(leftMax, height[l])",
+            "Mutate_Code": "leftMax ^= max(leftMax, height[l])"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T21_LCPN_42-Trapping-Rain-Water.py",
+            "Source_Code": "leftMax = max(leftMax, height[l])",
+            "Mutate_Code": "leftMax >>= max(leftMax, height[l])"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T21_LCPN_42-Trapping-Rain-Water.py",
+            "Source_Code": "leftMax = max(leftMax, height[l])",
+            "Mutate_Code": "leftMax <<= max(leftMax, height[l])"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T21_LCPN_42-Trapping-Rain-Water.py",
+            "Source_Code": "leftMax = max(leftMax, height[l])",
+            "Mutate_Code": "leftMax == max(leftMax, height[l])"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T21_LCPN_42-Trapping-Rain-Water.py",
+            "Source_Code": "leftMax = max(leftMax, height[l])",
+            "Mutate_Code": "leftMax +=+= max(leftMax, height[l])"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T21_LCPN_42-Trapping-Rain-Water.py",
+            "Source_Code": "leftMax = max(leftMax, height[l])",
+            "Mutate_Code": "leftMax -=-= max(leftMax, height[l])"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T21_LCPN_42-Trapping-Rain-Water.py",
+            "Source_Code": "leftMax = max(leftMax, height[l])",
+            "Mutate_Code": "leftMax *=*= max(leftMax, height[l])"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T21_LCPN_42-Trapping-Rain-Water.py",
+            "Source_Code": "leftMax = max(leftMax, height[l])",
+            "Mutate_Code": "leftMax /=/= max(leftMax, height[l])"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T21_LCPN_42-Trapping-Rain-Water.py",
+            "Source_Code": "leftMax = max(leftMax, height[l])",
+            "Mutate_Code": "leftMax %=%= max(leftMax, height[l])"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T21_LCPN_42-Trapping-Rain-Water.py",
+            "Source_Code": "leftMax = max(leftMax, height[l])",
+            "Mutate_Code": "leftMax //=//= max(leftMax, height[l])"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T21_LCPN_42-Trapping-Rain-Water.py",
+            "Source_Code": "leftMax = max(leftMax, height[l])",
+            "Mutate_Code": "leftMax **=**= max(leftMax, height[l])"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T21_LCPN_42-Trapping-Rain-Water.py",
+            "Source_Code": "leftMax = max(leftMax, height[l])",
+            "Mutate_Code": "leftMax &=&= max(leftMax, height[l])"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T21_LCPN_42-Trapping-Rain-Water.py",
+            "Source_Code": "leftMax = max(leftMax, height[l])",
+            "Mutate_Code": "leftMax |=|= max(leftMax, height[l])"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T21_LCPN_42-Trapping-Rain-Water.py",
+            "Source_Code": "leftMax = max(leftMax, height[l])",
+            "Mutate_Code": "leftMax ^=^= max(leftMax, height[l])"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T21_LCPN_42-Trapping-Rain-Water.py",
+            "Source_Code": "leftMax = max(leftMax, height[l])",
+            "Mutate_Code": "leftMax >>=>>= max(leftMax, height[l])"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T21_LCPN_42-Trapping-Rain-Water.py",
+            "Source_Code": "leftMax = max(leftMax, height[l])",
+            "Mutate_Code": "leftMax <<=<<=max(leftMax, height[l])"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T21_LCPN_42-Trapping-Rain-Water.py",
+            "Source_Code": "leftMax = max(leftMax, height[l])",
+            "Mutate_Code": "leftMax == max(leftMax, height[l])"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T21_LCPN_42-Trapping-Rain-Water.py",
+            "Source_Code": "leftMax = max(leftMax, height[l])",
+            "Mutate_Code": "leftMax +=+= max(leftMax, height[l])"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T21_LCPN_42-Trapping-Rain-Water.py",
+            "Source_Code": "leftMax = max(leftMax, height[l])",
+            "Mutate_Code": "leftMax -=-= max(leftMax, height[l])"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T21_LCPN_42-Trapping-Rain-Water.py",
+            "Source_Code": "leftMax = max(leftMax, height[l])",
+            "Mutate_Code": "leftMax *=*= max(leftMax, height[l])"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T21_LCPN_42-Trapping-Rain-Water.py",
+            "Source_Code": "leftMax = max(leftMax, height[l])",
+            "Mutate_Code": "leftMax /=/= max(leftMax, height[l])"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T21_LCPN_42-Trapping-Rain-Water.py",
+            "Source_Code": "leftMax = max(leftMax, height[l])",
+            "Mutate_Code": "leftMax %=%= max(leftMax, height[l])"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T21_LCPN_42-Trapping-Rain-Water.py",
+            "Source_Code": "leftMax = max(leftMax, height[l])",
+            "Mutate_Code": "leftMax //=//= max(leftMax, height[l])"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T21_LCPN_42-Trapping-Rain-Water.py",
+            "Source_Code": "leftMax = max(leftMax, height[l])",
+            "Mutate_Code": "leftMax **=**= max(leftMax, height[l])"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T21_LCPN_42-Trapping-Rain-Water.py",
+            "Source_Code": "leftMax = max(leftMax, height[l])",
+            "Mutate_Code": "leftMax &=&= max(leftMax, height[l])"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T21_LCPN_42-Trapping-Rain-Water.py",
+            "Source_Code": "leftMax = max(leftMax, height[l])",
+            "Mutate_Code": "leftMax |=|= max(leftMax, height[l])"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T21_LCPN_42-Trapping-Rain-Water.py",
+            "Source_Code": "leftMax = max(leftMax, height[l])",
+            "Mutate_Code": "leftMax ^=^= max(leftMax, height[l])"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T21_LCPN_42-Trapping-Rain-Water.py",
+            "Source_Code": "leftMax = max(leftMax, height[l])",
+            "Mutate_Code": "leftMax >>=>>= max(leftMax, height[l])"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T21_LCPN_42-Trapping-Rain-Water.py",
+            "Source_Code": "leftMax = max(leftMax, height[l])",
+            "Mutate_Code": "leftMax <<=<<=max(leftMax, height[l])"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T21_LCPN_42-Trapping-Rain-Water.py",
+            "Source_Code": "leftMax = max(leftMax, height[l])",
+            "Mutate_Code": "leftMax = max( )"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T21_LCPN_42-Trapping-Rain-Water.py",
+            "Source_Code": "else:",
+            "Mutate_Code": " "
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T21_LCPN_42-Trapping-Rain-Water.py",
+            "Source_Code": "else:",
+            "Mutate_Code": "if:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T21_LCPN_42-Trapping-Rain-Water.py",
+            "Source_Code": "else:",
+            "Mutate_Code": "elif:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T21_LCPN_42-Trapping-Rain-Water.py",
+            "Source_Code": "else:",
+            "Mutate_Code": "else else:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T21_LCPN_42-Trapping-Rain-Water.py",
+            "Source_Code": "rightMax = max(rightMax, height[r])",
+            "Mutate_Code": "rightMax max(rightMax, height[r])"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T21_LCPN_42-Trapping-Rain-Water.py",
+            "Source_Code": "rightMax = max(rightMax, height[r])",
+            "Mutate_Code": "rightMax max(rightMax, height[r])"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T21_LCPN_42-Trapping-Rain-Water.py",
+            "Source_Code": "rightMax = max(rightMax, height[r])",
+            "Mutate_Code": "rightMax += max(rightMax, height[r])"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T21_LCPN_42-Trapping-Rain-Water.py",
+            "Source_Code": "rightMax = max(rightMax, height[r])",
+            "Mutate_Code": "rightMax -= max(rightMax, height[r])"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T21_LCPN_42-Trapping-Rain-Water.py",
+            "Source_Code": "rightMax = max(rightMax, height[r])",
+            "Mutate_Code": "rightMax *= max(rightMax, height[r])"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T21_LCPN_42-Trapping-Rain-Water.py",
+            "Source_Code": "rightMax = max(rightMax, height[r])",
+            "Mutate_Code": "rightMax /= max(rightMax, height[r])"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T21_LCPN_42-Trapping-Rain-Water.py",
+            "Source_Code": "rightMax = max(rightMax, height[r])",
+            "Mutate_Code": "rightMax %= max(rightMax, height[r])"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T21_LCPN_42-Trapping-Rain-Water.py",
+            "Source_Code": "rightMax = max(rightMax, height[r])",
+            "Mutate_Code": "rightMax //= max(rightMax, height[r])"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T21_LCPN_42-Trapping-Rain-Water.py",
+            "Source_Code": "rightMax = max(rightMax, height[r])",
+            "Mutate_Code": "rightMax **= max(rightMax, height[r])"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T21_LCPN_42-Trapping-Rain-Water.py",
+            "Source_Code": "rightMax = max(rightMax, height[r])",
+            "Mutate_Code": "rightMax &= max(rightMax, height[r])"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T21_LCPN_42-Trapping-Rain-Water.py",
+            "Source_Code": "rightMax = max(rightMax, height[r])",
+            "Mutate_Code": "rightMax |= max(rightMax, height[r])"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T21_LCPN_42-Trapping-Rain-Water.py",
+            "Source_Code": "rightMax = max(rightMax, height[r])",
+            "Mutate_Code": "rightMax ^= max(rightMax, height[r])"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T21_LCPN_42-Trapping-Rain-Water.py",
+            "Source_Code": "rightMax = max(rightMax, height[r])",
+            "Mutate_Code": "rightMax >>= max(rightMax, height[r])"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T21_LCPN_42-Trapping-Rain-Water.py",
+            "Source_Code": "rightMax = max(rightMax, height[r])",
+            "Mutate_Code": "rightMax <<= max(rightMax, height[r])"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T21_LCPN_42-Trapping-Rain-Water.py",
+            "Source_Code": "rightMax = max(rightMax, height[r])",
+            "Mutate_Code": "rightMax += max(rightMax, height[r])"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T21_LCPN_42-Trapping-Rain-Water.py",
+            "Source_Code": "rightMax = max(rightMax, height[r])",
+            "Mutate_Code": "rightMax -= max(rightMax, height[r])"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T21_LCPN_42-Trapping-Rain-Water.py",
+            "Source_Code": "rightMax = max(rightMax, height[r])",
+            "Mutate_Code": "rightMax *= max(rightMax, height[r])"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T21_LCPN_42-Trapping-Rain-Water.py",
+            "Source_Code": "rightMax = max(rightMax, height[r])",
+            "Mutate_Code": "rightMax /= max(rightMax, height[r])"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T21_LCPN_42-Trapping-Rain-Water.py",
+            "Source_Code": "rightMax = max(rightMax, height[r])",
+            "Mutate_Code": "rightMax %= max(rightMax, height[r])"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T21_LCPN_42-Trapping-Rain-Water.py",
+            "Source_Code": "rightMax = max(rightMax, height[r])",
+            "Mutate_Code": "rightMax //= max(rightMax, height[r])"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T21_LCPN_42-Trapping-Rain-Water.py",
+            "Source_Code": "rightMax = max(rightMax, height[r])",
+            "Mutate_Code": "rightMax **= max(rightMax, height[r])"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T21_LCPN_42-Trapping-Rain-Water.py",
+            "Source_Code": "rightMax = max(rightMax, height[r])",
+            "Mutate_Code": "rightMax &= max(rightMax, height[r])"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T21_LCPN_42-Trapping-Rain-Water.py",
+            "Source_Code": "rightMax = max(rightMax, height[r])",
+            "Mutate_Code": "rightMax |= max(rightMax, height[r])"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T21_LCPN_42-Trapping-Rain-Water.py",
+            "Source_Code": "rightMax = max(rightMax, height[r])",
+            "Mutate_Code": "rightMax ^= max(rightMax, height[r])"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T21_LCPN_42-Trapping-Rain-Water.py",
+            "Source_Code": "rightMax = max(rightMax, height[r])",
+            "Mutate_Code": "rightMax >>= max(rightMax, height[r])"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T21_LCPN_42-Trapping-Rain-Water.py",
+            "Source_Code": "rightMax = max(rightMax, height[r])",
+            "Mutate_Code": "rightMax <<= max(rightMax, height[r])"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T21_LCPN_42-Trapping-Rain-Water.py",
+            "Source_Code": "rightMax = max(rightMax, height[r])",
+            "Mutate_Code": "rightMax == max(rightMax, height[r])"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T21_LCPN_42-Trapping-Rain-Water.py",
+            "Source_Code": "rightMax = max(rightMax, height[r])",
+            "Mutate_Code": "rightMax +=+= max(rightMax, height[r])"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T21_LCPN_42-Trapping-Rain-Water.py",
+            "Source_Code": "rightMax = max(rightMax, height[r])",
+            "Mutate_Code": "rightMax -=-= max(rightMax, height[r])"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T21_LCPN_42-Trapping-Rain-Water.py",
+            "Source_Code": "rightMax = max(rightMax, height[r])",
+            "Mutate_Code": "rightMax *=*= max(rightMax, height[r])"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T21_LCPN_42-Trapping-Rain-Water.py",
+            "Source_Code": "rightMax = max(rightMax, height[r])",
+            "Mutate_Code": "rightMax /=/= max(rightMax, height[r])"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T21_LCPN_42-Trapping-Rain-Water.py",
+            "Source_Code": "rightMax = max(rightMax, height[r])",
+            "Mutate_Code": "rightMax %=%= max(rightMax, height[r])"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T21_LCPN_42-Trapping-Rain-Water.py",
+            "Source_Code": "rightMax = max(rightMax, height[r])",
+            "Mutate_Code": "rightMax //=//= max(rightMax, height[r])"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T21_LCPN_42-Trapping-Rain-Water.py",
+            "Source_Code": "rightMax = max(rightMax, height[r])",
+            "Mutate_Code": "rightMax **=**= max(rightMax, height[r])"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T21_LCPN_42-Trapping-Rain-Water.py",
+            "Source_Code": "rightMax = max(rightMax, height[r])",
+            "Mutate_Code": "rightMax &=&= max(rightMax, height[r])"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T21_LCPN_42-Trapping-Rain-Water.py",
+            "Source_Code": "rightMax = max(rightMax, height[r])",
+            "Mutate_Code": "rightMax |=|= max(rightMax, height[r])"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T21_LCPN_42-Trapping-Rain-Water.py",
+            "Source_Code": "rightMax = max(rightMax, height[r])",
+            "Mutate_Code": "rightMax ^=^= max(rightMax, height[r])"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T21_LCPN_42-Trapping-Rain-Water.py",
+            "Source_Code": "rightMax = max(rightMax, height[r])",
+            "Mutate_Code": "rightMax >>=>>= max(rightMax, height[r])"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T21_LCPN_42-Trapping-Rain-Water.py",
+            "Source_Code": "rightMax = max(rightMax, height[r])",
+            "Mutate_Code": "rightMax <<=<<=max(rightMax, height[r])"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T21_LCPN_42-Trapping-Rain-Water.py",
+            "Source_Code": "rightMax = max(rightMax, height[r])",
+            "Mutate_Code": "rightMax == max(rightMax, height[r])"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T21_LCPN_42-Trapping-Rain-Water.py",
+            "Source_Code": "rightMax = max(rightMax, height[r])",
+            "Mutate_Code": "rightMax +=+= max(rightMax, height[r])"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T21_LCPN_42-Trapping-Rain-Water.py",
+            "Source_Code": "rightMax = max(rightMax, height[r])",
+            "Mutate_Code": "rightMax -=-= max(rightMax, height[r])"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T21_LCPN_42-Trapping-Rain-Water.py",
+            "Source_Code": "rightMax = max(rightMax, height[r])",
+            "Mutate_Code": "rightMax *=*= max(rightMax, height[r])"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T21_LCPN_42-Trapping-Rain-Water.py",
+            "Source_Code": "rightMax = max(rightMax, height[r])",
+            "Mutate_Code": "rightMax /=/= max(rightMax, height[r])"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T21_LCPN_42-Trapping-Rain-Water.py",
+            "Source_Code": "rightMax = max(rightMax, height[r])",
+            "Mutate_Code": "rightMax %=%= max(rightMax, height[r])"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T21_LCPN_42-Trapping-Rain-Water.py",
+            "Source_Code": "rightMax = max(rightMax, height[r])",
+            "Mutate_Code": "rightMax //=//= max(rightMax, height[r])"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T21_LCPN_42-Trapping-Rain-Water.py",
+            "Source_Code": "rightMax = max(rightMax, height[r])",
+            "Mutate_Code": "rightMax **=**= max(rightMax, height[r])"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T21_LCPN_42-Trapping-Rain-Water.py",
+            "Source_Code": "rightMax = max(rightMax, height[r])",
+            "Mutate_Code": "rightMax &=&= max(rightMax, height[r])"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T21_LCPN_42-Trapping-Rain-Water.py",
+            "Source_Code": "rightMax = max(rightMax, height[r])",
+            "Mutate_Code": "rightMax |=|= max(rightMax, height[r])"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T21_LCPN_42-Trapping-Rain-Water.py",
+            "Source_Code": "rightMax = max(rightMax, height[r])",
+            "Mutate_Code": "rightMax ^=^= max(rightMax, height[r])"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T21_LCPN_42-Trapping-Rain-Water.py",
+            "Source_Code": "rightMax = max(rightMax, height[r])",
+            "Mutate_Code": "rightMax >>=>>= max(rightMax, height[r])"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T21_LCPN_42-Trapping-Rain-Water.py",
+            "Source_Code": "rightMax = max(rightMax, height[r])",
+            "Mutate_Code": "rightMax <<=<<=max(rightMax, height[r])"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T21_LCPN_42-Trapping-Rain-Water.py",
+            "Source_Code": "rightMax = max(rightMax, height[r])",
+            "Mutate_Code": "rightMax = max( )"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T21_LCPN_42-Trapping-Rain-Water.py",
+            "Source_Code": "return res",
+            "Mutate_Code": " res"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T21_LCPN_42-Trapping-Rain-Water.py",
+            "Source_Code": "return res",
+            "Mutate_Code": "passres"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T21_LCPN_42-Trapping-Rain-Water.py",
+            "Source_Code": "return res",
+            "Mutate_Code": "return returnres"
+        }
+    }
+]

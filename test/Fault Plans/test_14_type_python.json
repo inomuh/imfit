@@ -1,0 +1,1612 @@
+[
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T14_LCPN_26-Remove-Duplicates-from-Sorted-Array.py",
+            "Source_Code": "while i < len(nums):",
+            "Mutate_Code": "while i   len(nums):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T14_LCPN_26-Remove-Duplicates-from-Sorted-Array.py",
+            "Source_Code": "while i < len(nums):",
+            "Mutate_Code": "while i == len(nums):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T14_LCPN_26-Remove-Duplicates-from-Sorted-Array.py",
+            "Source_Code": "while i < len(nums):",
+            "Mutate_Code": "while i != len(nums):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T14_LCPN_26-Remove-Duplicates-from-Sorted-Array.py",
+            "Source_Code": "while i < len(nums):",
+            "Mutate_Code": "while i > len(nums):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T14_LCPN_26-Remove-Duplicates-from-Sorted-Array.py",
+            "Source_Code": "while i < len(nums):",
+            "Mutate_Code": "while i >= len(nums):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T14_LCPN_26-Remove-Duplicates-from-Sorted-Array.py",
+            "Source_Code": "while i < len(nums):",
+            "Mutate_Code": "while i <= len(nums):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T14_LCPN_26-Remove-Duplicates-from-Sorted-Array.py",
+            "Source_Code": "while i < len(nums):",
+            "Mutate_Code": "while i  ====  len(nums):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T14_LCPN_26-Remove-Duplicates-from-Sorted-Array.py",
+            "Source_Code": "while i < len(nums):",
+            "Mutate_Code": "while i  !==  len(nums):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T14_LCPN_26-Remove-Duplicates-from-Sorted-Array.py",
+            "Source_Code": "while i < len(nums):",
+            "Mutate_Code": "while i  >>  len(nums):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T14_LCPN_26-Remove-Duplicates-from-Sorted-Array.py",
+            "Source_Code": "while i < len(nums):",
+            "Mutate_Code": "while i  <<  len(nums):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T14_LCPN_26-Remove-Duplicates-from-Sorted-Array.py",
+            "Source_Code": "while i < len(nums):",
+            "Mutate_Code": "while i  >=>=  len(nums):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T14_LCPN_26-Remove-Duplicates-from-Sorted-Array.py",
+            "Source_Code": "while i < len(nums):",
+            "Mutate_Code": "while i  <=<=  len(nums):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T14_LCPN_26-Remove-Duplicates-from-Sorted-Array.py",
+            "Source_Code": "while i < len(nums):",
+            "Mutate_Code": " "
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T14_LCPN_26-Remove-Duplicates-from-Sorted-Array.py",
+            "Source_Code": "while i < len(nums):",
+            "Mutate_Code": "for "
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T14_LCPN_26-Remove-Duplicates-from-Sorted-Array.py",
+            "Source_Code": "while i < len(nums):",
+            "Mutate_Code": "while while:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T14_LCPN_26-Remove-Duplicates-from-Sorted-Array.py",
+            "Source_Code": "while i < len(nums):",
+            "Mutate_Code": "while i < len( ):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T14_LCPN_26-Remove-Duplicates-from-Sorted-Array.py",
+            "Source_Code": "while i < len(nums):",
+            "Mutate_Code": "while i   len(nums):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T14_LCPN_26-Remove-Duplicates-from-Sorted-Array.py",
+            "Source_Code": "while i < len(nums):",
+            "Mutate_Code": "while i == len(nums):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T14_LCPN_26-Remove-Duplicates-from-Sorted-Array.py",
+            "Source_Code": "while i < len(nums):",
+            "Mutate_Code": "while i != len(nums):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T14_LCPN_26-Remove-Duplicates-from-Sorted-Array.py",
+            "Source_Code": "while i < len(nums):",
+            "Mutate_Code": "while i > len(nums):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T14_LCPN_26-Remove-Duplicates-from-Sorted-Array.py",
+            "Source_Code": "while i < len(nums):",
+            "Mutate_Code": "while i >= len(nums):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T14_LCPN_26-Remove-Duplicates-from-Sorted-Array.py",
+            "Source_Code": "while i < len(nums):",
+            "Mutate_Code": "while i <= len(nums):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T14_LCPN_26-Remove-Duplicates-from-Sorted-Array.py",
+            "Source_Code": "while i < len(nums):",
+            "Mutate_Code": "while i  ====  len(nums):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T14_LCPN_26-Remove-Duplicates-from-Sorted-Array.py",
+            "Source_Code": "while i < len(nums):",
+            "Mutate_Code": "while i  !==  len(nums):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T14_LCPN_26-Remove-Duplicates-from-Sorted-Array.py",
+            "Source_Code": "while i < len(nums):",
+            "Mutate_Code": "while i  >>  len(nums):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T14_LCPN_26-Remove-Duplicates-from-Sorted-Array.py",
+            "Source_Code": "while i < len(nums):",
+            "Mutate_Code": "while i  <<  len(nums):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T14_LCPN_26-Remove-Duplicates-from-Sorted-Array.py",
+            "Source_Code": "while i < len(nums):",
+            "Mutate_Code": "while i  >=>=  len(nums):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T14_LCPN_26-Remove-Duplicates-from-Sorted-Array.py",
+            "Source_Code": "while i < len(nums):",
+            "Mutate_Code": "while i  <=<=  len(nums):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T14_LCPN_26-Remove-Duplicates-from-Sorted-Array.py",
+            "Source_Code": "while i < len(nums):",
+            "Mutate_Code": " "
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T14_LCPN_26-Remove-Duplicates-from-Sorted-Array.py",
+            "Source_Code": "while i < len(nums):",
+            "Mutate_Code": "for "
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T14_LCPN_26-Remove-Duplicates-from-Sorted-Array.py",
+            "Source_Code": "while i < len(nums):",
+            "Mutate_Code": "while while:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T14_LCPN_26-Remove-Duplicates-from-Sorted-Array.py",
+            "Source_Code": "while i < len(nums):",
+            "Mutate_Code": "while i < len( ):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T14_LCPN_26-Remove-Duplicates-from-Sorted-Array.py",
+            "Source_Code": "while i + 1 < len(nums) and nums[i + 1] == val:",
+            "Mutate_Code": "while i 1 < len(nums) and nums[i + 1] == val:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T14_LCPN_26-Remove-Duplicates-from-Sorted-Array.py",
+            "Source_Code": "while i + 1 < len(nums) and nums[i + 1] == val:",
+            "Mutate_Code": "while i + 1 < len(nums) and nums[i 1] == val:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T14_LCPN_26-Remove-Duplicates-from-Sorted-Array.py",
+            "Source_Code": "while i + 1 < len(nums) and nums[i + 1] == val:",
+            "Mutate_Code": "while i - 1 < len(nums) and nums[i + 1] == val:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T14_LCPN_26-Remove-Duplicates-from-Sorted-Array.py",
+            "Source_Code": "while i + 1 < len(nums) and nums[i + 1] == val:",
+            "Mutate_Code": "while i * 1 < len(nums) and nums[i + 1] == val:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T14_LCPN_26-Remove-Duplicates-from-Sorted-Array.py",
+            "Source_Code": "while i + 1 < len(nums) and nums[i + 1] == val:",
+            "Mutate_Code": "while i / 1 < len(nums) and nums[i + 1] == val:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T14_LCPN_26-Remove-Duplicates-from-Sorted-Array.py",
+            "Source_Code": "while i + 1 < len(nums) and nums[i + 1] == val:",
+            "Mutate_Code": "while i % 1 < len(nums) and nums[i + 1] == val:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T14_LCPN_26-Remove-Duplicates-from-Sorted-Array.py",
+            "Source_Code": "while i + 1 < len(nums) and nums[i + 1] == val:",
+            "Mutate_Code": "while i ** 1 < len(nums) and nums[i + 1] == val:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T14_LCPN_26-Remove-Duplicates-from-Sorted-Array.py",
+            "Source_Code": "while i + 1 < len(nums) and nums[i + 1] == val:",
+            "Mutate_Code": "while i // 1 < len(nums) and nums[i + 1] == val:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T14_LCPN_26-Remove-Duplicates-from-Sorted-Array.py",
+            "Source_Code": "while i + 1 < len(nums) and nums[i + 1] == val:",
+            "Mutate_Code": "while i + 1 < len(nums) and nums[i - 1] == val:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T14_LCPN_26-Remove-Duplicates-from-Sorted-Array.py",
+            "Source_Code": "while i + 1 < len(nums) and nums[i + 1] == val:",
+            "Mutate_Code": "while i + 1 < len(nums) and nums[i * 1] == val:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T14_LCPN_26-Remove-Duplicates-from-Sorted-Array.py",
+            "Source_Code": "while i + 1 < len(nums) and nums[i + 1] == val:",
+            "Mutate_Code": "while i + 1 < len(nums) and nums[i / 1] == val:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T14_LCPN_26-Remove-Duplicates-from-Sorted-Array.py",
+            "Source_Code": "while i + 1 < len(nums) and nums[i + 1] == val:",
+            "Mutate_Code": "while i + 1 < len(nums) and nums[i % 1] == val:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T14_LCPN_26-Remove-Duplicates-from-Sorted-Array.py",
+            "Source_Code": "while i + 1 < len(nums) and nums[i + 1] == val:",
+            "Mutate_Code": "while i + 1 < len(nums) and nums[i ** 1] == val:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T14_LCPN_26-Remove-Duplicates-from-Sorted-Array.py",
+            "Source_Code": "while i + 1 < len(nums) and nums[i + 1] == val:",
+            "Mutate_Code": "while i + 1 < len(nums) and nums[i // 1] == val:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T14_LCPN_26-Remove-Duplicates-from-Sorted-Array.py",
+            "Source_Code": "while i + 1 < len(nums) and nums[i + 1] == val:",
+            "Mutate_Code": "while i ++ 1 < len(nums) and nums[i + 1] == val:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T14_LCPN_26-Remove-Duplicates-from-Sorted-Array.py",
+            "Source_Code": "while i + 1 < len(nums) and nums[i + 1] == val:",
+            "Mutate_Code": "while i -- 1 < len(nums) and nums[i + 1] == val:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T14_LCPN_26-Remove-Duplicates-from-Sorted-Array.py",
+            "Source_Code": "while i + 1 < len(nums) and nums[i + 1] == val:",
+            "Mutate_Code": "while i ** 1 < len(nums) and nums[i + 1] == val:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T14_LCPN_26-Remove-Duplicates-from-Sorted-Array.py",
+            "Source_Code": "while i + 1 < len(nums) and nums[i + 1] == val:",
+            "Mutate_Code": "while i // 1 < len(nums) and nums[i + 1] == val:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T14_LCPN_26-Remove-Duplicates-from-Sorted-Array.py",
+            "Source_Code": "while i + 1 < len(nums) and nums[i + 1] == val:",
+            "Mutate_Code": "while i %% 1 < len(nums) and nums[i + 1] == val:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T14_LCPN_26-Remove-Duplicates-from-Sorted-Array.py",
+            "Source_Code": "while i + 1 < len(nums) and nums[i + 1] == val:",
+            "Mutate_Code": "while i **** 1 < len(nums) and nums[i + 1] == val:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T14_LCPN_26-Remove-Duplicates-from-Sorted-Array.py",
+            "Source_Code": "while i + 1 < len(nums) and nums[i + 1] == val:",
+            "Mutate_Code": "while i //// 1 < len(nums) and nums[i + 1] == val:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T14_LCPN_26-Remove-Duplicates-from-Sorted-Array.py",
+            "Source_Code": "while i + 1 < len(nums) and nums[i + 1] == val:",
+            "Mutate_Code": "while i + 1 < len(nums) and nums[i ++ 1] == val:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T14_LCPN_26-Remove-Duplicates-from-Sorted-Array.py",
+            "Source_Code": "while i + 1 < len(nums) and nums[i + 1] == val:",
+            "Mutate_Code": "while i + 1 < len(nums) and nums[i -- 1] == val:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T14_LCPN_26-Remove-Duplicates-from-Sorted-Array.py",
+            "Source_Code": "while i + 1 < len(nums) and nums[i + 1] == val:",
+            "Mutate_Code": "while i + 1 < len(nums) and nums[i ** 1] == val:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T14_LCPN_26-Remove-Duplicates-from-Sorted-Array.py",
+            "Source_Code": "while i + 1 < len(nums) and nums[i + 1] == val:",
+            "Mutate_Code": "while i + 1 < len(nums) and nums[i // 1] == val:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T14_LCPN_26-Remove-Duplicates-from-Sorted-Array.py",
+            "Source_Code": "while i + 1 < len(nums) and nums[i + 1] == val:",
+            "Mutate_Code": "while i + 1 < len(nums) and nums[i %% 1] == val:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T14_LCPN_26-Remove-Duplicates-from-Sorted-Array.py",
+            "Source_Code": "while i + 1 < len(nums) and nums[i + 1] == val:",
+            "Mutate_Code": "while i + 1 < len(nums) and nums[i **** 1] == val:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T14_LCPN_26-Remove-Duplicates-from-Sorted-Array.py",
+            "Source_Code": "while i + 1 < len(nums) and nums[i + 1] == val:",
+            "Mutate_Code": "while i + 1 < len(nums) and nums[i //// 1] == val:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T14_LCPN_26-Remove-Duplicates-from-Sorted-Array.py",
+            "Source_Code": "while i + 1 < len(nums) and nums[i + 1] == val:",
+            "Mutate_Code": "while i + 1   len(nums) and nums[i + 1] == val:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T14_LCPN_26-Remove-Duplicates-from-Sorted-Array.py",
+            "Source_Code": "while i + 1 < len(nums) and nums[i + 1] == val:",
+            "Mutate_Code": "while i + 1 < len(nums) and nums[i + 1] == val: "
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T14_LCPN_26-Remove-Duplicates-from-Sorted-Array.py",
+            "Source_Code": "while i + 1 < len(nums) and nums[i + 1] == val:",
+            "Mutate_Code": "while i + 1 == len(nums) and nums[i + 1] == val:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T14_LCPN_26-Remove-Duplicates-from-Sorted-Array.py",
+            "Source_Code": "while i + 1 < len(nums) and nums[i + 1] == val:",
+            "Mutate_Code": "while i + 1 != len(nums) and nums[i + 1] == val:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T14_LCPN_26-Remove-Duplicates-from-Sorted-Array.py",
+            "Source_Code": "while i + 1 < len(nums) and nums[i + 1] == val:",
+            "Mutate_Code": "while i + 1 > len(nums) and nums[i + 1] == val:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T14_LCPN_26-Remove-Duplicates-from-Sorted-Array.py",
+            "Source_Code": "while i + 1 < len(nums) and nums[i + 1] == val:",
+            "Mutate_Code": "while i + 1 >= len(nums) and nums[i + 1] == val:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T14_LCPN_26-Remove-Duplicates-from-Sorted-Array.py",
+            "Source_Code": "while i + 1 < len(nums) and nums[i + 1] == val:",
+            "Mutate_Code": "while i + 1 <= len(nums) and nums[i + 1] == val:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T14_LCPN_26-Remove-Duplicates-from-Sorted-Array.py",
+            "Source_Code": "while i + 1 < len(nums) and nums[i + 1] == val:",
+            "Mutate_Code": "while i + 1 < len(nums) and nums[i + 1] == val:=="
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T14_LCPN_26-Remove-Duplicates-from-Sorted-Array.py",
+            "Source_Code": "while i + 1 < len(nums) and nums[i + 1] == val:",
+            "Mutate_Code": "while i + 1 < len(nums) and nums[i + 1] == val:!="
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T14_LCPN_26-Remove-Duplicates-from-Sorted-Array.py",
+            "Source_Code": "while i + 1 < len(nums) and nums[i + 1] == val:",
+            "Mutate_Code": "while i + 1 < len(nums) and nums[i + 1] == val:>"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T14_LCPN_26-Remove-Duplicates-from-Sorted-Array.py",
+            "Source_Code": "while i + 1 < len(nums) and nums[i + 1] == val:",
+            "Mutate_Code": "while i + 1 < len(nums) and nums[i + 1] == val:<"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T14_LCPN_26-Remove-Duplicates-from-Sorted-Array.py",
+            "Source_Code": "while i + 1 < len(nums) and nums[i + 1] == val:",
+            "Mutate_Code": "while i + 1 < len(nums) and nums[i + 1] == val:>="
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T14_LCPN_26-Remove-Duplicates-from-Sorted-Array.py",
+            "Source_Code": "while i + 1 < len(nums) and nums[i + 1] == val:",
+            "Mutate_Code": "while i + 1 < len(nums) and nums[i + 1] == val:<="
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T14_LCPN_26-Remove-Duplicates-from-Sorted-Array.py",
+            "Source_Code": "while i + 1 < len(nums) and nums[i + 1] == val:",
+            "Mutate_Code": "while i + 1  ====  len(nums) and nums[i + 1] == val:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T14_LCPN_26-Remove-Duplicates-from-Sorted-Array.py",
+            "Source_Code": "while i + 1 < len(nums) and nums[i + 1] == val:",
+            "Mutate_Code": "while i + 1  !==  len(nums) and nums[i + 1] == val:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T14_LCPN_26-Remove-Duplicates-from-Sorted-Array.py",
+            "Source_Code": "while i + 1 < len(nums) and nums[i + 1] == val:",
+            "Mutate_Code": "while i + 1  >>  len(nums) and nums[i + 1] == val:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T14_LCPN_26-Remove-Duplicates-from-Sorted-Array.py",
+            "Source_Code": "while i + 1 < len(nums) and nums[i + 1] == val:",
+            "Mutate_Code": "while i + 1  <<  len(nums) and nums[i + 1] == val:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T14_LCPN_26-Remove-Duplicates-from-Sorted-Array.py",
+            "Source_Code": "while i + 1 < len(nums) and nums[i + 1] == val:",
+            "Mutate_Code": "while i + 1  >=>=  len(nums) and nums[i + 1] == val:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T14_LCPN_26-Remove-Duplicates-from-Sorted-Array.py",
+            "Source_Code": "while i + 1 < len(nums) and nums[i + 1] == val:",
+            "Mutate_Code": "while i + 1  <=<=  len(nums) and nums[i + 1] == val:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T14_LCPN_26-Remove-Duplicates-from-Sorted-Array.py",
+            "Source_Code": "while i + 1 < len(nums) and nums[i + 1] == val:",
+            "Mutate_Code": "while i + 1 < len(nums) and nums[i + 1] == val: ==== "
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T14_LCPN_26-Remove-Duplicates-from-Sorted-Array.py",
+            "Source_Code": "while i + 1 < len(nums) and nums[i + 1] == val:",
+            "Mutate_Code": "while i + 1 < len(nums) and nums[i + 1] == val: !== "
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T14_LCPN_26-Remove-Duplicates-from-Sorted-Array.py",
+            "Source_Code": "while i + 1 < len(nums) and nums[i + 1] == val:",
+            "Mutate_Code": "while i + 1 < len(nums) and nums[i + 1] == val: >> "
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T14_LCPN_26-Remove-Duplicates-from-Sorted-Array.py",
+            "Source_Code": "while i + 1 < len(nums) and nums[i + 1] == val:",
+            "Mutate_Code": "while i + 1 < len(nums) and nums[i + 1] == val: << "
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T14_LCPN_26-Remove-Duplicates-from-Sorted-Array.py",
+            "Source_Code": "while i + 1 < len(nums) and nums[i + 1] == val:",
+            "Mutate_Code": "while i + 1 < len(nums) and nums[i + 1] == val: >=>= "
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T14_LCPN_26-Remove-Duplicates-from-Sorted-Array.py",
+            "Source_Code": "while i + 1 < len(nums) and nums[i + 1] == val:",
+            "Mutate_Code": "while i + 1 < len(nums) and nums[i + 1] == val: <=<= "
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T14_LCPN_26-Remove-Duplicates-from-Sorted-Array.py",
+            "Source_Code": "while i + 1 < len(nums) and nums[i + 1] == val:",
+            "Mutate_Code": "while i + 1 < len(nums) nums[i + 1] == val:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T14_LCPN_26-Remove-Duplicates-from-Sorted-Array.py",
+            "Source_Code": "while i + 1 < len(nums) and nums[i + 1] == val:",
+            "Mutate_Code": "while i + 1 < len(nums) or nums[i + 1] == val:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T14_LCPN_26-Remove-Duplicates-from-Sorted-Array.py",
+            "Source_Code": "while i + 1 < len(nums) and nums[i + 1] == val:",
+            "Mutate_Code": "while i + 1 < len(nums) not nums[i + 1] == val:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T14_LCPN_26-Remove-Duplicates-from-Sorted-Array.py",
+            "Source_Code": "while i + 1 < len(nums) and nums[i + 1] == val:",
+            "Mutate_Code": "while i + 1 < len(nums) and and nums[i + 1] == val:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T14_LCPN_26-Remove-Duplicates-from-Sorted-Array.py",
+            "Source_Code": "while i + 1 < len(nums) and nums[i + 1] == val:",
+            "Mutate_Code": "while i + 1 < len(nums) or or nums[i + 1] == val:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T14_LCPN_26-Remove-Duplicates-from-Sorted-Array.py",
+            "Source_Code": "while i + 1 < len(nums) and nums[i + 1] == val:",
+            "Mutate_Code": "while i + 1 < len(nums) not not nums[i + 1] == val:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T14_LCPN_26-Remove-Duplicates-from-Sorted-Array.py",
+            "Source_Code": "while i + 1 < len(nums) and nums[i + 1] == val:",
+            "Mutate_Code": " "
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T14_LCPN_26-Remove-Duplicates-from-Sorted-Array.py",
+            "Source_Code": "while i + 1 < len(nums) and nums[i + 1] == val:",
+            "Mutate_Code": "for "
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T14_LCPN_26-Remove-Duplicates-from-Sorted-Array.py",
+            "Source_Code": "while i + 1 < len(nums) and nums[i + 1] == val:",
+            "Mutate_Code": "while while:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T14_LCPN_26-Remove-Duplicates-from-Sorted-Array.py",
+            "Source_Code": "while i + 1 < len(nums) and nums[i + 1] == val:",
+            "Mutate_Code": "while i + 1 < len( ) and nums[i + 1] == val:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T14_LCPN_26-Remove-Duplicates-from-Sorted-Array.py",
+            "Source_Code": "while i + 1 < len(nums) and nums[i + 1] == val:",
+            "Mutate_Code": "while i 1 < len(nums) and nums[i + 1] == val:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T14_LCPN_26-Remove-Duplicates-from-Sorted-Array.py",
+            "Source_Code": "while i + 1 < len(nums) and nums[i + 1] == val:",
+            "Mutate_Code": "while i + 1 < len(nums) and nums[i 1] == val:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T14_LCPN_26-Remove-Duplicates-from-Sorted-Array.py",
+            "Source_Code": "while i + 1 < len(nums) and nums[i + 1] == val:",
+            "Mutate_Code": "while i - 1 < len(nums) and nums[i + 1] == val:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T14_LCPN_26-Remove-Duplicates-from-Sorted-Array.py",
+            "Source_Code": "while i + 1 < len(nums) and nums[i + 1] == val:",
+            "Mutate_Code": "while i * 1 < len(nums) and nums[i + 1] == val:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T14_LCPN_26-Remove-Duplicates-from-Sorted-Array.py",
+            "Source_Code": "while i + 1 < len(nums) and nums[i + 1] == val:",
+            "Mutate_Code": "while i / 1 < len(nums) and nums[i + 1] == val:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T14_LCPN_26-Remove-Duplicates-from-Sorted-Array.py",
+            "Source_Code": "while i + 1 < len(nums) and nums[i + 1] == val:",
+            "Mutate_Code": "while i % 1 < len(nums) and nums[i + 1] == val:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T14_LCPN_26-Remove-Duplicates-from-Sorted-Array.py",
+            "Source_Code": "while i + 1 < len(nums) and nums[i + 1] == val:",
+            "Mutate_Code": "while i ** 1 < len(nums) and nums[i + 1] == val:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T14_LCPN_26-Remove-Duplicates-from-Sorted-Array.py",
+            "Source_Code": "while i + 1 < len(nums) and nums[i + 1] == val:",
+            "Mutate_Code": "while i // 1 < len(nums) and nums[i + 1] == val:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T14_LCPN_26-Remove-Duplicates-from-Sorted-Array.py",
+            "Source_Code": "while i + 1 < len(nums) and nums[i + 1] == val:",
+            "Mutate_Code": "while i + 1 < len(nums) and nums[i - 1] == val:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T14_LCPN_26-Remove-Duplicates-from-Sorted-Array.py",
+            "Source_Code": "while i + 1 < len(nums) and nums[i + 1] == val:",
+            "Mutate_Code": "while i + 1 < len(nums) and nums[i * 1] == val:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T14_LCPN_26-Remove-Duplicates-from-Sorted-Array.py",
+            "Source_Code": "while i + 1 < len(nums) and nums[i + 1] == val:",
+            "Mutate_Code": "while i + 1 < len(nums) and nums[i / 1] == val:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T14_LCPN_26-Remove-Duplicates-from-Sorted-Array.py",
+            "Source_Code": "while i + 1 < len(nums) and nums[i + 1] == val:",
+            "Mutate_Code": "while i + 1 < len(nums) and nums[i % 1] == val:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T14_LCPN_26-Remove-Duplicates-from-Sorted-Array.py",
+            "Source_Code": "while i + 1 < len(nums) and nums[i + 1] == val:",
+            "Mutate_Code": "while i + 1 < len(nums) and nums[i ** 1] == val:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T14_LCPN_26-Remove-Duplicates-from-Sorted-Array.py",
+            "Source_Code": "while i + 1 < len(nums) and nums[i + 1] == val:",
+            "Mutate_Code": "while i + 1 < len(nums) and nums[i // 1] == val:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T14_LCPN_26-Remove-Duplicates-from-Sorted-Array.py",
+            "Source_Code": "while i + 1 < len(nums) and nums[i + 1] == val:",
+            "Mutate_Code": "while i ++ 1 < len(nums) and nums[i + 1] == val:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T14_LCPN_26-Remove-Duplicates-from-Sorted-Array.py",
+            "Source_Code": "while i + 1 < len(nums) and nums[i + 1] == val:",
+            "Mutate_Code": "while i -- 1 < len(nums) and nums[i + 1] == val:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T14_LCPN_26-Remove-Duplicates-from-Sorted-Array.py",
+            "Source_Code": "while i + 1 < len(nums) and nums[i + 1] == val:",
+            "Mutate_Code": "while i ** 1 < len(nums) and nums[i + 1] == val:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T14_LCPN_26-Remove-Duplicates-from-Sorted-Array.py",
+            "Source_Code": "while i + 1 < len(nums) and nums[i + 1] == val:",
+            "Mutate_Code": "while i // 1 < len(nums) and nums[i + 1] == val:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T14_LCPN_26-Remove-Duplicates-from-Sorted-Array.py",
+            "Source_Code": "while i + 1 < len(nums) and nums[i + 1] == val:",
+            "Mutate_Code": "while i %% 1 < len(nums) and nums[i + 1] == val:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T14_LCPN_26-Remove-Duplicates-from-Sorted-Array.py",
+            "Source_Code": "while i + 1 < len(nums) and nums[i + 1] == val:",
+            "Mutate_Code": "while i **** 1 < len(nums) and nums[i + 1] == val:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T14_LCPN_26-Remove-Duplicates-from-Sorted-Array.py",
+            "Source_Code": "while i + 1 < len(nums) and nums[i + 1] == val:",
+            "Mutate_Code": "while i //// 1 < len(nums) and nums[i + 1] == val:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T14_LCPN_26-Remove-Duplicates-from-Sorted-Array.py",
+            "Source_Code": "while i + 1 < len(nums) and nums[i + 1] == val:",
+            "Mutate_Code": "while i + 1 < len(nums) and nums[i ++ 1] == val:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T14_LCPN_26-Remove-Duplicates-from-Sorted-Array.py",
+            "Source_Code": "while i + 1 < len(nums) and nums[i + 1] == val:",
+            "Mutate_Code": "while i + 1 < len(nums) and nums[i -- 1] == val:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T14_LCPN_26-Remove-Duplicates-from-Sorted-Array.py",
+            "Source_Code": "while i + 1 < len(nums) and nums[i + 1] == val:",
+            "Mutate_Code": "while i + 1 < len(nums) and nums[i ** 1] == val:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T14_LCPN_26-Remove-Duplicates-from-Sorted-Array.py",
+            "Source_Code": "while i + 1 < len(nums) and nums[i + 1] == val:",
+            "Mutate_Code": "while i + 1 < len(nums) and nums[i // 1] == val:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T14_LCPN_26-Remove-Duplicates-from-Sorted-Array.py",
+            "Source_Code": "while i + 1 < len(nums) and nums[i + 1] == val:",
+            "Mutate_Code": "while i + 1 < len(nums) and nums[i %% 1] == val:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T14_LCPN_26-Remove-Duplicates-from-Sorted-Array.py",
+            "Source_Code": "while i + 1 < len(nums) and nums[i + 1] == val:",
+            "Mutate_Code": "while i + 1 < len(nums) and nums[i **** 1] == val:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T14_LCPN_26-Remove-Duplicates-from-Sorted-Array.py",
+            "Source_Code": "while i + 1 < len(nums) and nums[i + 1] == val:",
+            "Mutate_Code": "while i + 1 < len(nums) and nums[i //// 1] == val:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T14_LCPN_26-Remove-Duplicates-from-Sorted-Array.py",
+            "Source_Code": "while i + 1 < len(nums) and nums[i + 1] == val:",
+            "Mutate_Code": "while i + 1   len(nums) and nums[i + 1] == val:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T14_LCPN_26-Remove-Duplicates-from-Sorted-Array.py",
+            "Source_Code": "while i + 1 < len(nums) and nums[i + 1] == val:",
+            "Mutate_Code": "while i + 1 < len(nums) and nums[i + 1] == val: "
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T14_LCPN_26-Remove-Duplicates-from-Sorted-Array.py",
+            "Source_Code": "while i + 1 < len(nums) and nums[i + 1] == val:",
+            "Mutate_Code": "while i + 1 == len(nums) and nums[i + 1] == val:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T14_LCPN_26-Remove-Duplicates-from-Sorted-Array.py",
+            "Source_Code": "while i + 1 < len(nums) and nums[i + 1] == val:",
+            "Mutate_Code": "while i + 1 != len(nums) and nums[i + 1] == val:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T14_LCPN_26-Remove-Duplicates-from-Sorted-Array.py",
+            "Source_Code": "while i + 1 < len(nums) and nums[i + 1] == val:",
+            "Mutate_Code": "while i + 1 > len(nums) and nums[i + 1] == val:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T14_LCPN_26-Remove-Duplicates-from-Sorted-Array.py",
+            "Source_Code": "while i + 1 < len(nums) and nums[i + 1] == val:",
+            "Mutate_Code": "while i + 1 >= len(nums) and nums[i + 1] == val:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T14_LCPN_26-Remove-Duplicates-from-Sorted-Array.py",
+            "Source_Code": "while i + 1 < len(nums) and nums[i + 1] == val:",
+            "Mutate_Code": "while i + 1 <= len(nums) and nums[i + 1] == val:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T14_LCPN_26-Remove-Duplicates-from-Sorted-Array.py",
+            "Source_Code": "while i + 1 < len(nums) and nums[i + 1] == val:",
+            "Mutate_Code": "while i + 1 < len(nums) and nums[i + 1] == val:=="
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T14_LCPN_26-Remove-Duplicates-from-Sorted-Array.py",
+            "Source_Code": "while i + 1 < len(nums) and nums[i + 1] == val:",
+            "Mutate_Code": "while i + 1 < len(nums) and nums[i + 1] == val:!="
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T14_LCPN_26-Remove-Duplicates-from-Sorted-Array.py",
+            "Source_Code": "while i + 1 < len(nums) and nums[i + 1] == val:",
+            "Mutate_Code": "while i + 1 < len(nums) and nums[i + 1] == val:>"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T14_LCPN_26-Remove-Duplicates-from-Sorted-Array.py",
+            "Source_Code": "while i + 1 < len(nums) and nums[i + 1] == val:",
+            "Mutate_Code": "while i + 1 < len(nums) and nums[i + 1] == val:<"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T14_LCPN_26-Remove-Duplicates-from-Sorted-Array.py",
+            "Source_Code": "while i + 1 < len(nums) and nums[i + 1] == val:",
+            "Mutate_Code": "while i + 1 < len(nums) and nums[i + 1] == val:>="
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T14_LCPN_26-Remove-Duplicates-from-Sorted-Array.py",
+            "Source_Code": "while i + 1 < len(nums) and nums[i + 1] == val:",
+            "Mutate_Code": "while i + 1 < len(nums) and nums[i + 1] == val:<="
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T14_LCPN_26-Remove-Duplicates-from-Sorted-Array.py",
+            "Source_Code": "while i + 1 < len(nums) and nums[i + 1] == val:",
+            "Mutate_Code": "while i + 1  ====  len(nums) and nums[i + 1] == val:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T14_LCPN_26-Remove-Duplicates-from-Sorted-Array.py",
+            "Source_Code": "while i + 1 < len(nums) and nums[i + 1] == val:",
+            "Mutate_Code": "while i + 1  !==  len(nums) and nums[i + 1] == val:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T14_LCPN_26-Remove-Duplicates-from-Sorted-Array.py",
+            "Source_Code": "while i + 1 < len(nums) and nums[i + 1] == val:",
+            "Mutate_Code": "while i + 1  >>  len(nums) and nums[i + 1] == val:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T14_LCPN_26-Remove-Duplicates-from-Sorted-Array.py",
+            "Source_Code": "while i + 1 < len(nums) and nums[i + 1] == val:",
+            "Mutate_Code": "while i + 1  <<  len(nums) and nums[i + 1] == val:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T14_LCPN_26-Remove-Duplicates-from-Sorted-Array.py",
+            "Source_Code": "while i + 1 < len(nums) and nums[i + 1] == val:",
+            "Mutate_Code": "while i + 1  >=>=  len(nums) and nums[i + 1] == val:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T14_LCPN_26-Remove-Duplicates-from-Sorted-Array.py",
+            "Source_Code": "while i + 1 < len(nums) and nums[i + 1] == val:",
+            "Mutate_Code": "while i + 1  <=<=  len(nums) and nums[i + 1] == val:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T14_LCPN_26-Remove-Duplicates-from-Sorted-Array.py",
+            "Source_Code": "while i + 1 < len(nums) and nums[i + 1] == val:",
+            "Mutate_Code": "while i + 1 < len(nums) and nums[i + 1] == val: ==== "
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T14_LCPN_26-Remove-Duplicates-from-Sorted-Array.py",
+            "Source_Code": "while i + 1 < len(nums) and nums[i + 1] == val:",
+            "Mutate_Code": "while i + 1 < len(nums) and nums[i + 1] == val: !== "
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T14_LCPN_26-Remove-Duplicates-from-Sorted-Array.py",
+            "Source_Code": "while i + 1 < len(nums) and nums[i + 1] == val:",
+            "Mutate_Code": "while i + 1 < len(nums) and nums[i + 1] == val: >> "
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T14_LCPN_26-Remove-Duplicates-from-Sorted-Array.py",
+            "Source_Code": "while i + 1 < len(nums) and nums[i + 1] == val:",
+            "Mutate_Code": "while i + 1 < len(nums) and nums[i + 1] == val: << "
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T14_LCPN_26-Remove-Duplicates-from-Sorted-Array.py",
+            "Source_Code": "while i + 1 < len(nums) and nums[i + 1] == val:",
+            "Mutate_Code": "while i + 1 < len(nums) and nums[i + 1] == val: >=>= "
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T14_LCPN_26-Remove-Duplicates-from-Sorted-Array.py",
+            "Source_Code": "while i + 1 < len(nums) and nums[i + 1] == val:",
+            "Mutate_Code": "while i + 1 < len(nums) and nums[i + 1] == val: <=<= "
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T14_LCPN_26-Remove-Duplicates-from-Sorted-Array.py",
+            "Source_Code": "while i + 1 < len(nums) and nums[i + 1] == val:",
+            "Mutate_Code": "while i + 1 < len(nums) nums[i + 1] == val:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T14_LCPN_26-Remove-Duplicates-from-Sorted-Array.py",
+            "Source_Code": "while i + 1 < len(nums) and nums[i + 1] == val:",
+            "Mutate_Code": "while i + 1 < len(nums) or nums[i + 1] == val:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T14_LCPN_26-Remove-Duplicates-from-Sorted-Array.py",
+            "Source_Code": "while i + 1 < len(nums) and nums[i + 1] == val:",
+            "Mutate_Code": "while i + 1 < len(nums) not nums[i + 1] == val:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T14_LCPN_26-Remove-Duplicates-from-Sorted-Array.py",
+            "Source_Code": "while i + 1 < len(nums) and nums[i + 1] == val:",
+            "Mutate_Code": "while i + 1 < len(nums) and and nums[i + 1] == val:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T14_LCPN_26-Remove-Duplicates-from-Sorted-Array.py",
+            "Source_Code": "while i + 1 < len(nums) and nums[i + 1] == val:",
+            "Mutate_Code": "while i + 1 < len(nums) or or nums[i + 1] == val:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T14_LCPN_26-Remove-Duplicates-from-Sorted-Array.py",
+            "Source_Code": "while i + 1 < len(nums) and nums[i + 1] == val:",
+            "Mutate_Code": "while i + 1 < len(nums) not not nums[i + 1] == val:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T14_LCPN_26-Remove-Duplicates-from-Sorted-Array.py",
+            "Source_Code": "while i + 1 < len(nums) and nums[i + 1] == val:",
+            "Mutate_Code": " "
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T14_LCPN_26-Remove-Duplicates-from-Sorted-Array.py",
+            "Source_Code": "while i + 1 < len(nums) and nums[i + 1] == val:",
+            "Mutate_Code": "for "
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T14_LCPN_26-Remove-Duplicates-from-Sorted-Array.py",
+            "Source_Code": "while i + 1 < len(nums) and nums[i + 1] == val:",
+            "Mutate_Code": "while while:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T14_LCPN_26-Remove-Duplicates-from-Sorted-Array.py",
+            "Source_Code": "while i + 1 < len(nums) and nums[i + 1] == val:",
+            "Mutate_Code": "while i + 1 < len( ) and nums[i + 1] == val:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T14_LCPN_26-Remove-Duplicates-from-Sorted-Array.py",
+            "Source_Code": "while i + 1 < len(nums) and nums[i + 1] == val:",
+            "Mutate_Code": "while i 1 < len(nums) and nums[i + 1] == val:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T14_LCPN_26-Remove-Duplicates-from-Sorted-Array.py",
+            "Source_Code": "while i + 1 < len(nums) and nums[i + 1] == val:",
+            "Mutate_Code": "while i + 1 < len(nums) and nums[i 1] == val:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T14_LCPN_26-Remove-Duplicates-from-Sorted-Array.py",
+            "Source_Code": "while i + 1 < len(nums) and nums[i + 1] == val:",
+            "Mutate_Code": "while i - 1 < len(nums) and nums[i + 1] == val:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T14_LCPN_26-Remove-Duplicates-from-Sorted-Array.py",
+            "Source_Code": "while i + 1 < len(nums) and nums[i + 1] == val:",
+            "Mutate_Code": "while i * 1 < len(nums) and nums[i + 1] == val:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T14_LCPN_26-Remove-Duplicates-from-Sorted-Array.py",
+            "Source_Code": "while i + 1 < len(nums) and nums[i + 1] == val:",
+            "Mutate_Code": "while i / 1 < len(nums) and nums[i + 1] == val:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T14_LCPN_26-Remove-Duplicates-from-Sorted-Array.py",
+            "Source_Code": "while i + 1 < len(nums) and nums[i + 1] == val:",
+            "Mutate_Code": "while i % 1 < len(nums) and nums[i + 1] == val:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T14_LCPN_26-Remove-Duplicates-from-Sorted-Array.py",
+            "Source_Code": "while i + 1 < len(nums) and nums[i + 1] == val:",
+            "Mutate_Code": "while i ** 1 < len(nums) and nums[i + 1] == val:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T14_LCPN_26-Remove-Duplicates-from-Sorted-Array.py",
+            "Source_Code": "while i + 1 < len(nums) and nums[i + 1] == val:",
+            "Mutate_Code": "while i // 1 < len(nums) and nums[i + 1] == val:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T14_LCPN_26-Remove-Duplicates-from-Sorted-Array.py",
+            "Source_Code": "while i + 1 < len(nums) and nums[i + 1] == val:",
+            "Mutate_Code": "while i + 1 < len(nums) and nums[i - 1] == val:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T14_LCPN_26-Remove-Duplicates-from-Sorted-Array.py",
+            "Source_Code": "while i + 1 < len(nums) and nums[i + 1] == val:",
+            "Mutate_Code": "while i + 1 < len(nums) and nums[i * 1] == val:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T14_LCPN_26-Remove-Duplicates-from-Sorted-Array.py",
+            "Source_Code": "while i + 1 < len(nums) and nums[i + 1] == val:",
+            "Mutate_Code": "while i + 1 < len(nums) and nums[i / 1] == val:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T14_LCPN_26-Remove-Duplicates-from-Sorted-Array.py",
+            "Source_Code": "while i + 1 < len(nums) and nums[i + 1] == val:",
+            "Mutate_Code": "while i + 1 < len(nums) and nums[i % 1] == val:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T14_LCPN_26-Remove-Duplicates-from-Sorted-Array.py",
+            "Source_Code": "while i + 1 < len(nums) and nums[i + 1] == val:",
+            "Mutate_Code": "while i + 1 < len(nums) and nums[i ** 1] == val:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T14_LCPN_26-Remove-Duplicates-from-Sorted-Array.py",
+            "Source_Code": "while i + 1 < len(nums) and nums[i + 1] == val:",
+            "Mutate_Code": "while i + 1 < len(nums) and nums[i // 1] == val:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T14_LCPN_26-Remove-Duplicates-from-Sorted-Array.py",
+            "Source_Code": "while i + 1 < len(nums) and nums[i + 1] == val:",
+            "Mutate_Code": "while i ++ 1 < len(nums) and nums[i + 1] == val:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T14_LCPN_26-Remove-Duplicates-from-Sorted-Array.py",
+            "Source_Code": "while i + 1 < len(nums) and nums[i + 1] == val:",
+            "Mutate_Code": "while i -- 1 < len(nums) and nums[i + 1] == val:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T14_LCPN_26-Remove-Duplicates-from-Sorted-Array.py",
+            "Source_Code": "while i + 1 < len(nums) and nums[i + 1] == val:",
+            "Mutate_Code": "while i ** 1 < len(nums) and nums[i + 1] == val:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T14_LCPN_26-Remove-Duplicates-from-Sorted-Array.py",
+            "Source_Code": "while i + 1 < len(nums) and nums[i + 1] == val:",
+            "Mutate_Code": "while i // 1 < len(nums) and nums[i + 1] == val:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T14_LCPN_26-Remove-Duplicates-from-Sorted-Array.py",
+            "Source_Code": "while i + 1 < len(nums) and nums[i + 1] == val:",
+            "Mutate_Code": "while i %% 1 < len(nums) and nums[i + 1] == val:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T14_LCPN_26-Remove-Duplicates-from-Sorted-Array.py",
+            "Source_Code": "while i + 1 < len(nums) and nums[i + 1] == val:",
+            "Mutate_Code": "while i **** 1 < len(nums) and nums[i + 1] == val:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T14_LCPN_26-Remove-Duplicates-from-Sorted-Array.py",
+            "Source_Code": "while i + 1 < len(nums) and nums[i + 1] == val:",
+            "Mutate_Code": "while i //// 1 < len(nums) and nums[i + 1] == val:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T14_LCPN_26-Remove-Duplicates-from-Sorted-Array.py",
+            "Source_Code": "while i + 1 < len(nums) and nums[i + 1] == val:",
+            "Mutate_Code": "while i + 1 < len(nums) and nums[i ++ 1] == val:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T14_LCPN_26-Remove-Duplicates-from-Sorted-Array.py",
+            "Source_Code": "while i + 1 < len(nums) and nums[i + 1] == val:",
+            "Mutate_Code": "while i + 1 < len(nums) and nums[i -- 1] == val:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T14_LCPN_26-Remove-Duplicates-from-Sorted-Array.py",
+            "Source_Code": "while i + 1 < len(nums) and nums[i + 1] == val:",
+            "Mutate_Code": "while i + 1 < len(nums) and nums[i ** 1] == val:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T14_LCPN_26-Remove-Duplicates-from-Sorted-Array.py",
+            "Source_Code": "while i + 1 < len(nums) and nums[i + 1] == val:",
+            "Mutate_Code": "while i + 1 < len(nums) and nums[i // 1] == val:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T14_LCPN_26-Remove-Duplicates-from-Sorted-Array.py",
+            "Source_Code": "while i + 1 < len(nums) and nums[i + 1] == val:",
+            "Mutate_Code": "while i + 1 < len(nums) and nums[i %% 1] == val:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T14_LCPN_26-Remove-Duplicates-from-Sorted-Array.py",
+            "Source_Code": "while i + 1 < len(nums) and nums[i + 1] == val:",
+            "Mutate_Code": "while i + 1 < len(nums) and nums[i **** 1] == val:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T14_LCPN_26-Remove-Duplicates-from-Sorted-Array.py",
+            "Source_Code": "while i + 1 < len(nums) and nums[i + 1] == val:",
+            "Mutate_Code": "while i + 1 < len(nums) and nums[i //// 1] == val:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T14_LCPN_26-Remove-Duplicates-from-Sorted-Array.py",
+            "Source_Code": "while i + 1 < len(nums) and nums[i + 1] == val:",
+            "Mutate_Code": "while i + 1   len(nums) and nums[i + 1] == val:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T14_LCPN_26-Remove-Duplicates-from-Sorted-Array.py",
+            "Source_Code": "while i + 1 < len(nums) and nums[i + 1] == val:",
+            "Mutate_Code": "while i + 1 < len(nums) and nums[i + 1] == val: "
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T14_LCPN_26-Remove-Duplicates-from-Sorted-Array.py",
+            "Source_Code": "while i + 1 < len(nums) and nums[i + 1] == val:",
+            "Mutate_Code": "while i + 1 == len(nums) and nums[i + 1] == val:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T14_LCPN_26-Remove-Duplicates-from-Sorted-Array.py",
+            "Source_Code": "while i + 1 < len(nums) and nums[i + 1] == val:",
+            "Mutate_Code": "while i + 1 != len(nums) and nums[i + 1] == val:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T14_LCPN_26-Remove-Duplicates-from-Sorted-Array.py",
+            "Source_Code": "while i + 1 < len(nums) and nums[i + 1] == val:",
+            "Mutate_Code": "while i + 1 > len(nums) and nums[i + 1] == val:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T14_LCPN_26-Remove-Duplicates-from-Sorted-Array.py",
+            "Source_Code": "while i + 1 < len(nums) and nums[i + 1] == val:",
+            "Mutate_Code": "while i + 1 >= len(nums) and nums[i + 1] == val:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T14_LCPN_26-Remove-Duplicates-from-Sorted-Array.py",
+            "Source_Code": "while i + 1 < len(nums) and nums[i + 1] == val:",
+            "Mutate_Code": "while i + 1 <= len(nums) and nums[i + 1] == val:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T14_LCPN_26-Remove-Duplicates-from-Sorted-Array.py",
+            "Source_Code": "while i + 1 < len(nums) and nums[i + 1] == val:",
+            "Mutate_Code": "while i + 1 < len(nums) and nums[i + 1] == val:=="
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T14_LCPN_26-Remove-Duplicates-from-Sorted-Array.py",
+            "Source_Code": "while i + 1 < len(nums) and nums[i + 1] == val:",
+            "Mutate_Code": "while i + 1 < len(nums) and nums[i + 1] == val:!="
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T14_LCPN_26-Remove-Duplicates-from-Sorted-Array.py",
+            "Source_Code": "while i + 1 < len(nums) and nums[i + 1] == val:",
+            "Mutate_Code": "while i + 1 < len(nums) and nums[i + 1] == val:>"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T14_LCPN_26-Remove-Duplicates-from-Sorted-Array.py",
+            "Source_Code": "while i + 1 < len(nums) and nums[i + 1] == val:",
+            "Mutate_Code": "while i + 1 < len(nums) and nums[i + 1] == val:<"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T14_LCPN_26-Remove-Duplicates-from-Sorted-Array.py",
+            "Source_Code": "while i + 1 < len(nums) and nums[i + 1] == val:",
+            "Mutate_Code": "while i + 1 < len(nums) and nums[i + 1] == val:>="
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T14_LCPN_26-Remove-Duplicates-from-Sorted-Array.py",
+            "Source_Code": "while i + 1 < len(nums) and nums[i + 1] == val:",
+            "Mutate_Code": "while i + 1 < len(nums) and nums[i + 1] == val:<="
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T14_LCPN_26-Remove-Duplicates-from-Sorted-Array.py",
+            "Source_Code": "while i + 1 < len(nums) and nums[i + 1] == val:",
+            "Mutate_Code": "while i + 1  ====  len(nums) and nums[i + 1] == val:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T14_LCPN_26-Remove-Duplicates-from-Sorted-Array.py",
+            "Source_Code": "while i + 1 < len(nums) and nums[i + 1] == val:",
+            "Mutate_Code": "while i + 1  !==  len(nums) and nums[i + 1] == val:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T14_LCPN_26-Remove-Duplicates-from-Sorted-Array.py",
+            "Source_Code": "while i + 1 < len(nums) and nums[i + 1] == val:",
+            "Mutate_Code": "while i + 1  >>  len(nums) and nums[i + 1] == val:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T14_LCPN_26-Remove-Duplicates-from-Sorted-Array.py",
+            "Source_Code": "while i + 1 < len(nums) and nums[i + 1] == val:",
+            "Mutate_Code": "while i + 1  <<  len(nums) and nums[i + 1] == val:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T14_LCPN_26-Remove-Duplicates-from-Sorted-Array.py",
+            "Source_Code": "while i + 1 < len(nums) and nums[i + 1] == val:",
+            "Mutate_Code": "while i + 1  >=>=  len(nums) and nums[i + 1] == val:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T14_LCPN_26-Remove-Duplicates-from-Sorted-Array.py",
+            "Source_Code": "while i + 1 < len(nums) and nums[i + 1] == val:",
+            "Mutate_Code": "while i + 1  <=<=  len(nums) and nums[i + 1] == val:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T14_LCPN_26-Remove-Duplicates-from-Sorted-Array.py",
+            "Source_Code": "while i + 1 < len(nums) and nums[i + 1] == val:",
+            "Mutate_Code": "while i + 1 < len(nums) and nums[i + 1] == val: ==== "
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T14_LCPN_26-Remove-Duplicates-from-Sorted-Array.py",
+            "Source_Code": "while i + 1 < len(nums) and nums[i + 1] == val:",
+            "Mutate_Code": "while i + 1 < len(nums) and nums[i + 1] == val: !== "
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T14_LCPN_26-Remove-Duplicates-from-Sorted-Array.py",
+            "Source_Code": "while i + 1 < len(nums) and nums[i + 1] == val:",
+            "Mutate_Code": "while i + 1 < len(nums) and nums[i + 1] == val: >> "
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T14_LCPN_26-Remove-Duplicates-from-Sorted-Array.py",
+            "Source_Code": "while i + 1 < len(nums) and nums[i + 1] == val:",
+            "Mutate_Code": "while i + 1 < len(nums) and nums[i + 1] == val: << "
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T14_LCPN_26-Remove-Duplicates-from-Sorted-Array.py",
+            "Source_Code": "while i + 1 < len(nums) and nums[i + 1] == val:",
+            "Mutate_Code": "while i + 1 < len(nums) and nums[i + 1] == val: >=>= "
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T14_LCPN_26-Remove-Duplicates-from-Sorted-Array.py",
+            "Source_Code": "while i + 1 < len(nums) and nums[i + 1] == val:",
+            "Mutate_Code": "while i + 1 < len(nums) and nums[i + 1] == val: <=<= "
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T14_LCPN_26-Remove-Duplicates-from-Sorted-Array.py",
+            "Source_Code": "while i + 1 < len(nums) and nums[i + 1] == val:",
+            "Mutate_Code": "while i + 1 < len(nums) nums[i + 1] == val:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T14_LCPN_26-Remove-Duplicates-from-Sorted-Array.py",
+            "Source_Code": "while i + 1 < len(nums) and nums[i + 1] == val:",
+            "Mutate_Code": "while i + 1 < len(nums) or nums[i + 1] == val:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T14_LCPN_26-Remove-Duplicates-from-Sorted-Array.py",
+            "Source_Code": "while i + 1 < len(nums) and nums[i + 1] == val:",
+            "Mutate_Code": "while i + 1 < len(nums) not nums[i + 1] == val:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T14_LCPN_26-Remove-Duplicates-from-Sorted-Array.py",
+            "Source_Code": "while i + 1 < len(nums) and nums[i + 1] == val:",
+            "Mutate_Code": "while i + 1 < len(nums) and and nums[i + 1] == val:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T14_LCPN_26-Remove-Duplicates-from-Sorted-Array.py",
+            "Source_Code": "while i + 1 < len(nums) and nums[i + 1] == val:",
+            "Mutate_Code": "while i + 1 < len(nums) or or nums[i + 1] == val:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T14_LCPN_26-Remove-Duplicates-from-Sorted-Array.py",
+            "Source_Code": "while i + 1 < len(nums) and nums[i + 1] == val:",
+            "Mutate_Code": "while i + 1 < len(nums) not not nums[i + 1] == val:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T14_LCPN_26-Remove-Duplicates-from-Sorted-Array.py",
+            "Source_Code": "while i + 1 < len(nums) and nums[i + 1] == val:",
+            "Mutate_Code": " "
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T14_LCPN_26-Remove-Duplicates-from-Sorted-Array.py",
+            "Source_Code": "while i + 1 < len(nums) and nums[i + 1] == val:",
+            "Mutate_Code": "for "
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T14_LCPN_26-Remove-Duplicates-from-Sorted-Array.py",
+            "Source_Code": "while i + 1 < len(nums) and nums[i + 1] == val:",
+            "Mutate_Code": "while while:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T14_LCPN_26-Remove-Duplicates-from-Sorted-Array.py",
+            "Source_Code": "while i + 1 < len(nums) and nums[i + 1] == val:",
+            "Mutate_Code": "while i + 1 < len( ) and nums[i + 1] == val:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T14_LCPN_26-Remove-Duplicates-from-Sorted-Array.py",
+            "Source_Code": "nums.remove(val)",
+            "Mutate_Code": "nums.remove( )"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T14_LCPN_26-Remove-Duplicates-from-Sorted-Array.py",
+            "Source_Code": "return len(nums)",
+            "Mutate_Code": " len(nums)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T14_LCPN_26-Remove-Duplicates-from-Sorted-Array.py",
+            "Source_Code": "return len(nums)",
+            "Mutate_Code": "passlen(nums)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T14_LCPN_26-Remove-Duplicates-from-Sorted-Array.py",
+            "Source_Code": "return len(nums)",
+            "Mutate_Code": "return returnlen(nums)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T14_LCPN_26-Remove-Duplicates-from-Sorted-Array.py",
+            "Source_Code": "return len(nums)",
+            "Mutate_Code": "return len( )"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T14_LCPN_26-Remove-Duplicates-from-Sorted-Array.py",
+            "Source_Code": "return len(nums)",
+            "Mutate_Code": " len(nums)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T14_LCPN_26-Remove-Duplicates-from-Sorted-Array.py",
+            "Source_Code": "return len(nums)",
+            "Mutate_Code": "passlen(nums)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T14_LCPN_26-Remove-Duplicates-from-Sorted-Array.py",
+            "Source_Code": "return len(nums)",
+            "Mutate_Code": "return returnlen(nums)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T14_LCPN_26-Remove-Duplicates-from-Sorted-Array.py",
+            "Source_Code": "return len(nums)",
+            "Mutate_Code": "return len( )"
+        }
+    }
+]

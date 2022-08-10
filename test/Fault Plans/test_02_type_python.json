@@ -1,0 +1,814 @@
+[
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T2_LCPN_2-Add-Two-Numbers.py",
+            "Source_Code": "self.next = None",
+            "Mutate_Code": "self.next None"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T2_LCPN_2-Add-Two-Numbers.py",
+            "Source_Code": "self.next = None",
+            "Mutate_Code": "self.next None"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T2_LCPN_2-Add-Two-Numbers.py",
+            "Source_Code": "self.next = None",
+            "Mutate_Code": "self.next += None"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T2_LCPN_2-Add-Two-Numbers.py",
+            "Source_Code": "self.next = None",
+            "Mutate_Code": "self.next -= None"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T2_LCPN_2-Add-Two-Numbers.py",
+            "Source_Code": "self.next = None",
+            "Mutate_Code": "self.next *= None"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T2_LCPN_2-Add-Two-Numbers.py",
+            "Source_Code": "self.next = None",
+            "Mutate_Code": "self.next /= None"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T2_LCPN_2-Add-Two-Numbers.py",
+            "Source_Code": "self.next = None",
+            "Mutate_Code": "self.next %= None"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T2_LCPN_2-Add-Two-Numbers.py",
+            "Source_Code": "self.next = None",
+            "Mutate_Code": "self.next //= None"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T2_LCPN_2-Add-Two-Numbers.py",
+            "Source_Code": "self.next = None",
+            "Mutate_Code": "self.next **= None"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T2_LCPN_2-Add-Two-Numbers.py",
+            "Source_Code": "self.next = None",
+            "Mutate_Code": "self.next &= None"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T2_LCPN_2-Add-Two-Numbers.py",
+            "Source_Code": "self.next = None",
+            "Mutate_Code": "self.next |= None"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T2_LCPN_2-Add-Two-Numbers.py",
+            "Source_Code": "self.next = None",
+            "Mutate_Code": "self.next ^= None"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T2_LCPN_2-Add-Two-Numbers.py",
+            "Source_Code": "self.next = None",
+            "Mutate_Code": "self.next >>= None"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T2_LCPN_2-Add-Two-Numbers.py",
+            "Source_Code": "self.next = None",
+            "Mutate_Code": "self.next <<= None"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T2_LCPN_2-Add-Two-Numbers.py",
+            "Source_Code": "self.next = None",
+            "Mutate_Code": "self.next += None"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T2_LCPN_2-Add-Two-Numbers.py",
+            "Source_Code": "self.next = None",
+            "Mutate_Code": "self.next -= None"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T2_LCPN_2-Add-Two-Numbers.py",
+            "Source_Code": "self.next = None",
+            "Mutate_Code": "self.next *= None"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T2_LCPN_2-Add-Two-Numbers.py",
+            "Source_Code": "self.next = None",
+            "Mutate_Code": "self.next /= None"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T2_LCPN_2-Add-Two-Numbers.py",
+            "Source_Code": "self.next = None",
+            "Mutate_Code": "self.next %= None"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T2_LCPN_2-Add-Two-Numbers.py",
+            "Source_Code": "self.next = None",
+            "Mutate_Code": "self.next //= None"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T2_LCPN_2-Add-Two-Numbers.py",
+            "Source_Code": "self.next = None",
+            "Mutate_Code": "self.next **= None"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T2_LCPN_2-Add-Two-Numbers.py",
+            "Source_Code": "self.next = None",
+            "Mutate_Code": "self.next &= None"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T2_LCPN_2-Add-Two-Numbers.py",
+            "Source_Code": "self.next = None",
+            "Mutate_Code": "self.next |= None"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T2_LCPN_2-Add-Two-Numbers.py",
+            "Source_Code": "self.next = None",
+            "Mutate_Code": "self.next ^= None"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T2_LCPN_2-Add-Two-Numbers.py",
+            "Source_Code": "self.next = None",
+            "Mutate_Code": "self.next >>= None"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T2_LCPN_2-Add-Two-Numbers.py",
+            "Source_Code": "self.next = None",
+            "Mutate_Code": "self.next <<= None"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T2_LCPN_2-Add-Two-Numbers.py",
+            "Source_Code": "self.next = None",
+            "Mutate_Code": "self.next == None"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T2_LCPN_2-Add-Two-Numbers.py",
+            "Source_Code": "self.next = None",
+            "Mutate_Code": "self.next +=+= None"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T2_LCPN_2-Add-Two-Numbers.py",
+            "Source_Code": "self.next = None",
+            "Mutate_Code": "self.next -=-= None"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T2_LCPN_2-Add-Two-Numbers.py",
+            "Source_Code": "self.next = None",
+            "Mutate_Code": "self.next *=*= None"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T2_LCPN_2-Add-Two-Numbers.py",
+            "Source_Code": "self.next = None",
+            "Mutate_Code": "self.next /=/= None"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T2_LCPN_2-Add-Two-Numbers.py",
+            "Source_Code": "self.next = None",
+            "Mutate_Code": "self.next %=%= None"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T2_LCPN_2-Add-Two-Numbers.py",
+            "Source_Code": "self.next = None",
+            "Mutate_Code": "self.next //=//= None"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T2_LCPN_2-Add-Two-Numbers.py",
+            "Source_Code": "self.next = None",
+            "Mutate_Code": "self.next **=**= None"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T2_LCPN_2-Add-Two-Numbers.py",
+            "Source_Code": "self.next = None",
+            "Mutate_Code": "self.next &=&= None"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T2_LCPN_2-Add-Two-Numbers.py",
+            "Source_Code": "self.next = None",
+            "Mutate_Code": "self.next |=|= None"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T2_LCPN_2-Add-Two-Numbers.py",
+            "Source_Code": "self.next = None",
+            "Mutate_Code": "self.next ^=^= None"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T2_LCPN_2-Add-Two-Numbers.py",
+            "Source_Code": "self.next = None",
+            "Mutate_Code": "self.next >>=>>= None"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T2_LCPN_2-Add-Two-Numbers.py",
+            "Source_Code": "self.next = None",
+            "Mutate_Code": "self.next <<=<<=None"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T2_LCPN_2-Add-Two-Numbers.py",
+            "Source_Code": "self.next = None",
+            "Mutate_Code": "self.next == None"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T2_LCPN_2-Add-Two-Numbers.py",
+            "Source_Code": "self.next = None",
+            "Mutate_Code": "self.next +=+= None"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T2_LCPN_2-Add-Two-Numbers.py",
+            "Source_Code": "self.next = None",
+            "Mutate_Code": "self.next -=-= None"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T2_LCPN_2-Add-Two-Numbers.py",
+            "Source_Code": "self.next = None",
+            "Mutate_Code": "self.next *=*= None"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T2_LCPN_2-Add-Two-Numbers.py",
+            "Source_Code": "self.next = None",
+            "Mutate_Code": "self.next /=/= None"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T2_LCPN_2-Add-Two-Numbers.py",
+            "Source_Code": "self.next = None",
+            "Mutate_Code": "self.next %=%= None"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T2_LCPN_2-Add-Two-Numbers.py",
+            "Source_Code": "self.next = None",
+            "Mutate_Code": "self.next //=//= None"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T2_LCPN_2-Add-Two-Numbers.py",
+            "Source_Code": "self.next = None",
+            "Mutate_Code": "self.next **=**= None"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T2_LCPN_2-Add-Two-Numbers.py",
+            "Source_Code": "self.next = None",
+            "Mutate_Code": "self.next &=&= None"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T2_LCPN_2-Add-Two-Numbers.py",
+            "Source_Code": "self.next = None",
+            "Mutate_Code": "self.next |=|= None"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T2_LCPN_2-Add-Two-Numbers.py",
+            "Source_Code": "self.next = None",
+            "Mutate_Code": "self.next ^=^= None"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T2_LCPN_2-Add-Two-Numbers.py",
+            "Source_Code": "self.next = None",
+            "Mutate_Code": "self.next >>=>>= None"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T2_LCPN_2-Add-Two-Numbers.py",
+            "Source_Code": "self.next = None",
+            "Mutate_Code": "self.next <<=<<=None"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T2_LCPN_2-Add-Two-Numbers.py",
+            "Source_Code": "self.next = None",
+            "Mutate_Code": "self.next =  "
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T2_LCPN_2-Add-Two-Numbers.py",
+            "Source_Code": "self.next = None",
+            "Mutate_Code": "self.next = True"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T2_LCPN_2-Add-Two-Numbers.py",
+            "Source_Code": "self.next = None",
+            "Mutate_Code": "self.next = None None"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T2_LCPN_2-Add-Two-Numbers.py",
+            "Source_Code": "while l1 or l2:",
+            "Mutate_Code": "while l1 l2:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T2_LCPN_2-Add-Two-Numbers.py",
+            "Source_Code": "while l1 or l2:",
+            "Mutate_Code": "while l1 and l2:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T2_LCPN_2-Add-Two-Numbers.py",
+            "Source_Code": "while l1 or l2:",
+            "Mutate_Code": "while l1 not l2:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T2_LCPN_2-Add-Two-Numbers.py",
+            "Source_Code": "while l1 or l2:",
+            "Mutate_Code": "while l1 and and l2:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T2_LCPN_2-Add-Two-Numbers.py",
+            "Source_Code": "while l1 or l2:",
+            "Mutate_Code": "while l1 or or l2:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T2_LCPN_2-Add-Two-Numbers.py",
+            "Source_Code": "while l1 or l2:",
+            "Mutate_Code": "while l1 not not l2:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T2_LCPN_2-Add-Two-Numbers.py",
+            "Source_Code": "while l1 or l2:",
+            "Mutate_Code": " "
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T2_LCPN_2-Add-Two-Numbers.py",
+            "Source_Code": "while l1 or l2:",
+            "Mutate_Code": "for "
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T2_LCPN_2-Add-Two-Numbers.py",
+            "Source_Code": "while l1 or l2:",
+            "Mutate_Code": "while while:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T2_LCPN_2-Add-Two-Numbers.py",
+            "Source_Code": "while l1 or l2:",
+            "Mutate_Code": "while l1 l2:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T2_LCPN_2-Add-Two-Numbers.py",
+            "Source_Code": "while l1 or l2:",
+            "Mutate_Code": "while l1 and l2:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T2_LCPN_2-Add-Two-Numbers.py",
+            "Source_Code": "while l1 or l2:",
+            "Mutate_Code": "while l1 not l2:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T2_LCPN_2-Add-Two-Numbers.py",
+            "Source_Code": "while l1 or l2:",
+            "Mutate_Code": "while l1 and and l2:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T2_LCPN_2-Add-Two-Numbers.py",
+            "Source_Code": "while l1 or l2:",
+            "Mutate_Code": "while l1 or or l2:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T2_LCPN_2-Add-Two-Numbers.py",
+            "Source_Code": "while l1 or l2:",
+            "Mutate_Code": "while l1 not not l2:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T2_LCPN_2-Add-Two-Numbers.py",
+            "Source_Code": "while l1 or l2:",
+            "Mutate_Code": " "
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T2_LCPN_2-Add-Two-Numbers.py",
+            "Source_Code": "while l1 or l2:",
+            "Mutate_Code": "for "
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T2_LCPN_2-Add-Two-Numbers.py",
+            "Source_Code": "while l1 or l2:",
+            "Mutate_Code": "while while:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T2_LCPN_2-Add-Two-Numbers.py",
+            "Source_Code": "if l1:",
+            "Mutate_Code": " "
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T2_LCPN_2-Add-Two-Numbers.py",
+            "Source_Code": "if l1:",
+            "Mutate_Code": "elif:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T2_LCPN_2-Add-Two-Numbers.py",
+            "Source_Code": "if l1:",
+            "Mutate_Code": "else:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T2_LCPN_2-Add-Two-Numbers.py",
+            "Source_Code": "if l1:",
+            "Mutate_Code": "if if"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T2_LCPN_2-Add-Two-Numbers.py",
+            "Source_Code": "if l2:",
+            "Mutate_Code": " "
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T2_LCPN_2-Add-Two-Numbers.py",
+            "Source_Code": "if l2:",
+            "Mutate_Code": "elif:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T2_LCPN_2-Add-Two-Numbers.py",
+            "Source_Code": "if l2:",
+            "Mutate_Code": "else:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T2_LCPN_2-Add-Two-Numbers.py",
+            "Source_Code": "if l2:",
+            "Mutate_Code": "if if"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T2_LCPN_2-Add-Two-Numbers.py",
+            "Source_Code": "if carry == 1:",
+            "Mutate_Code": "if carry   1:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T2_LCPN_2-Add-Two-Numbers.py",
+            "Source_Code": "if carry == 1:",
+            "Mutate_Code": "if carry != 1:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T2_LCPN_2-Add-Two-Numbers.py",
+            "Source_Code": "if carry == 1:",
+            "Mutate_Code": "if carry > 1:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T2_LCPN_2-Add-Two-Numbers.py",
+            "Source_Code": "if carry == 1:",
+            "Mutate_Code": "if carry < 1:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T2_LCPN_2-Add-Two-Numbers.py",
+            "Source_Code": "if carry == 1:",
+            "Mutate_Code": "if carry >= 1:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T2_LCPN_2-Add-Two-Numbers.py",
+            "Source_Code": "if carry == 1:",
+            "Mutate_Code": "if carry <= 1:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T2_LCPN_2-Add-Two-Numbers.py",
+            "Source_Code": "if carry == 1:",
+            "Mutate_Code": "if carry  ====  1:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T2_LCPN_2-Add-Two-Numbers.py",
+            "Source_Code": "if carry == 1:",
+            "Mutate_Code": "if carry  !==  1:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T2_LCPN_2-Add-Two-Numbers.py",
+            "Source_Code": "if carry == 1:",
+            "Mutate_Code": "if carry  >>  1:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T2_LCPN_2-Add-Two-Numbers.py",
+            "Source_Code": "if carry == 1:",
+            "Mutate_Code": "if carry  <<  1:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T2_LCPN_2-Add-Two-Numbers.py",
+            "Source_Code": "if carry == 1:",
+            "Mutate_Code": "if carry  >=>=  1:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T2_LCPN_2-Add-Two-Numbers.py",
+            "Source_Code": "if carry == 1:",
+            "Mutate_Code": "if carry  <=<=  1:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T2_LCPN_2-Add-Two-Numbers.py",
+            "Source_Code": "if carry == 1:",
+            "Mutate_Code": " "
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T2_LCPN_2-Add-Two-Numbers.py",
+            "Source_Code": "if carry == 1:",
+            "Mutate_Code": "elif:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T2_LCPN_2-Add-Two-Numbers.py",
+            "Source_Code": "if carry == 1:",
+            "Mutate_Code": "else:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T2_LCPN_2-Add-Two-Numbers.py",
+            "Source_Code": "if carry == 1:",
+            "Mutate_Code": "if if"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T2_LCPN_2-Add-Two-Numbers.py",
+            "Source_Code": "return dummy.next",
+            "Mutate_Code": " dummy.next"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T2_LCPN_2-Add-Two-Numbers.py",
+            "Source_Code": "return dummy.next",
+            "Mutate_Code": "passdummy.next"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T2_LCPN_2-Add-Two-Numbers.py",
+            "Source_Code": "return dummy.next",
+            "Mutate_Code": "return returndummy.next"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T2_LCPN_2-Add-Two-Numbers.py",
+            "Source_Code": "if __name__ == '__main__':",
+            "Mutate_Code": "if __name__   '__main__':"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T2_LCPN_2-Add-Two-Numbers.py",
+            "Source_Code": "if __name__ == '__main__':",
+            "Mutate_Code": "if __name__ != '__main__':"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T2_LCPN_2-Add-Two-Numbers.py",
+            "Source_Code": "if __name__ == '__main__':",
+            "Mutate_Code": "if __name__ > '__main__':"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T2_LCPN_2-Add-Two-Numbers.py",
+            "Source_Code": "if __name__ == '__main__':",
+            "Mutate_Code": "if __name__ < '__main__':"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T2_LCPN_2-Add-Two-Numbers.py",
+            "Source_Code": "if __name__ == '__main__':",
+            "Mutate_Code": "if __name__ >= '__main__':"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T2_LCPN_2-Add-Two-Numbers.py",
+            "Source_Code": "if __name__ == '__main__':",
+            "Mutate_Code": "if __name__ <= '__main__':"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T2_LCPN_2-Add-Two-Numbers.py",
+            "Source_Code": "if __name__ == '__main__':",
+            "Mutate_Code": "if __name__  ====  '__main__':"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T2_LCPN_2-Add-Two-Numbers.py",
+            "Source_Code": "if __name__ == '__main__':",
+            "Mutate_Code": "if __name__  !==  '__main__':"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T2_LCPN_2-Add-Two-Numbers.py",
+            "Source_Code": "if __name__ == '__main__':",
+            "Mutate_Code": "if __name__  >>  '__main__':"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T2_LCPN_2-Add-Two-Numbers.py",
+            "Source_Code": "if __name__ == '__main__':",
+            "Mutate_Code": "if __name__  <<  '__main__':"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T2_LCPN_2-Add-Two-Numbers.py",
+            "Source_Code": "if __name__ == '__main__':",
+            "Mutate_Code": "if __name__  >=>=  '__main__':"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T2_LCPN_2-Add-Two-Numbers.py",
+            "Source_Code": "if __name__ == '__main__':",
+            "Mutate_Code": "if __name__  <=<=  '__main__':"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T2_LCPN_2-Add-Two-Numbers.py",
+            "Source_Code": "if __name__ == '__main__':",
+            "Mutate_Code": " "
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T2_LCPN_2-Add-Two-Numbers.py",
+            "Source_Code": "if __name__ == '__main__':",
+            "Mutate_Code": "elif:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T2_LCPN_2-Add-Two-Numbers.py",
+            "Source_Code": "if __name__ == '__main__':",
+            "Mutate_Code": "else:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T2_LCPN_2-Add-Two-Numbers.py",
+            "Source_Code": "if __name__ == '__main__':",
+            "Mutate_Code": "if if"
+        }
+    }
+]

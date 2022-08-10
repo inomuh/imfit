@@ -1,0 +1,891 @@
+[
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T12_LCPN_20-Valid-Parentheses.py",
+            "Source_Code": "for c in s:",
+            "Mutate_Code": "for c s:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T12_LCPN_20-Valid-Parentheses.py",
+            "Source_Code": "for c in s:",
+            "Mutate_Code": "for c is s:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T12_LCPN_20-Valid-Parentheses.py",
+            "Source_Code": "for c in s:",
+            "Mutate_Code": "for c is not s:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T12_LCPN_20-Valid-Parentheses.py",
+            "Source_Code": "for c in s:",
+            "Mutate_Code": "for c in in s:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T12_LCPN_20-Valid-Parentheses.py",
+            "Source_Code": "for c in s:",
+            "Mutate_Code": "for c not in not in s:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T12_LCPN_20-Valid-Parentheses.py",
+            "Source_Code": "for c in s:",
+            "Mutate_Code": " "
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T12_LCPN_20-Valid-Parentheses.py",
+            "Source_Code": "for c in s:",
+            "Mutate_Code": "while True:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T12_LCPN_20-Valid-Parentheses.py",
+            "Source_Code": "for c in s:",
+            "Mutate_Code": "for for: c in s:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T12_LCPN_20-Valid-Parentheses.py",
+            "Source_Code": "if c not in Map:",
+            "Mutate_Code": "if c in Map:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T12_LCPN_20-Valid-Parentheses.py",
+            "Source_Code": "if c not in Map:",
+            "Mutate_Code": "if c and in Map:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T12_LCPN_20-Valid-Parentheses.py",
+            "Source_Code": "if c not in Map:",
+            "Mutate_Code": "if c or in Map:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T12_LCPN_20-Valid-Parentheses.py",
+            "Source_Code": "if c not in Map:",
+            "Mutate_Code": "if c and and in Map:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T12_LCPN_20-Valid-Parentheses.py",
+            "Source_Code": "if c not in Map:",
+            "Mutate_Code": "if c or or in Map:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T12_LCPN_20-Valid-Parentheses.py",
+            "Source_Code": "if c not in Map:",
+            "Mutate_Code": "if c not not in Map:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T12_LCPN_20-Valid-Parentheses.py",
+            "Source_Code": "if c not in Map:",
+            "Mutate_Code": "if c not Map:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T12_LCPN_20-Valid-Parentheses.py",
+            "Source_Code": "if c not in Map:",
+            "Mutate_Code": "if c Map:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T12_LCPN_20-Valid-Parentheses.py",
+            "Source_Code": "if c not in Map:",
+            "Mutate_Code": "if c not is Map:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T12_LCPN_20-Valid-Parentheses.py",
+            "Source_Code": "if c not in Map:",
+            "Mutate_Code": "if c not is not Map:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T12_LCPN_20-Valid-Parentheses.py",
+            "Source_Code": "if c not in Map:",
+            "Mutate_Code": "if c is Map:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T12_LCPN_20-Valid-Parentheses.py",
+            "Source_Code": "if c not in Map:",
+            "Mutate_Code": "if c is not Map:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T12_LCPN_20-Valid-Parentheses.py",
+            "Source_Code": "if c not in Map:",
+            "Mutate_Code": "if c not in in Map:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T12_LCPN_20-Valid-Parentheses.py",
+            "Source_Code": "if c not in Map:",
+            "Mutate_Code": "if c not not in not in Map:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T12_LCPN_20-Valid-Parentheses.py",
+            "Source_Code": "if c not in Map:",
+            "Mutate_Code": "if c in in Map:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T12_LCPN_20-Valid-Parentheses.py",
+            "Source_Code": "if c not in Map:",
+            "Mutate_Code": "if c not in not in Map:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T12_LCPN_20-Valid-Parentheses.py",
+            "Source_Code": "if c not in Map:",
+            "Mutate_Code": " "
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T12_LCPN_20-Valid-Parentheses.py",
+            "Source_Code": "if c not in Map:",
+            "Mutate_Code": "elif:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T12_LCPN_20-Valid-Parentheses.py",
+            "Source_Code": "if c not in Map:",
+            "Mutate_Code": "else:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T12_LCPN_20-Valid-Parentheses.py",
+            "Source_Code": "if c not in Map:",
+            "Mutate_Code": "if if"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T12_LCPN_20-Valid-Parentheses.py",
+            "Source_Code": "if c not in Map:",
+            "Mutate_Code": "if c in Map:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T12_LCPN_20-Valid-Parentheses.py",
+            "Source_Code": "if c not in Map:",
+            "Mutate_Code": "if c and in Map:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T12_LCPN_20-Valid-Parentheses.py",
+            "Source_Code": "if c not in Map:",
+            "Mutate_Code": "if c or in Map:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T12_LCPN_20-Valid-Parentheses.py",
+            "Source_Code": "if c not in Map:",
+            "Mutate_Code": "if c and and in Map:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T12_LCPN_20-Valid-Parentheses.py",
+            "Source_Code": "if c not in Map:",
+            "Mutate_Code": "if c or or in Map:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T12_LCPN_20-Valid-Parentheses.py",
+            "Source_Code": "if c not in Map:",
+            "Mutate_Code": "if c not not in Map:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T12_LCPN_20-Valid-Parentheses.py",
+            "Source_Code": "if c not in Map:",
+            "Mutate_Code": "if c not Map:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T12_LCPN_20-Valid-Parentheses.py",
+            "Source_Code": "if c not in Map:",
+            "Mutate_Code": "if c Map:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T12_LCPN_20-Valid-Parentheses.py",
+            "Source_Code": "if c not in Map:",
+            "Mutate_Code": "if c not is Map:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T12_LCPN_20-Valid-Parentheses.py",
+            "Source_Code": "if c not in Map:",
+            "Mutate_Code": "if c not is not Map:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T12_LCPN_20-Valid-Parentheses.py",
+            "Source_Code": "if c not in Map:",
+            "Mutate_Code": "if c is Map:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T12_LCPN_20-Valid-Parentheses.py",
+            "Source_Code": "if c not in Map:",
+            "Mutate_Code": "if c is not Map:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T12_LCPN_20-Valid-Parentheses.py",
+            "Source_Code": "if c not in Map:",
+            "Mutate_Code": "if c not in in Map:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T12_LCPN_20-Valid-Parentheses.py",
+            "Source_Code": "if c not in Map:",
+            "Mutate_Code": "if c not not in not in Map:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T12_LCPN_20-Valid-Parentheses.py",
+            "Source_Code": "if c not in Map:",
+            "Mutate_Code": "if c in in Map:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T12_LCPN_20-Valid-Parentheses.py",
+            "Source_Code": "if c not in Map:",
+            "Mutate_Code": "if c not in not in Map:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T12_LCPN_20-Valid-Parentheses.py",
+            "Source_Code": "if c not in Map:",
+            "Mutate_Code": " "
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T12_LCPN_20-Valid-Parentheses.py",
+            "Source_Code": "if c not in Map:",
+            "Mutate_Code": "elif:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T12_LCPN_20-Valid-Parentheses.py",
+            "Source_Code": "if c not in Map:",
+            "Mutate_Code": "else:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T12_LCPN_20-Valid-Parentheses.py",
+            "Source_Code": "if c not in Map:",
+            "Mutate_Code": "if if"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T12_LCPN_20-Valid-Parentheses.py",
+            "Source_Code": "stack.append(c)",
+            "Mutate_Code": "sta k.append(c)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T12_LCPN_20-Valid-Parentheses.py",
+            "Source_Code": "if not stack or stack[-1] != Map[c]:",
+            "Mutate_Code": "if not stack stack[-1] != Map[c]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T12_LCPN_20-Valid-Parentheses.py",
+            "Source_Code": "if not stack or stack[-1] != Map[c]:",
+            "Mutate_Code": "if stack or stack[-1] != Map[c]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T12_LCPN_20-Valid-Parentheses.py",
+            "Source_Code": "if not stack or stack[-1] != Map[c]:",
+            "Mutate_Code": "if not stack and stack[-1] != Map[c]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T12_LCPN_20-Valid-Parentheses.py",
+            "Source_Code": "if not stack or stack[-1] != Map[c]:",
+            "Mutate_Code": "if not stack not stack[-1] != Map[c]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T12_LCPN_20-Valid-Parentheses.py",
+            "Source_Code": "if not stack or stack[-1] != Map[c]:",
+            "Mutate_Code": "if and stack or stack[-1] != Map[c]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T12_LCPN_20-Valid-Parentheses.py",
+            "Source_Code": "if not stack or stack[-1] != Map[c]:",
+            "Mutate_Code": "if or stack or stack[-1] != Map[c]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T12_LCPN_20-Valid-Parentheses.py",
+            "Source_Code": "if not stack or stack[-1] != Map[c]:",
+            "Mutate_Code": "if not stack and and stack[-1] != Map[c]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T12_LCPN_20-Valid-Parentheses.py",
+            "Source_Code": "if not stack or stack[-1] != Map[c]:",
+            "Mutate_Code": "if not stack or or stack[-1] != Map[c]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T12_LCPN_20-Valid-Parentheses.py",
+            "Source_Code": "if not stack or stack[-1] != Map[c]:",
+            "Mutate_Code": "if not stack not not stack[-1] != Map[c]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T12_LCPN_20-Valid-Parentheses.py",
+            "Source_Code": "if not stack or stack[-1] != Map[c]:",
+            "Mutate_Code": "if and and stack or stack[-1] != Map[c]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T12_LCPN_20-Valid-Parentheses.py",
+            "Source_Code": "if not stack or stack[-1] != Map[c]:",
+            "Mutate_Code": "if or or stack or stack[-1] != Map[c]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T12_LCPN_20-Valid-Parentheses.py",
+            "Source_Code": "if not stack or stack[-1] != Map[c]:",
+            "Mutate_Code": "if not not stack or stack[-1] != Map[c]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T12_LCPN_20-Valid-Parentheses.py",
+            "Source_Code": "if not stack or stack[-1] != Map[c]:",
+            "Mutate_Code": " "
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T12_LCPN_20-Valid-Parentheses.py",
+            "Source_Code": "if not stack or stack[-1] != Map[c]:",
+            "Mutate_Code": "elif:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T12_LCPN_20-Valid-Parentheses.py",
+            "Source_Code": "if not stack or stack[-1] != Map[c]:",
+            "Mutate_Code": "else:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T12_LCPN_20-Valid-Parentheses.py",
+            "Source_Code": "if not stack or stack[-1] != Map[c]:",
+            "Mutate_Code": "if if"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T12_LCPN_20-Valid-Parentheses.py",
+            "Source_Code": "if not stack or stack[-1] != Map[c]:",
+            "Mutate_Code": "if not stack stack[-1] != Map[c]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T12_LCPN_20-Valid-Parentheses.py",
+            "Source_Code": "if not stack or stack[-1] != Map[c]:",
+            "Mutate_Code": "if stack or stack[-1] != Map[c]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T12_LCPN_20-Valid-Parentheses.py",
+            "Source_Code": "if not stack or stack[-1] != Map[c]:",
+            "Mutate_Code": "if not stack and stack[-1] != Map[c]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T12_LCPN_20-Valid-Parentheses.py",
+            "Source_Code": "if not stack or stack[-1] != Map[c]:",
+            "Mutate_Code": "if not stack not stack[-1] != Map[c]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T12_LCPN_20-Valid-Parentheses.py",
+            "Source_Code": "if not stack or stack[-1] != Map[c]:",
+            "Mutate_Code": "if and stack or stack[-1] != Map[c]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T12_LCPN_20-Valid-Parentheses.py",
+            "Source_Code": "if not stack or stack[-1] != Map[c]:",
+            "Mutate_Code": "if or stack or stack[-1] != Map[c]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T12_LCPN_20-Valid-Parentheses.py",
+            "Source_Code": "if not stack or stack[-1] != Map[c]:",
+            "Mutate_Code": "if not stack and and stack[-1] != Map[c]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T12_LCPN_20-Valid-Parentheses.py",
+            "Source_Code": "if not stack or stack[-1] != Map[c]:",
+            "Mutate_Code": "if not stack or or stack[-1] != Map[c]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T12_LCPN_20-Valid-Parentheses.py",
+            "Source_Code": "if not stack or stack[-1] != Map[c]:",
+            "Mutate_Code": "if not stack not not stack[-1] != Map[c]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T12_LCPN_20-Valid-Parentheses.py",
+            "Source_Code": "if not stack or stack[-1] != Map[c]:",
+            "Mutate_Code": "if and and stack or stack[-1] != Map[c]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T12_LCPN_20-Valid-Parentheses.py",
+            "Source_Code": "if not stack or stack[-1] != Map[c]:",
+            "Mutate_Code": "if or or stack or stack[-1] != Map[c]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T12_LCPN_20-Valid-Parentheses.py",
+            "Source_Code": "if not stack or stack[-1] != Map[c]:",
+            "Mutate_Code": "if not not stack or stack[-1] != Map[c]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T12_LCPN_20-Valid-Parentheses.py",
+            "Source_Code": "if not stack or stack[-1] != Map[c]:",
+            "Mutate_Code": " "
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T12_LCPN_20-Valid-Parentheses.py",
+            "Source_Code": "if not stack or stack[-1] != Map[c]:",
+            "Mutate_Code": "elif:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T12_LCPN_20-Valid-Parentheses.py",
+            "Source_Code": "if not stack or stack[-1] != Map[c]:",
+            "Mutate_Code": "else:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T12_LCPN_20-Valid-Parentheses.py",
+            "Source_Code": "if not stack or stack[-1] != Map[c]:",
+            "Mutate_Code": "if if"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T12_LCPN_20-Valid-Parentheses.py",
+            "Source_Code": "if not stack or stack[-1] != Map[c]:",
+            "Mutate_Code": "if not stack stack[-1] != Map[c]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T12_LCPN_20-Valid-Parentheses.py",
+            "Source_Code": "if not stack or stack[-1] != Map[c]:",
+            "Mutate_Code": "if stack or stack[-1] != Map[c]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T12_LCPN_20-Valid-Parentheses.py",
+            "Source_Code": "if not stack or stack[-1] != Map[c]:",
+            "Mutate_Code": "if not stack and stack[-1] != Map[c]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T12_LCPN_20-Valid-Parentheses.py",
+            "Source_Code": "if not stack or stack[-1] != Map[c]:",
+            "Mutate_Code": "if not stack not stack[-1] != Map[c]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T12_LCPN_20-Valid-Parentheses.py",
+            "Source_Code": "if not stack or stack[-1] != Map[c]:",
+            "Mutate_Code": "if and stack or stack[-1] != Map[c]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T12_LCPN_20-Valid-Parentheses.py",
+            "Source_Code": "if not stack or stack[-1] != Map[c]:",
+            "Mutate_Code": "if or stack or stack[-1] != Map[c]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T12_LCPN_20-Valid-Parentheses.py",
+            "Source_Code": "if not stack or stack[-1] != Map[c]:",
+            "Mutate_Code": "if not stack and and stack[-1] != Map[c]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T12_LCPN_20-Valid-Parentheses.py",
+            "Source_Code": "if not stack or stack[-1] != Map[c]:",
+            "Mutate_Code": "if not stack or or stack[-1] != Map[c]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T12_LCPN_20-Valid-Parentheses.py",
+            "Source_Code": "if not stack or stack[-1] != Map[c]:",
+            "Mutate_Code": "if not stack not not stack[-1] != Map[c]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T12_LCPN_20-Valid-Parentheses.py",
+            "Source_Code": "if not stack or stack[-1] != Map[c]:",
+            "Mutate_Code": "if and and stack or stack[-1] != Map[c]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T12_LCPN_20-Valid-Parentheses.py",
+            "Source_Code": "if not stack or stack[-1] != Map[c]:",
+            "Mutate_Code": "if or or stack or stack[-1] != Map[c]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T12_LCPN_20-Valid-Parentheses.py",
+            "Source_Code": "if not stack or stack[-1] != Map[c]:",
+            "Mutate_Code": "if not not stack or stack[-1] != Map[c]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T12_LCPN_20-Valid-Parentheses.py",
+            "Source_Code": "if not stack or stack[-1] != Map[c]:",
+            "Mutate_Code": " "
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T12_LCPN_20-Valid-Parentheses.py",
+            "Source_Code": "if not stack or stack[-1] != Map[c]:",
+            "Mutate_Code": "elif:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T12_LCPN_20-Valid-Parentheses.py",
+            "Source_Code": "if not stack or stack[-1] != Map[c]:",
+            "Mutate_Code": "else:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T12_LCPN_20-Valid-Parentheses.py",
+            "Source_Code": "if not stack or stack[-1] != Map[c]:",
+            "Mutate_Code": "if if"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T12_LCPN_20-Valid-Parentheses.py",
+            "Source_Code": "return False",
+            "Mutate_Code": "return  "
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T12_LCPN_20-Valid-Parentheses.py",
+            "Source_Code": "return False",
+            "Mutate_Code": "return True"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T12_LCPN_20-Valid-Parentheses.py",
+            "Source_Code": "return False",
+            "Mutate_Code": "return False False"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T12_LCPN_20-Valid-Parentheses.py",
+            "Source_Code": "return False",
+            "Mutate_Code": " False"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T12_LCPN_20-Valid-Parentheses.py",
+            "Source_Code": "return False",
+            "Mutate_Code": "passFalse"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T12_LCPN_20-Valid-Parentheses.py",
+            "Source_Code": "return False",
+            "Mutate_Code": "return returnFalse"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T12_LCPN_20-Valid-Parentheses.py",
+            "Source_Code": "return False",
+            "Mutate_Code": "return  "
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T12_LCPN_20-Valid-Parentheses.py",
+            "Source_Code": "return False",
+            "Mutate_Code": "return True"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T12_LCPN_20-Valid-Parentheses.py",
+            "Source_Code": "return False",
+            "Mutate_Code": "return False False"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T12_LCPN_20-Valid-Parentheses.py",
+            "Source_Code": "return False",
+            "Mutate_Code": " False"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T12_LCPN_20-Valid-Parentheses.py",
+            "Source_Code": "return False",
+            "Mutate_Code": "passFalse"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T12_LCPN_20-Valid-Parentheses.py",
+            "Source_Code": "return False",
+            "Mutate_Code": "return returnFalse"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T12_LCPN_20-Valid-Parentheses.py",
+            "Source_Code": "return not stack",
+            "Mutate_Code": "return stack"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T12_LCPN_20-Valid-Parentheses.py",
+            "Source_Code": "return not stack",
+            "Mutate_Code": "return and stack"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T12_LCPN_20-Valid-Parentheses.py",
+            "Source_Code": "return not stack",
+            "Mutate_Code": "return or stack"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T12_LCPN_20-Valid-Parentheses.py",
+            "Source_Code": "return not stack",
+            "Mutate_Code": "return and and stack"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T12_LCPN_20-Valid-Parentheses.py",
+            "Source_Code": "return not stack",
+            "Mutate_Code": "return or or stack"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T12_LCPN_20-Valid-Parentheses.py",
+            "Source_Code": "return not stack",
+            "Mutate_Code": "return not not stack"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T12_LCPN_20-Valid-Parentheses.py",
+            "Source_Code": "return not stack",
+            "Mutate_Code": " not stack"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T12_LCPN_20-Valid-Parentheses.py",
+            "Source_Code": "return not stack",
+            "Mutate_Code": "passnot stack"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T12_LCPN_20-Valid-Parentheses.py",
+            "Source_Code": "return not stack",
+            "Mutate_Code": "return returnnot stack"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T12_LCPN_20-Valid-Parentheses.py",
+            "Source_Code": "return not stack",
+            "Mutate_Code": "return stack"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T12_LCPN_20-Valid-Parentheses.py",
+            "Source_Code": "return not stack",
+            "Mutate_Code": "return and stack"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T12_LCPN_20-Valid-Parentheses.py",
+            "Source_Code": "return not stack",
+            "Mutate_Code": "return or stack"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T12_LCPN_20-Valid-Parentheses.py",
+            "Source_Code": "return not stack",
+            "Mutate_Code": "return and and stack"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T12_LCPN_20-Valid-Parentheses.py",
+            "Source_Code": "return not stack",
+            "Mutate_Code": "return or or stack"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T12_LCPN_20-Valid-Parentheses.py",
+            "Source_Code": "return not stack",
+            "Mutate_Code": "return not not stack"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T12_LCPN_20-Valid-Parentheses.py",
+            "Source_Code": "return not stack",
+            "Mutate_Code": " not stack"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T12_LCPN_20-Valid-Parentheses.py",
+            "Source_Code": "return not stack",
+            "Mutate_Code": "passnot stack"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T12_LCPN_20-Valid-Parentheses.py",
+            "Source_Code": "return not stack",
+            "Mutate_Code": "return returnnot stack"
+        }
+    }
+]

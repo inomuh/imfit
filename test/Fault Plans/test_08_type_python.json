@@ -1,0 +1,268 @@
+[
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T8_LCPN_12-Integer-To-Roman.py",
+            "Source_Code": "for sym, val in reversed(symList):",
+            "Mutate_Code": "for sym, val reversed(symList):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T8_LCPN_12-Integer-To-Roman.py",
+            "Source_Code": "for sym, val in reversed(symList):",
+            "Mutate_Code": "for sym, val is reversed(symList):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T8_LCPN_12-Integer-To-Roman.py",
+            "Source_Code": "for sym, val in reversed(symList):",
+            "Mutate_Code": "for sym, val is not reversed(symList):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T8_LCPN_12-Integer-To-Roman.py",
+            "Source_Code": "for sym, val in reversed(symList):",
+            "Mutate_Code": "for sym, val in in reversed(symList):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T8_LCPN_12-Integer-To-Roman.py",
+            "Source_Code": "for sym, val in reversed(symList):",
+            "Mutate_Code": "for sym, val not in not in reversed(symList):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T8_LCPN_12-Integer-To-Roman.py",
+            "Source_Code": "for sym, val in reversed(symList):",
+            "Mutate_Code": " "
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T8_LCPN_12-Integer-To-Roman.py",
+            "Source_Code": "for sym, val in reversed(symList):",
+            "Mutate_Code": "while True:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T8_LCPN_12-Integer-To-Roman.py",
+            "Source_Code": "for sym, val in reversed(symList):",
+            "Mutate_Code": "for for: sym, val in reversed(symList):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T8_LCPN_12-Integer-To-Roman.py",
+            "Source_Code": "for sym, val in reversed(symList):",
+            "Mutate_Code": "for sym, val in reversed( ):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T8_LCPN_12-Integer-To-Roman.py",
+            "Source_Code": "for sym, val in reversed(symList):",
+            "Mutate_Code": "for sym, val reversed(symList):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T8_LCPN_12-Integer-To-Roman.py",
+            "Source_Code": "for sym, val in reversed(symList):",
+            "Mutate_Code": "for sym, val is reversed(symList):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T8_LCPN_12-Integer-To-Roman.py",
+            "Source_Code": "for sym, val in reversed(symList):",
+            "Mutate_Code": "for sym, val is not reversed(symList):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T8_LCPN_12-Integer-To-Roman.py",
+            "Source_Code": "for sym, val in reversed(symList):",
+            "Mutate_Code": "for sym, val in in reversed(symList):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T8_LCPN_12-Integer-To-Roman.py",
+            "Source_Code": "for sym, val in reversed(symList):",
+            "Mutate_Code": "for sym, val not in not in reversed(symList):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T8_LCPN_12-Integer-To-Roman.py",
+            "Source_Code": "for sym, val in reversed(symList):",
+            "Mutate_Code": " "
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T8_LCPN_12-Integer-To-Roman.py",
+            "Source_Code": "for sym, val in reversed(symList):",
+            "Mutate_Code": "while True:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T8_LCPN_12-Integer-To-Roman.py",
+            "Source_Code": "for sym, val in reversed(symList):",
+            "Mutate_Code": "for for: sym, val in reversed(symList):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T8_LCPN_12-Integer-To-Roman.py",
+            "Source_Code": "for sym, val in reversed(symList):",
+            "Mutate_Code": "for sym, val in reversed( ):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T8_LCPN_12-Integer-To-Roman.py",
+            "Source_Code": "if num // val:",
+            "Mutate_Code": "if num val:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T8_LCPN_12-Integer-To-Roman.py",
+            "Source_Code": "if num // val:",
+            "Mutate_Code": "if num + val:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T8_LCPN_12-Integer-To-Roman.py",
+            "Source_Code": "if num // val:",
+            "Mutate_Code": "if num - val:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T8_LCPN_12-Integer-To-Roman.py",
+            "Source_Code": "if num // val:",
+            "Mutate_Code": "if num * val:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T8_LCPN_12-Integer-To-Roman.py",
+            "Source_Code": "if num // val:",
+            "Mutate_Code": "if num / val:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T8_LCPN_12-Integer-To-Roman.py",
+            "Source_Code": "if num // val:",
+            "Mutate_Code": "if num % val:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T8_LCPN_12-Integer-To-Roman.py",
+            "Source_Code": "if num // val:",
+            "Mutate_Code": "if num ** val:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T8_LCPN_12-Integer-To-Roman.py",
+            "Source_Code": "if num // val:",
+            "Mutate_Code": "if num ++ val:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T8_LCPN_12-Integer-To-Roman.py",
+            "Source_Code": "if num // val:",
+            "Mutate_Code": "if num -- val:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T8_LCPN_12-Integer-To-Roman.py",
+            "Source_Code": "if num // val:",
+            "Mutate_Code": "if num ** val:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T8_LCPN_12-Integer-To-Roman.py",
+            "Source_Code": "if num // val:",
+            "Mutate_Code": "if num %% val:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T8_LCPN_12-Integer-To-Roman.py",
+            "Source_Code": "if num // val:",
+            "Mutate_Code": "if num **** val:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T8_LCPN_12-Integer-To-Roman.py",
+            "Source_Code": "if num // val:",
+            "Mutate_Code": "if num //// val:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T8_LCPN_12-Integer-To-Roman.py",
+            "Source_Code": "if num // val:",
+            "Mutate_Code": " "
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T8_LCPN_12-Integer-To-Roman.py",
+            "Source_Code": "if num // val:",
+            "Mutate_Code": "elif:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T8_LCPN_12-Integer-To-Roman.py",
+            "Source_Code": "if num // val:",
+            "Mutate_Code": "else:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T8_LCPN_12-Integer-To-Roman.py",
+            "Source_Code": "if num // val:",
+            "Mutate_Code": "if if"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T8_LCPN_12-Integer-To-Roman.py",
+            "Source_Code": "return res",
+            "Mutate_Code": " res"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T8_LCPN_12-Integer-To-Roman.py",
+            "Source_Code": "return res",
+            "Mutate_Code": "passres"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T8_LCPN_12-Integer-To-Roman.py",
+            "Source_Code": "return res",
+            "Mutate_Code": "return returnres"
+        }
+    }
+]

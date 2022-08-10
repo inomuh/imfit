@@ -1,0 +1,1906 @@
+[
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T17_LCPN_33-Search-In-Rotated-Sorted-Array.py",
+            "Source_Code": "l, r = 0, len(nums) - 1",
+            "Mutate_Code": "l, r = 0, len(nums) 1"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T17_LCPN_33-Search-In-Rotated-Sorted-Array.py",
+            "Source_Code": "l, r = 0, len(nums) - 1",
+            "Mutate_Code": "l, r = 0, len(nums) + 1"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T17_LCPN_33-Search-In-Rotated-Sorted-Array.py",
+            "Source_Code": "l, r = 0, len(nums) - 1",
+            "Mutate_Code": "l, r = 0, len(nums) * 1"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T17_LCPN_33-Search-In-Rotated-Sorted-Array.py",
+            "Source_Code": "l, r = 0, len(nums) - 1",
+            "Mutate_Code": "l, r = 0, len(nums) / 1"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T17_LCPN_33-Search-In-Rotated-Sorted-Array.py",
+            "Source_Code": "l, r = 0, len(nums) - 1",
+            "Mutate_Code": "l, r = 0, len(nums) % 1"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T17_LCPN_33-Search-In-Rotated-Sorted-Array.py",
+            "Source_Code": "l, r = 0, len(nums) - 1",
+            "Mutate_Code": "l, r = 0, len(nums) ** 1"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T17_LCPN_33-Search-In-Rotated-Sorted-Array.py",
+            "Source_Code": "l, r = 0, len(nums) - 1",
+            "Mutate_Code": "l, r = 0, len(nums) // 1"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T17_LCPN_33-Search-In-Rotated-Sorted-Array.py",
+            "Source_Code": "l, r = 0, len(nums) - 1",
+            "Mutate_Code": "l, r = 0, len(nums) ++ 1"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T17_LCPN_33-Search-In-Rotated-Sorted-Array.py",
+            "Source_Code": "l, r = 0, len(nums) - 1",
+            "Mutate_Code": "l, r = 0, len(nums) -- 1"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T17_LCPN_33-Search-In-Rotated-Sorted-Array.py",
+            "Source_Code": "l, r = 0, len(nums) - 1",
+            "Mutate_Code": "l, r = 0, len(nums) ** 1"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T17_LCPN_33-Search-In-Rotated-Sorted-Array.py",
+            "Source_Code": "l, r = 0, len(nums) - 1",
+            "Mutate_Code": "l, r = 0, len(nums) // 1"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T17_LCPN_33-Search-In-Rotated-Sorted-Array.py",
+            "Source_Code": "l, r = 0, len(nums) - 1",
+            "Mutate_Code": "l, r = 0, len(nums) %% 1"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T17_LCPN_33-Search-In-Rotated-Sorted-Array.py",
+            "Source_Code": "l, r = 0, len(nums) - 1",
+            "Mutate_Code": "l, r = 0, len(nums) **** 1"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T17_LCPN_33-Search-In-Rotated-Sorted-Array.py",
+            "Source_Code": "l, r = 0, len(nums) - 1",
+            "Mutate_Code": "l, r = 0, len(nums) //// 1"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T17_LCPN_33-Search-In-Rotated-Sorted-Array.py",
+            "Source_Code": "l, r = 0, len(nums) - 1",
+            "Mutate_Code": "l, r 0, len(nums) - 1"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T17_LCPN_33-Search-In-Rotated-Sorted-Array.py",
+            "Source_Code": "l, r = 0, len(nums) - 1",
+            "Mutate_Code": "l, r 0, len(nums) - 1"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T17_LCPN_33-Search-In-Rotated-Sorted-Array.py",
+            "Source_Code": "l, r = 0, len(nums) - 1",
+            "Mutate_Code": "l, r += 0, len(nums) - 1"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T17_LCPN_33-Search-In-Rotated-Sorted-Array.py",
+            "Source_Code": "l, r = 0, len(nums) - 1",
+            "Mutate_Code": "l, r -= 0, len(nums) - 1"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T17_LCPN_33-Search-In-Rotated-Sorted-Array.py",
+            "Source_Code": "l, r = 0, len(nums) - 1",
+            "Mutate_Code": "l, r *= 0, len(nums) - 1"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T17_LCPN_33-Search-In-Rotated-Sorted-Array.py",
+            "Source_Code": "l, r = 0, len(nums) - 1",
+            "Mutate_Code": "l, r /= 0, len(nums) - 1"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T17_LCPN_33-Search-In-Rotated-Sorted-Array.py",
+            "Source_Code": "l, r = 0, len(nums) - 1",
+            "Mutate_Code": "l, r %= 0, len(nums) - 1"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T17_LCPN_33-Search-In-Rotated-Sorted-Array.py",
+            "Source_Code": "l, r = 0, len(nums) - 1",
+            "Mutate_Code": "l, r //= 0, len(nums) - 1"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T17_LCPN_33-Search-In-Rotated-Sorted-Array.py",
+            "Source_Code": "l, r = 0, len(nums) - 1",
+            "Mutate_Code": "l, r **= 0, len(nums) - 1"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T17_LCPN_33-Search-In-Rotated-Sorted-Array.py",
+            "Source_Code": "l, r = 0, len(nums) - 1",
+            "Mutate_Code": "l, r &= 0, len(nums) - 1"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T17_LCPN_33-Search-In-Rotated-Sorted-Array.py",
+            "Source_Code": "l, r = 0, len(nums) - 1",
+            "Mutate_Code": "l, r |= 0, len(nums) - 1"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T17_LCPN_33-Search-In-Rotated-Sorted-Array.py",
+            "Source_Code": "l, r = 0, len(nums) - 1",
+            "Mutate_Code": "l, r ^= 0, len(nums) - 1"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T17_LCPN_33-Search-In-Rotated-Sorted-Array.py",
+            "Source_Code": "l, r = 0, len(nums) - 1",
+            "Mutate_Code": "l, r >>= 0, len(nums) - 1"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T17_LCPN_33-Search-In-Rotated-Sorted-Array.py",
+            "Source_Code": "l, r = 0, len(nums) - 1",
+            "Mutate_Code": "l, r <<= 0, len(nums) - 1"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T17_LCPN_33-Search-In-Rotated-Sorted-Array.py",
+            "Source_Code": "l, r = 0, len(nums) - 1",
+            "Mutate_Code": "l, r += 0, len(nums) - 1"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T17_LCPN_33-Search-In-Rotated-Sorted-Array.py",
+            "Source_Code": "l, r = 0, len(nums) - 1",
+            "Mutate_Code": "l, r -= 0, len(nums) - 1"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T17_LCPN_33-Search-In-Rotated-Sorted-Array.py",
+            "Source_Code": "l, r = 0, len(nums) - 1",
+            "Mutate_Code": "l, r *= 0, len(nums) - 1"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T17_LCPN_33-Search-In-Rotated-Sorted-Array.py",
+            "Source_Code": "l, r = 0, len(nums) - 1",
+            "Mutate_Code": "l, r /= 0, len(nums) - 1"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T17_LCPN_33-Search-In-Rotated-Sorted-Array.py",
+            "Source_Code": "l, r = 0, len(nums) - 1",
+            "Mutate_Code": "l, r %= 0, len(nums) - 1"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T17_LCPN_33-Search-In-Rotated-Sorted-Array.py",
+            "Source_Code": "l, r = 0, len(nums) - 1",
+            "Mutate_Code": "l, r //= 0, len(nums) - 1"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T17_LCPN_33-Search-In-Rotated-Sorted-Array.py",
+            "Source_Code": "l, r = 0, len(nums) - 1",
+            "Mutate_Code": "l, r **= 0, len(nums) - 1"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T17_LCPN_33-Search-In-Rotated-Sorted-Array.py",
+            "Source_Code": "l, r = 0, len(nums) - 1",
+            "Mutate_Code": "l, r &= 0, len(nums) - 1"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T17_LCPN_33-Search-In-Rotated-Sorted-Array.py",
+            "Source_Code": "l, r = 0, len(nums) - 1",
+            "Mutate_Code": "l, r |= 0, len(nums) - 1"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T17_LCPN_33-Search-In-Rotated-Sorted-Array.py",
+            "Source_Code": "l, r = 0, len(nums) - 1",
+            "Mutate_Code": "l, r ^= 0, len(nums) - 1"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T17_LCPN_33-Search-In-Rotated-Sorted-Array.py",
+            "Source_Code": "l, r = 0, len(nums) - 1",
+            "Mutate_Code": "l, r >>= 0, len(nums) - 1"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T17_LCPN_33-Search-In-Rotated-Sorted-Array.py",
+            "Source_Code": "l, r = 0, len(nums) - 1",
+            "Mutate_Code": "l, r <<= 0, len(nums) - 1"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T17_LCPN_33-Search-In-Rotated-Sorted-Array.py",
+            "Source_Code": "l, r = 0, len(nums) - 1",
+            "Mutate_Code": "l, r == 0, len(nums) - 1"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T17_LCPN_33-Search-In-Rotated-Sorted-Array.py",
+            "Source_Code": "l, r = 0, len(nums) - 1",
+            "Mutate_Code": "l, r +=+= 0, len(nums) - 1"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T17_LCPN_33-Search-In-Rotated-Sorted-Array.py",
+            "Source_Code": "l, r = 0, len(nums) - 1",
+            "Mutate_Code": "l, r -=-= 0, len(nums) - 1"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T17_LCPN_33-Search-In-Rotated-Sorted-Array.py",
+            "Source_Code": "l, r = 0, len(nums) - 1",
+            "Mutate_Code": "l, r *=*= 0, len(nums) - 1"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T17_LCPN_33-Search-In-Rotated-Sorted-Array.py",
+            "Source_Code": "l, r = 0, len(nums) - 1",
+            "Mutate_Code": "l, r /=/= 0, len(nums) - 1"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T17_LCPN_33-Search-In-Rotated-Sorted-Array.py",
+            "Source_Code": "l, r = 0, len(nums) - 1",
+            "Mutate_Code": "l, r %=%= 0, len(nums) - 1"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T17_LCPN_33-Search-In-Rotated-Sorted-Array.py",
+            "Source_Code": "l, r = 0, len(nums) - 1",
+            "Mutate_Code": "l, r //=//= 0, len(nums) - 1"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T17_LCPN_33-Search-In-Rotated-Sorted-Array.py",
+            "Source_Code": "l, r = 0, len(nums) - 1",
+            "Mutate_Code": "l, r **=**= 0, len(nums) - 1"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T17_LCPN_33-Search-In-Rotated-Sorted-Array.py",
+            "Source_Code": "l, r = 0, len(nums) - 1",
+            "Mutate_Code": "l, r &=&= 0, len(nums) - 1"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T17_LCPN_33-Search-In-Rotated-Sorted-Array.py",
+            "Source_Code": "l, r = 0, len(nums) - 1",
+            "Mutate_Code": "l, r |=|= 0, len(nums) - 1"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T17_LCPN_33-Search-In-Rotated-Sorted-Array.py",
+            "Source_Code": "l, r = 0, len(nums) - 1",
+            "Mutate_Code": "l, r ^=^= 0, len(nums) - 1"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T17_LCPN_33-Search-In-Rotated-Sorted-Array.py",
+            "Source_Code": "l, r = 0, len(nums) - 1",
+            "Mutate_Code": "l, r >>=>>= 0, len(nums) - 1"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T17_LCPN_33-Search-In-Rotated-Sorted-Array.py",
+            "Source_Code": "l, r = 0, len(nums) - 1",
+            "Mutate_Code": "l, r <<=<<=0, len(nums) - 1"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T17_LCPN_33-Search-In-Rotated-Sorted-Array.py",
+            "Source_Code": "l, r = 0, len(nums) - 1",
+            "Mutate_Code": "l, r == 0, len(nums) - 1"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T17_LCPN_33-Search-In-Rotated-Sorted-Array.py",
+            "Source_Code": "l, r = 0, len(nums) - 1",
+            "Mutate_Code": "l, r +=+= 0, len(nums) - 1"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T17_LCPN_33-Search-In-Rotated-Sorted-Array.py",
+            "Source_Code": "l, r = 0, len(nums) - 1",
+            "Mutate_Code": "l, r -=-= 0, len(nums) - 1"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T17_LCPN_33-Search-In-Rotated-Sorted-Array.py",
+            "Source_Code": "l, r = 0, len(nums) - 1",
+            "Mutate_Code": "l, r *=*= 0, len(nums) - 1"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T17_LCPN_33-Search-In-Rotated-Sorted-Array.py",
+            "Source_Code": "l, r = 0, len(nums) - 1",
+            "Mutate_Code": "l, r /=/= 0, len(nums) - 1"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T17_LCPN_33-Search-In-Rotated-Sorted-Array.py",
+            "Source_Code": "l, r = 0, len(nums) - 1",
+            "Mutate_Code": "l, r %=%= 0, len(nums) - 1"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T17_LCPN_33-Search-In-Rotated-Sorted-Array.py",
+            "Source_Code": "l, r = 0, len(nums) - 1",
+            "Mutate_Code": "l, r //=//= 0, len(nums) - 1"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T17_LCPN_33-Search-In-Rotated-Sorted-Array.py",
+            "Source_Code": "l, r = 0, len(nums) - 1",
+            "Mutate_Code": "l, r **=**= 0, len(nums) - 1"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T17_LCPN_33-Search-In-Rotated-Sorted-Array.py",
+            "Source_Code": "l, r = 0, len(nums) - 1",
+            "Mutate_Code": "l, r &=&= 0, len(nums) - 1"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T17_LCPN_33-Search-In-Rotated-Sorted-Array.py",
+            "Source_Code": "l, r = 0, len(nums) - 1",
+            "Mutate_Code": "l, r |=|= 0, len(nums) - 1"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T17_LCPN_33-Search-In-Rotated-Sorted-Array.py",
+            "Source_Code": "l, r = 0, len(nums) - 1",
+            "Mutate_Code": "l, r ^=^= 0, len(nums) - 1"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T17_LCPN_33-Search-In-Rotated-Sorted-Array.py",
+            "Source_Code": "l, r = 0, len(nums) - 1",
+            "Mutate_Code": "l, r >>=>>= 0, len(nums) - 1"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T17_LCPN_33-Search-In-Rotated-Sorted-Array.py",
+            "Source_Code": "l, r = 0, len(nums) - 1",
+            "Mutate_Code": "l, r <<=<<=0, len(nums) - 1"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T17_LCPN_33-Search-In-Rotated-Sorted-Array.py",
+            "Source_Code": "l, r = 0, len(nums) - 1",
+            "Mutate_Code": "l, r = 0, len( ) - 1"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T17_LCPN_33-Search-In-Rotated-Sorted-Array.py",
+            "Source_Code": "while l <= r:",
+            "Mutate_Code": "while l   r:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T17_LCPN_33-Search-In-Rotated-Sorted-Array.py",
+            "Source_Code": "while l <= r:",
+            "Mutate_Code": "while l == r:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T17_LCPN_33-Search-In-Rotated-Sorted-Array.py",
+            "Source_Code": "while l <= r:",
+            "Mutate_Code": "while l != r:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T17_LCPN_33-Search-In-Rotated-Sorted-Array.py",
+            "Source_Code": "while l <= r:",
+            "Mutate_Code": "while l > r:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T17_LCPN_33-Search-In-Rotated-Sorted-Array.py",
+            "Source_Code": "while l <= r:",
+            "Mutate_Code": "while l < r:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T17_LCPN_33-Search-In-Rotated-Sorted-Array.py",
+            "Source_Code": "while l <= r:",
+            "Mutate_Code": "while l >= r:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T17_LCPN_33-Search-In-Rotated-Sorted-Array.py",
+            "Source_Code": "while l <= r:",
+            "Mutate_Code": "while l  ====  r:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T17_LCPN_33-Search-In-Rotated-Sorted-Array.py",
+            "Source_Code": "while l <= r:",
+            "Mutate_Code": "while l  !==  r:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T17_LCPN_33-Search-In-Rotated-Sorted-Array.py",
+            "Source_Code": "while l <= r:",
+            "Mutate_Code": "while l  >>  r:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T17_LCPN_33-Search-In-Rotated-Sorted-Array.py",
+            "Source_Code": "while l <= r:",
+            "Mutate_Code": "while l  <<  r:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T17_LCPN_33-Search-In-Rotated-Sorted-Array.py",
+            "Source_Code": "while l <= r:",
+            "Mutate_Code": "while l  >=>=  r:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T17_LCPN_33-Search-In-Rotated-Sorted-Array.py",
+            "Source_Code": "while l <= r:",
+            "Mutate_Code": "while l  <=<=  r:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T17_LCPN_33-Search-In-Rotated-Sorted-Array.py",
+            "Source_Code": "while l <= r:",
+            "Mutate_Code": " "
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T17_LCPN_33-Search-In-Rotated-Sorted-Array.py",
+            "Source_Code": "while l <= r:",
+            "Mutate_Code": "for "
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T17_LCPN_33-Search-In-Rotated-Sorted-Array.py",
+            "Source_Code": "while l <= r:",
+            "Mutate_Code": "while while:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T17_LCPN_33-Search-In-Rotated-Sorted-Array.py",
+            "Source_Code": "if target == nums[mid]:",
+            "Mutate_Code": "if target   nums[mid]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T17_LCPN_33-Search-In-Rotated-Sorted-Array.py",
+            "Source_Code": "if target == nums[mid]:",
+            "Mutate_Code": "if target != nums[mid]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T17_LCPN_33-Search-In-Rotated-Sorted-Array.py",
+            "Source_Code": "if target == nums[mid]:",
+            "Mutate_Code": "if target > nums[mid]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T17_LCPN_33-Search-In-Rotated-Sorted-Array.py",
+            "Source_Code": "if target == nums[mid]:",
+            "Mutate_Code": "if target < nums[mid]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T17_LCPN_33-Search-In-Rotated-Sorted-Array.py",
+            "Source_Code": "if target == nums[mid]:",
+            "Mutate_Code": "if target >= nums[mid]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T17_LCPN_33-Search-In-Rotated-Sorted-Array.py",
+            "Source_Code": "if target == nums[mid]:",
+            "Mutate_Code": "if target <= nums[mid]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T17_LCPN_33-Search-In-Rotated-Sorted-Array.py",
+            "Source_Code": "if target == nums[mid]:",
+            "Mutate_Code": "if target  ====  nums[mid]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T17_LCPN_33-Search-In-Rotated-Sorted-Array.py",
+            "Source_Code": "if target == nums[mid]:",
+            "Mutate_Code": "if target  !==  nums[mid]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T17_LCPN_33-Search-In-Rotated-Sorted-Array.py",
+            "Source_Code": "if target == nums[mid]:",
+            "Mutate_Code": "if target  >>  nums[mid]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T17_LCPN_33-Search-In-Rotated-Sorted-Array.py",
+            "Source_Code": "if target == nums[mid]:",
+            "Mutate_Code": "if target  <<  nums[mid]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T17_LCPN_33-Search-In-Rotated-Sorted-Array.py",
+            "Source_Code": "if target == nums[mid]:",
+            "Mutate_Code": "if target  >=>=  nums[mid]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T17_LCPN_33-Search-In-Rotated-Sorted-Array.py",
+            "Source_Code": "if target == nums[mid]:",
+            "Mutate_Code": "if target  <=<=  nums[mid]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T17_LCPN_33-Search-In-Rotated-Sorted-Array.py",
+            "Source_Code": "if target == nums[mid]:",
+            "Mutate_Code": " "
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T17_LCPN_33-Search-In-Rotated-Sorted-Array.py",
+            "Source_Code": "if target == nums[mid]:",
+            "Mutate_Code": "elif:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T17_LCPN_33-Search-In-Rotated-Sorted-Array.py",
+            "Source_Code": "if target == nums[mid]:",
+            "Mutate_Code": "else:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T17_LCPN_33-Search-In-Rotated-Sorted-Array.py",
+            "Source_Code": "if target == nums[mid]:",
+            "Mutate_Code": "if if"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T17_LCPN_33-Search-In-Rotated-Sorted-Array.py",
+            "Source_Code": "return mid",
+            "Mutate_Code": " mid"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T17_LCPN_33-Search-In-Rotated-Sorted-Array.py",
+            "Source_Code": "return mid",
+            "Mutate_Code": "passmid"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T17_LCPN_33-Search-In-Rotated-Sorted-Array.py",
+            "Source_Code": "return mid",
+            "Mutate_Code": "return returnmid"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T17_LCPN_33-Search-In-Rotated-Sorted-Array.py",
+            "Source_Code": "if nums[l] <= nums[mid]:",
+            "Mutate_Code": "if nums[l]   nums[mid]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T17_LCPN_33-Search-In-Rotated-Sorted-Array.py",
+            "Source_Code": "if nums[l] <= nums[mid]:",
+            "Mutate_Code": "if nums[l] == nums[mid]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T17_LCPN_33-Search-In-Rotated-Sorted-Array.py",
+            "Source_Code": "if nums[l] <= nums[mid]:",
+            "Mutate_Code": "if nums[l] != nums[mid]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T17_LCPN_33-Search-In-Rotated-Sorted-Array.py",
+            "Source_Code": "if nums[l] <= nums[mid]:",
+            "Mutate_Code": "if nums[l] > nums[mid]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T17_LCPN_33-Search-In-Rotated-Sorted-Array.py",
+            "Source_Code": "if nums[l] <= nums[mid]:",
+            "Mutate_Code": "if nums[l] < nums[mid]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T17_LCPN_33-Search-In-Rotated-Sorted-Array.py",
+            "Source_Code": "if nums[l] <= nums[mid]:",
+            "Mutate_Code": "if nums[l] >= nums[mid]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T17_LCPN_33-Search-In-Rotated-Sorted-Array.py",
+            "Source_Code": "if nums[l] <= nums[mid]:",
+            "Mutate_Code": "if nums[l]  ====  nums[mid]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T17_LCPN_33-Search-In-Rotated-Sorted-Array.py",
+            "Source_Code": "if nums[l] <= nums[mid]:",
+            "Mutate_Code": "if nums[l]  !==  nums[mid]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T17_LCPN_33-Search-In-Rotated-Sorted-Array.py",
+            "Source_Code": "if nums[l] <= nums[mid]:",
+            "Mutate_Code": "if nums[l]  >>  nums[mid]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T17_LCPN_33-Search-In-Rotated-Sorted-Array.py",
+            "Source_Code": "if nums[l] <= nums[mid]:",
+            "Mutate_Code": "if nums[l]  <<  nums[mid]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T17_LCPN_33-Search-In-Rotated-Sorted-Array.py",
+            "Source_Code": "if nums[l] <= nums[mid]:",
+            "Mutate_Code": "if nums[l]  >=>=  nums[mid]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T17_LCPN_33-Search-In-Rotated-Sorted-Array.py",
+            "Source_Code": "if nums[l] <= nums[mid]:",
+            "Mutate_Code": "if nums[l]  <=<=  nums[mid]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T17_LCPN_33-Search-In-Rotated-Sorted-Array.py",
+            "Source_Code": "if nums[l] <= nums[mid]:",
+            "Mutate_Code": " "
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T17_LCPN_33-Search-In-Rotated-Sorted-Array.py",
+            "Source_Code": "if nums[l] <= nums[mid]:",
+            "Mutate_Code": "elif:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T17_LCPN_33-Search-In-Rotated-Sorted-Array.py",
+            "Source_Code": "if nums[l] <= nums[mid]:",
+            "Mutate_Code": "else:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T17_LCPN_33-Search-In-Rotated-Sorted-Array.py",
+            "Source_Code": "if nums[l] <= nums[mid]:",
+            "Mutate_Code": "if if"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T17_LCPN_33-Search-In-Rotated-Sorted-Array.py",
+            "Source_Code": "if target > nums[mid] or target < nums[l]:",
+            "Mutate_Code": "if target   nums[mid] or target < nums[l]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T17_LCPN_33-Search-In-Rotated-Sorted-Array.py",
+            "Source_Code": "if target > nums[mid] or target < nums[l]:",
+            "Mutate_Code": "if target > nums[mid] or target < nums[l]: "
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T17_LCPN_33-Search-In-Rotated-Sorted-Array.py",
+            "Source_Code": "if target > nums[mid] or target < nums[l]:",
+            "Mutate_Code": "if target == nums[mid] or target < nums[l]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T17_LCPN_33-Search-In-Rotated-Sorted-Array.py",
+            "Source_Code": "if target > nums[mid] or target < nums[l]:",
+            "Mutate_Code": "if target != nums[mid] or target < nums[l]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T17_LCPN_33-Search-In-Rotated-Sorted-Array.py",
+            "Source_Code": "if target > nums[mid] or target < nums[l]:",
+            "Mutate_Code": "if target < nums[mid] or target < nums[l]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T17_LCPN_33-Search-In-Rotated-Sorted-Array.py",
+            "Source_Code": "if target > nums[mid] or target < nums[l]:",
+            "Mutate_Code": "if target >= nums[mid] or target < nums[l]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T17_LCPN_33-Search-In-Rotated-Sorted-Array.py",
+            "Source_Code": "if target > nums[mid] or target < nums[l]:",
+            "Mutate_Code": "if target <= nums[mid] or target < nums[l]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T17_LCPN_33-Search-In-Rotated-Sorted-Array.py",
+            "Source_Code": "if target > nums[mid] or target < nums[l]:",
+            "Mutate_Code": "if target > nums[mid] or target < nums[l]:=="
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T17_LCPN_33-Search-In-Rotated-Sorted-Array.py",
+            "Source_Code": "if target > nums[mid] or target < nums[l]:",
+            "Mutate_Code": "if target > nums[mid] or target < nums[l]:!="
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T17_LCPN_33-Search-In-Rotated-Sorted-Array.py",
+            "Source_Code": "if target > nums[mid] or target < nums[l]:",
+            "Mutate_Code": "if target > nums[mid] or target < nums[l]:>"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T17_LCPN_33-Search-In-Rotated-Sorted-Array.py",
+            "Source_Code": "if target > nums[mid] or target < nums[l]:",
+            "Mutate_Code": "if target > nums[mid] or target < nums[l]:<"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T17_LCPN_33-Search-In-Rotated-Sorted-Array.py",
+            "Source_Code": "if target > nums[mid] or target < nums[l]:",
+            "Mutate_Code": "if target > nums[mid] or target < nums[l]:>="
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T17_LCPN_33-Search-In-Rotated-Sorted-Array.py",
+            "Source_Code": "if target > nums[mid] or target < nums[l]:",
+            "Mutate_Code": "if target > nums[mid] or target < nums[l]:<="
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T17_LCPN_33-Search-In-Rotated-Sorted-Array.py",
+            "Source_Code": "if target > nums[mid] or target < nums[l]:",
+            "Mutate_Code": "if target  ====  nums[mid] or target < nums[l]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T17_LCPN_33-Search-In-Rotated-Sorted-Array.py",
+            "Source_Code": "if target > nums[mid] or target < nums[l]:",
+            "Mutate_Code": "if target  !==  nums[mid] or target < nums[l]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T17_LCPN_33-Search-In-Rotated-Sorted-Array.py",
+            "Source_Code": "if target > nums[mid] or target < nums[l]:",
+            "Mutate_Code": "if target  >>  nums[mid] or target < nums[l]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T17_LCPN_33-Search-In-Rotated-Sorted-Array.py",
+            "Source_Code": "if target > nums[mid] or target < nums[l]:",
+            "Mutate_Code": "if target  <<  nums[mid] or target < nums[l]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T17_LCPN_33-Search-In-Rotated-Sorted-Array.py",
+            "Source_Code": "if target > nums[mid] or target < nums[l]:",
+            "Mutate_Code": "if target  >=>=  nums[mid] or target < nums[l]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T17_LCPN_33-Search-In-Rotated-Sorted-Array.py",
+            "Source_Code": "if target > nums[mid] or target < nums[l]:",
+            "Mutate_Code": "if target  <=<=  nums[mid] or target < nums[l]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T17_LCPN_33-Search-In-Rotated-Sorted-Array.py",
+            "Source_Code": "if target > nums[mid] or target < nums[l]:",
+            "Mutate_Code": "if target > nums[mid] or target < nums[l]: ==== "
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T17_LCPN_33-Search-In-Rotated-Sorted-Array.py",
+            "Source_Code": "if target > nums[mid] or target < nums[l]:",
+            "Mutate_Code": "if target > nums[mid] or target < nums[l]: !== "
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T17_LCPN_33-Search-In-Rotated-Sorted-Array.py",
+            "Source_Code": "if target > nums[mid] or target < nums[l]:",
+            "Mutate_Code": "if target > nums[mid] or target < nums[l]: >> "
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T17_LCPN_33-Search-In-Rotated-Sorted-Array.py",
+            "Source_Code": "if target > nums[mid] or target < nums[l]:",
+            "Mutate_Code": "if target > nums[mid] or target < nums[l]: << "
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T17_LCPN_33-Search-In-Rotated-Sorted-Array.py",
+            "Source_Code": "if target > nums[mid] or target < nums[l]:",
+            "Mutate_Code": "if target > nums[mid] or target < nums[l]: >=>= "
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T17_LCPN_33-Search-In-Rotated-Sorted-Array.py",
+            "Source_Code": "if target > nums[mid] or target < nums[l]:",
+            "Mutate_Code": "if target > nums[mid] or target < nums[l]: <=<= "
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T17_LCPN_33-Search-In-Rotated-Sorted-Array.py",
+            "Source_Code": "if target > nums[mid] or target < nums[l]:",
+            "Mutate_Code": "if target > nums[mid] target < nums[l]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T17_LCPN_33-Search-In-Rotated-Sorted-Array.py",
+            "Source_Code": "if target > nums[mid] or target < nums[l]:",
+            "Mutate_Code": "if target > nums[mid] and target < nums[l]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T17_LCPN_33-Search-In-Rotated-Sorted-Array.py",
+            "Source_Code": "if target > nums[mid] or target < nums[l]:",
+            "Mutate_Code": "if target > nums[mid] not target < nums[l]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T17_LCPN_33-Search-In-Rotated-Sorted-Array.py",
+            "Source_Code": "if target > nums[mid] or target < nums[l]:",
+            "Mutate_Code": "if target > nums[mid] and and target < nums[l]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T17_LCPN_33-Search-In-Rotated-Sorted-Array.py",
+            "Source_Code": "if target > nums[mid] or target < nums[l]:",
+            "Mutate_Code": "if target > nums[mid] or or target < nums[l]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T17_LCPN_33-Search-In-Rotated-Sorted-Array.py",
+            "Source_Code": "if target > nums[mid] or target < nums[l]:",
+            "Mutate_Code": "if target > nums[mid] not not target < nums[l]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T17_LCPN_33-Search-In-Rotated-Sorted-Array.py",
+            "Source_Code": "if target > nums[mid] or target < nums[l]:",
+            "Mutate_Code": " "
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T17_LCPN_33-Search-In-Rotated-Sorted-Array.py",
+            "Source_Code": "if target > nums[mid] or target < nums[l]:",
+            "Mutate_Code": "elif:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T17_LCPN_33-Search-In-Rotated-Sorted-Array.py",
+            "Source_Code": "if target > nums[mid] or target < nums[l]:",
+            "Mutate_Code": "else:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T17_LCPN_33-Search-In-Rotated-Sorted-Array.py",
+            "Source_Code": "if target > nums[mid] or target < nums[l]:",
+            "Mutate_Code": "if if"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T17_LCPN_33-Search-In-Rotated-Sorted-Array.py",
+            "Source_Code": "if target > nums[mid] or target < nums[l]:",
+            "Mutate_Code": "if target   nums[mid] or target < nums[l]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T17_LCPN_33-Search-In-Rotated-Sorted-Array.py",
+            "Source_Code": "if target > nums[mid] or target < nums[l]:",
+            "Mutate_Code": "if target > nums[mid] or target < nums[l]: "
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T17_LCPN_33-Search-In-Rotated-Sorted-Array.py",
+            "Source_Code": "if target > nums[mid] or target < nums[l]:",
+            "Mutate_Code": "if target == nums[mid] or target < nums[l]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T17_LCPN_33-Search-In-Rotated-Sorted-Array.py",
+            "Source_Code": "if target > nums[mid] or target < nums[l]:",
+            "Mutate_Code": "if target != nums[mid] or target < nums[l]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T17_LCPN_33-Search-In-Rotated-Sorted-Array.py",
+            "Source_Code": "if target > nums[mid] or target < nums[l]:",
+            "Mutate_Code": "if target < nums[mid] or target < nums[l]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T17_LCPN_33-Search-In-Rotated-Sorted-Array.py",
+            "Source_Code": "if target > nums[mid] or target < nums[l]:",
+            "Mutate_Code": "if target >= nums[mid] or target < nums[l]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T17_LCPN_33-Search-In-Rotated-Sorted-Array.py",
+            "Source_Code": "if target > nums[mid] or target < nums[l]:",
+            "Mutate_Code": "if target <= nums[mid] or target < nums[l]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T17_LCPN_33-Search-In-Rotated-Sorted-Array.py",
+            "Source_Code": "if target > nums[mid] or target < nums[l]:",
+            "Mutate_Code": "if target > nums[mid] or target < nums[l]:=="
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T17_LCPN_33-Search-In-Rotated-Sorted-Array.py",
+            "Source_Code": "if target > nums[mid] or target < nums[l]:",
+            "Mutate_Code": "if target > nums[mid] or target < nums[l]:!="
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T17_LCPN_33-Search-In-Rotated-Sorted-Array.py",
+            "Source_Code": "if target > nums[mid] or target < nums[l]:",
+            "Mutate_Code": "if target > nums[mid] or target < nums[l]:>"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T17_LCPN_33-Search-In-Rotated-Sorted-Array.py",
+            "Source_Code": "if target > nums[mid] or target < nums[l]:",
+            "Mutate_Code": "if target > nums[mid] or target < nums[l]:<"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T17_LCPN_33-Search-In-Rotated-Sorted-Array.py",
+            "Source_Code": "if target > nums[mid] or target < nums[l]:",
+            "Mutate_Code": "if target > nums[mid] or target < nums[l]:>="
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T17_LCPN_33-Search-In-Rotated-Sorted-Array.py",
+            "Source_Code": "if target > nums[mid] or target < nums[l]:",
+            "Mutate_Code": "if target > nums[mid] or target < nums[l]:<="
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T17_LCPN_33-Search-In-Rotated-Sorted-Array.py",
+            "Source_Code": "if target > nums[mid] or target < nums[l]:",
+            "Mutate_Code": "if target  ====  nums[mid] or target < nums[l]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T17_LCPN_33-Search-In-Rotated-Sorted-Array.py",
+            "Source_Code": "if target > nums[mid] or target < nums[l]:",
+            "Mutate_Code": "if target  !==  nums[mid] or target < nums[l]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T17_LCPN_33-Search-In-Rotated-Sorted-Array.py",
+            "Source_Code": "if target > nums[mid] or target < nums[l]:",
+            "Mutate_Code": "if target  >>  nums[mid] or target < nums[l]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T17_LCPN_33-Search-In-Rotated-Sorted-Array.py",
+            "Source_Code": "if target > nums[mid] or target < nums[l]:",
+            "Mutate_Code": "if target  <<  nums[mid] or target < nums[l]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T17_LCPN_33-Search-In-Rotated-Sorted-Array.py",
+            "Source_Code": "if target > nums[mid] or target < nums[l]:",
+            "Mutate_Code": "if target  >=>=  nums[mid] or target < nums[l]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T17_LCPN_33-Search-In-Rotated-Sorted-Array.py",
+            "Source_Code": "if target > nums[mid] or target < nums[l]:",
+            "Mutate_Code": "if target  <=<=  nums[mid] or target < nums[l]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T17_LCPN_33-Search-In-Rotated-Sorted-Array.py",
+            "Source_Code": "if target > nums[mid] or target < nums[l]:",
+            "Mutate_Code": "if target > nums[mid] or target < nums[l]: ==== "
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T17_LCPN_33-Search-In-Rotated-Sorted-Array.py",
+            "Source_Code": "if target > nums[mid] or target < nums[l]:",
+            "Mutate_Code": "if target > nums[mid] or target < nums[l]: !== "
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T17_LCPN_33-Search-In-Rotated-Sorted-Array.py",
+            "Source_Code": "if target > nums[mid] or target < nums[l]:",
+            "Mutate_Code": "if target > nums[mid] or target < nums[l]: >> "
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T17_LCPN_33-Search-In-Rotated-Sorted-Array.py",
+            "Source_Code": "if target > nums[mid] or target < nums[l]:",
+            "Mutate_Code": "if target > nums[mid] or target < nums[l]: << "
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T17_LCPN_33-Search-In-Rotated-Sorted-Array.py",
+            "Source_Code": "if target > nums[mid] or target < nums[l]:",
+            "Mutate_Code": "if target > nums[mid] or target < nums[l]: >=>= "
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T17_LCPN_33-Search-In-Rotated-Sorted-Array.py",
+            "Source_Code": "if target > nums[mid] or target < nums[l]:",
+            "Mutate_Code": "if target > nums[mid] or target < nums[l]: <=<= "
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T17_LCPN_33-Search-In-Rotated-Sorted-Array.py",
+            "Source_Code": "if target > nums[mid] or target < nums[l]:",
+            "Mutate_Code": "if target > nums[mid] target < nums[l]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T17_LCPN_33-Search-In-Rotated-Sorted-Array.py",
+            "Source_Code": "if target > nums[mid] or target < nums[l]:",
+            "Mutate_Code": "if target > nums[mid] and target < nums[l]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T17_LCPN_33-Search-In-Rotated-Sorted-Array.py",
+            "Source_Code": "if target > nums[mid] or target < nums[l]:",
+            "Mutate_Code": "if target > nums[mid] not target < nums[l]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T17_LCPN_33-Search-In-Rotated-Sorted-Array.py",
+            "Source_Code": "if target > nums[mid] or target < nums[l]:",
+            "Mutate_Code": "if target > nums[mid] and and target < nums[l]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T17_LCPN_33-Search-In-Rotated-Sorted-Array.py",
+            "Source_Code": "if target > nums[mid] or target < nums[l]:",
+            "Mutate_Code": "if target > nums[mid] or or target < nums[l]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T17_LCPN_33-Search-In-Rotated-Sorted-Array.py",
+            "Source_Code": "if target > nums[mid] or target < nums[l]:",
+            "Mutate_Code": "if target > nums[mid] not not target < nums[l]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T17_LCPN_33-Search-In-Rotated-Sorted-Array.py",
+            "Source_Code": "if target > nums[mid] or target < nums[l]:",
+            "Mutate_Code": " "
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T17_LCPN_33-Search-In-Rotated-Sorted-Array.py",
+            "Source_Code": "if target > nums[mid] or target < nums[l]:",
+            "Mutate_Code": "elif:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T17_LCPN_33-Search-In-Rotated-Sorted-Array.py",
+            "Source_Code": "if target > nums[mid] or target < nums[l]:",
+            "Mutate_Code": "else:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T17_LCPN_33-Search-In-Rotated-Sorted-Array.py",
+            "Source_Code": "if target > nums[mid] or target < nums[l]:",
+            "Mutate_Code": "if if"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T17_LCPN_33-Search-In-Rotated-Sorted-Array.py",
+            "Source_Code": "else:",
+            "Mutate_Code": " "
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T17_LCPN_33-Search-In-Rotated-Sorted-Array.py",
+            "Source_Code": "else:",
+            "Mutate_Code": "if:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T17_LCPN_33-Search-In-Rotated-Sorted-Array.py",
+            "Source_Code": "else:",
+            "Mutate_Code": "elif:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T17_LCPN_33-Search-In-Rotated-Sorted-Array.py",
+            "Source_Code": "else:",
+            "Mutate_Code": "else else:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T17_LCPN_33-Search-In-Rotated-Sorted-Array.py",
+            "Source_Code": "else:",
+            "Mutate_Code": " "
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T17_LCPN_33-Search-In-Rotated-Sorted-Array.py",
+            "Source_Code": "else:",
+            "Mutate_Code": "if:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T17_LCPN_33-Search-In-Rotated-Sorted-Array.py",
+            "Source_Code": "else:",
+            "Mutate_Code": "elif:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T17_LCPN_33-Search-In-Rotated-Sorted-Array.py",
+            "Source_Code": "else:",
+            "Mutate_Code": "else else:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T17_LCPN_33-Search-In-Rotated-Sorted-Array.py",
+            "Source_Code": "if target < nums[mid] or target > nums[r]:",
+            "Mutate_Code": "if target   nums[mid] or target > nums[r]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T17_LCPN_33-Search-In-Rotated-Sorted-Array.py",
+            "Source_Code": "if target < nums[mid] or target > nums[r]:",
+            "Mutate_Code": "if target < nums[mid] or target > nums[r]: "
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T17_LCPN_33-Search-In-Rotated-Sorted-Array.py",
+            "Source_Code": "if target < nums[mid] or target > nums[r]:",
+            "Mutate_Code": "if target == nums[mid] or target > nums[r]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T17_LCPN_33-Search-In-Rotated-Sorted-Array.py",
+            "Source_Code": "if target < nums[mid] or target > nums[r]:",
+            "Mutate_Code": "if target != nums[mid] or target > nums[r]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T17_LCPN_33-Search-In-Rotated-Sorted-Array.py",
+            "Source_Code": "if target < nums[mid] or target > nums[r]:",
+            "Mutate_Code": "if target > nums[mid] or target > nums[r]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T17_LCPN_33-Search-In-Rotated-Sorted-Array.py",
+            "Source_Code": "if target < nums[mid] or target > nums[r]:",
+            "Mutate_Code": "if target >= nums[mid] or target > nums[r]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T17_LCPN_33-Search-In-Rotated-Sorted-Array.py",
+            "Source_Code": "if target < nums[mid] or target > nums[r]:",
+            "Mutate_Code": "if target <= nums[mid] or target > nums[r]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T17_LCPN_33-Search-In-Rotated-Sorted-Array.py",
+            "Source_Code": "if target < nums[mid] or target > nums[r]:",
+            "Mutate_Code": "if target < nums[mid] or target > nums[r]:=="
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T17_LCPN_33-Search-In-Rotated-Sorted-Array.py",
+            "Source_Code": "if target < nums[mid] or target > nums[r]:",
+            "Mutate_Code": "if target < nums[mid] or target > nums[r]:!="
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T17_LCPN_33-Search-In-Rotated-Sorted-Array.py",
+            "Source_Code": "if target < nums[mid] or target > nums[r]:",
+            "Mutate_Code": "if target < nums[mid] or target > nums[r]:>"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T17_LCPN_33-Search-In-Rotated-Sorted-Array.py",
+            "Source_Code": "if target < nums[mid] or target > nums[r]:",
+            "Mutate_Code": "if target < nums[mid] or target > nums[r]:<"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T17_LCPN_33-Search-In-Rotated-Sorted-Array.py",
+            "Source_Code": "if target < nums[mid] or target > nums[r]:",
+            "Mutate_Code": "if target < nums[mid] or target > nums[r]:>="
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T17_LCPN_33-Search-In-Rotated-Sorted-Array.py",
+            "Source_Code": "if target < nums[mid] or target > nums[r]:",
+            "Mutate_Code": "if target < nums[mid] or target > nums[r]:<="
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T17_LCPN_33-Search-In-Rotated-Sorted-Array.py",
+            "Source_Code": "if target < nums[mid] or target > nums[r]:",
+            "Mutate_Code": "if target  ====  nums[mid] or target > nums[r]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T17_LCPN_33-Search-In-Rotated-Sorted-Array.py",
+            "Source_Code": "if target < nums[mid] or target > nums[r]:",
+            "Mutate_Code": "if target  !==  nums[mid] or target > nums[r]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T17_LCPN_33-Search-In-Rotated-Sorted-Array.py",
+            "Source_Code": "if target < nums[mid] or target > nums[r]:",
+            "Mutate_Code": "if target  >>  nums[mid] or target > nums[r]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T17_LCPN_33-Search-In-Rotated-Sorted-Array.py",
+            "Source_Code": "if target < nums[mid] or target > nums[r]:",
+            "Mutate_Code": "if target  <<  nums[mid] or target > nums[r]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T17_LCPN_33-Search-In-Rotated-Sorted-Array.py",
+            "Source_Code": "if target < nums[mid] or target > nums[r]:",
+            "Mutate_Code": "if target  >=>=  nums[mid] or target > nums[r]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T17_LCPN_33-Search-In-Rotated-Sorted-Array.py",
+            "Source_Code": "if target < nums[mid] or target > nums[r]:",
+            "Mutate_Code": "if target  <=<=  nums[mid] or target > nums[r]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T17_LCPN_33-Search-In-Rotated-Sorted-Array.py",
+            "Source_Code": "if target < nums[mid] or target > nums[r]:",
+            "Mutate_Code": "if target < nums[mid] or target > nums[r]: ==== "
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T17_LCPN_33-Search-In-Rotated-Sorted-Array.py",
+            "Source_Code": "if target < nums[mid] or target > nums[r]:",
+            "Mutate_Code": "if target < nums[mid] or target > nums[r]: !== "
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T17_LCPN_33-Search-In-Rotated-Sorted-Array.py",
+            "Source_Code": "if target < nums[mid] or target > nums[r]:",
+            "Mutate_Code": "if target < nums[mid] or target > nums[r]: >> "
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T17_LCPN_33-Search-In-Rotated-Sorted-Array.py",
+            "Source_Code": "if target < nums[mid] or target > nums[r]:",
+            "Mutate_Code": "if target < nums[mid] or target > nums[r]: << "
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T17_LCPN_33-Search-In-Rotated-Sorted-Array.py",
+            "Source_Code": "if target < nums[mid] or target > nums[r]:",
+            "Mutate_Code": "if target < nums[mid] or target > nums[r]: >=>= "
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T17_LCPN_33-Search-In-Rotated-Sorted-Array.py",
+            "Source_Code": "if target < nums[mid] or target > nums[r]:",
+            "Mutate_Code": "if target < nums[mid] or target > nums[r]: <=<= "
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T17_LCPN_33-Search-In-Rotated-Sorted-Array.py",
+            "Source_Code": "if target < nums[mid] or target > nums[r]:",
+            "Mutate_Code": "if target < nums[mid] target > nums[r]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T17_LCPN_33-Search-In-Rotated-Sorted-Array.py",
+            "Source_Code": "if target < nums[mid] or target > nums[r]:",
+            "Mutate_Code": "if target < nums[mid] and target > nums[r]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T17_LCPN_33-Search-In-Rotated-Sorted-Array.py",
+            "Source_Code": "if target < nums[mid] or target > nums[r]:",
+            "Mutate_Code": "if target < nums[mid] not target > nums[r]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T17_LCPN_33-Search-In-Rotated-Sorted-Array.py",
+            "Source_Code": "if target < nums[mid] or target > nums[r]:",
+            "Mutate_Code": "if target < nums[mid] and and target > nums[r]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T17_LCPN_33-Search-In-Rotated-Sorted-Array.py",
+            "Source_Code": "if target < nums[mid] or target > nums[r]:",
+            "Mutate_Code": "if target < nums[mid] or or target > nums[r]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T17_LCPN_33-Search-In-Rotated-Sorted-Array.py",
+            "Source_Code": "if target < nums[mid] or target > nums[r]:",
+            "Mutate_Code": "if target < nums[mid] not not target > nums[r]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T17_LCPN_33-Search-In-Rotated-Sorted-Array.py",
+            "Source_Code": "if target < nums[mid] or target > nums[r]:",
+            "Mutate_Code": " "
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T17_LCPN_33-Search-In-Rotated-Sorted-Array.py",
+            "Source_Code": "if target < nums[mid] or target > nums[r]:",
+            "Mutate_Code": "elif:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T17_LCPN_33-Search-In-Rotated-Sorted-Array.py",
+            "Source_Code": "if target < nums[mid] or target > nums[r]:",
+            "Mutate_Code": "else:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T17_LCPN_33-Search-In-Rotated-Sorted-Array.py",
+            "Source_Code": "if target < nums[mid] or target > nums[r]:",
+            "Mutate_Code": "if if"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T17_LCPN_33-Search-In-Rotated-Sorted-Array.py",
+            "Source_Code": "if target < nums[mid] or target > nums[r]:",
+            "Mutate_Code": "if target   nums[mid] or target > nums[r]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T17_LCPN_33-Search-In-Rotated-Sorted-Array.py",
+            "Source_Code": "if target < nums[mid] or target > nums[r]:",
+            "Mutate_Code": "if target < nums[mid] or target > nums[r]: "
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T17_LCPN_33-Search-In-Rotated-Sorted-Array.py",
+            "Source_Code": "if target < nums[mid] or target > nums[r]:",
+            "Mutate_Code": "if target == nums[mid] or target > nums[r]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T17_LCPN_33-Search-In-Rotated-Sorted-Array.py",
+            "Source_Code": "if target < nums[mid] or target > nums[r]:",
+            "Mutate_Code": "if target != nums[mid] or target > nums[r]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T17_LCPN_33-Search-In-Rotated-Sorted-Array.py",
+            "Source_Code": "if target < nums[mid] or target > nums[r]:",
+            "Mutate_Code": "if target > nums[mid] or target > nums[r]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T17_LCPN_33-Search-In-Rotated-Sorted-Array.py",
+            "Source_Code": "if target < nums[mid] or target > nums[r]:",
+            "Mutate_Code": "if target >= nums[mid] or target > nums[r]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T17_LCPN_33-Search-In-Rotated-Sorted-Array.py",
+            "Source_Code": "if target < nums[mid] or target > nums[r]:",
+            "Mutate_Code": "if target <= nums[mid] or target > nums[r]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T17_LCPN_33-Search-In-Rotated-Sorted-Array.py",
+            "Source_Code": "if target < nums[mid] or target > nums[r]:",
+            "Mutate_Code": "if target < nums[mid] or target > nums[r]:=="
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T17_LCPN_33-Search-In-Rotated-Sorted-Array.py",
+            "Source_Code": "if target < nums[mid] or target > nums[r]:",
+            "Mutate_Code": "if target < nums[mid] or target > nums[r]:!="
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T17_LCPN_33-Search-In-Rotated-Sorted-Array.py",
+            "Source_Code": "if target < nums[mid] or target > nums[r]:",
+            "Mutate_Code": "if target < nums[mid] or target > nums[r]:>"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T17_LCPN_33-Search-In-Rotated-Sorted-Array.py",
+            "Source_Code": "if target < nums[mid] or target > nums[r]:",
+            "Mutate_Code": "if target < nums[mid] or target > nums[r]:<"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T17_LCPN_33-Search-In-Rotated-Sorted-Array.py",
+            "Source_Code": "if target < nums[mid] or target > nums[r]:",
+            "Mutate_Code": "if target < nums[mid] or target > nums[r]:>="
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T17_LCPN_33-Search-In-Rotated-Sorted-Array.py",
+            "Source_Code": "if target < nums[mid] or target > nums[r]:",
+            "Mutate_Code": "if target < nums[mid] or target > nums[r]:<="
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T17_LCPN_33-Search-In-Rotated-Sorted-Array.py",
+            "Source_Code": "if target < nums[mid] or target > nums[r]:",
+            "Mutate_Code": "if target  ====  nums[mid] or target > nums[r]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T17_LCPN_33-Search-In-Rotated-Sorted-Array.py",
+            "Source_Code": "if target < nums[mid] or target > nums[r]:",
+            "Mutate_Code": "if target  !==  nums[mid] or target > nums[r]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T17_LCPN_33-Search-In-Rotated-Sorted-Array.py",
+            "Source_Code": "if target < nums[mid] or target > nums[r]:",
+            "Mutate_Code": "if target  >>  nums[mid] or target > nums[r]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T17_LCPN_33-Search-In-Rotated-Sorted-Array.py",
+            "Source_Code": "if target < nums[mid] or target > nums[r]:",
+            "Mutate_Code": "if target  <<  nums[mid] or target > nums[r]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T17_LCPN_33-Search-In-Rotated-Sorted-Array.py",
+            "Source_Code": "if target < nums[mid] or target > nums[r]:",
+            "Mutate_Code": "if target  >=>=  nums[mid] or target > nums[r]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T17_LCPN_33-Search-In-Rotated-Sorted-Array.py",
+            "Source_Code": "if target < nums[mid] or target > nums[r]:",
+            "Mutate_Code": "if target  <=<=  nums[mid] or target > nums[r]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T17_LCPN_33-Search-In-Rotated-Sorted-Array.py",
+            "Source_Code": "if target < nums[mid] or target > nums[r]:",
+            "Mutate_Code": "if target < nums[mid] or target > nums[r]: ==== "
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T17_LCPN_33-Search-In-Rotated-Sorted-Array.py",
+            "Source_Code": "if target < nums[mid] or target > nums[r]:",
+            "Mutate_Code": "if target < nums[mid] or target > nums[r]: !== "
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T17_LCPN_33-Search-In-Rotated-Sorted-Array.py",
+            "Source_Code": "if target < nums[mid] or target > nums[r]:",
+            "Mutate_Code": "if target < nums[mid] or target > nums[r]: >> "
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T17_LCPN_33-Search-In-Rotated-Sorted-Array.py",
+            "Source_Code": "if target < nums[mid] or target > nums[r]:",
+            "Mutate_Code": "if target < nums[mid] or target > nums[r]: << "
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T17_LCPN_33-Search-In-Rotated-Sorted-Array.py",
+            "Source_Code": "if target < nums[mid] or target > nums[r]:",
+            "Mutate_Code": "if target < nums[mid] or target > nums[r]: >=>= "
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T17_LCPN_33-Search-In-Rotated-Sorted-Array.py",
+            "Source_Code": "if target < nums[mid] or target > nums[r]:",
+            "Mutate_Code": "if target < nums[mid] or target > nums[r]: <=<= "
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T17_LCPN_33-Search-In-Rotated-Sorted-Array.py",
+            "Source_Code": "if target < nums[mid] or target > nums[r]:",
+            "Mutate_Code": "if target < nums[mid] target > nums[r]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T17_LCPN_33-Search-In-Rotated-Sorted-Array.py",
+            "Source_Code": "if target < nums[mid] or target > nums[r]:",
+            "Mutate_Code": "if target < nums[mid] and target > nums[r]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T17_LCPN_33-Search-In-Rotated-Sorted-Array.py",
+            "Source_Code": "if target < nums[mid] or target > nums[r]:",
+            "Mutate_Code": "if target < nums[mid] not target > nums[r]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T17_LCPN_33-Search-In-Rotated-Sorted-Array.py",
+            "Source_Code": "if target < nums[mid] or target > nums[r]:",
+            "Mutate_Code": "if target < nums[mid] and and target > nums[r]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T17_LCPN_33-Search-In-Rotated-Sorted-Array.py",
+            "Source_Code": "if target < nums[mid] or target > nums[r]:",
+            "Mutate_Code": "if target < nums[mid] or or target > nums[r]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T17_LCPN_33-Search-In-Rotated-Sorted-Array.py",
+            "Source_Code": "if target < nums[mid] or target > nums[r]:",
+            "Mutate_Code": "if target < nums[mid] not not target > nums[r]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T17_LCPN_33-Search-In-Rotated-Sorted-Array.py",
+            "Source_Code": "if target < nums[mid] or target > nums[r]:",
+            "Mutate_Code": " "
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T17_LCPN_33-Search-In-Rotated-Sorted-Array.py",
+            "Source_Code": "if target < nums[mid] or target > nums[r]:",
+            "Mutate_Code": "elif:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T17_LCPN_33-Search-In-Rotated-Sorted-Array.py",
+            "Source_Code": "if target < nums[mid] or target > nums[r]:",
+            "Mutate_Code": "else:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T17_LCPN_33-Search-In-Rotated-Sorted-Array.py",
+            "Source_Code": "if target < nums[mid] or target > nums[r]:",
+            "Mutate_Code": "if if"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T17_LCPN_33-Search-In-Rotated-Sorted-Array.py",
+            "Source_Code": "else:",
+            "Mutate_Code": " "
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T17_LCPN_33-Search-In-Rotated-Sorted-Array.py",
+            "Source_Code": "else:",
+            "Mutate_Code": "if:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T17_LCPN_33-Search-In-Rotated-Sorted-Array.py",
+            "Source_Code": "else:",
+            "Mutate_Code": "elif:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T17_LCPN_33-Search-In-Rotated-Sorted-Array.py",
+            "Source_Code": "else:",
+            "Mutate_Code": "else else:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T17_LCPN_33-Search-In-Rotated-Sorted-Array.py",
+            "Source_Code": "return -1",
+            "Mutate_Code": " -1"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T17_LCPN_33-Search-In-Rotated-Sorted-Array.py",
+            "Source_Code": "return -1",
+            "Mutate_Code": "pass-1"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T17_LCPN_33-Search-In-Rotated-Sorted-Array.py",
+            "Source_Code": "return -1",
+            "Mutate_Code": "return return-1"
+        }
+    }
+]

@@ -1,0 +1,1241 @@
+[
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T3_LCPN_3-Longest-Substring-Without-Repeating-Characters.py",
+            "Source_Code": "charSet = set()",
+            "Mutate_Code": "charSet set()"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T3_LCPN_3-Longest-Substring-Without-Repeating-Characters.py",
+            "Source_Code": "charSet = set()",
+            "Mutate_Code": "charSet set()"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T3_LCPN_3-Longest-Substring-Without-Repeating-Characters.py",
+            "Source_Code": "charSet = set()",
+            "Mutate_Code": "charSet += set()"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T3_LCPN_3-Longest-Substring-Without-Repeating-Characters.py",
+            "Source_Code": "charSet = set()",
+            "Mutate_Code": "charSet -= set()"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T3_LCPN_3-Longest-Substring-Without-Repeating-Characters.py",
+            "Source_Code": "charSet = set()",
+            "Mutate_Code": "charSet *= set()"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T3_LCPN_3-Longest-Substring-Without-Repeating-Characters.py",
+            "Source_Code": "charSet = set()",
+            "Mutate_Code": "charSet /= set()"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T3_LCPN_3-Longest-Substring-Without-Repeating-Characters.py",
+            "Source_Code": "charSet = set()",
+            "Mutate_Code": "charSet %= set()"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T3_LCPN_3-Longest-Substring-Without-Repeating-Characters.py",
+            "Source_Code": "charSet = set()",
+            "Mutate_Code": "charSet //= set()"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T3_LCPN_3-Longest-Substring-Without-Repeating-Characters.py",
+            "Source_Code": "charSet = set()",
+            "Mutate_Code": "charSet **= set()"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T3_LCPN_3-Longest-Substring-Without-Repeating-Characters.py",
+            "Source_Code": "charSet = set()",
+            "Mutate_Code": "charSet &= set()"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T3_LCPN_3-Longest-Substring-Without-Repeating-Characters.py",
+            "Source_Code": "charSet = set()",
+            "Mutate_Code": "charSet |= set()"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T3_LCPN_3-Longest-Substring-Without-Repeating-Characters.py",
+            "Source_Code": "charSet = set()",
+            "Mutate_Code": "charSet ^= set()"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T3_LCPN_3-Longest-Substring-Without-Repeating-Characters.py",
+            "Source_Code": "charSet = set()",
+            "Mutate_Code": "charSet >>= set()"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T3_LCPN_3-Longest-Substring-Without-Repeating-Characters.py",
+            "Source_Code": "charSet = set()",
+            "Mutate_Code": "charSet <<= set()"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T3_LCPN_3-Longest-Substring-Without-Repeating-Characters.py",
+            "Source_Code": "charSet = set()",
+            "Mutate_Code": "charSet += set()"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T3_LCPN_3-Longest-Substring-Without-Repeating-Characters.py",
+            "Source_Code": "charSet = set()",
+            "Mutate_Code": "charSet -= set()"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T3_LCPN_3-Longest-Substring-Without-Repeating-Characters.py",
+            "Source_Code": "charSet = set()",
+            "Mutate_Code": "charSet *= set()"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T3_LCPN_3-Longest-Substring-Without-Repeating-Characters.py",
+            "Source_Code": "charSet = set()",
+            "Mutate_Code": "charSet /= set()"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T3_LCPN_3-Longest-Substring-Without-Repeating-Characters.py",
+            "Source_Code": "charSet = set()",
+            "Mutate_Code": "charSet %= set()"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T3_LCPN_3-Longest-Substring-Without-Repeating-Characters.py",
+            "Source_Code": "charSet = set()",
+            "Mutate_Code": "charSet //= set()"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T3_LCPN_3-Longest-Substring-Without-Repeating-Characters.py",
+            "Source_Code": "charSet = set()",
+            "Mutate_Code": "charSet **= set()"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T3_LCPN_3-Longest-Substring-Without-Repeating-Characters.py",
+            "Source_Code": "charSet = set()",
+            "Mutate_Code": "charSet &= set()"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T3_LCPN_3-Longest-Substring-Without-Repeating-Characters.py",
+            "Source_Code": "charSet = set()",
+            "Mutate_Code": "charSet |= set()"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T3_LCPN_3-Longest-Substring-Without-Repeating-Characters.py",
+            "Source_Code": "charSet = set()",
+            "Mutate_Code": "charSet ^= set()"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T3_LCPN_3-Longest-Substring-Without-Repeating-Characters.py",
+            "Source_Code": "charSet = set()",
+            "Mutate_Code": "charSet >>= set()"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T3_LCPN_3-Longest-Substring-Without-Repeating-Characters.py",
+            "Source_Code": "charSet = set()",
+            "Mutate_Code": "charSet <<= set()"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T3_LCPN_3-Longest-Substring-Without-Repeating-Characters.py",
+            "Source_Code": "charSet = set()",
+            "Mutate_Code": "charSet == set()"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T3_LCPN_3-Longest-Substring-Without-Repeating-Characters.py",
+            "Source_Code": "charSet = set()",
+            "Mutate_Code": "charSet +=+= set()"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T3_LCPN_3-Longest-Substring-Without-Repeating-Characters.py",
+            "Source_Code": "charSet = set()",
+            "Mutate_Code": "charSet -=-= set()"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T3_LCPN_3-Longest-Substring-Without-Repeating-Characters.py",
+            "Source_Code": "charSet = set()",
+            "Mutate_Code": "charSet *=*= set()"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T3_LCPN_3-Longest-Substring-Without-Repeating-Characters.py",
+            "Source_Code": "charSet = set()",
+            "Mutate_Code": "charSet /=/= set()"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T3_LCPN_3-Longest-Substring-Without-Repeating-Characters.py",
+            "Source_Code": "charSet = set()",
+            "Mutate_Code": "charSet %=%= set()"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T3_LCPN_3-Longest-Substring-Without-Repeating-Characters.py",
+            "Source_Code": "charSet = set()",
+            "Mutate_Code": "charSet //=//= set()"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T3_LCPN_3-Longest-Substring-Without-Repeating-Characters.py",
+            "Source_Code": "charSet = set()",
+            "Mutate_Code": "charSet **=**= set()"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T3_LCPN_3-Longest-Substring-Without-Repeating-Characters.py",
+            "Source_Code": "charSet = set()",
+            "Mutate_Code": "charSet &=&= set()"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T3_LCPN_3-Longest-Substring-Without-Repeating-Characters.py",
+            "Source_Code": "charSet = set()",
+            "Mutate_Code": "charSet |=|= set()"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T3_LCPN_3-Longest-Substring-Without-Repeating-Characters.py",
+            "Source_Code": "charSet = set()",
+            "Mutate_Code": "charSet ^=^= set()"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T3_LCPN_3-Longest-Substring-Without-Repeating-Characters.py",
+            "Source_Code": "charSet = set()",
+            "Mutate_Code": "charSet >>=>>= set()"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T3_LCPN_3-Longest-Substring-Without-Repeating-Characters.py",
+            "Source_Code": "charSet = set()",
+            "Mutate_Code": "charSet <<=<<=set()"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T3_LCPN_3-Longest-Substring-Without-Repeating-Characters.py",
+            "Source_Code": "charSet = set()",
+            "Mutate_Code": "charSet == set()"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T3_LCPN_3-Longest-Substring-Without-Repeating-Characters.py",
+            "Source_Code": "charSet = set()",
+            "Mutate_Code": "charSet +=+= set()"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T3_LCPN_3-Longest-Substring-Without-Repeating-Characters.py",
+            "Source_Code": "charSet = set()",
+            "Mutate_Code": "charSet -=-= set()"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T3_LCPN_3-Longest-Substring-Without-Repeating-Characters.py",
+            "Source_Code": "charSet = set()",
+            "Mutate_Code": "charSet *=*= set()"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T3_LCPN_3-Longest-Substring-Without-Repeating-Characters.py",
+            "Source_Code": "charSet = set()",
+            "Mutate_Code": "charSet /=/= set()"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T3_LCPN_3-Longest-Substring-Without-Repeating-Characters.py",
+            "Source_Code": "charSet = set()",
+            "Mutate_Code": "charSet %=%= set()"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T3_LCPN_3-Longest-Substring-Without-Repeating-Characters.py",
+            "Source_Code": "charSet = set()",
+            "Mutate_Code": "charSet //=//= set()"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T3_LCPN_3-Longest-Substring-Without-Repeating-Characters.py",
+            "Source_Code": "charSet = set()",
+            "Mutate_Code": "charSet **=**= set()"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T3_LCPN_3-Longest-Substring-Without-Repeating-Characters.py",
+            "Source_Code": "charSet = set()",
+            "Mutate_Code": "charSet &=&= set()"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T3_LCPN_3-Longest-Substring-Without-Repeating-Characters.py",
+            "Source_Code": "charSet = set()",
+            "Mutate_Code": "charSet |=|= set()"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T3_LCPN_3-Longest-Substring-Without-Repeating-Characters.py",
+            "Source_Code": "charSet = set()",
+            "Mutate_Code": "charSet ^=^= set()"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T3_LCPN_3-Longest-Substring-Without-Repeating-Characters.py",
+            "Source_Code": "charSet = set()",
+            "Mutate_Code": "charSet >>=>>= set()"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T3_LCPN_3-Longest-Substring-Without-Repeating-Characters.py",
+            "Source_Code": "charSet = set()",
+            "Mutate_Code": "charSet <<=<<=set()"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T3_LCPN_3-Longest-Substring-Without-Repeating-Characters.py",
+            "Source_Code": "charSet = set()",
+            "Mutate_Code": "charSet =set()"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T3_LCPN_3-Longest-Substring-Without-Repeating-Characters.py",
+            "Source_Code": "for r in range(len(s)):",
+            "Mutate_Code": "for r range(len(s)):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T3_LCPN_3-Longest-Substring-Without-Repeating-Characters.py",
+            "Source_Code": "for r in range(len(s)):",
+            "Mutate_Code": "for r is range(len(s)):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T3_LCPN_3-Longest-Substring-Without-Repeating-Characters.py",
+            "Source_Code": "for r in range(len(s)):",
+            "Mutate_Code": "for r is not range(len(s)):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T3_LCPN_3-Longest-Substring-Without-Repeating-Characters.py",
+            "Source_Code": "for r in range(len(s)):",
+            "Mutate_Code": "for r in in range(len(s)):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T3_LCPN_3-Longest-Substring-Without-Repeating-Characters.py",
+            "Source_Code": "for r in range(len(s)):",
+            "Mutate_Code": "for r not in not in range(len(s)):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T3_LCPN_3-Longest-Substring-Without-Repeating-Characters.py",
+            "Source_Code": "for r in range(len(s)):",
+            "Mutate_Code": " "
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T3_LCPN_3-Longest-Substring-Without-Repeating-Characters.py",
+            "Source_Code": "for r in range(len(s)):",
+            "Mutate_Code": "while True:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T3_LCPN_3-Longest-Substring-Without-Repeating-Characters.py",
+            "Source_Code": "for r in range(len(s)):",
+            "Mutate_Code": "for for: r in range(len(s)):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T3_LCPN_3-Longest-Substring-Without-Repeating-Characters.py",
+            "Source_Code": "for r in range(len(s)):",
+            "Mutate_Code": "for r in range(len( )):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T3_LCPN_3-Longest-Substring-Without-Repeating-Characters.py",
+            "Source_Code": "for r in range(len(s)):",
+            "Mutate_Code": "for r in range( )):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T3_LCPN_3-Longest-Substring-Without-Repeating-Characters.py",
+            "Source_Code": "for r in range(len(s)):",
+            "Mutate_Code": "for r range(len(s)):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T3_LCPN_3-Longest-Substring-Without-Repeating-Characters.py",
+            "Source_Code": "for r in range(len(s)):",
+            "Mutate_Code": "for r is range(len(s)):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T3_LCPN_3-Longest-Substring-Without-Repeating-Characters.py",
+            "Source_Code": "for r in range(len(s)):",
+            "Mutate_Code": "for r is not range(len(s)):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T3_LCPN_3-Longest-Substring-Without-Repeating-Characters.py",
+            "Source_Code": "for r in range(len(s)):",
+            "Mutate_Code": "for r in in range(len(s)):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T3_LCPN_3-Longest-Substring-Without-Repeating-Characters.py",
+            "Source_Code": "for r in range(len(s)):",
+            "Mutate_Code": "for r not in not in range(len(s)):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T3_LCPN_3-Longest-Substring-Without-Repeating-Characters.py",
+            "Source_Code": "for r in range(len(s)):",
+            "Mutate_Code": " "
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T3_LCPN_3-Longest-Substring-Without-Repeating-Characters.py",
+            "Source_Code": "for r in range(len(s)):",
+            "Mutate_Code": "while True:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T3_LCPN_3-Longest-Substring-Without-Repeating-Characters.py",
+            "Source_Code": "for r in range(len(s)):",
+            "Mutate_Code": "for for: r in range(len(s)):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T3_LCPN_3-Longest-Substring-Without-Repeating-Characters.py",
+            "Source_Code": "for r in range(len(s)):",
+            "Mutate_Code": "for r in range(len( )):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T3_LCPN_3-Longest-Substring-Without-Repeating-Characters.py",
+            "Source_Code": "for r in range(len(s)):",
+            "Mutate_Code": "for r in range( )):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T3_LCPN_3-Longest-Substring-Without-Repeating-Characters.py",
+            "Source_Code": "for r in range(len(s)):",
+            "Mutate_Code": "for r range(len(s)):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T3_LCPN_3-Longest-Substring-Without-Repeating-Characters.py",
+            "Source_Code": "for r in range(len(s)):",
+            "Mutate_Code": "for r is range(len(s)):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T3_LCPN_3-Longest-Substring-Without-Repeating-Characters.py",
+            "Source_Code": "for r in range(len(s)):",
+            "Mutate_Code": "for r is not range(len(s)):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T3_LCPN_3-Longest-Substring-Without-Repeating-Characters.py",
+            "Source_Code": "for r in range(len(s)):",
+            "Mutate_Code": "for r in in range(len(s)):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T3_LCPN_3-Longest-Substring-Without-Repeating-Characters.py",
+            "Source_Code": "for r in range(len(s)):",
+            "Mutate_Code": "for r not in not in range(len(s)):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T3_LCPN_3-Longest-Substring-Without-Repeating-Characters.py",
+            "Source_Code": "for r in range(len(s)):",
+            "Mutate_Code": " "
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T3_LCPN_3-Longest-Substring-Without-Repeating-Characters.py",
+            "Source_Code": "for r in range(len(s)):",
+            "Mutate_Code": "while True:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T3_LCPN_3-Longest-Substring-Without-Repeating-Characters.py",
+            "Source_Code": "for r in range(len(s)):",
+            "Mutate_Code": "for for: r in range(len(s)):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T3_LCPN_3-Longest-Substring-Without-Repeating-Characters.py",
+            "Source_Code": "for r in range(len(s)):",
+            "Mutate_Code": "for r in range(len( )):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T3_LCPN_3-Longest-Substring-Without-Repeating-Characters.py",
+            "Source_Code": "for r in range(len(s)):",
+            "Mutate_Code": "for r in range( )):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T3_LCPN_3-Longest-Substring-Without-Repeating-Characters.py",
+            "Source_Code": "while s[r] in charSet:",
+            "Mutate_Code": "while s[r] charSet:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T3_LCPN_3-Longest-Substring-Without-Repeating-Characters.py",
+            "Source_Code": "while s[r] in charSet:",
+            "Mutate_Code": "while s[r] is charSet:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T3_LCPN_3-Longest-Substring-Without-Repeating-Characters.py",
+            "Source_Code": "while s[r] in charSet:",
+            "Mutate_Code": "while s[r] is not charSet:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T3_LCPN_3-Longest-Substring-Without-Repeating-Characters.py",
+            "Source_Code": "while s[r] in charSet:",
+            "Mutate_Code": "while s[r] in in charSet:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T3_LCPN_3-Longest-Substring-Without-Repeating-Characters.py",
+            "Source_Code": "while s[r] in charSet:",
+            "Mutate_Code": "while s[r] not in not in charSet:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T3_LCPN_3-Longest-Substring-Without-Repeating-Characters.py",
+            "Source_Code": "while s[r] in charSet:",
+            "Mutate_Code": " "
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T3_LCPN_3-Longest-Substring-Without-Repeating-Characters.py",
+            "Source_Code": "while s[r] in charSet:",
+            "Mutate_Code": "for "
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T3_LCPN_3-Longest-Substring-Without-Repeating-Characters.py",
+            "Source_Code": "while s[r] in charSet:",
+            "Mutate_Code": "while while:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T3_LCPN_3-Longest-Substring-Without-Repeating-Characters.py",
+            "Source_Code": "charSet.remove(s[l])",
+            "Mutate_Code": "charSet.remove( )"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T3_LCPN_3-Longest-Substring-Without-Repeating-Characters.py",
+            "Source_Code": "charSet.add(s[r])",
+            "Mutate_Code": "charSet.add( )"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T3_LCPN_3-Longest-Substring-Without-Repeating-Characters.py",
+            "Source_Code": "res = max(res, r - l + 1)",
+            "Mutate_Code": "res = max(res, r - l 1)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T3_LCPN_3-Longest-Substring-Without-Repeating-Characters.py",
+            "Source_Code": "res = max(res, r - l + 1)",
+            "Mutate_Code": "res = max(res, r l + 1)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T3_LCPN_3-Longest-Substring-Without-Repeating-Characters.py",
+            "Source_Code": "res = max(res, r - l + 1)",
+            "Mutate_Code": "res = max(res, r - l - 1)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T3_LCPN_3-Longest-Substring-Without-Repeating-Characters.py",
+            "Source_Code": "res = max(res, r - l + 1)",
+            "Mutate_Code": "res = max(res, r - l * 1)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T3_LCPN_3-Longest-Substring-Without-Repeating-Characters.py",
+            "Source_Code": "res = max(res, r - l + 1)",
+            "Mutate_Code": "res = max(res, r - l / 1)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T3_LCPN_3-Longest-Substring-Without-Repeating-Characters.py",
+            "Source_Code": "res = max(res, r - l + 1)",
+            "Mutate_Code": "res = max(res, r - l % 1)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T3_LCPN_3-Longest-Substring-Without-Repeating-Characters.py",
+            "Source_Code": "res = max(res, r - l + 1)",
+            "Mutate_Code": "res = max(res, r - l ** 1)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T3_LCPN_3-Longest-Substring-Without-Repeating-Characters.py",
+            "Source_Code": "res = max(res, r - l + 1)",
+            "Mutate_Code": "res = max(res, r - l // 1)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T3_LCPN_3-Longest-Substring-Without-Repeating-Characters.py",
+            "Source_Code": "res = max(res, r - l + 1)",
+            "Mutate_Code": "res = max(res, r + l + 1)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T3_LCPN_3-Longest-Substring-Without-Repeating-Characters.py",
+            "Source_Code": "res = max(res, r - l + 1)",
+            "Mutate_Code": "res = max(res, r * l + 1)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T3_LCPN_3-Longest-Substring-Without-Repeating-Characters.py",
+            "Source_Code": "res = max(res, r - l + 1)",
+            "Mutate_Code": "res = max(res, r / l + 1)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T3_LCPN_3-Longest-Substring-Without-Repeating-Characters.py",
+            "Source_Code": "res = max(res, r - l + 1)",
+            "Mutate_Code": "res = max(res, r % l + 1)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T3_LCPN_3-Longest-Substring-Without-Repeating-Characters.py",
+            "Source_Code": "res = max(res, r - l + 1)",
+            "Mutate_Code": "res = max(res, r ** l + 1)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T3_LCPN_3-Longest-Substring-Without-Repeating-Characters.py",
+            "Source_Code": "res = max(res, r - l + 1)",
+            "Mutate_Code": "res = max(res, r // l + 1)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T3_LCPN_3-Longest-Substring-Without-Repeating-Characters.py",
+            "Source_Code": "res = max(res, r - l + 1)",
+            "Mutate_Code": "res = max(res, r - l ++ 1)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T3_LCPN_3-Longest-Substring-Without-Repeating-Characters.py",
+            "Source_Code": "res = max(res, r - l + 1)",
+            "Mutate_Code": "res = max(res, r - l -- 1)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T3_LCPN_3-Longest-Substring-Without-Repeating-Characters.py",
+            "Source_Code": "res = max(res, r - l + 1)",
+            "Mutate_Code": "res = max(res, r - l ** 1)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T3_LCPN_3-Longest-Substring-Without-Repeating-Characters.py",
+            "Source_Code": "res = max(res, r - l + 1)",
+            "Mutate_Code": "res = max(res, r - l // 1)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T3_LCPN_3-Longest-Substring-Without-Repeating-Characters.py",
+            "Source_Code": "res = max(res, r - l + 1)",
+            "Mutate_Code": "res = max(res, r - l %% 1)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T3_LCPN_3-Longest-Substring-Without-Repeating-Characters.py",
+            "Source_Code": "res = max(res, r - l + 1)",
+            "Mutate_Code": "res = max(res, r - l **** 1)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T3_LCPN_3-Longest-Substring-Without-Repeating-Characters.py",
+            "Source_Code": "res = max(res, r - l + 1)",
+            "Mutate_Code": "res = max(res, r - l //// 1)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T3_LCPN_3-Longest-Substring-Without-Repeating-Characters.py",
+            "Source_Code": "res = max(res, r - l + 1)",
+            "Mutate_Code": "res = max(res, r ++ l + 1)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T3_LCPN_3-Longest-Substring-Without-Repeating-Characters.py",
+            "Source_Code": "res = max(res, r - l + 1)",
+            "Mutate_Code": "res = max(res, r -- l + 1)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T3_LCPN_3-Longest-Substring-Without-Repeating-Characters.py",
+            "Source_Code": "res = max(res, r - l + 1)",
+            "Mutate_Code": "res = max(res, r ** l + 1)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T3_LCPN_3-Longest-Substring-Without-Repeating-Characters.py",
+            "Source_Code": "res = max(res, r - l + 1)",
+            "Mutate_Code": "res = max(res, r // l + 1)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T3_LCPN_3-Longest-Substring-Without-Repeating-Characters.py",
+            "Source_Code": "res = max(res, r - l + 1)",
+            "Mutate_Code": "res = max(res, r %% l + 1)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T3_LCPN_3-Longest-Substring-Without-Repeating-Characters.py",
+            "Source_Code": "res = max(res, r - l + 1)",
+            "Mutate_Code": "res = max(res, r **** l + 1)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T3_LCPN_3-Longest-Substring-Without-Repeating-Characters.py",
+            "Source_Code": "res = max(res, r - l + 1)",
+            "Mutate_Code": "res = max(res, r //// l + 1)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T3_LCPN_3-Longest-Substring-Without-Repeating-Characters.py",
+            "Source_Code": "res = max(res, r - l + 1)",
+            "Mutate_Code": "res max(res, r - l + 1)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T3_LCPN_3-Longest-Substring-Without-Repeating-Characters.py",
+            "Source_Code": "res = max(res, r - l + 1)",
+            "Mutate_Code": "res max(res, r - l + 1)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T3_LCPN_3-Longest-Substring-Without-Repeating-Characters.py",
+            "Source_Code": "res = max(res, r - l + 1)",
+            "Mutate_Code": "res += max(res, r - l + 1)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T3_LCPN_3-Longest-Substring-Without-Repeating-Characters.py",
+            "Source_Code": "res = max(res, r - l + 1)",
+            "Mutate_Code": "res -= max(res, r - l + 1)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T3_LCPN_3-Longest-Substring-Without-Repeating-Characters.py",
+            "Source_Code": "res = max(res, r - l + 1)",
+            "Mutate_Code": "res *= max(res, r - l + 1)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T3_LCPN_3-Longest-Substring-Without-Repeating-Characters.py",
+            "Source_Code": "res = max(res, r - l + 1)",
+            "Mutate_Code": "res /= max(res, r - l + 1)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T3_LCPN_3-Longest-Substring-Without-Repeating-Characters.py",
+            "Source_Code": "res = max(res, r - l + 1)",
+            "Mutate_Code": "res %= max(res, r - l + 1)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T3_LCPN_3-Longest-Substring-Without-Repeating-Characters.py",
+            "Source_Code": "res = max(res, r - l + 1)",
+            "Mutate_Code": "res //= max(res, r - l + 1)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T3_LCPN_3-Longest-Substring-Without-Repeating-Characters.py",
+            "Source_Code": "res = max(res, r - l + 1)",
+            "Mutate_Code": "res **= max(res, r - l + 1)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T3_LCPN_3-Longest-Substring-Without-Repeating-Characters.py",
+            "Source_Code": "res = max(res, r - l + 1)",
+            "Mutate_Code": "res &= max(res, r - l + 1)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T3_LCPN_3-Longest-Substring-Without-Repeating-Characters.py",
+            "Source_Code": "res = max(res, r - l + 1)",
+            "Mutate_Code": "res |= max(res, r - l + 1)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T3_LCPN_3-Longest-Substring-Without-Repeating-Characters.py",
+            "Source_Code": "res = max(res, r - l + 1)",
+            "Mutate_Code": "res ^= max(res, r - l + 1)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T3_LCPN_3-Longest-Substring-Without-Repeating-Characters.py",
+            "Source_Code": "res = max(res, r - l + 1)",
+            "Mutate_Code": "res >>= max(res, r - l + 1)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T3_LCPN_3-Longest-Substring-Without-Repeating-Characters.py",
+            "Source_Code": "res = max(res, r - l + 1)",
+            "Mutate_Code": "res <<= max(res, r - l + 1)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T3_LCPN_3-Longest-Substring-Without-Repeating-Characters.py",
+            "Source_Code": "res = max(res, r - l + 1)",
+            "Mutate_Code": "res += max(res, r - l + 1)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T3_LCPN_3-Longest-Substring-Without-Repeating-Characters.py",
+            "Source_Code": "res = max(res, r - l + 1)",
+            "Mutate_Code": "res -= max(res, r - l + 1)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T3_LCPN_3-Longest-Substring-Without-Repeating-Characters.py",
+            "Source_Code": "res = max(res, r - l + 1)",
+            "Mutate_Code": "res *= max(res, r - l + 1)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T3_LCPN_3-Longest-Substring-Without-Repeating-Characters.py",
+            "Source_Code": "res = max(res, r - l + 1)",
+            "Mutate_Code": "res /= max(res, r - l + 1)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T3_LCPN_3-Longest-Substring-Without-Repeating-Characters.py",
+            "Source_Code": "res = max(res, r - l + 1)",
+            "Mutate_Code": "res %= max(res, r - l + 1)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T3_LCPN_3-Longest-Substring-Without-Repeating-Characters.py",
+            "Source_Code": "res = max(res, r - l + 1)",
+            "Mutate_Code": "res //= max(res, r - l + 1)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T3_LCPN_3-Longest-Substring-Without-Repeating-Characters.py",
+            "Source_Code": "res = max(res, r - l + 1)",
+            "Mutate_Code": "res **= max(res, r - l + 1)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T3_LCPN_3-Longest-Substring-Without-Repeating-Characters.py",
+            "Source_Code": "res = max(res, r - l + 1)",
+            "Mutate_Code": "res &= max(res, r - l + 1)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T3_LCPN_3-Longest-Substring-Without-Repeating-Characters.py",
+            "Source_Code": "res = max(res, r - l + 1)",
+            "Mutate_Code": "res |= max(res, r - l + 1)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T3_LCPN_3-Longest-Substring-Without-Repeating-Characters.py",
+            "Source_Code": "res = max(res, r - l + 1)",
+            "Mutate_Code": "res ^= max(res, r - l + 1)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T3_LCPN_3-Longest-Substring-Without-Repeating-Characters.py",
+            "Source_Code": "res = max(res, r - l + 1)",
+            "Mutate_Code": "res >>= max(res, r - l + 1)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T3_LCPN_3-Longest-Substring-Without-Repeating-Characters.py",
+            "Source_Code": "res = max(res, r - l + 1)",
+            "Mutate_Code": "res <<= max(res, r - l + 1)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T3_LCPN_3-Longest-Substring-Without-Repeating-Characters.py",
+            "Source_Code": "res = max(res, r - l + 1)",
+            "Mutate_Code": "res == max(res, r - l + 1)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T3_LCPN_3-Longest-Substring-Without-Repeating-Characters.py",
+            "Source_Code": "res = max(res, r - l + 1)",
+            "Mutate_Code": "res +=+= max(res, r - l + 1)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T3_LCPN_3-Longest-Substring-Without-Repeating-Characters.py",
+            "Source_Code": "res = max(res, r - l + 1)",
+            "Mutate_Code": "res -=-= max(res, r - l + 1)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T3_LCPN_3-Longest-Substring-Without-Repeating-Characters.py",
+            "Source_Code": "res = max(res, r - l + 1)",
+            "Mutate_Code": "res *=*= max(res, r - l + 1)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T3_LCPN_3-Longest-Substring-Without-Repeating-Characters.py",
+            "Source_Code": "res = max(res, r - l + 1)",
+            "Mutate_Code": "res /=/= max(res, r - l + 1)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T3_LCPN_3-Longest-Substring-Without-Repeating-Characters.py",
+            "Source_Code": "res = max(res, r - l + 1)",
+            "Mutate_Code": "res %=%= max(res, r - l + 1)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T3_LCPN_3-Longest-Substring-Without-Repeating-Characters.py",
+            "Source_Code": "res = max(res, r - l + 1)",
+            "Mutate_Code": "res //=//= max(res, r - l + 1)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T3_LCPN_3-Longest-Substring-Without-Repeating-Characters.py",
+            "Source_Code": "res = max(res, r - l + 1)",
+            "Mutate_Code": "res **=**= max(res, r - l + 1)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T3_LCPN_3-Longest-Substring-Without-Repeating-Characters.py",
+            "Source_Code": "res = max(res, r - l + 1)",
+            "Mutate_Code": "res &=&= max(res, r - l + 1)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T3_LCPN_3-Longest-Substring-Without-Repeating-Characters.py",
+            "Source_Code": "res = max(res, r - l + 1)",
+            "Mutate_Code": "res |=|= max(res, r - l + 1)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T3_LCPN_3-Longest-Substring-Without-Repeating-Characters.py",
+            "Source_Code": "res = max(res, r - l + 1)",
+            "Mutate_Code": "res ^=^= max(res, r - l + 1)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T3_LCPN_3-Longest-Substring-Without-Repeating-Characters.py",
+            "Source_Code": "res = max(res, r - l + 1)",
+            "Mutate_Code": "res >>=>>= max(res, r - l + 1)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T3_LCPN_3-Longest-Substring-Without-Repeating-Characters.py",
+            "Source_Code": "res = max(res, r - l + 1)",
+            "Mutate_Code": "res <<=<<=max(res, r - l + 1)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T3_LCPN_3-Longest-Substring-Without-Repeating-Characters.py",
+            "Source_Code": "res = max(res, r - l + 1)",
+            "Mutate_Code": "res == max(res, r - l + 1)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T3_LCPN_3-Longest-Substring-Without-Repeating-Characters.py",
+            "Source_Code": "res = max(res, r - l + 1)",
+            "Mutate_Code": "res +=+= max(res, r - l + 1)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T3_LCPN_3-Longest-Substring-Without-Repeating-Characters.py",
+            "Source_Code": "res = max(res, r - l + 1)",
+            "Mutate_Code": "res -=-= max(res, r - l + 1)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T3_LCPN_3-Longest-Substring-Without-Repeating-Characters.py",
+            "Source_Code": "res = max(res, r - l + 1)",
+            "Mutate_Code": "res *=*= max(res, r - l + 1)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T3_LCPN_3-Longest-Substring-Without-Repeating-Characters.py",
+            "Source_Code": "res = max(res, r - l + 1)",
+            "Mutate_Code": "res /=/= max(res, r - l + 1)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T3_LCPN_3-Longest-Substring-Without-Repeating-Characters.py",
+            "Source_Code": "res = max(res, r - l + 1)",
+            "Mutate_Code": "res %=%= max(res, r - l + 1)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T3_LCPN_3-Longest-Substring-Without-Repeating-Characters.py",
+            "Source_Code": "res = max(res, r - l + 1)",
+            "Mutate_Code": "res //=//= max(res, r - l + 1)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T3_LCPN_3-Longest-Substring-Without-Repeating-Characters.py",
+            "Source_Code": "res = max(res, r - l + 1)",
+            "Mutate_Code": "res **=**= max(res, r - l + 1)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T3_LCPN_3-Longest-Substring-Without-Repeating-Characters.py",
+            "Source_Code": "res = max(res, r - l + 1)",
+            "Mutate_Code": "res &=&= max(res, r - l + 1)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T3_LCPN_3-Longest-Substring-Without-Repeating-Characters.py",
+            "Source_Code": "res = max(res, r - l + 1)",
+            "Mutate_Code": "res |=|= max(res, r - l + 1)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T3_LCPN_3-Longest-Substring-Without-Repeating-Characters.py",
+            "Source_Code": "res = max(res, r - l + 1)",
+            "Mutate_Code": "res ^=^= max(res, r - l + 1)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T3_LCPN_3-Longest-Substring-Without-Repeating-Characters.py",
+            "Source_Code": "res = max(res, r - l + 1)",
+            "Mutate_Code": "res >>=>>= max(res, r - l + 1)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T3_LCPN_3-Longest-Substring-Without-Repeating-Characters.py",
+            "Source_Code": "res = max(res, r - l + 1)",
+            "Mutate_Code": "res <<=<<=max(res, r - l + 1)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T3_LCPN_3-Longest-Substring-Without-Repeating-Characters.py",
+            "Source_Code": "res = max(res, r - l + 1)",
+            "Mutate_Code": "res = max( )"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T3_LCPN_3-Longest-Substring-Without-Repeating-Characters.py",
+            "Source_Code": "return res",
+            "Mutate_Code": " res"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T3_LCPN_3-Longest-Substring-Without-Repeating-Characters.py",
+            "Source_Code": "return res",
+            "Mutate_Code": "passres"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T3_LCPN_3-Longest-Substring-Without-Repeating-Characters.py",
+            "Source_Code": "return res",
+            "Mutate_Code": "return returnres"
+        }
+    }
+]

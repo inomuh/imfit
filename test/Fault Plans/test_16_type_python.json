@@ -1,0 +1,2361 @@
+[
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T16_LCPN_28-Implement-strStr.py",
+            "Source_Code": "if needle == \"\":",
+            "Mutate_Code": "if needle   \"\":"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T16_LCPN_28-Implement-strStr.py",
+            "Source_Code": "if needle == \"\":",
+            "Mutate_Code": "if needle != \"\":"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T16_LCPN_28-Implement-strStr.py",
+            "Source_Code": "if needle == \"\":",
+            "Mutate_Code": "if needle > \"\":"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T16_LCPN_28-Implement-strStr.py",
+            "Source_Code": "if needle == \"\":",
+            "Mutate_Code": "if needle < \"\":"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T16_LCPN_28-Implement-strStr.py",
+            "Source_Code": "if needle == \"\":",
+            "Mutate_Code": "if needle >= \"\":"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T16_LCPN_28-Implement-strStr.py",
+            "Source_Code": "if needle == \"\":",
+            "Mutate_Code": "if needle <= \"\":"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T16_LCPN_28-Implement-strStr.py",
+            "Source_Code": "if needle == \"\":",
+            "Mutate_Code": "if needle  ====  \"\":"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T16_LCPN_28-Implement-strStr.py",
+            "Source_Code": "if needle == \"\":",
+            "Mutate_Code": "if needle  !==  \"\":"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T16_LCPN_28-Implement-strStr.py",
+            "Source_Code": "if needle == \"\":",
+            "Mutate_Code": "if needle  >>  \"\":"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T16_LCPN_28-Implement-strStr.py",
+            "Source_Code": "if needle == \"\":",
+            "Mutate_Code": "if needle  <<  \"\":"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T16_LCPN_28-Implement-strStr.py",
+            "Source_Code": "if needle == \"\":",
+            "Mutate_Code": "if needle  >=>=  \"\":"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T16_LCPN_28-Implement-strStr.py",
+            "Source_Code": "if needle == \"\":",
+            "Mutate_Code": "if needle  <=<=  \"\":"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T16_LCPN_28-Implement-strStr.py",
+            "Source_Code": "if needle == \"\":",
+            "Mutate_Code": " "
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T16_LCPN_28-Implement-strStr.py",
+            "Source_Code": "if needle == \"\":",
+            "Mutate_Code": "elif:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T16_LCPN_28-Implement-strStr.py",
+            "Source_Code": "if needle == \"\":",
+            "Mutate_Code": "else:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T16_LCPN_28-Implement-strStr.py",
+            "Source_Code": "if needle == \"\":",
+            "Mutate_Code": "if if"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T16_LCPN_28-Implement-strStr.py",
+            "Source_Code": "return 0",
+            "Mutate_Code": " 0"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T16_LCPN_28-Implement-strStr.py",
+            "Source_Code": "return 0",
+            "Mutate_Code": "pass0"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T16_LCPN_28-Implement-strStr.py",
+            "Source_Code": "return 0",
+            "Mutate_Code": "return return0"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T16_LCPN_28-Implement-strStr.py",
+            "Source_Code": "lps = [0] * len(needle)",
+            "Mutate_Code": "lps = [0] len(needle)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T16_LCPN_28-Implement-strStr.py",
+            "Source_Code": "lps = [0] * len(needle)",
+            "Mutate_Code": "lps = [0] len(needle)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T16_LCPN_28-Implement-strStr.py",
+            "Source_Code": "lps = [0] * len(needle)",
+            "Mutate_Code": "lps = [0] + len(needle)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T16_LCPN_28-Implement-strStr.py",
+            "Source_Code": "lps = [0] * len(needle)",
+            "Mutate_Code": "lps = [0] - len(needle)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T16_LCPN_28-Implement-strStr.py",
+            "Source_Code": "lps = [0] * len(needle)",
+            "Mutate_Code": "lps = [0] / len(needle)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T16_LCPN_28-Implement-strStr.py",
+            "Source_Code": "lps = [0] * len(needle)",
+            "Mutate_Code": "lps = [0] % len(needle)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T16_LCPN_28-Implement-strStr.py",
+            "Source_Code": "lps = [0] * len(needle)",
+            "Mutate_Code": "lps = [0] ** len(needle)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T16_LCPN_28-Implement-strStr.py",
+            "Source_Code": "lps = [0] * len(needle)",
+            "Mutate_Code": "lps = [0] // len(needle)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T16_LCPN_28-Implement-strStr.py",
+            "Source_Code": "lps = [0] * len(needle)",
+            "Mutate_Code": "lps = [0] + len(needle)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T16_LCPN_28-Implement-strStr.py",
+            "Source_Code": "lps = [0] * len(needle)",
+            "Mutate_Code": "lps = [0] - len(needle)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T16_LCPN_28-Implement-strStr.py",
+            "Source_Code": "lps = [0] * len(needle)",
+            "Mutate_Code": "lps = [0] / len(needle)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T16_LCPN_28-Implement-strStr.py",
+            "Source_Code": "lps = [0] * len(needle)",
+            "Mutate_Code": "lps = [0] % len(needle)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T16_LCPN_28-Implement-strStr.py",
+            "Source_Code": "lps = [0] * len(needle)",
+            "Mutate_Code": "lps = [0] ** len(needle)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T16_LCPN_28-Implement-strStr.py",
+            "Source_Code": "lps = [0] * len(needle)",
+            "Mutate_Code": "lps = [0] // len(needle)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T16_LCPN_28-Implement-strStr.py",
+            "Source_Code": "lps = [0] * len(needle)",
+            "Mutate_Code": "lps = [0] ++ len(needle)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T16_LCPN_28-Implement-strStr.py",
+            "Source_Code": "lps = [0] * len(needle)",
+            "Mutate_Code": "lps = [0] -- len(needle)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T16_LCPN_28-Implement-strStr.py",
+            "Source_Code": "lps = [0] * len(needle)",
+            "Mutate_Code": "lps = [0] ** len(needle)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T16_LCPN_28-Implement-strStr.py",
+            "Source_Code": "lps = [0] * len(needle)",
+            "Mutate_Code": "lps = [0] // len(needle)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T16_LCPN_28-Implement-strStr.py",
+            "Source_Code": "lps = [0] * len(needle)",
+            "Mutate_Code": "lps = [0] %% len(needle)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T16_LCPN_28-Implement-strStr.py",
+            "Source_Code": "lps = [0] * len(needle)",
+            "Mutate_Code": "lps = [0] **** len(needle)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T16_LCPN_28-Implement-strStr.py",
+            "Source_Code": "lps = [0] * len(needle)",
+            "Mutate_Code": "lps = [0] //// len(needle)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T16_LCPN_28-Implement-strStr.py",
+            "Source_Code": "lps = [0] * len(needle)",
+            "Mutate_Code": "lps = [0] ++ len(needle)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T16_LCPN_28-Implement-strStr.py",
+            "Source_Code": "lps = [0] * len(needle)",
+            "Mutate_Code": "lps = [0] -- len(needle)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T16_LCPN_28-Implement-strStr.py",
+            "Source_Code": "lps = [0] * len(needle)",
+            "Mutate_Code": "lps = [0] ** len(needle)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T16_LCPN_28-Implement-strStr.py",
+            "Source_Code": "lps = [0] * len(needle)",
+            "Mutate_Code": "lps = [0] // len(needle)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T16_LCPN_28-Implement-strStr.py",
+            "Source_Code": "lps = [0] * len(needle)",
+            "Mutate_Code": "lps = [0] %% len(needle)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T16_LCPN_28-Implement-strStr.py",
+            "Source_Code": "lps = [0] * len(needle)",
+            "Mutate_Code": "lps = [0] **** len(needle)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T16_LCPN_28-Implement-strStr.py",
+            "Source_Code": "lps = [0] * len(needle)",
+            "Mutate_Code": "lps = [0] //// len(needle)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T16_LCPN_28-Implement-strStr.py",
+            "Source_Code": "lps = [0] * len(needle)",
+            "Mutate_Code": "lps [0] * len(needle)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T16_LCPN_28-Implement-strStr.py",
+            "Source_Code": "lps = [0] * len(needle)",
+            "Mutate_Code": "lps [0] * len(needle)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T16_LCPN_28-Implement-strStr.py",
+            "Source_Code": "lps = [0] * len(needle)",
+            "Mutate_Code": "lps += [0] * len(needle)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T16_LCPN_28-Implement-strStr.py",
+            "Source_Code": "lps = [0] * len(needle)",
+            "Mutate_Code": "lps -= [0] * len(needle)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T16_LCPN_28-Implement-strStr.py",
+            "Source_Code": "lps = [0] * len(needle)",
+            "Mutate_Code": "lps *= [0] * len(needle)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T16_LCPN_28-Implement-strStr.py",
+            "Source_Code": "lps = [0] * len(needle)",
+            "Mutate_Code": "lps /= [0] * len(needle)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T16_LCPN_28-Implement-strStr.py",
+            "Source_Code": "lps = [0] * len(needle)",
+            "Mutate_Code": "lps %= [0] * len(needle)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T16_LCPN_28-Implement-strStr.py",
+            "Source_Code": "lps = [0] * len(needle)",
+            "Mutate_Code": "lps //= [0] * len(needle)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T16_LCPN_28-Implement-strStr.py",
+            "Source_Code": "lps = [0] * len(needle)",
+            "Mutate_Code": "lps **= [0] * len(needle)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T16_LCPN_28-Implement-strStr.py",
+            "Source_Code": "lps = [0] * len(needle)",
+            "Mutate_Code": "lps &= [0] * len(needle)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T16_LCPN_28-Implement-strStr.py",
+            "Source_Code": "lps = [0] * len(needle)",
+            "Mutate_Code": "lps |= [0] * len(needle)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T16_LCPN_28-Implement-strStr.py",
+            "Source_Code": "lps = [0] * len(needle)",
+            "Mutate_Code": "lps ^= [0] * len(needle)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T16_LCPN_28-Implement-strStr.py",
+            "Source_Code": "lps = [0] * len(needle)",
+            "Mutate_Code": "lps >>= [0] * len(needle)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T16_LCPN_28-Implement-strStr.py",
+            "Source_Code": "lps = [0] * len(needle)",
+            "Mutate_Code": "lps <<= [0] * len(needle)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T16_LCPN_28-Implement-strStr.py",
+            "Source_Code": "lps = [0] * len(needle)",
+            "Mutate_Code": "lps += [0] * len(needle)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T16_LCPN_28-Implement-strStr.py",
+            "Source_Code": "lps = [0] * len(needle)",
+            "Mutate_Code": "lps -= [0] * len(needle)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T16_LCPN_28-Implement-strStr.py",
+            "Source_Code": "lps = [0] * len(needle)",
+            "Mutate_Code": "lps *= [0] * len(needle)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T16_LCPN_28-Implement-strStr.py",
+            "Source_Code": "lps = [0] * len(needle)",
+            "Mutate_Code": "lps /= [0] * len(needle)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T16_LCPN_28-Implement-strStr.py",
+            "Source_Code": "lps = [0] * len(needle)",
+            "Mutate_Code": "lps %= [0] * len(needle)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T16_LCPN_28-Implement-strStr.py",
+            "Source_Code": "lps = [0] * len(needle)",
+            "Mutate_Code": "lps //= [0] * len(needle)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T16_LCPN_28-Implement-strStr.py",
+            "Source_Code": "lps = [0] * len(needle)",
+            "Mutate_Code": "lps **= [0] * len(needle)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T16_LCPN_28-Implement-strStr.py",
+            "Source_Code": "lps = [0] * len(needle)",
+            "Mutate_Code": "lps &= [0] * len(needle)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T16_LCPN_28-Implement-strStr.py",
+            "Source_Code": "lps = [0] * len(needle)",
+            "Mutate_Code": "lps |= [0] * len(needle)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T16_LCPN_28-Implement-strStr.py",
+            "Source_Code": "lps = [0] * len(needle)",
+            "Mutate_Code": "lps ^= [0] * len(needle)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T16_LCPN_28-Implement-strStr.py",
+            "Source_Code": "lps = [0] * len(needle)",
+            "Mutate_Code": "lps >>= [0] * len(needle)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T16_LCPN_28-Implement-strStr.py",
+            "Source_Code": "lps = [0] * len(needle)",
+            "Mutate_Code": "lps <<= [0] * len(needle)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T16_LCPN_28-Implement-strStr.py",
+            "Source_Code": "lps = [0] * len(needle)",
+            "Mutate_Code": "lps == [0] * len(needle)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T16_LCPN_28-Implement-strStr.py",
+            "Source_Code": "lps = [0] * len(needle)",
+            "Mutate_Code": "lps +=+= [0] * len(needle)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T16_LCPN_28-Implement-strStr.py",
+            "Source_Code": "lps = [0] * len(needle)",
+            "Mutate_Code": "lps -=-= [0] * len(needle)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T16_LCPN_28-Implement-strStr.py",
+            "Source_Code": "lps = [0] * len(needle)",
+            "Mutate_Code": "lps *=*= [0] * len(needle)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T16_LCPN_28-Implement-strStr.py",
+            "Source_Code": "lps = [0] * len(needle)",
+            "Mutate_Code": "lps /=/= [0] * len(needle)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T16_LCPN_28-Implement-strStr.py",
+            "Source_Code": "lps = [0] * len(needle)",
+            "Mutate_Code": "lps %=%= [0] * len(needle)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T16_LCPN_28-Implement-strStr.py",
+            "Source_Code": "lps = [0] * len(needle)",
+            "Mutate_Code": "lps //=//= [0] * len(needle)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T16_LCPN_28-Implement-strStr.py",
+            "Source_Code": "lps = [0] * len(needle)",
+            "Mutate_Code": "lps **=**= [0] * len(needle)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T16_LCPN_28-Implement-strStr.py",
+            "Source_Code": "lps = [0] * len(needle)",
+            "Mutate_Code": "lps &=&= [0] * len(needle)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T16_LCPN_28-Implement-strStr.py",
+            "Source_Code": "lps = [0] * len(needle)",
+            "Mutate_Code": "lps |=|= [0] * len(needle)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T16_LCPN_28-Implement-strStr.py",
+            "Source_Code": "lps = [0] * len(needle)",
+            "Mutate_Code": "lps ^=^= [0] * len(needle)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T16_LCPN_28-Implement-strStr.py",
+            "Source_Code": "lps = [0] * len(needle)",
+            "Mutate_Code": "lps >>=>>= [0] * len(needle)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T16_LCPN_28-Implement-strStr.py",
+            "Source_Code": "lps = [0] * len(needle)",
+            "Mutate_Code": "lps <<=<<=[0] * len(needle)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T16_LCPN_28-Implement-strStr.py",
+            "Source_Code": "lps = [0] * len(needle)",
+            "Mutate_Code": "lps == [0] * len(needle)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T16_LCPN_28-Implement-strStr.py",
+            "Source_Code": "lps = [0] * len(needle)",
+            "Mutate_Code": "lps +=+= [0] * len(needle)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T16_LCPN_28-Implement-strStr.py",
+            "Source_Code": "lps = [0] * len(needle)",
+            "Mutate_Code": "lps -=-= [0] * len(needle)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T16_LCPN_28-Implement-strStr.py",
+            "Source_Code": "lps = [0] * len(needle)",
+            "Mutate_Code": "lps *=*= [0] * len(needle)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T16_LCPN_28-Implement-strStr.py",
+            "Source_Code": "lps = [0] * len(needle)",
+            "Mutate_Code": "lps /=/= [0] * len(needle)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T16_LCPN_28-Implement-strStr.py",
+            "Source_Code": "lps = [0] * len(needle)",
+            "Mutate_Code": "lps %=%= [0] * len(needle)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T16_LCPN_28-Implement-strStr.py",
+            "Source_Code": "lps = [0] * len(needle)",
+            "Mutate_Code": "lps //=//= [0] * len(needle)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T16_LCPN_28-Implement-strStr.py",
+            "Source_Code": "lps = [0] * len(needle)",
+            "Mutate_Code": "lps **=**= [0] * len(needle)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T16_LCPN_28-Implement-strStr.py",
+            "Source_Code": "lps = [0] * len(needle)",
+            "Mutate_Code": "lps &=&= [0] * len(needle)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T16_LCPN_28-Implement-strStr.py",
+            "Source_Code": "lps = [0] * len(needle)",
+            "Mutate_Code": "lps |=|= [0] * len(needle)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T16_LCPN_28-Implement-strStr.py",
+            "Source_Code": "lps = [0] * len(needle)",
+            "Mutate_Code": "lps ^=^= [0] * len(needle)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T16_LCPN_28-Implement-strStr.py",
+            "Source_Code": "lps = [0] * len(needle)",
+            "Mutate_Code": "lps >>=>>= [0] * len(needle)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T16_LCPN_28-Implement-strStr.py",
+            "Source_Code": "lps = [0] * len(needle)",
+            "Mutate_Code": "lps <<=<<=[0] * len(needle)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T16_LCPN_28-Implement-strStr.py",
+            "Source_Code": "lps = [0] * len(needle)",
+            "Mutate_Code": "lps = [0] * len( )"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T16_LCPN_28-Implement-strStr.py",
+            "Source_Code": "while i < len(needle):",
+            "Mutate_Code": "while i   len(needle):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T16_LCPN_28-Implement-strStr.py",
+            "Source_Code": "while i < len(needle):",
+            "Mutate_Code": "while i == len(needle):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T16_LCPN_28-Implement-strStr.py",
+            "Source_Code": "while i < len(needle):",
+            "Mutate_Code": "while i != len(needle):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T16_LCPN_28-Implement-strStr.py",
+            "Source_Code": "while i < len(needle):",
+            "Mutate_Code": "while i > len(needle):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T16_LCPN_28-Implement-strStr.py",
+            "Source_Code": "while i < len(needle):",
+            "Mutate_Code": "while i >= len(needle):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T16_LCPN_28-Implement-strStr.py",
+            "Source_Code": "while i < len(needle):",
+            "Mutate_Code": "while i <= len(needle):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T16_LCPN_28-Implement-strStr.py",
+            "Source_Code": "while i < len(needle):",
+            "Mutate_Code": "while i  ====  len(needle):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T16_LCPN_28-Implement-strStr.py",
+            "Source_Code": "while i < len(needle):",
+            "Mutate_Code": "while i  !==  len(needle):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T16_LCPN_28-Implement-strStr.py",
+            "Source_Code": "while i < len(needle):",
+            "Mutate_Code": "while i  >>  len(needle):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T16_LCPN_28-Implement-strStr.py",
+            "Source_Code": "while i < len(needle):",
+            "Mutate_Code": "while i  <<  len(needle):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T16_LCPN_28-Implement-strStr.py",
+            "Source_Code": "while i < len(needle):",
+            "Mutate_Code": "while i  >=>=  len(needle):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T16_LCPN_28-Implement-strStr.py",
+            "Source_Code": "while i < len(needle):",
+            "Mutate_Code": "while i  <=<=  len(needle):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T16_LCPN_28-Implement-strStr.py",
+            "Source_Code": "while i < len(needle):",
+            "Mutate_Code": " "
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T16_LCPN_28-Implement-strStr.py",
+            "Source_Code": "while i < len(needle):",
+            "Mutate_Code": "for "
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T16_LCPN_28-Implement-strStr.py",
+            "Source_Code": "while i < len(needle):",
+            "Mutate_Code": "while while:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T16_LCPN_28-Implement-strStr.py",
+            "Source_Code": "while i < len(needle):",
+            "Mutate_Code": "while i < len( ):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T16_LCPN_28-Implement-strStr.py",
+            "Source_Code": "while i < len(needle):",
+            "Mutate_Code": "while i   len(needle):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T16_LCPN_28-Implement-strStr.py",
+            "Source_Code": "while i < len(needle):",
+            "Mutate_Code": "while i == len(needle):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T16_LCPN_28-Implement-strStr.py",
+            "Source_Code": "while i < len(needle):",
+            "Mutate_Code": "while i != len(needle):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T16_LCPN_28-Implement-strStr.py",
+            "Source_Code": "while i < len(needle):",
+            "Mutate_Code": "while i > len(needle):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T16_LCPN_28-Implement-strStr.py",
+            "Source_Code": "while i < len(needle):",
+            "Mutate_Code": "while i >= len(needle):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T16_LCPN_28-Implement-strStr.py",
+            "Source_Code": "while i < len(needle):",
+            "Mutate_Code": "while i <= len(needle):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T16_LCPN_28-Implement-strStr.py",
+            "Source_Code": "while i < len(needle):",
+            "Mutate_Code": "while i  ====  len(needle):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T16_LCPN_28-Implement-strStr.py",
+            "Source_Code": "while i < len(needle):",
+            "Mutate_Code": "while i  !==  len(needle):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T16_LCPN_28-Implement-strStr.py",
+            "Source_Code": "while i < len(needle):",
+            "Mutate_Code": "while i  >>  len(needle):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T16_LCPN_28-Implement-strStr.py",
+            "Source_Code": "while i < len(needle):",
+            "Mutate_Code": "while i  <<  len(needle):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T16_LCPN_28-Implement-strStr.py",
+            "Source_Code": "while i < len(needle):",
+            "Mutate_Code": "while i  >=>=  len(needle):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T16_LCPN_28-Implement-strStr.py",
+            "Source_Code": "while i < len(needle):",
+            "Mutate_Code": "while i  <=<=  len(needle):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T16_LCPN_28-Implement-strStr.py",
+            "Source_Code": "while i < len(needle):",
+            "Mutate_Code": " "
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T16_LCPN_28-Implement-strStr.py",
+            "Source_Code": "while i < len(needle):",
+            "Mutate_Code": "for "
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T16_LCPN_28-Implement-strStr.py",
+            "Source_Code": "while i < len(needle):",
+            "Mutate_Code": "while while:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T16_LCPN_28-Implement-strStr.py",
+            "Source_Code": "while i < len(needle):",
+            "Mutate_Code": "while i < len( ):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T16_LCPN_28-Implement-strStr.py",
+            "Source_Code": "if needle[i] == needle[prevLPS]:",
+            "Mutate_Code": "if needle[i]   needle[prevLPS]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T16_LCPN_28-Implement-strStr.py",
+            "Source_Code": "if needle[i] == needle[prevLPS]:",
+            "Mutate_Code": "if needle[i] != needle[prevLPS]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T16_LCPN_28-Implement-strStr.py",
+            "Source_Code": "if needle[i] == needle[prevLPS]:",
+            "Mutate_Code": "if needle[i] > needle[prevLPS]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T16_LCPN_28-Implement-strStr.py",
+            "Source_Code": "if needle[i] == needle[prevLPS]:",
+            "Mutate_Code": "if needle[i] < needle[prevLPS]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T16_LCPN_28-Implement-strStr.py",
+            "Source_Code": "if needle[i] == needle[prevLPS]:",
+            "Mutate_Code": "if needle[i] >= needle[prevLPS]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T16_LCPN_28-Implement-strStr.py",
+            "Source_Code": "if needle[i] == needle[prevLPS]:",
+            "Mutate_Code": "if needle[i] <= needle[prevLPS]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T16_LCPN_28-Implement-strStr.py",
+            "Source_Code": "if needle[i] == needle[prevLPS]:",
+            "Mutate_Code": "if needle[i]  ====  needle[prevLPS]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T16_LCPN_28-Implement-strStr.py",
+            "Source_Code": "if needle[i] == needle[prevLPS]:",
+            "Mutate_Code": "if needle[i]  !==  needle[prevLPS]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T16_LCPN_28-Implement-strStr.py",
+            "Source_Code": "if needle[i] == needle[prevLPS]:",
+            "Mutate_Code": "if needle[i]  >>  needle[prevLPS]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T16_LCPN_28-Implement-strStr.py",
+            "Source_Code": "if needle[i] == needle[prevLPS]:",
+            "Mutate_Code": "if needle[i]  <<  needle[prevLPS]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T16_LCPN_28-Implement-strStr.py",
+            "Source_Code": "if needle[i] == needle[prevLPS]:",
+            "Mutate_Code": "if needle[i]  >=>=  needle[prevLPS]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T16_LCPN_28-Implement-strStr.py",
+            "Source_Code": "if needle[i] == needle[prevLPS]:",
+            "Mutate_Code": "if needle[i]  <=<=  needle[prevLPS]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T16_LCPN_28-Implement-strStr.py",
+            "Source_Code": "if needle[i] == needle[prevLPS]:",
+            "Mutate_Code": " "
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T16_LCPN_28-Implement-strStr.py",
+            "Source_Code": "if needle[i] == needle[prevLPS]:",
+            "Mutate_Code": "elif:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T16_LCPN_28-Implement-strStr.py",
+            "Source_Code": "if needle[i] == needle[prevLPS]:",
+            "Mutate_Code": "else:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T16_LCPN_28-Implement-strStr.py",
+            "Source_Code": "if needle[i] == needle[prevLPS]:",
+            "Mutate_Code": "if if"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T16_LCPN_28-Implement-strStr.py",
+            "Source_Code": "elif prevLPS == 0:",
+            "Mutate_Code": "elif prevLPS   0:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T16_LCPN_28-Implement-strStr.py",
+            "Source_Code": "elif prevLPS == 0:",
+            "Mutate_Code": "elif prevLPS != 0:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T16_LCPN_28-Implement-strStr.py",
+            "Source_Code": "elif prevLPS == 0:",
+            "Mutate_Code": "elif prevLPS > 0:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T16_LCPN_28-Implement-strStr.py",
+            "Source_Code": "elif prevLPS == 0:",
+            "Mutate_Code": "elif prevLPS < 0:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T16_LCPN_28-Implement-strStr.py",
+            "Source_Code": "elif prevLPS == 0:",
+            "Mutate_Code": "elif prevLPS >= 0:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T16_LCPN_28-Implement-strStr.py",
+            "Source_Code": "elif prevLPS == 0:",
+            "Mutate_Code": "elif prevLPS <= 0:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T16_LCPN_28-Implement-strStr.py",
+            "Source_Code": "elif prevLPS == 0:",
+            "Mutate_Code": "elif prevLPS  ====  0:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T16_LCPN_28-Implement-strStr.py",
+            "Source_Code": "elif prevLPS == 0:",
+            "Mutate_Code": "elif prevLPS  !==  0:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T16_LCPN_28-Implement-strStr.py",
+            "Source_Code": "elif prevLPS == 0:",
+            "Mutate_Code": "elif prevLPS  >>  0:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T16_LCPN_28-Implement-strStr.py",
+            "Source_Code": "elif prevLPS == 0:",
+            "Mutate_Code": "elif prevLPS  <<  0:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T16_LCPN_28-Implement-strStr.py",
+            "Source_Code": "elif prevLPS == 0:",
+            "Mutate_Code": "elif prevLPS  >=>=  0:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T16_LCPN_28-Implement-strStr.py",
+            "Source_Code": "elif prevLPS == 0:",
+            "Mutate_Code": "elif prevLPS  <=<=  0:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T16_LCPN_28-Implement-strStr.py",
+            "Source_Code": "elif prevLPS == 0:",
+            "Mutate_Code": "el "
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T16_LCPN_28-Implement-strStr.py",
+            "Source_Code": "elif prevLPS == 0:",
+            "Mutate_Code": "elelif:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T16_LCPN_28-Implement-strStr.py",
+            "Source_Code": "elif prevLPS == 0:",
+            "Mutate_Code": "elelse:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T16_LCPN_28-Implement-strStr.py",
+            "Source_Code": "elif prevLPS == 0:",
+            "Mutate_Code": "elif if"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T16_LCPN_28-Implement-strStr.py",
+            "Source_Code": "elif prevLPS == 0:",
+            "Mutate_Code": " "
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T16_LCPN_28-Implement-strStr.py",
+            "Source_Code": "elif prevLPS == 0:",
+            "Mutate_Code": "if:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T16_LCPN_28-Implement-strStr.py",
+            "Source_Code": "elif prevLPS == 0:",
+            "Mutate_Code": "else:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T16_LCPN_28-Implement-strStr.py",
+            "Source_Code": "elif prevLPS == 0:",
+            "Mutate_Code": "elif elif"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T16_LCPN_28-Implement-strStr.py",
+            "Source_Code": "elif prevLPS == 0:",
+            "Mutate_Code": "elif prevLPS   0:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T16_LCPN_28-Implement-strStr.py",
+            "Source_Code": "elif prevLPS == 0:",
+            "Mutate_Code": "elif prevLPS != 0:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T16_LCPN_28-Implement-strStr.py",
+            "Source_Code": "elif prevLPS == 0:",
+            "Mutate_Code": "elif prevLPS > 0:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T16_LCPN_28-Implement-strStr.py",
+            "Source_Code": "elif prevLPS == 0:",
+            "Mutate_Code": "elif prevLPS < 0:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T16_LCPN_28-Implement-strStr.py",
+            "Source_Code": "elif prevLPS == 0:",
+            "Mutate_Code": "elif prevLPS >= 0:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T16_LCPN_28-Implement-strStr.py",
+            "Source_Code": "elif prevLPS == 0:",
+            "Mutate_Code": "elif prevLPS <= 0:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T16_LCPN_28-Implement-strStr.py",
+            "Source_Code": "elif prevLPS == 0:",
+            "Mutate_Code": "elif prevLPS  ====  0:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T16_LCPN_28-Implement-strStr.py",
+            "Source_Code": "elif prevLPS == 0:",
+            "Mutate_Code": "elif prevLPS  !==  0:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T16_LCPN_28-Implement-strStr.py",
+            "Source_Code": "elif prevLPS == 0:",
+            "Mutate_Code": "elif prevLPS  >>  0:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T16_LCPN_28-Implement-strStr.py",
+            "Source_Code": "elif prevLPS == 0:",
+            "Mutate_Code": "elif prevLPS  <<  0:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T16_LCPN_28-Implement-strStr.py",
+            "Source_Code": "elif prevLPS == 0:",
+            "Mutate_Code": "elif prevLPS  >=>=  0:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T16_LCPN_28-Implement-strStr.py",
+            "Source_Code": "elif prevLPS == 0:",
+            "Mutate_Code": "elif prevLPS  <=<=  0:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T16_LCPN_28-Implement-strStr.py",
+            "Source_Code": "elif prevLPS == 0:",
+            "Mutate_Code": "el "
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T16_LCPN_28-Implement-strStr.py",
+            "Source_Code": "elif prevLPS == 0:",
+            "Mutate_Code": "elelif:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T16_LCPN_28-Implement-strStr.py",
+            "Source_Code": "elif prevLPS == 0:",
+            "Mutate_Code": "elelse:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T16_LCPN_28-Implement-strStr.py",
+            "Source_Code": "elif prevLPS == 0:",
+            "Mutate_Code": "elif if"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T16_LCPN_28-Implement-strStr.py",
+            "Source_Code": "elif prevLPS == 0:",
+            "Mutate_Code": " "
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T16_LCPN_28-Implement-strStr.py",
+            "Source_Code": "elif prevLPS == 0:",
+            "Mutate_Code": "if:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T16_LCPN_28-Implement-strStr.py",
+            "Source_Code": "elif prevLPS == 0:",
+            "Mutate_Code": "else:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T16_LCPN_28-Implement-strStr.py",
+            "Source_Code": "elif prevLPS == 0:",
+            "Mutate_Code": "elif elif"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T16_LCPN_28-Implement-strStr.py",
+            "Source_Code": "else:",
+            "Mutate_Code": " "
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T16_LCPN_28-Implement-strStr.py",
+            "Source_Code": "else:",
+            "Mutate_Code": "if:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T16_LCPN_28-Implement-strStr.py",
+            "Source_Code": "else:",
+            "Mutate_Code": "elif:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T16_LCPN_28-Implement-strStr.py",
+            "Source_Code": "else:",
+            "Mutate_Code": "else else:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T16_LCPN_28-Implement-strStr.py",
+            "Source_Code": "while i < len(haystack):",
+            "Mutate_Code": "while i   len(haystack):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T16_LCPN_28-Implement-strStr.py",
+            "Source_Code": "while i < len(haystack):",
+            "Mutate_Code": "while i == len(haystack):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T16_LCPN_28-Implement-strStr.py",
+            "Source_Code": "while i < len(haystack):",
+            "Mutate_Code": "while i != len(haystack):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T16_LCPN_28-Implement-strStr.py",
+            "Source_Code": "while i < len(haystack):",
+            "Mutate_Code": "while i > len(haystack):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T16_LCPN_28-Implement-strStr.py",
+            "Source_Code": "while i < len(haystack):",
+            "Mutate_Code": "while i >= len(haystack):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T16_LCPN_28-Implement-strStr.py",
+            "Source_Code": "while i < len(haystack):",
+            "Mutate_Code": "while i <= len(haystack):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T16_LCPN_28-Implement-strStr.py",
+            "Source_Code": "while i < len(haystack):",
+            "Mutate_Code": "while i  ====  len(haystack):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T16_LCPN_28-Implement-strStr.py",
+            "Source_Code": "while i < len(haystack):",
+            "Mutate_Code": "while i  !==  len(haystack):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T16_LCPN_28-Implement-strStr.py",
+            "Source_Code": "while i < len(haystack):",
+            "Mutate_Code": "while i  >>  len(haystack):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T16_LCPN_28-Implement-strStr.py",
+            "Source_Code": "while i < len(haystack):",
+            "Mutate_Code": "while i  <<  len(haystack):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T16_LCPN_28-Implement-strStr.py",
+            "Source_Code": "while i < len(haystack):",
+            "Mutate_Code": "while i  >=>=  len(haystack):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T16_LCPN_28-Implement-strStr.py",
+            "Source_Code": "while i < len(haystack):",
+            "Mutate_Code": "while i  <=<=  len(haystack):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T16_LCPN_28-Implement-strStr.py",
+            "Source_Code": "while i < len(haystack):",
+            "Mutate_Code": " "
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T16_LCPN_28-Implement-strStr.py",
+            "Source_Code": "while i < len(haystack):",
+            "Mutate_Code": "for "
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T16_LCPN_28-Implement-strStr.py",
+            "Source_Code": "while i < len(haystack):",
+            "Mutate_Code": "while while:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T16_LCPN_28-Implement-strStr.py",
+            "Source_Code": "while i < len(haystack):",
+            "Mutate_Code": "while i < len( ):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T16_LCPN_28-Implement-strStr.py",
+            "Source_Code": "while i < len(haystack):",
+            "Mutate_Code": "while i   len(haystack):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T16_LCPN_28-Implement-strStr.py",
+            "Source_Code": "while i < len(haystack):",
+            "Mutate_Code": "while i == len(haystack):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T16_LCPN_28-Implement-strStr.py",
+            "Source_Code": "while i < len(haystack):",
+            "Mutate_Code": "while i != len(haystack):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T16_LCPN_28-Implement-strStr.py",
+            "Source_Code": "while i < len(haystack):",
+            "Mutate_Code": "while i > len(haystack):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T16_LCPN_28-Implement-strStr.py",
+            "Source_Code": "while i < len(haystack):",
+            "Mutate_Code": "while i >= len(haystack):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T16_LCPN_28-Implement-strStr.py",
+            "Source_Code": "while i < len(haystack):",
+            "Mutate_Code": "while i <= len(haystack):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T16_LCPN_28-Implement-strStr.py",
+            "Source_Code": "while i < len(haystack):",
+            "Mutate_Code": "while i  ====  len(haystack):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T16_LCPN_28-Implement-strStr.py",
+            "Source_Code": "while i < len(haystack):",
+            "Mutate_Code": "while i  !==  len(haystack):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T16_LCPN_28-Implement-strStr.py",
+            "Source_Code": "while i < len(haystack):",
+            "Mutate_Code": "while i  >>  len(haystack):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T16_LCPN_28-Implement-strStr.py",
+            "Source_Code": "while i < len(haystack):",
+            "Mutate_Code": "while i  <<  len(haystack):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T16_LCPN_28-Implement-strStr.py",
+            "Source_Code": "while i < len(haystack):",
+            "Mutate_Code": "while i  >=>=  len(haystack):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T16_LCPN_28-Implement-strStr.py",
+            "Source_Code": "while i < len(haystack):",
+            "Mutate_Code": "while i  <=<=  len(haystack):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T16_LCPN_28-Implement-strStr.py",
+            "Source_Code": "while i < len(haystack):",
+            "Mutate_Code": " "
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T16_LCPN_28-Implement-strStr.py",
+            "Source_Code": "while i < len(haystack):",
+            "Mutate_Code": "for "
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T16_LCPN_28-Implement-strStr.py",
+            "Source_Code": "while i < len(haystack):",
+            "Mutate_Code": "while while:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T16_LCPN_28-Implement-strStr.py",
+            "Source_Code": "while i < len(haystack):",
+            "Mutate_Code": "while i < len( ):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T16_LCPN_28-Implement-strStr.py",
+            "Source_Code": "if haystack[i] == needle[j]:",
+            "Mutate_Code": "if haystack[i]   needle[j]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T16_LCPN_28-Implement-strStr.py",
+            "Source_Code": "if haystack[i] == needle[j]:",
+            "Mutate_Code": "if haystack[i] != needle[j]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T16_LCPN_28-Implement-strStr.py",
+            "Source_Code": "if haystack[i] == needle[j]:",
+            "Mutate_Code": "if haystack[i] > needle[j]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T16_LCPN_28-Implement-strStr.py",
+            "Source_Code": "if haystack[i] == needle[j]:",
+            "Mutate_Code": "if haystack[i] < needle[j]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T16_LCPN_28-Implement-strStr.py",
+            "Source_Code": "if haystack[i] == needle[j]:",
+            "Mutate_Code": "if haystack[i] >= needle[j]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T16_LCPN_28-Implement-strStr.py",
+            "Source_Code": "if haystack[i] == needle[j]:",
+            "Mutate_Code": "if haystack[i] <= needle[j]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T16_LCPN_28-Implement-strStr.py",
+            "Source_Code": "if haystack[i] == needle[j]:",
+            "Mutate_Code": "if haystack[i]  ====  needle[j]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T16_LCPN_28-Implement-strStr.py",
+            "Source_Code": "if haystack[i] == needle[j]:",
+            "Mutate_Code": "if haystack[i]  !==  needle[j]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T16_LCPN_28-Implement-strStr.py",
+            "Source_Code": "if haystack[i] == needle[j]:",
+            "Mutate_Code": "if haystack[i]  >>  needle[j]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T16_LCPN_28-Implement-strStr.py",
+            "Source_Code": "if haystack[i] == needle[j]:",
+            "Mutate_Code": "if haystack[i]  <<  needle[j]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T16_LCPN_28-Implement-strStr.py",
+            "Source_Code": "if haystack[i] == needle[j]:",
+            "Mutate_Code": "if haystack[i]  >=>=  needle[j]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T16_LCPN_28-Implement-strStr.py",
+            "Source_Code": "if haystack[i] == needle[j]:",
+            "Mutate_Code": "if haystack[i]  <=<=  needle[j]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T16_LCPN_28-Implement-strStr.py",
+            "Source_Code": "if haystack[i] == needle[j]:",
+            "Mutate_Code": " "
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T16_LCPN_28-Implement-strStr.py",
+            "Source_Code": "if haystack[i] == needle[j]:",
+            "Mutate_Code": "elif:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T16_LCPN_28-Implement-strStr.py",
+            "Source_Code": "if haystack[i] == needle[j]:",
+            "Mutate_Code": "else:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T16_LCPN_28-Implement-strStr.py",
+            "Source_Code": "if haystack[i] == needle[j]:",
+            "Mutate_Code": "if if"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T16_LCPN_28-Implement-strStr.py",
+            "Source_Code": "else:",
+            "Mutate_Code": " "
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T16_LCPN_28-Implement-strStr.py",
+            "Source_Code": "else:",
+            "Mutate_Code": "if:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T16_LCPN_28-Implement-strStr.py",
+            "Source_Code": "else:",
+            "Mutate_Code": "elif:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T16_LCPN_28-Implement-strStr.py",
+            "Source_Code": "else:",
+            "Mutate_Code": "else else:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T16_LCPN_28-Implement-strStr.py",
+            "Source_Code": "if j == 0:",
+            "Mutate_Code": "if j   0:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T16_LCPN_28-Implement-strStr.py",
+            "Source_Code": "if j == 0:",
+            "Mutate_Code": "if j != 0:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T16_LCPN_28-Implement-strStr.py",
+            "Source_Code": "if j == 0:",
+            "Mutate_Code": "if j > 0:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T16_LCPN_28-Implement-strStr.py",
+            "Source_Code": "if j == 0:",
+            "Mutate_Code": "if j < 0:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T16_LCPN_28-Implement-strStr.py",
+            "Source_Code": "if j == 0:",
+            "Mutate_Code": "if j >= 0:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T16_LCPN_28-Implement-strStr.py",
+            "Source_Code": "if j == 0:",
+            "Mutate_Code": "if j <= 0:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T16_LCPN_28-Implement-strStr.py",
+            "Source_Code": "if j == 0:",
+            "Mutate_Code": "if j  ====  0:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T16_LCPN_28-Implement-strStr.py",
+            "Source_Code": "if j == 0:",
+            "Mutate_Code": "if j  !==  0:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T16_LCPN_28-Implement-strStr.py",
+            "Source_Code": "if j == 0:",
+            "Mutate_Code": "if j  >>  0:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T16_LCPN_28-Implement-strStr.py",
+            "Source_Code": "if j == 0:",
+            "Mutate_Code": "if j  <<  0:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T16_LCPN_28-Implement-strStr.py",
+            "Source_Code": "if j == 0:",
+            "Mutate_Code": "if j  >=>=  0:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T16_LCPN_28-Implement-strStr.py",
+            "Source_Code": "if j == 0:",
+            "Mutate_Code": "if j  <=<=  0:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T16_LCPN_28-Implement-strStr.py",
+            "Source_Code": "if j == 0:",
+            "Mutate_Code": " "
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T16_LCPN_28-Implement-strStr.py",
+            "Source_Code": "if j == 0:",
+            "Mutate_Code": "elif:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T16_LCPN_28-Implement-strStr.py",
+            "Source_Code": "if j == 0:",
+            "Mutate_Code": "else:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T16_LCPN_28-Implement-strStr.py",
+            "Source_Code": "if j == 0:",
+            "Mutate_Code": "if if"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T16_LCPN_28-Implement-strStr.py",
+            "Source_Code": "else:",
+            "Mutate_Code": " "
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T16_LCPN_28-Implement-strStr.py",
+            "Source_Code": "else:",
+            "Mutate_Code": "if:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T16_LCPN_28-Implement-strStr.py",
+            "Source_Code": "else:",
+            "Mutate_Code": "elif:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T16_LCPN_28-Implement-strStr.py",
+            "Source_Code": "else:",
+            "Mutate_Code": "else else:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T16_LCPN_28-Implement-strStr.py",
+            "Source_Code": "if j == len(needle):",
+            "Mutate_Code": "if j   len(needle):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T16_LCPN_28-Implement-strStr.py",
+            "Source_Code": "if j == len(needle):",
+            "Mutate_Code": "if j != len(needle):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T16_LCPN_28-Implement-strStr.py",
+            "Source_Code": "if j == len(needle):",
+            "Mutate_Code": "if j > len(needle):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T16_LCPN_28-Implement-strStr.py",
+            "Source_Code": "if j == len(needle):",
+            "Mutate_Code": "if j < len(needle):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T16_LCPN_28-Implement-strStr.py",
+            "Source_Code": "if j == len(needle):",
+            "Mutate_Code": "if j >= len(needle):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T16_LCPN_28-Implement-strStr.py",
+            "Source_Code": "if j == len(needle):",
+            "Mutate_Code": "if j <= len(needle):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T16_LCPN_28-Implement-strStr.py",
+            "Source_Code": "if j == len(needle):",
+            "Mutate_Code": "if j  ====  len(needle):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T16_LCPN_28-Implement-strStr.py",
+            "Source_Code": "if j == len(needle):",
+            "Mutate_Code": "if j  !==  len(needle):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T16_LCPN_28-Implement-strStr.py",
+            "Source_Code": "if j == len(needle):",
+            "Mutate_Code": "if j  >>  len(needle):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T16_LCPN_28-Implement-strStr.py",
+            "Source_Code": "if j == len(needle):",
+            "Mutate_Code": "if j  <<  len(needle):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T16_LCPN_28-Implement-strStr.py",
+            "Source_Code": "if j == len(needle):",
+            "Mutate_Code": "if j  >=>=  len(needle):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T16_LCPN_28-Implement-strStr.py",
+            "Source_Code": "if j == len(needle):",
+            "Mutate_Code": "if j  <=<=  len(needle):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T16_LCPN_28-Implement-strStr.py",
+            "Source_Code": "if j == len(needle):",
+            "Mutate_Code": " "
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T16_LCPN_28-Implement-strStr.py",
+            "Source_Code": "if j == len(needle):",
+            "Mutate_Code": "elif:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T16_LCPN_28-Implement-strStr.py",
+            "Source_Code": "if j == len(needle):",
+            "Mutate_Code": "else:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T16_LCPN_28-Implement-strStr.py",
+            "Source_Code": "if j == len(needle):",
+            "Mutate_Code": "if if"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T16_LCPN_28-Implement-strStr.py",
+            "Source_Code": "if j == len(needle):",
+            "Mutate_Code": "if j == len( ):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T16_LCPN_28-Implement-strStr.py",
+            "Source_Code": "if j == len(needle):",
+            "Mutate_Code": "if j   len(needle):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T16_LCPN_28-Implement-strStr.py",
+            "Source_Code": "if j == len(needle):",
+            "Mutate_Code": "if j != len(needle):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T16_LCPN_28-Implement-strStr.py",
+            "Source_Code": "if j == len(needle):",
+            "Mutate_Code": "if j > len(needle):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T16_LCPN_28-Implement-strStr.py",
+            "Source_Code": "if j == len(needle):",
+            "Mutate_Code": "if j < len(needle):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T16_LCPN_28-Implement-strStr.py",
+            "Source_Code": "if j == len(needle):",
+            "Mutate_Code": "if j >= len(needle):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T16_LCPN_28-Implement-strStr.py",
+            "Source_Code": "if j == len(needle):",
+            "Mutate_Code": "if j <= len(needle):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T16_LCPN_28-Implement-strStr.py",
+            "Source_Code": "if j == len(needle):",
+            "Mutate_Code": "if j  ====  len(needle):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T16_LCPN_28-Implement-strStr.py",
+            "Source_Code": "if j == len(needle):",
+            "Mutate_Code": "if j  !==  len(needle):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T16_LCPN_28-Implement-strStr.py",
+            "Source_Code": "if j == len(needle):",
+            "Mutate_Code": "if j  >>  len(needle):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T16_LCPN_28-Implement-strStr.py",
+            "Source_Code": "if j == len(needle):",
+            "Mutate_Code": "if j  <<  len(needle):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T16_LCPN_28-Implement-strStr.py",
+            "Source_Code": "if j == len(needle):",
+            "Mutate_Code": "if j  >=>=  len(needle):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T16_LCPN_28-Implement-strStr.py",
+            "Source_Code": "if j == len(needle):",
+            "Mutate_Code": "if j  <=<=  len(needle):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T16_LCPN_28-Implement-strStr.py",
+            "Source_Code": "if j == len(needle):",
+            "Mutate_Code": " "
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T16_LCPN_28-Implement-strStr.py",
+            "Source_Code": "if j == len(needle):",
+            "Mutate_Code": "elif:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T16_LCPN_28-Implement-strStr.py",
+            "Source_Code": "if j == len(needle):",
+            "Mutate_Code": "else:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T16_LCPN_28-Implement-strStr.py",
+            "Source_Code": "if j == len(needle):",
+            "Mutate_Code": "if if"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T16_LCPN_28-Implement-strStr.py",
+            "Source_Code": "if j == len(needle):",
+            "Mutate_Code": "if j == len( ):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T16_LCPN_28-Implement-strStr.py",
+            "Source_Code": "return i - len(needle)",
+            "Mutate_Code": "return i len(needle)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T16_LCPN_28-Implement-strStr.py",
+            "Source_Code": "return i - len(needle)",
+            "Mutate_Code": "return i + len(needle)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T16_LCPN_28-Implement-strStr.py",
+            "Source_Code": "return i - len(needle)",
+            "Mutate_Code": "return i * len(needle)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T16_LCPN_28-Implement-strStr.py",
+            "Source_Code": "return i - len(needle)",
+            "Mutate_Code": "return i / len(needle)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T16_LCPN_28-Implement-strStr.py",
+            "Source_Code": "return i - len(needle)",
+            "Mutate_Code": "return i % len(needle)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T16_LCPN_28-Implement-strStr.py",
+            "Source_Code": "return i - len(needle)",
+            "Mutate_Code": "return i ** len(needle)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T16_LCPN_28-Implement-strStr.py",
+            "Source_Code": "return i - len(needle)",
+            "Mutate_Code": "return i // len(needle)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T16_LCPN_28-Implement-strStr.py",
+            "Source_Code": "return i - len(needle)",
+            "Mutate_Code": "return i ++ len(needle)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T16_LCPN_28-Implement-strStr.py",
+            "Source_Code": "return i - len(needle)",
+            "Mutate_Code": "return i -- len(needle)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T16_LCPN_28-Implement-strStr.py",
+            "Source_Code": "return i - len(needle)",
+            "Mutate_Code": "return i ** len(needle)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T16_LCPN_28-Implement-strStr.py",
+            "Source_Code": "return i - len(needle)",
+            "Mutate_Code": "return i // len(needle)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T16_LCPN_28-Implement-strStr.py",
+            "Source_Code": "return i - len(needle)",
+            "Mutate_Code": "return i %% len(needle)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T16_LCPN_28-Implement-strStr.py",
+            "Source_Code": "return i - len(needle)",
+            "Mutate_Code": "return i **** len(needle)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T16_LCPN_28-Implement-strStr.py",
+            "Source_Code": "return i - len(needle)",
+            "Mutate_Code": "return i //// len(needle)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T16_LCPN_28-Implement-strStr.py",
+            "Source_Code": "return i - len(needle)",
+            "Mutate_Code": " i - len(needle)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T16_LCPN_28-Implement-strStr.py",
+            "Source_Code": "return i - len(needle)",
+            "Mutate_Code": "passi - len(needle)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T16_LCPN_28-Implement-strStr.py",
+            "Source_Code": "return i - len(needle)",
+            "Mutate_Code": "return returni - len(needle)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T16_LCPN_28-Implement-strStr.py",
+            "Source_Code": "return i - len(needle)",
+            "Mutate_Code": "return i - len( )"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T16_LCPN_28-Implement-strStr.py",
+            "Source_Code": "return i - len(needle)",
+            "Mutate_Code": "return i len(needle)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T16_LCPN_28-Implement-strStr.py",
+            "Source_Code": "return i - len(needle)",
+            "Mutate_Code": "return i + len(needle)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T16_LCPN_28-Implement-strStr.py",
+            "Source_Code": "return i - len(needle)",
+            "Mutate_Code": "return i * len(needle)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T16_LCPN_28-Implement-strStr.py",
+            "Source_Code": "return i - len(needle)",
+            "Mutate_Code": "return i / len(needle)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T16_LCPN_28-Implement-strStr.py",
+            "Source_Code": "return i - len(needle)",
+            "Mutate_Code": "return i % len(needle)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T16_LCPN_28-Implement-strStr.py",
+            "Source_Code": "return i - len(needle)",
+            "Mutate_Code": "return i ** len(needle)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T16_LCPN_28-Implement-strStr.py",
+            "Source_Code": "return i - len(needle)",
+            "Mutate_Code": "return i // len(needle)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T16_LCPN_28-Implement-strStr.py",
+            "Source_Code": "return i - len(needle)",
+            "Mutate_Code": "return i ++ len(needle)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T16_LCPN_28-Implement-strStr.py",
+            "Source_Code": "return i - len(needle)",
+            "Mutate_Code": "return i -- len(needle)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T16_LCPN_28-Implement-strStr.py",
+            "Source_Code": "return i - len(needle)",
+            "Mutate_Code": "return i ** len(needle)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T16_LCPN_28-Implement-strStr.py",
+            "Source_Code": "return i - len(needle)",
+            "Mutate_Code": "return i // len(needle)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T16_LCPN_28-Implement-strStr.py",
+            "Source_Code": "return i - len(needle)",
+            "Mutate_Code": "return i %% len(needle)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T16_LCPN_28-Implement-strStr.py",
+            "Source_Code": "return i - len(needle)",
+            "Mutate_Code": "return i **** len(needle)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T16_LCPN_28-Implement-strStr.py",
+            "Source_Code": "return i - len(needle)",
+            "Mutate_Code": "return i //// len(needle)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T16_LCPN_28-Implement-strStr.py",
+            "Source_Code": "return i - len(needle)",
+            "Mutate_Code": " i - len(needle)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T16_LCPN_28-Implement-strStr.py",
+            "Source_Code": "return i - len(needle)",
+            "Mutate_Code": "passi - len(needle)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T16_LCPN_28-Implement-strStr.py",
+            "Source_Code": "return i - len(needle)",
+            "Mutate_Code": "return returni - len(needle)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T16_LCPN_28-Implement-strStr.py",
+            "Source_Code": "return i - len(needle)",
+            "Mutate_Code": "return i - len( )"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T16_LCPN_28-Implement-strStr.py",
+            "Source_Code": "return -1",
+            "Mutate_Code": " -1"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T16_LCPN_28-Implement-strStr.py",
+            "Source_Code": "return -1",
+            "Mutate_Code": "pass-1"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T16_LCPN_28-Implement-strStr.py",
+            "Source_Code": "return -1",
+            "Mutate_Code": "return return-1"
+        }
+    }
+]

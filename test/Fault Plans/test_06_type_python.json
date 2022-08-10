@@ -1,0 +1,3992 @@
+[
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T6_LCPN_7-Reverse-Integer.py",
+            "Source_Code": "while x:",
+            "Mutate_Code": " "
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T6_LCPN_7-Reverse-Integer.py",
+            "Source_Code": "while x:",
+            "Mutate_Code": "for "
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T6_LCPN_7-Reverse-Integer.py",
+            "Source_Code": "while x:",
+            "Mutate_Code": "while while:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T6_LCPN_7-Reverse-Integer.py",
+            "Source_Code": "if res > MAX // 10 or (res == MAX // 10 and digit >= MAX % 10):",
+            "Mutate_Code": "if res > MAX // 10 or (res == MAX // 10 and digit >= MAX 10):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T6_LCPN_7-Reverse-Integer.py",
+            "Source_Code": "if res > MAX // 10 or (res == MAX // 10 and digit >= MAX % 10):",
+            "Mutate_Code": "if res > MAX 10 or (res == MAX // 10 and digit >= MAX % 10):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T6_LCPN_7-Reverse-Integer.py",
+            "Source_Code": "if res > MAX // 10 or (res == MAX // 10 and digit >= MAX % 10):",
+            "Mutate_Code": "if res > MAX // 10 or (res == MAX 10 and digit >= MAX % 10):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T6_LCPN_7-Reverse-Integer.py",
+            "Source_Code": "if res > MAX // 10 or (res == MAX // 10 and digit >= MAX % 10):",
+            "Mutate_Code": "if res > MAX // 10 or (res == MAX // 10 and digit >= MAX + 10):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T6_LCPN_7-Reverse-Integer.py",
+            "Source_Code": "if res > MAX // 10 or (res == MAX // 10 and digit >= MAX % 10):",
+            "Mutate_Code": "if res > MAX // 10 or (res == MAX // 10 and digit >= MAX - 10):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T6_LCPN_7-Reverse-Integer.py",
+            "Source_Code": "if res > MAX // 10 or (res == MAX // 10 and digit >= MAX % 10):",
+            "Mutate_Code": "if res > MAX // 10 or (res == MAX // 10 and digit >= MAX * 10):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T6_LCPN_7-Reverse-Integer.py",
+            "Source_Code": "if res > MAX // 10 or (res == MAX // 10 and digit >= MAX % 10):",
+            "Mutate_Code": "if res > MAX // 10 or (res == MAX // 10 and digit >= MAX / 10):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T6_LCPN_7-Reverse-Integer.py",
+            "Source_Code": "if res > MAX // 10 or (res == MAX // 10 and digit >= MAX % 10):",
+            "Mutate_Code": "if res > MAX // 10 or (res == MAX // 10 and digit >= MAX ** 10):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T6_LCPN_7-Reverse-Integer.py",
+            "Source_Code": "if res > MAX // 10 or (res == MAX // 10 and digit >= MAX % 10):",
+            "Mutate_Code": "if res > MAX // 10 or (res == MAX // 10 and digit >= MAX // 10):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T6_LCPN_7-Reverse-Integer.py",
+            "Source_Code": "if res > MAX // 10 or (res == MAX // 10 and digit >= MAX % 10):",
+            "Mutate_Code": "if res > MAX + 10 or (res == MAX // 10 and digit >= MAX % 10):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T6_LCPN_7-Reverse-Integer.py",
+            "Source_Code": "if res > MAX // 10 or (res == MAX // 10 and digit >= MAX % 10):",
+            "Mutate_Code": "if res > MAX - 10 or (res == MAX // 10 and digit >= MAX % 10):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T6_LCPN_7-Reverse-Integer.py",
+            "Source_Code": "if res > MAX // 10 or (res == MAX // 10 and digit >= MAX % 10):",
+            "Mutate_Code": "if res > MAX * 10 or (res == MAX // 10 and digit >= MAX % 10):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T6_LCPN_7-Reverse-Integer.py",
+            "Source_Code": "if res > MAX // 10 or (res == MAX // 10 and digit >= MAX % 10):",
+            "Mutate_Code": "if res > MAX / 10 or (res == MAX // 10 and digit >= MAX % 10):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T6_LCPN_7-Reverse-Integer.py",
+            "Source_Code": "if res > MAX // 10 or (res == MAX // 10 and digit >= MAX % 10):",
+            "Mutate_Code": "if res > MAX % 10 or (res == MAX // 10 and digit >= MAX % 10):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T6_LCPN_7-Reverse-Integer.py",
+            "Source_Code": "if res > MAX // 10 or (res == MAX // 10 and digit >= MAX % 10):",
+            "Mutate_Code": "if res > MAX ** 10 or (res == MAX // 10 and digit >= MAX % 10):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T6_LCPN_7-Reverse-Integer.py",
+            "Source_Code": "if res > MAX // 10 or (res == MAX // 10 and digit >= MAX % 10):",
+            "Mutate_Code": "if res > MAX // 10 or (res == MAX + 10 and digit >= MAX % 10):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T6_LCPN_7-Reverse-Integer.py",
+            "Source_Code": "if res > MAX // 10 or (res == MAX // 10 and digit >= MAX % 10):",
+            "Mutate_Code": "if res > MAX // 10 or (res == MAX - 10 and digit >= MAX % 10):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T6_LCPN_7-Reverse-Integer.py",
+            "Source_Code": "if res > MAX // 10 or (res == MAX // 10 and digit >= MAX % 10):",
+            "Mutate_Code": "if res > MAX // 10 or (res == MAX * 10 and digit >= MAX % 10):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T6_LCPN_7-Reverse-Integer.py",
+            "Source_Code": "if res > MAX // 10 or (res == MAX // 10 and digit >= MAX % 10):",
+            "Mutate_Code": "if res > MAX // 10 or (res == MAX / 10 and digit >= MAX % 10):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T6_LCPN_7-Reverse-Integer.py",
+            "Source_Code": "if res > MAX // 10 or (res == MAX // 10 and digit >= MAX % 10):",
+            "Mutate_Code": "if res > MAX // 10 or (res == MAX % 10 and digit >= MAX % 10):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T6_LCPN_7-Reverse-Integer.py",
+            "Source_Code": "if res > MAX // 10 or (res == MAX // 10 and digit >= MAX % 10):",
+            "Mutate_Code": "if res > MAX // 10 or (res == MAX ** 10 and digit >= MAX % 10):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T6_LCPN_7-Reverse-Integer.py",
+            "Source_Code": "if res > MAX // 10 or (res == MAX // 10 and digit >= MAX % 10):",
+            "Mutate_Code": "if res > MAX // 10 or (res == MAX // 10 and digit >= MAX ++ 10):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T6_LCPN_7-Reverse-Integer.py",
+            "Source_Code": "if res > MAX // 10 or (res == MAX // 10 and digit >= MAX % 10):",
+            "Mutate_Code": "if res > MAX // 10 or (res == MAX // 10 and digit >= MAX -- 10):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T6_LCPN_7-Reverse-Integer.py",
+            "Source_Code": "if res > MAX // 10 or (res == MAX // 10 and digit >= MAX % 10):",
+            "Mutate_Code": "if res > MAX // 10 or (res == MAX // 10 and digit >= MAX ** 10):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T6_LCPN_7-Reverse-Integer.py",
+            "Source_Code": "if res > MAX // 10 or (res == MAX // 10 and digit >= MAX % 10):",
+            "Mutate_Code": "if res > MAX // 10 or (res == MAX // 10 and digit >= MAX // 10):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T6_LCPN_7-Reverse-Integer.py",
+            "Source_Code": "if res > MAX // 10 or (res == MAX // 10 and digit >= MAX % 10):",
+            "Mutate_Code": "if res > MAX // 10 or (res == MAX // 10 and digit >= MAX %% 10):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T6_LCPN_7-Reverse-Integer.py",
+            "Source_Code": "if res > MAX // 10 or (res == MAX // 10 and digit >= MAX % 10):",
+            "Mutate_Code": "if res > MAX // 10 or (res == MAX // 10 and digit >= MAX **** 10):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T6_LCPN_7-Reverse-Integer.py",
+            "Source_Code": "if res > MAX // 10 or (res == MAX // 10 and digit >= MAX % 10):",
+            "Mutate_Code": "if res > MAX // 10 or (res == MAX // 10 and digit >= MAX //// 10):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T6_LCPN_7-Reverse-Integer.py",
+            "Source_Code": "if res > MAX // 10 or (res == MAX // 10 and digit >= MAX % 10):",
+            "Mutate_Code": "if res > MAX ++ 10 or (res == MAX // 10 and digit >= MAX % 10):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T6_LCPN_7-Reverse-Integer.py",
+            "Source_Code": "if res > MAX // 10 or (res == MAX // 10 and digit >= MAX % 10):",
+            "Mutate_Code": "if res > MAX -- 10 or (res == MAX // 10 and digit >= MAX % 10):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T6_LCPN_7-Reverse-Integer.py",
+            "Source_Code": "if res > MAX // 10 or (res == MAX // 10 and digit >= MAX % 10):",
+            "Mutate_Code": "if res > MAX ** 10 or (res == MAX // 10 and digit >= MAX % 10):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T6_LCPN_7-Reverse-Integer.py",
+            "Source_Code": "if res > MAX // 10 or (res == MAX // 10 and digit >= MAX % 10):",
+            "Mutate_Code": "if res > MAX %% 10 or (res == MAX // 10 and digit >= MAX % 10):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T6_LCPN_7-Reverse-Integer.py",
+            "Source_Code": "if res > MAX // 10 or (res == MAX // 10 and digit >= MAX % 10):",
+            "Mutate_Code": "if res > MAX **** 10 or (res == MAX // 10 and digit >= MAX % 10):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T6_LCPN_7-Reverse-Integer.py",
+            "Source_Code": "if res > MAX // 10 or (res == MAX // 10 and digit >= MAX % 10):",
+            "Mutate_Code": "if res > MAX //// 10 or (res == MAX // 10 and digit >= MAX % 10):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T6_LCPN_7-Reverse-Integer.py",
+            "Source_Code": "if res > MAX // 10 or (res == MAX // 10 and digit >= MAX % 10):",
+            "Mutate_Code": "if res > MAX // 10 or (res == MAX ++ 10 and digit >= MAX % 10):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T6_LCPN_7-Reverse-Integer.py",
+            "Source_Code": "if res > MAX // 10 or (res == MAX // 10 and digit >= MAX % 10):",
+            "Mutate_Code": "if res > MAX // 10 or (res == MAX -- 10 and digit >= MAX % 10):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T6_LCPN_7-Reverse-Integer.py",
+            "Source_Code": "if res > MAX // 10 or (res == MAX // 10 and digit >= MAX % 10):",
+            "Mutate_Code": "if res > MAX // 10 or (res == MAX ** 10 and digit >= MAX % 10):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T6_LCPN_7-Reverse-Integer.py",
+            "Source_Code": "if res > MAX // 10 or (res == MAX // 10 and digit >= MAX % 10):",
+            "Mutate_Code": "if res > MAX // 10 or (res == MAX %% 10 and digit >= MAX % 10):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T6_LCPN_7-Reverse-Integer.py",
+            "Source_Code": "if res > MAX // 10 or (res == MAX // 10 and digit >= MAX % 10):",
+            "Mutate_Code": "if res > MAX // 10 or (res == MAX **** 10 and digit >= MAX % 10):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T6_LCPN_7-Reverse-Integer.py",
+            "Source_Code": "if res > MAX // 10 or (res == MAX // 10 and digit >= MAX % 10):",
+            "Mutate_Code": "if res > MAX // 10 or (res == MAX //// 10 and digit >= MAX % 10):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T6_LCPN_7-Reverse-Integer.py",
+            "Source_Code": "if res > MAX // 10 or (res == MAX // 10 and digit >= MAX % 10):",
+            "Mutate_Code": "if res   MAX // 10 or (res == MAX // 10 and digit >= MAX % 10):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T6_LCPN_7-Reverse-Integer.py",
+            "Source_Code": "if res > MAX // 10 or (res == MAX // 10 and digit >= MAX % 10):",
+            "Mutate_Code": "if res > MAX // 10 or (res == MAX // 10 and digit  = MAX % 10):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T6_LCPN_7-Reverse-Integer.py",
+            "Source_Code": "if res > MAX // 10 or (res == MAX // 10 and digit >= MAX % 10):",
+            "Mutate_Code": "if res > MAX // 10 or (res == MAX // 10 and digit >= MAX % 10): "
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T6_LCPN_7-Reverse-Integer.py",
+            "Source_Code": "if res > MAX // 10 or (res == MAX // 10 and digit >= MAX % 10):",
+            "Mutate_Code": "if res == MAX // 10 or (res == MAX // 10 and digit >= MAX % 10):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T6_LCPN_7-Reverse-Integer.py",
+            "Source_Code": "if res > MAX // 10 or (res == MAX // 10 and digit >= MAX % 10):",
+            "Mutate_Code": "if res != MAX // 10 or (res == MAX // 10 and digit >= MAX % 10):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T6_LCPN_7-Reverse-Integer.py",
+            "Source_Code": "if res > MAX // 10 or (res == MAX // 10 and digit >= MAX % 10):",
+            "Mutate_Code": "if res < MAX // 10 or (res == MAX // 10 and digit >= MAX % 10):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T6_LCPN_7-Reverse-Integer.py",
+            "Source_Code": "if res > MAX // 10 or (res == MAX // 10 and digit >= MAX % 10):",
+            "Mutate_Code": "if res >= MAX // 10 or (res == MAX // 10 and digit >= MAX % 10):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T6_LCPN_7-Reverse-Integer.py",
+            "Source_Code": "if res > MAX // 10 or (res == MAX // 10 and digit >= MAX % 10):",
+            "Mutate_Code": "if res <= MAX // 10 or (res == MAX // 10 and digit >= MAX % 10):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T6_LCPN_7-Reverse-Integer.py",
+            "Source_Code": "if res > MAX // 10 or (res == MAX // 10 and digit >= MAX % 10):",
+            "Mutate_Code": "if res > MAX // 10 or (res == MAX // 10 and digit === MAX % 10):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T6_LCPN_7-Reverse-Integer.py",
+            "Source_Code": "if res > MAX // 10 or (res == MAX // 10 and digit >= MAX % 10):",
+            "Mutate_Code": "if res > MAX // 10 or (res == MAX // 10 and digit !== MAX % 10):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T6_LCPN_7-Reverse-Integer.py",
+            "Source_Code": "if res > MAX // 10 or (res == MAX // 10 and digit >= MAX % 10):",
+            "Mutate_Code": "if res > MAX // 10 or (res == MAX // 10 and digit <= MAX % 10):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T6_LCPN_7-Reverse-Integer.py",
+            "Source_Code": "if res > MAX // 10 or (res == MAX // 10 and digit >= MAX % 10):",
+            "Mutate_Code": "if res > MAX // 10 or (res == MAX // 10 and digit >== MAX % 10):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T6_LCPN_7-Reverse-Integer.py",
+            "Source_Code": "if res > MAX // 10 or (res == MAX // 10 and digit >= MAX % 10):",
+            "Mutate_Code": "if res > MAX // 10 or (res == MAX // 10 and digit <== MAX % 10):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T6_LCPN_7-Reverse-Integer.py",
+            "Source_Code": "if res > MAX // 10 or (res == MAX // 10 and digit >= MAX % 10):",
+            "Mutate_Code": "if res > MAX // 10 or (res == MAX // 10 and digit >= MAX % 10):=="
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T6_LCPN_7-Reverse-Integer.py",
+            "Source_Code": "if res > MAX // 10 or (res == MAX // 10 and digit >= MAX % 10):",
+            "Mutate_Code": "if res > MAX // 10 or (res == MAX // 10 and digit >= MAX % 10):!="
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T6_LCPN_7-Reverse-Integer.py",
+            "Source_Code": "if res > MAX // 10 or (res == MAX // 10 and digit >= MAX % 10):",
+            "Mutate_Code": "if res > MAX // 10 or (res == MAX // 10 and digit >= MAX % 10):>"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T6_LCPN_7-Reverse-Integer.py",
+            "Source_Code": "if res > MAX // 10 or (res == MAX // 10 and digit >= MAX % 10):",
+            "Mutate_Code": "if res > MAX // 10 or (res == MAX // 10 and digit >= MAX % 10):<"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T6_LCPN_7-Reverse-Integer.py",
+            "Source_Code": "if res > MAX // 10 or (res == MAX // 10 and digit >= MAX % 10):",
+            "Mutate_Code": "if res > MAX // 10 or (res == MAX // 10 and digit >= MAX % 10):>="
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T6_LCPN_7-Reverse-Integer.py",
+            "Source_Code": "if res > MAX // 10 or (res == MAX // 10 and digit >= MAX % 10):",
+            "Mutate_Code": "if res > MAX // 10 or (res == MAX // 10 and digit >= MAX % 10):<="
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T6_LCPN_7-Reverse-Integer.py",
+            "Source_Code": "if res > MAX // 10 or (res == MAX // 10 and digit >= MAX % 10):",
+            "Mutate_Code": "if res  ====  MAX // 10 or (res == MAX // 10 and digit >= MAX % 10):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T6_LCPN_7-Reverse-Integer.py",
+            "Source_Code": "if res > MAX // 10 or (res == MAX // 10 and digit >= MAX % 10):",
+            "Mutate_Code": "if res  !==  MAX // 10 or (res == MAX // 10 and digit >= MAX % 10):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T6_LCPN_7-Reverse-Integer.py",
+            "Source_Code": "if res > MAX // 10 or (res == MAX // 10 and digit >= MAX % 10):",
+            "Mutate_Code": "if res  >>  MAX // 10 or (res == MAX // 10 and digit >= MAX % 10):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T6_LCPN_7-Reverse-Integer.py",
+            "Source_Code": "if res > MAX // 10 or (res == MAX // 10 and digit >= MAX % 10):",
+            "Mutate_Code": "if res  <<  MAX // 10 or (res == MAX // 10 and digit >= MAX % 10):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T6_LCPN_7-Reverse-Integer.py",
+            "Source_Code": "if res > MAX // 10 or (res == MAX // 10 and digit >= MAX % 10):",
+            "Mutate_Code": "if res  >=>=  MAX // 10 or (res == MAX // 10 and digit >= MAX % 10):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T6_LCPN_7-Reverse-Integer.py",
+            "Source_Code": "if res > MAX // 10 or (res == MAX // 10 and digit >= MAX % 10):",
+            "Mutate_Code": "if res  <=<=  MAX // 10 or (res == MAX // 10 and digit >= MAX % 10):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T6_LCPN_7-Reverse-Integer.py",
+            "Source_Code": "if res > MAX // 10 or (res == MAX // 10 and digit >= MAX % 10):",
+            "Mutate_Code": "if res > MAX // 10 or (res == MAX // 10 and digit  ==== = MAX % 10):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T6_LCPN_7-Reverse-Integer.py",
+            "Source_Code": "if res > MAX // 10 or (res == MAX // 10 and digit >= MAX % 10):",
+            "Mutate_Code": "if res > MAX // 10 or (res == MAX // 10 and digit  !== = MAX % 10):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T6_LCPN_7-Reverse-Integer.py",
+            "Source_Code": "if res > MAX // 10 or (res == MAX // 10 and digit >= MAX % 10):",
+            "Mutate_Code": "if res > MAX // 10 or (res == MAX // 10 and digit  >> = MAX % 10):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T6_LCPN_7-Reverse-Integer.py",
+            "Source_Code": "if res > MAX // 10 or (res == MAX // 10 and digit >= MAX % 10):",
+            "Mutate_Code": "if res > MAX // 10 or (res == MAX // 10 and digit  << = MAX % 10):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T6_LCPN_7-Reverse-Integer.py",
+            "Source_Code": "if res > MAX // 10 or (res == MAX // 10 and digit >= MAX % 10):",
+            "Mutate_Code": "if res > MAX // 10 or (res == MAX // 10 and digit  >=>= = MAX % 10):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T6_LCPN_7-Reverse-Integer.py",
+            "Source_Code": "if res > MAX // 10 or (res == MAX // 10 and digit >= MAX % 10):",
+            "Mutate_Code": "if res > MAX // 10 or (res == MAX // 10 and digit  <=<= = MAX % 10):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T6_LCPN_7-Reverse-Integer.py",
+            "Source_Code": "if res > MAX // 10 or (res == MAX // 10 and digit >= MAX % 10):",
+            "Mutate_Code": "if res > MAX // 10 or (res == MAX // 10 and digit >= MAX % 10): ==== "
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T6_LCPN_7-Reverse-Integer.py",
+            "Source_Code": "if res > MAX // 10 or (res == MAX // 10 and digit >= MAX % 10):",
+            "Mutate_Code": "if res > MAX // 10 or (res == MAX // 10 and digit >= MAX % 10): !== "
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T6_LCPN_7-Reverse-Integer.py",
+            "Source_Code": "if res > MAX // 10 or (res == MAX // 10 and digit >= MAX % 10):",
+            "Mutate_Code": "if res > MAX // 10 or (res == MAX // 10 and digit >= MAX % 10): >> "
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T6_LCPN_7-Reverse-Integer.py",
+            "Source_Code": "if res > MAX // 10 or (res == MAX // 10 and digit >= MAX % 10):",
+            "Mutate_Code": "if res > MAX // 10 or (res == MAX // 10 and digit >= MAX % 10): << "
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T6_LCPN_7-Reverse-Integer.py",
+            "Source_Code": "if res > MAX // 10 or (res == MAX // 10 and digit >= MAX % 10):",
+            "Mutate_Code": "if res > MAX // 10 or (res == MAX // 10 and digit >= MAX % 10): >=>= "
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T6_LCPN_7-Reverse-Integer.py",
+            "Source_Code": "if res > MAX // 10 or (res == MAX // 10 and digit >= MAX % 10):",
+            "Mutate_Code": "if res > MAX // 10 or (res == MAX // 10 and digit >= MAX % 10): <=<= "
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T6_LCPN_7-Reverse-Integer.py",
+            "Source_Code": "if res > MAX // 10 or (res == MAX // 10 and digit >= MAX % 10):",
+            "Mutate_Code": "if res > MAX // 10 or (res == MAX // 10 digit >= MAX % 10):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T6_LCPN_7-Reverse-Integer.py",
+            "Source_Code": "if res > MAX // 10 or (res == MAX // 10 and digit >= MAX % 10):",
+            "Mutate_Code": "if res > MAX // 10 (res == MAX // 10 and digit >= MAX % 10):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T6_LCPN_7-Reverse-Integer.py",
+            "Source_Code": "if res > MAX // 10 or (res == MAX // 10 and digit >= MAX % 10):",
+            "Mutate_Code": "if res > MAX // 10 or (res == MAX // 10 or digit >= MAX % 10):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T6_LCPN_7-Reverse-Integer.py",
+            "Source_Code": "if res > MAX // 10 or (res == MAX // 10 and digit >= MAX % 10):",
+            "Mutate_Code": "if res > MAX // 10 or (res == MAX // 10 not digit >= MAX % 10):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T6_LCPN_7-Reverse-Integer.py",
+            "Source_Code": "if res > MAX // 10 or (res == MAX // 10 and digit >= MAX % 10):",
+            "Mutate_Code": "if res > MAX // 10 and (res == MAX // 10 and digit >= MAX % 10):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T6_LCPN_7-Reverse-Integer.py",
+            "Source_Code": "if res > MAX // 10 or (res == MAX // 10 and digit >= MAX % 10):",
+            "Mutate_Code": "if res > MAX // 10 not (res == MAX // 10 and digit >= MAX % 10):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T6_LCPN_7-Reverse-Integer.py",
+            "Source_Code": "if res > MAX // 10 or (res == MAX // 10 and digit >= MAX % 10):",
+            "Mutate_Code": "if res > MAX // 10 or (res == MAX // 10 and and digit >= MAX % 10):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T6_LCPN_7-Reverse-Integer.py",
+            "Source_Code": "if res > MAX // 10 or (res == MAX // 10 and digit >= MAX % 10):",
+            "Mutate_Code": "if res > MAX // 10 or (res == MAX // 10 or or digit >= MAX % 10):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T6_LCPN_7-Reverse-Integer.py",
+            "Source_Code": "if res > MAX // 10 or (res == MAX // 10 and digit >= MAX % 10):",
+            "Mutate_Code": "if res > MAX // 10 or (res == MAX // 10 not not digit >= MAX % 10):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T6_LCPN_7-Reverse-Integer.py",
+            "Source_Code": "if res > MAX // 10 or (res == MAX // 10 and digit >= MAX % 10):",
+            "Mutate_Code": "if res > MAX // 10 and and (res == MAX // 10 and digit >= MAX % 10):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T6_LCPN_7-Reverse-Integer.py",
+            "Source_Code": "if res > MAX // 10 or (res == MAX // 10 and digit >= MAX % 10):",
+            "Mutate_Code": "if res > MAX // 10 or or (res == MAX // 10 and digit >= MAX % 10):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T6_LCPN_7-Reverse-Integer.py",
+            "Source_Code": "if res > MAX // 10 or (res == MAX // 10 and digit >= MAX % 10):",
+            "Mutate_Code": "if res > MAX // 10 not not (res == MAX // 10 and digit >= MAX % 10):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T6_LCPN_7-Reverse-Integer.py",
+            "Source_Code": "if res > MAX // 10 or (res == MAX // 10 and digit >= MAX % 10):",
+            "Mutate_Code": " "
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T6_LCPN_7-Reverse-Integer.py",
+            "Source_Code": "if res > MAX // 10 or (res == MAX // 10 and digit >= MAX % 10):",
+            "Mutate_Code": "elif:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T6_LCPN_7-Reverse-Integer.py",
+            "Source_Code": "if res > MAX // 10 or (res == MAX // 10 and digit >= MAX % 10):",
+            "Mutate_Code": "else:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T6_LCPN_7-Reverse-Integer.py",
+            "Source_Code": "if res > MAX // 10 or (res == MAX // 10 and digit >= MAX % 10):",
+            "Mutate_Code": "if if"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T6_LCPN_7-Reverse-Integer.py",
+            "Source_Code": "if res > MAX // 10 or (res == MAX // 10 and digit >= MAX % 10):",
+            "Mutate_Code": "if res > MAX // 10 or (res == MAX // 10 and digit >= MAX 10):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T6_LCPN_7-Reverse-Integer.py",
+            "Source_Code": "if res > MAX // 10 or (res == MAX // 10 and digit >= MAX % 10):",
+            "Mutate_Code": "if res > MAX 10 or (res == MAX // 10 and digit >= MAX % 10):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T6_LCPN_7-Reverse-Integer.py",
+            "Source_Code": "if res > MAX // 10 or (res == MAX // 10 and digit >= MAX % 10):",
+            "Mutate_Code": "if res > MAX // 10 or (res == MAX 10 and digit >= MAX % 10):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T6_LCPN_7-Reverse-Integer.py",
+            "Source_Code": "if res > MAX // 10 or (res == MAX // 10 and digit >= MAX % 10):",
+            "Mutate_Code": "if res > MAX // 10 or (res == MAX // 10 and digit >= MAX + 10):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T6_LCPN_7-Reverse-Integer.py",
+            "Source_Code": "if res > MAX // 10 or (res == MAX // 10 and digit >= MAX % 10):",
+            "Mutate_Code": "if res > MAX // 10 or (res == MAX // 10 and digit >= MAX - 10):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T6_LCPN_7-Reverse-Integer.py",
+            "Source_Code": "if res > MAX // 10 or (res == MAX // 10 and digit >= MAX % 10):",
+            "Mutate_Code": "if res > MAX // 10 or (res == MAX // 10 and digit >= MAX * 10):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T6_LCPN_7-Reverse-Integer.py",
+            "Source_Code": "if res > MAX // 10 or (res == MAX // 10 and digit >= MAX % 10):",
+            "Mutate_Code": "if res > MAX // 10 or (res == MAX // 10 and digit >= MAX / 10):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T6_LCPN_7-Reverse-Integer.py",
+            "Source_Code": "if res > MAX // 10 or (res == MAX // 10 and digit >= MAX % 10):",
+            "Mutate_Code": "if res > MAX // 10 or (res == MAX // 10 and digit >= MAX ** 10):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T6_LCPN_7-Reverse-Integer.py",
+            "Source_Code": "if res > MAX // 10 or (res == MAX // 10 and digit >= MAX % 10):",
+            "Mutate_Code": "if res > MAX // 10 or (res == MAX // 10 and digit >= MAX // 10):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T6_LCPN_7-Reverse-Integer.py",
+            "Source_Code": "if res > MAX // 10 or (res == MAX // 10 and digit >= MAX % 10):",
+            "Mutate_Code": "if res > MAX + 10 or (res == MAX // 10 and digit >= MAX % 10):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T6_LCPN_7-Reverse-Integer.py",
+            "Source_Code": "if res > MAX // 10 or (res == MAX // 10 and digit >= MAX % 10):",
+            "Mutate_Code": "if res > MAX - 10 or (res == MAX // 10 and digit >= MAX % 10):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T6_LCPN_7-Reverse-Integer.py",
+            "Source_Code": "if res > MAX // 10 or (res == MAX // 10 and digit >= MAX % 10):",
+            "Mutate_Code": "if res > MAX * 10 or (res == MAX // 10 and digit >= MAX % 10):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T6_LCPN_7-Reverse-Integer.py",
+            "Source_Code": "if res > MAX // 10 or (res == MAX // 10 and digit >= MAX % 10):",
+            "Mutate_Code": "if res > MAX / 10 or (res == MAX // 10 and digit >= MAX % 10):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T6_LCPN_7-Reverse-Integer.py",
+            "Source_Code": "if res > MAX // 10 or (res == MAX // 10 and digit >= MAX % 10):",
+            "Mutate_Code": "if res > MAX % 10 or (res == MAX // 10 and digit >= MAX % 10):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T6_LCPN_7-Reverse-Integer.py",
+            "Source_Code": "if res > MAX // 10 or (res == MAX // 10 and digit >= MAX % 10):",
+            "Mutate_Code": "if res > MAX ** 10 or (res == MAX // 10 and digit >= MAX % 10):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T6_LCPN_7-Reverse-Integer.py",
+            "Source_Code": "if res > MAX // 10 or (res == MAX // 10 and digit >= MAX % 10):",
+            "Mutate_Code": "if res > MAX // 10 or (res == MAX + 10 and digit >= MAX % 10):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T6_LCPN_7-Reverse-Integer.py",
+            "Source_Code": "if res > MAX // 10 or (res == MAX // 10 and digit >= MAX % 10):",
+            "Mutate_Code": "if res > MAX // 10 or (res == MAX - 10 and digit >= MAX % 10):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T6_LCPN_7-Reverse-Integer.py",
+            "Source_Code": "if res > MAX // 10 or (res == MAX // 10 and digit >= MAX % 10):",
+            "Mutate_Code": "if res > MAX // 10 or (res == MAX * 10 and digit >= MAX % 10):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T6_LCPN_7-Reverse-Integer.py",
+            "Source_Code": "if res > MAX // 10 or (res == MAX // 10 and digit >= MAX % 10):",
+            "Mutate_Code": "if res > MAX // 10 or (res == MAX / 10 and digit >= MAX % 10):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T6_LCPN_7-Reverse-Integer.py",
+            "Source_Code": "if res > MAX // 10 or (res == MAX // 10 and digit >= MAX % 10):",
+            "Mutate_Code": "if res > MAX // 10 or (res == MAX % 10 and digit >= MAX % 10):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T6_LCPN_7-Reverse-Integer.py",
+            "Source_Code": "if res > MAX // 10 or (res == MAX // 10 and digit >= MAX % 10):",
+            "Mutate_Code": "if res > MAX // 10 or (res == MAX ** 10 and digit >= MAX % 10):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T6_LCPN_7-Reverse-Integer.py",
+            "Source_Code": "if res > MAX // 10 or (res == MAX // 10 and digit >= MAX % 10):",
+            "Mutate_Code": "if res > MAX // 10 or (res == MAX // 10 and digit >= MAX ++ 10):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T6_LCPN_7-Reverse-Integer.py",
+            "Source_Code": "if res > MAX // 10 or (res == MAX // 10 and digit >= MAX % 10):",
+            "Mutate_Code": "if res > MAX // 10 or (res == MAX // 10 and digit >= MAX -- 10):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T6_LCPN_7-Reverse-Integer.py",
+            "Source_Code": "if res > MAX // 10 or (res == MAX // 10 and digit >= MAX % 10):",
+            "Mutate_Code": "if res > MAX // 10 or (res == MAX // 10 and digit >= MAX ** 10):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T6_LCPN_7-Reverse-Integer.py",
+            "Source_Code": "if res > MAX // 10 or (res == MAX // 10 and digit >= MAX % 10):",
+            "Mutate_Code": "if res > MAX // 10 or (res == MAX // 10 and digit >= MAX // 10):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T6_LCPN_7-Reverse-Integer.py",
+            "Source_Code": "if res > MAX // 10 or (res == MAX // 10 and digit >= MAX % 10):",
+            "Mutate_Code": "if res > MAX // 10 or (res == MAX // 10 and digit >= MAX %% 10):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T6_LCPN_7-Reverse-Integer.py",
+            "Source_Code": "if res > MAX // 10 or (res == MAX // 10 and digit >= MAX % 10):",
+            "Mutate_Code": "if res > MAX // 10 or (res == MAX // 10 and digit >= MAX **** 10):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T6_LCPN_7-Reverse-Integer.py",
+            "Source_Code": "if res > MAX // 10 or (res == MAX // 10 and digit >= MAX % 10):",
+            "Mutate_Code": "if res > MAX // 10 or (res == MAX // 10 and digit >= MAX //// 10):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T6_LCPN_7-Reverse-Integer.py",
+            "Source_Code": "if res > MAX // 10 or (res == MAX // 10 and digit >= MAX % 10):",
+            "Mutate_Code": "if res > MAX ++ 10 or (res == MAX // 10 and digit >= MAX % 10):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T6_LCPN_7-Reverse-Integer.py",
+            "Source_Code": "if res > MAX // 10 or (res == MAX // 10 and digit >= MAX % 10):",
+            "Mutate_Code": "if res > MAX -- 10 or (res == MAX // 10 and digit >= MAX % 10):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T6_LCPN_7-Reverse-Integer.py",
+            "Source_Code": "if res > MAX // 10 or (res == MAX // 10 and digit >= MAX % 10):",
+            "Mutate_Code": "if res > MAX ** 10 or (res == MAX // 10 and digit >= MAX % 10):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T6_LCPN_7-Reverse-Integer.py",
+            "Source_Code": "if res > MAX // 10 or (res == MAX // 10 and digit >= MAX % 10):",
+            "Mutate_Code": "if res > MAX %% 10 or (res == MAX // 10 and digit >= MAX % 10):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T6_LCPN_7-Reverse-Integer.py",
+            "Source_Code": "if res > MAX // 10 or (res == MAX // 10 and digit >= MAX % 10):",
+            "Mutate_Code": "if res > MAX **** 10 or (res == MAX // 10 and digit >= MAX % 10):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T6_LCPN_7-Reverse-Integer.py",
+            "Source_Code": "if res > MAX // 10 or (res == MAX // 10 and digit >= MAX % 10):",
+            "Mutate_Code": "if res > MAX //// 10 or (res == MAX // 10 and digit >= MAX % 10):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T6_LCPN_7-Reverse-Integer.py",
+            "Source_Code": "if res > MAX // 10 or (res == MAX // 10 and digit >= MAX % 10):",
+            "Mutate_Code": "if res > MAX // 10 or (res == MAX ++ 10 and digit >= MAX % 10):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T6_LCPN_7-Reverse-Integer.py",
+            "Source_Code": "if res > MAX // 10 or (res == MAX // 10 and digit >= MAX % 10):",
+            "Mutate_Code": "if res > MAX // 10 or (res == MAX -- 10 and digit >= MAX % 10):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T6_LCPN_7-Reverse-Integer.py",
+            "Source_Code": "if res > MAX // 10 or (res == MAX // 10 and digit >= MAX % 10):",
+            "Mutate_Code": "if res > MAX // 10 or (res == MAX ** 10 and digit >= MAX % 10):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T6_LCPN_7-Reverse-Integer.py",
+            "Source_Code": "if res > MAX // 10 or (res == MAX // 10 and digit >= MAX % 10):",
+            "Mutate_Code": "if res > MAX // 10 or (res == MAX %% 10 and digit >= MAX % 10):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T6_LCPN_7-Reverse-Integer.py",
+            "Source_Code": "if res > MAX // 10 or (res == MAX // 10 and digit >= MAX % 10):",
+            "Mutate_Code": "if res > MAX // 10 or (res == MAX **** 10 and digit >= MAX % 10):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T6_LCPN_7-Reverse-Integer.py",
+            "Source_Code": "if res > MAX // 10 or (res == MAX // 10 and digit >= MAX % 10):",
+            "Mutate_Code": "if res > MAX // 10 or (res == MAX //// 10 and digit >= MAX % 10):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T6_LCPN_7-Reverse-Integer.py",
+            "Source_Code": "if res > MAX // 10 or (res == MAX // 10 and digit >= MAX % 10):",
+            "Mutate_Code": "if res   MAX // 10 or (res == MAX // 10 and digit >= MAX % 10):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T6_LCPN_7-Reverse-Integer.py",
+            "Source_Code": "if res > MAX // 10 or (res == MAX // 10 and digit >= MAX % 10):",
+            "Mutate_Code": "if res > MAX // 10 or (res == MAX // 10 and digit  = MAX % 10):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T6_LCPN_7-Reverse-Integer.py",
+            "Source_Code": "if res > MAX // 10 or (res == MAX // 10 and digit >= MAX % 10):",
+            "Mutate_Code": "if res > MAX // 10 or (res == MAX // 10 and digit >= MAX % 10): "
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T6_LCPN_7-Reverse-Integer.py",
+            "Source_Code": "if res > MAX // 10 or (res == MAX // 10 and digit >= MAX % 10):",
+            "Mutate_Code": "if res == MAX // 10 or (res == MAX // 10 and digit >= MAX % 10):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T6_LCPN_7-Reverse-Integer.py",
+            "Source_Code": "if res > MAX // 10 or (res == MAX // 10 and digit >= MAX % 10):",
+            "Mutate_Code": "if res != MAX // 10 or (res == MAX // 10 and digit >= MAX % 10):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T6_LCPN_7-Reverse-Integer.py",
+            "Source_Code": "if res > MAX // 10 or (res == MAX // 10 and digit >= MAX % 10):",
+            "Mutate_Code": "if res < MAX // 10 or (res == MAX // 10 and digit >= MAX % 10):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T6_LCPN_7-Reverse-Integer.py",
+            "Source_Code": "if res > MAX // 10 or (res == MAX // 10 and digit >= MAX % 10):",
+            "Mutate_Code": "if res >= MAX // 10 or (res == MAX // 10 and digit >= MAX % 10):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T6_LCPN_7-Reverse-Integer.py",
+            "Source_Code": "if res > MAX // 10 or (res == MAX // 10 and digit >= MAX % 10):",
+            "Mutate_Code": "if res <= MAX // 10 or (res == MAX // 10 and digit >= MAX % 10):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T6_LCPN_7-Reverse-Integer.py",
+            "Source_Code": "if res > MAX // 10 or (res == MAX // 10 and digit >= MAX % 10):",
+            "Mutate_Code": "if res > MAX // 10 or (res == MAX // 10 and digit === MAX % 10):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T6_LCPN_7-Reverse-Integer.py",
+            "Source_Code": "if res > MAX // 10 or (res == MAX // 10 and digit >= MAX % 10):",
+            "Mutate_Code": "if res > MAX // 10 or (res == MAX // 10 and digit !== MAX % 10):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T6_LCPN_7-Reverse-Integer.py",
+            "Source_Code": "if res > MAX // 10 or (res == MAX // 10 and digit >= MAX % 10):",
+            "Mutate_Code": "if res > MAX // 10 or (res == MAX // 10 and digit <= MAX % 10):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T6_LCPN_7-Reverse-Integer.py",
+            "Source_Code": "if res > MAX // 10 or (res == MAX // 10 and digit >= MAX % 10):",
+            "Mutate_Code": "if res > MAX // 10 or (res == MAX // 10 and digit >== MAX % 10):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T6_LCPN_7-Reverse-Integer.py",
+            "Source_Code": "if res > MAX // 10 or (res == MAX // 10 and digit >= MAX % 10):",
+            "Mutate_Code": "if res > MAX // 10 or (res == MAX // 10 and digit <== MAX % 10):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T6_LCPN_7-Reverse-Integer.py",
+            "Source_Code": "if res > MAX // 10 or (res == MAX // 10 and digit >= MAX % 10):",
+            "Mutate_Code": "if res > MAX // 10 or (res == MAX // 10 and digit >= MAX % 10):=="
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T6_LCPN_7-Reverse-Integer.py",
+            "Source_Code": "if res > MAX // 10 or (res == MAX // 10 and digit >= MAX % 10):",
+            "Mutate_Code": "if res > MAX // 10 or (res == MAX // 10 and digit >= MAX % 10):!="
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T6_LCPN_7-Reverse-Integer.py",
+            "Source_Code": "if res > MAX // 10 or (res == MAX // 10 and digit >= MAX % 10):",
+            "Mutate_Code": "if res > MAX // 10 or (res == MAX // 10 and digit >= MAX % 10):>"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T6_LCPN_7-Reverse-Integer.py",
+            "Source_Code": "if res > MAX // 10 or (res == MAX // 10 and digit >= MAX % 10):",
+            "Mutate_Code": "if res > MAX // 10 or (res == MAX // 10 and digit >= MAX % 10):<"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T6_LCPN_7-Reverse-Integer.py",
+            "Source_Code": "if res > MAX // 10 or (res == MAX // 10 and digit >= MAX % 10):",
+            "Mutate_Code": "if res > MAX // 10 or (res == MAX // 10 and digit >= MAX % 10):>="
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T6_LCPN_7-Reverse-Integer.py",
+            "Source_Code": "if res > MAX // 10 or (res == MAX // 10 and digit >= MAX % 10):",
+            "Mutate_Code": "if res > MAX // 10 or (res == MAX // 10 and digit >= MAX % 10):<="
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T6_LCPN_7-Reverse-Integer.py",
+            "Source_Code": "if res > MAX // 10 or (res == MAX // 10 and digit >= MAX % 10):",
+            "Mutate_Code": "if res  ====  MAX // 10 or (res == MAX // 10 and digit >= MAX % 10):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T6_LCPN_7-Reverse-Integer.py",
+            "Source_Code": "if res > MAX // 10 or (res == MAX // 10 and digit >= MAX % 10):",
+            "Mutate_Code": "if res  !==  MAX // 10 or (res == MAX // 10 and digit >= MAX % 10):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T6_LCPN_7-Reverse-Integer.py",
+            "Source_Code": "if res > MAX // 10 or (res == MAX // 10 and digit >= MAX % 10):",
+            "Mutate_Code": "if res  >>  MAX // 10 or (res == MAX // 10 and digit >= MAX % 10):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T6_LCPN_7-Reverse-Integer.py",
+            "Source_Code": "if res > MAX // 10 or (res == MAX // 10 and digit >= MAX % 10):",
+            "Mutate_Code": "if res  <<  MAX // 10 or (res == MAX // 10 and digit >= MAX % 10):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T6_LCPN_7-Reverse-Integer.py",
+            "Source_Code": "if res > MAX // 10 or (res == MAX // 10 and digit >= MAX % 10):",
+            "Mutate_Code": "if res  >=>=  MAX // 10 or (res == MAX // 10 and digit >= MAX % 10):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T6_LCPN_7-Reverse-Integer.py",
+            "Source_Code": "if res > MAX // 10 or (res == MAX // 10 and digit >= MAX % 10):",
+            "Mutate_Code": "if res  <=<=  MAX // 10 or (res == MAX // 10 and digit >= MAX % 10):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T6_LCPN_7-Reverse-Integer.py",
+            "Source_Code": "if res > MAX // 10 or (res == MAX // 10 and digit >= MAX % 10):",
+            "Mutate_Code": "if res > MAX // 10 or (res == MAX // 10 and digit  ==== = MAX % 10):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T6_LCPN_7-Reverse-Integer.py",
+            "Source_Code": "if res > MAX // 10 or (res == MAX // 10 and digit >= MAX % 10):",
+            "Mutate_Code": "if res > MAX // 10 or (res == MAX // 10 and digit  !== = MAX % 10):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T6_LCPN_7-Reverse-Integer.py",
+            "Source_Code": "if res > MAX // 10 or (res == MAX // 10 and digit >= MAX % 10):",
+            "Mutate_Code": "if res > MAX // 10 or (res == MAX // 10 and digit  >> = MAX % 10):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T6_LCPN_7-Reverse-Integer.py",
+            "Source_Code": "if res > MAX // 10 or (res == MAX // 10 and digit >= MAX % 10):",
+            "Mutate_Code": "if res > MAX // 10 or (res == MAX // 10 and digit  << = MAX % 10):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T6_LCPN_7-Reverse-Integer.py",
+            "Source_Code": "if res > MAX // 10 or (res == MAX // 10 and digit >= MAX % 10):",
+            "Mutate_Code": "if res > MAX // 10 or (res == MAX // 10 and digit  >=>= = MAX % 10):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T6_LCPN_7-Reverse-Integer.py",
+            "Source_Code": "if res > MAX // 10 or (res == MAX // 10 and digit >= MAX % 10):",
+            "Mutate_Code": "if res > MAX // 10 or (res == MAX // 10 and digit  <=<= = MAX % 10):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T6_LCPN_7-Reverse-Integer.py",
+            "Source_Code": "if res > MAX // 10 or (res == MAX // 10 and digit >= MAX % 10):",
+            "Mutate_Code": "if res > MAX // 10 or (res == MAX // 10 and digit >= MAX % 10): ==== "
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T6_LCPN_7-Reverse-Integer.py",
+            "Source_Code": "if res > MAX // 10 or (res == MAX // 10 and digit >= MAX % 10):",
+            "Mutate_Code": "if res > MAX // 10 or (res == MAX // 10 and digit >= MAX % 10): !== "
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T6_LCPN_7-Reverse-Integer.py",
+            "Source_Code": "if res > MAX // 10 or (res == MAX // 10 and digit >= MAX % 10):",
+            "Mutate_Code": "if res > MAX // 10 or (res == MAX // 10 and digit >= MAX % 10): >> "
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T6_LCPN_7-Reverse-Integer.py",
+            "Source_Code": "if res > MAX // 10 or (res == MAX // 10 and digit >= MAX % 10):",
+            "Mutate_Code": "if res > MAX // 10 or (res == MAX // 10 and digit >= MAX % 10): << "
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T6_LCPN_7-Reverse-Integer.py",
+            "Source_Code": "if res > MAX // 10 or (res == MAX // 10 and digit >= MAX % 10):",
+            "Mutate_Code": "if res > MAX // 10 or (res == MAX // 10 and digit >= MAX % 10): >=>= "
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T6_LCPN_7-Reverse-Integer.py",
+            "Source_Code": "if res > MAX // 10 or (res == MAX // 10 and digit >= MAX % 10):",
+            "Mutate_Code": "if res > MAX // 10 or (res == MAX // 10 and digit >= MAX % 10): <=<= "
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T6_LCPN_7-Reverse-Integer.py",
+            "Source_Code": "if res > MAX // 10 or (res == MAX // 10 and digit >= MAX % 10):",
+            "Mutate_Code": "if res > MAX // 10 or (res == MAX // 10 digit >= MAX % 10):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T6_LCPN_7-Reverse-Integer.py",
+            "Source_Code": "if res > MAX // 10 or (res == MAX // 10 and digit >= MAX % 10):",
+            "Mutate_Code": "if res > MAX // 10 (res == MAX // 10 and digit >= MAX % 10):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T6_LCPN_7-Reverse-Integer.py",
+            "Source_Code": "if res > MAX // 10 or (res == MAX // 10 and digit >= MAX % 10):",
+            "Mutate_Code": "if res > MAX // 10 or (res == MAX // 10 or digit >= MAX % 10):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T6_LCPN_7-Reverse-Integer.py",
+            "Source_Code": "if res > MAX // 10 or (res == MAX // 10 and digit >= MAX % 10):",
+            "Mutate_Code": "if res > MAX // 10 or (res == MAX // 10 not digit >= MAX % 10):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T6_LCPN_7-Reverse-Integer.py",
+            "Source_Code": "if res > MAX // 10 or (res == MAX // 10 and digit >= MAX % 10):",
+            "Mutate_Code": "if res > MAX // 10 and (res == MAX // 10 and digit >= MAX % 10):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T6_LCPN_7-Reverse-Integer.py",
+            "Source_Code": "if res > MAX // 10 or (res == MAX // 10 and digit >= MAX % 10):",
+            "Mutate_Code": "if res > MAX // 10 not (res == MAX // 10 and digit >= MAX % 10):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T6_LCPN_7-Reverse-Integer.py",
+            "Source_Code": "if res > MAX // 10 or (res == MAX // 10 and digit >= MAX % 10):",
+            "Mutate_Code": "if res > MAX // 10 or (res == MAX // 10 and and digit >= MAX % 10):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T6_LCPN_7-Reverse-Integer.py",
+            "Source_Code": "if res > MAX // 10 or (res == MAX // 10 and digit >= MAX % 10):",
+            "Mutate_Code": "if res > MAX // 10 or (res == MAX // 10 or or digit >= MAX % 10):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T6_LCPN_7-Reverse-Integer.py",
+            "Source_Code": "if res > MAX // 10 or (res == MAX // 10 and digit >= MAX % 10):",
+            "Mutate_Code": "if res > MAX // 10 or (res == MAX // 10 not not digit >= MAX % 10):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T6_LCPN_7-Reverse-Integer.py",
+            "Source_Code": "if res > MAX // 10 or (res == MAX // 10 and digit >= MAX % 10):",
+            "Mutate_Code": "if res > MAX // 10 and and (res == MAX // 10 and digit >= MAX % 10):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T6_LCPN_7-Reverse-Integer.py",
+            "Source_Code": "if res > MAX // 10 or (res == MAX // 10 and digit >= MAX % 10):",
+            "Mutate_Code": "if res > MAX // 10 or or (res == MAX // 10 and digit >= MAX % 10):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T6_LCPN_7-Reverse-Integer.py",
+            "Source_Code": "if res > MAX // 10 or (res == MAX // 10 and digit >= MAX % 10):",
+            "Mutate_Code": "if res > MAX // 10 not not (res == MAX // 10 and digit >= MAX % 10):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T6_LCPN_7-Reverse-Integer.py",
+            "Source_Code": "if res > MAX // 10 or (res == MAX // 10 and digit >= MAX % 10):",
+            "Mutate_Code": " "
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T6_LCPN_7-Reverse-Integer.py",
+            "Source_Code": "if res > MAX // 10 or (res == MAX // 10 and digit >= MAX % 10):",
+            "Mutate_Code": "elif:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T6_LCPN_7-Reverse-Integer.py",
+            "Source_Code": "if res > MAX // 10 or (res == MAX // 10 and digit >= MAX % 10):",
+            "Mutate_Code": "else:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T6_LCPN_7-Reverse-Integer.py",
+            "Source_Code": "if res > MAX // 10 or (res == MAX // 10 and digit >= MAX % 10):",
+            "Mutate_Code": "if if"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T6_LCPN_7-Reverse-Integer.py",
+            "Source_Code": "if res > MAX // 10 or (res == MAX // 10 and digit >= MAX % 10):",
+            "Mutate_Code": "if res > MAX // 10 or (res == MAX // 10 and digit >= MAX 10):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T6_LCPN_7-Reverse-Integer.py",
+            "Source_Code": "if res > MAX // 10 or (res == MAX // 10 and digit >= MAX % 10):",
+            "Mutate_Code": "if res > MAX 10 or (res == MAX // 10 and digit >= MAX % 10):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T6_LCPN_7-Reverse-Integer.py",
+            "Source_Code": "if res > MAX // 10 or (res == MAX // 10 and digit >= MAX % 10):",
+            "Mutate_Code": "if res > MAX // 10 or (res == MAX 10 and digit >= MAX % 10):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T6_LCPN_7-Reverse-Integer.py",
+            "Source_Code": "if res > MAX // 10 or (res == MAX // 10 and digit >= MAX % 10):",
+            "Mutate_Code": "if res > MAX // 10 or (res == MAX // 10 and digit >= MAX + 10):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T6_LCPN_7-Reverse-Integer.py",
+            "Source_Code": "if res > MAX // 10 or (res == MAX // 10 and digit >= MAX % 10):",
+            "Mutate_Code": "if res > MAX // 10 or (res == MAX // 10 and digit >= MAX - 10):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T6_LCPN_7-Reverse-Integer.py",
+            "Source_Code": "if res > MAX // 10 or (res == MAX // 10 and digit >= MAX % 10):",
+            "Mutate_Code": "if res > MAX // 10 or (res == MAX // 10 and digit >= MAX * 10):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T6_LCPN_7-Reverse-Integer.py",
+            "Source_Code": "if res > MAX // 10 or (res == MAX // 10 and digit >= MAX % 10):",
+            "Mutate_Code": "if res > MAX // 10 or (res == MAX // 10 and digit >= MAX / 10):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T6_LCPN_7-Reverse-Integer.py",
+            "Source_Code": "if res > MAX // 10 or (res == MAX // 10 and digit >= MAX % 10):",
+            "Mutate_Code": "if res > MAX // 10 or (res == MAX // 10 and digit >= MAX ** 10):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T6_LCPN_7-Reverse-Integer.py",
+            "Source_Code": "if res > MAX // 10 or (res == MAX // 10 and digit >= MAX % 10):",
+            "Mutate_Code": "if res > MAX // 10 or (res == MAX // 10 and digit >= MAX // 10):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T6_LCPN_7-Reverse-Integer.py",
+            "Source_Code": "if res > MAX // 10 or (res == MAX // 10 and digit >= MAX % 10):",
+            "Mutate_Code": "if res > MAX + 10 or (res == MAX // 10 and digit >= MAX % 10):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T6_LCPN_7-Reverse-Integer.py",
+            "Source_Code": "if res > MAX // 10 or (res == MAX // 10 and digit >= MAX % 10):",
+            "Mutate_Code": "if res > MAX - 10 or (res == MAX // 10 and digit >= MAX % 10):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T6_LCPN_7-Reverse-Integer.py",
+            "Source_Code": "if res > MAX // 10 or (res == MAX // 10 and digit >= MAX % 10):",
+            "Mutate_Code": "if res > MAX * 10 or (res == MAX // 10 and digit >= MAX % 10):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T6_LCPN_7-Reverse-Integer.py",
+            "Source_Code": "if res > MAX // 10 or (res == MAX // 10 and digit >= MAX % 10):",
+            "Mutate_Code": "if res > MAX / 10 or (res == MAX // 10 and digit >= MAX % 10):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T6_LCPN_7-Reverse-Integer.py",
+            "Source_Code": "if res > MAX // 10 or (res == MAX // 10 and digit >= MAX % 10):",
+            "Mutate_Code": "if res > MAX % 10 or (res == MAX // 10 and digit >= MAX % 10):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T6_LCPN_7-Reverse-Integer.py",
+            "Source_Code": "if res > MAX // 10 or (res == MAX // 10 and digit >= MAX % 10):",
+            "Mutate_Code": "if res > MAX ** 10 or (res == MAX // 10 and digit >= MAX % 10):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T6_LCPN_7-Reverse-Integer.py",
+            "Source_Code": "if res > MAX // 10 or (res == MAX // 10 and digit >= MAX % 10):",
+            "Mutate_Code": "if res > MAX // 10 or (res == MAX + 10 and digit >= MAX % 10):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T6_LCPN_7-Reverse-Integer.py",
+            "Source_Code": "if res > MAX // 10 or (res == MAX // 10 and digit >= MAX % 10):",
+            "Mutate_Code": "if res > MAX // 10 or (res == MAX - 10 and digit >= MAX % 10):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T6_LCPN_7-Reverse-Integer.py",
+            "Source_Code": "if res > MAX // 10 or (res == MAX // 10 and digit >= MAX % 10):",
+            "Mutate_Code": "if res > MAX // 10 or (res == MAX * 10 and digit >= MAX % 10):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T6_LCPN_7-Reverse-Integer.py",
+            "Source_Code": "if res > MAX // 10 or (res == MAX // 10 and digit >= MAX % 10):",
+            "Mutate_Code": "if res > MAX // 10 or (res == MAX / 10 and digit >= MAX % 10):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T6_LCPN_7-Reverse-Integer.py",
+            "Source_Code": "if res > MAX // 10 or (res == MAX // 10 and digit >= MAX % 10):",
+            "Mutate_Code": "if res > MAX // 10 or (res == MAX % 10 and digit >= MAX % 10):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T6_LCPN_7-Reverse-Integer.py",
+            "Source_Code": "if res > MAX // 10 or (res == MAX // 10 and digit >= MAX % 10):",
+            "Mutate_Code": "if res > MAX // 10 or (res == MAX ** 10 and digit >= MAX % 10):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T6_LCPN_7-Reverse-Integer.py",
+            "Source_Code": "if res > MAX // 10 or (res == MAX // 10 and digit >= MAX % 10):",
+            "Mutate_Code": "if res > MAX // 10 or (res == MAX // 10 and digit >= MAX ++ 10):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T6_LCPN_7-Reverse-Integer.py",
+            "Source_Code": "if res > MAX // 10 or (res == MAX // 10 and digit >= MAX % 10):",
+            "Mutate_Code": "if res > MAX // 10 or (res == MAX // 10 and digit >= MAX -- 10):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T6_LCPN_7-Reverse-Integer.py",
+            "Source_Code": "if res > MAX // 10 or (res == MAX // 10 and digit >= MAX % 10):",
+            "Mutate_Code": "if res > MAX // 10 or (res == MAX // 10 and digit >= MAX ** 10):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T6_LCPN_7-Reverse-Integer.py",
+            "Source_Code": "if res > MAX // 10 or (res == MAX // 10 and digit >= MAX % 10):",
+            "Mutate_Code": "if res > MAX // 10 or (res == MAX // 10 and digit >= MAX // 10):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T6_LCPN_7-Reverse-Integer.py",
+            "Source_Code": "if res > MAX // 10 or (res == MAX // 10 and digit >= MAX % 10):",
+            "Mutate_Code": "if res > MAX // 10 or (res == MAX // 10 and digit >= MAX %% 10):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T6_LCPN_7-Reverse-Integer.py",
+            "Source_Code": "if res > MAX // 10 or (res == MAX // 10 and digit >= MAX % 10):",
+            "Mutate_Code": "if res > MAX // 10 or (res == MAX // 10 and digit >= MAX **** 10):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T6_LCPN_7-Reverse-Integer.py",
+            "Source_Code": "if res > MAX // 10 or (res == MAX // 10 and digit >= MAX % 10):",
+            "Mutate_Code": "if res > MAX // 10 or (res == MAX // 10 and digit >= MAX //// 10):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T6_LCPN_7-Reverse-Integer.py",
+            "Source_Code": "if res > MAX // 10 or (res == MAX // 10 and digit >= MAX % 10):",
+            "Mutate_Code": "if res > MAX ++ 10 or (res == MAX // 10 and digit >= MAX % 10):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T6_LCPN_7-Reverse-Integer.py",
+            "Source_Code": "if res > MAX // 10 or (res == MAX // 10 and digit >= MAX % 10):",
+            "Mutate_Code": "if res > MAX -- 10 or (res == MAX // 10 and digit >= MAX % 10):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T6_LCPN_7-Reverse-Integer.py",
+            "Source_Code": "if res > MAX // 10 or (res == MAX // 10 and digit >= MAX % 10):",
+            "Mutate_Code": "if res > MAX ** 10 or (res == MAX // 10 and digit >= MAX % 10):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T6_LCPN_7-Reverse-Integer.py",
+            "Source_Code": "if res > MAX // 10 or (res == MAX // 10 and digit >= MAX % 10):",
+            "Mutate_Code": "if res > MAX %% 10 or (res == MAX // 10 and digit >= MAX % 10):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T6_LCPN_7-Reverse-Integer.py",
+            "Source_Code": "if res > MAX // 10 or (res == MAX // 10 and digit >= MAX % 10):",
+            "Mutate_Code": "if res > MAX **** 10 or (res == MAX // 10 and digit >= MAX % 10):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T6_LCPN_7-Reverse-Integer.py",
+            "Source_Code": "if res > MAX // 10 or (res == MAX // 10 and digit >= MAX % 10):",
+            "Mutate_Code": "if res > MAX //// 10 or (res == MAX // 10 and digit >= MAX % 10):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T6_LCPN_7-Reverse-Integer.py",
+            "Source_Code": "if res > MAX // 10 or (res == MAX // 10 and digit >= MAX % 10):",
+            "Mutate_Code": "if res > MAX // 10 or (res == MAX ++ 10 and digit >= MAX % 10):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T6_LCPN_7-Reverse-Integer.py",
+            "Source_Code": "if res > MAX // 10 or (res == MAX // 10 and digit >= MAX % 10):",
+            "Mutate_Code": "if res > MAX // 10 or (res == MAX -- 10 and digit >= MAX % 10):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T6_LCPN_7-Reverse-Integer.py",
+            "Source_Code": "if res > MAX // 10 or (res == MAX // 10 and digit >= MAX % 10):",
+            "Mutate_Code": "if res > MAX // 10 or (res == MAX ** 10 and digit >= MAX % 10):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T6_LCPN_7-Reverse-Integer.py",
+            "Source_Code": "if res > MAX // 10 or (res == MAX // 10 and digit >= MAX % 10):",
+            "Mutate_Code": "if res > MAX // 10 or (res == MAX %% 10 and digit >= MAX % 10):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T6_LCPN_7-Reverse-Integer.py",
+            "Source_Code": "if res > MAX // 10 or (res == MAX // 10 and digit >= MAX % 10):",
+            "Mutate_Code": "if res > MAX // 10 or (res == MAX **** 10 and digit >= MAX % 10):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T6_LCPN_7-Reverse-Integer.py",
+            "Source_Code": "if res > MAX // 10 or (res == MAX // 10 and digit >= MAX % 10):",
+            "Mutate_Code": "if res > MAX // 10 or (res == MAX //// 10 and digit >= MAX % 10):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T6_LCPN_7-Reverse-Integer.py",
+            "Source_Code": "if res > MAX // 10 or (res == MAX // 10 and digit >= MAX % 10):",
+            "Mutate_Code": "if res   MAX // 10 or (res == MAX // 10 and digit >= MAX % 10):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T6_LCPN_7-Reverse-Integer.py",
+            "Source_Code": "if res > MAX // 10 or (res == MAX // 10 and digit >= MAX % 10):",
+            "Mutate_Code": "if res > MAX // 10 or (res == MAX // 10 and digit  = MAX % 10):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T6_LCPN_7-Reverse-Integer.py",
+            "Source_Code": "if res > MAX // 10 or (res == MAX // 10 and digit >= MAX % 10):",
+            "Mutate_Code": "if res > MAX // 10 or (res == MAX // 10 and digit >= MAX % 10): "
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T6_LCPN_7-Reverse-Integer.py",
+            "Source_Code": "if res > MAX // 10 or (res == MAX // 10 and digit >= MAX % 10):",
+            "Mutate_Code": "if res == MAX // 10 or (res == MAX // 10 and digit >= MAX % 10):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T6_LCPN_7-Reverse-Integer.py",
+            "Source_Code": "if res > MAX // 10 or (res == MAX // 10 and digit >= MAX % 10):",
+            "Mutate_Code": "if res != MAX // 10 or (res == MAX // 10 and digit >= MAX % 10):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T6_LCPN_7-Reverse-Integer.py",
+            "Source_Code": "if res > MAX // 10 or (res == MAX // 10 and digit >= MAX % 10):",
+            "Mutate_Code": "if res < MAX // 10 or (res == MAX // 10 and digit >= MAX % 10):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T6_LCPN_7-Reverse-Integer.py",
+            "Source_Code": "if res > MAX // 10 or (res == MAX // 10 and digit >= MAX % 10):",
+            "Mutate_Code": "if res >= MAX // 10 or (res == MAX // 10 and digit >= MAX % 10):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T6_LCPN_7-Reverse-Integer.py",
+            "Source_Code": "if res > MAX // 10 or (res == MAX // 10 and digit >= MAX % 10):",
+            "Mutate_Code": "if res <= MAX // 10 or (res == MAX // 10 and digit >= MAX % 10):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T6_LCPN_7-Reverse-Integer.py",
+            "Source_Code": "if res > MAX // 10 or (res == MAX // 10 and digit >= MAX % 10):",
+            "Mutate_Code": "if res > MAX // 10 or (res == MAX // 10 and digit === MAX % 10):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T6_LCPN_7-Reverse-Integer.py",
+            "Source_Code": "if res > MAX // 10 or (res == MAX // 10 and digit >= MAX % 10):",
+            "Mutate_Code": "if res > MAX // 10 or (res == MAX // 10 and digit !== MAX % 10):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T6_LCPN_7-Reverse-Integer.py",
+            "Source_Code": "if res > MAX // 10 or (res == MAX // 10 and digit >= MAX % 10):",
+            "Mutate_Code": "if res > MAX // 10 or (res == MAX // 10 and digit <= MAX % 10):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T6_LCPN_7-Reverse-Integer.py",
+            "Source_Code": "if res > MAX // 10 or (res == MAX // 10 and digit >= MAX % 10):",
+            "Mutate_Code": "if res > MAX // 10 or (res == MAX // 10 and digit >== MAX % 10):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T6_LCPN_7-Reverse-Integer.py",
+            "Source_Code": "if res > MAX // 10 or (res == MAX // 10 and digit >= MAX % 10):",
+            "Mutate_Code": "if res > MAX // 10 or (res == MAX // 10 and digit <== MAX % 10):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T6_LCPN_7-Reverse-Integer.py",
+            "Source_Code": "if res > MAX // 10 or (res == MAX // 10 and digit >= MAX % 10):",
+            "Mutate_Code": "if res > MAX // 10 or (res == MAX // 10 and digit >= MAX % 10):=="
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T6_LCPN_7-Reverse-Integer.py",
+            "Source_Code": "if res > MAX // 10 or (res == MAX // 10 and digit >= MAX % 10):",
+            "Mutate_Code": "if res > MAX // 10 or (res == MAX // 10 and digit >= MAX % 10):!="
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T6_LCPN_7-Reverse-Integer.py",
+            "Source_Code": "if res > MAX // 10 or (res == MAX // 10 and digit >= MAX % 10):",
+            "Mutate_Code": "if res > MAX // 10 or (res == MAX // 10 and digit >= MAX % 10):>"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T6_LCPN_7-Reverse-Integer.py",
+            "Source_Code": "if res > MAX // 10 or (res == MAX // 10 and digit >= MAX % 10):",
+            "Mutate_Code": "if res > MAX // 10 or (res == MAX // 10 and digit >= MAX % 10):<"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T6_LCPN_7-Reverse-Integer.py",
+            "Source_Code": "if res > MAX // 10 or (res == MAX // 10 and digit >= MAX % 10):",
+            "Mutate_Code": "if res > MAX // 10 or (res == MAX // 10 and digit >= MAX % 10):>="
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T6_LCPN_7-Reverse-Integer.py",
+            "Source_Code": "if res > MAX // 10 or (res == MAX // 10 and digit >= MAX % 10):",
+            "Mutate_Code": "if res > MAX // 10 or (res == MAX // 10 and digit >= MAX % 10):<="
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T6_LCPN_7-Reverse-Integer.py",
+            "Source_Code": "if res > MAX // 10 or (res == MAX // 10 and digit >= MAX % 10):",
+            "Mutate_Code": "if res  ====  MAX // 10 or (res == MAX // 10 and digit >= MAX % 10):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T6_LCPN_7-Reverse-Integer.py",
+            "Source_Code": "if res > MAX // 10 or (res == MAX // 10 and digit >= MAX % 10):",
+            "Mutate_Code": "if res  !==  MAX // 10 or (res == MAX // 10 and digit >= MAX % 10):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T6_LCPN_7-Reverse-Integer.py",
+            "Source_Code": "if res > MAX // 10 or (res == MAX // 10 and digit >= MAX % 10):",
+            "Mutate_Code": "if res  >>  MAX // 10 or (res == MAX // 10 and digit >= MAX % 10):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T6_LCPN_7-Reverse-Integer.py",
+            "Source_Code": "if res > MAX // 10 or (res == MAX // 10 and digit >= MAX % 10):",
+            "Mutate_Code": "if res  <<  MAX // 10 or (res == MAX // 10 and digit >= MAX % 10):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T6_LCPN_7-Reverse-Integer.py",
+            "Source_Code": "if res > MAX // 10 or (res == MAX // 10 and digit >= MAX % 10):",
+            "Mutate_Code": "if res  >=>=  MAX // 10 or (res == MAX // 10 and digit >= MAX % 10):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T6_LCPN_7-Reverse-Integer.py",
+            "Source_Code": "if res > MAX // 10 or (res == MAX // 10 and digit >= MAX % 10):",
+            "Mutate_Code": "if res  <=<=  MAX // 10 or (res == MAX // 10 and digit >= MAX % 10):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T6_LCPN_7-Reverse-Integer.py",
+            "Source_Code": "if res > MAX // 10 or (res == MAX // 10 and digit >= MAX % 10):",
+            "Mutate_Code": "if res > MAX // 10 or (res == MAX // 10 and digit  ==== = MAX % 10):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T6_LCPN_7-Reverse-Integer.py",
+            "Source_Code": "if res > MAX // 10 or (res == MAX // 10 and digit >= MAX % 10):",
+            "Mutate_Code": "if res > MAX // 10 or (res == MAX // 10 and digit  !== = MAX % 10):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T6_LCPN_7-Reverse-Integer.py",
+            "Source_Code": "if res > MAX // 10 or (res == MAX // 10 and digit >= MAX % 10):",
+            "Mutate_Code": "if res > MAX // 10 or (res == MAX // 10 and digit  >> = MAX % 10):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T6_LCPN_7-Reverse-Integer.py",
+            "Source_Code": "if res > MAX // 10 or (res == MAX // 10 and digit >= MAX % 10):",
+            "Mutate_Code": "if res > MAX // 10 or (res == MAX // 10 and digit  << = MAX % 10):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T6_LCPN_7-Reverse-Integer.py",
+            "Source_Code": "if res > MAX // 10 or (res == MAX // 10 and digit >= MAX % 10):",
+            "Mutate_Code": "if res > MAX // 10 or (res == MAX // 10 and digit  >=>= = MAX % 10):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T6_LCPN_7-Reverse-Integer.py",
+            "Source_Code": "if res > MAX // 10 or (res == MAX // 10 and digit >= MAX % 10):",
+            "Mutate_Code": "if res > MAX // 10 or (res == MAX // 10 and digit  <=<= = MAX % 10):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T6_LCPN_7-Reverse-Integer.py",
+            "Source_Code": "if res > MAX // 10 or (res == MAX // 10 and digit >= MAX % 10):",
+            "Mutate_Code": "if res > MAX // 10 or (res == MAX // 10 and digit >= MAX % 10): ==== "
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T6_LCPN_7-Reverse-Integer.py",
+            "Source_Code": "if res > MAX // 10 or (res == MAX // 10 and digit >= MAX % 10):",
+            "Mutate_Code": "if res > MAX // 10 or (res == MAX // 10 and digit >= MAX % 10): !== "
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T6_LCPN_7-Reverse-Integer.py",
+            "Source_Code": "if res > MAX // 10 or (res == MAX // 10 and digit >= MAX % 10):",
+            "Mutate_Code": "if res > MAX // 10 or (res == MAX // 10 and digit >= MAX % 10): >> "
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T6_LCPN_7-Reverse-Integer.py",
+            "Source_Code": "if res > MAX // 10 or (res == MAX // 10 and digit >= MAX % 10):",
+            "Mutate_Code": "if res > MAX // 10 or (res == MAX // 10 and digit >= MAX % 10): << "
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T6_LCPN_7-Reverse-Integer.py",
+            "Source_Code": "if res > MAX // 10 or (res == MAX // 10 and digit >= MAX % 10):",
+            "Mutate_Code": "if res > MAX // 10 or (res == MAX // 10 and digit >= MAX % 10): >=>= "
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T6_LCPN_7-Reverse-Integer.py",
+            "Source_Code": "if res > MAX // 10 or (res == MAX // 10 and digit >= MAX % 10):",
+            "Mutate_Code": "if res > MAX // 10 or (res == MAX // 10 and digit >= MAX % 10): <=<= "
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T6_LCPN_7-Reverse-Integer.py",
+            "Source_Code": "if res > MAX // 10 or (res == MAX // 10 and digit >= MAX % 10):",
+            "Mutate_Code": "if res > MAX // 10 or (res == MAX // 10 digit >= MAX % 10):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T6_LCPN_7-Reverse-Integer.py",
+            "Source_Code": "if res > MAX // 10 or (res == MAX // 10 and digit >= MAX % 10):",
+            "Mutate_Code": "if res > MAX // 10 (res == MAX // 10 and digit >= MAX % 10):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T6_LCPN_7-Reverse-Integer.py",
+            "Source_Code": "if res > MAX // 10 or (res == MAX // 10 and digit >= MAX % 10):",
+            "Mutate_Code": "if res > MAX // 10 or (res == MAX // 10 or digit >= MAX % 10):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T6_LCPN_7-Reverse-Integer.py",
+            "Source_Code": "if res > MAX // 10 or (res == MAX // 10 and digit >= MAX % 10):",
+            "Mutate_Code": "if res > MAX // 10 or (res == MAX // 10 not digit >= MAX % 10):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T6_LCPN_7-Reverse-Integer.py",
+            "Source_Code": "if res > MAX // 10 or (res == MAX // 10 and digit >= MAX % 10):",
+            "Mutate_Code": "if res > MAX // 10 and (res == MAX // 10 and digit >= MAX % 10):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T6_LCPN_7-Reverse-Integer.py",
+            "Source_Code": "if res > MAX // 10 or (res == MAX // 10 and digit >= MAX % 10):",
+            "Mutate_Code": "if res > MAX // 10 not (res == MAX // 10 and digit >= MAX % 10):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T6_LCPN_7-Reverse-Integer.py",
+            "Source_Code": "if res > MAX // 10 or (res == MAX // 10 and digit >= MAX % 10):",
+            "Mutate_Code": "if res > MAX // 10 or (res == MAX // 10 and and digit >= MAX % 10):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T6_LCPN_7-Reverse-Integer.py",
+            "Source_Code": "if res > MAX // 10 or (res == MAX // 10 and digit >= MAX % 10):",
+            "Mutate_Code": "if res > MAX // 10 or (res == MAX // 10 or or digit >= MAX % 10):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T6_LCPN_7-Reverse-Integer.py",
+            "Source_Code": "if res > MAX // 10 or (res == MAX // 10 and digit >= MAX % 10):",
+            "Mutate_Code": "if res > MAX // 10 or (res == MAX // 10 not not digit >= MAX % 10):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T6_LCPN_7-Reverse-Integer.py",
+            "Source_Code": "if res > MAX // 10 or (res == MAX // 10 and digit >= MAX % 10):",
+            "Mutate_Code": "if res > MAX // 10 and and (res == MAX // 10 and digit >= MAX % 10):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T6_LCPN_7-Reverse-Integer.py",
+            "Source_Code": "if res > MAX // 10 or (res == MAX // 10 and digit >= MAX % 10):",
+            "Mutate_Code": "if res > MAX // 10 or or (res == MAX // 10 and digit >= MAX % 10):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T6_LCPN_7-Reverse-Integer.py",
+            "Source_Code": "if res > MAX // 10 or (res == MAX // 10 and digit >= MAX % 10):",
+            "Mutate_Code": "if res > MAX // 10 not not (res == MAX // 10 and digit >= MAX % 10):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T6_LCPN_7-Reverse-Integer.py",
+            "Source_Code": "if res > MAX // 10 or (res == MAX // 10 and digit >= MAX % 10):",
+            "Mutate_Code": " "
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T6_LCPN_7-Reverse-Integer.py",
+            "Source_Code": "if res > MAX // 10 or (res == MAX // 10 and digit >= MAX % 10):",
+            "Mutate_Code": "elif:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T6_LCPN_7-Reverse-Integer.py",
+            "Source_Code": "if res > MAX // 10 or (res == MAX // 10 and digit >= MAX % 10):",
+            "Mutate_Code": "else:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T6_LCPN_7-Reverse-Integer.py",
+            "Source_Code": "if res > MAX // 10 or (res == MAX // 10 and digit >= MAX % 10):",
+            "Mutate_Code": "if if"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T6_LCPN_7-Reverse-Integer.py",
+            "Source_Code": "return 0",
+            "Mutate_Code": " 0"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T6_LCPN_7-Reverse-Integer.py",
+            "Source_Code": "return 0",
+            "Mutate_Code": "pass0"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T6_LCPN_7-Reverse-Integer.py",
+            "Source_Code": "return 0",
+            "Mutate_Code": "return return0"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T6_LCPN_7-Reverse-Integer.py",
+            "Source_Code": "if res < MIN // 10 or (res == MIN // 10 and digit <= MIN % 10):",
+            "Mutate_Code": "if res < MIN // 10 or (res == MIN // 10 and digit <= MIN 10):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T6_LCPN_7-Reverse-Integer.py",
+            "Source_Code": "if res < MIN // 10 or (res == MIN // 10 and digit <= MIN % 10):",
+            "Mutate_Code": "if res < MIN 10 or (res == MIN // 10 and digit <= MIN % 10):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T6_LCPN_7-Reverse-Integer.py",
+            "Source_Code": "if res < MIN // 10 or (res == MIN // 10 and digit <= MIN % 10):",
+            "Mutate_Code": "if res < MIN // 10 or (res == MIN 10 and digit <= MIN % 10):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T6_LCPN_7-Reverse-Integer.py",
+            "Source_Code": "if res < MIN // 10 or (res == MIN // 10 and digit <= MIN % 10):",
+            "Mutate_Code": "if res < MIN // 10 or (res == MIN // 10 and digit <= MIN + 10):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T6_LCPN_7-Reverse-Integer.py",
+            "Source_Code": "if res < MIN // 10 or (res == MIN // 10 and digit <= MIN % 10):",
+            "Mutate_Code": "if res < MIN // 10 or (res == MIN // 10 and digit <= MIN - 10):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T6_LCPN_7-Reverse-Integer.py",
+            "Source_Code": "if res < MIN // 10 or (res == MIN // 10 and digit <= MIN % 10):",
+            "Mutate_Code": "if res < MIN // 10 or (res == MIN // 10 and digit <= MIN * 10):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T6_LCPN_7-Reverse-Integer.py",
+            "Source_Code": "if res < MIN // 10 or (res == MIN // 10 and digit <= MIN % 10):",
+            "Mutate_Code": "if res < MIN // 10 or (res == MIN // 10 and digit <= MIN / 10):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T6_LCPN_7-Reverse-Integer.py",
+            "Source_Code": "if res < MIN // 10 or (res == MIN // 10 and digit <= MIN % 10):",
+            "Mutate_Code": "if res < MIN // 10 or (res == MIN // 10 and digit <= MIN ** 10):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T6_LCPN_7-Reverse-Integer.py",
+            "Source_Code": "if res < MIN // 10 or (res == MIN // 10 and digit <= MIN % 10):",
+            "Mutate_Code": "if res < MIN // 10 or (res == MIN // 10 and digit <= MIN // 10):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T6_LCPN_7-Reverse-Integer.py",
+            "Source_Code": "if res < MIN // 10 or (res == MIN // 10 and digit <= MIN % 10):",
+            "Mutate_Code": "if res < MIN + 10 or (res == MIN // 10 and digit <= MIN % 10):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T6_LCPN_7-Reverse-Integer.py",
+            "Source_Code": "if res < MIN // 10 or (res == MIN // 10 and digit <= MIN % 10):",
+            "Mutate_Code": "if res < MIN - 10 or (res == MIN // 10 and digit <= MIN % 10):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T6_LCPN_7-Reverse-Integer.py",
+            "Source_Code": "if res < MIN // 10 or (res == MIN // 10 and digit <= MIN % 10):",
+            "Mutate_Code": "if res < MIN * 10 or (res == MIN // 10 and digit <= MIN % 10):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T6_LCPN_7-Reverse-Integer.py",
+            "Source_Code": "if res < MIN // 10 or (res == MIN // 10 and digit <= MIN % 10):",
+            "Mutate_Code": "if res < MIN / 10 or (res == MIN // 10 and digit <= MIN % 10):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T6_LCPN_7-Reverse-Integer.py",
+            "Source_Code": "if res < MIN // 10 or (res == MIN // 10 and digit <= MIN % 10):",
+            "Mutate_Code": "if res < MIN % 10 or (res == MIN // 10 and digit <= MIN % 10):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T6_LCPN_7-Reverse-Integer.py",
+            "Source_Code": "if res < MIN // 10 or (res == MIN // 10 and digit <= MIN % 10):",
+            "Mutate_Code": "if res < MIN ** 10 or (res == MIN // 10 and digit <= MIN % 10):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T6_LCPN_7-Reverse-Integer.py",
+            "Source_Code": "if res < MIN // 10 or (res == MIN // 10 and digit <= MIN % 10):",
+            "Mutate_Code": "if res < MIN // 10 or (res == MIN + 10 and digit <= MIN % 10):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T6_LCPN_7-Reverse-Integer.py",
+            "Source_Code": "if res < MIN // 10 or (res == MIN // 10 and digit <= MIN % 10):",
+            "Mutate_Code": "if res < MIN // 10 or (res == MIN - 10 and digit <= MIN % 10):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T6_LCPN_7-Reverse-Integer.py",
+            "Source_Code": "if res < MIN // 10 or (res == MIN // 10 and digit <= MIN % 10):",
+            "Mutate_Code": "if res < MIN // 10 or (res == MIN * 10 and digit <= MIN % 10):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T6_LCPN_7-Reverse-Integer.py",
+            "Source_Code": "if res < MIN // 10 or (res == MIN // 10 and digit <= MIN % 10):",
+            "Mutate_Code": "if res < MIN // 10 or (res == MIN / 10 and digit <= MIN % 10):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T6_LCPN_7-Reverse-Integer.py",
+            "Source_Code": "if res < MIN // 10 or (res == MIN // 10 and digit <= MIN % 10):",
+            "Mutate_Code": "if res < MIN // 10 or (res == MIN % 10 and digit <= MIN % 10):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T6_LCPN_7-Reverse-Integer.py",
+            "Source_Code": "if res < MIN // 10 or (res == MIN // 10 and digit <= MIN % 10):",
+            "Mutate_Code": "if res < MIN // 10 or (res == MIN ** 10 and digit <= MIN % 10):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T6_LCPN_7-Reverse-Integer.py",
+            "Source_Code": "if res < MIN // 10 or (res == MIN // 10 and digit <= MIN % 10):",
+            "Mutate_Code": "if res < MIN // 10 or (res == MIN // 10 and digit <= MIN ++ 10):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T6_LCPN_7-Reverse-Integer.py",
+            "Source_Code": "if res < MIN // 10 or (res == MIN // 10 and digit <= MIN % 10):",
+            "Mutate_Code": "if res < MIN // 10 or (res == MIN // 10 and digit <= MIN -- 10):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T6_LCPN_7-Reverse-Integer.py",
+            "Source_Code": "if res < MIN // 10 or (res == MIN // 10 and digit <= MIN % 10):",
+            "Mutate_Code": "if res < MIN // 10 or (res == MIN // 10 and digit <= MIN ** 10):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T6_LCPN_7-Reverse-Integer.py",
+            "Source_Code": "if res < MIN // 10 or (res == MIN // 10 and digit <= MIN % 10):",
+            "Mutate_Code": "if res < MIN // 10 or (res == MIN // 10 and digit <= MIN // 10):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T6_LCPN_7-Reverse-Integer.py",
+            "Source_Code": "if res < MIN // 10 or (res == MIN // 10 and digit <= MIN % 10):",
+            "Mutate_Code": "if res < MIN // 10 or (res == MIN // 10 and digit <= MIN %% 10):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T6_LCPN_7-Reverse-Integer.py",
+            "Source_Code": "if res < MIN // 10 or (res == MIN // 10 and digit <= MIN % 10):",
+            "Mutate_Code": "if res < MIN // 10 or (res == MIN // 10 and digit <= MIN **** 10):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T6_LCPN_7-Reverse-Integer.py",
+            "Source_Code": "if res < MIN // 10 or (res == MIN // 10 and digit <= MIN % 10):",
+            "Mutate_Code": "if res < MIN // 10 or (res == MIN // 10 and digit <= MIN //// 10):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T6_LCPN_7-Reverse-Integer.py",
+            "Source_Code": "if res < MIN // 10 or (res == MIN // 10 and digit <= MIN % 10):",
+            "Mutate_Code": "if res < MIN ++ 10 or (res == MIN // 10 and digit <= MIN % 10):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T6_LCPN_7-Reverse-Integer.py",
+            "Source_Code": "if res < MIN // 10 or (res == MIN // 10 and digit <= MIN % 10):",
+            "Mutate_Code": "if res < MIN -- 10 or (res == MIN // 10 and digit <= MIN % 10):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T6_LCPN_7-Reverse-Integer.py",
+            "Source_Code": "if res < MIN // 10 or (res == MIN // 10 and digit <= MIN % 10):",
+            "Mutate_Code": "if res < MIN ** 10 or (res == MIN // 10 and digit <= MIN % 10):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T6_LCPN_7-Reverse-Integer.py",
+            "Source_Code": "if res < MIN // 10 or (res == MIN // 10 and digit <= MIN % 10):",
+            "Mutate_Code": "if res < MIN %% 10 or (res == MIN // 10 and digit <= MIN % 10):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T6_LCPN_7-Reverse-Integer.py",
+            "Source_Code": "if res < MIN // 10 or (res == MIN // 10 and digit <= MIN % 10):",
+            "Mutate_Code": "if res < MIN **** 10 or (res == MIN // 10 and digit <= MIN % 10):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T6_LCPN_7-Reverse-Integer.py",
+            "Source_Code": "if res < MIN // 10 or (res == MIN // 10 and digit <= MIN % 10):",
+            "Mutate_Code": "if res < MIN //// 10 or (res == MIN // 10 and digit <= MIN % 10):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T6_LCPN_7-Reverse-Integer.py",
+            "Source_Code": "if res < MIN // 10 or (res == MIN // 10 and digit <= MIN % 10):",
+            "Mutate_Code": "if res < MIN // 10 or (res == MIN ++ 10 and digit <= MIN % 10):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T6_LCPN_7-Reverse-Integer.py",
+            "Source_Code": "if res < MIN // 10 or (res == MIN // 10 and digit <= MIN % 10):",
+            "Mutate_Code": "if res < MIN // 10 or (res == MIN -- 10 and digit <= MIN % 10):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T6_LCPN_7-Reverse-Integer.py",
+            "Source_Code": "if res < MIN // 10 or (res == MIN // 10 and digit <= MIN % 10):",
+            "Mutate_Code": "if res < MIN // 10 or (res == MIN ** 10 and digit <= MIN % 10):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T6_LCPN_7-Reverse-Integer.py",
+            "Source_Code": "if res < MIN // 10 or (res == MIN // 10 and digit <= MIN % 10):",
+            "Mutate_Code": "if res < MIN // 10 or (res == MIN %% 10 and digit <= MIN % 10):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T6_LCPN_7-Reverse-Integer.py",
+            "Source_Code": "if res < MIN // 10 or (res == MIN // 10 and digit <= MIN % 10):",
+            "Mutate_Code": "if res < MIN // 10 or (res == MIN **** 10 and digit <= MIN % 10):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T6_LCPN_7-Reverse-Integer.py",
+            "Source_Code": "if res < MIN // 10 or (res == MIN // 10 and digit <= MIN % 10):",
+            "Mutate_Code": "if res < MIN // 10 or (res == MIN //// 10 and digit <= MIN % 10):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T6_LCPN_7-Reverse-Integer.py",
+            "Source_Code": "if res < MIN // 10 or (res == MIN // 10 and digit <= MIN % 10):",
+            "Mutate_Code": "if res   MIN // 10 or (res == MIN // 10 and digit <= MIN % 10):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T6_LCPN_7-Reverse-Integer.py",
+            "Source_Code": "if res < MIN // 10 or (res == MIN // 10 and digit <= MIN % 10):",
+            "Mutate_Code": "if res < MIN // 10 or (res == MIN // 10 and digit  = MIN % 10):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T6_LCPN_7-Reverse-Integer.py",
+            "Source_Code": "if res < MIN // 10 or (res == MIN // 10 and digit <= MIN % 10):",
+            "Mutate_Code": "if res < MIN // 10 or (res == MIN // 10 and digit <= MIN % 10): "
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T6_LCPN_7-Reverse-Integer.py",
+            "Source_Code": "if res < MIN // 10 or (res == MIN // 10 and digit <= MIN % 10):",
+            "Mutate_Code": "if res == MIN // 10 or (res == MIN // 10 and digit <= MIN % 10):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T6_LCPN_7-Reverse-Integer.py",
+            "Source_Code": "if res < MIN // 10 or (res == MIN // 10 and digit <= MIN % 10):",
+            "Mutate_Code": "if res != MIN // 10 or (res == MIN // 10 and digit <= MIN % 10):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T6_LCPN_7-Reverse-Integer.py",
+            "Source_Code": "if res < MIN // 10 or (res == MIN // 10 and digit <= MIN % 10):",
+            "Mutate_Code": "if res > MIN // 10 or (res == MIN // 10 and digit <= MIN % 10):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T6_LCPN_7-Reverse-Integer.py",
+            "Source_Code": "if res < MIN // 10 or (res == MIN // 10 and digit <= MIN % 10):",
+            "Mutate_Code": "if res >= MIN // 10 or (res == MIN // 10 and digit <= MIN % 10):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T6_LCPN_7-Reverse-Integer.py",
+            "Source_Code": "if res < MIN // 10 or (res == MIN // 10 and digit <= MIN % 10):",
+            "Mutate_Code": "if res <= MIN // 10 or (res == MIN // 10 and digit <= MIN % 10):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T6_LCPN_7-Reverse-Integer.py",
+            "Source_Code": "if res < MIN // 10 or (res == MIN // 10 and digit <= MIN % 10):",
+            "Mutate_Code": "if res < MIN // 10 or (res == MIN // 10 and digit === MIN % 10):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T6_LCPN_7-Reverse-Integer.py",
+            "Source_Code": "if res < MIN // 10 or (res == MIN // 10 and digit <= MIN % 10):",
+            "Mutate_Code": "if res < MIN // 10 or (res == MIN // 10 and digit !== MIN % 10):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T6_LCPN_7-Reverse-Integer.py",
+            "Source_Code": "if res < MIN // 10 or (res == MIN // 10 and digit <= MIN % 10):",
+            "Mutate_Code": "if res < MIN // 10 or (res == MIN // 10 and digit >= MIN % 10):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T6_LCPN_7-Reverse-Integer.py",
+            "Source_Code": "if res < MIN // 10 or (res == MIN // 10 and digit <= MIN % 10):",
+            "Mutate_Code": "if res < MIN // 10 or (res == MIN // 10 and digit >== MIN % 10):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T6_LCPN_7-Reverse-Integer.py",
+            "Source_Code": "if res < MIN // 10 or (res == MIN // 10 and digit <= MIN % 10):",
+            "Mutate_Code": "if res < MIN // 10 or (res == MIN // 10 and digit <== MIN % 10):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T6_LCPN_7-Reverse-Integer.py",
+            "Source_Code": "if res < MIN // 10 or (res == MIN // 10 and digit <= MIN % 10):",
+            "Mutate_Code": "if res < MIN // 10 or (res == MIN // 10 and digit <= MIN % 10):=="
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T6_LCPN_7-Reverse-Integer.py",
+            "Source_Code": "if res < MIN // 10 or (res == MIN // 10 and digit <= MIN % 10):",
+            "Mutate_Code": "if res < MIN // 10 or (res == MIN // 10 and digit <= MIN % 10):!="
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T6_LCPN_7-Reverse-Integer.py",
+            "Source_Code": "if res < MIN // 10 or (res == MIN // 10 and digit <= MIN % 10):",
+            "Mutate_Code": "if res < MIN // 10 or (res == MIN // 10 and digit <= MIN % 10):>"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T6_LCPN_7-Reverse-Integer.py",
+            "Source_Code": "if res < MIN // 10 or (res == MIN // 10 and digit <= MIN % 10):",
+            "Mutate_Code": "if res < MIN // 10 or (res == MIN // 10 and digit <= MIN % 10):<"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T6_LCPN_7-Reverse-Integer.py",
+            "Source_Code": "if res < MIN // 10 or (res == MIN // 10 and digit <= MIN % 10):",
+            "Mutate_Code": "if res < MIN // 10 or (res == MIN // 10 and digit <= MIN % 10):>="
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T6_LCPN_7-Reverse-Integer.py",
+            "Source_Code": "if res < MIN // 10 or (res == MIN // 10 and digit <= MIN % 10):",
+            "Mutate_Code": "if res < MIN // 10 or (res == MIN // 10 and digit <= MIN % 10):<="
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T6_LCPN_7-Reverse-Integer.py",
+            "Source_Code": "if res < MIN // 10 or (res == MIN // 10 and digit <= MIN % 10):",
+            "Mutate_Code": "if res  ====  MIN // 10 or (res == MIN // 10 and digit <= MIN % 10):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T6_LCPN_7-Reverse-Integer.py",
+            "Source_Code": "if res < MIN // 10 or (res == MIN // 10 and digit <= MIN % 10):",
+            "Mutate_Code": "if res  !==  MIN // 10 or (res == MIN // 10 and digit <= MIN % 10):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T6_LCPN_7-Reverse-Integer.py",
+            "Source_Code": "if res < MIN // 10 or (res == MIN // 10 and digit <= MIN % 10):",
+            "Mutate_Code": "if res  >>  MIN // 10 or (res == MIN // 10 and digit <= MIN % 10):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T6_LCPN_7-Reverse-Integer.py",
+            "Source_Code": "if res < MIN // 10 or (res == MIN // 10 and digit <= MIN % 10):",
+            "Mutate_Code": "if res  <<  MIN // 10 or (res == MIN // 10 and digit <= MIN % 10):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T6_LCPN_7-Reverse-Integer.py",
+            "Source_Code": "if res < MIN // 10 or (res == MIN // 10 and digit <= MIN % 10):",
+            "Mutate_Code": "if res  >=>=  MIN // 10 or (res == MIN // 10 and digit <= MIN % 10):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T6_LCPN_7-Reverse-Integer.py",
+            "Source_Code": "if res < MIN // 10 or (res == MIN // 10 and digit <= MIN % 10):",
+            "Mutate_Code": "if res  <=<=  MIN // 10 or (res == MIN // 10 and digit <= MIN % 10):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T6_LCPN_7-Reverse-Integer.py",
+            "Source_Code": "if res < MIN // 10 or (res == MIN // 10 and digit <= MIN % 10):",
+            "Mutate_Code": "if res < MIN // 10 or (res == MIN // 10 and digit  ==== = MIN % 10):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T6_LCPN_7-Reverse-Integer.py",
+            "Source_Code": "if res < MIN // 10 or (res == MIN // 10 and digit <= MIN % 10):",
+            "Mutate_Code": "if res < MIN // 10 or (res == MIN // 10 and digit  !== = MIN % 10):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T6_LCPN_7-Reverse-Integer.py",
+            "Source_Code": "if res < MIN // 10 or (res == MIN // 10 and digit <= MIN % 10):",
+            "Mutate_Code": "if res < MIN // 10 or (res == MIN // 10 and digit  >> = MIN % 10):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T6_LCPN_7-Reverse-Integer.py",
+            "Source_Code": "if res < MIN // 10 or (res == MIN // 10 and digit <= MIN % 10):",
+            "Mutate_Code": "if res < MIN // 10 or (res == MIN // 10 and digit  << = MIN % 10):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T6_LCPN_7-Reverse-Integer.py",
+            "Source_Code": "if res < MIN // 10 or (res == MIN // 10 and digit <= MIN % 10):",
+            "Mutate_Code": "if res < MIN // 10 or (res == MIN // 10 and digit  >=>= = MIN % 10):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T6_LCPN_7-Reverse-Integer.py",
+            "Source_Code": "if res < MIN // 10 or (res == MIN // 10 and digit <= MIN % 10):",
+            "Mutate_Code": "if res < MIN // 10 or (res == MIN // 10 and digit  <=<= = MIN % 10):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T6_LCPN_7-Reverse-Integer.py",
+            "Source_Code": "if res < MIN // 10 or (res == MIN // 10 and digit <= MIN % 10):",
+            "Mutate_Code": "if res < MIN // 10 or (res == MIN // 10 and digit <= MIN % 10): ==== "
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T6_LCPN_7-Reverse-Integer.py",
+            "Source_Code": "if res < MIN // 10 or (res == MIN // 10 and digit <= MIN % 10):",
+            "Mutate_Code": "if res < MIN // 10 or (res == MIN // 10 and digit <= MIN % 10): !== "
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T6_LCPN_7-Reverse-Integer.py",
+            "Source_Code": "if res < MIN // 10 or (res == MIN // 10 and digit <= MIN % 10):",
+            "Mutate_Code": "if res < MIN // 10 or (res == MIN // 10 and digit <= MIN % 10): >> "
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T6_LCPN_7-Reverse-Integer.py",
+            "Source_Code": "if res < MIN // 10 or (res == MIN // 10 and digit <= MIN % 10):",
+            "Mutate_Code": "if res < MIN // 10 or (res == MIN // 10 and digit <= MIN % 10): << "
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T6_LCPN_7-Reverse-Integer.py",
+            "Source_Code": "if res < MIN // 10 or (res == MIN // 10 and digit <= MIN % 10):",
+            "Mutate_Code": "if res < MIN // 10 or (res == MIN // 10 and digit <= MIN % 10): >=>= "
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T6_LCPN_7-Reverse-Integer.py",
+            "Source_Code": "if res < MIN // 10 or (res == MIN // 10 and digit <= MIN % 10):",
+            "Mutate_Code": "if res < MIN // 10 or (res == MIN // 10 and digit <= MIN % 10): <=<= "
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T6_LCPN_7-Reverse-Integer.py",
+            "Source_Code": "if res < MIN // 10 or (res == MIN // 10 and digit <= MIN % 10):",
+            "Mutate_Code": "if res < MIN // 10 or (res == MIN // 10 digit <= MIN % 10):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T6_LCPN_7-Reverse-Integer.py",
+            "Source_Code": "if res < MIN // 10 or (res == MIN // 10 and digit <= MIN % 10):",
+            "Mutate_Code": "if res < MIN // 10 (res == MIN // 10 and digit <= MIN % 10):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T6_LCPN_7-Reverse-Integer.py",
+            "Source_Code": "if res < MIN // 10 or (res == MIN // 10 and digit <= MIN % 10):",
+            "Mutate_Code": "if res < MIN // 10 or (res == MIN // 10 or digit <= MIN % 10):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T6_LCPN_7-Reverse-Integer.py",
+            "Source_Code": "if res < MIN // 10 or (res == MIN // 10 and digit <= MIN % 10):",
+            "Mutate_Code": "if res < MIN // 10 or (res == MIN // 10 not digit <= MIN % 10):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T6_LCPN_7-Reverse-Integer.py",
+            "Source_Code": "if res < MIN // 10 or (res == MIN // 10 and digit <= MIN % 10):",
+            "Mutate_Code": "if res < MIN // 10 and (res == MIN // 10 and digit <= MIN % 10):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T6_LCPN_7-Reverse-Integer.py",
+            "Source_Code": "if res < MIN // 10 or (res == MIN // 10 and digit <= MIN % 10):",
+            "Mutate_Code": "if res < MIN // 10 not (res == MIN // 10 and digit <= MIN % 10):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T6_LCPN_7-Reverse-Integer.py",
+            "Source_Code": "if res < MIN // 10 or (res == MIN // 10 and digit <= MIN % 10):",
+            "Mutate_Code": "if res < MIN // 10 or (res == MIN // 10 and and digit <= MIN % 10):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T6_LCPN_7-Reverse-Integer.py",
+            "Source_Code": "if res < MIN // 10 or (res == MIN // 10 and digit <= MIN % 10):",
+            "Mutate_Code": "if res < MIN // 10 or (res == MIN // 10 or or digit <= MIN % 10):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T6_LCPN_7-Reverse-Integer.py",
+            "Source_Code": "if res < MIN // 10 or (res == MIN // 10 and digit <= MIN % 10):",
+            "Mutate_Code": "if res < MIN // 10 or (res == MIN // 10 not not digit <= MIN % 10):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T6_LCPN_7-Reverse-Integer.py",
+            "Source_Code": "if res < MIN // 10 or (res == MIN // 10 and digit <= MIN % 10):",
+            "Mutate_Code": "if res < MIN // 10 and and (res == MIN // 10 and digit <= MIN % 10):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T6_LCPN_7-Reverse-Integer.py",
+            "Source_Code": "if res < MIN // 10 or (res == MIN // 10 and digit <= MIN % 10):",
+            "Mutate_Code": "if res < MIN // 10 or or (res == MIN // 10 and digit <= MIN % 10):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T6_LCPN_7-Reverse-Integer.py",
+            "Source_Code": "if res < MIN // 10 or (res == MIN // 10 and digit <= MIN % 10):",
+            "Mutate_Code": "if res < MIN // 10 not not (res == MIN // 10 and digit <= MIN % 10):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T6_LCPN_7-Reverse-Integer.py",
+            "Source_Code": "if res < MIN // 10 or (res == MIN // 10 and digit <= MIN % 10):",
+            "Mutate_Code": " "
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T6_LCPN_7-Reverse-Integer.py",
+            "Source_Code": "if res < MIN // 10 or (res == MIN // 10 and digit <= MIN % 10):",
+            "Mutate_Code": "elif:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T6_LCPN_7-Reverse-Integer.py",
+            "Source_Code": "if res < MIN // 10 or (res == MIN // 10 and digit <= MIN % 10):",
+            "Mutate_Code": "else:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T6_LCPN_7-Reverse-Integer.py",
+            "Source_Code": "if res < MIN // 10 or (res == MIN // 10 and digit <= MIN % 10):",
+            "Mutate_Code": "if if"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T6_LCPN_7-Reverse-Integer.py",
+            "Source_Code": "if res < MIN // 10 or (res == MIN // 10 and digit <= MIN % 10):",
+            "Mutate_Code": "if res < MIN // 10 or (res == MIN // 10 and digit <= MIN 10):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T6_LCPN_7-Reverse-Integer.py",
+            "Source_Code": "if res < MIN // 10 or (res == MIN // 10 and digit <= MIN % 10):",
+            "Mutate_Code": "if res < MIN 10 or (res == MIN // 10 and digit <= MIN % 10):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T6_LCPN_7-Reverse-Integer.py",
+            "Source_Code": "if res < MIN // 10 or (res == MIN // 10 and digit <= MIN % 10):",
+            "Mutate_Code": "if res < MIN // 10 or (res == MIN 10 and digit <= MIN % 10):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T6_LCPN_7-Reverse-Integer.py",
+            "Source_Code": "if res < MIN // 10 or (res == MIN // 10 and digit <= MIN % 10):",
+            "Mutate_Code": "if res < MIN // 10 or (res == MIN // 10 and digit <= MIN + 10):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T6_LCPN_7-Reverse-Integer.py",
+            "Source_Code": "if res < MIN // 10 or (res == MIN // 10 and digit <= MIN % 10):",
+            "Mutate_Code": "if res < MIN // 10 or (res == MIN // 10 and digit <= MIN - 10):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T6_LCPN_7-Reverse-Integer.py",
+            "Source_Code": "if res < MIN // 10 or (res == MIN // 10 and digit <= MIN % 10):",
+            "Mutate_Code": "if res < MIN // 10 or (res == MIN // 10 and digit <= MIN * 10):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T6_LCPN_7-Reverse-Integer.py",
+            "Source_Code": "if res < MIN // 10 or (res == MIN // 10 and digit <= MIN % 10):",
+            "Mutate_Code": "if res < MIN // 10 or (res == MIN // 10 and digit <= MIN / 10):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T6_LCPN_7-Reverse-Integer.py",
+            "Source_Code": "if res < MIN // 10 or (res == MIN // 10 and digit <= MIN % 10):",
+            "Mutate_Code": "if res < MIN // 10 or (res == MIN // 10 and digit <= MIN ** 10):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T6_LCPN_7-Reverse-Integer.py",
+            "Source_Code": "if res < MIN // 10 or (res == MIN // 10 and digit <= MIN % 10):",
+            "Mutate_Code": "if res < MIN // 10 or (res == MIN // 10 and digit <= MIN // 10):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T6_LCPN_7-Reverse-Integer.py",
+            "Source_Code": "if res < MIN // 10 or (res == MIN // 10 and digit <= MIN % 10):",
+            "Mutate_Code": "if res < MIN + 10 or (res == MIN // 10 and digit <= MIN % 10):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T6_LCPN_7-Reverse-Integer.py",
+            "Source_Code": "if res < MIN // 10 or (res == MIN // 10 and digit <= MIN % 10):",
+            "Mutate_Code": "if res < MIN - 10 or (res == MIN // 10 and digit <= MIN % 10):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T6_LCPN_7-Reverse-Integer.py",
+            "Source_Code": "if res < MIN // 10 or (res == MIN // 10 and digit <= MIN % 10):",
+            "Mutate_Code": "if res < MIN * 10 or (res == MIN // 10 and digit <= MIN % 10):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T6_LCPN_7-Reverse-Integer.py",
+            "Source_Code": "if res < MIN // 10 or (res == MIN // 10 and digit <= MIN % 10):",
+            "Mutate_Code": "if res < MIN / 10 or (res == MIN // 10 and digit <= MIN % 10):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T6_LCPN_7-Reverse-Integer.py",
+            "Source_Code": "if res < MIN // 10 or (res == MIN // 10 and digit <= MIN % 10):",
+            "Mutate_Code": "if res < MIN % 10 or (res == MIN // 10 and digit <= MIN % 10):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T6_LCPN_7-Reverse-Integer.py",
+            "Source_Code": "if res < MIN // 10 or (res == MIN // 10 and digit <= MIN % 10):",
+            "Mutate_Code": "if res < MIN ** 10 or (res == MIN // 10 and digit <= MIN % 10):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T6_LCPN_7-Reverse-Integer.py",
+            "Source_Code": "if res < MIN // 10 or (res == MIN // 10 and digit <= MIN % 10):",
+            "Mutate_Code": "if res < MIN // 10 or (res == MIN + 10 and digit <= MIN % 10):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T6_LCPN_7-Reverse-Integer.py",
+            "Source_Code": "if res < MIN // 10 or (res == MIN // 10 and digit <= MIN % 10):",
+            "Mutate_Code": "if res < MIN // 10 or (res == MIN - 10 and digit <= MIN % 10):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T6_LCPN_7-Reverse-Integer.py",
+            "Source_Code": "if res < MIN // 10 or (res == MIN // 10 and digit <= MIN % 10):",
+            "Mutate_Code": "if res < MIN // 10 or (res == MIN * 10 and digit <= MIN % 10):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T6_LCPN_7-Reverse-Integer.py",
+            "Source_Code": "if res < MIN // 10 or (res == MIN // 10 and digit <= MIN % 10):",
+            "Mutate_Code": "if res < MIN // 10 or (res == MIN / 10 and digit <= MIN % 10):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T6_LCPN_7-Reverse-Integer.py",
+            "Source_Code": "if res < MIN // 10 or (res == MIN // 10 and digit <= MIN % 10):",
+            "Mutate_Code": "if res < MIN // 10 or (res == MIN % 10 and digit <= MIN % 10):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T6_LCPN_7-Reverse-Integer.py",
+            "Source_Code": "if res < MIN // 10 or (res == MIN // 10 and digit <= MIN % 10):",
+            "Mutate_Code": "if res < MIN // 10 or (res == MIN ** 10 and digit <= MIN % 10):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T6_LCPN_7-Reverse-Integer.py",
+            "Source_Code": "if res < MIN // 10 or (res == MIN // 10 and digit <= MIN % 10):",
+            "Mutate_Code": "if res < MIN // 10 or (res == MIN // 10 and digit <= MIN ++ 10):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T6_LCPN_7-Reverse-Integer.py",
+            "Source_Code": "if res < MIN // 10 or (res == MIN // 10 and digit <= MIN % 10):",
+            "Mutate_Code": "if res < MIN // 10 or (res == MIN // 10 and digit <= MIN -- 10):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T6_LCPN_7-Reverse-Integer.py",
+            "Source_Code": "if res < MIN // 10 or (res == MIN // 10 and digit <= MIN % 10):",
+            "Mutate_Code": "if res < MIN // 10 or (res == MIN // 10 and digit <= MIN ** 10):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T6_LCPN_7-Reverse-Integer.py",
+            "Source_Code": "if res < MIN // 10 or (res == MIN // 10 and digit <= MIN % 10):",
+            "Mutate_Code": "if res < MIN // 10 or (res == MIN // 10 and digit <= MIN // 10):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T6_LCPN_7-Reverse-Integer.py",
+            "Source_Code": "if res < MIN // 10 or (res == MIN // 10 and digit <= MIN % 10):",
+            "Mutate_Code": "if res < MIN // 10 or (res == MIN // 10 and digit <= MIN %% 10):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T6_LCPN_7-Reverse-Integer.py",
+            "Source_Code": "if res < MIN // 10 or (res == MIN // 10 and digit <= MIN % 10):",
+            "Mutate_Code": "if res < MIN // 10 or (res == MIN // 10 and digit <= MIN **** 10):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T6_LCPN_7-Reverse-Integer.py",
+            "Source_Code": "if res < MIN // 10 or (res == MIN // 10 and digit <= MIN % 10):",
+            "Mutate_Code": "if res < MIN // 10 or (res == MIN // 10 and digit <= MIN //// 10):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T6_LCPN_7-Reverse-Integer.py",
+            "Source_Code": "if res < MIN // 10 or (res == MIN // 10 and digit <= MIN % 10):",
+            "Mutate_Code": "if res < MIN ++ 10 or (res == MIN // 10 and digit <= MIN % 10):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T6_LCPN_7-Reverse-Integer.py",
+            "Source_Code": "if res < MIN // 10 or (res == MIN // 10 and digit <= MIN % 10):",
+            "Mutate_Code": "if res < MIN -- 10 or (res == MIN // 10 and digit <= MIN % 10):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T6_LCPN_7-Reverse-Integer.py",
+            "Source_Code": "if res < MIN // 10 or (res == MIN // 10 and digit <= MIN % 10):",
+            "Mutate_Code": "if res < MIN ** 10 or (res == MIN // 10 and digit <= MIN % 10):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T6_LCPN_7-Reverse-Integer.py",
+            "Source_Code": "if res < MIN // 10 or (res == MIN // 10 and digit <= MIN % 10):",
+            "Mutate_Code": "if res < MIN %% 10 or (res == MIN // 10 and digit <= MIN % 10):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T6_LCPN_7-Reverse-Integer.py",
+            "Source_Code": "if res < MIN // 10 or (res == MIN // 10 and digit <= MIN % 10):",
+            "Mutate_Code": "if res < MIN **** 10 or (res == MIN // 10 and digit <= MIN % 10):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T6_LCPN_7-Reverse-Integer.py",
+            "Source_Code": "if res < MIN // 10 or (res == MIN // 10 and digit <= MIN % 10):",
+            "Mutate_Code": "if res < MIN //// 10 or (res == MIN // 10 and digit <= MIN % 10):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T6_LCPN_7-Reverse-Integer.py",
+            "Source_Code": "if res < MIN // 10 or (res == MIN // 10 and digit <= MIN % 10):",
+            "Mutate_Code": "if res < MIN // 10 or (res == MIN ++ 10 and digit <= MIN % 10):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T6_LCPN_7-Reverse-Integer.py",
+            "Source_Code": "if res < MIN // 10 or (res == MIN // 10 and digit <= MIN % 10):",
+            "Mutate_Code": "if res < MIN // 10 or (res == MIN -- 10 and digit <= MIN % 10):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T6_LCPN_7-Reverse-Integer.py",
+            "Source_Code": "if res < MIN // 10 or (res == MIN // 10 and digit <= MIN % 10):",
+            "Mutate_Code": "if res < MIN // 10 or (res == MIN ** 10 and digit <= MIN % 10):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T6_LCPN_7-Reverse-Integer.py",
+            "Source_Code": "if res < MIN // 10 or (res == MIN // 10 and digit <= MIN % 10):",
+            "Mutate_Code": "if res < MIN // 10 or (res == MIN %% 10 and digit <= MIN % 10):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T6_LCPN_7-Reverse-Integer.py",
+            "Source_Code": "if res < MIN // 10 or (res == MIN // 10 and digit <= MIN % 10):",
+            "Mutate_Code": "if res < MIN // 10 or (res == MIN **** 10 and digit <= MIN % 10):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T6_LCPN_7-Reverse-Integer.py",
+            "Source_Code": "if res < MIN // 10 or (res == MIN // 10 and digit <= MIN % 10):",
+            "Mutate_Code": "if res < MIN // 10 or (res == MIN //// 10 and digit <= MIN % 10):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T6_LCPN_7-Reverse-Integer.py",
+            "Source_Code": "if res < MIN // 10 or (res == MIN // 10 and digit <= MIN % 10):",
+            "Mutate_Code": "if res   MIN // 10 or (res == MIN // 10 and digit <= MIN % 10):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T6_LCPN_7-Reverse-Integer.py",
+            "Source_Code": "if res < MIN // 10 or (res == MIN // 10 and digit <= MIN % 10):",
+            "Mutate_Code": "if res < MIN // 10 or (res == MIN // 10 and digit  = MIN % 10):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T6_LCPN_7-Reverse-Integer.py",
+            "Source_Code": "if res < MIN // 10 or (res == MIN // 10 and digit <= MIN % 10):",
+            "Mutate_Code": "if res < MIN // 10 or (res == MIN // 10 and digit <= MIN % 10): "
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T6_LCPN_7-Reverse-Integer.py",
+            "Source_Code": "if res < MIN // 10 or (res == MIN // 10 and digit <= MIN % 10):",
+            "Mutate_Code": "if res == MIN // 10 or (res == MIN // 10 and digit <= MIN % 10):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T6_LCPN_7-Reverse-Integer.py",
+            "Source_Code": "if res < MIN // 10 or (res == MIN // 10 and digit <= MIN % 10):",
+            "Mutate_Code": "if res != MIN // 10 or (res == MIN // 10 and digit <= MIN % 10):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T6_LCPN_7-Reverse-Integer.py",
+            "Source_Code": "if res < MIN // 10 or (res == MIN // 10 and digit <= MIN % 10):",
+            "Mutate_Code": "if res > MIN // 10 or (res == MIN // 10 and digit <= MIN % 10):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T6_LCPN_7-Reverse-Integer.py",
+            "Source_Code": "if res < MIN // 10 or (res == MIN // 10 and digit <= MIN % 10):",
+            "Mutate_Code": "if res >= MIN // 10 or (res == MIN // 10 and digit <= MIN % 10):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T6_LCPN_7-Reverse-Integer.py",
+            "Source_Code": "if res < MIN // 10 or (res == MIN // 10 and digit <= MIN % 10):",
+            "Mutate_Code": "if res <= MIN // 10 or (res == MIN // 10 and digit <= MIN % 10):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T6_LCPN_7-Reverse-Integer.py",
+            "Source_Code": "if res < MIN // 10 or (res == MIN // 10 and digit <= MIN % 10):",
+            "Mutate_Code": "if res < MIN // 10 or (res == MIN // 10 and digit === MIN % 10):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T6_LCPN_7-Reverse-Integer.py",
+            "Source_Code": "if res < MIN // 10 or (res == MIN // 10 and digit <= MIN % 10):",
+            "Mutate_Code": "if res < MIN // 10 or (res == MIN // 10 and digit !== MIN % 10):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T6_LCPN_7-Reverse-Integer.py",
+            "Source_Code": "if res < MIN // 10 or (res == MIN // 10 and digit <= MIN % 10):",
+            "Mutate_Code": "if res < MIN // 10 or (res == MIN // 10 and digit >= MIN % 10):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T6_LCPN_7-Reverse-Integer.py",
+            "Source_Code": "if res < MIN // 10 or (res == MIN // 10 and digit <= MIN % 10):",
+            "Mutate_Code": "if res < MIN // 10 or (res == MIN // 10 and digit >== MIN % 10):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T6_LCPN_7-Reverse-Integer.py",
+            "Source_Code": "if res < MIN // 10 or (res == MIN // 10 and digit <= MIN % 10):",
+            "Mutate_Code": "if res < MIN // 10 or (res == MIN // 10 and digit <== MIN % 10):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T6_LCPN_7-Reverse-Integer.py",
+            "Source_Code": "if res < MIN // 10 or (res == MIN // 10 and digit <= MIN % 10):",
+            "Mutate_Code": "if res < MIN // 10 or (res == MIN // 10 and digit <= MIN % 10):=="
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T6_LCPN_7-Reverse-Integer.py",
+            "Source_Code": "if res < MIN // 10 or (res == MIN // 10 and digit <= MIN % 10):",
+            "Mutate_Code": "if res < MIN // 10 or (res == MIN // 10 and digit <= MIN % 10):!="
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T6_LCPN_7-Reverse-Integer.py",
+            "Source_Code": "if res < MIN // 10 or (res == MIN // 10 and digit <= MIN % 10):",
+            "Mutate_Code": "if res < MIN // 10 or (res == MIN // 10 and digit <= MIN % 10):>"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T6_LCPN_7-Reverse-Integer.py",
+            "Source_Code": "if res < MIN // 10 or (res == MIN // 10 and digit <= MIN % 10):",
+            "Mutate_Code": "if res < MIN // 10 or (res == MIN // 10 and digit <= MIN % 10):<"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T6_LCPN_7-Reverse-Integer.py",
+            "Source_Code": "if res < MIN // 10 or (res == MIN // 10 and digit <= MIN % 10):",
+            "Mutate_Code": "if res < MIN // 10 or (res == MIN // 10 and digit <= MIN % 10):>="
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T6_LCPN_7-Reverse-Integer.py",
+            "Source_Code": "if res < MIN // 10 or (res == MIN // 10 and digit <= MIN % 10):",
+            "Mutate_Code": "if res < MIN // 10 or (res == MIN // 10 and digit <= MIN % 10):<="
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T6_LCPN_7-Reverse-Integer.py",
+            "Source_Code": "if res < MIN // 10 or (res == MIN // 10 and digit <= MIN % 10):",
+            "Mutate_Code": "if res  ====  MIN // 10 or (res == MIN // 10 and digit <= MIN % 10):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T6_LCPN_7-Reverse-Integer.py",
+            "Source_Code": "if res < MIN // 10 or (res == MIN // 10 and digit <= MIN % 10):",
+            "Mutate_Code": "if res  !==  MIN // 10 or (res == MIN // 10 and digit <= MIN % 10):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T6_LCPN_7-Reverse-Integer.py",
+            "Source_Code": "if res < MIN // 10 or (res == MIN // 10 and digit <= MIN % 10):",
+            "Mutate_Code": "if res  >>  MIN // 10 or (res == MIN // 10 and digit <= MIN % 10):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T6_LCPN_7-Reverse-Integer.py",
+            "Source_Code": "if res < MIN // 10 or (res == MIN // 10 and digit <= MIN % 10):",
+            "Mutate_Code": "if res  <<  MIN // 10 or (res == MIN // 10 and digit <= MIN % 10):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T6_LCPN_7-Reverse-Integer.py",
+            "Source_Code": "if res < MIN // 10 or (res == MIN // 10 and digit <= MIN % 10):",
+            "Mutate_Code": "if res  >=>=  MIN // 10 or (res == MIN // 10 and digit <= MIN % 10):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T6_LCPN_7-Reverse-Integer.py",
+            "Source_Code": "if res < MIN // 10 or (res == MIN // 10 and digit <= MIN % 10):",
+            "Mutate_Code": "if res  <=<=  MIN // 10 or (res == MIN // 10 and digit <= MIN % 10):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T6_LCPN_7-Reverse-Integer.py",
+            "Source_Code": "if res < MIN // 10 or (res == MIN // 10 and digit <= MIN % 10):",
+            "Mutate_Code": "if res < MIN // 10 or (res == MIN // 10 and digit  ==== = MIN % 10):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T6_LCPN_7-Reverse-Integer.py",
+            "Source_Code": "if res < MIN // 10 or (res == MIN // 10 and digit <= MIN % 10):",
+            "Mutate_Code": "if res < MIN // 10 or (res == MIN // 10 and digit  !== = MIN % 10):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T6_LCPN_7-Reverse-Integer.py",
+            "Source_Code": "if res < MIN // 10 or (res == MIN // 10 and digit <= MIN % 10):",
+            "Mutate_Code": "if res < MIN // 10 or (res == MIN // 10 and digit  >> = MIN % 10):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T6_LCPN_7-Reverse-Integer.py",
+            "Source_Code": "if res < MIN // 10 or (res == MIN // 10 and digit <= MIN % 10):",
+            "Mutate_Code": "if res < MIN // 10 or (res == MIN // 10 and digit  << = MIN % 10):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T6_LCPN_7-Reverse-Integer.py",
+            "Source_Code": "if res < MIN // 10 or (res == MIN // 10 and digit <= MIN % 10):",
+            "Mutate_Code": "if res < MIN // 10 or (res == MIN // 10 and digit  >=>= = MIN % 10):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T6_LCPN_7-Reverse-Integer.py",
+            "Source_Code": "if res < MIN // 10 or (res == MIN // 10 and digit <= MIN % 10):",
+            "Mutate_Code": "if res < MIN // 10 or (res == MIN // 10 and digit  <=<= = MIN % 10):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T6_LCPN_7-Reverse-Integer.py",
+            "Source_Code": "if res < MIN // 10 or (res == MIN // 10 and digit <= MIN % 10):",
+            "Mutate_Code": "if res < MIN // 10 or (res == MIN // 10 and digit <= MIN % 10): ==== "
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T6_LCPN_7-Reverse-Integer.py",
+            "Source_Code": "if res < MIN // 10 or (res == MIN // 10 and digit <= MIN % 10):",
+            "Mutate_Code": "if res < MIN // 10 or (res == MIN // 10 and digit <= MIN % 10): !== "
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T6_LCPN_7-Reverse-Integer.py",
+            "Source_Code": "if res < MIN // 10 or (res == MIN // 10 and digit <= MIN % 10):",
+            "Mutate_Code": "if res < MIN // 10 or (res == MIN // 10 and digit <= MIN % 10): >> "
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T6_LCPN_7-Reverse-Integer.py",
+            "Source_Code": "if res < MIN // 10 or (res == MIN // 10 and digit <= MIN % 10):",
+            "Mutate_Code": "if res < MIN // 10 or (res == MIN // 10 and digit <= MIN % 10): << "
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T6_LCPN_7-Reverse-Integer.py",
+            "Source_Code": "if res < MIN // 10 or (res == MIN // 10 and digit <= MIN % 10):",
+            "Mutate_Code": "if res < MIN // 10 or (res == MIN // 10 and digit <= MIN % 10): >=>= "
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T6_LCPN_7-Reverse-Integer.py",
+            "Source_Code": "if res < MIN // 10 or (res == MIN // 10 and digit <= MIN % 10):",
+            "Mutate_Code": "if res < MIN // 10 or (res == MIN // 10 and digit <= MIN % 10): <=<= "
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T6_LCPN_7-Reverse-Integer.py",
+            "Source_Code": "if res < MIN // 10 or (res == MIN // 10 and digit <= MIN % 10):",
+            "Mutate_Code": "if res < MIN // 10 or (res == MIN // 10 digit <= MIN % 10):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T6_LCPN_7-Reverse-Integer.py",
+            "Source_Code": "if res < MIN // 10 or (res == MIN // 10 and digit <= MIN % 10):",
+            "Mutate_Code": "if res < MIN // 10 (res == MIN // 10 and digit <= MIN % 10):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T6_LCPN_7-Reverse-Integer.py",
+            "Source_Code": "if res < MIN // 10 or (res == MIN // 10 and digit <= MIN % 10):",
+            "Mutate_Code": "if res < MIN // 10 or (res == MIN // 10 or digit <= MIN % 10):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T6_LCPN_7-Reverse-Integer.py",
+            "Source_Code": "if res < MIN // 10 or (res == MIN // 10 and digit <= MIN % 10):",
+            "Mutate_Code": "if res < MIN // 10 or (res == MIN // 10 not digit <= MIN % 10):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T6_LCPN_7-Reverse-Integer.py",
+            "Source_Code": "if res < MIN // 10 or (res == MIN // 10 and digit <= MIN % 10):",
+            "Mutate_Code": "if res < MIN // 10 and (res == MIN // 10 and digit <= MIN % 10):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T6_LCPN_7-Reverse-Integer.py",
+            "Source_Code": "if res < MIN // 10 or (res == MIN // 10 and digit <= MIN % 10):",
+            "Mutate_Code": "if res < MIN // 10 not (res == MIN // 10 and digit <= MIN % 10):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T6_LCPN_7-Reverse-Integer.py",
+            "Source_Code": "if res < MIN // 10 or (res == MIN // 10 and digit <= MIN % 10):",
+            "Mutate_Code": "if res < MIN // 10 or (res == MIN // 10 and and digit <= MIN % 10):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T6_LCPN_7-Reverse-Integer.py",
+            "Source_Code": "if res < MIN // 10 or (res == MIN // 10 and digit <= MIN % 10):",
+            "Mutate_Code": "if res < MIN // 10 or (res == MIN // 10 or or digit <= MIN % 10):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T6_LCPN_7-Reverse-Integer.py",
+            "Source_Code": "if res < MIN // 10 or (res == MIN // 10 and digit <= MIN % 10):",
+            "Mutate_Code": "if res < MIN // 10 or (res == MIN // 10 not not digit <= MIN % 10):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T6_LCPN_7-Reverse-Integer.py",
+            "Source_Code": "if res < MIN // 10 or (res == MIN // 10 and digit <= MIN % 10):",
+            "Mutate_Code": "if res < MIN // 10 and and (res == MIN // 10 and digit <= MIN % 10):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T6_LCPN_7-Reverse-Integer.py",
+            "Source_Code": "if res < MIN // 10 or (res == MIN // 10 and digit <= MIN % 10):",
+            "Mutate_Code": "if res < MIN // 10 or or (res == MIN // 10 and digit <= MIN % 10):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T6_LCPN_7-Reverse-Integer.py",
+            "Source_Code": "if res < MIN // 10 or (res == MIN // 10 and digit <= MIN % 10):",
+            "Mutate_Code": "if res < MIN // 10 not not (res == MIN // 10 and digit <= MIN % 10):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T6_LCPN_7-Reverse-Integer.py",
+            "Source_Code": "if res < MIN // 10 or (res == MIN // 10 and digit <= MIN % 10):",
+            "Mutate_Code": " "
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T6_LCPN_7-Reverse-Integer.py",
+            "Source_Code": "if res < MIN // 10 or (res == MIN // 10 and digit <= MIN % 10):",
+            "Mutate_Code": "elif:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T6_LCPN_7-Reverse-Integer.py",
+            "Source_Code": "if res < MIN // 10 or (res == MIN // 10 and digit <= MIN % 10):",
+            "Mutate_Code": "else:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T6_LCPN_7-Reverse-Integer.py",
+            "Source_Code": "if res < MIN // 10 or (res == MIN // 10 and digit <= MIN % 10):",
+            "Mutate_Code": "if if"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T6_LCPN_7-Reverse-Integer.py",
+            "Source_Code": "if res < MIN // 10 or (res == MIN // 10 and digit <= MIN % 10):",
+            "Mutate_Code": "if res < MIN // 10 or (res == MIN // 10 and digit <= MIN 10):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T6_LCPN_7-Reverse-Integer.py",
+            "Source_Code": "if res < MIN // 10 or (res == MIN // 10 and digit <= MIN % 10):",
+            "Mutate_Code": "if res < MIN 10 or (res == MIN // 10 and digit <= MIN % 10):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T6_LCPN_7-Reverse-Integer.py",
+            "Source_Code": "if res < MIN // 10 or (res == MIN // 10 and digit <= MIN % 10):",
+            "Mutate_Code": "if res < MIN // 10 or (res == MIN 10 and digit <= MIN % 10):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T6_LCPN_7-Reverse-Integer.py",
+            "Source_Code": "if res < MIN // 10 or (res == MIN // 10 and digit <= MIN % 10):",
+            "Mutate_Code": "if res < MIN // 10 or (res == MIN // 10 and digit <= MIN + 10):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T6_LCPN_7-Reverse-Integer.py",
+            "Source_Code": "if res < MIN // 10 or (res == MIN // 10 and digit <= MIN % 10):",
+            "Mutate_Code": "if res < MIN // 10 or (res == MIN // 10 and digit <= MIN - 10):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T6_LCPN_7-Reverse-Integer.py",
+            "Source_Code": "if res < MIN // 10 or (res == MIN // 10 and digit <= MIN % 10):",
+            "Mutate_Code": "if res < MIN // 10 or (res == MIN // 10 and digit <= MIN * 10):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T6_LCPN_7-Reverse-Integer.py",
+            "Source_Code": "if res < MIN // 10 or (res == MIN // 10 and digit <= MIN % 10):",
+            "Mutate_Code": "if res < MIN // 10 or (res == MIN // 10 and digit <= MIN / 10):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T6_LCPN_7-Reverse-Integer.py",
+            "Source_Code": "if res < MIN // 10 or (res == MIN // 10 and digit <= MIN % 10):",
+            "Mutate_Code": "if res < MIN // 10 or (res == MIN // 10 and digit <= MIN ** 10):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T6_LCPN_7-Reverse-Integer.py",
+            "Source_Code": "if res < MIN // 10 or (res == MIN // 10 and digit <= MIN % 10):",
+            "Mutate_Code": "if res < MIN // 10 or (res == MIN // 10 and digit <= MIN // 10):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T6_LCPN_7-Reverse-Integer.py",
+            "Source_Code": "if res < MIN // 10 or (res == MIN // 10 and digit <= MIN % 10):",
+            "Mutate_Code": "if res < MIN + 10 or (res == MIN // 10 and digit <= MIN % 10):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T6_LCPN_7-Reverse-Integer.py",
+            "Source_Code": "if res < MIN // 10 or (res == MIN // 10 and digit <= MIN % 10):",
+            "Mutate_Code": "if res < MIN - 10 or (res == MIN // 10 and digit <= MIN % 10):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T6_LCPN_7-Reverse-Integer.py",
+            "Source_Code": "if res < MIN // 10 or (res == MIN // 10 and digit <= MIN % 10):",
+            "Mutate_Code": "if res < MIN * 10 or (res == MIN // 10 and digit <= MIN % 10):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T6_LCPN_7-Reverse-Integer.py",
+            "Source_Code": "if res < MIN // 10 or (res == MIN // 10 and digit <= MIN % 10):",
+            "Mutate_Code": "if res < MIN / 10 or (res == MIN // 10 and digit <= MIN % 10):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T6_LCPN_7-Reverse-Integer.py",
+            "Source_Code": "if res < MIN // 10 or (res == MIN // 10 and digit <= MIN % 10):",
+            "Mutate_Code": "if res < MIN % 10 or (res == MIN // 10 and digit <= MIN % 10):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T6_LCPN_7-Reverse-Integer.py",
+            "Source_Code": "if res < MIN // 10 or (res == MIN // 10 and digit <= MIN % 10):",
+            "Mutate_Code": "if res < MIN ** 10 or (res == MIN // 10 and digit <= MIN % 10):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T6_LCPN_7-Reverse-Integer.py",
+            "Source_Code": "if res < MIN // 10 or (res == MIN // 10 and digit <= MIN % 10):",
+            "Mutate_Code": "if res < MIN // 10 or (res == MIN + 10 and digit <= MIN % 10):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T6_LCPN_7-Reverse-Integer.py",
+            "Source_Code": "if res < MIN // 10 or (res == MIN // 10 and digit <= MIN % 10):",
+            "Mutate_Code": "if res < MIN // 10 or (res == MIN - 10 and digit <= MIN % 10):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T6_LCPN_7-Reverse-Integer.py",
+            "Source_Code": "if res < MIN // 10 or (res == MIN // 10 and digit <= MIN % 10):",
+            "Mutate_Code": "if res < MIN // 10 or (res == MIN * 10 and digit <= MIN % 10):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T6_LCPN_7-Reverse-Integer.py",
+            "Source_Code": "if res < MIN // 10 or (res == MIN // 10 and digit <= MIN % 10):",
+            "Mutate_Code": "if res < MIN // 10 or (res == MIN / 10 and digit <= MIN % 10):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T6_LCPN_7-Reverse-Integer.py",
+            "Source_Code": "if res < MIN // 10 or (res == MIN // 10 and digit <= MIN % 10):",
+            "Mutate_Code": "if res < MIN // 10 or (res == MIN % 10 and digit <= MIN % 10):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T6_LCPN_7-Reverse-Integer.py",
+            "Source_Code": "if res < MIN // 10 or (res == MIN // 10 and digit <= MIN % 10):",
+            "Mutate_Code": "if res < MIN // 10 or (res == MIN ** 10 and digit <= MIN % 10):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T6_LCPN_7-Reverse-Integer.py",
+            "Source_Code": "if res < MIN // 10 or (res == MIN // 10 and digit <= MIN % 10):",
+            "Mutate_Code": "if res < MIN // 10 or (res == MIN // 10 and digit <= MIN ++ 10):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T6_LCPN_7-Reverse-Integer.py",
+            "Source_Code": "if res < MIN // 10 or (res == MIN // 10 and digit <= MIN % 10):",
+            "Mutate_Code": "if res < MIN // 10 or (res == MIN // 10 and digit <= MIN -- 10):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T6_LCPN_7-Reverse-Integer.py",
+            "Source_Code": "if res < MIN // 10 or (res == MIN // 10 and digit <= MIN % 10):",
+            "Mutate_Code": "if res < MIN // 10 or (res == MIN // 10 and digit <= MIN ** 10):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T6_LCPN_7-Reverse-Integer.py",
+            "Source_Code": "if res < MIN // 10 or (res == MIN // 10 and digit <= MIN % 10):",
+            "Mutate_Code": "if res < MIN // 10 or (res == MIN // 10 and digit <= MIN // 10):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T6_LCPN_7-Reverse-Integer.py",
+            "Source_Code": "if res < MIN // 10 or (res == MIN // 10 and digit <= MIN % 10):",
+            "Mutate_Code": "if res < MIN // 10 or (res == MIN // 10 and digit <= MIN %% 10):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T6_LCPN_7-Reverse-Integer.py",
+            "Source_Code": "if res < MIN // 10 or (res == MIN // 10 and digit <= MIN % 10):",
+            "Mutate_Code": "if res < MIN // 10 or (res == MIN // 10 and digit <= MIN **** 10):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T6_LCPN_7-Reverse-Integer.py",
+            "Source_Code": "if res < MIN // 10 or (res == MIN // 10 and digit <= MIN % 10):",
+            "Mutate_Code": "if res < MIN // 10 or (res == MIN // 10 and digit <= MIN //// 10):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T6_LCPN_7-Reverse-Integer.py",
+            "Source_Code": "if res < MIN // 10 or (res == MIN // 10 and digit <= MIN % 10):",
+            "Mutate_Code": "if res < MIN ++ 10 or (res == MIN // 10 and digit <= MIN % 10):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T6_LCPN_7-Reverse-Integer.py",
+            "Source_Code": "if res < MIN // 10 or (res == MIN // 10 and digit <= MIN % 10):",
+            "Mutate_Code": "if res < MIN -- 10 or (res == MIN // 10 and digit <= MIN % 10):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T6_LCPN_7-Reverse-Integer.py",
+            "Source_Code": "if res < MIN // 10 or (res == MIN // 10 and digit <= MIN % 10):",
+            "Mutate_Code": "if res < MIN ** 10 or (res == MIN // 10 and digit <= MIN % 10):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T6_LCPN_7-Reverse-Integer.py",
+            "Source_Code": "if res < MIN // 10 or (res == MIN // 10 and digit <= MIN % 10):",
+            "Mutate_Code": "if res < MIN %% 10 or (res == MIN // 10 and digit <= MIN % 10):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T6_LCPN_7-Reverse-Integer.py",
+            "Source_Code": "if res < MIN // 10 or (res == MIN // 10 and digit <= MIN % 10):",
+            "Mutate_Code": "if res < MIN **** 10 or (res == MIN // 10 and digit <= MIN % 10):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T6_LCPN_7-Reverse-Integer.py",
+            "Source_Code": "if res < MIN // 10 or (res == MIN // 10 and digit <= MIN % 10):",
+            "Mutate_Code": "if res < MIN //// 10 or (res == MIN // 10 and digit <= MIN % 10):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T6_LCPN_7-Reverse-Integer.py",
+            "Source_Code": "if res < MIN // 10 or (res == MIN // 10 and digit <= MIN % 10):",
+            "Mutate_Code": "if res < MIN // 10 or (res == MIN ++ 10 and digit <= MIN % 10):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T6_LCPN_7-Reverse-Integer.py",
+            "Source_Code": "if res < MIN // 10 or (res == MIN // 10 and digit <= MIN % 10):",
+            "Mutate_Code": "if res < MIN // 10 or (res == MIN -- 10 and digit <= MIN % 10):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T6_LCPN_7-Reverse-Integer.py",
+            "Source_Code": "if res < MIN // 10 or (res == MIN // 10 and digit <= MIN % 10):",
+            "Mutate_Code": "if res < MIN // 10 or (res == MIN ** 10 and digit <= MIN % 10):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T6_LCPN_7-Reverse-Integer.py",
+            "Source_Code": "if res < MIN // 10 or (res == MIN // 10 and digit <= MIN % 10):",
+            "Mutate_Code": "if res < MIN // 10 or (res == MIN %% 10 and digit <= MIN % 10):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T6_LCPN_7-Reverse-Integer.py",
+            "Source_Code": "if res < MIN // 10 or (res == MIN // 10 and digit <= MIN % 10):",
+            "Mutate_Code": "if res < MIN // 10 or (res == MIN **** 10 and digit <= MIN % 10):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T6_LCPN_7-Reverse-Integer.py",
+            "Source_Code": "if res < MIN // 10 or (res == MIN // 10 and digit <= MIN % 10):",
+            "Mutate_Code": "if res < MIN // 10 or (res == MIN //// 10 and digit <= MIN % 10):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T6_LCPN_7-Reverse-Integer.py",
+            "Source_Code": "if res < MIN // 10 or (res == MIN // 10 and digit <= MIN % 10):",
+            "Mutate_Code": "if res   MIN // 10 or (res == MIN // 10 and digit <= MIN % 10):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T6_LCPN_7-Reverse-Integer.py",
+            "Source_Code": "if res < MIN // 10 or (res == MIN // 10 and digit <= MIN % 10):",
+            "Mutate_Code": "if res < MIN // 10 or (res == MIN // 10 and digit  = MIN % 10):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T6_LCPN_7-Reverse-Integer.py",
+            "Source_Code": "if res < MIN // 10 or (res == MIN // 10 and digit <= MIN % 10):",
+            "Mutate_Code": "if res < MIN // 10 or (res == MIN // 10 and digit <= MIN % 10): "
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T6_LCPN_7-Reverse-Integer.py",
+            "Source_Code": "if res < MIN // 10 or (res == MIN // 10 and digit <= MIN % 10):",
+            "Mutate_Code": "if res == MIN // 10 or (res == MIN // 10 and digit <= MIN % 10):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T6_LCPN_7-Reverse-Integer.py",
+            "Source_Code": "if res < MIN // 10 or (res == MIN // 10 and digit <= MIN % 10):",
+            "Mutate_Code": "if res != MIN // 10 or (res == MIN // 10 and digit <= MIN % 10):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T6_LCPN_7-Reverse-Integer.py",
+            "Source_Code": "if res < MIN // 10 or (res == MIN // 10 and digit <= MIN % 10):",
+            "Mutate_Code": "if res > MIN // 10 or (res == MIN // 10 and digit <= MIN % 10):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T6_LCPN_7-Reverse-Integer.py",
+            "Source_Code": "if res < MIN // 10 or (res == MIN // 10 and digit <= MIN % 10):",
+            "Mutate_Code": "if res >= MIN // 10 or (res == MIN // 10 and digit <= MIN % 10):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T6_LCPN_7-Reverse-Integer.py",
+            "Source_Code": "if res < MIN // 10 or (res == MIN // 10 and digit <= MIN % 10):",
+            "Mutate_Code": "if res <= MIN // 10 or (res == MIN // 10 and digit <= MIN % 10):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T6_LCPN_7-Reverse-Integer.py",
+            "Source_Code": "if res < MIN // 10 or (res == MIN // 10 and digit <= MIN % 10):",
+            "Mutate_Code": "if res < MIN // 10 or (res == MIN // 10 and digit === MIN % 10):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T6_LCPN_7-Reverse-Integer.py",
+            "Source_Code": "if res < MIN // 10 or (res == MIN // 10 and digit <= MIN % 10):",
+            "Mutate_Code": "if res < MIN // 10 or (res == MIN // 10 and digit !== MIN % 10):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T6_LCPN_7-Reverse-Integer.py",
+            "Source_Code": "if res < MIN // 10 or (res == MIN // 10 and digit <= MIN % 10):",
+            "Mutate_Code": "if res < MIN // 10 or (res == MIN // 10 and digit >= MIN % 10):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T6_LCPN_7-Reverse-Integer.py",
+            "Source_Code": "if res < MIN // 10 or (res == MIN // 10 and digit <= MIN % 10):",
+            "Mutate_Code": "if res < MIN // 10 or (res == MIN // 10 and digit >== MIN % 10):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T6_LCPN_7-Reverse-Integer.py",
+            "Source_Code": "if res < MIN // 10 or (res == MIN // 10 and digit <= MIN % 10):",
+            "Mutate_Code": "if res < MIN // 10 or (res == MIN // 10 and digit <== MIN % 10):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T6_LCPN_7-Reverse-Integer.py",
+            "Source_Code": "if res < MIN // 10 or (res == MIN // 10 and digit <= MIN % 10):",
+            "Mutate_Code": "if res < MIN // 10 or (res == MIN // 10 and digit <= MIN % 10):=="
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T6_LCPN_7-Reverse-Integer.py",
+            "Source_Code": "if res < MIN // 10 or (res == MIN // 10 and digit <= MIN % 10):",
+            "Mutate_Code": "if res < MIN // 10 or (res == MIN // 10 and digit <= MIN % 10):!="
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T6_LCPN_7-Reverse-Integer.py",
+            "Source_Code": "if res < MIN // 10 or (res == MIN // 10 and digit <= MIN % 10):",
+            "Mutate_Code": "if res < MIN // 10 or (res == MIN // 10 and digit <= MIN % 10):>"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T6_LCPN_7-Reverse-Integer.py",
+            "Source_Code": "if res < MIN // 10 or (res == MIN // 10 and digit <= MIN % 10):",
+            "Mutate_Code": "if res < MIN // 10 or (res == MIN // 10 and digit <= MIN % 10):<"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T6_LCPN_7-Reverse-Integer.py",
+            "Source_Code": "if res < MIN // 10 or (res == MIN // 10 and digit <= MIN % 10):",
+            "Mutate_Code": "if res < MIN // 10 or (res == MIN // 10 and digit <= MIN % 10):>="
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T6_LCPN_7-Reverse-Integer.py",
+            "Source_Code": "if res < MIN // 10 or (res == MIN // 10 and digit <= MIN % 10):",
+            "Mutate_Code": "if res < MIN // 10 or (res == MIN // 10 and digit <= MIN % 10):<="
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T6_LCPN_7-Reverse-Integer.py",
+            "Source_Code": "if res < MIN // 10 or (res == MIN // 10 and digit <= MIN % 10):",
+            "Mutate_Code": "if res  ====  MIN // 10 or (res == MIN // 10 and digit <= MIN % 10):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T6_LCPN_7-Reverse-Integer.py",
+            "Source_Code": "if res < MIN // 10 or (res == MIN // 10 and digit <= MIN % 10):",
+            "Mutate_Code": "if res  !==  MIN // 10 or (res == MIN // 10 and digit <= MIN % 10):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T6_LCPN_7-Reverse-Integer.py",
+            "Source_Code": "if res < MIN // 10 or (res == MIN // 10 and digit <= MIN % 10):",
+            "Mutate_Code": "if res  >>  MIN // 10 or (res == MIN // 10 and digit <= MIN % 10):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T6_LCPN_7-Reverse-Integer.py",
+            "Source_Code": "if res < MIN // 10 or (res == MIN // 10 and digit <= MIN % 10):",
+            "Mutate_Code": "if res  <<  MIN // 10 or (res == MIN // 10 and digit <= MIN % 10):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T6_LCPN_7-Reverse-Integer.py",
+            "Source_Code": "if res < MIN // 10 or (res == MIN // 10 and digit <= MIN % 10):",
+            "Mutate_Code": "if res  >=>=  MIN // 10 or (res == MIN // 10 and digit <= MIN % 10):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T6_LCPN_7-Reverse-Integer.py",
+            "Source_Code": "if res < MIN // 10 or (res == MIN // 10 and digit <= MIN % 10):",
+            "Mutate_Code": "if res  <=<=  MIN // 10 or (res == MIN // 10 and digit <= MIN % 10):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T6_LCPN_7-Reverse-Integer.py",
+            "Source_Code": "if res < MIN // 10 or (res == MIN // 10 and digit <= MIN % 10):",
+            "Mutate_Code": "if res < MIN // 10 or (res == MIN // 10 and digit  ==== = MIN % 10):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T6_LCPN_7-Reverse-Integer.py",
+            "Source_Code": "if res < MIN // 10 or (res == MIN // 10 and digit <= MIN % 10):",
+            "Mutate_Code": "if res < MIN // 10 or (res == MIN // 10 and digit  !== = MIN % 10):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T6_LCPN_7-Reverse-Integer.py",
+            "Source_Code": "if res < MIN // 10 or (res == MIN // 10 and digit <= MIN % 10):",
+            "Mutate_Code": "if res < MIN // 10 or (res == MIN // 10 and digit  >> = MIN % 10):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T6_LCPN_7-Reverse-Integer.py",
+            "Source_Code": "if res < MIN // 10 or (res == MIN // 10 and digit <= MIN % 10):",
+            "Mutate_Code": "if res < MIN // 10 or (res == MIN // 10 and digit  << = MIN % 10):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T6_LCPN_7-Reverse-Integer.py",
+            "Source_Code": "if res < MIN // 10 or (res == MIN // 10 and digit <= MIN % 10):",
+            "Mutate_Code": "if res < MIN // 10 or (res == MIN // 10 and digit  >=>= = MIN % 10):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T6_LCPN_7-Reverse-Integer.py",
+            "Source_Code": "if res < MIN // 10 or (res == MIN // 10 and digit <= MIN % 10):",
+            "Mutate_Code": "if res < MIN // 10 or (res == MIN // 10 and digit  <=<= = MIN % 10):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T6_LCPN_7-Reverse-Integer.py",
+            "Source_Code": "if res < MIN // 10 or (res == MIN // 10 and digit <= MIN % 10):",
+            "Mutate_Code": "if res < MIN // 10 or (res == MIN // 10 and digit <= MIN % 10): ==== "
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T6_LCPN_7-Reverse-Integer.py",
+            "Source_Code": "if res < MIN // 10 or (res == MIN // 10 and digit <= MIN % 10):",
+            "Mutate_Code": "if res < MIN // 10 or (res == MIN // 10 and digit <= MIN % 10): !== "
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T6_LCPN_7-Reverse-Integer.py",
+            "Source_Code": "if res < MIN // 10 or (res == MIN // 10 and digit <= MIN % 10):",
+            "Mutate_Code": "if res < MIN // 10 or (res == MIN // 10 and digit <= MIN % 10): >> "
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T6_LCPN_7-Reverse-Integer.py",
+            "Source_Code": "if res < MIN // 10 or (res == MIN // 10 and digit <= MIN % 10):",
+            "Mutate_Code": "if res < MIN // 10 or (res == MIN // 10 and digit <= MIN % 10): << "
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T6_LCPN_7-Reverse-Integer.py",
+            "Source_Code": "if res < MIN // 10 or (res == MIN // 10 and digit <= MIN % 10):",
+            "Mutate_Code": "if res < MIN // 10 or (res == MIN // 10 and digit <= MIN % 10): >=>= "
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T6_LCPN_7-Reverse-Integer.py",
+            "Source_Code": "if res < MIN // 10 or (res == MIN // 10 and digit <= MIN % 10):",
+            "Mutate_Code": "if res < MIN // 10 or (res == MIN // 10 and digit <= MIN % 10): <=<= "
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T6_LCPN_7-Reverse-Integer.py",
+            "Source_Code": "if res < MIN // 10 or (res == MIN // 10 and digit <= MIN % 10):",
+            "Mutate_Code": "if res < MIN // 10 or (res == MIN // 10 digit <= MIN % 10):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T6_LCPN_7-Reverse-Integer.py",
+            "Source_Code": "if res < MIN // 10 or (res == MIN // 10 and digit <= MIN % 10):",
+            "Mutate_Code": "if res < MIN // 10 (res == MIN // 10 and digit <= MIN % 10):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T6_LCPN_7-Reverse-Integer.py",
+            "Source_Code": "if res < MIN // 10 or (res == MIN // 10 and digit <= MIN % 10):",
+            "Mutate_Code": "if res < MIN // 10 or (res == MIN // 10 or digit <= MIN % 10):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T6_LCPN_7-Reverse-Integer.py",
+            "Source_Code": "if res < MIN // 10 or (res == MIN // 10 and digit <= MIN % 10):",
+            "Mutate_Code": "if res < MIN // 10 or (res == MIN // 10 not digit <= MIN % 10):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T6_LCPN_7-Reverse-Integer.py",
+            "Source_Code": "if res < MIN // 10 or (res == MIN // 10 and digit <= MIN % 10):",
+            "Mutate_Code": "if res < MIN // 10 and (res == MIN // 10 and digit <= MIN % 10):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T6_LCPN_7-Reverse-Integer.py",
+            "Source_Code": "if res < MIN // 10 or (res == MIN // 10 and digit <= MIN % 10):",
+            "Mutate_Code": "if res < MIN // 10 not (res == MIN // 10 and digit <= MIN % 10):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T6_LCPN_7-Reverse-Integer.py",
+            "Source_Code": "if res < MIN // 10 or (res == MIN // 10 and digit <= MIN % 10):",
+            "Mutate_Code": "if res < MIN // 10 or (res == MIN // 10 and and digit <= MIN % 10):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T6_LCPN_7-Reverse-Integer.py",
+            "Source_Code": "if res < MIN // 10 or (res == MIN // 10 and digit <= MIN % 10):",
+            "Mutate_Code": "if res < MIN // 10 or (res == MIN // 10 or or digit <= MIN % 10):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T6_LCPN_7-Reverse-Integer.py",
+            "Source_Code": "if res < MIN // 10 or (res == MIN // 10 and digit <= MIN % 10):",
+            "Mutate_Code": "if res < MIN // 10 or (res == MIN // 10 not not digit <= MIN % 10):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T6_LCPN_7-Reverse-Integer.py",
+            "Source_Code": "if res < MIN // 10 or (res == MIN // 10 and digit <= MIN % 10):",
+            "Mutate_Code": "if res < MIN // 10 and and (res == MIN // 10 and digit <= MIN % 10):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T6_LCPN_7-Reverse-Integer.py",
+            "Source_Code": "if res < MIN // 10 or (res == MIN // 10 and digit <= MIN % 10):",
+            "Mutate_Code": "if res < MIN // 10 or or (res == MIN // 10 and digit <= MIN % 10):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T6_LCPN_7-Reverse-Integer.py",
+            "Source_Code": "if res < MIN // 10 or (res == MIN // 10 and digit <= MIN % 10):",
+            "Mutate_Code": "if res < MIN // 10 not not (res == MIN // 10 and digit <= MIN % 10):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T6_LCPN_7-Reverse-Integer.py",
+            "Source_Code": "if res < MIN // 10 or (res == MIN // 10 and digit <= MIN % 10):",
+            "Mutate_Code": " "
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T6_LCPN_7-Reverse-Integer.py",
+            "Source_Code": "if res < MIN // 10 or (res == MIN // 10 and digit <= MIN % 10):",
+            "Mutate_Code": "elif:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T6_LCPN_7-Reverse-Integer.py",
+            "Source_Code": "if res < MIN // 10 or (res == MIN // 10 and digit <= MIN % 10):",
+            "Mutate_Code": "else:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T6_LCPN_7-Reverse-Integer.py",
+            "Source_Code": "if res < MIN // 10 or (res == MIN // 10 and digit <= MIN % 10):",
+            "Mutate_Code": "if if"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T6_LCPN_7-Reverse-Integer.py",
+            "Source_Code": "return 0",
+            "Mutate_Code": " 0"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T6_LCPN_7-Reverse-Integer.py",
+            "Source_Code": "return 0",
+            "Mutate_Code": "pass0"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T6_LCPN_7-Reverse-Integer.py",
+            "Source_Code": "return 0",
+            "Mutate_Code": "return return0"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T6_LCPN_7-Reverse-Integer.py",
+            "Source_Code": "return res",
+            "Mutate_Code": " res"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T6_LCPN_7-Reverse-Integer.py",
+            "Source_Code": "return res",
+            "Mutate_Code": "passres"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T6_LCPN_7-Reverse-Integer.py",
+            "Source_Code": "return res",
+            "Mutate_Code": "return returnres"
+        }
+    }
+]

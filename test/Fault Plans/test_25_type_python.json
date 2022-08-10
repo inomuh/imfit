@@ -1,0 +1,142 @@
+[
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T25_LCPN_49-Group-Anagrams.py",
+            "Source_Code": "for s in strs:",
+            "Mutate_Code": "for s strs:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T25_LCPN_49-Group-Anagrams.py",
+            "Source_Code": "for s in strs:",
+            "Mutate_Code": "for s is strs:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T25_LCPN_49-Group-Anagrams.py",
+            "Source_Code": "for s in strs:",
+            "Mutate_Code": "for s is not strs:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T25_LCPN_49-Group-Anagrams.py",
+            "Source_Code": "for s in strs:",
+            "Mutate_Code": "for s in in strs:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T25_LCPN_49-Group-Anagrams.py",
+            "Source_Code": "for s in strs:",
+            "Mutate_Code": "for s not in not in strs:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T25_LCPN_49-Group-Anagrams.py",
+            "Source_Code": "for s in strs:",
+            "Mutate_Code": " "
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T25_LCPN_49-Group-Anagrams.py",
+            "Source_Code": "for s in strs:",
+            "Mutate_Code": "while True:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T25_LCPN_49-Group-Anagrams.py",
+            "Source_Code": "for s in strs:",
+            "Mutate_Code": "for for: s in strs:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T25_LCPN_49-Group-Anagrams.py",
+            "Source_Code": "hashmap[str(sorted(s))].append(s)",
+            "Mutate_Code": "ha hmap[str(sorted(s))].append(s)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T25_LCPN_49-Group-Anagrams.py",
+            "Source_Code": "hashmap[str(sorted(s))].append(s)",
+            "Mutate_Code": "hashmap[str( ))].append(s)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T25_LCPN_49-Group-Anagrams.py",
+            "Source_Code": "hashmap[str(sorted(s))].append(s)",
+            "Mutate_Code": "ha hmap[str(sorted(s))].append(s)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T25_LCPN_49-Group-Anagrams.py",
+            "Source_Code": "hashmap[str(sorted(s))].append(s)",
+            "Mutate_Code": "ha hmap[str(sorted(s))].append(s)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T25_LCPN_49-Group-Anagrams.py",
+            "Source_Code": "hashmap[str(sorted(s))].append(s)",
+            "Mutate_Code": "hashmap[str( ))].append(s)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T25_LCPN_49-Group-Anagrams.py",
+            "Source_Code": "hashmap[str(sorted(s))].append(s)",
+            "Mutate_Code": "ha hmap[str(sorted(s))].append(s)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T25_LCPN_49-Group-Anagrams.py",
+            "Source_Code": "hashmap[str(sorted(s))].append(s)",
+            "Mutate_Code": "ha hmap[str(sorted(s))].append(s)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T25_LCPN_49-Group-Anagrams.py",
+            "Source_Code": "hashmap[str(sorted(s))].append(s)",
+            "Mutate_Code": "hashmap[str( ))].append(s)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T25_LCPN_49-Group-Anagrams.py",
+            "Source_Code": "hashmap[str(sorted(s))].append(s)",
+            "Mutate_Code": "ha hmap[str(sorted(s))].append(s)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T25_LCPN_49-Group-Anagrams.py",
+            "Source_Code": "return hashmap.values()",
+            "Mutate_Code": " hashmap.values()"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T25_LCPN_49-Group-Anagrams.py",
+            "Source_Code": "return hashmap.values()",
+            "Mutate_Code": "passhashmap.values()"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T25_LCPN_49-Group-Anagrams.py",
+            "Source_Code": "return hashmap.values()",
+            "Mutate_Code": "return returnhashmap.values()"
+        }
+    }
+]
