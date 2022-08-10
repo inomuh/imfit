@@ -1,0 +1,1864 @@
+[
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T18_LCPN_34-Find-First-and-Last-Position-of-Element-in-Sorted-Array.py",
+            "Source_Code": "left = Solution.binSearch(nums, target, True)",
+            "Mutate_Code": "left Solution.binSearch(nums, target, True)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T18_LCPN_34-Find-First-and-Last-Position-of-Element-in-Sorted-Array.py",
+            "Source_Code": "left = Solution.binSearch(nums, target, True)",
+            "Mutate_Code": "left Solution.binSearch(nums, target, True)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T18_LCPN_34-Find-First-and-Last-Position-of-Element-in-Sorted-Array.py",
+            "Source_Code": "left = Solution.binSearch(nums, target, True)",
+            "Mutate_Code": "left += Solution.binSearch(nums, target, True)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T18_LCPN_34-Find-First-and-Last-Position-of-Element-in-Sorted-Array.py",
+            "Source_Code": "left = Solution.binSearch(nums, target, True)",
+            "Mutate_Code": "left -= Solution.binSearch(nums, target, True)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T18_LCPN_34-Find-First-and-Last-Position-of-Element-in-Sorted-Array.py",
+            "Source_Code": "left = Solution.binSearch(nums, target, True)",
+            "Mutate_Code": "left *= Solution.binSearch(nums, target, True)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T18_LCPN_34-Find-First-and-Last-Position-of-Element-in-Sorted-Array.py",
+            "Source_Code": "left = Solution.binSearch(nums, target, True)",
+            "Mutate_Code": "left /= Solution.binSearch(nums, target, True)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T18_LCPN_34-Find-First-and-Last-Position-of-Element-in-Sorted-Array.py",
+            "Source_Code": "left = Solution.binSearch(nums, target, True)",
+            "Mutate_Code": "left %= Solution.binSearch(nums, target, True)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T18_LCPN_34-Find-First-and-Last-Position-of-Element-in-Sorted-Array.py",
+            "Source_Code": "left = Solution.binSearch(nums, target, True)",
+            "Mutate_Code": "left //= Solution.binSearch(nums, target, True)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T18_LCPN_34-Find-First-and-Last-Position-of-Element-in-Sorted-Array.py",
+            "Source_Code": "left = Solution.binSearch(nums, target, True)",
+            "Mutate_Code": "left **= Solution.binSearch(nums, target, True)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T18_LCPN_34-Find-First-and-Last-Position-of-Element-in-Sorted-Array.py",
+            "Source_Code": "left = Solution.binSearch(nums, target, True)",
+            "Mutate_Code": "left &= Solution.binSearch(nums, target, True)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T18_LCPN_34-Find-First-and-Last-Position-of-Element-in-Sorted-Array.py",
+            "Source_Code": "left = Solution.binSearch(nums, target, True)",
+            "Mutate_Code": "left |= Solution.binSearch(nums, target, True)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T18_LCPN_34-Find-First-and-Last-Position-of-Element-in-Sorted-Array.py",
+            "Source_Code": "left = Solution.binSearch(nums, target, True)",
+            "Mutate_Code": "left ^= Solution.binSearch(nums, target, True)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T18_LCPN_34-Find-First-and-Last-Position-of-Element-in-Sorted-Array.py",
+            "Source_Code": "left = Solution.binSearch(nums, target, True)",
+            "Mutate_Code": "left >>= Solution.binSearch(nums, target, True)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T18_LCPN_34-Find-First-and-Last-Position-of-Element-in-Sorted-Array.py",
+            "Source_Code": "left = Solution.binSearch(nums, target, True)",
+            "Mutate_Code": "left <<= Solution.binSearch(nums, target, True)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T18_LCPN_34-Find-First-and-Last-Position-of-Element-in-Sorted-Array.py",
+            "Source_Code": "left = Solution.binSearch(nums, target, True)",
+            "Mutate_Code": "left += Solution.binSearch(nums, target, True)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T18_LCPN_34-Find-First-and-Last-Position-of-Element-in-Sorted-Array.py",
+            "Source_Code": "left = Solution.binSearch(nums, target, True)",
+            "Mutate_Code": "left -= Solution.binSearch(nums, target, True)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T18_LCPN_34-Find-First-and-Last-Position-of-Element-in-Sorted-Array.py",
+            "Source_Code": "left = Solution.binSearch(nums, target, True)",
+            "Mutate_Code": "left *= Solution.binSearch(nums, target, True)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T18_LCPN_34-Find-First-and-Last-Position-of-Element-in-Sorted-Array.py",
+            "Source_Code": "left = Solution.binSearch(nums, target, True)",
+            "Mutate_Code": "left /= Solution.binSearch(nums, target, True)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T18_LCPN_34-Find-First-and-Last-Position-of-Element-in-Sorted-Array.py",
+            "Source_Code": "left = Solution.binSearch(nums, target, True)",
+            "Mutate_Code": "left %= Solution.binSearch(nums, target, True)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T18_LCPN_34-Find-First-and-Last-Position-of-Element-in-Sorted-Array.py",
+            "Source_Code": "left = Solution.binSearch(nums, target, True)",
+            "Mutate_Code": "left //= Solution.binSearch(nums, target, True)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T18_LCPN_34-Find-First-and-Last-Position-of-Element-in-Sorted-Array.py",
+            "Source_Code": "left = Solution.binSearch(nums, target, True)",
+            "Mutate_Code": "left **= Solution.binSearch(nums, target, True)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T18_LCPN_34-Find-First-and-Last-Position-of-Element-in-Sorted-Array.py",
+            "Source_Code": "left = Solution.binSearch(nums, target, True)",
+            "Mutate_Code": "left &= Solution.binSearch(nums, target, True)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T18_LCPN_34-Find-First-and-Last-Position-of-Element-in-Sorted-Array.py",
+            "Source_Code": "left = Solution.binSearch(nums, target, True)",
+            "Mutate_Code": "left |= Solution.binSearch(nums, target, True)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T18_LCPN_34-Find-First-and-Last-Position-of-Element-in-Sorted-Array.py",
+            "Source_Code": "left = Solution.binSearch(nums, target, True)",
+            "Mutate_Code": "left ^= Solution.binSearch(nums, target, True)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T18_LCPN_34-Find-First-and-Last-Position-of-Element-in-Sorted-Array.py",
+            "Source_Code": "left = Solution.binSearch(nums, target, True)",
+            "Mutate_Code": "left >>= Solution.binSearch(nums, target, True)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T18_LCPN_34-Find-First-and-Last-Position-of-Element-in-Sorted-Array.py",
+            "Source_Code": "left = Solution.binSearch(nums, target, True)",
+            "Mutate_Code": "left <<= Solution.binSearch(nums, target, True)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T18_LCPN_34-Find-First-and-Last-Position-of-Element-in-Sorted-Array.py",
+            "Source_Code": "left = Solution.binSearch(nums, target, True)",
+            "Mutate_Code": "left == Solution.binSearch(nums, target, True)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T18_LCPN_34-Find-First-and-Last-Position-of-Element-in-Sorted-Array.py",
+            "Source_Code": "left = Solution.binSearch(nums, target, True)",
+            "Mutate_Code": "left +=+= Solution.binSearch(nums, target, True)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T18_LCPN_34-Find-First-and-Last-Position-of-Element-in-Sorted-Array.py",
+            "Source_Code": "left = Solution.binSearch(nums, target, True)",
+            "Mutate_Code": "left -=-= Solution.binSearch(nums, target, True)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T18_LCPN_34-Find-First-and-Last-Position-of-Element-in-Sorted-Array.py",
+            "Source_Code": "left = Solution.binSearch(nums, target, True)",
+            "Mutate_Code": "left *=*= Solution.binSearch(nums, target, True)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T18_LCPN_34-Find-First-and-Last-Position-of-Element-in-Sorted-Array.py",
+            "Source_Code": "left = Solution.binSearch(nums, target, True)",
+            "Mutate_Code": "left /=/= Solution.binSearch(nums, target, True)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T18_LCPN_34-Find-First-and-Last-Position-of-Element-in-Sorted-Array.py",
+            "Source_Code": "left = Solution.binSearch(nums, target, True)",
+            "Mutate_Code": "left %=%= Solution.binSearch(nums, target, True)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T18_LCPN_34-Find-First-and-Last-Position-of-Element-in-Sorted-Array.py",
+            "Source_Code": "left = Solution.binSearch(nums, target, True)",
+            "Mutate_Code": "left //=//= Solution.binSearch(nums, target, True)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T18_LCPN_34-Find-First-and-Last-Position-of-Element-in-Sorted-Array.py",
+            "Source_Code": "left = Solution.binSearch(nums, target, True)",
+            "Mutate_Code": "left **=**= Solution.binSearch(nums, target, True)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T18_LCPN_34-Find-First-and-Last-Position-of-Element-in-Sorted-Array.py",
+            "Source_Code": "left = Solution.binSearch(nums, target, True)",
+            "Mutate_Code": "left &=&= Solution.binSearch(nums, target, True)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T18_LCPN_34-Find-First-and-Last-Position-of-Element-in-Sorted-Array.py",
+            "Source_Code": "left = Solution.binSearch(nums, target, True)",
+            "Mutate_Code": "left |=|= Solution.binSearch(nums, target, True)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T18_LCPN_34-Find-First-and-Last-Position-of-Element-in-Sorted-Array.py",
+            "Source_Code": "left = Solution.binSearch(nums, target, True)",
+            "Mutate_Code": "left ^=^= Solution.binSearch(nums, target, True)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T18_LCPN_34-Find-First-and-Last-Position-of-Element-in-Sorted-Array.py",
+            "Source_Code": "left = Solution.binSearch(nums, target, True)",
+            "Mutate_Code": "left >>=>>= Solution.binSearch(nums, target, True)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T18_LCPN_34-Find-First-and-Last-Position-of-Element-in-Sorted-Array.py",
+            "Source_Code": "left = Solution.binSearch(nums, target, True)",
+            "Mutate_Code": "left <<=<<=Solution.binSearch(nums, target, True)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T18_LCPN_34-Find-First-and-Last-Position-of-Element-in-Sorted-Array.py",
+            "Source_Code": "left = Solution.binSearch(nums, target, True)",
+            "Mutate_Code": "left == Solution.binSearch(nums, target, True)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T18_LCPN_34-Find-First-and-Last-Position-of-Element-in-Sorted-Array.py",
+            "Source_Code": "left = Solution.binSearch(nums, target, True)",
+            "Mutate_Code": "left +=+= Solution.binSearch(nums, target, True)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T18_LCPN_34-Find-First-and-Last-Position-of-Element-in-Sorted-Array.py",
+            "Source_Code": "left = Solution.binSearch(nums, target, True)",
+            "Mutate_Code": "left -=-= Solution.binSearch(nums, target, True)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T18_LCPN_34-Find-First-and-Last-Position-of-Element-in-Sorted-Array.py",
+            "Source_Code": "left = Solution.binSearch(nums, target, True)",
+            "Mutate_Code": "left *=*= Solution.binSearch(nums, target, True)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T18_LCPN_34-Find-First-and-Last-Position-of-Element-in-Sorted-Array.py",
+            "Source_Code": "left = Solution.binSearch(nums, target, True)",
+            "Mutate_Code": "left /=/= Solution.binSearch(nums, target, True)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T18_LCPN_34-Find-First-and-Last-Position-of-Element-in-Sorted-Array.py",
+            "Source_Code": "left = Solution.binSearch(nums, target, True)",
+            "Mutate_Code": "left %=%= Solution.binSearch(nums, target, True)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T18_LCPN_34-Find-First-and-Last-Position-of-Element-in-Sorted-Array.py",
+            "Source_Code": "left = Solution.binSearch(nums, target, True)",
+            "Mutate_Code": "left //=//= Solution.binSearch(nums, target, True)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T18_LCPN_34-Find-First-and-Last-Position-of-Element-in-Sorted-Array.py",
+            "Source_Code": "left = Solution.binSearch(nums, target, True)",
+            "Mutate_Code": "left **=**= Solution.binSearch(nums, target, True)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T18_LCPN_34-Find-First-and-Last-Position-of-Element-in-Sorted-Array.py",
+            "Source_Code": "left = Solution.binSearch(nums, target, True)",
+            "Mutate_Code": "left &=&= Solution.binSearch(nums, target, True)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T18_LCPN_34-Find-First-and-Last-Position-of-Element-in-Sorted-Array.py",
+            "Source_Code": "left = Solution.binSearch(nums, target, True)",
+            "Mutate_Code": "left |=|= Solution.binSearch(nums, target, True)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T18_LCPN_34-Find-First-and-Last-Position-of-Element-in-Sorted-Array.py",
+            "Source_Code": "left = Solution.binSearch(nums, target, True)",
+            "Mutate_Code": "left ^=^= Solution.binSearch(nums, target, True)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T18_LCPN_34-Find-First-and-Last-Position-of-Element-in-Sorted-Array.py",
+            "Source_Code": "left = Solution.binSearch(nums, target, True)",
+            "Mutate_Code": "left >>=>>= Solution.binSearch(nums, target, True)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T18_LCPN_34-Find-First-and-Last-Position-of-Element-in-Sorted-Array.py",
+            "Source_Code": "left = Solution.binSearch(nums, target, True)",
+            "Mutate_Code": "left <<=<<=Solution.binSearch(nums, target, True)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T18_LCPN_34-Find-First-and-Last-Position-of-Element-in-Sorted-Array.py",
+            "Source_Code": "left = Solution.binSearch(nums, target, True)",
+            "Mutate_Code": "left = Solution.binSearch(nums, target,  )"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T18_LCPN_34-Find-First-and-Last-Position-of-Element-in-Sorted-Array.py",
+            "Source_Code": "left = Solution.binSearch(nums, target, True)",
+            "Mutate_Code": "left = Solution.binSearch(nums, target, False)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T18_LCPN_34-Find-First-and-Last-Position-of-Element-in-Sorted-Array.py",
+            "Source_Code": "left = Solution.binSearch(nums, target, True)",
+            "Mutate_Code": "left = Solution.binSearch(nums, target, True True)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T18_LCPN_34-Find-First-and-Last-Position-of-Element-in-Sorted-Array.py",
+            "Source_Code": "right = Solution.binSearch(nums, target, False)",
+            "Mutate_Code": "right Solution.binSearch(nums, target, False)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T18_LCPN_34-Find-First-and-Last-Position-of-Element-in-Sorted-Array.py",
+            "Source_Code": "right = Solution.binSearch(nums, target, False)",
+            "Mutate_Code": "right Solution.binSearch(nums, target, False)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T18_LCPN_34-Find-First-and-Last-Position-of-Element-in-Sorted-Array.py",
+            "Source_Code": "right = Solution.binSearch(nums, target, False)",
+            "Mutate_Code": "right += Solution.binSearch(nums, target, False)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T18_LCPN_34-Find-First-and-Last-Position-of-Element-in-Sorted-Array.py",
+            "Source_Code": "right = Solution.binSearch(nums, target, False)",
+            "Mutate_Code": "right -= Solution.binSearch(nums, target, False)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T18_LCPN_34-Find-First-and-Last-Position-of-Element-in-Sorted-Array.py",
+            "Source_Code": "right = Solution.binSearch(nums, target, False)",
+            "Mutate_Code": "right *= Solution.binSearch(nums, target, False)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T18_LCPN_34-Find-First-and-Last-Position-of-Element-in-Sorted-Array.py",
+            "Source_Code": "right = Solution.binSearch(nums, target, False)",
+            "Mutate_Code": "right /= Solution.binSearch(nums, target, False)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T18_LCPN_34-Find-First-and-Last-Position-of-Element-in-Sorted-Array.py",
+            "Source_Code": "right = Solution.binSearch(nums, target, False)",
+            "Mutate_Code": "right %= Solution.binSearch(nums, target, False)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T18_LCPN_34-Find-First-and-Last-Position-of-Element-in-Sorted-Array.py",
+            "Source_Code": "right = Solution.binSearch(nums, target, False)",
+            "Mutate_Code": "right //= Solution.binSearch(nums, target, False)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T18_LCPN_34-Find-First-and-Last-Position-of-Element-in-Sorted-Array.py",
+            "Source_Code": "right = Solution.binSearch(nums, target, False)",
+            "Mutate_Code": "right **= Solution.binSearch(nums, target, False)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T18_LCPN_34-Find-First-and-Last-Position-of-Element-in-Sorted-Array.py",
+            "Source_Code": "right = Solution.binSearch(nums, target, False)",
+            "Mutate_Code": "right &= Solution.binSearch(nums, target, False)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T18_LCPN_34-Find-First-and-Last-Position-of-Element-in-Sorted-Array.py",
+            "Source_Code": "right = Solution.binSearch(nums, target, False)",
+            "Mutate_Code": "right |= Solution.binSearch(nums, target, False)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T18_LCPN_34-Find-First-and-Last-Position-of-Element-in-Sorted-Array.py",
+            "Source_Code": "right = Solution.binSearch(nums, target, False)",
+            "Mutate_Code": "right ^= Solution.binSearch(nums, target, False)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T18_LCPN_34-Find-First-and-Last-Position-of-Element-in-Sorted-Array.py",
+            "Source_Code": "right = Solution.binSearch(nums, target, False)",
+            "Mutate_Code": "right >>= Solution.binSearch(nums, target, False)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T18_LCPN_34-Find-First-and-Last-Position-of-Element-in-Sorted-Array.py",
+            "Source_Code": "right = Solution.binSearch(nums, target, False)",
+            "Mutate_Code": "right <<= Solution.binSearch(nums, target, False)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T18_LCPN_34-Find-First-and-Last-Position-of-Element-in-Sorted-Array.py",
+            "Source_Code": "right = Solution.binSearch(nums, target, False)",
+            "Mutate_Code": "right += Solution.binSearch(nums, target, False)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T18_LCPN_34-Find-First-and-Last-Position-of-Element-in-Sorted-Array.py",
+            "Source_Code": "right = Solution.binSearch(nums, target, False)",
+            "Mutate_Code": "right -= Solution.binSearch(nums, target, False)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T18_LCPN_34-Find-First-and-Last-Position-of-Element-in-Sorted-Array.py",
+            "Source_Code": "right = Solution.binSearch(nums, target, False)",
+            "Mutate_Code": "right *= Solution.binSearch(nums, target, False)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T18_LCPN_34-Find-First-and-Last-Position-of-Element-in-Sorted-Array.py",
+            "Source_Code": "right = Solution.binSearch(nums, target, False)",
+            "Mutate_Code": "right /= Solution.binSearch(nums, target, False)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T18_LCPN_34-Find-First-and-Last-Position-of-Element-in-Sorted-Array.py",
+            "Source_Code": "right = Solution.binSearch(nums, target, False)",
+            "Mutate_Code": "right %= Solution.binSearch(nums, target, False)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T18_LCPN_34-Find-First-and-Last-Position-of-Element-in-Sorted-Array.py",
+            "Source_Code": "right = Solution.binSearch(nums, target, False)",
+            "Mutate_Code": "right //= Solution.binSearch(nums, target, False)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T18_LCPN_34-Find-First-and-Last-Position-of-Element-in-Sorted-Array.py",
+            "Source_Code": "right = Solution.binSearch(nums, target, False)",
+            "Mutate_Code": "right **= Solution.binSearch(nums, target, False)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T18_LCPN_34-Find-First-and-Last-Position-of-Element-in-Sorted-Array.py",
+            "Source_Code": "right = Solution.binSearch(nums, target, False)",
+            "Mutate_Code": "right &= Solution.binSearch(nums, target, False)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T18_LCPN_34-Find-First-and-Last-Position-of-Element-in-Sorted-Array.py",
+            "Source_Code": "right = Solution.binSearch(nums, target, False)",
+            "Mutate_Code": "right |= Solution.binSearch(nums, target, False)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T18_LCPN_34-Find-First-and-Last-Position-of-Element-in-Sorted-Array.py",
+            "Source_Code": "right = Solution.binSearch(nums, target, False)",
+            "Mutate_Code": "right ^= Solution.binSearch(nums, target, False)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T18_LCPN_34-Find-First-and-Last-Position-of-Element-in-Sorted-Array.py",
+            "Source_Code": "right = Solution.binSearch(nums, target, False)",
+            "Mutate_Code": "right >>= Solution.binSearch(nums, target, False)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T18_LCPN_34-Find-First-and-Last-Position-of-Element-in-Sorted-Array.py",
+            "Source_Code": "right = Solution.binSearch(nums, target, False)",
+            "Mutate_Code": "right <<= Solution.binSearch(nums, target, False)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T18_LCPN_34-Find-First-and-Last-Position-of-Element-in-Sorted-Array.py",
+            "Source_Code": "right = Solution.binSearch(nums, target, False)",
+            "Mutate_Code": "right == Solution.binSearch(nums, target, False)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T18_LCPN_34-Find-First-and-Last-Position-of-Element-in-Sorted-Array.py",
+            "Source_Code": "right = Solution.binSearch(nums, target, False)",
+            "Mutate_Code": "right +=+= Solution.binSearch(nums, target, False)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T18_LCPN_34-Find-First-and-Last-Position-of-Element-in-Sorted-Array.py",
+            "Source_Code": "right = Solution.binSearch(nums, target, False)",
+            "Mutate_Code": "right -=-= Solution.binSearch(nums, target, False)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T18_LCPN_34-Find-First-and-Last-Position-of-Element-in-Sorted-Array.py",
+            "Source_Code": "right = Solution.binSearch(nums, target, False)",
+            "Mutate_Code": "right *=*= Solution.binSearch(nums, target, False)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T18_LCPN_34-Find-First-and-Last-Position-of-Element-in-Sorted-Array.py",
+            "Source_Code": "right = Solution.binSearch(nums, target, False)",
+            "Mutate_Code": "right /=/= Solution.binSearch(nums, target, False)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T18_LCPN_34-Find-First-and-Last-Position-of-Element-in-Sorted-Array.py",
+            "Source_Code": "right = Solution.binSearch(nums, target, False)",
+            "Mutate_Code": "right %=%= Solution.binSearch(nums, target, False)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T18_LCPN_34-Find-First-and-Last-Position-of-Element-in-Sorted-Array.py",
+            "Source_Code": "right = Solution.binSearch(nums, target, False)",
+            "Mutate_Code": "right //=//= Solution.binSearch(nums, target, False)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T18_LCPN_34-Find-First-and-Last-Position-of-Element-in-Sorted-Array.py",
+            "Source_Code": "right = Solution.binSearch(nums, target, False)",
+            "Mutate_Code": "right **=**= Solution.binSearch(nums, target, False)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T18_LCPN_34-Find-First-and-Last-Position-of-Element-in-Sorted-Array.py",
+            "Source_Code": "right = Solution.binSearch(nums, target, False)",
+            "Mutate_Code": "right &=&= Solution.binSearch(nums, target, False)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T18_LCPN_34-Find-First-and-Last-Position-of-Element-in-Sorted-Array.py",
+            "Source_Code": "right = Solution.binSearch(nums, target, False)",
+            "Mutate_Code": "right |=|= Solution.binSearch(nums, target, False)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T18_LCPN_34-Find-First-and-Last-Position-of-Element-in-Sorted-Array.py",
+            "Source_Code": "right = Solution.binSearch(nums, target, False)",
+            "Mutate_Code": "right ^=^= Solution.binSearch(nums, target, False)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T18_LCPN_34-Find-First-and-Last-Position-of-Element-in-Sorted-Array.py",
+            "Source_Code": "right = Solution.binSearch(nums, target, False)",
+            "Mutate_Code": "right >>=>>= Solution.binSearch(nums, target, False)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T18_LCPN_34-Find-First-and-Last-Position-of-Element-in-Sorted-Array.py",
+            "Source_Code": "right = Solution.binSearch(nums, target, False)",
+            "Mutate_Code": "right <<=<<=Solution.binSearch(nums, target, False)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T18_LCPN_34-Find-First-and-Last-Position-of-Element-in-Sorted-Array.py",
+            "Source_Code": "right = Solution.binSearch(nums, target, False)",
+            "Mutate_Code": "right == Solution.binSearch(nums, target, False)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T18_LCPN_34-Find-First-and-Last-Position-of-Element-in-Sorted-Array.py",
+            "Source_Code": "right = Solution.binSearch(nums, target, False)",
+            "Mutate_Code": "right +=+= Solution.binSearch(nums, target, False)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T18_LCPN_34-Find-First-and-Last-Position-of-Element-in-Sorted-Array.py",
+            "Source_Code": "right = Solution.binSearch(nums, target, False)",
+            "Mutate_Code": "right -=-= Solution.binSearch(nums, target, False)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T18_LCPN_34-Find-First-and-Last-Position-of-Element-in-Sorted-Array.py",
+            "Source_Code": "right = Solution.binSearch(nums, target, False)",
+            "Mutate_Code": "right *=*= Solution.binSearch(nums, target, False)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T18_LCPN_34-Find-First-and-Last-Position-of-Element-in-Sorted-Array.py",
+            "Source_Code": "right = Solution.binSearch(nums, target, False)",
+            "Mutate_Code": "right /=/= Solution.binSearch(nums, target, False)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T18_LCPN_34-Find-First-and-Last-Position-of-Element-in-Sorted-Array.py",
+            "Source_Code": "right = Solution.binSearch(nums, target, False)",
+            "Mutate_Code": "right %=%= Solution.binSearch(nums, target, False)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T18_LCPN_34-Find-First-and-Last-Position-of-Element-in-Sorted-Array.py",
+            "Source_Code": "right = Solution.binSearch(nums, target, False)",
+            "Mutate_Code": "right //=//= Solution.binSearch(nums, target, False)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T18_LCPN_34-Find-First-and-Last-Position-of-Element-in-Sorted-Array.py",
+            "Source_Code": "right = Solution.binSearch(nums, target, False)",
+            "Mutate_Code": "right **=**= Solution.binSearch(nums, target, False)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T18_LCPN_34-Find-First-and-Last-Position-of-Element-in-Sorted-Array.py",
+            "Source_Code": "right = Solution.binSearch(nums, target, False)",
+            "Mutate_Code": "right &=&= Solution.binSearch(nums, target, False)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T18_LCPN_34-Find-First-and-Last-Position-of-Element-in-Sorted-Array.py",
+            "Source_Code": "right = Solution.binSearch(nums, target, False)",
+            "Mutate_Code": "right |=|= Solution.binSearch(nums, target, False)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T18_LCPN_34-Find-First-and-Last-Position-of-Element-in-Sorted-Array.py",
+            "Source_Code": "right = Solution.binSearch(nums, target, False)",
+            "Mutate_Code": "right ^=^= Solution.binSearch(nums, target, False)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T18_LCPN_34-Find-First-and-Last-Position-of-Element-in-Sorted-Array.py",
+            "Source_Code": "right = Solution.binSearch(nums, target, False)",
+            "Mutate_Code": "right >>=>>= Solution.binSearch(nums, target, False)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T18_LCPN_34-Find-First-and-Last-Position-of-Element-in-Sorted-Array.py",
+            "Source_Code": "right = Solution.binSearch(nums, target, False)",
+            "Mutate_Code": "right <<=<<=Solution.binSearch(nums, target, False)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T18_LCPN_34-Find-First-and-Last-Position-of-Element-in-Sorted-Array.py",
+            "Source_Code": "right = Solution.binSearch(nums, target, False)",
+            "Mutate_Code": "right = Solution.binSearch(nums, target,  )"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T18_LCPN_34-Find-First-and-Last-Position-of-Element-in-Sorted-Array.py",
+            "Source_Code": "right = Solution.binSearch(nums, target, False)",
+            "Mutate_Code": "right = Solution.binSearch(nums, target, True)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T18_LCPN_34-Find-First-and-Last-Position-of-Element-in-Sorted-Array.py",
+            "Source_Code": "right = Solution.binSearch(nums, target, False)",
+            "Mutate_Code": "right = Solution.binSearch(nums, target, False False)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T18_LCPN_34-Find-First-and-Last-Position-of-Element-in-Sorted-Array.py",
+            "Source_Code": "return [left, right]",
+            "Mutate_Code": " [left, right]"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T18_LCPN_34-Find-First-and-Last-Position-of-Element-in-Sorted-Array.py",
+            "Source_Code": "return [left, right]",
+            "Mutate_Code": "pass[left, right]"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T18_LCPN_34-Find-First-and-Last-Position-of-Element-in-Sorted-Array.py",
+            "Source_Code": "return [left, right]",
+            "Mutate_Code": "return return[left, right]"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T18_LCPN_34-Find-First-and-Last-Position-of-Element-in-Sorted-Array.py",
+            "Source_Code": "l, r = 0, len(nums) - 1",
+            "Mutate_Code": "l, r = 0, len(nums) 1"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T18_LCPN_34-Find-First-and-Last-Position-of-Element-in-Sorted-Array.py",
+            "Source_Code": "l, r = 0, len(nums) - 1",
+            "Mutate_Code": "l, r = 0, len(nums) + 1"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T18_LCPN_34-Find-First-and-Last-Position-of-Element-in-Sorted-Array.py",
+            "Source_Code": "l, r = 0, len(nums) - 1",
+            "Mutate_Code": "l, r = 0, len(nums) * 1"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T18_LCPN_34-Find-First-and-Last-Position-of-Element-in-Sorted-Array.py",
+            "Source_Code": "l, r = 0, len(nums) - 1",
+            "Mutate_Code": "l, r = 0, len(nums) / 1"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T18_LCPN_34-Find-First-and-Last-Position-of-Element-in-Sorted-Array.py",
+            "Source_Code": "l, r = 0, len(nums) - 1",
+            "Mutate_Code": "l, r = 0, len(nums) % 1"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T18_LCPN_34-Find-First-and-Last-Position-of-Element-in-Sorted-Array.py",
+            "Source_Code": "l, r = 0, len(nums) - 1",
+            "Mutate_Code": "l, r = 0, len(nums) ** 1"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T18_LCPN_34-Find-First-and-Last-Position-of-Element-in-Sorted-Array.py",
+            "Source_Code": "l, r = 0, len(nums) - 1",
+            "Mutate_Code": "l, r = 0, len(nums) // 1"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T18_LCPN_34-Find-First-and-Last-Position-of-Element-in-Sorted-Array.py",
+            "Source_Code": "l, r = 0, len(nums) - 1",
+            "Mutate_Code": "l, r = 0, len(nums) ++ 1"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T18_LCPN_34-Find-First-and-Last-Position-of-Element-in-Sorted-Array.py",
+            "Source_Code": "l, r = 0, len(nums) - 1",
+            "Mutate_Code": "l, r = 0, len(nums) -- 1"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T18_LCPN_34-Find-First-and-Last-Position-of-Element-in-Sorted-Array.py",
+            "Source_Code": "l, r = 0, len(nums) - 1",
+            "Mutate_Code": "l, r = 0, len(nums) ** 1"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T18_LCPN_34-Find-First-and-Last-Position-of-Element-in-Sorted-Array.py",
+            "Source_Code": "l, r = 0, len(nums) - 1",
+            "Mutate_Code": "l, r = 0, len(nums) // 1"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T18_LCPN_34-Find-First-and-Last-Position-of-Element-in-Sorted-Array.py",
+            "Source_Code": "l, r = 0, len(nums) - 1",
+            "Mutate_Code": "l, r = 0, len(nums) %% 1"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T18_LCPN_34-Find-First-and-Last-Position-of-Element-in-Sorted-Array.py",
+            "Source_Code": "l, r = 0, len(nums) - 1",
+            "Mutate_Code": "l, r = 0, len(nums) **** 1"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T18_LCPN_34-Find-First-and-Last-Position-of-Element-in-Sorted-Array.py",
+            "Source_Code": "l, r = 0, len(nums) - 1",
+            "Mutate_Code": "l, r = 0, len(nums) //// 1"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T18_LCPN_34-Find-First-and-Last-Position-of-Element-in-Sorted-Array.py",
+            "Source_Code": "l, r = 0, len(nums) - 1",
+            "Mutate_Code": "l, r 0, len(nums) - 1"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T18_LCPN_34-Find-First-and-Last-Position-of-Element-in-Sorted-Array.py",
+            "Source_Code": "l, r = 0, len(nums) - 1",
+            "Mutate_Code": "l, r 0, len(nums) - 1"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T18_LCPN_34-Find-First-and-Last-Position-of-Element-in-Sorted-Array.py",
+            "Source_Code": "l, r = 0, len(nums) - 1",
+            "Mutate_Code": "l, r += 0, len(nums) - 1"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T18_LCPN_34-Find-First-and-Last-Position-of-Element-in-Sorted-Array.py",
+            "Source_Code": "l, r = 0, len(nums) - 1",
+            "Mutate_Code": "l, r -= 0, len(nums) - 1"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T18_LCPN_34-Find-First-and-Last-Position-of-Element-in-Sorted-Array.py",
+            "Source_Code": "l, r = 0, len(nums) - 1",
+            "Mutate_Code": "l, r *= 0, len(nums) - 1"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T18_LCPN_34-Find-First-and-Last-Position-of-Element-in-Sorted-Array.py",
+            "Source_Code": "l, r = 0, len(nums) - 1",
+            "Mutate_Code": "l, r /= 0, len(nums) - 1"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T18_LCPN_34-Find-First-and-Last-Position-of-Element-in-Sorted-Array.py",
+            "Source_Code": "l, r = 0, len(nums) - 1",
+            "Mutate_Code": "l, r %= 0, len(nums) - 1"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T18_LCPN_34-Find-First-and-Last-Position-of-Element-in-Sorted-Array.py",
+            "Source_Code": "l, r = 0, len(nums) - 1",
+            "Mutate_Code": "l, r //= 0, len(nums) - 1"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T18_LCPN_34-Find-First-and-Last-Position-of-Element-in-Sorted-Array.py",
+            "Source_Code": "l, r = 0, len(nums) - 1",
+            "Mutate_Code": "l, r **= 0, len(nums) - 1"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T18_LCPN_34-Find-First-and-Last-Position-of-Element-in-Sorted-Array.py",
+            "Source_Code": "l, r = 0, len(nums) - 1",
+            "Mutate_Code": "l, r &= 0, len(nums) - 1"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T18_LCPN_34-Find-First-and-Last-Position-of-Element-in-Sorted-Array.py",
+            "Source_Code": "l, r = 0, len(nums) - 1",
+            "Mutate_Code": "l, r |= 0, len(nums) - 1"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T18_LCPN_34-Find-First-and-Last-Position-of-Element-in-Sorted-Array.py",
+            "Source_Code": "l, r = 0, len(nums) - 1",
+            "Mutate_Code": "l, r ^= 0, len(nums) - 1"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T18_LCPN_34-Find-First-and-Last-Position-of-Element-in-Sorted-Array.py",
+            "Source_Code": "l, r = 0, len(nums) - 1",
+            "Mutate_Code": "l, r >>= 0, len(nums) - 1"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T18_LCPN_34-Find-First-and-Last-Position-of-Element-in-Sorted-Array.py",
+            "Source_Code": "l, r = 0, len(nums) - 1",
+            "Mutate_Code": "l, r <<= 0, len(nums) - 1"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T18_LCPN_34-Find-First-and-Last-Position-of-Element-in-Sorted-Array.py",
+            "Source_Code": "l, r = 0, len(nums) - 1",
+            "Mutate_Code": "l, r += 0, len(nums) - 1"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T18_LCPN_34-Find-First-and-Last-Position-of-Element-in-Sorted-Array.py",
+            "Source_Code": "l, r = 0, len(nums) - 1",
+            "Mutate_Code": "l, r -= 0, len(nums) - 1"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T18_LCPN_34-Find-First-and-Last-Position-of-Element-in-Sorted-Array.py",
+            "Source_Code": "l, r = 0, len(nums) - 1",
+            "Mutate_Code": "l, r *= 0, len(nums) - 1"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T18_LCPN_34-Find-First-and-Last-Position-of-Element-in-Sorted-Array.py",
+            "Source_Code": "l, r = 0, len(nums) - 1",
+            "Mutate_Code": "l, r /= 0, len(nums) - 1"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T18_LCPN_34-Find-First-and-Last-Position-of-Element-in-Sorted-Array.py",
+            "Source_Code": "l, r = 0, len(nums) - 1",
+            "Mutate_Code": "l, r %= 0, len(nums) - 1"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T18_LCPN_34-Find-First-and-Last-Position-of-Element-in-Sorted-Array.py",
+            "Source_Code": "l, r = 0, len(nums) - 1",
+            "Mutate_Code": "l, r //= 0, len(nums) - 1"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T18_LCPN_34-Find-First-and-Last-Position-of-Element-in-Sorted-Array.py",
+            "Source_Code": "l, r = 0, len(nums) - 1",
+            "Mutate_Code": "l, r **= 0, len(nums) - 1"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T18_LCPN_34-Find-First-and-Last-Position-of-Element-in-Sorted-Array.py",
+            "Source_Code": "l, r = 0, len(nums) - 1",
+            "Mutate_Code": "l, r &= 0, len(nums) - 1"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T18_LCPN_34-Find-First-and-Last-Position-of-Element-in-Sorted-Array.py",
+            "Source_Code": "l, r = 0, len(nums) - 1",
+            "Mutate_Code": "l, r |= 0, len(nums) - 1"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T18_LCPN_34-Find-First-and-Last-Position-of-Element-in-Sorted-Array.py",
+            "Source_Code": "l, r = 0, len(nums) - 1",
+            "Mutate_Code": "l, r ^= 0, len(nums) - 1"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T18_LCPN_34-Find-First-and-Last-Position-of-Element-in-Sorted-Array.py",
+            "Source_Code": "l, r = 0, len(nums) - 1",
+            "Mutate_Code": "l, r >>= 0, len(nums) - 1"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T18_LCPN_34-Find-First-and-Last-Position-of-Element-in-Sorted-Array.py",
+            "Source_Code": "l, r = 0, len(nums) - 1",
+            "Mutate_Code": "l, r <<= 0, len(nums) - 1"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T18_LCPN_34-Find-First-and-Last-Position-of-Element-in-Sorted-Array.py",
+            "Source_Code": "l, r = 0, len(nums) - 1",
+            "Mutate_Code": "l, r == 0, len(nums) - 1"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T18_LCPN_34-Find-First-and-Last-Position-of-Element-in-Sorted-Array.py",
+            "Source_Code": "l, r = 0, len(nums) - 1",
+            "Mutate_Code": "l, r +=+= 0, len(nums) - 1"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T18_LCPN_34-Find-First-and-Last-Position-of-Element-in-Sorted-Array.py",
+            "Source_Code": "l, r = 0, len(nums) - 1",
+            "Mutate_Code": "l, r -=-= 0, len(nums) - 1"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T18_LCPN_34-Find-First-and-Last-Position-of-Element-in-Sorted-Array.py",
+            "Source_Code": "l, r = 0, len(nums) - 1",
+            "Mutate_Code": "l, r *=*= 0, len(nums) - 1"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T18_LCPN_34-Find-First-and-Last-Position-of-Element-in-Sorted-Array.py",
+            "Source_Code": "l, r = 0, len(nums) - 1",
+            "Mutate_Code": "l, r /=/= 0, len(nums) - 1"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T18_LCPN_34-Find-First-and-Last-Position-of-Element-in-Sorted-Array.py",
+            "Source_Code": "l, r = 0, len(nums) - 1",
+            "Mutate_Code": "l, r %=%= 0, len(nums) - 1"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T18_LCPN_34-Find-First-and-Last-Position-of-Element-in-Sorted-Array.py",
+            "Source_Code": "l, r = 0, len(nums) - 1",
+            "Mutate_Code": "l, r //=//= 0, len(nums) - 1"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T18_LCPN_34-Find-First-and-Last-Position-of-Element-in-Sorted-Array.py",
+            "Source_Code": "l, r = 0, len(nums) - 1",
+            "Mutate_Code": "l, r **=**= 0, len(nums) - 1"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T18_LCPN_34-Find-First-and-Last-Position-of-Element-in-Sorted-Array.py",
+            "Source_Code": "l, r = 0, len(nums) - 1",
+            "Mutate_Code": "l, r &=&= 0, len(nums) - 1"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T18_LCPN_34-Find-First-and-Last-Position-of-Element-in-Sorted-Array.py",
+            "Source_Code": "l, r = 0, len(nums) - 1",
+            "Mutate_Code": "l, r |=|= 0, len(nums) - 1"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T18_LCPN_34-Find-First-and-Last-Position-of-Element-in-Sorted-Array.py",
+            "Source_Code": "l, r = 0, len(nums) - 1",
+            "Mutate_Code": "l, r ^=^= 0, len(nums) - 1"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T18_LCPN_34-Find-First-and-Last-Position-of-Element-in-Sorted-Array.py",
+            "Source_Code": "l, r = 0, len(nums) - 1",
+            "Mutate_Code": "l, r >>=>>= 0, len(nums) - 1"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T18_LCPN_34-Find-First-and-Last-Position-of-Element-in-Sorted-Array.py",
+            "Source_Code": "l, r = 0, len(nums) - 1",
+            "Mutate_Code": "l, r <<=<<=0, len(nums) - 1"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T18_LCPN_34-Find-First-and-Last-Position-of-Element-in-Sorted-Array.py",
+            "Source_Code": "l, r = 0, len(nums) - 1",
+            "Mutate_Code": "l, r == 0, len(nums) - 1"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T18_LCPN_34-Find-First-and-Last-Position-of-Element-in-Sorted-Array.py",
+            "Source_Code": "l, r = 0, len(nums) - 1",
+            "Mutate_Code": "l, r +=+= 0, len(nums) - 1"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T18_LCPN_34-Find-First-and-Last-Position-of-Element-in-Sorted-Array.py",
+            "Source_Code": "l, r = 0, len(nums) - 1",
+            "Mutate_Code": "l, r -=-= 0, len(nums) - 1"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T18_LCPN_34-Find-First-and-Last-Position-of-Element-in-Sorted-Array.py",
+            "Source_Code": "l, r = 0, len(nums) - 1",
+            "Mutate_Code": "l, r *=*= 0, len(nums) - 1"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T18_LCPN_34-Find-First-and-Last-Position-of-Element-in-Sorted-Array.py",
+            "Source_Code": "l, r = 0, len(nums) - 1",
+            "Mutate_Code": "l, r /=/= 0, len(nums) - 1"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T18_LCPN_34-Find-First-and-Last-Position-of-Element-in-Sorted-Array.py",
+            "Source_Code": "l, r = 0, len(nums) - 1",
+            "Mutate_Code": "l, r %=%= 0, len(nums) - 1"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T18_LCPN_34-Find-First-and-Last-Position-of-Element-in-Sorted-Array.py",
+            "Source_Code": "l, r = 0, len(nums) - 1",
+            "Mutate_Code": "l, r //=//= 0, len(nums) - 1"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T18_LCPN_34-Find-First-and-Last-Position-of-Element-in-Sorted-Array.py",
+            "Source_Code": "l, r = 0, len(nums) - 1",
+            "Mutate_Code": "l, r **=**= 0, len(nums) - 1"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T18_LCPN_34-Find-First-and-Last-Position-of-Element-in-Sorted-Array.py",
+            "Source_Code": "l, r = 0, len(nums) - 1",
+            "Mutate_Code": "l, r &=&= 0, len(nums) - 1"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T18_LCPN_34-Find-First-and-Last-Position-of-Element-in-Sorted-Array.py",
+            "Source_Code": "l, r = 0, len(nums) - 1",
+            "Mutate_Code": "l, r |=|= 0, len(nums) - 1"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T18_LCPN_34-Find-First-and-Last-Position-of-Element-in-Sorted-Array.py",
+            "Source_Code": "l, r = 0, len(nums) - 1",
+            "Mutate_Code": "l, r ^=^= 0, len(nums) - 1"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T18_LCPN_34-Find-First-and-Last-Position-of-Element-in-Sorted-Array.py",
+            "Source_Code": "l, r = 0, len(nums) - 1",
+            "Mutate_Code": "l, r >>=>>= 0, len(nums) - 1"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T18_LCPN_34-Find-First-and-Last-Position-of-Element-in-Sorted-Array.py",
+            "Source_Code": "l, r = 0, len(nums) - 1",
+            "Mutate_Code": "l, r <<=<<=0, len(nums) - 1"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T18_LCPN_34-Find-First-and-Last-Position-of-Element-in-Sorted-Array.py",
+            "Source_Code": "l, r = 0, len(nums) - 1",
+            "Mutate_Code": "l, r = 0, len( ) - 1"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T18_LCPN_34-Find-First-and-Last-Position-of-Element-in-Sorted-Array.py",
+            "Source_Code": "while l <= r:",
+            "Mutate_Code": "while l   r:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T18_LCPN_34-Find-First-and-Last-Position-of-Element-in-Sorted-Array.py",
+            "Source_Code": "while l <= r:",
+            "Mutate_Code": "while l == r:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T18_LCPN_34-Find-First-and-Last-Position-of-Element-in-Sorted-Array.py",
+            "Source_Code": "while l <= r:",
+            "Mutate_Code": "while l != r:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T18_LCPN_34-Find-First-and-Last-Position-of-Element-in-Sorted-Array.py",
+            "Source_Code": "while l <= r:",
+            "Mutate_Code": "while l > r:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T18_LCPN_34-Find-First-and-Last-Position-of-Element-in-Sorted-Array.py",
+            "Source_Code": "while l <= r:",
+            "Mutate_Code": "while l < r:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T18_LCPN_34-Find-First-and-Last-Position-of-Element-in-Sorted-Array.py",
+            "Source_Code": "while l <= r:",
+            "Mutate_Code": "while l >= r:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T18_LCPN_34-Find-First-and-Last-Position-of-Element-in-Sorted-Array.py",
+            "Source_Code": "while l <= r:",
+            "Mutate_Code": "while l  ====  r:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T18_LCPN_34-Find-First-and-Last-Position-of-Element-in-Sorted-Array.py",
+            "Source_Code": "while l <= r:",
+            "Mutate_Code": "while l  !==  r:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T18_LCPN_34-Find-First-and-Last-Position-of-Element-in-Sorted-Array.py",
+            "Source_Code": "while l <= r:",
+            "Mutate_Code": "while l  >>  r:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T18_LCPN_34-Find-First-and-Last-Position-of-Element-in-Sorted-Array.py",
+            "Source_Code": "while l <= r:",
+            "Mutate_Code": "while l  <<  r:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T18_LCPN_34-Find-First-and-Last-Position-of-Element-in-Sorted-Array.py",
+            "Source_Code": "while l <= r:",
+            "Mutate_Code": "while l  >=>=  r:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T18_LCPN_34-Find-First-and-Last-Position-of-Element-in-Sorted-Array.py",
+            "Source_Code": "while l <= r:",
+            "Mutate_Code": "while l  <=<=  r:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T18_LCPN_34-Find-First-and-Last-Position-of-Element-in-Sorted-Array.py",
+            "Source_Code": "while l <= r:",
+            "Mutate_Code": " "
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T18_LCPN_34-Find-First-and-Last-Position-of-Element-in-Sorted-Array.py",
+            "Source_Code": "while l <= r:",
+            "Mutate_Code": "for "
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T18_LCPN_34-Find-First-and-Last-Position-of-Element-in-Sorted-Array.py",
+            "Source_Code": "while l <= r:",
+            "Mutate_Code": "while while:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T18_LCPN_34-Find-First-and-Last-Position-of-Element-in-Sorted-Array.py",
+            "Source_Code": "if target > nums[m]:",
+            "Mutate_Code": "if target   nums[m]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T18_LCPN_34-Find-First-and-Last-Position-of-Element-in-Sorted-Array.py",
+            "Source_Code": "if target > nums[m]:",
+            "Mutate_Code": "if target == nums[m]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T18_LCPN_34-Find-First-and-Last-Position-of-Element-in-Sorted-Array.py",
+            "Source_Code": "if target > nums[m]:",
+            "Mutate_Code": "if target != nums[m]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T18_LCPN_34-Find-First-and-Last-Position-of-Element-in-Sorted-Array.py",
+            "Source_Code": "if target > nums[m]:",
+            "Mutate_Code": "if target < nums[m]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T18_LCPN_34-Find-First-and-Last-Position-of-Element-in-Sorted-Array.py",
+            "Source_Code": "if target > nums[m]:",
+            "Mutate_Code": "if target >= nums[m]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T18_LCPN_34-Find-First-and-Last-Position-of-Element-in-Sorted-Array.py",
+            "Source_Code": "if target > nums[m]:",
+            "Mutate_Code": "if target <= nums[m]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T18_LCPN_34-Find-First-and-Last-Position-of-Element-in-Sorted-Array.py",
+            "Source_Code": "if target > nums[m]:",
+            "Mutate_Code": "if target  ====  nums[m]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T18_LCPN_34-Find-First-and-Last-Position-of-Element-in-Sorted-Array.py",
+            "Source_Code": "if target > nums[m]:",
+            "Mutate_Code": "if target  !==  nums[m]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T18_LCPN_34-Find-First-and-Last-Position-of-Element-in-Sorted-Array.py",
+            "Source_Code": "if target > nums[m]:",
+            "Mutate_Code": "if target  >>  nums[m]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T18_LCPN_34-Find-First-and-Last-Position-of-Element-in-Sorted-Array.py",
+            "Source_Code": "if target > nums[m]:",
+            "Mutate_Code": "if target  <<  nums[m]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T18_LCPN_34-Find-First-and-Last-Position-of-Element-in-Sorted-Array.py",
+            "Source_Code": "if target > nums[m]:",
+            "Mutate_Code": "if target  >=>=  nums[m]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T18_LCPN_34-Find-First-and-Last-Position-of-Element-in-Sorted-Array.py",
+            "Source_Code": "if target > nums[m]:",
+            "Mutate_Code": "if target  <=<=  nums[m]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T18_LCPN_34-Find-First-and-Last-Position-of-Element-in-Sorted-Array.py",
+            "Source_Code": "if target > nums[m]:",
+            "Mutate_Code": " "
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T18_LCPN_34-Find-First-and-Last-Position-of-Element-in-Sorted-Array.py",
+            "Source_Code": "if target > nums[m]:",
+            "Mutate_Code": "elif:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T18_LCPN_34-Find-First-and-Last-Position-of-Element-in-Sorted-Array.py",
+            "Source_Code": "if target > nums[m]:",
+            "Mutate_Code": "else:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T18_LCPN_34-Find-First-and-Last-Position-of-Element-in-Sorted-Array.py",
+            "Source_Code": "if target > nums[m]:",
+            "Mutate_Code": "if if"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T18_LCPN_34-Find-First-and-Last-Position-of-Element-in-Sorted-Array.py",
+            "Source_Code": "elif target < nums[m]:",
+            "Mutate_Code": "elif target   nums[m]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T18_LCPN_34-Find-First-and-Last-Position-of-Element-in-Sorted-Array.py",
+            "Source_Code": "elif target < nums[m]:",
+            "Mutate_Code": "elif target == nums[m]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T18_LCPN_34-Find-First-and-Last-Position-of-Element-in-Sorted-Array.py",
+            "Source_Code": "elif target < nums[m]:",
+            "Mutate_Code": "elif target != nums[m]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T18_LCPN_34-Find-First-and-Last-Position-of-Element-in-Sorted-Array.py",
+            "Source_Code": "elif target < nums[m]:",
+            "Mutate_Code": "elif target > nums[m]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T18_LCPN_34-Find-First-and-Last-Position-of-Element-in-Sorted-Array.py",
+            "Source_Code": "elif target < nums[m]:",
+            "Mutate_Code": "elif target >= nums[m]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T18_LCPN_34-Find-First-and-Last-Position-of-Element-in-Sorted-Array.py",
+            "Source_Code": "elif target < nums[m]:",
+            "Mutate_Code": "elif target <= nums[m]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T18_LCPN_34-Find-First-and-Last-Position-of-Element-in-Sorted-Array.py",
+            "Source_Code": "elif target < nums[m]:",
+            "Mutate_Code": "elif target  ====  nums[m]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T18_LCPN_34-Find-First-and-Last-Position-of-Element-in-Sorted-Array.py",
+            "Source_Code": "elif target < nums[m]:",
+            "Mutate_Code": "elif target  !==  nums[m]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T18_LCPN_34-Find-First-and-Last-Position-of-Element-in-Sorted-Array.py",
+            "Source_Code": "elif target < nums[m]:",
+            "Mutate_Code": "elif target  >>  nums[m]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T18_LCPN_34-Find-First-and-Last-Position-of-Element-in-Sorted-Array.py",
+            "Source_Code": "elif target < nums[m]:",
+            "Mutate_Code": "elif target  <<  nums[m]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T18_LCPN_34-Find-First-and-Last-Position-of-Element-in-Sorted-Array.py",
+            "Source_Code": "elif target < nums[m]:",
+            "Mutate_Code": "elif target  >=>=  nums[m]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T18_LCPN_34-Find-First-and-Last-Position-of-Element-in-Sorted-Array.py",
+            "Source_Code": "elif target < nums[m]:",
+            "Mutate_Code": "elif target  <=<=  nums[m]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T18_LCPN_34-Find-First-and-Last-Position-of-Element-in-Sorted-Array.py",
+            "Source_Code": "elif target < nums[m]:",
+            "Mutate_Code": "el "
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T18_LCPN_34-Find-First-and-Last-Position-of-Element-in-Sorted-Array.py",
+            "Source_Code": "elif target < nums[m]:",
+            "Mutate_Code": "elelif:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T18_LCPN_34-Find-First-and-Last-Position-of-Element-in-Sorted-Array.py",
+            "Source_Code": "elif target < nums[m]:",
+            "Mutate_Code": "elelse:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T18_LCPN_34-Find-First-and-Last-Position-of-Element-in-Sorted-Array.py",
+            "Source_Code": "elif target < nums[m]:",
+            "Mutate_Code": "elif if"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T18_LCPN_34-Find-First-and-Last-Position-of-Element-in-Sorted-Array.py",
+            "Source_Code": "elif target < nums[m]:",
+            "Mutate_Code": " "
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T18_LCPN_34-Find-First-and-Last-Position-of-Element-in-Sorted-Array.py",
+            "Source_Code": "elif target < nums[m]:",
+            "Mutate_Code": "if:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T18_LCPN_34-Find-First-and-Last-Position-of-Element-in-Sorted-Array.py",
+            "Source_Code": "elif target < nums[m]:",
+            "Mutate_Code": "else:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T18_LCPN_34-Find-First-and-Last-Position-of-Element-in-Sorted-Array.py",
+            "Source_Code": "elif target < nums[m]:",
+            "Mutate_Code": "elif elif"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T18_LCPN_34-Find-First-and-Last-Position-of-Element-in-Sorted-Array.py",
+            "Source_Code": "elif target < nums[m]:",
+            "Mutate_Code": "elif target   nums[m]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T18_LCPN_34-Find-First-and-Last-Position-of-Element-in-Sorted-Array.py",
+            "Source_Code": "elif target < nums[m]:",
+            "Mutate_Code": "elif target == nums[m]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T18_LCPN_34-Find-First-and-Last-Position-of-Element-in-Sorted-Array.py",
+            "Source_Code": "elif target < nums[m]:",
+            "Mutate_Code": "elif target != nums[m]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T18_LCPN_34-Find-First-and-Last-Position-of-Element-in-Sorted-Array.py",
+            "Source_Code": "elif target < nums[m]:",
+            "Mutate_Code": "elif target > nums[m]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T18_LCPN_34-Find-First-and-Last-Position-of-Element-in-Sorted-Array.py",
+            "Source_Code": "elif target < nums[m]:",
+            "Mutate_Code": "elif target >= nums[m]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T18_LCPN_34-Find-First-and-Last-Position-of-Element-in-Sorted-Array.py",
+            "Source_Code": "elif target < nums[m]:",
+            "Mutate_Code": "elif target <= nums[m]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T18_LCPN_34-Find-First-and-Last-Position-of-Element-in-Sorted-Array.py",
+            "Source_Code": "elif target < nums[m]:",
+            "Mutate_Code": "elif target  ====  nums[m]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T18_LCPN_34-Find-First-and-Last-Position-of-Element-in-Sorted-Array.py",
+            "Source_Code": "elif target < nums[m]:",
+            "Mutate_Code": "elif target  !==  nums[m]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T18_LCPN_34-Find-First-and-Last-Position-of-Element-in-Sorted-Array.py",
+            "Source_Code": "elif target < nums[m]:",
+            "Mutate_Code": "elif target  >>  nums[m]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T18_LCPN_34-Find-First-and-Last-Position-of-Element-in-Sorted-Array.py",
+            "Source_Code": "elif target < nums[m]:",
+            "Mutate_Code": "elif target  <<  nums[m]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T18_LCPN_34-Find-First-and-Last-Position-of-Element-in-Sorted-Array.py",
+            "Source_Code": "elif target < nums[m]:",
+            "Mutate_Code": "elif target  >=>=  nums[m]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T18_LCPN_34-Find-First-and-Last-Position-of-Element-in-Sorted-Array.py",
+            "Source_Code": "elif target < nums[m]:",
+            "Mutate_Code": "elif target  <=<=  nums[m]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T18_LCPN_34-Find-First-and-Last-Position-of-Element-in-Sorted-Array.py",
+            "Source_Code": "elif target < nums[m]:",
+            "Mutate_Code": "el "
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T18_LCPN_34-Find-First-and-Last-Position-of-Element-in-Sorted-Array.py",
+            "Source_Code": "elif target < nums[m]:",
+            "Mutate_Code": "elelif:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T18_LCPN_34-Find-First-and-Last-Position-of-Element-in-Sorted-Array.py",
+            "Source_Code": "elif target < nums[m]:",
+            "Mutate_Code": "elelse:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T18_LCPN_34-Find-First-and-Last-Position-of-Element-in-Sorted-Array.py",
+            "Source_Code": "elif target < nums[m]:",
+            "Mutate_Code": "elif if"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T18_LCPN_34-Find-First-and-Last-Position-of-Element-in-Sorted-Array.py",
+            "Source_Code": "elif target < nums[m]:",
+            "Mutate_Code": " "
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T18_LCPN_34-Find-First-and-Last-Position-of-Element-in-Sorted-Array.py",
+            "Source_Code": "elif target < nums[m]:",
+            "Mutate_Code": "if:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T18_LCPN_34-Find-First-and-Last-Position-of-Element-in-Sorted-Array.py",
+            "Source_Code": "elif target < nums[m]:",
+            "Mutate_Code": "else:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T18_LCPN_34-Find-First-and-Last-Position-of-Element-in-Sorted-Array.py",
+            "Source_Code": "elif target < nums[m]:",
+            "Mutate_Code": "elif elif"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T18_LCPN_34-Find-First-and-Last-Position-of-Element-in-Sorted-Array.py",
+            "Source_Code": "else:",
+            "Mutate_Code": " "
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T18_LCPN_34-Find-First-and-Last-Position-of-Element-in-Sorted-Array.py",
+            "Source_Code": "else:",
+            "Mutate_Code": "if:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T18_LCPN_34-Find-First-and-Last-Position-of-Element-in-Sorted-Array.py",
+            "Source_Code": "else:",
+            "Mutate_Code": "elif:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T18_LCPN_34-Find-First-and-Last-Position-of-Element-in-Sorted-Array.py",
+            "Source_Code": "else:",
+            "Mutate_Code": "else else:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T18_LCPN_34-Find-First-and-Last-Position-of-Element-in-Sorted-Array.py",
+            "Source_Code": "if leftBias:",
+            "Mutate_Code": " "
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T18_LCPN_34-Find-First-and-Last-Position-of-Element-in-Sorted-Array.py",
+            "Source_Code": "if leftBias:",
+            "Mutate_Code": "elif:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T18_LCPN_34-Find-First-and-Last-Position-of-Element-in-Sorted-Array.py",
+            "Source_Code": "if leftBias:",
+            "Mutate_Code": "else:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T18_LCPN_34-Find-First-and-Last-Position-of-Element-in-Sorted-Array.py",
+            "Source_Code": "if leftBias:",
+            "Mutate_Code": "if if"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T18_LCPN_34-Find-First-and-Last-Position-of-Element-in-Sorted-Array.py",
+            "Source_Code": "else:",
+            "Mutate_Code": " "
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T18_LCPN_34-Find-First-and-Last-Position-of-Element-in-Sorted-Array.py",
+            "Source_Code": "else:",
+            "Mutate_Code": "if:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T18_LCPN_34-Find-First-and-Last-Position-of-Element-in-Sorted-Array.py",
+            "Source_Code": "else:",
+            "Mutate_Code": "elif:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T18_LCPN_34-Find-First-and-Last-Position-of-Element-in-Sorted-Array.py",
+            "Source_Code": "else:",
+            "Mutate_Code": "else else:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T18_LCPN_34-Find-First-and-Last-Position-of-Element-in-Sorted-Array.py",
+            "Source_Code": "return i",
+            "Mutate_Code": " i"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T18_LCPN_34-Find-First-and-Last-Position-of-Element-in-Sorted-Array.py",
+            "Source_Code": "return i",
+            "Mutate_Code": "passi"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T18_LCPN_34-Find-First-and-Last-Position-of-Element-in-Sorted-Array.py",
+            "Source_Code": "return i",
+            "Mutate_Code": "return returni"
+        }
+    }
+]

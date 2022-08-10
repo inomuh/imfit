@@ -1,0 +1,3117 @@
+[
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T5_LCPN_5-Longest-Palindromic-Substring.py",
+            "Source_Code": "for i in range(len(s)):",
+            "Mutate_Code": "for i range(len(s)):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T5_LCPN_5-Longest-Palindromic-Substring.py",
+            "Source_Code": "for i in range(len(s)):",
+            "Mutate_Code": "for i is range(len(s)):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T5_LCPN_5-Longest-Palindromic-Substring.py",
+            "Source_Code": "for i in range(len(s)):",
+            "Mutate_Code": "for i is not range(len(s)):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T5_LCPN_5-Longest-Palindromic-Substring.py",
+            "Source_Code": "for i in range(len(s)):",
+            "Mutate_Code": "for i in in range(len(s)):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T5_LCPN_5-Longest-Palindromic-Substring.py",
+            "Source_Code": "for i in range(len(s)):",
+            "Mutate_Code": "for i not in not in range(len(s)):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T5_LCPN_5-Longest-Palindromic-Substring.py",
+            "Source_Code": "for i in range(len(s)):",
+            "Mutate_Code": " "
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T5_LCPN_5-Longest-Palindromic-Substring.py",
+            "Source_Code": "for i in range(len(s)):",
+            "Mutate_Code": "while True:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T5_LCPN_5-Longest-Palindromic-Substring.py",
+            "Source_Code": "for i in range(len(s)):",
+            "Mutate_Code": "for for: i in range(len(s)):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T5_LCPN_5-Longest-Palindromic-Substring.py",
+            "Source_Code": "for i in range(len(s)):",
+            "Mutate_Code": "for i in range(len( )):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T5_LCPN_5-Longest-Palindromic-Substring.py",
+            "Source_Code": "for i in range(len(s)):",
+            "Mutate_Code": "for i in range( )):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T5_LCPN_5-Longest-Palindromic-Substring.py",
+            "Source_Code": "for i in range(len(s)):",
+            "Mutate_Code": "for i range(len(s)):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T5_LCPN_5-Longest-Palindromic-Substring.py",
+            "Source_Code": "for i in range(len(s)):",
+            "Mutate_Code": "for i is range(len(s)):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T5_LCPN_5-Longest-Palindromic-Substring.py",
+            "Source_Code": "for i in range(len(s)):",
+            "Mutate_Code": "for i is not range(len(s)):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T5_LCPN_5-Longest-Palindromic-Substring.py",
+            "Source_Code": "for i in range(len(s)):",
+            "Mutate_Code": "for i in in range(len(s)):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T5_LCPN_5-Longest-Palindromic-Substring.py",
+            "Source_Code": "for i in range(len(s)):",
+            "Mutate_Code": "for i not in not in range(len(s)):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T5_LCPN_5-Longest-Palindromic-Substring.py",
+            "Source_Code": "for i in range(len(s)):",
+            "Mutate_Code": " "
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T5_LCPN_5-Longest-Palindromic-Substring.py",
+            "Source_Code": "for i in range(len(s)):",
+            "Mutate_Code": "while True:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T5_LCPN_5-Longest-Palindromic-Substring.py",
+            "Source_Code": "for i in range(len(s)):",
+            "Mutate_Code": "for for: i in range(len(s)):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T5_LCPN_5-Longest-Palindromic-Substring.py",
+            "Source_Code": "for i in range(len(s)):",
+            "Mutate_Code": "for i in range(len( )):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T5_LCPN_5-Longest-Palindromic-Substring.py",
+            "Source_Code": "for i in range(len(s)):",
+            "Mutate_Code": "for i in range( )):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T5_LCPN_5-Longest-Palindromic-Substring.py",
+            "Source_Code": "for i in range(len(s)):",
+            "Mutate_Code": "for i range(len(s)):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T5_LCPN_5-Longest-Palindromic-Substring.py",
+            "Source_Code": "for i in range(len(s)):",
+            "Mutate_Code": "for i is range(len(s)):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T5_LCPN_5-Longest-Palindromic-Substring.py",
+            "Source_Code": "for i in range(len(s)):",
+            "Mutate_Code": "for i is not range(len(s)):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T5_LCPN_5-Longest-Palindromic-Substring.py",
+            "Source_Code": "for i in range(len(s)):",
+            "Mutate_Code": "for i in in range(len(s)):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T5_LCPN_5-Longest-Palindromic-Substring.py",
+            "Source_Code": "for i in range(len(s)):",
+            "Mutate_Code": "for i not in not in range(len(s)):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T5_LCPN_5-Longest-Palindromic-Substring.py",
+            "Source_Code": "for i in range(len(s)):",
+            "Mutate_Code": " "
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T5_LCPN_5-Longest-Palindromic-Substring.py",
+            "Source_Code": "for i in range(len(s)):",
+            "Mutate_Code": "while True:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T5_LCPN_5-Longest-Palindromic-Substring.py",
+            "Source_Code": "for i in range(len(s)):",
+            "Mutate_Code": "for for: i in range(len(s)):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T5_LCPN_5-Longest-Palindromic-Substring.py",
+            "Source_Code": "for i in range(len(s)):",
+            "Mutate_Code": "for i in range(len( )):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T5_LCPN_5-Longest-Palindromic-Substring.py",
+            "Source_Code": "for i in range(len(s)):",
+            "Mutate_Code": "for i in range( )):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T5_LCPN_5-Longest-Palindromic-Substring.py",
+            "Source_Code": "while l >= 0 and r < len(s) and s[l] == s[r]:",
+            "Mutate_Code": "while l   0 and r < len(s) and s[l] == s[r]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T5_LCPN_5-Longest-Palindromic-Substring.py",
+            "Source_Code": "while l >= 0 and r < len(s) and s[l] == s[r]:",
+            "Mutate_Code": "while l >= 0 and r < len(s) and s[l] == s[r]: "
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T5_LCPN_5-Longest-Palindromic-Substring.py",
+            "Source_Code": "while l >= 0 and r < len(s) and s[l] == s[r]:",
+            "Mutate_Code": "while l >= 0 and r < len(s) and s[l] == s[r]: "
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T5_LCPN_5-Longest-Palindromic-Substring.py",
+            "Source_Code": "while l >= 0 and r < len(s) and s[l] == s[r]:",
+            "Mutate_Code": "while l == 0 and r < len(s) and s[l] == s[r]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T5_LCPN_5-Longest-Palindromic-Substring.py",
+            "Source_Code": "while l >= 0 and r < len(s) and s[l] == s[r]:",
+            "Mutate_Code": "while l != 0 and r < len(s) and s[l] == s[r]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T5_LCPN_5-Longest-Palindromic-Substring.py",
+            "Source_Code": "while l >= 0 and r < len(s) and s[l] == s[r]:",
+            "Mutate_Code": "while l > 0 and r < len(s) and s[l] == s[r]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T5_LCPN_5-Longest-Palindromic-Substring.py",
+            "Source_Code": "while l >= 0 and r < len(s) and s[l] == s[r]:",
+            "Mutate_Code": "while l < 0 and r < len(s) and s[l] == s[r]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T5_LCPN_5-Longest-Palindromic-Substring.py",
+            "Source_Code": "while l >= 0 and r < len(s) and s[l] == s[r]:",
+            "Mutate_Code": "while l <= 0 and r < len(s) and s[l] == s[r]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T5_LCPN_5-Longest-Palindromic-Substring.py",
+            "Source_Code": "while l >= 0 and r < len(s) and s[l] == s[r]:",
+            "Mutate_Code": "while l >= 0 and r < len(s) and s[l] == s[r]:=="
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T5_LCPN_5-Longest-Palindromic-Substring.py",
+            "Source_Code": "while l >= 0 and r < len(s) and s[l] == s[r]:",
+            "Mutate_Code": "while l >= 0 and r < len(s) and s[l] == s[r]:!="
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T5_LCPN_5-Longest-Palindromic-Substring.py",
+            "Source_Code": "while l >= 0 and r < len(s) and s[l] == s[r]:",
+            "Mutate_Code": "while l >= 0 and r < len(s) and s[l] == s[r]:>"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T5_LCPN_5-Longest-Palindromic-Substring.py",
+            "Source_Code": "while l >= 0 and r < len(s) and s[l] == s[r]:",
+            "Mutate_Code": "while l >= 0 and r < len(s) and s[l] == s[r]:<"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T5_LCPN_5-Longest-Palindromic-Substring.py",
+            "Source_Code": "while l >= 0 and r < len(s) and s[l] == s[r]:",
+            "Mutate_Code": "while l >= 0 and r < len(s) and s[l] == s[r]:>="
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T5_LCPN_5-Longest-Palindromic-Substring.py",
+            "Source_Code": "while l >= 0 and r < len(s) and s[l] == s[r]:",
+            "Mutate_Code": "while l >= 0 and r < len(s) and s[l] == s[r]:<="
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T5_LCPN_5-Longest-Palindromic-Substring.py",
+            "Source_Code": "while l >= 0 and r < len(s) and s[l] == s[r]:",
+            "Mutate_Code": "while l >= 0 and r < len(s) and s[l] == s[r]:=="
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T5_LCPN_5-Longest-Palindromic-Substring.py",
+            "Source_Code": "while l >= 0 and r < len(s) and s[l] == s[r]:",
+            "Mutate_Code": "while l >= 0 and r < len(s) and s[l] == s[r]:!="
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T5_LCPN_5-Longest-Palindromic-Substring.py",
+            "Source_Code": "while l >= 0 and r < len(s) and s[l] == s[r]:",
+            "Mutate_Code": "while l >= 0 and r < len(s) and s[l] == s[r]:>"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T5_LCPN_5-Longest-Palindromic-Substring.py",
+            "Source_Code": "while l >= 0 and r < len(s) and s[l] == s[r]:",
+            "Mutate_Code": "while l >= 0 and r < len(s) and s[l] == s[r]:<"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T5_LCPN_5-Longest-Palindromic-Substring.py",
+            "Source_Code": "while l >= 0 and r < len(s) and s[l] == s[r]:",
+            "Mutate_Code": "while l >= 0 and r < len(s) and s[l] == s[r]:>="
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T5_LCPN_5-Longest-Palindromic-Substring.py",
+            "Source_Code": "while l >= 0 and r < len(s) and s[l] == s[r]:",
+            "Mutate_Code": "while l >= 0 and r < len(s) and s[l] == s[r]:<="
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T5_LCPN_5-Longest-Palindromic-Substring.py",
+            "Source_Code": "while l >= 0 and r < len(s) and s[l] == s[r]:",
+            "Mutate_Code": "while l  ====  0 and r < len(s) and s[l] == s[r]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T5_LCPN_5-Longest-Palindromic-Substring.py",
+            "Source_Code": "while l >= 0 and r < len(s) and s[l] == s[r]:",
+            "Mutate_Code": "while l  !==  0 and r < len(s) and s[l] == s[r]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T5_LCPN_5-Longest-Palindromic-Substring.py",
+            "Source_Code": "while l >= 0 and r < len(s) and s[l] == s[r]:",
+            "Mutate_Code": "while l  >>  0 and r < len(s) and s[l] == s[r]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T5_LCPN_5-Longest-Palindromic-Substring.py",
+            "Source_Code": "while l >= 0 and r < len(s) and s[l] == s[r]:",
+            "Mutate_Code": "while l  <<  0 and r < len(s) and s[l] == s[r]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T5_LCPN_5-Longest-Palindromic-Substring.py",
+            "Source_Code": "while l >= 0 and r < len(s) and s[l] == s[r]:",
+            "Mutate_Code": "while l  >=>=  0 and r < len(s) and s[l] == s[r]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T5_LCPN_5-Longest-Palindromic-Substring.py",
+            "Source_Code": "while l >= 0 and r < len(s) and s[l] == s[r]:",
+            "Mutate_Code": "while l  <=<=  0 and r < len(s) and s[l] == s[r]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T5_LCPN_5-Longest-Palindromic-Substring.py",
+            "Source_Code": "while l >= 0 and r < len(s) and s[l] == s[r]:",
+            "Mutate_Code": "while l >= 0 and r < len(s) and s[l] == s[r]: ==== "
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T5_LCPN_5-Longest-Palindromic-Substring.py",
+            "Source_Code": "while l >= 0 and r < len(s) and s[l] == s[r]:",
+            "Mutate_Code": "while l >= 0 and r < len(s) and s[l] == s[r]: !== "
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T5_LCPN_5-Longest-Palindromic-Substring.py",
+            "Source_Code": "while l >= 0 and r < len(s) and s[l] == s[r]:",
+            "Mutate_Code": "while l >= 0 and r < len(s) and s[l] == s[r]: >> "
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T5_LCPN_5-Longest-Palindromic-Substring.py",
+            "Source_Code": "while l >= 0 and r < len(s) and s[l] == s[r]:",
+            "Mutate_Code": "while l >= 0 and r < len(s) and s[l] == s[r]: << "
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T5_LCPN_5-Longest-Palindromic-Substring.py",
+            "Source_Code": "while l >= 0 and r < len(s) and s[l] == s[r]:",
+            "Mutate_Code": "while l >= 0 and r < len(s) and s[l] == s[r]: >=>= "
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T5_LCPN_5-Longest-Palindromic-Substring.py",
+            "Source_Code": "while l >= 0 and r < len(s) and s[l] == s[r]:",
+            "Mutate_Code": "while l >= 0 and r < len(s) and s[l] == s[r]: <=<= "
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T5_LCPN_5-Longest-Palindromic-Substring.py",
+            "Source_Code": "while l >= 0 and r < len(s) and s[l] == s[r]:",
+            "Mutate_Code": "while l >= 0 and r < len(s) and s[l] == s[r]: ==== "
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T5_LCPN_5-Longest-Palindromic-Substring.py",
+            "Source_Code": "while l >= 0 and r < len(s) and s[l] == s[r]:",
+            "Mutate_Code": "while l >= 0 and r < len(s) and s[l] == s[r]: !== "
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T5_LCPN_5-Longest-Palindromic-Substring.py",
+            "Source_Code": "while l >= 0 and r < len(s) and s[l] == s[r]:",
+            "Mutate_Code": "while l >= 0 and r < len(s) and s[l] == s[r]: >> "
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T5_LCPN_5-Longest-Palindromic-Substring.py",
+            "Source_Code": "while l >= 0 and r < len(s) and s[l] == s[r]:",
+            "Mutate_Code": "while l >= 0 and r < len(s) and s[l] == s[r]: << "
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T5_LCPN_5-Longest-Palindromic-Substring.py",
+            "Source_Code": "while l >= 0 and r < len(s) and s[l] == s[r]:",
+            "Mutate_Code": "while l >= 0 and r < len(s) and s[l] == s[r]: >=>= "
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T5_LCPN_5-Longest-Palindromic-Substring.py",
+            "Source_Code": "while l >= 0 and r < len(s) and s[l] == s[r]:",
+            "Mutate_Code": "while l >= 0 and r < len(s) and s[l] == s[r]: <=<= "
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T5_LCPN_5-Longest-Palindromic-Substring.py",
+            "Source_Code": "while l >= 0 and r < len(s) and s[l] == s[r]:",
+            "Mutate_Code": "while l >= 0 r < len(s) and s[l] == s[r]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T5_LCPN_5-Longest-Palindromic-Substring.py",
+            "Source_Code": "while l >= 0 and r < len(s) and s[l] == s[r]:",
+            "Mutate_Code": "while l >= 0 and r < len(s) s[l] == s[r]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T5_LCPN_5-Longest-Palindromic-Substring.py",
+            "Source_Code": "while l >= 0 and r < len(s) and s[l] == s[r]:",
+            "Mutate_Code": "while l >= 0 or r < len(s) and s[l] == s[r]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T5_LCPN_5-Longest-Palindromic-Substring.py",
+            "Source_Code": "while l >= 0 and r < len(s) and s[l] == s[r]:",
+            "Mutate_Code": "while l >= 0 not r < len(s) and s[l] == s[r]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T5_LCPN_5-Longest-Palindromic-Substring.py",
+            "Source_Code": "while l >= 0 and r < len(s) and s[l] == s[r]:",
+            "Mutate_Code": "while l >= 0 and r < len(s) or s[l] == s[r]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T5_LCPN_5-Longest-Palindromic-Substring.py",
+            "Source_Code": "while l >= 0 and r < len(s) and s[l] == s[r]:",
+            "Mutate_Code": "while l >= 0 and r < len(s) not s[l] == s[r]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T5_LCPN_5-Longest-Palindromic-Substring.py",
+            "Source_Code": "while l >= 0 and r < len(s) and s[l] == s[r]:",
+            "Mutate_Code": "while l >= 0 and and r < len(s) and s[l] == s[r]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T5_LCPN_5-Longest-Palindromic-Substring.py",
+            "Source_Code": "while l >= 0 and r < len(s) and s[l] == s[r]:",
+            "Mutate_Code": "while l >= 0 or or r < len(s) and s[l] == s[r]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T5_LCPN_5-Longest-Palindromic-Substring.py",
+            "Source_Code": "while l >= 0 and r < len(s) and s[l] == s[r]:",
+            "Mutate_Code": "while l >= 0 not not r < len(s) and s[l] == s[r]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T5_LCPN_5-Longest-Palindromic-Substring.py",
+            "Source_Code": "while l >= 0 and r < len(s) and s[l] == s[r]:",
+            "Mutate_Code": "while l >= 0 and r < len(s) and and s[l] == s[r]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T5_LCPN_5-Longest-Palindromic-Substring.py",
+            "Source_Code": "while l >= 0 and r < len(s) and s[l] == s[r]:",
+            "Mutate_Code": "while l >= 0 and r < len(s) or or s[l] == s[r]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T5_LCPN_5-Longest-Palindromic-Substring.py",
+            "Source_Code": "while l >= 0 and r < len(s) and s[l] == s[r]:",
+            "Mutate_Code": "while l >= 0 and r < len(s) not not s[l] == s[r]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T5_LCPN_5-Longest-Palindromic-Substring.py",
+            "Source_Code": "while l >= 0 and r < len(s) and s[l] == s[r]:",
+            "Mutate_Code": " "
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T5_LCPN_5-Longest-Palindromic-Substring.py",
+            "Source_Code": "while l >= 0 and r < len(s) and s[l] == s[r]:",
+            "Mutate_Code": "for "
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T5_LCPN_5-Longest-Palindromic-Substring.py",
+            "Source_Code": "while l >= 0 and r < len(s) and s[l] == s[r]:",
+            "Mutate_Code": "while while:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T5_LCPN_5-Longest-Palindromic-Substring.py",
+            "Source_Code": "while l >= 0 and r < len(s) and s[l] == s[r]:",
+            "Mutate_Code": "while l >= 0 and r < len( ) and s[l] == s[r]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T5_LCPN_5-Longest-Palindromic-Substring.py",
+            "Source_Code": "while l >= 0 and r < len(s) and s[l] == s[r]:",
+            "Mutate_Code": "while l   0 and r < len(s) and s[l] == s[r]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T5_LCPN_5-Longest-Palindromic-Substring.py",
+            "Source_Code": "while l >= 0 and r < len(s) and s[l] == s[r]:",
+            "Mutate_Code": "while l >= 0 and r < len(s) and s[l] == s[r]: "
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T5_LCPN_5-Longest-Palindromic-Substring.py",
+            "Source_Code": "while l >= 0 and r < len(s) and s[l] == s[r]:",
+            "Mutate_Code": "while l >= 0 and r < len(s) and s[l] == s[r]: "
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T5_LCPN_5-Longest-Palindromic-Substring.py",
+            "Source_Code": "while l >= 0 and r < len(s) and s[l] == s[r]:",
+            "Mutate_Code": "while l == 0 and r < len(s) and s[l] == s[r]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T5_LCPN_5-Longest-Palindromic-Substring.py",
+            "Source_Code": "while l >= 0 and r < len(s) and s[l] == s[r]:",
+            "Mutate_Code": "while l != 0 and r < len(s) and s[l] == s[r]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T5_LCPN_5-Longest-Palindromic-Substring.py",
+            "Source_Code": "while l >= 0 and r < len(s) and s[l] == s[r]:",
+            "Mutate_Code": "while l > 0 and r < len(s) and s[l] == s[r]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T5_LCPN_5-Longest-Palindromic-Substring.py",
+            "Source_Code": "while l >= 0 and r < len(s) and s[l] == s[r]:",
+            "Mutate_Code": "while l < 0 and r < len(s) and s[l] == s[r]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T5_LCPN_5-Longest-Palindromic-Substring.py",
+            "Source_Code": "while l >= 0 and r < len(s) and s[l] == s[r]:",
+            "Mutate_Code": "while l <= 0 and r < len(s) and s[l] == s[r]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T5_LCPN_5-Longest-Palindromic-Substring.py",
+            "Source_Code": "while l >= 0 and r < len(s) and s[l] == s[r]:",
+            "Mutate_Code": "while l >= 0 and r < len(s) and s[l] == s[r]:=="
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T5_LCPN_5-Longest-Palindromic-Substring.py",
+            "Source_Code": "while l >= 0 and r < len(s) and s[l] == s[r]:",
+            "Mutate_Code": "while l >= 0 and r < len(s) and s[l] == s[r]:!="
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T5_LCPN_5-Longest-Palindromic-Substring.py",
+            "Source_Code": "while l >= 0 and r < len(s) and s[l] == s[r]:",
+            "Mutate_Code": "while l >= 0 and r < len(s) and s[l] == s[r]:>"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T5_LCPN_5-Longest-Palindromic-Substring.py",
+            "Source_Code": "while l >= 0 and r < len(s) and s[l] == s[r]:",
+            "Mutate_Code": "while l >= 0 and r < len(s) and s[l] == s[r]:<"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T5_LCPN_5-Longest-Palindromic-Substring.py",
+            "Source_Code": "while l >= 0 and r < len(s) and s[l] == s[r]:",
+            "Mutate_Code": "while l >= 0 and r < len(s) and s[l] == s[r]:>="
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T5_LCPN_5-Longest-Palindromic-Substring.py",
+            "Source_Code": "while l >= 0 and r < len(s) and s[l] == s[r]:",
+            "Mutate_Code": "while l >= 0 and r < len(s) and s[l] == s[r]:<="
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T5_LCPN_5-Longest-Palindromic-Substring.py",
+            "Source_Code": "while l >= 0 and r < len(s) and s[l] == s[r]:",
+            "Mutate_Code": "while l >= 0 and r < len(s) and s[l] == s[r]:=="
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T5_LCPN_5-Longest-Palindromic-Substring.py",
+            "Source_Code": "while l >= 0 and r < len(s) and s[l] == s[r]:",
+            "Mutate_Code": "while l >= 0 and r < len(s) and s[l] == s[r]:!="
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T5_LCPN_5-Longest-Palindromic-Substring.py",
+            "Source_Code": "while l >= 0 and r < len(s) and s[l] == s[r]:",
+            "Mutate_Code": "while l >= 0 and r < len(s) and s[l] == s[r]:>"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T5_LCPN_5-Longest-Palindromic-Substring.py",
+            "Source_Code": "while l >= 0 and r < len(s) and s[l] == s[r]:",
+            "Mutate_Code": "while l >= 0 and r < len(s) and s[l] == s[r]:<"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T5_LCPN_5-Longest-Palindromic-Substring.py",
+            "Source_Code": "while l >= 0 and r < len(s) and s[l] == s[r]:",
+            "Mutate_Code": "while l >= 0 and r < len(s) and s[l] == s[r]:>="
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T5_LCPN_5-Longest-Palindromic-Substring.py",
+            "Source_Code": "while l >= 0 and r < len(s) and s[l] == s[r]:",
+            "Mutate_Code": "while l >= 0 and r < len(s) and s[l] == s[r]:<="
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T5_LCPN_5-Longest-Palindromic-Substring.py",
+            "Source_Code": "while l >= 0 and r < len(s) and s[l] == s[r]:",
+            "Mutate_Code": "while l  ====  0 and r < len(s) and s[l] == s[r]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T5_LCPN_5-Longest-Palindromic-Substring.py",
+            "Source_Code": "while l >= 0 and r < len(s) and s[l] == s[r]:",
+            "Mutate_Code": "while l  !==  0 and r < len(s) and s[l] == s[r]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T5_LCPN_5-Longest-Palindromic-Substring.py",
+            "Source_Code": "while l >= 0 and r < len(s) and s[l] == s[r]:",
+            "Mutate_Code": "while l  >>  0 and r < len(s) and s[l] == s[r]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T5_LCPN_5-Longest-Palindromic-Substring.py",
+            "Source_Code": "while l >= 0 and r < len(s) and s[l] == s[r]:",
+            "Mutate_Code": "while l  <<  0 and r < len(s) and s[l] == s[r]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T5_LCPN_5-Longest-Palindromic-Substring.py",
+            "Source_Code": "while l >= 0 and r < len(s) and s[l] == s[r]:",
+            "Mutate_Code": "while l  >=>=  0 and r < len(s) and s[l] == s[r]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T5_LCPN_5-Longest-Palindromic-Substring.py",
+            "Source_Code": "while l >= 0 and r < len(s) and s[l] == s[r]:",
+            "Mutate_Code": "while l  <=<=  0 and r < len(s) and s[l] == s[r]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T5_LCPN_5-Longest-Palindromic-Substring.py",
+            "Source_Code": "while l >= 0 and r < len(s) and s[l] == s[r]:",
+            "Mutate_Code": "while l >= 0 and r < len(s) and s[l] == s[r]: ==== "
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T5_LCPN_5-Longest-Palindromic-Substring.py",
+            "Source_Code": "while l >= 0 and r < len(s) and s[l] == s[r]:",
+            "Mutate_Code": "while l >= 0 and r < len(s) and s[l] == s[r]: !== "
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T5_LCPN_5-Longest-Palindromic-Substring.py",
+            "Source_Code": "while l >= 0 and r < len(s) and s[l] == s[r]:",
+            "Mutate_Code": "while l >= 0 and r < len(s) and s[l] == s[r]: >> "
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T5_LCPN_5-Longest-Palindromic-Substring.py",
+            "Source_Code": "while l >= 0 and r < len(s) and s[l] == s[r]:",
+            "Mutate_Code": "while l >= 0 and r < len(s) and s[l] == s[r]: << "
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T5_LCPN_5-Longest-Palindromic-Substring.py",
+            "Source_Code": "while l >= 0 and r < len(s) and s[l] == s[r]:",
+            "Mutate_Code": "while l >= 0 and r < len(s) and s[l] == s[r]: >=>= "
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T5_LCPN_5-Longest-Palindromic-Substring.py",
+            "Source_Code": "while l >= 0 and r < len(s) and s[l] == s[r]:",
+            "Mutate_Code": "while l >= 0 and r < len(s) and s[l] == s[r]: <=<= "
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T5_LCPN_5-Longest-Palindromic-Substring.py",
+            "Source_Code": "while l >= 0 and r < len(s) and s[l] == s[r]:",
+            "Mutate_Code": "while l >= 0 and r < len(s) and s[l] == s[r]: ==== "
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T5_LCPN_5-Longest-Palindromic-Substring.py",
+            "Source_Code": "while l >= 0 and r < len(s) and s[l] == s[r]:",
+            "Mutate_Code": "while l >= 0 and r < len(s) and s[l] == s[r]: !== "
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T5_LCPN_5-Longest-Palindromic-Substring.py",
+            "Source_Code": "while l >= 0 and r < len(s) and s[l] == s[r]:",
+            "Mutate_Code": "while l >= 0 and r < len(s) and s[l] == s[r]: >> "
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T5_LCPN_5-Longest-Palindromic-Substring.py",
+            "Source_Code": "while l >= 0 and r < len(s) and s[l] == s[r]:",
+            "Mutate_Code": "while l >= 0 and r < len(s) and s[l] == s[r]: << "
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T5_LCPN_5-Longest-Palindromic-Substring.py",
+            "Source_Code": "while l >= 0 and r < len(s) and s[l] == s[r]:",
+            "Mutate_Code": "while l >= 0 and r < len(s) and s[l] == s[r]: >=>= "
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T5_LCPN_5-Longest-Palindromic-Substring.py",
+            "Source_Code": "while l >= 0 and r < len(s) and s[l] == s[r]:",
+            "Mutate_Code": "while l >= 0 and r < len(s) and s[l] == s[r]: <=<= "
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T5_LCPN_5-Longest-Palindromic-Substring.py",
+            "Source_Code": "while l >= 0 and r < len(s) and s[l] == s[r]:",
+            "Mutate_Code": "while l >= 0 r < len(s) and s[l] == s[r]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T5_LCPN_5-Longest-Palindromic-Substring.py",
+            "Source_Code": "while l >= 0 and r < len(s) and s[l] == s[r]:",
+            "Mutate_Code": "while l >= 0 and r < len(s) s[l] == s[r]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T5_LCPN_5-Longest-Palindromic-Substring.py",
+            "Source_Code": "while l >= 0 and r < len(s) and s[l] == s[r]:",
+            "Mutate_Code": "while l >= 0 or r < len(s) and s[l] == s[r]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T5_LCPN_5-Longest-Palindromic-Substring.py",
+            "Source_Code": "while l >= 0 and r < len(s) and s[l] == s[r]:",
+            "Mutate_Code": "while l >= 0 not r < len(s) and s[l] == s[r]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T5_LCPN_5-Longest-Palindromic-Substring.py",
+            "Source_Code": "while l >= 0 and r < len(s) and s[l] == s[r]:",
+            "Mutate_Code": "while l >= 0 and r < len(s) or s[l] == s[r]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T5_LCPN_5-Longest-Palindromic-Substring.py",
+            "Source_Code": "while l >= 0 and r < len(s) and s[l] == s[r]:",
+            "Mutate_Code": "while l >= 0 and r < len(s) not s[l] == s[r]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T5_LCPN_5-Longest-Palindromic-Substring.py",
+            "Source_Code": "while l >= 0 and r < len(s) and s[l] == s[r]:",
+            "Mutate_Code": "while l >= 0 and and r < len(s) and s[l] == s[r]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T5_LCPN_5-Longest-Palindromic-Substring.py",
+            "Source_Code": "while l >= 0 and r < len(s) and s[l] == s[r]:",
+            "Mutate_Code": "while l >= 0 or or r < len(s) and s[l] == s[r]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T5_LCPN_5-Longest-Palindromic-Substring.py",
+            "Source_Code": "while l >= 0 and r < len(s) and s[l] == s[r]:",
+            "Mutate_Code": "while l >= 0 not not r < len(s) and s[l] == s[r]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T5_LCPN_5-Longest-Palindromic-Substring.py",
+            "Source_Code": "while l >= 0 and r < len(s) and s[l] == s[r]:",
+            "Mutate_Code": "while l >= 0 and r < len(s) and and s[l] == s[r]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T5_LCPN_5-Longest-Palindromic-Substring.py",
+            "Source_Code": "while l >= 0 and r < len(s) and s[l] == s[r]:",
+            "Mutate_Code": "while l >= 0 and r < len(s) or or s[l] == s[r]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T5_LCPN_5-Longest-Palindromic-Substring.py",
+            "Source_Code": "while l >= 0 and r < len(s) and s[l] == s[r]:",
+            "Mutate_Code": "while l >= 0 and r < len(s) not not s[l] == s[r]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T5_LCPN_5-Longest-Palindromic-Substring.py",
+            "Source_Code": "while l >= 0 and r < len(s) and s[l] == s[r]:",
+            "Mutate_Code": " "
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T5_LCPN_5-Longest-Palindromic-Substring.py",
+            "Source_Code": "while l >= 0 and r < len(s) and s[l] == s[r]:",
+            "Mutate_Code": "for "
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T5_LCPN_5-Longest-Palindromic-Substring.py",
+            "Source_Code": "while l >= 0 and r < len(s) and s[l] == s[r]:",
+            "Mutate_Code": "while while:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T5_LCPN_5-Longest-Palindromic-Substring.py",
+            "Source_Code": "while l >= 0 and r < len(s) and s[l] == s[r]:",
+            "Mutate_Code": "while l >= 0 and r < len( ) and s[l] == s[r]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T5_LCPN_5-Longest-Palindromic-Substring.py",
+            "Source_Code": "while l >= 0 and r < len(s) and s[l] == s[r]:",
+            "Mutate_Code": "while l   0 and r < len(s) and s[l] == s[r]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T5_LCPN_5-Longest-Palindromic-Substring.py",
+            "Source_Code": "while l >= 0 and r < len(s) and s[l] == s[r]:",
+            "Mutate_Code": "while l >= 0 and r < len(s) and s[l] == s[r]: "
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T5_LCPN_5-Longest-Palindromic-Substring.py",
+            "Source_Code": "while l >= 0 and r < len(s) and s[l] == s[r]:",
+            "Mutate_Code": "while l >= 0 and r < len(s) and s[l] == s[r]: "
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T5_LCPN_5-Longest-Palindromic-Substring.py",
+            "Source_Code": "while l >= 0 and r < len(s) and s[l] == s[r]:",
+            "Mutate_Code": "while l == 0 and r < len(s) and s[l] == s[r]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T5_LCPN_5-Longest-Palindromic-Substring.py",
+            "Source_Code": "while l >= 0 and r < len(s) and s[l] == s[r]:",
+            "Mutate_Code": "while l != 0 and r < len(s) and s[l] == s[r]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T5_LCPN_5-Longest-Palindromic-Substring.py",
+            "Source_Code": "while l >= 0 and r < len(s) and s[l] == s[r]:",
+            "Mutate_Code": "while l > 0 and r < len(s) and s[l] == s[r]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T5_LCPN_5-Longest-Palindromic-Substring.py",
+            "Source_Code": "while l >= 0 and r < len(s) and s[l] == s[r]:",
+            "Mutate_Code": "while l < 0 and r < len(s) and s[l] == s[r]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T5_LCPN_5-Longest-Palindromic-Substring.py",
+            "Source_Code": "while l >= 0 and r < len(s) and s[l] == s[r]:",
+            "Mutate_Code": "while l <= 0 and r < len(s) and s[l] == s[r]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T5_LCPN_5-Longest-Palindromic-Substring.py",
+            "Source_Code": "while l >= 0 and r < len(s) and s[l] == s[r]:",
+            "Mutate_Code": "while l >= 0 and r < len(s) and s[l] == s[r]:=="
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T5_LCPN_5-Longest-Palindromic-Substring.py",
+            "Source_Code": "while l >= 0 and r < len(s) and s[l] == s[r]:",
+            "Mutate_Code": "while l >= 0 and r < len(s) and s[l] == s[r]:!="
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T5_LCPN_5-Longest-Palindromic-Substring.py",
+            "Source_Code": "while l >= 0 and r < len(s) and s[l] == s[r]:",
+            "Mutate_Code": "while l >= 0 and r < len(s) and s[l] == s[r]:>"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T5_LCPN_5-Longest-Palindromic-Substring.py",
+            "Source_Code": "while l >= 0 and r < len(s) and s[l] == s[r]:",
+            "Mutate_Code": "while l >= 0 and r < len(s) and s[l] == s[r]:<"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T5_LCPN_5-Longest-Palindromic-Substring.py",
+            "Source_Code": "while l >= 0 and r < len(s) and s[l] == s[r]:",
+            "Mutate_Code": "while l >= 0 and r < len(s) and s[l] == s[r]:>="
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T5_LCPN_5-Longest-Palindromic-Substring.py",
+            "Source_Code": "while l >= 0 and r < len(s) and s[l] == s[r]:",
+            "Mutate_Code": "while l >= 0 and r < len(s) and s[l] == s[r]:<="
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T5_LCPN_5-Longest-Palindromic-Substring.py",
+            "Source_Code": "while l >= 0 and r < len(s) and s[l] == s[r]:",
+            "Mutate_Code": "while l >= 0 and r < len(s) and s[l] == s[r]:=="
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T5_LCPN_5-Longest-Palindromic-Substring.py",
+            "Source_Code": "while l >= 0 and r < len(s) and s[l] == s[r]:",
+            "Mutate_Code": "while l >= 0 and r < len(s) and s[l] == s[r]:!="
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T5_LCPN_5-Longest-Palindromic-Substring.py",
+            "Source_Code": "while l >= 0 and r < len(s) and s[l] == s[r]:",
+            "Mutate_Code": "while l >= 0 and r < len(s) and s[l] == s[r]:>"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T5_LCPN_5-Longest-Palindromic-Substring.py",
+            "Source_Code": "while l >= 0 and r < len(s) and s[l] == s[r]:",
+            "Mutate_Code": "while l >= 0 and r < len(s) and s[l] == s[r]:<"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T5_LCPN_5-Longest-Palindromic-Substring.py",
+            "Source_Code": "while l >= 0 and r < len(s) and s[l] == s[r]:",
+            "Mutate_Code": "while l >= 0 and r < len(s) and s[l] == s[r]:>="
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T5_LCPN_5-Longest-Palindromic-Substring.py",
+            "Source_Code": "while l >= 0 and r < len(s) and s[l] == s[r]:",
+            "Mutate_Code": "while l >= 0 and r < len(s) and s[l] == s[r]:<="
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T5_LCPN_5-Longest-Palindromic-Substring.py",
+            "Source_Code": "while l >= 0 and r < len(s) and s[l] == s[r]:",
+            "Mutate_Code": "while l  ====  0 and r < len(s) and s[l] == s[r]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T5_LCPN_5-Longest-Palindromic-Substring.py",
+            "Source_Code": "while l >= 0 and r < len(s) and s[l] == s[r]:",
+            "Mutate_Code": "while l  !==  0 and r < len(s) and s[l] == s[r]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T5_LCPN_5-Longest-Palindromic-Substring.py",
+            "Source_Code": "while l >= 0 and r < len(s) and s[l] == s[r]:",
+            "Mutate_Code": "while l  >>  0 and r < len(s) and s[l] == s[r]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T5_LCPN_5-Longest-Palindromic-Substring.py",
+            "Source_Code": "while l >= 0 and r < len(s) and s[l] == s[r]:",
+            "Mutate_Code": "while l  <<  0 and r < len(s) and s[l] == s[r]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T5_LCPN_5-Longest-Palindromic-Substring.py",
+            "Source_Code": "while l >= 0 and r < len(s) and s[l] == s[r]:",
+            "Mutate_Code": "while l  >=>=  0 and r < len(s) and s[l] == s[r]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T5_LCPN_5-Longest-Palindromic-Substring.py",
+            "Source_Code": "while l >= 0 and r < len(s) and s[l] == s[r]:",
+            "Mutate_Code": "while l  <=<=  0 and r < len(s) and s[l] == s[r]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T5_LCPN_5-Longest-Palindromic-Substring.py",
+            "Source_Code": "while l >= 0 and r < len(s) and s[l] == s[r]:",
+            "Mutate_Code": "while l >= 0 and r < len(s) and s[l] == s[r]: ==== "
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T5_LCPN_5-Longest-Palindromic-Substring.py",
+            "Source_Code": "while l >= 0 and r < len(s) and s[l] == s[r]:",
+            "Mutate_Code": "while l >= 0 and r < len(s) and s[l] == s[r]: !== "
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T5_LCPN_5-Longest-Palindromic-Substring.py",
+            "Source_Code": "while l >= 0 and r < len(s) and s[l] == s[r]:",
+            "Mutate_Code": "while l >= 0 and r < len(s) and s[l] == s[r]: >> "
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T5_LCPN_5-Longest-Palindromic-Substring.py",
+            "Source_Code": "while l >= 0 and r < len(s) and s[l] == s[r]:",
+            "Mutate_Code": "while l >= 0 and r < len(s) and s[l] == s[r]: << "
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T5_LCPN_5-Longest-Palindromic-Substring.py",
+            "Source_Code": "while l >= 0 and r < len(s) and s[l] == s[r]:",
+            "Mutate_Code": "while l >= 0 and r < len(s) and s[l] == s[r]: >=>= "
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T5_LCPN_5-Longest-Palindromic-Substring.py",
+            "Source_Code": "while l >= 0 and r < len(s) and s[l] == s[r]:",
+            "Mutate_Code": "while l >= 0 and r < len(s) and s[l] == s[r]: <=<= "
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T5_LCPN_5-Longest-Palindromic-Substring.py",
+            "Source_Code": "while l >= 0 and r < len(s) and s[l] == s[r]:",
+            "Mutate_Code": "while l >= 0 and r < len(s) and s[l] == s[r]: ==== "
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T5_LCPN_5-Longest-Palindromic-Substring.py",
+            "Source_Code": "while l >= 0 and r < len(s) and s[l] == s[r]:",
+            "Mutate_Code": "while l >= 0 and r < len(s) and s[l] == s[r]: !== "
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T5_LCPN_5-Longest-Palindromic-Substring.py",
+            "Source_Code": "while l >= 0 and r < len(s) and s[l] == s[r]:",
+            "Mutate_Code": "while l >= 0 and r < len(s) and s[l] == s[r]: >> "
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T5_LCPN_5-Longest-Palindromic-Substring.py",
+            "Source_Code": "while l >= 0 and r < len(s) and s[l] == s[r]:",
+            "Mutate_Code": "while l >= 0 and r < len(s) and s[l] == s[r]: << "
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T5_LCPN_5-Longest-Palindromic-Substring.py",
+            "Source_Code": "while l >= 0 and r < len(s) and s[l] == s[r]:",
+            "Mutate_Code": "while l >= 0 and r < len(s) and s[l] == s[r]: >=>= "
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T5_LCPN_5-Longest-Palindromic-Substring.py",
+            "Source_Code": "while l >= 0 and r < len(s) and s[l] == s[r]:",
+            "Mutate_Code": "while l >= 0 and r < len(s) and s[l] == s[r]: <=<= "
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T5_LCPN_5-Longest-Palindromic-Substring.py",
+            "Source_Code": "while l >= 0 and r < len(s) and s[l] == s[r]:",
+            "Mutate_Code": "while l >= 0 r < len(s) and s[l] == s[r]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T5_LCPN_5-Longest-Palindromic-Substring.py",
+            "Source_Code": "while l >= 0 and r < len(s) and s[l] == s[r]:",
+            "Mutate_Code": "while l >= 0 and r < len(s) s[l] == s[r]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T5_LCPN_5-Longest-Palindromic-Substring.py",
+            "Source_Code": "while l >= 0 and r < len(s) and s[l] == s[r]:",
+            "Mutate_Code": "while l >= 0 or r < len(s) and s[l] == s[r]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T5_LCPN_5-Longest-Palindromic-Substring.py",
+            "Source_Code": "while l >= 0 and r < len(s) and s[l] == s[r]:",
+            "Mutate_Code": "while l >= 0 not r < len(s) and s[l] == s[r]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T5_LCPN_5-Longest-Palindromic-Substring.py",
+            "Source_Code": "while l >= 0 and r < len(s) and s[l] == s[r]:",
+            "Mutate_Code": "while l >= 0 and r < len(s) or s[l] == s[r]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T5_LCPN_5-Longest-Palindromic-Substring.py",
+            "Source_Code": "while l >= 0 and r < len(s) and s[l] == s[r]:",
+            "Mutate_Code": "while l >= 0 and r < len(s) not s[l] == s[r]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T5_LCPN_5-Longest-Palindromic-Substring.py",
+            "Source_Code": "while l >= 0 and r < len(s) and s[l] == s[r]:",
+            "Mutate_Code": "while l >= 0 and and r < len(s) and s[l] == s[r]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T5_LCPN_5-Longest-Palindromic-Substring.py",
+            "Source_Code": "while l >= 0 and r < len(s) and s[l] == s[r]:",
+            "Mutate_Code": "while l >= 0 or or r < len(s) and s[l] == s[r]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T5_LCPN_5-Longest-Palindromic-Substring.py",
+            "Source_Code": "while l >= 0 and r < len(s) and s[l] == s[r]:",
+            "Mutate_Code": "while l >= 0 not not r < len(s) and s[l] == s[r]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T5_LCPN_5-Longest-Palindromic-Substring.py",
+            "Source_Code": "while l >= 0 and r < len(s) and s[l] == s[r]:",
+            "Mutate_Code": "while l >= 0 and r < len(s) and and s[l] == s[r]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T5_LCPN_5-Longest-Palindromic-Substring.py",
+            "Source_Code": "while l >= 0 and r < len(s) and s[l] == s[r]:",
+            "Mutate_Code": "while l >= 0 and r < len(s) or or s[l] == s[r]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T5_LCPN_5-Longest-Palindromic-Substring.py",
+            "Source_Code": "while l >= 0 and r < len(s) and s[l] == s[r]:",
+            "Mutate_Code": "while l >= 0 and r < len(s) not not s[l] == s[r]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T5_LCPN_5-Longest-Palindromic-Substring.py",
+            "Source_Code": "while l >= 0 and r < len(s) and s[l] == s[r]:",
+            "Mutate_Code": " "
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T5_LCPN_5-Longest-Palindromic-Substring.py",
+            "Source_Code": "while l >= 0 and r < len(s) and s[l] == s[r]:",
+            "Mutate_Code": "for "
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T5_LCPN_5-Longest-Palindromic-Substring.py",
+            "Source_Code": "while l >= 0 and r < len(s) and s[l] == s[r]:",
+            "Mutate_Code": "while while:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T5_LCPN_5-Longest-Palindromic-Substring.py",
+            "Source_Code": "while l >= 0 and r < len(s) and s[l] == s[r]:",
+            "Mutate_Code": "while l >= 0 and r < len( ) and s[l] == s[r]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T5_LCPN_5-Longest-Palindromic-Substring.py",
+            "Source_Code": "if (r - l + 1) > resLen:",
+            "Mutate_Code": "if (r - l 1) > resLen:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T5_LCPN_5-Longest-Palindromic-Substring.py",
+            "Source_Code": "if (r - l + 1) > resLen:",
+            "Mutate_Code": "if (r l + 1) > resLen:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T5_LCPN_5-Longest-Palindromic-Substring.py",
+            "Source_Code": "if (r - l + 1) > resLen:",
+            "Mutate_Code": "if (r - l - 1) > resLen:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T5_LCPN_5-Longest-Palindromic-Substring.py",
+            "Source_Code": "if (r - l + 1) > resLen:",
+            "Mutate_Code": "if (r - l * 1) > resLen:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T5_LCPN_5-Longest-Palindromic-Substring.py",
+            "Source_Code": "if (r - l + 1) > resLen:",
+            "Mutate_Code": "if (r - l / 1) > resLen:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T5_LCPN_5-Longest-Palindromic-Substring.py",
+            "Source_Code": "if (r - l + 1) > resLen:",
+            "Mutate_Code": "if (r - l % 1) > resLen:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T5_LCPN_5-Longest-Palindromic-Substring.py",
+            "Source_Code": "if (r - l + 1) > resLen:",
+            "Mutate_Code": "if (r - l ** 1) > resLen:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T5_LCPN_5-Longest-Palindromic-Substring.py",
+            "Source_Code": "if (r - l + 1) > resLen:",
+            "Mutate_Code": "if (r - l // 1) > resLen:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T5_LCPN_5-Longest-Palindromic-Substring.py",
+            "Source_Code": "if (r - l + 1) > resLen:",
+            "Mutate_Code": "if (r + l + 1) > resLen:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T5_LCPN_5-Longest-Palindromic-Substring.py",
+            "Source_Code": "if (r - l + 1) > resLen:",
+            "Mutate_Code": "if (r * l + 1) > resLen:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T5_LCPN_5-Longest-Palindromic-Substring.py",
+            "Source_Code": "if (r - l + 1) > resLen:",
+            "Mutate_Code": "if (r / l + 1) > resLen:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T5_LCPN_5-Longest-Palindromic-Substring.py",
+            "Source_Code": "if (r - l + 1) > resLen:",
+            "Mutate_Code": "if (r % l + 1) > resLen:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T5_LCPN_5-Longest-Palindromic-Substring.py",
+            "Source_Code": "if (r - l + 1) > resLen:",
+            "Mutate_Code": "if (r ** l + 1) > resLen:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T5_LCPN_5-Longest-Palindromic-Substring.py",
+            "Source_Code": "if (r - l + 1) > resLen:",
+            "Mutate_Code": "if (r // l + 1) > resLen:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T5_LCPN_5-Longest-Palindromic-Substring.py",
+            "Source_Code": "if (r - l + 1) > resLen:",
+            "Mutate_Code": "if (r - l ++ 1) > resLen:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T5_LCPN_5-Longest-Palindromic-Substring.py",
+            "Source_Code": "if (r - l + 1) > resLen:",
+            "Mutate_Code": "if (r - l -- 1) > resLen:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T5_LCPN_5-Longest-Palindromic-Substring.py",
+            "Source_Code": "if (r - l + 1) > resLen:",
+            "Mutate_Code": "if (r - l ** 1) > resLen:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T5_LCPN_5-Longest-Palindromic-Substring.py",
+            "Source_Code": "if (r - l + 1) > resLen:",
+            "Mutate_Code": "if (r - l // 1) > resLen:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T5_LCPN_5-Longest-Palindromic-Substring.py",
+            "Source_Code": "if (r - l + 1) > resLen:",
+            "Mutate_Code": "if (r - l %% 1) > resLen:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T5_LCPN_5-Longest-Palindromic-Substring.py",
+            "Source_Code": "if (r - l + 1) > resLen:",
+            "Mutate_Code": "if (r - l **** 1) > resLen:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T5_LCPN_5-Longest-Palindromic-Substring.py",
+            "Source_Code": "if (r - l + 1) > resLen:",
+            "Mutate_Code": "if (r - l //// 1) > resLen:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T5_LCPN_5-Longest-Palindromic-Substring.py",
+            "Source_Code": "if (r - l + 1) > resLen:",
+            "Mutate_Code": "if (r ++ l + 1) > resLen:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T5_LCPN_5-Longest-Palindromic-Substring.py",
+            "Source_Code": "if (r - l + 1) > resLen:",
+            "Mutate_Code": "if (r -- l + 1) > resLen:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T5_LCPN_5-Longest-Palindromic-Substring.py",
+            "Source_Code": "if (r - l + 1) > resLen:",
+            "Mutate_Code": "if (r ** l + 1) > resLen:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T5_LCPN_5-Longest-Palindromic-Substring.py",
+            "Source_Code": "if (r - l + 1) > resLen:",
+            "Mutate_Code": "if (r // l + 1) > resLen:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T5_LCPN_5-Longest-Palindromic-Substring.py",
+            "Source_Code": "if (r - l + 1) > resLen:",
+            "Mutate_Code": "if (r %% l + 1) > resLen:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T5_LCPN_5-Longest-Palindromic-Substring.py",
+            "Source_Code": "if (r - l + 1) > resLen:",
+            "Mutate_Code": "if (r **** l + 1) > resLen:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T5_LCPN_5-Longest-Palindromic-Substring.py",
+            "Source_Code": "if (r - l + 1) > resLen:",
+            "Mutate_Code": "if (r //// l + 1) > resLen:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T5_LCPN_5-Longest-Palindromic-Substring.py",
+            "Source_Code": "if (r - l + 1) > resLen:",
+            "Mutate_Code": "if (r - l + 1)   resLen:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T5_LCPN_5-Longest-Palindromic-Substring.py",
+            "Source_Code": "if (r - l + 1) > resLen:",
+            "Mutate_Code": "if (r - l + 1) == resLen:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T5_LCPN_5-Longest-Palindromic-Substring.py",
+            "Source_Code": "if (r - l + 1) > resLen:",
+            "Mutate_Code": "if (r - l + 1) != resLen:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T5_LCPN_5-Longest-Palindromic-Substring.py",
+            "Source_Code": "if (r - l + 1) > resLen:",
+            "Mutate_Code": "if (r - l + 1) < resLen:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T5_LCPN_5-Longest-Palindromic-Substring.py",
+            "Source_Code": "if (r - l + 1) > resLen:",
+            "Mutate_Code": "if (r - l + 1) >= resLen:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T5_LCPN_5-Longest-Palindromic-Substring.py",
+            "Source_Code": "if (r - l + 1) > resLen:",
+            "Mutate_Code": "if (r - l + 1) <= resLen:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T5_LCPN_5-Longest-Palindromic-Substring.py",
+            "Source_Code": "if (r - l + 1) > resLen:",
+            "Mutate_Code": "if (r - l + 1)  ====  resLen:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T5_LCPN_5-Longest-Palindromic-Substring.py",
+            "Source_Code": "if (r - l + 1) > resLen:",
+            "Mutate_Code": "if (r - l + 1)  !==  resLen:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T5_LCPN_5-Longest-Palindromic-Substring.py",
+            "Source_Code": "if (r - l + 1) > resLen:",
+            "Mutate_Code": "if (r - l + 1)  >>  resLen:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T5_LCPN_5-Longest-Palindromic-Substring.py",
+            "Source_Code": "if (r - l + 1) > resLen:",
+            "Mutate_Code": "if (r - l + 1)  <<  resLen:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T5_LCPN_5-Longest-Palindromic-Substring.py",
+            "Source_Code": "if (r - l + 1) > resLen:",
+            "Mutate_Code": "if (r - l + 1)  >=>=  resLen:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T5_LCPN_5-Longest-Palindromic-Substring.py",
+            "Source_Code": "if (r - l + 1) > resLen:",
+            "Mutate_Code": "if (r - l + 1)  <=<=  resLen:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T5_LCPN_5-Longest-Palindromic-Substring.py",
+            "Source_Code": "if (r - l + 1) > resLen:",
+            "Mutate_Code": " "
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T5_LCPN_5-Longest-Palindromic-Substring.py",
+            "Source_Code": "if (r - l + 1) > resLen:",
+            "Mutate_Code": "elif:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T5_LCPN_5-Longest-Palindromic-Substring.py",
+            "Source_Code": "if (r - l + 1) > resLen:",
+            "Mutate_Code": "else:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T5_LCPN_5-Longest-Palindromic-Substring.py",
+            "Source_Code": "if (r - l + 1) > resLen:",
+            "Mutate_Code": "if if"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T5_LCPN_5-Longest-Palindromic-Substring.py",
+            "Source_Code": "while l >= 0 and r < len(s) and s[l] == s[r]:",
+            "Mutate_Code": "while l   0 and r < len(s) and s[l] == s[r]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T5_LCPN_5-Longest-Palindromic-Substring.py",
+            "Source_Code": "while l >= 0 and r < len(s) and s[l] == s[r]:",
+            "Mutate_Code": "while l >= 0 and r < len(s) and s[l] == s[r]: "
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T5_LCPN_5-Longest-Palindromic-Substring.py",
+            "Source_Code": "while l >= 0 and r < len(s) and s[l] == s[r]:",
+            "Mutate_Code": "while l >= 0 and r < len(s) and s[l] == s[r]: "
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T5_LCPN_5-Longest-Palindromic-Substring.py",
+            "Source_Code": "while l >= 0 and r < len(s) and s[l] == s[r]:",
+            "Mutate_Code": "while l == 0 and r < len(s) and s[l] == s[r]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T5_LCPN_5-Longest-Palindromic-Substring.py",
+            "Source_Code": "while l >= 0 and r < len(s) and s[l] == s[r]:",
+            "Mutate_Code": "while l != 0 and r < len(s) and s[l] == s[r]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T5_LCPN_5-Longest-Palindromic-Substring.py",
+            "Source_Code": "while l >= 0 and r < len(s) and s[l] == s[r]:",
+            "Mutate_Code": "while l > 0 and r < len(s) and s[l] == s[r]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T5_LCPN_5-Longest-Palindromic-Substring.py",
+            "Source_Code": "while l >= 0 and r < len(s) and s[l] == s[r]:",
+            "Mutate_Code": "while l < 0 and r < len(s) and s[l] == s[r]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T5_LCPN_5-Longest-Palindromic-Substring.py",
+            "Source_Code": "while l >= 0 and r < len(s) and s[l] == s[r]:",
+            "Mutate_Code": "while l <= 0 and r < len(s) and s[l] == s[r]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T5_LCPN_5-Longest-Palindromic-Substring.py",
+            "Source_Code": "while l >= 0 and r < len(s) and s[l] == s[r]:",
+            "Mutate_Code": "while l >= 0 and r < len(s) and s[l] == s[r]:=="
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T5_LCPN_5-Longest-Palindromic-Substring.py",
+            "Source_Code": "while l >= 0 and r < len(s) and s[l] == s[r]:",
+            "Mutate_Code": "while l >= 0 and r < len(s) and s[l] == s[r]:!="
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T5_LCPN_5-Longest-Palindromic-Substring.py",
+            "Source_Code": "while l >= 0 and r < len(s) and s[l] == s[r]:",
+            "Mutate_Code": "while l >= 0 and r < len(s) and s[l] == s[r]:>"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T5_LCPN_5-Longest-Palindromic-Substring.py",
+            "Source_Code": "while l >= 0 and r < len(s) and s[l] == s[r]:",
+            "Mutate_Code": "while l >= 0 and r < len(s) and s[l] == s[r]:<"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T5_LCPN_5-Longest-Palindromic-Substring.py",
+            "Source_Code": "while l >= 0 and r < len(s) and s[l] == s[r]:",
+            "Mutate_Code": "while l >= 0 and r < len(s) and s[l] == s[r]:>="
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T5_LCPN_5-Longest-Palindromic-Substring.py",
+            "Source_Code": "while l >= 0 and r < len(s) and s[l] == s[r]:",
+            "Mutate_Code": "while l >= 0 and r < len(s) and s[l] == s[r]:<="
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T5_LCPN_5-Longest-Palindromic-Substring.py",
+            "Source_Code": "while l >= 0 and r < len(s) and s[l] == s[r]:",
+            "Mutate_Code": "while l >= 0 and r < len(s) and s[l] == s[r]:=="
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T5_LCPN_5-Longest-Palindromic-Substring.py",
+            "Source_Code": "while l >= 0 and r < len(s) and s[l] == s[r]:",
+            "Mutate_Code": "while l >= 0 and r < len(s) and s[l] == s[r]:!="
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T5_LCPN_5-Longest-Palindromic-Substring.py",
+            "Source_Code": "while l >= 0 and r < len(s) and s[l] == s[r]:",
+            "Mutate_Code": "while l >= 0 and r < len(s) and s[l] == s[r]:>"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T5_LCPN_5-Longest-Palindromic-Substring.py",
+            "Source_Code": "while l >= 0 and r < len(s) and s[l] == s[r]:",
+            "Mutate_Code": "while l >= 0 and r < len(s) and s[l] == s[r]:<"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T5_LCPN_5-Longest-Palindromic-Substring.py",
+            "Source_Code": "while l >= 0 and r < len(s) and s[l] == s[r]:",
+            "Mutate_Code": "while l >= 0 and r < len(s) and s[l] == s[r]:>="
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T5_LCPN_5-Longest-Palindromic-Substring.py",
+            "Source_Code": "while l >= 0 and r < len(s) and s[l] == s[r]:",
+            "Mutate_Code": "while l >= 0 and r < len(s) and s[l] == s[r]:<="
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T5_LCPN_5-Longest-Palindromic-Substring.py",
+            "Source_Code": "while l >= 0 and r < len(s) and s[l] == s[r]:",
+            "Mutate_Code": "while l  ====  0 and r < len(s) and s[l] == s[r]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T5_LCPN_5-Longest-Palindromic-Substring.py",
+            "Source_Code": "while l >= 0 and r < len(s) and s[l] == s[r]:",
+            "Mutate_Code": "while l  !==  0 and r < len(s) and s[l] == s[r]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T5_LCPN_5-Longest-Palindromic-Substring.py",
+            "Source_Code": "while l >= 0 and r < len(s) and s[l] == s[r]:",
+            "Mutate_Code": "while l  >>  0 and r < len(s) and s[l] == s[r]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T5_LCPN_5-Longest-Palindromic-Substring.py",
+            "Source_Code": "while l >= 0 and r < len(s) and s[l] == s[r]:",
+            "Mutate_Code": "while l  <<  0 and r < len(s) and s[l] == s[r]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T5_LCPN_5-Longest-Palindromic-Substring.py",
+            "Source_Code": "while l >= 0 and r < len(s) and s[l] == s[r]:",
+            "Mutate_Code": "while l  >=>=  0 and r < len(s) and s[l] == s[r]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T5_LCPN_5-Longest-Palindromic-Substring.py",
+            "Source_Code": "while l >= 0 and r < len(s) and s[l] == s[r]:",
+            "Mutate_Code": "while l  <=<=  0 and r < len(s) and s[l] == s[r]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T5_LCPN_5-Longest-Palindromic-Substring.py",
+            "Source_Code": "while l >= 0 and r < len(s) and s[l] == s[r]:",
+            "Mutate_Code": "while l >= 0 and r < len(s) and s[l] == s[r]: ==== "
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T5_LCPN_5-Longest-Palindromic-Substring.py",
+            "Source_Code": "while l >= 0 and r < len(s) and s[l] == s[r]:",
+            "Mutate_Code": "while l >= 0 and r < len(s) and s[l] == s[r]: !== "
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T5_LCPN_5-Longest-Palindromic-Substring.py",
+            "Source_Code": "while l >= 0 and r < len(s) and s[l] == s[r]:",
+            "Mutate_Code": "while l >= 0 and r < len(s) and s[l] == s[r]: >> "
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T5_LCPN_5-Longest-Palindromic-Substring.py",
+            "Source_Code": "while l >= 0 and r < len(s) and s[l] == s[r]:",
+            "Mutate_Code": "while l >= 0 and r < len(s) and s[l] == s[r]: << "
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T5_LCPN_5-Longest-Palindromic-Substring.py",
+            "Source_Code": "while l >= 0 and r < len(s) and s[l] == s[r]:",
+            "Mutate_Code": "while l >= 0 and r < len(s) and s[l] == s[r]: >=>= "
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T5_LCPN_5-Longest-Palindromic-Substring.py",
+            "Source_Code": "while l >= 0 and r < len(s) and s[l] == s[r]:",
+            "Mutate_Code": "while l >= 0 and r < len(s) and s[l] == s[r]: <=<= "
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T5_LCPN_5-Longest-Palindromic-Substring.py",
+            "Source_Code": "while l >= 0 and r < len(s) and s[l] == s[r]:",
+            "Mutate_Code": "while l >= 0 and r < len(s) and s[l] == s[r]: ==== "
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T5_LCPN_5-Longest-Palindromic-Substring.py",
+            "Source_Code": "while l >= 0 and r < len(s) and s[l] == s[r]:",
+            "Mutate_Code": "while l >= 0 and r < len(s) and s[l] == s[r]: !== "
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T5_LCPN_5-Longest-Palindromic-Substring.py",
+            "Source_Code": "while l >= 0 and r < len(s) and s[l] == s[r]:",
+            "Mutate_Code": "while l >= 0 and r < len(s) and s[l] == s[r]: >> "
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T5_LCPN_5-Longest-Palindromic-Substring.py",
+            "Source_Code": "while l >= 0 and r < len(s) and s[l] == s[r]:",
+            "Mutate_Code": "while l >= 0 and r < len(s) and s[l] == s[r]: << "
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T5_LCPN_5-Longest-Palindromic-Substring.py",
+            "Source_Code": "while l >= 0 and r < len(s) and s[l] == s[r]:",
+            "Mutate_Code": "while l >= 0 and r < len(s) and s[l] == s[r]: >=>= "
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T5_LCPN_5-Longest-Palindromic-Substring.py",
+            "Source_Code": "while l >= 0 and r < len(s) and s[l] == s[r]:",
+            "Mutate_Code": "while l >= 0 and r < len(s) and s[l] == s[r]: <=<= "
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T5_LCPN_5-Longest-Palindromic-Substring.py",
+            "Source_Code": "while l >= 0 and r < len(s) and s[l] == s[r]:",
+            "Mutate_Code": "while l >= 0 r < len(s) and s[l] == s[r]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T5_LCPN_5-Longest-Palindromic-Substring.py",
+            "Source_Code": "while l >= 0 and r < len(s) and s[l] == s[r]:",
+            "Mutate_Code": "while l >= 0 and r < len(s) s[l] == s[r]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T5_LCPN_5-Longest-Palindromic-Substring.py",
+            "Source_Code": "while l >= 0 and r < len(s) and s[l] == s[r]:",
+            "Mutate_Code": "while l >= 0 or r < len(s) and s[l] == s[r]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T5_LCPN_5-Longest-Palindromic-Substring.py",
+            "Source_Code": "while l >= 0 and r < len(s) and s[l] == s[r]:",
+            "Mutate_Code": "while l >= 0 not r < len(s) and s[l] == s[r]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T5_LCPN_5-Longest-Palindromic-Substring.py",
+            "Source_Code": "while l >= 0 and r < len(s) and s[l] == s[r]:",
+            "Mutate_Code": "while l >= 0 and r < len(s) or s[l] == s[r]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T5_LCPN_5-Longest-Palindromic-Substring.py",
+            "Source_Code": "while l >= 0 and r < len(s) and s[l] == s[r]:",
+            "Mutate_Code": "while l >= 0 and r < len(s) not s[l] == s[r]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T5_LCPN_5-Longest-Palindromic-Substring.py",
+            "Source_Code": "while l >= 0 and r < len(s) and s[l] == s[r]:",
+            "Mutate_Code": "while l >= 0 and and r < len(s) and s[l] == s[r]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T5_LCPN_5-Longest-Palindromic-Substring.py",
+            "Source_Code": "while l >= 0 and r < len(s) and s[l] == s[r]:",
+            "Mutate_Code": "while l >= 0 or or r < len(s) and s[l] == s[r]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T5_LCPN_5-Longest-Palindromic-Substring.py",
+            "Source_Code": "while l >= 0 and r < len(s) and s[l] == s[r]:",
+            "Mutate_Code": "while l >= 0 not not r < len(s) and s[l] == s[r]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T5_LCPN_5-Longest-Palindromic-Substring.py",
+            "Source_Code": "while l >= 0 and r < len(s) and s[l] == s[r]:",
+            "Mutate_Code": "while l >= 0 and r < len(s) and and s[l] == s[r]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T5_LCPN_5-Longest-Palindromic-Substring.py",
+            "Source_Code": "while l >= 0 and r < len(s) and s[l] == s[r]:",
+            "Mutate_Code": "while l >= 0 and r < len(s) or or s[l] == s[r]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T5_LCPN_5-Longest-Palindromic-Substring.py",
+            "Source_Code": "while l >= 0 and r < len(s) and s[l] == s[r]:",
+            "Mutate_Code": "while l >= 0 and r < len(s) not not s[l] == s[r]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T5_LCPN_5-Longest-Palindromic-Substring.py",
+            "Source_Code": "while l >= 0 and r < len(s) and s[l] == s[r]:",
+            "Mutate_Code": " "
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T5_LCPN_5-Longest-Palindromic-Substring.py",
+            "Source_Code": "while l >= 0 and r < len(s) and s[l] == s[r]:",
+            "Mutate_Code": "for "
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T5_LCPN_5-Longest-Palindromic-Substring.py",
+            "Source_Code": "while l >= 0 and r < len(s) and s[l] == s[r]:",
+            "Mutate_Code": "while while:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T5_LCPN_5-Longest-Palindromic-Substring.py",
+            "Source_Code": "while l >= 0 and r < len(s) and s[l] == s[r]:",
+            "Mutate_Code": "while l >= 0 and r < len( ) and s[l] == s[r]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T5_LCPN_5-Longest-Palindromic-Substring.py",
+            "Source_Code": "while l >= 0 and r < len(s) and s[l] == s[r]:",
+            "Mutate_Code": "while l   0 and r < len(s) and s[l] == s[r]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T5_LCPN_5-Longest-Palindromic-Substring.py",
+            "Source_Code": "while l >= 0 and r < len(s) and s[l] == s[r]:",
+            "Mutate_Code": "while l >= 0 and r < len(s) and s[l] == s[r]: "
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T5_LCPN_5-Longest-Palindromic-Substring.py",
+            "Source_Code": "while l >= 0 and r < len(s) and s[l] == s[r]:",
+            "Mutate_Code": "while l >= 0 and r < len(s) and s[l] == s[r]: "
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T5_LCPN_5-Longest-Palindromic-Substring.py",
+            "Source_Code": "while l >= 0 and r < len(s) and s[l] == s[r]:",
+            "Mutate_Code": "while l == 0 and r < len(s) and s[l] == s[r]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T5_LCPN_5-Longest-Palindromic-Substring.py",
+            "Source_Code": "while l >= 0 and r < len(s) and s[l] == s[r]:",
+            "Mutate_Code": "while l != 0 and r < len(s) and s[l] == s[r]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T5_LCPN_5-Longest-Palindromic-Substring.py",
+            "Source_Code": "while l >= 0 and r < len(s) and s[l] == s[r]:",
+            "Mutate_Code": "while l > 0 and r < len(s) and s[l] == s[r]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T5_LCPN_5-Longest-Palindromic-Substring.py",
+            "Source_Code": "while l >= 0 and r < len(s) and s[l] == s[r]:",
+            "Mutate_Code": "while l < 0 and r < len(s) and s[l] == s[r]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T5_LCPN_5-Longest-Palindromic-Substring.py",
+            "Source_Code": "while l >= 0 and r < len(s) and s[l] == s[r]:",
+            "Mutate_Code": "while l <= 0 and r < len(s) and s[l] == s[r]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T5_LCPN_5-Longest-Palindromic-Substring.py",
+            "Source_Code": "while l >= 0 and r < len(s) and s[l] == s[r]:",
+            "Mutate_Code": "while l >= 0 and r < len(s) and s[l] == s[r]:=="
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T5_LCPN_5-Longest-Palindromic-Substring.py",
+            "Source_Code": "while l >= 0 and r < len(s) and s[l] == s[r]:",
+            "Mutate_Code": "while l >= 0 and r < len(s) and s[l] == s[r]:!="
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T5_LCPN_5-Longest-Palindromic-Substring.py",
+            "Source_Code": "while l >= 0 and r < len(s) and s[l] == s[r]:",
+            "Mutate_Code": "while l >= 0 and r < len(s) and s[l] == s[r]:>"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T5_LCPN_5-Longest-Palindromic-Substring.py",
+            "Source_Code": "while l >= 0 and r < len(s) and s[l] == s[r]:",
+            "Mutate_Code": "while l >= 0 and r < len(s) and s[l] == s[r]:<"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T5_LCPN_5-Longest-Palindromic-Substring.py",
+            "Source_Code": "while l >= 0 and r < len(s) and s[l] == s[r]:",
+            "Mutate_Code": "while l >= 0 and r < len(s) and s[l] == s[r]:>="
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T5_LCPN_5-Longest-Palindromic-Substring.py",
+            "Source_Code": "while l >= 0 and r < len(s) and s[l] == s[r]:",
+            "Mutate_Code": "while l >= 0 and r < len(s) and s[l] == s[r]:<="
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T5_LCPN_5-Longest-Palindromic-Substring.py",
+            "Source_Code": "while l >= 0 and r < len(s) and s[l] == s[r]:",
+            "Mutate_Code": "while l >= 0 and r < len(s) and s[l] == s[r]:=="
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T5_LCPN_5-Longest-Palindromic-Substring.py",
+            "Source_Code": "while l >= 0 and r < len(s) and s[l] == s[r]:",
+            "Mutate_Code": "while l >= 0 and r < len(s) and s[l] == s[r]:!="
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T5_LCPN_5-Longest-Palindromic-Substring.py",
+            "Source_Code": "while l >= 0 and r < len(s) and s[l] == s[r]:",
+            "Mutate_Code": "while l >= 0 and r < len(s) and s[l] == s[r]:>"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T5_LCPN_5-Longest-Palindromic-Substring.py",
+            "Source_Code": "while l >= 0 and r < len(s) and s[l] == s[r]:",
+            "Mutate_Code": "while l >= 0 and r < len(s) and s[l] == s[r]:<"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T5_LCPN_5-Longest-Palindromic-Substring.py",
+            "Source_Code": "while l >= 0 and r < len(s) and s[l] == s[r]:",
+            "Mutate_Code": "while l >= 0 and r < len(s) and s[l] == s[r]:>="
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T5_LCPN_5-Longest-Palindromic-Substring.py",
+            "Source_Code": "while l >= 0 and r < len(s) and s[l] == s[r]:",
+            "Mutate_Code": "while l >= 0 and r < len(s) and s[l] == s[r]:<="
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T5_LCPN_5-Longest-Palindromic-Substring.py",
+            "Source_Code": "while l >= 0 and r < len(s) and s[l] == s[r]:",
+            "Mutate_Code": "while l  ====  0 and r < len(s) and s[l] == s[r]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T5_LCPN_5-Longest-Palindromic-Substring.py",
+            "Source_Code": "while l >= 0 and r < len(s) and s[l] == s[r]:",
+            "Mutate_Code": "while l  !==  0 and r < len(s) and s[l] == s[r]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T5_LCPN_5-Longest-Palindromic-Substring.py",
+            "Source_Code": "while l >= 0 and r < len(s) and s[l] == s[r]:",
+            "Mutate_Code": "while l  >>  0 and r < len(s) and s[l] == s[r]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T5_LCPN_5-Longest-Palindromic-Substring.py",
+            "Source_Code": "while l >= 0 and r < len(s) and s[l] == s[r]:",
+            "Mutate_Code": "while l  <<  0 and r < len(s) and s[l] == s[r]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T5_LCPN_5-Longest-Palindromic-Substring.py",
+            "Source_Code": "while l >= 0 and r < len(s) and s[l] == s[r]:",
+            "Mutate_Code": "while l  >=>=  0 and r < len(s) and s[l] == s[r]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T5_LCPN_5-Longest-Palindromic-Substring.py",
+            "Source_Code": "while l >= 0 and r < len(s) and s[l] == s[r]:",
+            "Mutate_Code": "while l  <=<=  0 and r < len(s) and s[l] == s[r]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T5_LCPN_5-Longest-Palindromic-Substring.py",
+            "Source_Code": "while l >= 0 and r < len(s) and s[l] == s[r]:",
+            "Mutate_Code": "while l >= 0 and r < len(s) and s[l] == s[r]: ==== "
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T5_LCPN_5-Longest-Palindromic-Substring.py",
+            "Source_Code": "while l >= 0 and r < len(s) and s[l] == s[r]:",
+            "Mutate_Code": "while l >= 0 and r < len(s) and s[l] == s[r]: !== "
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T5_LCPN_5-Longest-Palindromic-Substring.py",
+            "Source_Code": "while l >= 0 and r < len(s) and s[l] == s[r]:",
+            "Mutate_Code": "while l >= 0 and r < len(s) and s[l] == s[r]: >> "
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T5_LCPN_5-Longest-Palindromic-Substring.py",
+            "Source_Code": "while l >= 0 and r < len(s) and s[l] == s[r]:",
+            "Mutate_Code": "while l >= 0 and r < len(s) and s[l] == s[r]: << "
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T5_LCPN_5-Longest-Palindromic-Substring.py",
+            "Source_Code": "while l >= 0 and r < len(s) and s[l] == s[r]:",
+            "Mutate_Code": "while l >= 0 and r < len(s) and s[l] == s[r]: >=>= "
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T5_LCPN_5-Longest-Palindromic-Substring.py",
+            "Source_Code": "while l >= 0 and r < len(s) and s[l] == s[r]:",
+            "Mutate_Code": "while l >= 0 and r < len(s) and s[l] == s[r]: <=<= "
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T5_LCPN_5-Longest-Palindromic-Substring.py",
+            "Source_Code": "while l >= 0 and r < len(s) and s[l] == s[r]:",
+            "Mutate_Code": "while l >= 0 and r < len(s) and s[l] == s[r]: ==== "
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T5_LCPN_5-Longest-Palindromic-Substring.py",
+            "Source_Code": "while l >= 0 and r < len(s) and s[l] == s[r]:",
+            "Mutate_Code": "while l >= 0 and r < len(s) and s[l] == s[r]: !== "
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T5_LCPN_5-Longest-Palindromic-Substring.py",
+            "Source_Code": "while l >= 0 and r < len(s) and s[l] == s[r]:",
+            "Mutate_Code": "while l >= 0 and r < len(s) and s[l] == s[r]: >> "
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T5_LCPN_5-Longest-Palindromic-Substring.py",
+            "Source_Code": "while l >= 0 and r < len(s) and s[l] == s[r]:",
+            "Mutate_Code": "while l >= 0 and r < len(s) and s[l] == s[r]: << "
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T5_LCPN_5-Longest-Palindromic-Substring.py",
+            "Source_Code": "while l >= 0 and r < len(s) and s[l] == s[r]:",
+            "Mutate_Code": "while l >= 0 and r < len(s) and s[l] == s[r]: >=>= "
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T5_LCPN_5-Longest-Palindromic-Substring.py",
+            "Source_Code": "while l >= 0 and r < len(s) and s[l] == s[r]:",
+            "Mutate_Code": "while l >= 0 and r < len(s) and s[l] == s[r]: <=<= "
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T5_LCPN_5-Longest-Palindromic-Substring.py",
+            "Source_Code": "while l >= 0 and r < len(s) and s[l] == s[r]:",
+            "Mutate_Code": "while l >= 0 r < len(s) and s[l] == s[r]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T5_LCPN_5-Longest-Palindromic-Substring.py",
+            "Source_Code": "while l >= 0 and r < len(s) and s[l] == s[r]:",
+            "Mutate_Code": "while l >= 0 and r < len(s) s[l] == s[r]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T5_LCPN_5-Longest-Palindromic-Substring.py",
+            "Source_Code": "while l >= 0 and r < len(s) and s[l] == s[r]:",
+            "Mutate_Code": "while l >= 0 or r < len(s) and s[l] == s[r]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T5_LCPN_5-Longest-Palindromic-Substring.py",
+            "Source_Code": "while l >= 0 and r < len(s) and s[l] == s[r]:",
+            "Mutate_Code": "while l >= 0 not r < len(s) and s[l] == s[r]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T5_LCPN_5-Longest-Palindromic-Substring.py",
+            "Source_Code": "while l >= 0 and r < len(s) and s[l] == s[r]:",
+            "Mutate_Code": "while l >= 0 and r < len(s) or s[l] == s[r]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T5_LCPN_5-Longest-Palindromic-Substring.py",
+            "Source_Code": "while l >= 0 and r < len(s) and s[l] == s[r]:",
+            "Mutate_Code": "while l >= 0 and r < len(s) not s[l] == s[r]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T5_LCPN_5-Longest-Palindromic-Substring.py",
+            "Source_Code": "while l >= 0 and r < len(s) and s[l] == s[r]:",
+            "Mutate_Code": "while l >= 0 and and r < len(s) and s[l] == s[r]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T5_LCPN_5-Longest-Palindromic-Substring.py",
+            "Source_Code": "while l >= 0 and r < len(s) and s[l] == s[r]:",
+            "Mutate_Code": "while l >= 0 or or r < len(s) and s[l] == s[r]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T5_LCPN_5-Longest-Palindromic-Substring.py",
+            "Source_Code": "while l >= 0 and r < len(s) and s[l] == s[r]:",
+            "Mutate_Code": "while l >= 0 not not r < len(s) and s[l] == s[r]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T5_LCPN_5-Longest-Palindromic-Substring.py",
+            "Source_Code": "while l >= 0 and r < len(s) and s[l] == s[r]:",
+            "Mutate_Code": "while l >= 0 and r < len(s) and and s[l] == s[r]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T5_LCPN_5-Longest-Palindromic-Substring.py",
+            "Source_Code": "while l >= 0 and r < len(s) and s[l] == s[r]:",
+            "Mutate_Code": "while l >= 0 and r < len(s) or or s[l] == s[r]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T5_LCPN_5-Longest-Palindromic-Substring.py",
+            "Source_Code": "while l >= 0 and r < len(s) and s[l] == s[r]:",
+            "Mutate_Code": "while l >= 0 and r < len(s) not not s[l] == s[r]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T5_LCPN_5-Longest-Palindromic-Substring.py",
+            "Source_Code": "while l >= 0 and r < len(s) and s[l] == s[r]:",
+            "Mutate_Code": " "
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T5_LCPN_5-Longest-Palindromic-Substring.py",
+            "Source_Code": "while l >= 0 and r < len(s) and s[l] == s[r]:",
+            "Mutate_Code": "for "
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T5_LCPN_5-Longest-Palindromic-Substring.py",
+            "Source_Code": "while l >= 0 and r < len(s) and s[l] == s[r]:",
+            "Mutate_Code": "while while:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T5_LCPN_5-Longest-Palindromic-Substring.py",
+            "Source_Code": "while l >= 0 and r < len(s) and s[l] == s[r]:",
+            "Mutate_Code": "while l >= 0 and r < len( ) and s[l] == s[r]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T5_LCPN_5-Longest-Palindromic-Substring.py",
+            "Source_Code": "while l >= 0 and r < len(s) and s[l] == s[r]:",
+            "Mutate_Code": "while l   0 and r < len(s) and s[l] == s[r]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T5_LCPN_5-Longest-Palindromic-Substring.py",
+            "Source_Code": "while l >= 0 and r < len(s) and s[l] == s[r]:",
+            "Mutate_Code": "while l >= 0 and r < len(s) and s[l] == s[r]: "
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T5_LCPN_5-Longest-Palindromic-Substring.py",
+            "Source_Code": "while l >= 0 and r < len(s) and s[l] == s[r]:",
+            "Mutate_Code": "while l >= 0 and r < len(s) and s[l] == s[r]: "
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T5_LCPN_5-Longest-Palindromic-Substring.py",
+            "Source_Code": "while l >= 0 and r < len(s) and s[l] == s[r]:",
+            "Mutate_Code": "while l == 0 and r < len(s) and s[l] == s[r]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T5_LCPN_5-Longest-Palindromic-Substring.py",
+            "Source_Code": "while l >= 0 and r < len(s) and s[l] == s[r]:",
+            "Mutate_Code": "while l != 0 and r < len(s) and s[l] == s[r]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T5_LCPN_5-Longest-Palindromic-Substring.py",
+            "Source_Code": "while l >= 0 and r < len(s) and s[l] == s[r]:",
+            "Mutate_Code": "while l > 0 and r < len(s) and s[l] == s[r]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T5_LCPN_5-Longest-Palindromic-Substring.py",
+            "Source_Code": "while l >= 0 and r < len(s) and s[l] == s[r]:",
+            "Mutate_Code": "while l < 0 and r < len(s) and s[l] == s[r]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T5_LCPN_5-Longest-Palindromic-Substring.py",
+            "Source_Code": "while l >= 0 and r < len(s) and s[l] == s[r]:",
+            "Mutate_Code": "while l <= 0 and r < len(s) and s[l] == s[r]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T5_LCPN_5-Longest-Palindromic-Substring.py",
+            "Source_Code": "while l >= 0 and r < len(s) and s[l] == s[r]:",
+            "Mutate_Code": "while l >= 0 and r < len(s) and s[l] == s[r]:=="
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T5_LCPN_5-Longest-Palindromic-Substring.py",
+            "Source_Code": "while l >= 0 and r < len(s) and s[l] == s[r]:",
+            "Mutate_Code": "while l >= 0 and r < len(s) and s[l] == s[r]:!="
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T5_LCPN_5-Longest-Palindromic-Substring.py",
+            "Source_Code": "while l >= 0 and r < len(s) and s[l] == s[r]:",
+            "Mutate_Code": "while l >= 0 and r < len(s) and s[l] == s[r]:>"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T5_LCPN_5-Longest-Palindromic-Substring.py",
+            "Source_Code": "while l >= 0 and r < len(s) and s[l] == s[r]:",
+            "Mutate_Code": "while l >= 0 and r < len(s) and s[l] == s[r]:<"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T5_LCPN_5-Longest-Palindromic-Substring.py",
+            "Source_Code": "while l >= 0 and r < len(s) and s[l] == s[r]:",
+            "Mutate_Code": "while l >= 0 and r < len(s) and s[l] == s[r]:>="
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T5_LCPN_5-Longest-Palindromic-Substring.py",
+            "Source_Code": "while l >= 0 and r < len(s) and s[l] == s[r]:",
+            "Mutate_Code": "while l >= 0 and r < len(s) and s[l] == s[r]:<="
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T5_LCPN_5-Longest-Palindromic-Substring.py",
+            "Source_Code": "while l >= 0 and r < len(s) and s[l] == s[r]:",
+            "Mutate_Code": "while l >= 0 and r < len(s) and s[l] == s[r]:=="
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T5_LCPN_5-Longest-Palindromic-Substring.py",
+            "Source_Code": "while l >= 0 and r < len(s) and s[l] == s[r]:",
+            "Mutate_Code": "while l >= 0 and r < len(s) and s[l] == s[r]:!="
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T5_LCPN_5-Longest-Palindromic-Substring.py",
+            "Source_Code": "while l >= 0 and r < len(s) and s[l] == s[r]:",
+            "Mutate_Code": "while l >= 0 and r < len(s) and s[l] == s[r]:>"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T5_LCPN_5-Longest-Palindromic-Substring.py",
+            "Source_Code": "while l >= 0 and r < len(s) and s[l] == s[r]:",
+            "Mutate_Code": "while l >= 0 and r < len(s) and s[l] == s[r]:<"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T5_LCPN_5-Longest-Palindromic-Substring.py",
+            "Source_Code": "while l >= 0 and r < len(s) and s[l] == s[r]:",
+            "Mutate_Code": "while l >= 0 and r < len(s) and s[l] == s[r]:>="
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T5_LCPN_5-Longest-Palindromic-Substring.py",
+            "Source_Code": "while l >= 0 and r < len(s) and s[l] == s[r]:",
+            "Mutate_Code": "while l >= 0 and r < len(s) and s[l] == s[r]:<="
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T5_LCPN_5-Longest-Palindromic-Substring.py",
+            "Source_Code": "while l >= 0 and r < len(s) and s[l] == s[r]:",
+            "Mutate_Code": "while l  ====  0 and r < len(s) and s[l] == s[r]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T5_LCPN_5-Longest-Palindromic-Substring.py",
+            "Source_Code": "while l >= 0 and r < len(s) and s[l] == s[r]:",
+            "Mutate_Code": "while l  !==  0 and r < len(s) and s[l] == s[r]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T5_LCPN_5-Longest-Palindromic-Substring.py",
+            "Source_Code": "while l >= 0 and r < len(s) and s[l] == s[r]:",
+            "Mutate_Code": "while l  >>  0 and r < len(s) and s[l] == s[r]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T5_LCPN_5-Longest-Palindromic-Substring.py",
+            "Source_Code": "while l >= 0 and r < len(s) and s[l] == s[r]:",
+            "Mutate_Code": "while l  <<  0 and r < len(s) and s[l] == s[r]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T5_LCPN_5-Longest-Palindromic-Substring.py",
+            "Source_Code": "while l >= 0 and r < len(s) and s[l] == s[r]:",
+            "Mutate_Code": "while l  >=>=  0 and r < len(s) and s[l] == s[r]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T5_LCPN_5-Longest-Palindromic-Substring.py",
+            "Source_Code": "while l >= 0 and r < len(s) and s[l] == s[r]:",
+            "Mutate_Code": "while l  <=<=  0 and r < len(s) and s[l] == s[r]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T5_LCPN_5-Longest-Palindromic-Substring.py",
+            "Source_Code": "while l >= 0 and r < len(s) and s[l] == s[r]:",
+            "Mutate_Code": "while l >= 0 and r < len(s) and s[l] == s[r]: ==== "
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T5_LCPN_5-Longest-Palindromic-Substring.py",
+            "Source_Code": "while l >= 0 and r < len(s) and s[l] == s[r]:",
+            "Mutate_Code": "while l >= 0 and r < len(s) and s[l] == s[r]: !== "
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T5_LCPN_5-Longest-Palindromic-Substring.py",
+            "Source_Code": "while l >= 0 and r < len(s) and s[l] == s[r]:",
+            "Mutate_Code": "while l >= 0 and r < len(s) and s[l] == s[r]: >> "
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T5_LCPN_5-Longest-Palindromic-Substring.py",
+            "Source_Code": "while l >= 0 and r < len(s) and s[l] == s[r]:",
+            "Mutate_Code": "while l >= 0 and r < len(s) and s[l] == s[r]: << "
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T5_LCPN_5-Longest-Palindromic-Substring.py",
+            "Source_Code": "while l >= 0 and r < len(s) and s[l] == s[r]:",
+            "Mutate_Code": "while l >= 0 and r < len(s) and s[l] == s[r]: >=>= "
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T5_LCPN_5-Longest-Palindromic-Substring.py",
+            "Source_Code": "while l >= 0 and r < len(s) and s[l] == s[r]:",
+            "Mutate_Code": "while l >= 0 and r < len(s) and s[l] == s[r]: <=<= "
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T5_LCPN_5-Longest-Palindromic-Substring.py",
+            "Source_Code": "while l >= 0 and r < len(s) and s[l] == s[r]:",
+            "Mutate_Code": "while l >= 0 and r < len(s) and s[l] == s[r]: ==== "
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T5_LCPN_5-Longest-Palindromic-Substring.py",
+            "Source_Code": "while l >= 0 and r < len(s) and s[l] == s[r]:",
+            "Mutate_Code": "while l >= 0 and r < len(s) and s[l] == s[r]: !== "
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T5_LCPN_5-Longest-Palindromic-Substring.py",
+            "Source_Code": "while l >= 0 and r < len(s) and s[l] == s[r]:",
+            "Mutate_Code": "while l >= 0 and r < len(s) and s[l] == s[r]: >> "
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T5_LCPN_5-Longest-Palindromic-Substring.py",
+            "Source_Code": "while l >= 0 and r < len(s) and s[l] == s[r]:",
+            "Mutate_Code": "while l >= 0 and r < len(s) and s[l] == s[r]: << "
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T5_LCPN_5-Longest-Palindromic-Substring.py",
+            "Source_Code": "while l >= 0 and r < len(s) and s[l] == s[r]:",
+            "Mutate_Code": "while l >= 0 and r < len(s) and s[l] == s[r]: >=>= "
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T5_LCPN_5-Longest-Palindromic-Substring.py",
+            "Source_Code": "while l >= 0 and r < len(s) and s[l] == s[r]:",
+            "Mutate_Code": "while l >= 0 and r < len(s) and s[l] == s[r]: <=<= "
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T5_LCPN_5-Longest-Palindromic-Substring.py",
+            "Source_Code": "while l >= 0 and r < len(s) and s[l] == s[r]:",
+            "Mutate_Code": "while l >= 0 r < len(s) and s[l] == s[r]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T5_LCPN_5-Longest-Palindromic-Substring.py",
+            "Source_Code": "while l >= 0 and r < len(s) and s[l] == s[r]:",
+            "Mutate_Code": "while l >= 0 and r < len(s) s[l] == s[r]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T5_LCPN_5-Longest-Palindromic-Substring.py",
+            "Source_Code": "while l >= 0 and r < len(s) and s[l] == s[r]:",
+            "Mutate_Code": "while l >= 0 or r < len(s) and s[l] == s[r]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T5_LCPN_5-Longest-Palindromic-Substring.py",
+            "Source_Code": "while l >= 0 and r < len(s) and s[l] == s[r]:",
+            "Mutate_Code": "while l >= 0 not r < len(s) and s[l] == s[r]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T5_LCPN_5-Longest-Palindromic-Substring.py",
+            "Source_Code": "while l >= 0 and r < len(s) and s[l] == s[r]:",
+            "Mutate_Code": "while l >= 0 and r < len(s) or s[l] == s[r]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T5_LCPN_5-Longest-Palindromic-Substring.py",
+            "Source_Code": "while l >= 0 and r < len(s) and s[l] == s[r]:",
+            "Mutate_Code": "while l >= 0 and r < len(s) not s[l] == s[r]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T5_LCPN_5-Longest-Palindromic-Substring.py",
+            "Source_Code": "while l >= 0 and r < len(s) and s[l] == s[r]:",
+            "Mutate_Code": "while l >= 0 and and r < len(s) and s[l] == s[r]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T5_LCPN_5-Longest-Palindromic-Substring.py",
+            "Source_Code": "while l >= 0 and r < len(s) and s[l] == s[r]:",
+            "Mutate_Code": "while l >= 0 or or r < len(s) and s[l] == s[r]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T5_LCPN_5-Longest-Palindromic-Substring.py",
+            "Source_Code": "while l >= 0 and r < len(s) and s[l] == s[r]:",
+            "Mutate_Code": "while l >= 0 not not r < len(s) and s[l] == s[r]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T5_LCPN_5-Longest-Palindromic-Substring.py",
+            "Source_Code": "while l >= 0 and r < len(s) and s[l] == s[r]:",
+            "Mutate_Code": "while l >= 0 and r < len(s) and and s[l] == s[r]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T5_LCPN_5-Longest-Palindromic-Substring.py",
+            "Source_Code": "while l >= 0 and r < len(s) and s[l] == s[r]:",
+            "Mutate_Code": "while l >= 0 and r < len(s) or or s[l] == s[r]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T5_LCPN_5-Longest-Palindromic-Substring.py",
+            "Source_Code": "while l >= 0 and r < len(s) and s[l] == s[r]:",
+            "Mutate_Code": "while l >= 0 and r < len(s) not not s[l] == s[r]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T5_LCPN_5-Longest-Palindromic-Substring.py",
+            "Source_Code": "while l >= 0 and r < len(s) and s[l] == s[r]:",
+            "Mutate_Code": " "
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T5_LCPN_5-Longest-Palindromic-Substring.py",
+            "Source_Code": "while l >= 0 and r < len(s) and s[l] == s[r]:",
+            "Mutate_Code": "for "
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T5_LCPN_5-Longest-Palindromic-Substring.py",
+            "Source_Code": "while l >= 0 and r < len(s) and s[l] == s[r]:",
+            "Mutate_Code": "while while:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T5_LCPN_5-Longest-Palindromic-Substring.py",
+            "Source_Code": "while l >= 0 and r < len(s) and s[l] == s[r]:",
+            "Mutate_Code": "while l >= 0 and r < len( ) and s[l] == s[r]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T5_LCPN_5-Longest-Palindromic-Substring.py",
+            "Source_Code": "if (r - l + 1) > resLen:",
+            "Mutate_Code": "if (r - l 1) > resLen:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T5_LCPN_5-Longest-Palindromic-Substring.py",
+            "Source_Code": "if (r - l + 1) > resLen:",
+            "Mutate_Code": "if (r l + 1) > resLen:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T5_LCPN_5-Longest-Palindromic-Substring.py",
+            "Source_Code": "if (r - l + 1) > resLen:",
+            "Mutate_Code": "if (r - l - 1) > resLen:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T5_LCPN_5-Longest-Palindromic-Substring.py",
+            "Source_Code": "if (r - l + 1) > resLen:",
+            "Mutate_Code": "if (r - l * 1) > resLen:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T5_LCPN_5-Longest-Palindromic-Substring.py",
+            "Source_Code": "if (r - l + 1) > resLen:",
+            "Mutate_Code": "if (r - l / 1) > resLen:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T5_LCPN_5-Longest-Palindromic-Substring.py",
+            "Source_Code": "if (r - l + 1) > resLen:",
+            "Mutate_Code": "if (r - l % 1) > resLen:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T5_LCPN_5-Longest-Palindromic-Substring.py",
+            "Source_Code": "if (r - l + 1) > resLen:",
+            "Mutate_Code": "if (r - l ** 1) > resLen:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T5_LCPN_5-Longest-Palindromic-Substring.py",
+            "Source_Code": "if (r - l + 1) > resLen:",
+            "Mutate_Code": "if (r - l // 1) > resLen:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T5_LCPN_5-Longest-Palindromic-Substring.py",
+            "Source_Code": "if (r - l + 1) > resLen:",
+            "Mutate_Code": "if (r + l + 1) > resLen:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T5_LCPN_5-Longest-Palindromic-Substring.py",
+            "Source_Code": "if (r - l + 1) > resLen:",
+            "Mutate_Code": "if (r * l + 1) > resLen:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T5_LCPN_5-Longest-Palindromic-Substring.py",
+            "Source_Code": "if (r - l + 1) > resLen:",
+            "Mutate_Code": "if (r / l + 1) > resLen:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T5_LCPN_5-Longest-Palindromic-Substring.py",
+            "Source_Code": "if (r - l + 1) > resLen:",
+            "Mutate_Code": "if (r % l + 1) > resLen:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T5_LCPN_5-Longest-Palindromic-Substring.py",
+            "Source_Code": "if (r - l + 1) > resLen:",
+            "Mutate_Code": "if (r ** l + 1) > resLen:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T5_LCPN_5-Longest-Palindromic-Substring.py",
+            "Source_Code": "if (r - l + 1) > resLen:",
+            "Mutate_Code": "if (r // l + 1) > resLen:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T5_LCPN_5-Longest-Palindromic-Substring.py",
+            "Source_Code": "if (r - l + 1) > resLen:",
+            "Mutate_Code": "if (r - l ++ 1) > resLen:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T5_LCPN_5-Longest-Palindromic-Substring.py",
+            "Source_Code": "if (r - l + 1) > resLen:",
+            "Mutate_Code": "if (r - l -- 1) > resLen:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T5_LCPN_5-Longest-Palindromic-Substring.py",
+            "Source_Code": "if (r - l + 1) > resLen:",
+            "Mutate_Code": "if (r - l ** 1) > resLen:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T5_LCPN_5-Longest-Palindromic-Substring.py",
+            "Source_Code": "if (r - l + 1) > resLen:",
+            "Mutate_Code": "if (r - l // 1) > resLen:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T5_LCPN_5-Longest-Palindromic-Substring.py",
+            "Source_Code": "if (r - l + 1) > resLen:",
+            "Mutate_Code": "if (r - l %% 1) > resLen:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T5_LCPN_5-Longest-Palindromic-Substring.py",
+            "Source_Code": "if (r - l + 1) > resLen:",
+            "Mutate_Code": "if (r - l **** 1) > resLen:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T5_LCPN_5-Longest-Palindromic-Substring.py",
+            "Source_Code": "if (r - l + 1) > resLen:",
+            "Mutate_Code": "if (r - l //// 1) > resLen:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T5_LCPN_5-Longest-Palindromic-Substring.py",
+            "Source_Code": "if (r - l + 1) > resLen:",
+            "Mutate_Code": "if (r ++ l + 1) > resLen:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T5_LCPN_5-Longest-Palindromic-Substring.py",
+            "Source_Code": "if (r - l + 1) > resLen:",
+            "Mutate_Code": "if (r -- l + 1) > resLen:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T5_LCPN_5-Longest-Palindromic-Substring.py",
+            "Source_Code": "if (r - l + 1) > resLen:",
+            "Mutate_Code": "if (r ** l + 1) > resLen:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T5_LCPN_5-Longest-Palindromic-Substring.py",
+            "Source_Code": "if (r - l + 1) > resLen:",
+            "Mutate_Code": "if (r // l + 1) > resLen:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T5_LCPN_5-Longest-Palindromic-Substring.py",
+            "Source_Code": "if (r - l + 1) > resLen:",
+            "Mutate_Code": "if (r %% l + 1) > resLen:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T5_LCPN_5-Longest-Palindromic-Substring.py",
+            "Source_Code": "if (r - l + 1) > resLen:",
+            "Mutate_Code": "if (r **** l + 1) > resLen:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T5_LCPN_5-Longest-Palindromic-Substring.py",
+            "Source_Code": "if (r - l + 1) > resLen:",
+            "Mutate_Code": "if (r //// l + 1) > resLen:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T5_LCPN_5-Longest-Palindromic-Substring.py",
+            "Source_Code": "if (r - l + 1) > resLen:",
+            "Mutate_Code": "if (r - l + 1)   resLen:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T5_LCPN_5-Longest-Palindromic-Substring.py",
+            "Source_Code": "if (r - l + 1) > resLen:",
+            "Mutate_Code": "if (r - l + 1) == resLen:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T5_LCPN_5-Longest-Palindromic-Substring.py",
+            "Source_Code": "if (r - l + 1) > resLen:",
+            "Mutate_Code": "if (r - l + 1) != resLen:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T5_LCPN_5-Longest-Palindromic-Substring.py",
+            "Source_Code": "if (r - l + 1) > resLen:",
+            "Mutate_Code": "if (r - l + 1) < resLen:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T5_LCPN_5-Longest-Palindromic-Substring.py",
+            "Source_Code": "if (r - l + 1) > resLen:",
+            "Mutate_Code": "if (r - l + 1) >= resLen:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T5_LCPN_5-Longest-Palindromic-Substring.py",
+            "Source_Code": "if (r - l + 1) > resLen:",
+            "Mutate_Code": "if (r - l + 1) <= resLen:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T5_LCPN_5-Longest-Palindromic-Substring.py",
+            "Source_Code": "if (r - l + 1) > resLen:",
+            "Mutate_Code": "if (r - l + 1)  ====  resLen:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T5_LCPN_5-Longest-Palindromic-Substring.py",
+            "Source_Code": "if (r - l + 1) > resLen:",
+            "Mutate_Code": "if (r - l + 1)  !==  resLen:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T5_LCPN_5-Longest-Palindromic-Substring.py",
+            "Source_Code": "if (r - l + 1) > resLen:",
+            "Mutate_Code": "if (r - l + 1)  >>  resLen:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T5_LCPN_5-Longest-Palindromic-Substring.py",
+            "Source_Code": "if (r - l + 1) > resLen:",
+            "Mutate_Code": "if (r - l + 1)  <<  resLen:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T5_LCPN_5-Longest-Palindromic-Substring.py",
+            "Source_Code": "if (r - l + 1) > resLen:",
+            "Mutate_Code": "if (r - l + 1)  >=>=  resLen:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T5_LCPN_5-Longest-Palindromic-Substring.py",
+            "Source_Code": "if (r - l + 1) > resLen:",
+            "Mutate_Code": "if (r - l + 1)  <=<=  resLen:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T5_LCPN_5-Longest-Palindromic-Substring.py",
+            "Source_Code": "if (r - l + 1) > resLen:",
+            "Mutate_Code": " "
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T5_LCPN_5-Longest-Palindromic-Substring.py",
+            "Source_Code": "if (r - l + 1) > resLen:",
+            "Mutate_Code": "elif:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T5_LCPN_5-Longest-Palindromic-Substring.py",
+            "Source_Code": "if (r - l + 1) > resLen:",
+            "Mutate_Code": "else:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T5_LCPN_5-Longest-Palindromic-Substring.py",
+            "Source_Code": "if (r - l + 1) > resLen:",
+            "Mutate_Code": "if if"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T5_LCPN_5-Longest-Palindromic-Substring.py",
+            "Source_Code": "return res",
+            "Mutate_Code": " res"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T5_LCPN_5-Longest-Palindromic-Substring.py",
+            "Source_Code": "return res",
+            "Mutate_Code": "passres"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T5_LCPN_5-Longest-Palindromic-Substring.py",
+            "Source_Code": "return res",
+            "Mutate_Code": "return returnres"
+        }
+    }
+]

@@ -1,0 +1,485 @@
+[
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T13_LCPN_22-Generate-Parentheses.py",
+            "Source_Code": "if openN == closedN == n:",
+            "Mutate_Code": "if openN   closedN == n:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T13_LCPN_22-Generate-Parentheses.py",
+            "Source_Code": "if openN == closedN == n:",
+            "Mutate_Code": "if openN == closedN   n:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T13_LCPN_22-Generate-Parentheses.py",
+            "Source_Code": "if openN == closedN == n:",
+            "Mutate_Code": "if openN != closedN == n:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T13_LCPN_22-Generate-Parentheses.py",
+            "Source_Code": "if openN == closedN == n:",
+            "Mutate_Code": "if openN > closedN == n:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T13_LCPN_22-Generate-Parentheses.py",
+            "Source_Code": "if openN == closedN == n:",
+            "Mutate_Code": "if openN < closedN == n:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T13_LCPN_22-Generate-Parentheses.py",
+            "Source_Code": "if openN == closedN == n:",
+            "Mutate_Code": "if openN >= closedN == n:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T13_LCPN_22-Generate-Parentheses.py",
+            "Source_Code": "if openN == closedN == n:",
+            "Mutate_Code": "if openN <= closedN == n:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T13_LCPN_22-Generate-Parentheses.py",
+            "Source_Code": "if openN == closedN == n:",
+            "Mutate_Code": "if openN == closedN != n:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T13_LCPN_22-Generate-Parentheses.py",
+            "Source_Code": "if openN == closedN == n:",
+            "Mutate_Code": "if openN == closedN > n:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T13_LCPN_22-Generate-Parentheses.py",
+            "Source_Code": "if openN == closedN == n:",
+            "Mutate_Code": "if openN == closedN < n:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T13_LCPN_22-Generate-Parentheses.py",
+            "Source_Code": "if openN == closedN == n:",
+            "Mutate_Code": "if openN == closedN >= n:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T13_LCPN_22-Generate-Parentheses.py",
+            "Source_Code": "if openN == closedN == n:",
+            "Mutate_Code": "if openN == closedN <= n:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T13_LCPN_22-Generate-Parentheses.py",
+            "Source_Code": "if openN == closedN == n:",
+            "Mutate_Code": "if openN  ====  closedN == n:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T13_LCPN_22-Generate-Parentheses.py",
+            "Source_Code": "if openN == closedN == n:",
+            "Mutate_Code": "if openN  !==  closedN == n:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T13_LCPN_22-Generate-Parentheses.py",
+            "Source_Code": "if openN == closedN == n:",
+            "Mutate_Code": "if openN  >>  closedN == n:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T13_LCPN_22-Generate-Parentheses.py",
+            "Source_Code": "if openN == closedN == n:",
+            "Mutate_Code": "if openN  <<  closedN == n:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T13_LCPN_22-Generate-Parentheses.py",
+            "Source_Code": "if openN == closedN == n:",
+            "Mutate_Code": "if openN  >=>=  closedN == n:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T13_LCPN_22-Generate-Parentheses.py",
+            "Source_Code": "if openN == closedN == n:",
+            "Mutate_Code": "if openN  <=<=  closedN == n:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T13_LCPN_22-Generate-Parentheses.py",
+            "Source_Code": "if openN == closedN == n:",
+            "Mutate_Code": "if openN == closedN  ====  n:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T13_LCPN_22-Generate-Parentheses.py",
+            "Source_Code": "if openN == closedN == n:",
+            "Mutate_Code": "if openN == closedN  !==  n:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T13_LCPN_22-Generate-Parentheses.py",
+            "Source_Code": "if openN == closedN == n:",
+            "Mutate_Code": "if openN == closedN  >>  n:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T13_LCPN_22-Generate-Parentheses.py",
+            "Source_Code": "if openN == closedN == n:",
+            "Mutate_Code": "if openN == closedN  <<  n:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T13_LCPN_22-Generate-Parentheses.py",
+            "Source_Code": "if openN == closedN == n:",
+            "Mutate_Code": "if openN == closedN  >=>=  n:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T13_LCPN_22-Generate-Parentheses.py",
+            "Source_Code": "if openN == closedN == n:",
+            "Mutate_Code": "if openN == closedN  <=<=  n:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T13_LCPN_22-Generate-Parentheses.py",
+            "Source_Code": "if openN == closedN == n:",
+            "Mutate_Code": " "
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T13_LCPN_22-Generate-Parentheses.py",
+            "Source_Code": "if openN == closedN == n:",
+            "Mutate_Code": "elif:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T13_LCPN_22-Generate-Parentheses.py",
+            "Source_Code": "if openN == closedN == n:",
+            "Mutate_Code": "else:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T13_LCPN_22-Generate-Parentheses.py",
+            "Source_Code": "if openN == closedN == n:",
+            "Mutate_Code": "if if"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T13_LCPN_22-Generate-Parentheses.py",
+            "Source_Code": "res.append(\"\".join(stack))",
+            "Mutate_Code": "res.append( ))"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T13_LCPN_22-Generate-Parentheses.py",
+            "Source_Code": "res.append(\"\".join(stack))",
+            "Mutate_Code": "res.append(\"\".join( ))"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T13_LCPN_22-Generate-Parentheses.py",
+            "Source_Code": "res.append(\"\".join(stack))",
+            "Mutate_Code": "res.append( ))"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T13_LCPN_22-Generate-Parentheses.py",
+            "Source_Code": "res.append(\"\".join(stack))",
+            "Mutate_Code": "res.append(\"\".join( ))"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T13_LCPN_22-Generate-Parentheses.py",
+            "Source_Code": "if openN < n:",
+            "Mutate_Code": "if openN   n:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T13_LCPN_22-Generate-Parentheses.py",
+            "Source_Code": "if openN < n:",
+            "Mutate_Code": "if openN == n:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T13_LCPN_22-Generate-Parentheses.py",
+            "Source_Code": "if openN < n:",
+            "Mutate_Code": "if openN != n:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T13_LCPN_22-Generate-Parentheses.py",
+            "Source_Code": "if openN < n:",
+            "Mutate_Code": "if openN > n:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T13_LCPN_22-Generate-Parentheses.py",
+            "Source_Code": "if openN < n:",
+            "Mutate_Code": "if openN >= n:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T13_LCPN_22-Generate-Parentheses.py",
+            "Source_Code": "if openN < n:",
+            "Mutate_Code": "if openN <= n:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T13_LCPN_22-Generate-Parentheses.py",
+            "Source_Code": "if openN < n:",
+            "Mutate_Code": "if openN  ====  n:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T13_LCPN_22-Generate-Parentheses.py",
+            "Source_Code": "if openN < n:",
+            "Mutate_Code": "if openN  !==  n:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T13_LCPN_22-Generate-Parentheses.py",
+            "Source_Code": "if openN < n:",
+            "Mutate_Code": "if openN  >>  n:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T13_LCPN_22-Generate-Parentheses.py",
+            "Source_Code": "if openN < n:",
+            "Mutate_Code": "if openN  <<  n:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T13_LCPN_22-Generate-Parentheses.py",
+            "Source_Code": "if openN < n:",
+            "Mutate_Code": "if openN  >=>=  n:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T13_LCPN_22-Generate-Parentheses.py",
+            "Source_Code": "if openN < n:",
+            "Mutate_Code": "if openN  <=<=  n:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T13_LCPN_22-Generate-Parentheses.py",
+            "Source_Code": "if openN < n:",
+            "Mutate_Code": " "
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T13_LCPN_22-Generate-Parentheses.py",
+            "Source_Code": "if openN < n:",
+            "Mutate_Code": "elif:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T13_LCPN_22-Generate-Parentheses.py",
+            "Source_Code": "if openN < n:",
+            "Mutate_Code": "else:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T13_LCPN_22-Generate-Parentheses.py",
+            "Source_Code": "if openN < n:",
+            "Mutate_Code": "if if"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T13_LCPN_22-Generate-Parentheses.py",
+            "Source_Code": "stack.append(\"(\")",
+            "Mutate_Code": "stack.append( )"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T13_LCPN_22-Generate-Parentheses.py",
+            "Source_Code": "if closedN < openN:",
+            "Mutate_Code": "if closedN   openN:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T13_LCPN_22-Generate-Parentheses.py",
+            "Source_Code": "if closedN < openN:",
+            "Mutate_Code": "if closedN == openN:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T13_LCPN_22-Generate-Parentheses.py",
+            "Source_Code": "if closedN < openN:",
+            "Mutate_Code": "if closedN != openN:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T13_LCPN_22-Generate-Parentheses.py",
+            "Source_Code": "if closedN < openN:",
+            "Mutate_Code": "if closedN > openN:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T13_LCPN_22-Generate-Parentheses.py",
+            "Source_Code": "if closedN < openN:",
+            "Mutate_Code": "if closedN >= openN:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T13_LCPN_22-Generate-Parentheses.py",
+            "Source_Code": "if closedN < openN:",
+            "Mutate_Code": "if closedN <= openN:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T13_LCPN_22-Generate-Parentheses.py",
+            "Source_Code": "if closedN < openN:",
+            "Mutate_Code": "if closedN  ====  openN:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T13_LCPN_22-Generate-Parentheses.py",
+            "Source_Code": "if closedN < openN:",
+            "Mutate_Code": "if closedN  !==  openN:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T13_LCPN_22-Generate-Parentheses.py",
+            "Source_Code": "if closedN < openN:",
+            "Mutate_Code": "if closedN  >>  openN:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T13_LCPN_22-Generate-Parentheses.py",
+            "Source_Code": "if closedN < openN:",
+            "Mutate_Code": "if closedN  <<  openN:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T13_LCPN_22-Generate-Parentheses.py",
+            "Source_Code": "if closedN < openN:",
+            "Mutate_Code": "if closedN  >=>=  openN:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T13_LCPN_22-Generate-Parentheses.py",
+            "Source_Code": "if closedN < openN:",
+            "Mutate_Code": "if closedN  <=<=  openN:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T13_LCPN_22-Generate-Parentheses.py",
+            "Source_Code": "if closedN < openN:",
+            "Mutate_Code": " "
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T13_LCPN_22-Generate-Parentheses.py",
+            "Source_Code": "if closedN < openN:",
+            "Mutate_Code": "elif:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T13_LCPN_22-Generate-Parentheses.py",
+            "Source_Code": "if closedN < openN:",
+            "Mutate_Code": "else:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T13_LCPN_22-Generate-Parentheses.py",
+            "Source_Code": "if closedN < openN:",
+            "Mutate_Code": "if if"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T13_LCPN_22-Generate-Parentheses.py",
+            "Source_Code": "stack.append(\")\")",
+            "Mutate_Code": "stack.append( )\")"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T13_LCPN_22-Generate-Parentheses.py",
+            "Source_Code": "return res",
+            "Mutate_Code": " res"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T13_LCPN_22-Generate-Parentheses.py",
+            "Source_Code": "return res",
+            "Mutate_Code": "passres"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T13_LCPN_22-Generate-Parentheses.py",
+            "Source_Code": "return res",
+            "Mutate_Code": "return returnres"
+        }
+    }
+]

@@ -1,0 +1,366 @@
+[
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T11_LCPN_17-Letter-Combinations-of-a-Phone-Number.py",
+            "Source_Code": "if len(curStr) == len(digits):",
+            "Mutate_Code": "if len(curStr)   len(digits):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T11_LCPN_17-Letter-Combinations-of-a-Phone-Number.py",
+            "Source_Code": "if len(curStr) == len(digits):",
+            "Mutate_Code": "if len(curStr) != len(digits):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T11_LCPN_17-Letter-Combinations-of-a-Phone-Number.py",
+            "Source_Code": "if len(curStr) == len(digits):",
+            "Mutate_Code": "if len(curStr) > len(digits):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T11_LCPN_17-Letter-Combinations-of-a-Phone-Number.py",
+            "Source_Code": "if len(curStr) == len(digits):",
+            "Mutate_Code": "if len(curStr) < len(digits):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T11_LCPN_17-Letter-Combinations-of-a-Phone-Number.py",
+            "Source_Code": "if len(curStr) == len(digits):",
+            "Mutate_Code": "if len(curStr) >= len(digits):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T11_LCPN_17-Letter-Combinations-of-a-Phone-Number.py",
+            "Source_Code": "if len(curStr) == len(digits):",
+            "Mutate_Code": "if len(curStr) <= len(digits):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T11_LCPN_17-Letter-Combinations-of-a-Phone-Number.py",
+            "Source_Code": "if len(curStr) == len(digits):",
+            "Mutate_Code": "if len(curStr)  ====  len(digits):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T11_LCPN_17-Letter-Combinations-of-a-Phone-Number.py",
+            "Source_Code": "if len(curStr) == len(digits):",
+            "Mutate_Code": "if len(curStr)  !==  len(digits):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T11_LCPN_17-Letter-Combinations-of-a-Phone-Number.py",
+            "Source_Code": "if len(curStr) == len(digits):",
+            "Mutate_Code": "if len(curStr)  >>  len(digits):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T11_LCPN_17-Letter-Combinations-of-a-Phone-Number.py",
+            "Source_Code": "if len(curStr) == len(digits):",
+            "Mutate_Code": "if len(curStr)  <<  len(digits):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T11_LCPN_17-Letter-Combinations-of-a-Phone-Number.py",
+            "Source_Code": "if len(curStr) == len(digits):",
+            "Mutate_Code": "if len(curStr)  >=>=  len(digits):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T11_LCPN_17-Letter-Combinations-of-a-Phone-Number.py",
+            "Source_Code": "if len(curStr) == len(digits):",
+            "Mutate_Code": "if len(curStr)  <=<=  len(digits):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T11_LCPN_17-Letter-Combinations-of-a-Phone-Number.py",
+            "Source_Code": "if len(curStr) == len(digits):",
+            "Mutate_Code": " "
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T11_LCPN_17-Letter-Combinations-of-a-Phone-Number.py",
+            "Source_Code": "if len(curStr) == len(digits):",
+            "Mutate_Code": "elif:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T11_LCPN_17-Letter-Combinations-of-a-Phone-Number.py",
+            "Source_Code": "if len(curStr) == len(digits):",
+            "Mutate_Code": "else:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T11_LCPN_17-Letter-Combinations-of-a-Phone-Number.py",
+            "Source_Code": "if len(curStr) == len(digits):",
+            "Mutate_Code": "if if"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T11_LCPN_17-Letter-Combinations-of-a-Phone-Number.py",
+            "Source_Code": "if len(curStr) == len(digits):",
+            "Mutate_Code": "if len( ) == len(digits):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T11_LCPN_17-Letter-Combinations-of-a-Phone-Number.py",
+            "Source_Code": "if len(curStr) == len(digits):",
+            "Mutate_Code": "if len(curStr) == len(digits): "
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T11_LCPN_17-Letter-Combinations-of-a-Phone-Number.py",
+            "Source_Code": "if len(curStr) == len(digits):",
+            "Mutate_Code": "if len(curStr)   len(digits):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T11_LCPN_17-Letter-Combinations-of-a-Phone-Number.py",
+            "Source_Code": "if len(curStr) == len(digits):",
+            "Mutate_Code": "if len(curStr) != len(digits):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T11_LCPN_17-Letter-Combinations-of-a-Phone-Number.py",
+            "Source_Code": "if len(curStr) == len(digits):",
+            "Mutate_Code": "if len(curStr) > len(digits):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T11_LCPN_17-Letter-Combinations-of-a-Phone-Number.py",
+            "Source_Code": "if len(curStr) == len(digits):",
+            "Mutate_Code": "if len(curStr) < len(digits):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T11_LCPN_17-Letter-Combinations-of-a-Phone-Number.py",
+            "Source_Code": "if len(curStr) == len(digits):",
+            "Mutate_Code": "if len(curStr) >= len(digits):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T11_LCPN_17-Letter-Combinations-of-a-Phone-Number.py",
+            "Source_Code": "if len(curStr) == len(digits):",
+            "Mutate_Code": "if len(curStr) <= len(digits):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T11_LCPN_17-Letter-Combinations-of-a-Phone-Number.py",
+            "Source_Code": "if len(curStr) == len(digits):",
+            "Mutate_Code": "if len(curStr)  ====  len(digits):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T11_LCPN_17-Letter-Combinations-of-a-Phone-Number.py",
+            "Source_Code": "if len(curStr) == len(digits):",
+            "Mutate_Code": "if len(curStr)  !==  len(digits):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T11_LCPN_17-Letter-Combinations-of-a-Phone-Number.py",
+            "Source_Code": "if len(curStr) == len(digits):",
+            "Mutate_Code": "if len(curStr)  >>  len(digits):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T11_LCPN_17-Letter-Combinations-of-a-Phone-Number.py",
+            "Source_Code": "if len(curStr) == len(digits):",
+            "Mutate_Code": "if len(curStr)  <<  len(digits):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T11_LCPN_17-Letter-Combinations-of-a-Phone-Number.py",
+            "Source_Code": "if len(curStr) == len(digits):",
+            "Mutate_Code": "if len(curStr)  >=>=  len(digits):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T11_LCPN_17-Letter-Combinations-of-a-Phone-Number.py",
+            "Source_Code": "if len(curStr) == len(digits):",
+            "Mutate_Code": "if len(curStr)  <=<=  len(digits):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T11_LCPN_17-Letter-Combinations-of-a-Phone-Number.py",
+            "Source_Code": "if len(curStr) == len(digits):",
+            "Mutate_Code": " "
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T11_LCPN_17-Letter-Combinations-of-a-Phone-Number.py",
+            "Source_Code": "if len(curStr) == len(digits):",
+            "Mutate_Code": "elif:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T11_LCPN_17-Letter-Combinations-of-a-Phone-Number.py",
+            "Source_Code": "if len(curStr) == len(digits):",
+            "Mutate_Code": "else:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T11_LCPN_17-Letter-Combinations-of-a-Phone-Number.py",
+            "Source_Code": "if len(curStr) == len(digits):",
+            "Mutate_Code": "if if"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T11_LCPN_17-Letter-Combinations-of-a-Phone-Number.py",
+            "Source_Code": "if len(curStr) == len(digits):",
+            "Mutate_Code": "if len( ) == len(digits):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T11_LCPN_17-Letter-Combinations-of-a-Phone-Number.py",
+            "Source_Code": "if len(curStr) == len(digits):",
+            "Mutate_Code": "if len(curStr) == len(digits): "
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T11_LCPN_17-Letter-Combinations-of-a-Phone-Number.py",
+            "Source_Code": "res.append(curStr)",
+            "Mutate_Code": "res.append( )"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T11_LCPN_17-Letter-Combinations-of-a-Phone-Number.py",
+            "Source_Code": "for c in digitToChar[digits[i]]:",
+            "Mutate_Code": "for c digitToChar[digits[i]]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T11_LCPN_17-Letter-Combinations-of-a-Phone-Number.py",
+            "Source_Code": "for c in digitToChar[digits[i]]:",
+            "Mutate_Code": "for c is digitToChar[digits[i]]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T11_LCPN_17-Letter-Combinations-of-a-Phone-Number.py",
+            "Source_Code": "for c in digitToChar[digits[i]]:",
+            "Mutate_Code": "for c is not digitToChar[digits[i]]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T11_LCPN_17-Letter-Combinations-of-a-Phone-Number.py",
+            "Source_Code": "for c in digitToChar[digits[i]]:",
+            "Mutate_Code": "for c in in digitToChar[digits[i]]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T11_LCPN_17-Letter-Combinations-of-a-Phone-Number.py",
+            "Source_Code": "for c in digitToChar[digits[i]]:",
+            "Mutate_Code": "for c not in not in digitToChar[digits[i]]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T11_LCPN_17-Letter-Combinations-of-a-Phone-Number.py",
+            "Source_Code": "for c in digitToChar[digits[i]]:",
+            "Mutate_Code": " "
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T11_LCPN_17-Letter-Combinations-of-a-Phone-Number.py",
+            "Source_Code": "for c in digitToChar[digits[i]]:",
+            "Mutate_Code": "while True:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T11_LCPN_17-Letter-Combinations-of-a-Phone-Number.py",
+            "Source_Code": "for c in digitToChar[digits[i]]:",
+            "Mutate_Code": "for for: c in digitToChar[digits[i]]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T11_LCPN_17-Letter-Combinations-of-a-Phone-Number.py",
+            "Source_Code": "if digits:",
+            "Mutate_Code": " "
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T11_LCPN_17-Letter-Combinations-of-a-Phone-Number.py",
+            "Source_Code": "if digits:",
+            "Mutate_Code": "elif:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T11_LCPN_17-Letter-Combinations-of-a-Phone-Number.py",
+            "Source_Code": "if digits:",
+            "Mutate_Code": "else:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T11_LCPN_17-Letter-Combinations-of-a-Phone-Number.py",
+            "Source_Code": "if digits:",
+            "Mutate_Code": "if if"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T11_LCPN_17-Letter-Combinations-of-a-Phone-Number.py",
+            "Source_Code": "return res",
+            "Mutate_Code": " res"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T11_LCPN_17-Letter-Combinations-of-a-Phone-Number.py",
+            "Source_Code": "return res",
+            "Mutate_Code": "passres"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T11_LCPN_17-Letter-Combinations-of-a-Phone-Number.py",
+            "Source_Code": "return res",
+            "Mutate_Code": "return returnres"
+        }
+    }
+]

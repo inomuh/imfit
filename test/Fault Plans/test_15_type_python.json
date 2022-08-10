@@ -1,0 +1,2214 @@
+[
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T15_LCPN_300-Longest-Increasing-Subsequence.py",
+            "Source_Code": "LIS = [1] * len(nums)",
+            "Mutate_Code": "LIS = [1] len(nums)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T15_LCPN_300-Longest-Increasing-Subsequence.py",
+            "Source_Code": "LIS = [1] * len(nums)",
+            "Mutate_Code": "LIS = [1] len(nums)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T15_LCPN_300-Longest-Increasing-Subsequence.py",
+            "Source_Code": "LIS = [1] * len(nums)",
+            "Mutate_Code": "LIS = [1] + len(nums)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T15_LCPN_300-Longest-Increasing-Subsequence.py",
+            "Source_Code": "LIS = [1] * len(nums)",
+            "Mutate_Code": "LIS = [1] - len(nums)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T15_LCPN_300-Longest-Increasing-Subsequence.py",
+            "Source_Code": "LIS = [1] * len(nums)",
+            "Mutate_Code": "LIS = [1] / len(nums)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T15_LCPN_300-Longest-Increasing-Subsequence.py",
+            "Source_Code": "LIS = [1] * len(nums)",
+            "Mutate_Code": "LIS = [1] % len(nums)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T15_LCPN_300-Longest-Increasing-Subsequence.py",
+            "Source_Code": "LIS = [1] * len(nums)",
+            "Mutate_Code": "LIS = [1] ** len(nums)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T15_LCPN_300-Longest-Increasing-Subsequence.py",
+            "Source_Code": "LIS = [1] * len(nums)",
+            "Mutate_Code": "LIS = [1] // len(nums)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T15_LCPN_300-Longest-Increasing-Subsequence.py",
+            "Source_Code": "LIS = [1] * len(nums)",
+            "Mutate_Code": "LIS = [1] + len(nums)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T15_LCPN_300-Longest-Increasing-Subsequence.py",
+            "Source_Code": "LIS = [1] * len(nums)",
+            "Mutate_Code": "LIS = [1] - len(nums)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T15_LCPN_300-Longest-Increasing-Subsequence.py",
+            "Source_Code": "LIS = [1] * len(nums)",
+            "Mutate_Code": "LIS = [1] / len(nums)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T15_LCPN_300-Longest-Increasing-Subsequence.py",
+            "Source_Code": "LIS = [1] * len(nums)",
+            "Mutate_Code": "LIS = [1] % len(nums)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T15_LCPN_300-Longest-Increasing-Subsequence.py",
+            "Source_Code": "LIS = [1] * len(nums)",
+            "Mutate_Code": "LIS = [1] ** len(nums)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T15_LCPN_300-Longest-Increasing-Subsequence.py",
+            "Source_Code": "LIS = [1] * len(nums)",
+            "Mutate_Code": "LIS = [1] // len(nums)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T15_LCPN_300-Longest-Increasing-Subsequence.py",
+            "Source_Code": "LIS = [1] * len(nums)",
+            "Mutate_Code": "LIS = [1] ++ len(nums)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T15_LCPN_300-Longest-Increasing-Subsequence.py",
+            "Source_Code": "LIS = [1] * len(nums)",
+            "Mutate_Code": "LIS = [1] -- len(nums)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T15_LCPN_300-Longest-Increasing-Subsequence.py",
+            "Source_Code": "LIS = [1] * len(nums)",
+            "Mutate_Code": "LIS = [1] ** len(nums)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T15_LCPN_300-Longest-Increasing-Subsequence.py",
+            "Source_Code": "LIS = [1] * len(nums)",
+            "Mutate_Code": "LIS = [1] // len(nums)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T15_LCPN_300-Longest-Increasing-Subsequence.py",
+            "Source_Code": "LIS = [1] * len(nums)",
+            "Mutate_Code": "LIS = [1] %% len(nums)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T15_LCPN_300-Longest-Increasing-Subsequence.py",
+            "Source_Code": "LIS = [1] * len(nums)",
+            "Mutate_Code": "LIS = [1] **** len(nums)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T15_LCPN_300-Longest-Increasing-Subsequence.py",
+            "Source_Code": "LIS = [1] * len(nums)",
+            "Mutate_Code": "LIS = [1] //// len(nums)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T15_LCPN_300-Longest-Increasing-Subsequence.py",
+            "Source_Code": "LIS = [1] * len(nums)",
+            "Mutate_Code": "LIS = [1] ++ len(nums)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T15_LCPN_300-Longest-Increasing-Subsequence.py",
+            "Source_Code": "LIS = [1] * len(nums)",
+            "Mutate_Code": "LIS = [1] -- len(nums)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T15_LCPN_300-Longest-Increasing-Subsequence.py",
+            "Source_Code": "LIS = [1] * len(nums)",
+            "Mutate_Code": "LIS = [1] ** len(nums)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T15_LCPN_300-Longest-Increasing-Subsequence.py",
+            "Source_Code": "LIS = [1] * len(nums)",
+            "Mutate_Code": "LIS = [1] // len(nums)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T15_LCPN_300-Longest-Increasing-Subsequence.py",
+            "Source_Code": "LIS = [1] * len(nums)",
+            "Mutate_Code": "LIS = [1] %% len(nums)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T15_LCPN_300-Longest-Increasing-Subsequence.py",
+            "Source_Code": "LIS = [1] * len(nums)",
+            "Mutate_Code": "LIS = [1] **** len(nums)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T15_LCPN_300-Longest-Increasing-Subsequence.py",
+            "Source_Code": "LIS = [1] * len(nums)",
+            "Mutate_Code": "LIS = [1] //// len(nums)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T15_LCPN_300-Longest-Increasing-Subsequence.py",
+            "Source_Code": "LIS = [1] * len(nums)",
+            "Mutate_Code": "LIS [1] * len(nums)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T15_LCPN_300-Longest-Increasing-Subsequence.py",
+            "Source_Code": "LIS = [1] * len(nums)",
+            "Mutate_Code": "LIS [1] * len(nums)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T15_LCPN_300-Longest-Increasing-Subsequence.py",
+            "Source_Code": "LIS = [1] * len(nums)",
+            "Mutate_Code": "LIS += [1] * len(nums)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T15_LCPN_300-Longest-Increasing-Subsequence.py",
+            "Source_Code": "LIS = [1] * len(nums)",
+            "Mutate_Code": "LIS -= [1] * len(nums)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T15_LCPN_300-Longest-Increasing-Subsequence.py",
+            "Source_Code": "LIS = [1] * len(nums)",
+            "Mutate_Code": "LIS *= [1] * len(nums)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T15_LCPN_300-Longest-Increasing-Subsequence.py",
+            "Source_Code": "LIS = [1] * len(nums)",
+            "Mutate_Code": "LIS /= [1] * len(nums)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T15_LCPN_300-Longest-Increasing-Subsequence.py",
+            "Source_Code": "LIS = [1] * len(nums)",
+            "Mutate_Code": "LIS %= [1] * len(nums)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T15_LCPN_300-Longest-Increasing-Subsequence.py",
+            "Source_Code": "LIS = [1] * len(nums)",
+            "Mutate_Code": "LIS //= [1] * len(nums)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T15_LCPN_300-Longest-Increasing-Subsequence.py",
+            "Source_Code": "LIS = [1] * len(nums)",
+            "Mutate_Code": "LIS **= [1] * len(nums)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T15_LCPN_300-Longest-Increasing-Subsequence.py",
+            "Source_Code": "LIS = [1] * len(nums)",
+            "Mutate_Code": "LIS &= [1] * len(nums)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T15_LCPN_300-Longest-Increasing-Subsequence.py",
+            "Source_Code": "LIS = [1] * len(nums)",
+            "Mutate_Code": "LIS |= [1] * len(nums)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T15_LCPN_300-Longest-Increasing-Subsequence.py",
+            "Source_Code": "LIS = [1] * len(nums)",
+            "Mutate_Code": "LIS ^= [1] * len(nums)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T15_LCPN_300-Longest-Increasing-Subsequence.py",
+            "Source_Code": "LIS = [1] * len(nums)",
+            "Mutate_Code": "LIS >>= [1] * len(nums)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T15_LCPN_300-Longest-Increasing-Subsequence.py",
+            "Source_Code": "LIS = [1] * len(nums)",
+            "Mutate_Code": "LIS <<= [1] * len(nums)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T15_LCPN_300-Longest-Increasing-Subsequence.py",
+            "Source_Code": "LIS = [1] * len(nums)",
+            "Mutate_Code": "LIS += [1] * len(nums)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T15_LCPN_300-Longest-Increasing-Subsequence.py",
+            "Source_Code": "LIS = [1] * len(nums)",
+            "Mutate_Code": "LIS -= [1] * len(nums)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T15_LCPN_300-Longest-Increasing-Subsequence.py",
+            "Source_Code": "LIS = [1] * len(nums)",
+            "Mutate_Code": "LIS *= [1] * len(nums)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T15_LCPN_300-Longest-Increasing-Subsequence.py",
+            "Source_Code": "LIS = [1] * len(nums)",
+            "Mutate_Code": "LIS /= [1] * len(nums)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T15_LCPN_300-Longest-Increasing-Subsequence.py",
+            "Source_Code": "LIS = [1] * len(nums)",
+            "Mutate_Code": "LIS %= [1] * len(nums)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T15_LCPN_300-Longest-Increasing-Subsequence.py",
+            "Source_Code": "LIS = [1] * len(nums)",
+            "Mutate_Code": "LIS //= [1] * len(nums)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T15_LCPN_300-Longest-Increasing-Subsequence.py",
+            "Source_Code": "LIS = [1] * len(nums)",
+            "Mutate_Code": "LIS **= [1] * len(nums)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T15_LCPN_300-Longest-Increasing-Subsequence.py",
+            "Source_Code": "LIS = [1] * len(nums)",
+            "Mutate_Code": "LIS &= [1] * len(nums)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T15_LCPN_300-Longest-Increasing-Subsequence.py",
+            "Source_Code": "LIS = [1] * len(nums)",
+            "Mutate_Code": "LIS |= [1] * len(nums)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T15_LCPN_300-Longest-Increasing-Subsequence.py",
+            "Source_Code": "LIS = [1] * len(nums)",
+            "Mutate_Code": "LIS ^= [1] * len(nums)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T15_LCPN_300-Longest-Increasing-Subsequence.py",
+            "Source_Code": "LIS = [1] * len(nums)",
+            "Mutate_Code": "LIS >>= [1] * len(nums)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T15_LCPN_300-Longest-Increasing-Subsequence.py",
+            "Source_Code": "LIS = [1] * len(nums)",
+            "Mutate_Code": "LIS <<= [1] * len(nums)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T15_LCPN_300-Longest-Increasing-Subsequence.py",
+            "Source_Code": "LIS = [1] * len(nums)",
+            "Mutate_Code": "LIS == [1] * len(nums)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T15_LCPN_300-Longest-Increasing-Subsequence.py",
+            "Source_Code": "LIS = [1] * len(nums)",
+            "Mutate_Code": "LIS +=+= [1] * len(nums)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T15_LCPN_300-Longest-Increasing-Subsequence.py",
+            "Source_Code": "LIS = [1] * len(nums)",
+            "Mutate_Code": "LIS -=-= [1] * len(nums)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T15_LCPN_300-Longest-Increasing-Subsequence.py",
+            "Source_Code": "LIS = [1] * len(nums)",
+            "Mutate_Code": "LIS *=*= [1] * len(nums)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T15_LCPN_300-Longest-Increasing-Subsequence.py",
+            "Source_Code": "LIS = [1] * len(nums)",
+            "Mutate_Code": "LIS /=/= [1] * len(nums)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T15_LCPN_300-Longest-Increasing-Subsequence.py",
+            "Source_Code": "LIS = [1] * len(nums)",
+            "Mutate_Code": "LIS %=%= [1] * len(nums)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T15_LCPN_300-Longest-Increasing-Subsequence.py",
+            "Source_Code": "LIS = [1] * len(nums)",
+            "Mutate_Code": "LIS //=//= [1] * len(nums)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T15_LCPN_300-Longest-Increasing-Subsequence.py",
+            "Source_Code": "LIS = [1] * len(nums)",
+            "Mutate_Code": "LIS **=**= [1] * len(nums)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T15_LCPN_300-Longest-Increasing-Subsequence.py",
+            "Source_Code": "LIS = [1] * len(nums)",
+            "Mutate_Code": "LIS &=&= [1] * len(nums)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T15_LCPN_300-Longest-Increasing-Subsequence.py",
+            "Source_Code": "LIS = [1] * len(nums)",
+            "Mutate_Code": "LIS |=|= [1] * len(nums)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T15_LCPN_300-Longest-Increasing-Subsequence.py",
+            "Source_Code": "LIS = [1] * len(nums)",
+            "Mutate_Code": "LIS ^=^= [1] * len(nums)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T15_LCPN_300-Longest-Increasing-Subsequence.py",
+            "Source_Code": "LIS = [1] * len(nums)",
+            "Mutate_Code": "LIS >>=>>= [1] * len(nums)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T15_LCPN_300-Longest-Increasing-Subsequence.py",
+            "Source_Code": "LIS = [1] * len(nums)",
+            "Mutate_Code": "LIS <<=<<=[1] * len(nums)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T15_LCPN_300-Longest-Increasing-Subsequence.py",
+            "Source_Code": "LIS = [1] * len(nums)",
+            "Mutate_Code": "LIS == [1] * len(nums)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T15_LCPN_300-Longest-Increasing-Subsequence.py",
+            "Source_Code": "LIS = [1] * len(nums)",
+            "Mutate_Code": "LIS +=+= [1] * len(nums)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T15_LCPN_300-Longest-Increasing-Subsequence.py",
+            "Source_Code": "LIS = [1] * len(nums)",
+            "Mutate_Code": "LIS -=-= [1] * len(nums)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T15_LCPN_300-Longest-Increasing-Subsequence.py",
+            "Source_Code": "LIS = [1] * len(nums)",
+            "Mutate_Code": "LIS *=*= [1] * len(nums)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T15_LCPN_300-Longest-Increasing-Subsequence.py",
+            "Source_Code": "LIS = [1] * len(nums)",
+            "Mutate_Code": "LIS /=/= [1] * len(nums)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T15_LCPN_300-Longest-Increasing-Subsequence.py",
+            "Source_Code": "LIS = [1] * len(nums)",
+            "Mutate_Code": "LIS %=%= [1] * len(nums)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T15_LCPN_300-Longest-Increasing-Subsequence.py",
+            "Source_Code": "LIS = [1] * len(nums)",
+            "Mutate_Code": "LIS //=//= [1] * len(nums)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T15_LCPN_300-Longest-Increasing-Subsequence.py",
+            "Source_Code": "LIS = [1] * len(nums)",
+            "Mutate_Code": "LIS **=**= [1] * len(nums)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T15_LCPN_300-Longest-Increasing-Subsequence.py",
+            "Source_Code": "LIS = [1] * len(nums)",
+            "Mutate_Code": "LIS &=&= [1] * len(nums)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T15_LCPN_300-Longest-Increasing-Subsequence.py",
+            "Source_Code": "LIS = [1] * len(nums)",
+            "Mutate_Code": "LIS |=|= [1] * len(nums)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T15_LCPN_300-Longest-Increasing-Subsequence.py",
+            "Source_Code": "LIS = [1] * len(nums)",
+            "Mutate_Code": "LIS ^=^= [1] * len(nums)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T15_LCPN_300-Longest-Increasing-Subsequence.py",
+            "Source_Code": "LIS = [1] * len(nums)",
+            "Mutate_Code": "LIS >>=>>= [1] * len(nums)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T15_LCPN_300-Longest-Increasing-Subsequence.py",
+            "Source_Code": "LIS = [1] * len(nums)",
+            "Mutate_Code": "LIS <<=<<=[1] * len(nums)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T15_LCPN_300-Longest-Increasing-Subsequence.py",
+            "Source_Code": "LIS = [1] * len(nums)",
+            "Mutate_Code": "LIS = [1] * len( )"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T15_LCPN_300-Longest-Increasing-Subsequence.py",
+            "Source_Code": "for i in range(len(nums) - 1, -1, -1):",
+            "Mutate_Code": "for i in range(len(nums) 1, -1, -1):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T15_LCPN_300-Longest-Increasing-Subsequence.py",
+            "Source_Code": "for i in range(len(nums) - 1, -1, -1):",
+            "Mutate_Code": "for i in range(len(nums) + 1, -1, -1):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T15_LCPN_300-Longest-Increasing-Subsequence.py",
+            "Source_Code": "for i in range(len(nums) - 1, -1, -1):",
+            "Mutate_Code": "for i in range(len(nums) * 1, -1, -1):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T15_LCPN_300-Longest-Increasing-Subsequence.py",
+            "Source_Code": "for i in range(len(nums) - 1, -1, -1):",
+            "Mutate_Code": "for i in range(len(nums) / 1, -1, -1):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T15_LCPN_300-Longest-Increasing-Subsequence.py",
+            "Source_Code": "for i in range(len(nums) - 1, -1, -1):",
+            "Mutate_Code": "for i in range(len(nums) % 1, -1, -1):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T15_LCPN_300-Longest-Increasing-Subsequence.py",
+            "Source_Code": "for i in range(len(nums) - 1, -1, -1):",
+            "Mutate_Code": "for i in range(len(nums) ** 1, -1, -1):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T15_LCPN_300-Longest-Increasing-Subsequence.py",
+            "Source_Code": "for i in range(len(nums) - 1, -1, -1):",
+            "Mutate_Code": "for i in range(len(nums) // 1, -1, -1):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T15_LCPN_300-Longest-Increasing-Subsequence.py",
+            "Source_Code": "for i in range(len(nums) - 1, -1, -1):",
+            "Mutate_Code": "for i in range(len(nums) ++ 1, -1, -1):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T15_LCPN_300-Longest-Increasing-Subsequence.py",
+            "Source_Code": "for i in range(len(nums) - 1, -1, -1):",
+            "Mutate_Code": "for i in range(len(nums) -- 1, -1, -1):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T15_LCPN_300-Longest-Increasing-Subsequence.py",
+            "Source_Code": "for i in range(len(nums) - 1, -1, -1):",
+            "Mutate_Code": "for i in range(len(nums) ** 1, -1, -1):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T15_LCPN_300-Longest-Increasing-Subsequence.py",
+            "Source_Code": "for i in range(len(nums) - 1, -1, -1):",
+            "Mutate_Code": "for i in range(len(nums) // 1, -1, -1):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T15_LCPN_300-Longest-Increasing-Subsequence.py",
+            "Source_Code": "for i in range(len(nums) - 1, -1, -1):",
+            "Mutate_Code": "for i in range(len(nums) %% 1, -1, -1):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T15_LCPN_300-Longest-Increasing-Subsequence.py",
+            "Source_Code": "for i in range(len(nums) - 1, -1, -1):",
+            "Mutate_Code": "for i in range(len(nums) **** 1, -1, -1):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T15_LCPN_300-Longest-Increasing-Subsequence.py",
+            "Source_Code": "for i in range(len(nums) - 1, -1, -1):",
+            "Mutate_Code": "for i in range(len(nums) //// 1, -1, -1):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T15_LCPN_300-Longest-Increasing-Subsequence.py",
+            "Source_Code": "for i in range(len(nums) - 1, -1, -1):",
+            "Mutate_Code": "for i range(len(nums) - 1, -1, -1):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T15_LCPN_300-Longest-Increasing-Subsequence.py",
+            "Source_Code": "for i in range(len(nums) - 1, -1, -1):",
+            "Mutate_Code": "for i is range(len(nums) - 1, -1, -1):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T15_LCPN_300-Longest-Increasing-Subsequence.py",
+            "Source_Code": "for i in range(len(nums) - 1, -1, -1):",
+            "Mutate_Code": "for i is not range(len(nums) - 1, -1, -1):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T15_LCPN_300-Longest-Increasing-Subsequence.py",
+            "Source_Code": "for i in range(len(nums) - 1, -1, -1):",
+            "Mutate_Code": "for i in in range(len(nums) - 1, -1, -1):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T15_LCPN_300-Longest-Increasing-Subsequence.py",
+            "Source_Code": "for i in range(len(nums) - 1, -1, -1):",
+            "Mutate_Code": "for i not in not in range(len(nums) - 1, -1, -1):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T15_LCPN_300-Longest-Increasing-Subsequence.py",
+            "Source_Code": "for i in range(len(nums) - 1, -1, -1):",
+            "Mutate_Code": " "
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T15_LCPN_300-Longest-Increasing-Subsequence.py",
+            "Source_Code": "for i in range(len(nums) - 1, -1, -1):",
+            "Mutate_Code": "while True:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T15_LCPN_300-Longest-Increasing-Subsequence.py",
+            "Source_Code": "for i in range(len(nums) - 1, -1, -1):",
+            "Mutate_Code": "for for: i in range(len(nums) - 1, -1, -1):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T15_LCPN_300-Longest-Increasing-Subsequence.py",
+            "Source_Code": "for i in range(len(nums) - 1, -1, -1):",
+            "Mutate_Code": "for i in range(len( ) - 1, -1, -1):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T15_LCPN_300-Longest-Increasing-Subsequence.py",
+            "Source_Code": "for i in range(len(nums) - 1, -1, -1):",
+            "Mutate_Code": "for i in range( ) - 1, -1, -1):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T15_LCPN_300-Longest-Increasing-Subsequence.py",
+            "Source_Code": "for i in range(len(nums) - 1, -1, -1):",
+            "Mutate_Code": "for i in range(len(nums) 1, -1, -1):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T15_LCPN_300-Longest-Increasing-Subsequence.py",
+            "Source_Code": "for i in range(len(nums) - 1, -1, -1):",
+            "Mutate_Code": "for i in range(len(nums) + 1, -1, -1):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T15_LCPN_300-Longest-Increasing-Subsequence.py",
+            "Source_Code": "for i in range(len(nums) - 1, -1, -1):",
+            "Mutate_Code": "for i in range(len(nums) * 1, -1, -1):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T15_LCPN_300-Longest-Increasing-Subsequence.py",
+            "Source_Code": "for i in range(len(nums) - 1, -1, -1):",
+            "Mutate_Code": "for i in range(len(nums) / 1, -1, -1):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T15_LCPN_300-Longest-Increasing-Subsequence.py",
+            "Source_Code": "for i in range(len(nums) - 1, -1, -1):",
+            "Mutate_Code": "for i in range(len(nums) % 1, -1, -1):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T15_LCPN_300-Longest-Increasing-Subsequence.py",
+            "Source_Code": "for i in range(len(nums) - 1, -1, -1):",
+            "Mutate_Code": "for i in range(len(nums) ** 1, -1, -1):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T15_LCPN_300-Longest-Increasing-Subsequence.py",
+            "Source_Code": "for i in range(len(nums) - 1, -1, -1):",
+            "Mutate_Code": "for i in range(len(nums) // 1, -1, -1):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T15_LCPN_300-Longest-Increasing-Subsequence.py",
+            "Source_Code": "for i in range(len(nums) - 1, -1, -1):",
+            "Mutate_Code": "for i in range(len(nums) ++ 1, -1, -1):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T15_LCPN_300-Longest-Increasing-Subsequence.py",
+            "Source_Code": "for i in range(len(nums) - 1, -1, -1):",
+            "Mutate_Code": "for i in range(len(nums) -- 1, -1, -1):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T15_LCPN_300-Longest-Increasing-Subsequence.py",
+            "Source_Code": "for i in range(len(nums) - 1, -1, -1):",
+            "Mutate_Code": "for i in range(len(nums) ** 1, -1, -1):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T15_LCPN_300-Longest-Increasing-Subsequence.py",
+            "Source_Code": "for i in range(len(nums) - 1, -1, -1):",
+            "Mutate_Code": "for i in range(len(nums) // 1, -1, -1):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T15_LCPN_300-Longest-Increasing-Subsequence.py",
+            "Source_Code": "for i in range(len(nums) - 1, -1, -1):",
+            "Mutate_Code": "for i in range(len(nums) %% 1, -1, -1):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T15_LCPN_300-Longest-Increasing-Subsequence.py",
+            "Source_Code": "for i in range(len(nums) - 1, -1, -1):",
+            "Mutate_Code": "for i in range(len(nums) **** 1, -1, -1):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T15_LCPN_300-Longest-Increasing-Subsequence.py",
+            "Source_Code": "for i in range(len(nums) - 1, -1, -1):",
+            "Mutate_Code": "for i in range(len(nums) //// 1, -1, -1):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T15_LCPN_300-Longest-Increasing-Subsequence.py",
+            "Source_Code": "for i in range(len(nums) - 1, -1, -1):",
+            "Mutate_Code": "for i range(len(nums) - 1, -1, -1):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T15_LCPN_300-Longest-Increasing-Subsequence.py",
+            "Source_Code": "for i in range(len(nums) - 1, -1, -1):",
+            "Mutate_Code": "for i is range(len(nums) - 1, -1, -1):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T15_LCPN_300-Longest-Increasing-Subsequence.py",
+            "Source_Code": "for i in range(len(nums) - 1, -1, -1):",
+            "Mutate_Code": "for i is not range(len(nums) - 1, -1, -1):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T15_LCPN_300-Longest-Increasing-Subsequence.py",
+            "Source_Code": "for i in range(len(nums) - 1, -1, -1):",
+            "Mutate_Code": "for i in in range(len(nums) - 1, -1, -1):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T15_LCPN_300-Longest-Increasing-Subsequence.py",
+            "Source_Code": "for i in range(len(nums) - 1, -1, -1):",
+            "Mutate_Code": "for i not in not in range(len(nums) - 1, -1, -1):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T15_LCPN_300-Longest-Increasing-Subsequence.py",
+            "Source_Code": "for i in range(len(nums) - 1, -1, -1):",
+            "Mutate_Code": " "
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T15_LCPN_300-Longest-Increasing-Subsequence.py",
+            "Source_Code": "for i in range(len(nums) - 1, -1, -1):",
+            "Mutate_Code": "while True:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T15_LCPN_300-Longest-Increasing-Subsequence.py",
+            "Source_Code": "for i in range(len(nums) - 1, -1, -1):",
+            "Mutate_Code": "for for: i in range(len(nums) - 1, -1, -1):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T15_LCPN_300-Longest-Increasing-Subsequence.py",
+            "Source_Code": "for i in range(len(nums) - 1, -1, -1):",
+            "Mutate_Code": "for i in range(len( ) - 1, -1, -1):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T15_LCPN_300-Longest-Increasing-Subsequence.py",
+            "Source_Code": "for i in range(len(nums) - 1, -1, -1):",
+            "Mutate_Code": "for i in range( ) - 1, -1, -1):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T15_LCPN_300-Longest-Increasing-Subsequence.py",
+            "Source_Code": "for i in range(len(nums) - 1, -1, -1):",
+            "Mutate_Code": "for i in range(len(nums) 1, -1, -1):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T15_LCPN_300-Longest-Increasing-Subsequence.py",
+            "Source_Code": "for i in range(len(nums) - 1, -1, -1):",
+            "Mutate_Code": "for i in range(len(nums) + 1, -1, -1):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T15_LCPN_300-Longest-Increasing-Subsequence.py",
+            "Source_Code": "for i in range(len(nums) - 1, -1, -1):",
+            "Mutate_Code": "for i in range(len(nums) * 1, -1, -1):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T15_LCPN_300-Longest-Increasing-Subsequence.py",
+            "Source_Code": "for i in range(len(nums) - 1, -1, -1):",
+            "Mutate_Code": "for i in range(len(nums) / 1, -1, -1):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T15_LCPN_300-Longest-Increasing-Subsequence.py",
+            "Source_Code": "for i in range(len(nums) - 1, -1, -1):",
+            "Mutate_Code": "for i in range(len(nums) % 1, -1, -1):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T15_LCPN_300-Longest-Increasing-Subsequence.py",
+            "Source_Code": "for i in range(len(nums) - 1, -1, -1):",
+            "Mutate_Code": "for i in range(len(nums) ** 1, -1, -1):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T15_LCPN_300-Longest-Increasing-Subsequence.py",
+            "Source_Code": "for i in range(len(nums) - 1, -1, -1):",
+            "Mutate_Code": "for i in range(len(nums) // 1, -1, -1):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T15_LCPN_300-Longest-Increasing-Subsequence.py",
+            "Source_Code": "for i in range(len(nums) - 1, -1, -1):",
+            "Mutate_Code": "for i in range(len(nums) ++ 1, -1, -1):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T15_LCPN_300-Longest-Increasing-Subsequence.py",
+            "Source_Code": "for i in range(len(nums) - 1, -1, -1):",
+            "Mutate_Code": "for i in range(len(nums) -- 1, -1, -1):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T15_LCPN_300-Longest-Increasing-Subsequence.py",
+            "Source_Code": "for i in range(len(nums) - 1, -1, -1):",
+            "Mutate_Code": "for i in range(len(nums) ** 1, -1, -1):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T15_LCPN_300-Longest-Increasing-Subsequence.py",
+            "Source_Code": "for i in range(len(nums) - 1, -1, -1):",
+            "Mutate_Code": "for i in range(len(nums) // 1, -1, -1):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T15_LCPN_300-Longest-Increasing-Subsequence.py",
+            "Source_Code": "for i in range(len(nums) - 1, -1, -1):",
+            "Mutate_Code": "for i in range(len(nums) %% 1, -1, -1):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T15_LCPN_300-Longest-Increasing-Subsequence.py",
+            "Source_Code": "for i in range(len(nums) - 1, -1, -1):",
+            "Mutate_Code": "for i in range(len(nums) **** 1, -1, -1):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T15_LCPN_300-Longest-Increasing-Subsequence.py",
+            "Source_Code": "for i in range(len(nums) - 1, -1, -1):",
+            "Mutate_Code": "for i in range(len(nums) //// 1, -1, -1):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T15_LCPN_300-Longest-Increasing-Subsequence.py",
+            "Source_Code": "for i in range(len(nums) - 1, -1, -1):",
+            "Mutate_Code": "for i range(len(nums) - 1, -1, -1):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T15_LCPN_300-Longest-Increasing-Subsequence.py",
+            "Source_Code": "for i in range(len(nums) - 1, -1, -1):",
+            "Mutate_Code": "for i is range(len(nums) - 1, -1, -1):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T15_LCPN_300-Longest-Increasing-Subsequence.py",
+            "Source_Code": "for i in range(len(nums) - 1, -1, -1):",
+            "Mutate_Code": "for i is not range(len(nums) - 1, -1, -1):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T15_LCPN_300-Longest-Increasing-Subsequence.py",
+            "Source_Code": "for i in range(len(nums) - 1, -1, -1):",
+            "Mutate_Code": "for i in in range(len(nums) - 1, -1, -1):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T15_LCPN_300-Longest-Increasing-Subsequence.py",
+            "Source_Code": "for i in range(len(nums) - 1, -1, -1):",
+            "Mutate_Code": "for i not in not in range(len(nums) - 1, -1, -1):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T15_LCPN_300-Longest-Increasing-Subsequence.py",
+            "Source_Code": "for i in range(len(nums) - 1, -1, -1):",
+            "Mutate_Code": " "
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T15_LCPN_300-Longest-Increasing-Subsequence.py",
+            "Source_Code": "for i in range(len(nums) - 1, -1, -1):",
+            "Mutate_Code": "while True:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T15_LCPN_300-Longest-Increasing-Subsequence.py",
+            "Source_Code": "for i in range(len(nums) - 1, -1, -1):",
+            "Mutate_Code": "for for: i in range(len(nums) - 1, -1, -1):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T15_LCPN_300-Longest-Increasing-Subsequence.py",
+            "Source_Code": "for i in range(len(nums) - 1, -1, -1):",
+            "Mutate_Code": "for i in range(len( ) - 1, -1, -1):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T15_LCPN_300-Longest-Increasing-Subsequence.py",
+            "Source_Code": "for i in range(len(nums) - 1, -1, -1):",
+            "Mutate_Code": "for i in range( ) - 1, -1, -1):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T15_LCPN_300-Longest-Increasing-Subsequence.py",
+            "Source_Code": "for j in range(i + 1, len(nums)):",
+            "Mutate_Code": "for j in range(i 1, len(nums)):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T15_LCPN_300-Longest-Increasing-Subsequence.py",
+            "Source_Code": "for j in range(i + 1, len(nums)):",
+            "Mutate_Code": "for j in range(i - 1, len(nums)):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T15_LCPN_300-Longest-Increasing-Subsequence.py",
+            "Source_Code": "for j in range(i + 1, len(nums)):",
+            "Mutate_Code": "for j in range(i * 1, len(nums)):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T15_LCPN_300-Longest-Increasing-Subsequence.py",
+            "Source_Code": "for j in range(i + 1, len(nums)):",
+            "Mutate_Code": "for j in range(i / 1, len(nums)):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T15_LCPN_300-Longest-Increasing-Subsequence.py",
+            "Source_Code": "for j in range(i + 1, len(nums)):",
+            "Mutate_Code": "for j in range(i % 1, len(nums)):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T15_LCPN_300-Longest-Increasing-Subsequence.py",
+            "Source_Code": "for j in range(i + 1, len(nums)):",
+            "Mutate_Code": "for j in range(i ** 1, len(nums)):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T15_LCPN_300-Longest-Increasing-Subsequence.py",
+            "Source_Code": "for j in range(i + 1, len(nums)):",
+            "Mutate_Code": "for j in range(i // 1, len(nums)):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T15_LCPN_300-Longest-Increasing-Subsequence.py",
+            "Source_Code": "for j in range(i + 1, len(nums)):",
+            "Mutate_Code": "for j in range(i ++ 1, len(nums)):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T15_LCPN_300-Longest-Increasing-Subsequence.py",
+            "Source_Code": "for j in range(i + 1, len(nums)):",
+            "Mutate_Code": "for j in range(i -- 1, len(nums)):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T15_LCPN_300-Longest-Increasing-Subsequence.py",
+            "Source_Code": "for j in range(i + 1, len(nums)):",
+            "Mutate_Code": "for j in range(i ** 1, len(nums)):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T15_LCPN_300-Longest-Increasing-Subsequence.py",
+            "Source_Code": "for j in range(i + 1, len(nums)):",
+            "Mutate_Code": "for j in range(i // 1, len(nums)):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T15_LCPN_300-Longest-Increasing-Subsequence.py",
+            "Source_Code": "for j in range(i + 1, len(nums)):",
+            "Mutate_Code": "for j in range(i %% 1, len(nums)):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T15_LCPN_300-Longest-Increasing-Subsequence.py",
+            "Source_Code": "for j in range(i + 1, len(nums)):",
+            "Mutate_Code": "for j in range(i **** 1, len(nums)):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T15_LCPN_300-Longest-Increasing-Subsequence.py",
+            "Source_Code": "for j in range(i + 1, len(nums)):",
+            "Mutate_Code": "for j in range(i //// 1, len(nums)):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T15_LCPN_300-Longest-Increasing-Subsequence.py",
+            "Source_Code": "for j in range(i + 1, len(nums)):",
+            "Mutate_Code": "for j range(i + 1, len(nums)):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T15_LCPN_300-Longest-Increasing-Subsequence.py",
+            "Source_Code": "for j in range(i + 1, len(nums)):",
+            "Mutate_Code": "for j is range(i + 1, len(nums)):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T15_LCPN_300-Longest-Increasing-Subsequence.py",
+            "Source_Code": "for j in range(i + 1, len(nums)):",
+            "Mutate_Code": "for j is not range(i + 1, len(nums)):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T15_LCPN_300-Longest-Increasing-Subsequence.py",
+            "Source_Code": "for j in range(i + 1, len(nums)):",
+            "Mutate_Code": "for j in in range(i + 1, len(nums)):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T15_LCPN_300-Longest-Increasing-Subsequence.py",
+            "Source_Code": "for j in range(i + 1, len(nums)):",
+            "Mutate_Code": "for j not in not in range(i + 1, len(nums)):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T15_LCPN_300-Longest-Increasing-Subsequence.py",
+            "Source_Code": "for j in range(i + 1, len(nums)):",
+            "Mutate_Code": " "
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T15_LCPN_300-Longest-Increasing-Subsequence.py",
+            "Source_Code": "for j in range(i + 1, len(nums)):",
+            "Mutate_Code": "while True:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T15_LCPN_300-Longest-Increasing-Subsequence.py",
+            "Source_Code": "for j in range(i + 1, len(nums)):",
+            "Mutate_Code": "for for: j in range(i + 1, len(nums)):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T15_LCPN_300-Longest-Increasing-Subsequence.py",
+            "Source_Code": "for j in range(i + 1, len(nums)):",
+            "Mutate_Code": "for j in range(i + 1, len( )):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T15_LCPN_300-Longest-Increasing-Subsequence.py",
+            "Source_Code": "for j in range(i + 1, len(nums)):",
+            "Mutate_Code": "for j in range( )):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T15_LCPN_300-Longest-Increasing-Subsequence.py",
+            "Source_Code": "for j in range(i + 1, len(nums)):",
+            "Mutate_Code": "for j in range(i 1, len(nums)):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T15_LCPN_300-Longest-Increasing-Subsequence.py",
+            "Source_Code": "for j in range(i + 1, len(nums)):",
+            "Mutate_Code": "for j in range(i - 1, len(nums)):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T15_LCPN_300-Longest-Increasing-Subsequence.py",
+            "Source_Code": "for j in range(i + 1, len(nums)):",
+            "Mutate_Code": "for j in range(i * 1, len(nums)):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T15_LCPN_300-Longest-Increasing-Subsequence.py",
+            "Source_Code": "for j in range(i + 1, len(nums)):",
+            "Mutate_Code": "for j in range(i / 1, len(nums)):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T15_LCPN_300-Longest-Increasing-Subsequence.py",
+            "Source_Code": "for j in range(i + 1, len(nums)):",
+            "Mutate_Code": "for j in range(i % 1, len(nums)):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T15_LCPN_300-Longest-Increasing-Subsequence.py",
+            "Source_Code": "for j in range(i + 1, len(nums)):",
+            "Mutate_Code": "for j in range(i ** 1, len(nums)):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T15_LCPN_300-Longest-Increasing-Subsequence.py",
+            "Source_Code": "for j in range(i + 1, len(nums)):",
+            "Mutate_Code": "for j in range(i // 1, len(nums)):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T15_LCPN_300-Longest-Increasing-Subsequence.py",
+            "Source_Code": "for j in range(i + 1, len(nums)):",
+            "Mutate_Code": "for j in range(i ++ 1, len(nums)):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T15_LCPN_300-Longest-Increasing-Subsequence.py",
+            "Source_Code": "for j in range(i + 1, len(nums)):",
+            "Mutate_Code": "for j in range(i -- 1, len(nums)):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T15_LCPN_300-Longest-Increasing-Subsequence.py",
+            "Source_Code": "for j in range(i + 1, len(nums)):",
+            "Mutate_Code": "for j in range(i ** 1, len(nums)):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T15_LCPN_300-Longest-Increasing-Subsequence.py",
+            "Source_Code": "for j in range(i + 1, len(nums)):",
+            "Mutate_Code": "for j in range(i // 1, len(nums)):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T15_LCPN_300-Longest-Increasing-Subsequence.py",
+            "Source_Code": "for j in range(i + 1, len(nums)):",
+            "Mutate_Code": "for j in range(i %% 1, len(nums)):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T15_LCPN_300-Longest-Increasing-Subsequence.py",
+            "Source_Code": "for j in range(i + 1, len(nums)):",
+            "Mutate_Code": "for j in range(i **** 1, len(nums)):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T15_LCPN_300-Longest-Increasing-Subsequence.py",
+            "Source_Code": "for j in range(i + 1, len(nums)):",
+            "Mutate_Code": "for j in range(i //// 1, len(nums)):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T15_LCPN_300-Longest-Increasing-Subsequence.py",
+            "Source_Code": "for j in range(i + 1, len(nums)):",
+            "Mutate_Code": "for j range(i + 1, len(nums)):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T15_LCPN_300-Longest-Increasing-Subsequence.py",
+            "Source_Code": "for j in range(i + 1, len(nums)):",
+            "Mutate_Code": "for j is range(i + 1, len(nums)):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T15_LCPN_300-Longest-Increasing-Subsequence.py",
+            "Source_Code": "for j in range(i + 1, len(nums)):",
+            "Mutate_Code": "for j is not range(i + 1, len(nums)):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T15_LCPN_300-Longest-Increasing-Subsequence.py",
+            "Source_Code": "for j in range(i + 1, len(nums)):",
+            "Mutate_Code": "for j in in range(i + 1, len(nums)):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T15_LCPN_300-Longest-Increasing-Subsequence.py",
+            "Source_Code": "for j in range(i + 1, len(nums)):",
+            "Mutate_Code": "for j not in not in range(i + 1, len(nums)):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T15_LCPN_300-Longest-Increasing-Subsequence.py",
+            "Source_Code": "for j in range(i + 1, len(nums)):",
+            "Mutate_Code": " "
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T15_LCPN_300-Longest-Increasing-Subsequence.py",
+            "Source_Code": "for j in range(i + 1, len(nums)):",
+            "Mutate_Code": "while True:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T15_LCPN_300-Longest-Increasing-Subsequence.py",
+            "Source_Code": "for j in range(i + 1, len(nums)):",
+            "Mutate_Code": "for for: j in range(i + 1, len(nums)):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T15_LCPN_300-Longest-Increasing-Subsequence.py",
+            "Source_Code": "for j in range(i + 1, len(nums)):",
+            "Mutate_Code": "for j in range(i + 1, len( )):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T15_LCPN_300-Longest-Increasing-Subsequence.py",
+            "Source_Code": "for j in range(i + 1, len(nums)):",
+            "Mutate_Code": "for j in range( )):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T15_LCPN_300-Longest-Increasing-Subsequence.py",
+            "Source_Code": "for j in range(i + 1, len(nums)):",
+            "Mutate_Code": "for j in range(i 1, len(nums)):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T15_LCPN_300-Longest-Increasing-Subsequence.py",
+            "Source_Code": "for j in range(i + 1, len(nums)):",
+            "Mutate_Code": "for j in range(i - 1, len(nums)):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T15_LCPN_300-Longest-Increasing-Subsequence.py",
+            "Source_Code": "for j in range(i + 1, len(nums)):",
+            "Mutate_Code": "for j in range(i * 1, len(nums)):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T15_LCPN_300-Longest-Increasing-Subsequence.py",
+            "Source_Code": "for j in range(i + 1, len(nums)):",
+            "Mutate_Code": "for j in range(i / 1, len(nums)):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T15_LCPN_300-Longest-Increasing-Subsequence.py",
+            "Source_Code": "for j in range(i + 1, len(nums)):",
+            "Mutate_Code": "for j in range(i % 1, len(nums)):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T15_LCPN_300-Longest-Increasing-Subsequence.py",
+            "Source_Code": "for j in range(i + 1, len(nums)):",
+            "Mutate_Code": "for j in range(i ** 1, len(nums)):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T15_LCPN_300-Longest-Increasing-Subsequence.py",
+            "Source_Code": "for j in range(i + 1, len(nums)):",
+            "Mutate_Code": "for j in range(i // 1, len(nums)):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T15_LCPN_300-Longest-Increasing-Subsequence.py",
+            "Source_Code": "for j in range(i + 1, len(nums)):",
+            "Mutate_Code": "for j in range(i ++ 1, len(nums)):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T15_LCPN_300-Longest-Increasing-Subsequence.py",
+            "Source_Code": "for j in range(i + 1, len(nums)):",
+            "Mutate_Code": "for j in range(i -- 1, len(nums)):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T15_LCPN_300-Longest-Increasing-Subsequence.py",
+            "Source_Code": "for j in range(i + 1, len(nums)):",
+            "Mutate_Code": "for j in range(i ** 1, len(nums)):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T15_LCPN_300-Longest-Increasing-Subsequence.py",
+            "Source_Code": "for j in range(i + 1, len(nums)):",
+            "Mutate_Code": "for j in range(i // 1, len(nums)):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T15_LCPN_300-Longest-Increasing-Subsequence.py",
+            "Source_Code": "for j in range(i + 1, len(nums)):",
+            "Mutate_Code": "for j in range(i %% 1, len(nums)):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T15_LCPN_300-Longest-Increasing-Subsequence.py",
+            "Source_Code": "for j in range(i + 1, len(nums)):",
+            "Mutate_Code": "for j in range(i **** 1, len(nums)):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T15_LCPN_300-Longest-Increasing-Subsequence.py",
+            "Source_Code": "for j in range(i + 1, len(nums)):",
+            "Mutate_Code": "for j in range(i //// 1, len(nums)):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T15_LCPN_300-Longest-Increasing-Subsequence.py",
+            "Source_Code": "for j in range(i + 1, len(nums)):",
+            "Mutate_Code": "for j range(i + 1, len(nums)):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T15_LCPN_300-Longest-Increasing-Subsequence.py",
+            "Source_Code": "for j in range(i + 1, len(nums)):",
+            "Mutate_Code": "for j is range(i + 1, len(nums)):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T15_LCPN_300-Longest-Increasing-Subsequence.py",
+            "Source_Code": "for j in range(i + 1, len(nums)):",
+            "Mutate_Code": "for j is not range(i + 1, len(nums)):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T15_LCPN_300-Longest-Increasing-Subsequence.py",
+            "Source_Code": "for j in range(i + 1, len(nums)):",
+            "Mutate_Code": "for j in in range(i + 1, len(nums)):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T15_LCPN_300-Longest-Increasing-Subsequence.py",
+            "Source_Code": "for j in range(i + 1, len(nums)):",
+            "Mutate_Code": "for j not in not in range(i + 1, len(nums)):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T15_LCPN_300-Longest-Increasing-Subsequence.py",
+            "Source_Code": "for j in range(i + 1, len(nums)):",
+            "Mutate_Code": " "
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T15_LCPN_300-Longest-Increasing-Subsequence.py",
+            "Source_Code": "for j in range(i + 1, len(nums)):",
+            "Mutate_Code": "while True:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T15_LCPN_300-Longest-Increasing-Subsequence.py",
+            "Source_Code": "for j in range(i + 1, len(nums)):",
+            "Mutate_Code": "for for: j in range(i + 1, len(nums)):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T15_LCPN_300-Longest-Increasing-Subsequence.py",
+            "Source_Code": "for j in range(i + 1, len(nums)):",
+            "Mutate_Code": "for j in range(i + 1, len( )):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T15_LCPN_300-Longest-Increasing-Subsequence.py",
+            "Source_Code": "for j in range(i + 1, len(nums)):",
+            "Mutate_Code": "for j in range( )):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T15_LCPN_300-Longest-Increasing-Subsequence.py",
+            "Source_Code": "if nums[i] < nums[j]:",
+            "Mutate_Code": "if nums[i]   nums[j]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T15_LCPN_300-Longest-Increasing-Subsequence.py",
+            "Source_Code": "if nums[i] < nums[j]:",
+            "Mutate_Code": "if nums[i] == nums[j]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T15_LCPN_300-Longest-Increasing-Subsequence.py",
+            "Source_Code": "if nums[i] < nums[j]:",
+            "Mutate_Code": "if nums[i] != nums[j]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T15_LCPN_300-Longest-Increasing-Subsequence.py",
+            "Source_Code": "if nums[i] < nums[j]:",
+            "Mutate_Code": "if nums[i] > nums[j]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T15_LCPN_300-Longest-Increasing-Subsequence.py",
+            "Source_Code": "if nums[i] < nums[j]:",
+            "Mutate_Code": "if nums[i] >= nums[j]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T15_LCPN_300-Longest-Increasing-Subsequence.py",
+            "Source_Code": "if nums[i] < nums[j]:",
+            "Mutate_Code": "if nums[i] <= nums[j]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T15_LCPN_300-Longest-Increasing-Subsequence.py",
+            "Source_Code": "if nums[i] < nums[j]:",
+            "Mutate_Code": "if nums[i]  ====  nums[j]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T15_LCPN_300-Longest-Increasing-Subsequence.py",
+            "Source_Code": "if nums[i] < nums[j]:",
+            "Mutate_Code": "if nums[i]  !==  nums[j]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T15_LCPN_300-Longest-Increasing-Subsequence.py",
+            "Source_Code": "if nums[i] < nums[j]:",
+            "Mutate_Code": "if nums[i]  >>  nums[j]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T15_LCPN_300-Longest-Increasing-Subsequence.py",
+            "Source_Code": "if nums[i] < nums[j]:",
+            "Mutate_Code": "if nums[i]  <<  nums[j]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T15_LCPN_300-Longest-Increasing-Subsequence.py",
+            "Source_Code": "if nums[i] < nums[j]:",
+            "Mutate_Code": "if nums[i]  >=>=  nums[j]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T15_LCPN_300-Longest-Increasing-Subsequence.py",
+            "Source_Code": "if nums[i] < nums[j]:",
+            "Mutate_Code": "if nums[i]  <=<=  nums[j]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T15_LCPN_300-Longest-Increasing-Subsequence.py",
+            "Source_Code": "if nums[i] < nums[j]:",
+            "Mutate_Code": " "
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T15_LCPN_300-Longest-Increasing-Subsequence.py",
+            "Source_Code": "if nums[i] < nums[j]:",
+            "Mutate_Code": "elif:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T15_LCPN_300-Longest-Increasing-Subsequence.py",
+            "Source_Code": "if nums[i] < nums[j]:",
+            "Mutate_Code": "else:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T15_LCPN_300-Longest-Increasing-Subsequence.py",
+            "Source_Code": "if nums[i] < nums[j]:",
+            "Mutate_Code": "if if"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T15_LCPN_300-Longest-Increasing-Subsequence.py",
+            "Source_Code": "LIS[i] = max(LIS[i], 1 + LIS[j])",
+            "Mutate_Code": "LIS[i] = max(LIS[i], 1 LIS[j])"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T15_LCPN_300-Longest-Increasing-Subsequence.py",
+            "Source_Code": "LIS[i] = max(LIS[i], 1 + LIS[j])",
+            "Mutate_Code": "LIS[i] = max(LIS[i], 1 - LIS[j])"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T15_LCPN_300-Longest-Increasing-Subsequence.py",
+            "Source_Code": "LIS[i] = max(LIS[i], 1 + LIS[j])",
+            "Mutate_Code": "LIS[i] = max(LIS[i], 1 * LIS[j])"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T15_LCPN_300-Longest-Increasing-Subsequence.py",
+            "Source_Code": "LIS[i] = max(LIS[i], 1 + LIS[j])",
+            "Mutate_Code": "LIS[i] = max(LIS[i], 1 / LIS[j])"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T15_LCPN_300-Longest-Increasing-Subsequence.py",
+            "Source_Code": "LIS[i] = max(LIS[i], 1 + LIS[j])",
+            "Mutate_Code": "LIS[i] = max(LIS[i], 1 % LIS[j])"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T15_LCPN_300-Longest-Increasing-Subsequence.py",
+            "Source_Code": "LIS[i] = max(LIS[i], 1 + LIS[j])",
+            "Mutate_Code": "LIS[i] = max(LIS[i], 1 ** LIS[j])"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T15_LCPN_300-Longest-Increasing-Subsequence.py",
+            "Source_Code": "LIS[i] = max(LIS[i], 1 + LIS[j])",
+            "Mutate_Code": "LIS[i] = max(LIS[i], 1 // LIS[j])"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T15_LCPN_300-Longest-Increasing-Subsequence.py",
+            "Source_Code": "LIS[i] = max(LIS[i], 1 + LIS[j])",
+            "Mutate_Code": "LIS[i] = max(LIS[i], 1 ++ LIS[j])"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T15_LCPN_300-Longest-Increasing-Subsequence.py",
+            "Source_Code": "LIS[i] = max(LIS[i], 1 + LIS[j])",
+            "Mutate_Code": "LIS[i] = max(LIS[i], 1 -- LIS[j])"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T15_LCPN_300-Longest-Increasing-Subsequence.py",
+            "Source_Code": "LIS[i] = max(LIS[i], 1 + LIS[j])",
+            "Mutate_Code": "LIS[i] = max(LIS[i], 1 ** LIS[j])"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T15_LCPN_300-Longest-Increasing-Subsequence.py",
+            "Source_Code": "LIS[i] = max(LIS[i], 1 + LIS[j])",
+            "Mutate_Code": "LIS[i] = max(LIS[i], 1 // LIS[j])"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T15_LCPN_300-Longest-Increasing-Subsequence.py",
+            "Source_Code": "LIS[i] = max(LIS[i], 1 + LIS[j])",
+            "Mutate_Code": "LIS[i] = max(LIS[i], 1 %% LIS[j])"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T15_LCPN_300-Longest-Increasing-Subsequence.py",
+            "Source_Code": "LIS[i] = max(LIS[i], 1 + LIS[j])",
+            "Mutate_Code": "LIS[i] = max(LIS[i], 1 **** LIS[j])"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T15_LCPN_300-Longest-Increasing-Subsequence.py",
+            "Source_Code": "LIS[i] = max(LIS[i], 1 + LIS[j])",
+            "Mutate_Code": "LIS[i] = max(LIS[i], 1 //// LIS[j])"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T15_LCPN_300-Longest-Increasing-Subsequence.py",
+            "Source_Code": "LIS[i] = max(LIS[i], 1 + LIS[j])",
+            "Mutate_Code": "LIS[i] max(LIS[i], 1 + LIS[j])"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T15_LCPN_300-Longest-Increasing-Subsequence.py",
+            "Source_Code": "LIS[i] = max(LIS[i], 1 + LIS[j])",
+            "Mutate_Code": "LIS[i] max(LIS[i], 1 + LIS[j])"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T15_LCPN_300-Longest-Increasing-Subsequence.py",
+            "Source_Code": "LIS[i] = max(LIS[i], 1 + LIS[j])",
+            "Mutate_Code": "LIS[i] += max(LIS[i], 1 + LIS[j])"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T15_LCPN_300-Longest-Increasing-Subsequence.py",
+            "Source_Code": "LIS[i] = max(LIS[i], 1 + LIS[j])",
+            "Mutate_Code": "LIS[i] -= max(LIS[i], 1 + LIS[j])"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T15_LCPN_300-Longest-Increasing-Subsequence.py",
+            "Source_Code": "LIS[i] = max(LIS[i], 1 + LIS[j])",
+            "Mutate_Code": "LIS[i] *= max(LIS[i], 1 + LIS[j])"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T15_LCPN_300-Longest-Increasing-Subsequence.py",
+            "Source_Code": "LIS[i] = max(LIS[i], 1 + LIS[j])",
+            "Mutate_Code": "LIS[i] /= max(LIS[i], 1 + LIS[j])"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T15_LCPN_300-Longest-Increasing-Subsequence.py",
+            "Source_Code": "LIS[i] = max(LIS[i], 1 + LIS[j])",
+            "Mutate_Code": "LIS[i] %= max(LIS[i], 1 + LIS[j])"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T15_LCPN_300-Longest-Increasing-Subsequence.py",
+            "Source_Code": "LIS[i] = max(LIS[i], 1 + LIS[j])",
+            "Mutate_Code": "LIS[i] //= max(LIS[i], 1 + LIS[j])"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T15_LCPN_300-Longest-Increasing-Subsequence.py",
+            "Source_Code": "LIS[i] = max(LIS[i], 1 + LIS[j])",
+            "Mutate_Code": "LIS[i] **= max(LIS[i], 1 + LIS[j])"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T15_LCPN_300-Longest-Increasing-Subsequence.py",
+            "Source_Code": "LIS[i] = max(LIS[i], 1 + LIS[j])",
+            "Mutate_Code": "LIS[i] &= max(LIS[i], 1 + LIS[j])"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T15_LCPN_300-Longest-Increasing-Subsequence.py",
+            "Source_Code": "LIS[i] = max(LIS[i], 1 + LIS[j])",
+            "Mutate_Code": "LIS[i] |= max(LIS[i], 1 + LIS[j])"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T15_LCPN_300-Longest-Increasing-Subsequence.py",
+            "Source_Code": "LIS[i] = max(LIS[i], 1 + LIS[j])",
+            "Mutate_Code": "LIS[i] ^= max(LIS[i], 1 + LIS[j])"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T15_LCPN_300-Longest-Increasing-Subsequence.py",
+            "Source_Code": "LIS[i] = max(LIS[i], 1 + LIS[j])",
+            "Mutate_Code": "LIS[i] >>= max(LIS[i], 1 + LIS[j])"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T15_LCPN_300-Longest-Increasing-Subsequence.py",
+            "Source_Code": "LIS[i] = max(LIS[i], 1 + LIS[j])",
+            "Mutate_Code": "LIS[i] <<= max(LIS[i], 1 + LIS[j])"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T15_LCPN_300-Longest-Increasing-Subsequence.py",
+            "Source_Code": "LIS[i] = max(LIS[i], 1 + LIS[j])",
+            "Mutate_Code": "LIS[i] += max(LIS[i], 1 + LIS[j])"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T15_LCPN_300-Longest-Increasing-Subsequence.py",
+            "Source_Code": "LIS[i] = max(LIS[i], 1 + LIS[j])",
+            "Mutate_Code": "LIS[i] -= max(LIS[i], 1 + LIS[j])"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T15_LCPN_300-Longest-Increasing-Subsequence.py",
+            "Source_Code": "LIS[i] = max(LIS[i], 1 + LIS[j])",
+            "Mutate_Code": "LIS[i] *= max(LIS[i], 1 + LIS[j])"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T15_LCPN_300-Longest-Increasing-Subsequence.py",
+            "Source_Code": "LIS[i] = max(LIS[i], 1 + LIS[j])",
+            "Mutate_Code": "LIS[i] /= max(LIS[i], 1 + LIS[j])"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T15_LCPN_300-Longest-Increasing-Subsequence.py",
+            "Source_Code": "LIS[i] = max(LIS[i], 1 + LIS[j])",
+            "Mutate_Code": "LIS[i] %= max(LIS[i], 1 + LIS[j])"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T15_LCPN_300-Longest-Increasing-Subsequence.py",
+            "Source_Code": "LIS[i] = max(LIS[i], 1 + LIS[j])",
+            "Mutate_Code": "LIS[i] //= max(LIS[i], 1 + LIS[j])"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T15_LCPN_300-Longest-Increasing-Subsequence.py",
+            "Source_Code": "LIS[i] = max(LIS[i], 1 + LIS[j])",
+            "Mutate_Code": "LIS[i] **= max(LIS[i], 1 + LIS[j])"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T15_LCPN_300-Longest-Increasing-Subsequence.py",
+            "Source_Code": "LIS[i] = max(LIS[i], 1 + LIS[j])",
+            "Mutate_Code": "LIS[i] &= max(LIS[i], 1 + LIS[j])"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T15_LCPN_300-Longest-Increasing-Subsequence.py",
+            "Source_Code": "LIS[i] = max(LIS[i], 1 + LIS[j])",
+            "Mutate_Code": "LIS[i] |= max(LIS[i], 1 + LIS[j])"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T15_LCPN_300-Longest-Increasing-Subsequence.py",
+            "Source_Code": "LIS[i] = max(LIS[i], 1 + LIS[j])",
+            "Mutate_Code": "LIS[i] ^= max(LIS[i], 1 + LIS[j])"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T15_LCPN_300-Longest-Increasing-Subsequence.py",
+            "Source_Code": "LIS[i] = max(LIS[i], 1 + LIS[j])",
+            "Mutate_Code": "LIS[i] >>= max(LIS[i], 1 + LIS[j])"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T15_LCPN_300-Longest-Increasing-Subsequence.py",
+            "Source_Code": "LIS[i] = max(LIS[i], 1 + LIS[j])",
+            "Mutate_Code": "LIS[i] <<= max(LIS[i], 1 + LIS[j])"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T15_LCPN_300-Longest-Increasing-Subsequence.py",
+            "Source_Code": "LIS[i] = max(LIS[i], 1 + LIS[j])",
+            "Mutate_Code": "LIS[i] == max(LIS[i], 1 + LIS[j])"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T15_LCPN_300-Longest-Increasing-Subsequence.py",
+            "Source_Code": "LIS[i] = max(LIS[i], 1 + LIS[j])",
+            "Mutate_Code": "LIS[i] +=+= max(LIS[i], 1 + LIS[j])"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T15_LCPN_300-Longest-Increasing-Subsequence.py",
+            "Source_Code": "LIS[i] = max(LIS[i], 1 + LIS[j])",
+            "Mutate_Code": "LIS[i] -=-= max(LIS[i], 1 + LIS[j])"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T15_LCPN_300-Longest-Increasing-Subsequence.py",
+            "Source_Code": "LIS[i] = max(LIS[i], 1 + LIS[j])",
+            "Mutate_Code": "LIS[i] *=*= max(LIS[i], 1 + LIS[j])"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T15_LCPN_300-Longest-Increasing-Subsequence.py",
+            "Source_Code": "LIS[i] = max(LIS[i], 1 + LIS[j])",
+            "Mutate_Code": "LIS[i] /=/= max(LIS[i], 1 + LIS[j])"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T15_LCPN_300-Longest-Increasing-Subsequence.py",
+            "Source_Code": "LIS[i] = max(LIS[i], 1 + LIS[j])",
+            "Mutate_Code": "LIS[i] %=%= max(LIS[i], 1 + LIS[j])"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T15_LCPN_300-Longest-Increasing-Subsequence.py",
+            "Source_Code": "LIS[i] = max(LIS[i], 1 + LIS[j])",
+            "Mutate_Code": "LIS[i] //=//= max(LIS[i], 1 + LIS[j])"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T15_LCPN_300-Longest-Increasing-Subsequence.py",
+            "Source_Code": "LIS[i] = max(LIS[i], 1 + LIS[j])",
+            "Mutate_Code": "LIS[i] **=**= max(LIS[i], 1 + LIS[j])"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T15_LCPN_300-Longest-Increasing-Subsequence.py",
+            "Source_Code": "LIS[i] = max(LIS[i], 1 + LIS[j])",
+            "Mutate_Code": "LIS[i] &=&= max(LIS[i], 1 + LIS[j])"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T15_LCPN_300-Longest-Increasing-Subsequence.py",
+            "Source_Code": "LIS[i] = max(LIS[i], 1 + LIS[j])",
+            "Mutate_Code": "LIS[i] |=|= max(LIS[i], 1 + LIS[j])"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T15_LCPN_300-Longest-Increasing-Subsequence.py",
+            "Source_Code": "LIS[i] = max(LIS[i], 1 + LIS[j])",
+            "Mutate_Code": "LIS[i] ^=^= max(LIS[i], 1 + LIS[j])"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T15_LCPN_300-Longest-Increasing-Subsequence.py",
+            "Source_Code": "LIS[i] = max(LIS[i], 1 + LIS[j])",
+            "Mutate_Code": "LIS[i] >>=>>= max(LIS[i], 1 + LIS[j])"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T15_LCPN_300-Longest-Increasing-Subsequence.py",
+            "Source_Code": "LIS[i] = max(LIS[i], 1 + LIS[j])",
+            "Mutate_Code": "LIS[i] <<=<<=max(LIS[i], 1 + LIS[j])"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T15_LCPN_300-Longest-Increasing-Subsequence.py",
+            "Source_Code": "LIS[i] = max(LIS[i], 1 + LIS[j])",
+            "Mutate_Code": "LIS[i] == max(LIS[i], 1 + LIS[j])"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T15_LCPN_300-Longest-Increasing-Subsequence.py",
+            "Source_Code": "LIS[i] = max(LIS[i], 1 + LIS[j])",
+            "Mutate_Code": "LIS[i] +=+= max(LIS[i], 1 + LIS[j])"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T15_LCPN_300-Longest-Increasing-Subsequence.py",
+            "Source_Code": "LIS[i] = max(LIS[i], 1 + LIS[j])",
+            "Mutate_Code": "LIS[i] -=-= max(LIS[i], 1 + LIS[j])"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T15_LCPN_300-Longest-Increasing-Subsequence.py",
+            "Source_Code": "LIS[i] = max(LIS[i], 1 + LIS[j])",
+            "Mutate_Code": "LIS[i] *=*= max(LIS[i], 1 + LIS[j])"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T15_LCPN_300-Longest-Increasing-Subsequence.py",
+            "Source_Code": "LIS[i] = max(LIS[i], 1 + LIS[j])",
+            "Mutate_Code": "LIS[i] /=/= max(LIS[i], 1 + LIS[j])"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T15_LCPN_300-Longest-Increasing-Subsequence.py",
+            "Source_Code": "LIS[i] = max(LIS[i], 1 + LIS[j])",
+            "Mutate_Code": "LIS[i] %=%= max(LIS[i], 1 + LIS[j])"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T15_LCPN_300-Longest-Increasing-Subsequence.py",
+            "Source_Code": "LIS[i] = max(LIS[i], 1 + LIS[j])",
+            "Mutate_Code": "LIS[i] //=//= max(LIS[i], 1 + LIS[j])"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T15_LCPN_300-Longest-Increasing-Subsequence.py",
+            "Source_Code": "LIS[i] = max(LIS[i], 1 + LIS[j])",
+            "Mutate_Code": "LIS[i] **=**= max(LIS[i], 1 + LIS[j])"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T15_LCPN_300-Longest-Increasing-Subsequence.py",
+            "Source_Code": "LIS[i] = max(LIS[i], 1 + LIS[j])",
+            "Mutate_Code": "LIS[i] &=&= max(LIS[i], 1 + LIS[j])"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T15_LCPN_300-Longest-Increasing-Subsequence.py",
+            "Source_Code": "LIS[i] = max(LIS[i], 1 + LIS[j])",
+            "Mutate_Code": "LIS[i] |=|= max(LIS[i], 1 + LIS[j])"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T15_LCPN_300-Longest-Increasing-Subsequence.py",
+            "Source_Code": "LIS[i] = max(LIS[i], 1 + LIS[j])",
+            "Mutate_Code": "LIS[i] ^=^= max(LIS[i], 1 + LIS[j])"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T15_LCPN_300-Longest-Increasing-Subsequence.py",
+            "Source_Code": "LIS[i] = max(LIS[i], 1 + LIS[j])",
+            "Mutate_Code": "LIS[i] >>=>>= max(LIS[i], 1 + LIS[j])"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T15_LCPN_300-Longest-Increasing-Subsequence.py",
+            "Source_Code": "LIS[i] = max(LIS[i], 1 + LIS[j])",
+            "Mutate_Code": "LIS[i] <<=<<=max(LIS[i], 1 + LIS[j])"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T15_LCPN_300-Longest-Increasing-Subsequence.py",
+            "Source_Code": "LIS[i] = max(LIS[i], 1 + LIS[j])",
+            "Mutate_Code": "LIS[i] = max( )"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T15_LCPN_300-Longest-Increasing-Subsequence.py",
+            "Source_Code": "return max(LIS)",
+            "Mutate_Code": " max(LIS)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T15_LCPN_300-Longest-Increasing-Subsequence.py",
+            "Source_Code": "return max(LIS)",
+            "Mutate_Code": "passmax(LIS)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T15_LCPN_300-Longest-Increasing-Subsequence.py",
+            "Source_Code": "return max(LIS)",
+            "Mutate_Code": "return returnmax(LIS)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T15_LCPN_300-Longest-Increasing-Subsequence.py",
+            "Source_Code": "return max(LIS)",
+            "Mutate_Code": "return max( )"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T15_LCPN_300-Longest-Increasing-Subsequence.py",
+            "Source_Code": "return max(LIS)",
+            "Mutate_Code": " max(LIS)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T15_LCPN_300-Longest-Increasing-Subsequence.py",
+            "Source_Code": "return max(LIS)",
+            "Mutate_Code": "passmax(LIS)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T15_LCPN_300-Longest-Increasing-Subsequence.py",
+            "Source_Code": "return max(LIS)",
+            "Mutate_Code": "return returnmax(LIS)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T15_LCPN_300-Longest-Increasing-Subsequence.py",
+            "Source_Code": "return max(LIS)",
+            "Mutate_Code": "return max( )"
+        }
+    }
+]

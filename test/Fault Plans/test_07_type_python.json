@@ -1,0 +1,2333 @@
+[
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T7_LCPN_11-Container-With-Most-Water.py",
+            "Source_Code": "l, r = 0, len(height) - 1",
+            "Mutate_Code": "l, r = 0, len(height) 1"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T7_LCPN_11-Container-With-Most-Water.py",
+            "Source_Code": "l, r = 0, len(height) - 1",
+            "Mutate_Code": "l, r = 0, len(height) + 1"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T7_LCPN_11-Container-With-Most-Water.py",
+            "Source_Code": "l, r = 0, len(height) - 1",
+            "Mutate_Code": "l, r = 0, len(height) * 1"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T7_LCPN_11-Container-With-Most-Water.py",
+            "Source_Code": "l, r = 0, len(height) - 1",
+            "Mutate_Code": "l, r = 0, len(height) / 1"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T7_LCPN_11-Container-With-Most-Water.py",
+            "Source_Code": "l, r = 0, len(height) - 1",
+            "Mutate_Code": "l, r = 0, len(height) % 1"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T7_LCPN_11-Container-With-Most-Water.py",
+            "Source_Code": "l, r = 0, len(height) - 1",
+            "Mutate_Code": "l, r = 0, len(height) ** 1"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T7_LCPN_11-Container-With-Most-Water.py",
+            "Source_Code": "l, r = 0, len(height) - 1",
+            "Mutate_Code": "l, r = 0, len(height) // 1"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T7_LCPN_11-Container-With-Most-Water.py",
+            "Source_Code": "l, r = 0, len(height) - 1",
+            "Mutate_Code": "l, r = 0, len(height) ++ 1"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T7_LCPN_11-Container-With-Most-Water.py",
+            "Source_Code": "l, r = 0, len(height) - 1",
+            "Mutate_Code": "l, r = 0, len(height) -- 1"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T7_LCPN_11-Container-With-Most-Water.py",
+            "Source_Code": "l, r = 0, len(height) - 1",
+            "Mutate_Code": "l, r = 0, len(height) ** 1"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T7_LCPN_11-Container-With-Most-Water.py",
+            "Source_Code": "l, r = 0, len(height) - 1",
+            "Mutate_Code": "l, r = 0, len(height) // 1"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T7_LCPN_11-Container-With-Most-Water.py",
+            "Source_Code": "l, r = 0, len(height) - 1",
+            "Mutate_Code": "l, r = 0, len(height) %% 1"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T7_LCPN_11-Container-With-Most-Water.py",
+            "Source_Code": "l, r = 0, len(height) - 1",
+            "Mutate_Code": "l, r = 0, len(height) **** 1"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T7_LCPN_11-Container-With-Most-Water.py",
+            "Source_Code": "l, r = 0, len(height) - 1",
+            "Mutate_Code": "l, r = 0, len(height) //// 1"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T7_LCPN_11-Container-With-Most-Water.py",
+            "Source_Code": "l, r = 0, len(height) - 1",
+            "Mutate_Code": "l, r 0, len(height) - 1"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T7_LCPN_11-Container-With-Most-Water.py",
+            "Source_Code": "l, r = 0, len(height) - 1",
+            "Mutate_Code": "l, r 0, len(height) - 1"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T7_LCPN_11-Container-With-Most-Water.py",
+            "Source_Code": "l, r = 0, len(height) - 1",
+            "Mutate_Code": "l, r += 0, len(height) - 1"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T7_LCPN_11-Container-With-Most-Water.py",
+            "Source_Code": "l, r = 0, len(height) - 1",
+            "Mutate_Code": "l, r -= 0, len(height) - 1"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T7_LCPN_11-Container-With-Most-Water.py",
+            "Source_Code": "l, r = 0, len(height) - 1",
+            "Mutate_Code": "l, r *= 0, len(height) - 1"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T7_LCPN_11-Container-With-Most-Water.py",
+            "Source_Code": "l, r = 0, len(height) - 1",
+            "Mutate_Code": "l, r /= 0, len(height) - 1"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T7_LCPN_11-Container-With-Most-Water.py",
+            "Source_Code": "l, r = 0, len(height) - 1",
+            "Mutate_Code": "l, r %= 0, len(height) - 1"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T7_LCPN_11-Container-With-Most-Water.py",
+            "Source_Code": "l, r = 0, len(height) - 1",
+            "Mutate_Code": "l, r //= 0, len(height) - 1"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T7_LCPN_11-Container-With-Most-Water.py",
+            "Source_Code": "l, r = 0, len(height) - 1",
+            "Mutate_Code": "l, r **= 0, len(height) - 1"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T7_LCPN_11-Container-With-Most-Water.py",
+            "Source_Code": "l, r = 0, len(height) - 1",
+            "Mutate_Code": "l, r &= 0, len(height) - 1"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T7_LCPN_11-Container-With-Most-Water.py",
+            "Source_Code": "l, r = 0, len(height) - 1",
+            "Mutate_Code": "l, r |= 0, len(height) - 1"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T7_LCPN_11-Container-With-Most-Water.py",
+            "Source_Code": "l, r = 0, len(height) - 1",
+            "Mutate_Code": "l, r ^= 0, len(height) - 1"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T7_LCPN_11-Container-With-Most-Water.py",
+            "Source_Code": "l, r = 0, len(height) - 1",
+            "Mutate_Code": "l, r >>= 0, len(height) - 1"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T7_LCPN_11-Container-With-Most-Water.py",
+            "Source_Code": "l, r = 0, len(height) - 1",
+            "Mutate_Code": "l, r <<= 0, len(height) - 1"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T7_LCPN_11-Container-With-Most-Water.py",
+            "Source_Code": "l, r = 0, len(height) - 1",
+            "Mutate_Code": "l, r += 0, len(height) - 1"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T7_LCPN_11-Container-With-Most-Water.py",
+            "Source_Code": "l, r = 0, len(height) - 1",
+            "Mutate_Code": "l, r -= 0, len(height) - 1"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T7_LCPN_11-Container-With-Most-Water.py",
+            "Source_Code": "l, r = 0, len(height) - 1",
+            "Mutate_Code": "l, r *= 0, len(height) - 1"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T7_LCPN_11-Container-With-Most-Water.py",
+            "Source_Code": "l, r = 0, len(height) - 1",
+            "Mutate_Code": "l, r /= 0, len(height) - 1"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T7_LCPN_11-Container-With-Most-Water.py",
+            "Source_Code": "l, r = 0, len(height) - 1",
+            "Mutate_Code": "l, r %= 0, len(height) - 1"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T7_LCPN_11-Container-With-Most-Water.py",
+            "Source_Code": "l, r = 0, len(height) - 1",
+            "Mutate_Code": "l, r //= 0, len(height) - 1"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T7_LCPN_11-Container-With-Most-Water.py",
+            "Source_Code": "l, r = 0, len(height) - 1",
+            "Mutate_Code": "l, r **= 0, len(height) - 1"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T7_LCPN_11-Container-With-Most-Water.py",
+            "Source_Code": "l, r = 0, len(height) - 1",
+            "Mutate_Code": "l, r &= 0, len(height) - 1"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T7_LCPN_11-Container-With-Most-Water.py",
+            "Source_Code": "l, r = 0, len(height) - 1",
+            "Mutate_Code": "l, r |= 0, len(height) - 1"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T7_LCPN_11-Container-With-Most-Water.py",
+            "Source_Code": "l, r = 0, len(height) - 1",
+            "Mutate_Code": "l, r ^= 0, len(height) - 1"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T7_LCPN_11-Container-With-Most-Water.py",
+            "Source_Code": "l, r = 0, len(height) - 1",
+            "Mutate_Code": "l, r >>= 0, len(height) - 1"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T7_LCPN_11-Container-With-Most-Water.py",
+            "Source_Code": "l, r = 0, len(height) - 1",
+            "Mutate_Code": "l, r <<= 0, len(height) - 1"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T7_LCPN_11-Container-With-Most-Water.py",
+            "Source_Code": "l, r = 0, len(height) - 1",
+            "Mutate_Code": "l, r == 0, len(height) - 1"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T7_LCPN_11-Container-With-Most-Water.py",
+            "Source_Code": "l, r = 0, len(height) - 1",
+            "Mutate_Code": "l, r +=+= 0, len(height) - 1"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T7_LCPN_11-Container-With-Most-Water.py",
+            "Source_Code": "l, r = 0, len(height) - 1",
+            "Mutate_Code": "l, r -=-= 0, len(height) - 1"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T7_LCPN_11-Container-With-Most-Water.py",
+            "Source_Code": "l, r = 0, len(height) - 1",
+            "Mutate_Code": "l, r *=*= 0, len(height) - 1"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T7_LCPN_11-Container-With-Most-Water.py",
+            "Source_Code": "l, r = 0, len(height) - 1",
+            "Mutate_Code": "l, r /=/= 0, len(height) - 1"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T7_LCPN_11-Container-With-Most-Water.py",
+            "Source_Code": "l, r = 0, len(height) - 1",
+            "Mutate_Code": "l, r %=%= 0, len(height) - 1"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T7_LCPN_11-Container-With-Most-Water.py",
+            "Source_Code": "l, r = 0, len(height) - 1",
+            "Mutate_Code": "l, r //=//= 0, len(height) - 1"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T7_LCPN_11-Container-With-Most-Water.py",
+            "Source_Code": "l, r = 0, len(height) - 1",
+            "Mutate_Code": "l, r **=**= 0, len(height) - 1"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T7_LCPN_11-Container-With-Most-Water.py",
+            "Source_Code": "l, r = 0, len(height) - 1",
+            "Mutate_Code": "l, r &=&= 0, len(height) - 1"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T7_LCPN_11-Container-With-Most-Water.py",
+            "Source_Code": "l, r = 0, len(height) - 1",
+            "Mutate_Code": "l, r |=|= 0, len(height) - 1"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T7_LCPN_11-Container-With-Most-Water.py",
+            "Source_Code": "l, r = 0, len(height) - 1",
+            "Mutate_Code": "l, r ^=^= 0, len(height) - 1"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T7_LCPN_11-Container-With-Most-Water.py",
+            "Source_Code": "l, r = 0, len(height) - 1",
+            "Mutate_Code": "l, r >>=>>= 0, len(height) - 1"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T7_LCPN_11-Container-With-Most-Water.py",
+            "Source_Code": "l, r = 0, len(height) - 1",
+            "Mutate_Code": "l, r <<=<<=0, len(height) - 1"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T7_LCPN_11-Container-With-Most-Water.py",
+            "Source_Code": "l, r = 0, len(height) - 1",
+            "Mutate_Code": "l, r == 0, len(height) - 1"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T7_LCPN_11-Container-With-Most-Water.py",
+            "Source_Code": "l, r = 0, len(height) - 1",
+            "Mutate_Code": "l, r +=+= 0, len(height) - 1"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T7_LCPN_11-Container-With-Most-Water.py",
+            "Source_Code": "l, r = 0, len(height) - 1",
+            "Mutate_Code": "l, r -=-= 0, len(height) - 1"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T7_LCPN_11-Container-With-Most-Water.py",
+            "Source_Code": "l, r = 0, len(height) - 1",
+            "Mutate_Code": "l, r *=*= 0, len(height) - 1"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T7_LCPN_11-Container-With-Most-Water.py",
+            "Source_Code": "l, r = 0, len(height) - 1",
+            "Mutate_Code": "l, r /=/= 0, len(height) - 1"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T7_LCPN_11-Container-With-Most-Water.py",
+            "Source_Code": "l, r = 0, len(height) - 1",
+            "Mutate_Code": "l, r %=%= 0, len(height) - 1"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T7_LCPN_11-Container-With-Most-Water.py",
+            "Source_Code": "l, r = 0, len(height) - 1",
+            "Mutate_Code": "l, r //=//= 0, len(height) - 1"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T7_LCPN_11-Container-With-Most-Water.py",
+            "Source_Code": "l, r = 0, len(height) - 1",
+            "Mutate_Code": "l, r **=**= 0, len(height) - 1"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T7_LCPN_11-Container-With-Most-Water.py",
+            "Source_Code": "l, r = 0, len(height) - 1",
+            "Mutate_Code": "l, r &=&= 0, len(height) - 1"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T7_LCPN_11-Container-With-Most-Water.py",
+            "Source_Code": "l, r = 0, len(height) - 1",
+            "Mutate_Code": "l, r |=|= 0, len(height) - 1"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T7_LCPN_11-Container-With-Most-Water.py",
+            "Source_Code": "l, r = 0, len(height) - 1",
+            "Mutate_Code": "l, r ^=^= 0, len(height) - 1"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T7_LCPN_11-Container-With-Most-Water.py",
+            "Source_Code": "l, r = 0, len(height) - 1",
+            "Mutate_Code": "l, r >>=>>= 0, len(height) - 1"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T7_LCPN_11-Container-With-Most-Water.py",
+            "Source_Code": "l, r = 0, len(height) - 1",
+            "Mutate_Code": "l, r <<=<<=0, len(height) - 1"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T7_LCPN_11-Container-With-Most-Water.py",
+            "Source_Code": "l, r = 0, len(height) - 1",
+            "Mutate_Code": "l, r = 0, len( ) - 1"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T7_LCPN_11-Container-With-Most-Water.py",
+            "Source_Code": "while l < r:",
+            "Mutate_Code": "while l   r:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T7_LCPN_11-Container-With-Most-Water.py",
+            "Source_Code": "while l < r:",
+            "Mutate_Code": "while l == r:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T7_LCPN_11-Container-With-Most-Water.py",
+            "Source_Code": "while l < r:",
+            "Mutate_Code": "while l != r:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T7_LCPN_11-Container-With-Most-Water.py",
+            "Source_Code": "while l < r:",
+            "Mutate_Code": "while l > r:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T7_LCPN_11-Container-With-Most-Water.py",
+            "Source_Code": "while l < r:",
+            "Mutate_Code": "while l >= r:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T7_LCPN_11-Container-With-Most-Water.py",
+            "Source_Code": "while l < r:",
+            "Mutate_Code": "while l <= r:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T7_LCPN_11-Container-With-Most-Water.py",
+            "Source_Code": "while l < r:",
+            "Mutate_Code": "while l  ====  r:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T7_LCPN_11-Container-With-Most-Water.py",
+            "Source_Code": "while l < r:",
+            "Mutate_Code": "while l  !==  r:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T7_LCPN_11-Container-With-Most-Water.py",
+            "Source_Code": "while l < r:",
+            "Mutate_Code": "while l  >>  r:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T7_LCPN_11-Container-With-Most-Water.py",
+            "Source_Code": "while l < r:",
+            "Mutate_Code": "while l  <<  r:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T7_LCPN_11-Container-With-Most-Water.py",
+            "Source_Code": "while l < r:",
+            "Mutate_Code": "while l  >=>=  r:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T7_LCPN_11-Container-With-Most-Water.py",
+            "Source_Code": "while l < r:",
+            "Mutate_Code": "while l  <=<=  r:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T7_LCPN_11-Container-With-Most-Water.py",
+            "Source_Code": "while l < r:",
+            "Mutate_Code": " "
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T7_LCPN_11-Container-With-Most-Water.py",
+            "Source_Code": "while l < r:",
+            "Mutate_Code": "for "
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T7_LCPN_11-Container-With-Most-Water.py",
+            "Source_Code": "while l < r:",
+            "Mutate_Code": "while while:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T7_LCPN_11-Container-With-Most-Water.py",
+            "Source_Code": "res = max(res, min(height[l], height[r]) * (r - l))",
+            "Mutate_Code": "res = max(res, min(height[l], height[r]) * (r l))"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T7_LCPN_11-Container-With-Most-Water.py",
+            "Source_Code": "res = max(res, min(height[l], height[r]) * (r - l))",
+            "Mutate_Code": "res = max(res, min(height[l], height[r]) (r - l))"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T7_LCPN_11-Container-With-Most-Water.py",
+            "Source_Code": "res = max(res, min(height[l], height[r]) * (r - l))",
+            "Mutate_Code": "res = max(res, min(height[l], height[r]) (r - l))"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T7_LCPN_11-Container-With-Most-Water.py",
+            "Source_Code": "res = max(res, min(height[l], height[r]) * (r - l))",
+            "Mutate_Code": "res = max(res, min(height[l], height[r]) * (r + l))"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T7_LCPN_11-Container-With-Most-Water.py",
+            "Source_Code": "res = max(res, min(height[l], height[r]) * (r - l))",
+            "Mutate_Code": "res = max(res, min(height[l], height[r]) * (r * l))"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T7_LCPN_11-Container-With-Most-Water.py",
+            "Source_Code": "res = max(res, min(height[l], height[r]) * (r - l))",
+            "Mutate_Code": "res = max(res, min(height[l], height[r]) * (r / l))"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T7_LCPN_11-Container-With-Most-Water.py",
+            "Source_Code": "res = max(res, min(height[l], height[r]) * (r - l))",
+            "Mutate_Code": "res = max(res, min(height[l], height[r]) * (r % l))"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T7_LCPN_11-Container-With-Most-Water.py",
+            "Source_Code": "res = max(res, min(height[l], height[r]) * (r - l))",
+            "Mutate_Code": "res = max(res, min(height[l], height[r]) * (r ** l))"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T7_LCPN_11-Container-With-Most-Water.py",
+            "Source_Code": "res = max(res, min(height[l], height[r]) * (r - l))",
+            "Mutate_Code": "res = max(res, min(height[l], height[r]) * (r // l))"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T7_LCPN_11-Container-With-Most-Water.py",
+            "Source_Code": "res = max(res, min(height[l], height[r]) * (r - l))",
+            "Mutate_Code": "res = max(res, min(height[l], height[r]) + (r - l))"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T7_LCPN_11-Container-With-Most-Water.py",
+            "Source_Code": "res = max(res, min(height[l], height[r]) * (r - l))",
+            "Mutate_Code": "res = max(res, min(height[l], height[r]) - (r - l))"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T7_LCPN_11-Container-With-Most-Water.py",
+            "Source_Code": "res = max(res, min(height[l], height[r]) * (r - l))",
+            "Mutate_Code": "res = max(res, min(height[l], height[r]) / (r - l))"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T7_LCPN_11-Container-With-Most-Water.py",
+            "Source_Code": "res = max(res, min(height[l], height[r]) * (r - l))",
+            "Mutate_Code": "res = max(res, min(height[l], height[r]) % (r - l))"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T7_LCPN_11-Container-With-Most-Water.py",
+            "Source_Code": "res = max(res, min(height[l], height[r]) * (r - l))",
+            "Mutate_Code": "res = max(res, min(height[l], height[r]) ** (r - l))"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T7_LCPN_11-Container-With-Most-Water.py",
+            "Source_Code": "res = max(res, min(height[l], height[r]) * (r - l))",
+            "Mutate_Code": "res = max(res, min(height[l], height[r]) // (r - l))"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T7_LCPN_11-Container-With-Most-Water.py",
+            "Source_Code": "res = max(res, min(height[l], height[r]) * (r - l))",
+            "Mutate_Code": "res = max(res, min(height[l], height[r]) + (r - l))"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T7_LCPN_11-Container-With-Most-Water.py",
+            "Source_Code": "res = max(res, min(height[l], height[r]) * (r - l))",
+            "Mutate_Code": "res = max(res, min(height[l], height[r]) - (r - l))"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T7_LCPN_11-Container-With-Most-Water.py",
+            "Source_Code": "res = max(res, min(height[l], height[r]) * (r - l))",
+            "Mutate_Code": "res = max(res, min(height[l], height[r]) / (r - l))"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T7_LCPN_11-Container-With-Most-Water.py",
+            "Source_Code": "res = max(res, min(height[l], height[r]) * (r - l))",
+            "Mutate_Code": "res = max(res, min(height[l], height[r]) % (r - l))"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T7_LCPN_11-Container-With-Most-Water.py",
+            "Source_Code": "res = max(res, min(height[l], height[r]) * (r - l))",
+            "Mutate_Code": "res = max(res, min(height[l], height[r]) ** (r - l))"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T7_LCPN_11-Container-With-Most-Water.py",
+            "Source_Code": "res = max(res, min(height[l], height[r]) * (r - l))",
+            "Mutate_Code": "res = max(res, min(height[l], height[r]) // (r - l))"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T7_LCPN_11-Container-With-Most-Water.py",
+            "Source_Code": "res = max(res, min(height[l], height[r]) * (r - l))",
+            "Mutate_Code": "res = max(res, min(height[l], height[r]) * (r ++ l))"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T7_LCPN_11-Container-With-Most-Water.py",
+            "Source_Code": "res = max(res, min(height[l], height[r]) * (r - l))",
+            "Mutate_Code": "res = max(res, min(height[l], height[r]) * (r -- l))"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T7_LCPN_11-Container-With-Most-Water.py",
+            "Source_Code": "res = max(res, min(height[l], height[r]) * (r - l))",
+            "Mutate_Code": "res = max(res, min(height[l], height[r]) * (r ** l))"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T7_LCPN_11-Container-With-Most-Water.py",
+            "Source_Code": "res = max(res, min(height[l], height[r]) * (r - l))",
+            "Mutate_Code": "res = max(res, min(height[l], height[r]) * (r // l))"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T7_LCPN_11-Container-With-Most-Water.py",
+            "Source_Code": "res = max(res, min(height[l], height[r]) * (r - l))",
+            "Mutate_Code": "res = max(res, min(height[l], height[r]) * (r %% l))"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T7_LCPN_11-Container-With-Most-Water.py",
+            "Source_Code": "res = max(res, min(height[l], height[r]) * (r - l))",
+            "Mutate_Code": "res = max(res, min(height[l], height[r]) * (r **** l))"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T7_LCPN_11-Container-With-Most-Water.py",
+            "Source_Code": "res = max(res, min(height[l], height[r]) * (r - l))",
+            "Mutate_Code": "res = max(res, min(height[l], height[r]) * (r //// l))"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T7_LCPN_11-Container-With-Most-Water.py",
+            "Source_Code": "res = max(res, min(height[l], height[r]) * (r - l))",
+            "Mutate_Code": "res = max(res, min(height[l], height[r]) ++ (r - l))"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T7_LCPN_11-Container-With-Most-Water.py",
+            "Source_Code": "res = max(res, min(height[l], height[r]) * (r - l))",
+            "Mutate_Code": "res = max(res, min(height[l], height[r]) -- (r - l))"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T7_LCPN_11-Container-With-Most-Water.py",
+            "Source_Code": "res = max(res, min(height[l], height[r]) * (r - l))",
+            "Mutate_Code": "res = max(res, min(height[l], height[r]) ** (r - l))"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T7_LCPN_11-Container-With-Most-Water.py",
+            "Source_Code": "res = max(res, min(height[l], height[r]) * (r - l))",
+            "Mutate_Code": "res = max(res, min(height[l], height[r]) // (r - l))"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T7_LCPN_11-Container-With-Most-Water.py",
+            "Source_Code": "res = max(res, min(height[l], height[r]) * (r - l))",
+            "Mutate_Code": "res = max(res, min(height[l], height[r]) %% (r - l))"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T7_LCPN_11-Container-With-Most-Water.py",
+            "Source_Code": "res = max(res, min(height[l], height[r]) * (r - l))",
+            "Mutate_Code": "res = max(res, min(height[l], height[r]) **** (r - l))"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T7_LCPN_11-Container-With-Most-Water.py",
+            "Source_Code": "res = max(res, min(height[l], height[r]) * (r - l))",
+            "Mutate_Code": "res = max(res, min(height[l], height[r]) //// (r - l))"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T7_LCPN_11-Container-With-Most-Water.py",
+            "Source_Code": "res = max(res, min(height[l], height[r]) * (r - l))",
+            "Mutate_Code": "res = max(res, min(height[l], height[r]) ++ (r - l))"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T7_LCPN_11-Container-With-Most-Water.py",
+            "Source_Code": "res = max(res, min(height[l], height[r]) * (r - l))",
+            "Mutate_Code": "res = max(res, min(height[l], height[r]) -- (r - l))"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T7_LCPN_11-Container-With-Most-Water.py",
+            "Source_Code": "res = max(res, min(height[l], height[r]) * (r - l))",
+            "Mutate_Code": "res = max(res, min(height[l], height[r]) ** (r - l))"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T7_LCPN_11-Container-With-Most-Water.py",
+            "Source_Code": "res = max(res, min(height[l], height[r]) * (r - l))",
+            "Mutate_Code": "res = max(res, min(height[l], height[r]) // (r - l))"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T7_LCPN_11-Container-With-Most-Water.py",
+            "Source_Code": "res = max(res, min(height[l], height[r]) * (r - l))",
+            "Mutate_Code": "res = max(res, min(height[l], height[r]) %% (r - l))"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T7_LCPN_11-Container-With-Most-Water.py",
+            "Source_Code": "res = max(res, min(height[l], height[r]) * (r - l))",
+            "Mutate_Code": "res = max(res, min(height[l], height[r]) **** (r - l))"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T7_LCPN_11-Container-With-Most-Water.py",
+            "Source_Code": "res = max(res, min(height[l], height[r]) * (r - l))",
+            "Mutate_Code": "res = max(res, min(height[l], height[r]) //// (r - l))"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T7_LCPN_11-Container-With-Most-Water.py",
+            "Source_Code": "res = max(res, min(height[l], height[r]) * (r - l))",
+            "Mutate_Code": "res max(res, min(height[l], height[r]) * (r - l))"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T7_LCPN_11-Container-With-Most-Water.py",
+            "Source_Code": "res = max(res, min(height[l], height[r]) * (r - l))",
+            "Mutate_Code": "res max(res, min(height[l], height[r]) * (r - l))"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T7_LCPN_11-Container-With-Most-Water.py",
+            "Source_Code": "res = max(res, min(height[l], height[r]) * (r - l))",
+            "Mutate_Code": "res += max(res, min(height[l], height[r]) * (r - l))"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T7_LCPN_11-Container-With-Most-Water.py",
+            "Source_Code": "res = max(res, min(height[l], height[r]) * (r - l))",
+            "Mutate_Code": "res -= max(res, min(height[l], height[r]) * (r - l))"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T7_LCPN_11-Container-With-Most-Water.py",
+            "Source_Code": "res = max(res, min(height[l], height[r]) * (r - l))",
+            "Mutate_Code": "res *= max(res, min(height[l], height[r]) * (r - l))"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T7_LCPN_11-Container-With-Most-Water.py",
+            "Source_Code": "res = max(res, min(height[l], height[r]) * (r - l))",
+            "Mutate_Code": "res /= max(res, min(height[l], height[r]) * (r - l))"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T7_LCPN_11-Container-With-Most-Water.py",
+            "Source_Code": "res = max(res, min(height[l], height[r]) * (r - l))",
+            "Mutate_Code": "res %= max(res, min(height[l], height[r]) * (r - l))"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T7_LCPN_11-Container-With-Most-Water.py",
+            "Source_Code": "res = max(res, min(height[l], height[r]) * (r - l))",
+            "Mutate_Code": "res //= max(res, min(height[l], height[r]) * (r - l))"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T7_LCPN_11-Container-With-Most-Water.py",
+            "Source_Code": "res = max(res, min(height[l], height[r]) * (r - l))",
+            "Mutate_Code": "res **= max(res, min(height[l], height[r]) * (r - l))"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T7_LCPN_11-Container-With-Most-Water.py",
+            "Source_Code": "res = max(res, min(height[l], height[r]) * (r - l))",
+            "Mutate_Code": "res &= max(res, min(height[l], height[r]) * (r - l))"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T7_LCPN_11-Container-With-Most-Water.py",
+            "Source_Code": "res = max(res, min(height[l], height[r]) * (r - l))",
+            "Mutate_Code": "res |= max(res, min(height[l], height[r]) * (r - l))"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T7_LCPN_11-Container-With-Most-Water.py",
+            "Source_Code": "res = max(res, min(height[l], height[r]) * (r - l))",
+            "Mutate_Code": "res ^= max(res, min(height[l], height[r]) * (r - l))"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T7_LCPN_11-Container-With-Most-Water.py",
+            "Source_Code": "res = max(res, min(height[l], height[r]) * (r - l))",
+            "Mutate_Code": "res >>= max(res, min(height[l], height[r]) * (r - l))"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T7_LCPN_11-Container-With-Most-Water.py",
+            "Source_Code": "res = max(res, min(height[l], height[r]) * (r - l))",
+            "Mutate_Code": "res <<= max(res, min(height[l], height[r]) * (r - l))"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T7_LCPN_11-Container-With-Most-Water.py",
+            "Source_Code": "res = max(res, min(height[l], height[r]) * (r - l))",
+            "Mutate_Code": "res += max(res, min(height[l], height[r]) * (r - l))"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T7_LCPN_11-Container-With-Most-Water.py",
+            "Source_Code": "res = max(res, min(height[l], height[r]) * (r - l))",
+            "Mutate_Code": "res -= max(res, min(height[l], height[r]) * (r - l))"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T7_LCPN_11-Container-With-Most-Water.py",
+            "Source_Code": "res = max(res, min(height[l], height[r]) * (r - l))",
+            "Mutate_Code": "res *= max(res, min(height[l], height[r]) * (r - l))"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T7_LCPN_11-Container-With-Most-Water.py",
+            "Source_Code": "res = max(res, min(height[l], height[r]) * (r - l))",
+            "Mutate_Code": "res /= max(res, min(height[l], height[r]) * (r - l))"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T7_LCPN_11-Container-With-Most-Water.py",
+            "Source_Code": "res = max(res, min(height[l], height[r]) * (r - l))",
+            "Mutate_Code": "res %= max(res, min(height[l], height[r]) * (r - l))"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T7_LCPN_11-Container-With-Most-Water.py",
+            "Source_Code": "res = max(res, min(height[l], height[r]) * (r - l))",
+            "Mutate_Code": "res //= max(res, min(height[l], height[r]) * (r - l))"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T7_LCPN_11-Container-With-Most-Water.py",
+            "Source_Code": "res = max(res, min(height[l], height[r]) * (r - l))",
+            "Mutate_Code": "res **= max(res, min(height[l], height[r]) * (r - l))"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T7_LCPN_11-Container-With-Most-Water.py",
+            "Source_Code": "res = max(res, min(height[l], height[r]) * (r - l))",
+            "Mutate_Code": "res &= max(res, min(height[l], height[r]) * (r - l))"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T7_LCPN_11-Container-With-Most-Water.py",
+            "Source_Code": "res = max(res, min(height[l], height[r]) * (r - l))",
+            "Mutate_Code": "res |= max(res, min(height[l], height[r]) * (r - l))"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T7_LCPN_11-Container-With-Most-Water.py",
+            "Source_Code": "res = max(res, min(height[l], height[r]) * (r - l))",
+            "Mutate_Code": "res ^= max(res, min(height[l], height[r]) * (r - l))"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T7_LCPN_11-Container-With-Most-Water.py",
+            "Source_Code": "res = max(res, min(height[l], height[r]) * (r - l))",
+            "Mutate_Code": "res >>= max(res, min(height[l], height[r]) * (r - l))"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T7_LCPN_11-Container-With-Most-Water.py",
+            "Source_Code": "res = max(res, min(height[l], height[r]) * (r - l))",
+            "Mutate_Code": "res <<= max(res, min(height[l], height[r]) * (r - l))"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T7_LCPN_11-Container-With-Most-Water.py",
+            "Source_Code": "res = max(res, min(height[l], height[r]) * (r - l))",
+            "Mutate_Code": "res == max(res, min(height[l], height[r]) * (r - l))"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T7_LCPN_11-Container-With-Most-Water.py",
+            "Source_Code": "res = max(res, min(height[l], height[r]) * (r - l))",
+            "Mutate_Code": "res +=+= max(res, min(height[l], height[r]) * (r - l))"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T7_LCPN_11-Container-With-Most-Water.py",
+            "Source_Code": "res = max(res, min(height[l], height[r]) * (r - l))",
+            "Mutate_Code": "res -=-= max(res, min(height[l], height[r]) * (r - l))"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T7_LCPN_11-Container-With-Most-Water.py",
+            "Source_Code": "res = max(res, min(height[l], height[r]) * (r - l))",
+            "Mutate_Code": "res *=*= max(res, min(height[l], height[r]) * (r - l))"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T7_LCPN_11-Container-With-Most-Water.py",
+            "Source_Code": "res = max(res, min(height[l], height[r]) * (r - l))",
+            "Mutate_Code": "res /=/= max(res, min(height[l], height[r]) * (r - l))"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T7_LCPN_11-Container-With-Most-Water.py",
+            "Source_Code": "res = max(res, min(height[l], height[r]) * (r - l))",
+            "Mutate_Code": "res %=%= max(res, min(height[l], height[r]) * (r - l))"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T7_LCPN_11-Container-With-Most-Water.py",
+            "Source_Code": "res = max(res, min(height[l], height[r]) * (r - l))",
+            "Mutate_Code": "res //=//= max(res, min(height[l], height[r]) * (r - l))"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T7_LCPN_11-Container-With-Most-Water.py",
+            "Source_Code": "res = max(res, min(height[l], height[r]) * (r - l))",
+            "Mutate_Code": "res **=**= max(res, min(height[l], height[r]) * (r - l))"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T7_LCPN_11-Container-With-Most-Water.py",
+            "Source_Code": "res = max(res, min(height[l], height[r]) * (r - l))",
+            "Mutate_Code": "res &=&= max(res, min(height[l], height[r]) * (r - l))"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T7_LCPN_11-Container-With-Most-Water.py",
+            "Source_Code": "res = max(res, min(height[l], height[r]) * (r - l))",
+            "Mutate_Code": "res |=|= max(res, min(height[l], height[r]) * (r - l))"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T7_LCPN_11-Container-With-Most-Water.py",
+            "Source_Code": "res = max(res, min(height[l], height[r]) * (r - l))",
+            "Mutate_Code": "res ^=^= max(res, min(height[l], height[r]) * (r - l))"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T7_LCPN_11-Container-With-Most-Water.py",
+            "Source_Code": "res = max(res, min(height[l], height[r]) * (r - l))",
+            "Mutate_Code": "res >>=>>= max(res, min(height[l], height[r]) * (r - l))"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T7_LCPN_11-Container-With-Most-Water.py",
+            "Source_Code": "res = max(res, min(height[l], height[r]) * (r - l))",
+            "Mutate_Code": "res <<=<<=max(res, min(height[l], height[r]) * (r - l))"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T7_LCPN_11-Container-With-Most-Water.py",
+            "Source_Code": "res = max(res, min(height[l], height[r]) * (r - l))",
+            "Mutate_Code": "res == max(res, min(height[l], height[r]) * (r - l))"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T7_LCPN_11-Container-With-Most-Water.py",
+            "Source_Code": "res = max(res, min(height[l], height[r]) * (r - l))",
+            "Mutate_Code": "res +=+= max(res, min(height[l], height[r]) * (r - l))"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T7_LCPN_11-Container-With-Most-Water.py",
+            "Source_Code": "res = max(res, min(height[l], height[r]) * (r - l))",
+            "Mutate_Code": "res -=-= max(res, min(height[l], height[r]) * (r - l))"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T7_LCPN_11-Container-With-Most-Water.py",
+            "Source_Code": "res = max(res, min(height[l], height[r]) * (r - l))",
+            "Mutate_Code": "res *=*= max(res, min(height[l], height[r]) * (r - l))"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T7_LCPN_11-Container-With-Most-Water.py",
+            "Source_Code": "res = max(res, min(height[l], height[r]) * (r - l))",
+            "Mutate_Code": "res /=/= max(res, min(height[l], height[r]) * (r - l))"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T7_LCPN_11-Container-With-Most-Water.py",
+            "Source_Code": "res = max(res, min(height[l], height[r]) * (r - l))",
+            "Mutate_Code": "res %=%= max(res, min(height[l], height[r]) * (r - l))"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T7_LCPN_11-Container-With-Most-Water.py",
+            "Source_Code": "res = max(res, min(height[l], height[r]) * (r - l))",
+            "Mutate_Code": "res //=//= max(res, min(height[l], height[r]) * (r - l))"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T7_LCPN_11-Container-With-Most-Water.py",
+            "Source_Code": "res = max(res, min(height[l], height[r]) * (r - l))",
+            "Mutate_Code": "res **=**= max(res, min(height[l], height[r]) * (r - l))"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T7_LCPN_11-Container-With-Most-Water.py",
+            "Source_Code": "res = max(res, min(height[l], height[r]) * (r - l))",
+            "Mutate_Code": "res &=&= max(res, min(height[l], height[r]) * (r - l))"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T7_LCPN_11-Container-With-Most-Water.py",
+            "Source_Code": "res = max(res, min(height[l], height[r]) * (r - l))",
+            "Mutate_Code": "res |=|= max(res, min(height[l], height[r]) * (r - l))"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T7_LCPN_11-Container-With-Most-Water.py",
+            "Source_Code": "res = max(res, min(height[l], height[r]) * (r - l))",
+            "Mutate_Code": "res ^=^= max(res, min(height[l], height[r]) * (r - l))"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T7_LCPN_11-Container-With-Most-Water.py",
+            "Source_Code": "res = max(res, min(height[l], height[r]) * (r - l))",
+            "Mutate_Code": "res >>=>>= max(res, min(height[l], height[r]) * (r - l))"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T7_LCPN_11-Container-With-Most-Water.py",
+            "Source_Code": "res = max(res, min(height[l], height[r]) * (r - l))",
+            "Mutate_Code": "res <<=<<=max(res, min(height[l], height[r]) * (r - l))"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T7_LCPN_11-Container-With-Most-Water.py",
+            "Source_Code": "res = max(res, min(height[l], height[r]) * (r - l))",
+            "Mutate_Code": "res = max( ) * (r - l))"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T7_LCPN_11-Container-With-Most-Water.py",
+            "Source_Code": "res = max(res, min(height[l], height[r]) * (r - l))",
+            "Mutate_Code": "res = max(res, min( ) * (r - l))"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T7_LCPN_11-Container-With-Most-Water.py",
+            "Source_Code": "res = max(res, min(height[l], height[r]) * (r - l))",
+            "Mutate_Code": "res = max(res, min(height[l], height[r]) * (r l))"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T7_LCPN_11-Container-With-Most-Water.py",
+            "Source_Code": "res = max(res, min(height[l], height[r]) * (r - l))",
+            "Mutate_Code": "res = max(res, min(height[l], height[r]) (r - l))"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T7_LCPN_11-Container-With-Most-Water.py",
+            "Source_Code": "res = max(res, min(height[l], height[r]) * (r - l))",
+            "Mutate_Code": "res = max(res, min(height[l], height[r]) (r - l))"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T7_LCPN_11-Container-With-Most-Water.py",
+            "Source_Code": "res = max(res, min(height[l], height[r]) * (r - l))",
+            "Mutate_Code": "res = max(res, min(height[l], height[r]) * (r + l))"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T7_LCPN_11-Container-With-Most-Water.py",
+            "Source_Code": "res = max(res, min(height[l], height[r]) * (r - l))",
+            "Mutate_Code": "res = max(res, min(height[l], height[r]) * (r * l))"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T7_LCPN_11-Container-With-Most-Water.py",
+            "Source_Code": "res = max(res, min(height[l], height[r]) * (r - l))",
+            "Mutate_Code": "res = max(res, min(height[l], height[r]) * (r / l))"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T7_LCPN_11-Container-With-Most-Water.py",
+            "Source_Code": "res = max(res, min(height[l], height[r]) * (r - l))",
+            "Mutate_Code": "res = max(res, min(height[l], height[r]) * (r % l))"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T7_LCPN_11-Container-With-Most-Water.py",
+            "Source_Code": "res = max(res, min(height[l], height[r]) * (r - l))",
+            "Mutate_Code": "res = max(res, min(height[l], height[r]) * (r ** l))"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T7_LCPN_11-Container-With-Most-Water.py",
+            "Source_Code": "res = max(res, min(height[l], height[r]) * (r - l))",
+            "Mutate_Code": "res = max(res, min(height[l], height[r]) * (r // l))"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T7_LCPN_11-Container-With-Most-Water.py",
+            "Source_Code": "res = max(res, min(height[l], height[r]) * (r - l))",
+            "Mutate_Code": "res = max(res, min(height[l], height[r]) + (r - l))"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T7_LCPN_11-Container-With-Most-Water.py",
+            "Source_Code": "res = max(res, min(height[l], height[r]) * (r - l))",
+            "Mutate_Code": "res = max(res, min(height[l], height[r]) - (r - l))"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T7_LCPN_11-Container-With-Most-Water.py",
+            "Source_Code": "res = max(res, min(height[l], height[r]) * (r - l))",
+            "Mutate_Code": "res = max(res, min(height[l], height[r]) / (r - l))"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T7_LCPN_11-Container-With-Most-Water.py",
+            "Source_Code": "res = max(res, min(height[l], height[r]) * (r - l))",
+            "Mutate_Code": "res = max(res, min(height[l], height[r]) % (r - l))"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T7_LCPN_11-Container-With-Most-Water.py",
+            "Source_Code": "res = max(res, min(height[l], height[r]) * (r - l))",
+            "Mutate_Code": "res = max(res, min(height[l], height[r]) ** (r - l))"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T7_LCPN_11-Container-With-Most-Water.py",
+            "Source_Code": "res = max(res, min(height[l], height[r]) * (r - l))",
+            "Mutate_Code": "res = max(res, min(height[l], height[r]) // (r - l))"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T7_LCPN_11-Container-With-Most-Water.py",
+            "Source_Code": "res = max(res, min(height[l], height[r]) * (r - l))",
+            "Mutate_Code": "res = max(res, min(height[l], height[r]) + (r - l))"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T7_LCPN_11-Container-With-Most-Water.py",
+            "Source_Code": "res = max(res, min(height[l], height[r]) * (r - l))",
+            "Mutate_Code": "res = max(res, min(height[l], height[r]) - (r - l))"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T7_LCPN_11-Container-With-Most-Water.py",
+            "Source_Code": "res = max(res, min(height[l], height[r]) * (r - l))",
+            "Mutate_Code": "res = max(res, min(height[l], height[r]) / (r - l))"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T7_LCPN_11-Container-With-Most-Water.py",
+            "Source_Code": "res = max(res, min(height[l], height[r]) * (r - l))",
+            "Mutate_Code": "res = max(res, min(height[l], height[r]) % (r - l))"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T7_LCPN_11-Container-With-Most-Water.py",
+            "Source_Code": "res = max(res, min(height[l], height[r]) * (r - l))",
+            "Mutate_Code": "res = max(res, min(height[l], height[r]) ** (r - l))"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T7_LCPN_11-Container-With-Most-Water.py",
+            "Source_Code": "res = max(res, min(height[l], height[r]) * (r - l))",
+            "Mutate_Code": "res = max(res, min(height[l], height[r]) // (r - l))"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T7_LCPN_11-Container-With-Most-Water.py",
+            "Source_Code": "res = max(res, min(height[l], height[r]) * (r - l))",
+            "Mutate_Code": "res = max(res, min(height[l], height[r]) * (r ++ l))"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T7_LCPN_11-Container-With-Most-Water.py",
+            "Source_Code": "res = max(res, min(height[l], height[r]) * (r - l))",
+            "Mutate_Code": "res = max(res, min(height[l], height[r]) * (r -- l))"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T7_LCPN_11-Container-With-Most-Water.py",
+            "Source_Code": "res = max(res, min(height[l], height[r]) * (r - l))",
+            "Mutate_Code": "res = max(res, min(height[l], height[r]) * (r ** l))"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T7_LCPN_11-Container-With-Most-Water.py",
+            "Source_Code": "res = max(res, min(height[l], height[r]) * (r - l))",
+            "Mutate_Code": "res = max(res, min(height[l], height[r]) * (r // l))"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T7_LCPN_11-Container-With-Most-Water.py",
+            "Source_Code": "res = max(res, min(height[l], height[r]) * (r - l))",
+            "Mutate_Code": "res = max(res, min(height[l], height[r]) * (r %% l))"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T7_LCPN_11-Container-With-Most-Water.py",
+            "Source_Code": "res = max(res, min(height[l], height[r]) * (r - l))",
+            "Mutate_Code": "res = max(res, min(height[l], height[r]) * (r **** l))"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T7_LCPN_11-Container-With-Most-Water.py",
+            "Source_Code": "res = max(res, min(height[l], height[r]) * (r - l))",
+            "Mutate_Code": "res = max(res, min(height[l], height[r]) * (r //// l))"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T7_LCPN_11-Container-With-Most-Water.py",
+            "Source_Code": "res = max(res, min(height[l], height[r]) * (r - l))",
+            "Mutate_Code": "res = max(res, min(height[l], height[r]) ++ (r - l))"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T7_LCPN_11-Container-With-Most-Water.py",
+            "Source_Code": "res = max(res, min(height[l], height[r]) * (r - l))",
+            "Mutate_Code": "res = max(res, min(height[l], height[r]) -- (r - l))"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T7_LCPN_11-Container-With-Most-Water.py",
+            "Source_Code": "res = max(res, min(height[l], height[r]) * (r - l))",
+            "Mutate_Code": "res = max(res, min(height[l], height[r]) ** (r - l))"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T7_LCPN_11-Container-With-Most-Water.py",
+            "Source_Code": "res = max(res, min(height[l], height[r]) * (r - l))",
+            "Mutate_Code": "res = max(res, min(height[l], height[r]) // (r - l))"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T7_LCPN_11-Container-With-Most-Water.py",
+            "Source_Code": "res = max(res, min(height[l], height[r]) * (r - l))",
+            "Mutate_Code": "res = max(res, min(height[l], height[r]) %% (r - l))"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T7_LCPN_11-Container-With-Most-Water.py",
+            "Source_Code": "res = max(res, min(height[l], height[r]) * (r - l))",
+            "Mutate_Code": "res = max(res, min(height[l], height[r]) **** (r - l))"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T7_LCPN_11-Container-With-Most-Water.py",
+            "Source_Code": "res = max(res, min(height[l], height[r]) * (r - l))",
+            "Mutate_Code": "res = max(res, min(height[l], height[r]) //// (r - l))"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T7_LCPN_11-Container-With-Most-Water.py",
+            "Source_Code": "res = max(res, min(height[l], height[r]) * (r - l))",
+            "Mutate_Code": "res = max(res, min(height[l], height[r]) ++ (r - l))"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T7_LCPN_11-Container-With-Most-Water.py",
+            "Source_Code": "res = max(res, min(height[l], height[r]) * (r - l))",
+            "Mutate_Code": "res = max(res, min(height[l], height[r]) -- (r - l))"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T7_LCPN_11-Container-With-Most-Water.py",
+            "Source_Code": "res = max(res, min(height[l], height[r]) * (r - l))",
+            "Mutate_Code": "res = max(res, min(height[l], height[r]) ** (r - l))"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T7_LCPN_11-Container-With-Most-Water.py",
+            "Source_Code": "res = max(res, min(height[l], height[r]) * (r - l))",
+            "Mutate_Code": "res = max(res, min(height[l], height[r]) // (r - l))"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T7_LCPN_11-Container-With-Most-Water.py",
+            "Source_Code": "res = max(res, min(height[l], height[r]) * (r - l))",
+            "Mutate_Code": "res = max(res, min(height[l], height[r]) %% (r - l))"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T7_LCPN_11-Container-With-Most-Water.py",
+            "Source_Code": "res = max(res, min(height[l], height[r]) * (r - l))",
+            "Mutate_Code": "res = max(res, min(height[l], height[r]) **** (r - l))"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T7_LCPN_11-Container-With-Most-Water.py",
+            "Source_Code": "res = max(res, min(height[l], height[r]) * (r - l))",
+            "Mutate_Code": "res = max(res, min(height[l], height[r]) //// (r - l))"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T7_LCPN_11-Container-With-Most-Water.py",
+            "Source_Code": "res = max(res, min(height[l], height[r]) * (r - l))",
+            "Mutate_Code": "res max(res, min(height[l], height[r]) * (r - l))"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T7_LCPN_11-Container-With-Most-Water.py",
+            "Source_Code": "res = max(res, min(height[l], height[r]) * (r - l))",
+            "Mutate_Code": "res max(res, min(height[l], height[r]) * (r - l))"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T7_LCPN_11-Container-With-Most-Water.py",
+            "Source_Code": "res = max(res, min(height[l], height[r]) * (r - l))",
+            "Mutate_Code": "res += max(res, min(height[l], height[r]) * (r - l))"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T7_LCPN_11-Container-With-Most-Water.py",
+            "Source_Code": "res = max(res, min(height[l], height[r]) * (r - l))",
+            "Mutate_Code": "res -= max(res, min(height[l], height[r]) * (r - l))"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T7_LCPN_11-Container-With-Most-Water.py",
+            "Source_Code": "res = max(res, min(height[l], height[r]) * (r - l))",
+            "Mutate_Code": "res *= max(res, min(height[l], height[r]) * (r - l))"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T7_LCPN_11-Container-With-Most-Water.py",
+            "Source_Code": "res = max(res, min(height[l], height[r]) * (r - l))",
+            "Mutate_Code": "res /= max(res, min(height[l], height[r]) * (r - l))"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T7_LCPN_11-Container-With-Most-Water.py",
+            "Source_Code": "res = max(res, min(height[l], height[r]) * (r - l))",
+            "Mutate_Code": "res %= max(res, min(height[l], height[r]) * (r - l))"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T7_LCPN_11-Container-With-Most-Water.py",
+            "Source_Code": "res = max(res, min(height[l], height[r]) * (r - l))",
+            "Mutate_Code": "res //= max(res, min(height[l], height[r]) * (r - l))"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T7_LCPN_11-Container-With-Most-Water.py",
+            "Source_Code": "res = max(res, min(height[l], height[r]) * (r - l))",
+            "Mutate_Code": "res **= max(res, min(height[l], height[r]) * (r - l))"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T7_LCPN_11-Container-With-Most-Water.py",
+            "Source_Code": "res = max(res, min(height[l], height[r]) * (r - l))",
+            "Mutate_Code": "res &= max(res, min(height[l], height[r]) * (r - l))"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T7_LCPN_11-Container-With-Most-Water.py",
+            "Source_Code": "res = max(res, min(height[l], height[r]) * (r - l))",
+            "Mutate_Code": "res |= max(res, min(height[l], height[r]) * (r - l))"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T7_LCPN_11-Container-With-Most-Water.py",
+            "Source_Code": "res = max(res, min(height[l], height[r]) * (r - l))",
+            "Mutate_Code": "res ^= max(res, min(height[l], height[r]) * (r - l))"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T7_LCPN_11-Container-With-Most-Water.py",
+            "Source_Code": "res = max(res, min(height[l], height[r]) * (r - l))",
+            "Mutate_Code": "res >>= max(res, min(height[l], height[r]) * (r - l))"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T7_LCPN_11-Container-With-Most-Water.py",
+            "Source_Code": "res = max(res, min(height[l], height[r]) * (r - l))",
+            "Mutate_Code": "res <<= max(res, min(height[l], height[r]) * (r - l))"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T7_LCPN_11-Container-With-Most-Water.py",
+            "Source_Code": "res = max(res, min(height[l], height[r]) * (r - l))",
+            "Mutate_Code": "res += max(res, min(height[l], height[r]) * (r - l))"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T7_LCPN_11-Container-With-Most-Water.py",
+            "Source_Code": "res = max(res, min(height[l], height[r]) * (r - l))",
+            "Mutate_Code": "res -= max(res, min(height[l], height[r]) * (r - l))"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T7_LCPN_11-Container-With-Most-Water.py",
+            "Source_Code": "res = max(res, min(height[l], height[r]) * (r - l))",
+            "Mutate_Code": "res *= max(res, min(height[l], height[r]) * (r - l))"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T7_LCPN_11-Container-With-Most-Water.py",
+            "Source_Code": "res = max(res, min(height[l], height[r]) * (r - l))",
+            "Mutate_Code": "res /= max(res, min(height[l], height[r]) * (r - l))"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T7_LCPN_11-Container-With-Most-Water.py",
+            "Source_Code": "res = max(res, min(height[l], height[r]) * (r - l))",
+            "Mutate_Code": "res %= max(res, min(height[l], height[r]) * (r - l))"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T7_LCPN_11-Container-With-Most-Water.py",
+            "Source_Code": "res = max(res, min(height[l], height[r]) * (r - l))",
+            "Mutate_Code": "res //= max(res, min(height[l], height[r]) * (r - l))"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T7_LCPN_11-Container-With-Most-Water.py",
+            "Source_Code": "res = max(res, min(height[l], height[r]) * (r - l))",
+            "Mutate_Code": "res **= max(res, min(height[l], height[r]) * (r - l))"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T7_LCPN_11-Container-With-Most-Water.py",
+            "Source_Code": "res = max(res, min(height[l], height[r]) * (r - l))",
+            "Mutate_Code": "res &= max(res, min(height[l], height[r]) * (r - l))"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T7_LCPN_11-Container-With-Most-Water.py",
+            "Source_Code": "res = max(res, min(height[l], height[r]) * (r - l))",
+            "Mutate_Code": "res |= max(res, min(height[l], height[r]) * (r - l))"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T7_LCPN_11-Container-With-Most-Water.py",
+            "Source_Code": "res = max(res, min(height[l], height[r]) * (r - l))",
+            "Mutate_Code": "res ^= max(res, min(height[l], height[r]) * (r - l))"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T7_LCPN_11-Container-With-Most-Water.py",
+            "Source_Code": "res = max(res, min(height[l], height[r]) * (r - l))",
+            "Mutate_Code": "res >>= max(res, min(height[l], height[r]) * (r - l))"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T7_LCPN_11-Container-With-Most-Water.py",
+            "Source_Code": "res = max(res, min(height[l], height[r]) * (r - l))",
+            "Mutate_Code": "res <<= max(res, min(height[l], height[r]) * (r - l))"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T7_LCPN_11-Container-With-Most-Water.py",
+            "Source_Code": "res = max(res, min(height[l], height[r]) * (r - l))",
+            "Mutate_Code": "res == max(res, min(height[l], height[r]) * (r - l))"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T7_LCPN_11-Container-With-Most-Water.py",
+            "Source_Code": "res = max(res, min(height[l], height[r]) * (r - l))",
+            "Mutate_Code": "res +=+= max(res, min(height[l], height[r]) * (r - l))"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T7_LCPN_11-Container-With-Most-Water.py",
+            "Source_Code": "res = max(res, min(height[l], height[r]) * (r - l))",
+            "Mutate_Code": "res -=-= max(res, min(height[l], height[r]) * (r - l))"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T7_LCPN_11-Container-With-Most-Water.py",
+            "Source_Code": "res = max(res, min(height[l], height[r]) * (r - l))",
+            "Mutate_Code": "res *=*= max(res, min(height[l], height[r]) * (r - l))"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T7_LCPN_11-Container-With-Most-Water.py",
+            "Source_Code": "res = max(res, min(height[l], height[r]) * (r - l))",
+            "Mutate_Code": "res /=/= max(res, min(height[l], height[r]) * (r - l))"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T7_LCPN_11-Container-With-Most-Water.py",
+            "Source_Code": "res = max(res, min(height[l], height[r]) * (r - l))",
+            "Mutate_Code": "res %=%= max(res, min(height[l], height[r]) * (r - l))"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T7_LCPN_11-Container-With-Most-Water.py",
+            "Source_Code": "res = max(res, min(height[l], height[r]) * (r - l))",
+            "Mutate_Code": "res //=//= max(res, min(height[l], height[r]) * (r - l))"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T7_LCPN_11-Container-With-Most-Water.py",
+            "Source_Code": "res = max(res, min(height[l], height[r]) * (r - l))",
+            "Mutate_Code": "res **=**= max(res, min(height[l], height[r]) * (r - l))"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T7_LCPN_11-Container-With-Most-Water.py",
+            "Source_Code": "res = max(res, min(height[l], height[r]) * (r - l))",
+            "Mutate_Code": "res &=&= max(res, min(height[l], height[r]) * (r - l))"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T7_LCPN_11-Container-With-Most-Water.py",
+            "Source_Code": "res = max(res, min(height[l], height[r]) * (r - l))",
+            "Mutate_Code": "res |=|= max(res, min(height[l], height[r]) * (r - l))"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T7_LCPN_11-Container-With-Most-Water.py",
+            "Source_Code": "res = max(res, min(height[l], height[r]) * (r - l))",
+            "Mutate_Code": "res ^=^= max(res, min(height[l], height[r]) * (r - l))"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T7_LCPN_11-Container-With-Most-Water.py",
+            "Source_Code": "res = max(res, min(height[l], height[r]) * (r - l))",
+            "Mutate_Code": "res >>=>>= max(res, min(height[l], height[r]) * (r - l))"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T7_LCPN_11-Container-With-Most-Water.py",
+            "Source_Code": "res = max(res, min(height[l], height[r]) * (r - l))",
+            "Mutate_Code": "res <<=<<=max(res, min(height[l], height[r]) * (r - l))"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T7_LCPN_11-Container-With-Most-Water.py",
+            "Source_Code": "res = max(res, min(height[l], height[r]) * (r - l))",
+            "Mutate_Code": "res == max(res, min(height[l], height[r]) * (r - l))"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T7_LCPN_11-Container-With-Most-Water.py",
+            "Source_Code": "res = max(res, min(height[l], height[r]) * (r - l))",
+            "Mutate_Code": "res +=+= max(res, min(height[l], height[r]) * (r - l))"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T7_LCPN_11-Container-With-Most-Water.py",
+            "Source_Code": "res = max(res, min(height[l], height[r]) * (r - l))",
+            "Mutate_Code": "res -=-= max(res, min(height[l], height[r]) * (r - l))"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T7_LCPN_11-Container-With-Most-Water.py",
+            "Source_Code": "res = max(res, min(height[l], height[r]) * (r - l))",
+            "Mutate_Code": "res *=*= max(res, min(height[l], height[r]) * (r - l))"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T7_LCPN_11-Container-With-Most-Water.py",
+            "Source_Code": "res = max(res, min(height[l], height[r]) * (r - l))",
+            "Mutate_Code": "res /=/= max(res, min(height[l], height[r]) * (r - l))"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T7_LCPN_11-Container-With-Most-Water.py",
+            "Source_Code": "res = max(res, min(height[l], height[r]) * (r - l))",
+            "Mutate_Code": "res %=%= max(res, min(height[l], height[r]) * (r - l))"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T7_LCPN_11-Container-With-Most-Water.py",
+            "Source_Code": "res = max(res, min(height[l], height[r]) * (r - l))",
+            "Mutate_Code": "res //=//= max(res, min(height[l], height[r]) * (r - l))"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T7_LCPN_11-Container-With-Most-Water.py",
+            "Source_Code": "res = max(res, min(height[l], height[r]) * (r - l))",
+            "Mutate_Code": "res **=**= max(res, min(height[l], height[r]) * (r - l))"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T7_LCPN_11-Container-With-Most-Water.py",
+            "Source_Code": "res = max(res, min(height[l], height[r]) * (r - l))",
+            "Mutate_Code": "res &=&= max(res, min(height[l], height[r]) * (r - l))"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T7_LCPN_11-Container-With-Most-Water.py",
+            "Source_Code": "res = max(res, min(height[l], height[r]) * (r - l))",
+            "Mutate_Code": "res |=|= max(res, min(height[l], height[r]) * (r - l))"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T7_LCPN_11-Container-With-Most-Water.py",
+            "Source_Code": "res = max(res, min(height[l], height[r]) * (r - l))",
+            "Mutate_Code": "res ^=^= max(res, min(height[l], height[r]) * (r - l))"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T7_LCPN_11-Container-With-Most-Water.py",
+            "Source_Code": "res = max(res, min(height[l], height[r]) * (r - l))",
+            "Mutate_Code": "res >>=>>= max(res, min(height[l], height[r]) * (r - l))"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T7_LCPN_11-Container-With-Most-Water.py",
+            "Source_Code": "res = max(res, min(height[l], height[r]) * (r - l))",
+            "Mutate_Code": "res <<=<<=max(res, min(height[l], height[r]) * (r - l))"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T7_LCPN_11-Container-With-Most-Water.py",
+            "Source_Code": "res = max(res, min(height[l], height[r]) * (r - l))",
+            "Mutate_Code": "res = max( ) * (r - l))"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T7_LCPN_11-Container-With-Most-Water.py",
+            "Source_Code": "res = max(res, min(height[l], height[r]) * (r - l))",
+            "Mutate_Code": "res = max(res, min( ) * (r - l))"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T7_LCPN_11-Container-With-Most-Water.py",
+            "Source_Code": "if height[l] < height[r]:",
+            "Mutate_Code": "if height[l]   height[r]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T7_LCPN_11-Container-With-Most-Water.py",
+            "Source_Code": "if height[l] < height[r]:",
+            "Mutate_Code": "if height[l] == height[r]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T7_LCPN_11-Container-With-Most-Water.py",
+            "Source_Code": "if height[l] < height[r]:",
+            "Mutate_Code": "if height[l] != height[r]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T7_LCPN_11-Container-With-Most-Water.py",
+            "Source_Code": "if height[l] < height[r]:",
+            "Mutate_Code": "if height[l] > height[r]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T7_LCPN_11-Container-With-Most-Water.py",
+            "Source_Code": "if height[l] < height[r]:",
+            "Mutate_Code": "if height[l] >= height[r]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T7_LCPN_11-Container-With-Most-Water.py",
+            "Source_Code": "if height[l] < height[r]:",
+            "Mutate_Code": "if height[l] <= height[r]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T7_LCPN_11-Container-With-Most-Water.py",
+            "Source_Code": "if height[l] < height[r]:",
+            "Mutate_Code": "if height[l]  ====  height[r]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T7_LCPN_11-Container-With-Most-Water.py",
+            "Source_Code": "if height[l] < height[r]:",
+            "Mutate_Code": "if height[l]  !==  height[r]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T7_LCPN_11-Container-With-Most-Water.py",
+            "Source_Code": "if height[l] < height[r]:",
+            "Mutate_Code": "if height[l]  >>  height[r]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T7_LCPN_11-Container-With-Most-Water.py",
+            "Source_Code": "if height[l] < height[r]:",
+            "Mutate_Code": "if height[l]  <<  height[r]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T7_LCPN_11-Container-With-Most-Water.py",
+            "Source_Code": "if height[l] < height[r]:",
+            "Mutate_Code": "if height[l]  >=>=  height[r]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T7_LCPN_11-Container-With-Most-Water.py",
+            "Source_Code": "if height[l] < height[r]:",
+            "Mutate_Code": "if height[l]  <=<=  height[r]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T7_LCPN_11-Container-With-Most-Water.py",
+            "Source_Code": "if height[l] < height[r]:",
+            "Mutate_Code": " "
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T7_LCPN_11-Container-With-Most-Water.py",
+            "Source_Code": "if height[l] < height[r]:",
+            "Mutate_Code": "elif:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T7_LCPN_11-Container-With-Most-Water.py",
+            "Source_Code": "if height[l] < height[r]:",
+            "Mutate_Code": "else:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T7_LCPN_11-Container-With-Most-Water.py",
+            "Source_Code": "if height[l] < height[r]:",
+            "Mutate_Code": "if if"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T7_LCPN_11-Container-With-Most-Water.py",
+            "Source_Code": "elif height[r] <= height[l]:",
+            "Mutate_Code": "elif height[r]   height[l]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T7_LCPN_11-Container-With-Most-Water.py",
+            "Source_Code": "elif height[r] <= height[l]:",
+            "Mutate_Code": "elif height[r] == height[l]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T7_LCPN_11-Container-With-Most-Water.py",
+            "Source_Code": "elif height[r] <= height[l]:",
+            "Mutate_Code": "elif height[r] != height[l]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T7_LCPN_11-Container-With-Most-Water.py",
+            "Source_Code": "elif height[r] <= height[l]:",
+            "Mutate_Code": "elif height[r] > height[l]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T7_LCPN_11-Container-With-Most-Water.py",
+            "Source_Code": "elif height[r] <= height[l]:",
+            "Mutate_Code": "elif height[r] < height[l]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T7_LCPN_11-Container-With-Most-Water.py",
+            "Source_Code": "elif height[r] <= height[l]:",
+            "Mutate_Code": "elif height[r] >= height[l]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T7_LCPN_11-Container-With-Most-Water.py",
+            "Source_Code": "elif height[r] <= height[l]:",
+            "Mutate_Code": "elif height[r]  ====  height[l]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T7_LCPN_11-Container-With-Most-Water.py",
+            "Source_Code": "elif height[r] <= height[l]:",
+            "Mutate_Code": "elif height[r]  !==  height[l]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T7_LCPN_11-Container-With-Most-Water.py",
+            "Source_Code": "elif height[r] <= height[l]:",
+            "Mutate_Code": "elif height[r]  >>  height[l]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T7_LCPN_11-Container-With-Most-Water.py",
+            "Source_Code": "elif height[r] <= height[l]:",
+            "Mutate_Code": "elif height[r]  <<  height[l]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T7_LCPN_11-Container-With-Most-Water.py",
+            "Source_Code": "elif height[r] <= height[l]:",
+            "Mutate_Code": "elif height[r]  >=>=  height[l]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T7_LCPN_11-Container-With-Most-Water.py",
+            "Source_Code": "elif height[r] <= height[l]:",
+            "Mutate_Code": "elif height[r]  <=<=  height[l]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T7_LCPN_11-Container-With-Most-Water.py",
+            "Source_Code": "elif height[r] <= height[l]:",
+            "Mutate_Code": "el "
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T7_LCPN_11-Container-With-Most-Water.py",
+            "Source_Code": "elif height[r] <= height[l]:",
+            "Mutate_Code": "elelif:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T7_LCPN_11-Container-With-Most-Water.py",
+            "Source_Code": "elif height[r] <= height[l]:",
+            "Mutate_Code": "elelse:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T7_LCPN_11-Container-With-Most-Water.py",
+            "Source_Code": "elif height[r] <= height[l]:",
+            "Mutate_Code": "elif if"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T7_LCPN_11-Container-With-Most-Water.py",
+            "Source_Code": "elif height[r] <= height[l]:",
+            "Mutate_Code": " "
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T7_LCPN_11-Container-With-Most-Water.py",
+            "Source_Code": "elif height[r] <= height[l]:",
+            "Mutate_Code": "if:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T7_LCPN_11-Container-With-Most-Water.py",
+            "Source_Code": "elif height[r] <= height[l]:",
+            "Mutate_Code": "else:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T7_LCPN_11-Container-With-Most-Water.py",
+            "Source_Code": "elif height[r] <= height[l]:",
+            "Mutate_Code": "elif elif"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T7_LCPN_11-Container-With-Most-Water.py",
+            "Source_Code": "elif height[r] <= height[l]:",
+            "Mutate_Code": "elif height[r]   height[l]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T7_LCPN_11-Container-With-Most-Water.py",
+            "Source_Code": "elif height[r] <= height[l]:",
+            "Mutate_Code": "elif height[r] == height[l]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T7_LCPN_11-Container-With-Most-Water.py",
+            "Source_Code": "elif height[r] <= height[l]:",
+            "Mutate_Code": "elif height[r] != height[l]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T7_LCPN_11-Container-With-Most-Water.py",
+            "Source_Code": "elif height[r] <= height[l]:",
+            "Mutate_Code": "elif height[r] > height[l]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T7_LCPN_11-Container-With-Most-Water.py",
+            "Source_Code": "elif height[r] <= height[l]:",
+            "Mutate_Code": "elif height[r] < height[l]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T7_LCPN_11-Container-With-Most-Water.py",
+            "Source_Code": "elif height[r] <= height[l]:",
+            "Mutate_Code": "elif height[r] >= height[l]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T7_LCPN_11-Container-With-Most-Water.py",
+            "Source_Code": "elif height[r] <= height[l]:",
+            "Mutate_Code": "elif height[r]  ====  height[l]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T7_LCPN_11-Container-With-Most-Water.py",
+            "Source_Code": "elif height[r] <= height[l]:",
+            "Mutate_Code": "elif height[r]  !==  height[l]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T7_LCPN_11-Container-With-Most-Water.py",
+            "Source_Code": "elif height[r] <= height[l]:",
+            "Mutate_Code": "elif height[r]  >>  height[l]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T7_LCPN_11-Container-With-Most-Water.py",
+            "Source_Code": "elif height[r] <= height[l]:",
+            "Mutate_Code": "elif height[r]  <<  height[l]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T7_LCPN_11-Container-With-Most-Water.py",
+            "Source_Code": "elif height[r] <= height[l]:",
+            "Mutate_Code": "elif height[r]  >=>=  height[l]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T7_LCPN_11-Container-With-Most-Water.py",
+            "Source_Code": "elif height[r] <= height[l]:",
+            "Mutate_Code": "elif height[r]  <=<=  height[l]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T7_LCPN_11-Container-With-Most-Water.py",
+            "Source_Code": "elif height[r] <= height[l]:",
+            "Mutate_Code": "el "
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T7_LCPN_11-Container-With-Most-Water.py",
+            "Source_Code": "elif height[r] <= height[l]:",
+            "Mutate_Code": "elelif:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T7_LCPN_11-Container-With-Most-Water.py",
+            "Source_Code": "elif height[r] <= height[l]:",
+            "Mutate_Code": "elelse:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T7_LCPN_11-Container-With-Most-Water.py",
+            "Source_Code": "elif height[r] <= height[l]:",
+            "Mutate_Code": "elif if"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T7_LCPN_11-Container-With-Most-Water.py",
+            "Source_Code": "elif height[r] <= height[l]:",
+            "Mutate_Code": " "
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T7_LCPN_11-Container-With-Most-Water.py",
+            "Source_Code": "elif height[r] <= height[l]:",
+            "Mutate_Code": "if:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T7_LCPN_11-Container-With-Most-Water.py",
+            "Source_Code": "elif height[r] <= height[l]:",
+            "Mutate_Code": "else:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T7_LCPN_11-Container-With-Most-Water.py",
+            "Source_Code": "elif height[r] <= height[l]:",
+            "Mutate_Code": "elif elif"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T7_LCPN_11-Container-With-Most-Water.py",
+            "Source_Code": "return res",
+            "Mutate_Code": " res"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T7_LCPN_11-Container-With-Most-Water.py",
+            "Source_Code": "return res",
+            "Mutate_Code": "passres"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T7_LCPN_11-Container-With-Most-Water.py",
+            "Source_Code": "return res",
+            "Mutate_Code": "return returnres"
+        }
+    }
+]

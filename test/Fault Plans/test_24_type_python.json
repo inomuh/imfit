@@ -1,0 +1,548 @@
+[
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T24_LCPN_46-Permutations.py",
+            "Source_Code": "if len(nums) == 1:",
+            "Mutate_Code": "if len(nums)   1:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T24_LCPN_46-Permutations.py",
+            "Source_Code": "if len(nums) == 1:",
+            "Mutate_Code": "if len(nums) != 1:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T24_LCPN_46-Permutations.py",
+            "Source_Code": "if len(nums) == 1:",
+            "Mutate_Code": "if len(nums) > 1:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T24_LCPN_46-Permutations.py",
+            "Source_Code": "if len(nums) == 1:",
+            "Mutate_Code": "if len(nums) < 1:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T24_LCPN_46-Permutations.py",
+            "Source_Code": "if len(nums) == 1:",
+            "Mutate_Code": "if len(nums) >= 1:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T24_LCPN_46-Permutations.py",
+            "Source_Code": "if len(nums) == 1:",
+            "Mutate_Code": "if len(nums) <= 1:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T24_LCPN_46-Permutations.py",
+            "Source_Code": "if len(nums) == 1:",
+            "Mutate_Code": "if len(nums)  ====  1:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T24_LCPN_46-Permutations.py",
+            "Source_Code": "if len(nums) == 1:",
+            "Mutate_Code": "if len(nums)  !==  1:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T24_LCPN_46-Permutations.py",
+            "Source_Code": "if len(nums) == 1:",
+            "Mutate_Code": "if len(nums)  >>  1:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T24_LCPN_46-Permutations.py",
+            "Source_Code": "if len(nums) == 1:",
+            "Mutate_Code": "if len(nums)  <<  1:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T24_LCPN_46-Permutations.py",
+            "Source_Code": "if len(nums) == 1:",
+            "Mutate_Code": "if len(nums)  >=>=  1:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T24_LCPN_46-Permutations.py",
+            "Source_Code": "if len(nums) == 1:",
+            "Mutate_Code": "if len(nums)  <=<=  1:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T24_LCPN_46-Permutations.py",
+            "Source_Code": "if len(nums) == 1:",
+            "Mutate_Code": " "
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T24_LCPN_46-Permutations.py",
+            "Source_Code": "if len(nums) == 1:",
+            "Mutate_Code": "elif:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T24_LCPN_46-Permutations.py",
+            "Source_Code": "if len(nums) == 1:",
+            "Mutate_Code": "else:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T24_LCPN_46-Permutations.py",
+            "Source_Code": "if len(nums) == 1:",
+            "Mutate_Code": "if if"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T24_LCPN_46-Permutations.py",
+            "Source_Code": "if len(nums) == 1:",
+            "Mutate_Code": "if len( ) == 1:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T24_LCPN_46-Permutations.py",
+            "Source_Code": "if len(nums) == 1:",
+            "Mutate_Code": "if len(nums)   1:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T24_LCPN_46-Permutations.py",
+            "Source_Code": "if len(nums) == 1:",
+            "Mutate_Code": "if len(nums) != 1:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T24_LCPN_46-Permutations.py",
+            "Source_Code": "if len(nums) == 1:",
+            "Mutate_Code": "if len(nums) > 1:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T24_LCPN_46-Permutations.py",
+            "Source_Code": "if len(nums) == 1:",
+            "Mutate_Code": "if len(nums) < 1:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T24_LCPN_46-Permutations.py",
+            "Source_Code": "if len(nums) == 1:",
+            "Mutate_Code": "if len(nums) >= 1:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T24_LCPN_46-Permutations.py",
+            "Source_Code": "if len(nums) == 1:",
+            "Mutate_Code": "if len(nums) <= 1:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T24_LCPN_46-Permutations.py",
+            "Source_Code": "if len(nums) == 1:",
+            "Mutate_Code": "if len(nums)  ====  1:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T24_LCPN_46-Permutations.py",
+            "Source_Code": "if len(nums) == 1:",
+            "Mutate_Code": "if len(nums)  !==  1:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T24_LCPN_46-Permutations.py",
+            "Source_Code": "if len(nums) == 1:",
+            "Mutate_Code": "if len(nums)  >>  1:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T24_LCPN_46-Permutations.py",
+            "Source_Code": "if len(nums) == 1:",
+            "Mutate_Code": "if len(nums)  <<  1:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T24_LCPN_46-Permutations.py",
+            "Source_Code": "if len(nums) == 1:",
+            "Mutate_Code": "if len(nums)  >=>=  1:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T24_LCPN_46-Permutations.py",
+            "Source_Code": "if len(nums) == 1:",
+            "Mutate_Code": "if len(nums)  <=<=  1:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T24_LCPN_46-Permutations.py",
+            "Source_Code": "if len(nums) == 1:",
+            "Mutate_Code": " "
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T24_LCPN_46-Permutations.py",
+            "Source_Code": "if len(nums) == 1:",
+            "Mutate_Code": "elif:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T24_LCPN_46-Permutations.py",
+            "Source_Code": "if len(nums) == 1:",
+            "Mutate_Code": "else:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T24_LCPN_46-Permutations.py",
+            "Source_Code": "if len(nums) == 1:",
+            "Mutate_Code": "if if"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T24_LCPN_46-Permutations.py",
+            "Source_Code": "if len(nums) == 1:",
+            "Mutate_Code": "if len( ) == 1:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T24_LCPN_46-Permutations.py",
+            "Source_Code": "for i in range(len(nums)):",
+            "Mutate_Code": "for i range(len(nums)):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T24_LCPN_46-Permutations.py",
+            "Source_Code": "for i in range(len(nums)):",
+            "Mutate_Code": "for i is range(len(nums)):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T24_LCPN_46-Permutations.py",
+            "Source_Code": "for i in range(len(nums)):",
+            "Mutate_Code": "for i is not range(len(nums)):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T24_LCPN_46-Permutations.py",
+            "Source_Code": "for i in range(len(nums)):",
+            "Mutate_Code": "for i in in range(len(nums)):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T24_LCPN_46-Permutations.py",
+            "Source_Code": "for i in range(len(nums)):",
+            "Mutate_Code": "for i not in not in range(len(nums)):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T24_LCPN_46-Permutations.py",
+            "Source_Code": "for i in range(len(nums)):",
+            "Mutate_Code": " "
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T24_LCPN_46-Permutations.py",
+            "Source_Code": "for i in range(len(nums)):",
+            "Mutate_Code": "while True:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T24_LCPN_46-Permutations.py",
+            "Source_Code": "for i in range(len(nums)):",
+            "Mutate_Code": "for for: i in range(len(nums)):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T24_LCPN_46-Permutations.py",
+            "Source_Code": "for i in range(len(nums)):",
+            "Mutate_Code": "for i in range(len( )):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T24_LCPN_46-Permutations.py",
+            "Source_Code": "for i in range(len(nums)):",
+            "Mutate_Code": "for i in range( )):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T24_LCPN_46-Permutations.py",
+            "Source_Code": "for i in range(len(nums)):",
+            "Mutate_Code": "for i range(len(nums)):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T24_LCPN_46-Permutations.py",
+            "Source_Code": "for i in range(len(nums)):",
+            "Mutate_Code": "for i is range(len(nums)):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T24_LCPN_46-Permutations.py",
+            "Source_Code": "for i in range(len(nums)):",
+            "Mutate_Code": "for i is not range(len(nums)):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T24_LCPN_46-Permutations.py",
+            "Source_Code": "for i in range(len(nums)):",
+            "Mutate_Code": "for i in in range(len(nums)):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T24_LCPN_46-Permutations.py",
+            "Source_Code": "for i in range(len(nums)):",
+            "Mutate_Code": "for i not in not in range(len(nums)):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T24_LCPN_46-Permutations.py",
+            "Source_Code": "for i in range(len(nums)):",
+            "Mutate_Code": " "
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T24_LCPN_46-Permutations.py",
+            "Source_Code": "for i in range(len(nums)):",
+            "Mutate_Code": "while True:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T24_LCPN_46-Permutations.py",
+            "Source_Code": "for i in range(len(nums)):",
+            "Mutate_Code": "for for: i in range(len(nums)):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T24_LCPN_46-Permutations.py",
+            "Source_Code": "for i in range(len(nums)):",
+            "Mutate_Code": "for i in range(len( )):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T24_LCPN_46-Permutations.py",
+            "Source_Code": "for i in range(len(nums)):",
+            "Mutate_Code": "for i in range( )):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T24_LCPN_46-Permutations.py",
+            "Source_Code": "for i in range(len(nums)):",
+            "Mutate_Code": "for i range(len(nums)):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T24_LCPN_46-Permutations.py",
+            "Source_Code": "for i in range(len(nums)):",
+            "Mutate_Code": "for i is range(len(nums)):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T24_LCPN_46-Permutations.py",
+            "Source_Code": "for i in range(len(nums)):",
+            "Mutate_Code": "for i is not range(len(nums)):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T24_LCPN_46-Permutations.py",
+            "Source_Code": "for i in range(len(nums)):",
+            "Mutate_Code": "for i in in range(len(nums)):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T24_LCPN_46-Permutations.py",
+            "Source_Code": "for i in range(len(nums)):",
+            "Mutate_Code": "for i not in not in range(len(nums)):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T24_LCPN_46-Permutations.py",
+            "Source_Code": "for i in range(len(nums)):",
+            "Mutate_Code": " "
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T24_LCPN_46-Permutations.py",
+            "Source_Code": "for i in range(len(nums)):",
+            "Mutate_Code": "while True:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T24_LCPN_46-Permutations.py",
+            "Source_Code": "for i in range(len(nums)):",
+            "Mutate_Code": "for for: i in range(len(nums)):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T24_LCPN_46-Permutations.py",
+            "Source_Code": "for i in range(len(nums)):",
+            "Mutate_Code": "for i in range(len( )):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T24_LCPN_46-Permutations.py",
+            "Source_Code": "for i in range(len(nums)):",
+            "Mutate_Code": "for i in range( )):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T24_LCPN_46-Permutations.py",
+            "Source_Code": "for perm in perms:",
+            "Mutate_Code": "for perm perms:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T24_LCPN_46-Permutations.py",
+            "Source_Code": "for perm in perms:",
+            "Mutate_Code": "for perm is perms:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T24_LCPN_46-Permutations.py",
+            "Source_Code": "for perm in perms:",
+            "Mutate_Code": "for perm is not perms:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T24_LCPN_46-Permutations.py",
+            "Source_Code": "for perm in perms:",
+            "Mutate_Code": "for perm in in perms:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T24_LCPN_46-Permutations.py",
+            "Source_Code": "for perm in perms:",
+            "Mutate_Code": "for perm not in not in perms:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T24_LCPN_46-Permutations.py",
+            "Source_Code": "for perm in perms:",
+            "Mutate_Code": " "
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T24_LCPN_46-Permutations.py",
+            "Source_Code": "for perm in perms:",
+            "Mutate_Code": "while True:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T24_LCPN_46-Permutations.py",
+            "Source_Code": "for perm in perms:",
+            "Mutate_Code": "for for: perm in perms:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T24_LCPN_46-Permutations.py",
+            "Source_Code": "perm.append(n)",
+            "Mutate_Code": "perm.appe d(n)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T24_LCPN_46-Permutations.py",
+            "Source_Code": "res.extend(perms)",
+            "Mutate_Code": "res.extend( )"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T24_LCPN_46-Permutations.py",
+            "Source_Code": "nums.append(n)",
+            "Mutate_Code": " ums.append(n)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T24_LCPN_46-Permutations.py",
+            "Source_Code": "return res",
+            "Mutate_Code": " res"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T24_LCPN_46-Permutations.py",
+            "Source_Code": "return res",
+            "Mutate_Code": "passres"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T24_LCPN_46-Permutations.py",
+            "Source_Code": "return res",
+            "Mutate_Code": "return returnres"
+        }
+    }
+]

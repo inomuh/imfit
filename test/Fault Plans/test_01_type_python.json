@@ -1,0 +1,212 @@
+[
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T1_LCPN_1-Two-Sum.py",
+            "Source_Code": "for i, n in enumerate(nums):",
+            "Mutate_Code": "for i, n enumerate(nums):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T1_LCPN_1-Two-Sum.py",
+            "Source_Code": "for i, n in enumerate(nums):",
+            "Mutate_Code": "for i, n is enumerate(nums):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T1_LCPN_1-Two-Sum.py",
+            "Source_Code": "for i, n in enumerate(nums):",
+            "Mutate_Code": "for i, n is not enumerate(nums):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T1_LCPN_1-Two-Sum.py",
+            "Source_Code": "for i, n in enumerate(nums):",
+            "Mutate_Code": "for i, n in in enumerate(nums):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T1_LCPN_1-Two-Sum.py",
+            "Source_Code": "for i, n in enumerate(nums):",
+            "Mutate_Code": "for i, n not in not in enumerate(nums):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T1_LCPN_1-Two-Sum.py",
+            "Source_Code": "for i, n in enumerate(nums):",
+            "Mutate_Code": " "
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T1_LCPN_1-Two-Sum.py",
+            "Source_Code": "for i, n in enumerate(nums):",
+            "Mutate_Code": "while True:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T1_LCPN_1-Two-Sum.py",
+            "Source_Code": "for i, n in enumerate(nums):",
+            "Mutate_Code": "for for: i, n in enumerate(nums):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T1_LCPN_1-Two-Sum.py",
+            "Source_Code": "for i, n in enumerate(nums):",
+            "Mutate_Code": "for i, n in enumerate( ):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T1_LCPN_1-Two-Sum.py",
+            "Source_Code": "for i, n in enumerate(nums):",
+            "Mutate_Code": "for i, n enumerate(nums):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T1_LCPN_1-Two-Sum.py",
+            "Source_Code": "for i, n in enumerate(nums):",
+            "Mutate_Code": "for i, n is enumerate(nums):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T1_LCPN_1-Two-Sum.py",
+            "Source_Code": "for i, n in enumerate(nums):",
+            "Mutate_Code": "for i, n is not enumerate(nums):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T1_LCPN_1-Two-Sum.py",
+            "Source_Code": "for i, n in enumerate(nums):",
+            "Mutate_Code": "for i, n in in enumerate(nums):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T1_LCPN_1-Two-Sum.py",
+            "Source_Code": "for i, n in enumerate(nums):",
+            "Mutate_Code": "for i, n not in not in enumerate(nums):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T1_LCPN_1-Two-Sum.py",
+            "Source_Code": "for i, n in enumerate(nums):",
+            "Mutate_Code": " "
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T1_LCPN_1-Two-Sum.py",
+            "Source_Code": "for i, n in enumerate(nums):",
+            "Mutate_Code": "while True:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T1_LCPN_1-Two-Sum.py",
+            "Source_Code": "for i, n in enumerate(nums):",
+            "Mutate_Code": "for for: i, n in enumerate(nums):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T1_LCPN_1-Two-Sum.py",
+            "Source_Code": "for i, n in enumerate(nums):",
+            "Mutate_Code": "for i, n in enumerate( ):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T1_LCPN_1-Two-Sum.py",
+            "Source_Code": "if diff in prevMap:",
+            "Mutate_Code": "if diff prevMap:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T1_LCPN_1-Two-Sum.py",
+            "Source_Code": "if diff in prevMap:",
+            "Mutate_Code": "if diff is prevMap:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T1_LCPN_1-Two-Sum.py",
+            "Source_Code": "if diff in prevMap:",
+            "Mutate_Code": "if diff is not prevMap:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T1_LCPN_1-Two-Sum.py",
+            "Source_Code": "if diff in prevMap:",
+            "Mutate_Code": "if diff in in prevMap:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T1_LCPN_1-Two-Sum.py",
+            "Source_Code": "if diff in prevMap:",
+            "Mutate_Code": "if diff not in not in prevMap:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T1_LCPN_1-Two-Sum.py",
+            "Source_Code": "if diff in prevMap:",
+            "Mutate_Code": " "
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T1_LCPN_1-Two-Sum.py",
+            "Source_Code": "if diff in prevMap:",
+            "Mutate_Code": "elif:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T1_LCPN_1-Two-Sum.py",
+            "Source_Code": "if diff in prevMap:",
+            "Mutate_Code": "else:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T1_LCPN_1-Two-Sum.py",
+            "Source_Code": "if diff in prevMap:",
+            "Mutate_Code": "if if"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T1_LCPN_1-Two-Sum.py",
+            "Source_Code": "return [prevMap[diff], i]",
+            "Mutate_Code": " [prevMap[diff], i]"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T1_LCPN_1-Two-Sum.py",
+            "Source_Code": "return [prevMap[diff], i]",
+            "Mutate_Code": "pass[prevMap[diff], i]"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T1_LCPN_1-Two-Sum.py",
+            "Source_Code": "return [prevMap[diff], i]",
+            "Mutate_Code": "return return[prevMap[diff], i]"
+        }
+    }
+]

@@ -1,0 +1,1584 @@
+[
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T9_LCPN_13-Roman-To-Integer.py",
+            "Source_Code": "for i in range(len(s)):",
+            "Mutate_Code": "for i range(len(s)):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T9_LCPN_13-Roman-To-Integer.py",
+            "Source_Code": "for i in range(len(s)):",
+            "Mutate_Code": "for i is range(len(s)):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T9_LCPN_13-Roman-To-Integer.py",
+            "Source_Code": "for i in range(len(s)):",
+            "Mutate_Code": "for i is not range(len(s)):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T9_LCPN_13-Roman-To-Integer.py",
+            "Source_Code": "for i in range(len(s)):",
+            "Mutate_Code": "for i in in range(len(s)):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T9_LCPN_13-Roman-To-Integer.py",
+            "Source_Code": "for i in range(len(s)):",
+            "Mutate_Code": "for i not in not in range(len(s)):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T9_LCPN_13-Roman-To-Integer.py",
+            "Source_Code": "for i in range(len(s)):",
+            "Mutate_Code": " "
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T9_LCPN_13-Roman-To-Integer.py",
+            "Source_Code": "for i in range(len(s)):",
+            "Mutate_Code": "while True:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T9_LCPN_13-Roman-To-Integer.py",
+            "Source_Code": "for i in range(len(s)):",
+            "Mutate_Code": "for for: i in range(len(s)):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T9_LCPN_13-Roman-To-Integer.py",
+            "Source_Code": "for i in range(len(s)):",
+            "Mutate_Code": "for i in range(len( )):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T9_LCPN_13-Roman-To-Integer.py",
+            "Source_Code": "for i in range(len(s)):",
+            "Mutate_Code": "for i in range( )):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T9_LCPN_13-Roman-To-Integer.py",
+            "Source_Code": "for i in range(len(s)):",
+            "Mutate_Code": "for i range(len(s)):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T9_LCPN_13-Roman-To-Integer.py",
+            "Source_Code": "for i in range(len(s)):",
+            "Mutate_Code": "for i is range(len(s)):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T9_LCPN_13-Roman-To-Integer.py",
+            "Source_Code": "for i in range(len(s)):",
+            "Mutate_Code": "for i is not range(len(s)):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T9_LCPN_13-Roman-To-Integer.py",
+            "Source_Code": "for i in range(len(s)):",
+            "Mutate_Code": "for i in in range(len(s)):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T9_LCPN_13-Roman-To-Integer.py",
+            "Source_Code": "for i in range(len(s)):",
+            "Mutate_Code": "for i not in not in range(len(s)):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T9_LCPN_13-Roman-To-Integer.py",
+            "Source_Code": "for i in range(len(s)):",
+            "Mutate_Code": " "
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T9_LCPN_13-Roman-To-Integer.py",
+            "Source_Code": "for i in range(len(s)):",
+            "Mutate_Code": "while True:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T9_LCPN_13-Roman-To-Integer.py",
+            "Source_Code": "for i in range(len(s)):",
+            "Mutate_Code": "for for: i in range(len(s)):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T9_LCPN_13-Roman-To-Integer.py",
+            "Source_Code": "for i in range(len(s)):",
+            "Mutate_Code": "for i in range(len( )):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T9_LCPN_13-Roman-To-Integer.py",
+            "Source_Code": "for i in range(len(s)):",
+            "Mutate_Code": "for i in range( )):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T9_LCPN_13-Roman-To-Integer.py",
+            "Source_Code": "for i in range(len(s)):",
+            "Mutate_Code": "for i range(len(s)):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T9_LCPN_13-Roman-To-Integer.py",
+            "Source_Code": "for i in range(len(s)):",
+            "Mutate_Code": "for i is range(len(s)):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T9_LCPN_13-Roman-To-Integer.py",
+            "Source_Code": "for i in range(len(s)):",
+            "Mutate_Code": "for i is not range(len(s)):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T9_LCPN_13-Roman-To-Integer.py",
+            "Source_Code": "for i in range(len(s)):",
+            "Mutate_Code": "for i in in range(len(s)):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T9_LCPN_13-Roman-To-Integer.py",
+            "Source_Code": "for i in range(len(s)):",
+            "Mutate_Code": "for i not in not in range(len(s)):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T9_LCPN_13-Roman-To-Integer.py",
+            "Source_Code": "for i in range(len(s)):",
+            "Mutate_Code": " "
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T9_LCPN_13-Roman-To-Integer.py",
+            "Source_Code": "for i in range(len(s)):",
+            "Mutate_Code": "while True:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T9_LCPN_13-Roman-To-Integer.py",
+            "Source_Code": "for i in range(len(s)):",
+            "Mutate_Code": "for for: i in range(len(s)):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T9_LCPN_13-Roman-To-Integer.py",
+            "Source_Code": "for i in range(len(s)):",
+            "Mutate_Code": "for i in range(len( )):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T9_LCPN_13-Roman-To-Integer.py",
+            "Source_Code": "for i in range(len(s)):",
+            "Mutate_Code": "for i in range( )):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T9_LCPN_13-Roman-To-Integer.py",
+            "Source_Code": "if i + 1 < len(s) and roman[s[i]] < roman[s[i + 1]]:",
+            "Mutate_Code": "if i 1 < len(s) and roman[s[i]] < roman[s[i + 1]]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T9_LCPN_13-Roman-To-Integer.py",
+            "Source_Code": "if i + 1 < len(s) and roman[s[i]] < roman[s[i + 1]]:",
+            "Mutate_Code": "if i + 1 < len(s) and roman[s[i]] < roman[s[i 1]]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T9_LCPN_13-Roman-To-Integer.py",
+            "Source_Code": "if i + 1 < len(s) and roman[s[i]] < roman[s[i + 1]]:",
+            "Mutate_Code": "if i - 1 < len(s) and roman[s[i]] < roman[s[i + 1]]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T9_LCPN_13-Roman-To-Integer.py",
+            "Source_Code": "if i + 1 < len(s) and roman[s[i]] < roman[s[i + 1]]:",
+            "Mutate_Code": "if i * 1 < len(s) and roman[s[i]] < roman[s[i + 1]]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T9_LCPN_13-Roman-To-Integer.py",
+            "Source_Code": "if i + 1 < len(s) and roman[s[i]] < roman[s[i + 1]]:",
+            "Mutate_Code": "if i / 1 < len(s) and roman[s[i]] < roman[s[i + 1]]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T9_LCPN_13-Roman-To-Integer.py",
+            "Source_Code": "if i + 1 < len(s) and roman[s[i]] < roman[s[i + 1]]:",
+            "Mutate_Code": "if i % 1 < len(s) and roman[s[i]] < roman[s[i + 1]]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T9_LCPN_13-Roman-To-Integer.py",
+            "Source_Code": "if i + 1 < len(s) and roman[s[i]] < roman[s[i + 1]]:",
+            "Mutate_Code": "if i ** 1 < len(s) and roman[s[i]] < roman[s[i + 1]]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T9_LCPN_13-Roman-To-Integer.py",
+            "Source_Code": "if i + 1 < len(s) and roman[s[i]] < roman[s[i + 1]]:",
+            "Mutate_Code": "if i // 1 < len(s) and roman[s[i]] < roman[s[i + 1]]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T9_LCPN_13-Roman-To-Integer.py",
+            "Source_Code": "if i + 1 < len(s) and roman[s[i]] < roman[s[i + 1]]:",
+            "Mutate_Code": "if i + 1 < len(s) and roman[s[i]] < roman[s[i - 1]]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T9_LCPN_13-Roman-To-Integer.py",
+            "Source_Code": "if i + 1 < len(s) and roman[s[i]] < roman[s[i + 1]]:",
+            "Mutate_Code": "if i + 1 < len(s) and roman[s[i]] < roman[s[i * 1]]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T9_LCPN_13-Roman-To-Integer.py",
+            "Source_Code": "if i + 1 < len(s) and roman[s[i]] < roman[s[i + 1]]:",
+            "Mutate_Code": "if i + 1 < len(s) and roman[s[i]] < roman[s[i / 1]]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T9_LCPN_13-Roman-To-Integer.py",
+            "Source_Code": "if i + 1 < len(s) and roman[s[i]] < roman[s[i + 1]]:",
+            "Mutate_Code": "if i + 1 < len(s) and roman[s[i]] < roman[s[i % 1]]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T9_LCPN_13-Roman-To-Integer.py",
+            "Source_Code": "if i + 1 < len(s) and roman[s[i]] < roman[s[i + 1]]:",
+            "Mutate_Code": "if i + 1 < len(s) and roman[s[i]] < roman[s[i ** 1]]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T9_LCPN_13-Roman-To-Integer.py",
+            "Source_Code": "if i + 1 < len(s) and roman[s[i]] < roman[s[i + 1]]:",
+            "Mutate_Code": "if i + 1 < len(s) and roman[s[i]] < roman[s[i // 1]]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T9_LCPN_13-Roman-To-Integer.py",
+            "Source_Code": "if i + 1 < len(s) and roman[s[i]] < roman[s[i + 1]]:",
+            "Mutate_Code": "if i ++ 1 < len(s) and roman[s[i]] < roman[s[i + 1]]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T9_LCPN_13-Roman-To-Integer.py",
+            "Source_Code": "if i + 1 < len(s) and roman[s[i]] < roman[s[i + 1]]:",
+            "Mutate_Code": "if i -- 1 < len(s) and roman[s[i]] < roman[s[i + 1]]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T9_LCPN_13-Roman-To-Integer.py",
+            "Source_Code": "if i + 1 < len(s) and roman[s[i]] < roman[s[i + 1]]:",
+            "Mutate_Code": "if i ** 1 < len(s) and roman[s[i]] < roman[s[i + 1]]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T9_LCPN_13-Roman-To-Integer.py",
+            "Source_Code": "if i + 1 < len(s) and roman[s[i]] < roman[s[i + 1]]:",
+            "Mutate_Code": "if i // 1 < len(s) and roman[s[i]] < roman[s[i + 1]]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T9_LCPN_13-Roman-To-Integer.py",
+            "Source_Code": "if i + 1 < len(s) and roman[s[i]] < roman[s[i + 1]]:",
+            "Mutate_Code": "if i %% 1 < len(s) and roman[s[i]] < roman[s[i + 1]]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T9_LCPN_13-Roman-To-Integer.py",
+            "Source_Code": "if i + 1 < len(s) and roman[s[i]] < roman[s[i + 1]]:",
+            "Mutate_Code": "if i **** 1 < len(s) and roman[s[i]] < roman[s[i + 1]]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T9_LCPN_13-Roman-To-Integer.py",
+            "Source_Code": "if i + 1 < len(s) and roman[s[i]] < roman[s[i + 1]]:",
+            "Mutate_Code": "if i //// 1 < len(s) and roman[s[i]] < roman[s[i + 1]]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T9_LCPN_13-Roman-To-Integer.py",
+            "Source_Code": "if i + 1 < len(s) and roman[s[i]] < roman[s[i + 1]]:",
+            "Mutate_Code": "if i + 1 < len(s) and roman[s[i]] < roman[s[i ++ 1]]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T9_LCPN_13-Roman-To-Integer.py",
+            "Source_Code": "if i + 1 < len(s) and roman[s[i]] < roman[s[i + 1]]:",
+            "Mutate_Code": "if i + 1 < len(s) and roman[s[i]] < roman[s[i -- 1]]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T9_LCPN_13-Roman-To-Integer.py",
+            "Source_Code": "if i + 1 < len(s) and roman[s[i]] < roman[s[i + 1]]:",
+            "Mutate_Code": "if i + 1 < len(s) and roman[s[i]] < roman[s[i ** 1]]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T9_LCPN_13-Roman-To-Integer.py",
+            "Source_Code": "if i + 1 < len(s) and roman[s[i]] < roman[s[i + 1]]:",
+            "Mutate_Code": "if i + 1 < len(s) and roman[s[i]] < roman[s[i // 1]]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T9_LCPN_13-Roman-To-Integer.py",
+            "Source_Code": "if i + 1 < len(s) and roman[s[i]] < roman[s[i + 1]]:",
+            "Mutate_Code": "if i + 1 < len(s) and roman[s[i]] < roman[s[i %% 1]]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T9_LCPN_13-Roman-To-Integer.py",
+            "Source_Code": "if i + 1 < len(s) and roman[s[i]] < roman[s[i + 1]]:",
+            "Mutate_Code": "if i + 1 < len(s) and roman[s[i]] < roman[s[i **** 1]]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T9_LCPN_13-Roman-To-Integer.py",
+            "Source_Code": "if i + 1 < len(s) and roman[s[i]] < roman[s[i + 1]]:",
+            "Mutate_Code": "if i + 1 < len(s) and roman[s[i]] < roman[s[i //// 1]]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T9_LCPN_13-Roman-To-Integer.py",
+            "Source_Code": "if i + 1 < len(s) and roman[s[i]] < roman[s[i + 1]]:",
+            "Mutate_Code": "if i + 1   len(s) and roman[s[i]] < roman[s[i + 1]]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T9_LCPN_13-Roman-To-Integer.py",
+            "Source_Code": "if i + 1 < len(s) and roman[s[i]] < roman[s[i + 1]]:",
+            "Mutate_Code": "if i + 1 < len(s) and roman[s[i]]   roman[s[i + 1]]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T9_LCPN_13-Roman-To-Integer.py",
+            "Source_Code": "if i + 1 < len(s) and roman[s[i]] < roman[s[i + 1]]:",
+            "Mutate_Code": "if i + 1 == len(s) and roman[s[i]] < roman[s[i + 1]]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T9_LCPN_13-Roman-To-Integer.py",
+            "Source_Code": "if i + 1 < len(s) and roman[s[i]] < roman[s[i + 1]]:",
+            "Mutate_Code": "if i + 1 != len(s) and roman[s[i]] < roman[s[i + 1]]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T9_LCPN_13-Roman-To-Integer.py",
+            "Source_Code": "if i + 1 < len(s) and roman[s[i]] < roman[s[i + 1]]:",
+            "Mutate_Code": "if i + 1 > len(s) and roman[s[i]] < roman[s[i + 1]]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T9_LCPN_13-Roman-To-Integer.py",
+            "Source_Code": "if i + 1 < len(s) and roman[s[i]] < roman[s[i + 1]]:",
+            "Mutate_Code": "if i + 1 >= len(s) and roman[s[i]] < roman[s[i + 1]]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T9_LCPN_13-Roman-To-Integer.py",
+            "Source_Code": "if i + 1 < len(s) and roman[s[i]] < roman[s[i + 1]]:",
+            "Mutate_Code": "if i + 1 <= len(s) and roman[s[i]] < roman[s[i + 1]]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T9_LCPN_13-Roman-To-Integer.py",
+            "Source_Code": "if i + 1 < len(s) and roman[s[i]] < roman[s[i + 1]]:",
+            "Mutate_Code": "if i + 1 < len(s) and roman[s[i]] == roman[s[i + 1]]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T9_LCPN_13-Roman-To-Integer.py",
+            "Source_Code": "if i + 1 < len(s) and roman[s[i]] < roman[s[i + 1]]:",
+            "Mutate_Code": "if i + 1 < len(s) and roman[s[i]] != roman[s[i + 1]]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T9_LCPN_13-Roman-To-Integer.py",
+            "Source_Code": "if i + 1 < len(s) and roman[s[i]] < roman[s[i + 1]]:",
+            "Mutate_Code": "if i + 1 < len(s) and roman[s[i]] > roman[s[i + 1]]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T9_LCPN_13-Roman-To-Integer.py",
+            "Source_Code": "if i + 1 < len(s) and roman[s[i]] < roman[s[i + 1]]:",
+            "Mutate_Code": "if i + 1 < len(s) and roman[s[i]] >= roman[s[i + 1]]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T9_LCPN_13-Roman-To-Integer.py",
+            "Source_Code": "if i + 1 < len(s) and roman[s[i]] < roman[s[i + 1]]:",
+            "Mutate_Code": "if i + 1 < len(s) and roman[s[i]] <= roman[s[i + 1]]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T9_LCPN_13-Roman-To-Integer.py",
+            "Source_Code": "if i + 1 < len(s) and roman[s[i]] < roman[s[i + 1]]:",
+            "Mutate_Code": "if i + 1  ====  len(s) and roman[s[i]] < roman[s[i + 1]]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T9_LCPN_13-Roman-To-Integer.py",
+            "Source_Code": "if i + 1 < len(s) and roman[s[i]] < roman[s[i + 1]]:",
+            "Mutate_Code": "if i + 1  !==  len(s) and roman[s[i]] < roman[s[i + 1]]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T9_LCPN_13-Roman-To-Integer.py",
+            "Source_Code": "if i + 1 < len(s) and roman[s[i]] < roman[s[i + 1]]:",
+            "Mutate_Code": "if i + 1  >>  len(s) and roman[s[i]] < roman[s[i + 1]]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T9_LCPN_13-Roman-To-Integer.py",
+            "Source_Code": "if i + 1 < len(s) and roman[s[i]] < roman[s[i + 1]]:",
+            "Mutate_Code": "if i + 1  <<  len(s) and roman[s[i]] < roman[s[i + 1]]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T9_LCPN_13-Roman-To-Integer.py",
+            "Source_Code": "if i + 1 < len(s) and roman[s[i]] < roman[s[i + 1]]:",
+            "Mutate_Code": "if i + 1  >=>=  len(s) and roman[s[i]] < roman[s[i + 1]]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T9_LCPN_13-Roman-To-Integer.py",
+            "Source_Code": "if i + 1 < len(s) and roman[s[i]] < roman[s[i + 1]]:",
+            "Mutate_Code": "if i + 1  <=<=  len(s) and roman[s[i]] < roman[s[i + 1]]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T9_LCPN_13-Roman-To-Integer.py",
+            "Source_Code": "if i + 1 < len(s) and roman[s[i]] < roman[s[i + 1]]:",
+            "Mutate_Code": "if i + 1 < len(s) and roman[s[i]]  ====  roman[s[i + 1]]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T9_LCPN_13-Roman-To-Integer.py",
+            "Source_Code": "if i + 1 < len(s) and roman[s[i]] < roman[s[i + 1]]:",
+            "Mutate_Code": "if i + 1 < len(s) and roman[s[i]]  !==  roman[s[i + 1]]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T9_LCPN_13-Roman-To-Integer.py",
+            "Source_Code": "if i + 1 < len(s) and roman[s[i]] < roman[s[i + 1]]:",
+            "Mutate_Code": "if i + 1 < len(s) and roman[s[i]]  >>  roman[s[i + 1]]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T9_LCPN_13-Roman-To-Integer.py",
+            "Source_Code": "if i + 1 < len(s) and roman[s[i]] < roman[s[i + 1]]:",
+            "Mutate_Code": "if i + 1 < len(s) and roman[s[i]]  <<  roman[s[i + 1]]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T9_LCPN_13-Roman-To-Integer.py",
+            "Source_Code": "if i + 1 < len(s) and roman[s[i]] < roman[s[i + 1]]:",
+            "Mutate_Code": "if i + 1 < len(s) and roman[s[i]]  >=>=  roman[s[i + 1]]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T9_LCPN_13-Roman-To-Integer.py",
+            "Source_Code": "if i + 1 < len(s) and roman[s[i]] < roman[s[i + 1]]:",
+            "Mutate_Code": "if i + 1 < len(s) and roman[s[i]]  <=<=  roman[s[i + 1]]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T9_LCPN_13-Roman-To-Integer.py",
+            "Source_Code": "if i + 1 < len(s) and roman[s[i]] < roman[s[i + 1]]:",
+            "Mutate_Code": "if i + 1 < len(s) roman[s[i]] < roman[s[i + 1]]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T9_LCPN_13-Roman-To-Integer.py",
+            "Source_Code": "if i + 1 < len(s) and roman[s[i]] < roman[s[i + 1]]:",
+            "Mutate_Code": "if i + 1 < len(s) or roman[s[i]] < roman[s[i + 1]]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T9_LCPN_13-Roman-To-Integer.py",
+            "Source_Code": "if i + 1 < len(s) and roman[s[i]] < roman[s[i + 1]]:",
+            "Mutate_Code": "if i + 1 < len(s) not roman[s[i]] < roman[s[i + 1]]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T9_LCPN_13-Roman-To-Integer.py",
+            "Source_Code": "if i + 1 < len(s) and roman[s[i]] < roman[s[i + 1]]:",
+            "Mutate_Code": "if i + 1 < len(s) and and roman[s[i]] < roman[s[i + 1]]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T9_LCPN_13-Roman-To-Integer.py",
+            "Source_Code": "if i + 1 < len(s) and roman[s[i]] < roman[s[i + 1]]:",
+            "Mutate_Code": "if i + 1 < len(s) or or roman[s[i]] < roman[s[i + 1]]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T9_LCPN_13-Roman-To-Integer.py",
+            "Source_Code": "if i + 1 < len(s) and roman[s[i]] < roman[s[i + 1]]:",
+            "Mutate_Code": "if i + 1 < len(s) not not roman[s[i]] < roman[s[i + 1]]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T9_LCPN_13-Roman-To-Integer.py",
+            "Source_Code": "if i + 1 < len(s) and roman[s[i]] < roman[s[i + 1]]:",
+            "Mutate_Code": " "
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T9_LCPN_13-Roman-To-Integer.py",
+            "Source_Code": "if i + 1 < len(s) and roman[s[i]] < roman[s[i + 1]]:",
+            "Mutate_Code": "elif:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T9_LCPN_13-Roman-To-Integer.py",
+            "Source_Code": "if i + 1 < len(s) and roman[s[i]] < roman[s[i + 1]]:",
+            "Mutate_Code": "else:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T9_LCPN_13-Roman-To-Integer.py",
+            "Source_Code": "if i + 1 < len(s) and roman[s[i]] < roman[s[i + 1]]:",
+            "Mutate_Code": "if if"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T9_LCPN_13-Roman-To-Integer.py",
+            "Source_Code": "if i + 1 < len(s) and roman[s[i]] < roman[s[i + 1]]:",
+            "Mutate_Code": "if i + 1 < len( ) and roman[s[i]] < roman[s[i + 1]]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T9_LCPN_13-Roman-To-Integer.py",
+            "Source_Code": "if i + 1 < len(s) and roman[s[i]] < roman[s[i + 1]]:",
+            "Mutate_Code": "if i 1 < len(s) and roman[s[i]] < roman[s[i + 1]]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T9_LCPN_13-Roman-To-Integer.py",
+            "Source_Code": "if i + 1 < len(s) and roman[s[i]] < roman[s[i + 1]]:",
+            "Mutate_Code": "if i + 1 < len(s) and roman[s[i]] < roman[s[i 1]]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T9_LCPN_13-Roman-To-Integer.py",
+            "Source_Code": "if i + 1 < len(s) and roman[s[i]] < roman[s[i + 1]]:",
+            "Mutate_Code": "if i - 1 < len(s) and roman[s[i]] < roman[s[i + 1]]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T9_LCPN_13-Roman-To-Integer.py",
+            "Source_Code": "if i + 1 < len(s) and roman[s[i]] < roman[s[i + 1]]:",
+            "Mutate_Code": "if i * 1 < len(s) and roman[s[i]] < roman[s[i + 1]]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T9_LCPN_13-Roman-To-Integer.py",
+            "Source_Code": "if i + 1 < len(s) and roman[s[i]] < roman[s[i + 1]]:",
+            "Mutate_Code": "if i / 1 < len(s) and roman[s[i]] < roman[s[i + 1]]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T9_LCPN_13-Roman-To-Integer.py",
+            "Source_Code": "if i + 1 < len(s) and roman[s[i]] < roman[s[i + 1]]:",
+            "Mutate_Code": "if i % 1 < len(s) and roman[s[i]] < roman[s[i + 1]]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T9_LCPN_13-Roman-To-Integer.py",
+            "Source_Code": "if i + 1 < len(s) and roman[s[i]] < roman[s[i + 1]]:",
+            "Mutate_Code": "if i ** 1 < len(s) and roman[s[i]] < roman[s[i + 1]]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T9_LCPN_13-Roman-To-Integer.py",
+            "Source_Code": "if i + 1 < len(s) and roman[s[i]] < roman[s[i + 1]]:",
+            "Mutate_Code": "if i // 1 < len(s) and roman[s[i]] < roman[s[i + 1]]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T9_LCPN_13-Roman-To-Integer.py",
+            "Source_Code": "if i + 1 < len(s) and roman[s[i]] < roman[s[i + 1]]:",
+            "Mutate_Code": "if i + 1 < len(s) and roman[s[i]] < roman[s[i - 1]]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T9_LCPN_13-Roman-To-Integer.py",
+            "Source_Code": "if i + 1 < len(s) and roman[s[i]] < roman[s[i + 1]]:",
+            "Mutate_Code": "if i + 1 < len(s) and roman[s[i]] < roman[s[i * 1]]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T9_LCPN_13-Roman-To-Integer.py",
+            "Source_Code": "if i + 1 < len(s) and roman[s[i]] < roman[s[i + 1]]:",
+            "Mutate_Code": "if i + 1 < len(s) and roman[s[i]] < roman[s[i / 1]]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T9_LCPN_13-Roman-To-Integer.py",
+            "Source_Code": "if i + 1 < len(s) and roman[s[i]] < roman[s[i + 1]]:",
+            "Mutate_Code": "if i + 1 < len(s) and roman[s[i]] < roman[s[i % 1]]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T9_LCPN_13-Roman-To-Integer.py",
+            "Source_Code": "if i + 1 < len(s) and roman[s[i]] < roman[s[i + 1]]:",
+            "Mutate_Code": "if i + 1 < len(s) and roman[s[i]] < roman[s[i ** 1]]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T9_LCPN_13-Roman-To-Integer.py",
+            "Source_Code": "if i + 1 < len(s) and roman[s[i]] < roman[s[i + 1]]:",
+            "Mutate_Code": "if i + 1 < len(s) and roman[s[i]] < roman[s[i // 1]]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T9_LCPN_13-Roman-To-Integer.py",
+            "Source_Code": "if i + 1 < len(s) and roman[s[i]] < roman[s[i + 1]]:",
+            "Mutate_Code": "if i ++ 1 < len(s) and roman[s[i]] < roman[s[i + 1]]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T9_LCPN_13-Roman-To-Integer.py",
+            "Source_Code": "if i + 1 < len(s) and roman[s[i]] < roman[s[i + 1]]:",
+            "Mutate_Code": "if i -- 1 < len(s) and roman[s[i]] < roman[s[i + 1]]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T9_LCPN_13-Roman-To-Integer.py",
+            "Source_Code": "if i + 1 < len(s) and roman[s[i]] < roman[s[i + 1]]:",
+            "Mutate_Code": "if i ** 1 < len(s) and roman[s[i]] < roman[s[i + 1]]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T9_LCPN_13-Roman-To-Integer.py",
+            "Source_Code": "if i + 1 < len(s) and roman[s[i]] < roman[s[i + 1]]:",
+            "Mutate_Code": "if i // 1 < len(s) and roman[s[i]] < roman[s[i + 1]]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T9_LCPN_13-Roman-To-Integer.py",
+            "Source_Code": "if i + 1 < len(s) and roman[s[i]] < roman[s[i + 1]]:",
+            "Mutate_Code": "if i %% 1 < len(s) and roman[s[i]] < roman[s[i + 1]]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T9_LCPN_13-Roman-To-Integer.py",
+            "Source_Code": "if i + 1 < len(s) and roman[s[i]] < roman[s[i + 1]]:",
+            "Mutate_Code": "if i **** 1 < len(s) and roman[s[i]] < roman[s[i + 1]]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T9_LCPN_13-Roman-To-Integer.py",
+            "Source_Code": "if i + 1 < len(s) and roman[s[i]] < roman[s[i + 1]]:",
+            "Mutate_Code": "if i //// 1 < len(s) and roman[s[i]] < roman[s[i + 1]]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T9_LCPN_13-Roman-To-Integer.py",
+            "Source_Code": "if i + 1 < len(s) and roman[s[i]] < roman[s[i + 1]]:",
+            "Mutate_Code": "if i + 1 < len(s) and roman[s[i]] < roman[s[i ++ 1]]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T9_LCPN_13-Roman-To-Integer.py",
+            "Source_Code": "if i + 1 < len(s) and roman[s[i]] < roman[s[i + 1]]:",
+            "Mutate_Code": "if i + 1 < len(s) and roman[s[i]] < roman[s[i -- 1]]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T9_LCPN_13-Roman-To-Integer.py",
+            "Source_Code": "if i + 1 < len(s) and roman[s[i]] < roman[s[i + 1]]:",
+            "Mutate_Code": "if i + 1 < len(s) and roman[s[i]] < roman[s[i ** 1]]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T9_LCPN_13-Roman-To-Integer.py",
+            "Source_Code": "if i + 1 < len(s) and roman[s[i]] < roman[s[i + 1]]:",
+            "Mutate_Code": "if i + 1 < len(s) and roman[s[i]] < roman[s[i // 1]]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T9_LCPN_13-Roman-To-Integer.py",
+            "Source_Code": "if i + 1 < len(s) and roman[s[i]] < roman[s[i + 1]]:",
+            "Mutate_Code": "if i + 1 < len(s) and roman[s[i]] < roman[s[i %% 1]]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T9_LCPN_13-Roman-To-Integer.py",
+            "Source_Code": "if i + 1 < len(s) and roman[s[i]] < roman[s[i + 1]]:",
+            "Mutate_Code": "if i + 1 < len(s) and roman[s[i]] < roman[s[i **** 1]]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T9_LCPN_13-Roman-To-Integer.py",
+            "Source_Code": "if i + 1 < len(s) and roman[s[i]] < roman[s[i + 1]]:",
+            "Mutate_Code": "if i + 1 < len(s) and roman[s[i]] < roman[s[i //// 1]]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T9_LCPN_13-Roman-To-Integer.py",
+            "Source_Code": "if i + 1 < len(s) and roman[s[i]] < roman[s[i + 1]]:",
+            "Mutate_Code": "if i + 1   len(s) and roman[s[i]] < roman[s[i + 1]]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T9_LCPN_13-Roman-To-Integer.py",
+            "Source_Code": "if i + 1 < len(s) and roman[s[i]] < roman[s[i + 1]]:",
+            "Mutate_Code": "if i + 1 < len(s) and roman[s[i]]   roman[s[i + 1]]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T9_LCPN_13-Roman-To-Integer.py",
+            "Source_Code": "if i + 1 < len(s) and roman[s[i]] < roman[s[i + 1]]:",
+            "Mutate_Code": "if i + 1 == len(s) and roman[s[i]] < roman[s[i + 1]]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T9_LCPN_13-Roman-To-Integer.py",
+            "Source_Code": "if i + 1 < len(s) and roman[s[i]] < roman[s[i + 1]]:",
+            "Mutate_Code": "if i + 1 != len(s) and roman[s[i]] < roman[s[i + 1]]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T9_LCPN_13-Roman-To-Integer.py",
+            "Source_Code": "if i + 1 < len(s) and roman[s[i]] < roman[s[i + 1]]:",
+            "Mutate_Code": "if i + 1 > len(s) and roman[s[i]] < roman[s[i + 1]]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T9_LCPN_13-Roman-To-Integer.py",
+            "Source_Code": "if i + 1 < len(s) and roman[s[i]] < roman[s[i + 1]]:",
+            "Mutate_Code": "if i + 1 >= len(s) and roman[s[i]] < roman[s[i + 1]]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T9_LCPN_13-Roman-To-Integer.py",
+            "Source_Code": "if i + 1 < len(s) and roman[s[i]] < roman[s[i + 1]]:",
+            "Mutate_Code": "if i + 1 <= len(s) and roman[s[i]] < roman[s[i + 1]]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T9_LCPN_13-Roman-To-Integer.py",
+            "Source_Code": "if i + 1 < len(s) and roman[s[i]] < roman[s[i + 1]]:",
+            "Mutate_Code": "if i + 1 < len(s) and roman[s[i]] == roman[s[i + 1]]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T9_LCPN_13-Roman-To-Integer.py",
+            "Source_Code": "if i + 1 < len(s) and roman[s[i]] < roman[s[i + 1]]:",
+            "Mutate_Code": "if i + 1 < len(s) and roman[s[i]] != roman[s[i + 1]]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T9_LCPN_13-Roman-To-Integer.py",
+            "Source_Code": "if i + 1 < len(s) and roman[s[i]] < roman[s[i + 1]]:",
+            "Mutate_Code": "if i + 1 < len(s) and roman[s[i]] > roman[s[i + 1]]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T9_LCPN_13-Roman-To-Integer.py",
+            "Source_Code": "if i + 1 < len(s) and roman[s[i]] < roman[s[i + 1]]:",
+            "Mutate_Code": "if i + 1 < len(s) and roman[s[i]] >= roman[s[i + 1]]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T9_LCPN_13-Roman-To-Integer.py",
+            "Source_Code": "if i + 1 < len(s) and roman[s[i]] < roman[s[i + 1]]:",
+            "Mutate_Code": "if i + 1 < len(s) and roman[s[i]] <= roman[s[i + 1]]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T9_LCPN_13-Roman-To-Integer.py",
+            "Source_Code": "if i + 1 < len(s) and roman[s[i]] < roman[s[i + 1]]:",
+            "Mutate_Code": "if i + 1  ====  len(s) and roman[s[i]] < roman[s[i + 1]]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T9_LCPN_13-Roman-To-Integer.py",
+            "Source_Code": "if i + 1 < len(s) and roman[s[i]] < roman[s[i + 1]]:",
+            "Mutate_Code": "if i + 1  !==  len(s) and roman[s[i]] < roman[s[i + 1]]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T9_LCPN_13-Roman-To-Integer.py",
+            "Source_Code": "if i + 1 < len(s) and roman[s[i]] < roman[s[i + 1]]:",
+            "Mutate_Code": "if i + 1  >>  len(s) and roman[s[i]] < roman[s[i + 1]]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T9_LCPN_13-Roman-To-Integer.py",
+            "Source_Code": "if i + 1 < len(s) and roman[s[i]] < roman[s[i + 1]]:",
+            "Mutate_Code": "if i + 1  <<  len(s) and roman[s[i]] < roman[s[i + 1]]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T9_LCPN_13-Roman-To-Integer.py",
+            "Source_Code": "if i + 1 < len(s) and roman[s[i]] < roman[s[i + 1]]:",
+            "Mutate_Code": "if i + 1  >=>=  len(s) and roman[s[i]] < roman[s[i + 1]]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T9_LCPN_13-Roman-To-Integer.py",
+            "Source_Code": "if i + 1 < len(s) and roman[s[i]] < roman[s[i + 1]]:",
+            "Mutate_Code": "if i + 1  <=<=  len(s) and roman[s[i]] < roman[s[i + 1]]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T9_LCPN_13-Roman-To-Integer.py",
+            "Source_Code": "if i + 1 < len(s) and roman[s[i]] < roman[s[i + 1]]:",
+            "Mutate_Code": "if i + 1 < len(s) and roman[s[i]]  ====  roman[s[i + 1]]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T9_LCPN_13-Roman-To-Integer.py",
+            "Source_Code": "if i + 1 < len(s) and roman[s[i]] < roman[s[i + 1]]:",
+            "Mutate_Code": "if i + 1 < len(s) and roman[s[i]]  !==  roman[s[i + 1]]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T9_LCPN_13-Roman-To-Integer.py",
+            "Source_Code": "if i + 1 < len(s) and roman[s[i]] < roman[s[i + 1]]:",
+            "Mutate_Code": "if i + 1 < len(s) and roman[s[i]]  >>  roman[s[i + 1]]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T9_LCPN_13-Roman-To-Integer.py",
+            "Source_Code": "if i + 1 < len(s) and roman[s[i]] < roman[s[i + 1]]:",
+            "Mutate_Code": "if i + 1 < len(s) and roman[s[i]]  <<  roman[s[i + 1]]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T9_LCPN_13-Roman-To-Integer.py",
+            "Source_Code": "if i + 1 < len(s) and roman[s[i]] < roman[s[i + 1]]:",
+            "Mutate_Code": "if i + 1 < len(s) and roman[s[i]]  >=>=  roman[s[i + 1]]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T9_LCPN_13-Roman-To-Integer.py",
+            "Source_Code": "if i + 1 < len(s) and roman[s[i]] < roman[s[i + 1]]:",
+            "Mutate_Code": "if i + 1 < len(s) and roman[s[i]]  <=<=  roman[s[i + 1]]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T9_LCPN_13-Roman-To-Integer.py",
+            "Source_Code": "if i + 1 < len(s) and roman[s[i]] < roman[s[i + 1]]:",
+            "Mutate_Code": "if i + 1 < len(s) roman[s[i]] < roman[s[i + 1]]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T9_LCPN_13-Roman-To-Integer.py",
+            "Source_Code": "if i + 1 < len(s) and roman[s[i]] < roman[s[i + 1]]:",
+            "Mutate_Code": "if i + 1 < len(s) or roman[s[i]] < roman[s[i + 1]]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T9_LCPN_13-Roman-To-Integer.py",
+            "Source_Code": "if i + 1 < len(s) and roman[s[i]] < roman[s[i + 1]]:",
+            "Mutate_Code": "if i + 1 < len(s) not roman[s[i]] < roman[s[i + 1]]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T9_LCPN_13-Roman-To-Integer.py",
+            "Source_Code": "if i + 1 < len(s) and roman[s[i]] < roman[s[i + 1]]:",
+            "Mutate_Code": "if i + 1 < len(s) and and roman[s[i]] < roman[s[i + 1]]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T9_LCPN_13-Roman-To-Integer.py",
+            "Source_Code": "if i + 1 < len(s) and roman[s[i]] < roman[s[i + 1]]:",
+            "Mutate_Code": "if i + 1 < len(s) or or roman[s[i]] < roman[s[i + 1]]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T9_LCPN_13-Roman-To-Integer.py",
+            "Source_Code": "if i + 1 < len(s) and roman[s[i]] < roman[s[i + 1]]:",
+            "Mutate_Code": "if i + 1 < len(s) not not roman[s[i]] < roman[s[i + 1]]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T9_LCPN_13-Roman-To-Integer.py",
+            "Source_Code": "if i + 1 < len(s) and roman[s[i]] < roman[s[i + 1]]:",
+            "Mutate_Code": " "
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T9_LCPN_13-Roman-To-Integer.py",
+            "Source_Code": "if i + 1 < len(s) and roman[s[i]] < roman[s[i + 1]]:",
+            "Mutate_Code": "elif:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T9_LCPN_13-Roman-To-Integer.py",
+            "Source_Code": "if i + 1 < len(s) and roman[s[i]] < roman[s[i + 1]]:",
+            "Mutate_Code": "else:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T9_LCPN_13-Roman-To-Integer.py",
+            "Source_Code": "if i + 1 < len(s) and roman[s[i]] < roman[s[i + 1]]:",
+            "Mutate_Code": "if if"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T9_LCPN_13-Roman-To-Integer.py",
+            "Source_Code": "if i + 1 < len(s) and roman[s[i]] < roman[s[i + 1]]:",
+            "Mutate_Code": "if i + 1 < len( ) and roman[s[i]] < roman[s[i + 1]]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T9_LCPN_13-Roman-To-Integer.py",
+            "Source_Code": "if i + 1 < len(s) and roman[s[i]] < roman[s[i + 1]]:",
+            "Mutate_Code": "if i 1 < len(s) and roman[s[i]] < roman[s[i + 1]]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T9_LCPN_13-Roman-To-Integer.py",
+            "Source_Code": "if i + 1 < len(s) and roman[s[i]] < roman[s[i + 1]]:",
+            "Mutate_Code": "if i + 1 < len(s) and roman[s[i]] < roman[s[i 1]]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T9_LCPN_13-Roman-To-Integer.py",
+            "Source_Code": "if i + 1 < len(s) and roman[s[i]] < roman[s[i + 1]]:",
+            "Mutate_Code": "if i - 1 < len(s) and roman[s[i]] < roman[s[i + 1]]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T9_LCPN_13-Roman-To-Integer.py",
+            "Source_Code": "if i + 1 < len(s) and roman[s[i]] < roman[s[i + 1]]:",
+            "Mutate_Code": "if i * 1 < len(s) and roman[s[i]] < roman[s[i + 1]]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T9_LCPN_13-Roman-To-Integer.py",
+            "Source_Code": "if i + 1 < len(s) and roman[s[i]] < roman[s[i + 1]]:",
+            "Mutate_Code": "if i / 1 < len(s) and roman[s[i]] < roman[s[i + 1]]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T9_LCPN_13-Roman-To-Integer.py",
+            "Source_Code": "if i + 1 < len(s) and roman[s[i]] < roman[s[i + 1]]:",
+            "Mutate_Code": "if i % 1 < len(s) and roman[s[i]] < roman[s[i + 1]]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T9_LCPN_13-Roman-To-Integer.py",
+            "Source_Code": "if i + 1 < len(s) and roman[s[i]] < roman[s[i + 1]]:",
+            "Mutate_Code": "if i ** 1 < len(s) and roman[s[i]] < roman[s[i + 1]]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T9_LCPN_13-Roman-To-Integer.py",
+            "Source_Code": "if i + 1 < len(s) and roman[s[i]] < roman[s[i + 1]]:",
+            "Mutate_Code": "if i // 1 < len(s) and roman[s[i]] < roman[s[i + 1]]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T9_LCPN_13-Roman-To-Integer.py",
+            "Source_Code": "if i + 1 < len(s) and roman[s[i]] < roman[s[i + 1]]:",
+            "Mutate_Code": "if i + 1 < len(s) and roman[s[i]] < roman[s[i - 1]]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T9_LCPN_13-Roman-To-Integer.py",
+            "Source_Code": "if i + 1 < len(s) and roman[s[i]] < roman[s[i + 1]]:",
+            "Mutate_Code": "if i + 1 < len(s) and roman[s[i]] < roman[s[i * 1]]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T9_LCPN_13-Roman-To-Integer.py",
+            "Source_Code": "if i + 1 < len(s) and roman[s[i]] < roman[s[i + 1]]:",
+            "Mutate_Code": "if i + 1 < len(s) and roman[s[i]] < roman[s[i / 1]]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T9_LCPN_13-Roman-To-Integer.py",
+            "Source_Code": "if i + 1 < len(s) and roman[s[i]] < roman[s[i + 1]]:",
+            "Mutate_Code": "if i + 1 < len(s) and roman[s[i]] < roman[s[i % 1]]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T9_LCPN_13-Roman-To-Integer.py",
+            "Source_Code": "if i + 1 < len(s) and roman[s[i]] < roman[s[i + 1]]:",
+            "Mutate_Code": "if i + 1 < len(s) and roman[s[i]] < roman[s[i ** 1]]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T9_LCPN_13-Roman-To-Integer.py",
+            "Source_Code": "if i + 1 < len(s) and roman[s[i]] < roman[s[i + 1]]:",
+            "Mutate_Code": "if i + 1 < len(s) and roman[s[i]] < roman[s[i // 1]]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T9_LCPN_13-Roman-To-Integer.py",
+            "Source_Code": "if i + 1 < len(s) and roman[s[i]] < roman[s[i + 1]]:",
+            "Mutate_Code": "if i ++ 1 < len(s) and roman[s[i]] < roman[s[i + 1]]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T9_LCPN_13-Roman-To-Integer.py",
+            "Source_Code": "if i + 1 < len(s) and roman[s[i]] < roman[s[i + 1]]:",
+            "Mutate_Code": "if i -- 1 < len(s) and roman[s[i]] < roman[s[i + 1]]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T9_LCPN_13-Roman-To-Integer.py",
+            "Source_Code": "if i + 1 < len(s) and roman[s[i]] < roman[s[i + 1]]:",
+            "Mutate_Code": "if i ** 1 < len(s) and roman[s[i]] < roman[s[i + 1]]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T9_LCPN_13-Roman-To-Integer.py",
+            "Source_Code": "if i + 1 < len(s) and roman[s[i]] < roman[s[i + 1]]:",
+            "Mutate_Code": "if i // 1 < len(s) and roman[s[i]] < roman[s[i + 1]]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T9_LCPN_13-Roman-To-Integer.py",
+            "Source_Code": "if i + 1 < len(s) and roman[s[i]] < roman[s[i + 1]]:",
+            "Mutate_Code": "if i %% 1 < len(s) and roman[s[i]] < roman[s[i + 1]]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T9_LCPN_13-Roman-To-Integer.py",
+            "Source_Code": "if i + 1 < len(s) and roman[s[i]] < roman[s[i + 1]]:",
+            "Mutate_Code": "if i **** 1 < len(s) and roman[s[i]] < roman[s[i + 1]]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T9_LCPN_13-Roman-To-Integer.py",
+            "Source_Code": "if i + 1 < len(s) and roman[s[i]] < roman[s[i + 1]]:",
+            "Mutate_Code": "if i //// 1 < len(s) and roman[s[i]] < roman[s[i + 1]]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T9_LCPN_13-Roman-To-Integer.py",
+            "Source_Code": "if i + 1 < len(s) and roman[s[i]] < roman[s[i + 1]]:",
+            "Mutate_Code": "if i + 1 < len(s) and roman[s[i]] < roman[s[i ++ 1]]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T9_LCPN_13-Roman-To-Integer.py",
+            "Source_Code": "if i + 1 < len(s) and roman[s[i]] < roman[s[i + 1]]:",
+            "Mutate_Code": "if i + 1 < len(s) and roman[s[i]] < roman[s[i -- 1]]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T9_LCPN_13-Roman-To-Integer.py",
+            "Source_Code": "if i + 1 < len(s) and roman[s[i]] < roman[s[i + 1]]:",
+            "Mutate_Code": "if i + 1 < len(s) and roman[s[i]] < roman[s[i ** 1]]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T9_LCPN_13-Roman-To-Integer.py",
+            "Source_Code": "if i + 1 < len(s) and roman[s[i]] < roman[s[i + 1]]:",
+            "Mutate_Code": "if i + 1 < len(s) and roman[s[i]] < roman[s[i // 1]]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T9_LCPN_13-Roman-To-Integer.py",
+            "Source_Code": "if i + 1 < len(s) and roman[s[i]] < roman[s[i + 1]]:",
+            "Mutate_Code": "if i + 1 < len(s) and roman[s[i]] < roman[s[i %% 1]]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T9_LCPN_13-Roman-To-Integer.py",
+            "Source_Code": "if i + 1 < len(s) and roman[s[i]] < roman[s[i + 1]]:",
+            "Mutate_Code": "if i + 1 < len(s) and roman[s[i]] < roman[s[i **** 1]]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T9_LCPN_13-Roman-To-Integer.py",
+            "Source_Code": "if i + 1 < len(s) and roman[s[i]] < roman[s[i + 1]]:",
+            "Mutate_Code": "if i + 1 < len(s) and roman[s[i]] < roman[s[i //// 1]]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T9_LCPN_13-Roman-To-Integer.py",
+            "Source_Code": "if i + 1 < len(s) and roman[s[i]] < roman[s[i + 1]]:",
+            "Mutate_Code": "if i + 1   len(s) and roman[s[i]] < roman[s[i + 1]]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T9_LCPN_13-Roman-To-Integer.py",
+            "Source_Code": "if i + 1 < len(s) and roman[s[i]] < roman[s[i + 1]]:",
+            "Mutate_Code": "if i + 1 < len(s) and roman[s[i]]   roman[s[i + 1]]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T9_LCPN_13-Roman-To-Integer.py",
+            "Source_Code": "if i + 1 < len(s) and roman[s[i]] < roman[s[i + 1]]:",
+            "Mutate_Code": "if i + 1 == len(s) and roman[s[i]] < roman[s[i + 1]]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T9_LCPN_13-Roman-To-Integer.py",
+            "Source_Code": "if i + 1 < len(s) and roman[s[i]] < roman[s[i + 1]]:",
+            "Mutate_Code": "if i + 1 != len(s) and roman[s[i]] < roman[s[i + 1]]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T9_LCPN_13-Roman-To-Integer.py",
+            "Source_Code": "if i + 1 < len(s) and roman[s[i]] < roman[s[i + 1]]:",
+            "Mutate_Code": "if i + 1 > len(s) and roman[s[i]] < roman[s[i + 1]]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T9_LCPN_13-Roman-To-Integer.py",
+            "Source_Code": "if i + 1 < len(s) and roman[s[i]] < roman[s[i + 1]]:",
+            "Mutate_Code": "if i + 1 >= len(s) and roman[s[i]] < roman[s[i + 1]]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T9_LCPN_13-Roman-To-Integer.py",
+            "Source_Code": "if i + 1 < len(s) and roman[s[i]] < roman[s[i + 1]]:",
+            "Mutate_Code": "if i + 1 <= len(s) and roman[s[i]] < roman[s[i + 1]]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T9_LCPN_13-Roman-To-Integer.py",
+            "Source_Code": "if i + 1 < len(s) and roman[s[i]] < roman[s[i + 1]]:",
+            "Mutate_Code": "if i + 1 < len(s) and roman[s[i]] == roman[s[i + 1]]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T9_LCPN_13-Roman-To-Integer.py",
+            "Source_Code": "if i + 1 < len(s) and roman[s[i]] < roman[s[i + 1]]:",
+            "Mutate_Code": "if i + 1 < len(s) and roman[s[i]] != roman[s[i + 1]]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T9_LCPN_13-Roman-To-Integer.py",
+            "Source_Code": "if i + 1 < len(s) and roman[s[i]] < roman[s[i + 1]]:",
+            "Mutate_Code": "if i + 1 < len(s) and roman[s[i]] > roman[s[i + 1]]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T9_LCPN_13-Roman-To-Integer.py",
+            "Source_Code": "if i + 1 < len(s) and roman[s[i]] < roman[s[i + 1]]:",
+            "Mutate_Code": "if i + 1 < len(s) and roman[s[i]] >= roman[s[i + 1]]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T9_LCPN_13-Roman-To-Integer.py",
+            "Source_Code": "if i + 1 < len(s) and roman[s[i]] < roman[s[i + 1]]:",
+            "Mutate_Code": "if i + 1 < len(s) and roman[s[i]] <= roman[s[i + 1]]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T9_LCPN_13-Roman-To-Integer.py",
+            "Source_Code": "if i + 1 < len(s) and roman[s[i]] < roman[s[i + 1]]:",
+            "Mutate_Code": "if i + 1  ====  len(s) and roman[s[i]] < roman[s[i + 1]]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T9_LCPN_13-Roman-To-Integer.py",
+            "Source_Code": "if i + 1 < len(s) and roman[s[i]] < roman[s[i + 1]]:",
+            "Mutate_Code": "if i + 1  !==  len(s) and roman[s[i]] < roman[s[i + 1]]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T9_LCPN_13-Roman-To-Integer.py",
+            "Source_Code": "if i + 1 < len(s) and roman[s[i]] < roman[s[i + 1]]:",
+            "Mutate_Code": "if i + 1  >>  len(s) and roman[s[i]] < roman[s[i + 1]]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T9_LCPN_13-Roman-To-Integer.py",
+            "Source_Code": "if i + 1 < len(s) and roman[s[i]] < roman[s[i + 1]]:",
+            "Mutate_Code": "if i + 1  <<  len(s) and roman[s[i]] < roman[s[i + 1]]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T9_LCPN_13-Roman-To-Integer.py",
+            "Source_Code": "if i + 1 < len(s) and roman[s[i]] < roman[s[i + 1]]:",
+            "Mutate_Code": "if i + 1  >=>=  len(s) and roman[s[i]] < roman[s[i + 1]]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T9_LCPN_13-Roman-To-Integer.py",
+            "Source_Code": "if i + 1 < len(s) and roman[s[i]] < roman[s[i + 1]]:",
+            "Mutate_Code": "if i + 1  <=<=  len(s) and roman[s[i]] < roman[s[i + 1]]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T9_LCPN_13-Roman-To-Integer.py",
+            "Source_Code": "if i + 1 < len(s) and roman[s[i]] < roman[s[i + 1]]:",
+            "Mutate_Code": "if i + 1 < len(s) and roman[s[i]]  ====  roman[s[i + 1]]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T9_LCPN_13-Roman-To-Integer.py",
+            "Source_Code": "if i + 1 < len(s) and roman[s[i]] < roman[s[i + 1]]:",
+            "Mutate_Code": "if i + 1 < len(s) and roman[s[i]]  !==  roman[s[i + 1]]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T9_LCPN_13-Roman-To-Integer.py",
+            "Source_Code": "if i + 1 < len(s) and roman[s[i]] < roman[s[i + 1]]:",
+            "Mutate_Code": "if i + 1 < len(s) and roman[s[i]]  >>  roman[s[i + 1]]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T9_LCPN_13-Roman-To-Integer.py",
+            "Source_Code": "if i + 1 < len(s) and roman[s[i]] < roman[s[i + 1]]:",
+            "Mutate_Code": "if i + 1 < len(s) and roman[s[i]]  <<  roman[s[i + 1]]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T9_LCPN_13-Roman-To-Integer.py",
+            "Source_Code": "if i + 1 < len(s) and roman[s[i]] < roman[s[i + 1]]:",
+            "Mutate_Code": "if i + 1 < len(s) and roman[s[i]]  >=>=  roman[s[i + 1]]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T9_LCPN_13-Roman-To-Integer.py",
+            "Source_Code": "if i + 1 < len(s) and roman[s[i]] < roman[s[i + 1]]:",
+            "Mutate_Code": "if i + 1 < len(s) and roman[s[i]]  <=<=  roman[s[i + 1]]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T9_LCPN_13-Roman-To-Integer.py",
+            "Source_Code": "if i + 1 < len(s) and roman[s[i]] < roman[s[i + 1]]:",
+            "Mutate_Code": "if i + 1 < len(s) roman[s[i]] < roman[s[i + 1]]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T9_LCPN_13-Roman-To-Integer.py",
+            "Source_Code": "if i + 1 < len(s) and roman[s[i]] < roman[s[i + 1]]:",
+            "Mutate_Code": "if i + 1 < len(s) or roman[s[i]] < roman[s[i + 1]]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T9_LCPN_13-Roman-To-Integer.py",
+            "Source_Code": "if i + 1 < len(s) and roman[s[i]] < roman[s[i + 1]]:",
+            "Mutate_Code": "if i + 1 < len(s) not roman[s[i]] < roman[s[i + 1]]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T9_LCPN_13-Roman-To-Integer.py",
+            "Source_Code": "if i + 1 < len(s) and roman[s[i]] < roman[s[i + 1]]:",
+            "Mutate_Code": "if i + 1 < len(s) and and roman[s[i]] < roman[s[i + 1]]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T9_LCPN_13-Roman-To-Integer.py",
+            "Source_Code": "if i + 1 < len(s) and roman[s[i]] < roman[s[i + 1]]:",
+            "Mutate_Code": "if i + 1 < len(s) or or roman[s[i]] < roman[s[i + 1]]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T9_LCPN_13-Roman-To-Integer.py",
+            "Source_Code": "if i + 1 < len(s) and roman[s[i]] < roman[s[i + 1]]:",
+            "Mutate_Code": "if i + 1 < len(s) not not roman[s[i]] < roman[s[i + 1]]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T9_LCPN_13-Roman-To-Integer.py",
+            "Source_Code": "if i + 1 < len(s) and roman[s[i]] < roman[s[i + 1]]:",
+            "Mutate_Code": " "
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T9_LCPN_13-Roman-To-Integer.py",
+            "Source_Code": "if i + 1 < len(s) and roman[s[i]] < roman[s[i + 1]]:",
+            "Mutate_Code": "elif:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T9_LCPN_13-Roman-To-Integer.py",
+            "Source_Code": "if i + 1 < len(s) and roman[s[i]] < roman[s[i + 1]]:",
+            "Mutate_Code": "else:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T9_LCPN_13-Roman-To-Integer.py",
+            "Source_Code": "if i + 1 < len(s) and roman[s[i]] < roman[s[i + 1]]:",
+            "Mutate_Code": "if if"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T9_LCPN_13-Roman-To-Integer.py",
+            "Source_Code": "if i + 1 < len(s) and roman[s[i]] < roman[s[i + 1]]:",
+            "Mutate_Code": "if i + 1 < len( ) and roman[s[i]] < roman[s[i + 1]]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T9_LCPN_13-Roman-To-Integer.py",
+            "Source_Code": "else:",
+            "Mutate_Code": " "
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T9_LCPN_13-Roman-To-Integer.py",
+            "Source_Code": "else:",
+            "Mutate_Code": "if:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T9_LCPN_13-Roman-To-Integer.py",
+            "Source_Code": "else:",
+            "Mutate_Code": "elif:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T9_LCPN_13-Roman-To-Integer.py",
+            "Source_Code": "else:",
+            "Mutate_Code": "else else:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T9_LCPN_13-Roman-To-Integer.py",
+            "Source_Code": "return res",
+            "Mutate_Code": " res"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T9_LCPN_13-Roman-To-Integer.py",
+            "Source_Code": "return res",
+            "Mutate_Code": "passres"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T9_LCPN_13-Roman-To-Integer.py",
+            "Source_Code": "return res",
+            "Mutate_Code": "return returnres"
+        }
+    }
+]

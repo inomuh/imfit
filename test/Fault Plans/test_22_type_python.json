@@ -1,0 +1,2914 @@
+[
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T22_LCPN_43-Multiply-Strings.py",
+            "Source_Code": "if \"0\" in [num1, num2]:",
+            "Mutate_Code": "if \"0\" [num1, num2]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T22_LCPN_43-Multiply-Strings.py",
+            "Source_Code": "if \"0\" in [num1, num2]:",
+            "Mutate_Code": "if \"0\" is [num1, num2]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T22_LCPN_43-Multiply-Strings.py",
+            "Source_Code": "if \"0\" in [num1, num2]:",
+            "Mutate_Code": "if \"0\" is not [num1, num2]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T22_LCPN_43-Multiply-Strings.py",
+            "Source_Code": "if \"0\" in [num1, num2]:",
+            "Mutate_Code": "if \"0\" in in [num1, num2]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T22_LCPN_43-Multiply-Strings.py",
+            "Source_Code": "if \"0\" in [num1, num2]:",
+            "Mutate_Code": "if \"0\" not in not in [num1, num2]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T22_LCPN_43-Multiply-Strings.py",
+            "Source_Code": "if \"0\" in [num1, num2]:",
+            "Mutate_Code": " "
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T22_LCPN_43-Multiply-Strings.py",
+            "Source_Code": "if \"0\" in [num1, num2]:",
+            "Mutate_Code": "elif:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T22_LCPN_43-Multiply-Strings.py",
+            "Source_Code": "if \"0\" in [num1, num2]:",
+            "Mutate_Code": "else:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T22_LCPN_43-Multiply-Strings.py",
+            "Source_Code": "if \"0\" in [num1, num2]:",
+            "Mutate_Code": "if if"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T22_LCPN_43-Multiply-Strings.py",
+            "Source_Code": "return \"0\"",
+            "Mutate_Code": " \"0\""
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T22_LCPN_43-Multiply-Strings.py",
+            "Source_Code": "return \"0\"",
+            "Mutate_Code": "pass\"0\""
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T22_LCPN_43-Multiply-Strings.py",
+            "Source_Code": "return \"0\"",
+            "Mutate_Code": "return return\"0\""
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T22_LCPN_43-Multiply-Strings.py",
+            "Source_Code": "res = [0] * (len(num1) + len(num2))",
+            "Mutate_Code": "res = [0] * (len(num1) len(num2))"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T22_LCPN_43-Multiply-Strings.py",
+            "Source_Code": "res = [0] * (len(num1) + len(num2))",
+            "Mutate_Code": "res = [0] (len(num1) + len(num2))"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T22_LCPN_43-Multiply-Strings.py",
+            "Source_Code": "res = [0] * (len(num1) + len(num2))",
+            "Mutate_Code": "res = [0] (len(num1) + len(num2))"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T22_LCPN_43-Multiply-Strings.py",
+            "Source_Code": "res = [0] * (len(num1) + len(num2))",
+            "Mutate_Code": "res = [0] * (len(num1) - len(num2))"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T22_LCPN_43-Multiply-Strings.py",
+            "Source_Code": "res = [0] * (len(num1) + len(num2))",
+            "Mutate_Code": "res = [0] * (len(num1) * len(num2))"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T22_LCPN_43-Multiply-Strings.py",
+            "Source_Code": "res = [0] * (len(num1) + len(num2))",
+            "Mutate_Code": "res = [0] * (len(num1) / len(num2))"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T22_LCPN_43-Multiply-Strings.py",
+            "Source_Code": "res = [0] * (len(num1) + len(num2))",
+            "Mutate_Code": "res = [0] * (len(num1) % len(num2))"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T22_LCPN_43-Multiply-Strings.py",
+            "Source_Code": "res = [0] * (len(num1) + len(num2))",
+            "Mutate_Code": "res = [0] * (len(num1) ** len(num2))"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T22_LCPN_43-Multiply-Strings.py",
+            "Source_Code": "res = [0] * (len(num1) + len(num2))",
+            "Mutate_Code": "res = [0] * (len(num1) // len(num2))"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T22_LCPN_43-Multiply-Strings.py",
+            "Source_Code": "res = [0] * (len(num1) + len(num2))",
+            "Mutate_Code": "res = [0] + (len(num1) + len(num2))"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T22_LCPN_43-Multiply-Strings.py",
+            "Source_Code": "res = [0] * (len(num1) + len(num2))",
+            "Mutate_Code": "res = [0] - (len(num1) + len(num2))"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T22_LCPN_43-Multiply-Strings.py",
+            "Source_Code": "res = [0] * (len(num1) + len(num2))",
+            "Mutate_Code": "res = [0] / (len(num1) + len(num2))"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T22_LCPN_43-Multiply-Strings.py",
+            "Source_Code": "res = [0] * (len(num1) + len(num2))",
+            "Mutate_Code": "res = [0] % (len(num1) + len(num2))"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T22_LCPN_43-Multiply-Strings.py",
+            "Source_Code": "res = [0] * (len(num1) + len(num2))",
+            "Mutate_Code": "res = [0] ** (len(num1) + len(num2))"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T22_LCPN_43-Multiply-Strings.py",
+            "Source_Code": "res = [0] * (len(num1) + len(num2))",
+            "Mutate_Code": "res = [0] // (len(num1) + len(num2))"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T22_LCPN_43-Multiply-Strings.py",
+            "Source_Code": "res = [0] * (len(num1) + len(num2))",
+            "Mutate_Code": "res = [0] + (len(num1) + len(num2))"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T22_LCPN_43-Multiply-Strings.py",
+            "Source_Code": "res = [0] * (len(num1) + len(num2))",
+            "Mutate_Code": "res = [0] - (len(num1) + len(num2))"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T22_LCPN_43-Multiply-Strings.py",
+            "Source_Code": "res = [0] * (len(num1) + len(num2))",
+            "Mutate_Code": "res = [0] / (len(num1) + len(num2))"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T22_LCPN_43-Multiply-Strings.py",
+            "Source_Code": "res = [0] * (len(num1) + len(num2))",
+            "Mutate_Code": "res = [0] % (len(num1) + len(num2))"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T22_LCPN_43-Multiply-Strings.py",
+            "Source_Code": "res = [0] * (len(num1) + len(num2))",
+            "Mutate_Code": "res = [0] ** (len(num1) + len(num2))"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T22_LCPN_43-Multiply-Strings.py",
+            "Source_Code": "res = [0] * (len(num1) + len(num2))",
+            "Mutate_Code": "res = [0] // (len(num1) + len(num2))"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T22_LCPN_43-Multiply-Strings.py",
+            "Source_Code": "res = [0] * (len(num1) + len(num2))",
+            "Mutate_Code": "res = [0] * (len(num1) ++ len(num2))"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T22_LCPN_43-Multiply-Strings.py",
+            "Source_Code": "res = [0] * (len(num1) + len(num2))",
+            "Mutate_Code": "res = [0] * (len(num1) -- len(num2))"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T22_LCPN_43-Multiply-Strings.py",
+            "Source_Code": "res = [0] * (len(num1) + len(num2))",
+            "Mutate_Code": "res = [0] * (len(num1) ** len(num2))"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T22_LCPN_43-Multiply-Strings.py",
+            "Source_Code": "res = [0] * (len(num1) + len(num2))",
+            "Mutate_Code": "res = [0] * (len(num1) // len(num2))"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T22_LCPN_43-Multiply-Strings.py",
+            "Source_Code": "res = [0] * (len(num1) + len(num2))",
+            "Mutate_Code": "res = [0] * (len(num1) %% len(num2))"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T22_LCPN_43-Multiply-Strings.py",
+            "Source_Code": "res = [0] * (len(num1) + len(num2))",
+            "Mutate_Code": "res = [0] * (len(num1) **** len(num2))"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T22_LCPN_43-Multiply-Strings.py",
+            "Source_Code": "res = [0] * (len(num1) + len(num2))",
+            "Mutate_Code": "res = [0] * (len(num1) //// len(num2))"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T22_LCPN_43-Multiply-Strings.py",
+            "Source_Code": "res = [0] * (len(num1) + len(num2))",
+            "Mutate_Code": "res = [0] ++ (len(num1) + len(num2))"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T22_LCPN_43-Multiply-Strings.py",
+            "Source_Code": "res = [0] * (len(num1) + len(num2))",
+            "Mutate_Code": "res = [0] -- (len(num1) + len(num2))"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T22_LCPN_43-Multiply-Strings.py",
+            "Source_Code": "res = [0] * (len(num1) + len(num2))",
+            "Mutate_Code": "res = [0] ** (len(num1) + len(num2))"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T22_LCPN_43-Multiply-Strings.py",
+            "Source_Code": "res = [0] * (len(num1) + len(num2))",
+            "Mutate_Code": "res = [0] // (len(num1) + len(num2))"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T22_LCPN_43-Multiply-Strings.py",
+            "Source_Code": "res = [0] * (len(num1) + len(num2))",
+            "Mutate_Code": "res = [0] %% (len(num1) + len(num2))"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T22_LCPN_43-Multiply-Strings.py",
+            "Source_Code": "res = [0] * (len(num1) + len(num2))",
+            "Mutate_Code": "res = [0] **** (len(num1) + len(num2))"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T22_LCPN_43-Multiply-Strings.py",
+            "Source_Code": "res = [0] * (len(num1) + len(num2))",
+            "Mutate_Code": "res = [0] //// (len(num1) + len(num2))"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T22_LCPN_43-Multiply-Strings.py",
+            "Source_Code": "res = [0] * (len(num1) + len(num2))",
+            "Mutate_Code": "res = [0] ++ (len(num1) + len(num2))"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T22_LCPN_43-Multiply-Strings.py",
+            "Source_Code": "res = [0] * (len(num1) + len(num2))",
+            "Mutate_Code": "res = [0] -- (len(num1) + len(num2))"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T22_LCPN_43-Multiply-Strings.py",
+            "Source_Code": "res = [0] * (len(num1) + len(num2))",
+            "Mutate_Code": "res = [0] ** (len(num1) + len(num2))"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T22_LCPN_43-Multiply-Strings.py",
+            "Source_Code": "res = [0] * (len(num1) + len(num2))",
+            "Mutate_Code": "res = [0] // (len(num1) + len(num2))"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T22_LCPN_43-Multiply-Strings.py",
+            "Source_Code": "res = [0] * (len(num1) + len(num2))",
+            "Mutate_Code": "res = [0] %% (len(num1) + len(num2))"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T22_LCPN_43-Multiply-Strings.py",
+            "Source_Code": "res = [0] * (len(num1) + len(num2))",
+            "Mutate_Code": "res = [0] **** (len(num1) + len(num2))"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T22_LCPN_43-Multiply-Strings.py",
+            "Source_Code": "res = [0] * (len(num1) + len(num2))",
+            "Mutate_Code": "res = [0] //// (len(num1) + len(num2))"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T22_LCPN_43-Multiply-Strings.py",
+            "Source_Code": "res = [0] * (len(num1) + len(num2))",
+            "Mutate_Code": "res [0] * (len(num1) + len(num2))"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T22_LCPN_43-Multiply-Strings.py",
+            "Source_Code": "res = [0] * (len(num1) + len(num2))",
+            "Mutate_Code": "res [0] * (len(num1) + len(num2))"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T22_LCPN_43-Multiply-Strings.py",
+            "Source_Code": "res = [0] * (len(num1) + len(num2))",
+            "Mutate_Code": "res += [0] * (len(num1) + len(num2))"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T22_LCPN_43-Multiply-Strings.py",
+            "Source_Code": "res = [0] * (len(num1) + len(num2))",
+            "Mutate_Code": "res -= [0] * (len(num1) + len(num2))"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T22_LCPN_43-Multiply-Strings.py",
+            "Source_Code": "res = [0] * (len(num1) + len(num2))",
+            "Mutate_Code": "res *= [0] * (len(num1) + len(num2))"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T22_LCPN_43-Multiply-Strings.py",
+            "Source_Code": "res = [0] * (len(num1) + len(num2))",
+            "Mutate_Code": "res /= [0] * (len(num1) + len(num2))"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T22_LCPN_43-Multiply-Strings.py",
+            "Source_Code": "res = [0] * (len(num1) + len(num2))",
+            "Mutate_Code": "res %= [0] * (len(num1) + len(num2))"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T22_LCPN_43-Multiply-Strings.py",
+            "Source_Code": "res = [0] * (len(num1) + len(num2))",
+            "Mutate_Code": "res //= [0] * (len(num1) + len(num2))"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T22_LCPN_43-Multiply-Strings.py",
+            "Source_Code": "res = [0] * (len(num1) + len(num2))",
+            "Mutate_Code": "res **= [0] * (len(num1) + len(num2))"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T22_LCPN_43-Multiply-Strings.py",
+            "Source_Code": "res = [0] * (len(num1) + len(num2))",
+            "Mutate_Code": "res &= [0] * (len(num1) + len(num2))"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T22_LCPN_43-Multiply-Strings.py",
+            "Source_Code": "res = [0] * (len(num1) + len(num2))",
+            "Mutate_Code": "res |= [0] * (len(num1) + len(num2))"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T22_LCPN_43-Multiply-Strings.py",
+            "Source_Code": "res = [0] * (len(num1) + len(num2))",
+            "Mutate_Code": "res ^= [0] * (len(num1) + len(num2))"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T22_LCPN_43-Multiply-Strings.py",
+            "Source_Code": "res = [0] * (len(num1) + len(num2))",
+            "Mutate_Code": "res >>= [0] * (len(num1) + len(num2))"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T22_LCPN_43-Multiply-Strings.py",
+            "Source_Code": "res = [0] * (len(num1) + len(num2))",
+            "Mutate_Code": "res <<= [0] * (len(num1) + len(num2))"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T22_LCPN_43-Multiply-Strings.py",
+            "Source_Code": "res = [0] * (len(num1) + len(num2))",
+            "Mutate_Code": "res += [0] * (len(num1) + len(num2))"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T22_LCPN_43-Multiply-Strings.py",
+            "Source_Code": "res = [0] * (len(num1) + len(num2))",
+            "Mutate_Code": "res -= [0] * (len(num1) + len(num2))"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T22_LCPN_43-Multiply-Strings.py",
+            "Source_Code": "res = [0] * (len(num1) + len(num2))",
+            "Mutate_Code": "res *= [0] * (len(num1) + len(num2))"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T22_LCPN_43-Multiply-Strings.py",
+            "Source_Code": "res = [0] * (len(num1) + len(num2))",
+            "Mutate_Code": "res /= [0] * (len(num1) + len(num2))"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T22_LCPN_43-Multiply-Strings.py",
+            "Source_Code": "res = [0] * (len(num1) + len(num2))",
+            "Mutate_Code": "res %= [0] * (len(num1) + len(num2))"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T22_LCPN_43-Multiply-Strings.py",
+            "Source_Code": "res = [0] * (len(num1) + len(num2))",
+            "Mutate_Code": "res //= [0] * (len(num1) + len(num2))"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T22_LCPN_43-Multiply-Strings.py",
+            "Source_Code": "res = [0] * (len(num1) + len(num2))",
+            "Mutate_Code": "res **= [0] * (len(num1) + len(num2))"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T22_LCPN_43-Multiply-Strings.py",
+            "Source_Code": "res = [0] * (len(num1) + len(num2))",
+            "Mutate_Code": "res &= [0] * (len(num1) + len(num2))"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T22_LCPN_43-Multiply-Strings.py",
+            "Source_Code": "res = [0] * (len(num1) + len(num2))",
+            "Mutate_Code": "res |= [0] * (len(num1) + len(num2))"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T22_LCPN_43-Multiply-Strings.py",
+            "Source_Code": "res = [0] * (len(num1) + len(num2))",
+            "Mutate_Code": "res ^= [0] * (len(num1) + len(num2))"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T22_LCPN_43-Multiply-Strings.py",
+            "Source_Code": "res = [0] * (len(num1) + len(num2))",
+            "Mutate_Code": "res >>= [0] * (len(num1) + len(num2))"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T22_LCPN_43-Multiply-Strings.py",
+            "Source_Code": "res = [0] * (len(num1) + len(num2))",
+            "Mutate_Code": "res <<= [0] * (len(num1) + len(num2))"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T22_LCPN_43-Multiply-Strings.py",
+            "Source_Code": "res = [0] * (len(num1) + len(num2))",
+            "Mutate_Code": "res == [0] * (len(num1) + len(num2))"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T22_LCPN_43-Multiply-Strings.py",
+            "Source_Code": "res = [0] * (len(num1) + len(num2))",
+            "Mutate_Code": "res +=+= [0] * (len(num1) + len(num2))"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T22_LCPN_43-Multiply-Strings.py",
+            "Source_Code": "res = [0] * (len(num1) + len(num2))",
+            "Mutate_Code": "res -=-= [0] * (len(num1) + len(num2))"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T22_LCPN_43-Multiply-Strings.py",
+            "Source_Code": "res = [0] * (len(num1) + len(num2))",
+            "Mutate_Code": "res *=*= [0] * (len(num1) + len(num2))"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T22_LCPN_43-Multiply-Strings.py",
+            "Source_Code": "res = [0] * (len(num1) + len(num2))",
+            "Mutate_Code": "res /=/= [0] * (len(num1) + len(num2))"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T22_LCPN_43-Multiply-Strings.py",
+            "Source_Code": "res = [0] * (len(num1) + len(num2))",
+            "Mutate_Code": "res %=%= [0] * (len(num1) + len(num2))"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T22_LCPN_43-Multiply-Strings.py",
+            "Source_Code": "res = [0] * (len(num1) + len(num2))",
+            "Mutate_Code": "res //=//= [0] * (len(num1) + len(num2))"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T22_LCPN_43-Multiply-Strings.py",
+            "Source_Code": "res = [0] * (len(num1) + len(num2))",
+            "Mutate_Code": "res **=**= [0] * (len(num1) + len(num2))"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T22_LCPN_43-Multiply-Strings.py",
+            "Source_Code": "res = [0] * (len(num1) + len(num2))",
+            "Mutate_Code": "res &=&= [0] * (len(num1) + len(num2))"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T22_LCPN_43-Multiply-Strings.py",
+            "Source_Code": "res = [0] * (len(num1) + len(num2))",
+            "Mutate_Code": "res |=|= [0] * (len(num1) + len(num2))"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T22_LCPN_43-Multiply-Strings.py",
+            "Source_Code": "res = [0] * (len(num1) + len(num2))",
+            "Mutate_Code": "res ^=^= [0] * (len(num1) + len(num2))"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T22_LCPN_43-Multiply-Strings.py",
+            "Source_Code": "res = [0] * (len(num1) + len(num2))",
+            "Mutate_Code": "res >>=>>= [0] * (len(num1) + len(num2))"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T22_LCPN_43-Multiply-Strings.py",
+            "Source_Code": "res = [0] * (len(num1) + len(num2))",
+            "Mutate_Code": "res <<=<<=[0] * (len(num1) + len(num2))"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T22_LCPN_43-Multiply-Strings.py",
+            "Source_Code": "res = [0] * (len(num1) + len(num2))",
+            "Mutate_Code": "res == [0] * (len(num1) + len(num2))"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T22_LCPN_43-Multiply-Strings.py",
+            "Source_Code": "res = [0] * (len(num1) + len(num2))",
+            "Mutate_Code": "res +=+= [0] * (len(num1) + len(num2))"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T22_LCPN_43-Multiply-Strings.py",
+            "Source_Code": "res = [0] * (len(num1) + len(num2))",
+            "Mutate_Code": "res -=-= [0] * (len(num1) + len(num2))"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T22_LCPN_43-Multiply-Strings.py",
+            "Source_Code": "res = [0] * (len(num1) + len(num2))",
+            "Mutate_Code": "res *=*= [0] * (len(num1) + len(num2))"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T22_LCPN_43-Multiply-Strings.py",
+            "Source_Code": "res = [0] * (len(num1) + len(num2))",
+            "Mutate_Code": "res /=/= [0] * (len(num1) + len(num2))"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T22_LCPN_43-Multiply-Strings.py",
+            "Source_Code": "res = [0] * (len(num1) + len(num2))",
+            "Mutate_Code": "res %=%= [0] * (len(num1) + len(num2))"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T22_LCPN_43-Multiply-Strings.py",
+            "Source_Code": "res = [0] * (len(num1) + len(num2))",
+            "Mutate_Code": "res //=//= [0] * (len(num1) + len(num2))"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T22_LCPN_43-Multiply-Strings.py",
+            "Source_Code": "res = [0] * (len(num1) + len(num2))",
+            "Mutate_Code": "res **=**= [0] * (len(num1) + len(num2))"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T22_LCPN_43-Multiply-Strings.py",
+            "Source_Code": "res = [0] * (len(num1) + len(num2))",
+            "Mutate_Code": "res &=&= [0] * (len(num1) + len(num2))"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T22_LCPN_43-Multiply-Strings.py",
+            "Source_Code": "res = [0] * (len(num1) + len(num2))",
+            "Mutate_Code": "res |=|= [0] * (len(num1) + len(num2))"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T22_LCPN_43-Multiply-Strings.py",
+            "Source_Code": "res = [0] * (len(num1) + len(num2))",
+            "Mutate_Code": "res ^=^= [0] * (len(num1) + len(num2))"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T22_LCPN_43-Multiply-Strings.py",
+            "Source_Code": "res = [0] * (len(num1) + len(num2))",
+            "Mutate_Code": "res >>=>>= [0] * (len(num1) + len(num2))"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T22_LCPN_43-Multiply-Strings.py",
+            "Source_Code": "res = [0] * (len(num1) + len(num2))",
+            "Mutate_Code": "res <<=<<=[0] * (len(num1) + len(num2))"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T22_LCPN_43-Multiply-Strings.py",
+            "Source_Code": "res = [0] * (len(num1) + len(num2))",
+            "Mutate_Code": "res = [0] * (len( ) + len(num2))"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T22_LCPN_43-Multiply-Strings.py",
+            "Source_Code": "res = [0] * (len(num1) + len(num2))",
+            "Mutate_Code": "res = [0] * (len(num1) + len(num2)) "
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T22_LCPN_43-Multiply-Strings.py",
+            "Source_Code": "for i1 in range(len(num1)):",
+            "Mutate_Code": "for i1 range(len(num1)):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T22_LCPN_43-Multiply-Strings.py",
+            "Source_Code": "for i1 in range(len(num1)):",
+            "Mutate_Code": "for i1 is range(len(num1)):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T22_LCPN_43-Multiply-Strings.py",
+            "Source_Code": "for i1 in range(len(num1)):",
+            "Mutate_Code": "for i1 is not range(len(num1)):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T22_LCPN_43-Multiply-Strings.py",
+            "Source_Code": "for i1 in range(len(num1)):",
+            "Mutate_Code": "for i1 in in range(len(num1)):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T22_LCPN_43-Multiply-Strings.py",
+            "Source_Code": "for i1 in range(len(num1)):",
+            "Mutate_Code": "for i1 not in not in range(len(num1)):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T22_LCPN_43-Multiply-Strings.py",
+            "Source_Code": "for i1 in range(len(num1)):",
+            "Mutate_Code": " "
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T22_LCPN_43-Multiply-Strings.py",
+            "Source_Code": "for i1 in range(len(num1)):",
+            "Mutate_Code": "while True:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T22_LCPN_43-Multiply-Strings.py",
+            "Source_Code": "for i1 in range(len(num1)):",
+            "Mutate_Code": "for for: i1 in range(len(num1)):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T22_LCPN_43-Multiply-Strings.py",
+            "Source_Code": "for i1 in range(len(num1)):",
+            "Mutate_Code": "for i1 in range(len( )):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T22_LCPN_43-Multiply-Strings.py",
+            "Source_Code": "for i1 in range(len(num1)):",
+            "Mutate_Code": "for i1 in range( )):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T22_LCPN_43-Multiply-Strings.py",
+            "Source_Code": "for i1 in range(len(num1)):",
+            "Mutate_Code": "for i1 range(len(num1)):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T22_LCPN_43-Multiply-Strings.py",
+            "Source_Code": "for i1 in range(len(num1)):",
+            "Mutate_Code": "for i1 is range(len(num1)):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T22_LCPN_43-Multiply-Strings.py",
+            "Source_Code": "for i1 in range(len(num1)):",
+            "Mutate_Code": "for i1 is not range(len(num1)):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T22_LCPN_43-Multiply-Strings.py",
+            "Source_Code": "for i1 in range(len(num1)):",
+            "Mutate_Code": "for i1 in in range(len(num1)):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T22_LCPN_43-Multiply-Strings.py",
+            "Source_Code": "for i1 in range(len(num1)):",
+            "Mutate_Code": "for i1 not in not in range(len(num1)):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T22_LCPN_43-Multiply-Strings.py",
+            "Source_Code": "for i1 in range(len(num1)):",
+            "Mutate_Code": " "
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T22_LCPN_43-Multiply-Strings.py",
+            "Source_Code": "for i1 in range(len(num1)):",
+            "Mutate_Code": "while True:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T22_LCPN_43-Multiply-Strings.py",
+            "Source_Code": "for i1 in range(len(num1)):",
+            "Mutate_Code": "for for: i1 in range(len(num1)):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T22_LCPN_43-Multiply-Strings.py",
+            "Source_Code": "for i1 in range(len(num1)):",
+            "Mutate_Code": "for i1 in range(len( )):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T22_LCPN_43-Multiply-Strings.py",
+            "Source_Code": "for i1 in range(len(num1)):",
+            "Mutate_Code": "for i1 in range( )):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T22_LCPN_43-Multiply-Strings.py",
+            "Source_Code": "for i1 in range(len(num1)):",
+            "Mutate_Code": "for i1 range(len(num1)):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T22_LCPN_43-Multiply-Strings.py",
+            "Source_Code": "for i1 in range(len(num1)):",
+            "Mutate_Code": "for i1 is range(len(num1)):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T22_LCPN_43-Multiply-Strings.py",
+            "Source_Code": "for i1 in range(len(num1)):",
+            "Mutate_Code": "for i1 is not range(len(num1)):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T22_LCPN_43-Multiply-Strings.py",
+            "Source_Code": "for i1 in range(len(num1)):",
+            "Mutate_Code": "for i1 in in range(len(num1)):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T22_LCPN_43-Multiply-Strings.py",
+            "Source_Code": "for i1 in range(len(num1)):",
+            "Mutate_Code": "for i1 not in not in range(len(num1)):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T22_LCPN_43-Multiply-Strings.py",
+            "Source_Code": "for i1 in range(len(num1)):",
+            "Mutate_Code": " "
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T22_LCPN_43-Multiply-Strings.py",
+            "Source_Code": "for i1 in range(len(num1)):",
+            "Mutate_Code": "while True:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T22_LCPN_43-Multiply-Strings.py",
+            "Source_Code": "for i1 in range(len(num1)):",
+            "Mutate_Code": "for for: i1 in range(len(num1)):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T22_LCPN_43-Multiply-Strings.py",
+            "Source_Code": "for i1 in range(len(num1)):",
+            "Mutate_Code": "for i1 in range(len( )):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T22_LCPN_43-Multiply-Strings.py",
+            "Source_Code": "for i1 in range(len(num1)):",
+            "Mutate_Code": "for i1 in range( )):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T22_LCPN_43-Multiply-Strings.py",
+            "Source_Code": "for i2 in range(len(num2)):",
+            "Mutate_Code": "for i2 range(len(num2)):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T22_LCPN_43-Multiply-Strings.py",
+            "Source_Code": "for i2 in range(len(num2)):",
+            "Mutate_Code": "for i2 is range(len(num2)):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T22_LCPN_43-Multiply-Strings.py",
+            "Source_Code": "for i2 in range(len(num2)):",
+            "Mutate_Code": "for i2 is not range(len(num2)):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T22_LCPN_43-Multiply-Strings.py",
+            "Source_Code": "for i2 in range(len(num2)):",
+            "Mutate_Code": "for i2 in in range(len(num2)):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T22_LCPN_43-Multiply-Strings.py",
+            "Source_Code": "for i2 in range(len(num2)):",
+            "Mutate_Code": "for i2 not in not in range(len(num2)):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T22_LCPN_43-Multiply-Strings.py",
+            "Source_Code": "for i2 in range(len(num2)):",
+            "Mutate_Code": " "
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T22_LCPN_43-Multiply-Strings.py",
+            "Source_Code": "for i2 in range(len(num2)):",
+            "Mutate_Code": "while True:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T22_LCPN_43-Multiply-Strings.py",
+            "Source_Code": "for i2 in range(len(num2)):",
+            "Mutate_Code": "for for: i2 in range(len(num2)):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T22_LCPN_43-Multiply-Strings.py",
+            "Source_Code": "for i2 in range(len(num2)):",
+            "Mutate_Code": "for i2 in range(len( )):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T22_LCPN_43-Multiply-Strings.py",
+            "Source_Code": "for i2 in range(len(num2)):",
+            "Mutate_Code": "for i2 in range( )):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T22_LCPN_43-Multiply-Strings.py",
+            "Source_Code": "for i2 in range(len(num2)):",
+            "Mutate_Code": "for i2 range(len(num2)):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T22_LCPN_43-Multiply-Strings.py",
+            "Source_Code": "for i2 in range(len(num2)):",
+            "Mutate_Code": "for i2 is range(len(num2)):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T22_LCPN_43-Multiply-Strings.py",
+            "Source_Code": "for i2 in range(len(num2)):",
+            "Mutate_Code": "for i2 is not range(len(num2)):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T22_LCPN_43-Multiply-Strings.py",
+            "Source_Code": "for i2 in range(len(num2)):",
+            "Mutate_Code": "for i2 in in range(len(num2)):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T22_LCPN_43-Multiply-Strings.py",
+            "Source_Code": "for i2 in range(len(num2)):",
+            "Mutate_Code": "for i2 not in not in range(len(num2)):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T22_LCPN_43-Multiply-Strings.py",
+            "Source_Code": "for i2 in range(len(num2)):",
+            "Mutate_Code": " "
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T22_LCPN_43-Multiply-Strings.py",
+            "Source_Code": "for i2 in range(len(num2)):",
+            "Mutate_Code": "while True:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T22_LCPN_43-Multiply-Strings.py",
+            "Source_Code": "for i2 in range(len(num2)):",
+            "Mutate_Code": "for for: i2 in range(len(num2)):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T22_LCPN_43-Multiply-Strings.py",
+            "Source_Code": "for i2 in range(len(num2)):",
+            "Mutate_Code": "for i2 in range(len( )):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T22_LCPN_43-Multiply-Strings.py",
+            "Source_Code": "for i2 in range(len(num2)):",
+            "Mutate_Code": "for i2 in range( )):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T22_LCPN_43-Multiply-Strings.py",
+            "Source_Code": "for i2 in range(len(num2)):",
+            "Mutate_Code": "for i2 range(len(num2)):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T22_LCPN_43-Multiply-Strings.py",
+            "Source_Code": "for i2 in range(len(num2)):",
+            "Mutate_Code": "for i2 is range(len(num2)):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T22_LCPN_43-Multiply-Strings.py",
+            "Source_Code": "for i2 in range(len(num2)):",
+            "Mutate_Code": "for i2 is not range(len(num2)):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T22_LCPN_43-Multiply-Strings.py",
+            "Source_Code": "for i2 in range(len(num2)):",
+            "Mutate_Code": "for i2 in in range(len(num2)):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T22_LCPN_43-Multiply-Strings.py",
+            "Source_Code": "for i2 in range(len(num2)):",
+            "Mutate_Code": "for i2 not in not in range(len(num2)):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T22_LCPN_43-Multiply-Strings.py",
+            "Source_Code": "for i2 in range(len(num2)):",
+            "Mutate_Code": " "
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T22_LCPN_43-Multiply-Strings.py",
+            "Source_Code": "for i2 in range(len(num2)):",
+            "Mutate_Code": "while True:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T22_LCPN_43-Multiply-Strings.py",
+            "Source_Code": "for i2 in range(len(num2)):",
+            "Mutate_Code": "for for: i2 in range(len(num2)):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T22_LCPN_43-Multiply-Strings.py",
+            "Source_Code": "for i2 in range(len(num2)):",
+            "Mutate_Code": "for i2 in range(len( )):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T22_LCPN_43-Multiply-Strings.py",
+            "Source_Code": "for i2 in range(len(num2)):",
+            "Mutate_Code": "for i2 in range( )):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T22_LCPN_43-Multiply-Strings.py",
+            "Source_Code": "digit = int(num1[i1]) * int(num2[i2])",
+            "Mutate_Code": "digit = int(num1[i1]) int(num2[i2])"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T22_LCPN_43-Multiply-Strings.py",
+            "Source_Code": "digit = int(num1[i1]) * int(num2[i2])",
+            "Mutate_Code": "digit = int(num1[i1]) int(num2[i2])"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T22_LCPN_43-Multiply-Strings.py",
+            "Source_Code": "digit = int(num1[i1]) * int(num2[i2])",
+            "Mutate_Code": "digit = int(num1[i1]) + int(num2[i2])"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T22_LCPN_43-Multiply-Strings.py",
+            "Source_Code": "digit = int(num1[i1]) * int(num2[i2])",
+            "Mutate_Code": "digit = int(num1[i1]) - int(num2[i2])"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T22_LCPN_43-Multiply-Strings.py",
+            "Source_Code": "digit = int(num1[i1]) * int(num2[i2])",
+            "Mutate_Code": "digit = int(num1[i1]) / int(num2[i2])"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T22_LCPN_43-Multiply-Strings.py",
+            "Source_Code": "digit = int(num1[i1]) * int(num2[i2])",
+            "Mutate_Code": "digit = int(num1[i1]) % int(num2[i2])"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T22_LCPN_43-Multiply-Strings.py",
+            "Source_Code": "digit = int(num1[i1]) * int(num2[i2])",
+            "Mutate_Code": "digit = int(num1[i1]) ** int(num2[i2])"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T22_LCPN_43-Multiply-Strings.py",
+            "Source_Code": "digit = int(num1[i1]) * int(num2[i2])",
+            "Mutate_Code": "digit = int(num1[i1]) // int(num2[i2])"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T22_LCPN_43-Multiply-Strings.py",
+            "Source_Code": "digit = int(num1[i1]) * int(num2[i2])",
+            "Mutate_Code": "digit = int(num1[i1]) + int(num2[i2])"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T22_LCPN_43-Multiply-Strings.py",
+            "Source_Code": "digit = int(num1[i1]) * int(num2[i2])",
+            "Mutate_Code": "digit = int(num1[i1]) - int(num2[i2])"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T22_LCPN_43-Multiply-Strings.py",
+            "Source_Code": "digit = int(num1[i1]) * int(num2[i2])",
+            "Mutate_Code": "digit = int(num1[i1]) / int(num2[i2])"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T22_LCPN_43-Multiply-Strings.py",
+            "Source_Code": "digit = int(num1[i1]) * int(num2[i2])",
+            "Mutate_Code": "digit = int(num1[i1]) % int(num2[i2])"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T22_LCPN_43-Multiply-Strings.py",
+            "Source_Code": "digit = int(num1[i1]) * int(num2[i2])",
+            "Mutate_Code": "digit = int(num1[i1]) ** int(num2[i2])"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T22_LCPN_43-Multiply-Strings.py",
+            "Source_Code": "digit = int(num1[i1]) * int(num2[i2])",
+            "Mutate_Code": "digit = int(num1[i1]) // int(num2[i2])"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T22_LCPN_43-Multiply-Strings.py",
+            "Source_Code": "digit = int(num1[i1]) * int(num2[i2])",
+            "Mutate_Code": "digit = int(num1[i1]) ++ int(num2[i2])"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T22_LCPN_43-Multiply-Strings.py",
+            "Source_Code": "digit = int(num1[i1]) * int(num2[i2])",
+            "Mutate_Code": "digit = int(num1[i1]) -- int(num2[i2])"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T22_LCPN_43-Multiply-Strings.py",
+            "Source_Code": "digit = int(num1[i1]) * int(num2[i2])",
+            "Mutate_Code": "digit = int(num1[i1]) ** int(num2[i2])"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T22_LCPN_43-Multiply-Strings.py",
+            "Source_Code": "digit = int(num1[i1]) * int(num2[i2])",
+            "Mutate_Code": "digit = int(num1[i1]) // int(num2[i2])"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T22_LCPN_43-Multiply-Strings.py",
+            "Source_Code": "digit = int(num1[i1]) * int(num2[i2])",
+            "Mutate_Code": "digit = int(num1[i1]) %% int(num2[i2])"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T22_LCPN_43-Multiply-Strings.py",
+            "Source_Code": "digit = int(num1[i1]) * int(num2[i2])",
+            "Mutate_Code": "digit = int(num1[i1]) **** int(num2[i2])"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T22_LCPN_43-Multiply-Strings.py",
+            "Source_Code": "digit = int(num1[i1]) * int(num2[i2])",
+            "Mutate_Code": "digit = int(num1[i1]) //// int(num2[i2])"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T22_LCPN_43-Multiply-Strings.py",
+            "Source_Code": "digit = int(num1[i1]) * int(num2[i2])",
+            "Mutate_Code": "digit = int(num1[i1]) ++ int(num2[i2])"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T22_LCPN_43-Multiply-Strings.py",
+            "Source_Code": "digit = int(num1[i1]) * int(num2[i2])",
+            "Mutate_Code": "digit = int(num1[i1]) -- int(num2[i2])"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T22_LCPN_43-Multiply-Strings.py",
+            "Source_Code": "digit = int(num1[i1]) * int(num2[i2])",
+            "Mutate_Code": "digit = int(num1[i1]) ** int(num2[i2])"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T22_LCPN_43-Multiply-Strings.py",
+            "Source_Code": "digit = int(num1[i1]) * int(num2[i2])",
+            "Mutate_Code": "digit = int(num1[i1]) // int(num2[i2])"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T22_LCPN_43-Multiply-Strings.py",
+            "Source_Code": "digit = int(num1[i1]) * int(num2[i2])",
+            "Mutate_Code": "digit = int(num1[i1]) %% int(num2[i2])"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T22_LCPN_43-Multiply-Strings.py",
+            "Source_Code": "digit = int(num1[i1]) * int(num2[i2])",
+            "Mutate_Code": "digit = int(num1[i1]) **** int(num2[i2])"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T22_LCPN_43-Multiply-Strings.py",
+            "Source_Code": "digit = int(num1[i1]) * int(num2[i2])",
+            "Mutate_Code": "digit = int(num1[i1]) //// int(num2[i2])"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T22_LCPN_43-Multiply-Strings.py",
+            "Source_Code": "digit = int(num1[i1]) * int(num2[i2])",
+            "Mutate_Code": "digit int(num1[i1]) * int(num2[i2])"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T22_LCPN_43-Multiply-Strings.py",
+            "Source_Code": "digit = int(num1[i1]) * int(num2[i2])",
+            "Mutate_Code": "digit int(num1[i1]) * int(num2[i2])"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T22_LCPN_43-Multiply-Strings.py",
+            "Source_Code": "digit = int(num1[i1]) * int(num2[i2])",
+            "Mutate_Code": "digit += int(num1[i1]) * int(num2[i2])"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T22_LCPN_43-Multiply-Strings.py",
+            "Source_Code": "digit = int(num1[i1]) * int(num2[i2])",
+            "Mutate_Code": "digit -= int(num1[i1]) * int(num2[i2])"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T22_LCPN_43-Multiply-Strings.py",
+            "Source_Code": "digit = int(num1[i1]) * int(num2[i2])",
+            "Mutate_Code": "digit *= int(num1[i1]) * int(num2[i2])"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T22_LCPN_43-Multiply-Strings.py",
+            "Source_Code": "digit = int(num1[i1]) * int(num2[i2])",
+            "Mutate_Code": "digit /= int(num1[i1]) * int(num2[i2])"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T22_LCPN_43-Multiply-Strings.py",
+            "Source_Code": "digit = int(num1[i1]) * int(num2[i2])",
+            "Mutate_Code": "digit %= int(num1[i1]) * int(num2[i2])"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T22_LCPN_43-Multiply-Strings.py",
+            "Source_Code": "digit = int(num1[i1]) * int(num2[i2])",
+            "Mutate_Code": "digit //= int(num1[i1]) * int(num2[i2])"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T22_LCPN_43-Multiply-Strings.py",
+            "Source_Code": "digit = int(num1[i1]) * int(num2[i2])",
+            "Mutate_Code": "digit **= int(num1[i1]) * int(num2[i2])"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T22_LCPN_43-Multiply-Strings.py",
+            "Source_Code": "digit = int(num1[i1]) * int(num2[i2])",
+            "Mutate_Code": "digit &= int(num1[i1]) * int(num2[i2])"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T22_LCPN_43-Multiply-Strings.py",
+            "Source_Code": "digit = int(num1[i1]) * int(num2[i2])",
+            "Mutate_Code": "digit |= int(num1[i1]) * int(num2[i2])"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T22_LCPN_43-Multiply-Strings.py",
+            "Source_Code": "digit = int(num1[i1]) * int(num2[i2])",
+            "Mutate_Code": "digit ^= int(num1[i1]) * int(num2[i2])"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T22_LCPN_43-Multiply-Strings.py",
+            "Source_Code": "digit = int(num1[i1]) * int(num2[i2])",
+            "Mutate_Code": "digit >>= int(num1[i1]) * int(num2[i2])"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T22_LCPN_43-Multiply-Strings.py",
+            "Source_Code": "digit = int(num1[i1]) * int(num2[i2])",
+            "Mutate_Code": "digit <<= int(num1[i1]) * int(num2[i2])"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T22_LCPN_43-Multiply-Strings.py",
+            "Source_Code": "digit = int(num1[i1]) * int(num2[i2])",
+            "Mutate_Code": "digit += int(num1[i1]) * int(num2[i2])"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T22_LCPN_43-Multiply-Strings.py",
+            "Source_Code": "digit = int(num1[i1]) * int(num2[i2])",
+            "Mutate_Code": "digit -= int(num1[i1]) * int(num2[i2])"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T22_LCPN_43-Multiply-Strings.py",
+            "Source_Code": "digit = int(num1[i1]) * int(num2[i2])",
+            "Mutate_Code": "digit *= int(num1[i1]) * int(num2[i2])"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T22_LCPN_43-Multiply-Strings.py",
+            "Source_Code": "digit = int(num1[i1]) * int(num2[i2])",
+            "Mutate_Code": "digit /= int(num1[i1]) * int(num2[i2])"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T22_LCPN_43-Multiply-Strings.py",
+            "Source_Code": "digit = int(num1[i1]) * int(num2[i2])",
+            "Mutate_Code": "digit %= int(num1[i1]) * int(num2[i2])"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T22_LCPN_43-Multiply-Strings.py",
+            "Source_Code": "digit = int(num1[i1]) * int(num2[i2])",
+            "Mutate_Code": "digit //= int(num1[i1]) * int(num2[i2])"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T22_LCPN_43-Multiply-Strings.py",
+            "Source_Code": "digit = int(num1[i1]) * int(num2[i2])",
+            "Mutate_Code": "digit **= int(num1[i1]) * int(num2[i2])"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T22_LCPN_43-Multiply-Strings.py",
+            "Source_Code": "digit = int(num1[i1]) * int(num2[i2])",
+            "Mutate_Code": "digit &= int(num1[i1]) * int(num2[i2])"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T22_LCPN_43-Multiply-Strings.py",
+            "Source_Code": "digit = int(num1[i1]) * int(num2[i2])",
+            "Mutate_Code": "digit |= int(num1[i1]) * int(num2[i2])"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T22_LCPN_43-Multiply-Strings.py",
+            "Source_Code": "digit = int(num1[i1]) * int(num2[i2])",
+            "Mutate_Code": "digit ^= int(num1[i1]) * int(num2[i2])"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T22_LCPN_43-Multiply-Strings.py",
+            "Source_Code": "digit = int(num1[i1]) * int(num2[i2])",
+            "Mutate_Code": "digit >>= int(num1[i1]) * int(num2[i2])"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T22_LCPN_43-Multiply-Strings.py",
+            "Source_Code": "digit = int(num1[i1]) * int(num2[i2])",
+            "Mutate_Code": "digit <<= int(num1[i1]) * int(num2[i2])"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T22_LCPN_43-Multiply-Strings.py",
+            "Source_Code": "digit = int(num1[i1]) * int(num2[i2])",
+            "Mutate_Code": "digit == int(num1[i1]) * int(num2[i2])"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T22_LCPN_43-Multiply-Strings.py",
+            "Source_Code": "digit = int(num1[i1]) * int(num2[i2])",
+            "Mutate_Code": "digit +=+= int(num1[i1]) * int(num2[i2])"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T22_LCPN_43-Multiply-Strings.py",
+            "Source_Code": "digit = int(num1[i1]) * int(num2[i2])",
+            "Mutate_Code": "digit -=-= int(num1[i1]) * int(num2[i2])"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T22_LCPN_43-Multiply-Strings.py",
+            "Source_Code": "digit = int(num1[i1]) * int(num2[i2])",
+            "Mutate_Code": "digit *=*= int(num1[i1]) * int(num2[i2])"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T22_LCPN_43-Multiply-Strings.py",
+            "Source_Code": "digit = int(num1[i1]) * int(num2[i2])",
+            "Mutate_Code": "digit /=/= int(num1[i1]) * int(num2[i2])"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T22_LCPN_43-Multiply-Strings.py",
+            "Source_Code": "digit = int(num1[i1]) * int(num2[i2])",
+            "Mutate_Code": "digit %=%= int(num1[i1]) * int(num2[i2])"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T22_LCPN_43-Multiply-Strings.py",
+            "Source_Code": "digit = int(num1[i1]) * int(num2[i2])",
+            "Mutate_Code": "digit //=//= int(num1[i1]) * int(num2[i2])"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T22_LCPN_43-Multiply-Strings.py",
+            "Source_Code": "digit = int(num1[i1]) * int(num2[i2])",
+            "Mutate_Code": "digit **=**= int(num1[i1]) * int(num2[i2])"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T22_LCPN_43-Multiply-Strings.py",
+            "Source_Code": "digit = int(num1[i1]) * int(num2[i2])",
+            "Mutate_Code": "digit &=&= int(num1[i1]) * int(num2[i2])"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T22_LCPN_43-Multiply-Strings.py",
+            "Source_Code": "digit = int(num1[i1]) * int(num2[i2])",
+            "Mutate_Code": "digit |=|= int(num1[i1]) * int(num2[i2])"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T22_LCPN_43-Multiply-Strings.py",
+            "Source_Code": "digit = int(num1[i1]) * int(num2[i2])",
+            "Mutate_Code": "digit ^=^= int(num1[i1]) * int(num2[i2])"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T22_LCPN_43-Multiply-Strings.py",
+            "Source_Code": "digit = int(num1[i1]) * int(num2[i2])",
+            "Mutate_Code": "digit >>=>>= int(num1[i1]) * int(num2[i2])"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T22_LCPN_43-Multiply-Strings.py",
+            "Source_Code": "digit = int(num1[i1]) * int(num2[i2])",
+            "Mutate_Code": "digit <<=<<=int(num1[i1]) * int(num2[i2])"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T22_LCPN_43-Multiply-Strings.py",
+            "Source_Code": "digit = int(num1[i1]) * int(num2[i2])",
+            "Mutate_Code": "digit == int(num1[i1]) * int(num2[i2])"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T22_LCPN_43-Multiply-Strings.py",
+            "Source_Code": "digit = int(num1[i1]) * int(num2[i2])",
+            "Mutate_Code": "digit +=+= int(num1[i1]) * int(num2[i2])"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T22_LCPN_43-Multiply-Strings.py",
+            "Source_Code": "digit = int(num1[i1]) * int(num2[i2])",
+            "Mutate_Code": "digit -=-= int(num1[i1]) * int(num2[i2])"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T22_LCPN_43-Multiply-Strings.py",
+            "Source_Code": "digit = int(num1[i1]) * int(num2[i2])",
+            "Mutate_Code": "digit *=*= int(num1[i1]) * int(num2[i2])"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T22_LCPN_43-Multiply-Strings.py",
+            "Source_Code": "digit = int(num1[i1]) * int(num2[i2])",
+            "Mutate_Code": "digit /=/= int(num1[i1]) * int(num2[i2])"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T22_LCPN_43-Multiply-Strings.py",
+            "Source_Code": "digit = int(num1[i1]) * int(num2[i2])",
+            "Mutate_Code": "digit %=%= int(num1[i1]) * int(num2[i2])"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T22_LCPN_43-Multiply-Strings.py",
+            "Source_Code": "digit = int(num1[i1]) * int(num2[i2])",
+            "Mutate_Code": "digit //=//= int(num1[i1]) * int(num2[i2])"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T22_LCPN_43-Multiply-Strings.py",
+            "Source_Code": "digit = int(num1[i1]) * int(num2[i2])",
+            "Mutate_Code": "digit **=**= int(num1[i1]) * int(num2[i2])"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T22_LCPN_43-Multiply-Strings.py",
+            "Source_Code": "digit = int(num1[i1]) * int(num2[i2])",
+            "Mutate_Code": "digit &=&= int(num1[i1]) * int(num2[i2])"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T22_LCPN_43-Multiply-Strings.py",
+            "Source_Code": "digit = int(num1[i1]) * int(num2[i2])",
+            "Mutate_Code": "digit |=|= int(num1[i1]) * int(num2[i2])"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T22_LCPN_43-Multiply-Strings.py",
+            "Source_Code": "digit = int(num1[i1]) * int(num2[i2])",
+            "Mutate_Code": "digit ^=^= int(num1[i1]) * int(num2[i2])"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T22_LCPN_43-Multiply-Strings.py",
+            "Source_Code": "digit = int(num1[i1]) * int(num2[i2])",
+            "Mutate_Code": "digit >>=>>= int(num1[i1]) * int(num2[i2])"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T22_LCPN_43-Multiply-Strings.py",
+            "Source_Code": "digit = int(num1[i1]) * int(num2[i2])",
+            "Mutate_Code": "digit <<=<<=int(num1[i1]) * int(num2[i2])"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T22_LCPN_43-Multiply-Strings.py",
+            "Source_Code": "digit = int(num1[i1]) * int(num2[i2])",
+            "Mutate_Code": "digit = int( ) * int(num2[i2])"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T22_LCPN_43-Multiply-Strings.py",
+            "Source_Code": "digit = int(num1[i1]) * int(num2[i2])",
+            "Mutate_Code": "digit = int(num1[i1]) * int(num2[i2]) "
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T22_LCPN_43-Multiply-Strings.py",
+            "Source_Code": "while beg < len(res) and res[beg] == 0:",
+            "Mutate_Code": "while beg   len(res) and res[beg] == 0:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T22_LCPN_43-Multiply-Strings.py",
+            "Source_Code": "while beg < len(res) and res[beg] == 0:",
+            "Mutate_Code": "while beg < len(res) and res[beg] == 0: "
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T22_LCPN_43-Multiply-Strings.py",
+            "Source_Code": "while beg < len(res) and res[beg] == 0:",
+            "Mutate_Code": "while beg == len(res) and res[beg] == 0:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T22_LCPN_43-Multiply-Strings.py",
+            "Source_Code": "while beg < len(res) and res[beg] == 0:",
+            "Mutate_Code": "while beg != len(res) and res[beg] == 0:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T22_LCPN_43-Multiply-Strings.py",
+            "Source_Code": "while beg < len(res) and res[beg] == 0:",
+            "Mutate_Code": "while beg > len(res) and res[beg] == 0:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T22_LCPN_43-Multiply-Strings.py",
+            "Source_Code": "while beg < len(res) and res[beg] == 0:",
+            "Mutate_Code": "while beg >= len(res) and res[beg] == 0:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T22_LCPN_43-Multiply-Strings.py",
+            "Source_Code": "while beg < len(res) and res[beg] == 0:",
+            "Mutate_Code": "while beg <= len(res) and res[beg] == 0:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T22_LCPN_43-Multiply-Strings.py",
+            "Source_Code": "while beg < len(res) and res[beg] == 0:",
+            "Mutate_Code": "while beg < len(res) and res[beg] == 0:=="
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T22_LCPN_43-Multiply-Strings.py",
+            "Source_Code": "while beg < len(res) and res[beg] == 0:",
+            "Mutate_Code": "while beg < len(res) and res[beg] == 0:!="
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T22_LCPN_43-Multiply-Strings.py",
+            "Source_Code": "while beg < len(res) and res[beg] == 0:",
+            "Mutate_Code": "while beg < len(res) and res[beg] == 0:>"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T22_LCPN_43-Multiply-Strings.py",
+            "Source_Code": "while beg < len(res) and res[beg] == 0:",
+            "Mutate_Code": "while beg < len(res) and res[beg] == 0:<"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T22_LCPN_43-Multiply-Strings.py",
+            "Source_Code": "while beg < len(res) and res[beg] == 0:",
+            "Mutate_Code": "while beg < len(res) and res[beg] == 0:>="
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T22_LCPN_43-Multiply-Strings.py",
+            "Source_Code": "while beg < len(res) and res[beg] == 0:",
+            "Mutate_Code": "while beg < len(res) and res[beg] == 0:<="
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T22_LCPN_43-Multiply-Strings.py",
+            "Source_Code": "while beg < len(res) and res[beg] == 0:",
+            "Mutate_Code": "while beg  ====  len(res) and res[beg] == 0:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T22_LCPN_43-Multiply-Strings.py",
+            "Source_Code": "while beg < len(res) and res[beg] == 0:",
+            "Mutate_Code": "while beg  !==  len(res) and res[beg] == 0:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T22_LCPN_43-Multiply-Strings.py",
+            "Source_Code": "while beg < len(res) and res[beg] == 0:",
+            "Mutate_Code": "while beg  >>  len(res) and res[beg] == 0:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T22_LCPN_43-Multiply-Strings.py",
+            "Source_Code": "while beg < len(res) and res[beg] == 0:",
+            "Mutate_Code": "while beg  <<  len(res) and res[beg] == 0:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T22_LCPN_43-Multiply-Strings.py",
+            "Source_Code": "while beg < len(res) and res[beg] == 0:",
+            "Mutate_Code": "while beg  >=>=  len(res) and res[beg] == 0:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T22_LCPN_43-Multiply-Strings.py",
+            "Source_Code": "while beg < len(res) and res[beg] == 0:",
+            "Mutate_Code": "while beg  <=<=  len(res) and res[beg] == 0:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T22_LCPN_43-Multiply-Strings.py",
+            "Source_Code": "while beg < len(res) and res[beg] == 0:",
+            "Mutate_Code": "while beg < len(res) and res[beg] == 0: ==== "
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T22_LCPN_43-Multiply-Strings.py",
+            "Source_Code": "while beg < len(res) and res[beg] == 0:",
+            "Mutate_Code": "while beg < len(res) and res[beg] == 0: !== "
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T22_LCPN_43-Multiply-Strings.py",
+            "Source_Code": "while beg < len(res) and res[beg] == 0:",
+            "Mutate_Code": "while beg < len(res) and res[beg] == 0: >> "
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T22_LCPN_43-Multiply-Strings.py",
+            "Source_Code": "while beg < len(res) and res[beg] == 0:",
+            "Mutate_Code": "while beg < len(res) and res[beg] == 0: << "
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T22_LCPN_43-Multiply-Strings.py",
+            "Source_Code": "while beg < len(res) and res[beg] == 0:",
+            "Mutate_Code": "while beg < len(res) and res[beg] == 0: >=>= "
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T22_LCPN_43-Multiply-Strings.py",
+            "Source_Code": "while beg < len(res) and res[beg] == 0:",
+            "Mutate_Code": "while beg < len(res) and res[beg] == 0: <=<= "
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T22_LCPN_43-Multiply-Strings.py",
+            "Source_Code": "while beg < len(res) and res[beg] == 0:",
+            "Mutate_Code": "while beg < len(res) res[beg] == 0:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T22_LCPN_43-Multiply-Strings.py",
+            "Source_Code": "while beg < len(res) and res[beg] == 0:",
+            "Mutate_Code": "while beg < len(res) or res[beg] == 0:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T22_LCPN_43-Multiply-Strings.py",
+            "Source_Code": "while beg < len(res) and res[beg] == 0:",
+            "Mutate_Code": "while beg < len(res) not res[beg] == 0:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T22_LCPN_43-Multiply-Strings.py",
+            "Source_Code": "while beg < len(res) and res[beg] == 0:",
+            "Mutate_Code": "while beg < len(res) and and res[beg] == 0:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T22_LCPN_43-Multiply-Strings.py",
+            "Source_Code": "while beg < len(res) and res[beg] == 0:",
+            "Mutate_Code": "while beg < len(res) or or res[beg] == 0:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T22_LCPN_43-Multiply-Strings.py",
+            "Source_Code": "while beg < len(res) and res[beg] == 0:",
+            "Mutate_Code": "while beg < len(res) not not res[beg] == 0:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T22_LCPN_43-Multiply-Strings.py",
+            "Source_Code": "while beg < len(res) and res[beg] == 0:",
+            "Mutate_Code": " "
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T22_LCPN_43-Multiply-Strings.py",
+            "Source_Code": "while beg < len(res) and res[beg] == 0:",
+            "Mutate_Code": "for "
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T22_LCPN_43-Multiply-Strings.py",
+            "Source_Code": "while beg < len(res) and res[beg] == 0:",
+            "Mutate_Code": "while while:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T22_LCPN_43-Multiply-Strings.py",
+            "Source_Code": "while beg < len(res) and res[beg] == 0:",
+            "Mutate_Code": "while beg < len( ) and res[beg] == 0:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T22_LCPN_43-Multiply-Strings.py",
+            "Source_Code": "while beg < len(res) and res[beg] == 0:",
+            "Mutate_Code": "while beg   len(res) and res[beg] == 0:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T22_LCPN_43-Multiply-Strings.py",
+            "Source_Code": "while beg < len(res) and res[beg] == 0:",
+            "Mutate_Code": "while beg < len(res) and res[beg] == 0: "
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T22_LCPN_43-Multiply-Strings.py",
+            "Source_Code": "while beg < len(res) and res[beg] == 0:",
+            "Mutate_Code": "while beg == len(res) and res[beg] == 0:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T22_LCPN_43-Multiply-Strings.py",
+            "Source_Code": "while beg < len(res) and res[beg] == 0:",
+            "Mutate_Code": "while beg != len(res) and res[beg] == 0:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T22_LCPN_43-Multiply-Strings.py",
+            "Source_Code": "while beg < len(res) and res[beg] == 0:",
+            "Mutate_Code": "while beg > len(res) and res[beg] == 0:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T22_LCPN_43-Multiply-Strings.py",
+            "Source_Code": "while beg < len(res) and res[beg] == 0:",
+            "Mutate_Code": "while beg >= len(res) and res[beg] == 0:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T22_LCPN_43-Multiply-Strings.py",
+            "Source_Code": "while beg < len(res) and res[beg] == 0:",
+            "Mutate_Code": "while beg <= len(res) and res[beg] == 0:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T22_LCPN_43-Multiply-Strings.py",
+            "Source_Code": "while beg < len(res) and res[beg] == 0:",
+            "Mutate_Code": "while beg < len(res) and res[beg] == 0:=="
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T22_LCPN_43-Multiply-Strings.py",
+            "Source_Code": "while beg < len(res) and res[beg] == 0:",
+            "Mutate_Code": "while beg < len(res) and res[beg] == 0:!="
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T22_LCPN_43-Multiply-Strings.py",
+            "Source_Code": "while beg < len(res) and res[beg] == 0:",
+            "Mutate_Code": "while beg < len(res) and res[beg] == 0:>"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T22_LCPN_43-Multiply-Strings.py",
+            "Source_Code": "while beg < len(res) and res[beg] == 0:",
+            "Mutate_Code": "while beg < len(res) and res[beg] == 0:<"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T22_LCPN_43-Multiply-Strings.py",
+            "Source_Code": "while beg < len(res) and res[beg] == 0:",
+            "Mutate_Code": "while beg < len(res) and res[beg] == 0:>="
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T22_LCPN_43-Multiply-Strings.py",
+            "Source_Code": "while beg < len(res) and res[beg] == 0:",
+            "Mutate_Code": "while beg < len(res) and res[beg] == 0:<="
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T22_LCPN_43-Multiply-Strings.py",
+            "Source_Code": "while beg < len(res) and res[beg] == 0:",
+            "Mutate_Code": "while beg  ====  len(res) and res[beg] == 0:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T22_LCPN_43-Multiply-Strings.py",
+            "Source_Code": "while beg < len(res) and res[beg] == 0:",
+            "Mutate_Code": "while beg  !==  len(res) and res[beg] == 0:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T22_LCPN_43-Multiply-Strings.py",
+            "Source_Code": "while beg < len(res) and res[beg] == 0:",
+            "Mutate_Code": "while beg  >>  len(res) and res[beg] == 0:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T22_LCPN_43-Multiply-Strings.py",
+            "Source_Code": "while beg < len(res) and res[beg] == 0:",
+            "Mutate_Code": "while beg  <<  len(res) and res[beg] == 0:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T22_LCPN_43-Multiply-Strings.py",
+            "Source_Code": "while beg < len(res) and res[beg] == 0:",
+            "Mutate_Code": "while beg  >=>=  len(res) and res[beg] == 0:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T22_LCPN_43-Multiply-Strings.py",
+            "Source_Code": "while beg < len(res) and res[beg] == 0:",
+            "Mutate_Code": "while beg  <=<=  len(res) and res[beg] == 0:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T22_LCPN_43-Multiply-Strings.py",
+            "Source_Code": "while beg < len(res) and res[beg] == 0:",
+            "Mutate_Code": "while beg < len(res) and res[beg] == 0: ==== "
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T22_LCPN_43-Multiply-Strings.py",
+            "Source_Code": "while beg < len(res) and res[beg] == 0:",
+            "Mutate_Code": "while beg < len(res) and res[beg] == 0: !== "
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T22_LCPN_43-Multiply-Strings.py",
+            "Source_Code": "while beg < len(res) and res[beg] == 0:",
+            "Mutate_Code": "while beg < len(res) and res[beg] == 0: >> "
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T22_LCPN_43-Multiply-Strings.py",
+            "Source_Code": "while beg < len(res) and res[beg] == 0:",
+            "Mutate_Code": "while beg < len(res) and res[beg] == 0: << "
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T22_LCPN_43-Multiply-Strings.py",
+            "Source_Code": "while beg < len(res) and res[beg] == 0:",
+            "Mutate_Code": "while beg < len(res) and res[beg] == 0: >=>= "
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T22_LCPN_43-Multiply-Strings.py",
+            "Source_Code": "while beg < len(res) and res[beg] == 0:",
+            "Mutate_Code": "while beg < len(res) and res[beg] == 0: <=<= "
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T22_LCPN_43-Multiply-Strings.py",
+            "Source_Code": "while beg < len(res) and res[beg] == 0:",
+            "Mutate_Code": "while beg < len(res) res[beg] == 0:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T22_LCPN_43-Multiply-Strings.py",
+            "Source_Code": "while beg < len(res) and res[beg] == 0:",
+            "Mutate_Code": "while beg < len(res) or res[beg] == 0:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T22_LCPN_43-Multiply-Strings.py",
+            "Source_Code": "while beg < len(res) and res[beg] == 0:",
+            "Mutate_Code": "while beg < len(res) not res[beg] == 0:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T22_LCPN_43-Multiply-Strings.py",
+            "Source_Code": "while beg < len(res) and res[beg] == 0:",
+            "Mutate_Code": "while beg < len(res) and and res[beg] == 0:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T22_LCPN_43-Multiply-Strings.py",
+            "Source_Code": "while beg < len(res) and res[beg] == 0:",
+            "Mutate_Code": "while beg < len(res) or or res[beg] == 0:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T22_LCPN_43-Multiply-Strings.py",
+            "Source_Code": "while beg < len(res) and res[beg] == 0:",
+            "Mutate_Code": "while beg < len(res) not not res[beg] == 0:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T22_LCPN_43-Multiply-Strings.py",
+            "Source_Code": "while beg < len(res) and res[beg] == 0:",
+            "Mutate_Code": " "
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T22_LCPN_43-Multiply-Strings.py",
+            "Source_Code": "while beg < len(res) and res[beg] == 0:",
+            "Mutate_Code": "for "
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T22_LCPN_43-Multiply-Strings.py",
+            "Source_Code": "while beg < len(res) and res[beg] == 0:",
+            "Mutate_Code": "while while:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T22_LCPN_43-Multiply-Strings.py",
+            "Source_Code": "while beg < len(res) and res[beg] == 0:",
+            "Mutate_Code": "while beg < len( ) and res[beg] == 0:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T22_LCPN_43-Multiply-Strings.py",
+            "Source_Code": "while beg < len(res) and res[beg] == 0:",
+            "Mutate_Code": "while beg   len(res) and res[beg] == 0:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T22_LCPN_43-Multiply-Strings.py",
+            "Source_Code": "while beg < len(res) and res[beg] == 0:",
+            "Mutate_Code": "while beg < len(res) and res[beg] == 0: "
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T22_LCPN_43-Multiply-Strings.py",
+            "Source_Code": "while beg < len(res) and res[beg] == 0:",
+            "Mutate_Code": "while beg == len(res) and res[beg] == 0:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T22_LCPN_43-Multiply-Strings.py",
+            "Source_Code": "while beg < len(res) and res[beg] == 0:",
+            "Mutate_Code": "while beg != len(res) and res[beg] == 0:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T22_LCPN_43-Multiply-Strings.py",
+            "Source_Code": "while beg < len(res) and res[beg] == 0:",
+            "Mutate_Code": "while beg > len(res) and res[beg] == 0:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T22_LCPN_43-Multiply-Strings.py",
+            "Source_Code": "while beg < len(res) and res[beg] == 0:",
+            "Mutate_Code": "while beg >= len(res) and res[beg] == 0:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T22_LCPN_43-Multiply-Strings.py",
+            "Source_Code": "while beg < len(res) and res[beg] == 0:",
+            "Mutate_Code": "while beg <= len(res) and res[beg] == 0:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T22_LCPN_43-Multiply-Strings.py",
+            "Source_Code": "while beg < len(res) and res[beg] == 0:",
+            "Mutate_Code": "while beg < len(res) and res[beg] == 0:=="
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T22_LCPN_43-Multiply-Strings.py",
+            "Source_Code": "while beg < len(res) and res[beg] == 0:",
+            "Mutate_Code": "while beg < len(res) and res[beg] == 0:!="
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T22_LCPN_43-Multiply-Strings.py",
+            "Source_Code": "while beg < len(res) and res[beg] == 0:",
+            "Mutate_Code": "while beg < len(res) and res[beg] == 0:>"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T22_LCPN_43-Multiply-Strings.py",
+            "Source_Code": "while beg < len(res) and res[beg] == 0:",
+            "Mutate_Code": "while beg < len(res) and res[beg] == 0:<"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T22_LCPN_43-Multiply-Strings.py",
+            "Source_Code": "while beg < len(res) and res[beg] == 0:",
+            "Mutate_Code": "while beg < len(res) and res[beg] == 0:>="
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T22_LCPN_43-Multiply-Strings.py",
+            "Source_Code": "while beg < len(res) and res[beg] == 0:",
+            "Mutate_Code": "while beg < len(res) and res[beg] == 0:<="
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T22_LCPN_43-Multiply-Strings.py",
+            "Source_Code": "while beg < len(res) and res[beg] == 0:",
+            "Mutate_Code": "while beg  ====  len(res) and res[beg] == 0:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T22_LCPN_43-Multiply-Strings.py",
+            "Source_Code": "while beg < len(res) and res[beg] == 0:",
+            "Mutate_Code": "while beg  !==  len(res) and res[beg] == 0:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T22_LCPN_43-Multiply-Strings.py",
+            "Source_Code": "while beg < len(res) and res[beg] == 0:",
+            "Mutate_Code": "while beg  >>  len(res) and res[beg] == 0:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T22_LCPN_43-Multiply-Strings.py",
+            "Source_Code": "while beg < len(res) and res[beg] == 0:",
+            "Mutate_Code": "while beg  <<  len(res) and res[beg] == 0:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T22_LCPN_43-Multiply-Strings.py",
+            "Source_Code": "while beg < len(res) and res[beg] == 0:",
+            "Mutate_Code": "while beg  >=>=  len(res) and res[beg] == 0:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T22_LCPN_43-Multiply-Strings.py",
+            "Source_Code": "while beg < len(res) and res[beg] == 0:",
+            "Mutate_Code": "while beg  <=<=  len(res) and res[beg] == 0:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T22_LCPN_43-Multiply-Strings.py",
+            "Source_Code": "while beg < len(res) and res[beg] == 0:",
+            "Mutate_Code": "while beg < len(res) and res[beg] == 0: ==== "
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T22_LCPN_43-Multiply-Strings.py",
+            "Source_Code": "while beg < len(res) and res[beg] == 0:",
+            "Mutate_Code": "while beg < len(res) and res[beg] == 0: !== "
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T22_LCPN_43-Multiply-Strings.py",
+            "Source_Code": "while beg < len(res) and res[beg] == 0:",
+            "Mutate_Code": "while beg < len(res) and res[beg] == 0: >> "
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T22_LCPN_43-Multiply-Strings.py",
+            "Source_Code": "while beg < len(res) and res[beg] == 0:",
+            "Mutate_Code": "while beg < len(res) and res[beg] == 0: << "
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T22_LCPN_43-Multiply-Strings.py",
+            "Source_Code": "while beg < len(res) and res[beg] == 0:",
+            "Mutate_Code": "while beg < len(res) and res[beg] == 0: >=>= "
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T22_LCPN_43-Multiply-Strings.py",
+            "Source_Code": "while beg < len(res) and res[beg] == 0:",
+            "Mutate_Code": "while beg < len(res) and res[beg] == 0: <=<= "
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T22_LCPN_43-Multiply-Strings.py",
+            "Source_Code": "while beg < len(res) and res[beg] == 0:",
+            "Mutate_Code": "while beg < len(res) res[beg] == 0:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T22_LCPN_43-Multiply-Strings.py",
+            "Source_Code": "while beg < len(res) and res[beg] == 0:",
+            "Mutate_Code": "while beg < len(res) or res[beg] == 0:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T22_LCPN_43-Multiply-Strings.py",
+            "Source_Code": "while beg < len(res) and res[beg] == 0:",
+            "Mutate_Code": "while beg < len(res) not res[beg] == 0:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T22_LCPN_43-Multiply-Strings.py",
+            "Source_Code": "while beg < len(res) and res[beg] == 0:",
+            "Mutate_Code": "while beg < len(res) and and res[beg] == 0:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T22_LCPN_43-Multiply-Strings.py",
+            "Source_Code": "while beg < len(res) and res[beg] == 0:",
+            "Mutate_Code": "while beg < len(res) or or res[beg] == 0:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T22_LCPN_43-Multiply-Strings.py",
+            "Source_Code": "while beg < len(res) and res[beg] == 0:",
+            "Mutate_Code": "while beg < len(res) not not res[beg] == 0:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T22_LCPN_43-Multiply-Strings.py",
+            "Source_Code": "while beg < len(res) and res[beg] == 0:",
+            "Mutate_Code": " "
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T22_LCPN_43-Multiply-Strings.py",
+            "Source_Code": "while beg < len(res) and res[beg] == 0:",
+            "Mutate_Code": "for "
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T22_LCPN_43-Multiply-Strings.py",
+            "Source_Code": "while beg < len(res) and res[beg] == 0:",
+            "Mutate_Code": "while while:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T22_LCPN_43-Multiply-Strings.py",
+            "Source_Code": "while beg < len(res) and res[beg] == 0:",
+            "Mutate_Code": "while beg < len( ) and res[beg] == 0:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T22_LCPN_43-Multiply-Strings.py",
+            "Source_Code": "res = map(str, res[beg:])",
+            "Mutate_Code": "res map(str, res[beg:])"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T22_LCPN_43-Multiply-Strings.py",
+            "Source_Code": "res = map(str, res[beg:])",
+            "Mutate_Code": "res map(str, res[beg:])"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T22_LCPN_43-Multiply-Strings.py",
+            "Source_Code": "res = map(str, res[beg:])",
+            "Mutate_Code": "res += map(str, res[beg:])"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T22_LCPN_43-Multiply-Strings.py",
+            "Source_Code": "res = map(str, res[beg:])",
+            "Mutate_Code": "res -= map(str, res[beg:])"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T22_LCPN_43-Multiply-Strings.py",
+            "Source_Code": "res = map(str, res[beg:])",
+            "Mutate_Code": "res *= map(str, res[beg:])"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T22_LCPN_43-Multiply-Strings.py",
+            "Source_Code": "res = map(str, res[beg:])",
+            "Mutate_Code": "res /= map(str, res[beg:])"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T22_LCPN_43-Multiply-Strings.py",
+            "Source_Code": "res = map(str, res[beg:])",
+            "Mutate_Code": "res %= map(str, res[beg:])"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T22_LCPN_43-Multiply-Strings.py",
+            "Source_Code": "res = map(str, res[beg:])",
+            "Mutate_Code": "res //= map(str, res[beg:])"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T22_LCPN_43-Multiply-Strings.py",
+            "Source_Code": "res = map(str, res[beg:])",
+            "Mutate_Code": "res **= map(str, res[beg:])"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T22_LCPN_43-Multiply-Strings.py",
+            "Source_Code": "res = map(str, res[beg:])",
+            "Mutate_Code": "res &= map(str, res[beg:])"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T22_LCPN_43-Multiply-Strings.py",
+            "Source_Code": "res = map(str, res[beg:])",
+            "Mutate_Code": "res |= map(str, res[beg:])"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T22_LCPN_43-Multiply-Strings.py",
+            "Source_Code": "res = map(str, res[beg:])",
+            "Mutate_Code": "res ^= map(str, res[beg:])"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T22_LCPN_43-Multiply-Strings.py",
+            "Source_Code": "res = map(str, res[beg:])",
+            "Mutate_Code": "res >>= map(str, res[beg:])"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T22_LCPN_43-Multiply-Strings.py",
+            "Source_Code": "res = map(str, res[beg:])",
+            "Mutate_Code": "res <<= map(str, res[beg:])"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T22_LCPN_43-Multiply-Strings.py",
+            "Source_Code": "res = map(str, res[beg:])",
+            "Mutate_Code": "res += map(str, res[beg:])"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T22_LCPN_43-Multiply-Strings.py",
+            "Source_Code": "res = map(str, res[beg:])",
+            "Mutate_Code": "res -= map(str, res[beg:])"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T22_LCPN_43-Multiply-Strings.py",
+            "Source_Code": "res = map(str, res[beg:])",
+            "Mutate_Code": "res *= map(str, res[beg:])"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T22_LCPN_43-Multiply-Strings.py",
+            "Source_Code": "res = map(str, res[beg:])",
+            "Mutate_Code": "res /= map(str, res[beg:])"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T22_LCPN_43-Multiply-Strings.py",
+            "Source_Code": "res = map(str, res[beg:])",
+            "Mutate_Code": "res %= map(str, res[beg:])"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T22_LCPN_43-Multiply-Strings.py",
+            "Source_Code": "res = map(str, res[beg:])",
+            "Mutate_Code": "res //= map(str, res[beg:])"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T22_LCPN_43-Multiply-Strings.py",
+            "Source_Code": "res = map(str, res[beg:])",
+            "Mutate_Code": "res **= map(str, res[beg:])"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T22_LCPN_43-Multiply-Strings.py",
+            "Source_Code": "res = map(str, res[beg:])",
+            "Mutate_Code": "res &= map(str, res[beg:])"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T22_LCPN_43-Multiply-Strings.py",
+            "Source_Code": "res = map(str, res[beg:])",
+            "Mutate_Code": "res |= map(str, res[beg:])"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T22_LCPN_43-Multiply-Strings.py",
+            "Source_Code": "res = map(str, res[beg:])",
+            "Mutate_Code": "res ^= map(str, res[beg:])"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T22_LCPN_43-Multiply-Strings.py",
+            "Source_Code": "res = map(str, res[beg:])",
+            "Mutate_Code": "res >>= map(str, res[beg:])"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T22_LCPN_43-Multiply-Strings.py",
+            "Source_Code": "res = map(str, res[beg:])",
+            "Mutate_Code": "res <<= map(str, res[beg:])"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T22_LCPN_43-Multiply-Strings.py",
+            "Source_Code": "res = map(str, res[beg:])",
+            "Mutate_Code": "res == map(str, res[beg:])"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T22_LCPN_43-Multiply-Strings.py",
+            "Source_Code": "res = map(str, res[beg:])",
+            "Mutate_Code": "res +=+= map(str, res[beg:])"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T22_LCPN_43-Multiply-Strings.py",
+            "Source_Code": "res = map(str, res[beg:])",
+            "Mutate_Code": "res -=-= map(str, res[beg:])"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T22_LCPN_43-Multiply-Strings.py",
+            "Source_Code": "res = map(str, res[beg:])",
+            "Mutate_Code": "res *=*= map(str, res[beg:])"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T22_LCPN_43-Multiply-Strings.py",
+            "Source_Code": "res = map(str, res[beg:])",
+            "Mutate_Code": "res /=/= map(str, res[beg:])"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T22_LCPN_43-Multiply-Strings.py",
+            "Source_Code": "res = map(str, res[beg:])",
+            "Mutate_Code": "res %=%= map(str, res[beg:])"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T22_LCPN_43-Multiply-Strings.py",
+            "Source_Code": "res = map(str, res[beg:])",
+            "Mutate_Code": "res //=//= map(str, res[beg:])"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T22_LCPN_43-Multiply-Strings.py",
+            "Source_Code": "res = map(str, res[beg:])",
+            "Mutate_Code": "res **=**= map(str, res[beg:])"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T22_LCPN_43-Multiply-Strings.py",
+            "Source_Code": "res = map(str, res[beg:])",
+            "Mutate_Code": "res &=&= map(str, res[beg:])"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T22_LCPN_43-Multiply-Strings.py",
+            "Source_Code": "res = map(str, res[beg:])",
+            "Mutate_Code": "res |=|= map(str, res[beg:])"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T22_LCPN_43-Multiply-Strings.py",
+            "Source_Code": "res = map(str, res[beg:])",
+            "Mutate_Code": "res ^=^= map(str, res[beg:])"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T22_LCPN_43-Multiply-Strings.py",
+            "Source_Code": "res = map(str, res[beg:])",
+            "Mutate_Code": "res >>=>>= map(str, res[beg:])"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T22_LCPN_43-Multiply-Strings.py",
+            "Source_Code": "res = map(str, res[beg:])",
+            "Mutate_Code": "res <<=<<=map(str, res[beg:])"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T22_LCPN_43-Multiply-Strings.py",
+            "Source_Code": "res = map(str, res[beg:])",
+            "Mutate_Code": "res == map(str, res[beg:])"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T22_LCPN_43-Multiply-Strings.py",
+            "Source_Code": "res = map(str, res[beg:])",
+            "Mutate_Code": "res +=+= map(str, res[beg:])"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T22_LCPN_43-Multiply-Strings.py",
+            "Source_Code": "res = map(str, res[beg:])",
+            "Mutate_Code": "res -=-= map(str, res[beg:])"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T22_LCPN_43-Multiply-Strings.py",
+            "Source_Code": "res = map(str, res[beg:])",
+            "Mutate_Code": "res *=*= map(str, res[beg:])"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T22_LCPN_43-Multiply-Strings.py",
+            "Source_Code": "res = map(str, res[beg:])",
+            "Mutate_Code": "res /=/= map(str, res[beg:])"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T22_LCPN_43-Multiply-Strings.py",
+            "Source_Code": "res = map(str, res[beg:])",
+            "Mutate_Code": "res %=%= map(str, res[beg:])"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T22_LCPN_43-Multiply-Strings.py",
+            "Source_Code": "res = map(str, res[beg:])",
+            "Mutate_Code": "res //=//= map(str, res[beg:])"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T22_LCPN_43-Multiply-Strings.py",
+            "Source_Code": "res = map(str, res[beg:])",
+            "Mutate_Code": "res **=**= map(str, res[beg:])"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T22_LCPN_43-Multiply-Strings.py",
+            "Source_Code": "res = map(str, res[beg:])",
+            "Mutate_Code": "res &=&= map(str, res[beg:])"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T22_LCPN_43-Multiply-Strings.py",
+            "Source_Code": "res = map(str, res[beg:])",
+            "Mutate_Code": "res |=|= map(str, res[beg:])"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T22_LCPN_43-Multiply-Strings.py",
+            "Source_Code": "res = map(str, res[beg:])",
+            "Mutate_Code": "res ^=^= map(str, res[beg:])"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T22_LCPN_43-Multiply-Strings.py",
+            "Source_Code": "res = map(str, res[beg:])",
+            "Mutate_Code": "res >>=>>= map(str, res[beg:])"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T22_LCPN_43-Multiply-Strings.py",
+            "Source_Code": "res = map(str, res[beg:])",
+            "Mutate_Code": "res <<=<<=map(str, res[beg:])"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T22_LCPN_43-Multiply-Strings.py",
+            "Source_Code": "res = map(str, res[beg:])",
+            "Mutate_Code": "res = map( )"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T22_LCPN_43-Multiply-Strings.py",
+            "Source_Code": "return \"\".join(res)",
+            "Mutate_Code": " \"\".join(res)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T22_LCPN_43-Multiply-Strings.py",
+            "Source_Code": "return \"\".join(res)",
+            "Mutate_Code": "pass\"\".join(res)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T22_LCPN_43-Multiply-Strings.py",
+            "Source_Code": "return \"\".join(res)",
+            "Mutate_Code": "return return\"\".join(res)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T22_LCPN_43-Multiply-Strings.py",
+            "Source_Code": "return \"\".join(res)",
+            "Mutate_Code": "return \"\".join( )"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T22_LCPN_43-Multiply-Strings.py",
+            "Source_Code": "return \"\".join(res)",
+            "Mutate_Code": " \"\".join(res)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T22_LCPN_43-Multiply-Strings.py",
+            "Source_Code": "return \"\".join(res)",
+            "Mutate_Code": "pass\"\".join(res)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T22_LCPN_43-Multiply-Strings.py",
+            "Source_Code": "return \"\".join(res)",
+            "Mutate_Code": "return return\"\".join(res)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T22_LCPN_43-Multiply-Strings.py",
+            "Source_Code": "return \"\".join(res)",
+            "Mutate_Code": "return \"\".join( )"
+        }
+    }
+]

@@ -1,0 +1,905 @@
+[
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T19_LCPN_39-Combination-Sum.py",
+            "Source_Code": "if total == target:",
+            "Mutate_Code": "if total   target:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T19_LCPN_39-Combination-Sum.py",
+            "Source_Code": "if total == target:",
+            "Mutate_Code": "if total != target:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T19_LCPN_39-Combination-Sum.py",
+            "Source_Code": "if total == target:",
+            "Mutate_Code": "if total > target:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T19_LCPN_39-Combination-Sum.py",
+            "Source_Code": "if total == target:",
+            "Mutate_Code": "if total < target:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T19_LCPN_39-Combination-Sum.py",
+            "Source_Code": "if total == target:",
+            "Mutate_Code": "if total >= target:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T19_LCPN_39-Combination-Sum.py",
+            "Source_Code": "if total == target:",
+            "Mutate_Code": "if total <= target:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T19_LCPN_39-Combination-Sum.py",
+            "Source_Code": "if total == target:",
+            "Mutate_Code": "if total  ====  target:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T19_LCPN_39-Combination-Sum.py",
+            "Source_Code": "if total == target:",
+            "Mutate_Code": "if total  !==  target:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T19_LCPN_39-Combination-Sum.py",
+            "Source_Code": "if total == target:",
+            "Mutate_Code": "if total  >>  target:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T19_LCPN_39-Combination-Sum.py",
+            "Source_Code": "if total == target:",
+            "Mutate_Code": "if total  <<  target:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T19_LCPN_39-Combination-Sum.py",
+            "Source_Code": "if total == target:",
+            "Mutate_Code": "if total  >=>=  target:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T19_LCPN_39-Combination-Sum.py",
+            "Source_Code": "if total == target:",
+            "Mutate_Code": "if total  <=<=  target:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T19_LCPN_39-Combination-Sum.py",
+            "Source_Code": "if total == target:",
+            "Mutate_Code": " "
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T19_LCPN_39-Combination-Sum.py",
+            "Source_Code": "if total == target:",
+            "Mutate_Code": "elif:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T19_LCPN_39-Combination-Sum.py",
+            "Source_Code": "if total == target:",
+            "Mutate_Code": "else:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T19_LCPN_39-Combination-Sum.py",
+            "Source_Code": "if total == target:",
+            "Mutate_Code": "if if"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T19_LCPN_39-Combination-Sum.py",
+            "Source_Code": "res.append(cur.copy())",
+            "Mutate_Code": "res.append( ))"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T19_LCPN_39-Combination-Sum.py",
+            "Source_Code": "if i >= len(candidates) or total > target:",
+            "Mutate_Code": "if i   len(candidates) or total > target:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T19_LCPN_39-Combination-Sum.py",
+            "Source_Code": "if i >= len(candidates) or total > target:",
+            "Mutate_Code": "if i >= len(candidates) or total > target: "
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T19_LCPN_39-Combination-Sum.py",
+            "Source_Code": "if i >= len(candidates) or total > target:",
+            "Mutate_Code": "if i == len(candidates) or total > target:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T19_LCPN_39-Combination-Sum.py",
+            "Source_Code": "if i >= len(candidates) or total > target:",
+            "Mutate_Code": "if i != len(candidates) or total > target:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T19_LCPN_39-Combination-Sum.py",
+            "Source_Code": "if i >= len(candidates) or total > target:",
+            "Mutate_Code": "if i > len(candidates) or total > target:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T19_LCPN_39-Combination-Sum.py",
+            "Source_Code": "if i >= len(candidates) or total > target:",
+            "Mutate_Code": "if i < len(candidates) or total > target:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T19_LCPN_39-Combination-Sum.py",
+            "Source_Code": "if i >= len(candidates) or total > target:",
+            "Mutate_Code": "if i <= len(candidates) or total > target:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T19_LCPN_39-Combination-Sum.py",
+            "Source_Code": "if i >= len(candidates) or total > target:",
+            "Mutate_Code": "if i >= len(candidates) or total > target:=="
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T19_LCPN_39-Combination-Sum.py",
+            "Source_Code": "if i >= len(candidates) or total > target:",
+            "Mutate_Code": "if i >= len(candidates) or total > target:!="
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T19_LCPN_39-Combination-Sum.py",
+            "Source_Code": "if i >= len(candidates) or total > target:",
+            "Mutate_Code": "if i >= len(candidates) or total > target:>"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T19_LCPN_39-Combination-Sum.py",
+            "Source_Code": "if i >= len(candidates) or total > target:",
+            "Mutate_Code": "if i >= len(candidates) or total > target:<"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T19_LCPN_39-Combination-Sum.py",
+            "Source_Code": "if i >= len(candidates) or total > target:",
+            "Mutate_Code": "if i >= len(candidates) or total > target:>="
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T19_LCPN_39-Combination-Sum.py",
+            "Source_Code": "if i >= len(candidates) or total > target:",
+            "Mutate_Code": "if i >= len(candidates) or total > target:<="
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T19_LCPN_39-Combination-Sum.py",
+            "Source_Code": "if i >= len(candidates) or total > target:",
+            "Mutate_Code": "if i  ====  len(candidates) or total > target:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T19_LCPN_39-Combination-Sum.py",
+            "Source_Code": "if i >= len(candidates) or total > target:",
+            "Mutate_Code": "if i  !==  len(candidates) or total > target:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T19_LCPN_39-Combination-Sum.py",
+            "Source_Code": "if i >= len(candidates) or total > target:",
+            "Mutate_Code": "if i  >>  len(candidates) or total > target:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T19_LCPN_39-Combination-Sum.py",
+            "Source_Code": "if i >= len(candidates) or total > target:",
+            "Mutate_Code": "if i  <<  len(candidates) or total > target:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T19_LCPN_39-Combination-Sum.py",
+            "Source_Code": "if i >= len(candidates) or total > target:",
+            "Mutate_Code": "if i  >=>=  len(candidates) or total > target:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T19_LCPN_39-Combination-Sum.py",
+            "Source_Code": "if i >= len(candidates) or total > target:",
+            "Mutate_Code": "if i  <=<=  len(candidates) or total > target:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T19_LCPN_39-Combination-Sum.py",
+            "Source_Code": "if i >= len(candidates) or total > target:",
+            "Mutate_Code": "if i >= len(candidates) or total > target: ==== "
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T19_LCPN_39-Combination-Sum.py",
+            "Source_Code": "if i >= len(candidates) or total > target:",
+            "Mutate_Code": "if i >= len(candidates) or total > target: !== "
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T19_LCPN_39-Combination-Sum.py",
+            "Source_Code": "if i >= len(candidates) or total > target:",
+            "Mutate_Code": "if i >= len(candidates) or total > target: >> "
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T19_LCPN_39-Combination-Sum.py",
+            "Source_Code": "if i >= len(candidates) or total > target:",
+            "Mutate_Code": "if i >= len(candidates) or total > target: << "
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T19_LCPN_39-Combination-Sum.py",
+            "Source_Code": "if i >= len(candidates) or total > target:",
+            "Mutate_Code": "if i >= len(candidates) or total > target: >=>= "
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T19_LCPN_39-Combination-Sum.py",
+            "Source_Code": "if i >= len(candidates) or total > target:",
+            "Mutate_Code": "if i >= len(candidates) or total > target: <=<= "
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T19_LCPN_39-Combination-Sum.py",
+            "Source_Code": "if i >= len(candidates) or total > target:",
+            "Mutate_Code": "if i >= len(candidates) total > target:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T19_LCPN_39-Combination-Sum.py",
+            "Source_Code": "if i >= len(candidates) or total > target:",
+            "Mutate_Code": "if i >= len(candidates) and total > target:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T19_LCPN_39-Combination-Sum.py",
+            "Source_Code": "if i >= len(candidates) or total > target:",
+            "Mutate_Code": "if i >= len(candidates) not total > target:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T19_LCPN_39-Combination-Sum.py",
+            "Source_Code": "if i >= len(candidates) or total > target:",
+            "Mutate_Code": "if i >= len(candidates) and and total > target:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T19_LCPN_39-Combination-Sum.py",
+            "Source_Code": "if i >= len(candidates) or total > target:",
+            "Mutate_Code": "if i >= len(candidates) or or total > target:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T19_LCPN_39-Combination-Sum.py",
+            "Source_Code": "if i >= len(candidates) or total > target:",
+            "Mutate_Code": "if i >= len(candidates) not not total > target:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T19_LCPN_39-Combination-Sum.py",
+            "Source_Code": "if i >= len(candidates) or total > target:",
+            "Mutate_Code": " "
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T19_LCPN_39-Combination-Sum.py",
+            "Source_Code": "if i >= len(candidates) or total > target:",
+            "Mutate_Code": "elif:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T19_LCPN_39-Combination-Sum.py",
+            "Source_Code": "if i >= len(candidates) or total > target:",
+            "Mutate_Code": "else:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T19_LCPN_39-Combination-Sum.py",
+            "Source_Code": "if i >= len(candidates) or total > target:",
+            "Mutate_Code": "if if"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T19_LCPN_39-Combination-Sum.py",
+            "Source_Code": "if i >= len(candidates) or total > target:",
+            "Mutate_Code": "if i >= len( ) or total > target:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T19_LCPN_39-Combination-Sum.py",
+            "Source_Code": "if i >= len(candidates) or total > target:",
+            "Mutate_Code": "if i   len(candidates) or total > target:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T19_LCPN_39-Combination-Sum.py",
+            "Source_Code": "if i >= len(candidates) or total > target:",
+            "Mutate_Code": "if i >= len(candidates) or total > target: "
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T19_LCPN_39-Combination-Sum.py",
+            "Source_Code": "if i >= len(candidates) or total > target:",
+            "Mutate_Code": "if i == len(candidates) or total > target:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T19_LCPN_39-Combination-Sum.py",
+            "Source_Code": "if i >= len(candidates) or total > target:",
+            "Mutate_Code": "if i != len(candidates) or total > target:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T19_LCPN_39-Combination-Sum.py",
+            "Source_Code": "if i >= len(candidates) or total > target:",
+            "Mutate_Code": "if i > len(candidates) or total > target:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T19_LCPN_39-Combination-Sum.py",
+            "Source_Code": "if i >= len(candidates) or total > target:",
+            "Mutate_Code": "if i < len(candidates) or total > target:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T19_LCPN_39-Combination-Sum.py",
+            "Source_Code": "if i >= len(candidates) or total > target:",
+            "Mutate_Code": "if i <= len(candidates) or total > target:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T19_LCPN_39-Combination-Sum.py",
+            "Source_Code": "if i >= len(candidates) or total > target:",
+            "Mutate_Code": "if i >= len(candidates) or total > target:=="
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T19_LCPN_39-Combination-Sum.py",
+            "Source_Code": "if i >= len(candidates) or total > target:",
+            "Mutate_Code": "if i >= len(candidates) or total > target:!="
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T19_LCPN_39-Combination-Sum.py",
+            "Source_Code": "if i >= len(candidates) or total > target:",
+            "Mutate_Code": "if i >= len(candidates) or total > target:>"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T19_LCPN_39-Combination-Sum.py",
+            "Source_Code": "if i >= len(candidates) or total > target:",
+            "Mutate_Code": "if i >= len(candidates) or total > target:<"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T19_LCPN_39-Combination-Sum.py",
+            "Source_Code": "if i >= len(candidates) or total > target:",
+            "Mutate_Code": "if i >= len(candidates) or total > target:>="
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T19_LCPN_39-Combination-Sum.py",
+            "Source_Code": "if i >= len(candidates) or total > target:",
+            "Mutate_Code": "if i >= len(candidates) or total > target:<="
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T19_LCPN_39-Combination-Sum.py",
+            "Source_Code": "if i >= len(candidates) or total > target:",
+            "Mutate_Code": "if i  ====  len(candidates) or total > target:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T19_LCPN_39-Combination-Sum.py",
+            "Source_Code": "if i >= len(candidates) or total > target:",
+            "Mutate_Code": "if i  !==  len(candidates) or total > target:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T19_LCPN_39-Combination-Sum.py",
+            "Source_Code": "if i >= len(candidates) or total > target:",
+            "Mutate_Code": "if i  >>  len(candidates) or total > target:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T19_LCPN_39-Combination-Sum.py",
+            "Source_Code": "if i >= len(candidates) or total > target:",
+            "Mutate_Code": "if i  <<  len(candidates) or total > target:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T19_LCPN_39-Combination-Sum.py",
+            "Source_Code": "if i >= len(candidates) or total > target:",
+            "Mutate_Code": "if i  >=>=  len(candidates) or total > target:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T19_LCPN_39-Combination-Sum.py",
+            "Source_Code": "if i >= len(candidates) or total > target:",
+            "Mutate_Code": "if i  <=<=  len(candidates) or total > target:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T19_LCPN_39-Combination-Sum.py",
+            "Source_Code": "if i >= len(candidates) or total > target:",
+            "Mutate_Code": "if i >= len(candidates) or total > target: ==== "
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T19_LCPN_39-Combination-Sum.py",
+            "Source_Code": "if i >= len(candidates) or total > target:",
+            "Mutate_Code": "if i >= len(candidates) or total > target: !== "
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T19_LCPN_39-Combination-Sum.py",
+            "Source_Code": "if i >= len(candidates) or total > target:",
+            "Mutate_Code": "if i >= len(candidates) or total > target: >> "
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T19_LCPN_39-Combination-Sum.py",
+            "Source_Code": "if i >= len(candidates) or total > target:",
+            "Mutate_Code": "if i >= len(candidates) or total > target: << "
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T19_LCPN_39-Combination-Sum.py",
+            "Source_Code": "if i >= len(candidates) or total > target:",
+            "Mutate_Code": "if i >= len(candidates) or total > target: >=>= "
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T19_LCPN_39-Combination-Sum.py",
+            "Source_Code": "if i >= len(candidates) or total > target:",
+            "Mutate_Code": "if i >= len(candidates) or total > target: <=<= "
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T19_LCPN_39-Combination-Sum.py",
+            "Source_Code": "if i >= len(candidates) or total > target:",
+            "Mutate_Code": "if i >= len(candidates) total > target:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T19_LCPN_39-Combination-Sum.py",
+            "Source_Code": "if i >= len(candidates) or total > target:",
+            "Mutate_Code": "if i >= len(candidates) and total > target:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T19_LCPN_39-Combination-Sum.py",
+            "Source_Code": "if i >= len(candidates) or total > target:",
+            "Mutate_Code": "if i >= len(candidates) not total > target:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T19_LCPN_39-Combination-Sum.py",
+            "Source_Code": "if i >= len(candidates) or total > target:",
+            "Mutate_Code": "if i >= len(candidates) and and total > target:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T19_LCPN_39-Combination-Sum.py",
+            "Source_Code": "if i >= len(candidates) or total > target:",
+            "Mutate_Code": "if i >= len(candidates) or or total > target:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T19_LCPN_39-Combination-Sum.py",
+            "Source_Code": "if i >= len(candidates) or total > target:",
+            "Mutate_Code": "if i >= len(candidates) not not total > target:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T19_LCPN_39-Combination-Sum.py",
+            "Source_Code": "if i >= len(candidates) or total > target:",
+            "Mutate_Code": " "
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T19_LCPN_39-Combination-Sum.py",
+            "Source_Code": "if i >= len(candidates) or total > target:",
+            "Mutate_Code": "elif:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T19_LCPN_39-Combination-Sum.py",
+            "Source_Code": "if i >= len(candidates) or total > target:",
+            "Mutate_Code": "else:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T19_LCPN_39-Combination-Sum.py",
+            "Source_Code": "if i >= len(candidates) or total > target:",
+            "Mutate_Code": "if if"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T19_LCPN_39-Combination-Sum.py",
+            "Source_Code": "if i >= len(candidates) or total > target:",
+            "Mutate_Code": "if i >= len( ) or total > target:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T19_LCPN_39-Combination-Sum.py",
+            "Source_Code": "if i >= len(candidates) or total > target:",
+            "Mutate_Code": "if i   len(candidates) or total > target:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T19_LCPN_39-Combination-Sum.py",
+            "Source_Code": "if i >= len(candidates) or total > target:",
+            "Mutate_Code": "if i >= len(candidates) or total > target: "
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T19_LCPN_39-Combination-Sum.py",
+            "Source_Code": "if i >= len(candidates) or total > target:",
+            "Mutate_Code": "if i == len(candidates) or total > target:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T19_LCPN_39-Combination-Sum.py",
+            "Source_Code": "if i >= len(candidates) or total > target:",
+            "Mutate_Code": "if i != len(candidates) or total > target:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T19_LCPN_39-Combination-Sum.py",
+            "Source_Code": "if i >= len(candidates) or total > target:",
+            "Mutate_Code": "if i > len(candidates) or total > target:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T19_LCPN_39-Combination-Sum.py",
+            "Source_Code": "if i >= len(candidates) or total > target:",
+            "Mutate_Code": "if i < len(candidates) or total > target:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T19_LCPN_39-Combination-Sum.py",
+            "Source_Code": "if i >= len(candidates) or total > target:",
+            "Mutate_Code": "if i <= len(candidates) or total > target:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T19_LCPN_39-Combination-Sum.py",
+            "Source_Code": "if i >= len(candidates) or total > target:",
+            "Mutate_Code": "if i >= len(candidates) or total > target:=="
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T19_LCPN_39-Combination-Sum.py",
+            "Source_Code": "if i >= len(candidates) or total > target:",
+            "Mutate_Code": "if i >= len(candidates) or total > target:!="
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T19_LCPN_39-Combination-Sum.py",
+            "Source_Code": "if i >= len(candidates) or total > target:",
+            "Mutate_Code": "if i >= len(candidates) or total > target:>"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T19_LCPN_39-Combination-Sum.py",
+            "Source_Code": "if i >= len(candidates) or total > target:",
+            "Mutate_Code": "if i >= len(candidates) or total > target:<"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T19_LCPN_39-Combination-Sum.py",
+            "Source_Code": "if i >= len(candidates) or total > target:",
+            "Mutate_Code": "if i >= len(candidates) or total > target:>="
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T19_LCPN_39-Combination-Sum.py",
+            "Source_Code": "if i >= len(candidates) or total > target:",
+            "Mutate_Code": "if i >= len(candidates) or total > target:<="
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T19_LCPN_39-Combination-Sum.py",
+            "Source_Code": "if i >= len(candidates) or total > target:",
+            "Mutate_Code": "if i  ====  len(candidates) or total > target:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T19_LCPN_39-Combination-Sum.py",
+            "Source_Code": "if i >= len(candidates) or total > target:",
+            "Mutate_Code": "if i  !==  len(candidates) or total > target:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T19_LCPN_39-Combination-Sum.py",
+            "Source_Code": "if i >= len(candidates) or total > target:",
+            "Mutate_Code": "if i  >>  len(candidates) or total > target:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T19_LCPN_39-Combination-Sum.py",
+            "Source_Code": "if i >= len(candidates) or total > target:",
+            "Mutate_Code": "if i  <<  len(candidates) or total > target:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T19_LCPN_39-Combination-Sum.py",
+            "Source_Code": "if i >= len(candidates) or total > target:",
+            "Mutate_Code": "if i  >=>=  len(candidates) or total > target:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T19_LCPN_39-Combination-Sum.py",
+            "Source_Code": "if i >= len(candidates) or total > target:",
+            "Mutate_Code": "if i  <=<=  len(candidates) or total > target:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T19_LCPN_39-Combination-Sum.py",
+            "Source_Code": "if i >= len(candidates) or total > target:",
+            "Mutate_Code": "if i >= len(candidates) or total > target: ==== "
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T19_LCPN_39-Combination-Sum.py",
+            "Source_Code": "if i >= len(candidates) or total > target:",
+            "Mutate_Code": "if i >= len(candidates) or total > target: !== "
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T19_LCPN_39-Combination-Sum.py",
+            "Source_Code": "if i >= len(candidates) or total > target:",
+            "Mutate_Code": "if i >= len(candidates) or total > target: >> "
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T19_LCPN_39-Combination-Sum.py",
+            "Source_Code": "if i >= len(candidates) or total > target:",
+            "Mutate_Code": "if i >= len(candidates) or total > target: << "
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T19_LCPN_39-Combination-Sum.py",
+            "Source_Code": "if i >= len(candidates) or total > target:",
+            "Mutate_Code": "if i >= len(candidates) or total > target: >=>= "
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T19_LCPN_39-Combination-Sum.py",
+            "Source_Code": "if i >= len(candidates) or total > target:",
+            "Mutate_Code": "if i >= len(candidates) or total > target: <=<= "
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T19_LCPN_39-Combination-Sum.py",
+            "Source_Code": "if i >= len(candidates) or total > target:",
+            "Mutate_Code": "if i >= len(candidates) total > target:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T19_LCPN_39-Combination-Sum.py",
+            "Source_Code": "if i >= len(candidates) or total > target:",
+            "Mutate_Code": "if i >= len(candidates) and total > target:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T19_LCPN_39-Combination-Sum.py",
+            "Source_Code": "if i >= len(candidates) or total > target:",
+            "Mutate_Code": "if i >= len(candidates) not total > target:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T19_LCPN_39-Combination-Sum.py",
+            "Source_Code": "if i >= len(candidates) or total > target:",
+            "Mutate_Code": "if i >= len(candidates) and and total > target:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T19_LCPN_39-Combination-Sum.py",
+            "Source_Code": "if i >= len(candidates) or total > target:",
+            "Mutate_Code": "if i >= len(candidates) or or total > target:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T19_LCPN_39-Combination-Sum.py",
+            "Source_Code": "if i >= len(candidates) or total > target:",
+            "Mutate_Code": "if i >= len(candidates) not not total > target:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T19_LCPN_39-Combination-Sum.py",
+            "Source_Code": "if i >= len(candidates) or total > target:",
+            "Mutate_Code": " "
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T19_LCPN_39-Combination-Sum.py",
+            "Source_Code": "if i >= len(candidates) or total > target:",
+            "Mutate_Code": "elif:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T19_LCPN_39-Combination-Sum.py",
+            "Source_Code": "if i >= len(candidates) or total > target:",
+            "Mutate_Code": "else:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T19_LCPN_39-Combination-Sum.py",
+            "Source_Code": "if i >= len(candidates) or total > target:",
+            "Mutate_Code": "if if"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T19_LCPN_39-Combination-Sum.py",
+            "Source_Code": "if i >= len(candidates) or total > target:",
+            "Mutate_Code": "if i >= len( ) or total > target:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T19_LCPN_39-Combination-Sum.py",
+            "Source_Code": "cur.append(candidates[i])",
+            "Mutate_Code": "cur.append( )"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T19_LCPN_39-Combination-Sum.py",
+            "Source_Code": "return res",
+            "Mutate_Code": " res"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T19_LCPN_39-Combination-Sum.py",
+            "Source_Code": "return res",
+            "Mutate_Code": "passres"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T19_LCPN_39-Combination-Sum.py",
+            "Source_Code": "return res",
+            "Mutate_Code": "return returnres"
+        }
+    }
+]
