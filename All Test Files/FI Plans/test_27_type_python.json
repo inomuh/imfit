@@ -1,0 +1,2921 @@
+[
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T27_LCPN_51-N-Queens.py",
+            "Source_Code": "col = set()",
+            "Mutate_Code": "col set()"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T27_LCPN_51-N-Queens.py",
+            "Source_Code": "col = set()",
+            "Mutate_Code": "col set()"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T27_LCPN_51-N-Queens.py",
+            "Source_Code": "col = set()",
+            "Mutate_Code": "col += set()"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T27_LCPN_51-N-Queens.py",
+            "Source_Code": "col = set()",
+            "Mutate_Code": "col -= set()"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T27_LCPN_51-N-Queens.py",
+            "Source_Code": "col = set()",
+            "Mutate_Code": "col *= set()"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T27_LCPN_51-N-Queens.py",
+            "Source_Code": "col = set()",
+            "Mutate_Code": "col /= set()"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T27_LCPN_51-N-Queens.py",
+            "Source_Code": "col = set()",
+            "Mutate_Code": "col %= set()"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T27_LCPN_51-N-Queens.py",
+            "Source_Code": "col = set()",
+            "Mutate_Code": "col //= set()"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T27_LCPN_51-N-Queens.py",
+            "Source_Code": "col = set()",
+            "Mutate_Code": "col **= set()"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T27_LCPN_51-N-Queens.py",
+            "Source_Code": "col = set()",
+            "Mutate_Code": "col &= set()"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T27_LCPN_51-N-Queens.py",
+            "Source_Code": "col = set()",
+            "Mutate_Code": "col |= set()"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T27_LCPN_51-N-Queens.py",
+            "Source_Code": "col = set()",
+            "Mutate_Code": "col ^= set()"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T27_LCPN_51-N-Queens.py",
+            "Source_Code": "col = set()",
+            "Mutate_Code": "col >>= set()"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T27_LCPN_51-N-Queens.py",
+            "Source_Code": "col = set()",
+            "Mutate_Code": "col <<= set()"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T27_LCPN_51-N-Queens.py",
+            "Source_Code": "col = set()",
+            "Mutate_Code": "col += set()"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T27_LCPN_51-N-Queens.py",
+            "Source_Code": "col = set()",
+            "Mutate_Code": "col -= set()"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T27_LCPN_51-N-Queens.py",
+            "Source_Code": "col = set()",
+            "Mutate_Code": "col *= set()"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T27_LCPN_51-N-Queens.py",
+            "Source_Code": "col = set()",
+            "Mutate_Code": "col /= set()"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T27_LCPN_51-N-Queens.py",
+            "Source_Code": "col = set()",
+            "Mutate_Code": "col %= set()"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T27_LCPN_51-N-Queens.py",
+            "Source_Code": "col = set()",
+            "Mutate_Code": "col //= set()"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T27_LCPN_51-N-Queens.py",
+            "Source_Code": "col = set()",
+            "Mutate_Code": "col **= set()"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T27_LCPN_51-N-Queens.py",
+            "Source_Code": "col = set()",
+            "Mutate_Code": "col &= set()"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T27_LCPN_51-N-Queens.py",
+            "Source_Code": "col = set()",
+            "Mutate_Code": "col |= set()"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T27_LCPN_51-N-Queens.py",
+            "Source_Code": "col = set()",
+            "Mutate_Code": "col ^= set()"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T27_LCPN_51-N-Queens.py",
+            "Source_Code": "col = set()",
+            "Mutate_Code": "col >>= set()"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T27_LCPN_51-N-Queens.py",
+            "Source_Code": "col = set()",
+            "Mutate_Code": "col <<= set()"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T27_LCPN_51-N-Queens.py",
+            "Source_Code": "col = set()",
+            "Mutate_Code": "col == set()"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T27_LCPN_51-N-Queens.py",
+            "Source_Code": "col = set()",
+            "Mutate_Code": "col +=+= set()"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T27_LCPN_51-N-Queens.py",
+            "Source_Code": "col = set()",
+            "Mutate_Code": "col -=-= set()"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T27_LCPN_51-N-Queens.py",
+            "Source_Code": "col = set()",
+            "Mutate_Code": "col *=*= set()"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T27_LCPN_51-N-Queens.py",
+            "Source_Code": "col = set()",
+            "Mutate_Code": "col /=/= set()"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T27_LCPN_51-N-Queens.py",
+            "Source_Code": "col = set()",
+            "Mutate_Code": "col %=%= set()"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T27_LCPN_51-N-Queens.py",
+            "Source_Code": "col = set()",
+            "Mutate_Code": "col //=//= set()"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T27_LCPN_51-N-Queens.py",
+            "Source_Code": "col = set()",
+            "Mutate_Code": "col **=**= set()"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T27_LCPN_51-N-Queens.py",
+            "Source_Code": "col = set()",
+            "Mutate_Code": "col &=&= set()"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T27_LCPN_51-N-Queens.py",
+            "Source_Code": "col = set()",
+            "Mutate_Code": "col |=|= set()"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T27_LCPN_51-N-Queens.py",
+            "Source_Code": "col = set()",
+            "Mutate_Code": "col ^=^= set()"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T27_LCPN_51-N-Queens.py",
+            "Source_Code": "col = set()",
+            "Mutate_Code": "col >>=>>= set()"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T27_LCPN_51-N-Queens.py",
+            "Source_Code": "col = set()",
+            "Mutate_Code": "col <<=<<=set()"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T27_LCPN_51-N-Queens.py",
+            "Source_Code": "col = set()",
+            "Mutate_Code": "col == set()"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T27_LCPN_51-N-Queens.py",
+            "Source_Code": "col = set()",
+            "Mutate_Code": "col +=+= set()"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T27_LCPN_51-N-Queens.py",
+            "Source_Code": "col = set()",
+            "Mutate_Code": "col -=-= set()"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T27_LCPN_51-N-Queens.py",
+            "Source_Code": "col = set()",
+            "Mutate_Code": "col *=*= set()"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T27_LCPN_51-N-Queens.py",
+            "Source_Code": "col = set()",
+            "Mutate_Code": "col /=/= set()"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T27_LCPN_51-N-Queens.py",
+            "Source_Code": "col = set()",
+            "Mutate_Code": "col %=%= set()"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T27_LCPN_51-N-Queens.py",
+            "Source_Code": "col = set()",
+            "Mutate_Code": "col //=//= set()"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T27_LCPN_51-N-Queens.py",
+            "Source_Code": "col = set()",
+            "Mutate_Code": "col **=**= set()"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T27_LCPN_51-N-Queens.py",
+            "Source_Code": "col = set()",
+            "Mutate_Code": "col &=&= set()"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T27_LCPN_51-N-Queens.py",
+            "Source_Code": "col = set()",
+            "Mutate_Code": "col |=|= set()"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T27_LCPN_51-N-Queens.py",
+            "Source_Code": "col = set()",
+            "Mutate_Code": "col ^=^= set()"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T27_LCPN_51-N-Queens.py",
+            "Source_Code": "col = set()",
+            "Mutate_Code": "col >>=>>= set()"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T27_LCPN_51-N-Queens.py",
+            "Source_Code": "col = set()",
+            "Mutate_Code": "col <<=<<=set()"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T27_LCPN_51-N-Queens.py",
+            "Source_Code": "col = set()",
+            "Mutate_Code": "col =set()"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T27_LCPN_51-N-Queens.py",
+            "Source_Code": "board = [[\".\"] * n for i in range(n)]",
+            "Mutate_Code": "board = [[\".\"] n for i in range(n)]"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T27_LCPN_51-N-Queens.py",
+            "Source_Code": "board = [[\".\"] * n for i in range(n)]",
+            "Mutate_Code": "board = [[\".\"] n for i in range(n)]"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T27_LCPN_51-N-Queens.py",
+            "Source_Code": "board = [[\".\"] * n for i in range(n)]",
+            "Mutate_Code": "board = [[\".\"] + n for i in range(n)]"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T27_LCPN_51-N-Queens.py",
+            "Source_Code": "board = [[\".\"] * n for i in range(n)]",
+            "Mutate_Code": "board = [[\".\"] - n for i in range(n)]"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T27_LCPN_51-N-Queens.py",
+            "Source_Code": "board = [[\".\"] * n for i in range(n)]",
+            "Mutate_Code": "board = [[\".\"] / n for i in range(n)]"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T27_LCPN_51-N-Queens.py",
+            "Source_Code": "board = [[\".\"] * n for i in range(n)]",
+            "Mutate_Code": "board = [[\".\"] % n for i in range(n)]"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T27_LCPN_51-N-Queens.py",
+            "Source_Code": "board = [[\".\"] * n for i in range(n)]",
+            "Mutate_Code": "board = [[\".\"] ** n for i in range(n)]"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T27_LCPN_51-N-Queens.py",
+            "Source_Code": "board = [[\".\"] * n for i in range(n)]",
+            "Mutate_Code": "board = [[\".\"] // n for i in range(n)]"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T27_LCPN_51-N-Queens.py",
+            "Source_Code": "board = [[\".\"] * n for i in range(n)]",
+            "Mutate_Code": "board = [[\".\"] + n for i in range(n)]"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T27_LCPN_51-N-Queens.py",
+            "Source_Code": "board = [[\".\"] * n for i in range(n)]",
+            "Mutate_Code": "board = [[\".\"] - n for i in range(n)]"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T27_LCPN_51-N-Queens.py",
+            "Source_Code": "board = [[\".\"] * n for i in range(n)]",
+            "Mutate_Code": "board = [[\".\"] / n for i in range(n)]"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T27_LCPN_51-N-Queens.py",
+            "Source_Code": "board = [[\".\"] * n for i in range(n)]",
+            "Mutate_Code": "board = [[\".\"] % n for i in range(n)]"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T27_LCPN_51-N-Queens.py",
+            "Source_Code": "board = [[\".\"] * n for i in range(n)]",
+            "Mutate_Code": "board = [[\".\"] ** n for i in range(n)]"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T27_LCPN_51-N-Queens.py",
+            "Source_Code": "board = [[\".\"] * n for i in range(n)]",
+            "Mutate_Code": "board = [[\".\"] // n for i in range(n)]"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T27_LCPN_51-N-Queens.py",
+            "Source_Code": "board = [[\".\"] * n for i in range(n)]",
+            "Mutate_Code": "board = [[\".\"] ++ n for i in range(n)]"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T27_LCPN_51-N-Queens.py",
+            "Source_Code": "board = [[\".\"] * n for i in range(n)]",
+            "Mutate_Code": "board = [[\".\"] -- n for i in range(n)]"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T27_LCPN_51-N-Queens.py",
+            "Source_Code": "board = [[\".\"] * n for i in range(n)]",
+            "Mutate_Code": "board = [[\".\"] ** n for i in range(n)]"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T27_LCPN_51-N-Queens.py",
+            "Source_Code": "board = [[\".\"] * n for i in range(n)]",
+            "Mutate_Code": "board = [[\".\"] // n for i in range(n)]"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T27_LCPN_51-N-Queens.py",
+            "Source_Code": "board = [[\".\"] * n for i in range(n)]",
+            "Mutate_Code": "board = [[\".\"] %% n for i in range(n)]"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T27_LCPN_51-N-Queens.py",
+            "Source_Code": "board = [[\".\"] * n for i in range(n)]",
+            "Mutate_Code": "board = [[\".\"] **** n for i in range(n)]"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T27_LCPN_51-N-Queens.py",
+            "Source_Code": "board = [[\".\"] * n for i in range(n)]",
+            "Mutate_Code": "board = [[\".\"] //// n for i in range(n)]"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T27_LCPN_51-N-Queens.py",
+            "Source_Code": "board = [[\".\"] * n for i in range(n)]",
+            "Mutate_Code": "board = [[\".\"] ++ n for i in range(n)]"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T27_LCPN_51-N-Queens.py",
+            "Source_Code": "board = [[\".\"] * n for i in range(n)]",
+            "Mutate_Code": "board = [[\".\"] -- n for i in range(n)]"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T27_LCPN_51-N-Queens.py",
+            "Source_Code": "board = [[\".\"] * n for i in range(n)]",
+            "Mutate_Code": "board = [[\".\"] ** n for i in range(n)]"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T27_LCPN_51-N-Queens.py",
+            "Source_Code": "board = [[\".\"] * n for i in range(n)]",
+            "Mutate_Code": "board = [[\".\"] // n for i in range(n)]"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T27_LCPN_51-N-Queens.py",
+            "Source_Code": "board = [[\".\"] * n for i in range(n)]",
+            "Mutate_Code": "board = [[\".\"] %% n for i in range(n)]"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T27_LCPN_51-N-Queens.py",
+            "Source_Code": "board = [[\".\"] * n for i in range(n)]",
+            "Mutate_Code": "board = [[\".\"] **** n for i in range(n)]"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T27_LCPN_51-N-Queens.py",
+            "Source_Code": "board = [[\".\"] * n for i in range(n)]",
+            "Mutate_Code": "board = [[\".\"] //// n for i in range(n)]"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T27_LCPN_51-N-Queens.py",
+            "Source_Code": "board = [[\".\"] * n for i in range(n)]",
+            "Mutate_Code": "board [[\".\"] * n for i in range(n)]"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T27_LCPN_51-N-Queens.py",
+            "Source_Code": "board = [[\".\"] * n for i in range(n)]",
+            "Mutate_Code": "board [[\".\"] * n for i in range(n)]"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T27_LCPN_51-N-Queens.py",
+            "Source_Code": "board = [[\".\"] * n for i in range(n)]",
+            "Mutate_Code": "board += [[\".\"] * n for i in range(n)]"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T27_LCPN_51-N-Queens.py",
+            "Source_Code": "board = [[\".\"] * n for i in range(n)]",
+            "Mutate_Code": "board -= [[\".\"] * n for i in range(n)]"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T27_LCPN_51-N-Queens.py",
+            "Source_Code": "board = [[\".\"] * n for i in range(n)]",
+            "Mutate_Code": "board *= [[\".\"] * n for i in range(n)]"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T27_LCPN_51-N-Queens.py",
+            "Source_Code": "board = [[\".\"] * n for i in range(n)]",
+            "Mutate_Code": "board /= [[\".\"] * n for i in range(n)]"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T27_LCPN_51-N-Queens.py",
+            "Source_Code": "board = [[\".\"] * n for i in range(n)]",
+            "Mutate_Code": "board %= [[\".\"] * n for i in range(n)]"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T27_LCPN_51-N-Queens.py",
+            "Source_Code": "board = [[\".\"] * n for i in range(n)]",
+            "Mutate_Code": "board //= [[\".\"] * n for i in range(n)]"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T27_LCPN_51-N-Queens.py",
+            "Source_Code": "board = [[\".\"] * n for i in range(n)]",
+            "Mutate_Code": "board **= [[\".\"] * n for i in range(n)]"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T27_LCPN_51-N-Queens.py",
+            "Source_Code": "board = [[\".\"] * n for i in range(n)]",
+            "Mutate_Code": "board &= [[\".\"] * n for i in range(n)]"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T27_LCPN_51-N-Queens.py",
+            "Source_Code": "board = [[\".\"] * n for i in range(n)]",
+            "Mutate_Code": "board |= [[\".\"] * n for i in range(n)]"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T27_LCPN_51-N-Queens.py",
+            "Source_Code": "board = [[\".\"] * n for i in range(n)]",
+            "Mutate_Code": "board ^= [[\".\"] * n for i in range(n)]"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T27_LCPN_51-N-Queens.py",
+            "Source_Code": "board = [[\".\"] * n for i in range(n)]",
+            "Mutate_Code": "board >>= [[\".\"] * n for i in range(n)]"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T27_LCPN_51-N-Queens.py",
+            "Source_Code": "board = [[\".\"] * n for i in range(n)]",
+            "Mutate_Code": "board <<= [[\".\"] * n for i in range(n)]"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T27_LCPN_51-N-Queens.py",
+            "Source_Code": "board = [[\".\"] * n for i in range(n)]",
+            "Mutate_Code": "board += [[\".\"] * n for i in range(n)]"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T27_LCPN_51-N-Queens.py",
+            "Source_Code": "board = [[\".\"] * n for i in range(n)]",
+            "Mutate_Code": "board -= [[\".\"] * n for i in range(n)]"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T27_LCPN_51-N-Queens.py",
+            "Source_Code": "board = [[\".\"] * n for i in range(n)]",
+            "Mutate_Code": "board *= [[\".\"] * n for i in range(n)]"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T27_LCPN_51-N-Queens.py",
+            "Source_Code": "board = [[\".\"] * n for i in range(n)]",
+            "Mutate_Code": "board /= [[\".\"] * n for i in range(n)]"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T27_LCPN_51-N-Queens.py",
+            "Source_Code": "board = [[\".\"] * n for i in range(n)]",
+            "Mutate_Code": "board %= [[\".\"] * n for i in range(n)]"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T27_LCPN_51-N-Queens.py",
+            "Source_Code": "board = [[\".\"] * n for i in range(n)]",
+            "Mutate_Code": "board //= [[\".\"] * n for i in range(n)]"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T27_LCPN_51-N-Queens.py",
+            "Source_Code": "board = [[\".\"] * n for i in range(n)]",
+            "Mutate_Code": "board **= [[\".\"] * n for i in range(n)]"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T27_LCPN_51-N-Queens.py",
+            "Source_Code": "board = [[\".\"] * n for i in range(n)]",
+            "Mutate_Code": "board &= [[\".\"] * n for i in range(n)]"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T27_LCPN_51-N-Queens.py",
+            "Source_Code": "board = [[\".\"] * n for i in range(n)]",
+            "Mutate_Code": "board |= [[\".\"] * n for i in range(n)]"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T27_LCPN_51-N-Queens.py",
+            "Source_Code": "board = [[\".\"] * n for i in range(n)]",
+            "Mutate_Code": "board ^= [[\".\"] * n for i in range(n)]"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T27_LCPN_51-N-Queens.py",
+            "Source_Code": "board = [[\".\"] * n for i in range(n)]",
+            "Mutate_Code": "board >>= [[\".\"] * n for i in range(n)]"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T27_LCPN_51-N-Queens.py",
+            "Source_Code": "board = [[\".\"] * n for i in range(n)]",
+            "Mutate_Code": "board <<= [[\".\"] * n for i in range(n)]"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T27_LCPN_51-N-Queens.py",
+            "Source_Code": "board = [[\".\"] * n for i in range(n)]",
+            "Mutate_Code": "board == [[\".\"] * n for i in range(n)]"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T27_LCPN_51-N-Queens.py",
+            "Source_Code": "board = [[\".\"] * n for i in range(n)]",
+            "Mutate_Code": "board +=+= [[\".\"] * n for i in range(n)]"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T27_LCPN_51-N-Queens.py",
+            "Source_Code": "board = [[\".\"] * n for i in range(n)]",
+            "Mutate_Code": "board -=-= [[\".\"] * n for i in range(n)]"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T27_LCPN_51-N-Queens.py",
+            "Source_Code": "board = [[\".\"] * n for i in range(n)]",
+            "Mutate_Code": "board *=*= [[\".\"] * n for i in range(n)]"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T27_LCPN_51-N-Queens.py",
+            "Source_Code": "board = [[\".\"] * n for i in range(n)]",
+            "Mutate_Code": "board /=/= [[\".\"] * n for i in range(n)]"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T27_LCPN_51-N-Queens.py",
+            "Source_Code": "board = [[\".\"] * n for i in range(n)]",
+            "Mutate_Code": "board %=%= [[\".\"] * n for i in range(n)]"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T27_LCPN_51-N-Queens.py",
+            "Source_Code": "board = [[\".\"] * n for i in range(n)]",
+            "Mutate_Code": "board //=//= [[\".\"] * n for i in range(n)]"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T27_LCPN_51-N-Queens.py",
+            "Source_Code": "board = [[\".\"] * n for i in range(n)]",
+            "Mutate_Code": "board **=**= [[\".\"] * n for i in range(n)]"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T27_LCPN_51-N-Queens.py",
+            "Source_Code": "board = [[\".\"] * n for i in range(n)]",
+            "Mutate_Code": "board &=&= [[\".\"] * n for i in range(n)]"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T27_LCPN_51-N-Queens.py",
+            "Source_Code": "board = [[\".\"] * n for i in range(n)]",
+            "Mutate_Code": "board |=|= [[\".\"] * n for i in range(n)]"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T27_LCPN_51-N-Queens.py",
+            "Source_Code": "board = [[\".\"] * n for i in range(n)]",
+            "Mutate_Code": "board ^=^= [[\".\"] * n for i in range(n)]"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T27_LCPN_51-N-Queens.py",
+            "Source_Code": "board = [[\".\"] * n for i in range(n)]",
+            "Mutate_Code": "board >>=>>= [[\".\"] * n for i in range(n)]"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T27_LCPN_51-N-Queens.py",
+            "Source_Code": "board = [[\".\"] * n for i in range(n)]",
+            "Mutate_Code": "board <<=<<=[[\".\"] * n for i in range(n)]"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T27_LCPN_51-N-Queens.py",
+            "Source_Code": "board = [[\".\"] * n for i in range(n)]",
+            "Mutate_Code": "board == [[\".\"] * n for i in range(n)]"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T27_LCPN_51-N-Queens.py",
+            "Source_Code": "board = [[\".\"] * n for i in range(n)]",
+            "Mutate_Code": "board +=+= [[\".\"] * n for i in range(n)]"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T27_LCPN_51-N-Queens.py",
+            "Source_Code": "board = [[\".\"] * n for i in range(n)]",
+            "Mutate_Code": "board -=-= [[\".\"] * n for i in range(n)]"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T27_LCPN_51-N-Queens.py",
+            "Source_Code": "board = [[\".\"] * n for i in range(n)]",
+            "Mutate_Code": "board *=*= [[\".\"] * n for i in range(n)]"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T27_LCPN_51-N-Queens.py",
+            "Source_Code": "board = [[\".\"] * n for i in range(n)]",
+            "Mutate_Code": "board /=/= [[\".\"] * n for i in range(n)]"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T27_LCPN_51-N-Queens.py",
+            "Source_Code": "board = [[\".\"] * n for i in range(n)]",
+            "Mutate_Code": "board %=%= [[\".\"] * n for i in range(n)]"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T27_LCPN_51-N-Queens.py",
+            "Source_Code": "board = [[\".\"] * n for i in range(n)]",
+            "Mutate_Code": "board //=//= [[\".\"] * n for i in range(n)]"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T27_LCPN_51-N-Queens.py",
+            "Source_Code": "board = [[\".\"] * n for i in range(n)]",
+            "Mutate_Code": "board **=**= [[\".\"] * n for i in range(n)]"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T27_LCPN_51-N-Queens.py",
+            "Source_Code": "board = [[\".\"] * n for i in range(n)]",
+            "Mutate_Code": "board &=&= [[\".\"] * n for i in range(n)]"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T27_LCPN_51-N-Queens.py",
+            "Source_Code": "board = [[\".\"] * n for i in range(n)]",
+            "Mutate_Code": "board |=|= [[\".\"] * n for i in range(n)]"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T27_LCPN_51-N-Queens.py",
+            "Source_Code": "board = [[\".\"] * n for i in range(n)]",
+            "Mutate_Code": "board ^=^= [[\".\"] * n for i in range(n)]"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T27_LCPN_51-N-Queens.py",
+            "Source_Code": "board = [[\".\"] * n for i in range(n)]",
+            "Mutate_Code": "board >>=>>= [[\".\"] * n for i in range(n)]"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T27_LCPN_51-N-Queens.py",
+            "Source_Code": "board = [[\".\"] * n for i in range(n)]",
+            "Mutate_Code": "board <<=<<=[[\".\"] * n for i in range(n)]"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T27_LCPN_51-N-Queens.py",
+            "Source_Code": "board = [[\".\"] * n for i in range(n)]",
+            "Mutate_Code": "board = [[\".\"] * n for i range(n)]"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T27_LCPN_51-N-Queens.py",
+            "Source_Code": "board = [[\".\"] * n for i in range(n)]",
+            "Mutate_Code": "board = [[\".\"] * n for i is range(n)]"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T27_LCPN_51-N-Queens.py",
+            "Source_Code": "board = [[\".\"] * n for i in range(n)]",
+            "Mutate_Code": "board = [[\".\"] * n for i is not range(n)]"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T27_LCPN_51-N-Queens.py",
+            "Source_Code": "board = [[\".\"] * n for i in range(n)]",
+            "Mutate_Code": "board = [[\".\"] * n for i in in range(n)]"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T27_LCPN_51-N-Queens.py",
+            "Source_Code": "board = [[\".\"] * n for i in range(n)]",
+            "Mutate_Code": "board = [[\".\"] * n for i not in not in range(n)]"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T27_LCPN_51-N-Queens.py",
+            "Source_Code": "board = [[\".\"] * n for i in range(n)]",
+            "Mutate_Code": "board = [[\".\"] * n for for: i in range(n)]"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T27_LCPN_51-N-Queens.py",
+            "Source_Code": "board = [[\".\"] * n for i in range(n)]",
+            "Mutate_Code": "board = [[\".\"] *   for i in range(n)]"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T27_LCPN_51-N-Queens.py",
+            "Source_Code": "if r == n:",
+            "Mutate_Code": "if r   n:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T27_LCPN_51-N-Queens.py",
+            "Source_Code": "if r == n:",
+            "Mutate_Code": "if r != n:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T27_LCPN_51-N-Queens.py",
+            "Source_Code": "if r == n:",
+            "Mutate_Code": "if r > n:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T27_LCPN_51-N-Queens.py",
+            "Source_Code": "if r == n:",
+            "Mutate_Code": "if r < n:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T27_LCPN_51-N-Queens.py",
+            "Source_Code": "if r == n:",
+            "Mutate_Code": "if r >= n:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T27_LCPN_51-N-Queens.py",
+            "Source_Code": "if r == n:",
+            "Mutate_Code": "if r <= n:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T27_LCPN_51-N-Queens.py",
+            "Source_Code": "if r == n:",
+            "Mutate_Code": "if r  ====  n:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T27_LCPN_51-N-Queens.py",
+            "Source_Code": "if r == n:",
+            "Mutate_Code": "if r  !==  n:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T27_LCPN_51-N-Queens.py",
+            "Source_Code": "if r == n:",
+            "Mutate_Code": "if r  >>  n:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T27_LCPN_51-N-Queens.py",
+            "Source_Code": "if r == n:",
+            "Mutate_Code": "if r  <<  n:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T27_LCPN_51-N-Queens.py",
+            "Source_Code": "if r == n:",
+            "Mutate_Code": "if r  >=>=  n:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T27_LCPN_51-N-Queens.py",
+            "Source_Code": "if r == n:",
+            "Mutate_Code": "if r  <=<=  n:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T27_LCPN_51-N-Queens.py",
+            "Source_Code": "if r == n:",
+            "Mutate_Code": " "
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T27_LCPN_51-N-Queens.py",
+            "Source_Code": "if r == n:",
+            "Mutate_Code": "elif:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T27_LCPN_51-N-Queens.py",
+            "Source_Code": "if r == n:",
+            "Mutate_Code": "else:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T27_LCPN_51-N-Queens.py",
+            "Source_Code": "if r == n:",
+            "Mutate_Code": "if if"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T27_LCPN_51-N-Queens.py",
+            "Source_Code": "copy = [\"\".join(row) for row in board]",
+            "Mutate_Code": "copy [\"\".join(row) for row in board]"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T27_LCPN_51-N-Queens.py",
+            "Source_Code": "copy = [\"\".join(row) for row in board]",
+            "Mutate_Code": "copy [\"\".join(row) for row in board]"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T27_LCPN_51-N-Queens.py",
+            "Source_Code": "copy = [\"\".join(row) for row in board]",
+            "Mutate_Code": "copy += [\"\".join(row) for row in board]"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T27_LCPN_51-N-Queens.py",
+            "Source_Code": "copy = [\"\".join(row) for row in board]",
+            "Mutate_Code": "copy -= [\"\".join(row) for row in board]"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T27_LCPN_51-N-Queens.py",
+            "Source_Code": "copy = [\"\".join(row) for row in board]",
+            "Mutate_Code": "copy *= [\"\".join(row) for row in board]"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T27_LCPN_51-N-Queens.py",
+            "Source_Code": "copy = [\"\".join(row) for row in board]",
+            "Mutate_Code": "copy /= [\"\".join(row) for row in board]"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T27_LCPN_51-N-Queens.py",
+            "Source_Code": "copy = [\"\".join(row) for row in board]",
+            "Mutate_Code": "copy %= [\"\".join(row) for row in board]"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T27_LCPN_51-N-Queens.py",
+            "Source_Code": "copy = [\"\".join(row) for row in board]",
+            "Mutate_Code": "copy //= [\"\".join(row) for row in board]"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T27_LCPN_51-N-Queens.py",
+            "Source_Code": "copy = [\"\".join(row) for row in board]",
+            "Mutate_Code": "copy **= [\"\".join(row) for row in board]"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T27_LCPN_51-N-Queens.py",
+            "Source_Code": "copy = [\"\".join(row) for row in board]",
+            "Mutate_Code": "copy &= [\"\".join(row) for row in board]"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T27_LCPN_51-N-Queens.py",
+            "Source_Code": "copy = [\"\".join(row) for row in board]",
+            "Mutate_Code": "copy |= [\"\".join(row) for row in board]"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T27_LCPN_51-N-Queens.py",
+            "Source_Code": "copy = [\"\".join(row) for row in board]",
+            "Mutate_Code": "copy ^= [\"\".join(row) for row in board]"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T27_LCPN_51-N-Queens.py",
+            "Source_Code": "copy = [\"\".join(row) for row in board]",
+            "Mutate_Code": "copy >>= [\"\".join(row) for row in board]"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T27_LCPN_51-N-Queens.py",
+            "Source_Code": "copy = [\"\".join(row) for row in board]",
+            "Mutate_Code": "copy <<= [\"\".join(row) for row in board]"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T27_LCPN_51-N-Queens.py",
+            "Source_Code": "copy = [\"\".join(row) for row in board]",
+            "Mutate_Code": "copy += [\"\".join(row) for row in board]"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T27_LCPN_51-N-Queens.py",
+            "Source_Code": "copy = [\"\".join(row) for row in board]",
+            "Mutate_Code": "copy -= [\"\".join(row) for row in board]"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T27_LCPN_51-N-Queens.py",
+            "Source_Code": "copy = [\"\".join(row) for row in board]",
+            "Mutate_Code": "copy *= [\"\".join(row) for row in board]"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T27_LCPN_51-N-Queens.py",
+            "Source_Code": "copy = [\"\".join(row) for row in board]",
+            "Mutate_Code": "copy /= [\"\".join(row) for row in board]"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T27_LCPN_51-N-Queens.py",
+            "Source_Code": "copy = [\"\".join(row) for row in board]",
+            "Mutate_Code": "copy %= [\"\".join(row) for row in board]"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T27_LCPN_51-N-Queens.py",
+            "Source_Code": "copy = [\"\".join(row) for row in board]",
+            "Mutate_Code": "copy //= [\"\".join(row) for row in board]"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T27_LCPN_51-N-Queens.py",
+            "Source_Code": "copy = [\"\".join(row) for row in board]",
+            "Mutate_Code": "copy **= [\"\".join(row) for row in board]"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T27_LCPN_51-N-Queens.py",
+            "Source_Code": "copy = [\"\".join(row) for row in board]",
+            "Mutate_Code": "copy &= [\"\".join(row) for row in board]"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T27_LCPN_51-N-Queens.py",
+            "Source_Code": "copy = [\"\".join(row) for row in board]",
+            "Mutate_Code": "copy |= [\"\".join(row) for row in board]"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T27_LCPN_51-N-Queens.py",
+            "Source_Code": "copy = [\"\".join(row) for row in board]",
+            "Mutate_Code": "copy ^= [\"\".join(row) for row in board]"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T27_LCPN_51-N-Queens.py",
+            "Source_Code": "copy = [\"\".join(row) for row in board]",
+            "Mutate_Code": "copy >>= [\"\".join(row) for row in board]"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T27_LCPN_51-N-Queens.py",
+            "Source_Code": "copy = [\"\".join(row) for row in board]",
+            "Mutate_Code": "copy <<= [\"\".join(row) for row in board]"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T27_LCPN_51-N-Queens.py",
+            "Source_Code": "copy = [\"\".join(row) for row in board]",
+            "Mutate_Code": "copy == [\"\".join(row) for row in board]"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T27_LCPN_51-N-Queens.py",
+            "Source_Code": "copy = [\"\".join(row) for row in board]",
+            "Mutate_Code": "copy +=+= [\"\".join(row) for row in board]"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T27_LCPN_51-N-Queens.py",
+            "Source_Code": "copy = [\"\".join(row) for row in board]",
+            "Mutate_Code": "copy -=-= [\"\".join(row) for row in board]"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T27_LCPN_51-N-Queens.py",
+            "Source_Code": "copy = [\"\".join(row) for row in board]",
+            "Mutate_Code": "copy *=*= [\"\".join(row) for row in board]"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T27_LCPN_51-N-Queens.py",
+            "Source_Code": "copy = [\"\".join(row) for row in board]",
+            "Mutate_Code": "copy /=/= [\"\".join(row) for row in board]"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T27_LCPN_51-N-Queens.py",
+            "Source_Code": "copy = [\"\".join(row) for row in board]",
+            "Mutate_Code": "copy %=%= [\"\".join(row) for row in board]"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T27_LCPN_51-N-Queens.py",
+            "Source_Code": "copy = [\"\".join(row) for row in board]",
+            "Mutate_Code": "copy //=//= [\"\".join(row) for row in board]"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T27_LCPN_51-N-Queens.py",
+            "Source_Code": "copy = [\"\".join(row) for row in board]",
+            "Mutate_Code": "copy **=**= [\"\".join(row) for row in board]"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T27_LCPN_51-N-Queens.py",
+            "Source_Code": "copy = [\"\".join(row) for row in board]",
+            "Mutate_Code": "copy &=&= [\"\".join(row) for row in board]"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T27_LCPN_51-N-Queens.py",
+            "Source_Code": "copy = [\"\".join(row) for row in board]",
+            "Mutate_Code": "copy |=|= [\"\".join(row) for row in board]"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T27_LCPN_51-N-Queens.py",
+            "Source_Code": "copy = [\"\".join(row) for row in board]",
+            "Mutate_Code": "copy ^=^= [\"\".join(row) for row in board]"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T27_LCPN_51-N-Queens.py",
+            "Source_Code": "copy = [\"\".join(row) for row in board]",
+            "Mutate_Code": "copy >>=>>= [\"\".join(row) for row in board]"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T27_LCPN_51-N-Queens.py",
+            "Source_Code": "copy = [\"\".join(row) for row in board]",
+            "Mutate_Code": "copy <<=<<=[\"\".join(row) for row in board]"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T27_LCPN_51-N-Queens.py",
+            "Source_Code": "copy = [\"\".join(row) for row in board]",
+            "Mutate_Code": "copy == [\"\".join(row) for row in board]"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T27_LCPN_51-N-Queens.py",
+            "Source_Code": "copy = [\"\".join(row) for row in board]",
+            "Mutate_Code": "copy +=+= [\"\".join(row) for row in board]"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T27_LCPN_51-N-Queens.py",
+            "Source_Code": "copy = [\"\".join(row) for row in board]",
+            "Mutate_Code": "copy -=-= [\"\".join(row) for row in board]"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T27_LCPN_51-N-Queens.py",
+            "Source_Code": "copy = [\"\".join(row) for row in board]",
+            "Mutate_Code": "copy *=*= [\"\".join(row) for row in board]"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T27_LCPN_51-N-Queens.py",
+            "Source_Code": "copy = [\"\".join(row) for row in board]",
+            "Mutate_Code": "copy /=/= [\"\".join(row) for row in board]"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T27_LCPN_51-N-Queens.py",
+            "Source_Code": "copy = [\"\".join(row) for row in board]",
+            "Mutate_Code": "copy %=%= [\"\".join(row) for row in board]"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T27_LCPN_51-N-Queens.py",
+            "Source_Code": "copy = [\"\".join(row) for row in board]",
+            "Mutate_Code": "copy //=//= [\"\".join(row) for row in board]"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T27_LCPN_51-N-Queens.py",
+            "Source_Code": "copy = [\"\".join(row) for row in board]",
+            "Mutate_Code": "copy **=**= [\"\".join(row) for row in board]"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T27_LCPN_51-N-Queens.py",
+            "Source_Code": "copy = [\"\".join(row) for row in board]",
+            "Mutate_Code": "copy &=&= [\"\".join(row) for row in board]"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T27_LCPN_51-N-Queens.py",
+            "Source_Code": "copy = [\"\".join(row) for row in board]",
+            "Mutate_Code": "copy |=|= [\"\".join(row) for row in board]"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T27_LCPN_51-N-Queens.py",
+            "Source_Code": "copy = [\"\".join(row) for row in board]",
+            "Mutate_Code": "copy ^=^= [\"\".join(row) for row in board]"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T27_LCPN_51-N-Queens.py",
+            "Source_Code": "copy = [\"\".join(row) for row in board]",
+            "Mutate_Code": "copy >>=>>= [\"\".join(row) for row in board]"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T27_LCPN_51-N-Queens.py",
+            "Source_Code": "copy = [\"\".join(row) for row in board]",
+            "Mutate_Code": "copy <<=<<=[\"\".join(row) for row in board]"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T27_LCPN_51-N-Queens.py",
+            "Source_Code": "copy = [\"\".join(row) for row in board]",
+            "Mutate_Code": "copy = [\"\".join(row) for row board]"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T27_LCPN_51-N-Queens.py",
+            "Source_Code": "copy = [\"\".join(row) for row in board]",
+            "Mutate_Code": "copy = [\"\".join(row) for row is board]"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T27_LCPN_51-N-Queens.py",
+            "Source_Code": "copy = [\"\".join(row) for row in board]",
+            "Mutate_Code": "copy = [\"\".join(row) for row is not board]"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T27_LCPN_51-N-Queens.py",
+            "Source_Code": "copy = [\"\".join(row) for row in board]",
+            "Mutate_Code": "copy = [\"\".join(row) for row in in board]"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T27_LCPN_51-N-Queens.py",
+            "Source_Code": "copy = [\"\".join(row) for row in board]",
+            "Mutate_Code": "copy = [\"\".join(row) for row not in not in board]"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T27_LCPN_51-N-Queens.py",
+            "Source_Code": "copy = [\"\".join(row) for row in board]",
+            "Mutate_Code": "copy = [\"\".join(row) for for: row in board]"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T27_LCPN_51-N-Queens.py",
+            "Source_Code": "copy = [\"\".join(row) for row in board]",
+            "Mutate_Code": "copy = [\"\".join( ) for row in board]"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T27_LCPN_51-N-Queens.py",
+            "Source_Code": "res.append(copy)",
+            "Mutate_Code": "res.append( )"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T27_LCPN_51-N-Queens.py",
+            "Source_Code": "for c in range(n):",
+            "Mutate_Code": "for c range(n):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T27_LCPN_51-N-Queens.py",
+            "Source_Code": "for c in range(n):",
+            "Mutate_Code": "for c is range(n):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T27_LCPN_51-N-Queens.py",
+            "Source_Code": "for c in range(n):",
+            "Mutate_Code": "for c is not range(n):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T27_LCPN_51-N-Queens.py",
+            "Source_Code": "for c in range(n):",
+            "Mutate_Code": "for c in in range(n):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T27_LCPN_51-N-Queens.py",
+            "Source_Code": "for c in range(n):",
+            "Mutate_Code": "for c not in not in range(n):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T27_LCPN_51-N-Queens.py",
+            "Source_Code": "for c in range(n):",
+            "Mutate_Code": " "
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T27_LCPN_51-N-Queens.py",
+            "Source_Code": "for c in range(n):",
+            "Mutate_Code": "while True:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T27_LCPN_51-N-Queens.py",
+            "Source_Code": "for c in range(n):",
+            "Mutate_Code": "for for: c in range(n):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T27_LCPN_51-N-Queens.py",
+            "Source_Code": "for c in range(n):",
+            "Mutate_Code": "for c i  range(n):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T27_LCPN_51-N-Queens.py",
+            "Source_Code": "for c in range(n):",
+            "Mutate_Code": "for c range(n):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T27_LCPN_51-N-Queens.py",
+            "Source_Code": "for c in range(n):",
+            "Mutate_Code": "for c is range(n):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T27_LCPN_51-N-Queens.py",
+            "Source_Code": "for c in range(n):",
+            "Mutate_Code": "for c is not range(n):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T27_LCPN_51-N-Queens.py",
+            "Source_Code": "for c in range(n):",
+            "Mutate_Code": "for c in in range(n):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T27_LCPN_51-N-Queens.py",
+            "Source_Code": "for c in range(n):",
+            "Mutate_Code": "for c not in not in range(n):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T27_LCPN_51-N-Queens.py",
+            "Source_Code": "for c in range(n):",
+            "Mutate_Code": " "
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T27_LCPN_51-N-Queens.py",
+            "Source_Code": "for c in range(n):",
+            "Mutate_Code": "while True:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T27_LCPN_51-N-Queens.py",
+            "Source_Code": "for c in range(n):",
+            "Mutate_Code": "for for: c in range(n):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T27_LCPN_51-N-Queens.py",
+            "Source_Code": "for c in range(n):",
+            "Mutate_Code": "for c i  range(n):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T27_LCPN_51-N-Queens.py",
+            "Source_Code": "if c in col or (r + c) in posDiag or (r - c) in negDiag:",
+            "Mutate_Code": "if c in col or (r c) in posDiag or (r - c) in negDiag:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T27_LCPN_51-N-Queens.py",
+            "Source_Code": "if c in col or (r + c) in posDiag or (r - c) in negDiag:",
+            "Mutate_Code": "if c in col or (r + c) in posDiag or (r c) in negDiag:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T27_LCPN_51-N-Queens.py",
+            "Source_Code": "if c in col or (r + c) in posDiag or (r - c) in negDiag:",
+            "Mutate_Code": "if c in col or (r - c) in posDiag or (r - c) in negDiag:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T27_LCPN_51-N-Queens.py",
+            "Source_Code": "if c in col or (r + c) in posDiag or (r - c) in negDiag:",
+            "Mutate_Code": "if c in col or (r * c) in posDiag or (r - c) in negDiag:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T27_LCPN_51-N-Queens.py",
+            "Source_Code": "if c in col or (r + c) in posDiag or (r - c) in negDiag:",
+            "Mutate_Code": "if c in col or (r / c) in posDiag or (r - c) in negDiag:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T27_LCPN_51-N-Queens.py",
+            "Source_Code": "if c in col or (r + c) in posDiag or (r - c) in negDiag:",
+            "Mutate_Code": "if c in col or (r % c) in posDiag or (r - c) in negDiag:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T27_LCPN_51-N-Queens.py",
+            "Source_Code": "if c in col or (r + c) in posDiag or (r - c) in negDiag:",
+            "Mutate_Code": "if c in col or (r ** c) in posDiag or (r - c) in negDiag:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T27_LCPN_51-N-Queens.py",
+            "Source_Code": "if c in col or (r + c) in posDiag or (r - c) in negDiag:",
+            "Mutate_Code": "if c in col or (r // c) in posDiag or (r - c) in negDiag:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T27_LCPN_51-N-Queens.py",
+            "Source_Code": "if c in col or (r + c) in posDiag or (r - c) in negDiag:",
+            "Mutate_Code": "if c in col or (r + c) in posDiag or (r + c) in negDiag:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T27_LCPN_51-N-Queens.py",
+            "Source_Code": "if c in col or (r + c) in posDiag or (r - c) in negDiag:",
+            "Mutate_Code": "if c in col or (r + c) in posDiag or (r * c) in negDiag:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T27_LCPN_51-N-Queens.py",
+            "Source_Code": "if c in col or (r + c) in posDiag or (r - c) in negDiag:",
+            "Mutate_Code": "if c in col or (r + c) in posDiag or (r / c) in negDiag:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T27_LCPN_51-N-Queens.py",
+            "Source_Code": "if c in col or (r + c) in posDiag or (r - c) in negDiag:",
+            "Mutate_Code": "if c in col or (r + c) in posDiag or (r % c) in negDiag:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T27_LCPN_51-N-Queens.py",
+            "Source_Code": "if c in col or (r + c) in posDiag or (r - c) in negDiag:",
+            "Mutate_Code": "if c in col or (r + c) in posDiag or (r ** c) in negDiag:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T27_LCPN_51-N-Queens.py",
+            "Source_Code": "if c in col or (r + c) in posDiag or (r - c) in negDiag:",
+            "Mutate_Code": "if c in col or (r + c) in posDiag or (r // c) in negDiag:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T27_LCPN_51-N-Queens.py",
+            "Source_Code": "if c in col or (r + c) in posDiag or (r - c) in negDiag:",
+            "Mutate_Code": "if c in col or (r ++ c) in posDiag or (r - c) in negDiag:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T27_LCPN_51-N-Queens.py",
+            "Source_Code": "if c in col or (r + c) in posDiag or (r - c) in negDiag:",
+            "Mutate_Code": "if c in col or (r -- c) in posDiag or (r - c) in negDiag:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T27_LCPN_51-N-Queens.py",
+            "Source_Code": "if c in col or (r + c) in posDiag or (r - c) in negDiag:",
+            "Mutate_Code": "if c in col or (r ** c) in posDiag or (r - c) in negDiag:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T27_LCPN_51-N-Queens.py",
+            "Source_Code": "if c in col or (r + c) in posDiag or (r - c) in negDiag:",
+            "Mutate_Code": "if c in col or (r // c) in posDiag or (r - c) in negDiag:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T27_LCPN_51-N-Queens.py",
+            "Source_Code": "if c in col or (r + c) in posDiag or (r - c) in negDiag:",
+            "Mutate_Code": "if c in col or (r %% c) in posDiag or (r - c) in negDiag:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T27_LCPN_51-N-Queens.py",
+            "Source_Code": "if c in col or (r + c) in posDiag or (r - c) in negDiag:",
+            "Mutate_Code": "if c in col or (r **** c) in posDiag or (r - c) in negDiag:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T27_LCPN_51-N-Queens.py",
+            "Source_Code": "if c in col or (r + c) in posDiag or (r - c) in negDiag:",
+            "Mutate_Code": "if c in col or (r //// c) in posDiag or (r - c) in negDiag:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T27_LCPN_51-N-Queens.py",
+            "Source_Code": "if c in col or (r + c) in posDiag or (r - c) in negDiag:",
+            "Mutate_Code": "if c in col or (r + c) in posDiag or (r ++ c) in negDiag:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T27_LCPN_51-N-Queens.py",
+            "Source_Code": "if c in col or (r + c) in posDiag or (r - c) in negDiag:",
+            "Mutate_Code": "if c in col or (r + c) in posDiag or (r -- c) in negDiag:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T27_LCPN_51-N-Queens.py",
+            "Source_Code": "if c in col or (r + c) in posDiag or (r - c) in negDiag:",
+            "Mutate_Code": "if c in col or (r + c) in posDiag or (r ** c) in negDiag:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T27_LCPN_51-N-Queens.py",
+            "Source_Code": "if c in col or (r + c) in posDiag or (r - c) in negDiag:",
+            "Mutate_Code": "if c in col or (r + c) in posDiag or (r // c) in negDiag:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T27_LCPN_51-N-Queens.py",
+            "Source_Code": "if c in col or (r + c) in posDiag or (r - c) in negDiag:",
+            "Mutate_Code": "if c in col or (r + c) in posDiag or (r %% c) in negDiag:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T27_LCPN_51-N-Queens.py",
+            "Source_Code": "if c in col or (r + c) in posDiag or (r - c) in negDiag:",
+            "Mutate_Code": "if c in col or (r + c) in posDiag or (r **** c) in negDiag:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T27_LCPN_51-N-Queens.py",
+            "Source_Code": "if c in col or (r + c) in posDiag or (r - c) in negDiag:",
+            "Mutate_Code": "if c in col or (r + c) in posDiag or (r //// c) in negDiag:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T27_LCPN_51-N-Queens.py",
+            "Source_Code": "if c in col or (r + c) in posDiag or (r - c) in negDiag:",
+            "Mutate_Code": "if c in col (r + c) in posDiag or (r - c) in negDiag:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T27_LCPN_51-N-Queens.py",
+            "Source_Code": "if c in col or (r + c) in posDiag or (r - c) in negDiag:",
+            "Mutate_Code": "if c in col or (r + c) in posDiag (r - c) in negDiag:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T27_LCPN_51-N-Queens.py",
+            "Source_Code": "if c in col or (r + c) in posDiag or (r - c) in negDiag:",
+            "Mutate_Code": "if c in col and (r + c) in posDiag or (r - c) in negDiag:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T27_LCPN_51-N-Queens.py",
+            "Source_Code": "if c in col or (r + c) in posDiag or (r - c) in negDiag:",
+            "Mutate_Code": "if c in col not (r + c) in posDiag or (r - c) in negDiag:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T27_LCPN_51-N-Queens.py",
+            "Source_Code": "if c in col or (r + c) in posDiag or (r - c) in negDiag:",
+            "Mutate_Code": "if c in col or (r + c) in posDiag and (r - c) in negDiag:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T27_LCPN_51-N-Queens.py",
+            "Source_Code": "if c in col or (r + c) in posDiag or (r - c) in negDiag:",
+            "Mutate_Code": "if c in col or (r + c) in posDiag not (r - c) in negDiag:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T27_LCPN_51-N-Queens.py",
+            "Source_Code": "if c in col or (r + c) in posDiag or (r - c) in negDiag:",
+            "Mutate_Code": "if c in col and and (r + c) in posDiag or (r - c) in negDiag:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T27_LCPN_51-N-Queens.py",
+            "Source_Code": "if c in col or (r + c) in posDiag or (r - c) in negDiag:",
+            "Mutate_Code": "if c in col or or (r + c) in posDiag or (r - c) in negDiag:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T27_LCPN_51-N-Queens.py",
+            "Source_Code": "if c in col or (r + c) in posDiag or (r - c) in negDiag:",
+            "Mutate_Code": "if c in col not not (r + c) in posDiag or (r - c) in negDiag:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T27_LCPN_51-N-Queens.py",
+            "Source_Code": "if c in col or (r + c) in posDiag or (r - c) in negDiag:",
+            "Mutate_Code": "if c in col or (r + c) in posDiag and and (r - c) in negDiag:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T27_LCPN_51-N-Queens.py",
+            "Source_Code": "if c in col or (r + c) in posDiag or (r - c) in negDiag:",
+            "Mutate_Code": "if c in col or (r + c) in posDiag or or (r - c) in negDiag:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T27_LCPN_51-N-Queens.py",
+            "Source_Code": "if c in col or (r + c) in posDiag or (r - c) in negDiag:",
+            "Mutate_Code": "if c in col or (r + c) in posDiag not not (r - c) in negDiag:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T27_LCPN_51-N-Queens.py",
+            "Source_Code": "if c in col or (r + c) in posDiag or (r - c) in negDiag:",
+            "Mutate_Code": "if c col or (r + c) in posDiag or (r - c) in negDiag:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T27_LCPN_51-N-Queens.py",
+            "Source_Code": "if c in col or (r + c) in posDiag or (r - c) in negDiag:",
+            "Mutate_Code": "if c in col or (r + c) posDiag or (r - c) in negDiag:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T27_LCPN_51-N-Queens.py",
+            "Source_Code": "if c in col or (r + c) in posDiag or (r - c) in negDiag:",
+            "Mutate_Code": "if c in col or (r + c) in posDiag or (r - c) negDiag:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T27_LCPN_51-N-Queens.py",
+            "Source_Code": "if c in col or (r + c) in posDiag or (r - c) in negDiag:",
+            "Mutate_Code": "if c is col or (r + c) in posDiag or (r - c) in negDiag:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T27_LCPN_51-N-Queens.py",
+            "Source_Code": "if c in col or (r + c) in posDiag or (r - c) in negDiag:",
+            "Mutate_Code": "if c is not col or (r + c) in posDiag or (r - c) in negDiag:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T27_LCPN_51-N-Queens.py",
+            "Source_Code": "if c in col or (r + c) in posDiag or (r - c) in negDiag:",
+            "Mutate_Code": "if c in col or (r + c) is posDiag or (r - c) in negDiag:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T27_LCPN_51-N-Queens.py",
+            "Source_Code": "if c in col or (r + c) in posDiag or (r - c) in negDiag:",
+            "Mutate_Code": "if c in col or (r + c) is not posDiag or (r - c) in negDiag:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T27_LCPN_51-N-Queens.py",
+            "Source_Code": "if c in col or (r + c) in posDiag or (r - c) in negDiag:",
+            "Mutate_Code": "if c in col or (r + c) in posDiag or (r - c) is negDiag:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T27_LCPN_51-N-Queens.py",
+            "Source_Code": "if c in col or (r + c) in posDiag or (r - c) in negDiag:",
+            "Mutate_Code": "if c in col or (r + c) in posDiag or (r - c) is not negDiag:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T27_LCPN_51-N-Queens.py",
+            "Source_Code": "if c in col or (r + c) in posDiag or (r - c) in negDiag:",
+            "Mutate_Code": "if c in in col or (r + c) in posDiag or (r - c) in negDiag:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T27_LCPN_51-N-Queens.py",
+            "Source_Code": "if c in col or (r + c) in posDiag or (r - c) in negDiag:",
+            "Mutate_Code": "if c not in not in col or (r + c) in posDiag or (r - c) in negDiag:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T27_LCPN_51-N-Queens.py",
+            "Source_Code": "if c in col or (r + c) in posDiag or (r - c) in negDiag:",
+            "Mutate_Code": "if c in col or (r + c) in in posDiag or (r - c) in negDiag:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T27_LCPN_51-N-Queens.py",
+            "Source_Code": "if c in col or (r + c) in posDiag or (r - c) in negDiag:",
+            "Mutate_Code": "if c in col or (r + c) not in not in posDiag or (r - c) in negDiag:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T27_LCPN_51-N-Queens.py",
+            "Source_Code": "if c in col or (r + c) in posDiag or (r - c) in negDiag:",
+            "Mutate_Code": "if c in col or (r + c) in posDiag or (r - c) in in negDiag:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T27_LCPN_51-N-Queens.py",
+            "Source_Code": "if c in col or (r + c) in posDiag or (r - c) in negDiag:",
+            "Mutate_Code": "if c in col or (r + c) in posDiag or (r - c) not in not in negDiag:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T27_LCPN_51-N-Queens.py",
+            "Source_Code": "if c in col or (r + c) in posDiag or (r - c) in negDiag:",
+            "Mutate_Code": " "
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T27_LCPN_51-N-Queens.py",
+            "Source_Code": "if c in col or (r + c) in posDiag or (r - c) in negDiag:",
+            "Mutate_Code": "elif:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T27_LCPN_51-N-Queens.py",
+            "Source_Code": "if c in col or (r + c) in posDiag or (r - c) in negDiag:",
+            "Mutate_Code": "else:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T27_LCPN_51-N-Queens.py",
+            "Source_Code": "if c in col or (r + c) in posDiag or (r - c) in negDiag:",
+            "Mutate_Code": "if if"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T27_LCPN_51-N-Queens.py",
+            "Source_Code": "if c in col or (r + c) in posDiag or (r - c) in negDiag:",
+            "Mutate_Code": "if c in col or (r c) in posDiag or (r - c) in negDiag:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T27_LCPN_51-N-Queens.py",
+            "Source_Code": "if c in col or (r + c) in posDiag or (r - c) in negDiag:",
+            "Mutate_Code": "if c in col or (r + c) in posDiag or (r c) in negDiag:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T27_LCPN_51-N-Queens.py",
+            "Source_Code": "if c in col or (r + c) in posDiag or (r - c) in negDiag:",
+            "Mutate_Code": "if c in col or (r - c) in posDiag or (r - c) in negDiag:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T27_LCPN_51-N-Queens.py",
+            "Source_Code": "if c in col or (r + c) in posDiag or (r - c) in negDiag:",
+            "Mutate_Code": "if c in col or (r * c) in posDiag or (r - c) in negDiag:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T27_LCPN_51-N-Queens.py",
+            "Source_Code": "if c in col or (r + c) in posDiag or (r - c) in negDiag:",
+            "Mutate_Code": "if c in col or (r / c) in posDiag or (r - c) in negDiag:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T27_LCPN_51-N-Queens.py",
+            "Source_Code": "if c in col or (r + c) in posDiag or (r - c) in negDiag:",
+            "Mutate_Code": "if c in col or (r % c) in posDiag or (r - c) in negDiag:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T27_LCPN_51-N-Queens.py",
+            "Source_Code": "if c in col or (r + c) in posDiag or (r - c) in negDiag:",
+            "Mutate_Code": "if c in col or (r ** c) in posDiag or (r - c) in negDiag:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T27_LCPN_51-N-Queens.py",
+            "Source_Code": "if c in col or (r + c) in posDiag or (r - c) in negDiag:",
+            "Mutate_Code": "if c in col or (r // c) in posDiag or (r - c) in negDiag:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T27_LCPN_51-N-Queens.py",
+            "Source_Code": "if c in col or (r + c) in posDiag or (r - c) in negDiag:",
+            "Mutate_Code": "if c in col or (r + c) in posDiag or (r + c) in negDiag:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T27_LCPN_51-N-Queens.py",
+            "Source_Code": "if c in col or (r + c) in posDiag or (r - c) in negDiag:",
+            "Mutate_Code": "if c in col or (r + c) in posDiag or (r * c) in negDiag:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T27_LCPN_51-N-Queens.py",
+            "Source_Code": "if c in col or (r + c) in posDiag or (r - c) in negDiag:",
+            "Mutate_Code": "if c in col or (r + c) in posDiag or (r / c) in negDiag:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T27_LCPN_51-N-Queens.py",
+            "Source_Code": "if c in col or (r + c) in posDiag or (r - c) in negDiag:",
+            "Mutate_Code": "if c in col or (r + c) in posDiag or (r % c) in negDiag:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T27_LCPN_51-N-Queens.py",
+            "Source_Code": "if c in col or (r + c) in posDiag or (r - c) in negDiag:",
+            "Mutate_Code": "if c in col or (r + c) in posDiag or (r ** c) in negDiag:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T27_LCPN_51-N-Queens.py",
+            "Source_Code": "if c in col or (r + c) in posDiag or (r - c) in negDiag:",
+            "Mutate_Code": "if c in col or (r + c) in posDiag or (r // c) in negDiag:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T27_LCPN_51-N-Queens.py",
+            "Source_Code": "if c in col or (r + c) in posDiag or (r - c) in negDiag:",
+            "Mutate_Code": "if c in col or (r ++ c) in posDiag or (r - c) in negDiag:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T27_LCPN_51-N-Queens.py",
+            "Source_Code": "if c in col or (r + c) in posDiag or (r - c) in negDiag:",
+            "Mutate_Code": "if c in col or (r -- c) in posDiag or (r - c) in negDiag:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T27_LCPN_51-N-Queens.py",
+            "Source_Code": "if c in col or (r + c) in posDiag or (r - c) in negDiag:",
+            "Mutate_Code": "if c in col or (r ** c) in posDiag or (r - c) in negDiag:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T27_LCPN_51-N-Queens.py",
+            "Source_Code": "if c in col or (r + c) in posDiag or (r - c) in negDiag:",
+            "Mutate_Code": "if c in col or (r // c) in posDiag or (r - c) in negDiag:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T27_LCPN_51-N-Queens.py",
+            "Source_Code": "if c in col or (r + c) in posDiag or (r - c) in negDiag:",
+            "Mutate_Code": "if c in col or (r %% c) in posDiag or (r - c) in negDiag:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T27_LCPN_51-N-Queens.py",
+            "Source_Code": "if c in col or (r + c) in posDiag or (r - c) in negDiag:",
+            "Mutate_Code": "if c in col or (r **** c) in posDiag or (r - c) in negDiag:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T27_LCPN_51-N-Queens.py",
+            "Source_Code": "if c in col or (r + c) in posDiag or (r - c) in negDiag:",
+            "Mutate_Code": "if c in col or (r //// c) in posDiag or (r - c) in negDiag:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T27_LCPN_51-N-Queens.py",
+            "Source_Code": "if c in col or (r + c) in posDiag or (r - c) in negDiag:",
+            "Mutate_Code": "if c in col or (r + c) in posDiag or (r ++ c) in negDiag:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T27_LCPN_51-N-Queens.py",
+            "Source_Code": "if c in col or (r + c) in posDiag or (r - c) in negDiag:",
+            "Mutate_Code": "if c in col or (r + c) in posDiag or (r -- c) in negDiag:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T27_LCPN_51-N-Queens.py",
+            "Source_Code": "if c in col or (r + c) in posDiag or (r - c) in negDiag:",
+            "Mutate_Code": "if c in col or (r + c) in posDiag or (r ** c) in negDiag:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T27_LCPN_51-N-Queens.py",
+            "Source_Code": "if c in col or (r + c) in posDiag or (r - c) in negDiag:",
+            "Mutate_Code": "if c in col or (r + c) in posDiag or (r // c) in negDiag:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T27_LCPN_51-N-Queens.py",
+            "Source_Code": "if c in col or (r + c) in posDiag or (r - c) in negDiag:",
+            "Mutate_Code": "if c in col or (r + c) in posDiag or (r %% c) in negDiag:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T27_LCPN_51-N-Queens.py",
+            "Source_Code": "if c in col or (r + c) in posDiag or (r - c) in negDiag:",
+            "Mutate_Code": "if c in col or (r + c) in posDiag or (r **** c) in negDiag:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T27_LCPN_51-N-Queens.py",
+            "Source_Code": "if c in col or (r + c) in posDiag or (r - c) in negDiag:",
+            "Mutate_Code": "if c in col or (r + c) in posDiag or (r //// c) in negDiag:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T27_LCPN_51-N-Queens.py",
+            "Source_Code": "if c in col or (r + c) in posDiag or (r - c) in negDiag:",
+            "Mutate_Code": "if c in col (r + c) in posDiag or (r - c) in negDiag:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T27_LCPN_51-N-Queens.py",
+            "Source_Code": "if c in col or (r + c) in posDiag or (r - c) in negDiag:",
+            "Mutate_Code": "if c in col or (r + c) in posDiag (r - c) in negDiag:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T27_LCPN_51-N-Queens.py",
+            "Source_Code": "if c in col or (r + c) in posDiag or (r - c) in negDiag:",
+            "Mutate_Code": "if c in col and (r + c) in posDiag or (r - c) in negDiag:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T27_LCPN_51-N-Queens.py",
+            "Source_Code": "if c in col or (r + c) in posDiag or (r - c) in negDiag:",
+            "Mutate_Code": "if c in col not (r + c) in posDiag or (r - c) in negDiag:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T27_LCPN_51-N-Queens.py",
+            "Source_Code": "if c in col or (r + c) in posDiag or (r - c) in negDiag:",
+            "Mutate_Code": "if c in col or (r + c) in posDiag and (r - c) in negDiag:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T27_LCPN_51-N-Queens.py",
+            "Source_Code": "if c in col or (r + c) in posDiag or (r - c) in negDiag:",
+            "Mutate_Code": "if c in col or (r + c) in posDiag not (r - c) in negDiag:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T27_LCPN_51-N-Queens.py",
+            "Source_Code": "if c in col or (r + c) in posDiag or (r - c) in negDiag:",
+            "Mutate_Code": "if c in col and and (r + c) in posDiag or (r - c) in negDiag:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T27_LCPN_51-N-Queens.py",
+            "Source_Code": "if c in col or (r + c) in posDiag or (r - c) in negDiag:",
+            "Mutate_Code": "if c in col or or (r + c) in posDiag or (r - c) in negDiag:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T27_LCPN_51-N-Queens.py",
+            "Source_Code": "if c in col or (r + c) in posDiag or (r - c) in negDiag:",
+            "Mutate_Code": "if c in col not not (r + c) in posDiag or (r - c) in negDiag:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T27_LCPN_51-N-Queens.py",
+            "Source_Code": "if c in col or (r + c) in posDiag or (r - c) in negDiag:",
+            "Mutate_Code": "if c in col or (r + c) in posDiag and and (r - c) in negDiag:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T27_LCPN_51-N-Queens.py",
+            "Source_Code": "if c in col or (r + c) in posDiag or (r - c) in negDiag:",
+            "Mutate_Code": "if c in col or (r + c) in posDiag or or (r - c) in negDiag:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T27_LCPN_51-N-Queens.py",
+            "Source_Code": "if c in col or (r + c) in posDiag or (r - c) in negDiag:",
+            "Mutate_Code": "if c in col or (r + c) in posDiag not not (r - c) in negDiag:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T27_LCPN_51-N-Queens.py",
+            "Source_Code": "if c in col or (r + c) in posDiag or (r - c) in negDiag:",
+            "Mutate_Code": "if c col or (r + c) in posDiag or (r - c) in negDiag:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T27_LCPN_51-N-Queens.py",
+            "Source_Code": "if c in col or (r + c) in posDiag or (r - c) in negDiag:",
+            "Mutate_Code": "if c in col or (r + c) posDiag or (r - c) in negDiag:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T27_LCPN_51-N-Queens.py",
+            "Source_Code": "if c in col or (r + c) in posDiag or (r - c) in negDiag:",
+            "Mutate_Code": "if c in col or (r + c) in posDiag or (r - c) negDiag:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T27_LCPN_51-N-Queens.py",
+            "Source_Code": "if c in col or (r + c) in posDiag or (r - c) in negDiag:",
+            "Mutate_Code": "if c is col or (r + c) in posDiag or (r - c) in negDiag:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T27_LCPN_51-N-Queens.py",
+            "Source_Code": "if c in col or (r + c) in posDiag or (r - c) in negDiag:",
+            "Mutate_Code": "if c is not col or (r + c) in posDiag or (r - c) in negDiag:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T27_LCPN_51-N-Queens.py",
+            "Source_Code": "if c in col or (r + c) in posDiag or (r - c) in negDiag:",
+            "Mutate_Code": "if c in col or (r + c) is posDiag or (r - c) in negDiag:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T27_LCPN_51-N-Queens.py",
+            "Source_Code": "if c in col or (r + c) in posDiag or (r - c) in negDiag:",
+            "Mutate_Code": "if c in col or (r + c) is not posDiag or (r - c) in negDiag:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T27_LCPN_51-N-Queens.py",
+            "Source_Code": "if c in col or (r + c) in posDiag or (r - c) in negDiag:",
+            "Mutate_Code": "if c in col or (r + c) in posDiag or (r - c) is negDiag:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T27_LCPN_51-N-Queens.py",
+            "Source_Code": "if c in col or (r + c) in posDiag or (r - c) in negDiag:",
+            "Mutate_Code": "if c in col or (r + c) in posDiag or (r - c) is not negDiag:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T27_LCPN_51-N-Queens.py",
+            "Source_Code": "if c in col or (r + c) in posDiag or (r - c) in negDiag:",
+            "Mutate_Code": "if c in in col or (r + c) in posDiag or (r - c) in negDiag:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T27_LCPN_51-N-Queens.py",
+            "Source_Code": "if c in col or (r + c) in posDiag or (r - c) in negDiag:",
+            "Mutate_Code": "if c not in not in col or (r + c) in posDiag or (r - c) in negDiag:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T27_LCPN_51-N-Queens.py",
+            "Source_Code": "if c in col or (r + c) in posDiag or (r - c) in negDiag:",
+            "Mutate_Code": "if c in col or (r + c) in in posDiag or (r - c) in negDiag:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T27_LCPN_51-N-Queens.py",
+            "Source_Code": "if c in col or (r + c) in posDiag or (r - c) in negDiag:",
+            "Mutate_Code": "if c in col or (r + c) not in not in posDiag or (r - c) in negDiag:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T27_LCPN_51-N-Queens.py",
+            "Source_Code": "if c in col or (r + c) in posDiag or (r - c) in negDiag:",
+            "Mutate_Code": "if c in col or (r + c) in posDiag or (r - c) in in negDiag:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T27_LCPN_51-N-Queens.py",
+            "Source_Code": "if c in col or (r + c) in posDiag or (r - c) in negDiag:",
+            "Mutate_Code": "if c in col or (r + c) in posDiag or (r - c) not in not in negDiag:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T27_LCPN_51-N-Queens.py",
+            "Source_Code": "if c in col or (r + c) in posDiag or (r - c) in negDiag:",
+            "Mutate_Code": " "
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T27_LCPN_51-N-Queens.py",
+            "Source_Code": "if c in col or (r + c) in posDiag or (r - c) in negDiag:",
+            "Mutate_Code": "elif:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T27_LCPN_51-N-Queens.py",
+            "Source_Code": "if c in col or (r + c) in posDiag or (r - c) in negDiag:",
+            "Mutate_Code": "else:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T27_LCPN_51-N-Queens.py",
+            "Source_Code": "if c in col or (r + c) in posDiag or (r - c) in negDiag:",
+            "Mutate_Code": "if if"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T27_LCPN_51-N-Queens.py",
+            "Source_Code": "col.add(c)",
+            "Mutate_Code": " ol.add(c)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T27_LCPN_51-N-Queens.py",
+            "Source_Code": "posDiag.add(r + c)",
+            "Mutate_Code": "posDiag.add(r c)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T27_LCPN_51-N-Queens.py",
+            "Source_Code": "posDiag.add(r + c)",
+            "Mutate_Code": "posDiag.add(r - c)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T27_LCPN_51-N-Queens.py",
+            "Source_Code": "posDiag.add(r + c)",
+            "Mutate_Code": "posDiag.add(r * c)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T27_LCPN_51-N-Queens.py",
+            "Source_Code": "posDiag.add(r + c)",
+            "Mutate_Code": "posDiag.add(r / c)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T27_LCPN_51-N-Queens.py",
+            "Source_Code": "posDiag.add(r + c)",
+            "Mutate_Code": "posDiag.add(r % c)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T27_LCPN_51-N-Queens.py",
+            "Source_Code": "posDiag.add(r + c)",
+            "Mutate_Code": "posDiag.add(r ** c)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T27_LCPN_51-N-Queens.py",
+            "Source_Code": "posDiag.add(r + c)",
+            "Mutate_Code": "posDiag.add(r // c)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T27_LCPN_51-N-Queens.py",
+            "Source_Code": "posDiag.add(r + c)",
+            "Mutate_Code": "posDiag.add(r ++ c)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T27_LCPN_51-N-Queens.py",
+            "Source_Code": "posDiag.add(r + c)",
+            "Mutate_Code": "posDiag.add(r -- c)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T27_LCPN_51-N-Queens.py",
+            "Source_Code": "posDiag.add(r + c)",
+            "Mutate_Code": "posDiag.add(r ** c)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T27_LCPN_51-N-Queens.py",
+            "Source_Code": "posDiag.add(r + c)",
+            "Mutate_Code": "posDiag.add(r // c)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T27_LCPN_51-N-Queens.py",
+            "Source_Code": "posDiag.add(r + c)",
+            "Mutate_Code": "posDiag.add(r %% c)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T27_LCPN_51-N-Queens.py",
+            "Source_Code": "posDiag.add(r + c)",
+            "Mutate_Code": "posDiag.add(r **** c)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T27_LCPN_51-N-Queens.py",
+            "Source_Code": "posDiag.add(r + c)",
+            "Mutate_Code": "posDiag.add(r //// c)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T27_LCPN_51-N-Queens.py",
+            "Source_Code": "posDiag.add(r + c)",
+            "Mutate_Code": "posDiag.add( )"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T27_LCPN_51-N-Queens.py",
+            "Source_Code": "negDiag.add(r - c)",
+            "Mutate_Code": "negDiag.add(r c)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T27_LCPN_51-N-Queens.py",
+            "Source_Code": "negDiag.add(r - c)",
+            "Mutate_Code": "negDiag.add(r + c)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T27_LCPN_51-N-Queens.py",
+            "Source_Code": "negDiag.add(r - c)",
+            "Mutate_Code": "negDiag.add(r * c)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T27_LCPN_51-N-Queens.py",
+            "Source_Code": "negDiag.add(r - c)",
+            "Mutate_Code": "negDiag.add(r / c)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T27_LCPN_51-N-Queens.py",
+            "Source_Code": "negDiag.add(r - c)",
+            "Mutate_Code": "negDiag.add(r % c)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T27_LCPN_51-N-Queens.py",
+            "Source_Code": "negDiag.add(r - c)",
+            "Mutate_Code": "negDiag.add(r ** c)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T27_LCPN_51-N-Queens.py",
+            "Source_Code": "negDiag.add(r - c)",
+            "Mutate_Code": "negDiag.add(r // c)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T27_LCPN_51-N-Queens.py",
+            "Source_Code": "negDiag.add(r - c)",
+            "Mutate_Code": "negDiag.add(r ++ c)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T27_LCPN_51-N-Queens.py",
+            "Source_Code": "negDiag.add(r - c)",
+            "Mutate_Code": "negDiag.add(r -- c)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T27_LCPN_51-N-Queens.py",
+            "Source_Code": "negDiag.add(r - c)",
+            "Mutate_Code": "negDiag.add(r ** c)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T27_LCPN_51-N-Queens.py",
+            "Source_Code": "negDiag.add(r - c)",
+            "Mutate_Code": "negDiag.add(r // c)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T27_LCPN_51-N-Queens.py",
+            "Source_Code": "negDiag.add(r - c)",
+            "Mutate_Code": "negDiag.add(r %% c)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T27_LCPN_51-N-Queens.py",
+            "Source_Code": "negDiag.add(r - c)",
+            "Mutate_Code": "negDiag.add(r **** c)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T27_LCPN_51-N-Queens.py",
+            "Source_Code": "negDiag.add(r - c)",
+            "Mutate_Code": "negDiag.add(r //// c)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T27_LCPN_51-N-Queens.py",
+            "Source_Code": "negDiag.add(r - c)",
+            "Mutate_Code": "negDiag.add( )"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T27_LCPN_51-N-Queens.py",
+            "Source_Code": "col.remove(c)",
+            "Mutate_Code": " ol.remove(c)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T27_LCPN_51-N-Queens.py",
+            "Source_Code": "posDiag.remove(r + c)",
+            "Mutate_Code": "posDiag.remove(r c)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T27_LCPN_51-N-Queens.py",
+            "Source_Code": "posDiag.remove(r + c)",
+            "Mutate_Code": "posDiag.remove(r - c)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T27_LCPN_51-N-Queens.py",
+            "Source_Code": "posDiag.remove(r + c)",
+            "Mutate_Code": "posDiag.remove(r * c)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T27_LCPN_51-N-Queens.py",
+            "Source_Code": "posDiag.remove(r + c)",
+            "Mutate_Code": "posDiag.remove(r / c)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T27_LCPN_51-N-Queens.py",
+            "Source_Code": "posDiag.remove(r + c)",
+            "Mutate_Code": "posDiag.remove(r % c)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T27_LCPN_51-N-Queens.py",
+            "Source_Code": "posDiag.remove(r + c)",
+            "Mutate_Code": "posDiag.remove(r ** c)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T27_LCPN_51-N-Queens.py",
+            "Source_Code": "posDiag.remove(r + c)",
+            "Mutate_Code": "posDiag.remove(r // c)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T27_LCPN_51-N-Queens.py",
+            "Source_Code": "posDiag.remove(r + c)",
+            "Mutate_Code": "posDiag.remove(r ++ c)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T27_LCPN_51-N-Queens.py",
+            "Source_Code": "posDiag.remove(r + c)",
+            "Mutate_Code": "posDiag.remove(r -- c)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T27_LCPN_51-N-Queens.py",
+            "Source_Code": "posDiag.remove(r + c)",
+            "Mutate_Code": "posDiag.remove(r ** c)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T27_LCPN_51-N-Queens.py",
+            "Source_Code": "posDiag.remove(r + c)",
+            "Mutate_Code": "posDiag.remove(r // c)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T27_LCPN_51-N-Queens.py",
+            "Source_Code": "posDiag.remove(r + c)",
+            "Mutate_Code": "posDiag.remove(r %% c)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T27_LCPN_51-N-Queens.py",
+            "Source_Code": "posDiag.remove(r + c)",
+            "Mutate_Code": "posDiag.remove(r **** c)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T27_LCPN_51-N-Queens.py",
+            "Source_Code": "posDiag.remove(r + c)",
+            "Mutate_Code": "posDiag.remove(r //// c)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T27_LCPN_51-N-Queens.py",
+            "Source_Code": "posDiag.remove(r + c)",
+            "Mutate_Code": "posDiag.remove( )"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T27_LCPN_51-N-Queens.py",
+            "Source_Code": "negDiag.remove(r - c)",
+            "Mutate_Code": "negDiag.remove(r c)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T27_LCPN_51-N-Queens.py",
+            "Source_Code": "negDiag.remove(r - c)",
+            "Mutate_Code": "negDiag.remove(r + c)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T27_LCPN_51-N-Queens.py",
+            "Source_Code": "negDiag.remove(r - c)",
+            "Mutate_Code": "negDiag.remove(r * c)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T27_LCPN_51-N-Queens.py",
+            "Source_Code": "negDiag.remove(r - c)",
+            "Mutate_Code": "negDiag.remove(r / c)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T27_LCPN_51-N-Queens.py",
+            "Source_Code": "negDiag.remove(r - c)",
+            "Mutate_Code": "negDiag.remove(r % c)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T27_LCPN_51-N-Queens.py",
+            "Source_Code": "negDiag.remove(r - c)",
+            "Mutate_Code": "negDiag.remove(r ** c)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T27_LCPN_51-N-Queens.py",
+            "Source_Code": "negDiag.remove(r - c)",
+            "Mutate_Code": "negDiag.remove(r // c)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T27_LCPN_51-N-Queens.py",
+            "Source_Code": "negDiag.remove(r - c)",
+            "Mutate_Code": "negDiag.remove(r ++ c)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T27_LCPN_51-N-Queens.py",
+            "Source_Code": "negDiag.remove(r - c)",
+            "Mutate_Code": "negDiag.remove(r -- c)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T27_LCPN_51-N-Queens.py",
+            "Source_Code": "negDiag.remove(r - c)",
+            "Mutate_Code": "negDiag.remove(r ** c)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T27_LCPN_51-N-Queens.py",
+            "Source_Code": "negDiag.remove(r - c)",
+            "Mutate_Code": "negDiag.remove(r // c)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T27_LCPN_51-N-Queens.py",
+            "Source_Code": "negDiag.remove(r - c)",
+            "Mutate_Code": "negDiag.remove(r %% c)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T27_LCPN_51-N-Queens.py",
+            "Source_Code": "negDiag.remove(r - c)",
+            "Mutate_Code": "negDiag.remove(r **** c)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T27_LCPN_51-N-Queens.py",
+            "Source_Code": "negDiag.remove(r - c)",
+            "Mutate_Code": "negDiag.remove(r //// c)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T27_LCPN_51-N-Queens.py",
+            "Source_Code": "negDiag.remove(r - c)",
+            "Mutate_Code": "negDiag.remove( )"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T27_LCPN_51-N-Queens.py",
+            "Source_Code": "return res",
+            "Mutate_Code": " res"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T27_LCPN_51-N-Queens.py",
+            "Source_Code": "return res",
+            "Mutate_Code": "passres"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T27_LCPN_51-N-Queens.py",
+            "Source_Code": "return res",
+            "Mutate_Code": "return returnres"
+        }
+    }
+]

@@ -1,0 +1,1290 @@
+[
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T30_LCPN_55-Jump-Game.py",
+            "Source_Code": "goal = len(nums) - 1",
+            "Mutate_Code": "goal = len(nums) 1"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T30_LCPN_55-Jump-Game.py",
+            "Source_Code": "goal = len(nums) - 1",
+            "Mutate_Code": "goal = len(nums) + 1"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T30_LCPN_55-Jump-Game.py",
+            "Source_Code": "goal = len(nums) - 1",
+            "Mutate_Code": "goal = len(nums) * 1"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T30_LCPN_55-Jump-Game.py",
+            "Source_Code": "goal = len(nums) - 1",
+            "Mutate_Code": "goal = len(nums) / 1"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T30_LCPN_55-Jump-Game.py",
+            "Source_Code": "goal = len(nums) - 1",
+            "Mutate_Code": "goal = len(nums) % 1"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T30_LCPN_55-Jump-Game.py",
+            "Source_Code": "goal = len(nums) - 1",
+            "Mutate_Code": "goal = len(nums) ** 1"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T30_LCPN_55-Jump-Game.py",
+            "Source_Code": "goal = len(nums) - 1",
+            "Mutate_Code": "goal = len(nums) // 1"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T30_LCPN_55-Jump-Game.py",
+            "Source_Code": "goal = len(nums) - 1",
+            "Mutate_Code": "goal = len(nums) ++ 1"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T30_LCPN_55-Jump-Game.py",
+            "Source_Code": "goal = len(nums) - 1",
+            "Mutate_Code": "goal = len(nums) -- 1"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T30_LCPN_55-Jump-Game.py",
+            "Source_Code": "goal = len(nums) - 1",
+            "Mutate_Code": "goal = len(nums) ** 1"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T30_LCPN_55-Jump-Game.py",
+            "Source_Code": "goal = len(nums) - 1",
+            "Mutate_Code": "goal = len(nums) // 1"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T30_LCPN_55-Jump-Game.py",
+            "Source_Code": "goal = len(nums) - 1",
+            "Mutate_Code": "goal = len(nums) %% 1"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T30_LCPN_55-Jump-Game.py",
+            "Source_Code": "goal = len(nums) - 1",
+            "Mutate_Code": "goal = len(nums) **** 1"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T30_LCPN_55-Jump-Game.py",
+            "Source_Code": "goal = len(nums) - 1",
+            "Mutate_Code": "goal = len(nums) //// 1"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T30_LCPN_55-Jump-Game.py",
+            "Source_Code": "goal = len(nums) - 1",
+            "Mutate_Code": "goal len(nums) - 1"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T30_LCPN_55-Jump-Game.py",
+            "Source_Code": "goal = len(nums) - 1",
+            "Mutate_Code": "goal len(nums) - 1"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T30_LCPN_55-Jump-Game.py",
+            "Source_Code": "goal = len(nums) - 1",
+            "Mutate_Code": "goal += len(nums) - 1"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T30_LCPN_55-Jump-Game.py",
+            "Source_Code": "goal = len(nums) - 1",
+            "Mutate_Code": "goal -= len(nums) - 1"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T30_LCPN_55-Jump-Game.py",
+            "Source_Code": "goal = len(nums) - 1",
+            "Mutate_Code": "goal *= len(nums) - 1"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T30_LCPN_55-Jump-Game.py",
+            "Source_Code": "goal = len(nums) - 1",
+            "Mutate_Code": "goal /= len(nums) - 1"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T30_LCPN_55-Jump-Game.py",
+            "Source_Code": "goal = len(nums) - 1",
+            "Mutate_Code": "goal %= len(nums) - 1"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T30_LCPN_55-Jump-Game.py",
+            "Source_Code": "goal = len(nums) - 1",
+            "Mutate_Code": "goal //= len(nums) - 1"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T30_LCPN_55-Jump-Game.py",
+            "Source_Code": "goal = len(nums) - 1",
+            "Mutate_Code": "goal **= len(nums) - 1"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T30_LCPN_55-Jump-Game.py",
+            "Source_Code": "goal = len(nums) - 1",
+            "Mutate_Code": "goal &= len(nums) - 1"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T30_LCPN_55-Jump-Game.py",
+            "Source_Code": "goal = len(nums) - 1",
+            "Mutate_Code": "goal |= len(nums) - 1"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T30_LCPN_55-Jump-Game.py",
+            "Source_Code": "goal = len(nums) - 1",
+            "Mutate_Code": "goal ^= len(nums) - 1"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T30_LCPN_55-Jump-Game.py",
+            "Source_Code": "goal = len(nums) - 1",
+            "Mutate_Code": "goal >>= len(nums) - 1"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T30_LCPN_55-Jump-Game.py",
+            "Source_Code": "goal = len(nums) - 1",
+            "Mutate_Code": "goal <<= len(nums) - 1"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T30_LCPN_55-Jump-Game.py",
+            "Source_Code": "goal = len(nums) - 1",
+            "Mutate_Code": "goal += len(nums) - 1"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T30_LCPN_55-Jump-Game.py",
+            "Source_Code": "goal = len(nums) - 1",
+            "Mutate_Code": "goal -= len(nums) - 1"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T30_LCPN_55-Jump-Game.py",
+            "Source_Code": "goal = len(nums) - 1",
+            "Mutate_Code": "goal *= len(nums) - 1"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T30_LCPN_55-Jump-Game.py",
+            "Source_Code": "goal = len(nums) - 1",
+            "Mutate_Code": "goal /= len(nums) - 1"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T30_LCPN_55-Jump-Game.py",
+            "Source_Code": "goal = len(nums) - 1",
+            "Mutate_Code": "goal %= len(nums) - 1"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T30_LCPN_55-Jump-Game.py",
+            "Source_Code": "goal = len(nums) - 1",
+            "Mutate_Code": "goal //= len(nums) - 1"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T30_LCPN_55-Jump-Game.py",
+            "Source_Code": "goal = len(nums) - 1",
+            "Mutate_Code": "goal **= len(nums) - 1"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T30_LCPN_55-Jump-Game.py",
+            "Source_Code": "goal = len(nums) - 1",
+            "Mutate_Code": "goal &= len(nums) - 1"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T30_LCPN_55-Jump-Game.py",
+            "Source_Code": "goal = len(nums) - 1",
+            "Mutate_Code": "goal |= len(nums) - 1"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T30_LCPN_55-Jump-Game.py",
+            "Source_Code": "goal = len(nums) - 1",
+            "Mutate_Code": "goal ^= len(nums) - 1"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T30_LCPN_55-Jump-Game.py",
+            "Source_Code": "goal = len(nums) - 1",
+            "Mutate_Code": "goal >>= len(nums) - 1"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T30_LCPN_55-Jump-Game.py",
+            "Source_Code": "goal = len(nums) - 1",
+            "Mutate_Code": "goal <<= len(nums) - 1"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T30_LCPN_55-Jump-Game.py",
+            "Source_Code": "goal = len(nums) - 1",
+            "Mutate_Code": "goal == len(nums) - 1"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T30_LCPN_55-Jump-Game.py",
+            "Source_Code": "goal = len(nums) - 1",
+            "Mutate_Code": "goal +=+= len(nums) - 1"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T30_LCPN_55-Jump-Game.py",
+            "Source_Code": "goal = len(nums) - 1",
+            "Mutate_Code": "goal -=-= len(nums) - 1"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T30_LCPN_55-Jump-Game.py",
+            "Source_Code": "goal = len(nums) - 1",
+            "Mutate_Code": "goal *=*= len(nums) - 1"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T30_LCPN_55-Jump-Game.py",
+            "Source_Code": "goal = len(nums) - 1",
+            "Mutate_Code": "goal /=/= len(nums) - 1"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T30_LCPN_55-Jump-Game.py",
+            "Source_Code": "goal = len(nums) - 1",
+            "Mutate_Code": "goal %=%= len(nums) - 1"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T30_LCPN_55-Jump-Game.py",
+            "Source_Code": "goal = len(nums) - 1",
+            "Mutate_Code": "goal //=//= len(nums) - 1"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T30_LCPN_55-Jump-Game.py",
+            "Source_Code": "goal = len(nums) - 1",
+            "Mutate_Code": "goal **=**= len(nums) - 1"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T30_LCPN_55-Jump-Game.py",
+            "Source_Code": "goal = len(nums) - 1",
+            "Mutate_Code": "goal &=&= len(nums) - 1"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T30_LCPN_55-Jump-Game.py",
+            "Source_Code": "goal = len(nums) - 1",
+            "Mutate_Code": "goal |=|= len(nums) - 1"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T30_LCPN_55-Jump-Game.py",
+            "Source_Code": "goal = len(nums) - 1",
+            "Mutate_Code": "goal ^=^= len(nums) - 1"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T30_LCPN_55-Jump-Game.py",
+            "Source_Code": "goal = len(nums) - 1",
+            "Mutate_Code": "goal >>=>>= len(nums) - 1"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T30_LCPN_55-Jump-Game.py",
+            "Source_Code": "goal = len(nums) - 1",
+            "Mutate_Code": "goal <<=<<=len(nums) - 1"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T30_LCPN_55-Jump-Game.py",
+            "Source_Code": "goal = len(nums) - 1",
+            "Mutate_Code": "goal == len(nums) - 1"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T30_LCPN_55-Jump-Game.py",
+            "Source_Code": "goal = len(nums) - 1",
+            "Mutate_Code": "goal +=+= len(nums) - 1"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T30_LCPN_55-Jump-Game.py",
+            "Source_Code": "goal = len(nums) - 1",
+            "Mutate_Code": "goal -=-= len(nums) - 1"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T30_LCPN_55-Jump-Game.py",
+            "Source_Code": "goal = len(nums) - 1",
+            "Mutate_Code": "goal *=*= len(nums) - 1"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T30_LCPN_55-Jump-Game.py",
+            "Source_Code": "goal = len(nums) - 1",
+            "Mutate_Code": "goal /=/= len(nums) - 1"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T30_LCPN_55-Jump-Game.py",
+            "Source_Code": "goal = len(nums) - 1",
+            "Mutate_Code": "goal %=%= len(nums) - 1"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T30_LCPN_55-Jump-Game.py",
+            "Source_Code": "goal = len(nums) - 1",
+            "Mutate_Code": "goal //=//= len(nums) - 1"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T30_LCPN_55-Jump-Game.py",
+            "Source_Code": "goal = len(nums) - 1",
+            "Mutate_Code": "goal **=**= len(nums) - 1"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T30_LCPN_55-Jump-Game.py",
+            "Source_Code": "goal = len(nums) - 1",
+            "Mutate_Code": "goal &=&= len(nums) - 1"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T30_LCPN_55-Jump-Game.py",
+            "Source_Code": "goal = len(nums) - 1",
+            "Mutate_Code": "goal |=|= len(nums) - 1"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T30_LCPN_55-Jump-Game.py",
+            "Source_Code": "goal = len(nums) - 1",
+            "Mutate_Code": "goal ^=^= len(nums) - 1"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T30_LCPN_55-Jump-Game.py",
+            "Source_Code": "goal = len(nums) - 1",
+            "Mutate_Code": "goal >>=>>= len(nums) - 1"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T30_LCPN_55-Jump-Game.py",
+            "Source_Code": "goal = len(nums) - 1",
+            "Mutate_Code": "goal <<=<<=len(nums) - 1"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T30_LCPN_55-Jump-Game.py",
+            "Source_Code": "goal = len(nums) - 1",
+            "Mutate_Code": "goal = len( ) - 1"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T30_LCPN_55-Jump-Game.py",
+            "Source_Code": "for i in range(len(nums) - 2, -1, -1):",
+            "Mutate_Code": "for i in range(len(nums) 2, -1, -1):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T30_LCPN_55-Jump-Game.py",
+            "Source_Code": "for i in range(len(nums) - 2, -1, -1):",
+            "Mutate_Code": "for i in range(len(nums) + 2, -1, -1):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T30_LCPN_55-Jump-Game.py",
+            "Source_Code": "for i in range(len(nums) - 2, -1, -1):",
+            "Mutate_Code": "for i in range(len(nums) * 2, -1, -1):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T30_LCPN_55-Jump-Game.py",
+            "Source_Code": "for i in range(len(nums) - 2, -1, -1):",
+            "Mutate_Code": "for i in range(len(nums) / 2, -1, -1):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T30_LCPN_55-Jump-Game.py",
+            "Source_Code": "for i in range(len(nums) - 2, -1, -1):",
+            "Mutate_Code": "for i in range(len(nums) % 2, -1, -1):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T30_LCPN_55-Jump-Game.py",
+            "Source_Code": "for i in range(len(nums) - 2, -1, -1):",
+            "Mutate_Code": "for i in range(len(nums) ** 2, -1, -1):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T30_LCPN_55-Jump-Game.py",
+            "Source_Code": "for i in range(len(nums) - 2, -1, -1):",
+            "Mutate_Code": "for i in range(len(nums) // 2, -1, -1):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T30_LCPN_55-Jump-Game.py",
+            "Source_Code": "for i in range(len(nums) - 2, -1, -1):",
+            "Mutate_Code": "for i in range(len(nums) ++ 2, -1, -1):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T30_LCPN_55-Jump-Game.py",
+            "Source_Code": "for i in range(len(nums) - 2, -1, -1):",
+            "Mutate_Code": "for i in range(len(nums) -- 2, -1, -1):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T30_LCPN_55-Jump-Game.py",
+            "Source_Code": "for i in range(len(nums) - 2, -1, -1):",
+            "Mutate_Code": "for i in range(len(nums) ** 2, -1, -1):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T30_LCPN_55-Jump-Game.py",
+            "Source_Code": "for i in range(len(nums) - 2, -1, -1):",
+            "Mutate_Code": "for i in range(len(nums) // 2, -1, -1):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T30_LCPN_55-Jump-Game.py",
+            "Source_Code": "for i in range(len(nums) - 2, -1, -1):",
+            "Mutate_Code": "for i in range(len(nums) %% 2, -1, -1):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T30_LCPN_55-Jump-Game.py",
+            "Source_Code": "for i in range(len(nums) - 2, -1, -1):",
+            "Mutate_Code": "for i in range(len(nums) **** 2, -1, -1):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T30_LCPN_55-Jump-Game.py",
+            "Source_Code": "for i in range(len(nums) - 2, -1, -1):",
+            "Mutate_Code": "for i in range(len(nums) //// 2, -1, -1):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T30_LCPN_55-Jump-Game.py",
+            "Source_Code": "for i in range(len(nums) - 2, -1, -1):",
+            "Mutate_Code": "for i range(len(nums) - 2, -1, -1):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T30_LCPN_55-Jump-Game.py",
+            "Source_Code": "for i in range(len(nums) - 2, -1, -1):",
+            "Mutate_Code": "for i is range(len(nums) - 2, -1, -1):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T30_LCPN_55-Jump-Game.py",
+            "Source_Code": "for i in range(len(nums) - 2, -1, -1):",
+            "Mutate_Code": "for i is not range(len(nums) - 2, -1, -1):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T30_LCPN_55-Jump-Game.py",
+            "Source_Code": "for i in range(len(nums) - 2, -1, -1):",
+            "Mutate_Code": "for i in in range(len(nums) - 2, -1, -1):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T30_LCPN_55-Jump-Game.py",
+            "Source_Code": "for i in range(len(nums) - 2, -1, -1):",
+            "Mutate_Code": "for i not in not in range(len(nums) - 2, -1, -1):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T30_LCPN_55-Jump-Game.py",
+            "Source_Code": "for i in range(len(nums) - 2, -1, -1):",
+            "Mutate_Code": " "
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T30_LCPN_55-Jump-Game.py",
+            "Source_Code": "for i in range(len(nums) - 2, -1, -1):",
+            "Mutate_Code": "while True:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T30_LCPN_55-Jump-Game.py",
+            "Source_Code": "for i in range(len(nums) - 2, -1, -1):",
+            "Mutate_Code": "for for: i in range(len(nums) - 2, -1, -1):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T30_LCPN_55-Jump-Game.py",
+            "Source_Code": "for i in range(len(nums) - 2, -1, -1):",
+            "Mutate_Code": "for i in range(len( ) - 2, -1, -1):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T30_LCPN_55-Jump-Game.py",
+            "Source_Code": "for i in range(len(nums) - 2, -1, -1):",
+            "Mutate_Code": "for i in range( ) - 2, -1, -1):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T30_LCPN_55-Jump-Game.py",
+            "Source_Code": "for i in range(len(nums) - 2, -1, -1):",
+            "Mutate_Code": "for i in range(len(nums) 2, -1, -1):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T30_LCPN_55-Jump-Game.py",
+            "Source_Code": "for i in range(len(nums) - 2, -1, -1):",
+            "Mutate_Code": "for i in range(len(nums) + 2, -1, -1):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T30_LCPN_55-Jump-Game.py",
+            "Source_Code": "for i in range(len(nums) - 2, -1, -1):",
+            "Mutate_Code": "for i in range(len(nums) * 2, -1, -1):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T30_LCPN_55-Jump-Game.py",
+            "Source_Code": "for i in range(len(nums) - 2, -1, -1):",
+            "Mutate_Code": "for i in range(len(nums) / 2, -1, -1):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T30_LCPN_55-Jump-Game.py",
+            "Source_Code": "for i in range(len(nums) - 2, -1, -1):",
+            "Mutate_Code": "for i in range(len(nums) % 2, -1, -1):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T30_LCPN_55-Jump-Game.py",
+            "Source_Code": "for i in range(len(nums) - 2, -1, -1):",
+            "Mutate_Code": "for i in range(len(nums) ** 2, -1, -1):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T30_LCPN_55-Jump-Game.py",
+            "Source_Code": "for i in range(len(nums) - 2, -1, -1):",
+            "Mutate_Code": "for i in range(len(nums) // 2, -1, -1):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T30_LCPN_55-Jump-Game.py",
+            "Source_Code": "for i in range(len(nums) - 2, -1, -1):",
+            "Mutate_Code": "for i in range(len(nums) ++ 2, -1, -1):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T30_LCPN_55-Jump-Game.py",
+            "Source_Code": "for i in range(len(nums) - 2, -1, -1):",
+            "Mutate_Code": "for i in range(len(nums) -- 2, -1, -1):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T30_LCPN_55-Jump-Game.py",
+            "Source_Code": "for i in range(len(nums) - 2, -1, -1):",
+            "Mutate_Code": "for i in range(len(nums) ** 2, -1, -1):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T30_LCPN_55-Jump-Game.py",
+            "Source_Code": "for i in range(len(nums) - 2, -1, -1):",
+            "Mutate_Code": "for i in range(len(nums) // 2, -1, -1):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T30_LCPN_55-Jump-Game.py",
+            "Source_Code": "for i in range(len(nums) - 2, -1, -1):",
+            "Mutate_Code": "for i in range(len(nums) %% 2, -1, -1):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T30_LCPN_55-Jump-Game.py",
+            "Source_Code": "for i in range(len(nums) - 2, -1, -1):",
+            "Mutate_Code": "for i in range(len(nums) **** 2, -1, -1):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T30_LCPN_55-Jump-Game.py",
+            "Source_Code": "for i in range(len(nums) - 2, -1, -1):",
+            "Mutate_Code": "for i in range(len(nums) //// 2, -1, -1):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T30_LCPN_55-Jump-Game.py",
+            "Source_Code": "for i in range(len(nums) - 2, -1, -1):",
+            "Mutate_Code": "for i range(len(nums) - 2, -1, -1):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T30_LCPN_55-Jump-Game.py",
+            "Source_Code": "for i in range(len(nums) - 2, -1, -1):",
+            "Mutate_Code": "for i is range(len(nums) - 2, -1, -1):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T30_LCPN_55-Jump-Game.py",
+            "Source_Code": "for i in range(len(nums) - 2, -1, -1):",
+            "Mutate_Code": "for i is not range(len(nums) - 2, -1, -1):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T30_LCPN_55-Jump-Game.py",
+            "Source_Code": "for i in range(len(nums) - 2, -1, -1):",
+            "Mutate_Code": "for i in in range(len(nums) - 2, -1, -1):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T30_LCPN_55-Jump-Game.py",
+            "Source_Code": "for i in range(len(nums) - 2, -1, -1):",
+            "Mutate_Code": "for i not in not in range(len(nums) - 2, -1, -1):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T30_LCPN_55-Jump-Game.py",
+            "Source_Code": "for i in range(len(nums) - 2, -1, -1):",
+            "Mutate_Code": " "
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T30_LCPN_55-Jump-Game.py",
+            "Source_Code": "for i in range(len(nums) - 2, -1, -1):",
+            "Mutate_Code": "while True:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T30_LCPN_55-Jump-Game.py",
+            "Source_Code": "for i in range(len(nums) - 2, -1, -1):",
+            "Mutate_Code": "for for: i in range(len(nums) - 2, -1, -1):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T30_LCPN_55-Jump-Game.py",
+            "Source_Code": "for i in range(len(nums) - 2, -1, -1):",
+            "Mutate_Code": "for i in range(len( ) - 2, -1, -1):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T30_LCPN_55-Jump-Game.py",
+            "Source_Code": "for i in range(len(nums) - 2, -1, -1):",
+            "Mutate_Code": "for i in range( ) - 2, -1, -1):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T30_LCPN_55-Jump-Game.py",
+            "Source_Code": "for i in range(len(nums) - 2, -1, -1):",
+            "Mutate_Code": "for i in range(len(nums) 2, -1, -1):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T30_LCPN_55-Jump-Game.py",
+            "Source_Code": "for i in range(len(nums) - 2, -1, -1):",
+            "Mutate_Code": "for i in range(len(nums) + 2, -1, -1):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T30_LCPN_55-Jump-Game.py",
+            "Source_Code": "for i in range(len(nums) - 2, -1, -1):",
+            "Mutate_Code": "for i in range(len(nums) * 2, -1, -1):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T30_LCPN_55-Jump-Game.py",
+            "Source_Code": "for i in range(len(nums) - 2, -1, -1):",
+            "Mutate_Code": "for i in range(len(nums) / 2, -1, -1):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T30_LCPN_55-Jump-Game.py",
+            "Source_Code": "for i in range(len(nums) - 2, -1, -1):",
+            "Mutate_Code": "for i in range(len(nums) % 2, -1, -1):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T30_LCPN_55-Jump-Game.py",
+            "Source_Code": "for i in range(len(nums) - 2, -1, -1):",
+            "Mutate_Code": "for i in range(len(nums) ** 2, -1, -1):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T30_LCPN_55-Jump-Game.py",
+            "Source_Code": "for i in range(len(nums) - 2, -1, -1):",
+            "Mutate_Code": "for i in range(len(nums) // 2, -1, -1):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T30_LCPN_55-Jump-Game.py",
+            "Source_Code": "for i in range(len(nums) - 2, -1, -1):",
+            "Mutate_Code": "for i in range(len(nums) ++ 2, -1, -1):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T30_LCPN_55-Jump-Game.py",
+            "Source_Code": "for i in range(len(nums) - 2, -1, -1):",
+            "Mutate_Code": "for i in range(len(nums) -- 2, -1, -1):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T30_LCPN_55-Jump-Game.py",
+            "Source_Code": "for i in range(len(nums) - 2, -1, -1):",
+            "Mutate_Code": "for i in range(len(nums) ** 2, -1, -1):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T30_LCPN_55-Jump-Game.py",
+            "Source_Code": "for i in range(len(nums) - 2, -1, -1):",
+            "Mutate_Code": "for i in range(len(nums) // 2, -1, -1):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T30_LCPN_55-Jump-Game.py",
+            "Source_Code": "for i in range(len(nums) - 2, -1, -1):",
+            "Mutate_Code": "for i in range(len(nums) %% 2, -1, -1):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T30_LCPN_55-Jump-Game.py",
+            "Source_Code": "for i in range(len(nums) - 2, -1, -1):",
+            "Mutate_Code": "for i in range(len(nums) **** 2, -1, -1):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T30_LCPN_55-Jump-Game.py",
+            "Source_Code": "for i in range(len(nums) - 2, -1, -1):",
+            "Mutate_Code": "for i in range(len(nums) //// 2, -1, -1):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T30_LCPN_55-Jump-Game.py",
+            "Source_Code": "for i in range(len(nums) - 2, -1, -1):",
+            "Mutate_Code": "for i range(len(nums) - 2, -1, -1):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T30_LCPN_55-Jump-Game.py",
+            "Source_Code": "for i in range(len(nums) - 2, -1, -1):",
+            "Mutate_Code": "for i is range(len(nums) - 2, -1, -1):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T30_LCPN_55-Jump-Game.py",
+            "Source_Code": "for i in range(len(nums) - 2, -1, -1):",
+            "Mutate_Code": "for i is not range(len(nums) - 2, -1, -1):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T30_LCPN_55-Jump-Game.py",
+            "Source_Code": "for i in range(len(nums) - 2, -1, -1):",
+            "Mutate_Code": "for i in in range(len(nums) - 2, -1, -1):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T30_LCPN_55-Jump-Game.py",
+            "Source_Code": "for i in range(len(nums) - 2, -1, -1):",
+            "Mutate_Code": "for i not in not in range(len(nums) - 2, -1, -1):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T30_LCPN_55-Jump-Game.py",
+            "Source_Code": "for i in range(len(nums) - 2, -1, -1):",
+            "Mutate_Code": " "
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T30_LCPN_55-Jump-Game.py",
+            "Source_Code": "for i in range(len(nums) - 2, -1, -1):",
+            "Mutate_Code": "while True:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T30_LCPN_55-Jump-Game.py",
+            "Source_Code": "for i in range(len(nums) - 2, -1, -1):",
+            "Mutate_Code": "for for: i in range(len(nums) - 2, -1, -1):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T30_LCPN_55-Jump-Game.py",
+            "Source_Code": "for i in range(len(nums) - 2, -1, -1):",
+            "Mutate_Code": "for i in range(len( ) - 2, -1, -1):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T30_LCPN_55-Jump-Game.py",
+            "Source_Code": "for i in range(len(nums) - 2, -1, -1):",
+            "Mutate_Code": "for i in range( ) - 2, -1, -1):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T30_LCPN_55-Jump-Game.py",
+            "Source_Code": "if i + nums[i] >= goal:",
+            "Mutate_Code": "if i nums[i] >= goal:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T30_LCPN_55-Jump-Game.py",
+            "Source_Code": "if i + nums[i] >= goal:",
+            "Mutate_Code": "if i - nums[i] >= goal:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T30_LCPN_55-Jump-Game.py",
+            "Source_Code": "if i + nums[i] >= goal:",
+            "Mutate_Code": "if i * nums[i] >= goal:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T30_LCPN_55-Jump-Game.py",
+            "Source_Code": "if i + nums[i] >= goal:",
+            "Mutate_Code": "if i / nums[i] >= goal:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T30_LCPN_55-Jump-Game.py",
+            "Source_Code": "if i + nums[i] >= goal:",
+            "Mutate_Code": "if i % nums[i] >= goal:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T30_LCPN_55-Jump-Game.py",
+            "Source_Code": "if i + nums[i] >= goal:",
+            "Mutate_Code": "if i ** nums[i] >= goal:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T30_LCPN_55-Jump-Game.py",
+            "Source_Code": "if i + nums[i] >= goal:",
+            "Mutate_Code": "if i // nums[i] >= goal:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T30_LCPN_55-Jump-Game.py",
+            "Source_Code": "if i + nums[i] >= goal:",
+            "Mutate_Code": "if i ++ nums[i] >= goal:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T30_LCPN_55-Jump-Game.py",
+            "Source_Code": "if i + nums[i] >= goal:",
+            "Mutate_Code": "if i -- nums[i] >= goal:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T30_LCPN_55-Jump-Game.py",
+            "Source_Code": "if i + nums[i] >= goal:",
+            "Mutate_Code": "if i ** nums[i] >= goal:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T30_LCPN_55-Jump-Game.py",
+            "Source_Code": "if i + nums[i] >= goal:",
+            "Mutate_Code": "if i // nums[i] >= goal:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T30_LCPN_55-Jump-Game.py",
+            "Source_Code": "if i + nums[i] >= goal:",
+            "Mutate_Code": "if i %% nums[i] >= goal:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T30_LCPN_55-Jump-Game.py",
+            "Source_Code": "if i + nums[i] >= goal:",
+            "Mutate_Code": "if i **** nums[i] >= goal:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T30_LCPN_55-Jump-Game.py",
+            "Source_Code": "if i + nums[i] >= goal:",
+            "Mutate_Code": "if i //// nums[i] >= goal:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T30_LCPN_55-Jump-Game.py",
+            "Source_Code": "if i + nums[i] >= goal:",
+            "Mutate_Code": "if i + nums[i]   goal:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T30_LCPN_55-Jump-Game.py",
+            "Source_Code": "if i + nums[i] >= goal:",
+            "Mutate_Code": "if i + nums[i] == goal:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T30_LCPN_55-Jump-Game.py",
+            "Source_Code": "if i + nums[i] >= goal:",
+            "Mutate_Code": "if i + nums[i] != goal:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T30_LCPN_55-Jump-Game.py",
+            "Source_Code": "if i + nums[i] >= goal:",
+            "Mutate_Code": "if i + nums[i] > goal:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T30_LCPN_55-Jump-Game.py",
+            "Source_Code": "if i + nums[i] >= goal:",
+            "Mutate_Code": "if i + nums[i] < goal:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T30_LCPN_55-Jump-Game.py",
+            "Source_Code": "if i + nums[i] >= goal:",
+            "Mutate_Code": "if i + nums[i] <= goal:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T30_LCPN_55-Jump-Game.py",
+            "Source_Code": "if i + nums[i] >= goal:",
+            "Mutate_Code": "if i + nums[i]  ====  goal:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T30_LCPN_55-Jump-Game.py",
+            "Source_Code": "if i + nums[i] >= goal:",
+            "Mutate_Code": "if i + nums[i]  !==  goal:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T30_LCPN_55-Jump-Game.py",
+            "Source_Code": "if i + nums[i] >= goal:",
+            "Mutate_Code": "if i + nums[i]  >>  goal:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T30_LCPN_55-Jump-Game.py",
+            "Source_Code": "if i + nums[i] >= goal:",
+            "Mutate_Code": "if i + nums[i]  <<  goal:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T30_LCPN_55-Jump-Game.py",
+            "Source_Code": "if i + nums[i] >= goal:",
+            "Mutate_Code": "if i + nums[i]  >=>=  goal:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T30_LCPN_55-Jump-Game.py",
+            "Source_Code": "if i + nums[i] >= goal:",
+            "Mutate_Code": "if i + nums[i]  <=<=  goal:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T30_LCPN_55-Jump-Game.py",
+            "Source_Code": "if i + nums[i] >= goal:",
+            "Mutate_Code": " "
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T30_LCPN_55-Jump-Game.py",
+            "Source_Code": "if i + nums[i] >= goal:",
+            "Mutate_Code": "elif:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T30_LCPN_55-Jump-Game.py",
+            "Source_Code": "if i + nums[i] >= goal:",
+            "Mutate_Code": "else:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T30_LCPN_55-Jump-Game.py",
+            "Source_Code": "if i + nums[i] >= goal:",
+            "Mutate_Code": "if if"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T30_LCPN_55-Jump-Game.py",
+            "Source_Code": "return goal == 0",
+            "Mutate_Code": "return goal   0"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T30_LCPN_55-Jump-Game.py",
+            "Source_Code": "return goal == 0",
+            "Mutate_Code": "return goal != 0"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T30_LCPN_55-Jump-Game.py",
+            "Source_Code": "return goal == 0",
+            "Mutate_Code": "return goal > 0"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T30_LCPN_55-Jump-Game.py",
+            "Source_Code": "return goal == 0",
+            "Mutate_Code": "return goal < 0"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T30_LCPN_55-Jump-Game.py",
+            "Source_Code": "return goal == 0",
+            "Mutate_Code": "return goal >= 0"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T30_LCPN_55-Jump-Game.py",
+            "Source_Code": "return goal == 0",
+            "Mutate_Code": "return goal <= 0"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T30_LCPN_55-Jump-Game.py",
+            "Source_Code": "return goal == 0",
+            "Mutate_Code": "return goal  ====  0"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T30_LCPN_55-Jump-Game.py",
+            "Source_Code": "return goal == 0",
+            "Mutate_Code": "return goal  !==  0"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T30_LCPN_55-Jump-Game.py",
+            "Source_Code": "return goal == 0",
+            "Mutate_Code": "return goal  >>  0"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T30_LCPN_55-Jump-Game.py",
+            "Source_Code": "return goal == 0",
+            "Mutate_Code": "return goal  <<  0"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T30_LCPN_55-Jump-Game.py",
+            "Source_Code": "return goal == 0",
+            "Mutate_Code": "return goal  >=>=  0"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T30_LCPN_55-Jump-Game.py",
+            "Source_Code": "return goal == 0",
+            "Mutate_Code": "return goal  <=<=  0"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T30_LCPN_55-Jump-Game.py",
+            "Source_Code": "return goal == 0",
+            "Mutate_Code": " goal == 0"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T30_LCPN_55-Jump-Game.py",
+            "Source_Code": "return goal == 0",
+            "Mutate_Code": "passgoal == 0"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T30_LCPN_55-Jump-Game.py",
+            "Source_Code": "return goal == 0",
+            "Mutate_Code": "return returngoal == 0"
+        }
+    }
+]

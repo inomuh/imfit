@@ -1,0 +1,2522 @@
+[
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T40_LCPN_79-Word-Search.py",
+            "Source_Code": "ROWS, COLS = len(board), len(board[0])",
+            "Mutate_Code": "ROWS, COLS len(board), len(board[0])"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T40_LCPN_79-Word-Search.py",
+            "Source_Code": "ROWS, COLS = len(board), len(board[0])",
+            "Mutate_Code": "ROWS, COLS len(board), len(board[0])"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T40_LCPN_79-Word-Search.py",
+            "Source_Code": "ROWS, COLS = len(board), len(board[0])",
+            "Mutate_Code": "ROWS, COLS += len(board), len(board[0])"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T40_LCPN_79-Word-Search.py",
+            "Source_Code": "ROWS, COLS = len(board), len(board[0])",
+            "Mutate_Code": "ROWS, COLS -= len(board), len(board[0])"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T40_LCPN_79-Word-Search.py",
+            "Source_Code": "ROWS, COLS = len(board), len(board[0])",
+            "Mutate_Code": "ROWS, COLS *= len(board), len(board[0])"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T40_LCPN_79-Word-Search.py",
+            "Source_Code": "ROWS, COLS = len(board), len(board[0])",
+            "Mutate_Code": "ROWS, COLS /= len(board), len(board[0])"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T40_LCPN_79-Word-Search.py",
+            "Source_Code": "ROWS, COLS = len(board), len(board[0])",
+            "Mutate_Code": "ROWS, COLS %= len(board), len(board[0])"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T40_LCPN_79-Word-Search.py",
+            "Source_Code": "ROWS, COLS = len(board), len(board[0])",
+            "Mutate_Code": "ROWS, COLS //= len(board), len(board[0])"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T40_LCPN_79-Word-Search.py",
+            "Source_Code": "ROWS, COLS = len(board), len(board[0])",
+            "Mutate_Code": "ROWS, COLS **= len(board), len(board[0])"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T40_LCPN_79-Word-Search.py",
+            "Source_Code": "ROWS, COLS = len(board), len(board[0])",
+            "Mutate_Code": "ROWS, COLS &= len(board), len(board[0])"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T40_LCPN_79-Word-Search.py",
+            "Source_Code": "ROWS, COLS = len(board), len(board[0])",
+            "Mutate_Code": "ROWS, COLS |= len(board), len(board[0])"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T40_LCPN_79-Word-Search.py",
+            "Source_Code": "ROWS, COLS = len(board), len(board[0])",
+            "Mutate_Code": "ROWS, COLS ^= len(board), len(board[0])"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T40_LCPN_79-Word-Search.py",
+            "Source_Code": "ROWS, COLS = len(board), len(board[0])",
+            "Mutate_Code": "ROWS, COLS >>= len(board), len(board[0])"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T40_LCPN_79-Word-Search.py",
+            "Source_Code": "ROWS, COLS = len(board), len(board[0])",
+            "Mutate_Code": "ROWS, COLS <<= len(board), len(board[0])"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T40_LCPN_79-Word-Search.py",
+            "Source_Code": "ROWS, COLS = len(board), len(board[0])",
+            "Mutate_Code": "ROWS, COLS += len(board), len(board[0])"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T40_LCPN_79-Word-Search.py",
+            "Source_Code": "ROWS, COLS = len(board), len(board[0])",
+            "Mutate_Code": "ROWS, COLS -= len(board), len(board[0])"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T40_LCPN_79-Word-Search.py",
+            "Source_Code": "ROWS, COLS = len(board), len(board[0])",
+            "Mutate_Code": "ROWS, COLS *= len(board), len(board[0])"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T40_LCPN_79-Word-Search.py",
+            "Source_Code": "ROWS, COLS = len(board), len(board[0])",
+            "Mutate_Code": "ROWS, COLS /= len(board), len(board[0])"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T40_LCPN_79-Word-Search.py",
+            "Source_Code": "ROWS, COLS = len(board), len(board[0])",
+            "Mutate_Code": "ROWS, COLS %= len(board), len(board[0])"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T40_LCPN_79-Word-Search.py",
+            "Source_Code": "ROWS, COLS = len(board), len(board[0])",
+            "Mutate_Code": "ROWS, COLS //= len(board), len(board[0])"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T40_LCPN_79-Word-Search.py",
+            "Source_Code": "ROWS, COLS = len(board), len(board[0])",
+            "Mutate_Code": "ROWS, COLS **= len(board), len(board[0])"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T40_LCPN_79-Word-Search.py",
+            "Source_Code": "ROWS, COLS = len(board), len(board[0])",
+            "Mutate_Code": "ROWS, COLS &= len(board), len(board[0])"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T40_LCPN_79-Word-Search.py",
+            "Source_Code": "ROWS, COLS = len(board), len(board[0])",
+            "Mutate_Code": "ROWS, COLS |= len(board), len(board[0])"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T40_LCPN_79-Word-Search.py",
+            "Source_Code": "ROWS, COLS = len(board), len(board[0])",
+            "Mutate_Code": "ROWS, COLS ^= len(board), len(board[0])"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T40_LCPN_79-Word-Search.py",
+            "Source_Code": "ROWS, COLS = len(board), len(board[0])",
+            "Mutate_Code": "ROWS, COLS >>= len(board), len(board[0])"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T40_LCPN_79-Word-Search.py",
+            "Source_Code": "ROWS, COLS = len(board), len(board[0])",
+            "Mutate_Code": "ROWS, COLS <<= len(board), len(board[0])"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T40_LCPN_79-Word-Search.py",
+            "Source_Code": "ROWS, COLS = len(board), len(board[0])",
+            "Mutate_Code": "ROWS, COLS == len(board), len(board[0])"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T40_LCPN_79-Word-Search.py",
+            "Source_Code": "ROWS, COLS = len(board), len(board[0])",
+            "Mutate_Code": "ROWS, COLS +=+= len(board), len(board[0])"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T40_LCPN_79-Word-Search.py",
+            "Source_Code": "ROWS, COLS = len(board), len(board[0])",
+            "Mutate_Code": "ROWS, COLS -=-= len(board), len(board[0])"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T40_LCPN_79-Word-Search.py",
+            "Source_Code": "ROWS, COLS = len(board), len(board[0])",
+            "Mutate_Code": "ROWS, COLS *=*= len(board), len(board[0])"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T40_LCPN_79-Word-Search.py",
+            "Source_Code": "ROWS, COLS = len(board), len(board[0])",
+            "Mutate_Code": "ROWS, COLS /=/= len(board), len(board[0])"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T40_LCPN_79-Word-Search.py",
+            "Source_Code": "ROWS, COLS = len(board), len(board[0])",
+            "Mutate_Code": "ROWS, COLS %=%= len(board), len(board[0])"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T40_LCPN_79-Word-Search.py",
+            "Source_Code": "ROWS, COLS = len(board), len(board[0])",
+            "Mutate_Code": "ROWS, COLS //=//= len(board), len(board[0])"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T40_LCPN_79-Word-Search.py",
+            "Source_Code": "ROWS, COLS = len(board), len(board[0])",
+            "Mutate_Code": "ROWS, COLS **=**= len(board), len(board[0])"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T40_LCPN_79-Word-Search.py",
+            "Source_Code": "ROWS, COLS = len(board), len(board[0])",
+            "Mutate_Code": "ROWS, COLS &=&= len(board), len(board[0])"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T40_LCPN_79-Word-Search.py",
+            "Source_Code": "ROWS, COLS = len(board), len(board[0])",
+            "Mutate_Code": "ROWS, COLS |=|= len(board), len(board[0])"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T40_LCPN_79-Word-Search.py",
+            "Source_Code": "ROWS, COLS = len(board), len(board[0])",
+            "Mutate_Code": "ROWS, COLS ^=^= len(board), len(board[0])"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T40_LCPN_79-Word-Search.py",
+            "Source_Code": "ROWS, COLS = len(board), len(board[0])",
+            "Mutate_Code": "ROWS, COLS >>=>>= len(board), len(board[0])"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T40_LCPN_79-Word-Search.py",
+            "Source_Code": "ROWS, COLS = len(board), len(board[0])",
+            "Mutate_Code": "ROWS, COLS <<=<<=len(board), len(board[0])"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T40_LCPN_79-Word-Search.py",
+            "Source_Code": "ROWS, COLS = len(board), len(board[0])",
+            "Mutate_Code": "ROWS, COLS == len(board), len(board[0])"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T40_LCPN_79-Word-Search.py",
+            "Source_Code": "ROWS, COLS = len(board), len(board[0])",
+            "Mutate_Code": "ROWS, COLS +=+= len(board), len(board[0])"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T40_LCPN_79-Word-Search.py",
+            "Source_Code": "ROWS, COLS = len(board), len(board[0])",
+            "Mutate_Code": "ROWS, COLS -=-= len(board), len(board[0])"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T40_LCPN_79-Word-Search.py",
+            "Source_Code": "ROWS, COLS = len(board), len(board[0])",
+            "Mutate_Code": "ROWS, COLS *=*= len(board), len(board[0])"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T40_LCPN_79-Word-Search.py",
+            "Source_Code": "ROWS, COLS = len(board), len(board[0])",
+            "Mutate_Code": "ROWS, COLS /=/= len(board), len(board[0])"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T40_LCPN_79-Word-Search.py",
+            "Source_Code": "ROWS, COLS = len(board), len(board[0])",
+            "Mutate_Code": "ROWS, COLS %=%= len(board), len(board[0])"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T40_LCPN_79-Word-Search.py",
+            "Source_Code": "ROWS, COLS = len(board), len(board[0])",
+            "Mutate_Code": "ROWS, COLS //=//= len(board), len(board[0])"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T40_LCPN_79-Word-Search.py",
+            "Source_Code": "ROWS, COLS = len(board), len(board[0])",
+            "Mutate_Code": "ROWS, COLS **=**= len(board), len(board[0])"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T40_LCPN_79-Word-Search.py",
+            "Source_Code": "ROWS, COLS = len(board), len(board[0])",
+            "Mutate_Code": "ROWS, COLS &=&= len(board), len(board[0])"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T40_LCPN_79-Word-Search.py",
+            "Source_Code": "ROWS, COLS = len(board), len(board[0])",
+            "Mutate_Code": "ROWS, COLS |=|= len(board), len(board[0])"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T40_LCPN_79-Word-Search.py",
+            "Source_Code": "ROWS, COLS = len(board), len(board[0])",
+            "Mutate_Code": "ROWS, COLS ^=^= len(board), len(board[0])"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T40_LCPN_79-Word-Search.py",
+            "Source_Code": "ROWS, COLS = len(board), len(board[0])",
+            "Mutate_Code": "ROWS, COLS >>=>>= len(board), len(board[0])"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T40_LCPN_79-Word-Search.py",
+            "Source_Code": "ROWS, COLS = len(board), len(board[0])",
+            "Mutate_Code": "ROWS, COLS <<=<<=len(board), len(board[0])"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T40_LCPN_79-Word-Search.py",
+            "Source_Code": "ROWS, COLS = len(board), len(board[0])",
+            "Mutate_Code": "ROWS, COLS = len( ), len(board[0])"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T40_LCPN_79-Word-Search.py",
+            "Source_Code": "ROWS, COLS = len(board), len(board[0])",
+            "Mutate_Code": "ROWS, COLS = len(board), len( [0])"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T40_LCPN_79-Word-Search.py",
+            "Source_Code": "path = set()",
+            "Mutate_Code": "path set()"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T40_LCPN_79-Word-Search.py",
+            "Source_Code": "path = set()",
+            "Mutate_Code": "path set()"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T40_LCPN_79-Word-Search.py",
+            "Source_Code": "path = set()",
+            "Mutate_Code": "path += set()"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T40_LCPN_79-Word-Search.py",
+            "Source_Code": "path = set()",
+            "Mutate_Code": "path -= set()"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T40_LCPN_79-Word-Search.py",
+            "Source_Code": "path = set()",
+            "Mutate_Code": "path *= set()"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T40_LCPN_79-Word-Search.py",
+            "Source_Code": "path = set()",
+            "Mutate_Code": "path /= set()"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T40_LCPN_79-Word-Search.py",
+            "Source_Code": "path = set()",
+            "Mutate_Code": "path %= set()"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T40_LCPN_79-Word-Search.py",
+            "Source_Code": "path = set()",
+            "Mutate_Code": "path //= set()"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T40_LCPN_79-Word-Search.py",
+            "Source_Code": "path = set()",
+            "Mutate_Code": "path **= set()"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T40_LCPN_79-Word-Search.py",
+            "Source_Code": "path = set()",
+            "Mutate_Code": "path &= set()"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T40_LCPN_79-Word-Search.py",
+            "Source_Code": "path = set()",
+            "Mutate_Code": "path |= set()"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T40_LCPN_79-Word-Search.py",
+            "Source_Code": "path = set()",
+            "Mutate_Code": "path ^= set()"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T40_LCPN_79-Word-Search.py",
+            "Source_Code": "path = set()",
+            "Mutate_Code": "path >>= set()"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T40_LCPN_79-Word-Search.py",
+            "Source_Code": "path = set()",
+            "Mutate_Code": "path <<= set()"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T40_LCPN_79-Word-Search.py",
+            "Source_Code": "path = set()",
+            "Mutate_Code": "path += set()"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T40_LCPN_79-Word-Search.py",
+            "Source_Code": "path = set()",
+            "Mutate_Code": "path -= set()"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T40_LCPN_79-Word-Search.py",
+            "Source_Code": "path = set()",
+            "Mutate_Code": "path *= set()"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T40_LCPN_79-Word-Search.py",
+            "Source_Code": "path = set()",
+            "Mutate_Code": "path /= set()"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T40_LCPN_79-Word-Search.py",
+            "Source_Code": "path = set()",
+            "Mutate_Code": "path %= set()"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T40_LCPN_79-Word-Search.py",
+            "Source_Code": "path = set()",
+            "Mutate_Code": "path //= set()"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T40_LCPN_79-Word-Search.py",
+            "Source_Code": "path = set()",
+            "Mutate_Code": "path **= set()"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T40_LCPN_79-Word-Search.py",
+            "Source_Code": "path = set()",
+            "Mutate_Code": "path &= set()"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T40_LCPN_79-Word-Search.py",
+            "Source_Code": "path = set()",
+            "Mutate_Code": "path |= set()"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T40_LCPN_79-Word-Search.py",
+            "Source_Code": "path = set()",
+            "Mutate_Code": "path ^= set()"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T40_LCPN_79-Word-Search.py",
+            "Source_Code": "path = set()",
+            "Mutate_Code": "path >>= set()"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T40_LCPN_79-Word-Search.py",
+            "Source_Code": "path = set()",
+            "Mutate_Code": "path <<= set()"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T40_LCPN_79-Word-Search.py",
+            "Source_Code": "path = set()",
+            "Mutate_Code": "path == set()"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T40_LCPN_79-Word-Search.py",
+            "Source_Code": "path = set()",
+            "Mutate_Code": "path +=+= set()"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T40_LCPN_79-Word-Search.py",
+            "Source_Code": "path = set()",
+            "Mutate_Code": "path -=-= set()"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T40_LCPN_79-Word-Search.py",
+            "Source_Code": "path = set()",
+            "Mutate_Code": "path *=*= set()"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T40_LCPN_79-Word-Search.py",
+            "Source_Code": "path = set()",
+            "Mutate_Code": "path /=/= set()"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T40_LCPN_79-Word-Search.py",
+            "Source_Code": "path = set()",
+            "Mutate_Code": "path %=%= set()"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T40_LCPN_79-Word-Search.py",
+            "Source_Code": "path = set()",
+            "Mutate_Code": "path //=//= set()"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T40_LCPN_79-Word-Search.py",
+            "Source_Code": "path = set()",
+            "Mutate_Code": "path **=**= set()"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T40_LCPN_79-Word-Search.py",
+            "Source_Code": "path = set()",
+            "Mutate_Code": "path &=&= set()"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T40_LCPN_79-Word-Search.py",
+            "Source_Code": "path = set()",
+            "Mutate_Code": "path |=|= set()"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T40_LCPN_79-Word-Search.py",
+            "Source_Code": "path = set()",
+            "Mutate_Code": "path ^=^= set()"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T40_LCPN_79-Word-Search.py",
+            "Source_Code": "path = set()",
+            "Mutate_Code": "path >>=>>= set()"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T40_LCPN_79-Word-Search.py",
+            "Source_Code": "path = set()",
+            "Mutate_Code": "path <<=<<=set()"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T40_LCPN_79-Word-Search.py",
+            "Source_Code": "path = set()",
+            "Mutate_Code": "path == set()"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T40_LCPN_79-Word-Search.py",
+            "Source_Code": "path = set()",
+            "Mutate_Code": "path +=+= set()"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T40_LCPN_79-Word-Search.py",
+            "Source_Code": "path = set()",
+            "Mutate_Code": "path -=-= set()"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T40_LCPN_79-Word-Search.py",
+            "Source_Code": "path = set()",
+            "Mutate_Code": "path *=*= set()"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T40_LCPN_79-Word-Search.py",
+            "Source_Code": "path = set()",
+            "Mutate_Code": "path /=/= set()"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T40_LCPN_79-Word-Search.py",
+            "Source_Code": "path = set()",
+            "Mutate_Code": "path %=%= set()"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T40_LCPN_79-Word-Search.py",
+            "Source_Code": "path = set()",
+            "Mutate_Code": "path //=//= set()"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T40_LCPN_79-Word-Search.py",
+            "Source_Code": "path = set()",
+            "Mutate_Code": "path **=**= set()"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T40_LCPN_79-Word-Search.py",
+            "Source_Code": "path = set()",
+            "Mutate_Code": "path &=&= set()"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T40_LCPN_79-Word-Search.py",
+            "Source_Code": "path = set()",
+            "Mutate_Code": "path |=|= set()"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T40_LCPN_79-Word-Search.py",
+            "Source_Code": "path = set()",
+            "Mutate_Code": "path ^=^= set()"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T40_LCPN_79-Word-Search.py",
+            "Source_Code": "path = set()",
+            "Mutate_Code": "path >>=>>= set()"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T40_LCPN_79-Word-Search.py",
+            "Source_Code": "path = set()",
+            "Mutate_Code": "path <<=<<=set()"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T40_LCPN_79-Word-Search.py",
+            "Source_Code": "path = set()",
+            "Mutate_Code": "path =set()"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T40_LCPN_79-Word-Search.py",
+            "Source_Code": "if i == len(word):",
+            "Mutate_Code": "if i   len(word):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T40_LCPN_79-Word-Search.py",
+            "Source_Code": "if i == len(word):",
+            "Mutate_Code": "if i != len(word):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T40_LCPN_79-Word-Search.py",
+            "Source_Code": "if i == len(word):",
+            "Mutate_Code": "if i > len(word):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T40_LCPN_79-Word-Search.py",
+            "Source_Code": "if i == len(word):",
+            "Mutate_Code": "if i < len(word):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T40_LCPN_79-Word-Search.py",
+            "Source_Code": "if i == len(word):",
+            "Mutate_Code": "if i >= len(word):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T40_LCPN_79-Word-Search.py",
+            "Source_Code": "if i == len(word):",
+            "Mutate_Code": "if i <= len(word):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T40_LCPN_79-Word-Search.py",
+            "Source_Code": "if i == len(word):",
+            "Mutate_Code": "if i  ====  len(word):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T40_LCPN_79-Word-Search.py",
+            "Source_Code": "if i == len(word):",
+            "Mutate_Code": "if i  !==  len(word):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T40_LCPN_79-Word-Search.py",
+            "Source_Code": "if i == len(word):",
+            "Mutate_Code": "if i  >>  len(word):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T40_LCPN_79-Word-Search.py",
+            "Source_Code": "if i == len(word):",
+            "Mutate_Code": "if i  <<  len(word):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T40_LCPN_79-Word-Search.py",
+            "Source_Code": "if i == len(word):",
+            "Mutate_Code": "if i  >=>=  len(word):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T40_LCPN_79-Word-Search.py",
+            "Source_Code": "if i == len(word):",
+            "Mutate_Code": "if i  <=<=  len(word):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T40_LCPN_79-Word-Search.py",
+            "Source_Code": "if i == len(word):",
+            "Mutate_Code": " "
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T40_LCPN_79-Word-Search.py",
+            "Source_Code": "if i == len(word):",
+            "Mutate_Code": "elif:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T40_LCPN_79-Word-Search.py",
+            "Source_Code": "if i == len(word):",
+            "Mutate_Code": "else:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T40_LCPN_79-Word-Search.py",
+            "Source_Code": "if i == len(word):",
+            "Mutate_Code": "if if"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T40_LCPN_79-Word-Search.py",
+            "Source_Code": "if i == len(word):",
+            "Mutate_Code": "if i == len( ):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T40_LCPN_79-Word-Search.py",
+            "Source_Code": "if i == len(word):",
+            "Mutate_Code": "if i   len(word):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T40_LCPN_79-Word-Search.py",
+            "Source_Code": "if i == len(word):",
+            "Mutate_Code": "if i != len(word):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T40_LCPN_79-Word-Search.py",
+            "Source_Code": "if i == len(word):",
+            "Mutate_Code": "if i > len(word):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T40_LCPN_79-Word-Search.py",
+            "Source_Code": "if i == len(word):",
+            "Mutate_Code": "if i < len(word):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T40_LCPN_79-Word-Search.py",
+            "Source_Code": "if i == len(word):",
+            "Mutate_Code": "if i >= len(word):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T40_LCPN_79-Word-Search.py",
+            "Source_Code": "if i == len(word):",
+            "Mutate_Code": "if i <= len(word):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T40_LCPN_79-Word-Search.py",
+            "Source_Code": "if i == len(word):",
+            "Mutate_Code": "if i  ====  len(word):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T40_LCPN_79-Word-Search.py",
+            "Source_Code": "if i == len(word):",
+            "Mutate_Code": "if i  !==  len(word):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T40_LCPN_79-Word-Search.py",
+            "Source_Code": "if i == len(word):",
+            "Mutate_Code": "if i  >>  len(word):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T40_LCPN_79-Word-Search.py",
+            "Source_Code": "if i == len(word):",
+            "Mutate_Code": "if i  <<  len(word):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T40_LCPN_79-Word-Search.py",
+            "Source_Code": "if i == len(word):",
+            "Mutate_Code": "if i  >=>=  len(word):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T40_LCPN_79-Word-Search.py",
+            "Source_Code": "if i == len(word):",
+            "Mutate_Code": "if i  <=<=  len(word):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T40_LCPN_79-Word-Search.py",
+            "Source_Code": "if i == len(word):",
+            "Mutate_Code": " "
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T40_LCPN_79-Word-Search.py",
+            "Source_Code": "if i == len(word):",
+            "Mutate_Code": "elif:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T40_LCPN_79-Word-Search.py",
+            "Source_Code": "if i == len(word):",
+            "Mutate_Code": "else:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T40_LCPN_79-Word-Search.py",
+            "Source_Code": "if i == len(word):",
+            "Mutate_Code": "if if"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T40_LCPN_79-Word-Search.py",
+            "Source_Code": "if i == len(word):",
+            "Mutate_Code": "if i == len( ):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T40_LCPN_79-Word-Search.py",
+            "Source_Code": "return True",
+            "Mutate_Code": "return  "
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T40_LCPN_79-Word-Search.py",
+            "Source_Code": "return True",
+            "Mutate_Code": "return False"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T40_LCPN_79-Word-Search.py",
+            "Source_Code": "return True",
+            "Mutate_Code": "return True True"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T40_LCPN_79-Word-Search.py",
+            "Source_Code": "return True",
+            "Mutate_Code": " True"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T40_LCPN_79-Word-Search.py",
+            "Source_Code": "return True",
+            "Mutate_Code": "passTrue"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T40_LCPN_79-Word-Search.py",
+            "Source_Code": "return True",
+            "Mutate_Code": "return returnTrue"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T40_LCPN_79-Word-Search.py",
+            "Source_Code": "return True",
+            "Mutate_Code": "return  "
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T40_LCPN_79-Word-Search.py",
+            "Source_Code": "return True",
+            "Mutate_Code": "return False"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T40_LCPN_79-Word-Search.py",
+            "Source_Code": "return True",
+            "Mutate_Code": "return True True"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T40_LCPN_79-Word-Search.py",
+            "Source_Code": "return True",
+            "Mutate_Code": " True"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T40_LCPN_79-Word-Search.py",
+            "Source_Code": "return True",
+            "Mutate_Code": "passTrue"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T40_LCPN_79-Word-Search.py",
+            "Source_Code": "return True",
+            "Mutate_Code": "return returnTrue"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T40_LCPN_79-Word-Search.py",
+            "Source_Code": "min(r, c) < 0",
+            "Mutate_Code": "min(r, c)   0"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T40_LCPN_79-Word-Search.py",
+            "Source_Code": "min(r, c) < 0",
+            "Mutate_Code": "min(r, c) == 0"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T40_LCPN_79-Word-Search.py",
+            "Source_Code": "min(r, c) < 0",
+            "Mutate_Code": "min(r, c) != 0"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T40_LCPN_79-Word-Search.py",
+            "Source_Code": "min(r, c) < 0",
+            "Mutate_Code": "min(r, c) > 0"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T40_LCPN_79-Word-Search.py",
+            "Source_Code": "min(r, c) < 0",
+            "Mutate_Code": "min(r, c) >= 0"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T40_LCPN_79-Word-Search.py",
+            "Source_Code": "min(r, c) < 0",
+            "Mutate_Code": "min(r, c) <= 0"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T40_LCPN_79-Word-Search.py",
+            "Source_Code": "min(r, c) < 0",
+            "Mutate_Code": "min(r, c)  ====  0"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T40_LCPN_79-Word-Search.py",
+            "Source_Code": "min(r, c) < 0",
+            "Mutate_Code": "min(r, c)  !==  0"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T40_LCPN_79-Word-Search.py",
+            "Source_Code": "min(r, c) < 0",
+            "Mutate_Code": "min(r, c)  >>  0"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T40_LCPN_79-Word-Search.py",
+            "Source_Code": "min(r, c) < 0",
+            "Mutate_Code": "min(r, c)  <<  0"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T40_LCPN_79-Word-Search.py",
+            "Source_Code": "min(r, c) < 0",
+            "Mutate_Code": "min(r, c)  >=>=  0"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T40_LCPN_79-Word-Search.py",
+            "Source_Code": "min(r, c) < 0",
+            "Mutate_Code": "min(r, c)  <=<=  0"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T40_LCPN_79-Word-Search.py",
+            "Source_Code": "min(r, c) < 0",
+            "Mutate_Code": "min( ) < 0"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T40_LCPN_79-Word-Search.py",
+            "Source_Code": "or r >= ROWS",
+            "Mutate_Code": "or r   ROWS"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T40_LCPN_79-Word-Search.py",
+            "Source_Code": "or r >= ROWS",
+            "Mutate_Code": "or r == ROWS"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T40_LCPN_79-Word-Search.py",
+            "Source_Code": "or r >= ROWS",
+            "Mutate_Code": "or r != ROWS"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T40_LCPN_79-Word-Search.py",
+            "Source_Code": "or r >= ROWS",
+            "Mutate_Code": "or r > ROWS"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T40_LCPN_79-Word-Search.py",
+            "Source_Code": "or r >= ROWS",
+            "Mutate_Code": "or r < ROWS"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T40_LCPN_79-Word-Search.py",
+            "Source_Code": "or r >= ROWS",
+            "Mutate_Code": "or r <= ROWS"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T40_LCPN_79-Word-Search.py",
+            "Source_Code": "or r >= ROWS",
+            "Mutate_Code": "or r  ====  ROWS"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T40_LCPN_79-Word-Search.py",
+            "Source_Code": "or r >= ROWS",
+            "Mutate_Code": "or r  !==  ROWS"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T40_LCPN_79-Word-Search.py",
+            "Source_Code": "or r >= ROWS",
+            "Mutate_Code": "or r  >>  ROWS"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T40_LCPN_79-Word-Search.py",
+            "Source_Code": "or r >= ROWS",
+            "Mutate_Code": "or r  <<  ROWS"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T40_LCPN_79-Word-Search.py",
+            "Source_Code": "or r >= ROWS",
+            "Mutate_Code": "or r  >=>=  ROWS"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T40_LCPN_79-Word-Search.py",
+            "Source_Code": "or r >= ROWS",
+            "Mutate_Code": "or r  <=<=  ROWS"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T40_LCPN_79-Word-Search.py",
+            "Source_Code": "or c >= COLS",
+            "Mutate_Code": "or c   COLS"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T40_LCPN_79-Word-Search.py",
+            "Source_Code": "or c >= COLS",
+            "Mutate_Code": "or c == COLS"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T40_LCPN_79-Word-Search.py",
+            "Source_Code": "or c >= COLS",
+            "Mutate_Code": "or c != COLS"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T40_LCPN_79-Word-Search.py",
+            "Source_Code": "or c >= COLS",
+            "Mutate_Code": "or c > COLS"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T40_LCPN_79-Word-Search.py",
+            "Source_Code": "or c >= COLS",
+            "Mutate_Code": "or c < COLS"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T40_LCPN_79-Word-Search.py",
+            "Source_Code": "or c >= COLS",
+            "Mutate_Code": "or c <= COLS"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T40_LCPN_79-Word-Search.py",
+            "Source_Code": "or c >= COLS",
+            "Mutate_Code": "or c  ====  COLS"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T40_LCPN_79-Word-Search.py",
+            "Source_Code": "or c >= COLS",
+            "Mutate_Code": "or c  !==  COLS"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T40_LCPN_79-Word-Search.py",
+            "Source_Code": "or c >= COLS",
+            "Mutate_Code": "or c  >>  COLS"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T40_LCPN_79-Word-Search.py",
+            "Source_Code": "or c >= COLS",
+            "Mutate_Code": "or c  <<  COLS"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T40_LCPN_79-Word-Search.py",
+            "Source_Code": "or c >= COLS",
+            "Mutate_Code": "or c  >=>=  COLS"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T40_LCPN_79-Word-Search.py",
+            "Source_Code": "or c >= COLS",
+            "Mutate_Code": "or c  <=<=  COLS"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T40_LCPN_79-Word-Search.py",
+            "Source_Code": "or (r, c) in path",
+            "Mutate_Code": "or (r, c) path"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T40_LCPN_79-Word-Search.py",
+            "Source_Code": "or (r, c) in path",
+            "Mutate_Code": "or (r, c) is path"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T40_LCPN_79-Word-Search.py",
+            "Source_Code": "or (r, c) in path",
+            "Mutate_Code": "or (r, c) is not path"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T40_LCPN_79-Word-Search.py",
+            "Source_Code": "or (r, c) in path",
+            "Mutate_Code": "or (r, c) in in path"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T40_LCPN_79-Word-Search.py",
+            "Source_Code": "or (r, c) in path",
+            "Mutate_Code": "or (r, c) not in not in path"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T40_LCPN_79-Word-Search.py",
+            "Source_Code": "return False",
+            "Mutate_Code": "return  "
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T40_LCPN_79-Word-Search.py",
+            "Source_Code": "return False",
+            "Mutate_Code": "return True"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T40_LCPN_79-Word-Search.py",
+            "Source_Code": "return False",
+            "Mutate_Code": "return False False"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T40_LCPN_79-Word-Search.py",
+            "Source_Code": "return False",
+            "Mutate_Code": " False"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T40_LCPN_79-Word-Search.py",
+            "Source_Code": "return False",
+            "Mutate_Code": "passFalse"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T40_LCPN_79-Word-Search.py",
+            "Source_Code": "return False",
+            "Mutate_Code": "return returnFalse"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T40_LCPN_79-Word-Search.py",
+            "Source_Code": "return False",
+            "Mutate_Code": "return  "
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T40_LCPN_79-Word-Search.py",
+            "Source_Code": "return False",
+            "Mutate_Code": "return True"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T40_LCPN_79-Word-Search.py",
+            "Source_Code": "return False",
+            "Mutate_Code": "return False False"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T40_LCPN_79-Word-Search.py",
+            "Source_Code": "return False",
+            "Mutate_Code": " False"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T40_LCPN_79-Word-Search.py",
+            "Source_Code": "return False",
+            "Mutate_Code": "passFalse"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T40_LCPN_79-Word-Search.py",
+            "Source_Code": "return False",
+            "Mutate_Code": "return returnFalse"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T40_LCPN_79-Word-Search.py",
+            "Source_Code": "path.add((r, c))",
+            "Mutate_Code": "path.add( ))"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T40_LCPN_79-Word-Search.py",
+            "Source_Code": "or dfs(r - 1, c, i + 1)",
+            "Mutate_Code": "or dfs(r - 1, c, i 1)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T40_LCPN_79-Word-Search.py",
+            "Source_Code": "or dfs(r - 1, c, i + 1)",
+            "Mutate_Code": "or dfs(r 1, c, i + 1)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T40_LCPN_79-Word-Search.py",
+            "Source_Code": "or dfs(r - 1, c, i + 1)",
+            "Mutate_Code": "or dfs(r - 1, c, i - 1)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T40_LCPN_79-Word-Search.py",
+            "Source_Code": "or dfs(r - 1, c, i + 1)",
+            "Mutate_Code": "or dfs(r - 1, c, i * 1)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T40_LCPN_79-Word-Search.py",
+            "Source_Code": "or dfs(r - 1, c, i + 1)",
+            "Mutate_Code": "or dfs(r - 1, c, i / 1)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T40_LCPN_79-Word-Search.py",
+            "Source_Code": "or dfs(r - 1, c, i + 1)",
+            "Mutate_Code": "or dfs(r - 1, c, i % 1)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T40_LCPN_79-Word-Search.py",
+            "Source_Code": "or dfs(r - 1, c, i + 1)",
+            "Mutate_Code": "or dfs(r - 1, c, i ** 1)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T40_LCPN_79-Word-Search.py",
+            "Source_Code": "or dfs(r - 1, c, i + 1)",
+            "Mutate_Code": "or dfs(r - 1, c, i // 1)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T40_LCPN_79-Word-Search.py",
+            "Source_Code": "or dfs(r - 1, c, i + 1)",
+            "Mutate_Code": "or dfs(r + 1, c, i + 1)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T40_LCPN_79-Word-Search.py",
+            "Source_Code": "or dfs(r - 1, c, i + 1)",
+            "Mutate_Code": "or dfs(r * 1, c, i + 1)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T40_LCPN_79-Word-Search.py",
+            "Source_Code": "or dfs(r - 1, c, i + 1)",
+            "Mutate_Code": "or dfs(r / 1, c, i + 1)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T40_LCPN_79-Word-Search.py",
+            "Source_Code": "or dfs(r - 1, c, i + 1)",
+            "Mutate_Code": "or dfs(r % 1, c, i + 1)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T40_LCPN_79-Word-Search.py",
+            "Source_Code": "or dfs(r - 1, c, i + 1)",
+            "Mutate_Code": "or dfs(r ** 1, c, i + 1)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T40_LCPN_79-Word-Search.py",
+            "Source_Code": "or dfs(r - 1, c, i + 1)",
+            "Mutate_Code": "or dfs(r // 1, c, i + 1)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T40_LCPN_79-Word-Search.py",
+            "Source_Code": "or dfs(r - 1, c, i + 1)",
+            "Mutate_Code": "or dfs(r - 1, c, i ++ 1)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T40_LCPN_79-Word-Search.py",
+            "Source_Code": "or dfs(r - 1, c, i + 1)",
+            "Mutate_Code": "or dfs(r - 1, c, i -- 1)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T40_LCPN_79-Word-Search.py",
+            "Source_Code": "or dfs(r - 1, c, i + 1)",
+            "Mutate_Code": "or dfs(r - 1, c, i ** 1)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T40_LCPN_79-Word-Search.py",
+            "Source_Code": "or dfs(r - 1, c, i + 1)",
+            "Mutate_Code": "or dfs(r - 1, c, i // 1)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T40_LCPN_79-Word-Search.py",
+            "Source_Code": "or dfs(r - 1, c, i + 1)",
+            "Mutate_Code": "or dfs(r - 1, c, i %% 1)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T40_LCPN_79-Word-Search.py",
+            "Source_Code": "or dfs(r - 1, c, i + 1)",
+            "Mutate_Code": "or dfs(r - 1, c, i **** 1)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T40_LCPN_79-Word-Search.py",
+            "Source_Code": "or dfs(r - 1, c, i + 1)",
+            "Mutate_Code": "or dfs(r - 1, c, i //// 1)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T40_LCPN_79-Word-Search.py",
+            "Source_Code": "or dfs(r - 1, c, i + 1)",
+            "Mutate_Code": "or dfs(r ++ 1, c, i + 1)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T40_LCPN_79-Word-Search.py",
+            "Source_Code": "or dfs(r - 1, c, i + 1)",
+            "Mutate_Code": "or dfs(r -- 1, c, i + 1)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T40_LCPN_79-Word-Search.py",
+            "Source_Code": "or dfs(r - 1, c, i + 1)",
+            "Mutate_Code": "or dfs(r ** 1, c, i + 1)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T40_LCPN_79-Word-Search.py",
+            "Source_Code": "or dfs(r - 1, c, i + 1)",
+            "Mutate_Code": "or dfs(r // 1, c, i + 1)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T40_LCPN_79-Word-Search.py",
+            "Source_Code": "or dfs(r - 1, c, i + 1)",
+            "Mutate_Code": "or dfs(r %% 1, c, i + 1)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T40_LCPN_79-Word-Search.py",
+            "Source_Code": "or dfs(r - 1, c, i + 1)",
+            "Mutate_Code": "or dfs(r **** 1, c, i + 1)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T40_LCPN_79-Word-Search.py",
+            "Source_Code": "or dfs(r - 1, c, i + 1)",
+            "Mutate_Code": "or dfs(r //// 1, c, i + 1)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T40_LCPN_79-Word-Search.py",
+            "Source_Code": "or dfs(r, c + 1, i + 1)",
+            "Mutate_Code": "or dfs(r, c 1, i + 1)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T40_LCPN_79-Word-Search.py",
+            "Source_Code": "or dfs(r, c + 1, i + 1)",
+            "Mutate_Code": "or dfs(r, c + 1, i 1)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T40_LCPN_79-Word-Search.py",
+            "Source_Code": "or dfs(r, c + 1, i + 1)",
+            "Mutate_Code": "or dfs(r, c - 1, i + 1)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T40_LCPN_79-Word-Search.py",
+            "Source_Code": "or dfs(r, c + 1, i + 1)",
+            "Mutate_Code": "or dfs(r, c * 1, i + 1)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T40_LCPN_79-Word-Search.py",
+            "Source_Code": "or dfs(r, c + 1, i + 1)",
+            "Mutate_Code": "or dfs(r, c / 1, i + 1)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T40_LCPN_79-Word-Search.py",
+            "Source_Code": "or dfs(r, c + 1, i + 1)",
+            "Mutate_Code": "or dfs(r, c % 1, i + 1)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T40_LCPN_79-Word-Search.py",
+            "Source_Code": "or dfs(r, c + 1, i + 1)",
+            "Mutate_Code": "or dfs(r, c ** 1, i + 1)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T40_LCPN_79-Word-Search.py",
+            "Source_Code": "or dfs(r, c + 1, i + 1)",
+            "Mutate_Code": "or dfs(r, c // 1, i + 1)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T40_LCPN_79-Word-Search.py",
+            "Source_Code": "or dfs(r, c + 1, i + 1)",
+            "Mutate_Code": "or dfs(r, c + 1, i - 1)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T40_LCPN_79-Word-Search.py",
+            "Source_Code": "or dfs(r, c + 1, i + 1)",
+            "Mutate_Code": "or dfs(r, c + 1, i * 1)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T40_LCPN_79-Word-Search.py",
+            "Source_Code": "or dfs(r, c + 1, i + 1)",
+            "Mutate_Code": "or dfs(r, c + 1, i / 1)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T40_LCPN_79-Word-Search.py",
+            "Source_Code": "or dfs(r, c + 1, i + 1)",
+            "Mutate_Code": "or dfs(r, c + 1, i % 1)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T40_LCPN_79-Word-Search.py",
+            "Source_Code": "or dfs(r, c + 1, i + 1)",
+            "Mutate_Code": "or dfs(r, c + 1, i ** 1)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T40_LCPN_79-Word-Search.py",
+            "Source_Code": "or dfs(r, c + 1, i + 1)",
+            "Mutate_Code": "or dfs(r, c + 1, i // 1)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T40_LCPN_79-Word-Search.py",
+            "Source_Code": "or dfs(r, c + 1, i + 1)",
+            "Mutate_Code": "or dfs(r, c ++ 1, i + 1)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T40_LCPN_79-Word-Search.py",
+            "Source_Code": "or dfs(r, c + 1, i + 1)",
+            "Mutate_Code": "or dfs(r, c -- 1, i + 1)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T40_LCPN_79-Word-Search.py",
+            "Source_Code": "or dfs(r, c + 1, i + 1)",
+            "Mutate_Code": "or dfs(r, c ** 1, i + 1)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T40_LCPN_79-Word-Search.py",
+            "Source_Code": "or dfs(r, c + 1, i + 1)",
+            "Mutate_Code": "or dfs(r, c // 1, i + 1)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T40_LCPN_79-Word-Search.py",
+            "Source_Code": "or dfs(r, c + 1, i + 1)",
+            "Mutate_Code": "or dfs(r, c %% 1, i + 1)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T40_LCPN_79-Word-Search.py",
+            "Source_Code": "or dfs(r, c + 1, i + 1)",
+            "Mutate_Code": "or dfs(r, c **** 1, i + 1)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T40_LCPN_79-Word-Search.py",
+            "Source_Code": "or dfs(r, c + 1, i + 1)",
+            "Mutate_Code": "or dfs(r, c //// 1, i + 1)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T40_LCPN_79-Word-Search.py",
+            "Source_Code": "or dfs(r, c + 1, i + 1)",
+            "Mutate_Code": "or dfs(r, c + 1, i ++ 1)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T40_LCPN_79-Word-Search.py",
+            "Source_Code": "or dfs(r, c + 1, i + 1)",
+            "Mutate_Code": "or dfs(r, c + 1, i -- 1)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T40_LCPN_79-Word-Search.py",
+            "Source_Code": "or dfs(r, c + 1, i + 1)",
+            "Mutate_Code": "or dfs(r, c + 1, i ** 1)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T40_LCPN_79-Word-Search.py",
+            "Source_Code": "or dfs(r, c + 1, i + 1)",
+            "Mutate_Code": "or dfs(r, c + 1, i // 1)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T40_LCPN_79-Word-Search.py",
+            "Source_Code": "or dfs(r, c + 1, i + 1)",
+            "Mutate_Code": "or dfs(r, c + 1, i %% 1)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T40_LCPN_79-Word-Search.py",
+            "Source_Code": "or dfs(r, c + 1, i + 1)",
+            "Mutate_Code": "or dfs(r, c + 1, i **** 1)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T40_LCPN_79-Word-Search.py",
+            "Source_Code": "or dfs(r, c + 1, i + 1)",
+            "Mutate_Code": "or dfs(r, c + 1, i //// 1)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T40_LCPN_79-Word-Search.py",
+            "Source_Code": "or dfs(r, c - 1, i + 1)",
+            "Mutate_Code": "or dfs(r, c - 1, i 1)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T40_LCPN_79-Word-Search.py",
+            "Source_Code": "or dfs(r, c - 1, i + 1)",
+            "Mutate_Code": "or dfs(r, c 1, i + 1)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T40_LCPN_79-Word-Search.py",
+            "Source_Code": "or dfs(r, c - 1, i + 1)",
+            "Mutate_Code": "or dfs(r, c - 1, i - 1)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T40_LCPN_79-Word-Search.py",
+            "Source_Code": "or dfs(r, c - 1, i + 1)",
+            "Mutate_Code": "or dfs(r, c - 1, i * 1)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T40_LCPN_79-Word-Search.py",
+            "Source_Code": "or dfs(r, c - 1, i + 1)",
+            "Mutate_Code": "or dfs(r, c - 1, i / 1)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T40_LCPN_79-Word-Search.py",
+            "Source_Code": "or dfs(r, c - 1, i + 1)",
+            "Mutate_Code": "or dfs(r, c - 1, i % 1)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T40_LCPN_79-Word-Search.py",
+            "Source_Code": "or dfs(r, c - 1, i + 1)",
+            "Mutate_Code": "or dfs(r, c - 1, i ** 1)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T40_LCPN_79-Word-Search.py",
+            "Source_Code": "or dfs(r, c - 1, i + 1)",
+            "Mutate_Code": "or dfs(r, c - 1, i // 1)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T40_LCPN_79-Word-Search.py",
+            "Source_Code": "or dfs(r, c - 1, i + 1)",
+            "Mutate_Code": "or dfs(r, c + 1, i + 1)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T40_LCPN_79-Word-Search.py",
+            "Source_Code": "or dfs(r, c - 1, i + 1)",
+            "Mutate_Code": "or dfs(r, c * 1, i + 1)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T40_LCPN_79-Word-Search.py",
+            "Source_Code": "or dfs(r, c - 1, i + 1)",
+            "Mutate_Code": "or dfs(r, c / 1, i + 1)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T40_LCPN_79-Word-Search.py",
+            "Source_Code": "or dfs(r, c - 1, i + 1)",
+            "Mutate_Code": "or dfs(r, c % 1, i + 1)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T40_LCPN_79-Word-Search.py",
+            "Source_Code": "or dfs(r, c - 1, i + 1)",
+            "Mutate_Code": "or dfs(r, c ** 1, i + 1)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T40_LCPN_79-Word-Search.py",
+            "Source_Code": "or dfs(r, c - 1, i + 1)",
+            "Mutate_Code": "or dfs(r, c // 1, i + 1)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T40_LCPN_79-Word-Search.py",
+            "Source_Code": "or dfs(r, c - 1, i + 1)",
+            "Mutate_Code": "or dfs(r, c - 1, i ++ 1)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T40_LCPN_79-Word-Search.py",
+            "Source_Code": "or dfs(r, c - 1, i + 1)",
+            "Mutate_Code": "or dfs(r, c - 1, i -- 1)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T40_LCPN_79-Word-Search.py",
+            "Source_Code": "or dfs(r, c - 1, i + 1)",
+            "Mutate_Code": "or dfs(r, c - 1, i ** 1)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T40_LCPN_79-Word-Search.py",
+            "Source_Code": "or dfs(r, c - 1, i + 1)",
+            "Mutate_Code": "or dfs(r, c - 1, i // 1)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T40_LCPN_79-Word-Search.py",
+            "Source_Code": "or dfs(r, c - 1, i + 1)",
+            "Mutate_Code": "or dfs(r, c - 1, i %% 1)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T40_LCPN_79-Word-Search.py",
+            "Source_Code": "or dfs(r, c - 1, i + 1)",
+            "Mutate_Code": "or dfs(r, c - 1, i **** 1)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T40_LCPN_79-Word-Search.py",
+            "Source_Code": "or dfs(r, c - 1, i + 1)",
+            "Mutate_Code": "or dfs(r, c - 1, i //// 1)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T40_LCPN_79-Word-Search.py",
+            "Source_Code": "or dfs(r, c - 1, i + 1)",
+            "Mutate_Code": "or dfs(r, c ++ 1, i + 1)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T40_LCPN_79-Word-Search.py",
+            "Source_Code": "or dfs(r, c - 1, i + 1)",
+            "Mutate_Code": "or dfs(r, c -- 1, i + 1)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T40_LCPN_79-Word-Search.py",
+            "Source_Code": "or dfs(r, c - 1, i + 1)",
+            "Mutate_Code": "or dfs(r, c ** 1, i + 1)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T40_LCPN_79-Word-Search.py",
+            "Source_Code": "or dfs(r, c - 1, i + 1)",
+            "Mutate_Code": "or dfs(r, c // 1, i + 1)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T40_LCPN_79-Word-Search.py",
+            "Source_Code": "or dfs(r, c - 1, i + 1)",
+            "Mutate_Code": "or dfs(r, c %% 1, i + 1)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T40_LCPN_79-Word-Search.py",
+            "Source_Code": "or dfs(r, c - 1, i + 1)",
+            "Mutate_Code": "or dfs(r, c **** 1, i + 1)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T40_LCPN_79-Word-Search.py",
+            "Source_Code": "or dfs(r, c - 1, i + 1)",
+            "Mutate_Code": "or dfs(r, c //// 1, i + 1)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T40_LCPN_79-Word-Search.py",
+            "Source_Code": "path.remove((r, c))",
+            "Mutate_Code": "path.remove( ))"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T40_LCPN_79-Word-Search.py",
+            "Source_Code": "return res",
+            "Mutate_Code": " res"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T40_LCPN_79-Word-Search.py",
+            "Source_Code": "return res",
+            "Mutate_Code": "passres"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T40_LCPN_79-Word-Search.py",
+            "Source_Code": "return res",
+            "Mutate_Code": "return returnres"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T40_LCPN_79-Word-Search.py",
+            "Source_Code": "for r in range(ROWS):",
+            "Mutate_Code": "for r range(ROWS):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T40_LCPN_79-Word-Search.py",
+            "Source_Code": "for r in range(ROWS):",
+            "Mutate_Code": "for r is range(ROWS):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T40_LCPN_79-Word-Search.py",
+            "Source_Code": "for r in range(ROWS):",
+            "Mutate_Code": "for r is not range(ROWS):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T40_LCPN_79-Word-Search.py",
+            "Source_Code": "for r in range(ROWS):",
+            "Mutate_Code": "for r in in range(ROWS):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T40_LCPN_79-Word-Search.py",
+            "Source_Code": "for r in range(ROWS):",
+            "Mutate_Code": "for r not in not in range(ROWS):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T40_LCPN_79-Word-Search.py",
+            "Source_Code": "for r in range(ROWS):",
+            "Mutate_Code": " "
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T40_LCPN_79-Word-Search.py",
+            "Source_Code": "for r in range(ROWS):",
+            "Mutate_Code": "while True:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T40_LCPN_79-Word-Search.py",
+            "Source_Code": "for r in range(ROWS):",
+            "Mutate_Code": "for for: r in range(ROWS):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T40_LCPN_79-Word-Search.py",
+            "Source_Code": "for r in range(ROWS):",
+            "Mutate_Code": "for r in range( ):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T40_LCPN_79-Word-Search.py",
+            "Source_Code": "for r in range(ROWS):",
+            "Mutate_Code": "for r range(ROWS):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T40_LCPN_79-Word-Search.py",
+            "Source_Code": "for r in range(ROWS):",
+            "Mutate_Code": "for r is range(ROWS):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T40_LCPN_79-Word-Search.py",
+            "Source_Code": "for r in range(ROWS):",
+            "Mutate_Code": "for r is not range(ROWS):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T40_LCPN_79-Word-Search.py",
+            "Source_Code": "for r in range(ROWS):",
+            "Mutate_Code": "for r in in range(ROWS):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T40_LCPN_79-Word-Search.py",
+            "Source_Code": "for r in range(ROWS):",
+            "Mutate_Code": "for r not in not in range(ROWS):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T40_LCPN_79-Word-Search.py",
+            "Source_Code": "for r in range(ROWS):",
+            "Mutate_Code": " "
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T40_LCPN_79-Word-Search.py",
+            "Source_Code": "for r in range(ROWS):",
+            "Mutate_Code": "while True:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T40_LCPN_79-Word-Search.py",
+            "Source_Code": "for r in range(ROWS):",
+            "Mutate_Code": "for for: r in range(ROWS):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T40_LCPN_79-Word-Search.py",
+            "Source_Code": "for r in range(ROWS):",
+            "Mutate_Code": "for r in range( ):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T40_LCPN_79-Word-Search.py",
+            "Source_Code": "for c in range(COLS):",
+            "Mutate_Code": "for c range(COLS):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T40_LCPN_79-Word-Search.py",
+            "Source_Code": "for c in range(COLS):",
+            "Mutate_Code": "for c is range(COLS):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T40_LCPN_79-Word-Search.py",
+            "Source_Code": "for c in range(COLS):",
+            "Mutate_Code": "for c is not range(COLS):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T40_LCPN_79-Word-Search.py",
+            "Source_Code": "for c in range(COLS):",
+            "Mutate_Code": "for c in in range(COLS):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T40_LCPN_79-Word-Search.py",
+            "Source_Code": "for c in range(COLS):",
+            "Mutate_Code": "for c not in not in range(COLS):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T40_LCPN_79-Word-Search.py",
+            "Source_Code": "for c in range(COLS):",
+            "Mutate_Code": " "
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T40_LCPN_79-Word-Search.py",
+            "Source_Code": "for c in range(COLS):",
+            "Mutate_Code": "while True:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T40_LCPN_79-Word-Search.py",
+            "Source_Code": "for c in range(COLS):",
+            "Mutate_Code": "for for: c in range(COLS):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T40_LCPN_79-Word-Search.py",
+            "Source_Code": "for c in range(COLS):",
+            "Mutate_Code": "for c in range( ):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T40_LCPN_79-Word-Search.py",
+            "Source_Code": "for c in range(COLS):",
+            "Mutate_Code": "for c range(COLS):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T40_LCPN_79-Word-Search.py",
+            "Source_Code": "for c in range(COLS):",
+            "Mutate_Code": "for c is range(COLS):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T40_LCPN_79-Word-Search.py",
+            "Source_Code": "for c in range(COLS):",
+            "Mutate_Code": "for c is not range(COLS):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T40_LCPN_79-Word-Search.py",
+            "Source_Code": "for c in range(COLS):",
+            "Mutate_Code": "for c in in range(COLS):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T40_LCPN_79-Word-Search.py",
+            "Source_Code": "for c in range(COLS):",
+            "Mutate_Code": "for c not in not in range(COLS):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T40_LCPN_79-Word-Search.py",
+            "Source_Code": "for c in range(COLS):",
+            "Mutate_Code": " "
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T40_LCPN_79-Word-Search.py",
+            "Source_Code": "for c in range(COLS):",
+            "Mutate_Code": "while True:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T40_LCPN_79-Word-Search.py",
+            "Source_Code": "for c in range(COLS):",
+            "Mutate_Code": "for for: c in range(COLS):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T40_LCPN_79-Word-Search.py",
+            "Source_Code": "for c in range(COLS):",
+            "Mutate_Code": "for c in range( ):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T40_LCPN_79-Word-Search.py",
+            "Source_Code": "if dfs(r, c, 0):",
+            "Mutate_Code": " "
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T40_LCPN_79-Word-Search.py",
+            "Source_Code": "if dfs(r, c, 0):",
+            "Mutate_Code": "elif:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T40_LCPN_79-Word-Search.py",
+            "Source_Code": "if dfs(r, c, 0):",
+            "Mutate_Code": "else:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T40_LCPN_79-Word-Search.py",
+            "Source_Code": "if dfs(r, c, 0):",
+            "Mutate_Code": "if if"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T40_LCPN_79-Word-Search.py",
+            "Source_Code": "return True",
+            "Mutate_Code": "return  "
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T40_LCPN_79-Word-Search.py",
+            "Source_Code": "return True",
+            "Mutate_Code": "return False"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T40_LCPN_79-Word-Search.py",
+            "Source_Code": "return True",
+            "Mutate_Code": "return True True"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T40_LCPN_79-Word-Search.py",
+            "Source_Code": "return True",
+            "Mutate_Code": " True"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T40_LCPN_79-Word-Search.py",
+            "Source_Code": "return True",
+            "Mutate_Code": "passTrue"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T40_LCPN_79-Word-Search.py",
+            "Source_Code": "return True",
+            "Mutate_Code": "return returnTrue"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T40_LCPN_79-Word-Search.py",
+            "Source_Code": "return True",
+            "Mutate_Code": "return  "
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T40_LCPN_79-Word-Search.py",
+            "Source_Code": "return True",
+            "Mutate_Code": "return False"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T40_LCPN_79-Word-Search.py",
+            "Source_Code": "return True",
+            "Mutate_Code": "return True True"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T40_LCPN_79-Word-Search.py",
+            "Source_Code": "return True",
+            "Mutate_Code": " True"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T40_LCPN_79-Word-Search.py",
+            "Source_Code": "return True",
+            "Mutate_Code": "passTrue"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T40_LCPN_79-Word-Search.py",
+            "Source_Code": "return True",
+            "Mutate_Code": "return returnTrue"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T40_LCPN_79-Word-Search.py",
+            "Source_Code": "return False",
+            "Mutate_Code": "return  "
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T40_LCPN_79-Word-Search.py",
+            "Source_Code": "return False",
+            "Mutate_Code": "return True"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T40_LCPN_79-Word-Search.py",
+            "Source_Code": "return False",
+            "Mutate_Code": "return False False"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T40_LCPN_79-Word-Search.py",
+            "Source_Code": "return False",
+            "Mutate_Code": " False"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T40_LCPN_79-Word-Search.py",
+            "Source_Code": "return False",
+            "Mutate_Code": "passFalse"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T40_LCPN_79-Word-Search.py",
+            "Source_Code": "return False",
+            "Mutate_Code": "return returnFalse"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T40_LCPN_79-Word-Search.py",
+            "Source_Code": "return False",
+            "Mutate_Code": "return  "
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T40_LCPN_79-Word-Search.py",
+            "Source_Code": "return False",
+            "Mutate_Code": "return True"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T40_LCPN_79-Word-Search.py",
+            "Source_Code": "return False",
+            "Mutate_Code": "return False False"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T40_LCPN_79-Word-Search.py",
+            "Source_Code": "return False",
+            "Mutate_Code": " False"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T40_LCPN_79-Word-Search.py",
+            "Source_Code": "return False",
+            "Mutate_Code": "passFalse"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T40_LCPN_79-Word-Search.py",
+            "Source_Code": "return False",
+            "Mutate_Code": "return returnFalse"
+        }
+    }
+]

@@ -1,0 +1,478 @@
+[
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T35_LCPN_70-Climbing-Stairs.py",
+            "Source_Code": "if n <= 3:",
+            "Mutate_Code": "if n   3:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T35_LCPN_70-Climbing-Stairs.py",
+            "Source_Code": "if n <= 3:",
+            "Mutate_Code": "if n == 3:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T35_LCPN_70-Climbing-Stairs.py",
+            "Source_Code": "if n <= 3:",
+            "Mutate_Code": "if n != 3:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T35_LCPN_70-Climbing-Stairs.py",
+            "Source_Code": "if n <= 3:",
+            "Mutate_Code": "if n > 3:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T35_LCPN_70-Climbing-Stairs.py",
+            "Source_Code": "if n <= 3:",
+            "Mutate_Code": "if n < 3:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T35_LCPN_70-Climbing-Stairs.py",
+            "Source_Code": "if n <= 3:",
+            "Mutate_Code": "if n >= 3:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T35_LCPN_70-Climbing-Stairs.py",
+            "Source_Code": "if n <= 3:",
+            "Mutate_Code": "if n  ====  3:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T35_LCPN_70-Climbing-Stairs.py",
+            "Source_Code": "if n <= 3:",
+            "Mutate_Code": "if n  !==  3:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T35_LCPN_70-Climbing-Stairs.py",
+            "Source_Code": "if n <= 3:",
+            "Mutate_Code": "if n  >>  3:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T35_LCPN_70-Climbing-Stairs.py",
+            "Source_Code": "if n <= 3:",
+            "Mutate_Code": "if n  <<  3:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T35_LCPN_70-Climbing-Stairs.py",
+            "Source_Code": "if n <= 3:",
+            "Mutate_Code": "if n  >=>=  3:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T35_LCPN_70-Climbing-Stairs.py",
+            "Source_Code": "if n <= 3:",
+            "Mutate_Code": "if n  <=<=  3:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T35_LCPN_70-Climbing-Stairs.py",
+            "Source_Code": "if n <= 3:",
+            "Mutate_Code": " "
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T35_LCPN_70-Climbing-Stairs.py",
+            "Source_Code": "if n <= 3:",
+            "Mutate_Code": "elif:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T35_LCPN_70-Climbing-Stairs.py",
+            "Source_Code": "if n <= 3:",
+            "Mutate_Code": "else:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T35_LCPN_70-Climbing-Stairs.py",
+            "Source_Code": "if n <= 3:",
+            "Mutate_Code": "if if"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T35_LCPN_70-Climbing-Stairs.py",
+            "Source_Code": "return n",
+            "Mutate_Code": " n"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T35_LCPN_70-Climbing-Stairs.py",
+            "Source_Code": "return n",
+            "Mutate_Code": "passn"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T35_LCPN_70-Climbing-Stairs.py",
+            "Source_Code": "return n",
+            "Mutate_Code": "return returnn"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T35_LCPN_70-Climbing-Stairs.py",
+            "Source_Code": "for i in range(4, n + 1):",
+            "Mutate_Code": "for i in range(4, n 1):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T35_LCPN_70-Climbing-Stairs.py",
+            "Source_Code": "for i in range(4, n + 1):",
+            "Mutate_Code": "for i in range(4, n - 1):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T35_LCPN_70-Climbing-Stairs.py",
+            "Source_Code": "for i in range(4, n + 1):",
+            "Mutate_Code": "for i in range(4, n * 1):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T35_LCPN_70-Climbing-Stairs.py",
+            "Source_Code": "for i in range(4, n + 1):",
+            "Mutate_Code": "for i in range(4, n / 1):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T35_LCPN_70-Climbing-Stairs.py",
+            "Source_Code": "for i in range(4, n + 1):",
+            "Mutate_Code": "for i in range(4, n % 1):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T35_LCPN_70-Climbing-Stairs.py",
+            "Source_Code": "for i in range(4, n + 1):",
+            "Mutate_Code": "for i in range(4, n ** 1):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T35_LCPN_70-Climbing-Stairs.py",
+            "Source_Code": "for i in range(4, n + 1):",
+            "Mutate_Code": "for i in range(4, n // 1):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T35_LCPN_70-Climbing-Stairs.py",
+            "Source_Code": "for i in range(4, n + 1):",
+            "Mutate_Code": "for i in range(4, n ++ 1):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T35_LCPN_70-Climbing-Stairs.py",
+            "Source_Code": "for i in range(4, n + 1):",
+            "Mutate_Code": "for i in range(4, n -- 1):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T35_LCPN_70-Climbing-Stairs.py",
+            "Source_Code": "for i in range(4, n + 1):",
+            "Mutate_Code": "for i in range(4, n ** 1):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T35_LCPN_70-Climbing-Stairs.py",
+            "Source_Code": "for i in range(4, n + 1):",
+            "Mutate_Code": "for i in range(4, n // 1):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T35_LCPN_70-Climbing-Stairs.py",
+            "Source_Code": "for i in range(4, n + 1):",
+            "Mutate_Code": "for i in range(4, n %% 1):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T35_LCPN_70-Climbing-Stairs.py",
+            "Source_Code": "for i in range(4, n + 1):",
+            "Mutate_Code": "for i in range(4, n **** 1):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T35_LCPN_70-Climbing-Stairs.py",
+            "Source_Code": "for i in range(4, n + 1):",
+            "Mutate_Code": "for i in range(4, n //// 1):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T35_LCPN_70-Climbing-Stairs.py",
+            "Source_Code": "for i in range(4, n + 1):",
+            "Mutate_Code": "for i range(4, n + 1):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T35_LCPN_70-Climbing-Stairs.py",
+            "Source_Code": "for i in range(4, n + 1):",
+            "Mutate_Code": "for i is range(4, n + 1):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T35_LCPN_70-Climbing-Stairs.py",
+            "Source_Code": "for i in range(4, n + 1):",
+            "Mutate_Code": "for i is not range(4, n + 1):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T35_LCPN_70-Climbing-Stairs.py",
+            "Source_Code": "for i in range(4, n + 1):",
+            "Mutate_Code": "for i in in range(4, n + 1):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T35_LCPN_70-Climbing-Stairs.py",
+            "Source_Code": "for i in range(4, n + 1):",
+            "Mutate_Code": "for i not in not in range(4, n + 1):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T35_LCPN_70-Climbing-Stairs.py",
+            "Source_Code": "for i in range(4, n + 1):",
+            "Mutate_Code": " "
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T35_LCPN_70-Climbing-Stairs.py",
+            "Source_Code": "for i in range(4, n + 1):",
+            "Mutate_Code": "while True:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T35_LCPN_70-Climbing-Stairs.py",
+            "Source_Code": "for i in range(4, n + 1):",
+            "Mutate_Code": "for for: i in range(4, n + 1):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T35_LCPN_70-Climbing-Stairs.py",
+            "Source_Code": "for i in range(4, n + 1):",
+            "Mutate_Code": "for i in range( ):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T35_LCPN_70-Climbing-Stairs.py",
+            "Source_Code": "for i in range(4, n + 1):",
+            "Mutate_Code": "for i in range(4, n 1):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T35_LCPN_70-Climbing-Stairs.py",
+            "Source_Code": "for i in range(4, n + 1):",
+            "Mutate_Code": "for i in range(4, n - 1):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T35_LCPN_70-Climbing-Stairs.py",
+            "Source_Code": "for i in range(4, n + 1):",
+            "Mutate_Code": "for i in range(4, n * 1):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T35_LCPN_70-Climbing-Stairs.py",
+            "Source_Code": "for i in range(4, n + 1):",
+            "Mutate_Code": "for i in range(4, n / 1):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T35_LCPN_70-Climbing-Stairs.py",
+            "Source_Code": "for i in range(4, n + 1):",
+            "Mutate_Code": "for i in range(4, n % 1):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T35_LCPN_70-Climbing-Stairs.py",
+            "Source_Code": "for i in range(4, n + 1):",
+            "Mutate_Code": "for i in range(4, n ** 1):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T35_LCPN_70-Climbing-Stairs.py",
+            "Source_Code": "for i in range(4, n + 1):",
+            "Mutate_Code": "for i in range(4, n // 1):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T35_LCPN_70-Climbing-Stairs.py",
+            "Source_Code": "for i in range(4, n + 1):",
+            "Mutate_Code": "for i in range(4, n ++ 1):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T35_LCPN_70-Climbing-Stairs.py",
+            "Source_Code": "for i in range(4, n + 1):",
+            "Mutate_Code": "for i in range(4, n -- 1):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T35_LCPN_70-Climbing-Stairs.py",
+            "Source_Code": "for i in range(4, n + 1):",
+            "Mutate_Code": "for i in range(4, n ** 1):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T35_LCPN_70-Climbing-Stairs.py",
+            "Source_Code": "for i in range(4, n + 1):",
+            "Mutate_Code": "for i in range(4, n // 1):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T35_LCPN_70-Climbing-Stairs.py",
+            "Source_Code": "for i in range(4, n + 1):",
+            "Mutate_Code": "for i in range(4, n %% 1):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T35_LCPN_70-Climbing-Stairs.py",
+            "Source_Code": "for i in range(4, n + 1):",
+            "Mutate_Code": "for i in range(4, n **** 1):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T35_LCPN_70-Climbing-Stairs.py",
+            "Source_Code": "for i in range(4, n + 1):",
+            "Mutate_Code": "for i in range(4, n //// 1):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T35_LCPN_70-Climbing-Stairs.py",
+            "Source_Code": "for i in range(4, n + 1):",
+            "Mutate_Code": "for i range(4, n + 1):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T35_LCPN_70-Climbing-Stairs.py",
+            "Source_Code": "for i in range(4, n + 1):",
+            "Mutate_Code": "for i is range(4, n + 1):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T35_LCPN_70-Climbing-Stairs.py",
+            "Source_Code": "for i in range(4, n + 1):",
+            "Mutate_Code": "for i is not range(4, n + 1):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T35_LCPN_70-Climbing-Stairs.py",
+            "Source_Code": "for i in range(4, n + 1):",
+            "Mutate_Code": "for i in in range(4, n + 1):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T35_LCPN_70-Climbing-Stairs.py",
+            "Source_Code": "for i in range(4, n + 1):",
+            "Mutate_Code": "for i not in not in range(4, n + 1):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T35_LCPN_70-Climbing-Stairs.py",
+            "Source_Code": "for i in range(4, n + 1):",
+            "Mutate_Code": " "
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T35_LCPN_70-Climbing-Stairs.py",
+            "Source_Code": "for i in range(4, n + 1):",
+            "Mutate_Code": "while True:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T35_LCPN_70-Climbing-Stairs.py",
+            "Source_Code": "for i in range(4, n + 1):",
+            "Mutate_Code": "for for: i in range(4, n + 1):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T35_LCPN_70-Climbing-Stairs.py",
+            "Source_Code": "for i in range(4, n + 1):",
+            "Mutate_Code": "for i in range( ):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T35_LCPN_70-Climbing-Stairs.py",
+            "Source_Code": "return n2",
+            "Mutate_Code": " n2"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T35_LCPN_70-Climbing-Stairs.py",
+            "Source_Code": "return n2",
+            "Mutate_Code": "passn2"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T35_LCPN_70-Climbing-Stairs.py",
+            "Source_Code": "return n2",
+            "Mutate_Code": "return returnn2"
+        }
+    }
+]

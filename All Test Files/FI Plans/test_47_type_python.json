@@ -1,0 +1,2872 @@
+[
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T47_LCPN_125-Valid-Palindrome.py",
+            "Source_Code": "l, r = 0, len(s) - 1",
+            "Mutate_Code": "l, r = 0, len(s) 1"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T47_LCPN_125-Valid-Palindrome.py",
+            "Source_Code": "l, r = 0, len(s) - 1",
+            "Mutate_Code": "l, r = 0, len(s) + 1"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T47_LCPN_125-Valid-Palindrome.py",
+            "Source_Code": "l, r = 0, len(s) - 1",
+            "Mutate_Code": "l, r = 0, len(s) * 1"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T47_LCPN_125-Valid-Palindrome.py",
+            "Source_Code": "l, r = 0, len(s) - 1",
+            "Mutate_Code": "l, r = 0, len(s) / 1"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T47_LCPN_125-Valid-Palindrome.py",
+            "Source_Code": "l, r = 0, len(s) - 1",
+            "Mutate_Code": "l, r = 0, len(s) % 1"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T47_LCPN_125-Valid-Palindrome.py",
+            "Source_Code": "l, r = 0, len(s) - 1",
+            "Mutate_Code": "l, r = 0, len(s) ** 1"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T47_LCPN_125-Valid-Palindrome.py",
+            "Source_Code": "l, r = 0, len(s) - 1",
+            "Mutate_Code": "l, r = 0, len(s) // 1"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T47_LCPN_125-Valid-Palindrome.py",
+            "Source_Code": "l, r = 0, len(s) - 1",
+            "Mutate_Code": "l, r = 0, len(s) ++ 1"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T47_LCPN_125-Valid-Palindrome.py",
+            "Source_Code": "l, r = 0, len(s) - 1",
+            "Mutate_Code": "l, r = 0, len(s) -- 1"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T47_LCPN_125-Valid-Palindrome.py",
+            "Source_Code": "l, r = 0, len(s) - 1",
+            "Mutate_Code": "l, r = 0, len(s) ** 1"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T47_LCPN_125-Valid-Palindrome.py",
+            "Source_Code": "l, r = 0, len(s) - 1",
+            "Mutate_Code": "l, r = 0, len(s) // 1"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T47_LCPN_125-Valid-Palindrome.py",
+            "Source_Code": "l, r = 0, len(s) - 1",
+            "Mutate_Code": "l, r = 0, len(s) %% 1"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T47_LCPN_125-Valid-Palindrome.py",
+            "Source_Code": "l, r = 0, len(s) - 1",
+            "Mutate_Code": "l, r = 0, len(s) **** 1"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T47_LCPN_125-Valid-Palindrome.py",
+            "Source_Code": "l, r = 0, len(s) - 1",
+            "Mutate_Code": "l, r = 0, len(s) //// 1"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T47_LCPN_125-Valid-Palindrome.py",
+            "Source_Code": "l, r = 0, len(s) - 1",
+            "Mutate_Code": "l, r 0, len(s) - 1"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T47_LCPN_125-Valid-Palindrome.py",
+            "Source_Code": "l, r = 0, len(s) - 1",
+            "Mutate_Code": "l, r 0, len(s) - 1"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T47_LCPN_125-Valid-Palindrome.py",
+            "Source_Code": "l, r = 0, len(s) - 1",
+            "Mutate_Code": "l, r += 0, len(s) - 1"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T47_LCPN_125-Valid-Palindrome.py",
+            "Source_Code": "l, r = 0, len(s) - 1",
+            "Mutate_Code": "l, r -= 0, len(s) - 1"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T47_LCPN_125-Valid-Palindrome.py",
+            "Source_Code": "l, r = 0, len(s) - 1",
+            "Mutate_Code": "l, r *= 0, len(s) - 1"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T47_LCPN_125-Valid-Palindrome.py",
+            "Source_Code": "l, r = 0, len(s) - 1",
+            "Mutate_Code": "l, r /= 0, len(s) - 1"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T47_LCPN_125-Valid-Palindrome.py",
+            "Source_Code": "l, r = 0, len(s) - 1",
+            "Mutate_Code": "l, r %= 0, len(s) - 1"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T47_LCPN_125-Valid-Palindrome.py",
+            "Source_Code": "l, r = 0, len(s) - 1",
+            "Mutate_Code": "l, r //= 0, len(s) - 1"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T47_LCPN_125-Valid-Palindrome.py",
+            "Source_Code": "l, r = 0, len(s) - 1",
+            "Mutate_Code": "l, r **= 0, len(s) - 1"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T47_LCPN_125-Valid-Palindrome.py",
+            "Source_Code": "l, r = 0, len(s) - 1",
+            "Mutate_Code": "l, r &= 0, len(s) - 1"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T47_LCPN_125-Valid-Palindrome.py",
+            "Source_Code": "l, r = 0, len(s) - 1",
+            "Mutate_Code": "l, r |= 0, len(s) - 1"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T47_LCPN_125-Valid-Palindrome.py",
+            "Source_Code": "l, r = 0, len(s) - 1",
+            "Mutate_Code": "l, r ^= 0, len(s) - 1"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T47_LCPN_125-Valid-Palindrome.py",
+            "Source_Code": "l, r = 0, len(s) - 1",
+            "Mutate_Code": "l, r >>= 0, len(s) - 1"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T47_LCPN_125-Valid-Palindrome.py",
+            "Source_Code": "l, r = 0, len(s) - 1",
+            "Mutate_Code": "l, r <<= 0, len(s) - 1"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T47_LCPN_125-Valid-Palindrome.py",
+            "Source_Code": "l, r = 0, len(s) - 1",
+            "Mutate_Code": "l, r += 0, len(s) - 1"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T47_LCPN_125-Valid-Palindrome.py",
+            "Source_Code": "l, r = 0, len(s) - 1",
+            "Mutate_Code": "l, r -= 0, len(s) - 1"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T47_LCPN_125-Valid-Palindrome.py",
+            "Source_Code": "l, r = 0, len(s) - 1",
+            "Mutate_Code": "l, r *= 0, len(s) - 1"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T47_LCPN_125-Valid-Palindrome.py",
+            "Source_Code": "l, r = 0, len(s) - 1",
+            "Mutate_Code": "l, r /= 0, len(s) - 1"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T47_LCPN_125-Valid-Palindrome.py",
+            "Source_Code": "l, r = 0, len(s) - 1",
+            "Mutate_Code": "l, r %= 0, len(s) - 1"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T47_LCPN_125-Valid-Palindrome.py",
+            "Source_Code": "l, r = 0, len(s) - 1",
+            "Mutate_Code": "l, r //= 0, len(s) - 1"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T47_LCPN_125-Valid-Palindrome.py",
+            "Source_Code": "l, r = 0, len(s) - 1",
+            "Mutate_Code": "l, r **= 0, len(s) - 1"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T47_LCPN_125-Valid-Palindrome.py",
+            "Source_Code": "l, r = 0, len(s) - 1",
+            "Mutate_Code": "l, r &= 0, len(s) - 1"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T47_LCPN_125-Valid-Palindrome.py",
+            "Source_Code": "l, r = 0, len(s) - 1",
+            "Mutate_Code": "l, r |= 0, len(s) - 1"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T47_LCPN_125-Valid-Palindrome.py",
+            "Source_Code": "l, r = 0, len(s) - 1",
+            "Mutate_Code": "l, r ^= 0, len(s) - 1"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T47_LCPN_125-Valid-Palindrome.py",
+            "Source_Code": "l, r = 0, len(s) - 1",
+            "Mutate_Code": "l, r >>= 0, len(s) - 1"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T47_LCPN_125-Valid-Palindrome.py",
+            "Source_Code": "l, r = 0, len(s) - 1",
+            "Mutate_Code": "l, r <<= 0, len(s) - 1"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T47_LCPN_125-Valid-Palindrome.py",
+            "Source_Code": "l, r = 0, len(s) - 1",
+            "Mutate_Code": "l, r == 0, len(s) - 1"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T47_LCPN_125-Valid-Palindrome.py",
+            "Source_Code": "l, r = 0, len(s) - 1",
+            "Mutate_Code": "l, r +=+= 0, len(s) - 1"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T47_LCPN_125-Valid-Palindrome.py",
+            "Source_Code": "l, r = 0, len(s) - 1",
+            "Mutate_Code": "l, r -=-= 0, len(s) - 1"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T47_LCPN_125-Valid-Palindrome.py",
+            "Source_Code": "l, r = 0, len(s) - 1",
+            "Mutate_Code": "l, r *=*= 0, len(s) - 1"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T47_LCPN_125-Valid-Palindrome.py",
+            "Source_Code": "l, r = 0, len(s) - 1",
+            "Mutate_Code": "l, r /=/= 0, len(s) - 1"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T47_LCPN_125-Valid-Palindrome.py",
+            "Source_Code": "l, r = 0, len(s) - 1",
+            "Mutate_Code": "l, r %=%= 0, len(s) - 1"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T47_LCPN_125-Valid-Palindrome.py",
+            "Source_Code": "l, r = 0, len(s) - 1",
+            "Mutate_Code": "l, r //=//= 0, len(s) - 1"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T47_LCPN_125-Valid-Palindrome.py",
+            "Source_Code": "l, r = 0, len(s) - 1",
+            "Mutate_Code": "l, r **=**= 0, len(s) - 1"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T47_LCPN_125-Valid-Palindrome.py",
+            "Source_Code": "l, r = 0, len(s) - 1",
+            "Mutate_Code": "l, r &=&= 0, len(s) - 1"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T47_LCPN_125-Valid-Palindrome.py",
+            "Source_Code": "l, r = 0, len(s) - 1",
+            "Mutate_Code": "l, r |=|= 0, len(s) - 1"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T47_LCPN_125-Valid-Palindrome.py",
+            "Source_Code": "l, r = 0, len(s) - 1",
+            "Mutate_Code": "l, r ^=^= 0, len(s) - 1"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T47_LCPN_125-Valid-Palindrome.py",
+            "Source_Code": "l, r = 0, len(s) - 1",
+            "Mutate_Code": "l, r >>=>>= 0, len(s) - 1"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T47_LCPN_125-Valid-Palindrome.py",
+            "Source_Code": "l, r = 0, len(s) - 1",
+            "Mutate_Code": "l, r <<=<<=0, len(s) - 1"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T47_LCPN_125-Valid-Palindrome.py",
+            "Source_Code": "l, r = 0, len(s) - 1",
+            "Mutate_Code": "l, r == 0, len(s) - 1"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T47_LCPN_125-Valid-Palindrome.py",
+            "Source_Code": "l, r = 0, len(s) - 1",
+            "Mutate_Code": "l, r +=+= 0, len(s) - 1"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T47_LCPN_125-Valid-Palindrome.py",
+            "Source_Code": "l, r = 0, len(s) - 1",
+            "Mutate_Code": "l, r -=-= 0, len(s) - 1"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T47_LCPN_125-Valid-Palindrome.py",
+            "Source_Code": "l, r = 0, len(s) - 1",
+            "Mutate_Code": "l, r *=*= 0, len(s) - 1"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T47_LCPN_125-Valid-Palindrome.py",
+            "Source_Code": "l, r = 0, len(s) - 1",
+            "Mutate_Code": "l, r /=/= 0, len(s) - 1"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T47_LCPN_125-Valid-Palindrome.py",
+            "Source_Code": "l, r = 0, len(s) - 1",
+            "Mutate_Code": "l, r %=%= 0, len(s) - 1"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T47_LCPN_125-Valid-Palindrome.py",
+            "Source_Code": "l, r = 0, len(s) - 1",
+            "Mutate_Code": "l, r //=//= 0, len(s) - 1"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T47_LCPN_125-Valid-Palindrome.py",
+            "Source_Code": "l, r = 0, len(s) - 1",
+            "Mutate_Code": "l, r **=**= 0, len(s) - 1"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T47_LCPN_125-Valid-Palindrome.py",
+            "Source_Code": "l, r = 0, len(s) - 1",
+            "Mutate_Code": "l, r &=&= 0, len(s) - 1"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T47_LCPN_125-Valid-Palindrome.py",
+            "Source_Code": "l, r = 0, len(s) - 1",
+            "Mutate_Code": "l, r |=|= 0, len(s) - 1"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T47_LCPN_125-Valid-Palindrome.py",
+            "Source_Code": "l, r = 0, len(s) - 1",
+            "Mutate_Code": "l, r ^=^= 0, len(s) - 1"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T47_LCPN_125-Valid-Palindrome.py",
+            "Source_Code": "l, r = 0, len(s) - 1",
+            "Mutate_Code": "l, r >>=>>= 0, len(s) - 1"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T47_LCPN_125-Valid-Palindrome.py",
+            "Source_Code": "l, r = 0, len(s) - 1",
+            "Mutate_Code": "l, r <<=<<=0, len(s) - 1"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T47_LCPN_125-Valid-Palindrome.py",
+            "Source_Code": "l, r = 0, len(s) - 1",
+            "Mutate_Code": "l, r = 0, len( ) - 1"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T47_LCPN_125-Valid-Palindrome.py",
+            "Source_Code": "while l < r:",
+            "Mutate_Code": "while l   r:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T47_LCPN_125-Valid-Palindrome.py",
+            "Source_Code": "while l < r:",
+            "Mutate_Code": "while l == r:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T47_LCPN_125-Valid-Palindrome.py",
+            "Source_Code": "while l < r:",
+            "Mutate_Code": "while l != r:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T47_LCPN_125-Valid-Palindrome.py",
+            "Source_Code": "while l < r:",
+            "Mutate_Code": "while l > r:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T47_LCPN_125-Valid-Palindrome.py",
+            "Source_Code": "while l < r:",
+            "Mutate_Code": "while l >= r:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T47_LCPN_125-Valid-Palindrome.py",
+            "Source_Code": "while l < r:",
+            "Mutate_Code": "while l <= r:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T47_LCPN_125-Valid-Palindrome.py",
+            "Source_Code": "while l < r:",
+            "Mutate_Code": "while l  ====  r:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T47_LCPN_125-Valid-Palindrome.py",
+            "Source_Code": "while l < r:",
+            "Mutate_Code": "while l  !==  r:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T47_LCPN_125-Valid-Palindrome.py",
+            "Source_Code": "while l < r:",
+            "Mutate_Code": "while l  >>  r:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T47_LCPN_125-Valid-Palindrome.py",
+            "Source_Code": "while l < r:",
+            "Mutate_Code": "while l  <<  r:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T47_LCPN_125-Valid-Palindrome.py",
+            "Source_Code": "while l < r:",
+            "Mutate_Code": "while l  >=>=  r:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T47_LCPN_125-Valid-Palindrome.py",
+            "Source_Code": "while l < r:",
+            "Mutate_Code": "while l  <=<=  r:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T47_LCPN_125-Valid-Palindrome.py",
+            "Source_Code": "while l < r:",
+            "Mutate_Code": " "
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T47_LCPN_125-Valid-Palindrome.py",
+            "Source_Code": "while l < r:",
+            "Mutate_Code": "for "
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T47_LCPN_125-Valid-Palindrome.py",
+            "Source_Code": "while l < r:",
+            "Mutate_Code": "while while:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T47_LCPN_125-Valid-Palindrome.py",
+            "Source_Code": "while l < r and not Solution.alphanum(s[l]):",
+            "Mutate_Code": "while l   r and not Solution.alphanum(s[l]):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T47_LCPN_125-Valid-Palindrome.py",
+            "Source_Code": "while l < r and not Solution.alphanum(s[l]):",
+            "Mutate_Code": "while l == r and not Solution.alphanum(s[l]):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T47_LCPN_125-Valid-Palindrome.py",
+            "Source_Code": "while l < r and not Solution.alphanum(s[l]):",
+            "Mutate_Code": "while l != r and not Solution.alphanum(s[l]):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T47_LCPN_125-Valid-Palindrome.py",
+            "Source_Code": "while l < r and not Solution.alphanum(s[l]):",
+            "Mutate_Code": "while l > r and not Solution.alphanum(s[l]):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T47_LCPN_125-Valid-Palindrome.py",
+            "Source_Code": "while l < r and not Solution.alphanum(s[l]):",
+            "Mutate_Code": "while l >= r and not Solution.alphanum(s[l]):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T47_LCPN_125-Valid-Palindrome.py",
+            "Source_Code": "while l < r and not Solution.alphanum(s[l]):",
+            "Mutate_Code": "while l <= r and not Solution.alphanum(s[l]):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T47_LCPN_125-Valid-Palindrome.py",
+            "Source_Code": "while l < r and not Solution.alphanum(s[l]):",
+            "Mutate_Code": "while l  ====  r and not Solution.alphanum(s[l]):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T47_LCPN_125-Valid-Palindrome.py",
+            "Source_Code": "while l < r and not Solution.alphanum(s[l]):",
+            "Mutate_Code": "while l  !==  r and not Solution.alphanum(s[l]):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T47_LCPN_125-Valid-Palindrome.py",
+            "Source_Code": "while l < r and not Solution.alphanum(s[l]):",
+            "Mutate_Code": "while l  >>  r and not Solution.alphanum(s[l]):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T47_LCPN_125-Valid-Palindrome.py",
+            "Source_Code": "while l < r and not Solution.alphanum(s[l]):",
+            "Mutate_Code": "while l  <<  r and not Solution.alphanum(s[l]):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T47_LCPN_125-Valid-Palindrome.py",
+            "Source_Code": "while l < r and not Solution.alphanum(s[l]):",
+            "Mutate_Code": "while l  >=>=  r and not Solution.alphanum(s[l]):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T47_LCPN_125-Valid-Palindrome.py",
+            "Source_Code": "while l < r and not Solution.alphanum(s[l]):",
+            "Mutate_Code": "while l  <=<=  r and not Solution.alphanum(s[l]):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T47_LCPN_125-Valid-Palindrome.py",
+            "Source_Code": "while l < r and not Solution.alphanum(s[l]):",
+            "Mutate_Code": "while l < r not Solution.alphanum(s[l]):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T47_LCPN_125-Valid-Palindrome.py",
+            "Source_Code": "while l < r and not Solution.alphanum(s[l]):",
+            "Mutate_Code": "while l < r and Solution.alphanum(s[l]):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T47_LCPN_125-Valid-Palindrome.py",
+            "Source_Code": "while l < r and not Solution.alphanum(s[l]):",
+            "Mutate_Code": "while l < r or not Solution.alphanum(s[l]):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T47_LCPN_125-Valid-Palindrome.py",
+            "Source_Code": "while l < r and not Solution.alphanum(s[l]):",
+            "Mutate_Code": "while l < r not not Solution.alphanum(s[l]):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T47_LCPN_125-Valid-Palindrome.py",
+            "Source_Code": "while l < r and not Solution.alphanum(s[l]):",
+            "Mutate_Code": "while l < r and and Solution.alphanum(s[l]):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T47_LCPN_125-Valid-Palindrome.py",
+            "Source_Code": "while l < r and not Solution.alphanum(s[l]):",
+            "Mutate_Code": "while l < r and or Solution.alphanum(s[l]):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T47_LCPN_125-Valid-Palindrome.py",
+            "Source_Code": "while l < r and not Solution.alphanum(s[l]):",
+            "Mutate_Code": "while l < r and and not Solution.alphanum(s[l]):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T47_LCPN_125-Valid-Palindrome.py",
+            "Source_Code": "while l < r and not Solution.alphanum(s[l]):",
+            "Mutate_Code": "while l < r or or not Solution.alphanum(s[l]):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T47_LCPN_125-Valid-Palindrome.py",
+            "Source_Code": "while l < r and not Solution.alphanum(s[l]):",
+            "Mutate_Code": "while l < r not not not Solution.alphanum(s[l]):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T47_LCPN_125-Valid-Palindrome.py",
+            "Source_Code": "while l < r and not Solution.alphanum(s[l]):",
+            "Mutate_Code": "while l < r and and and Solution.alphanum(s[l]):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T47_LCPN_125-Valid-Palindrome.py",
+            "Source_Code": "while l < r and not Solution.alphanum(s[l]):",
+            "Mutate_Code": "while l < r and or or Solution.alphanum(s[l]):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T47_LCPN_125-Valid-Palindrome.py",
+            "Source_Code": "while l < r and not Solution.alphanum(s[l]):",
+            "Mutate_Code": "while l < r and not not Solution.alphanum(s[l]):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T47_LCPN_125-Valid-Palindrome.py",
+            "Source_Code": "while l < r and not Solution.alphanum(s[l]):",
+            "Mutate_Code": " "
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T47_LCPN_125-Valid-Palindrome.py",
+            "Source_Code": "while l < r and not Solution.alphanum(s[l]):",
+            "Mutate_Code": "for "
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T47_LCPN_125-Valid-Palindrome.py",
+            "Source_Code": "while l < r and not Solution.alphanum(s[l]):",
+            "Mutate_Code": "while while:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T47_LCPN_125-Valid-Palindrome.py",
+            "Source_Code": "while l < r and not Solution.alphanum(s[l]):",
+            "Mutate_Code": "while l   r and not Solution.alphanum(s[l]):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T47_LCPN_125-Valid-Palindrome.py",
+            "Source_Code": "while l < r and not Solution.alphanum(s[l]):",
+            "Mutate_Code": "while l == r and not Solution.alphanum(s[l]):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T47_LCPN_125-Valid-Palindrome.py",
+            "Source_Code": "while l < r and not Solution.alphanum(s[l]):",
+            "Mutate_Code": "while l != r and not Solution.alphanum(s[l]):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T47_LCPN_125-Valid-Palindrome.py",
+            "Source_Code": "while l < r and not Solution.alphanum(s[l]):",
+            "Mutate_Code": "while l > r and not Solution.alphanum(s[l]):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T47_LCPN_125-Valid-Palindrome.py",
+            "Source_Code": "while l < r and not Solution.alphanum(s[l]):",
+            "Mutate_Code": "while l >= r and not Solution.alphanum(s[l]):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T47_LCPN_125-Valid-Palindrome.py",
+            "Source_Code": "while l < r and not Solution.alphanum(s[l]):",
+            "Mutate_Code": "while l <= r and not Solution.alphanum(s[l]):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T47_LCPN_125-Valid-Palindrome.py",
+            "Source_Code": "while l < r and not Solution.alphanum(s[l]):",
+            "Mutate_Code": "while l  ====  r and not Solution.alphanum(s[l]):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T47_LCPN_125-Valid-Palindrome.py",
+            "Source_Code": "while l < r and not Solution.alphanum(s[l]):",
+            "Mutate_Code": "while l  !==  r and not Solution.alphanum(s[l]):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T47_LCPN_125-Valid-Palindrome.py",
+            "Source_Code": "while l < r and not Solution.alphanum(s[l]):",
+            "Mutate_Code": "while l  >>  r and not Solution.alphanum(s[l]):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T47_LCPN_125-Valid-Palindrome.py",
+            "Source_Code": "while l < r and not Solution.alphanum(s[l]):",
+            "Mutate_Code": "while l  <<  r and not Solution.alphanum(s[l]):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T47_LCPN_125-Valid-Palindrome.py",
+            "Source_Code": "while l < r and not Solution.alphanum(s[l]):",
+            "Mutate_Code": "while l  >=>=  r and not Solution.alphanum(s[l]):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T47_LCPN_125-Valid-Palindrome.py",
+            "Source_Code": "while l < r and not Solution.alphanum(s[l]):",
+            "Mutate_Code": "while l  <=<=  r and not Solution.alphanum(s[l]):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T47_LCPN_125-Valid-Palindrome.py",
+            "Source_Code": "while l < r and not Solution.alphanum(s[l]):",
+            "Mutate_Code": "while l < r not Solution.alphanum(s[l]):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T47_LCPN_125-Valid-Palindrome.py",
+            "Source_Code": "while l < r and not Solution.alphanum(s[l]):",
+            "Mutate_Code": "while l < r and Solution.alphanum(s[l]):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T47_LCPN_125-Valid-Palindrome.py",
+            "Source_Code": "while l < r and not Solution.alphanum(s[l]):",
+            "Mutate_Code": "while l < r or not Solution.alphanum(s[l]):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T47_LCPN_125-Valid-Palindrome.py",
+            "Source_Code": "while l < r and not Solution.alphanum(s[l]):",
+            "Mutate_Code": "while l < r not not Solution.alphanum(s[l]):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T47_LCPN_125-Valid-Palindrome.py",
+            "Source_Code": "while l < r and not Solution.alphanum(s[l]):",
+            "Mutate_Code": "while l < r and and Solution.alphanum(s[l]):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T47_LCPN_125-Valid-Palindrome.py",
+            "Source_Code": "while l < r and not Solution.alphanum(s[l]):",
+            "Mutate_Code": "while l < r and or Solution.alphanum(s[l]):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T47_LCPN_125-Valid-Palindrome.py",
+            "Source_Code": "while l < r and not Solution.alphanum(s[l]):",
+            "Mutate_Code": "while l < r and and not Solution.alphanum(s[l]):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T47_LCPN_125-Valid-Palindrome.py",
+            "Source_Code": "while l < r and not Solution.alphanum(s[l]):",
+            "Mutate_Code": "while l < r or or not Solution.alphanum(s[l]):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T47_LCPN_125-Valid-Palindrome.py",
+            "Source_Code": "while l < r and not Solution.alphanum(s[l]):",
+            "Mutate_Code": "while l < r not not not Solution.alphanum(s[l]):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T47_LCPN_125-Valid-Palindrome.py",
+            "Source_Code": "while l < r and not Solution.alphanum(s[l]):",
+            "Mutate_Code": "while l < r and and and Solution.alphanum(s[l]):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T47_LCPN_125-Valid-Palindrome.py",
+            "Source_Code": "while l < r and not Solution.alphanum(s[l]):",
+            "Mutate_Code": "while l < r and or or Solution.alphanum(s[l]):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T47_LCPN_125-Valid-Palindrome.py",
+            "Source_Code": "while l < r and not Solution.alphanum(s[l]):",
+            "Mutate_Code": "while l < r and not not Solution.alphanum(s[l]):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T47_LCPN_125-Valid-Palindrome.py",
+            "Source_Code": "while l < r and not Solution.alphanum(s[l]):",
+            "Mutate_Code": " "
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T47_LCPN_125-Valid-Palindrome.py",
+            "Source_Code": "while l < r and not Solution.alphanum(s[l]):",
+            "Mutate_Code": "for "
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T47_LCPN_125-Valid-Palindrome.py",
+            "Source_Code": "while l < r and not Solution.alphanum(s[l]):",
+            "Mutate_Code": "while while:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T47_LCPN_125-Valid-Palindrome.py",
+            "Source_Code": "while l < r and not Solution.alphanum(s[l]):",
+            "Mutate_Code": "while l   r and not Solution.alphanum(s[l]):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T47_LCPN_125-Valid-Palindrome.py",
+            "Source_Code": "while l < r and not Solution.alphanum(s[l]):",
+            "Mutate_Code": "while l == r and not Solution.alphanum(s[l]):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T47_LCPN_125-Valid-Palindrome.py",
+            "Source_Code": "while l < r and not Solution.alphanum(s[l]):",
+            "Mutate_Code": "while l != r and not Solution.alphanum(s[l]):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T47_LCPN_125-Valid-Palindrome.py",
+            "Source_Code": "while l < r and not Solution.alphanum(s[l]):",
+            "Mutate_Code": "while l > r and not Solution.alphanum(s[l]):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T47_LCPN_125-Valid-Palindrome.py",
+            "Source_Code": "while l < r and not Solution.alphanum(s[l]):",
+            "Mutate_Code": "while l >= r and not Solution.alphanum(s[l]):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T47_LCPN_125-Valid-Palindrome.py",
+            "Source_Code": "while l < r and not Solution.alphanum(s[l]):",
+            "Mutate_Code": "while l <= r and not Solution.alphanum(s[l]):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T47_LCPN_125-Valid-Palindrome.py",
+            "Source_Code": "while l < r and not Solution.alphanum(s[l]):",
+            "Mutate_Code": "while l  ====  r and not Solution.alphanum(s[l]):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T47_LCPN_125-Valid-Palindrome.py",
+            "Source_Code": "while l < r and not Solution.alphanum(s[l]):",
+            "Mutate_Code": "while l  !==  r and not Solution.alphanum(s[l]):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T47_LCPN_125-Valid-Palindrome.py",
+            "Source_Code": "while l < r and not Solution.alphanum(s[l]):",
+            "Mutate_Code": "while l  >>  r and not Solution.alphanum(s[l]):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T47_LCPN_125-Valid-Palindrome.py",
+            "Source_Code": "while l < r and not Solution.alphanum(s[l]):",
+            "Mutate_Code": "while l  <<  r and not Solution.alphanum(s[l]):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T47_LCPN_125-Valid-Palindrome.py",
+            "Source_Code": "while l < r and not Solution.alphanum(s[l]):",
+            "Mutate_Code": "while l  >=>=  r and not Solution.alphanum(s[l]):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T47_LCPN_125-Valid-Palindrome.py",
+            "Source_Code": "while l < r and not Solution.alphanum(s[l]):",
+            "Mutate_Code": "while l  <=<=  r and not Solution.alphanum(s[l]):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T47_LCPN_125-Valid-Palindrome.py",
+            "Source_Code": "while l < r and not Solution.alphanum(s[l]):",
+            "Mutate_Code": "while l < r not Solution.alphanum(s[l]):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T47_LCPN_125-Valid-Palindrome.py",
+            "Source_Code": "while l < r and not Solution.alphanum(s[l]):",
+            "Mutate_Code": "while l < r and Solution.alphanum(s[l]):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T47_LCPN_125-Valid-Palindrome.py",
+            "Source_Code": "while l < r and not Solution.alphanum(s[l]):",
+            "Mutate_Code": "while l < r or not Solution.alphanum(s[l]):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T47_LCPN_125-Valid-Palindrome.py",
+            "Source_Code": "while l < r and not Solution.alphanum(s[l]):",
+            "Mutate_Code": "while l < r not not Solution.alphanum(s[l]):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T47_LCPN_125-Valid-Palindrome.py",
+            "Source_Code": "while l < r and not Solution.alphanum(s[l]):",
+            "Mutate_Code": "while l < r and and Solution.alphanum(s[l]):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T47_LCPN_125-Valid-Palindrome.py",
+            "Source_Code": "while l < r and not Solution.alphanum(s[l]):",
+            "Mutate_Code": "while l < r and or Solution.alphanum(s[l]):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T47_LCPN_125-Valid-Palindrome.py",
+            "Source_Code": "while l < r and not Solution.alphanum(s[l]):",
+            "Mutate_Code": "while l < r and and not Solution.alphanum(s[l]):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T47_LCPN_125-Valid-Palindrome.py",
+            "Source_Code": "while l < r and not Solution.alphanum(s[l]):",
+            "Mutate_Code": "while l < r or or not Solution.alphanum(s[l]):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T47_LCPN_125-Valid-Palindrome.py",
+            "Source_Code": "while l < r and not Solution.alphanum(s[l]):",
+            "Mutate_Code": "while l < r not not not Solution.alphanum(s[l]):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T47_LCPN_125-Valid-Palindrome.py",
+            "Source_Code": "while l < r and not Solution.alphanum(s[l]):",
+            "Mutate_Code": "while l < r and and and Solution.alphanum(s[l]):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T47_LCPN_125-Valid-Palindrome.py",
+            "Source_Code": "while l < r and not Solution.alphanum(s[l]):",
+            "Mutate_Code": "while l < r and or or Solution.alphanum(s[l]):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T47_LCPN_125-Valid-Palindrome.py",
+            "Source_Code": "while l < r and not Solution.alphanum(s[l]):",
+            "Mutate_Code": "while l < r and not not Solution.alphanum(s[l]):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T47_LCPN_125-Valid-Palindrome.py",
+            "Source_Code": "while l < r and not Solution.alphanum(s[l]):",
+            "Mutate_Code": " "
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T47_LCPN_125-Valid-Palindrome.py",
+            "Source_Code": "while l < r and not Solution.alphanum(s[l]):",
+            "Mutate_Code": "for "
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T47_LCPN_125-Valid-Palindrome.py",
+            "Source_Code": "while l < r and not Solution.alphanum(s[l]):",
+            "Mutate_Code": "while while:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T47_LCPN_125-Valid-Palindrome.py",
+            "Source_Code": "while l < r and not Solution.alphanum(s[r]):",
+            "Mutate_Code": "while l   r and not Solution.alphanum(s[r]):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T47_LCPN_125-Valid-Palindrome.py",
+            "Source_Code": "while l < r and not Solution.alphanum(s[r]):",
+            "Mutate_Code": "while l == r and not Solution.alphanum(s[r]):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T47_LCPN_125-Valid-Palindrome.py",
+            "Source_Code": "while l < r and not Solution.alphanum(s[r]):",
+            "Mutate_Code": "while l != r and not Solution.alphanum(s[r]):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T47_LCPN_125-Valid-Palindrome.py",
+            "Source_Code": "while l < r and not Solution.alphanum(s[r]):",
+            "Mutate_Code": "while l > r and not Solution.alphanum(s[r]):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T47_LCPN_125-Valid-Palindrome.py",
+            "Source_Code": "while l < r and not Solution.alphanum(s[r]):",
+            "Mutate_Code": "while l >= r and not Solution.alphanum(s[r]):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T47_LCPN_125-Valid-Palindrome.py",
+            "Source_Code": "while l < r and not Solution.alphanum(s[r]):",
+            "Mutate_Code": "while l <= r and not Solution.alphanum(s[r]):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T47_LCPN_125-Valid-Palindrome.py",
+            "Source_Code": "while l < r and not Solution.alphanum(s[r]):",
+            "Mutate_Code": "while l  ====  r and not Solution.alphanum(s[r]):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T47_LCPN_125-Valid-Palindrome.py",
+            "Source_Code": "while l < r and not Solution.alphanum(s[r]):",
+            "Mutate_Code": "while l  !==  r and not Solution.alphanum(s[r]):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T47_LCPN_125-Valid-Palindrome.py",
+            "Source_Code": "while l < r and not Solution.alphanum(s[r]):",
+            "Mutate_Code": "while l  >>  r and not Solution.alphanum(s[r]):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T47_LCPN_125-Valid-Palindrome.py",
+            "Source_Code": "while l < r and not Solution.alphanum(s[r]):",
+            "Mutate_Code": "while l  <<  r and not Solution.alphanum(s[r]):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T47_LCPN_125-Valid-Palindrome.py",
+            "Source_Code": "while l < r and not Solution.alphanum(s[r]):",
+            "Mutate_Code": "while l  >=>=  r and not Solution.alphanum(s[r]):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T47_LCPN_125-Valid-Palindrome.py",
+            "Source_Code": "while l < r and not Solution.alphanum(s[r]):",
+            "Mutate_Code": "while l  <=<=  r and not Solution.alphanum(s[r]):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T47_LCPN_125-Valid-Palindrome.py",
+            "Source_Code": "while l < r and not Solution.alphanum(s[r]):",
+            "Mutate_Code": "while l < r not Solution.alphanum(s[r]):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T47_LCPN_125-Valid-Palindrome.py",
+            "Source_Code": "while l < r and not Solution.alphanum(s[r]):",
+            "Mutate_Code": "while l < r and Solution.alphanum(s[r]):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T47_LCPN_125-Valid-Palindrome.py",
+            "Source_Code": "while l < r and not Solution.alphanum(s[r]):",
+            "Mutate_Code": "while l < r or not Solution.alphanum(s[r]):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T47_LCPN_125-Valid-Palindrome.py",
+            "Source_Code": "while l < r and not Solution.alphanum(s[r]):",
+            "Mutate_Code": "while l < r not not Solution.alphanum(s[r]):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T47_LCPN_125-Valid-Palindrome.py",
+            "Source_Code": "while l < r and not Solution.alphanum(s[r]):",
+            "Mutate_Code": "while l < r and and Solution.alphanum(s[r]):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T47_LCPN_125-Valid-Palindrome.py",
+            "Source_Code": "while l < r and not Solution.alphanum(s[r]):",
+            "Mutate_Code": "while l < r and or Solution.alphanum(s[r]):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T47_LCPN_125-Valid-Palindrome.py",
+            "Source_Code": "while l < r and not Solution.alphanum(s[r]):",
+            "Mutate_Code": "while l < r and and not Solution.alphanum(s[r]):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T47_LCPN_125-Valid-Palindrome.py",
+            "Source_Code": "while l < r and not Solution.alphanum(s[r]):",
+            "Mutate_Code": "while l < r or or not Solution.alphanum(s[r]):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T47_LCPN_125-Valid-Palindrome.py",
+            "Source_Code": "while l < r and not Solution.alphanum(s[r]):",
+            "Mutate_Code": "while l < r not not not Solution.alphanum(s[r]):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T47_LCPN_125-Valid-Palindrome.py",
+            "Source_Code": "while l < r and not Solution.alphanum(s[r]):",
+            "Mutate_Code": "while l < r and and and Solution.alphanum(s[r]):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T47_LCPN_125-Valid-Palindrome.py",
+            "Source_Code": "while l < r and not Solution.alphanum(s[r]):",
+            "Mutate_Code": "while l < r and or or Solution.alphanum(s[r]):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T47_LCPN_125-Valid-Palindrome.py",
+            "Source_Code": "while l < r and not Solution.alphanum(s[r]):",
+            "Mutate_Code": "while l < r and not not Solution.alphanum(s[r]):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T47_LCPN_125-Valid-Palindrome.py",
+            "Source_Code": "while l < r and not Solution.alphanum(s[r]):",
+            "Mutate_Code": " "
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T47_LCPN_125-Valid-Palindrome.py",
+            "Source_Code": "while l < r and not Solution.alphanum(s[r]):",
+            "Mutate_Code": "for "
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T47_LCPN_125-Valid-Palindrome.py",
+            "Source_Code": "while l < r and not Solution.alphanum(s[r]):",
+            "Mutate_Code": "while while:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T47_LCPN_125-Valid-Palindrome.py",
+            "Source_Code": "while l < r and not Solution.alphanum(s[r]):",
+            "Mutate_Code": "while l   r and not Solution.alphanum(s[r]):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T47_LCPN_125-Valid-Palindrome.py",
+            "Source_Code": "while l < r and not Solution.alphanum(s[r]):",
+            "Mutate_Code": "while l == r and not Solution.alphanum(s[r]):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T47_LCPN_125-Valid-Palindrome.py",
+            "Source_Code": "while l < r and not Solution.alphanum(s[r]):",
+            "Mutate_Code": "while l != r and not Solution.alphanum(s[r]):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T47_LCPN_125-Valid-Palindrome.py",
+            "Source_Code": "while l < r and not Solution.alphanum(s[r]):",
+            "Mutate_Code": "while l > r and not Solution.alphanum(s[r]):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T47_LCPN_125-Valid-Palindrome.py",
+            "Source_Code": "while l < r and not Solution.alphanum(s[r]):",
+            "Mutate_Code": "while l >= r and not Solution.alphanum(s[r]):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T47_LCPN_125-Valid-Palindrome.py",
+            "Source_Code": "while l < r and not Solution.alphanum(s[r]):",
+            "Mutate_Code": "while l <= r and not Solution.alphanum(s[r]):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T47_LCPN_125-Valid-Palindrome.py",
+            "Source_Code": "while l < r and not Solution.alphanum(s[r]):",
+            "Mutate_Code": "while l  ====  r and not Solution.alphanum(s[r]):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T47_LCPN_125-Valid-Palindrome.py",
+            "Source_Code": "while l < r and not Solution.alphanum(s[r]):",
+            "Mutate_Code": "while l  !==  r and not Solution.alphanum(s[r]):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T47_LCPN_125-Valid-Palindrome.py",
+            "Source_Code": "while l < r and not Solution.alphanum(s[r]):",
+            "Mutate_Code": "while l  >>  r and not Solution.alphanum(s[r]):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T47_LCPN_125-Valid-Palindrome.py",
+            "Source_Code": "while l < r and not Solution.alphanum(s[r]):",
+            "Mutate_Code": "while l  <<  r and not Solution.alphanum(s[r]):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T47_LCPN_125-Valid-Palindrome.py",
+            "Source_Code": "while l < r and not Solution.alphanum(s[r]):",
+            "Mutate_Code": "while l  >=>=  r and not Solution.alphanum(s[r]):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T47_LCPN_125-Valid-Palindrome.py",
+            "Source_Code": "while l < r and not Solution.alphanum(s[r]):",
+            "Mutate_Code": "while l  <=<=  r and not Solution.alphanum(s[r]):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T47_LCPN_125-Valid-Palindrome.py",
+            "Source_Code": "while l < r and not Solution.alphanum(s[r]):",
+            "Mutate_Code": "while l < r not Solution.alphanum(s[r]):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T47_LCPN_125-Valid-Palindrome.py",
+            "Source_Code": "while l < r and not Solution.alphanum(s[r]):",
+            "Mutate_Code": "while l < r and Solution.alphanum(s[r]):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T47_LCPN_125-Valid-Palindrome.py",
+            "Source_Code": "while l < r and not Solution.alphanum(s[r]):",
+            "Mutate_Code": "while l < r or not Solution.alphanum(s[r]):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T47_LCPN_125-Valid-Palindrome.py",
+            "Source_Code": "while l < r and not Solution.alphanum(s[r]):",
+            "Mutate_Code": "while l < r not not Solution.alphanum(s[r]):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T47_LCPN_125-Valid-Palindrome.py",
+            "Source_Code": "while l < r and not Solution.alphanum(s[r]):",
+            "Mutate_Code": "while l < r and and Solution.alphanum(s[r]):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T47_LCPN_125-Valid-Palindrome.py",
+            "Source_Code": "while l < r and not Solution.alphanum(s[r]):",
+            "Mutate_Code": "while l < r and or Solution.alphanum(s[r]):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T47_LCPN_125-Valid-Palindrome.py",
+            "Source_Code": "while l < r and not Solution.alphanum(s[r]):",
+            "Mutate_Code": "while l < r and and not Solution.alphanum(s[r]):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T47_LCPN_125-Valid-Palindrome.py",
+            "Source_Code": "while l < r and not Solution.alphanum(s[r]):",
+            "Mutate_Code": "while l < r or or not Solution.alphanum(s[r]):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T47_LCPN_125-Valid-Palindrome.py",
+            "Source_Code": "while l < r and not Solution.alphanum(s[r]):",
+            "Mutate_Code": "while l < r not not not Solution.alphanum(s[r]):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T47_LCPN_125-Valid-Palindrome.py",
+            "Source_Code": "while l < r and not Solution.alphanum(s[r]):",
+            "Mutate_Code": "while l < r and and and Solution.alphanum(s[r]):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T47_LCPN_125-Valid-Palindrome.py",
+            "Source_Code": "while l < r and not Solution.alphanum(s[r]):",
+            "Mutate_Code": "while l < r and or or Solution.alphanum(s[r]):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T47_LCPN_125-Valid-Palindrome.py",
+            "Source_Code": "while l < r and not Solution.alphanum(s[r]):",
+            "Mutate_Code": "while l < r and not not Solution.alphanum(s[r]):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T47_LCPN_125-Valid-Palindrome.py",
+            "Source_Code": "while l < r and not Solution.alphanum(s[r]):",
+            "Mutate_Code": " "
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T47_LCPN_125-Valid-Palindrome.py",
+            "Source_Code": "while l < r and not Solution.alphanum(s[r]):",
+            "Mutate_Code": "for "
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T47_LCPN_125-Valid-Palindrome.py",
+            "Source_Code": "while l < r and not Solution.alphanum(s[r]):",
+            "Mutate_Code": "while while:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T47_LCPN_125-Valid-Palindrome.py",
+            "Source_Code": "while l < r and not Solution.alphanum(s[r]):",
+            "Mutate_Code": "while l   r and not Solution.alphanum(s[r]):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T47_LCPN_125-Valid-Palindrome.py",
+            "Source_Code": "while l < r and not Solution.alphanum(s[r]):",
+            "Mutate_Code": "while l == r and not Solution.alphanum(s[r]):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T47_LCPN_125-Valid-Palindrome.py",
+            "Source_Code": "while l < r and not Solution.alphanum(s[r]):",
+            "Mutate_Code": "while l != r and not Solution.alphanum(s[r]):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T47_LCPN_125-Valid-Palindrome.py",
+            "Source_Code": "while l < r and not Solution.alphanum(s[r]):",
+            "Mutate_Code": "while l > r and not Solution.alphanum(s[r]):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T47_LCPN_125-Valid-Palindrome.py",
+            "Source_Code": "while l < r and not Solution.alphanum(s[r]):",
+            "Mutate_Code": "while l >= r and not Solution.alphanum(s[r]):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T47_LCPN_125-Valid-Palindrome.py",
+            "Source_Code": "while l < r and not Solution.alphanum(s[r]):",
+            "Mutate_Code": "while l <= r and not Solution.alphanum(s[r]):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T47_LCPN_125-Valid-Palindrome.py",
+            "Source_Code": "while l < r and not Solution.alphanum(s[r]):",
+            "Mutate_Code": "while l  ====  r and not Solution.alphanum(s[r]):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T47_LCPN_125-Valid-Palindrome.py",
+            "Source_Code": "while l < r and not Solution.alphanum(s[r]):",
+            "Mutate_Code": "while l  !==  r and not Solution.alphanum(s[r]):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T47_LCPN_125-Valid-Palindrome.py",
+            "Source_Code": "while l < r and not Solution.alphanum(s[r]):",
+            "Mutate_Code": "while l  >>  r and not Solution.alphanum(s[r]):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T47_LCPN_125-Valid-Palindrome.py",
+            "Source_Code": "while l < r and not Solution.alphanum(s[r]):",
+            "Mutate_Code": "while l  <<  r and not Solution.alphanum(s[r]):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T47_LCPN_125-Valid-Palindrome.py",
+            "Source_Code": "while l < r and not Solution.alphanum(s[r]):",
+            "Mutate_Code": "while l  >=>=  r and not Solution.alphanum(s[r]):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T47_LCPN_125-Valid-Palindrome.py",
+            "Source_Code": "while l < r and not Solution.alphanum(s[r]):",
+            "Mutate_Code": "while l  <=<=  r and not Solution.alphanum(s[r]):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T47_LCPN_125-Valid-Palindrome.py",
+            "Source_Code": "while l < r and not Solution.alphanum(s[r]):",
+            "Mutate_Code": "while l < r not Solution.alphanum(s[r]):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T47_LCPN_125-Valid-Palindrome.py",
+            "Source_Code": "while l < r and not Solution.alphanum(s[r]):",
+            "Mutate_Code": "while l < r and Solution.alphanum(s[r]):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T47_LCPN_125-Valid-Palindrome.py",
+            "Source_Code": "while l < r and not Solution.alphanum(s[r]):",
+            "Mutate_Code": "while l < r or not Solution.alphanum(s[r]):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T47_LCPN_125-Valid-Palindrome.py",
+            "Source_Code": "while l < r and not Solution.alphanum(s[r]):",
+            "Mutate_Code": "while l < r not not Solution.alphanum(s[r]):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T47_LCPN_125-Valid-Palindrome.py",
+            "Source_Code": "while l < r and not Solution.alphanum(s[r]):",
+            "Mutate_Code": "while l < r and and Solution.alphanum(s[r]):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T47_LCPN_125-Valid-Palindrome.py",
+            "Source_Code": "while l < r and not Solution.alphanum(s[r]):",
+            "Mutate_Code": "while l < r and or Solution.alphanum(s[r]):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T47_LCPN_125-Valid-Palindrome.py",
+            "Source_Code": "while l < r and not Solution.alphanum(s[r]):",
+            "Mutate_Code": "while l < r and and not Solution.alphanum(s[r]):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T47_LCPN_125-Valid-Palindrome.py",
+            "Source_Code": "while l < r and not Solution.alphanum(s[r]):",
+            "Mutate_Code": "while l < r or or not Solution.alphanum(s[r]):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T47_LCPN_125-Valid-Palindrome.py",
+            "Source_Code": "while l < r and not Solution.alphanum(s[r]):",
+            "Mutate_Code": "while l < r not not not Solution.alphanum(s[r]):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T47_LCPN_125-Valid-Palindrome.py",
+            "Source_Code": "while l < r and not Solution.alphanum(s[r]):",
+            "Mutate_Code": "while l < r and and and Solution.alphanum(s[r]):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T47_LCPN_125-Valid-Palindrome.py",
+            "Source_Code": "while l < r and not Solution.alphanum(s[r]):",
+            "Mutate_Code": "while l < r and or or Solution.alphanum(s[r]):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T47_LCPN_125-Valid-Palindrome.py",
+            "Source_Code": "while l < r and not Solution.alphanum(s[r]):",
+            "Mutate_Code": "while l < r and not not Solution.alphanum(s[r]):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T47_LCPN_125-Valid-Palindrome.py",
+            "Source_Code": "while l < r and not Solution.alphanum(s[r]):",
+            "Mutate_Code": " "
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T47_LCPN_125-Valid-Palindrome.py",
+            "Source_Code": "while l < r and not Solution.alphanum(s[r]):",
+            "Mutate_Code": "for "
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T47_LCPN_125-Valid-Palindrome.py",
+            "Source_Code": "while l < r and not Solution.alphanum(s[r]):",
+            "Mutate_Code": "while while:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T47_LCPN_125-Valid-Palindrome.py",
+            "Source_Code": "if s[l].lower() != s[r].lower():",
+            "Mutate_Code": " "
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T47_LCPN_125-Valid-Palindrome.py",
+            "Source_Code": "if s[l].lower() != s[r].lower():",
+            "Mutate_Code": "elif:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T47_LCPN_125-Valid-Palindrome.py",
+            "Source_Code": "if s[l].lower() != s[r].lower():",
+            "Mutate_Code": "else:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T47_LCPN_125-Valid-Palindrome.py",
+            "Source_Code": "if s[l].lower() != s[r].lower():",
+            "Mutate_Code": "if if"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T47_LCPN_125-Valid-Palindrome.py",
+            "Source_Code": "return False",
+            "Mutate_Code": "return  "
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T47_LCPN_125-Valid-Palindrome.py",
+            "Source_Code": "return False",
+            "Mutate_Code": "return True"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T47_LCPN_125-Valid-Palindrome.py",
+            "Source_Code": "return False",
+            "Mutate_Code": "return False False"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T47_LCPN_125-Valid-Palindrome.py",
+            "Source_Code": "return False",
+            "Mutate_Code": " False"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T47_LCPN_125-Valid-Palindrome.py",
+            "Source_Code": "return False",
+            "Mutate_Code": "passFalse"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T47_LCPN_125-Valid-Palindrome.py",
+            "Source_Code": "return False",
+            "Mutate_Code": "return returnFalse"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T47_LCPN_125-Valid-Palindrome.py",
+            "Source_Code": "return False",
+            "Mutate_Code": "return  "
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T47_LCPN_125-Valid-Palindrome.py",
+            "Source_Code": "return False",
+            "Mutate_Code": "return True"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T47_LCPN_125-Valid-Palindrome.py",
+            "Source_Code": "return False",
+            "Mutate_Code": "return False False"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T47_LCPN_125-Valid-Palindrome.py",
+            "Source_Code": "return False",
+            "Mutate_Code": " False"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T47_LCPN_125-Valid-Palindrome.py",
+            "Source_Code": "return False",
+            "Mutate_Code": "passFalse"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T47_LCPN_125-Valid-Palindrome.py",
+            "Source_Code": "return False",
+            "Mutate_Code": "return returnFalse"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T47_LCPN_125-Valid-Palindrome.py",
+            "Source_Code": "return True",
+            "Mutate_Code": "return  "
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T47_LCPN_125-Valid-Palindrome.py",
+            "Source_Code": "return True",
+            "Mutate_Code": "return False"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T47_LCPN_125-Valid-Palindrome.py",
+            "Source_Code": "return True",
+            "Mutate_Code": "return True True"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T47_LCPN_125-Valid-Palindrome.py",
+            "Source_Code": "return True",
+            "Mutate_Code": " True"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T47_LCPN_125-Valid-Palindrome.py",
+            "Source_Code": "return True",
+            "Mutate_Code": "passTrue"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T47_LCPN_125-Valid-Palindrome.py",
+            "Source_Code": "return True",
+            "Mutate_Code": "return returnTrue"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T47_LCPN_125-Valid-Palindrome.py",
+            "Source_Code": "return True",
+            "Mutate_Code": "return  "
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T47_LCPN_125-Valid-Palindrome.py",
+            "Source_Code": "return True",
+            "Mutate_Code": "return False"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T47_LCPN_125-Valid-Palindrome.py",
+            "Source_Code": "return True",
+            "Mutate_Code": "return True True"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T47_LCPN_125-Valid-Palindrome.py",
+            "Source_Code": "return True",
+            "Mutate_Code": " True"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T47_LCPN_125-Valid-Palindrome.py",
+            "Source_Code": "return True",
+            "Mutate_Code": "passTrue"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T47_LCPN_125-Valid-Palindrome.py",
+            "Source_Code": "return True",
+            "Mutate_Code": "return returnTrue"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T47_LCPN_125-Valid-Palindrome.py",
+            "Source_Code": "return (",
+            "Mutate_Code": " ("
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T47_LCPN_125-Valid-Palindrome.py",
+            "Source_Code": "return (",
+            "Mutate_Code": "pass("
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T47_LCPN_125-Valid-Palindrome.py",
+            "Source_Code": "return (",
+            "Mutate_Code": "return return("
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T47_LCPN_125-Valid-Palindrome.py",
+            "Source_Code": "ord(\"A\") <= ord(c) <= ord(\"Z\")",
+            "Mutate_Code": "ord(\"A\")   ord(c) <= ord(\"Z\")"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T47_LCPN_125-Valid-Palindrome.py",
+            "Source_Code": "ord(\"A\") <= ord(c) <= ord(\"Z\")",
+            "Mutate_Code": "ord(\"A\") <= ord(c)   ord(\"Z\")"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T47_LCPN_125-Valid-Palindrome.py",
+            "Source_Code": "ord(\"A\") <= ord(c) <= ord(\"Z\")",
+            "Mutate_Code": "ord(\"A\") == ord(c) <= ord(\"Z\")"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T47_LCPN_125-Valid-Palindrome.py",
+            "Source_Code": "ord(\"A\") <= ord(c) <= ord(\"Z\")",
+            "Mutate_Code": "ord(\"A\") != ord(c) <= ord(\"Z\")"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T47_LCPN_125-Valid-Palindrome.py",
+            "Source_Code": "ord(\"A\") <= ord(c) <= ord(\"Z\")",
+            "Mutate_Code": "ord(\"A\") > ord(c) <= ord(\"Z\")"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T47_LCPN_125-Valid-Palindrome.py",
+            "Source_Code": "ord(\"A\") <= ord(c) <= ord(\"Z\")",
+            "Mutate_Code": "ord(\"A\") < ord(c) <= ord(\"Z\")"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T47_LCPN_125-Valid-Palindrome.py",
+            "Source_Code": "ord(\"A\") <= ord(c) <= ord(\"Z\")",
+            "Mutate_Code": "ord(\"A\") >= ord(c) <= ord(\"Z\")"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T47_LCPN_125-Valid-Palindrome.py",
+            "Source_Code": "ord(\"A\") <= ord(c) <= ord(\"Z\")",
+            "Mutate_Code": "ord(\"A\") <= ord(c) == ord(\"Z\")"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T47_LCPN_125-Valid-Palindrome.py",
+            "Source_Code": "ord(\"A\") <= ord(c) <= ord(\"Z\")",
+            "Mutate_Code": "ord(\"A\") <= ord(c) != ord(\"Z\")"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T47_LCPN_125-Valid-Palindrome.py",
+            "Source_Code": "ord(\"A\") <= ord(c) <= ord(\"Z\")",
+            "Mutate_Code": "ord(\"A\") <= ord(c) > ord(\"Z\")"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T47_LCPN_125-Valid-Palindrome.py",
+            "Source_Code": "ord(\"A\") <= ord(c) <= ord(\"Z\")",
+            "Mutate_Code": "ord(\"A\") <= ord(c) < ord(\"Z\")"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T47_LCPN_125-Valid-Palindrome.py",
+            "Source_Code": "ord(\"A\") <= ord(c) <= ord(\"Z\")",
+            "Mutate_Code": "ord(\"A\") <= ord(c) >= ord(\"Z\")"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T47_LCPN_125-Valid-Palindrome.py",
+            "Source_Code": "ord(\"A\") <= ord(c) <= ord(\"Z\")",
+            "Mutate_Code": "ord(\"A\")  ====  ord(c) <= ord(\"Z\")"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T47_LCPN_125-Valid-Palindrome.py",
+            "Source_Code": "ord(\"A\") <= ord(c) <= ord(\"Z\")",
+            "Mutate_Code": "ord(\"A\")  !==  ord(c) <= ord(\"Z\")"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T47_LCPN_125-Valid-Palindrome.py",
+            "Source_Code": "ord(\"A\") <= ord(c) <= ord(\"Z\")",
+            "Mutate_Code": "ord(\"A\")  >>  ord(c) <= ord(\"Z\")"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T47_LCPN_125-Valid-Palindrome.py",
+            "Source_Code": "ord(\"A\") <= ord(c) <= ord(\"Z\")",
+            "Mutate_Code": "ord(\"A\")  <<  ord(c) <= ord(\"Z\")"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T47_LCPN_125-Valid-Palindrome.py",
+            "Source_Code": "ord(\"A\") <= ord(c) <= ord(\"Z\")",
+            "Mutate_Code": "ord(\"A\")  >=>=  ord(c) <= ord(\"Z\")"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T47_LCPN_125-Valid-Palindrome.py",
+            "Source_Code": "ord(\"A\") <= ord(c) <= ord(\"Z\")",
+            "Mutate_Code": "ord(\"A\")  <=<=  ord(c) <= ord(\"Z\")"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T47_LCPN_125-Valid-Palindrome.py",
+            "Source_Code": "ord(\"A\") <= ord(c) <= ord(\"Z\")",
+            "Mutate_Code": "ord(\"A\") <= ord(c)  ====  ord(\"Z\")"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T47_LCPN_125-Valid-Palindrome.py",
+            "Source_Code": "ord(\"A\") <= ord(c) <= ord(\"Z\")",
+            "Mutate_Code": "ord(\"A\") <= ord(c)  !==  ord(\"Z\")"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T47_LCPN_125-Valid-Palindrome.py",
+            "Source_Code": "ord(\"A\") <= ord(c) <= ord(\"Z\")",
+            "Mutate_Code": "ord(\"A\") <= ord(c)  >>  ord(\"Z\")"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T47_LCPN_125-Valid-Palindrome.py",
+            "Source_Code": "ord(\"A\") <= ord(c) <= ord(\"Z\")",
+            "Mutate_Code": "ord(\"A\") <= ord(c)  <<  ord(\"Z\")"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T47_LCPN_125-Valid-Palindrome.py",
+            "Source_Code": "ord(\"A\") <= ord(c) <= ord(\"Z\")",
+            "Mutate_Code": "ord(\"A\") <= ord(c)  >=>=  ord(\"Z\")"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T47_LCPN_125-Valid-Palindrome.py",
+            "Source_Code": "ord(\"A\") <= ord(c) <= ord(\"Z\")",
+            "Mutate_Code": "ord(\"A\") <= ord(c)  <=<=  ord(\"Z\")"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T47_LCPN_125-Valid-Palindrome.py",
+            "Source_Code": "ord(\"A\") <= ord(c) <= ord(\"Z\")",
+            "Mutate_Code": "ord( ) <= ord(c) <= ord(\"Z\")"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T47_LCPN_125-Valid-Palindrome.py",
+            "Source_Code": "ord(\"A\") <= ord(c) <= ord(\"Z\")",
+            "Mutate_Code": "ord(\"A\") <= ord(c) <= ord(\"Z\") "
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T47_LCPN_125-Valid-Palindrome.py",
+            "Source_Code": "ord(\"A\") <= ord(c) <= ord(\"Z\")",
+            "Mutate_Code": "ord(\"A\") <= ord(c) <= ord(\"Z\") "
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T47_LCPN_125-Valid-Palindrome.py",
+            "Source_Code": "or ord(\"a\") <= ord(c) <= ord(\"z\")",
+            "Mutate_Code": "or ord(\"a\")   ord(c) <= ord(\"z\")"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T47_LCPN_125-Valid-Palindrome.py",
+            "Source_Code": "or ord(\"a\") <= ord(c) <= ord(\"z\")",
+            "Mutate_Code": "or ord(\"a\") <= ord(c)   ord(\"z\")"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T47_LCPN_125-Valid-Palindrome.py",
+            "Source_Code": "or ord(\"a\") <= ord(c) <= ord(\"z\")",
+            "Mutate_Code": "or ord(\"a\") == ord(c) <= ord(\"z\")"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T47_LCPN_125-Valid-Palindrome.py",
+            "Source_Code": "or ord(\"a\") <= ord(c) <= ord(\"z\")",
+            "Mutate_Code": "or ord(\"a\") != ord(c) <= ord(\"z\")"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T47_LCPN_125-Valid-Palindrome.py",
+            "Source_Code": "or ord(\"a\") <= ord(c) <= ord(\"z\")",
+            "Mutate_Code": "or ord(\"a\") > ord(c) <= ord(\"z\")"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T47_LCPN_125-Valid-Palindrome.py",
+            "Source_Code": "or ord(\"a\") <= ord(c) <= ord(\"z\")",
+            "Mutate_Code": "or ord(\"a\") < ord(c) <= ord(\"z\")"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T47_LCPN_125-Valid-Palindrome.py",
+            "Source_Code": "or ord(\"a\") <= ord(c) <= ord(\"z\")",
+            "Mutate_Code": "or ord(\"a\") >= ord(c) <= ord(\"z\")"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T47_LCPN_125-Valid-Palindrome.py",
+            "Source_Code": "or ord(\"a\") <= ord(c) <= ord(\"z\")",
+            "Mutate_Code": "or ord(\"a\") <= ord(c) == ord(\"z\")"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T47_LCPN_125-Valid-Palindrome.py",
+            "Source_Code": "or ord(\"a\") <= ord(c) <= ord(\"z\")",
+            "Mutate_Code": "or ord(\"a\") <= ord(c) != ord(\"z\")"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T47_LCPN_125-Valid-Palindrome.py",
+            "Source_Code": "or ord(\"a\") <= ord(c) <= ord(\"z\")",
+            "Mutate_Code": "or ord(\"a\") <= ord(c) > ord(\"z\")"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T47_LCPN_125-Valid-Palindrome.py",
+            "Source_Code": "or ord(\"a\") <= ord(c) <= ord(\"z\")",
+            "Mutate_Code": "or ord(\"a\") <= ord(c) < ord(\"z\")"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T47_LCPN_125-Valid-Palindrome.py",
+            "Source_Code": "or ord(\"a\") <= ord(c) <= ord(\"z\")",
+            "Mutate_Code": "or ord(\"a\") <= ord(c) >= ord(\"z\")"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T47_LCPN_125-Valid-Palindrome.py",
+            "Source_Code": "or ord(\"a\") <= ord(c) <= ord(\"z\")",
+            "Mutate_Code": "or ord(\"a\")  ====  ord(c) <= ord(\"z\")"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T47_LCPN_125-Valid-Palindrome.py",
+            "Source_Code": "or ord(\"a\") <= ord(c) <= ord(\"z\")",
+            "Mutate_Code": "or ord(\"a\")  !==  ord(c) <= ord(\"z\")"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T47_LCPN_125-Valid-Palindrome.py",
+            "Source_Code": "or ord(\"a\") <= ord(c) <= ord(\"z\")",
+            "Mutate_Code": "or ord(\"a\")  >>  ord(c) <= ord(\"z\")"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T47_LCPN_125-Valid-Palindrome.py",
+            "Source_Code": "or ord(\"a\") <= ord(c) <= ord(\"z\")",
+            "Mutate_Code": "or ord(\"a\")  <<  ord(c) <= ord(\"z\")"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T47_LCPN_125-Valid-Palindrome.py",
+            "Source_Code": "or ord(\"a\") <= ord(c) <= ord(\"z\")",
+            "Mutate_Code": "or ord(\"a\")  >=>=  ord(c) <= ord(\"z\")"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T47_LCPN_125-Valid-Palindrome.py",
+            "Source_Code": "or ord(\"a\") <= ord(c) <= ord(\"z\")",
+            "Mutate_Code": "or ord(\"a\")  <=<=  ord(c) <= ord(\"z\")"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T47_LCPN_125-Valid-Palindrome.py",
+            "Source_Code": "or ord(\"a\") <= ord(c) <= ord(\"z\")",
+            "Mutate_Code": "or ord(\"a\") <= ord(c)  ====  ord(\"z\")"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T47_LCPN_125-Valid-Palindrome.py",
+            "Source_Code": "or ord(\"a\") <= ord(c) <= ord(\"z\")",
+            "Mutate_Code": "or ord(\"a\") <= ord(c)  !==  ord(\"z\")"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T47_LCPN_125-Valid-Palindrome.py",
+            "Source_Code": "or ord(\"a\") <= ord(c) <= ord(\"z\")",
+            "Mutate_Code": "or ord(\"a\") <= ord(c)  >>  ord(\"z\")"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T47_LCPN_125-Valid-Palindrome.py",
+            "Source_Code": "or ord(\"a\") <= ord(c) <= ord(\"z\")",
+            "Mutate_Code": "or ord(\"a\") <= ord(c)  <<  ord(\"z\")"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T47_LCPN_125-Valid-Palindrome.py",
+            "Source_Code": "or ord(\"a\") <= ord(c) <= ord(\"z\")",
+            "Mutate_Code": "or ord(\"a\") <= ord(c)  >=>=  ord(\"z\")"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T47_LCPN_125-Valid-Palindrome.py",
+            "Source_Code": "or ord(\"a\") <= ord(c) <= ord(\"z\")",
+            "Mutate_Code": "or ord(\"a\") <= ord(c)  <=<=  ord(\"z\")"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T47_LCPN_125-Valid-Palindrome.py",
+            "Source_Code": "or ord(\"a\") <= ord(c) <= ord(\"z\")",
+            "Mutate_Code": "or ord( ) <= ord(c) <= ord(\"z\")"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T47_LCPN_125-Valid-Palindrome.py",
+            "Source_Code": "or ord(\"a\") <= ord(c) <= ord(\"z\")",
+            "Mutate_Code": "or ord(\"a\") <= ord(c) <= ord(\"z\") "
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T47_LCPN_125-Valid-Palindrome.py",
+            "Source_Code": "or ord(\"a\") <= ord(c) <= ord(\"z\")",
+            "Mutate_Code": "or ord(\"a\") <= ord(c) <= ord(\"z\") "
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T47_LCPN_125-Valid-Palindrome.py",
+            "Source_Code": "or ord(\"a\") <= ord(c) <= ord(\"z\")",
+            "Mutate_Code": "or ord(\"a\")   ord(c) <= ord(\"z\")"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T47_LCPN_125-Valid-Palindrome.py",
+            "Source_Code": "or ord(\"a\") <= ord(c) <= ord(\"z\")",
+            "Mutate_Code": "or ord(\"a\") <= ord(c)   ord(\"z\")"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T47_LCPN_125-Valid-Palindrome.py",
+            "Source_Code": "or ord(\"a\") <= ord(c) <= ord(\"z\")",
+            "Mutate_Code": "or ord(\"a\") == ord(c) <= ord(\"z\")"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T47_LCPN_125-Valid-Palindrome.py",
+            "Source_Code": "or ord(\"a\") <= ord(c) <= ord(\"z\")",
+            "Mutate_Code": "or ord(\"a\") != ord(c) <= ord(\"z\")"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T47_LCPN_125-Valid-Palindrome.py",
+            "Source_Code": "or ord(\"a\") <= ord(c) <= ord(\"z\")",
+            "Mutate_Code": "or ord(\"a\") > ord(c) <= ord(\"z\")"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T47_LCPN_125-Valid-Palindrome.py",
+            "Source_Code": "or ord(\"a\") <= ord(c) <= ord(\"z\")",
+            "Mutate_Code": "or ord(\"a\") < ord(c) <= ord(\"z\")"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T47_LCPN_125-Valid-Palindrome.py",
+            "Source_Code": "or ord(\"a\") <= ord(c) <= ord(\"z\")",
+            "Mutate_Code": "or ord(\"a\") >= ord(c) <= ord(\"z\")"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T47_LCPN_125-Valid-Palindrome.py",
+            "Source_Code": "or ord(\"a\") <= ord(c) <= ord(\"z\")",
+            "Mutate_Code": "or ord(\"a\") <= ord(c) == ord(\"z\")"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T47_LCPN_125-Valid-Palindrome.py",
+            "Source_Code": "or ord(\"a\") <= ord(c) <= ord(\"z\")",
+            "Mutate_Code": "or ord(\"a\") <= ord(c) != ord(\"z\")"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T47_LCPN_125-Valid-Palindrome.py",
+            "Source_Code": "or ord(\"a\") <= ord(c) <= ord(\"z\")",
+            "Mutate_Code": "or ord(\"a\") <= ord(c) > ord(\"z\")"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T47_LCPN_125-Valid-Palindrome.py",
+            "Source_Code": "or ord(\"a\") <= ord(c) <= ord(\"z\")",
+            "Mutate_Code": "or ord(\"a\") <= ord(c) < ord(\"z\")"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T47_LCPN_125-Valid-Palindrome.py",
+            "Source_Code": "or ord(\"a\") <= ord(c) <= ord(\"z\")",
+            "Mutate_Code": "or ord(\"a\") <= ord(c) >= ord(\"z\")"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T47_LCPN_125-Valid-Palindrome.py",
+            "Source_Code": "or ord(\"a\") <= ord(c) <= ord(\"z\")",
+            "Mutate_Code": "or ord(\"a\")  ====  ord(c) <= ord(\"z\")"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T47_LCPN_125-Valid-Palindrome.py",
+            "Source_Code": "or ord(\"a\") <= ord(c) <= ord(\"z\")",
+            "Mutate_Code": "or ord(\"a\")  !==  ord(c) <= ord(\"z\")"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T47_LCPN_125-Valid-Palindrome.py",
+            "Source_Code": "or ord(\"a\") <= ord(c) <= ord(\"z\")",
+            "Mutate_Code": "or ord(\"a\")  >>  ord(c) <= ord(\"z\")"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T47_LCPN_125-Valid-Palindrome.py",
+            "Source_Code": "or ord(\"a\") <= ord(c) <= ord(\"z\")",
+            "Mutate_Code": "or ord(\"a\")  <<  ord(c) <= ord(\"z\")"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T47_LCPN_125-Valid-Palindrome.py",
+            "Source_Code": "or ord(\"a\") <= ord(c) <= ord(\"z\")",
+            "Mutate_Code": "or ord(\"a\")  >=>=  ord(c) <= ord(\"z\")"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T47_LCPN_125-Valid-Palindrome.py",
+            "Source_Code": "or ord(\"a\") <= ord(c) <= ord(\"z\")",
+            "Mutate_Code": "or ord(\"a\")  <=<=  ord(c) <= ord(\"z\")"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T47_LCPN_125-Valid-Palindrome.py",
+            "Source_Code": "or ord(\"a\") <= ord(c) <= ord(\"z\")",
+            "Mutate_Code": "or ord(\"a\") <= ord(c)  ====  ord(\"z\")"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T47_LCPN_125-Valid-Palindrome.py",
+            "Source_Code": "or ord(\"a\") <= ord(c) <= ord(\"z\")",
+            "Mutate_Code": "or ord(\"a\") <= ord(c)  !==  ord(\"z\")"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T47_LCPN_125-Valid-Palindrome.py",
+            "Source_Code": "or ord(\"a\") <= ord(c) <= ord(\"z\")",
+            "Mutate_Code": "or ord(\"a\") <= ord(c)  >>  ord(\"z\")"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T47_LCPN_125-Valid-Palindrome.py",
+            "Source_Code": "or ord(\"a\") <= ord(c) <= ord(\"z\")",
+            "Mutate_Code": "or ord(\"a\") <= ord(c)  <<  ord(\"z\")"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T47_LCPN_125-Valid-Palindrome.py",
+            "Source_Code": "or ord(\"a\") <= ord(c) <= ord(\"z\")",
+            "Mutate_Code": "or ord(\"a\") <= ord(c)  >=>=  ord(\"z\")"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T47_LCPN_125-Valid-Palindrome.py",
+            "Source_Code": "or ord(\"a\") <= ord(c) <= ord(\"z\")",
+            "Mutate_Code": "or ord(\"a\") <= ord(c)  <=<=  ord(\"z\")"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T47_LCPN_125-Valid-Palindrome.py",
+            "Source_Code": "or ord(\"a\") <= ord(c) <= ord(\"z\")",
+            "Mutate_Code": "or ord( ) <= ord(c) <= ord(\"z\")"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T47_LCPN_125-Valid-Palindrome.py",
+            "Source_Code": "or ord(\"a\") <= ord(c) <= ord(\"z\")",
+            "Mutate_Code": "or ord(\"a\") <= ord(c) <= ord(\"z\") "
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T47_LCPN_125-Valid-Palindrome.py",
+            "Source_Code": "or ord(\"a\") <= ord(c) <= ord(\"z\")",
+            "Mutate_Code": "or ord(\"a\") <= ord(c) <= ord(\"z\") "
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T47_LCPN_125-Valid-Palindrome.py",
+            "Source_Code": "or ord(\"0\") <= ord(c) <= ord(\"9\")",
+            "Mutate_Code": "or ord(\"0\")   ord(c) <= ord(\"9\")"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T47_LCPN_125-Valid-Palindrome.py",
+            "Source_Code": "or ord(\"0\") <= ord(c) <= ord(\"9\")",
+            "Mutate_Code": "or ord(\"0\") <= ord(c)   ord(\"9\")"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T47_LCPN_125-Valid-Palindrome.py",
+            "Source_Code": "or ord(\"0\") <= ord(c) <= ord(\"9\")",
+            "Mutate_Code": "or ord(\"0\") == ord(c) <= ord(\"9\")"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T47_LCPN_125-Valid-Palindrome.py",
+            "Source_Code": "or ord(\"0\") <= ord(c) <= ord(\"9\")",
+            "Mutate_Code": "or ord(\"0\") != ord(c) <= ord(\"9\")"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T47_LCPN_125-Valid-Palindrome.py",
+            "Source_Code": "or ord(\"0\") <= ord(c) <= ord(\"9\")",
+            "Mutate_Code": "or ord(\"0\") > ord(c) <= ord(\"9\")"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T47_LCPN_125-Valid-Palindrome.py",
+            "Source_Code": "or ord(\"0\") <= ord(c) <= ord(\"9\")",
+            "Mutate_Code": "or ord(\"0\") < ord(c) <= ord(\"9\")"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T47_LCPN_125-Valid-Palindrome.py",
+            "Source_Code": "or ord(\"0\") <= ord(c) <= ord(\"9\")",
+            "Mutate_Code": "or ord(\"0\") >= ord(c) <= ord(\"9\")"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T47_LCPN_125-Valid-Palindrome.py",
+            "Source_Code": "or ord(\"0\") <= ord(c) <= ord(\"9\")",
+            "Mutate_Code": "or ord(\"0\") <= ord(c) == ord(\"9\")"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T47_LCPN_125-Valid-Palindrome.py",
+            "Source_Code": "or ord(\"0\") <= ord(c) <= ord(\"9\")",
+            "Mutate_Code": "or ord(\"0\") <= ord(c) != ord(\"9\")"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T47_LCPN_125-Valid-Palindrome.py",
+            "Source_Code": "or ord(\"0\") <= ord(c) <= ord(\"9\")",
+            "Mutate_Code": "or ord(\"0\") <= ord(c) > ord(\"9\")"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T47_LCPN_125-Valid-Palindrome.py",
+            "Source_Code": "or ord(\"0\") <= ord(c) <= ord(\"9\")",
+            "Mutate_Code": "or ord(\"0\") <= ord(c) < ord(\"9\")"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T47_LCPN_125-Valid-Palindrome.py",
+            "Source_Code": "or ord(\"0\") <= ord(c) <= ord(\"9\")",
+            "Mutate_Code": "or ord(\"0\") <= ord(c) >= ord(\"9\")"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T47_LCPN_125-Valid-Palindrome.py",
+            "Source_Code": "or ord(\"0\") <= ord(c) <= ord(\"9\")",
+            "Mutate_Code": "or ord(\"0\")  ====  ord(c) <= ord(\"9\")"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T47_LCPN_125-Valid-Palindrome.py",
+            "Source_Code": "or ord(\"0\") <= ord(c) <= ord(\"9\")",
+            "Mutate_Code": "or ord(\"0\")  !==  ord(c) <= ord(\"9\")"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T47_LCPN_125-Valid-Palindrome.py",
+            "Source_Code": "or ord(\"0\") <= ord(c) <= ord(\"9\")",
+            "Mutate_Code": "or ord(\"0\")  >>  ord(c) <= ord(\"9\")"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T47_LCPN_125-Valid-Palindrome.py",
+            "Source_Code": "or ord(\"0\") <= ord(c) <= ord(\"9\")",
+            "Mutate_Code": "or ord(\"0\")  <<  ord(c) <= ord(\"9\")"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T47_LCPN_125-Valid-Palindrome.py",
+            "Source_Code": "or ord(\"0\") <= ord(c) <= ord(\"9\")",
+            "Mutate_Code": "or ord(\"0\")  >=>=  ord(c) <= ord(\"9\")"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T47_LCPN_125-Valid-Palindrome.py",
+            "Source_Code": "or ord(\"0\") <= ord(c) <= ord(\"9\")",
+            "Mutate_Code": "or ord(\"0\")  <=<=  ord(c) <= ord(\"9\")"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T47_LCPN_125-Valid-Palindrome.py",
+            "Source_Code": "or ord(\"0\") <= ord(c) <= ord(\"9\")",
+            "Mutate_Code": "or ord(\"0\") <= ord(c)  ====  ord(\"9\")"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T47_LCPN_125-Valid-Palindrome.py",
+            "Source_Code": "or ord(\"0\") <= ord(c) <= ord(\"9\")",
+            "Mutate_Code": "or ord(\"0\") <= ord(c)  !==  ord(\"9\")"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T47_LCPN_125-Valid-Palindrome.py",
+            "Source_Code": "or ord(\"0\") <= ord(c) <= ord(\"9\")",
+            "Mutate_Code": "or ord(\"0\") <= ord(c)  >>  ord(\"9\")"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T47_LCPN_125-Valid-Palindrome.py",
+            "Source_Code": "or ord(\"0\") <= ord(c) <= ord(\"9\")",
+            "Mutate_Code": "or ord(\"0\") <= ord(c)  <<  ord(\"9\")"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T47_LCPN_125-Valid-Palindrome.py",
+            "Source_Code": "or ord(\"0\") <= ord(c) <= ord(\"9\")",
+            "Mutate_Code": "or ord(\"0\") <= ord(c)  >=>=  ord(\"9\")"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T47_LCPN_125-Valid-Palindrome.py",
+            "Source_Code": "or ord(\"0\") <= ord(c) <= ord(\"9\")",
+            "Mutate_Code": "or ord(\"0\") <= ord(c)  <=<=  ord(\"9\")"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T47_LCPN_125-Valid-Palindrome.py",
+            "Source_Code": "or ord(\"0\") <= ord(c) <= ord(\"9\")",
+            "Mutate_Code": "or ord( ) <= ord(c) <= ord(\"9\")"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T47_LCPN_125-Valid-Palindrome.py",
+            "Source_Code": "or ord(\"0\") <= ord(c) <= ord(\"9\")",
+            "Mutate_Code": "or ord(\"0\") <= ord(c) <= ord(\"9\") "
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T47_LCPN_125-Valid-Palindrome.py",
+            "Source_Code": "or ord(\"0\") <= ord(c) <= ord(\"9\")",
+            "Mutate_Code": "or ord(\"0\") <= ord(c) <= ord(\"9\") "
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T47_LCPN_125-Valid-Palindrome.py",
+            "Source_Code": "or ord(\"0\") <= ord(c) <= ord(\"9\")",
+            "Mutate_Code": "or ord(\"0\")   ord(c) <= ord(\"9\")"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T47_LCPN_125-Valid-Palindrome.py",
+            "Source_Code": "or ord(\"0\") <= ord(c) <= ord(\"9\")",
+            "Mutate_Code": "or ord(\"0\") <= ord(c)   ord(\"9\")"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T47_LCPN_125-Valid-Palindrome.py",
+            "Source_Code": "or ord(\"0\") <= ord(c) <= ord(\"9\")",
+            "Mutate_Code": "or ord(\"0\") == ord(c) <= ord(\"9\")"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T47_LCPN_125-Valid-Palindrome.py",
+            "Source_Code": "or ord(\"0\") <= ord(c) <= ord(\"9\")",
+            "Mutate_Code": "or ord(\"0\") != ord(c) <= ord(\"9\")"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T47_LCPN_125-Valid-Palindrome.py",
+            "Source_Code": "or ord(\"0\") <= ord(c) <= ord(\"9\")",
+            "Mutate_Code": "or ord(\"0\") > ord(c) <= ord(\"9\")"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T47_LCPN_125-Valid-Palindrome.py",
+            "Source_Code": "or ord(\"0\") <= ord(c) <= ord(\"9\")",
+            "Mutate_Code": "or ord(\"0\") < ord(c) <= ord(\"9\")"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T47_LCPN_125-Valid-Palindrome.py",
+            "Source_Code": "or ord(\"0\") <= ord(c) <= ord(\"9\")",
+            "Mutate_Code": "or ord(\"0\") >= ord(c) <= ord(\"9\")"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T47_LCPN_125-Valid-Palindrome.py",
+            "Source_Code": "or ord(\"0\") <= ord(c) <= ord(\"9\")",
+            "Mutate_Code": "or ord(\"0\") <= ord(c) == ord(\"9\")"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T47_LCPN_125-Valid-Palindrome.py",
+            "Source_Code": "or ord(\"0\") <= ord(c) <= ord(\"9\")",
+            "Mutate_Code": "or ord(\"0\") <= ord(c) != ord(\"9\")"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T47_LCPN_125-Valid-Palindrome.py",
+            "Source_Code": "or ord(\"0\") <= ord(c) <= ord(\"9\")",
+            "Mutate_Code": "or ord(\"0\") <= ord(c) > ord(\"9\")"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T47_LCPN_125-Valid-Palindrome.py",
+            "Source_Code": "or ord(\"0\") <= ord(c) <= ord(\"9\")",
+            "Mutate_Code": "or ord(\"0\") <= ord(c) < ord(\"9\")"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T47_LCPN_125-Valid-Palindrome.py",
+            "Source_Code": "or ord(\"0\") <= ord(c) <= ord(\"9\")",
+            "Mutate_Code": "or ord(\"0\") <= ord(c) >= ord(\"9\")"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T47_LCPN_125-Valid-Palindrome.py",
+            "Source_Code": "or ord(\"0\") <= ord(c) <= ord(\"9\")",
+            "Mutate_Code": "or ord(\"0\")  ====  ord(c) <= ord(\"9\")"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T47_LCPN_125-Valid-Palindrome.py",
+            "Source_Code": "or ord(\"0\") <= ord(c) <= ord(\"9\")",
+            "Mutate_Code": "or ord(\"0\")  !==  ord(c) <= ord(\"9\")"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T47_LCPN_125-Valid-Palindrome.py",
+            "Source_Code": "or ord(\"0\") <= ord(c) <= ord(\"9\")",
+            "Mutate_Code": "or ord(\"0\")  >>  ord(c) <= ord(\"9\")"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T47_LCPN_125-Valid-Palindrome.py",
+            "Source_Code": "or ord(\"0\") <= ord(c) <= ord(\"9\")",
+            "Mutate_Code": "or ord(\"0\")  <<  ord(c) <= ord(\"9\")"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T47_LCPN_125-Valid-Palindrome.py",
+            "Source_Code": "or ord(\"0\") <= ord(c) <= ord(\"9\")",
+            "Mutate_Code": "or ord(\"0\")  >=>=  ord(c) <= ord(\"9\")"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T47_LCPN_125-Valid-Palindrome.py",
+            "Source_Code": "or ord(\"0\") <= ord(c) <= ord(\"9\")",
+            "Mutate_Code": "or ord(\"0\")  <=<=  ord(c) <= ord(\"9\")"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T47_LCPN_125-Valid-Palindrome.py",
+            "Source_Code": "or ord(\"0\") <= ord(c) <= ord(\"9\")",
+            "Mutate_Code": "or ord(\"0\") <= ord(c)  ====  ord(\"9\")"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T47_LCPN_125-Valid-Palindrome.py",
+            "Source_Code": "or ord(\"0\") <= ord(c) <= ord(\"9\")",
+            "Mutate_Code": "or ord(\"0\") <= ord(c)  !==  ord(\"9\")"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T47_LCPN_125-Valid-Palindrome.py",
+            "Source_Code": "or ord(\"0\") <= ord(c) <= ord(\"9\")",
+            "Mutate_Code": "or ord(\"0\") <= ord(c)  >>  ord(\"9\")"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T47_LCPN_125-Valid-Palindrome.py",
+            "Source_Code": "or ord(\"0\") <= ord(c) <= ord(\"9\")",
+            "Mutate_Code": "or ord(\"0\") <= ord(c)  <<  ord(\"9\")"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T47_LCPN_125-Valid-Palindrome.py",
+            "Source_Code": "or ord(\"0\") <= ord(c) <= ord(\"9\")",
+            "Mutate_Code": "or ord(\"0\") <= ord(c)  >=>=  ord(\"9\")"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T47_LCPN_125-Valid-Palindrome.py",
+            "Source_Code": "or ord(\"0\") <= ord(c) <= ord(\"9\")",
+            "Mutate_Code": "or ord(\"0\") <= ord(c)  <=<=  ord(\"9\")"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T47_LCPN_125-Valid-Palindrome.py",
+            "Source_Code": "or ord(\"0\") <= ord(c) <= ord(\"9\")",
+            "Mutate_Code": "or ord( ) <= ord(c) <= ord(\"9\")"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T47_LCPN_125-Valid-Palindrome.py",
+            "Source_Code": "or ord(\"0\") <= ord(c) <= ord(\"9\")",
+            "Mutate_Code": "or ord(\"0\") <= ord(c) <= ord(\"9\") "
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T47_LCPN_125-Valid-Palindrome.py",
+            "Source_Code": "or ord(\"0\") <= ord(c) <= ord(\"9\")",
+            "Mutate_Code": "or ord(\"0\") <= ord(c) <= ord(\"9\") "
+        }
+    }
+]

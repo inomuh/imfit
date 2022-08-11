@@ -1,0 +1,4132 @@
+[
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T43_LCPN_91-Decode-ways.py",
+            "Source_Code": "dp = {len(s): 1}",
+            "Mutate_Code": "dp {len(s): 1}"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T43_LCPN_91-Decode-ways.py",
+            "Source_Code": "dp = {len(s): 1}",
+            "Mutate_Code": "dp {len(s): 1}"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T43_LCPN_91-Decode-ways.py",
+            "Source_Code": "dp = {len(s): 1}",
+            "Mutate_Code": "dp += {len(s): 1}"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T43_LCPN_91-Decode-ways.py",
+            "Source_Code": "dp = {len(s): 1}",
+            "Mutate_Code": "dp -= {len(s): 1}"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T43_LCPN_91-Decode-ways.py",
+            "Source_Code": "dp = {len(s): 1}",
+            "Mutate_Code": "dp *= {len(s): 1}"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T43_LCPN_91-Decode-ways.py",
+            "Source_Code": "dp = {len(s): 1}",
+            "Mutate_Code": "dp /= {len(s): 1}"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T43_LCPN_91-Decode-ways.py",
+            "Source_Code": "dp = {len(s): 1}",
+            "Mutate_Code": "dp %= {len(s): 1}"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T43_LCPN_91-Decode-ways.py",
+            "Source_Code": "dp = {len(s): 1}",
+            "Mutate_Code": "dp //= {len(s): 1}"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T43_LCPN_91-Decode-ways.py",
+            "Source_Code": "dp = {len(s): 1}",
+            "Mutate_Code": "dp **= {len(s): 1}"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T43_LCPN_91-Decode-ways.py",
+            "Source_Code": "dp = {len(s): 1}",
+            "Mutate_Code": "dp &= {len(s): 1}"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T43_LCPN_91-Decode-ways.py",
+            "Source_Code": "dp = {len(s): 1}",
+            "Mutate_Code": "dp |= {len(s): 1}"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T43_LCPN_91-Decode-ways.py",
+            "Source_Code": "dp = {len(s): 1}",
+            "Mutate_Code": "dp ^= {len(s): 1}"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T43_LCPN_91-Decode-ways.py",
+            "Source_Code": "dp = {len(s): 1}",
+            "Mutate_Code": "dp >>= {len(s): 1}"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T43_LCPN_91-Decode-ways.py",
+            "Source_Code": "dp = {len(s): 1}",
+            "Mutate_Code": "dp <<= {len(s): 1}"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T43_LCPN_91-Decode-ways.py",
+            "Source_Code": "dp = {len(s): 1}",
+            "Mutate_Code": "dp += {len(s): 1}"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T43_LCPN_91-Decode-ways.py",
+            "Source_Code": "dp = {len(s): 1}",
+            "Mutate_Code": "dp -= {len(s): 1}"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T43_LCPN_91-Decode-ways.py",
+            "Source_Code": "dp = {len(s): 1}",
+            "Mutate_Code": "dp *= {len(s): 1}"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T43_LCPN_91-Decode-ways.py",
+            "Source_Code": "dp = {len(s): 1}",
+            "Mutate_Code": "dp /= {len(s): 1}"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T43_LCPN_91-Decode-ways.py",
+            "Source_Code": "dp = {len(s): 1}",
+            "Mutate_Code": "dp %= {len(s): 1}"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T43_LCPN_91-Decode-ways.py",
+            "Source_Code": "dp = {len(s): 1}",
+            "Mutate_Code": "dp //= {len(s): 1}"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T43_LCPN_91-Decode-ways.py",
+            "Source_Code": "dp = {len(s): 1}",
+            "Mutate_Code": "dp **= {len(s): 1}"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T43_LCPN_91-Decode-ways.py",
+            "Source_Code": "dp = {len(s): 1}",
+            "Mutate_Code": "dp &= {len(s): 1}"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T43_LCPN_91-Decode-ways.py",
+            "Source_Code": "dp = {len(s): 1}",
+            "Mutate_Code": "dp |= {len(s): 1}"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T43_LCPN_91-Decode-ways.py",
+            "Source_Code": "dp = {len(s): 1}",
+            "Mutate_Code": "dp ^= {len(s): 1}"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T43_LCPN_91-Decode-ways.py",
+            "Source_Code": "dp = {len(s): 1}",
+            "Mutate_Code": "dp >>= {len(s): 1}"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T43_LCPN_91-Decode-ways.py",
+            "Source_Code": "dp = {len(s): 1}",
+            "Mutate_Code": "dp <<= {len(s): 1}"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T43_LCPN_91-Decode-ways.py",
+            "Source_Code": "dp = {len(s): 1}",
+            "Mutate_Code": "dp == {len(s): 1}"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T43_LCPN_91-Decode-ways.py",
+            "Source_Code": "dp = {len(s): 1}",
+            "Mutate_Code": "dp +=+= {len(s): 1}"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T43_LCPN_91-Decode-ways.py",
+            "Source_Code": "dp = {len(s): 1}",
+            "Mutate_Code": "dp -=-= {len(s): 1}"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T43_LCPN_91-Decode-ways.py",
+            "Source_Code": "dp = {len(s): 1}",
+            "Mutate_Code": "dp *=*= {len(s): 1}"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T43_LCPN_91-Decode-ways.py",
+            "Source_Code": "dp = {len(s): 1}",
+            "Mutate_Code": "dp /=/= {len(s): 1}"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T43_LCPN_91-Decode-ways.py",
+            "Source_Code": "dp = {len(s): 1}",
+            "Mutate_Code": "dp %=%= {len(s): 1}"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T43_LCPN_91-Decode-ways.py",
+            "Source_Code": "dp = {len(s): 1}",
+            "Mutate_Code": "dp //=//= {len(s): 1}"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T43_LCPN_91-Decode-ways.py",
+            "Source_Code": "dp = {len(s): 1}",
+            "Mutate_Code": "dp **=**= {len(s): 1}"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T43_LCPN_91-Decode-ways.py",
+            "Source_Code": "dp = {len(s): 1}",
+            "Mutate_Code": "dp &=&= {len(s): 1}"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T43_LCPN_91-Decode-ways.py",
+            "Source_Code": "dp = {len(s): 1}",
+            "Mutate_Code": "dp |=|= {len(s): 1}"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T43_LCPN_91-Decode-ways.py",
+            "Source_Code": "dp = {len(s): 1}",
+            "Mutate_Code": "dp ^=^= {len(s): 1}"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T43_LCPN_91-Decode-ways.py",
+            "Source_Code": "dp = {len(s): 1}",
+            "Mutate_Code": "dp >>=>>= {len(s): 1}"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T43_LCPN_91-Decode-ways.py",
+            "Source_Code": "dp = {len(s): 1}",
+            "Mutate_Code": "dp <<=<<={len(s): 1}"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T43_LCPN_91-Decode-ways.py",
+            "Source_Code": "dp = {len(s): 1}",
+            "Mutate_Code": "dp == {len(s): 1}"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T43_LCPN_91-Decode-ways.py",
+            "Source_Code": "dp = {len(s): 1}",
+            "Mutate_Code": "dp +=+= {len(s): 1}"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T43_LCPN_91-Decode-ways.py",
+            "Source_Code": "dp = {len(s): 1}",
+            "Mutate_Code": "dp -=-= {len(s): 1}"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T43_LCPN_91-Decode-ways.py",
+            "Source_Code": "dp = {len(s): 1}",
+            "Mutate_Code": "dp *=*= {len(s): 1}"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T43_LCPN_91-Decode-ways.py",
+            "Source_Code": "dp = {len(s): 1}",
+            "Mutate_Code": "dp /=/= {len(s): 1}"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T43_LCPN_91-Decode-ways.py",
+            "Source_Code": "dp = {len(s): 1}",
+            "Mutate_Code": "dp %=%= {len(s): 1}"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T43_LCPN_91-Decode-ways.py",
+            "Source_Code": "dp = {len(s): 1}",
+            "Mutate_Code": "dp //=//= {len(s): 1}"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T43_LCPN_91-Decode-ways.py",
+            "Source_Code": "dp = {len(s): 1}",
+            "Mutate_Code": "dp **=**= {len(s): 1}"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T43_LCPN_91-Decode-ways.py",
+            "Source_Code": "dp = {len(s): 1}",
+            "Mutate_Code": "dp &=&= {len(s): 1}"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T43_LCPN_91-Decode-ways.py",
+            "Source_Code": "dp = {len(s): 1}",
+            "Mutate_Code": "dp |=|= {len(s): 1}"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T43_LCPN_91-Decode-ways.py",
+            "Source_Code": "dp = {len(s): 1}",
+            "Mutate_Code": "dp ^=^= {len(s): 1}"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T43_LCPN_91-Decode-ways.py",
+            "Source_Code": "dp = {len(s): 1}",
+            "Mutate_Code": "dp >>=>>= {len(s): 1}"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T43_LCPN_91-Decode-ways.py",
+            "Source_Code": "dp = {len(s): 1}",
+            "Mutate_Code": "dp <<=<<={len(s): 1}"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T43_LCPN_91-Decode-ways.py",
+            "Source_Code": "dp = {len(s): 1}",
+            "Mutate_Code": "dp = {len( ): 1}"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T43_LCPN_91-Decode-ways.py",
+            "Source_Code": "if i in dp:",
+            "Mutate_Code": "if i dp:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T43_LCPN_91-Decode-ways.py",
+            "Source_Code": "if i in dp:",
+            "Mutate_Code": "if i is dp:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T43_LCPN_91-Decode-ways.py",
+            "Source_Code": "if i in dp:",
+            "Mutate_Code": "if i is not dp:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T43_LCPN_91-Decode-ways.py",
+            "Source_Code": "if i in dp:",
+            "Mutate_Code": "if i in in dp:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T43_LCPN_91-Decode-ways.py",
+            "Source_Code": "if i in dp:",
+            "Mutate_Code": "if i not in not in dp:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T43_LCPN_91-Decode-ways.py",
+            "Source_Code": "if i in dp:",
+            "Mutate_Code": " "
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T43_LCPN_91-Decode-ways.py",
+            "Source_Code": "if i in dp:",
+            "Mutate_Code": "elif:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T43_LCPN_91-Decode-ways.py",
+            "Source_Code": "if i in dp:",
+            "Mutate_Code": "else:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T43_LCPN_91-Decode-ways.py",
+            "Source_Code": "if i in dp:",
+            "Mutate_Code": "if if"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T43_LCPN_91-Decode-ways.py",
+            "Source_Code": "return dp[i]",
+            "Mutate_Code": " dp[i]"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T43_LCPN_91-Decode-ways.py",
+            "Source_Code": "return dp[i]",
+            "Mutate_Code": "passdp[i]"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T43_LCPN_91-Decode-ways.py",
+            "Source_Code": "return dp[i]",
+            "Mutate_Code": "return returndp[i]"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T43_LCPN_91-Decode-ways.py",
+            "Source_Code": "if s[i] == \"0\":",
+            "Mutate_Code": "if s[i]   \"0\":"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T43_LCPN_91-Decode-ways.py",
+            "Source_Code": "if s[i] == \"0\":",
+            "Mutate_Code": "if s[i] != \"0\":"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T43_LCPN_91-Decode-ways.py",
+            "Source_Code": "if s[i] == \"0\":",
+            "Mutate_Code": "if s[i] > \"0\":"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T43_LCPN_91-Decode-ways.py",
+            "Source_Code": "if s[i] == \"0\":",
+            "Mutate_Code": "if s[i] < \"0\":"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T43_LCPN_91-Decode-ways.py",
+            "Source_Code": "if s[i] == \"0\":",
+            "Mutate_Code": "if s[i] >= \"0\":"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T43_LCPN_91-Decode-ways.py",
+            "Source_Code": "if s[i] == \"0\":",
+            "Mutate_Code": "if s[i] <= \"0\":"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T43_LCPN_91-Decode-ways.py",
+            "Source_Code": "if s[i] == \"0\":",
+            "Mutate_Code": "if s[i]  ====  \"0\":"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T43_LCPN_91-Decode-ways.py",
+            "Source_Code": "if s[i] == \"0\":",
+            "Mutate_Code": "if s[i]  !==  \"0\":"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T43_LCPN_91-Decode-ways.py",
+            "Source_Code": "if s[i] == \"0\":",
+            "Mutate_Code": "if s[i]  >>  \"0\":"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T43_LCPN_91-Decode-ways.py",
+            "Source_Code": "if s[i] == \"0\":",
+            "Mutate_Code": "if s[i]  <<  \"0\":"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T43_LCPN_91-Decode-ways.py",
+            "Source_Code": "if s[i] == \"0\":",
+            "Mutate_Code": "if s[i]  >=>=  \"0\":"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T43_LCPN_91-Decode-ways.py",
+            "Source_Code": "if s[i] == \"0\":",
+            "Mutate_Code": "if s[i]  <=<=  \"0\":"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T43_LCPN_91-Decode-ways.py",
+            "Source_Code": "if s[i] == \"0\":",
+            "Mutate_Code": " "
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T43_LCPN_91-Decode-ways.py",
+            "Source_Code": "if s[i] == \"0\":",
+            "Mutate_Code": "elif:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T43_LCPN_91-Decode-ways.py",
+            "Source_Code": "if s[i] == \"0\":",
+            "Mutate_Code": "else:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T43_LCPN_91-Decode-ways.py",
+            "Source_Code": "if s[i] == \"0\":",
+            "Mutate_Code": "if if"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T43_LCPN_91-Decode-ways.py",
+            "Source_Code": "return 0",
+            "Mutate_Code": " 0"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T43_LCPN_91-Decode-ways.py",
+            "Source_Code": "return 0",
+            "Mutate_Code": "pass0"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T43_LCPN_91-Decode-ways.py",
+            "Source_Code": "return 0",
+            "Mutate_Code": "return return0"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T43_LCPN_91-Decode-ways.py",
+            "Source_Code": "if i + 1 < len(s) and (",
+            "Mutate_Code": "if i 1 < len(s) and ("
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T43_LCPN_91-Decode-ways.py",
+            "Source_Code": "if i + 1 < len(s) and (",
+            "Mutate_Code": "if i - 1 < len(s) and ("
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T43_LCPN_91-Decode-ways.py",
+            "Source_Code": "if i + 1 < len(s) and (",
+            "Mutate_Code": "if i * 1 < len(s) and ("
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T43_LCPN_91-Decode-ways.py",
+            "Source_Code": "if i + 1 < len(s) and (",
+            "Mutate_Code": "if i / 1 < len(s) and ("
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T43_LCPN_91-Decode-ways.py",
+            "Source_Code": "if i + 1 < len(s) and (",
+            "Mutate_Code": "if i % 1 < len(s) and ("
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T43_LCPN_91-Decode-ways.py",
+            "Source_Code": "if i + 1 < len(s) and (",
+            "Mutate_Code": "if i ** 1 < len(s) and ("
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T43_LCPN_91-Decode-ways.py",
+            "Source_Code": "if i + 1 < len(s) and (",
+            "Mutate_Code": "if i // 1 < len(s) and ("
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T43_LCPN_91-Decode-ways.py",
+            "Source_Code": "if i + 1 < len(s) and (",
+            "Mutate_Code": "if i ++ 1 < len(s) and ("
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T43_LCPN_91-Decode-ways.py",
+            "Source_Code": "if i + 1 < len(s) and (",
+            "Mutate_Code": "if i -- 1 < len(s) and ("
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T43_LCPN_91-Decode-ways.py",
+            "Source_Code": "if i + 1 < len(s) and (",
+            "Mutate_Code": "if i ** 1 < len(s) and ("
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T43_LCPN_91-Decode-ways.py",
+            "Source_Code": "if i + 1 < len(s) and (",
+            "Mutate_Code": "if i // 1 < len(s) and ("
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T43_LCPN_91-Decode-ways.py",
+            "Source_Code": "if i + 1 < len(s) and (",
+            "Mutate_Code": "if i %% 1 < len(s) and ("
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T43_LCPN_91-Decode-ways.py",
+            "Source_Code": "if i + 1 < len(s) and (",
+            "Mutate_Code": "if i **** 1 < len(s) and ("
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T43_LCPN_91-Decode-ways.py",
+            "Source_Code": "if i + 1 < len(s) and (",
+            "Mutate_Code": "if i //// 1 < len(s) and ("
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T43_LCPN_91-Decode-ways.py",
+            "Source_Code": "if i + 1 < len(s) and (",
+            "Mutate_Code": "if i + 1   len(s) and ("
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T43_LCPN_91-Decode-ways.py",
+            "Source_Code": "if i + 1 < len(s) and (",
+            "Mutate_Code": "if i + 1 == len(s) and ("
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T43_LCPN_91-Decode-ways.py",
+            "Source_Code": "if i + 1 < len(s) and (",
+            "Mutate_Code": "if i + 1 != len(s) and ("
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T43_LCPN_91-Decode-ways.py",
+            "Source_Code": "if i + 1 < len(s) and (",
+            "Mutate_Code": "if i + 1 > len(s) and ("
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T43_LCPN_91-Decode-ways.py",
+            "Source_Code": "if i + 1 < len(s) and (",
+            "Mutate_Code": "if i + 1 >= len(s) and ("
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T43_LCPN_91-Decode-ways.py",
+            "Source_Code": "if i + 1 < len(s) and (",
+            "Mutate_Code": "if i + 1 <= len(s) and ("
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T43_LCPN_91-Decode-ways.py",
+            "Source_Code": "if i + 1 < len(s) and (",
+            "Mutate_Code": "if i + 1  ====  len(s) and ("
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T43_LCPN_91-Decode-ways.py",
+            "Source_Code": "if i + 1 < len(s) and (",
+            "Mutate_Code": "if i + 1  !==  len(s) and ("
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T43_LCPN_91-Decode-ways.py",
+            "Source_Code": "if i + 1 < len(s) and (",
+            "Mutate_Code": "if i + 1  >>  len(s) and ("
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T43_LCPN_91-Decode-ways.py",
+            "Source_Code": "if i + 1 < len(s) and (",
+            "Mutate_Code": "if i + 1  <<  len(s) and ("
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T43_LCPN_91-Decode-ways.py",
+            "Source_Code": "if i + 1 < len(s) and (",
+            "Mutate_Code": "if i + 1  >=>=  len(s) and ("
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T43_LCPN_91-Decode-ways.py",
+            "Source_Code": "if i + 1 < len(s) and (",
+            "Mutate_Code": "if i + 1  <=<=  len(s) and ("
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T43_LCPN_91-Decode-ways.py",
+            "Source_Code": "if i + 1 < len(s) and (",
+            "Mutate_Code": "if i + 1 < len(s) ("
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T43_LCPN_91-Decode-ways.py",
+            "Source_Code": "if i + 1 < len(s) and (",
+            "Mutate_Code": "if i + 1 < len(s) or ("
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T43_LCPN_91-Decode-ways.py",
+            "Source_Code": "if i + 1 < len(s) and (",
+            "Mutate_Code": "if i + 1 < len(s) not ("
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T43_LCPN_91-Decode-ways.py",
+            "Source_Code": "if i + 1 < len(s) and (",
+            "Mutate_Code": "if i + 1 < len(s) and and ("
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T43_LCPN_91-Decode-ways.py",
+            "Source_Code": "if i + 1 < len(s) and (",
+            "Mutate_Code": "if i + 1 < len(s) or or ("
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T43_LCPN_91-Decode-ways.py",
+            "Source_Code": "if i + 1 < len(s) and (",
+            "Mutate_Code": "if i + 1 < len(s) not not ("
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T43_LCPN_91-Decode-ways.py",
+            "Source_Code": "if i + 1 < len(s) and (",
+            "Mutate_Code": "if i + 1 < len( ) and ("
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T43_LCPN_91-Decode-ways.py",
+            "Source_Code": "if i + 1 < len(s) and (",
+            "Mutate_Code": "if i 1 < len(s) and ("
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T43_LCPN_91-Decode-ways.py",
+            "Source_Code": "if i + 1 < len(s) and (",
+            "Mutate_Code": "if i - 1 < len(s) and ("
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T43_LCPN_91-Decode-ways.py",
+            "Source_Code": "if i + 1 < len(s) and (",
+            "Mutate_Code": "if i * 1 < len(s) and ("
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T43_LCPN_91-Decode-ways.py",
+            "Source_Code": "if i + 1 < len(s) and (",
+            "Mutate_Code": "if i / 1 < len(s) and ("
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T43_LCPN_91-Decode-ways.py",
+            "Source_Code": "if i + 1 < len(s) and (",
+            "Mutate_Code": "if i % 1 < len(s) and ("
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T43_LCPN_91-Decode-ways.py",
+            "Source_Code": "if i + 1 < len(s) and (",
+            "Mutate_Code": "if i ** 1 < len(s) and ("
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T43_LCPN_91-Decode-ways.py",
+            "Source_Code": "if i + 1 < len(s) and (",
+            "Mutate_Code": "if i // 1 < len(s) and ("
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T43_LCPN_91-Decode-ways.py",
+            "Source_Code": "if i + 1 < len(s) and (",
+            "Mutate_Code": "if i ++ 1 < len(s) and ("
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T43_LCPN_91-Decode-ways.py",
+            "Source_Code": "if i + 1 < len(s) and (",
+            "Mutate_Code": "if i -- 1 < len(s) and ("
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T43_LCPN_91-Decode-ways.py",
+            "Source_Code": "if i + 1 < len(s) and (",
+            "Mutate_Code": "if i ** 1 < len(s) and ("
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T43_LCPN_91-Decode-ways.py",
+            "Source_Code": "if i + 1 < len(s) and (",
+            "Mutate_Code": "if i // 1 < len(s) and ("
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T43_LCPN_91-Decode-ways.py",
+            "Source_Code": "if i + 1 < len(s) and (",
+            "Mutate_Code": "if i %% 1 < len(s) and ("
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T43_LCPN_91-Decode-ways.py",
+            "Source_Code": "if i + 1 < len(s) and (",
+            "Mutate_Code": "if i **** 1 < len(s) and ("
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T43_LCPN_91-Decode-ways.py",
+            "Source_Code": "if i + 1 < len(s) and (",
+            "Mutate_Code": "if i //// 1 < len(s) and ("
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T43_LCPN_91-Decode-ways.py",
+            "Source_Code": "if i + 1 < len(s) and (",
+            "Mutate_Code": "if i + 1   len(s) and ("
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T43_LCPN_91-Decode-ways.py",
+            "Source_Code": "if i + 1 < len(s) and (",
+            "Mutate_Code": "if i + 1 == len(s) and ("
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T43_LCPN_91-Decode-ways.py",
+            "Source_Code": "if i + 1 < len(s) and (",
+            "Mutate_Code": "if i + 1 != len(s) and ("
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T43_LCPN_91-Decode-ways.py",
+            "Source_Code": "if i + 1 < len(s) and (",
+            "Mutate_Code": "if i + 1 > len(s) and ("
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T43_LCPN_91-Decode-ways.py",
+            "Source_Code": "if i + 1 < len(s) and (",
+            "Mutate_Code": "if i + 1 >= len(s) and ("
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T43_LCPN_91-Decode-ways.py",
+            "Source_Code": "if i + 1 < len(s) and (",
+            "Mutate_Code": "if i + 1 <= len(s) and ("
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T43_LCPN_91-Decode-ways.py",
+            "Source_Code": "if i + 1 < len(s) and (",
+            "Mutate_Code": "if i + 1  ====  len(s) and ("
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T43_LCPN_91-Decode-ways.py",
+            "Source_Code": "if i + 1 < len(s) and (",
+            "Mutate_Code": "if i + 1  !==  len(s) and ("
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T43_LCPN_91-Decode-ways.py",
+            "Source_Code": "if i + 1 < len(s) and (",
+            "Mutate_Code": "if i + 1  >>  len(s) and ("
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T43_LCPN_91-Decode-ways.py",
+            "Source_Code": "if i + 1 < len(s) and (",
+            "Mutate_Code": "if i + 1  <<  len(s) and ("
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T43_LCPN_91-Decode-ways.py",
+            "Source_Code": "if i + 1 < len(s) and (",
+            "Mutate_Code": "if i + 1  >=>=  len(s) and ("
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T43_LCPN_91-Decode-ways.py",
+            "Source_Code": "if i + 1 < len(s) and (",
+            "Mutate_Code": "if i + 1  <=<=  len(s) and ("
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T43_LCPN_91-Decode-ways.py",
+            "Source_Code": "if i + 1 < len(s) and (",
+            "Mutate_Code": "if i + 1 < len(s) ("
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T43_LCPN_91-Decode-ways.py",
+            "Source_Code": "if i + 1 < len(s) and (",
+            "Mutate_Code": "if i + 1 < len(s) or ("
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T43_LCPN_91-Decode-ways.py",
+            "Source_Code": "if i + 1 < len(s) and (",
+            "Mutate_Code": "if i + 1 < len(s) not ("
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T43_LCPN_91-Decode-ways.py",
+            "Source_Code": "if i + 1 < len(s) and (",
+            "Mutate_Code": "if i + 1 < len(s) and and ("
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T43_LCPN_91-Decode-ways.py",
+            "Source_Code": "if i + 1 < len(s) and (",
+            "Mutate_Code": "if i + 1 < len(s) or or ("
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T43_LCPN_91-Decode-ways.py",
+            "Source_Code": "if i + 1 < len(s) and (",
+            "Mutate_Code": "if i + 1 < len(s) not not ("
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T43_LCPN_91-Decode-ways.py",
+            "Source_Code": "if i + 1 < len(s) and (",
+            "Mutate_Code": "if i + 1 < len( ) and ("
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T43_LCPN_91-Decode-ways.py",
+            "Source_Code": "s[i] == \"1\" or s[i] == \"2\" and s[i + 1] in \"0123456\"",
+            "Mutate_Code": "s[i] == \"1\" or s[i] == \"2\" and s[i 1] in \"0123456\""
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T43_LCPN_91-Decode-ways.py",
+            "Source_Code": "s[i] == \"1\" or s[i] == \"2\" and s[i + 1] in \"0123456\"",
+            "Mutate_Code": "s[i] == \"1\" or s[i] == \"2\" and s[i - 1] in \"0123456\""
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T43_LCPN_91-Decode-ways.py",
+            "Source_Code": "s[i] == \"1\" or s[i] == \"2\" and s[i + 1] in \"0123456\"",
+            "Mutate_Code": "s[i] == \"1\" or s[i] == \"2\" and s[i * 1] in \"0123456\""
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T43_LCPN_91-Decode-ways.py",
+            "Source_Code": "s[i] == \"1\" or s[i] == \"2\" and s[i + 1] in \"0123456\"",
+            "Mutate_Code": "s[i] == \"1\" or s[i] == \"2\" and s[i / 1] in \"0123456\""
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T43_LCPN_91-Decode-ways.py",
+            "Source_Code": "s[i] == \"1\" or s[i] == \"2\" and s[i + 1] in \"0123456\"",
+            "Mutate_Code": "s[i] == \"1\" or s[i] == \"2\" and s[i % 1] in \"0123456\""
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T43_LCPN_91-Decode-ways.py",
+            "Source_Code": "s[i] == \"1\" or s[i] == \"2\" and s[i + 1] in \"0123456\"",
+            "Mutate_Code": "s[i] == \"1\" or s[i] == \"2\" and s[i ** 1] in \"0123456\""
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T43_LCPN_91-Decode-ways.py",
+            "Source_Code": "s[i] == \"1\" or s[i] == \"2\" and s[i + 1] in \"0123456\"",
+            "Mutate_Code": "s[i] == \"1\" or s[i] == \"2\" and s[i // 1] in \"0123456\""
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T43_LCPN_91-Decode-ways.py",
+            "Source_Code": "s[i] == \"1\" or s[i] == \"2\" and s[i + 1] in \"0123456\"",
+            "Mutate_Code": "s[i] == \"1\" or s[i] == \"2\" and s[i ++ 1] in \"0123456\""
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T43_LCPN_91-Decode-ways.py",
+            "Source_Code": "s[i] == \"1\" or s[i] == \"2\" and s[i + 1] in \"0123456\"",
+            "Mutate_Code": "s[i] == \"1\" or s[i] == \"2\" and s[i -- 1] in \"0123456\""
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T43_LCPN_91-Decode-ways.py",
+            "Source_Code": "s[i] == \"1\" or s[i] == \"2\" and s[i + 1] in \"0123456\"",
+            "Mutate_Code": "s[i] == \"1\" or s[i] == \"2\" and s[i ** 1] in \"0123456\""
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T43_LCPN_91-Decode-ways.py",
+            "Source_Code": "s[i] == \"1\" or s[i] == \"2\" and s[i + 1] in \"0123456\"",
+            "Mutate_Code": "s[i] == \"1\" or s[i] == \"2\" and s[i // 1] in \"0123456\""
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T43_LCPN_91-Decode-ways.py",
+            "Source_Code": "s[i] == \"1\" or s[i] == \"2\" and s[i + 1] in \"0123456\"",
+            "Mutate_Code": "s[i] == \"1\" or s[i] == \"2\" and s[i %% 1] in \"0123456\""
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T43_LCPN_91-Decode-ways.py",
+            "Source_Code": "s[i] == \"1\" or s[i] == \"2\" and s[i + 1] in \"0123456\"",
+            "Mutate_Code": "s[i] == \"1\" or s[i] == \"2\" and s[i **** 1] in \"0123456\""
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T43_LCPN_91-Decode-ways.py",
+            "Source_Code": "s[i] == \"1\" or s[i] == \"2\" and s[i + 1] in \"0123456\"",
+            "Mutate_Code": "s[i] == \"1\" or s[i] == \"2\" and s[i //// 1] in \"0123456\""
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T43_LCPN_91-Decode-ways.py",
+            "Source_Code": "s[i] == \"1\" or s[i] == \"2\" and s[i + 1] in \"0123456\"",
+            "Mutate_Code": "s[i]   \"1\" or s[i] == \"2\" and s[i + 1] in \"0123456\""
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T43_LCPN_91-Decode-ways.py",
+            "Source_Code": "s[i] == \"1\" or s[i] == \"2\" and s[i + 1] in \"0123456\"",
+            "Mutate_Code": "s[i] == \"1\" or s[i]   \"2\" and s[i + 1] in \"0123456\""
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T43_LCPN_91-Decode-ways.py",
+            "Source_Code": "s[i] == \"1\" or s[i] == \"2\" and s[i + 1] in \"0123456\"",
+            "Mutate_Code": "s[i] != \"1\" or s[i] == \"2\" and s[i + 1] in \"0123456\""
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T43_LCPN_91-Decode-ways.py",
+            "Source_Code": "s[i] == \"1\" or s[i] == \"2\" and s[i + 1] in \"0123456\"",
+            "Mutate_Code": "s[i] > \"1\" or s[i] == \"2\" and s[i + 1] in \"0123456\""
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T43_LCPN_91-Decode-ways.py",
+            "Source_Code": "s[i] == \"1\" or s[i] == \"2\" and s[i + 1] in \"0123456\"",
+            "Mutate_Code": "s[i] < \"1\" or s[i] == \"2\" and s[i + 1] in \"0123456\""
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T43_LCPN_91-Decode-ways.py",
+            "Source_Code": "s[i] == \"1\" or s[i] == \"2\" and s[i + 1] in \"0123456\"",
+            "Mutate_Code": "s[i] >= \"1\" or s[i] == \"2\" and s[i + 1] in \"0123456\""
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T43_LCPN_91-Decode-ways.py",
+            "Source_Code": "s[i] == \"1\" or s[i] == \"2\" and s[i + 1] in \"0123456\"",
+            "Mutate_Code": "s[i] <= \"1\" or s[i] == \"2\" and s[i + 1] in \"0123456\""
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T43_LCPN_91-Decode-ways.py",
+            "Source_Code": "s[i] == \"1\" or s[i] == \"2\" and s[i + 1] in \"0123456\"",
+            "Mutate_Code": "s[i] == \"1\" or s[i] != \"2\" and s[i + 1] in \"0123456\""
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T43_LCPN_91-Decode-ways.py",
+            "Source_Code": "s[i] == \"1\" or s[i] == \"2\" and s[i + 1] in \"0123456\"",
+            "Mutate_Code": "s[i] == \"1\" or s[i] > \"2\" and s[i + 1] in \"0123456\""
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T43_LCPN_91-Decode-ways.py",
+            "Source_Code": "s[i] == \"1\" or s[i] == \"2\" and s[i + 1] in \"0123456\"",
+            "Mutate_Code": "s[i] == \"1\" or s[i] < \"2\" and s[i + 1] in \"0123456\""
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T43_LCPN_91-Decode-ways.py",
+            "Source_Code": "s[i] == \"1\" or s[i] == \"2\" and s[i + 1] in \"0123456\"",
+            "Mutate_Code": "s[i] == \"1\" or s[i] >= \"2\" and s[i + 1] in \"0123456\""
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T43_LCPN_91-Decode-ways.py",
+            "Source_Code": "s[i] == \"1\" or s[i] == \"2\" and s[i + 1] in \"0123456\"",
+            "Mutate_Code": "s[i] == \"1\" or s[i] <= \"2\" and s[i + 1] in \"0123456\""
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T43_LCPN_91-Decode-ways.py",
+            "Source_Code": "s[i] == \"1\" or s[i] == \"2\" and s[i + 1] in \"0123456\"",
+            "Mutate_Code": "s[i]  ====  \"1\" or s[i] == \"2\" and s[i + 1] in \"0123456\""
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T43_LCPN_91-Decode-ways.py",
+            "Source_Code": "s[i] == \"1\" or s[i] == \"2\" and s[i + 1] in \"0123456\"",
+            "Mutate_Code": "s[i]  !==  \"1\" or s[i] == \"2\" and s[i + 1] in \"0123456\""
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T43_LCPN_91-Decode-ways.py",
+            "Source_Code": "s[i] == \"1\" or s[i] == \"2\" and s[i + 1] in \"0123456\"",
+            "Mutate_Code": "s[i]  >>  \"1\" or s[i] == \"2\" and s[i + 1] in \"0123456\""
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T43_LCPN_91-Decode-ways.py",
+            "Source_Code": "s[i] == \"1\" or s[i] == \"2\" and s[i + 1] in \"0123456\"",
+            "Mutate_Code": "s[i]  <<  \"1\" or s[i] == \"2\" and s[i + 1] in \"0123456\""
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T43_LCPN_91-Decode-ways.py",
+            "Source_Code": "s[i] == \"1\" or s[i] == \"2\" and s[i + 1] in \"0123456\"",
+            "Mutate_Code": "s[i]  >=>=  \"1\" or s[i] == \"2\" and s[i + 1] in \"0123456\""
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T43_LCPN_91-Decode-ways.py",
+            "Source_Code": "s[i] == \"1\" or s[i] == \"2\" and s[i + 1] in \"0123456\"",
+            "Mutate_Code": "s[i]  <=<=  \"1\" or s[i] == \"2\" and s[i + 1] in \"0123456\""
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T43_LCPN_91-Decode-ways.py",
+            "Source_Code": "s[i] == \"1\" or s[i] == \"2\" and s[i + 1] in \"0123456\"",
+            "Mutate_Code": "s[i] == \"1\" or s[i]  ====  \"2\" and s[i + 1] in \"0123456\""
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T43_LCPN_91-Decode-ways.py",
+            "Source_Code": "s[i] == \"1\" or s[i] == \"2\" and s[i + 1] in \"0123456\"",
+            "Mutate_Code": "s[i] == \"1\" or s[i]  !==  \"2\" and s[i + 1] in \"0123456\""
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T43_LCPN_91-Decode-ways.py",
+            "Source_Code": "s[i] == \"1\" or s[i] == \"2\" and s[i + 1] in \"0123456\"",
+            "Mutate_Code": "s[i] == \"1\" or s[i]  >>  \"2\" and s[i + 1] in \"0123456\""
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T43_LCPN_91-Decode-ways.py",
+            "Source_Code": "s[i] == \"1\" or s[i] == \"2\" and s[i + 1] in \"0123456\"",
+            "Mutate_Code": "s[i] == \"1\" or s[i]  <<  \"2\" and s[i + 1] in \"0123456\""
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T43_LCPN_91-Decode-ways.py",
+            "Source_Code": "s[i] == \"1\" or s[i] == \"2\" and s[i + 1] in \"0123456\"",
+            "Mutate_Code": "s[i] == \"1\" or s[i]  >=>=  \"2\" and s[i + 1] in \"0123456\""
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T43_LCPN_91-Decode-ways.py",
+            "Source_Code": "s[i] == \"1\" or s[i] == \"2\" and s[i + 1] in \"0123456\"",
+            "Mutate_Code": "s[i] == \"1\" or s[i]  <=<=  \"2\" and s[i + 1] in \"0123456\""
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T43_LCPN_91-Decode-ways.py",
+            "Source_Code": "s[i] == \"1\" or s[i] == \"2\" and s[i + 1] in \"0123456\"",
+            "Mutate_Code": "s[i] == \"1\" or s[i] == \"2\" s[i + 1] in \"0123456\""
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T43_LCPN_91-Decode-ways.py",
+            "Source_Code": "s[i] == \"1\" or s[i] == \"2\" and s[i + 1] in \"0123456\"",
+            "Mutate_Code": "s[i] == \"1\" s[i] == \"2\" and s[i + 1] in \"0123456\""
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T43_LCPN_91-Decode-ways.py",
+            "Source_Code": "s[i] == \"1\" or s[i] == \"2\" and s[i + 1] in \"0123456\"",
+            "Mutate_Code": "s[i] == \"1\" or s[i] == \"2\" or s[i + 1] in \"0123456\""
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T43_LCPN_91-Decode-ways.py",
+            "Source_Code": "s[i] == \"1\" or s[i] == \"2\" and s[i + 1] in \"0123456\"",
+            "Mutate_Code": "s[i] == \"1\" or s[i] == \"2\" not s[i + 1] in \"0123456\""
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T43_LCPN_91-Decode-ways.py",
+            "Source_Code": "s[i] == \"1\" or s[i] == \"2\" and s[i + 1] in \"0123456\"",
+            "Mutate_Code": "s[i] == \"1\" and s[i] == \"2\" and s[i + 1] in \"0123456\""
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T43_LCPN_91-Decode-ways.py",
+            "Source_Code": "s[i] == \"1\" or s[i] == \"2\" and s[i + 1] in \"0123456\"",
+            "Mutate_Code": "s[i] == \"1\" not s[i] == \"2\" and s[i + 1] in \"0123456\""
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T43_LCPN_91-Decode-ways.py",
+            "Source_Code": "s[i] == \"1\" or s[i] == \"2\" and s[i + 1] in \"0123456\"",
+            "Mutate_Code": "s[i] == \"1\" or s[i] == \"2\" and and s[i + 1] in \"0123456\""
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T43_LCPN_91-Decode-ways.py",
+            "Source_Code": "s[i] == \"1\" or s[i] == \"2\" and s[i + 1] in \"0123456\"",
+            "Mutate_Code": "s[i] == \"1\" or s[i] == \"2\" or or s[i + 1] in \"0123456\""
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T43_LCPN_91-Decode-ways.py",
+            "Source_Code": "s[i] == \"1\" or s[i] == \"2\" and s[i + 1] in \"0123456\"",
+            "Mutate_Code": "s[i] == \"1\" or s[i] == \"2\" not not s[i + 1] in \"0123456\""
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T43_LCPN_91-Decode-ways.py",
+            "Source_Code": "s[i] == \"1\" or s[i] == \"2\" and s[i + 1] in \"0123456\"",
+            "Mutate_Code": "s[i] == \"1\" and and s[i] == \"2\" and s[i + 1] in \"0123456\""
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T43_LCPN_91-Decode-ways.py",
+            "Source_Code": "s[i] == \"1\" or s[i] == \"2\" and s[i + 1] in \"0123456\"",
+            "Mutate_Code": "s[i] == \"1\" or or s[i] == \"2\" and s[i + 1] in \"0123456\""
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T43_LCPN_91-Decode-ways.py",
+            "Source_Code": "s[i] == \"1\" or s[i] == \"2\" and s[i + 1] in \"0123456\"",
+            "Mutate_Code": "s[i] == \"1\" not not s[i] == \"2\" and s[i + 1] in \"0123456\""
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T43_LCPN_91-Decode-ways.py",
+            "Source_Code": "s[i] == \"1\" or s[i] == \"2\" and s[i + 1] in \"0123456\"",
+            "Mutate_Code": "s[i] == \"1\" or s[i] == \"2\" and s[i + 1] \"0123456\""
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T43_LCPN_91-Decode-ways.py",
+            "Source_Code": "s[i] == \"1\" or s[i] == \"2\" and s[i + 1] in \"0123456\"",
+            "Mutate_Code": "s[i] == \"1\" or s[i] == \"2\" and s[i + 1] is \"0123456\""
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T43_LCPN_91-Decode-ways.py",
+            "Source_Code": "s[i] == \"1\" or s[i] == \"2\" and s[i + 1] in \"0123456\"",
+            "Mutate_Code": "s[i] == \"1\" or s[i] == \"2\" and s[i + 1] is not \"0123456\""
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T43_LCPN_91-Decode-ways.py",
+            "Source_Code": "s[i] == \"1\" or s[i] == \"2\" and s[i + 1] in \"0123456\"",
+            "Mutate_Code": "s[i] == \"1\" or s[i] == \"2\" and s[i + 1] in in \"0123456\""
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T43_LCPN_91-Decode-ways.py",
+            "Source_Code": "s[i] == \"1\" or s[i] == \"2\" and s[i + 1] in \"0123456\"",
+            "Mutate_Code": "s[i] == \"1\" or s[i] == \"2\" and s[i + 1] not in not in \"0123456\""
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T43_LCPN_91-Decode-ways.py",
+            "Source_Code": "s[i] == \"1\" or s[i] == \"2\" and s[i + 1] in \"0123456\"",
+            "Mutate_Code": "s[i] == \"1\" or s[i] == \"2\" and s[i 1] in \"0123456\""
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T43_LCPN_91-Decode-ways.py",
+            "Source_Code": "s[i] == \"1\" or s[i] == \"2\" and s[i + 1] in \"0123456\"",
+            "Mutate_Code": "s[i] == \"1\" or s[i] == \"2\" and s[i - 1] in \"0123456\""
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T43_LCPN_91-Decode-ways.py",
+            "Source_Code": "s[i] == \"1\" or s[i] == \"2\" and s[i + 1] in \"0123456\"",
+            "Mutate_Code": "s[i] == \"1\" or s[i] == \"2\" and s[i * 1] in \"0123456\""
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T43_LCPN_91-Decode-ways.py",
+            "Source_Code": "s[i] == \"1\" or s[i] == \"2\" and s[i + 1] in \"0123456\"",
+            "Mutate_Code": "s[i] == \"1\" or s[i] == \"2\" and s[i / 1] in \"0123456\""
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T43_LCPN_91-Decode-ways.py",
+            "Source_Code": "s[i] == \"1\" or s[i] == \"2\" and s[i + 1] in \"0123456\"",
+            "Mutate_Code": "s[i] == \"1\" or s[i] == \"2\" and s[i % 1] in \"0123456\""
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T43_LCPN_91-Decode-ways.py",
+            "Source_Code": "s[i] == \"1\" or s[i] == \"2\" and s[i + 1] in \"0123456\"",
+            "Mutate_Code": "s[i] == \"1\" or s[i] == \"2\" and s[i ** 1] in \"0123456\""
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T43_LCPN_91-Decode-ways.py",
+            "Source_Code": "s[i] == \"1\" or s[i] == \"2\" and s[i + 1] in \"0123456\"",
+            "Mutate_Code": "s[i] == \"1\" or s[i] == \"2\" and s[i // 1] in \"0123456\""
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T43_LCPN_91-Decode-ways.py",
+            "Source_Code": "s[i] == \"1\" or s[i] == \"2\" and s[i + 1] in \"0123456\"",
+            "Mutate_Code": "s[i] == \"1\" or s[i] == \"2\" and s[i ++ 1] in \"0123456\""
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T43_LCPN_91-Decode-ways.py",
+            "Source_Code": "s[i] == \"1\" or s[i] == \"2\" and s[i + 1] in \"0123456\"",
+            "Mutate_Code": "s[i] == \"1\" or s[i] == \"2\" and s[i -- 1] in \"0123456\""
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T43_LCPN_91-Decode-ways.py",
+            "Source_Code": "s[i] == \"1\" or s[i] == \"2\" and s[i + 1] in \"0123456\"",
+            "Mutate_Code": "s[i] == \"1\" or s[i] == \"2\" and s[i ** 1] in \"0123456\""
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T43_LCPN_91-Decode-ways.py",
+            "Source_Code": "s[i] == \"1\" or s[i] == \"2\" and s[i + 1] in \"0123456\"",
+            "Mutate_Code": "s[i] == \"1\" or s[i] == \"2\" and s[i // 1] in \"0123456\""
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T43_LCPN_91-Decode-ways.py",
+            "Source_Code": "s[i] == \"1\" or s[i] == \"2\" and s[i + 1] in \"0123456\"",
+            "Mutate_Code": "s[i] == \"1\" or s[i] == \"2\" and s[i %% 1] in \"0123456\""
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T43_LCPN_91-Decode-ways.py",
+            "Source_Code": "s[i] == \"1\" or s[i] == \"2\" and s[i + 1] in \"0123456\"",
+            "Mutate_Code": "s[i] == \"1\" or s[i] == \"2\" and s[i **** 1] in \"0123456\""
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T43_LCPN_91-Decode-ways.py",
+            "Source_Code": "s[i] == \"1\" or s[i] == \"2\" and s[i + 1] in \"0123456\"",
+            "Mutate_Code": "s[i] == \"1\" or s[i] == \"2\" and s[i //// 1] in \"0123456\""
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T43_LCPN_91-Decode-ways.py",
+            "Source_Code": "s[i] == \"1\" or s[i] == \"2\" and s[i + 1] in \"0123456\"",
+            "Mutate_Code": "s[i]   \"1\" or s[i] == \"2\" and s[i + 1] in \"0123456\""
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T43_LCPN_91-Decode-ways.py",
+            "Source_Code": "s[i] == \"1\" or s[i] == \"2\" and s[i + 1] in \"0123456\"",
+            "Mutate_Code": "s[i] == \"1\" or s[i]   \"2\" and s[i + 1] in \"0123456\""
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T43_LCPN_91-Decode-ways.py",
+            "Source_Code": "s[i] == \"1\" or s[i] == \"2\" and s[i + 1] in \"0123456\"",
+            "Mutate_Code": "s[i] != \"1\" or s[i] == \"2\" and s[i + 1] in \"0123456\""
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T43_LCPN_91-Decode-ways.py",
+            "Source_Code": "s[i] == \"1\" or s[i] == \"2\" and s[i + 1] in \"0123456\"",
+            "Mutate_Code": "s[i] > \"1\" or s[i] == \"2\" and s[i + 1] in \"0123456\""
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T43_LCPN_91-Decode-ways.py",
+            "Source_Code": "s[i] == \"1\" or s[i] == \"2\" and s[i + 1] in \"0123456\"",
+            "Mutate_Code": "s[i] < \"1\" or s[i] == \"2\" and s[i + 1] in \"0123456\""
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T43_LCPN_91-Decode-ways.py",
+            "Source_Code": "s[i] == \"1\" or s[i] == \"2\" and s[i + 1] in \"0123456\"",
+            "Mutate_Code": "s[i] >= \"1\" or s[i] == \"2\" and s[i + 1] in \"0123456\""
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T43_LCPN_91-Decode-ways.py",
+            "Source_Code": "s[i] == \"1\" or s[i] == \"2\" and s[i + 1] in \"0123456\"",
+            "Mutate_Code": "s[i] <= \"1\" or s[i] == \"2\" and s[i + 1] in \"0123456\""
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T43_LCPN_91-Decode-ways.py",
+            "Source_Code": "s[i] == \"1\" or s[i] == \"2\" and s[i + 1] in \"0123456\"",
+            "Mutate_Code": "s[i] == \"1\" or s[i] != \"2\" and s[i + 1] in \"0123456\""
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T43_LCPN_91-Decode-ways.py",
+            "Source_Code": "s[i] == \"1\" or s[i] == \"2\" and s[i + 1] in \"0123456\"",
+            "Mutate_Code": "s[i] == \"1\" or s[i] > \"2\" and s[i + 1] in \"0123456\""
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T43_LCPN_91-Decode-ways.py",
+            "Source_Code": "s[i] == \"1\" or s[i] == \"2\" and s[i + 1] in \"0123456\"",
+            "Mutate_Code": "s[i] == \"1\" or s[i] < \"2\" and s[i + 1] in \"0123456\""
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T43_LCPN_91-Decode-ways.py",
+            "Source_Code": "s[i] == \"1\" or s[i] == \"2\" and s[i + 1] in \"0123456\"",
+            "Mutate_Code": "s[i] == \"1\" or s[i] >= \"2\" and s[i + 1] in \"0123456\""
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T43_LCPN_91-Decode-ways.py",
+            "Source_Code": "s[i] == \"1\" or s[i] == \"2\" and s[i + 1] in \"0123456\"",
+            "Mutate_Code": "s[i] == \"1\" or s[i] <= \"2\" and s[i + 1] in \"0123456\""
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T43_LCPN_91-Decode-ways.py",
+            "Source_Code": "s[i] == \"1\" or s[i] == \"2\" and s[i + 1] in \"0123456\"",
+            "Mutate_Code": "s[i]  ====  \"1\" or s[i] == \"2\" and s[i + 1] in \"0123456\""
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T43_LCPN_91-Decode-ways.py",
+            "Source_Code": "s[i] == \"1\" or s[i] == \"2\" and s[i + 1] in \"0123456\"",
+            "Mutate_Code": "s[i]  !==  \"1\" or s[i] == \"2\" and s[i + 1] in \"0123456\""
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T43_LCPN_91-Decode-ways.py",
+            "Source_Code": "s[i] == \"1\" or s[i] == \"2\" and s[i + 1] in \"0123456\"",
+            "Mutate_Code": "s[i]  >>  \"1\" or s[i] == \"2\" and s[i + 1] in \"0123456\""
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T43_LCPN_91-Decode-ways.py",
+            "Source_Code": "s[i] == \"1\" or s[i] == \"2\" and s[i + 1] in \"0123456\"",
+            "Mutate_Code": "s[i]  <<  \"1\" or s[i] == \"2\" and s[i + 1] in \"0123456\""
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T43_LCPN_91-Decode-ways.py",
+            "Source_Code": "s[i] == \"1\" or s[i] == \"2\" and s[i + 1] in \"0123456\"",
+            "Mutate_Code": "s[i]  >=>=  \"1\" or s[i] == \"2\" and s[i + 1] in \"0123456\""
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T43_LCPN_91-Decode-ways.py",
+            "Source_Code": "s[i] == \"1\" or s[i] == \"2\" and s[i + 1] in \"0123456\"",
+            "Mutate_Code": "s[i]  <=<=  \"1\" or s[i] == \"2\" and s[i + 1] in \"0123456\""
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T43_LCPN_91-Decode-ways.py",
+            "Source_Code": "s[i] == \"1\" or s[i] == \"2\" and s[i + 1] in \"0123456\"",
+            "Mutate_Code": "s[i] == \"1\" or s[i]  ====  \"2\" and s[i + 1] in \"0123456\""
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T43_LCPN_91-Decode-ways.py",
+            "Source_Code": "s[i] == \"1\" or s[i] == \"2\" and s[i + 1] in \"0123456\"",
+            "Mutate_Code": "s[i] == \"1\" or s[i]  !==  \"2\" and s[i + 1] in \"0123456\""
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T43_LCPN_91-Decode-ways.py",
+            "Source_Code": "s[i] == \"1\" or s[i] == \"2\" and s[i + 1] in \"0123456\"",
+            "Mutate_Code": "s[i] == \"1\" or s[i]  >>  \"2\" and s[i + 1] in \"0123456\""
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T43_LCPN_91-Decode-ways.py",
+            "Source_Code": "s[i] == \"1\" or s[i] == \"2\" and s[i + 1] in \"0123456\"",
+            "Mutate_Code": "s[i] == \"1\" or s[i]  <<  \"2\" and s[i + 1] in \"0123456\""
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T43_LCPN_91-Decode-ways.py",
+            "Source_Code": "s[i] == \"1\" or s[i] == \"2\" and s[i + 1] in \"0123456\"",
+            "Mutate_Code": "s[i] == \"1\" or s[i]  >=>=  \"2\" and s[i + 1] in \"0123456\""
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T43_LCPN_91-Decode-ways.py",
+            "Source_Code": "s[i] == \"1\" or s[i] == \"2\" and s[i + 1] in \"0123456\"",
+            "Mutate_Code": "s[i] == \"1\" or s[i]  <=<=  \"2\" and s[i + 1] in \"0123456\""
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T43_LCPN_91-Decode-ways.py",
+            "Source_Code": "s[i] == \"1\" or s[i] == \"2\" and s[i + 1] in \"0123456\"",
+            "Mutate_Code": "s[i] == \"1\" or s[i] == \"2\" s[i + 1] in \"0123456\""
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T43_LCPN_91-Decode-ways.py",
+            "Source_Code": "s[i] == \"1\" or s[i] == \"2\" and s[i + 1] in \"0123456\"",
+            "Mutate_Code": "s[i] == \"1\" s[i] == \"2\" and s[i + 1] in \"0123456\""
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T43_LCPN_91-Decode-ways.py",
+            "Source_Code": "s[i] == \"1\" or s[i] == \"2\" and s[i + 1] in \"0123456\"",
+            "Mutate_Code": "s[i] == \"1\" or s[i] == \"2\" or s[i + 1] in \"0123456\""
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T43_LCPN_91-Decode-ways.py",
+            "Source_Code": "s[i] == \"1\" or s[i] == \"2\" and s[i + 1] in \"0123456\"",
+            "Mutate_Code": "s[i] == \"1\" or s[i] == \"2\" not s[i + 1] in \"0123456\""
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T43_LCPN_91-Decode-ways.py",
+            "Source_Code": "s[i] == \"1\" or s[i] == \"2\" and s[i + 1] in \"0123456\"",
+            "Mutate_Code": "s[i] == \"1\" and s[i] == \"2\" and s[i + 1] in \"0123456\""
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T43_LCPN_91-Decode-ways.py",
+            "Source_Code": "s[i] == \"1\" or s[i] == \"2\" and s[i + 1] in \"0123456\"",
+            "Mutate_Code": "s[i] == \"1\" not s[i] == \"2\" and s[i + 1] in \"0123456\""
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T43_LCPN_91-Decode-ways.py",
+            "Source_Code": "s[i] == \"1\" or s[i] == \"2\" and s[i + 1] in \"0123456\"",
+            "Mutate_Code": "s[i] == \"1\" or s[i] == \"2\" and and s[i + 1] in \"0123456\""
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T43_LCPN_91-Decode-ways.py",
+            "Source_Code": "s[i] == \"1\" or s[i] == \"2\" and s[i + 1] in \"0123456\"",
+            "Mutate_Code": "s[i] == \"1\" or s[i] == \"2\" or or s[i + 1] in \"0123456\""
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T43_LCPN_91-Decode-ways.py",
+            "Source_Code": "s[i] == \"1\" or s[i] == \"2\" and s[i + 1] in \"0123456\"",
+            "Mutate_Code": "s[i] == \"1\" or s[i] == \"2\" not not s[i + 1] in \"0123456\""
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T43_LCPN_91-Decode-ways.py",
+            "Source_Code": "s[i] == \"1\" or s[i] == \"2\" and s[i + 1] in \"0123456\"",
+            "Mutate_Code": "s[i] == \"1\" and and s[i] == \"2\" and s[i + 1] in \"0123456\""
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T43_LCPN_91-Decode-ways.py",
+            "Source_Code": "s[i] == \"1\" or s[i] == \"2\" and s[i + 1] in \"0123456\"",
+            "Mutate_Code": "s[i] == \"1\" or or s[i] == \"2\" and s[i + 1] in \"0123456\""
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T43_LCPN_91-Decode-ways.py",
+            "Source_Code": "s[i] == \"1\" or s[i] == \"2\" and s[i + 1] in \"0123456\"",
+            "Mutate_Code": "s[i] == \"1\" not not s[i] == \"2\" and s[i + 1] in \"0123456\""
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T43_LCPN_91-Decode-ways.py",
+            "Source_Code": "s[i] == \"1\" or s[i] == \"2\" and s[i + 1] in \"0123456\"",
+            "Mutate_Code": "s[i] == \"1\" or s[i] == \"2\" and s[i + 1] \"0123456\""
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T43_LCPN_91-Decode-ways.py",
+            "Source_Code": "s[i] == \"1\" or s[i] == \"2\" and s[i + 1] in \"0123456\"",
+            "Mutate_Code": "s[i] == \"1\" or s[i] == \"2\" and s[i + 1] is \"0123456\""
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T43_LCPN_91-Decode-ways.py",
+            "Source_Code": "s[i] == \"1\" or s[i] == \"2\" and s[i + 1] in \"0123456\"",
+            "Mutate_Code": "s[i] == \"1\" or s[i] == \"2\" and s[i + 1] is not \"0123456\""
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T43_LCPN_91-Decode-ways.py",
+            "Source_Code": "s[i] == \"1\" or s[i] == \"2\" and s[i + 1] in \"0123456\"",
+            "Mutate_Code": "s[i] == \"1\" or s[i] == \"2\" and s[i + 1] in in \"0123456\""
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T43_LCPN_91-Decode-ways.py",
+            "Source_Code": "s[i] == \"1\" or s[i] == \"2\" and s[i + 1] in \"0123456\"",
+            "Mutate_Code": "s[i] == \"1\" or s[i] == \"2\" and s[i + 1] not in not in \"0123456\""
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T43_LCPN_91-Decode-ways.py",
+            "Source_Code": "return res",
+            "Mutate_Code": " res"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T43_LCPN_91-Decode-ways.py",
+            "Source_Code": "return res",
+            "Mutate_Code": "passres"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T43_LCPN_91-Decode-ways.py",
+            "Source_Code": "return res",
+            "Mutate_Code": "return returnres"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T43_LCPN_91-Decode-ways.py",
+            "Source_Code": "return dfs(0)",
+            "Mutate_Code": " dfs(0)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T43_LCPN_91-Decode-ways.py",
+            "Source_Code": "return dfs(0)",
+            "Mutate_Code": "passdfs(0)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T43_LCPN_91-Decode-ways.py",
+            "Source_Code": "return dfs(0)",
+            "Mutate_Code": "return returndfs(0)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T43_LCPN_91-Decode-ways.py",
+            "Source_Code": "dp = {len(s): 1}",
+            "Mutate_Code": "dp {len(s): 1}"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T43_LCPN_91-Decode-ways.py",
+            "Source_Code": "dp = {len(s): 1}",
+            "Mutate_Code": "dp {len(s): 1}"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T43_LCPN_91-Decode-ways.py",
+            "Source_Code": "dp = {len(s): 1}",
+            "Mutate_Code": "dp += {len(s): 1}"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T43_LCPN_91-Decode-ways.py",
+            "Source_Code": "dp = {len(s): 1}",
+            "Mutate_Code": "dp -= {len(s): 1}"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T43_LCPN_91-Decode-ways.py",
+            "Source_Code": "dp = {len(s): 1}",
+            "Mutate_Code": "dp *= {len(s): 1}"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T43_LCPN_91-Decode-ways.py",
+            "Source_Code": "dp = {len(s): 1}",
+            "Mutate_Code": "dp /= {len(s): 1}"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T43_LCPN_91-Decode-ways.py",
+            "Source_Code": "dp = {len(s): 1}",
+            "Mutate_Code": "dp %= {len(s): 1}"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T43_LCPN_91-Decode-ways.py",
+            "Source_Code": "dp = {len(s): 1}",
+            "Mutate_Code": "dp //= {len(s): 1}"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T43_LCPN_91-Decode-ways.py",
+            "Source_Code": "dp = {len(s): 1}",
+            "Mutate_Code": "dp **= {len(s): 1}"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T43_LCPN_91-Decode-ways.py",
+            "Source_Code": "dp = {len(s): 1}",
+            "Mutate_Code": "dp &= {len(s): 1}"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T43_LCPN_91-Decode-ways.py",
+            "Source_Code": "dp = {len(s): 1}",
+            "Mutate_Code": "dp |= {len(s): 1}"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T43_LCPN_91-Decode-ways.py",
+            "Source_Code": "dp = {len(s): 1}",
+            "Mutate_Code": "dp ^= {len(s): 1}"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T43_LCPN_91-Decode-ways.py",
+            "Source_Code": "dp = {len(s): 1}",
+            "Mutate_Code": "dp >>= {len(s): 1}"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T43_LCPN_91-Decode-ways.py",
+            "Source_Code": "dp = {len(s): 1}",
+            "Mutate_Code": "dp <<= {len(s): 1}"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T43_LCPN_91-Decode-ways.py",
+            "Source_Code": "dp = {len(s): 1}",
+            "Mutate_Code": "dp += {len(s): 1}"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T43_LCPN_91-Decode-ways.py",
+            "Source_Code": "dp = {len(s): 1}",
+            "Mutate_Code": "dp -= {len(s): 1}"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T43_LCPN_91-Decode-ways.py",
+            "Source_Code": "dp = {len(s): 1}",
+            "Mutate_Code": "dp *= {len(s): 1}"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T43_LCPN_91-Decode-ways.py",
+            "Source_Code": "dp = {len(s): 1}",
+            "Mutate_Code": "dp /= {len(s): 1}"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T43_LCPN_91-Decode-ways.py",
+            "Source_Code": "dp = {len(s): 1}",
+            "Mutate_Code": "dp %= {len(s): 1}"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T43_LCPN_91-Decode-ways.py",
+            "Source_Code": "dp = {len(s): 1}",
+            "Mutate_Code": "dp //= {len(s): 1}"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T43_LCPN_91-Decode-ways.py",
+            "Source_Code": "dp = {len(s): 1}",
+            "Mutate_Code": "dp **= {len(s): 1}"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T43_LCPN_91-Decode-ways.py",
+            "Source_Code": "dp = {len(s): 1}",
+            "Mutate_Code": "dp &= {len(s): 1}"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T43_LCPN_91-Decode-ways.py",
+            "Source_Code": "dp = {len(s): 1}",
+            "Mutate_Code": "dp |= {len(s): 1}"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T43_LCPN_91-Decode-ways.py",
+            "Source_Code": "dp = {len(s): 1}",
+            "Mutate_Code": "dp ^= {len(s): 1}"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T43_LCPN_91-Decode-ways.py",
+            "Source_Code": "dp = {len(s): 1}",
+            "Mutate_Code": "dp >>= {len(s): 1}"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T43_LCPN_91-Decode-ways.py",
+            "Source_Code": "dp = {len(s): 1}",
+            "Mutate_Code": "dp <<= {len(s): 1}"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T43_LCPN_91-Decode-ways.py",
+            "Source_Code": "dp = {len(s): 1}",
+            "Mutate_Code": "dp == {len(s): 1}"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T43_LCPN_91-Decode-ways.py",
+            "Source_Code": "dp = {len(s): 1}",
+            "Mutate_Code": "dp +=+= {len(s): 1}"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T43_LCPN_91-Decode-ways.py",
+            "Source_Code": "dp = {len(s): 1}",
+            "Mutate_Code": "dp -=-= {len(s): 1}"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T43_LCPN_91-Decode-ways.py",
+            "Source_Code": "dp = {len(s): 1}",
+            "Mutate_Code": "dp *=*= {len(s): 1}"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T43_LCPN_91-Decode-ways.py",
+            "Source_Code": "dp = {len(s): 1}",
+            "Mutate_Code": "dp /=/= {len(s): 1}"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T43_LCPN_91-Decode-ways.py",
+            "Source_Code": "dp = {len(s): 1}",
+            "Mutate_Code": "dp %=%= {len(s): 1}"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T43_LCPN_91-Decode-ways.py",
+            "Source_Code": "dp = {len(s): 1}",
+            "Mutate_Code": "dp //=//= {len(s): 1}"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T43_LCPN_91-Decode-ways.py",
+            "Source_Code": "dp = {len(s): 1}",
+            "Mutate_Code": "dp **=**= {len(s): 1}"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T43_LCPN_91-Decode-ways.py",
+            "Source_Code": "dp = {len(s): 1}",
+            "Mutate_Code": "dp &=&= {len(s): 1}"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T43_LCPN_91-Decode-ways.py",
+            "Source_Code": "dp = {len(s): 1}",
+            "Mutate_Code": "dp |=|= {len(s): 1}"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T43_LCPN_91-Decode-ways.py",
+            "Source_Code": "dp = {len(s): 1}",
+            "Mutate_Code": "dp ^=^= {len(s): 1}"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T43_LCPN_91-Decode-ways.py",
+            "Source_Code": "dp = {len(s): 1}",
+            "Mutate_Code": "dp >>=>>= {len(s): 1}"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T43_LCPN_91-Decode-ways.py",
+            "Source_Code": "dp = {len(s): 1}",
+            "Mutate_Code": "dp <<=<<={len(s): 1}"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T43_LCPN_91-Decode-ways.py",
+            "Source_Code": "dp = {len(s): 1}",
+            "Mutate_Code": "dp == {len(s): 1}"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T43_LCPN_91-Decode-ways.py",
+            "Source_Code": "dp = {len(s): 1}",
+            "Mutate_Code": "dp +=+= {len(s): 1}"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T43_LCPN_91-Decode-ways.py",
+            "Source_Code": "dp = {len(s): 1}",
+            "Mutate_Code": "dp -=-= {len(s): 1}"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T43_LCPN_91-Decode-ways.py",
+            "Source_Code": "dp = {len(s): 1}",
+            "Mutate_Code": "dp *=*= {len(s): 1}"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T43_LCPN_91-Decode-ways.py",
+            "Source_Code": "dp = {len(s): 1}",
+            "Mutate_Code": "dp /=/= {len(s): 1}"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T43_LCPN_91-Decode-ways.py",
+            "Source_Code": "dp = {len(s): 1}",
+            "Mutate_Code": "dp %=%= {len(s): 1}"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T43_LCPN_91-Decode-ways.py",
+            "Source_Code": "dp = {len(s): 1}",
+            "Mutate_Code": "dp //=//= {len(s): 1}"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T43_LCPN_91-Decode-ways.py",
+            "Source_Code": "dp = {len(s): 1}",
+            "Mutate_Code": "dp **=**= {len(s): 1}"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T43_LCPN_91-Decode-ways.py",
+            "Source_Code": "dp = {len(s): 1}",
+            "Mutate_Code": "dp &=&= {len(s): 1}"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T43_LCPN_91-Decode-ways.py",
+            "Source_Code": "dp = {len(s): 1}",
+            "Mutate_Code": "dp |=|= {len(s): 1}"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T43_LCPN_91-Decode-ways.py",
+            "Source_Code": "dp = {len(s): 1}",
+            "Mutate_Code": "dp ^=^= {len(s): 1}"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T43_LCPN_91-Decode-ways.py",
+            "Source_Code": "dp = {len(s): 1}",
+            "Mutate_Code": "dp >>=>>= {len(s): 1}"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T43_LCPN_91-Decode-ways.py",
+            "Source_Code": "dp = {len(s): 1}",
+            "Mutate_Code": "dp <<=<<={len(s): 1}"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T43_LCPN_91-Decode-ways.py",
+            "Source_Code": "dp = {len(s): 1}",
+            "Mutate_Code": "dp = {len( ): 1}"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T43_LCPN_91-Decode-ways.py",
+            "Source_Code": "for i in range(len(s) - 1, -1, -1):",
+            "Mutate_Code": "for i in range(len(s) 1, -1, -1):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T43_LCPN_91-Decode-ways.py",
+            "Source_Code": "for i in range(len(s) - 1, -1, -1):",
+            "Mutate_Code": "for i in range(len(s) + 1, -1, -1):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T43_LCPN_91-Decode-ways.py",
+            "Source_Code": "for i in range(len(s) - 1, -1, -1):",
+            "Mutate_Code": "for i in range(len(s) * 1, -1, -1):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T43_LCPN_91-Decode-ways.py",
+            "Source_Code": "for i in range(len(s) - 1, -1, -1):",
+            "Mutate_Code": "for i in range(len(s) / 1, -1, -1):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T43_LCPN_91-Decode-ways.py",
+            "Source_Code": "for i in range(len(s) - 1, -1, -1):",
+            "Mutate_Code": "for i in range(len(s) % 1, -1, -1):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T43_LCPN_91-Decode-ways.py",
+            "Source_Code": "for i in range(len(s) - 1, -1, -1):",
+            "Mutate_Code": "for i in range(len(s) ** 1, -1, -1):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T43_LCPN_91-Decode-ways.py",
+            "Source_Code": "for i in range(len(s) - 1, -1, -1):",
+            "Mutate_Code": "for i in range(len(s) // 1, -1, -1):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T43_LCPN_91-Decode-ways.py",
+            "Source_Code": "for i in range(len(s) - 1, -1, -1):",
+            "Mutate_Code": "for i in range(len(s) ++ 1, -1, -1):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T43_LCPN_91-Decode-ways.py",
+            "Source_Code": "for i in range(len(s) - 1, -1, -1):",
+            "Mutate_Code": "for i in range(len(s) -- 1, -1, -1):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T43_LCPN_91-Decode-ways.py",
+            "Source_Code": "for i in range(len(s) - 1, -1, -1):",
+            "Mutate_Code": "for i in range(len(s) ** 1, -1, -1):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T43_LCPN_91-Decode-ways.py",
+            "Source_Code": "for i in range(len(s) - 1, -1, -1):",
+            "Mutate_Code": "for i in range(len(s) // 1, -1, -1):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T43_LCPN_91-Decode-ways.py",
+            "Source_Code": "for i in range(len(s) - 1, -1, -1):",
+            "Mutate_Code": "for i in range(len(s) %% 1, -1, -1):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T43_LCPN_91-Decode-ways.py",
+            "Source_Code": "for i in range(len(s) - 1, -1, -1):",
+            "Mutate_Code": "for i in range(len(s) **** 1, -1, -1):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T43_LCPN_91-Decode-ways.py",
+            "Source_Code": "for i in range(len(s) - 1, -1, -1):",
+            "Mutate_Code": "for i in range(len(s) //// 1, -1, -1):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T43_LCPN_91-Decode-ways.py",
+            "Source_Code": "for i in range(len(s) - 1, -1, -1):",
+            "Mutate_Code": "for i range(len(s) - 1, -1, -1):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T43_LCPN_91-Decode-ways.py",
+            "Source_Code": "for i in range(len(s) - 1, -1, -1):",
+            "Mutate_Code": "for i is range(len(s) - 1, -1, -1):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T43_LCPN_91-Decode-ways.py",
+            "Source_Code": "for i in range(len(s) - 1, -1, -1):",
+            "Mutate_Code": "for i is not range(len(s) - 1, -1, -1):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T43_LCPN_91-Decode-ways.py",
+            "Source_Code": "for i in range(len(s) - 1, -1, -1):",
+            "Mutate_Code": "for i in in range(len(s) - 1, -1, -1):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T43_LCPN_91-Decode-ways.py",
+            "Source_Code": "for i in range(len(s) - 1, -1, -1):",
+            "Mutate_Code": "for i not in not in range(len(s) - 1, -1, -1):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T43_LCPN_91-Decode-ways.py",
+            "Source_Code": "for i in range(len(s) - 1, -1, -1):",
+            "Mutate_Code": " "
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T43_LCPN_91-Decode-ways.py",
+            "Source_Code": "for i in range(len(s) - 1, -1, -1):",
+            "Mutate_Code": "while True:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T43_LCPN_91-Decode-ways.py",
+            "Source_Code": "for i in range(len(s) - 1, -1, -1):",
+            "Mutate_Code": "for for: i in range(len(s) - 1, -1, -1):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T43_LCPN_91-Decode-ways.py",
+            "Source_Code": "for i in range(len(s) - 1, -1, -1):",
+            "Mutate_Code": "for i in range(len( ) - 1, -1, -1):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T43_LCPN_91-Decode-ways.py",
+            "Source_Code": "for i in range(len(s) - 1, -1, -1):",
+            "Mutate_Code": "for i in range( ) - 1, -1, -1):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T43_LCPN_91-Decode-ways.py",
+            "Source_Code": "for i in range(len(s) - 1, -1, -1):",
+            "Mutate_Code": "for i in range(len(s) 1, -1, -1):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T43_LCPN_91-Decode-ways.py",
+            "Source_Code": "for i in range(len(s) - 1, -1, -1):",
+            "Mutate_Code": "for i in range(len(s) + 1, -1, -1):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T43_LCPN_91-Decode-ways.py",
+            "Source_Code": "for i in range(len(s) - 1, -1, -1):",
+            "Mutate_Code": "for i in range(len(s) * 1, -1, -1):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T43_LCPN_91-Decode-ways.py",
+            "Source_Code": "for i in range(len(s) - 1, -1, -1):",
+            "Mutate_Code": "for i in range(len(s) / 1, -1, -1):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T43_LCPN_91-Decode-ways.py",
+            "Source_Code": "for i in range(len(s) - 1, -1, -1):",
+            "Mutate_Code": "for i in range(len(s) % 1, -1, -1):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T43_LCPN_91-Decode-ways.py",
+            "Source_Code": "for i in range(len(s) - 1, -1, -1):",
+            "Mutate_Code": "for i in range(len(s) ** 1, -1, -1):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T43_LCPN_91-Decode-ways.py",
+            "Source_Code": "for i in range(len(s) - 1, -1, -1):",
+            "Mutate_Code": "for i in range(len(s) // 1, -1, -1):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T43_LCPN_91-Decode-ways.py",
+            "Source_Code": "for i in range(len(s) - 1, -1, -1):",
+            "Mutate_Code": "for i in range(len(s) ++ 1, -1, -1):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T43_LCPN_91-Decode-ways.py",
+            "Source_Code": "for i in range(len(s) - 1, -1, -1):",
+            "Mutate_Code": "for i in range(len(s) -- 1, -1, -1):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T43_LCPN_91-Decode-ways.py",
+            "Source_Code": "for i in range(len(s) - 1, -1, -1):",
+            "Mutate_Code": "for i in range(len(s) ** 1, -1, -1):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T43_LCPN_91-Decode-ways.py",
+            "Source_Code": "for i in range(len(s) - 1, -1, -1):",
+            "Mutate_Code": "for i in range(len(s) // 1, -1, -1):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T43_LCPN_91-Decode-ways.py",
+            "Source_Code": "for i in range(len(s) - 1, -1, -1):",
+            "Mutate_Code": "for i in range(len(s) %% 1, -1, -1):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T43_LCPN_91-Decode-ways.py",
+            "Source_Code": "for i in range(len(s) - 1, -1, -1):",
+            "Mutate_Code": "for i in range(len(s) **** 1, -1, -1):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T43_LCPN_91-Decode-ways.py",
+            "Source_Code": "for i in range(len(s) - 1, -1, -1):",
+            "Mutate_Code": "for i in range(len(s) //// 1, -1, -1):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T43_LCPN_91-Decode-ways.py",
+            "Source_Code": "for i in range(len(s) - 1, -1, -1):",
+            "Mutate_Code": "for i range(len(s) - 1, -1, -1):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T43_LCPN_91-Decode-ways.py",
+            "Source_Code": "for i in range(len(s) - 1, -1, -1):",
+            "Mutate_Code": "for i is range(len(s) - 1, -1, -1):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T43_LCPN_91-Decode-ways.py",
+            "Source_Code": "for i in range(len(s) - 1, -1, -1):",
+            "Mutate_Code": "for i is not range(len(s) - 1, -1, -1):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T43_LCPN_91-Decode-ways.py",
+            "Source_Code": "for i in range(len(s) - 1, -1, -1):",
+            "Mutate_Code": "for i in in range(len(s) - 1, -1, -1):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T43_LCPN_91-Decode-ways.py",
+            "Source_Code": "for i in range(len(s) - 1, -1, -1):",
+            "Mutate_Code": "for i not in not in range(len(s) - 1, -1, -1):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T43_LCPN_91-Decode-ways.py",
+            "Source_Code": "for i in range(len(s) - 1, -1, -1):",
+            "Mutate_Code": " "
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T43_LCPN_91-Decode-ways.py",
+            "Source_Code": "for i in range(len(s) - 1, -1, -1):",
+            "Mutate_Code": "while True:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T43_LCPN_91-Decode-ways.py",
+            "Source_Code": "for i in range(len(s) - 1, -1, -1):",
+            "Mutate_Code": "for for: i in range(len(s) - 1, -1, -1):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T43_LCPN_91-Decode-ways.py",
+            "Source_Code": "for i in range(len(s) - 1, -1, -1):",
+            "Mutate_Code": "for i in range(len( ) - 1, -1, -1):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T43_LCPN_91-Decode-ways.py",
+            "Source_Code": "for i in range(len(s) - 1, -1, -1):",
+            "Mutate_Code": "for i in range( ) - 1, -1, -1):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T43_LCPN_91-Decode-ways.py",
+            "Source_Code": "for i in range(len(s) - 1, -1, -1):",
+            "Mutate_Code": "for i in range(len(s) 1, -1, -1):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T43_LCPN_91-Decode-ways.py",
+            "Source_Code": "for i in range(len(s) - 1, -1, -1):",
+            "Mutate_Code": "for i in range(len(s) + 1, -1, -1):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T43_LCPN_91-Decode-ways.py",
+            "Source_Code": "for i in range(len(s) - 1, -1, -1):",
+            "Mutate_Code": "for i in range(len(s) * 1, -1, -1):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T43_LCPN_91-Decode-ways.py",
+            "Source_Code": "for i in range(len(s) - 1, -1, -1):",
+            "Mutate_Code": "for i in range(len(s) / 1, -1, -1):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T43_LCPN_91-Decode-ways.py",
+            "Source_Code": "for i in range(len(s) - 1, -1, -1):",
+            "Mutate_Code": "for i in range(len(s) % 1, -1, -1):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T43_LCPN_91-Decode-ways.py",
+            "Source_Code": "for i in range(len(s) - 1, -1, -1):",
+            "Mutate_Code": "for i in range(len(s) ** 1, -1, -1):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T43_LCPN_91-Decode-ways.py",
+            "Source_Code": "for i in range(len(s) - 1, -1, -1):",
+            "Mutate_Code": "for i in range(len(s) // 1, -1, -1):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T43_LCPN_91-Decode-ways.py",
+            "Source_Code": "for i in range(len(s) - 1, -1, -1):",
+            "Mutate_Code": "for i in range(len(s) ++ 1, -1, -1):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T43_LCPN_91-Decode-ways.py",
+            "Source_Code": "for i in range(len(s) - 1, -1, -1):",
+            "Mutate_Code": "for i in range(len(s) -- 1, -1, -1):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T43_LCPN_91-Decode-ways.py",
+            "Source_Code": "for i in range(len(s) - 1, -1, -1):",
+            "Mutate_Code": "for i in range(len(s) ** 1, -1, -1):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T43_LCPN_91-Decode-ways.py",
+            "Source_Code": "for i in range(len(s) - 1, -1, -1):",
+            "Mutate_Code": "for i in range(len(s) // 1, -1, -1):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T43_LCPN_91-Decode-ways.py",
+            "Source_Code": "for i in range(len(s) - 1, -1, -1):",
+            "Mutate_Code": "for i in range(len(s) %% 1, -1, -1):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T43_LCPN_91-Decode-ways.py",
+            "Source_Code": "for i in range(len(s) - 1, -1, -1):",
+            "Mutate_Code": "for i in range(len(s) **** 1, -1, -1):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T43_LCPN_91-Decode-ways.py",
+            "Source_Code": "for i in range(len(s) - 1, -1, -1):",
+            "Mutate_Code": "for i in range(len(s) //// 1, -1, -1):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T43_LCPN_91-Decode-ways.py",
+            "Source_Code": "for i in range(len(s) - 1, -1, -1):",
+            "Mutate_Code": "for i range(len(s) - 1, -1, -1):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T43_LCPN_91-Decode-ways.py",
+            "Source_Code": "for i in range(len(s) - 1, -1, -1):",
+            "Mutate_Code": "for i is range(len(s) - 1, -1, -1):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T43_LCPN_91-Decode-ways.py",
+            "Source_Code": "for i in range(len(s) - 1, -1, -1):",
+            "Mutate_Code": "for i is not range(len(s) - 1, -1, -1):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T43_LCPN_91-Decode-ways.py",
+            "Source_Code": "for i in range(len(s) - 1, -1, -1):",
+            "Mutate_Code": "for i in in range(len(s) - 1, -1, -1):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T43_LCPN_91-Decode-ways.py",
+            "Source_Code": "for i in range(len(s) - 1, -1, -1):",
+            "Mutate_Code": "for i not in not in range(len(s) - 1, -1, -1):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T43_LCPN_91-Decode-ways.py",
+            "Source_Code": "for i in range(len(s) - 1, -1, -1):",
+            "Mutate_Code": " "
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T43_LCPN_91-Decode-ways.py",
+            "Source_Code": "for i in range(len(s) - 1, -1, -1):",
+            "Mutate_Code": "while True:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T43_LCPN_91-Decode-ways.py",
+            "Source_Code": "for i in range(len(s) - 1, -1, -1):",
+            "Mutate_Code": "for for: i in range(len(s) - 1, -1, -1):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T43_LCPN_91-Decode-ways.py",
+            "Source_Code": "for i in range(len(s) - 1, -1, -1):",
+            "Mutate_Code": "for i in range(len( ) - 1, -1, -1):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T43_LCPN_91-Decode-ways.py",
+            "Source_Code": "for i in range(len(s) - 1, -1, -1):",
+            "Mutate_Code": "for i in range( ) - 1, -1, -1):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T43_LCPN_91-Decode-ways.py",
+            "Source_Code": "if s[i] == \"0\":",
+            "Mutate_Code": "if s[i]   \"0\":"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T43_LCPN_91-Decode-ways.py",
+            "Source_Code": "if s[i] == \"0\":",
+            "Mutate_Code": "if s[i] != \"0\":"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T43_LCPN_91-Decode-ways.py",
+            "Source_Code": "if s[i] == \"0\":",
+            "Mutate_Code": "if s[i] > \"0\":"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T43_LCPN_91-Decode-ways.py",
+            "Source_Code": "if s[i] == \"0\":",
+            "Mutate_Code": "if s[i] < \"0\":"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T43_LCPN_91-Decode-ways.py",
+            "Source_Code": "if s[i] == \"0\":",
+            "Mutate_Code": "if s[i] >= \"0\":"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T43_LCPN_91-Decode-ways.py",
+            "Source_Code": "if s[i] == \"0\":",
+            "Mutate_Code": "if s[i] <= \"0\":"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T43_LCPN_91-Decode-ways.py",
+            "Source_Code": "if s[i] == \"0\":",
+            "Mutate_Code": "if s[i]  ====  \"0\":"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T43_LCPN_91-Decode-ways.py",
+            "Source_Code": "if s[i] == \"0\":",
+            "Mutate_Code": "if s[i]  !==  \"0\":"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T43_LCPN_91-Decode-ways.py",
+            "Source_Code": "if s[i] == \"0\":",
+            "Mutate_Code": "if s[i]  >>  \"0\":"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T43_LCPN_91-Decode-ways.py",
+            "Source_Code": "if s[i] == \"0\":",
+            "Mutate_Code": "if s[i]  <<  \"0\":"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T43_LCPN_91-Decode-ways.py",
+            "Source_Code": "if s[i] == \"0\":",
+            "Mutate_Code": "if s[i]  >=>=  \"0\":"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T43_LCPN_91-Decode-ways.py",
+            "Source_Code": "if s[i] == \"0\":",
+            "Mutate_Code": "if s[i]  <=<=  \"0\":"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T43_LCPN_91-Decode-ways.py",
+            "Source_Code": "if s[i] == \"0\":",
+            "Mutate_Code": " "
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T43_LCPN_91-Decode-ways.py",
+            "Source_Code": "if s[i] == \"0\":",
+            "Mutate_Code": "elif:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T43_LCPN_91-Decode-ways.py",
+            "Source_Code": "if s[i] == \"0\":",
+            "Mutate_Code": "else:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T43_LCPN_91-Decode-ways.py",
+            "Source_Code": "if s[i] == \"0\":",
+            "Mutate_Code": "if if"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T43_LCPN_91-Decode-ways.py",
+            "Source_Code": "else:",
+            "Mutate_Code": " "
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T43_LCPN_91-Decode-ways.py",
+            "Source_Code": "else:",
+            "Mutate_Code": "if:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T43_LCPN_91-Decode-ways.py",
+            "Source_Code": "else:",
+            "Mutate_Code": "elif:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T43_LCPN_91-Decode-ways.py",
+            "Source_Code": "else:",
+            "Mutate_Code": "else else:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T43_LCPN_91-Decode-ways.py",
+            "Source_Code": "if i + 1 < len(s) and (",
+            "Mutate_Code": "if i 1 < len(s) and ("
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T43_LCPN_91-Decode-ways.py",
+            "Source_Code": "if i + 1 < len(s) and (",
+            "Mutate_Code": "if i - 1 < len(s) and ("
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T43_LCPN_91-Decode-ways.py",
+            "Source_Code": "if i + 1 < len(s) and (",
+            "Mutate_Code": "if i * 1 < len(s) and ("
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T43_LCPN_91-Decode-ways.py",
+            "Source_Code": "if i + 1 < len(s) and (",
+            "Mutate_Code": "if i / 1 < len(s) and ("
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T43_LCPN_91-Decode-ways.py",
+            "Source_Code": "if i + 1 < len(s) and (",
+            "Mutate_Code": "if i % 1 < len(s) and ("
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T43_LCPN_91-Decode-ways.py",
+            "Source_Code": "if i + 1 < len(s) and (",
+            "Mutate_Code": "if i ** 1 < len(s) and ("
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T43_LCPN_91-Decode-ways.py",
+            "Source_Code": "if i + 1 < len(s) and (",
+            "Mutate_Code": "if i // 1 < len(s) and ("
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T43_LCPN_91-Decode-ways.py",
+            "Source_Code": "if i + 1 < len(s) and (",
+            "Mutate_Code": "if i ++ 1 < len(s) and ("
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T43_LCPN_91-Decode-ways.py",
+            "Source_Code": "if i + 1 < len(s) and (",
+            "Mutate_Code": "if i -- 1 < len(s) and ("
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T43_LCPN_91-Decode-ways.py",
+            "Source_Code": "if i + 1 < len(s) and (",
+            "Mutate_Code": "if i ** 1 < len(s) and ("
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T43_LCPN_91-Decode-ways.py",
+            "Source_Code": "if i + 1 < len(s) and (",
+            "Mutate_Code": "if i // 1 < len(s) and ("
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T43_LCPN_91-Decode-ways.py",
+            "Source_Code": "if i + 1 < len(s) and (",
+            "Mutate_Code": "if i %% 1 < len(s) and ("
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T43_LCPN_91-Decode-ways.py",
+            "Source_Code": "if i + 1 < len(s) and (",
+            "Mutate_Code": "if i **** 1 < len(s) and ("
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T43_LCPN_91-Decode-ways.py",
+            "Source_Code": "if i + 1 < len(s) and (",
+            "Mutate_Code": "if i //// 1 < len(s) and ("
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T43_LCPN_91-Decode-ways.py",
+            "Source_Code": "if i + 1 < len(s) and (",
+            "Mutate_Code": "if i + 1   len(s) and ("
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T43_LCPN_91-Decode-ways.py",
+            "Source_Code": "if i + 1 < len(s) and (",
+            "Mutate_Code": "if i + 1 == len(s) and ("
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T43_LCPN_91-Decode-ways.py",
+            "Source_Code": "if i + 1 < len(s) and (",
+            "Mutate_Code": "if i + 1 != len(s) and ("
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T43_LCPN_91-Decode-ways.py",
+            "Source_Code": "if i + 1 < len(s) and (",
+            "Mutate_Code": "if i + 1 > len(s) and ("
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T43_LCPN_91-Decode-ways.py",
+            "Source_Code": "if i + 1 < len(s) and (",
+            "Mutate_Code": "if i + 1 >= len(s) and ("
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T43_LCPN_91-Decode-ways.py",
+            "Source_Code": "if i + 1 < len(s) and (",
+            "Mutate_Code": "if i + 1 <= len(s) and ("
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T43_LCPN_91-Decode-ways.py",
+            "Source_Code": "if i + 1 < len(s) and (",
+            "Mutate_Code": "if i + 1  ====  len(s) and ("
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T43_LCPN_91-Decode-ways.py",
+            "Source_Code": "if i + 1 < len(s) and (",
+            "Mutate_Code": "if i + 1  !==  len(s) and ("
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T43_LCPN_91-Decode-ways.py",
+            "Source_Code": "if i + 1 < len(s) and (",
+            "Mutate_Code": "if i + 1  >>  len(s) and ("
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T43_LCPN_91-Decode-ways.py",
+            "Source_Code": "if i + 1 < len(s) and (",
+            "Mutate_Code": "if i + 1  <<  len(s) and ("
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T43_LCPN_91-Decode-ways.py",
+            "Source_Code": "if i + 1 < len(s) and (",
+            "Mutate_Code": "if i + 1  >=>=  len(s) and ("
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T43_LCPN_91-Decode-ways.py",
+            "Source_Code": "if i + 1 < len(s) and (",
+            "Mutate_Code": "if i + 1  <=<=  len(s) and ("
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T43_LCPN_91-Decode-ways.py",
+            "Source_Code": "if i + 1 < len(s) and (",
+            "Mutate_Code": "if i + 1 < len(s) ("
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T43_LCPN_91-Decode-ways.py",
+            "Source_Code": "if i + 1 < len(s) and (",
+            "Mutate_Code": "if i + 1 < len(s) or ("
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T43_LCPN_91-Decode-ways.py",
+            "Source_Code": "if i + 1 < len(s) and (",
+            "Mutate_Code": "if i + 1 < len(s) not ("
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T43_LCPN_91-Decode-ways.py",
+            "Source_Code": "if i + 1 < len(s) and (",
+            "Mutate_Code": "if i + 1 < len(s) and and ("
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T43_LCPN_91-Decode-ways.py",
+            "Source_Code": "if i + 1 < len(s) and (",
+            "Mutate_Code": "if i + 1 < len(s) or or ("
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T43_LCPN_91-Decode-ways.py",
+            "Source_Code": "if i + 1 < len(s) and (",
+            "Mutate_Code": "if i + 1 < len(s) not not ("
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T43_LCPN_91-Decode-ways.py",
+            "Source_Code": "if i + 1 < len(s) and (",
+            "Mutate_Code": "if i + 1 < len( ) and ("
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T43_LCPN_91-Decode-ways.py",
+            "Source_Code": "if i + 1 < len(s) and (",
+            "Mutate_Code": "if i 1 < len(s) and ("
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T43_LCPN_91-Decode-ways.py",
+            "Source_Code": "if i + 1 < len(s) and (",
+            "Mutate_Code": "if i - 1 < len(s) and ("
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T43_LCPN_91-Decode-ways.py",
+            "Source_Code": "if i + 1 < len(s) and (",
+            "Mutate_Code": "if i * 1 < len(s) and ("
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T43_LCPN_91-Decode-ways.py",
+            "Source_Code": "if i + 1 < len(s) and (",
+            "Mutate_Code": "if i / 1 < len(s) and ("
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T43_LCPN_91-Decode-ways.py",
+            "Source_Code": "if i + 1 < len(s) and (",
+            "Mutate_Code": "if i % 1 < len(s) and ("
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T43_LCPN_91-Decode-ways.py",
+            "Source_Code": "if i + 1 < len(s) and (",
+            "Mutate_Code": "if i ** 1 < len(s) and ("
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T43_LCPN_91-Decode-ways.py",
+            "Source_Code": "if i + 1 < len(s) and (",
+            "Mutate_Code": "if i // 1 < len(s) and ("
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T43_LCPN_91-Decode-ways.py",
+            "Source_Code": "if i + 1 < len(s) and (",
+            "Mutate_Code": "if i ++ 1 < len(s) and ("
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T43_LCPN_91-Decode-ways.py",
+            "Source_Code": "if i + 1 < len(s) and (",
+            "Mutate_Code": "if i -- 1 < len(s) and ("
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T43_LCPN_91-Decode-ways.py",
+            "Source_Code": "if i + 1 < len(s) and (",
+            "Mutate_Code": "if i ** 1 < len(s) and ("
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T43_LCPN_91-Decode-ways.py",
+            "Source_Code": "if i + 1 < len(s) and (",
+            "Mutate_Code": "if i // 1 < len(s) and ("
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T43_LCPN_91-Decode-ways.py",
+            "Source_Code": "if i + 1 < len(s) and (",
+            "Mutate_Code": "if i %% 1 < len(s) and ("
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T43_LCPN_91-Decode-ways.py",
+            "Source_Code": "if i + 1 < len(s) and (",
+            "Mutate_Code": "if i **** 1 < len(s) and ("
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T43_LCPN_91-Decode-ways.py",
+            "Source_Code": "if i + 1 < len(s) and (",
+            "Mutate_Code": "if i //// 1 < len(s) and ("
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T43_LCPN_91-Decode-ways.py",
+            "Source_Code": "if i + 1 < len(s) and (",
+            "Mutate_Code": "if i + 1   len(s) and ("
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T43_LCPN_91-Decode-ways.py",
+            "Source_Code": "if i + 1 < len(s) and (",
+            "Mutate_Code": "if i + 1 == len(s) and ("
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T43_LCPN_91-Decode-ways.py",
+            "Source_Code": "if i + 1 < len(s) and (",
+            "Mutate_Code": "if i + 1 != len(s) and ("
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T43_LCPN_91-Decode-ways.py",
+            "Source_Code": "if i + 1 < len(s) and (",
+            "Mutate_Code": "if i + 1 > len(s) and ("
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T43_LCPN_91-Decode-ways.py",
+            "Source_Code": "if i + 1 < len(s) and (",
+            "Mutate_Code": "if i + 1 >= len(s) and ("
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T43_LCPN_91-Decode-ways.py",
+            "Source_Code": "if i + 1 < len(s) and (",
+            "Mutate_Code": "if i + 1 <= len(s) and ("
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T43_LCPN_91-Decode-ways.py",
+            "Source_Code": "if i + 1 < len(s) and (",
+            "Mutate_Code": "if i + 1  ====  len(s) and ("
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T43_LCPN_91-Decode-ways.py",
+            "Source_Code": "if i + 1 < len(s) and (",
+            "Mutate_Code": "if i + 1  !==  len(s) and ("
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T43_LCPN_91-Decode-ways.py",
+            "Source_Code": "if i + 1 < len(s) and (",
+            "Mutate_Code": "if i + 1  >>  len(s) and ("
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T43_LCPN_91-Decode-ways.py",
+            "Source_Code": "if i + 1 < len(s) and (",
+            "Mutate_Code": "if i + 1  <<  len(s) and ("
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T43_LCPN_91-Decode-ways.py",
+            "Source_Code": "if i + 1 < len(s) and (",
+            "Mutate_Code": "if i + 1  >=>=  len(s) and ("
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T43_LCPN_91-Decode-ways.py",
+            "Source_Code": "if i + 1 < len(s) and (",
+            "Mutate_Code": "if i + 1  <=<=  len(s) and ("
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T43_LCPN_91-Decode-ways.py",
+            "Source_Code": "if i + 1 < len(s) and (",
+            "Mutate_Code": "if i + 1 < len(s) ("
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T43_LCPN_91-Decode-ways.py",
+            "Source_Code": "if i + 1 < len(s) and (",
+            "Mutate_Code": "if i + 1 < len(s) or ("
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T43_LCPN_91-Decode-ways.py",
+            "Source_Code": "if i + 1 < len(s) and (",
+            "Mutate_Code": "if i + 1 < len(s) not ("
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T43_LCPN_91-Decode-ways.py",
+            "Source_Code": "if i + 1 < len(s) and (",
+            "Mutate_Code": "if i + 1 < len(s) and and ("
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T43_LCPN_91-Decode-ways.py",
+            "Source_Code": "if i + 1 < len(s) and (",
+            "Mutate_Code": "if i + 1 < len(s) or or ("
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T43_LCPN_91-Decode-ways.py",
+            "Source_Code": "if i + 1 < len(s) and (",
+            "Mutate_Code": "if i + 1 < len(s) not not ("
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T43_LCPN_91-Decode-ways.py",
+            "Source_Code": "if i + 1 < len(s) and (",
+            "Mutate_Code": "if i + 1 < len( ) and ("
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T43_LCPN_91-Decode-ways.py",
+            "Source_Code": "s[i] == \"1\" or s[i] == \"2\" and s[i + 1] in \"0123456\"",
+            "Mutate_Code": "s[i] == \"1\" or s[i] == \"2\" and s[i 1] in \"0123456\""
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T43_LCPN_91-Decode-ways.py",
+            "Source_Code": "s[i] == \"1\" or s[i] == \"2\" and s[i + 1] in \"0123456\"",
+            "Mutate_Code": "s[i] == \"1\" or s[i] == \"2\" and s[i - 1] in \"0123456\""
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T43_LCPN_91-Decode-ways.py",
+            "Source_Code": "s[i] == \"1\" or s[i] == \"2\" and s[i + 1] in \"0123456\"",
+            "Mutate_Code": "s[i] == \"1\" or s[i] == \"2\" and s[i * 1] in \"0123456\""
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T43_LCPN_91-Decode-ways.py",
+            "Source_Code": "s[i] == \"1\" or s[i] == \"2\" and s[i + 1] in \"0123456\"",
+            "Mutate_Code": "s[i] == \"1\" or s[i] == \"2\" and s[i / 1] in \"0123456\""
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T43_LCPN_91-Decode-ways.py",
+            "Source_Code": "s[i] == \"1\" or s[i] == \"2\" and s[i + 1] in \"0123456\"",
+            "Mutate_Code": "s[i] == \"1\" or s[i] == \"2\" and s[i % 1] in \"0123456\""
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T43_LCPN_91-Decode-ways.py",
+            "Source_Code": "s[i] == \"1\" or s[i] == \"2\" and s[i + 1] in \"0123456\"",
+            "Mutate_Code": "s[i] == \"1\" or s[i] == \"2\" and s[i ** 1] in \"0123456\""
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T43_LCPN_91-Decode-ways.py",
+            "Source_Code": "s[i] == \"1\" or s[i] == \"2\" and s[i + 1] in \"0123456\"",
+            "Mutate_Code": "s[i] == \"1\" or s[i] == \"2\" and s[i // 1] in \"0123456\""
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T43_LCPN_91-Decode-ways.py",
+            "Source_Code": "s[i] == \"1\" or s[i] == \"2\" and s[i + 1] in \"0123456\"",
+            "Mutate_Code": "s[i] == \"1\" or s[i] == \"2\" and s[i ++ 1] in \"0123456\""
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T43_LCPN_91-Decode-ways.py",
+            "Source_Code": "s[i] == \"1\" or s[i] == \"2\" and s[i + 1] in \"0123456\"",
+            "Mutate_Code": "s[i] == \"1\" or s[i] == \"2\" and s[i -- 1] in \"0123456\""
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T43_LCPN_91-Decode-ways.py",
+            "Source_Code": "s[i] == \"1\" or s[i] == \"2\" and s[i + 1] in \"0123456\"",
+            "Mutate_Code": "s[i] == \"1\" or s[i] == \"2\" and s[i ** 1] in \"0123456\""
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T43_LCPN_91-Decode-ways.py",
+            "Source_Code": "s[i] == \"1\" or s[i] == \"2\" and s[i + 1] in \"0123456\"",
+            "Mutate_Code": "s[i] == \"1\" or s[i] == \"2\" and s[i // 1] in \"0123456\""
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T43_LCPN_91-Decode-ways.py",
+            "Source_Code": "s[i] == \"1\" or s[i] == \"2\" and s[i + 1] in \"0123456\"",
+            "Mutate_Code": "s[i] == \"1\" or s[i] == \"2\" and s[i %% 1] in \"0123456\""
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T43_LCPN_91-Decode-ways.py",
+            "Source_Code": "s[i] == \"1\" or s[i] == \"2\" and s[i + 1] in \"0123456\"",
+            "Mutate_Code": "s[i] == \"1\" or s[i] == \"2\" and s[i **** 1] in \"0123456\""
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T43_LCPN_91-Decode-ways.py",
+            "Source_Code": "s[i] == \"1\" or s[i] == \"2\" and s[i + 1] in \"0123456\"",
+            "Mutate_Code": "s[i] == \"1\" or s[i] == \"2\" and s[i //// 1] in \"0123456\""
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T43_LCPN_91-Decode-ways.py",
+            "Source_Code": "s[i] == \"1\" or s[i] == \"2\" and s[i + 1] in \"0123456\"",
+            "Mutate_Code": "s[i]   \"1\" or s[i] == \"2\" and s[i + 1] in \"0123456\""
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T43_LCPN_91-Decode-ways.py",
+            "Source_Code": "s[i] == \"1\" or s[i] == \"2\" and s[i + 1] in \"0123456\"",
+            "Mutate_Code": "s[i] == \"1\" or s[i]   \"2\" and s[i + 1] in \"0123456\""
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T43_LCPN_91-Decode-ways.py",
+            "Source_Code": "s[i] == \"1\" or s[i] == \"2\" and s[i + 1] in \"0123456\"",
+            "Mutate_Code": "s[i] != \"1\" or s[i] == \"2\" and s[i + 1] in \"0123456\""
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T43_LCPN_91-Decode-ways.py",
+            "Source_Code": "s[i] == \"1\" or s[i] == \"2\" and s[i + 1] in \"0123456\"",
+            "Mutate_Code": "s[i] > \"1\" or s[i] == \"2\" and s[i + 1] in \"0123456\""
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T43_LCPN_91-Decode-ways.py",
+            "Source_Code": "s[i] == \"1\" or s[i] == \"2\" and s[i + 1] in \"0123456\"",
+            "Mutate_Code": "s[i] < \"1\" or s[i] == \"2\" and s[i + 1] in \"0123456\""
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T43_LCPN_91-Decode-ways.py",
+            "Source_Code": "s[i] == \"1\" or s[i] == \"2\" and s[i + 1] in \"0123456\"",
+            "Mutate_Code": "s[i] >= \"1\" or s[i] == \"2\" and s[i + 1] in \"0123456\""
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T43_LCPN_91-Decode-ways.py",
+            "Source_Code": "s[i] == \"1\" or s[i] == \"2\" and s[i + 1] in \"0123456\"",
+            "Mutate_Code": "s[i] <= \"1\" or s[i] == \"2\" and s[i + 1] in \"0123456\""
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T43_LCPN_91-Decode-ways.py",
+            "Source_Code": "s[i] == \"1\" or s[i] == \"2\" and s[i + 1] in \"0123456\"",
+            "Mutate_Code": "s[i] == \"1\" or s[i] != \"2\" and s[i + 1] in \"0123456\""
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T43_LCPN_91-Decode-ways.py",
+            "Source_Code": "s[i] == \"1\" or s[i] == \"2\" and s[i + 1] in \"0123456\"",
+            "Mutate_Code": "s[i] == \"1\" or s[i] > \"2\" and s[i + 1] in \"0123456\""
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T43_LCPN_91-Decode-ways.py",
+            "Source_Code": "s[i] == \"1\" or s[i] == \"2\" and s[i + 1] in \"0123456\"",
+            "Mutate_Code": "s[i] == \"1\" or s[i] < \"2\" and s[i + 1] in \"0123456\""
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T43_LCPN_91-Decode-ways.py",
+            "Source_Code": "s[i] == \"1\" or s[i] == \"2\" and s[i + 1] in \"0123456\"",
+            "Mutate_Code": "s[i] == \"1\" or s[i] >= \"2\" and s[i + 1] in \"0123456\""
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T43_LCPN_91-Decode-ways.py",
+            "Source_Code": "s[i] == \"1\" or s[i] == \"2\" and s[i + 1] in \"0123456\"",
+            "Mutate_Code": "s[i] == \"1\" or s[i] <= \"2\" and s[i + 1] in \"0123456\""
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T43_LCPN_91-Decode-ways.py",
+            "Source_Code": "s[i] == \"1\" or s[i] == \"2\" and s[i + 1] in \"0123456\"",
+            "Mutate_Code": "s[i]  ====  \"1\" or s[i] == \"2\" and s[i + 1] in \"0123456\""
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T43_LCPN_91-Decode-ways.py",
+            "Source_Code": "s[i] == \"1\" or s[i] == \"2\" and s[i + 1] in \"0123456\"",
+            "Mutate_Code": "s[i]  !==  \"1\" or s[i] == \"2\" and s[i + 1] in \"0123456\""
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T43_LCPN_91-Decode-ways.py",
+            "Source_Code": "s[i] == \"1\" or s[i] == \"2\" and s[i + 1] in \"0123456\"",
+            "Mutate_Code": "s[i]  >>  \"1\" or s[i] == \"2\" and s[i + 1] in \"0123456\""
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T43_LCPN_91-Decode-ways.py",
+            "Source_Code": "s[i] == \"1\" or s[i] == \"2\" and s[i + 1] in \"0123456\"",
+            "Mutate_Code": "s[i]  <<  \"1\" or s[i] == \"2\" and s[i + 1] in \"0123456\""
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T43_LCPN_91-Decode-ways.py",
+            "Source_Code": "s[i] == \"1\" or s[i] == \"2\" and s[i + 1] in \"0123456\"",
+            "Mutate_Code": "s[i]  >=>=  \"1\" or s[i] == \"2\" and s[i + 1] in \"0123456\""
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T43_LCPN_91-Decode-ways.py",
+            "Source_Code": "s[i] == \"1\" or s[i] == \"2\" and s[i + 1] in \"0123456\"",
+            "Mutate_Code": "s[i]  <=<=  \"1\" or s[i] == \"2\" and s[i + 1] in \"0123456\""
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T43_LCPN_91-Decode-ways.py",
+            "Source_Code": "s[i] == \"1\" or s[i] == \"2\" and s[i + 1] in \"0123456\"",
+            "Mutate_Code": "s[i] == \"1\" or s[i]  ====  \"2\" and s[i + 1] in \"0123456\""
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T43_LCPN_91-Decode-ways.py",
+            "Source_Code": "s[i] == \"1\" or s[i] == \"2\" and s[i + 1] in \"0123456\"",
+            "Mutate_Code": "s[i] == \"1\" or s[i]  !==  \"2\" and s[i + 1] in \"0123456\""
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T43_LCPN_91-Decode-ways.py",
+            "Source_Code": "s[i] == \"1\" or s[i] == \"2\" and s[i + 1] in \"0123456\"",
+            "Mutate_Code": "s[i] == \"1\" or s[i]  >>  \"2\" and s[i + 1] in \"0123456\""
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T43_LCPN_91-Decode-ways.py",
+            "Source_Code": "s[i] == \"1\" or s[i] == \"2\" and s[i + 1] in \"0123456\"",
+            "Mutate_Code": "s[i] == \"1\" or s[i]  <<  \"2\" and s[i + 1] in \"0123456\""
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T43_LCPN_91-Decode-ways.py",
+            "Source_Code": "s[i] == \"1\" or s[i] == \"2\" and s[i + 1] in \"0123456\"",
+            "Mutate_Code": "s[i] == \"1\" or s[i]  >=>=  \"2\" and s[i + 1] in \"0123456\""
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T43_LCPN_91-Decode-ways.py",
+            "Source_Code": "s[i] == \"1\" or s[i] == \"2\" and s[i + 1] in \"0123456\"",
+            "Mutate_Code": "s[i] == \"1\" or s[i]  <=<=  \"2\" and s[i + 1] in \"0123456\""
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T43_LCPN_91-Decode-ways.py",
+            "Source_Code": "s[i] == \"1\" or s[i] == \"2\" and s[i + 1] in \"0123456\"",
+            "Mutate_Code": "s[i] == \"1\" or s[i] == \"2\" s[i + 1] in \"0123456\""
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T43_LCPN_91-Decode-ways.py",
+            "Source_Code": "s[i] == \"1\" or s[i] == \"2\" and s[i + 1] in \"0123456\"",
+            "Mutate_Code": "s[i] == \"1\" s[i] == \"2\" and s[i + 1] in \"0123456\""
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T43_LCPN_91-Decode-ways.py",
+            "Source_Code": "s[i] == \"1\" or s[i] == \"2\" and s[i + 1] in \"0123456\"",
+            "Mutate_Code": "s[i] == \"1\" or s[i] == \"2\" or s[i + 1] in \"0123456\""
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T43_LCPN_91-Decode-ways.py",
+            "Source_Code": "s[i] == \"1\" or s[i] == \"2\" and s[i + 1] in \"0123456\"",
+            "Mutate_Code": "s[i] == \"1\" or s[i] == \"2\" not s[i + 1] in \"0123456\""
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T43_LCPN_91-Decode-ways.py",
+            "Source_Code": "s[i] == \"1\" or s[i] == \"2\" and s[i + 1] in \"0123456\"",
+            "Mutate_Code": "s[i] == \"1\" and s[i] == \"2\" and s[i + 1] in \"0123456\""
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T43_LCPN_91-Decode-ways.py",
+            "Source_Code": "s[i] == \"1\" or s[i] == \"2\" and s[i + 1] in \"0123456\"",
+            "Mutate_Code": "s[i] == \"1\" not s[i] == \"2\" and s[i + 1] in \"0123456\""
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T43_LCPN_91-Decode-ways.py",
+            "Source_Code": "s[i] == \"1\" or s[i] == \"2\" and s[i + 1] in \"0123456\"",
+            "Mutate_Code": "s[i] == \"1\" or s[i] == \"2\" and and s[i + 1] in \"0123456\""
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T43_LCPN_91-Decode-ways.py",
+            "Source_Code": "s[i] == \"1\" or s[i] == \"2\" and s[i + 1] in \"0123456\"",
+            "Mutate_Code": "s[i] == \"1\" or s[i] == \"2\" or or s[i + 1] in \"0123456\""
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T43_LCPN_91-Decode-ways.py",
+            "Source_Code": "s[i] == \"1\" or s[i] == \"2\" and s[i + 1] in \"0123456\"",
+            "Mutate_Code": "s[i] == \"1\" or s[i] == \"2\" not not s[i + 1] in \"0123456\""
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T43_LCPN_91-Decode-ways.py",
+            "Source_Code": "s[i] == \"1\" or s[i] == \"2\" and s[i + 1] in \"0123456\"",
+            "Mutate_Code": "s[i] == \"1\" and and s[i] == \"2\" and s[i + 1] in \"0123456\""
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T43_LCPN_91-Decode-ways.py",
+            "Source_Code": "s[i] == \"1\" or s[i] == \"2\" and s[i + 1] in \"0123456\"",
+            "Mutate_Code": "s[i] == \"1\" or or s[i] == \"2\" and s[i + 1] in \"0123456\""
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T43_LCPN_91-Decode-ways.py",
+            "Source_Code": "s[i] == \"1\" or s[i] == \"2\" and s[i + 1] in \"0123456\"",
+            "Mutate_Code": "s[i] == \"1\" not not s[i] == \"2\" and s[i + 1] in \"0123456\""
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T43_LCPN_91-Decode-ways.py",
+            "Source_Code": "s[i] == \"1\" or s[i] == \"2\" and s[i + 1] in \"0123456\"",
+            "Mutate_Code": "s[i] == \"1\" or s[i] == \"2\" and s[i + 1] \"0123456\""
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T43_LCPN_91-Decode-ways.py",
+            "Source_Code": "s[i] == \"1\" or s[i] == \"2\" and s[i + 1] in \"0123456\"",
+            "Mutate_Code": "s[i] == \"1\" or s[i] == \"2\" and s[i + 1] is \"0123456\""
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T43_LCPN_91-Decode-ways.py",
+            "Source_Code": "s[i] == \"1\" or s[i] == \"2\" and s[i + 1] in \"0123456\"",
+            "Mutate_Code": "s[i] == \"1\" or s[i] == \"2\" and s[i + 1] is not \"0123456\""
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T43_LCPN_91-Decode-ways.py",
+            "Source_Code": "s[i] == \"1\" or s[i] == \"2\" and s[i + 1] in \"0123456\"",
+            "Mutate_Code": "s[i] == \"1\" or s[i] == \"2\" and s[i + 1] in in \"0123456\""
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T43_LCPN_91-Decode-ways.py",
+            "Source_Code": "s[i] == \"1\" or s[i] == \"2\" and s[i + 1] in \"0123456\"",
+            "Mutate_Code": "s[i] == \"1\" or s[i] == \"2\" and s[i + 1] not in not in \"0123456\""
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T43_LCPN_91-Decode-ways.py",
+            "Source_Code": "s[i] == \"1\" or s[i] == \"2\" and s[i + 1] in \"0123456\"",
+            "Mutate_Code": "s[i] == \"1\" or s[i] == \"2\" and s[i 1] in \"0123456\""
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T43_LCPN_91-Decode-ways.py",
+            "Source_Code": "s[i] == \"1\" or s[i] == \"2\" and s[i + 1] in \"0123456\"",
+            "Mutate_Code": "s[i] == \"1\" or s[i] == \"2\" and s[i - 1] in \"0123456\""
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T43_LCPN_91-Decode-ways.py",
+            "Source_Code": "s[i] == \"1\" or s[i] == \"2\" and s[i + 1] in \"0123456\"",
+            "Mutate_Code": "s[i] == \"1\" or s[i] == \"2\" and s[i * 1] in \"0123456\""
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T43_LCPN_91-Decode-ways.py",
+            "Source_Code": "s[i] == \"1\" or s[i] == \"2\" and s[i + 1] in \"0123456\"",
+            "Mutate_Code": "s[i] == \"1\" or s[i] == \"2\" and s[i / 1] in \"0123456\""
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T43_LCPN_91-Decode-ways.py",
+            "Source_Code": "s[i] == \"1\" or s[i] == \"2\" and s[i + 1] in \"0123456\"",
+            "Mutate_Code": "s[i] == \"1\" or s[i] == \"2\" and s[i % 1] in \"0123456\""
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T43_LCPN_91-Decode-ways.py",
+            "Source_Code": "s[i] == \"1\" or s[i] == \"2\" and s[i + 1] in \"0123456\"",
+            "Mutate_Code": "s[i] == \"1\" or s[i] == \"2\" and s[i ** 1] in \"0123456\""
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T43_LCPN_91-Decode-ways.py",
+            "Source_Code": "s[i] == \"1\" or s[i] == \"2\" and s[i + 1] in \"0123456\"",
+            "Mutate_Code": "s[i] == \"1\" or s[i] == \"2\" and s[i // 1] in \"0123456\""
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T43_LCPN_91-Decode-ways.py",
+            "Source_Code": "s[i] == \"1\" or s[i] == \"2\" and s[i + 1] in \"0123456\"",
+            "Mutate_Code": "s[i] == \"1\" or s[i] == \"2\" and s[i ++ 1] in \"0123456\""
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T43_LCPN_91-Decode-ways.py",
+            "Source_Code": "s[i] == \"1\" or s[i] == \"2\" and s[i + 1] in \"0123456\"",
+            "Mutate_Code": "s[i] == \"1\" or s[i] == \"2\" and s[i -- 1] in \"0123456\""
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T43_LCPN_91-Decode-ways.py",
+            "Source_Code": "s[i] == \"1\" or s[i] == \"2\" and s[i + 1] in \"0123456\"",
+            "Mutate_Code": "s[i] == \"1\" or s[i] == \"2\" and s[i ** 1] in \"0123456\""
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T43_LCPN_91-Decode-ways.py",
+            "Source_Code": "s[i] == \"1\" or s[i] == \"2\" and s[i + 1] in \"0123456\"",
+            "Mutate_Code": "s[i] == \"1\" or s[i] == \"2\" and s[i // 1] in \"0123456\""
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T43_LCPN_91-Decode-ways.py",
+            "Source_Code": "s[i] == \"1\" or s[i] == \"2\" and s[i + 1] in \"0123456\"",
+            "Mutate_Code": "s[i] == \"1\" or s[i] == \"2\" and s[i %% 1] in \"0123456\""
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T43_LCPN_91-Decode-ways.py",
+            "Source_Code": "s[i] == \"1\" or s[i] == \"2\" and s[i + 1] in \"0123456\"",
+            "Mutate_Code": "s[i] == \"1\" or s[i] == \"2\" and s[i **** 1] in \"0123456\""
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T43_LCPN_91-Decode-ways.py",
+            "Source_Code": "s[i] == \"1\" or s[i] == \"2\" and s[i + 1] in \"0123456\"",
+            "Mutate_Code": "s[i] == \"1\" or s[i] == \"2\" and s[i //// 1] in \"0123456\""
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T43_LCPN_91-Decode-ways.py",
+            "Source_Code": "s[i] == \"1\" or s[i] == \"2\" and s[i + 1] in \"0123456\"",
+            "Mutate_Code": "s[i]   \"1\" or s[i] == \"2\" and s[i + 1] in \"0123456\""
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T43_LCPN_91-Decode-ways.py",
+            "Source_Code": "s[i] == \"1\" or s[i] == \"2\" and s[i + 1] in \"0123456\"",
+            "Mutate_Code": "s[i] == \"1\" or s[i]   \"2\" and s[i + 1] in \"0123456\""
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T43_LCPN_91-Decode-ways.py",
+            "Source_Code": "s[i] == \"1\" or s[i] == \"2\" and s[i + 1] in \"0123456\"",
+            "Mutate_Code": "s[i] != \"1\" or s[i] == \"2\" and s[i + 1] in \"0123456\""
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T43_LCPN_91-Decode-ways.py",
+            "Source_Code": "s[i] == \"1\" or s[i] == \"2\" and s[i + 1] in \"0123456\"",
+            "Mutate_Code": "s[i] > \"1\" or s[i] == \"2\" and s[i + 1] in \"0123456\""
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T43_LCPN_91-Decode-ways.py",
+            "Source_Code": "s[i] == \"1\" or s[i] == \"2\" and s[i + 1] in \"0123456\"",
+            "Mutate_Code": "s[i] < \"1\" or s[i] == \"2\" and s[i + 1] in \"0123456\""
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T43_LCPN_91-Decode-ways.py",
+            "Source_Code": "s[i] == \"1\" or s[i] == \"2\" and s[i + 1] in \"0123456\"",
+            "Mutate_Code": "s[i] >= \"1\" or s[i] == \"2\" and s[i + 1] in \"0123456\""
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T43_LCPN_91-Decode-ways.py",
+            "Source_Code": "s[i] == \"1\" or s[i] == \"2\" and s[i + 1] in \"0123456\"",
+            "Mutate_Code": "s[i] <= \"1\" or s[i] == \"2\" and s[i + 1] in \"0123456\""
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T43_LCPN_91-Decode-ways.py",
+            "Source_Code": "s[i] == \"1\" or s[i] == \"2\" and s[i + 1] in \"0123456\"",
+            "Mutate_Code": "s[i] == \"1\" or s[i] != \"2\" and s[i + 1] in \"0123456\""
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T43_LCPN_91-Decode-ways.py",
+            "Source_Code": "s[i] == \"1\" or s[i] == \"2\" and s[i + 1] in \"0123456\"",
+            "Mutate_Code": "s[i] == \"1\" or s[i] > \"2\" and s[i + 1] in \"0123456\""
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T43_LCPN_91-Decode-ways.py",
+            "Source_Code": "s[i] == \"1\" or s[i] == \"2\" and s[i + 1] in \"0123456\"",
+            "Mutate_Code": "s[i] == \"1\" or s[i] < \"2\" and s[i + 1] in \"0123456\""
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T43_LCPN_91-Decode-ways.py",
+            "Source_Code": "s[i] == \"1\" or s[i] == \"2\" and s[i + 1] in \"0123456\"",
+            "Mutate_Code": "s[i] == \"1\" or s[i] >= \"2\" and s[i + 1] in \"0123456\""
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T43_LCPN_91-Decode-ways.py",
+            "Source_Code": "s[i] == \"1\" or s[i] == \"2\" and s[i + 1] in \"0123456\"",
+            "Mutate_Code": "s[i] == \"1\" or s[i] <= \"2\" and s[i + 1] in \"0123456\""
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T43_LCPN_91-Decode-ways.py",
+            "Source_Code": "s[i] == \"1\" or s[i] == \"2\" and s[i + 1] in \"0123456\"",
+            "Mutate_Code": "s[i]  ====  \"1\" or s[i] == \"2\" and s[i + 1] in \"0123456\""
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T43_LCPN_91-Decode-ways.py",
+            "Source_Code": "s[i] == \"1\" or s[i] == \"2\" and s[i + 1] in \"0123456\"",
+            "Mutate_Code": "s[i]  !==  \"1\" or s[i] == \"2\" and s[i + 1] in \"0123456\""
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T43_LCPN_91-Decode-ways.py",
+            "Source_Code": "s[i] == \"1\" or s[i] == \"2\" and s[i + 1] in \"0123456\"",
+            "Mutate_Code": "s[i]  >>  \"1\" or s[i] == \"2\" and s[i + 1] in \"0123456\""
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T43_LCPN_91-Decode-ways.py",
+            "Source_Code": "s[i] == \"1\" or s[i] == \"2\" and s[i + 1] in \"0123456\"",
+            "Mutate_Code": "s[i]  <<  \"1\" or s[i] == \"2\" and s[i + 1] in \"0123456\""
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T43_LCPN_91-Decode-ways.py",
+            "Source_Code": "s[i] == \"1\" or s[i] == \"2\" and s[i + 1] in \"0123456\"",
+            "Mutate_Code": "s[i]  >=>=  \"1\" or s[i] == \"2\" and s[i + 1] in \"0123456\""
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T43_LCPN_91-Decode-ways.py",
+            "Source_Code": "s[i] == \"1\" or s[i] == \"2\" and s[i + 1] in \"0123456\"",
+            "Mutate_Code": "s[i]  <=<=  \"1\" or s[i] == \"2\" and s[i + 1] in \"0123456\""
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T43_LCPN_91-Decode-ways.py",
+            "Source_Code": "s[i] == \"1\" or s[i] == \"2\" and s[i + 1] in \"0123456\"",
+            "Mutate_Code": "s[i] == \"1\" or s[i]  ====  \"2\" and s[i + 1] in \"0123456\""
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T43_LCPN_91-Decode-ways.py",
+            "Source_Code": "s[i] == \"1\" or s[i] == \"2\" and s[i + 1] in \"0123456\"",
+            "Mutate_Code": "s[i] == \"1\" or s[i]  !==  \"2\" and s[i + 1] in \"0123456\""
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T43_LCPN_91-Decode-ways.py",
+            "Source_Code": "s[i] == \"1\" or s[i] == \"2\" and s[i + 1] in \"0123456\"",
+            "Mutate_Code": "s[i] == \"1\" or s[i]  >>  \"2\" and s[i + 1] in \"0123456\""
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T43_LCPN_91-Decode-ways.py",
+            "Source_Code": "s[i] == \"1\" or s[i] == \"2\" and s[i + 1] in \"0123456\"",
+            "Mutate_Code": "s[i] == \"1\" or s[i]  <<  \"2\" and s[i + 1] in \"0123456\""
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T43_LCPN_91-Decode-ways.py",
+            "Source_Code": "s[i] == \"1\" or s[i] == \"2\" and s[i + 1] in \"0123456\"",
+            "Mutate_Code": "s[i] == \"1\" or s[i]  >=>=  \"2\" and s[i + 1] in \"0123456\""
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T43_LCPN_91-Decode-ways.py",
+            "Source_Code": "s[i] == \"1\" or s[i] == \"2\" and s[i + 1] in \"0123456\"",
+            "Mutate_Code": "s[i] == \"1\" or s[i]  <=<=  \"2\" and s[i + 1] in \"0123456\""
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T43_LCPN_91-Decode-ways.py",
+            "Source_Code": "s[i] == \"1\" or s[i] == \"2\" and s[i + 1] in \"0123456\"",
+            "Mutate_Code": "s[i] == \"1\" or s[i] == \"2\" s[i + 1] in \"0123456\""
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T43_LCPN_91-Decode-ways.py",
+            "Source_Code": "s[i] == \"1\" or s[i] == \"2\" and s[i + 1] in \"0123456\"",
+            "Mutate_Code": "s[i] == \"1\" s[i] == \"2\" and s[i + 1] in \"0123456\""
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T43_LCPN_91-Decode-ways.py",
+            "Source_Code": "s[i] == \"1\" or s[i] == \"2\" and s[i + 1] in \"0123456\"",
+            "Mutate_Code": "s[i] == \"1\" or s[i] == \"2\" or s[i + 1] in \"0123456\""
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T43_LCPN_91-Decode-ways.py",
+            "Source_Code": "s[i] == \"1\" or s[i] == \"2\" and s[i + 1] in \"0123456\"",
+            "Mutate_Code": "s[i] == \"1\" or s[i] == \"2\" not s[i + 1] in \"0123456\""
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T43_LCPN_91-Decode-ways.py",
+            "Source_Code": "s[i] == \"1\" or s[i] == \"2\" and s[i + 1] in \"0123456\"",
+            "Mutate_Code": "s[i] == \"1\" and s[i] == \"2\" and s[i + 1] in \"0123456\""
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T43_LCPN_91-Decode-ways.py",
+            "Source_Code": "s[i] == \"1\" or s[i] == \"2\" and s[i + 1] in \"0123456\"",
+            "Mutate_Code": "s[i] == \"1\" not s[i] == \"2\" and s[i + 1] in \"0123456\""
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T43_LCPN_91-Decode-ways.py",
+            "Source_Code": "s[i] == \"1\" or s[i] == \"2\" and s[i + 1] in \"0123456\"",
+            "Mutate_Code": "s[i] == \"1\" or s[i] == \"2\" and and s[i + 1] in \"0123456\""
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T43_LCPN_91-Decode-ways.py",
+            "Source_Code": "s[i] == \"1\" or s[i] == \"2\" and s[i + 1] in \"0123456\"",
+            "Mutate_Code": "s[i] == \"1\" or s[i] == \"2\" or or s[i + 1] in \"0123456\""
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T43_LCPN_91-Decode-ways.py",
+            "Source_Code": "s[i] == \"1\" or s[i] == \"2\" and s[i + 1] in \"0123456\"",
+            "Mutate_Code": "s[i] == \"1\" or s[i] == \"2\" not not s[i + 1] in \"0123456\""
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T43_LCPN_91-Decode-ways.py",
+            "Source_Code": "s[i] == \"1\" or s[i] == \"2\" and s[i + 1] in \"0123456\"",
+            "Mutate_Code": "s[i] == \"1\" and and s[i] == \"2\" and s[i + 1] in \"0123456\""
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T43_LCPN_91-Decode-ways.py",
+            "Source_Code": "s[i] == \"1\" or s[i] == \"2\" and s[i + 1] in \"0123456\"",
+            "Mutate_Code": "s[i] == \"1\" or or s[i] == \"2\" and s[i + 1] in \"0123456\""
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T43_LCPN_91-Decode-ways.py",
+            "Source_Code": "s[i] == \"1\" or s[i] == \"2\" and s[i + 1] in \"0123456\"",
+            "Mutate_Code": "s[i] == \"1\" not not s[i] == \"2\" and s[i + 1] in \"0123456\""
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T43_LCPN_91-Decode-ways.py",
+            "Source_Code": "s[i] == \"1\" or s[i] == \"2\" and s[i + 1] in \"0123456\"",
+            "Mutate_Code": "s[i] == \"1\" or s[i] == \"2\" and s[i + 1] \"0123456\""
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T43_LCPN_91-Decode-ways.py",
+            "Source_Code": "s[i] == \"1\" or s[i] == \"2\" and s[i + 1] in \"0123456\"",
+            "Mutate_Code": "s[i] == \"1\" or s[i] == \"2\" and s[i + 1] is \"0123456\""
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T43_LCPN_91-Decode-ways.py",
+            "Source_Code": "s[i] == \"1\" or s[i] == \"2\" and s[i + 1] in \"0123456\"",
+            "Mutate_Code": "s[i] == \"1\" or s[i] == \"2\" and s[i + 1] is not \"0123456\""
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T43_LCPN_91-Decode-ways.py",
+            "Source_Code": "s[i] == \"1\" or s[i] == \"2\" and s[i + 1] in \"0123456\"",
+            "Mutate_Code": "s[i] == \"1\" or s[i] == \"2\" and s[i + 1] in in \"0123456\""
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T43_LCPN_91-Decode-ways.py",
+            "Source_Code": "s[i] == \"1\" or s[i] == \"2\" and s[i + 1] in \"0123456\"",
+            "Mutate_Code": "s[i] == \"1\" or s[i] == \"2\" and s[i + 1] not in not in \"0123456\""
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T43_LCPN_91-Decode-ways.py",
+            "Source_Code": "return dp[0]",
+            "Mutate_Code": " dp[0]"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T43_LCPN_91-Decode-ways.py",
+            "Source_Code": "return dp[0]",
+            "Mutate_Code": "passdp[0]"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T43_LCPN_91-Decode-ways.py",
+            "Source_Code": "return dp[0]",
+            "Mutate_Code": "return returndp[0]"
+        }
+    }
+]

@@ -1,0 +1,1598 @@
+[
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T42_LCPN_90-Subsets-II.py",
+            "Source_Code": "if i == len(nums):",
+            "Mutate_Code": "if i   len(nums):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T42_LCPN_90-Subsets-II.py",
+            "Source_Code": "if i == len(nums):",
+            "Mutate_Code": "if i != len(nums):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T42_LCPN_90-Subsets-II.py",
+            "Source_Code": "if i == len(nums):",
+            "Mutate_Code": "if i > len(nums):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T42_LCPN_90-Subsets-II.py",
+            "Source_Code": "if i == len(nums):",
+            "Mutate_Code": "if i < len(nums):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T42_LCPN_90-Subsets-II.py",
+            "Source_Code": "if i == len(nums):",
+            "Mutate_Code": "if i >= len(nums):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T42_LCPN_90-Subsets-II.py",
+            "Source_Code": "if i == len(nums):",
+            "Mutate_Code": "if i <= len(nums):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T42_LCPN_90-Subsets-II.py",
+            "Source_Code": "if i == len(nums):",
+            "Mutate_Code": "if i  ====  len(nums):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T42_LCPN_90-Subsets-II.py",
+            "Source_Code": "if i == len(nums):",
+            "Mutate_Code": "if i  !==  len(nums):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T42_LCPN_90-Subsets-II.py",
+            "Source_Code": "if i == len(nums):",
+            "Mutate_Code": "if i  >>  len(nums):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T42_LCPN_90-Subsets-II.py",
+            "Source_Code": "if i == len(nums):",
+            "Mutate_Code": "if i  <<  len(nums):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T42_LCPN_90-Subsets-II.py",
+            "Source_Code": "if i == len(nums):",
+            "Mutate_Code": "if i  >=>=  len(nums):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T42_LCPN_90-Subsets-II.py",
+            "Source_Code": "if i == len(nums):",
+            "Mutate_Code": "if i  <=<=  len(nums):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T42_LCPN_90-Subsets-II.py",
+            "Source_Code": "if i == len(nums):",
+            "Mutate_Code": " "
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T42_LCPN_90-Subsets-II.py",
+            "Source_Code": "if i == len(nums):",
+            "Mutate_Code": "elif:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T42_LCPN_90-Subsets-II.py",
+            "Source_Code": "if i == len(nums):",
+            "Mutate_Code": "else:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T42_LCPN_90-Subsets-II.py",
+            "Source_Code": "if i == len(nums):",
+            "Mutate_Code": "if if"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T42_LCPN_90-Subsets-II.py",
+            "Source_Code": "if i == len(nums):",
+            "Mutate_Code": "if i == len( ):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T42_LCPN_90-Subsets-II.py",
+            "Source_Code": "if i == len(nums):",
+            "Mutate_Code": "if i   len(nums):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T42_LCPN_90-Subsets-II.py",
+            "Source_Code": "if i == len(nums):",
+            "Mutate_Code": "if i != len(nums):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T42_LCPN_90-Subsets-II.py",
+            "Source_Code": "if i == len(nums):",
+            "Mutate_Code": "if i > len(nums):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T42_LCPN_90-Subsets-II.py",
+            "Source_Code": "if i == len(nums):",
+            "Mutate_Code": "if i < len(nums):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T42_LCPN_90-Subsets-II.py",
+            "Source_Code": "if i == len(nums):",
+            "Mutate_Code": "if i >= len(nums):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T42_LCPN_90-Subsets-II.py",
+            "Source_Code": "if i == len(nums):",
+            "Mutate_Code": "if i <= len(nums):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T42_LCPN_90-Subsets-II.py",
+            "Source_Code": "if i == len(nums):",
+            "Mutate_Code": "if i  ====  len(nums):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T42_LCPN_90-Subsets-II.py",
+            "Source_Code": "if i == len(nums):",
+            "Mutate_Code": "if i  !==  len(nums):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T42_LCPN_90-Subsets-II.py",
+            "Source_Code": "if i == len(nums):",
+            "Mutate_Code": "if i  >>  len(nums):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T42_LCPN_90-Subsets-II.py",
+            "Source_Code": "if i == len(nums):",
+            "Mutate_Code": "if i  <<  len(nums):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T42_LCPN_90-Subsets-II.py",
+            "Source_Code": "if i == len(nums):",
+            "Mutate_Code": "if i  >=>=  len(nums):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T42_LCPN_90-Subsets-II.py",
+            "Source_Code": "if i == len(nums):",
+            "Mutate_Code": "if i  <=<=  len(nums):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T42_LCPN_90-Subsets-II.py",
+            "Source_Code": "if i == len(nums):",
+            "Mutate_Code": " "
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T42_LCPN_90-Subsets-II.py",
+            "Source_Code": "if i == len(nums):",
+            "Mutate_Code": "elif:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T42_LCPN_90-Subsets-II.py",
+            "Source_Code": "if i == len(nums):",
+            "Mutate_Code": "else:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T42_LCPN_90-Subsets-II.py",
+            "Source_Code": "if i == len(nums):",
+            "Mutate_Code": "if if"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T42_LCPN_90-Subsets-II.py",
+            "Source_Code": "if i == len(nums):",
+            "Mutate_Code": "if i == len( ):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T42_LCPN_90-Subsets-II.py",
+            "Source_Code": "res.append(subset[::])",
+            "Mutate_Code": "res.append( )"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T42_LCPN_90-Subsets-II.py",
+            "Source_Code": "subset.append(nums[i])",
+            "Mutate_Code": "subset.append( )"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T42_LCPN_90-Subsets-II.py",
+            "Source_Code": "while i + 1 < len(nums) and nums[i] == nums[i + 1]:",
+            "Mutate_Code": "while i 1 < len(nums) and nums[i] == nums[i + 1]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T42_LCPN_90-Subsets-II.py",
+            "Source_Code": "while i + 1 < len(nums) and nums[i] == nums[i + 1]:",
+            "Mutate_Code": "while i + 1 < len(nums) and nums[i] == nums[i 1]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T42_LCPN_90-Subsets-II.py",
+            "Source_Code": "while i + 1 < len(nums) and nums[i] == nums[i + 1]:",
+            "Mutate_Code": "while i - 1 < len(nums) and nums[i] == nums[i + 1]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T42_LCPN_90-Subsets-II.py",
+            "Source_Code": "while i + 1 < len(nums) and nums[i] == nums[i + 1]:",
+            "Mutate_Code": "while i * 1 < len(nums) and nums[i] == nums[i + 1]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T42_LCPN_90-Subsets-II.py",
+            "Source_Code": "while i + 1 < len(nums) and nums[i] == nums[i + 1]:",
+            "Mutate_Code": "while i / 1 < len(nums) and nums[i] == nums[i + 1]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T42_LCPN_90-Subsets-II.py",
+            "Source_Code": "while i + 1 < len(nums) and nums[i] == nums[i + 1]:",
+            "Mutate_Code": "while i % 1 < len(nums) and nums[i] == nums[i + 1]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T42_LCPN_90-Subsets-II.py",
+            "Source_Code": "while i + 1 < len(nums) and nums[i] == nums[i + 1]:",
+            "Mutate_Code": "while i ** 1 < len(nums) and nums[i] == nums[i + 1]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T42_LCPN_90-Subsets-II.py",
+            "Source_Code": "while i + 1 < len(nums) and nums[i] == nums[i + 1]:",
+            "Mutate_Code": "while i // 1 < len(nums) and nums[i] == nums[i + 1]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T42_LCPN_90-Subsets-II.py",
+            "Source_Code": "while i + 1 < len(nums) and nums[i] == nums[i + 1]:",
+            "Mutate_Code": "while i + 1 < len(nums) and nums[i] == nums[i - 1]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T42_LCPN_90-Subsets-II.py",
+            "Source_Code": "while i + 1 < len(nums) and nums[i] == nums[i + 1]:",
+            "Mutate_Code": "while i + 1 < len(nums) and nums[i] == nums[i * 1]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T42_LCPN_90-Subsets-II.py",
+            "Source_Code": "while i + 1 < len(nums) and nums[i] == nums[i + 1]:",
+            "Mutate_Code": "while i + 1 < len(nums) and nums[i] == nums[i / 1]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T42_LCPN_90-Subsets-II.py",
+            "Source_Code": "while i + 1 < len(nums) and nums[i] == nums[i + 1]:",
+            "Mutate_Code": "while i + 1 < len(nums) and nums[i] == nums[i % 1]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T42_LCPN_90-Subsets-II.py",
+            "Source_Code": "while i + 1 < len(nums) and nums[i] == nums[i + 1]:",
+            "Mutate_Code": "while i + 1 < len(nums) and nums[i] == nums[i ** 1]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T42_LCPN_90-Subsets-II.py",
+            "Source_Code": "while i + 1 < len(nums) and nums[i] == nums[i + 1]:",
+            "Mutate_Code": "while i + 1 < len(nums) and nums[i] == nums[i // 1]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T42_LCPN_90-Subsets-II.py",
+            "Source_Code": "while i + 1 < len(nums) and nums[i] == nums[i + 1]:",
+            "Mutate_Code": "while i ++ 1 < len(nums) and nums[i] == nums[i + 1]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T42_LCPN_90-Subsets-II.py",
+            "Source_Code": "while i + 1 < len(nums) and nums[i] == nums[i + 1]:",
+            "Mutate_Code": "while i -- 1 < len(nums) and nums[i] == nums[i + 1]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T42_LCPN_90-Subsets-II.py",
+            "Source_Code": "while i + 1 < len(nums) and nums[i] == nums[i + 1]:",
+            "Mutate_Code": "while i ** 1 < len(nums) and nums[i] == nums[i + 1]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T42_LCPN_90-Subsets-II.py",
+            "Source_Code": "while i + 1 < len(nums) and nums[i] == nums[i + 1]:",
+            "Mutate_Code": "while i // 1 < len(nums) and nums[i] == nums[i + 1]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T42_LCPN_90-Subsets-II.py",
+            "Source_Code": "while i + 1 < len(nums) and nums[i] == nums[i + 1]:",
+            "Mutate_Code": "while i %% 1 < len(nums) and nums[i] == nums[i + 1]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T42_LCPN_90-Subsets-II.py",
+            "Source_Code": "while i + 1 < len(nums) and nums[i] == nums[i + 1]:",
+            "Mutate_Code": "while i **** 1 < len(nums) and nums[i] == nums[i + 1]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T42_LCPN_90-Subsets-II.py",
+            "Source_Code": "while i + 1 < len(nums) and nums[i] == nums[i + 1]:",
+            "Mutate_Code": "while i //// 1 < len(nums) and nums[i] == nums[i + 1]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T42_LCPN_90-Subsets-II.py",
+            "Source_Code": "while i + 1 < len(nums) and nums[i] == nums[i + 1]:",
+            "Mutate_Code": "while i + 1 < len(nums) and nums[i] == nums[i ++ 1]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T42_LCPN_90-Subsets-II.py",
+            "Source_Code": "while i + 1 < len(nums) and nums[i] == nums[i + 1]:",
+            "Mutate_Code": "while i + 1 < len(nums) and nums[i] == nums[i -- 1]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T42_LCPN_90-Subsets-II.py",
+            "Source_Code": "while i + 1 < len(nums) and nums[i] == nums[i + 1]:",
+            "Mutate_Code": "while i + 1 < len(nums) and nums[i] == nums[i ** 1]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T42_LCPN_90-Subsets-II.py",
+            "Source_Code": "while i + 1 < len(nums) and nums[i] == nums[i + 1]:",
+            "Mutate_Code": "while i + 1 < len(nums) and nums[i] == nums[i // 1]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T42_LCPN_90-Subsets-II.py",
+            "Source_Code": "while i + 1 < len(nums) and nums[i] == nums[i + 1]:",
+            "Mutate_Code": "while i + 1 < len(nums) and nums[i] == nums[i %% 1]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T42_LCPN_90-Subsets-II.py",
+            "Source_Code": "while i + 1 < len(nums) and nums[i] == nums[i + 1]:",
+            "Mutate_Code": "while i + 1 < len(nums) and nums[i] == nums[i **** 1]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T42_LCPN_90-Subsets-II.py",
+            "Source_Code": "while i + 1 < len(nums) and nums[i] == nums[i + 1]:",
+            "Mutate_Code": "while i + 1 < len(nums) and nums[i] == nums[i //// 1]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T42_LCPN_90-Subsets-II.py",
+            "Source_Code": "while i + 1 < len(nums) and nums[i] == nums[i + 1]:",
+            "Mutate_Code": "while i + 1   len(nums) and nums[i] == nums[i + 1]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T42_LCPN_90-Subsets-II.py",
+            "Source_Code": "while i + 1 < len(nums) and nums[i] == nums[i + 1]:",
+            "Mutate_Code": "while i + 1 < len(nums) and nums[i] == nums[i + 1]: "
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T42_LCPN_90-Subsets-II.py",
+            "Source_Code": "while i + 1 < len(nums) and nums[i] == nums[i + 1]:",
+            "Mutate_Code": "while i + 1 == len(nums) and nums[i] == nums[i + 1]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T42_LCPN_90-Subsets-II.py",
+            "Source_Code": "while i + 1 < len(nums) and nums[i] == nums[i + 1]:",
+            "Mutate_Code": "while i + 1 != len(nums) and nums[i] == nums[i + 1]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T42_LCPN_90-Subsets-II.py",
+            "Source_Code": "while i + 1 < len(nums) and nums[i] == nums[i + 1]:",
+            "Mutate_Code": "while i + 1 > len(nums) and nums[i] == nums[i + 1]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T42_LCPN_90-Subsets-II.py",
+            "Source_Code": "while i + 1 < len(nums) and nums[i] == nums[i + 1]:",
+            "Mutate_Code": "while i + 1 >= len(nums) and nums[i] == nums[i + 1]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T42_LCPN_90-Subsets-II.py",
+            "Source_Code": "while i + 1 < len(nums) and nums[i] == nums[i + 1]:",
+            "Mutate_Code": "while i + 1 <= len(nums) and nums[i] == nums[i + 1]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T42_LCPN_90-Subsets-II.py",
+            "Source_Code": "while i + 1 < len(nums) and nums[i] == nums[i + 1]:",
+            "Mutate_Code": "while i + 1 < len(nums) and nums[i] == nums[i + 1]:=="
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T42_LCPN_90-Subsets-II.py",
+            "Source_Code": "while i + 1 < len(nums) and nums[i] == nums[i + 1]:",
+            "Mutate_Code": "while i + 1 < len(nums) and nums[i] == nums[i + 1]:!="
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T42_LCPN_90-Subsets-II.py",
+            "Source_Code": "while i + 1 < len(nums) and nums[i] == nums[i + 1]:",
+            "Mutate_Code": "while i + 1 < len(nums) and nums[i] == nums[i + 1]:>"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T42_LCPN_90-Subsets-II.py",
+            "Source_Code": "while i + 1 < len(nums) and nums[i] == nums[i + 1]:",
+            "Mutate_Code": "while i + 1 < len(nums) and nums[i] == nums[i + 1]:<"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T42_LCPN_90-Subsets-II.py",
+            "Source_Code": "while i + 1 < len(nums) and nums[i] == nums[i + 1]:",
+            "Mutate_Code": "while i + 1 < len(nums) and nums[i] == nums[i + 1]:>="
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T42_LCPN_90-Subsets-II.py",
+            "Source_Code": "while i + 1 < len(nums) and nums[i] == nums[i + 1]:",
+            "Mutate_Code": "while i + 1 < len(nums) and nums[i] == nums[i + 1]:<="
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T42_LCPN_90-Subsets-II.py",
+            "Source_Code": "while i + 1 < len(nums) and nums[i] == nums[i + 1]:",
+            "Mutate_Code": "while i + 1  ====  len(nums) and nums[i] == nums[i + 1]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T42_LCPN_90-Subsets-II.py",
+            "Source_Code": "while i + 1 < len(nums) and nums[i] == nums[i + 1]:",
+            "Mutate_Code": "while i + 1  !==  len(nums) and nums[i] == nums[i + 1]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T42_LCPN_90-Subsets-II.py",
+            "Source_Code": "while i + 1 < len(nums) and nums[i] == nums[i + 1]:",
+            "Mutate_Code": "while i + 1  >>  len(nums) and nums[i] == nums[i + 1]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T42_LCPN_90-Subsets-II.py",
+            "Source_Code": "while i + 1 < len(nums) and nums[i] == nums[i + 1]:",
+            "Mutate_Code": "while i + 1  <<  len(nums) and nums[i] == nums[i + 1]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T42_LCPN_90-Subsets-II.py",
+            "Source_Code": "while i + 1 < len(nums) and nums[i] == nums[i + 1]:",
+            "Mutate_Code": "while i + 1  >=>=  len(nums) and nums[i] == nums[i + 1]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T42_LCPN_90-Subsets-II.py",
+            "Source_Code": "while i + 1 < len(nums) and nums[i] == nums[i + 1]:",
+            "Mutate_Code": "while i + 1  <=<=  len(nums) and nums[i] == nums[i + 1]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T42_LCPN_90-Subsets-II.py",
+            "Source_Code": "while i + 1 < len(nums) and nums[i] == nums[i + 1]:",
+            "Mutate_Code": "while i + 1 < len(nums) and nums[i] == nums[i + 1]: ==== "
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T42_LCPN_90-Subsets-II.py",
+            "Source_Code": "while i + 1 < len(nums) and nums[i] == nums[i + 1]:",
+            "Mutate_Code": "while i + 1 < len(nums) and nums[i] == nums[i + 1]: !== "
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T42_LCPN_90-Subsets-II.py",
+            "Source_Code": "while i + 1 < len(nums) and nums[i] == nums[i + 1]:",
+            "Mutate_Code": "while i + 1 < len(nums) and nums[i] == nums[i + 1]: >> "
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T42_LCPN_90-Subsets-II.py",
+            "Source_Code": "while i + 1 < len(nums) and nums[i] == nums[i + 1]:",
+            "Mutate_Code": "while i + 1 < len(nums) and nums[i] == nums[i + 1]: << "
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T42_LCPN_90-Subsets-II.py",
+            "Source_Code": "while i + 1 < len(nums) and nums[i] == nums[i + 1]:",
+            "Mutate_Code": "while i + 1 < len(nums) and nums[i] == nums[i + 1]: >=>= "
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T42_LCPN_90-Subsets-II.py",
+            "Source_Code": "while i + 1 < len(nums) and nums[i] == nums[i + 1]:",
+            "Mutate_Code": "while i + 1 < len(nums) and nums[i] == nums[i + 1]: <=<= "
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T42_LCPN_90-Subsets-II.py",
+            "Source_Code": "while i + 1 < len(nums) and nums[i] == nums[i + 1]:",
+            "Mutate_Code": "while i + 1 < len(nums) nums[i] == nums[i + 1]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T42_LCPN_90-Subsets-II.py",
+            "Source_Code": "while i + 1 < len(nums) and nums[i] == nums[i + 1]:",
+            "Mutate_Code": "while i + 1 < len(nums) or nums[i] == nums[i + 1]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T42_LCPN_90-Subsets-II.py",
+            "Source_Code": "while i + 1 < len(nums) and nums[i] == nums[i + 1]:",
+            "Mutate_Code": "while i + 1 < len(nums) not nums[i] == nums[i + 1]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T42_LCPN_90-Subsets-II.py",
+            "Source_Code": "while i + 1 < len(nums) and nums[i] == nums[i + 1]:",
+            "Mutate_Code": "while i + 1 < len(nums) and and nums[i] == nums[i + 1]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T42_LCPN_90-Subsets-II.py",
+            "Source_Code": "while i + 1 < len(nums) and nums[i] == nums[i + 1]:",
+            "Mutate_Code": "while i + 1 < len(nums) or or nums[i] == nums[i + 1]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T42_LCPN_90-Subsets-II.py",
+            "Source_Code": "while i + 1 < len(nums) and nums[i] == nums[i + 1]:",
+            "Mutate_Code": "while i + 1 < len(nums) not not nums[i] == nums[i + 1]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T42_LCPN_90-Subsets-II.py",
+            "Source_Code": "while i + 1 < len(nums) and nums[i] == nums[i + 1]:",
+            "Mutate_Code": " "
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T42_LCPN_90-Subsets-II.py",
+            "Source_Code": "while i + 1 < len(nums) and nums[i] == nums[i + 1]:",
+            "Mutate_Code": "for "
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T42_LCPN_90-Subsets-II.py",
+            "Source_Code": "while i + 1 < len(nums) and nums[i] == nums[i + 1]:",
+            "Mutate_Code": "while while:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T42_LCPN_90-Subsets-II.py",
+            "Source_Code": "while i + 1 < len(nums) and nums[i] == nums[i + 1]:",
+            "Mutate_Code": "while i + 1 < len( ) and nums[i] == nums[i + 1]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T42_LCPN_90-Subsets-II.py",
+            "Source_Code": "while i + 1 < len(nums) and nums[i] == nums[i + 1]:",
+            "Mutate_Code": "while i 1 < len(nums) and nums[i] == nums[i + 1]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T42_LCPN_90-Subsets-II.py",
+            "Source_Code": "while i + 1 < len(nums) and nums[i] == nums[i + 1]:",
+            "Mutate_Code": "while i + 1 < len(nums) and nums[i] == nums[i 1]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T42_LCPN_90-Subsets-II.py",
+            "Source_Code": "while i + 1 < len(nums) and nums[i] == nums[i + 1]:",
+            "Mutate_Code": "while i - 1 < len(nums) and nums[i] == nums[i + 1]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T42_LCPN_90-Subsets-II.py",
+            "Source_Code": "while i + 1 < len(nums) and nums[i] == nums[i + 1]:",
+            "Mutate_Code": "while i * 1 < len(nums) and nums[i] == nums[i + 1]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T42_LCPN_90-Subsets-II.py",
+            "Source_Code": "while i + 1 < len(nums) and nums[i] == nums[i + 1]:",
+            "Mutate_Code": "while i / 1 < len(nums) and nums[i] == nums[i + 1]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T42_LCPN_90-Subsets-II.py",
+            "Source_Code": "while i + 1 < len(nums) and nums[i] == nums[i + 1]:",
+            "Mutate_Code": "while i % 1 < len(nums) and nums[i] == nums[i + 1]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T42_LCPN_90-Subsets-II.py",
+            "Source_Code": "while i + 1 < len(nums) and nums[i] == nums[i + 1]:",
+            "Mutate_Code": "while i ** 1 < len(nums) and nums[i] == nums[i + 1]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T42_LCPN_90-Subsets-II.py",
+            "Source_Code": "while i + 1 < len(nums) and nums[i] == nums[i + 1]:",
+            "Mutate_Code": "while i // 1 < len(nums) and nums[i] == nums[i + 1]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T42_LCPN_90-Subsets-II.py",
+            "Source_Code": "while i + 1 < len(nums) and nums[i] == nums[i + 1]:",
+            "Mutate_Code": "while i + 1 < len(nums) and nums[i] == nums[i - 1]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T42_LCPN_90-Subsets-II.py",
+            "Source_Code": "while i + 1 < len(nums) and nums[i] == nums[i + 1]:",
+            "Mutate_Code": "while i + 1 < len(nums) and nums[i] == nums[i * 1]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T42_LCPN_90-Subsets-II.py",
+            "Source_Code": "while i + 1 < len(nums) and nums[i] == nums[i + 1]:",
+            "Mutate_Code": "while i + 1 < len(nums) and nums[i] == nums[i / 1]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T42_LCPN_90-Subsets-II.py",
+            "Source_Code": "while i + 1 < len(nums) and nums[i] == nums[i + 1]:",
+            "Mutate_Code": "while i + 1 < len(nums) and nums[i] == nums[i % 1]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T42_LCPN_90-Subsets-II.py",
+            "Source_Code": "while i + 1 < len(nums) and nums[i] == nums[i + 1]:",
+            "Mutate_Code": "while i + 1 < len(nums) and nums[i] == nums[i ** 1]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T42_LCPN_90-Subsets-II.py",
+            "Source_Code": "while i + 1 < len(nums) and nums[i] == nums[i + 1]:",
+            "Mutate_Code": "while i + 1 < len(nums) and nums[i] == nums[i // 1]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T42_LCPN_90-Subsets-II.py",
+            "Source_Code": "while i + 1 < len(nums) and nums[i] == nums[i + 1]:",
+            "Mutate_Code": "while i ++ 1 < len(nums) and nums[i] == nums[i + 1]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T42_LCPN_90-Subsets-II.py",
+            "Source_Code": "while i + 1 < len(nums) and nums[i] == nums[i + 1]:",
+            "Mutate_Code": "while i -- 1 < len(nums) and nums[i] == nums[i + 1]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T42_LCPN_90-Subsets-II.py",
+            "Source_Code": "while i + 1 < len(nums) and nums[i] == nums[i + 1]:",
+            "Mutate_Code": "while i ** 1 < len(nums) and nums[i] == nums[i + 1]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T42_LCPN_90-Subsets-II.py",
+            "Source_Code": "while i + 1 < len(nums) and nums[i] == nums[i + 1]:",
+            "Mutate_Code": "while i // 1 < len(nums) and nums[i] == nums[i + 1]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T42_LCPN_90-Subsets-II.py",
+            "Source_Code": "while i + 1 < len(nums) and nums[i] == nums[i + 1]:",
+            "Mutate_Code": "while i %% 1 < len(nums) and nums[i] == nums[i + 1]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T42_LCPN_90-Subsets-II.py",
+            "Source_Code": "while i + 1 < len(nums) and nums[i] == nums[i + 1]:",
+            "Mutate_Code": "while i **** 1 < len(nums) and nums[i] == nums[i + 1]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T42_LCPN_90-Subsets-II.py",
+            "Source_Code": "while i + 1 < len(nums) and nums[i] == nums[i + 1]:",
+            "Mutate_Code": "while i //// 1 < len(nums) and nums[i] == nums[i + 1]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T42_LCPN_90-Subsets-II.py",
+            "Source_Code": "while i + 1 < len(nums) and nums[i] == nums[i + 1]:",
+            "Mutate_Code": "while i + 1 < len(nums) and nums[i] == nums[i ++ 1]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T42_LCPN_90-Subsets-II.py",
+            "Source_Code": "while i + 1 < len(nums) and nums[i] == nums[i + 1]:",
+            "Mutate_Code": "while i + 1 < len(nums) and nums[i] == nums[i -- 1]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T42_LCPN_90-Subsets-II.py",
+            "Source_Code": "while i + 1 < len(nums) and nums[i] == nums[i + 1]:",
+            "Mutate_Code": "while i + 1 < len(nums) and nums[i] == nums[i ** 1]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T42_LCPN_90-Subsets-II.py",
+            "Source_Code": "while i + 1 < len(nums) and nums[i] == nums[i + 1]:",
+            "Mutate_Code": "while i + 1 < len(nums) and nums[i] == nums[i // 1]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T42_LCPN_90-Subsets-II.py",
+            "Source_Code": "while i + 1 < len(nums) and nums[i] == nums[i + 1]:",
+            "Mutate_Code": "while i + 1 < len(nums) and nums[i] == nums[i %% 1]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T42_LCPN_90-Subsets-II.py",
+            "Source_Code": "while i + 1 < len(nums) and nums[i] == nums[i + 1]:",
+            "Mutate_Code": "while i + 1 < len(nums) and nums[i] == nums[i **** 1]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T42_LCPN_90-Subsets-II.py",
+            "Source_Code": "while i + 1 < len(nums) and nums[i] == nums[i + 1]:",
+            "Mutate_Code": "while i + 1 < len(nums) and nums[i] == nums[i //// 1]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T42_LCPN_90-Subsets-II.py",
+            "Source_Code": "while i + 1 < len(nums) and nums[i] == nums[i + 1]:",
+            "Mutate_Code": "while i + 1   len(nums) and nums[i] == nums[i + 1]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T42_LCPN_90-Subsets-II.py",
+            "Source_Code": "while i + 1 < len(nums) and nums[i] == nums[i + 1]:",
+            "Mutate_Code": "while i + 1 < len(nums) and nums[i] == nums[i + 1]: "
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T42_LCPN_90-Subsets-II.py",
+            "Source_Code": "while i + 1 < len(nums) and nums[i] == nums[i + 1]:",
+            "Mutate_Code": "while i + 1 == len(nums) and nums[i] == nums[i + 1]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T42_LCPN_90-Subsets-II.py",
+            "Source_Code": "while i + 1 < len(nums) and nums[i] == nums[i + 1]:",
+            "Mutate_Code": "while i + 1 != len(nums) and nums[i] == nums[i + 1]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T42_LCPN_90-Subsets-II.py",
+            "Source_Code": "while i + 1 < len(nums) and nums[i] == nums[i + 1]:",
+            "Mutate_Code": "while i + 1 > len(nums) and nums[i] == nums[i + 1]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T42_LCPN_90-Subsets-II.py",
+            "Source_Code": "while i + 1 < len(nums) and nums[i] == nums[i + 1]:",
+            "Mutate_Code": "while i + 1 >= len(nums) and nums[i] == nums[i + 1]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T42_LCPN_90-Subsets-II.py",
+            "Source_Code": "while i + 1 < len(nums) and nums[i] == nums[i + 1]:",
+            "Mutate_Code": "while i + 1 <= len(nums) and nums[i] == nums[i + 1]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T42_LCPN_90-Subsets-II.py",
+            "Source_Code": "while i + 1 < len(nums) and nums[i] == nums[i + 1]:",
+            "Mutate_Code": "while i + 1 < len(nums) and nums[i] == nums[i + 1]:=="
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T42_LCPN_90-Subsets-II.py",
+            "Source_Code": "while i + 1 < len(nums) and nums[i] == nums[i + 1]:",
+            "Mutate_Code": "while i + 1 < len(nums) and nums[i] == nums[i + 1]:!="
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T42_LCPN_90-Subsets-II.py",
+            "Source_Code": "while i + 1 < len(nums) and nums[i] == nums[i + 1]:",
+            "Mutate_Code": "while i + 1 < len(nums) and nums[i] == nums[i + 1]:>"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T42_LCPN_90-Subsets-II.py",
+            "Source_Code": "while i + 1 < len(nums) and nums[i] == nums[i + 1]:",
+            "Mutate_Code": "while i + 1 < len(nums) and nums[i] == nums[i + 1]:<"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T42_LCPN_90-Subsets-II.py",
+            "Source_Code": "while i + 1 < len(nums) and nums[i] == nums[i + 1]:",
+            "Mutate_Code": "while i + 1 < len(nums) and nums[i] == nums[i + 1]:>="
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T42_LCPN_90-Subsets-II.py",
+            "Source_Code": "while i + 1 < len(nums) and nums[i] == nums[i + 1]:",
+            "Mutate_Code": "while i + 1 < len(nums) and nums[i] == nums[i + 1]:<="
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T42_LCPN_90-Subsets-II.py",
+            "Source_Code": "while i + 1 < len(nums) and nums[i] == nums[i + 1]:",
+            "Mutate_Code": "while i + 1  ====  len(nums) and nums[i] == nums[i + 1]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T42_LCPN_90-Subsets-II.py",
+            "Source_Code": "while i + 1 < len(nums) and nums[i] == nums[i + 1]:",
+            "Mutate_Code": "while i + 1  !==  len(nums) and nums[i] == nums[i + 1]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T42_LCPN_90-Subsets-II.py",
+            "Source_Code": "while i + 1 < len(nums) and nums[i] == nums[i + 1]:",
+            "Mutate_Code": "while i + 1  >>  len(nums) and nums[i] == nums[i + 1]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T42_LCPN_90-Subsets-II.py",
+            "Source_Code": "while i + 1 < len(nums) and nums[i] == nums[i + 1]:",
+            "Mutate_Code": "while i + 1  <<  len(nums) and nums[i] == nums[i + 1]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T42_LCPN_90-Subsets-II.py",
+            "Source_Code": "while i + 1 < len(nums) and nums[i] == nums[i + 1]:",
+            "Mutate_Code": "while i + 1  >=>=  len(nums) and nums[i] == nums[i + 1]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T42_LCPN_90-Subsets-II.py",
+            "Source_Code": "while i + 1 < len(nums) and nums[i] == nums[i + 1]:",
+            "Mutate_Code": "while i + 1  <=<=  len(nums) and nums[i] == nums[i + 1]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T42_LCPN_90-Subsets-II.py",
+            "Source_Code": "while i + 1 < len(nums) and nums[i] == nums[i + 1]:",
+            "Mutate_Code": "while i + 1 < len(nums) and nums[i] == nums[i + 1]: ==== "
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T42_LCPN_90-Subsets-II.py",
+            "Source_Code": "while i + 1 < len(nums) and nums[i] == nums[i + 1]:",
+            "Mutate_Code": "while i + 1 < len(nums) and nums[i] == nums[i + 1]: !== "
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T42_LCPN_90-Subsets-II.py",
+            "Source_Code": "while i + 1 < len(nums) and nums[i] == nums[i + 1]:",
+            "Mutate_Code": "while i + 1 < len(nums) and nums[i] == nums[i + 1]: >> "
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T42_LCPN_90-Subsets-II.py",
+            "Source_Code": "while i + 1 < len(nums) and nums[i] == nums[i + 1]:",
+            "Mutate_Code": "while i + 1 < len(nums) and nums[i] == nums[i + 1]: << "
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T42_LCPN_90-Subsets-II.py",
+            "Source_Code": "while i + 1 < len(nums) and nums[i] == nums[i + 1]:",
+            "Mutate_Code": "while i + 1 < len(nums) and nums[i] == nums[i + 1]: >=>= "
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T42_LCPN_90-Subsets-II.py",
+            "Source_Code": "while i + 1 < len(nums) and nums[i] == nums[i + 1]:",
+            "Mutate_Code": "while i + 1 < len(nums) and nums[i] == nums[i + 1]: <=<= "
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T42_LCPN_90-Subsets-II.py",
+            "Source_Code": "while i + 1 < len(nums) and nums[i] == nums[i + 1]:",
+            "Mutate_Code": "while i + 1 < len(nums) nums[i] == nums[i + 1]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T42_LCPN_90-Subsets-II.py",
+            "Source_Code": "while i + 1 < len(nums) and nums[i] == nums[i + 1]:",
+            "Mutate_Code": "while i + 1 < len(nums) or nums[i] == nums[i + 1]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T42_LCPN_90-Subsets-II.py",
+            "Source_Code": "while i + 1 < len(nums) and nums[i] == nums[i + 1]:",
+            "Mutate_Code": "while i + 1 < len(nums) not nums[i] == nums[i + 1]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T42_LCPN_90-Subsets-II.py",
+            "Source_Code": "while i + 1 < len(nums) and nums[i] == nums[i + 1]:",
+            "Mutate_Code": "while i + 1 < len(nums) and and nums[i] == nums[i + 1]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T42_LCPN_90-Subsets-II.py",
+            "Source_Code": "while i + 1 < len(nums) and nums[i] == nums[i + 1]:",
+            "Mutate_Code": "while i + 1 < len(nums) or or nums[i] == nums[i + 1]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T42_LCPN_90-Subsets-II.py",
+            "Source_Code": "while i + 1 < len(nums) and nums[i] == nums[i + 1]:",
+            "Mutate_Code": "while i + 1 < len(nums) not not nums[i] == nums[i + 1]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T42_LCPN_90-Subsets-II.py",
+            "Source_Code": "while i + 1 < len(nums) and nums[i] == nums[i + 1]:",
+            "Mutate_Code": " "
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T42_LCPN_90-Subsets-II.py",
+            "Source_Code": "while i + 1 < len(nums) and nums[i] == nums[i + 1]:",
+            "Mutate_Code": "for "
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T42_LCPN_90-Subsets-II.py",
+            "Source_Code": "while i + 1 < len(nums) and nums[i] == nums[i + 1]:",
+            "Mutate_Code": "while while:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T42_LCPN_90-Subsets-II.py",
+            "Source_Code": "while i + 1 < len(nums) and nums[i] == nums[i + 1]:",
+            "Mutate_Code": "while i + 1 < len( ) and nums[i] == nums[i + 1]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T42_LCPN_90-Subsets-II.py",
+            "Source_Code": "while i + 1 < len(nums) and nums[i] == nums[i + 1]:",
+            "Mutate_Code": "while i 1 < len(nums) and nums[i] == nums[i + 1]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T42_LCPN_90-Subsets-II.py",
+            "Source_Code": "while i + 1 < len(nums) and nums[i] == nums[i + 1]:",
+            "Mutate_Code": "while i + 1 < len(nums) and nums[i] == nums[i 1]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T42_LCPN_90-Subsets-II.py",
+            "Source_Code": "while i + 1 < len(nums) and nums[i] == nums[i + 1]:",
+            "Mutate_Code": "while i - 1 < len(nums) and nums[i] == nums[i + 1]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T42_LCPN_90-Subsets-II.py",
+            "Source_Code": "while i + 1 < len(nums) and nums[i] == nums[i + 1]:",
+            "Mutate_Code": "while i * 1 < len(nums) and nums[i] == nums[i + 1]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T42_LCPN_90-Subsets-II.py",
+            "Source_Code": "while i + 1 < len(nums) and nums[i] == nums[i + 1]:",
+            "Mutate_Code": "while i / 1 < len(nums) and nums[i] == nums[i + 1]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T42_LCPN_90-Subsets-II.py",
+            "Source_Code": "while i + 1 < len(nums) and nums[i] == nums[i + 1]:",
+            "Mutate_Code": "while i % 1 < len(nums) and nums[i] == nums[i + 1]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T42_LCPN_90-Subsets-II.py",
+            "Source_Code": "while i + 1 < len(nums) and nums[i] == nums[i + 1]:",
+            "Mutate_Code": "while i ** 1 < len(nums) and nums[i] == nums[i + 1]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T42_LCPN_90-Subsets-II.py",
+            "Source_Code": "while i + 1 < len(nums) and nums[i] == nums[i + 1]:",
+            "Mutate_Code": "while i // 1 < len(nums) and nums[i] == nums[i + 1]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T42_LCPN_90-Subsets-II.py",
+            "Source_Code": "while i + 1 < len(nums) and nums[i] == nums[i + 1]:",
+            "Mutate_Code": "while i + 1 < len(nums) and nums[i] == nums[i - 1]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T42_LCPN_90-Subsets-II.py",
+            "Source_Code": "while i + 1 < len(nums) and nums[i] == nums[i + 1]:",
+            "Mutate_Code": "while i + 1 < len(nums) and nums[i] == nums[i * 1]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T42_LCPN_90-Subsets-II.py",
+            "Source_Code": "while i + 1 < len(nums) and nums[i] == nums[i + 1]:",
+            "Mutate_Code": "while i + 1 < len(nums) and nums[i] == nums[i / 1]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T42_LCPN_90-Subsets-II.py",
+            "Source_Code": "while i + 1 < len(nums) and nums[i] == nums[i + 1]:",
+            "Mutate_Code": "while i + 1 < len(nums) and nums[i] == nums[i % 1]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T42_LCPN_90-Subsets-II.py",
+            "Source_Code": "while i + 1 < len(nums) and nums[i] == nums[i + 1]:",
+            "Mutate_Code": "while i + 1 < len(nums) and nums[i] == nums[i ** 1]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T42_LCPN_90-Subsets-II.py",
+            "Source_Code": "while i + 1 < len(nums) and nums[i] == nums[i + 1]:",
+            "Mutate_Code": "while i + 1 < len(nums) and nums[i] == nums[i // 1]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T42_LCPN_90-Subsets-II.py",
+            "Source_Code": "while i + 1 < len(nums) and nums[i] == nums[i + 1]:",
+            "Mutate_Code": "while i ++ 1 < len(nums) and nums[i] == nums[i + 1]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T42_LCPN_90-Subsets-II.py",
+            "Source_Code": "while i + 1 < len(nums) and nums[i] == nums[i + 1]:",
+            "Mutate_Code": "while i -- 1 < len(nums) and nums[i] == nums[i + 1]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T42_LCPN_90-Subsets-II.py",
+            "Source_Code": "while i + 1 < len(nums) and nums[i] == nums[i + 1]:",
+            "Mutate_Code": "while i ** 1 < len(nums) and nums[i] == nums[i + 1]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T42_LCPN_90-Subsets-II.py",
+            "Source_Code": "while i + 1 < len(nums) and nums[i] == nums[i + 1]:",
+            "Mutate_Code": "while i // 1 < len(nums) and nums[i] == nums[i + 1]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T42_LCPN_90-Subsets-II.py",
+            "Source_Code": "while i + 1 < len(nums) and nums[i] == nums[i + 1]:",
+            "Mutate_Code": "while i %% 1 < len(nums) and nums[i] == nums[i + 1]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T42_LCPN_90-Subsets-II.py",
+            "Source_Code": "while i + 1 < len(nums) and nums[i] == nums[i + 1]:",
+            "Mutate_Code": "while i **** 1 < len(nums) and nums[i] == nums[i + 1]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T42_LCPN_90-Subsets-II.py",
+            "Source_Code": "while i + 1 < len(nums) and nums[i] == nums[i + 1]:",
+            "Mutate_Code": "while i //// 1 < len(nums) and nums[i] == nums[i + 1]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T42_LCPN_90-Subsets-II.py",
+            "Source_Code": "while i + 1 < len(nums) and nums[i] == nums[i + 1]:",
+            "Mutate_Code": "while i + 1 < len(nums) and nums[i] == nums[i ++ 1]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T42_LCPN_90-Subsets-II.py",
+            "Source_Code": "while i + 1 < len(nums) and nums[i] == nums[i + 1]:",
+            "Mutate_Code": "while i + 1 < len(nums) and nums[i] == nums[i -- 1]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T42_LCPN_90-Subsets-II.py",
+            "Source_Code": "while i + 1 < len(nums) and nums[i] == nums[i + 1]:",
+            "Mutate_Code": "while i + 1 < len(nums) and nums[i] == nums[i ** 1]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T42_LCPN_90-Subsets-II.py",
+            "Source_Code": "while i + 1 < len(nums) and nums[i] == nums[i + 1]:",
+            "Mutate_Code": "while i + 1 < len(nums) and nums[i] == nums[i // 1]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T42_LCPN_90-Subsets-II.py",
+            "Source_Code": "while i + 1 < len(nums) and nums[i] == nums[i + 1]:",
+            "Mutate_Code": "while i + 1 < len(nums) and nums[i] == nums[i %% 1]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T42_LCPN_90-Subsets-II.py",
+            "Source_Code": "while i + 1 < len(nums) and nums[i] == nums[i + 1]:",
+            "Mutate_Code": "while i + 1 < len(nums) and nums[i] == nums[i **** 1]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T42_LCPN_90-Subsets-II.py",
+            "Source_Code": "while i + 1 < len(nums) and nums[i] == nums[i + 1]:",
+            "Mutate_Code": "while i + 1 < len(nums) and nums[i] == nums[i //// 1]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T42_LCPN_90-Subsets-II.py",
+            "Source_Code": "while i + 1 < len(nums) and nums[i] == nums[i + 1]:",
+            "Mutate_Code": "while i + 1   len(nums) and nums[i] == nums[i + 1]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T42_LCPN_90-Subsets-II.py",
+            "Source_Code": "while i + 1 < len(nums) and nums[i] == nums[i + 1]:",
+            "Mutate_Code": "while i + 1 < len(nums) and nums[i] == nums[i + 1]: "
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T42_LCPN_90-Subsets-II.py",
+            "Source_Code": "while i + 1 < len(nums) and nums[i] == nums[i + 1]:",
+            "Mutate_Code": "while i + 1 == len(nums) and nums[i] == nums[i + 1]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T42_LCPN_90-Subsets-II.py",
+            "Source_Code": "while i + 1 < len(nums) and nums[i] == nums[i + 1]:",
+            "Mutate_Code": "while i + 1 != len(nums) and nums[i] == nums[i + 1]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T42_LCPN_90-Subsets-II.py",
+            "Source_Code": "while i + 1 < len(nums) and nums[i] == nums[i + 1]:",
+            "Mutate_Code": "while i + 1 > len(nums) and nums[i] == nums[i + 1]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T42_LCPN_90-Subsets-II.py",
+            "Source_Code": "while i + 1 < len(nums) and nums[i] == nums[i + 1]:",
+            "Mutate_Code": "while i + 1 >= len(nums) and nums[i] == nums[i + 1]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T42_LCPN_90-Subsets-II.py",
+            "Source_Code": "while i + 1 < len(nums) and nums[i] == nums[i + 1]:",
+            "Mutate_Code": "while i + 1 <= len(nums) and nums[i] == nums[i + 1]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T42_LCPN_90-Subsets-II.py",
+            "Source_Code": "while i + 1 < len(nums) and nums[i] == nums[i + 1]:",
+            "Mutate_Code": "while i + 1 < len(nums) and nums[i] == nums[i + 1]:=="
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T42_LCPN_90-Subsets-II.py",
+            "Source_Code": "while i + 1 < len(nums) and nums[i] == nums[i + 1]:",
+            "Mutate_Code": "while i + 1 < len(nums) and nums[i] == nums[i + 1]:!="
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T42_LCPN_90-Subsets-II.py",
+            "Source_Code": "while i + 1 < len(nums) and nums[i] == nums[i + 1]:",
+            "Mutate_Code": "while i + 1 < len(nums) and nums[i] == nums[i + 1]:>"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T42_LCPN_90-Subsets-II.py",
+            "Source_Code": "while i + 1 < len(nums) and nums[i] == nums[i + 1]:",
+            "Mutate_Code": "while i + 1 < len(nums) and nums[i] == nums[i + 1]:<"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T42_LCPN_90-Subsets-II.py",
+            "Source_Code": "while i + 1 < len(nums) and nums[i] == nums[i + 1]:",
+            "Mutate_Code": "while i + 1 < len(nums) and nums[i] == nums[i + 1]:>="
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T42_LCPN_90-Subsets-II.py",
+            "Source_Code": "while i + 1 < len(nums) and nums[i] == nums[i + 1]:",
+            "Mutate_Code": "while i + 1 < len(nums) and nums[i] == nums[i + 1]:<="
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T42_LCPN_90-Subsets-II.py",
+            "Source_Code": "while i + 1 < len(nums) and nums[i] == nums[i + 1]:",
+            "Mutate_Code": "while i + 1  ====  len(nums) and nums[i] == nums[i + 1]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T42_LCPN_90-Subsets-II.py",
+            "Source_Code": "while i + 1 < len(nums) and nums[i] == nums[i + 1]:",
+            "Mutate_Code": "while i + 1  !==  len(nums) and nums[i] == nums[i + 1]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T42_LCPN_90-Subsets-II.py",
+            "Source_Code": "while i + 1 < len(nums) and nums[i] == nums[i + 1]:",
+            "Mutate_Code": "while i + 1  >>  len(nums) and nums[i] == nums[i + 1]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T42_LCPN_90-Subsets-II.py",
+            "Source_Code": "while i + 1 < len(nums) and nums[i] == nums[i + 1]:",
+            "Mutate_Code": "while i + 1  <<  len(nums) and nums[i] == nums[i + 1]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T42_LCPN_90-Subsets-II.py",
+            "Source_Code": "while i + 1 < len(nums) and nums[i] == nums[i + 1]:",
+            "Mutate_Code": "while i + 1  >=>=  len(nums) and nums[i] == nums[i + 1]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T42_LCPN_90-Subsets-II.py",
+            "Source_Code": "while i + 1 < len(nums) and nums[i] == nums[i + 1]:",
+            "Mutate_Code": "while i + 1  <=<=  len(nums) and nums[i] == nums[i + 1]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T42_LCPN_90-Subsets-II.py",
+            "Source_Code": "while i + 1 < len(nums) and nums[i] == nums[i + 1]:",
+            "Mutate_Code": "while i + 1 < len(nums) and nums[i] == nums[i + 1]: ==== "
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T42_LCPN_90-Subsets-II.py",
+            "Source_Code": "while i + 1 < len(nums) and nums[i] == nums[i + 1]:",
+            "Mutate_Code": "while i + 1 < len(nums) and nums[i] == nums[i + 1]: !== "
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T42_LCPN_90-Subsets-II.py",
+            "Source_Code": "while i + 1 < len(nums) and nums[i] == nums[i + 1]:",
+            "Mutate_Code": "while i + 1 < len(nums) and nums[i] == nums[i + 1]: >> "
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T42_LCPN_90-Subsets-II.py",
+            "Source_Code": "while i + 1 < len(nums) and nums[i] == nums[i + 1]:",
+            "Mutate_Code": "while i + 1 < len(nums) and nums[i] == nums[i + 1]: << "
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T42_LCPN_90-Subsets-II.py",
+            "Source_Code": "while i + 1 < len(nums) and nums[i] == nums[i + 1]:",
+            "Mutate_Code": "while i + 1 < len(nums) and nums[i] == nums[i + 1]: >=>= "
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T42_LCPN_90-Subsets-II.py",
+            "Source_Code": "while i + 1 < len(nums) and nums[i] == nums[i + 1]:",
+            "Mutate_Code": "while i + 1 < len(nums) and nums[i] == nums[i + 1]: <=<= "
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T42_LCPN_90-Subsets-II.py",
+            "Source_Code": "while i + 1 < len(nums) and nums[i] == nums[i + 1]:",
+            "Mutate_Code": "while i + 1 < len(nums) nums[i] == nums[i + 1]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T42_LCPN_90-Subsets-II.py",
+            "Source_Code": "while i + 1 < len(nums) and nums[i] == nums[i + 1]:",
+            "Mutate_Code": "while i + 1 < len(nums) or nums[i] == nums[i + 1]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T42_LCPN_90-Subsets-II.py",
+            "Source_Code": "while i + 1 < len(nums) and nums[i] == nums[i + 1]:",
+            "Mutate_Code": "while i + 1 < len(nums) not nums[i] == nums[i + 1]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T42_LCPN_90-Subsets-II.py",
+            "Source_Code": "while i + 1 < len(nums) and nums[i] == nums[i + 1]:",
+            "Mutate_Code": "while i + 1 < len(nums) and and nums[i] == nums[i + 1]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T42_LCPN_90-Subsets-II.py",
+            "Source_Code": "while i + 1 < len(nums) and nums[i] == nums[i + 1]:",
+            "Mutate_Code": "while i + 1 < len(nums) or or nums[i] == nums[i + 1]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T42_LCPN_90-Subsets-II.py",
+            "Source_Code": "while i + 1 < len(nums) and nums[i] == nums[i + 1]:",
+            "Mutate_Code": "while i + 1 < len(nums) not not nums[i] == nums[i + 1]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T42_LCPN_90-Subsets-II.py",
+            "Source_Code": "while i + 1 < len(nums) and nums[i] == nums[i + 1]:",
+            "Mutate_Code": " "
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T42_LCPN_90-Subsets-II.py",
+            "Source_Code": "while i + 1 < len(nums) and nums[i] == nums[i + 1]:",
+            "Mutate_Code": "for "
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T42_LCPN_90-Subsets-II.py",
+            "Source_Code": "while i + 1 < len(nums) and nums[i] == nums[i + 1]:",
+            "Mutate_Code": "while while:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T42_LCPN_90-Subsets-II.py",
+            "Source_Code": "while i + 1 < len(nums) and nums[i] == nums[i + 1]:",
+            "Mutate_Code": "while i + 1 < len( ) and nums[i] == nums[i + 1]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T42_LCPN_90-Subsets-II.py",
+            "Source_Code": "return res",
+            "Mutate_Code": " res"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T42_LCPN_90-Subsets-II.py",
+            "Source_Code": "return res",
+            "Mutate_Code": "passres"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T42_LCPN_90-Subsets-II.py",
+            "Source_Code": "return res",
+            "Mutate_Code": "return returnres"
+        }
+    }
+]

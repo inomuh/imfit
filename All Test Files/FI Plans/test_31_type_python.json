@@ -1,0 +1,618 @@
+[
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T31_LCPN_56-Merge-Intervals.py",
+            "Source_Code": "intervals.sort(key=lambda pair: pair[0])",
+            "Mutate_Code": "intervals.sort(key= pair: pair[0])"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T31_LCPN_56-Merge-Intervals.py",
+            "Source_Code": "intervals.sort(key=lambda pair: pair[0])",
+            "Mutate_Code": "intervals.sort(key=globalpair: pair[0])"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T31_LCPN_56-Merge-Intervals.py",
+            "Source_Code": "intervals.sort(key=lambda pair: pair[0])",
+            "Mutate_Code": "intervals.sort(key=lambda lambdapair: pair[0])"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T31_LCPN_56-Merge-Intervals.py",
+            "Source_Code": "for start, end in intervals:",
+            "Mutate_Code": "for start, end intervals:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T31_LCPN_56-Merge-Intervals.py",
+            "Source_Code": "for start, end in intervals:",
+            "Mutate_Code": "for start, end is intervals:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T31_LCPN_56-Merge-Intervals.py",
+            "Source_Code": "for start, end in intervals:",
+            "Mutate_Code": "for start, end is not intervals:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T31_LCPN_56-Merge-Intervals.py",
+            "Source_Code": "for start, end in intervals:",
+            "Mutate_Code": "for start, end in in intervals:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T31_LCPN_56-Merge-Intervals.py",
+            "Source_Code": "for start, end in intervals:",
+            "Mutate_Code": "for start, end not in not in intervals:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T31_LCPN_56-Merge-Intervals.py",
+            "Source_Code": "for start, end in intervals:",
+            "Mutate_Code": " "
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T31_LCPN_56-Merge-Intervals.py",
+            "Source_Code": "for start, end in intervals:",
+            "Mutate_Code": "while True:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T31_LCPN_56-Merge-Intervals.py",
+            "Source_Code": "for start, end in intervals:",
+            "Mutate_Code": "for for: start, end in intervals:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T31_LCPN_56-Merge-Intervals.py",
+            "Source_Code": "if start <= lastEnd:",
+            "Mutate_Code": "if start   lastEnd:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T31_LCPN_56-Merge-Intervals.py",
+            "Source_Code": "if start <= lastEnd:",
+            "Mutate_Code": "if start == lastEnd:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T31_LCPN_56-Merge-Intervals.py",
+            "Source_Code": "if start <= lastEnd:",
+            "Mutate_Code": "if start != lastEnd:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T31_LCPN_56-Merge-Intervals.py",
+            "Source_Code": "if start <= lastEnd:",
+            "Mutate_Code": "if start > lastEnd:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T31_LCPN_56-Merge-Intervals.py",
+            "Source_Code": "if start <= lastEnd:",
+            "Mutate_Code": "if start < lastEnd:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T31_LCPN_56-Merge-Intervals.py",
+            "Source_Code": "if start <= lastEnd:",
+            "Mutate_Code": "if start >= lastEnd:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T31_LCPN_56-Merge-Intervals.py",
+            "Source_Code": "if start <= lastEnd:",
+            "Mutate_Code": "if start  ====  lastEnd:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T31_LCPN_56-Merge-Intervals.py",
+            "Source_Code": "if start <= lastEnd:",
+            "Mutate_Code": "if start  !==  lastEnd:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T31_LCPN_56-Merge-Intervals.py",
+            "Source_Code": "if start <= lastEnd:",
+            "Mutate_Code": "if start  >>  lastEnd:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T31_LCPN_56-Merge-Intervals.py",
+            "Source_Code": "if start <= lastEnd:",
+            "Mutate_Code": "if start  <<  lastEnd:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T31_LCPN_56-Merge-Intervals.py",
+            "Source_Code": "if start <= lastEnd:",
+            "Mutate_Code": "if start  >=>=  lastEnd:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T31_LCPN_56-Merge-Intervals.py",
+            "Source_Code": "if start <= lastEnd:",
+            "Mutate_Code": "if start  <=<=  lastEnd:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T31_LCPN_56-Merge-Intervals.py",
+            "Source_Code": "if start <= lastEnd:",
+            "Mutate_Code": " "
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T31_LCPN_56-Merge-Intervals.py",
+            "Source_Code": "if start <= lastEnd:",
+            "Mutate_Code": "elif:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T31_LCPN_56-Merge-Intervals.py",
+            "Source_Code": "if start <= lastEnd:",
+            "Mutate_Code": "else:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T31_LCPN_56-Merge-Intervals.py",
+            "Source_Code": "if start <= lastEnd:",
+            "Mutate_Code": "if if"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T31_LCPN_56-Merge-Intervals.py",
+            "Source_Code": "output[-1][1] = max(lastEnd, end)",
+            "Mutate_Code": "output[-1][1] max(lastEnd, end)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T31_LCPN_56-Merge-Intervals.py",
+            "Source_Code": "output[-1][1] = max(lastEnd, end)",
+            "Mutate_Code": "output[-1][1] max(lastEnd, end)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T31_LCPN_56-Merge-Intervals.py",
+            "Source_Code": "output[-1][1] = max(lastEnd, end)",
+            "Mutate_Code": "output[-1][1] += max(lastEnd, end)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T31_LCPN_56-Merge-Intervals.py",
+            "Source_Code": "output[-1][1] = max(lastEnd, end)",
+            "Mutate_Code": "output[-1][1] -= max(lastEnd, end)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T31_LCPN_56-Merge-Intervals.py",
+            "Source_Code": "output[-1][1] = max(lastEnd, end)",
+            "Mutate_Code": "output[-1][1] *= max(lastEnd, end)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T31_LCPN_56-Merge-Intervals.py",
+            "Source_Code": "output[-1][1] = max(lastEnd, end)",
+            "Mutate_Code": "output[-1][1] /= max(lastEnd, end)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T31_LCPN_56-Merge-Intervals.py",
+            "Source_Code": "output[-1][1] = max(lastEnd, end)",
+            "Mutate_Code": "output[-1][1] %= max(lastEnd, end)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T31_LCPN_56-Merge-Intervals.py",
+            "Source_Code": "output[-1][1] = max(lastEnd, end)",
+            "Mutate_Code": "output[-1][1] //= max(lastEnd, end)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T31_LCPN_56-Merge-Intervals.py",
+            "Source_Code": "output[-1][1] = max(lastEnd, end)",
+            "Mutate_Code": "output[-1][1] **= max(lastEnd, end)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T31_LCPN_56-Merge-Intervals.py",
+            "Source_Code": "output[-1][1] = max(lastEnd, end)",
+            "Mutate_Code": "output[-1][1] &= max(lastEnd, end)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T31_LCPN_56-Merge-Intervals.py",
+            "Source_Code": "output[-1][1] = max(lastEnd, end)",
+            "Mutate_Code": "output[-1][1] |= max(lastEnd, end)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T31_LCPN_56-Merge-Intervals.py",
+            "Source_Code": "output[-1][1] = max(lastEnd, end)",
+            "Mutate_Code": "output[-1][1] ^= max(lastEnd, end)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T31_LCPN_56-Merge-Intervals.py",
+            "Source_Code": "output[-1][1] = max(lastEnd, end)",
+            "Mutate_Code": "output[-1][1] >>= max(lastEnd, end)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T31_LCPN_56-Merge-Intervals.py",
+            "Source_Code": "output[-1][1] = max(lastEnd, end)",
+            "Mutate_Code": "output[-1][1] <<= max(lastEnd, end)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T31_LCPN_56-Merge-Intervals.py",
+            "Source_Code": "output[-1][1] = max(lastEnd, end)",
+            "Mutate_Code": "output[-1][1] += max(lastEnd, end)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T31_LCPN_56-Merge-Intervals.py",
+            "Source_Code": "output[-1][1] = max(lastEnd, end)",
+            "Mutate_Code": "output[-1][1] -= max(lastEnd, end)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T31_LCPN_56-Merge-Intervals.py",
+            "Source_Code": "output[-1][1] = max(lastEnd, end)",
+            "Mutate_Code": "output[-1][1] *= max(lastEnd, end)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T31_LCPN_56-Merge-Intervals.py",
+            "Source_Code": "output[-1][1] = max(lastEnd, end)",
+            "Mutate_Code": "output[-1][1] /= max(lastEnd, end)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T31_LCPN_56-Merge-Intervals.py",
+            "Source_Code": "output[-1][1] = max(lastEnd, end)",
+            "Mutate_Code": "output[-1][1] %= max(lastEnd, end)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T31_LCPN_56-Merge-Intervals.py",
+            "Source_Code": "output[-1][1] = max(lastEnd, end)",
+            "Mutate_Code": "output[-1][1] //= max(lastEnd, end)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T31_LCPN_56-Merge-Intervals.py",
+            "Source_Code": "output[-1][1] = max(lastEnd, end)",
+            "Mutate_Code": "output[-1][1] **= max(lastEnd, end)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T31_LCPN_56-Merge-Intervals.py",
+            "Source_Code": "output[-1][1] = max(lastEnd, end)",
+            "Mutate_Code": "output[-1][1] &= max(lastEnd, end)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T31_LCPN_56-Merge-Intervals.py",
+            "Source_Code": "output[-1][1] = max(lastEnd, end)",
+            "Mutate_Code": "output[-1][1] |= max(lastEnd, end)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T31_LCPN_56-Merge-Intervals.py",
+            "Source_Code": "output[-1][1] = max(lastEnd, end)",
+            "Mutate_Code": "output[-1][1] ^= max(lastEnd, end)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T31_LCPN_56-Merge-Intervals.py",
+            "Source_Code": "output[-1][1] = max(lastEnd, end)",
+            "Mutate_Code": "output[-1][1] >>= max(lastEnd, end)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T31_LCPN_56-Merge-Intervals.py",
+            "Source_Code": "output[-1][1] = max(lastEnd, end)",
+            "Mutate_Code": "output[-1][1] <<= max(lastEnd, end)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T31_LCPN_56-Merge-Intervals.py",
+            "Source_Code": "output[-1][1] = max(lastEnd, end)",
+            "Mutate_Code": "output[-1][1] == max(lastEnd, end)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T31_LCPN_56-Merge-Intervals.py",
+            "Source_Code": "output[-1][1] = max(lastEnd, end)",
+            "Mutate_Code": "output[-1][1] +=+= max(lastEnd, end)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T31_LCPN_56-Merge-Intervals.py",
+            "Source_Code": "output[-1][1] = max(lastEnd, end)",
+            "Mutate_Code": "output[-1][1] -=-= max(lastEnd, end)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T31_LCPN_56-Merge-Intervals.py",
+            "Source_Code": "output[-1][1] = max(lastEnd, end)",
+            "Mutate_Code": "output[-1][1] *=*= max(lastEnd, end)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T31_LCPN_56-Merge-Intervals.py",
+            "Source_Code": "output[-1][1] = max(lastEnd, end)",
+            "Mutate_Code": "output[-1][1] /=/= max(lastEnd, end)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T31_LCPN_56-Merge-Intervals.py",
+            "Source_Code": "output[-1][1] = max(lastEnd, end)",
+            "Mutate_Code": "output[-1][1] %=%= max(lastEnd, end)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T31_LCPN_56-Merge-Intervals.py",
+            "Source_Code": "output[-1][1] = max(lastEnd, end)",
+            "Mutate_Code": "output[-1][1] //=//= max(lastEnd, end)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T31_LCPN_56-Merge-Intervals.py",
+            "Source_Code": "output[-1][1] = max(lastEnd, end)",
+            "Mutate_Code": "output[-1][1] **=**= max(lastEnd, end)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T31_LCPN_56-Merge-Intervals.py",
+            "Source_Code": "output[-1][1] = max(lastEnd, end)",
+            "Mutate_Code": "output[-1][1] &=&= max(lastEnd, end)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T31_LCPN_56-Merge-Intervals.py",
+            "Source_Code": "output[-1][1] = max(lastEnd, end)",
+            "Mutate_Code": "output[-1][1] |=|= max(lastEnd, end)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T31_LCPN_56-Merge-Intervals.py",
+            "Source_Code": "output[-1][1] = max(lastEnd, end)",
+            "Mutate_Code": "output[-1][1] ^=^= max(lastEnd, end)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T31_LCPN_56-Merge-Intervals.py",
+            "Source_Code": "output[-1][1] = max(lastEnd, end)",
+            "Mutate_Code": "output[-1][1] >>=>>= max(lastEnd, end)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T31_LCPN_56-Merge-Intervals.py",
+            "Source_Code": "output[-1][1] = max(lastEnd, end)",
+            "Mutate_Code": "output[-1][1] <<=<<=max(lastEnd, end)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T31_LCPN_56-Merge-Intervals.py",
+            "Source_Code": "output[-1][1] = max(lastEnd, end)",
+            "Mutate_Code": "output[-1][1] == max(lastEnd, end)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T31_LCPN_56-Merge-Intervals.py",
+            "Source_Code": "output[-1][1] = max(lastEnd, end)",
+            "Mutate_Code": "output[-1][1] +=+= max(lastEnd, end)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T31_LCPN_56-Merge-Intervals.py",
+            "Source_Code": "output[-1][1] = max(lastEnd, end)",
+            "Mutate_Code": "output[-1][1] -=-= max(lastEnd, end)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T31_LCPN_56-Merge-Intervals.py",
+            "Source_Code": "output[-1][1] = max(lastEnd, end)",
+            "Mutate_Code": "output[-1][1] *=*= max(lastEnd, end)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T31_LCPN_56-Merge-Intervals.py",
+            "Source_Code": "output[-1][1] = max(lastEnd, end)",
+            "Mutate_Code": "output[-1][1] /=/= max(lastEnd, end)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T31_LCPN_56-Merge-Intervals.py",
+            "Source_Code": "output[-1][1] = max(lastEnd, end)",
+            "Mutate_Code": "output[-1][1] %=%= max(lastEnd, end)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T31_LCPN_56-Merge-Intervals.py",
+            "Source_Code": "output[-1][1] = max(lastEnd, end)",
+            "Mutate_Code": "output[-1][1] //=//= max(lastEnd, end)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T31_LCPN_56-Merge-Intervals.py",
+            "Source_Code": "output[-1][1] = max(lastEnd, end)",
+            "Mutate_Code": "output[-1][1] **=**= max(lastEnd, end)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T31_LCPN_56-Merge-Intervals.py",
+            "Source_Code": "output[-1][1] = max(lastEnd, end)",
+            "Mutate_Code": "output[-1][1] &=&= max(lastEnd, end)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T31_LCPN_56-Merge-Intervals.py",
+            "Source_Code": "output[-1][1] = max(lastEnd, end)",
+            "Mutate_Code": "output[-1][1] |=|= max(lastEnd, end)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T31_LCPN_56-Merge-Intervals.py",
+            "Source_Code": "output[-1][1] = max(lastEnd, end)",
+            "Mutate_Code": "output[-1][1] ^=^= max(lastEnd, end)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T31_LCPN_56-Merge-Intervals.py",
+            "Source_Code": "output[-1][1] = max(lastEnd, end)",
+            "Mutate_Code": "output[-1][1] >>=>>= max(lastEnd, end)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T31_LCPN_56-Merge-Intervals.py",
+            "Source_Code": "output[-1][1] = max(lastEnd, end)",
+            "Mutate_Code": "output[-1][1] <<=<<=max(lastEnd, end)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T31_LCPN_56-Merge-Intervals.py",
+            "Source_Code": "output[-1][1] = max(lastEnd, end)",
+            "Mutate_Code": "output[-1][1] = max( )"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T31_LCPN_56-Merge-Intervals.py",
+            "Source_Code": "else:",
+            "Mutate_Code": " "
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T31_LCPN_56-Merge-Intervals.py",
+            "Source_Code": "else:",
+            "Mutate_Code": "if:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T31_LCPN_56-Merge-Intervals.py",
+            "Source_Code": "else:",
+            "Mutate_Code": "elif:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T31_LCPN_56-Merge-Intervals.py",
+            "Source_Code": "else:",
+            "Mutate_Code": "else else:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T31_LCPN_56-Merge-Intervals.py",
+            "Source_Code": "output.append([start, end])",
+            "Mutate_Code": "output.append( )"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T31_LCPN_56-Merge-Intervals.py",
+            "Source_Code": "return output",
+            "Mutate_Code": " output"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T31_LCPN_56-Merge-Intervals.py",
+            "Source_Code": "return output",
+            "Mutate_Code": "passoutput"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T31_LCPN_56-Merge-Intervals.py",
+            "Source_Code": "return output",
+            "Mutate_Code": "return returnoutput"
+        }
+    }
+]

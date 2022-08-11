@@ -1,0 +1,814 @@
+[
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T46_LCPN_121-Best-Time-To-Buy-and-Sell-Stock.py",
+            "Source_Code": "for r in range(1, len(prices)):",
+            "Mutate_Code": "for r range(1, len(prices)):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T46_LCPN_121-Best-Time-To-Buy-and-Sell-Stock.py",
+            "Source_Code": "for r in range(1, len(prices)):",
+            "Mutate_Code": "for r is range(1, len(prices)):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T46_LCPN_121-Best-Time-To-Buy-and-Sell-Stock.py",
+            "Source_Code": "for r in range(1, len(prices)):",
+            "Mutate_Code": "for r is not range(1, len(prices)):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T46_LCPN_121-Best-Time-To-Buy-and-Sell-Stock.py",
+            "Source_Code": "for r in range(1, len(prices)):",
+            "Mutate_Code": "for r in in range(1, len(prices)):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T46_LCPN_121-Best-Time-To-Buy-and-Sell-Stock.py",
+            "Source_Code": "for r in range(1, len(prices)):",
+            "Mutate_Code": "for r not in not in range(1, len(prices)):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T46_LCPN_121-Best-Time-To-Buy-and-Sell-Stock.py",
+            "Source_Code": "for r in range(1, len(prices)):",
+            "Mutate_Code": " "
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T46_LCPN_121-Best-Time-To-Buy-and-Sell-Stock.py",
+            "Source_Code": "for r in range(1, len(prices)):",
+            "Mutate_Code": "while True:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T46_LCPN_121-Best-Time-To-Buy-and-Sell-Stock.py",
+            "Source_Code": "for r in range(1, len(prices)):",
+            "Mutate_Code": "for for: r in range(1, len(prices)):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T46_LCPN_121-Best-Time-To-Buy-and-Sell-Stock.py",
+            "Source_Code": "for r in range(1, len(prices)):",
+            "Mutate_Code": "for r in range(1, len( )):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T46_LCPN_121-Best-Time-To-Buy-and-Sell-Stock.py",
+            "Source_Code": "for r in range(1, len(prices)):",
+            "Mutate_Code": "for r in range( )):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T46_LCPN_121-Best-Time-To-Buy-and-Sell-Stock.py",
+            "Source_Code": "for r in range(1, len(prices)):",
+            "Mutate_Code": "for r range(1, len(prices)):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T46_LCPN_121-Best-Time-To-Buy-and-Sell-Stock.py",
+            "Source_Code": "for r in range(1, len(prices)):",
+            "Mutate_Code": "for r is range(1, len(prices)):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T46_LCPN_121-Best-Time-To-Buy-and-Sell-Stock.py",
+            "Source_Code": "for r in range(1, len(prices)):",
+            "Mutate_Code": "for r is not range(1, len(prices)):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T46_LCPN_121-Best-Time-To-Buy-and-Sell-Stock.py",
+            "Source_Code": "for r in range(1, len(prices)):",
+            "Mutate_Code": "for r in in range(1, len(prices)):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T46_LCPN_121-Best-Time-To-Buy-and-Sell-Stock.py",
+            "Source_Code": "for r in range(1, len(prices)):",
+            "Mutate_Code": "for r not in not in range(1, len(prices)):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T46_LCPN_121-Best-Time-To-Buy-and-Sell-Stock.py",
+            "Source_Code": "for r in range(1, len(prices)):",
+            "Mutate_Code": " "
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T46_LCPN_121-Best-Time-To-Buy-and-Sell-Stock.py",
+            "Source_Code": "for r in range(1, len(prices)):",
+            "Mutate_Code": "while True:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T46_LCPN_121-Best-Time-To-Buy-and-Sell-Stock.py",
+            "Source_Code": "for r in range(1, len(prices)):",
+            "Mutate_Code": "for for: r in range(1, len(prices)):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T46_LCPN_121-Best-Time-To-Buy-and-Sell-Stock.py",
+            "Source_Code": "for r in range(1, len(prices)):",
+            "Mutate_Code": "for r in range(1, len( )):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T46_LCPN_121-Best-Time-To-Buy-and-Sell-Stock.py",
+            "Source_Code": "for r in range(1, len(prices)):",
+            "Mutate_Code": "for r in range( )):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T46_LCPN_121-Best-Time-To-Buy-and-Sell-Stock.py",
+            "Source_Code": "for r in range(1, len(prices)):",
+            "Mutate_Code": "for r range(1, len(prices)):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T46_LCPN_121-Best-Time-To-Buy-and-Sell-Stock.py",
+            "Source_Code": "for r in range(1, len(prices)):",
+            "Mutate_Code": "for r is range(1, len(prices)):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T46_LCPN_121-Best-Time-To-Buy-and-Sell-Stock.py",
+            "Source_Code": "for r in range(1, len(prices)):",
+            "Mutate_Code": "for r is not range(1, len(prices)):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T46_LCPN_121-Best-Time-To-Buy-and-Sell-Stock.py",
+            "Source_Code": "for r in range(1, len(prices)):",
+            "Mutate_Code": "for r in in range(1, len(prices)):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T46_LCPN_121-Best-Time-To-Buy-and-Sell-Stock.py",
+            "Source_Code": "for r in range(1, len(prices)):",
+            "Mutate_Code": "for r not in not in range(1, len(prices)):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T46_LCPN_121-Best-Time-To-Buy-and-Sell-Stock.py",
+            "Source_Code": "for r in range(1, len(prices)):",
+            "Mutate_Code": " "
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T46_LCPN_121-Best-Time-To-Buy-and-Sell-Stock.py",
+            "Source_Code": "for r in range(1, len(prices)):",
+            "Mutate_Code": "while True:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T46_LCPN_121-Best-Time-To-Buy-and-Sell-Stock.py",
+            "Source_Code": "for r in range(1, len(prices)):",
+            "Mutate_Code": "for for: r in range(1, len(prices)):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T46_LCPN_121-Best-Time-To-Buy-and-Sell-Stock.py",
+            "Source_Code": "for r in range(1, len(prices)):",
+            "Mutate_Code": "for r in range(1, len( )):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T46_LCPN_121-Best-Time-To-Buy-and-Sell-Stock.py",
+            "Source_Code": "for r in range(1, len(prices)):",
+            "Mutate_Code": "for r in range( )):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T46_LCPN_121-Best-Time-To-Buy-and-Sell-Stock.py",
+            "Source_Code": "if prices[r] < prices[l]:",
+            "Mutate_Code": "if prices[r]   prices[l]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T46_LCPN_121-Best-Time-To-Buy-and-Sell-Stock.py",
+            "Source_Code": "if prices[r] < prices[l]:",
+            "Mutate_Code": "if prices[r] == prices[l]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T46_LCPN_121-Best-Time-To-Buy-and-Sell-Stock.py",
+            "Source_Code": "if prices[r] < prices[l]:",
+            "Mutate_Code": "if prices[r] != prices[l]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T46_LCPN_121-Best-Time-To-Buy-and-Sell-Stock.py",
+            "Source_Code": "if prices[r] < prices[l]:",
+            "Mutate_Code": "if prices[r] > prices[l]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T46_LCPN_121-Best-Time-To-Buy-and-Sell-Stock.py",
+            "Source_Code": "if prices[r] < prices[l]:",
+            "Mutate_Code": "if prices[r] >= prices[l]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T46_LCPN_121-Best-Time-To-Buy-and-Sell-Stock.py",
+            "Source_Code": "if prices[r] < prices[l]:",
+            "Mutate_Code": "if prices[r] <= prices[l]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T46_LCPN_121-Best-Time-To-Buy-and-Sell-Stock.py",
+            "Source_Code": "if prices[r] < prices[l]:",
+            "Mutate_Code": "if prices[r]  ====  prices[l]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T46_LCPN_121-Best-Time-To-Buy-and-Sell-Stock.py",
+            "Source_Code": "if prices[r] < prices[l]:",
+            "Mutate_Code": "if prices[r]  !==  prices[l]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T46_LCPN_121-Best-Time-To-Buy-and-Sell-Stock.py",
+            "Source_Code": "if prices[r] < prices[l]:",
+            "Mutate_Code": "if prices[r]  >>  prices[l]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T46_LCPN_121-Best-Time-To-Buy-and-Sell-Stock.py",
+            "Source_Code": "if prices[r] < prices[l]:",
+            "Mutate_Code": "if prices[r]  <<  prices[l]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T46_LCPN_121-Best-Time-To-Buy-and-Sell-Stock.py",
+            "Source_Code": "if prices[r] < prices[l]:",
+            "Mutate_Code": "if prices[r]  >=>=  prices[l]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T46_LCPN_121-Best-Time-To-Buy-and-Sell-Stock.py",
+            "Source_Code": "if prices[r] < prices[l]:",
+            "Mutate_Code": "if prices[r]  <=<=  prices[l]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T46_LCPN_121-Best-Time-To-Buy-and-Sell-Stock.py",
+            "Source_Code": "if prices[r] < prices[l]:",
+            "Mutate_Code": " "
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T46_LCPN_121-Best-Time-To-Buy-and-Sell-Stock.py",
+            "Source_Code": "if prices[r] < prices[l]:",
+            "Mutate_Code": "elif:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T46_LCPN_121-Best-Time-To-Buy-and-Sell-Stock.py",
+            "Source_Code": "if prices[r] < prices[l]:",
+            "Mutate_Code": "else:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T46_LCPN_121-Best-Time-To-Buy-and-Sell-Stock.py",
+            "Source_Code": "if prices[r] < prices[l]:",
+            "Mutate_Code": "if if"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T46_LCPN_121-Best-Time-To-Buy-and-Sell-Stock.py",
+            "Source_Code": "res = max(res, prices[r] - prices[l])",
+            "Mutate_Code": "res = max(res, prices[r] prices[l])"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T46_LCPN_121-Best-Time-To-Buy-and-Sell-Stock.py",
+            "Source_Code": "res = max(res, prices[r] - prices[l])",
+            "Mutate_Code": "res = max(res, prices[r] + prices[l])"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T46_LCPN_121-Best-Time-To-Buy-and-Sell-Stock.py",
+            "Source_Code": "res = max(res, prices[r] - prices[l])",
+            "Mutate_Code": "res = max(res, prices[r] * prices[l])"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T46_LCPN_121-Best-Time-To-Buy-and-Sell-Stock.py",
+            "Source_Code": "res = max(res, prices[r] - prices[l])",
+            "Mutate_Code": "res = max(res, prices[r] / prices[l])"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T46_LCPN_121-Best-Time-To-Buy-and-Sell-Stock.py",
+            "Source_Code": "res = max(res, prices[r] - prices[l])",
+            "Mutate_Code": "res = max(res, prices[r] % prices[l])"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T46_LCPN_121-Best-Time-To-Buy-and-Sell-Stock.py",
+            "Source_Code": "res = max(res, prices[r] - prices[l])",
+            "Mutate_Code": "res = max(res, prices[r] ** prices[l])"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T46_LCPN_121-Best-Time-To-Buy-and-Sell-Stock.py",
+            "Source_Code": "res = max(res, prices[r] - prices[l])",
+            "Mutate_Code": "res = max(res, prices[r] // prices[l])"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T46_LCPN_121-Best-Time-To-Buy-and-Sell-Stock.py",
+            "Source_Code": "res = max(res, prices[r] - prices[l])",
+            "Mutate_Code": "res = max(res, prices[r] ++ prices[l])"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T46_LCPN_121-Best-Time-To-Buy-and-Sell-Stock.py",
+            "Source_Code": "res = max(res, prices[r] - prices[l])",
+            "Mutate_Code": "res = max(res, prices[r] -- prices[l])"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T46_LCPN_121-Best-Time-To-Buy-and-Sell-Stock.py",
+            "Source_Code": "res = max(res, prices[r] - prices[l])",
+            "Mutate_Code": "res = max(res, prices[r] ** prices[l])"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T46_LCPN_121-Best-Time-To-Buy-and-Sell-Stock.py",
+            "Source_Code": "res = max(res, prices[r] - prices[l])",
+            "Mutate_Code": "res = max(res, prices[r] // prices[l])"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T46_LCPN_121-Best-Time-To-Buy-and-Sell-Stock.py",
+            "Source_Code": "res = max(res, prices[r] - prices[l])",
+            "Mutate_Code": "res = max(res, prices[r] %% prices[l])"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T46_LCPN_121-Best-Time-To-Buy-and-Sell-Stock.py",
+            "Source_Code": "res = max(res, prices[r] - prices[l])",
+            "Mutate_Code": "res = max(res, prices[r] **** prices[l])"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T46_LCPN_121-Best-Time-To-Buy-and-Sell-Stock.py",
+            "Source_Code": "res = max(res, prices[r] - prices[l])",
+            "Mutate_Code": "res = max(res, prices[r] //// prices[l])"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T46_LCPN_121-Best-Time-To-Buy-and-Sell-Stock.py",
+            "Source_Code": "res = max(res, prices[r] - prices[l])",
+            "Mutate_Code": "res max(res, prices[r] - prices[l])"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T46_LCPN_121-Best-Time-To-Buy-and-Sell-Stock.py",
+            "Source_Code": "res = max(res, prices[r] - prices[l])",
+            "Mutate_Code": "res max(res, prices[r] - prices[l])"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T46_LCPN_121-Best-Time-To-Buy-and-Sell-Stock.py",
+            "Source_Code": "res = max(res, prices[r] - prices[l])",
+            "Mutate_Code": "res += max(res, prices[r] - prices[l])"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T46_LCPN_121-Best-Time-To-Buy-and-Sell-Stock.py",
+            "Source_Code": "res = max(res, prices[r] - prices[l])",
+            "Mutate_Code": "res -= max(res, prices[r] - prices[l])"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T46_LCPN_121-Best-Time-To-Buy-and-Sell-Stock.py",
+            "Source_Code": "res = max(res, prices[r] - prices[l])",
+            "Mutate_Code": "res *= max(res, prices[r] - prices[l])"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T46_LCPN_121-Best-Time-To-Buy-and-Sell-Stock.py",
+            "Source_Code": "res = max(res, prices[r] - prices[l])",
+            "Mutate_Code": "res /= max(res, prices[r] - prices[l])"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T46_LCPN_121-Best-Time-To-Buy-and-Sell-Stock.py",
+            "Source_Code": "res = max(res, prices[r] - prices[l])",
+            "Mutate_Code": "res %= max(res, prices[r] - prices[l])"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T46_LCPN_121-Best-Time-To-Buy-and-Sell-Stock.py",
+            "Source_Code": "res = max(res, prices[r] - prices[l])",
+            "Mutate_Code": "res //= max(res, prices[r] - prices[l])"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T46_LCPN_121-Best-Time-To-Buy-and-Sell-Stock.py",
+            "Source_Code": "res = max(res, prices[r] - prices[l])",
+            "Mutate_Code": "res **= max(res, prices[r] - prices[l])"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T46_LCPN_121-Best-Time-To-Buy-and-Sell-Stock.py",
+            "Source_Code": "res = max(res, prices[r] - prices[l])",
+            "Mutate_Code": "res &= max(res, prices[r] - prices[l])"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T46_LCPN_121-Best-Time-To-Buy-and-Sell-Stock.py",
+            "Source_Code": "res = max(res, prices[r] - prices[l])",
+            "Mutate_Code": "res |= max(res, prices[r] - prices[l])"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T46_LCPN_121-Best-Time-To-Buy-and-Sell-Stock.py",
+            "Source_Code": "res = max(res, prices[r] - prices[l])",
+            "Mutate_Code": "res ^= max(res, prices[r] - prices[l])"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T46_LCPN_121-Best-Time-To-Buy-and-Sell-Stock.py",
+            "Source_Code": "res = max(res, prices[r] - prices[l])",
+            "Mutate_Code": "res >>= max(res, prices[r] - prices[l])"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T46_LCPN_121-Best-Time-To-Buy-and-Sell-Stock.py",
+            "Source_Code": "res = max(res, prices[r] - prices[l])",
+            "Mutate_Code": "res <<= max(res, prices[r] - prices[l])"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T46_LCPN_121-Best-Time-To-Buy-and-Sell-Stock.py",
+            "Source_Code": "res = max(res, prices[r] - prices[l])",
+            "Mutate_Code": "res += max(res, prices[r] - prices[l])"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T46_LCPN_121-Best-Time-To-Buy-and-Sell-Stock.py",
+            "Source_Code": "res = max(res, prices[r] - prices[l])",
+            "Mutate_Code": "res -= max(res, prices[r] - prices[l])"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T46_LCPN_121-Best-Time-To-Buy-and-Sell-Stock.py",
+            "Source_Code": "res = max(res, prices[r] - prices[l])",
+            "Mutate_Code": "res *= max(res, prices[r] - prices[l])"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T46_LCPN_121-Best-Time-To-Buy-and-Sell-Stock.py",
+            "Source_Code": "res = max(res, prices[r] - prices[l])",
+            "Mutate_Code": "res /= max(res, prices[r] - prices[l])"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T46_LCPN_121-Best-Time-To-Buy-and-Sell-Stock.py",
+            "Source_Code": "res = max(res, prices[r] - prices[l])",
+            "Mutate_Code": "res %= max(res, prices[r] - prices[l])"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T46_LCPN_121-Best-Time-To-Buy-and-Sell-Stock.py",
+            "Source_Code": "res = max(res, prices[r] - prices[l])",
+            "Mutate_Code": "res //= max(res, prices[r] - prices[l])"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T46_LCPN_121-Best-Time-To-Buy-and-Sell-Stock.py",
+            "Source_Code": "res = max(res, prices[r] - prices[l])",
+            "Mutate_Code": "res **= max(res, prices[r] - prices[l])"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T46_LCPN_121-Best-Time-To-Buy-and-Sell-Stock.py",
+            "Source_Code": "res = max(res, prices[r] - prices[l])",
+            "Mutate_Code": "res &= max(res, prices[r] - prices[l])"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T46_LCPN_121-Best-Time-To-Buy-and-Sell-Stock.py",
+            "Source_Code": "res = max(res, prices[r] - prices[l])",
+            "Mutate_Code": "res |= max(res, prices[r] - prices[l])"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T46_LCPN_121-Best-Time-To-Buy-and-Sell-Stock.py",
+            "Source_Code": "res = max(res, prices[r] - prices[l])",
+            "Mutate_Code": "res ^= max(res, prices[r] - prices[l])"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T46_LCPN_121-Best-Time-To-Buy-and-Sell-Stock.py",
+            "Source_Code": "res = max(res, prices[r] - prices[l])",
+            "Mutate_Code": "res >>= max(res, prices[r] - prices[l])"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T46_LCPN_121-Best-Time-To-Buy-and-Sell-Stock.py",
+            "Source_Code": "res = max(res, prices[r] - prices[l])",
+            "Mutate_Code": "res <<= max(res, prices[r] - prices[l])"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T46_LCPN_121-Best-Time-To-Buy-and-Sell-Stock.py",
+            "Source_Code": "res = max(res, prices[r] - prices[l])",
+            "Mutate_Code": "res == max(res, prices[r] - prices[l])"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T46_LCPN_121-Best-Time-To-Buy-and-Sell-Stock.py",
+            "Source_Code": "res = max(res, prices[r] - prices[l])",
+            "Mutate_Code": "res +=+= max(res, prices[r] - prices[l])"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T46_LCPN_121-Best-Time-To-Buy-and-Sell-Stock.py",
+            "Source_Code": "res = max(res, prices[r] - prices[l])",
+            "Mutate_Code": "res -=-= max(res, prices[r] - prices[l])"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T46_LCPN_121-Best-Time-To-Buy-and-Sell-Stock.py",
+            "Source_Code": "res = max(res, prices[r] - prices[l])",
+            "Mutate_Code": "res *=*= max(res, prices[r] - prices[l])"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T46_LCPN_121-Best-Time-To-Buy-and-Sell-Stock.py",
+            "Source_Code": "res = max(res, prices[r] - prices[l])",
+            "Mutate_Code": "res /=/= max(res, prices[r] - prices[l])"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T46_LCPN_121-Best-Time-To-Buy-and-Sell-Stock.py",
+            "Source_Code": "res = max(res, prices[r] - prices[l])",
+            "Mutate_Code": "res %=%= max(res, prices[r] - prices[l])"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T46_LCPN_121-Best-Time-To-Buy-and-Sell-Stock.py",
+            "Source_Code": "res = max(res, prices[r] - prices[l])",
+            "Mutate_Code": "res //=//= max(res, prices[r] - prices[l])"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T46_LCPN_121-Best-Time-To-Buy-and-Sell-Stock.py",
+            "Source_Code": "res = max(res, prices[r] - prices[l])",
+            "Mutate_Code": "res **=**= max(res, prices[r] - prices[l])"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T46_LCPN_121-Best-Time-To-Buy-and-Sell-Stock.py",
+            "Source_Code": "res = max(res, prices[r] - prices[l])",
+            "Mutate_Code": "res &=&= max(res, prices[r] - prices[l])"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T46_LCPN_121-Best-Time-To-Buy-and-Sell-Stock.py",
+            "Source_Code": "res = max(res, prices[r] - prices[l])",
+            "Mutate_Code": "res |=|= max(res, prices[r] - prices[l])"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T46_LCPN_121-Best-Time-To-Buy-and-Sell-Stock.py",
+            "Source_Code": "res = max(res, prices[r] - prices[l])",
+            "Mutate_Code": "res ^=^= max(res, prices[r] - prices[l])"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T46_LCPN_121-Best-Time-To-Buy-and-Sell-Stock.py",
+            "Source_Code": "res = max(res, prices[r] - prices[l])",
+            "Mutate_Code": "res >>=>>= max(res, prices[r] - prices[l])"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T46_LCPN_121-Best-Time-To-Buy-and-Sell-Stock.py",
+            "Source_Code": "res = max(res, prices[r] - prices[l])",
+            "Mutate_Code": "res <<=<<=max(res, prices[r] - prices[l])"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T46_LCPN_121-Best-Time-To-Buy-and-Sell-Stock.py",
+            "Source_Code": "res = max(res, prices[r] - prices[l])",
+            "Mutate_Code": "res == max(res, prices[r] - prices[l])"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T46_LCPN_121-Best-Time-To-Buy-and-Sell-Stock.py",
+            "Source_Code": "res = max(res, prices[r] - prices[l])",
+            "Mutate_Code": "res +=+= max(res, prices[r] - prices[l])"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T46_LCPN_121-Best-Time-To-Buy-and-Sell-Stock.py",
+            "Source_Code": "res = max(res, prices[r] - prices[l])",
+            "Mutate_Code": "res -=-= max(res, prices[r] - prices[l])"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T46_LCPN_121-Best-Time-To-Buy-and-Sell-Stock.py",
+            "Source_Code": "res = max(res, prices[r] - prices[l])",
+            "Mutate_Code": "res *=*= max(res, prices[r] - prices[l])"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T46_LCPN_121-Best-Time-To-Buy-and-Sell-Stock.py",
+            "Source_Code": "res = max(res, prices[r] - prices[l])",
+            "Mutate_Code": "res /=/= max(res, prices[r] - prices[l])"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T46_LCPN_121-Best-Time-To-Buy-and-Sell-Stock.py",
+            "Source_Code": "res = max(res, prices[r] - prices[l])",
+            "Mutate_Code": "res %=%= max(res, prices[r] - prices[l])"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T46_LCPN_121-Best-Time-To-Buy-and-Sell-Stock.py",
+            "Source_Code": "res = max(res, prices[r] - prices[l])",
+            "Mutate_Code": "res //=//= max(res, prices[r] - prices[l])"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T46_LCPN_121-Best-Time-To-Buy-and-Sell-Stock.py",
+            "Source_Code": "res = max(res, prices[r] - prices[l])",
+            "Mutate_Code": "res **=**= max(res, prices[r] - prices[l])"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T46_LCPN_121-Best-Time-To-Buy-and-Sell-Stock.py",
+            "Source_Code": "res = max(res, prices[r] - prices[l])",
+            "Mutate_Code": "res &=&= max(res, prices[r] - prices[l])"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T46_LCPN_121-Best-Time-To-Buy-and-Sell-Stock.py",
+            "Source_Code": "res = max(res, prices[r] - prices[l])",
+            "Mutate_Code": "res |=|= max(res, prices[r] - prices[l])"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T46_LCPN_121-Best-Time-To-Buy-and-Sell-Stock.py",
+            "Source_Code": "res = max(res, prices[r] - prices[l])",
+            "Mutate_Code": "res ^=^= max(res, prices[r] - prices[l])"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T46_LCPN_121-Best-Time-To-Buy-and-Sell-Stock.py",
+            "Source_Code": "res = max(res, prices[r] - prices[l])",
+            "Mutate_Code": "res >>=>>= max(res, prices[r] - prices[l])"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T46_LCPN_121-Best-Time-To-Buy-and-Sell-Stock.py",
+            "Source_Code": "res = max(res, prices[r] - prices[l])",
+            "Mutate_Code": "res <<=<<=max(res, prices[r] - prices[l])"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T46_LCPN_121-Best-Time-To-Buy-and-Sell-Stock.py",
+            "Source_Code": "res = max(res, prices[r] - prices[l])",
+            "Mutate_Code": "res = max( )"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T46_LCPN_121-Best-Time-To-Buy-and-Sell-Stock.py",
+            "Source_Code": "return res",
+            "Mutate_Code": " res"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T46_LCPN_121-Best-Time-To-Buy-and-Sell-Stock.py",
+            "Source_Code": "return res",
+            "Mutate_Code": "passres"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T46_LCPN_121-Best-Time-To-Buy-and-Sell-Stock.py",
+            "Source_Code": "return res",
+            "Mutate_Code": "return returnres"
+        }
+    }
+]

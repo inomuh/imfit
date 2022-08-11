@@ -1,0 +1,1899 @@
+[
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T48_LCPN_127-Word-Ladder.py",
+            "Source_Code": "if endWord not in wordList:",
+            "Mutate_Code": "if endWord in wordList:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T48_LCPN_127-Word-Ladder.py",
+            "Source_Code": "if endWord not in wordList:",
+            "Mutate_Code": "if endWord and in wordList:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T48_LCPN_127-Word-Ladder.py",
+            "Source_Code": "if endWord not in wordList:",
+            "Mutate_Code": "if endWord or in wordList:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T48_LCPN_127-Word-Ladder.py",
+            "Source_Code": "if endWord not in wordList:",
+            "Mutate_Code": "if endWord and and in wordList:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T48_LCPN_127-Word-Ladder.py",
+            "Source_Code": "if endWord not in wordList:",
+            "Mutate_Code": "if endWord or or in wordList:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T48_LCPN_127-Word-Ladder.py",
+            "Source_Code": "if endWord not in wordList:",
+            "Mutate_Code": "if endWord not not in wordList:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T48_LCPN_127-Word-Ladder.py",
+            "Source_Code": "if endWord not in wordList:",
+            "Mutate_Code": "if endWord not wordList:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T48_LCPN_127-Word-Ladder.py",
+            "Source_Code": "if endWord not in wordList:",
+            "Mutate_Code": "if endWord wordList:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T48_LCPN_127-Word-Ladder.py",
+            "Source_Code": "if endWord not in wordList:",
+            "Mutate_Code": "if endWord not is wordList:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T48_LCPN_127-Word-Ladder.py",
+            "Source_Code": "if endWord not in wordList:",
+            "Mutate_Code": "if endWord not is not wordList:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T48_LCPN_127-Word-Ladder.py",
+            "Source_Code": "if endWord not in wordList:",
+            "Mutate_Code": "if endWord is wordList:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T48_LCPN_127-Word-Ladder.py",
+            "Source_Code": "if endWord not in wordList:",
+            "Mutate_Code": "if endWord is not wordList:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T48_LCPN_127-Word-Ladder.py",
+            "Source_Code": "if endWord not in wordList:",
+            "Mutate_Code": "if endWord not in in wordList:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T48_LCPN_127-Word-Ladder.py",
+            "Source_Code": "if endWord not in wordList:",
+            "Mutate_Code": "if endWord not not in not in wordList:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T48_LCPN_127-Word-Ladder.py",
+            "Source_Code": "if endWord not in wordList:",
+            "Mutate_Code": "if endWord in in wordList:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T48_LCPN_127-Word-Ladder.py",
+            "Source_Code": "if endWord not in wordList:",
+            "Mutate_Code": "if endWord not in not in wordList:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T48_LCPN_127-Word-Ladder.py",
+            "Source_Code": "if endWord not in wordList:",
+            "Mutate_Code": " "
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T48_LCPN_127-Word-Ladder.py",
+            "Source_Code": "if endWord not in wordList:",
+            "Mutate_Code": "elif:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T48_LCPN_127-Word-Ladder.py",
+            "Source_Code": "if endWord not in wordList:",
+            "Mutate_Code": "else:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T48_LCPN_127-Word-Ladder.py",
+            "Source_Code": "if endWord not in wordList:",
+            "Mutate_Code": "if if"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T48_LCPN_127-Word-Ladder.py",
+            "Source_Code": "if endWord not in wordList:",
+            "Mutate_Code": "if endWord in wordList:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T48_LCPN_127-Word-Ladder.py",
+            "Source_Code": "if endWord not in wordList:",
+            "Mutate_Code": "if endWord and in wordList:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T48_LCPN_127-Word-Ladder.py",
+            "Source_Code": "if endWord not in wordList:",
+            "Mutate_Code": "if endWord or in wordList:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T48_LCPN_127-Word-Ladder.py",
+            "Source_Code": "if endWord not in wordList:",
+            "Mutate_Code": "if endWord and and in wordList:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T48_LCPN_127-Word-Ladder.py",
+            "Source_Code": "if endWord not in wordList:",
+            "Mutate_Code": "if endWord or or in wordList:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T48_LCPN_127-Word-Ladder.py",
+            "Source_Code": "if endWord not in wordList:",
+            "Mutate_Code": "if endWord not not in wordList:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T48_LCPN_127-Word-Ladder.py",
+            "Source_Code": "if endWord not in wordList:",
+            "Mutate_Code": "if endWord not wordList:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T48_LCPN_127-Word-Ladder.py",
+            "Source_Code": "if endWord not in wordList:",
+            "Mutate_Code": "if endWord wordList:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T48_LCPN_127-Word-Ladder.py",
+            "Source_Code": "if endWord not in wordList:",
+            "Mutate_Code": "if endWord not is wordList:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T48_LCPN_127-Word-Ladder.py",
+            "Source_Code": "if endWord not in wordList:",
+            "Mutate_Code": "if endWord not is not wordList:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T48_LCPN_127-Word-Ladder.py",
+            "Source_Code": "if endWord not in wordList:",
+            "Mutate_Code": "if endWord is wordList:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T48_LCPN_127-Word-Ladder.py",
+            "Source_Code": "if endWord not in wordList:",
+            "Mutate_Code": "if endWord is not wordList:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T48_LCPN_127-Word-Ladder.py",
+            "Source_Code": "if endWord not in wordList:",
+            "Mutate_Code": "if endWord not in in wordList:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T48_LCPN_127-Word-Ladder.py",
+            "Source_Code": "if endWord not in wordList:",
+            "Mutate_Code": "if endWord not not in not in wordList:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T48_LCPN_127-Word-Ladder.py",
+            "Source_Code": "if endWord not in wordList:",
+            "Mutate_Code": "if endWord in in wordList:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T48_LCPN_127-Word-Ladder.py",
+            "Source_Code": "if endWord not in wordList:",
+            "Mutate_Code": "if endWord not in not in wordList:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T48_LCPN_127-Word-Ladder.py",
+            "Source_Code": "if endWord not in wordList:",
+            "Mutate_Code": " "
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T48_LCPN_127-Word-Ladder.py",
+            "Source_Code": "if endWord not in wordList:",
+            "Mutate_Code": "elif:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T48_LCPN_127-Word-Ladder.py",
+            "Source_Code": "if endWord not in wordList:",
+            "Mutate_Code": "else:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T48_LCPN_127-Word-Ladder.py",
+            "Source_Code": "if endWord not in wordList:",
+            "Mutate_Code": "if if"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T48_LCPN_127-Word-Ladder.py",
+            "Source_Code": "return 0",
+            "Mutate_Code": " 0"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T48_LCPN_127-Word-Ladder.py",
+            "Source_Code": "return 0",
+            "Mutate_Code": "pass0"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T48_LCPN_127-Word-Ladder.py",
+            "Source_Code": "return 0",
+            "Mutate_Code": "return return0"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T48_LCPN_127-Word-Ladder.py",
+            "Source_Code": "wordList.append(beginWord)",
+            "Mutate_Code": "wordList.append( )"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T48_LCPN_127-Word-Ladder.py",
+            "Source_Code": "for word in wordList:",
+            "Mutate_Code": "for word wordList:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T48_LCPN_127-Word-Ladder.py",
+            "Source_Code": "for word in wordList:",
+            "Mutate_Code": "for word is wordList:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T48_LCPN_127-Word-Ladder.py",
+            "Source_Code": "for word in wordList:",
+            "Mutate_Code": "for word is not wordList:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T48_LCPN_127-Word-Ladder.py",
+            "Source_Code": "for word in wordList:",
+            "Mutate_Code": "for word in in wordList:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T48_LCPN_127-Word-Ladder.py",
+            "Source_Code": "for word in wordList:",
+            "Mutate_Code": "for word not in not in wordList:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T48_LCPN_127-Word-Ladder.py",
+            "Source_Code": "for word in wordList:",
+            "Mutate_Code": " "
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T48_LCPN_127-Word-Ladder.py",
+            "Source_Code": "for word in wordList:",
+            "Mutate_Code": "while True:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T48_LCPN_127-Word-Ladder.py",
+            "Source_Code": "for word in wordList:",
+            "Mutate_Code": "for for: word in wordList:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T48_LCPN_127-Word-Ladder.py",
+            "Source_Code": "for j in range(len(word)):",
+            "Mutate_Code": "for j range(len(word)):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T48_LCPN_127-Word-Ladder.py",
+            "Source_Code": "for j in range(len(word)):",
+            "Mutate_Code": "for j is range(len(word)):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T48_LCPN_127-Word-Ladder.py",
+            "Source_Code": "for j in range(len(word)):",
+            "Mutate_Code": "for j is not range(len(word)):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T48_LCPN_127-Word-Ladder.py",
+            "Source_Code": "for j in range(len(word)):",
+            "Mutate_Code": "for j in in range(len(word)):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T48_LCPN_127-Word-Ladder.py",
+            "Source_Code": "for j in range(len(word)):",
+            "Mutate_Code": "for j not in not in range(len(word)):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T48_LCPN_127-Word-Ladder.py",
+            "Source_Code": "for j in range(len(word)):",
+            "Mutate_Code": " "
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T48_LCPN_127-Word-Ladder.py",
+            "Source_Code": "for j in range(len(word)):",
+            "Mutate_Code": "while True:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T48_LCPN_127-Word-Ladder.py",
+            "Source_Code": "for j in range(len(word)):",
+            "Mutate_Code": "for for: j in range(len(word)):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T48_LCPN_127-Word-Ladder.py",
+            "Source_Code": "for j in range(len(word)):",
+            "Mutate_Code": "for j in range(len( )):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T48_LCPN_127-Word-Ladder.py",
+            "Source_Code": "for j in range(len(word)):",
+            "Mutate_Code": "for j in range( )):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T48_LCPN_127-Word-Ladder.py",
+            "Source_Code": "for j in range(len(word)):",
+            "Mutate_Code": "for j range(len(word)):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T48_LCPN_127-Word-Ladder.py",
+            "Source_Code": "for j in range(len(word)):",
+            "Mutate_Code": "for j is range(len(word)):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T48_LCPN_127-Word-Ladder.py",
+            "Source_Code": "for j in range(len(word)):",
+            "Mutate_Code": "for j is not range(len(word)):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T48_LCPN_127-Word-Ladder.py",
+            "Source_Code": "for j in range(len(word)):",
+            "Mutate_Code": "for j in in range(len(word)):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T48_LCPN_127-Word-Ladder.py",
+            "Source_Code": "for j in range(len(word)):",
+            "Mutate_Code": "for j not in not in range(len(word)):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T48_LCPN_127-Word-Ladder.py",
+            "Source_Code": "for j in range(len(word)):",
+            "Mutate_Code": " "
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T48_LCPN_127-Word-Ladder.py",
+            "Source_Code": "for j in range(len(word)):",
+            "Mutate_Code": "while True:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T48_LCPN_127-Word-Ladder.py",
+            "Source_Code": "for j in range(len(word)):",
+            "Mutate_Code": "for for: j in range(len(word)):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T48_LCPN_127-Word-Ladder.py",
+            "Source_Code": "for j in range(len(word)):",
+            "Mutate_Code": "for j in range(len( )):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T48_LCPN_127-Word-Ladder.py",
+            "Source_Code": "for j in range(len(word)):",
+            "Mutate_Code": "for j in range( )):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T48_LCPN_127-Word-Ladder.py",
+            "Source_Code": "for j in range(len(word)):",
+            "Mutate_Code": "for j range(len(word)):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T48_LCPN_127-Word-Ladder.py",
+            "Source_Code": "for j in range(len(word)):",
+            "Mutate_Code": "for j is range(len(word)):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T48_LCPN_127-Word-Ladder.py",
+            "Source_Code": "for j in range(len(word)):",
+            "Mutate_Code": "for j is not range(len(word)):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T48_LCPN_127-Word-Ladder.py",
+            "Source_Code": "for j in range(len(word)):",
+            "Mutate_Code": "for j in in range(len(word)):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T48_LCPN_127-Word-Ladder.py",
+            "Source_Code": "for j in range(len(word)):",
+            "Mutate_Code": "for j not in not in range(len(word)):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T48_LCPN_127-Word-Ladder.py",
+            "Source_Code": "for j in range(len(word)):",
+            "Mutate_Code": " "
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T48_LCPN_127-Word-Ladder.py",
+            "Source_Code": "for j in range(len(word)):",
+            "Mutate_Code": "while True:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T48_LCPN_127-Word-Ladder.py",
+            "Source_Code": "for j in range(len(word)):",
+            "Mutate_Code": "for for: j in range(len(word)):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T48_LCPN_127-Word-Ladder.py",
+            "Source_Code": "for j in range(len(word)):",
+            "Mutate_Code": "for j in range(len( )):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T48_LCPN_127-Word-Ladder.py",
+            "Source_Code": "for j in range(len(word)):",
+            "Mutate_Code": "for j in range( )):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T48_LCPN_127-Word-Ladder.py",
+            "Source_Code": "nei[pattern].append(word)",
+            "Mutate_Code": "nei[pattern].append( )"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T48_LCPN_127-Word-Ladder.py",
+            "Source_Code": "visit = set([beginWord])",
+            "Mutate_Code": "visit set([beginWord])"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T48_LCPN_127-Word-Ladder.py",
+            "Source_Code": "visit = set([beginWord])",
+            "Mutate_Code": "visit set([beginWord])"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T48_LCPN_127-Word-Ladder.py",
+            "Source_Code": "visit = set([beginWord])",
+            "Mutate_Code": "visit += set([beginWord])"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T48_LCPN_127-Word-Ladder.py",
+            "Source_Code": "visit = set([beginWord])",
+            "Mutate_Code": "visit -= set([beginWord])"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T48_LCPN_127-Word-Ladder.py",
+            "Source_Code": "visit = set([beginWord])",
+            "Mutate_Code": "visit *= set([beginWord])"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T48_LCPN_127-Word-Ladder.py",
+            "Source_Code": "visit = set([beginWord])",
+            "Mutate_Code": "visit /= set([beginWord])"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T48_LCPN_127-Word-Ladder.py",
+            "Source_Code": "visit = set([beginWord])",
+            "Mutate_Code": "visit %= set([beginWord])"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T48_LCPN_127-Word-Ladder.py",
+            "Source_Code": "visit = set([beginWord])",
+            "Mutate_Code": "visit //= set([beginWord])"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T48_LCPN_127-Word-Ladder.py",
+            "Source_Code": "visit = set([beginWord])",
+            "Mutate_Code": "visit **= set([beginWord])"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T48_LCPN_127-Word-Ladder.py",
+            "Source_Code": "visit = set([beginWord])",
+            "Mutate_Code": "visit &= set([beginWord])"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T48_LCPN_127-Word-Ladder.py",
+            "Source_Code": "visit = set([beginWord])",
+            "Mutate_Code": "visit |= set([beginWord])"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T48_LCPN_127-Word-Ladder.py",
+            "Source_Code": "visit = set([beginWord])",
+            "Mutate_Code": "visit ^= set([beginWord])"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T48_LCPN_127-Word-Ladder.py",
+            "Source_Code": "visit = set([beginWord])",
+            "Mutate_Code": "visit >>= set([beginWord])"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T48_LCPN_127-Word-Ladder.py",
+            "Source_Code": "visit = set([beginWord])",
+            "Mutate_Code": "visit <<= set([beginWord])"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T48_LCPN_127-Word-Ladder.py",
+            "Source_Code": "visit = set([beginWord])",
+            "Mutate_Code": "visit += set([beginWord])"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T48_LCPN_127-Word-Ladder.py",
+            "Source_Code": "visit = set([beginWord])",
+            "Mutate_Code": "visit -= set([beginWord])"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T48_LCPN_127-Word-Ladder.py",
+            "Source_Code": "visit = set([beginWord])",
+            "Mutate_Code": "visit *= set([beginWord])"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T48_LCPN_127-Word-Ladder.py",
+            "Source_Code": "visit = set([beginWord])",
+            "Mutate_Code": "visit /= set([beginWord])"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T48_LCPN_127-Word-Ladder.py",
+            "Source_Code": "visit = set([beginWord])",
+            "Mutate_Code": "visit %= set([beginWord])"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T48_LCPN_127-Word-Ladder.py",
+            "Source_Code": "visit = set([beginWord])",
+            "Mutate_Code": "visit //= set([beginWord])"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T48_LCPN_127-Word-Ladder.py",
+            "Source_Code": "visit = set([beginWord])",
+            "Mutate_Code": "visit **= set([beginWord])"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T48_LCPN_127-Word-Ladder.py",
+            "Source_Code": "visit = set([beginWord])",
+            "Mutate_Code": "visit &= set([beginWord])"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T48_LCPN_127-Word-Ladder.py",
+            "Source_Code": "visit = set([beginWord])",
+            "Mutate_Code": "visit |= set([beginWord])"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T48_LCPN_127-Word-Ladder.py",
+            "Source_Code": "visit = set([beginWord])",
+            "Mutate_Code": "visit ^= set([beginWord])"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T48_LCPN_127-Word-Ladder.py",
+            "Source_Code": "visit = set([beginWord])",
+            "Mutate_Code": "visit >>= set([beginWord])"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T48_LCPN_127-Word-Ladder.py",
+            "Source_Code": "visit = set([beginWord])",
+            "Mutate_Code": "visit <<= set([beginWord])"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T48_LCPN_127-Word-Ladder.py",
+            "Source_Code": "visit = set([beginWord])",
+            "Mutate_Code": "visit == set([beginWord])"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T48_LCPN_127-Word-Ladder.py",
+            "Source_Code": "visit = set([beginWord])",
+            "Mutate_Code": "visit +=+= set([beginWord])"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T48_LCPN_127-Word-Ladder.py",
+            "Source_Code": "visit = set([beginWord])",
+            "Mutate_Code": "visit -=-= set([beginWord])"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T48_LCPN_127-Word-Ladder.py",
+            "Source_Code": "visit = set([beginWord])",
+            "Mutate_Code": "visit *=*= set([beginWord])"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T48_LCPN_127-Word-Ladder.py",
+            "Source_Code": "visit = set([beginWord])",
+            "Mutate_Code": "visit /=/= set([beginWord])"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T48_LCPN_127-Word-Ladder.py",
+            "Source_Code": "visit = set([beginWord])",
+            "Mutate_Code": "visit %=%= set([beginWord])"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T48_LCPN_127-Word-Ladder.py",
+            "Source_Code": "visit = set([beginWord])",
+            "Mutate_Code": "visit //=//= set([beginWord])"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T48_LCPN_127-Word-Ladder.py",
+            "Source_Code": "visit = set([beginWord])",
+            "Mutate_Code": "visit **=**= set([beginWord])"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T48_LCPN_127-Word-Ladder.py",
+            "Source_Code": "visit = set([beginWord])",
+            "Mutate_Code": "visit &=&= set([beginWord])"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T48_LCPN_127-Word-Ladder.py",
+            "Source_Code": "visit = set([beginWord])",
+            "Mutate_Code": "visit |=|= set([beginWord])"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T48_LCPN_127-Word-Ladder.py",
+            "Source_Code": "visit = set([beginWord])",
+            "Mutate_Code": "visit ^=^= set([beginWord])"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T48_LCPN_127-Word-Ladder.py",
+            "Source_Code": "visit = set([beginWord])",
+            "Mutate_Code": "visit >>=>>= set([beginWord])"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T48_LCPN_127-Word-Ladder.py",
+            "Source_Code": "visit = set([beginWord])",
+            "Mutate_Code": "visit <<=<<=set([beginWord])"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T48_LCPN_127-Word-Ladder.py",
+            "Source_Code": "visit = set([beginWord])",
+            "Mutate_Code": "visit == set([beginWord])"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T48_LCPN_127-Word-Ladder.py",
+            "Source_Code": "visit = set([beginWord])",
+            "Mutate_Code": "visit +=+= set([beginWord])"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T48_LCPN_127-Word-Ladder.py",
+            "Source_Code": "visit = set([beginWord])",
+            "Mutate_Code": "visit -=-= set([beginWord])"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T48_LCPN_127-Word-Ladder.py",
+            "Source_Code": "visit = set([beginWord])",
+            "Mutate_Code": "visit *=*= set([beginWord])"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T48_LCPN_127-Word-Ladder.py",
+            "Source_Code": "visit = set([beginWord])",
+            "Mutate_Code": "visit /=/= set([beginWord])"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T48_LCPN_127-Word-Ladder.py",
+            "Source_Code": "visit = set([beginWord])",
+            "Mutate_Code": "visit %=%= set([beginWord])"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T48_LCPN_127-Word-Ladder.py",
+            "Source_Code": "visit = set([beginWord])",
+            "Mutate_Code": "visit //=//= set([beginWord])"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T48_LCPN_127-Word-Ladder.py",
+            "Source_Code": "visit = set([beginWord])",
+            "Mutate_Code": "visit **=**= set([beginWord])"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T48_LCPN_127-Word-Ladder.py",
+            "Source_Code": "visit = set([beginWord])",
+            "Mutate_Code": "visit &=&= set([beginWord])"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T48_LCPN_127-Word-Ladder.py",
+            "Source_Code": "visit = set([beginWord])",
+            "Mutate_Code": "visit |=|= set([beginWord])"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T48_LCPN_127-Word-Ladder.py",
+            "Source_Code": "visit = set([beginWord])",
+            "Mutate_Code": "visit ^=^= set([beginWord])"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T48_LCPN_127-Word-Ladder.py",
+            "Source_Code": "visit = set([beginWord])",
+            "Mutate_Code": "visit >>=>>= set([beginWord])"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T48_LCPN_127-Word-Ladder.py",
+            "Source_Code": "visit = set([beginWord])",
+            "Mutate_Code": "visit <<=<<=set([beginWord])"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T48_LCPN_127-Word-Ladder.py",
+            "Source_Code": "visit = set([beginWord])",
+            "Mutate_Code": "visit = set( )"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T48_LCPN_127-Word-Ladder.py",
+            "Source_Code": "while q:",
+            "Mutate_Code": " "
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T48_LCPN_127-Word-Ladder.py",
+            "Source_Code": "while q:",
+            "Mutate_Code": "for "
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T48_LCPN_127-Word-Ladder.py",
+            "Source_Code": "while q:",
+            "Mutate_Code": "while while:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T48_LCPN_127-Word-Ladder.py",
+            "Source_Code": "for i in range(len(q)):",
+            "Mutate_Code": "for i range(len(q)):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T48_LCPN_127-Word-Ladder.py",
+            "Source_Code": "for i in range(len(q)):",
+            "Mutate_Code": "for i is range(len(q)):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T48_LCPN_127-Word-Ladder.py",
+            "Source_Code": "for i in range(len(q)):",
+            "Mutate_Code": "for i is not range(len(q)):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T48_LCPN_127-Word-Ladder.py",
+            "Source_Code": "for i in range(len(q)):",
+            "Mutate_Code": "for i in in range(len(q)):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T48_LCPN_127-Word-Ladder.py",
+            "Source_Code": "for i in range(len(q)):",
+            "Mutate_Code": "for i not in not in range(len(q)):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T48_LCPN_127-Word-Ladder.py",
+            "Source_Code": "for i in range(len(q)):",
+            "Mutate_Code": " "
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T48_LCPN_127-Word-Ladder.py",
+            "Source_Code": "for i in range(len(q)):",
+            "Mutate_Code": "while True:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T48_LCPN_127-Word-Ladder.py",
+            "Source_Code": "for i in range(len(q)):",
+            "Mutate_Code": "for for: i in range(len(q)):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T48_LCPN_127-Word-Ladder.py",
+            "Source_Code": "for i in range(len(q)):",
+            "Mutate_Code": "for i in range(len( )):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T48_LCPN_127-Word-Ladder.py",
+            "Source_Code": "for i in range(len(q)):",
+            "Mutate_Code": "for i in range( )):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T48_LCPN_127-Word-Ladder.py",
+            "Source_Code": "for i in range(len(q)):",
+            "Mutate_Code": "for i range(len(q)):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T48_LCPN_127-Word-Ladder.py",
+            "Source_Code": "for i in range(len(q)):",
+            "Mutate_Code": "for i is range(len(q)):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T48_LCPN_127-Word-Ladder.py",
+            "Source_Code": "for i in range(len(q)):",
+            "Mutate_Code": "for i is not range(len(q)):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T48_LCPN_127-Word-Ladder.py",
+            "Source_Code": "for i in range(len(q)):",
+            "Mutate_Code": "for i in in range(len(q)):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T48_LCPN_127-Word-Ladder.py",
+            "Source_Code": "for i in range(len(q)):",
+            "Mutate_Code": "for i not in not in range(len(q)):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T48_LCPN_127-Word-Ladder.py",
+            "Source_Code": "for i in range(len(q)):",
+            "Mutate_Code": " "
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T48_LCPN_127-Word-Ladder.py",
+            "Source_Code": "for i in range(len(q)):",
+            "Mutate_Code": "while True:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T48_LCPN_127-Word-Ladder.py",
+            "Source_Code": "for i in range(len(q)):",
+            "Mutate_Code": "for for: i in range(len(q)):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T48_LCPN_127-Word-Ladder.py",
+            "Source_Code": "for i in range(len(q)):",
+            "Mutate_Code": "for i in range(len( )):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T48_LCPN_127-Word-Ladder.py",
+            "Source_Code": "for i in range(len(q)):",
+            "Mutate_Code": "for i in range( )):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T48_LCPN_127-Word-Ladder.py",
+            "Source_Code": "for i in range(len(q)):",
+            "Mutate_Code": "for i range(len(q)):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T48_LCPN_127-Word-Ladder.py",
+            "Source_Code": "for i in range(len(q)):",
+            "Mutate_Code": "for i is range(len(q)):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T48_LCPN_127-Word-Ladder.py",
+            "Source_Code": "for i in range(len(q)):",
+            "Mutate_Code": "for i is not range(len(q)):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T48_LCPN_127-Word-Ladder.py",
+            "Source_Code": "for i in range(len(q)):",
+            "Mutate_Code": "for i in in range(len(q)):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T48_LCPN_127-Word-Ladder.py",
+            "Source_Code": "for i in range(len(q)):",
+            "Mutate_Code": "for i not in not in range(len(q)):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T48_LCPN_127-Word-Ladder.py",
+            "Source_Code": "for i in range(len(q)):",
+            "Mutate_Code": " "
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T48_LCPN_127-Word-Ladder.py",
+            "Source_Code": "for i in range(len(q)):",
+            "Mutate_Code": "while True:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T48_LCPN_127-Word-Ladder.py",
+            "Source_Code": "for i in range(len(q)):",
+            "Mutate_Code": "for for: i in range(len(q)):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T48_LCPN_127-Word-Ladder.py",
+            "Source_Code": "for i in range(len(q)):",
+            "Mutate_Code": "for i in range(len( )):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T48_LCPN_127-Word-Ladder.py",
+            "Source_Code": "for i in range(len(q)):",
+            "Mutate_Code": "for i in range( )):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T48_LCPN_127-Word-Ladder.py",
+            "Source_Code": "if word == endWord:",
+            "Mutate_Code": "if word   endWord:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T48_LCPN_127-Word-Ladder.py",
+            "Source_Code": "if word == endWord:",
+            "Mutate_Code": "if word != endWord:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T48_LCPN_127-Word-Ladder.py",
+            "Source_Code": "if word == endWord:",
+            "Mutate_Code": "if word > endWord:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T48_LCPN_127-Word-Ladder.py",
+            "Source_Code": "if word == endWord:",
+            "Mutate_Code": "if word < endWord:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T48_LCPN_127-Word-Ladder.py",
+            "Source_Code": "if word == endWord:",
+            "Mutate_Code": "if word >= endWord:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T48_LCPN_127-Word-Ladder.py",
+            "Source_Code": "if word == endWord:",
+            "Mutate_Code": "if word <= endWord:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T48_LCPN_127-Word-Ladder.py",
+            "Source_Code": "if word == endWord:",
+            "Mutate_Code": "if word  ====  endWord:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T48_LCPN_127-Word-Ladder.py",
+            "Source_Code": "if word == endWord:",
+            "Mutate_Code": "if word  !==  endWord:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T48_LCPN_127-Word-Ladder.py",
+            "Source_Code": "if word == endWord:",
+            "Mutate_Code": "if word  >>  endWord:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T48_LCPN_127-Word-Ladder.py",
+            "Source_Code": "if word == endWord:",
+            "Mutate_Code": "if word  <<  endWord:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T48_LCPN_127-Word-Ladder.py",
+            "Source_Code": "if word == endWord:",
+            "Mutate_Code": "if word  >=>=  endWord:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T48_LCPN_127-Word-Ladder.py",
+            "Source_Code": "if word == endWord:",
+            "Mutate_Code": "if word  <=<=  endWord:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T48_LCPN_127-Word-Ladder.py",
+            "Source_Code": "if word == endWord:",
+            "Mutate_Code": " "
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T48_LCPN_127-Word-Ladder.py",
+            "Source_Code": "if word == endWord:",
+            "Mutate_Code": "elif:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T48_LCPN_127-Word-Ladder.py",
+            "Source_Code": "if word == endWord:",
+            "Mutate_Code": "else:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T48_LCPN_127-Word-Ladder.py",
+            "Source_Code": "if word == endWord:",
+            "Mutate_Code": "if if"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T48_LCPN_127-Word-Ladder.py",
+            "Source_Code": "return res",
+            "Mutate_Code": " res"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T48_LCPN_127-Word-Ladder.py",
+            "Source_Code": "return res",
+            "Mutate_Code": "passres"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T48_LCPN_127-Word-Ladder.py",
+            "Source_Code": "return res",
+            "Mutate_Code": "return returnres"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T48_LCPN_127-Word-Ladder.py",
+            "Source_Code": "for j in range(len(word)):",
+            "Mutate_Code": "for j range(len(word)):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T48_LCPN_127-Word-Ladder.py",
+            "Source_Code": "for j in range(len(word)):",
+            "Mutate_Code": "for j is range(len(word)):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T48_LCPN_127-Word-Ladder.py",
+            "Source_Code": "for j in range(len(word)):",
+            "Mutate_Code": "for j is not range(len(word)):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T48_LCPN_127-Word-Ladder.py",
+            "Source_Code": "for j in range(len(word)):",
+            "Mutate_Code": "for j in in range(len(word)):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T48_LCPN_127-Word-Ladder.py",
+            "Source_Code": "for j in range(len(word)):",
+            "Mutate_Code": "for j not in not in range(len(word)):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T48_LCPN_127-Word-Ladder.py",
+            "Source_Code": "for j in range(len(word)):",
+            "Mutate_Code": " "
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T48_LCPN_127-Word-Ladder.py",
+            "Source_Code": "for j in range(len(word)):",
+            "Mutate_Code": "while True:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T48_LCPN_127-Word-Ladder.py",
+            "Source_Code": "for j in range(len(word)):",
+            "Mutate_Code": "for for: j in range(len(word)):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T48_LCPN_127-Word-Ladder.py",
+            "Source_Code": "for j in range(len(word)):",
+            "Mutate_Code": "for j in range(len( )):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T48_LCPN_127-Word-Ladder.py",
+            "Source_Code": "for j in range(len(word)):",
+            "Mutate_Code": "for j in range( )):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T48_LCPN_127-Word-Ladder.py",
+            "Source_Code": "for j in range(len(word)):",
+            "Mutate_Code": "for j range(len(word)):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T48_LCPN_127-Word-Ladder.py",
+            "Source_Code": "for j in range(len(word)):",
+            "Mutate_Code": "for j is range(len(word)):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T48_LCPN_127-Word-Ladder.py",
+            "Source_Code": "for j in range(len(word)):",
+            "Mutate_Code": "for j is not range(len(word)):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T48_LCPN_127-Word-Ladder.py",
+            "Source_Code": "for j in range(len(word)):",
+            "Mutate_Code": "for j in in range(len(word)):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T48_LCPN_127-Word-Ladder.py",
+            "Source_Code": "for j in range(len(word)):",
+            "Mutate_Code": "for j not in not in range(len(word)):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T48_LCPN_127-Word-Ladder.py",
+            "Source_Code": "for j in range(len(word)):",
+            "Mutate_Code": " "
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T48_LCPN_127-Word-Ladder.py",
+            "Source_Code": "for j in range(len(word)):",
+            "Mutate_Code": "while True:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T48_LCPN_127-Word-Ladder.py",
+            "Source_Code": "for j in range(len(word)):",
+            "Mutate_Code": "for for: j in range(len(word)):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T48_LCPN_127-Word-Ladder.py",
+            "Source_Code": "for j in range(len(word)):",
+            "Mutate_Code": "for j in range(len( )):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T48_LCPN_127-Word-Ladder.py",
+            "Source_Code": "for j in range(len(word)):",
+            "Mutate_Code": "for j in range( )):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T48_LCPN_127-Word-Ladder.py",
+            "Source_Code": "for j in range(len(word)):",
+            "Mutate_Code": "for j range(len(word)):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T48_LCPN_127-Word-Ladder.py",
+            "Source_Code": "for j in range(len(word)):",
+            "Mutate_Code": "for j is range(len(word)):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T48_LCPN_127-Word-Ladder.py",
+            "Source_Code": "for j in range(len(word)):",
+            "Mutate_Code": "for j is not range(len(word)):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T48_LCPN_127-Word-Ladder.py",
+            "Source_Code": "for j in range(len(word)):",
+            "Mutate_Code": "for j in in range(len(word)):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T48_LCPN_127-Word-Ladder.py",
+            "Source_Code": "for j in range(len(word)):",
+            "Mutate_Code": "for j not in not in range(len(word)):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T48_LCPN_127-Word-Ladder.py",
+            "Source_Code": "for j in range(len(word)):",
+            "Mutate_Code": " "
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T48_LCPN_127-Word-Ladder.py",
+            "Source_Code": "for j in range(len(word)):",
+            "Mutate_Code": "while True:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T48_LCPN_127-Word-Ladder.py",
+            "Source_Code": "for j in range(len(word)):",
+            "Mutate_Code": "for for: j in range(len(word)):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T48_LCPN_127-Word-Ladder.py",
+            "Source_Code": "for j in range(len(word)):",
+            "Mutate_Code": "for j in range(len( )):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T48_LCPN_127-Word-Ladder.py",
+            "Source_Code": "for j in range(len(word)):",
+            "Mutate_Code": "for j in range( )):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T48_LCPN_127-Word-Ladder.py",
+            "Source_Code": "for neiWord in nei[pattern]:",
+            "Mutate_Code": "for neiWord nei[pattern]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T48_LCPN_127-Word-Ladder.py",
+            "Source_Code": "for neiWord in nei[pattern]:",
+            "Mutate_Code": "for neiWord is nei[pattern]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T48_LCPN_127-Word-Ladder.py",
+            "Source_Code": "for neiWord in nei[pattern]:",
+            "Mutate_Code": "for neiWord is not nei[pattern]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T48_LCPN_127-Word-Ladder.py",
+            "Source_Code": "for neiWord in nei[pattern]:",
+            "Mutate_Code": "for neiWord in in nei[pattern]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T48_LCPN_127-Word-Ladder.py",
+            "Source_Code": "for neiWord in nei[pattern]:",
+            "Mutate_Code": "for neiWord not in not in nei[pattern]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T48_LCPN_127-Word-Ladder.py",
+            "Source_Code": "for neiWord in nei[pattern]:",
+            "Mutate_Code": " "
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T48_LCPN_127-Word-Ladder.py",
+            "Source_Code": "for neiWord in nei[pattern]:",
+            "Mutate_Code": "while True:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T48_LCPN_127-Word-Ladder.py",
+            "Source_Code": "for neiWord in nei[pattern]:",
+            "Mutate_Code": "for for: neiWord in nei[pattern]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T48_LCPN_127-Word-Ladder.py",
+            "Source_Code": "if neiWord not in visit:",
+            "Mutate_Code": "if neiWord in visit:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T48_LCPN_127-Word-Ladder.py",
+            "Source_Code": "if neiWord not in visit:",
+            "Mutate_Code": "if neiWord and in visit:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T48_LCPN_127-Word-Ladder.py",
+            "Source_Code": "if neiWord not in visit:",
+            "Mutate_Code": "if neiWord or in visit:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T48_LCPN_127-Word-Ladder.py",
+            "Source_Code": "if neiWord not in visit:",
+            "Mutate_Code": "if neiWord and and in visit:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T48_LCPN_127-Word-Ladder.py",
+            "Source_Code": "if neiWord not in visit:",
+            "Mutate_Code": "if neiWord or or in visit:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T48_LCPN_127-Word-Ladder.py",
+            "Source_Code": "if neiWord not in visit:",
+            "Mutate_Code": "if neiWord not not in visit:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T48_LCPN_127-Word-Ladder.py",
+            "Source_Code": "if neiWord not in visit:",
+            "Mutate_Code": "if neiWord not visit:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T48_LCPN_127-Word-Ladder.py",
+            "Source_Code": "if neiWord not in visit:",
+            "Mutate_Code": "if neiWord visit:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T48_LCPN_127-Word-Ladder.py",
+            "Source_Code": "if neiWord not in visit:",
+            "Mutate_Code": "if neiWord not is visit:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T48_LCPN_127-Word-Ladder.py",
+            "Source_Code": "if neiWord not in visit:",
+            "Mutate_Code": "if neiWord not is not visit:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T48_LCPN_127-Word-Ladder.py",
+            "Source_Code": "if neiWord not in visit:",
+            "Mutate_Code": "if neiWord is visit:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T48_LCPN_127-Word-Ladder.py",
+            "Source_Code": "if neiWord not in visit:",
+            "Mutate_Code": "if neiWord is not visit:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T48_LCPN_127-Word-Ladder.py",
+            "Source_Code": "if neiWord not in visit:",
+            "Mutate_Code": "if neiWord not in in visit:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T48_LCPN_127-Word-Ladder.py",
+            "Source_Code": "if neiWord not in visit:",
+            "Mutate_Code": "if neiWord not not in not in visit:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T48_LCPN_127-Word-Ladder.py",
+            "Source_Code": "if neiWord not in visit:",
+            "Mutate_Code": "if neiWord in in visit:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T48_LCPN_127-Word-Ladder.py",
+            "Source_Code": "if neiWord not in visit:",
+            "Mutate_Code": "if neiWord not in not in visit:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T48_LCPN_127-Word-Ladder.py",
+            "Source_Code": "if neiWord not in visit:",
+            "Mutate_Code": " "
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T48_LCPN_127-Word-Ladder.py",
+            "Source_Code": "if neiWord not in visit:",
+            "Mutate_Code": "elif:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T48_LCPN_127-Word-Ladder.py",
+            "Source_Code": "if neiWord not in visit:",
+            "Mutate_Code": "else:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T48_LCPN_127-Word-Ladder.py",
+            "Source_Code": "if neiWord not in visit:",
+            "Mutate_Code": "if if"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T48_LCPN_127-Word-Ladder.py",
+            "Source_Code": "if neiWord not in visit:",
+            "Mutate_Code": "if neiWord in visit:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T48_LCPN_127-Word-Ladder.py",
+            "Source_Code": "if neiWord not in visit:",
+            "Mutate_Code": "if neiWord and in visit:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T48_LCPN_127-Word-Ladder.py",
+            "Source_Code": "if neiWord not in visit:",
+            "Mutate_Code": "if neiWord or in visit:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T48_LCPN_127-Word-Ladder.py",
+            "Source_Code": "if neiWord not in visit:",
+            "Mutate_Code": "if neiWord and and in visit:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T48_LCPN_127-Word-Ladder.py",
+            "Source_Code": "if neiWord not in visit:",
+            "Mutate_Code": "if neiWord or or in visit:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T48_LCPN_127-Word-Ladder.py",
+            "Source_Code": "if neiWord not in visit:",
+            "Mutate_Code": "if neiWord not not in visit:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T48_LCPN_127-Word-Ladder.py",
+            "Source_Code": "if neiWord not in visit:",
+            "Mutate_Code": "if neiWord not visit:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T48_LCPN_127-Word-Ladder.py",
+            "Source_Code": "if neiWord not in visit:",
+            "Mutate_Code": "if neiWord visit:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T48_LCPN_127-Word-Ladder.py",
+            "Source_Code": "if neiWord not in visit:",
+            "Mutate_Code": "if neiWord not is visit:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T48_LCPN_127-Word-Ladder.py",
+            "Source_Code": "if neiWord not in visit:",
+            "Mutate_Code": "if neiWord not is not visit:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T48_LCPN_127-Word-Ladder.py",
+            "Source_Code": "if neiWord not in visit:",
+            "Mutate_Code": "if neiWord is visit:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T48_LCPN_127-Word-Ladder.py",
+            "Source_Code": "if neiWord not in visit:",
+            "Mutate_Code": "if neiWord is not visit:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T48_LCPN_127-Word-Ladder.py",
+            "Source_Code": "if neiWord not in visit:",
+            "Mutate_Code": "if neiWord not in in visit:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T48_LCPN_127-Word-Ladder.py",
+            "Source_Code": "if neiWord not in visit:",
+            "Mutate_Code": "if neiWord not not in not in visit:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T48_LCPN_127-Word-Ladder.py",
+            "Source_Code": "if neiWord not in visit:",
+            "Mutate_Code": "if neiWord in in visit:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T48_LCPN_127-Word-Ladder.py",
+            "Source_Code": "if neiWord not in visit:",
+            "Mutate_Code": "if neiWord not in not in visit:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T48_LCPN_127-Word-Ladder.py",
+            "Source_Code": "if neiWord not in visit:",
+            "Mutate_Code": " "
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T48_LCPN_127-Word-Ladder.py",
+            "Source_Code": "if neiWord not in visit:",
+            "Mutate_Code": "elif:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T48_LCPN_127-Word-Ladder.py",
+            "Source_Code": "if neiWord not in visit:",
+            "Mutate_Code": "else:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T48_LCPN_127-Word-Ladder.py",
+            "Source_Code": "if neiWord not in visit:",
+            "Mutate_Code": "if if"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T48_LCPN_127-Word-Ladder.py",
+            "Source_Code": "visit.add(neiWord)",
+            "Mutate_Code": "visit.add( )"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T48_LCPN_127-Word-Ladder.py",
+            "Source_Code": "q.append(neiWord)",
+            "Mutate_Code": "q.append( )"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T48_LCPN_127-Word-Ladder.py",
+            "Source_Code": "return 0",
+            "Mutate_Code": " 0"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T48_LCPN_127-Word-Ladder.py",
+            "Source_Code": "return 0",
+            "Mutate_Code": "pass0"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T48_LCPN_127-Word-Ladder.py",
+            "Source_Code": "return 0",
+            "Mutate_Code": "return return0"
+        }
+    }
+]

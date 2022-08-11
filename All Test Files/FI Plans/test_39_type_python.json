@@ -1,0 +1,275 @@
+[
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T39_LCPN_78-Subsets.py",
+            "Source_Code": "if i >= len(nums):",
+            "Mutate_Code": "if i   len(nums):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T39_LCPN_78-Subsets.py",
+            "Source_Code": "if i >= len(nums):",
+            "Mutate_Code": "if i == len(nums):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T39_LCPN_78-Subsets.py",
+            "Source_Code": "if i >= len(nums):",
+            "Mutate_Code": "if i != len(nums):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T39_LCPN_78-Subsets.py",
+            "Source_Code": "if i >= len(nums):",
+            "Mutate_Code": "if i > len(nums):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T39_LCPN_78-Subsets.py",
+            "Source_Code": "if i >= len(nums):",
+            "Mutate_Code": "if i < len(nums):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T39_LCPN_78-Subsets.py",
+            "Source_Code": "if i >= len(nums):",
+            "Mutate_Code": "if i <= len(nums):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T39_LCPN_78-Subsets.py",
+            "Source_Code": "if i >= len(nums):",
+            "Mutate_Code": "if i  ====  len(nums):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T39_LCPN_78-Subsets.py",
+            "Source_Code": "if i >= len(nums):",
+            "Mutate_Code": "if i  !==  len(nums):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T39_LCPN_78-Subsets.py",
+            "Source_Code": "if i >= len(nums):",
+            "Mutate_Code": "if i  >>  len(nums):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T39_LCPN_78-Subsets.py",
+            "Source_Code": "if i >= len(nums):",
+            "Mutate_Code": "if i  <<  len(nums):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T39_LCPN_78-Subsets.py",
+            "Source_Code": "if i >= len(nums):",
+            "Mutate_Code": "if i  >=>=  len(nums):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T39_LCPN_78-Subsets.py",
+            "Source_Code": "if i >= len(nums):",
+            "Mutate_Code": "if i  <=<=  len(nums):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T39_LCPN_78-Subsets.py",
+            "Source_Code": "if i >= len(nums):",
+            "Mutate_Code": " "
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T39_LCPN_78-Subsets.py",
+            "Source_Code": "if i >= len(nums):",
+            "Mutate_Code": "elif:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T39_LCPN_78-Subsets.py",
+            "Source_Code": "if i >= len(nums):",
+            "Mutate_Code": "else:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T39_LCPN_78-Subsets.py",
+            "Source_Code": "if i >= len(nums):",
+            "Mutate_Code": "if if"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T39_LCPN_78-Subsets.py",
+            "Source_Code": "if i >= len(nums):",
+            "Mutate_Code": "if i >= len( ):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T39_LCPN_78-Subsets.py",
+            "Source_Code": "if i >= len(nums):",
+            "Mutate_Code": "if i   len(nums):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T39_LCPN_78-Subsets.py",
+            "Source_Code": "if i >= len(nums):",
+            "Mutate_Code": "if i == len(nums):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T39_LCPN_78-Subsets.py",
+            "Source_Code": "if i >= len(nums):",
+            "Mutate_Code": "if i != len(nums):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T39_LCPN_78-Subsets.py",
+            "Source_Code": "if i >= len(nums):",
+            "Mutate_Code": "if i > len(nums):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T39_LCPN_78-Subsets.py",
+            "Source_Code": "if i >= len(nums):",
+            "Mutate_Code": "if i < len(nums):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T39_LCPN_78-Subsets.py",
+            "Source_Code": "if i >= len(nums):",
+            "Mutate_Code": "if i <= len(nums):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T39_LCPN_78-Subsets.py",
+            "Source_Code": "if i >= len(nums):",
+            "Mutate_Code": "if i  ====  len(nums):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T39_LCPN_78-Subsets.py",
+            "Source_Code": "if i >= len(nums):",
+            "Mutate_Code": "if i  !==  len(nums):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T39_LCPN_78-Subsets.py",
+            "Source_Code": "if i >= len(nums):",
+            "Mutate_Code": "if i  >>  len(nums):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T39_LCPN_78-Subsets.py",
+            "Source_Code": "if i >= len(nums):",
+            "Mutate_Code": "if i  <<  len(nums):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T39_LCPN_78-Subsets.py",
+            "Source_Code": "if i >= len(nums):",
+            "Mutate_Code": "if i  >=>=  len(nums):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T39_LCPN_78-Subsets.py",
+            "Source_Code": "if i >= len(nums):",
+            "Mutate_Code": "if i  <=<=  len(nums):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T39_LCPN_78-Subsets.py",
+            "Source_Code": "if i >= len(nums):",
+            "Mutate_Code": " "
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T39_LCPN_78-Subsets.py",
+            "Source_Code": "if i >= len(nums):",
+            "Mutate_Code": "elif:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T39_LCPN_78-Subsets.py",
+            "Source_Code": "if i >= len(nums):",
+            "Mutate_Code": "else:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T39_LCPN_78-Subsets.py",
+            "Source_Code": "if i >= len(nums):",
+            "Mutate_Code": "if if"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T39_LCPN_78-Subsets.py",
+            "Source_Code": "if i >= len(nums):",
+            "Mutate_Code": "if i >= len( ):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T39_LCPN_78-Subsets.py",
+            "Source_Code": "res.append(subset.copy())",
+            "Mutate_Code": "res.append( ))"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T39_LCPN_78-Subsets.py",
+            "Source_Code": "subset.append(nums[i])",
+            "Mutate_Code": "subset.append( )"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T39_LCPN_78-Subsets.py",
+            "Source_Code": "return res",
+            "Mutate_Code": " res"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T39_LCPN_78-Subsets.py",
+            "Source_Code": "return res",
+            "Mutate_Code": "passres"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T39_LCPN_78-Subsets.py",
+            "Source_Code": "return res",
+            "Mutate_Code": "return returnres"
+        }
+    }
+]

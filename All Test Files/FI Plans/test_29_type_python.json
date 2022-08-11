@@ -1,0 +1,3579 @@
+[
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T29_LCPN_54-Spiral-Matrix.py",
+            "Source_Code": "left, right = 0, len(matrix[0])",
+            "Mutate_Code": "left, right 0, len(matrix[0])"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T29_LCPN_54-Spiral-Matrix.py",
+            "Source_Code": "left, right = 0, len(matrix[0])",
+            "Mutate_Code": "left, right 0, len(matrix[0])"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T29_LCPN_54-Spiral-Matrix.py",
+            "Source_Code": "left, right = 0, len(matrix[0])",
+            "Mutate_Code": "left, right += 0, len(matrix[0])"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T29_LCPN_54-Spiral-Matrix.py",
+            "Source_Code": "left, right = 0, len(matrix[0])",
+            "Mutate_Code": "left, right -= 0, len(matrix[0])"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T29_LCPN_54-Spiral-Matrix.py",
+            "Source_Code": "left, right = 0, len(matrix[0])",
+            "Mutate_Code": "left, right *= 0, len(matrix[0])"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T29_LCPN_54-Spiral-Matrix.py",
+            "Source_Code": "left, right = 0, len(matrix[0])",
+            "Mutate_Code": "left, right /= 0, len(matrix[0])"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T29_LCPN_54-Spiral-Matrix.py",
+            "Source_Code": "left, right = 0, len(matrix[0])",
+            "Mutate_Code": "left, right %= 0, len(matrix[0])"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T29_LCPN_54-Spiral-Matrix.py",
+            "Source_Code": "left, right = 0, len(matrix[0])",
+            "Mutate_Code": "left, right //= 0, len(matrix[0])"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T29_LCPN_54-Spiral-Matrix.py",
+            "Source_Code": "left, right = 0, len(matrix[0])",
+            "Mutate_Code": "left, right **= 0, len(matrix[0])"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T29_LCPN_54-Spiral-Matrix.py",
+            "Source_Code": "left, right = 0, len(matrix[0])",
+            "Mutate_Code": "left, right &= 0, len(matrix[0])"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T29_LCPN_54-Spiral-Matrix.py",
+            "Source_Code": "left, right = 0, len(matrix[0])",
+            "Mutate_Code": "left, right |= 0, len(matrix[0])"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T29_LCPN_54-Spiral-Matrix.py",
+            "Source_Code": "left, right = 0, len(matrix[0])",
+            "Mutate_Code": "left, right ^= 0, len(matrix[0])"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T29_LCPN_54-Spiral-Matrix.py",
+            "Source_Code": "left, right = 0, len(matrix[0])",
+            "Mutate_Code": "left, right >>= 0, len(matrix[0])"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T29_LCPN_54-Spiral-Matrix.py",
+            "Source_Code": "left, right = 0, len(matrix[0])",
+            "Mutate_Code": "left, right <<= 0, len(matrix[0])"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T29_LCPN_54-Spiral-Matrix.py",
+            "Source_Code": "left, right = 0, len(matrix[0])",
+            "Mutate_Code": "left, right += 0, len(matrix[0])"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T29_LCPN_54-Spiral-Matrix.py",
+            "Source_Code": "left, right = 0, len(matrix[0])",
+            "Mutate_Code": "left, right -= 0, len(matrix[0])"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T29_LCPN_54-Spiral-Matrix.py",
+            "Source_Code": "left, right = 0, len(matrix[0])",
+            "Mutate_Code": "left, right *= 0, len(matrix[0])"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T29_LCPN_54-Spiral-Matrix.py",
+            "Source_Code": "left, right = 0, len(matrix[0])",
+            "Mutate_Code": "left, right /= 0, len(matrix[0])"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T29_LCPN_54-Spiral-Matrix.py",
+            "Source_Code": "left, right = 0, len(matrix[0])",
+            "Mutate_Code": "left, right %= 0, len(matrix[0])"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T29_LCPN_54-Spiral-Matrix.py",
+            "Source_Code": "left, right = 0, len(matrix[0])",
+            "Mutate_Code": "left, right //= 0, len(matrix[0])"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T29_LCPN_54-Spiral-Matrix.py",
+            "Source_Code": "left, right = 0, len(matrix[0])",
+            "Mutate_Code": "left, right **= 0, len(matrix[0])"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T29_LCPN_54-Spiral-Matrix.py",
+            "Source_Code": "left, right = 0, len(matrix[0])",
+            "Mutate_Code": "left, right &= 0, len(matrix[0])"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T29_LCPN_54-Spiral-Matrix.py",
+            "Source_Code": "left, right = 0, len(matrix[0])",
+            "Mutate_Code": "left, right |= 0, len(matrix[0])"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T29_LCPN_54-Spiral-Matrix.py",
+            "Source_Code": "left, right = 0, len(matrix[0])",
+            "Mutate_Code": "left, right ^= 0, len(matrix[0])"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T29_LCPN_54-Spiral-Matrix.py",
+            "Source_Code": "left, right = 0, len(matrix[0])",
+            "Mutate_Code": "left, right >>= 0, len(matrix[0])"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T29_LCPN_54-Spiral-Matrix.py",
+            "Source_Code": "left, right = 0, len(matrix[0])",
+            "Mutate_Code": "left, right <<= 0, len(matrix[0])"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T29_LCPN_54-Spiral-Matrix.py",
+            "Source_Code": "left, right = 0, len(matrix[0])",
+            "Mutate_Code": "left, right == 0, len(matrix[0])"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T29_LCPN_54-Spiral-Matrix.py",
+            "Source_Code": "left, right = 0, len(matrix[0])",
+            "Mutate_Code": "left, right +=+= 0, len(matrix[0])"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T29_LCPN_54-Spiral-Matrix.py",
+            "Source_Code": "left, right = 0, len(matrix[0])",
+            "Mutate_Code": "left, right -=-= 0, len(matrix[0])"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T29_LCPN_54-Spiral-Matrix.py",
+            "Source_Code": "left, right = 0, len(matrix[0])",
+            "Mutate_Code": "left, right *=*= 0, len(matrix[0])"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T29_LCPN_54-Spiral-Matrix.py",
+            "Source_Code": "left, right = 0, len(matrix[0])",
+            "Mutate_Code": "left, right /=/= 0, len(matrix[0])"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T29_LCPN_54-Spiral-Matrix.py",
+            "Source_Code": "left, right = 0, len(matrix[0])",
+            "Mutate_Code": "left, right %=%= 0, len(matrix[0])"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T29_LCPN_54-Spiral-Matrix.py",
+            "Source_Code": "left, right = 0, len(matrix[0])",
+            "Mutate_Code": "left, right //=//= 0, len(matrix[0])"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T29_LCPN_54-Spiral-Matrix.py",
+            "Source_Code": "left, right = 0, len(matrix[0])",
+            "Mutate_Code": "left, right **=**= 0, len(matrix[0])"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T29_LCPN_54-Spiral-Matrix.py",
+            "Source_Code": "left, right = 0, len(matrix[0])",
+            "Mutate_Code": "left, right &=&= 0, len(matrix[0])"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T29_LCPN_54-Spiral-Matrix.py",
+            "Source_Code": "left, right = 0, len(matrix[0])",
+            "Mutate_Code": "left, right |=|= 0, len(matrix[0])"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T29_LCPN_54-Spiral-Matrix.py",
+            "Source_Code": "left, right = 0, len(matrix[0])",
+            "Mutate_Code": "left, right ^=^= 0, len(matrix[0])"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T29_LCPN_54-Spiral-Matrix.py",
+            "Source_Code": "left, right = 0, len(matrix[0])",
+            "Mutate_Code": "left, right >>=>>= 0, len(matrix[0])"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T29_LCPN_54-Spiral-Matrix.py",
+            "Source_Code": "left, right = 0, len(matrix[0])",
+            "Mutate_Code": "left, right <<=<<=0, len(matrix[0])"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T29_LCPN_54-Spiral-Matrix.py",
+            "Source_Code": "left, right = 0, len(matrix[0])",
+            "Mutate_Code": "left, right == 0, len(matrix[0])"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T29_LCPN_54-Spiral-Matrix.py",
+            "Source_Code": "left, right = 0, len(matrix[0])",
+            "Mutate_Code": "left, right +=+= 0, len(matrix[0])"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T29_LCPN_54-Spiral-Matrix.py",
+            "Source_Code": "left, right = 0, len(matrix[0])",
+            "Mutate_Code": "left, right -=-= 0, len(matrix[0])"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T29_LCPN_54-Spiral-Matrix.py",
+            "Source_Code": "left, right = 0, len(matrix[0])",
+            "Mutate_Code": "left, right *=*= 0, len(matrix[0])"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T29_LCPN_54-Spiral-Matrix.py",
+            "Source_Code": "left, right = 0, len(matrix[0])",
+            "Mutate_Code": "left, right /=/= 0, len(matrix[0])"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T29_LCPN_54-Spiral-Matrix.py",
+            "Source_Code": "left, right = 0, len(matrix[0])",
+            "Mutate_Code": "left, right %=%= 0, len(matrix[0])"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T29_LCPN_54-Spiral-Matrix.py",
+            "Source_Code": "left, right = 0, len(matrix[0])",
+            "Mutate_Code": "left, right //=//= 0, len(matrix[0])"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T29_LCPN_54-Spiral-Matrix.py",
+            "Source_Code": "left, right = 0, len(matrix[0])",
+            "Mutate_Code": "left, right **=**= 0, len(matrix[0])"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T29_LCPN_54-Spiral-Matrix.py",
+            "Source_Code": "left, right = 0, len(matrix[0])",
+            "Mutate_Code": "left, right &=&= 0, len(matrix[0])"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T29_LCPN_54-Spiral-Matrix.py",
+            "Source_Code": "left, right = 0, len(matrix[0])",
+            "Mutate_Code": "left, right |=|= 0, len(matrix[0])"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T29_LCPN_54-Spiral-Matrix.py",
+            "Source_Code": "left, right = 0, len(matrix[0])",
+            "Mutate_Code": "left, right ^=^= 0, len(matrix[0])"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T29_LCPN_54-Spiral-Matrix.py",
+            "Source_Code": "left, right = 0, len(matrix[0])",
+            "Mutate_Code": "left, right >>=>>= 0, len(matrix[0])"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T29_LCPN_54-Spiral-Matrix.py",
+            "Source_Code": "left, right = 0, len(matrix[0])",
+            "Mutate_Code": "left, right <<=<<=0, len(matrix[0])"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T29_LCPN_54-Spiral-Matrix.py",
+            "Source_Code": "left, right = 0, len(matrix[0])",
+            "Mutate_Code": "left, right = 0, len( )"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T29_LCPN_54-Spiral-Matrix.py",
+            "Source_Code": "top, bottom = 0, len(matrix)",
+            "Mutate_Code": "top, bottom 0, len(matrix)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T29_LCPN_54-Spiral-Matrix.py",
+            "Source_Code": "top, bottom = 0, len(matrix)",
+            "Mutate_Code": "top, bottom 0, len(matrix)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T29_LCPN_54-Spiral-Matrix.py",
+            "Source_Code": "top, bottom = 0, len(matrix)",
+            "Mutate_Code": "top, bottom += 0, len(matrix)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T29_LCPN_54-Spiral-Matrix.py",
+            "Source_Code": "top, bottom = 0, len(matrix)",
+            "Mutate_Code": "top, bottom -= 0, len(matrix)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T29_LCPN_54-Spiral-Matrix.py",
+            "Source_Code": "top, bottom = 0, len(matrix)",
+            "Mutate_Code": "top, bottom *= 0, len(matrix)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T29_LCPN_54-Spiral-Matrix.py",
+            "Source_Code": "top, bottom = 0, len(matrix)",
+            "Mutate_Code": "top, bottom /= 0, len(matrix)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T29_LCPN_54-Spiral-Matrix.py",
+            "Source_Code": "top, bottom = 0, len(matrix)",
+            "Mutate_Code": "top, bottom %= 0, len(matrix)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T29_LCPN_54-Spiral-Matrix.py",
+            "Source_Code": "top, bottom = 0, len(matrix)",
+            "Mutate_Code": "top, bottom //= 0, len(matrix)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T29_LCPN_54-Spiral-Matrix.py",
+            "Source_Code": "top, bottom = 0, len(matrix)",
+            "Mutate_Code": "top, bottom **= 0, len(matrix)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T29_LCPN_54-Spiral-Matrix.py",
+            "Source_Code": "top, bottom = 0, len(matrix)",
+            "Mutate_Code": "top, bottom &= 0, len(matrix)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T29_LCPN_54-Spiral-Matrix.py",
+            "Source_Code": "top, bottom = 0, len(matrix)",
+            "Mutate_Code": "top, bottom |= 0, len(matrix)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T29_LCPN_54-Spiral-Matrix.py",
+            "Source_Code": "top, bottom = 0, len(matrix)",
+            "Mutate_Code": "top, bottom ^= 0, len(matrix)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T29_LCPN_54-Spiral-Matrix.py",
+            "Source_Code": "top, bottom = 0, len(matrix)",
+            "Mutate_Code": "top, bottom >>= 0, len(matrix)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T29_LCPN_54-Spiral-Matrix.py",
+            "Source_Code": "top, bottom = 0, len(matrix)",
+            "Mutate_Code": "top, bottom <<= 0, len(matrix)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T29_LCPN_54-Spiral-Matrix.py",
+            "Source_Code": "top, bottom = 0, len(matrix)",
+            "Mutate_Code": "top, bottom += 0, len(matrix)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T29_LCPN_54-Spiral-Matrix.py",
+            "Source_Code": "top, bottom = 0, len(matrix)",
+            "Mutate_Code": "top, bottom -= 0, len(matrix)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T29_LCPN_54-Spiral-Matrix.py",
+            "Source_Code": "top, bottom = 0, len(matrix)",
+            "Mutate_Code": "top, bottom *= 0, len(matrix)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T29_LCPN_54-Spiral-Matrix.py",
+            "Source_Code": "top, bottom = 0, len(matrix)",
+            "Mutate_Code": "top, bottom /= 0, len(matrix)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T29_LCPN_54-Spiral-Matrix.py",
+            "Source_Code": "top, bottom = 0, len(matrix)",
+            "Mutate_Code": "top, bottom %= 0, len(matrix)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T29_LCPN_54-Spiral-Matrix.py",
+            "Source_Code": "top, bottom = 0, len(matrix)",
+            "Mutate_Code": "top, bottom //= 0, len(matrix)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T29_LCPN_54-Spiral-Matrix.py",
+            "Source_Code": "top, bottom = 0, len(matrix)",
+            "Mutate_Code": "top, bottom **= 0, len(matrix)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T29_LCPN_54-Spiral-Matrix.py",
+            "Source_Code": "top, bottom = 0, len(matrix)",
+            "Mutate_Code": "top, bottom &= 0, len(matrix)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T29_LCPN_54-Spiral-Matrix.py",
+            "Source_Code": "top, bottom = 0, len(matrix)",
+            "Mutate_Code": "top, bottom |= 0, len(matrix)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T29_LCPN_54-Spiral-Matrix.py",
+            "Source_Code": "top, bottom = 0, len(matrix)",
+            "Mutate_Code": "top, bottom ^= 0, len(matrix)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T29_LCPN_54-Spiral-Matrix.py",
+            "Source_Code": "top, bottom = 0, len(matrix)",
+            "Mutate_Code": "top, bottom >>= 0, len(matrix)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T29_LCPN_54-Spiral-Matrix.py",
+            "Source_Code": "top, bottom = 0, len(matrix)",
+            "Mutate_Code": "top, bottom <<= 0, len(matrix)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T29_LCPN_54-Spiral-Matrix.py",
+            "Source_Code": "top, bottom = 0, len(matrix)",
+            "Mutate_Code": "top, bottom == 0, len(matrix)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T29_LCPN_54-Spiral-Matrix.py",
+            "Source_Code": "top, bottom = 0, len(matrix)",
+            "Mutate_Code": "top, bottom +=+= 0, len(matrix)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T29_LCPN_54-Spiral-Matrix.py",
+            "Source_Code": "top, bottom = 0, len(matrix)",
+            "Mutate_Code": "top, bottom -=-= 0, len(matrix)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T29_LCPN_54-Spiral-Matrix.py",
+            "Source_Code": "top, bottom = 0, len(matrix)",
+            "Mutate_Code": "top, bottom *=*= 0, len(matrix)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T29_LCPN_54-Spiral-Matrix.py",
+            "Source_Code": "top, bottom = 0, len(matrix)",
+            "Mutate_Code": "top, bottom /=/= 0, len(matrix)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T29_LCPN_54-Spiral-Matrix.py",
+            "Source_Code": "top, bottom = 0, len(matrix)",
+            "Mutate_Code": "top, bottom %=%= 0, len(matrix)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T29_LCPN_54-Spiral-Matrix.py",
+            "Source_Code": "top, bottom = 0, len(matrix)",
+            "Mutate_Code": "top, bottom //=//= 0, len(matrix)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T29_LCPN_54-Spiral-Matrix.py",
+            "Source_Code": "top, bottom = 0, len(matrix)",
+            "Mutate_Code": "top, bottom **=**= 0, len(matrix)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T29_LCPN_54-Spiral-Matrix.py",
+            "Source_Code": "top, bottom = 0, len(matrix)",
+            "Mutate_Code": "top, bottom &=&= 0, len(matrix)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T29_LCPN_54-Spiral-Matrix.py",
+            "Source_Code": "top, bottom = 0, len(matrix)",
+            "Mutate_Code": "top, bottom |=|= 0, len(matrix)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T29_LCPN_54-Spiral-Matrix.py",
+            "Source_Code": "top, bottom = 0, len(matrix)",
+            "Mutate_Code": "top, bottom ^=^= 0, len(matrix)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T29_LCPN_54-Spiral-Matrix.py",
+            "Source_Code": "top, bottom = 0, len(matrix)",
+            "Mutate_Code": "top, bottom >>=>>= 0, len(matrix)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T29_LCPN_54-Spiral-Matrix.py",
+            "Source_Code": "top, bottom = 0, len(matrix)",
+            "Mutate_Code": "top, bottom <<=<<=0, len(matrix)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T29_LCPN_54-Spiral-Matrix.py",
+            "Source_Code": "top, bottom = 0, len(matrix)",
+            "Mutate_Code": "top, bottom == 0, len(matrix)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T29_LCPN_54-Spiral-Matrix.py",
+            "Source_Code": "top, bottom = 0, len(matrix)",
+            "Mutate_Code": "top, bottom +=+= 0, len(matrix)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T29_LCPN_54-Spiral-Matrix.py",
+            "Source_Code": "top, bottom = 0, len(matrix)",
+            "Mutate_Code": "top, bottom -=-= 0, len(matrix)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T29_LCPN_54-Spiral-Matrix.py",
+            "Source_Code": "top, bottom = 0, len(matrix)",
+            "Mutate_Code": "top, bottom *=*= 0, len(matrix)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T29_LCPN_54-Spiral-Matrix.py",
+            "Source_Code": "top, bottom = 0, len(matrix)",
+            "Mutate_Code": "top, bottom /=/= 0, len(matrix)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T29_LCPN_54-Spiral-Matrix.py",
+            "Source_Code": "top, bottom = 0, len(matrix)",
+            "Mutate_Code": "top, bottom %=%= 0, len(matrix)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T29_LCPN_54-Spiral-Matrix.py",
+            "Source_Code": "top, bottom = 0, len(matrix)",
+            "Mutate_Code": "top, bottom //=//= 0, len(matrix)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T29_LCPN_54-Spiral-Matrix.py",
+            "Source_Code": "top, bottom = 0, len(matrix)",
+            "Mutate_Code": "top, bottom **=**= 0, len(matrix)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T29_LCPN_54-Spiral-Matrix.py",
+            "Source_Code": "top, bottom = 0, len(matrix)",
+            "Mutate_Code": "top, bottom &=&= 0, len(matrix)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T29_LCPN_54-Spiral-Matrix.py",
+            "Source_Code": "top, bottom = 0, len(matrix)",
+            "Mutate_Code": "top, bottom |=|= 0, len(matrix)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T29_LCPN_54-Spiral-Matrix.py",
+            "Source_Code": "top, bottom = 0, len(matrix)",
+            "Mutate_Code": "top, bottom ^=^= 0, len(matrix)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T29_LCPN_54-Spiral-Matrix.py",
+            "Source_Code": "top, bottom = 0, len(matrix)",
+            "Mutate_Code": "top, bottom >>=>>= 0, len(matrix)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T29_LCPN_54-Spiral-Matrix.py",
+            "Source_Code": "top, bottom = 0, len(matrix)",
+            "Mutate_Code": "top, bottom <<=<<=0, len(matrix)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T29_LCPN_54-Spiral-Matrix.py",
+            "Source_Code": "top, bottom = 0, len(matrix)",
+            "Mutate_Code": "top, bottom = 0, len( )"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T29_LCPN_54-Spiral-Matrix.py",
+            "Source_Code": "while left < right and top < bottom:",
+            "Mutate_Code": "while left   right and top < bottom:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T29_LCPN_54-Spiral-Matrix.py",
+            "Source_Code": "while left < right and top < bottom:",
+            "Mutate_Code": "while left < right and top   bottom:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T29_LCPN_54-Spiral-Matrix.py",
+            "Source_Code": "while left < right and top < bottom:",
+            "Mutate_Code": "while left == right and top < bottom:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T29_LCPN_54-Spiral-Matrix.py",
+            "Source_Code": "while left < right and top < bottom:",
+            "Mutate_Code": "while left != right and top < bottom:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T29_LCPN_54-Spiral-Matrix.py",
+            "Source_Code": "while left < right and top < bottom:",
+            "Mutate_Code": "while left > right and top < bottom:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T29_LCPN_54-Spiral-Matrix.py",
+            "Source_Code": "while left < right and top < bottom:",
+            "Mutate_Code": "while left >= right and top < bottom:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T29_LCPN_54-Spiral-Matrix.py",
+            "Source_Code": "while left < right and top < bottom:",
+            "Mutate_Code": "while left <= right and top < bottom:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T29_LCPN_54-Spiral-Matrix.py",
+            "Source_Code": "while left < right and top < bottom:",
+            "Mutate_Code": "while left < right and top == bottom:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T29_LCPN_54-Spiral-Matrix.py",
+            "Source_Code": "while left < right and top < bottom:",
+            "Mutate_Code": "while left < right and top != bottom:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T29_LCPN_54-Spiral-Matrix.py",
+            "Source_Code": "while left < right and top < bottom:",
+            "Mutate_Code": "while left < right and top > bottom:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T29_LCPN_54-Spiral-Matrix.py",
+            "Source_Code": "while left < right and top < bottom:",
+            "Mutate_Code": "while left < right and top >= bottom:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T29_LCPN_54-Spiral-Matrix.py",
+            "Source_Code": "while left < right and top < bottom:",
+            "Mutate_Code": "while left < right and top <= bottom:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T29_LCPN_54-Spiral-Matrix.py",
+            "Source_Code": "while left < right and top < bottom:",
+            "Mutate_Code": "while left  ====  right and top < bottom:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T29_LCPN_54-Spiral-Matrix.py",
+            "Source_Code": "while left < right and top < bottom:",
+            "Mutate_Code": "while left  !==  right and top < bottom:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T29_LCPN_54-Spiral-Matrix.py",
+            "Source_Code": "while left < right and top < bottom:",
+            "Mutate_Code": "while left  >>  right and top < bottom:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T29_LCPN_54-Spiral-Matrix.py",
+            "Source_Code": "while left < right and top < bottom:",
+            "Mutate_Code": "while left  <<  right and top < bottom:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T29_LCPN_54-Spiral-Matrix.py",
+            "Source_Code": "while left < right and top < bottom:",
+            "Mutate_Code": "while left  >=>=  right and top < bottom:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T29_LCPN_54-Spiral-Matrix.py",
+            "Source_Code": "while left < right and top < bottom:",
+            "Mutate_Code": "while left  <=<=  right and top < bottom:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T29_LCPN_54-Spiral-Matrix.py",
+            "Source_Code": "while left < right and top < bottom:",
+            "Mutate_Code": "while left < right and top  ====  bottom:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T29_LCPN_54-Spiral-Matrix.py",
+            "Source_Code": "while left < right and top < bottom:",
+            "Mutate_Code": "while left < right and top  !==  bottom:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T29_LCPN_54-Spiral-Matrix.py",
+            "Source_Code": "while left < right and top < bottom:",
+            "Mutate_Code": "while left < right and top  >>  bottom:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T29_LCPN_54-Spiral-Matrix.py",
+            "Source_Code": "while left < right and top < bottom:",
+            "Mutate_Code": "while left < right and top  <<  bottom:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T29_LCPN_54-Spiral-Matrix.py",
+            "Source_Code": "while left < right and top < bottom:",
+            "Mutate_Code": "while left < right and top  >=>=  bottom:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T29_LCPN_54-Spiral-Matrix.py",
+            "Source_Code": "while left < right and top < bottom:",
+            "Mutate_Code": "while left < right and top  <=<=  bottom:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T29_LCPN_54-Spiral-Matrix.py",
+            "Source_Code": "while left < right and top < bottom:",
+            "Mutate_Code": "while left < right top < bottom:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T29_LCPN_54-Spiral-Matrix.py",
+            "Source_Code": "while left < right and top < bottom:",
+            "Mutate_Code": "while left < right or top < bottom:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T29_LCPN_54-Spiral-Matrix.py",
+            "Source_Code": "while left < right and top < bottom:",
+            "Mutate_Code": "while left < right not top < bottom:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T29_LCPN_54-Spiral-Matrix.py",
+            "Source_Code": "while left < right and top < bottom:",
+            "Mutate_Code": "while left < right and and top < bottom:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T29_LCPN_54-Spiral-Matrix.py",
+            "Source_Code": "while left < right and top < bottom:",
+            "Mutate_Code": "while left < right or or top < bottom:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T29_LCPN_54-Spiral-Matrix.py",
+            "Source_Code": "while left < right and top < bottom:",
+            "Mutate_Code": "while left < right not not top < bottom:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T29_LCPN_54-Spiral-Matrix.py",
+            "Source_Code": "while left < right and top < bottom:",
+            "Mutate_Code": " "
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T29_LCPN_54-Spiral-Matrix.py",
+            "Source_Code": "while left < right and top < bottom:",
+            "Mutate_Code": "for "
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T29_LCPN_54-Spiral-Matrix.py",
+            "Source_Code": "while left < right and top < bottom:",
+            "Mutate_Code": "while while:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T29_LCPN_54-Spiral-Matrix.py",
+            "Source_Code": "while left < right and top < bottom:",
+            "Mutate_Code": "while left   right and top < bottom:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T29_LCPN_54-Spiral-Matrix.py",
+            "Source_Code": "while left < right and top < bottom:",
+            "Mutate_Code": "while left < right and top   bottom:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T29_LCPN_54-Spiral-Matrix.py",
+            "Source_Code": "while left < right and top < bottom:",
+            "Mutate_Code": "while left == right and top < bottom:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T29_LCPN_54-Spiral-Matrix.py",
+            "Source_Code": "while left < right and top < bottom:",
+            "Mutate_Code": "while left != right and top < bottom:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T29_LCPN_54-Spiral-Matrix.py",
+            "Source_Code": "while left < right and top < bottom:",
+            "Mutate_Code": "while left > right and top < bottom:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T29_LCPN_54-Spiral-Matrix.py",
+            "Source_Code": "while left < right and top < bottom:",
+            "Mutate_Code": "while left >= right and top < bottom:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T29_LCPN_54-Spiral-Matrix.py",
+            "Source_Code": "while left < right and top < bottom:",
+            "Mutate_Code": "while left <= right and top < bottom:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T29_LCPN_54-Spiral-Matrix.py",
+            "Source_Code": "while left < right and top < bottom:",
+            "Mutate_Code": "while left < right and top == bottom:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T29_LCPN_54-Spiral-Matrix.py",
+            "Source_Code": "while left < right and top < bottom:",
+            "Mutate_Code": "while left < right and top != bottom:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T29_LCPN_54-Spiral-Matrix.py",
+            "Source_Code": "while left < right and top < bottom:",
+            "Mutate_Code": "while left < right and top > bottom:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T29_LCPN_54-Spiral-Matrix.py",
+            "Source_Code": "while left < right and top < bottom:",
+            "Mutate_Code": "while left < right and top >= bottom:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T29_LCPN_54-Spiral-Matrix.py",
+            "Source_Code": "while left < right and top < bottom:",
+            "Mutate_Code": "while left < right and top <= bottom:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T29_LCPN_54-Spiral-Matrix.py",
+            "Source_Code": "while left < right and top < bottom:",
+            "Mutate_Code": "while left  ====  right and top < bottom:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T29_LCPN_54-Spiral-Matrix.py",
+            "Source_Code": "while left < right and top < bottom:",
+            "Mutate_Code": "while left  !==  right and top < bottom:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T29_LCPN_54-Spiral-Matrix.py",
+            "Source_Code": "while left < right and top < bottom:",
+            "Mutate_Code": "while left  >>  right and top < bottom:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T29_LCPN_54-Spiral-Matrix.py",
+            "Source_Code": "while left < right and top < bottom:",
+            "Mutate_Code": "while left  <<  right and top < bottom:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T29_LCPN_54-Spiral-Matrix.py",
+            "Source_Code": "while left < right and top < bottom:",
+            "Mutate_Code": "while left  >=>=  right and top < bottom:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T29_LCPN_54-Spiral-Matrix.py",
+            "Source_Code": "while left < right and top < bottom:",
+            "Mutate_Code": "while left  <=<=  right and top < bottom:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T29_LCPN_54-Spiral-Matrix.py",
+            "Source_Code": "while left < right and top < bottom:",
+            "Mutate_Code": "while left < right and top  ====  bottom:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T29_LCPN_54-Spiral-Matrix.py",
+            "Source_Code": "while left < right and top < bottom:",
+            "Mutate_Code": "while left < right and top  !==  bottom:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T29_LCPN_54-Spiral-Matrix.py",
+            "Source_Code": "while left < right and top < bottom:",
+            "Mutate_Code": "while left < right and top  >>  bottom:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T29_LCPN_54-Spiral-Matrix.py",
+            "Source_Code": "while left < right and top < bottom:",
+            "Mutate_Code": "while left < right and top  <<  bottom:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T29_LCPN_54-Spiral-Matrix.py",
+            "Source_Code": "while left < right and top < bottom:",
+            "Mutate_Code": "while left < right and top  >=>=  bottom:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T29_LCPN_54-Spiral-Matrix.py",
+            "Source_Code": "while left < right and top < bottom:",
+            "Mutate_Code": "while left < right and top  <=<=  bottom:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T29_LCPN_54-Spiral-Matrix.py",
+            "Source_Code": "while left < right and top < bottom:",
+            "Mutate_Code": "while left < right top < bottom:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T29_LCPN_54-Spiral-Matrix.py",
+            "Source_Code": "while left < right and top < bottom:",
+            "Mutate_Code": "while left < right or top < bottom:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T29_LCPN_54-Spiral-Matrix.py",
+            "Source_Code": "while left < right and top < bottom:",
+            "Mutate_Code": "while left < right not top < bottom:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T29_LCPN_54-Spiral-Matrix.py",
+            "Source_Code": "while left < right and top < bottom:",
+            "Mutate_Code": "while left < right and and top < bottom:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T29_LCPN_54-Spiral-Matrix.py",
+            "Source_Code": "while left < right and top < bottom:",
+            "Mutate_Code": "while left < right or or top < bottom:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T29_LCPN_54-Spiral-Matrix.py",
+            "Source_Code": "while left < right and top < bottom:",
+            "Mutate_Code": "while left < right not not top < bottom:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T29_LCPN_54-Spiral-Matrix.py",
+            "Source_Code": "while left < right and top < bottom:",
+            "Mutate_Code": " "
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T29_LCPN_54-Spiral-Matrix.py",
+            "Source_Code": "while left < right and top < bottom:",
+            "Mutate_Code": "for "
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T29_LCPN_54-Spiral-Matrix.py",
+            "Source_Code": "while left < right and top < bottom:",
+            "Mutate_Code": "while while:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T29_LCPN_54-Spiral-Matrix.py",
+            "Source_Code": "for i in range(left, right):",
+            "Mutate_Code": "for i range(left, right):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T29_LCPN_54-Spiral-Matrix.py",
+            "Source_Code": "for i in range(left, right):",
+            "Mutate_Code": "for i is range(left, right):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T29_LCPN_54-Spiral-Matrix.py",
+            "Source_Code": "for i in range(left, right):",
+            "Mutate_Code": "for i is not range(left, right):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T29_LCPN_54-Spiral-Matrix.py",
+            "Source_Code": "for i in range(left, right):",
+            "Mutate_Code": "for i in in range(left, right):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T29_LCPN_54-Spiral-Matrix.py",
+            "Source_Code": "for i in range(left, right):",
+            "Mutate_Code": "for i not in not in range(left, right):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T29_LCPN_54-Spiral-Matrix.py",
+            "Source_Code": "for i in range(left, right):",
+            "Mutate_Code": " "
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T29_LCPN_54-Spiral-Matrix.py",
+            "Source_Code": "for i in range(left, right):",
+            "Mutate_Code": "while True:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T29_LCPN_54-Spiral-Matrix.py",
+            "Source_Code": "for i in range(left, right):",
+            "Mutate_Code": "for for: i in range(left, right):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T29_LCPN_54-Spiral-Matrix.py",
+            "Source_Code": "for i in range(left, right):",
+            "Mutate_Code": "for i in range( ):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T29_LCPN_54-Spiral-Matrix.py",
+            "Source_Code": "for i in range(left, right):",
+            "Mutate_Code": "for i range(left, right):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T29_LCPN_54-Spiral-Matrix.py",
+            "Source_Code": "for i in range(left, right):",
+            "Mutate_Code": "for i is range(left, right):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T29_LCPN_54-Spiral-Matrix.py",
+            "Source_Code": "for i in range(left, right):",
+            "Mutate_Code": "for i is not range(left, right):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T29_LCPN_54-Spiral-Matrix.py",
+            "Source_Code": "for i in range(left, right):",
+            "Mutate_Code": "for i in in range(left, right):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T29_LCPN_54-Spiral-Matrix.py",
+            "Source_Code": "for i in range(left, right):",
+            "Mutate_Code": "for i not in not in range(left, right):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T29_LCPN_54-Spiral-Matrix.py",
+            "Source_Code": "for i in range(left, right):",
+            "Mutate_Code": " "
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T29_LCPN_54-Spiral-Matrix.py",
+            "Source_Code": "for i in range(left, right):",
+            "Mutate_Code": "while True:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T29_LCPN_54-Spiral-Matrix.py",
+            "Source_Code": "for i in range(left, right):",
+            "Mutate_Code": "for for: i in range(left, right):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T29_LCPN_54-Spiral-Matrix.py",
+            "Source_Code": "for i in range(left, right):",
+            "Mutate_Code": "for i in range( ):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T29_LCPN_54-Spiral-Matrix.py",
+            "Source_Code": "res.append(matrix[top][i])",
+            "Mutate_Code": "res.append( )"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T29_LCPN_54-Spiral-Matrix.py",
+            "Source_Code": "for i in range(top, bottom):",
+            "Mutate_Code": "for i range(top, bottom):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T29_LCPN_54-Spiral-Matrix.py",
+            "Source_Code": "for i in range(top, bottom):",
+            "Mutate_Code": "for i is range(top, bottom):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T29_LCPN_54-Spiral-Matrix.py",
+            "Source_Code": "for i in range(top, bottom):",
+            "Mutate_Code": "for i is not range(top, bottom):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T29_LCPN_54-Spiral-Matrix.py",
+            "Source_Code": "for i in range(top, bottom):",
+            "Mutate_Code": "for i in in range(top, bottom):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T29_LCPN_54-Spiral-Matrix.py",
+            "Source_Code": "for i in range(top, bottom):",
+            "Mutate_Code": "for i not in not in range(top, bottom):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T29_LCPN_54-Spiral-Matrix.py",
+            "Source_Code": "for i in range(top, bottom):",
+            "Mutate_Code": " "
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T29_LCPN_54-Spiral-Matrix.py",
+            "Source_Code": "for i in range(top, bottom):",
+            "Mutate_Code": "while True:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T29_LCPN_54-Spiral-Matrix.py",
+            "Source_Code": "for i in range(top, bottom):",
+            "Mutate_Code": "for for: i in range(top, bottom):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T29_LCPN_54-Spiral-Matrix.py",
+            "Source_Code": "for i in range(top, bottom):",
+            "Mutate_Code": "for i in range( ):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T29_LCPN_54-Spiral-Matrix.py",
+            "Source_Code": "for i in range(top, bottom):",
+            "Mutate_Code": "for i range(top, bottom):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T29_LCPN_54-Spiral-Matrix.py",
+            "Source_Code": "for i in range(top, bottom):",
+            "Mutate_Code": "for i is range(top, bottom):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T29_LCPN_54-Spiral-Matrix.py",
+            "Source_Code": "for i in range(top, bottom):",
+            "Mutate_Code": "for i is not range(top, bottom):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T29_LCPN_54-Spiral-Matrix.py",
+            "Source_Code": "for i in range(top, bottom):",
+            "Mutate_Code": "for i in in range(top, bottom):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T29_LCPN_54-Spiral-Matrix.py",
+            "Source_Code": "for i in range(top, bottom):",
+            "Mutate_Code": "for i not in not in range(top, bottom):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T29_LCPN_54-Spiral-Matrix.py",
+            "Source_Code": "for i in range(top, bottom):",
+            "Mutate_Code": " "
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T29_LCPN_54-Spiral-Matrix.py",
+            "Source_Code": "for i in range(top, bottom):",
+            "Mutate_Code": "while True:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T29_LCPN_54-Spiral-Matrix.py",
+            "Source_Code": "for i in range(top, bottom):",
+            "Mutate_Code": "for for: i in range(top, bottom):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T29_LCPN_54-Spiral-Matrix.py",
+            "Source_Code": "for i in range(top, bottom):",
+            "Mutate_Code": "for i in range( ):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T29_LCPN_54-Spiral-Matrix.py",
+            "Source_Code": "res.append(matrix[i][right - 1])",
+            "Mutate_Code": "res.append(matrix[i][right 1])"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T29_LCPN_54-Spiral-Matrix.py",
+            "Source_Code": "res.append(matrix[i][right - 1])",
+            "Mutate_Code": "res.append(matrix[i][right + 1])"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T29_LCPN_54-Spiral-Matrix.py",
+            "Source_Code": "res.append(matrix[i][right - 1])",
+            "Mutate_Code": "res.append(matrix[i][right * 1])"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T29_LCPN_54-Spiral-Matrix.py",
+            "Source_Code": "res.append(matrix[i][right - 1])",
+            "Mutate_Code": "res.append(matrix[i][right / 1])"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T29_LCPN_54-Spiral-Matrix.py",
+            "Source_Code": "res.append(matrix[i][right - 1])",
+            "Mutate_Code": "res.append(matrix[i][right % 1])"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T29_LCPN_54-Spiral-Matrix.py",
+            "Source_Code": "res.append(matrix[i][right - 1])",
+            "Mutate_Code": "res.append(matrix[i][right ** 1])"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T29_LCPN_54-Spiral-Matrix.py",
+            "Source_Code": "res.append(matrix[i][right - 1])",
+            "Mutate_Code": "res.append(matrix[i][right // 1])"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T29_LCPN_54-Spiral-Matrix.py",
+            "Source_Code": "res.append(matrix[i][right - 1])",
+            "Mutate_Code": "res.append(matrix[i][right ++ 1])"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T29_LCPN_54-Spiral-Matrix.py",
+            "Source_Code": "res.append(matrix[i][right - 1])",
+            "Mutate_Code": "res.append(matrix[i][right -- 1])"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T29_LCPN_54-Spiral-Matrix.py",
+            "Source_Code": "res.append(matrix[i][right - 1])",
+            "Mutate_Code": "res.append(matrix[i][right ** 1])"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T29_LCPN_54-Spiral-Matrix.py",
+            "Source_Code": "res.append(matrix[i][right - 1])",
+            "Mutate_Code": "res.append(matrix[i][right // 1])"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T29_LCPN_54-Spiral-Matrix.py",
+            "Source_Code": "res.append(matrix[i][right - 1])",
+            "Mutate_Code": "res.append(matrix[i][right %% 1])"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T29_LCPN_54-Spiral-Matrix.py",
+            "Source_Code": "res.append(matrix[i][right - 1])",
+            "Mutate_Code": "res.append(matrix[i][right **** 1])"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T29_LCPN_54-Spiral-Matrix.py",
+            "Source_Code": "res.append(matrix[i][right - 1])",
+            "Mutate_Code": "res.append(matrix[i][right //// 1])"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T29_LCPN_54-Spiral-Matrix.py",
+            "Source_Code": "res.append(matrix[i][right - 1])",
+            "Mutate_Code": "res.append( )"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T29_LCPN_54-Spiral-Matrix.py",
+            "Source_Code": "if not (left < right and top < bottom):",
+            "Mutate_Code": "if not (left   right and top < bottom):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T29_LCPN_54-Spiral-Matrix.py",
+            "Source_Code": "if not (left < right and top < bottom):",
+            "Mutate_Code": "if not (left < right and top   bottom):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T29_LCPN_54-Spiral-Matrix.py",
+            "Source_Code": "if not (left < right and top < bottom):",
+            "Mutate_Code": "if not (left == right and top < bottom):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T29_LCPN_54-Spiral-Matrix.py",
+            "Source_Code": "if not (left < right and top < bottom):",
+            "Mutate_Code": "if not (left != right and top < bottom):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T29_LCPN_54-Spiral-Matrix.py",
+            "Source_Code": "if not (left < right and top < bottom):",
+            "Mutate_Code": "if not (left > right and top < bottom):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T29_LCPN_54-Spiral-Matrix.py",
+            "Source_Code": "if not (left < right and top < bottom):",
+            "Mutate_Code": "if not (left >= right and top < bottom):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T29_LCPN_54-Spiral-Matrix.py",
+            "Source_Code": "if not (left < right and top < bottom):",
+            "Mutate_Code": "if not (left <= right and top < bottom):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T29_LCPN_54-Spiral-Matrix.py",
+            "Source_Code": "if not (left < right and top < bottom):",
+            "Mutate_Code": "if not (left < right and top == bottom):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T29_LCPN_54-Spiral-Matrix.py",
+            "Source_Code": "if not (left < right and top < bottom):",
+            "Mutate_Code": "if not (left < right and top != bottom):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T29_LCPN_54-Spiral-Matrix.py",
+            "Source_Code": "if not (left < right and top < bottom):",
+            "Mutate_Code": "if not (left < right and top > bottom):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T29_LCPN_54-Spiral-Matrix.py",
+            "Source_Code": "if not (left < right and top < bottom):",
+            "Mutate_Code": "if not (left < right and top >= bottom):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T29_LCPN_54-Spiral-Matrix.py",
+            "Source_Code": "if not (left < right and top < bottom):",
+            "Mutate_Code": "if not (left < right and top <= bottom):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T29_LCPN_54-Spiral-Matrix.py",
+            "Source_Code": "if not (left < right and top < bottom):",
+            "Mutate_Code": "if not (left  ====  right and top < bottom):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T29_LCPN_54-Spiral-Matrix.py",
+            "Source_Code": "if not (left < right and top < bottom):",
+            "Mutate_Code": "if not (left  !==  right and top < bottom):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T29_LCPN_54-Spiral-Matrix.py",
+            "Source_Code": "if not (left < right and top < bottom):",
+            "Mutate_Code": "if not (left  >>  right and top < bottom):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T29_LCPN_54-Spiral-Matrix.py",
+            "Source_Code": "if not (left < right and top < bottom):",
+            "Mutate_Code": "if not (left  <<  right and top < bottom):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T29_LCPN_54-Spiral-Matrix.py",
+            "Source_Code": "if not (left < right and top < bottom):",
+            "Mutate_Code": "if not (left  >=>=  right and top < bottom):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T29_LCPN_54-Spiral-Matrix.py",
+            "Source_Code": "if not (left < right and top < bottom):",
+            "Mutate_Code": "if not (left  <=<=  right and top < bottom):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T29_LCPN_54-Spiral-Matrix.py",
+            "Source_Code": "if not (left < right and top < bottom):",
+            "Mutate_Code": "if not (left < right and top  ====  bottom):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T29_LCPN_54-Spiral-Matrix.py",
+            "Source_Code": "if not (left < right and top < bottom):",
+            "Mutate_Code": "if not (left < right and top  !==  bottom):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T29_LCPN_54-Spiral-Matrix.py",
+            "Source_Code": "if not (left < right and top < bottom):",
+            "Mutate_Code": "if not (left < right and top  >>  bottom):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T29_LCPN_54-Spiral-Matrix.py",
+            "Source_Code": "if not (left < right and top < bottom):",
+            "Mutate_Code": "if not (left < right and top  <<  bottom):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T29_LCPN_54-Spiral-Matrix.py",
+            "Source_Code": "if not (left < right and top < bottom):",
+            "Mutate_Code": "if not (left < right and top  >=>=  bottom):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T29_LCPN_54-Spiral-Matrix.py",
+            "Source_Code": "if not (left < right and top < bottom):",
+            "Mutate_Code": "if not (left < right and top  <=<=  bottom):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T29_LCPN_54-Spiral-Matrix.py",
+            "Source_Code": "if not (left < right and top < bottom):",
+            "Mutate_Code": "if not (left < right top < bottom):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T29_LCPN_54-Spiral-Matrix.py",
+            "Source_Code": "if not (left < right and top < bottom):",
+            "Mutate_Code": "if (left < right and top < bottom):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T29_LCPN_54-Spiral-Matrix.py",
+            "Source_Code": "if not (left < right and top < bottom):",
+            "Mutate_Code": "if not (left < right or top < bottom):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T29_LCPN_54-Spiral-Matrix.py",
+            "Source_Code": "if not (left < right and top < bottom):",
+            "Mutate_Code": "if not (left < right not top < bottom):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T29_LCPN_54-Spiral-Matrix.py",
+            "Source_Code": "if not (left < right and top < bottom):",
+            "Mutate_Code": "if and (left < right and top < bottom):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T29_LCPN_54-Spiral-Matrix.py",
+            "Source_Code": "if not (left < right and top < bottom):",
+            "Mutate_Code": "if or (left < right and top < bottom):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T29_LCPN_54-Spiral-Matrix.py",
+            "Source_Code": "if not (left < right and top < bottom):",
+            "Mutate_Code": "if not (left < right and and top < bottom):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T29_LCPN_54-Spiral-Matrix.py",
+            "Source_Code": "if not (left < right and top < bottom):",
+            "Mutate_Code": "if not (left < right or or top < bottom):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T29_LCPN_54-Spiral-Matrix.py",
+            "Source_Code": "if not (left < right and top < bottom):",
+            "Mutate_Code": "if not (left < right not not top < bottom):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T29_LCPN_54-Spiral-Matrix.py",
+            "Source_Code": "if not (left < right and top < bottom):",
+            "Mutate_Code": "if and and (left < right and top < bottom):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T29_LCPN_54-Spiral-Matrix.py",
+            "Source_Code": "if not (left < right and top < bottom):",
+            "Mutate_Code": "if or or (left < right and top < bottom):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T29_LCPN_54-Spiral-Matrix.py",
+            "Source_Code": "if not (left < right and top < bottom):",
+            "Mutate_Code": "if not not (left < right and top < bottom):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T29_LCPN_54-Spiral-Matrix.py",
+            "Source_Code": "if not (left < right and top < bottom):",
+            "Mutate_Code": " "
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T29_LCPN_54-Spiral-Matrix.py",
+            "Source_Code": "if not (left < right and top < bottom):",
+            "Mutate_Code": "elif:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T29_LCPN_54-Spiral-Matrix.py",
+            "Source_Code": "if not (left < right and top < bottom):",
+            "Mutate_Code": "else:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T29_LCPN_54-Spiral-Matrix.py",
+            "Source_Code": "if not (left < right and top < bottom):",
+            "Mutate_Code": "if if"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T29_LCPN_54-Spiral-Matrix.py",
+            "Source_Code": "if not (left < right and top < bottom):",
+            "Mutate_Code": "if not (left   right and top < bottom):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T29_LCPN_54-Spiral-Matrix.py",
+            "Source_Code": "if not (left < right and top < bottom):",
+            "Mutate_Code": "if not (left < right and top   bottom):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T29_LCPN_54-Spiral-Matrix.py",
+            "Source_Code": "if not (left < right and top < bottom):",
+            "Mutate_Code": "if not (left == right and top < bottom):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T29_LCPN_54-Spiral-Matrix.py",
+            "Source_Code": "if not (left < right and top < bottom):",
+            "Mutate_Code": "if not (left != right and top < bottom):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T29_LCPN_54-Spiral-Matrix.py",
+            "Source_Code": "if not (left < right and top < bottom):",
+            "Mutate_Code": "if not (left > right and top < bottom):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T29_LCPN_54-Spiral-Matrix.py",
+            "Source_Code": "if not (left < right and top < bottom):",
+            "Mutate_Code": "if not (left >= right and top < bottom):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T29_LCPN_54-Spiral-Matrix.py",
+            "Source_Code": "if not (left < right and top < bottom):",
+            "Mutate_Code": "if not (left <= right and top < bottom):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T29_LCPN_54-Spiral-Matrix.py",
+            "Source_Code": "if not (left < right and top < bottom):",
+            "Mutate_Code": "if not (left < right and top == bottom):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T29_LCPN_54-Spiral-Matrix.py",
+            "Source_Code": "if not (left < right and top < bottom):",
+            "Mutate_Code": "if not (left < right and top != bottom):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T29_LCPN_54-Spiral-Matrix.py",
+            "Source_Code": "if not (left < right and top < bottom):",
+            "Mutate_Code": "if not (left < right and top > bottom):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T29_LCPN_54-Spiral-Matrix.py",
+            "Source_Code": "if not (left < right and top < bottom):",
+            "Mutate_Code": "if not (left < right and top >= bottom):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T29_LCPN_54-Spiral-Matrix.py",
+            "Source_Code": "if not (left < right and top < bottom):",
+            "Mutate_Code": "if not (left < right and top <= bottom):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T29_LCPN_54-Spiral-Matrix.py",
+            "Source_Code": "if not (left < right and top < bottom):",
+            "Mutate_Code": "if not (left  ====  right and top < bottom):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T29_LCPN_54-Spiral-Matrix.py",
+            "Source_Code": "if not (left < right and top < bottom):",
+            "Mutate_Code": "if not (left  !==  right and top < bottom):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T29_LCPN_54-Spiral-Matrix.py",
+            "Source_Code": "if not (left < right and top < bottom):",
+            "Mutate_Code": "if not (left  >>  right and top < bottom):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T29_LCPN_54-Spiral-Matrix.py",
+            "Source_Code": "if not (left < right and top < bottom):",
+            "Mutate_Code": "if not (left  <<  right and top < bottom):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T29_LCPN_54-Spiral-Matrix.py",
+            "Source_Code": "if not (left < right and top < bottom):",
+            "Mutate_Code": "if not (left  >=>=  right and top < bottom):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T29_LCPN_54-Spiral-Matrix.py",
+            "Source_Code": "if not (left < right and top < bottom):",
+            "Mutate_Code": "if not (left  <=<=  right and top < bottom):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T29_LCPN_54-Spiral-Matrix.py",
+            "Source_Code": "if not (left < right and top < bottom):",
+            "Mutate_Code": "if not (left < right and top  ====  bottom):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T29_LCPN_54-Spiral-Matrix.py",
+            "Source_Code": "if not (left < right and top < bottom):",
+            "Mutate_Code": "if not (left < right and top  !==  bottom):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T29_LCPN_54-Spiral-Matrix.py",
+            "Source_Code": "if not (left < right and top < bottom):",
+            "Mutate_Code": "if not (left < right and top  >>  bottom):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T29_LCPN_54-Spiral-Matrix.py",
+            "Source_Code": "if not (left < right and top < bottom):",
+            "Mutate_Code": "if not (left < right and top  <<  bottom):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T29_LCPN_54-Spiral-Matrix.py",
+            "Source_Code": "if not (left < right and top < bottom):",
+            "Mutate_Code": "if not (left < right and top  >=>=  bottom):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T29_LCPN_54-Spiral-Matrix.py",
+            "Source_Code": "if not (left < right and top < bottom):",
+            "Mutate_Code": "if not (left < right and top  <=<=  bottom):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T29_LCPN_54-Spiral-Matrix.py",
+            "Source_Code": "if not (left < right and top < bottom):",
+            "Mutate_Code": "if not (left < right top < bottom):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T29_LCPN_54-Spiral-Matrix.py",
+            "Source_Code": "if not (left < right and top < bottom):",
+            "Mutate_Code": "if (left < right and top < bottom):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T29_LCPN_54-Spiral-Matrix.py",
+            "Source_Code": "if not (left < right and top < bottom):",
+            "Mutate_Code": "if not (left < right or top < bottom):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T29_LCPN_54-Spiral-Matrix.py",
+            "Source_Code": "if not (left < right and top < bottom):",
+            "Mutate_Code": "if not (left < right not top < bottom):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T29_LCPN_54-Spiral-Matrix.py",
+            "Source_Code": "if not (left < right and top < bottom):",
+            "Mutate_Code": "if and (left < right and top < bottom):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T29_LCPN_54-Spiral-Matrix.py",
+            "Source_Code": "if not (left < right and top < bottom):",
+            "Mutate_Code": "if or (left < right and top < bottom):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T29_LCPN_54-Spiral-Matrix.py",
+            "Source_Code": "if not (left < right and top < bottom):",
+            "Mutate_Code": "if not (left < right and and top < bottom):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T29_LCPN_54-Spiral-Matrix.py",
+            "Source_Code": "if not (left < right and top < bottom):",
+            "Mutate_Code": "if not (left < right or or top < bottom):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T29_LCPN_54-Spiral-Matrix.py",
+            "Source_Code": "if not (left < right and top < bottom):",
+            "Mutate_Code": "if not (left < right not not top < bottom):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T29_LCPN_54-Spiral-Matrix.py",
+            "Source_Code": "if not (left < right and top < bottom):",
+            "Mutate_Code": "if and and (left < right and top < bottom):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T29_LCPN_54-Spiral-Matrix.py",
+            "Source_Code": "if not (left < right and top < bottom):",
+            "Mutate_Code": "if or or (left < right and top < bottom):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T29_LCPN_54-Spiral-Matrix.py",
+            "Source_Code": "if not (left < right and top < bottom):",
+            "Mutate_Code": "if not not (left < right and top < bottom):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T29_LCPN_54-Spiral-Matrix.py",
+            "Source_Code": "if not (left < right and top < bottom):",
+            "Mutate_Code": " "
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T29_LCPN_54-Spiral-Matrix.py",
+            "Source_Code": "if not (left < right and top < bottom):",
+            "Mutate_Code": "elif:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T29_LCPN_54-Spiral-Matrix.py",
+            "Source_Code": "if not (left < right and top < bottom):",
+            "Mutate_Code": "else:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T29_LCPN_54-Spiral-Matrix.py",
+            "Source_Code": "if not (left < right and top < bottom):",
+            "Mutate_Code": "if if"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T29_LCPN_54-Spiral-Matrix.py",
+            "Source_Code": "if not (left < right and top < bottom):",
+            "Mutate_Code": "if not (left   right and top < bottom):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T29_LCPN_54-Spiral-Matrix.py",
+            "Source_Code": "if not (left < right and top < bottom):",
+            "Mutate_Code": "if not (left < right and top   bottom):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T29_LCPN_54-Spiral-Matrix.py",
+            "Source_Code": "if not (left < right and top < bottom):",
+            "Mutate_Code": "if not (left == right and top < bottom):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T29_LCPN_54-Spiral-Matrix.py",
+            "Source_Code": "if not (left < right and top < bottom):",
+            "Mutate_Code": "if not (left != right and top < bottom):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T29_LCPN_54-Spiral-Matrix.py",
+            "Source_Code": "if not (left < right and top < bottom):",
+            "Mutate_Code": "if not (left > right and top < bottom):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T29_LCPN_54-Spiral-Matrix.py",
+            "Source_Code": "if not (left < right and top < bottom):",
+            "Mutate_Code": "if not (left >= right and top < bottom):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T29_LCPN_54-Spiral-Matrix.py",
+            "Source_Code": "if not (left < right and top < bottom):",
+            "Mutate_Code": "if not (left <= right and top < bottom):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T29_LCPN_54-Spiral-Matrix.py",
+            "Source_Code": "if not (left < right and top < bottom):",
+            "Mutate_Code": "if not (left < right and top == bottom):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T29_LCPN_54-Spiral-Matrix.py",
+            "Source_Code": "if not (left < right and top < bottom):",
+            "Mutate_Code": "if not (left < right and top != bottom):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T29_LCPN_54-Spiral-Matrix.py",
+            "Source_Code": "if not (left < right and top < bottom):",
+            "Mutate_Code": "if not (left < right and top > bottom):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T29_LCPN_54-Spiral-Matrix.py",
+            "Source_Code": "if not (left < right and top < bottom):",
+            "Mutate_Code": "if not (left < right and top >= bottom):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T29_LCPN_54-Spiral-Matrix.py",
+            "Source_Code": "if not (left < right and top < bottom):",
+            "Mutate_Code": "if not (left < right and top <= bottom):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T29_LCPN_54-Spiral-Matrix.py",
+            "Source_Code": "if not (left < right and top < bottom):",
+            "Mutate_Code": "if not (left  ====  right and top < bottom):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T29_LCPN_54-Spiral-Matrix.py",
+            "Source_Code": "if not (left < right and top < bottom):",
+            "Mutate_Code": "if not (left  !==  right and top < bottom):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T29_LCPN_54-Spiral-Matrix.py",
+            "Source_Code": "if not (left < right and top < bottom):",
+            "Mutate_Code": "if not (left  >>  right and top < bottom):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T29_LCPN_54-Spiral-Matrix.py",
+            "Source_Code": "if not (left < right and top < bottom):",
+            "Mutate_Code": "if not (left  <<  right and top < bottom):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T29_LCPN_54-Spiral-Matrix.py",
+            "Source_Code": "if not (left < right and top < bottom):",
+            "Mutate_Code": "if not (left  >=>=  right and top < bottom):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T29_LCPN_54-Spiral-Matrix.py",
+            "Source_Code": "if not (left < right and top < bottom):",
+            "Mutate_Code": "if not (left  <=<=  right and top < bottom):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T29_LCPN_54-Spiral-Matrix.py",
+            "Source_Code": "if not (left < right and top < bottom):",
+            "Mutate_Code": "if not (left < right and top  ====  bottom):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T29_LCPN_54-Spiral-Matrix.py",
+            "Source_Code": "if not (left < right and top < bottom):",
+            "Mutate_Code": "if not (left < right and top  !==  bottom):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T29_LCPN_54-Spiral-Matrix.py",
+            "Source_Code": "if not (left < right and top < bottom):",
+            "Mutate_Code": "if not (left < right and top  >>  bottom):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T29_LCPN_54-Spiral-Matrix.py",
+            "Source_Code": "if not (left < right and top < bottom):",
+            "Mutate_Code": "if not (left < right and top  <<  bottom):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T29_LCPN_54-Spiral-Matrix.py",
+            "Source_Code": "if not (left < right and top < bottom):",
+            "Mutate_Code": "if not (left < right and top  >=>=  bottom):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T29_LCPN_54-Spiral-Matrix.py",
+            "Source_Code": "if not (left < right and top < bottom):",
+            "Mutate_Code": "if not (left < right and top  <=<=  bottom):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T29_LCPN_54-Spiral-Matrix.py",
+            "Source_Code": "if not (left < right and top < bottom):",
+            "Mutate_Code": "if not (left < right top < bottom):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T29_LCPN_54-Spiral-Matrix.py",
+            "Source_Code": "if not (left < right and top < bottom):",
+            "Mutate_Code": "if (left < right and top < bottom):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T29_LCPN_54-Spiral-Matrix.py",
+            "Source_Code": "if not (left < right and top < bottom):",
+            "Mutate_Code": "if not (left < right or top < bottom):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T29_LCPN_54-Spiral-Matrix.py",
+            "Source_Code": "if not (left < right and top < bottom):",
+            "Mutate_Code": "if not (left < right not top < bottom):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T29_LCPN_54-Spiral-Matrix.py",
+            "Source_Code": "if not (left < right and top < bottom):",
+            "Mutate_Code": "if and (left < right and top < bottom):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T29_LCPN_54-Spiral-Matrix.py",
+            "Source_Code": "if not (left < right and top < bottom):",
+            "Mutate_Code": "if or (left < right and top < bottom):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T29_LCPN_54-Spiral-Matrix.py",
+            "Source_Code": "if not (left < right and top < bottom):",
+            "Mutate_Code": "if not (left < right and and top < bottom):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T29_LCPN_54-Spiral-Matrix.py",
+            "Source_Code": "if not (left < right and top < bottom):",
+            "Mutate_Code": "if not (left < right or or top < bottom):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T29_LCPN_54-Spiral-Matrix.py",
+            "Source_Code": "if not (left < right and top < bottom):",
+            "Mutate_Code": "if not (left < right not not top < bottom):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T29_LCPN_54-Spiral-Matrix.py",
+            "Source_Code": "if not (left < right and top < bottom):",
+            "Mutate_Code": "if and and (left < right and top < bottom):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T29_LCPN_54-Spiral-Matrix.py",
+            "Source_Code": "if not (left < right and top < bottom):",
+            "Mutate_Code": "if or or (left < right and top < bottom):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T29_LCPN_54-Spiral-Matrix.py",
+            "Source_Code": "if not (left < right and top < bottom):",
+            "Mutate_Code": "if not not (left < right and top < bottom):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T29_LCPN_54-Spiral-Matrix.py",
+            "Source_Code": "if not (left < right and top < bottom):",
+            "Mutate_Code": " "
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T29_LCPN_54-Spiral-Matrix.py",
+            "Source_Code": "if not (left < right and top < bottom):",
+            "Mutate_Code": "elif:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T29_LCPN_54-Spiral-Matrix.py",
+            "Source_Code": "if not (left < right and top < bottom):",
+            "Mutate_Code": "else:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T29_LCPN_54-Spiral-Matrix.py",
+            "Source_Code": "if not (left < right and top < bottom):",
+            "Mutate_Code": "if if"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T29_LCPN_54-Spiral-Matrix.py",
+            "Source_Code": "for i in range(right - 1, left - 1, -1):",
+            "Mutate_Code": "for i in range(right 1, left - 1, -1):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T29_LCPN_54-Spiral-Matrix.py",
+            "Source_Code": "for i in range(right - 1, left - 1, -1):",
+            "Mutate_Code": "for i in range(right - 1, left 1, -1):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T29_LCPN_54-Spiral-Matrix.py",
+            "Source_Code": "for i in range(right - 1, left - 1, -1):",
+            "Mutate_Code": "for i in range(right + 1, left - 1, -1):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T29_LCPN_54-Spiral-Matrix.py",
+            "Source_Code": "for i in range(right - 1, left - 1, -1):",
+            "Mutate_Code": "for i in range(right * 1, left - 1, -1):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T29_LCPN_54-Spiral-Matrix.py",
+            "Source_Code": "for i in range(right - 1, left - 1, -1):",
+            "Mutate_Code": "for i in range(right / 1, left - 1, -1):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T29_LCPN_54-Spiral-Matrix.py",
+            "Source_Code": "for i in range(right - 1, left - 1, -1):",
+            "Mutate_Code": "for i in range(right % 1, left - 1, -1):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T29_LCPN_54-Spiral-Matrix.py",
+            "Source_Code": "for i in range(right - 1, left - 1, -1):",
+            "Mutate_Code": "for i in range(right ** 1, left - 1, -1):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T29_LCPN_54-Spiral-Matrix.py",
+            "Source_Code": "for i in range(right - 1, left - 1, -1):",
+            "Mutate_Code": "for i in range(right // 1, left - 1, -1):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T29_LCPN_54-Spiral-Matrix.py",
+            "Source_Code": "for i in range(right - 1, left - 1, -1):",
+            "Mutate_Code": "for i in range(right - 1, left + 1, -1):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T29_LCPN_54-Spiral-Matrix.py",
+            "Source_Code": "for i in range(right - 1, left - 1, -1):",
+            "Mutate_Code": "for i in range(right - 1, left * 1, -1):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T29_LCPN_54-Spiral-Matrix.py",
+            "Source_Code": "for i in range(right - 1, left - 1, -1):",
+            "Mutate_Code": "for i in range(right - 1, left / 1, -1):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T29_LCPN_54-Spiral-Matrix.py",
+            "Source_Code": "for i in range(right - 1, left - 1, -1):",
+            "Mutate_Code": "for i in range(right - 1, left % 1, -1):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T29_LCPN_54-Spiral-Matrix.py",
+            "Source_Code": "for i in range(right - 1, left - 1, -1):",
+            "Mutate_Code": "for i in range(right - 1, left ** 1, -1):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T29_LCPN_54-Spiral-Matrix.py",
+            "Source_Code": "for i in range(right - 1, left - 1, -1):",
+            "Mutate_Code": "for i in range(right - 1, left // 1, -1):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T29_LCPN_54-Spiral-Matrix.py",
+            "Source_Code": "for i in range(right - 1, left - 1, -1):",
+            "Mutate_Code": "for i in range(right ++ 1, left - 1, -1):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T29_LCPN_54-Spiral-Matrix.py",
+            "Source_Code": "for i in range(right - 1, left - 1, -1):",
+            "Mutate_Code": "for i in range(right -- 1, left - 1, -1):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T29_LCPN_54-Spiral-Matrix.py",
+            "Source_Code": "for i in range(right - 1, left - 1, -1):",
+            "Mutate_Code": "for i in range(right ** 1, left - 1, -1):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T29_LCPN_54-Spiral-Matrix.py",
+            "Source_Code": "for i in range(right - 1, left - 1, -1):",
+            "Mutate_Code": "for i in range(right // 1, left - 1, -1):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T29_LCPN_54-Spiral-Matrix.py",
+            "Source_Code": "for i in range(right - 1, left - 1, -1):",
+            "Mutate_Code": "for i in range(right %% 1, left - 1, -1):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T29_LCPN_54-Spiral-Matrix.py",
+            "Source_Code": "for i in range(right - 1, left - 1, -1):",
+            "Mutate_Code": "for i in range(right **** 1, left - 1, -1):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T29_LCPN_54-Spiral-Matrix.py",
+            "Source_Code": "for i in range(right - 1, left - 1, -1):",
+            "Mutate_Code": "for i in range(right //// 1, left - 1, -1):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T29_LCPN_54-Spiral-Matrix.py",
+            "Source_Code": "for i in range(right - 1, left - 1, -1):",
+            "Mutate_Code": "for i in range(right - 1, left ++ 1, -1):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T29_LCPN_54-Spiral-Matrix.py",
+            "Source_Code": "for i in range(right - 1, left - 1, -1):",
+            "Mutate_Code": "for i in range(right - 1, left -- 1, -1):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T29_LCPN_54-Spiral-Matrix.py",
+            "Source_Code": "for i in range(right - 1, left - 1, -1):",
+            "Mutate_Code": "for i in range(right - 1, left ** 1, -1):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T29_LCPN_54-Spiral-Matrix.py",
+            "Source_Code": "for i in range(right - 1, left - 1, -1):",
+            "Mutate_Code": "for i in range(right - 1, left // 1, -1):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T29_LCPN_54-Spiral-Matrix.py",
+            "Source_Code": "for i in range(right - 1, left - 1, -1):",
+            "Mutate_Code": "for i in range(right - 1, left %% 1, -1):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T29_LCPN_54-Spiral-Matrix.py",
+            "Source_Code": "for i in range(right - 1, left - 1, -1):",
+            "Mutate_Code": "for i in range(right - 1, left **** 1, -1):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T29_LCPN_54-Spiral-Matrix.py",
+            "Source_Code": "for i in range(right - 1, left - 1, -1):",
+            "Mutate_Code": "for i in range(right - 1, left //// 1, -1):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T29_LCPN_54-Spiral-Matrix.py",
+            "Source_Code": "for i in range(right - 1, left - 1, -1):",
+            "Mutate_Code": "for i range(right - 1, left - 1, -1):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T29_LCPN_54-Spiral-Matrix.py",
+            "Source_Code": "for i in range(right - 1, left - 1, -1):",
+            "Mutate_Code": "for i is range(right - 1, left - 1, -1):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T29_LCPN_54-Spiral-Matrix.py",
+            "Source_Code": "for i in range(right - 1, left - 1, -1):",
+            "Mutate_Code": "for i is not range(right - 1, left - 1, -1):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T29_LCPN_54-Spiral-Matrix.py",
+            "Source_Code": "for i in range(right - 1, left - 1, -1):",
+            "Mutate_Code": "for i in in range(right - 1, left - 1, -1):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T29_LCPN_54-Spiral-Matrix.py",
+            "Source_Code": "for i in range(right - 1, left - 1, -1):",
+            "Mutate_Code": "for i not in not in range(right - 1, left - 1, -1):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T29_LCPN_54-Spiral-Matrix.py",
+            "Source_Code": "for i in range(right - 1, left - 1, -1):",
+            "Mutate_Code": " "
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T29_LCPN_54-Spiral-Matrix.py",
+            "Source_Code": "for i in range(right - 1, left - 1, -1):",
+            "Mutate_Code": "while True:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T29_LCPN_54-Spiral-Matrix.py",
+            "Source_Code": "for i in range(right - 1, left - 1, -1):",
+            "Mutate_Code": "for for: i in range(right - 1, left - 1, -1):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T29_LCPN_54-Spiral-Matrix.py",
+            "Source_Code": "for i in range(right - 1, left - 1, -1):",
+            "Mutate_Code": "for i in range( ):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T29_LCPN_54-Spiral-Matrix.py",
+            "Source_Code": "for i in range(right - 1, left - 1, -1):",
+            "Mutate_Code": "for i in range(right 1, left - 1, -1):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T29_LCPN_54-Spiral-Matrix.py",
+            "Source_Code": "for i in range(right - 1, left - 1, -1):",
+            "Mutate_Code": "for i in range(right - 1, left 1, -1):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T29_LCPN_54-Spiral-Matrix.py",
+            "Source_Code": "for i in range(right - 1, left - 1, -1):",
+            "Mutate_Code": "for i in range(right + 1, left - 1, -1):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T29_LCPN_54-Spiral-Matrix.py",
+            "Source_Code": "for i in range(right - 1, left - 1, -1):",
+            "Mutate_Code": "for i in range(right * 1, left - 1, -1):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T29_LCPN_54-Spiral-Matrix.py",
+            "Source_Code": "for i in range(right - 1, left - 1, -1):",
+            "Mutate_Code": "for i in range(right / 1, left - 1, -1):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T29_LCPN_54-Spiral-Matrix.py",
+            "Source_Code": "for i in range(right - 1, left - 1, -1):",
+            "Mutate_Code": "for i in range(right % 1, left - 1, -1):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T29_LCPN_54-Spiral-Matrix.py",
+            "Source_Code": "for i in range(right - 1, left - 1, -1):",
+            "Mutate_Code": "for i in range(right ** 1, left - 1, -1):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T29_LCPN_54-Spiral-Matrix.py",
+            "Source_Code": "for i in range(right - 1, left - 1, -1):",
+            "Mutate_Code": "for i in range(right // 1, left - 1, -1):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T29_LCPN_54-Spiral-Matrix.py",
+            "Source_Code": "for i in range(right - 1, left - 1, -1):",
+            "Mutate_Code": "for i in range(right - 1, left + 1, -1):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T29_LCPN_54-Spiral-Matrix.py",
+            "Source_Code": "for i in range(right - 1, left - 1, -1):",
+            "Mutate_Code": "for i in range(right - 1, left * 1, -1):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T29_LCPN_54-Spiral-Matrix.py",
+            "Source_Code": "for i in range(right - 1, left - 1, -1):",
+            "Mutate_Code": "for i in range(right - 1, left / 1, -1):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T29_LCPN_54-Spiral-Matrix.py",
+            "Source_Code": "for i in range(right - 1, left - 1, -1):",
+            "Mutate_Code": "for i in range(right - 1, left % 1, -1):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T29_LCPN_54-Spiral-Matrix.py",
+            "Source_Code": "for i in range(right - 1, left - 1, -1):",
+            "Mutate_Code": "for i in range(right - 1, left ** 1, -1):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T29_LCPN_54-Spiral-Matrix.py",
+            "Source_Code": "for i in range(right - 1, left - 1, -1):",
+            "Mutate_Code": "for i in range(right - 1, left // 1, -1):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T29_LCPN_54-Spiral-Matrix.py",
+            "Source_Code": "for i in range(right - 1, left - 1, -1):",
+            "Mutate_Code": "for i in range(right ++ 1, left - 1, -1):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T29_LCPN_54-Spiral-Matrix.py",
+            "Source_Code": "for i in range(right - 1, left - 1, -1):",
+            "Mutate_Code": "for i in range(right -- 1, left - 1, -1):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T29_LCPN_54-Spiral-Matrix.py",
+            "Source_Code": "for i in range(right - 1, left - 1, -1):",
+            "Mutate_Code": "for i in range(right ** 1, left - 1, -1):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T29_LCPN_54-Spiral-Matrix.py",
+            "Source_Code": "for i in range(right - 1, left - 1, -1):",
+            "Mutate_Code": "for i in range(right // 1, left - 1, -1):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T29_LCPN_54-Spiral-Matrix.py",
+            "Source_Code": "for i in range(right - 1, left - 1, -1):",
+            "Mutate_Code": "for i in range(right %% 1, left - 1, -1):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T29_LCPN_54-Spiral-Matrix.py",
+            "Source_Code": "for i in range(right - 1, left - 1, -1):",
+            "Mutate_Code": "for i in range(right **** 1, left - 1, -1):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T29_LCPN_54-Spiral-Matrix.py",
+            "Source_Code": "for i in range(right - 1, left - 1, -1):",
+            "Mutate_Code": "for i in range(right //// 1, left - 1, -1):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T29_LCPN_54-Spiral-Matrix.py",
+            "Source_Code": "for i in range(right - 1, left - 1, -1):",
+            "Mutate_Code": "for i in range(right - 1, left ++ 1, -1):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T29_LCPN_54-Spiral-Matrix.py",
+            "Source_Code": "for i in range(right - 1, left - 1, -1):",
+            "Mutate_Code": "for i in range(right - 1, left -- 1, -1):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T29_LCPN_54-Spiral-Matrix.py",
+            "Source_Code": "for i in range(right - 1, left - 1, -1):",
+            "Mutate_Code": "for i in range(right - 1, left ** 1, -1):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T29_LCPN_54-Spiral-Matrix.py",
+            "Source_Code": "for i in range(right - 1, left - 1, -1):",
+            "Mutate_Code": "for i in range(right - 1, left // 1, -1):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T29_LCPN_54-Spiral-Matrix.py",
+            "Source_Code": "for i in range(right - 1, left - 1, -1):",
+            "Mutate_Code": "for i in range(right - 1, left %% 1, -1):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T29_LCPN_54-Spiral-Matrix.py",
+            "Source_Code": "for i in range(right - 1, left - 1, -1):",
+            "Mutate_Code": "for i in range(right - 1, left **** 1, -1):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T29_LCPN_54-Spiral-Matrix.py",
+            "Source_Code": "for i in range(right - 1, left - 1, -1):",
+            "Mutate_Code": "for i in range(right - 1, left //// 1, -1):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T29_LCPN_54-Spiral-Matrix.py",
+            "Source_Code": "for i in range(right - 1, left - 1, -1):",
+            "Mutate_Code": "for i range(right - 1, left - 1, -1):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T29_LCPN_54-Spiral-Matrix.py",
+            "Source_Code": "for i in range(right - 1, left - 1, -1):",
+            "Mutate_Code": "for i is range(right - 1, left - 1, -1):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T29_LCPN_54-Spiral-Matrix.py",
+            "Source_Code": "for i in range(right - 1, left - 1, -1):",
+            "Mutate_Code": "for i is not range(right - 1, left - 1, -1):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T29_LCPN_54-Spiral-Matrix.py",
+            "Source_Code": "for i in range(right - 1, left - 1, -1):",
+            "Mutate_Code": "for i in in range(right - 1, left - 1, -1):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T29_LCPN_54-Spiral-Matrix.py",
+            "Source_Code": "for i in range(right - 1, left - 1, -1):",
+            "Mutate_Code": "for i not in not in range(right - 1, left - 1, -1):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T29_LCPN_54-Spiral-Matrix.py",
+            "Source_Code": "for i in range(right - 1, left - 1, -1):",
+            "Mutate_Code": " "
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T29_LCPN_54-Spiral-Matrix.py",
+            "Source_Code": "for i in range(right - 1, left - 1, -1):",
+            "Mutate_Code": "while True:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T29_LCPN_54-Spiral-Matrix.py",
+            "Source_Code": "for i in range(right - 1, left - 1, -1):",
+            "Mutate_Code": "for for: i in range(right - 1, left - 1, -1):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T29_LCPN_54-Spiral-Matrix.py",
+            "Source_Code": "for i in range(right - 1, left - 1, -1):",
+            "Mutate_Code": "for i in range( ):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T29_LCPN_54-Spiral-Matrix.py",
+            "Source_Code": "res.append(matrix[bottom - 1][i])",
+            "Mutate_Code": "res.append(matrix[bottom 1][i])"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T29_LCPN_54-Spiral-Matrix.py",
+            "Source_Code": "res.append(matrix[bottom - 1][i])",
+            "Mutate_Code": "res.append(matrix[bottom + 1][i])"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T29_LCPN_54-Spiral-Matrix.py",
+            "Source_Code": "res.append(matrix[bottom - 1][i])",
+            "Mutate_Code": "res.append(matrix[bottom * 1][i])"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T29_LCPN_54-Spiral-Matrix.py",
+            "Source_Code": "res.append(matrix[bottom - 1][i])",
+            "Mutate_Code": "res.append(matrix[bottom / 1][i])"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T29_LCPN_54-Spiral-Matrix.py",
+            "Source_Code": "res.append(matrix[bottom - 1][i])",
+            "Mutate_Code": "res.append(matrix[bottom % 1][i])"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T29_LCPN_54-Spiral-Matrix.py",
+            "Source_Code": "res.append(matrix[bottom - 1][i])",
+            "Mutate_Code": "res.append(matrix[bottom ** 1][i])"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T29_LCPN_54-Spiral-Matrix.py",
+            "Source_Code": "res.append(matrix[bottom - 1][i])",
+            "Mutate_Code": "res.append(matrix[bottom // 1][i])"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T29_LCPN_54-Spiral-Matrix.py",
+            "Source_Code": "res.append(matrix[bottom - 1][i])",
+            "Mutate_Code": "res.append(matrix[bottom ++ 1][i])"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T29_LCPN_54-Spiral-Matrix.py",
+            "Source_Code": "res.append(matrix[bottom - 1][i])",
+            "Mutate_Code": "res.append(matrix[bottom -- 1][i])"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T29_LCPN_54-Spiral-Matrix.py",
+            "Source_Code": "res.append(matrix[bottom - 1][i])",
+            "Mutate_Code": "res.append(matrix[bottom ** 1][i])"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T29_LCPN_54-Spiral-Matrix.py",
+            "Source_Code": "res.append(matrix[bottom - 1][i])",
+            "Mutate_Code": "res.append(matrix[bottom // 1][i])"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T29_LCPN_54-Spiral-Matrix.py",
+            "Source_Code": "res.append(matrix[bottom - 1][i])",
+            "Mutate_Code": "res.append(matrix[bottom %% 1][i])"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T29_LCPN_54-Spiral-Matrix.py",
+            "Source_Code": "res.append(matrix[bottom - 1][i])",
+            "Mutate_Code": "res.append(matrix[bottom **** 1][i])"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T29_LCPN_54-Spiral-Matrix.py",
+            "Source_Code": "res.append(matrix[bottom - 1][i])",
+            "Mutate_Code": "res.append(matrix[bottom //// 1][i])"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T29_LCPN_54-Spiral-Matrix.py",
+            "Source_Code": "res.append(matrix[bottom - 1][i])",
+            "Mutate_Code": "res.append( )"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T29_LCPN_54-Spiral-Matrix.py",
+            "Source_Code": "for i in range(bottom - 1, top - 1, -1):",
+            "Mutate_Code": "for i in range(bottom 1, top - 1, -1):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T29_LCPN_54-Spiral-Matrix.py",
+            "Source_Code": "for i in range(bottom - 1, top - 1, -1):",
+            "Mutate_Code": "for i in range(bottom - 1, top 1, -1):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T29_LCPN_54-Spiral-Matrix.py",
+            "Source_Code": "for i in range(bottom - 1, top - 1, -1):",
+            "Mutate_Code": "for i in range(bottom + 1, top - 1, -1):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T29_LCPN_54-Spiral-Matrix.py",
+            "Source_Code": "for i in range(bottom - 1, top - 1, -1):",
+            "Mutate_Code": "for i in range(bottom * 1, top - 1, -1):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T29_LCPN_54-Spiral-Matrix.py",
+            "Source_Code": "for i in range(bottom - 1, top - 1, -1):",
+            "Mutate_Code": "for i in range(bottom / 1, top - 1, -1):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T29_LCPN_54-Spiral-Matrix.py",
+            "Source_Code": "for i in range(bottom - 1, top - 1, -1):",
+            "Mutate_Code": "for i in range(bottom % 1, top - 1, -1):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T29_LCPN_54-Spiral-Matrix.py",
+            "Source_Code": "for i in range(bottom - 1, top - 1, -1):",
+            "Mutate_Code": "for i in range(bottom ** 1, top - 1, -1):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T29_LCPN_54-Spiral-Matrix.py",
+            "Source_Code": "for i in range(bottom - 1, top - 1, -1):",
+            "Mutate_Code": "for i in range(bottom // 1, top - 1, -1):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T29_LCPN_54-Spiral-Matrix.py",
+            "Source_Code": "for i in range(bottom - 1, top - 1, -1):",
+            "Mutate_Code": "for i in range(bottom - 1, top + 1, -1):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T29_LCPN_54-Spiral-Matrix.py",
+            "Source_Code": "for i in range(bottom - 1, top - 1, -1):",
+            "Mutate_Code": "for i in range(bottom - 1, top * 1, -1):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T29_LCPN_54-Spiral-Matrix.py",
+            "Source_Code": "for i in range(bottom - 1, top - 1, -1):",
+            "Mutate_Code": "for i in range(bottom - 1, top / 1, -1):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T29_LCPN_54-Spiral-Matrix.py",
+            "Source_Code": "for i in range(bottom - 1, top - 1, -1):",
+            "Mutate_Code": "for i in range(bottom - 1, top % 1, -1):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T29_LCPN_54-Spiral-Matrix.py",
+            "Source_Code": "for i in range(bottom - 1, top - 1, -1):",
+            "Mutate_Code": "for i in range(bottom - 1, top ** 1, -1):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T29_LCPN_54-Spiral-Matrix.py",
+            "Source_Code": "for i in range(bottom - 1, top - 1, -1):",
+            "Mutate_Code": "for i in range(bottom - 1, top // 1, -1):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T29_LCPN_54-Spiral-Matrix.py",
+            "Source_Code": "for i in range(bottom - 1, top - 1, -1):",
+            "Mutate_Code": "for i in range(bottom ++ 1, top - 1, -1):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T29_LCPN_54-Spiral-Matrix.py",
+            "Source_Code": "for i in range(bottom - 1, top - 1, -1):",
+            "Mutate_Code": "for i in range(bottom -- 1, top - 1, -1):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T29_LCPN_54-Spiral-Matrix.py",
+            "Source_Code": "for i in range(bottom - 1, top - 1, -1):",
+            "Mutate_Code": "for i in range(bottom ** 1, top - 1, -1):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T29_LCPN_54-Spiral-Matrix.py",
+            "Source_Code": "for i in range(bottom - 1, top - 1, -1):",
+            "Mutate_Code": "for i in range(bottom // 1, top - 1, -1):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T29_LCPN_54-Spiral-Matrix.py",
+            "Source_Code": "for i in range(bottom - 1, top - 1, -1):",
+            "Mutate_Code": "for i in range(bottom %% 1, top - 1, -1):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T29_LCPN_54-Spiral-Matrix.py",
+            "Source_Code": "for i in range(bottom - 1, top - 1, -1):",
+            "Mutate_Code": "for i in range(bottom **** 1, top - 1, -1):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T29_LCPN_54-Spiral-Matrix.py",
+            "Source_Code": "for i in range(bottom - 1, top - 1, -1):",
+            "Mutate_Code": "for i in range(bottom //// 1, top - 1, -1):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T29_LCPN_54-Spiral-Matrix.py",
+            "Source_Code": "for i in range(bottom - 1, top - 1, -1):",
+            "Mutate_Code": "for i in range(bottom - 1, top ++ 1, -1):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T29_LCPN_54-Spiral-Matrix.py",
+            "Source_Code": "for i in range(bottom - 1, top - 1, -1):",
+            "Mutate_Code": "for i in range(bottom - 1, top -- 1, -1):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T29_LCPN_54-Spiral-Matrix.py",
+            "Source_Code": "for i in range(bottom - 1, top - 1, -1):",
+            "Mutate_Code": "for i in range(bottom - 1, top ** 1, -1):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T29_LCPN_54-Spiral-Matrix.py",
+            "Source_Code": "for i in range(bottom - 1, top - 1, -1):",
+            "Mutate_Code": "for i in range(bottom - 1, top // 1, -1):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T29_LCPN_54-Spiral-Matrix.py",
+            "Source_Code": "for i in range(bottom - 1, top - 1, -1):",
+            "Mutate_Code": "for i in range(bottom - 1, top %% 1, -1):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T29_LCPN_54-Spiral-Matrix.py",
+            "Source_Code": "for i in range(bottom - 1, top - 1, -1):",
+            "Mutate_Code": "for i in range(bottom - 1, top **** 1, -1):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T29_LCPN_54-Spiral-Matrix.py",
+            "Source_Code": "for i in range(bottom - 1, top - 1, -1):",
+            "Mutate_Code": "for i in range(bottom - 1, top //// 1, -1):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T29_LCPN_54-Spiral-Matrix.py",
+            "Source_Code": "for i in range(bottom - 1, top - 1, -1):",
+            "Mutate_Code": "for i range(bottom - 1, top - 1, -1):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T29_LCPN_54-Spiral-Matrix.py",
+            "Source_Code": "for i in range(bottom - 1, top - 1, -1):",
+            "Mutate_Code": "for i is range(bottom - 1, top - 1, -1):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T29_LCPN_54-Spiral-Matrix.py",
+            "Source_Code": "for i in range(bottom - 1, top - 1, -1):",
+            "Mutate_Code": "for i is not range(bottom - 1, top - 1, -1):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T29_LCPN_54-Spiral-Matrix.py",
+            "Source_Code": "for i in range(bottom - 1, top - 1, -1):",
+            "Mutate_Code": "for i in in range(bottom - 1, top - 1, -1):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T29_LCPN_54-Spiral-Matrix.py",
+            "Source_Code": "for i in range(bottom - 1, top - 1, -1):",
+            "Mutate_Code": "for i not in not in range(bottom - 1, top - 1, -1):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T29_LCPN_54-Spiral-Matrix.py",
+            "Source_Code": "for i in range(bottom - 1, top - 1, -1):",
+            "Mutate_Code": " "
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T29_LCPN_54-Spiral-Matrix.py",
+            "Source_Code": "for i in range(bottom - 1, top - 1, -1):",
+            "Mutate_Code": "while True:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T29_LCPN_54-Spiral-Matrix.py",
+            "Source_Code": "for i in range(bottom - 1, top - 1, -1):",
+            "Mutate_Code": "for for: i in range(bottom - 1, top - 1, -1):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T29_LCPN_54-Spiral-Matrix.py",
+            "Source_Code": "for i in range(bottom - 1, top - 1, -1):",
+            "Mutate_Code": "for i in range( ):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T29_LCPN_54-Spiral-Matrix.py",
+            "Source_Code": "for i in range(bottom - 1, top - 1, -1):",
+            "Mutate_Code": "for i in range(bottom 1, top - 1, -1):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T29_LCPN_54-Spiral-Matrix.py",
+            "Source_Code": "for i in range(bottom - 1, top - 1, -1):",
+            "Mutate_Code": "for i in range(bottom - 1, top 1, -1):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T29_LCPN_54-Spiral-Matrix.py",
+            "Source_Code": "for i in range(bottom - 1, top - 1, -1):",
+            "Mutate_Code": "for i in range(bottom + 1, top - 1, -1):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T29_LCPN_54-Spiral-Matrix.py",
+            "Source_Code": "for i in range(bottom - 1, top - 1, -1):",
+            "Mutate_Code": "for i in range(bottom * 1, top - 1, -1):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T29_LCPN_54-Spiral-Matrix.py",
+            "Source_Code": "for i in range(bottom - 1, top - 1, -1):",
+            "Mutate_Code": "for i in range(bottom / 1, top - 1, -1):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T29_LCPN_54-Spiral-Matrix.py",
+            "Source_Code": "for i in range(bottom - 1, top - 1, -1):",
+            "Mutate_Code": "for i in range(bottom % 1, top - 1, -1):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T29_LCPN_54-Spiral-Matrix.py",
+            "Source_Code": "for i in range(bottom - 1, top - 1, -1):",
+            "Mutate_Code": "for i in range(bottom ** 1, top - 1, -1):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T29_LCPN_54-Spiral-Matrix.py",
+            "Source_Code": "for i in range(bottom - 1, top - 1, -1):",
+            "Mutate_Code": "for i in range(bottom // 1, top - 1, -1):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T29_LCPN_54-Spiral-Matrix.py",
+            "Source_Code": "for i in range(bottom - 1, top - 1, -1):",
+            "Mutate_Code": "for i in range(bottom - 1, top + 1, -1):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T29_LCPN_54-Spiral-Matrix.py",
+            "Source_Code": "for i in range(bottom - 1, top - 1, -1):",
+            "Mutate_Code": "for i in range(bottom - 1, top * 1, -1):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T29_LCPN_54-Spiral-Matrix.py",
+            "Source_Code": "for i in range(bottom - 1, top - 1, -1):",
+            "Mutate_Code": "for i in range(bottom - 1, top / 1, -1):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T29_LCPN_54-Spiral-Matrix.py",
+            "Source_Code": "for i in range(bottom - 1, top - 1, -1):",
+            "Mutate_Code": "for i in range(bottom - 1, top % 1, -1):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T29_LCPN_54-Spiral-Matrix.py",
+            "Source_Code": "for i in range(bottom - 1, top - 1, -1):",
+            "Mutate_Code": "for i in range(bottom - 1, top ** 1, -1):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T29_LCPN_54-Spiral-Matrix.py",
+            "Source_Code": "for i in range(bottom - 1, top - 1, -1):",
+            "Mutate_Code": "for i in range(bottom - 1, top // 1, -1):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T29_LCPN_54-Spiral-Matrix.py",
+            "Source_Code": "for i in range(bottom - 1, top - 1, -1):",
+            "Mutate_Code": "for i in range(bottom ++ 1, top - 1, -1):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T29_LCPN_54-Spiral-Matrix.py",
+            "Source_Code": "for i in range(bottom - 1, top - 1, -1):",
+            "Mutate_Code": "for i in range(bottom -- 1, top - 1, -1):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T29_LCPN_54-Spiral-Matrix.py",
+            "Source_Code": "for i in range(bottom - 1, top - 1, -1):",
+            "Mutate_Code": "for i in range(bottom ** 1, top - 1, -1):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T29_LCPN_54-Spiral-Matrix.py",
+            "Source_Code": "for i in range(bottom - 1, top - 1, -1):",
+            "Mutate_Code": "for i in range(bottom // 1, top - 1, -1):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T29_LCPN_54-Spiral-Matrix.py",
+            "Source_Code": "for i in range(bottom - 1, top - 1, -1):",
+            "Mutate_Code": "for i in range(bottom %% 1, top - 1, -1):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T29_LCPN_54-Spiral-Matrix.py",
+            "Source_Code": "for i in range(bottom - 1, top - 1, -1):",
+            "Mutate_Code": "for i in range(bottom **** 1, top - 1, -1):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T29_LCPN_54-Spiral-Matrix.py",
+            "Source_Code": "for i in range(bottom - 1, top - 1, -1):",
+            "Mutate_Code": "for i in range(bottom //// 1, top - 1, -1):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T29_LCPN_54-Spiral-Matrix.py",
+            "Source_Code": "for i in range(bottom - 1, top - 1, -1):",
+            "Mutate_Code": "for i in range(bottom - 1, top ++ 1, -1):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T29_LCPN_54-Spiral-Matrix.py",
+            "Source_Code": "for i in range(bottom - 1, top - 1, -1):",
+            "Mutate_Code": "for i in range(bottom - 1, top -- 1, -1):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T29_LCPN_54-Spiral-Matrix.py",
+            "Source_Code": "for i in range(bottom - 1, top - 1, -1):",
+            "Mutate_Code": "for i in range(bottom - 1, top ** 1, -1):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T29_LCPN_54-Spiral-Matrix.py",
+            "Source_Code": "for i in range(bottom - 1, top - 1, -1):",
+            "Mutate_Code": "for i in range(bottom - 1, top // 1, -1):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T29_LCPN_54-Spiral-Matrix.py",
+            "Source_Code": "for i in range(bottom - 1, top - 1, -1):",
+            "Mutate_Code": "for i in range(bottom - 1, top %% 1, -1):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T29_LCPN_54-Spiral-Matrix.py",
+            "Source_Code": "for i in range(bottom - 1, top - 1, -1):",
+            "Mutate_Code": "for i in range(bottom - 1, top **** 1, -1):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T29_LCPN_54-Spiral-Matrix.py",
+            "Source_Code": "for i in range(bottom - 1, top - 1, -1):",
+            "Mutate_Code": "for i in range(bottom - 1, top //// 1, -1):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T29_LCPN_54-Spiral-Matrix.py",
+            "Source_Code": "for i in range(bottom - 1, top - 1, -1):",
+            "Mutate_Code": "for i range(bottom - 1, top - 1, -1):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T29_LCPN_54-Spiral-Matrix.py",
+            "Source_Code": "for i in range(bottom - 1, top - 1, -1):",
+            "Mutate_Code": "for i is range(bottom - 1, top - 1, -1):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T29_LCPN_54-Spiral-Matrix.py",
+            "Source_Code": "for i in range(bottom - 1, top - 1, -1):",
+            "Mutate_Code": "for i is not range(bottom - 1, top - 1, -1):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T29_LCPN_54-Spiral-Matrix.py",
+            "Source_Code": "for i in range(bottom - 1, top - 1, -1):",
+            "Mutate_Code": "for i in in range(bottom - 1, top - 1, -1):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T29_LCPN_54-Spiral-Matrix.py",
+            "Source_Code": "for i in range(bottom - 1, top - 1, -1):",
+            "Mutate_Code": "for i not in not in range(bottom - 1, top - 1, -1):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T29_LCPN_54-Spiral-Matrix.py",
+            "Source_Code": "for i in range(bottom - 1, top - 1, -1):",
+            "Mutate_Code": " "
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T29_LCPN_54-Spiral-Matrix.py",
+            "Source_Code": "for i in range(bottom - 1, top - 1, -1):",
+            "Mutate_Code": "while True:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T29_LCPN_54-Spiral-Matrix.py",
+            "Source_Code": "for i in range(bottom - 1, top - 1, -1):",
+            "Mutate_Code": "for for: i in range(bottom - 1, top - 1, -1):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T29_LCPN_54-Spiral-Matrix.py",
+            "Source_Code": "for i in range(bottom - 1, top - 1, -1):",
+            "Mutate_Code": "for i in range( ):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T29_LCPN_54-Spiral-Matrix.py",
+            "Source_Code": "res.append(matrix[i][left])",
+            "Mutate_Code": "res.append( )"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T29_LCPN_54-Spiral-Matrix.py",
+            "Source_Code": "return res",
+            "Mutate_Code": " res"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T29_LCPN_54-Spiral-Matrix.py",
+            "Source_Code": "return res",
+            "Mutate_Code": "passres"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T29_LCPN_54-Spiral-Matrix.py",
+            "Source_Code": "return res",
+            "Mutate_Code": "return returnres"
+        }
+    }
+]
