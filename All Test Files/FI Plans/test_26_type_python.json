@@ -1,0 +1,1199 @@
+[
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T26_LCPN_50-Pow.py",
+            "Source_Code": "if x == 0:",
+            "Mutate_Code": "if x   0:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T26_LCPN_50-Pow.py",
+            "Source_Code": "if x == 0:",
+            "Mutate_Code": "if x != 0:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T26_LCPN_50-Pow.py",
+            "Source_Code": "if x == 0:",
+            "Mutate_Code": "if x > 0:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T26_LCPN_50-Pow.py",
+            "Source_Code": "if x == 0:",
+            "Mutate_Code": "if x < 0:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T26_LCPN_50-Pow.py",
+            "Source_Code": "if x == 0:",
+            "Mutate_Code": "if x >= 0:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T26_LCPN_50-Pow.py",
+            "Source_Code": "if x == 0:",
+            "Mutate_Code": "if x <= 0:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T26_LCPN_50-Pow.py",
+            "Source_Code": "if x == 0:",
+            "Mutate_Code": "if x  ====  0:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T26_LCPN_50-Pow.py",
+            "Source_Code": "if x == 0:",
+            "Mutate_Code": "if x  !==  0:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T26_LCPN_50-Pow.py",
+            "Source_Code": "if x == 0:",
+            "Mutate_Code": "if x  >>  0:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T26_LCPN_50-Pow.py",
+            "Source_Code": "if x == 0:",
+            "Mutate_Code": "if x  <<  0:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T26_LCPN_50-Pow.py",
+            "Source_Code": "if x == 0:",
+            "Mutate_Code": "if x  >=>=  0:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T26_LCPN_50-Pow.py",
+            "Source_Code": "if x == 0:",
+            "Mutate_Code": "if x  <=<=  0:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T26_LCPN_50-Pow.py",
+            "Source_Code": "if x == 0:",
+            "Mutate_Code": " "
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T26_LCPN_50-Pow.py",
+            "Source_Code": "if x == 0:",
+            "Mutate_Code": "elif:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T26_LCPN_50-Pow.py",
+            "Source_Code": "if x == 0:",
+            "Mutate_Code": "else:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T26_LCPN_50-Pow.py",
+            "Source_Code": "if x == 0:",
+            "Mutate_Code": "if if"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T26_LCPN_50-Pow.py",
+            "Source_Code": "return 0",
+            "Mutate_Code": " 0"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T26_LCPN_50-Pow.py",
+            "Source_Code": "return 0",
+            "Mutate_Code": "pass0"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T26_LCPN_50-Pow.py",
+            "Source_Code": "return 0",
+            "Mutate_Code": "return return0"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T26_LCPN_50-Pow.py",
+            "Source_Code": "if n == 0:",
+            "Mutate_Code": "if n   0:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T26_LCPN_50-Pow.py",
+            "Source_Code": "if n == 0:",
+            "Mutate_Code": "if n != 0:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T26_LCPN_50-Pow.py",
+            "Source_Code": "if n == 0:",
+            "Mutate_Code": "if n > 0:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T26_LCPN_50-Pow.py",
+            "Source_Code": "if n == 0:",
+            "Mutate_Code": "if n < 0:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T26_LCPN_50-Pow.py",
+            "Source_Code": "if n == 0:",
+            "Mutate_Code": "if n >= 0:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T26_LCPN_50-Pow.py",
+            "Source_Code": "if n == 0:",
+            "Mutate_Code": "if n <= 0:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T26_LCPN_50-Pow.py",
+            "Source_Code": "if n == 0:",
+            "Mutate_Code": "if n  ====  0:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T26_LCPN_50-Pow.py",
+            "Source_Code": "if n == 0:",
+            "Mutate_Code": "if n  !==  0:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T26_LCPN_50-Pow.py",
+            "Source_Code": "if n == 0:",
+            "Mutate_Code": "if n  >>  0:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T26_LCPN_50-Pow.py",
+            "Source_Code": "if n == 0:",
+            "Mutate_Code": "if n  <<  0:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T26_LCPN_50-Pow.py",
+            "Source_Code": "if n == 0:",
+            "Mutate_Code": "if n  >=>=  0:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T26_LCPN_50-Pow.py",
+            "Source_Code": "if n == 0:",
+            "Mutate_Code": "if n  <=<=  0:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T26_LCPN_50-Pow.py",
+            "Source_Code": "if n == 0:",
+            "Mutate_Code": " "
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T26_LCPN_50-Pow.py",
+            "Source_Code": "if n == 0:",
+            "Mutate_Code": "elif:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T26_LCPN_50-Pow.py",
+            "Source_Code": "if n == 0:",
+            "Mutate_Code": "else:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T26_LCPN_50-Pow.py",
+            "Source_Code": "if n == 0:",
+            "Mutate_Code": "if if"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T26_LCPN_50-Pow.py",
+            "Source_Code": "return 1",
+            "Mutate_Code": " 1"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T26_LCPN_50-Pow.py",
+            "Source_Code": "return 1",
+            "Mutate_Code": "pass1"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T26_LCPN_50-Pow.py",
+            "Source_Code": "return 1",
+            "Mutate_Code": "return return1"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T26_LCPN_50-Pow.py",
+            "Source_Code": "return x * res if n % 2 else res",
+            "Mutate_Code": "return x res if n % 2 else res"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T26_LCPN_50-Pow.py",
+            "Source_Code": "return x * res if n % 2 else res",
+            "Mutate_Code": "return x * res if n 2 else res"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T26_LCPN_50-Pow.py",
+            "Source_Code": "return x * res if n % 2 else res",
+            "Mutate_Code": "return x res if n % 2 else res"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T26_LCPN_50-Pow.py",
+            "Source_Code": "return x * res if n % 2 else res",
+            "Mutate_Code": "return x + res if n % 2 else res"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T26_LCPN_50-Pow.py",
+            "Source_Code": "return x * res if n % 2 else res",
+            "Mutate_Code": "return x - res if n % 2 else res"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T26_LCPN_50-Pow.py",
+            "Source_Code": "return x * res if n % 2 else res",
+            "Mutate_Code": "return x / res if n % 2 else res"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T26_LCPN_50-Pow.py",
+            "Source_Code": "return x * res if n % 2 else res",
+            "Mutate_Code": "return x % res if n % 2 else res"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T26_LCPN_50-Pow.py",
+            "Source_Code": "return x * res if n % 2 else res",
+            "Mutate_Code": "return x ** res if n % 2 else res"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T26_LCPN_50-Pow.py",
+            "Source_Code": "return x * res if n % 2 else res",
+            "Mutate_Code": "return x // res if n % 2 else res"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T26_LCPN_50-Pow.py",
+            "Source_Code": "return x * res if n % 2 else res",
+            "Mutate_Code": "return x * res if n + 2 else res"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T26_LCPN_50-Pow.py",
+            "Source_Code": "return x * res if n % 2 else res",
+            "Mutate_Code": "return x * res if n - 2 else res"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T26_LCPN_50-Pow.py",
+            "Source_Code": "return x * res if n % 2 else res",
+            "Mutate_Code": "return x * res if n * 2 else res"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T26_LCPN_50-Pow.py",
+            "Source_Code": "return x * res if n % 2 else res",
+            "Mutate_Code": "return x * res if n / 2 else res"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T26_LCPN_50-Pow.py",
+            "Source_Code": "return x * res if n % 2 else res",
+            "Mutate_Code": "return x * res if n ** 2 else res"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T26_LCPN_50-Pow.py",
+            "Source_Code": "return x * res if n % 2 else res",
+            "Mutate_Code": "return x * res if n // 2 else res"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T26_LCPN_50-Pow.py",
+            "Source_Code": "return x * res if n % 2 else res",
+            "Mutate_Code": "return x + res if n % 2 else res"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T26_LCPN_50-Pow.py",
+            "Source_Code": "return x * res if n % 2 else res",
+            "Mutate_Code": "return x - res if n % 2 else res"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T26_LCPN_50-Pow.py",
+            "Source_Code": "return x * res if n % 2 else res",
+            "Mutate_Code": "return x / res if n % 2 else res"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T26_LCPN_50-Pow.py",
+            "Source_Code": "return x * res if n % 2 else res",
+            "Mutate_Code": "return x % res if n % 2 else res"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T26_LCPN_50-Pow.py",
+            "Source_Code": "return x * res if n % 2 else res",
+            "Mutate_Code": "return x ** res if n % 2 else res"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T26_LCPN_50-Pow.py",
+            "Source_Code": "return x * res if n % 2 else res",
+            "Mutate_Code": "return x // res if n % 2 else res"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T26_LCPN_50-Pow.py",
+            "Source_Code": "return x * res if n % 2 else res",
+            "Mutate_Code": "return x ++ res if n % 2 else res"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T26_LCPN_50-Pow.py",
+            "Source_Code": "return x * res if n % 2 else res",
+            "Mutate_Code": "return x -- res if n % 2 else res"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T26_LCPN_50-Pow.py",
+            "Source_Code": "return x * res if n % 2 else res",
+            "Mutate_Code": "return x ** res if n % 2 else res"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T26_LCPN_50-Pow.py",
+            "Source_Code": "return x * res if n % 2 else res",
+            "Mutate_Code": "return x // res if n % 2 else res"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T26_LCPN_50-Pow.py",
+            "Source_Code": "return x * res if n % 2 else res",
+            "Mutate_Code": "return x %% res if n % 2 else res"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T26_LCPN_50-Pow.py",
+            "Source_Code": "return x * res if n % 2 else res",
+            "Mutate_Code": "return x **** res if n % 2 else res"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T26_LCPN_50-Pow.py",
+            "Source_Code": "return x * res if n % 2 else res",
+            "Mutate_Code": "return x //// res if n % 2 else res"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T26_LCPN_50-Pow.py",
+            "Source_Code": "return x * res if n % 2 else res",
+            "Mutate_Code": "return x * res if n ++ 2 else res"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T26_LCPN_50-Pow.py",
+            "Source_Code": "return x * res if n % 2 else res",
+            "Mutate_Code": "return x * res if n -- 2 else res"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T26_LCPN_50-Pow.py",
+            "Source_Code": "return x * res if n % 2 else res",
+            "Mutate_Code": "return x * res if n ** 2 else res"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T26_LCPN_50-Pow.py",
+            "Source_Code": "return x * res if n % 2 else res",
+            "Mutate_Code": "return x * res if n // 2 else res"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T26_LCPN_50-Pow.py",
+            "Source_Code": "return x * res if n % 2 else res",
+            "Mutate_Code": "return x * res if n %% 2 else res"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T26_LCPN_50-Pow.py",
+            "Source_Code": "return x * res if n % 2 else res",
+            "Mutate_Code": "return x * res if n **** 2 else res"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T26_LCPN_50-Pow.py",
+            "Source_Code": "return x * res if n % 2 else res",
+            "Mutate_Code": "return x * res if n //// 2 else res"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T26_LCPN_50-Pow.py",
+            "Source_Code": "return x * res if n % 2 else res",
+            "Mutate_Code": "return x ++ res if n % 2 else res"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T26_LCPN_50-Pow.py",
+            "Source_Code": "return x * res if n % 2 else res",
+            "Mutate_Code": "return x -- res if n % 2 else res"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T26_LCPN_50-Pow.py",
+            "Source_Code": "return x * res if n % 2 else res",
+            "Mutate_Code": "return x ** res if n % 2 else res"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T26_LCPN_50-Pow.py",
+            "Source_Code": "return x * res if n % 2 else res",
+            "Mutate_Code": "return x // res if n % 2 else res"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T26_LCPN_50-Pow.py",
+            "Source_Code": "return x * res if n % 2 else res",
+            "Mutate_Code": "return x %% res if n % 2 else res"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T26_LCPN_50-Pow.py",
+            "Source_Code": "return x * res if n % 2 else res",
+            "Mutate_Code": "return x **** res if n % 2 else res"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T26_LCPN_50-Pow.py",
+            "Source_Code": "return x * res if n % 2 else res",
+            "Mutate_Code": "return x //// res if n % 2 else res"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T26_LCPN_50-Pow.py",
+            "Source_Code": "return x * res if n % 2 else res",
+            "Mutate_Code": " x * res if n % 2 else res"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T26_LCPN_50-Pow.py",
+            "Source_Code": "return x * res if n % 2 else res",
+            "Mutate_Code": "passx * res if n % 2 else res"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T26_LCPN_50-Pow.py",
+            "Source_Code": "return x * res if n % 2 else res",
+            "Mutate_Code": "return returnx * res if n % 2 else res"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T26_LCPN_50-Pow.py",
+            "Source_Code": "res = helper(x, abs(n))",
+            "Mutate_Code": "res helper(x, abs(n))"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T26_LCPN_50-Pow.py",
+            "Source_Code": "res = helper(x, abs(n))",
+            "Mutate_Code": "res helper(x, abs(n))"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T26_LCPN_50-Pow.py",
+            "Source_Code": "res = helper(x, abs(n))",
+            "Mutate_Code": "res += helper(x, abs(n))"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T26_LCPN_50-Pow.py",
+            "Source_Code": "res = helper(x, abs(n))",
+            "Mutate_Code": "res -= helper(x, abs(n))"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T26_LCPN_50-Pow.py",
+            "Source_Code": "res = helper(x, abs(n))",
+            "Mutate_Code": "res *= helper(x, abs(n))"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T26_LCPN_50-Pow.py",
+            "Source_Code": "res = helper(x, abs(n))",
+            "Mutate_Code": "res /= helper(x, abs(n))"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T26_LCPN_50-Pow.py",
+            "Source_Code": "res = helper(x, abs(n))",
+            "Mutate_Code": "res %= helper(x, abs(n))"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T26_LCPN_50-Pow.py",
+            "Source_Code": "res = helper(x, abs(n))",
+            "Mutate_Code": "res //= helper(x, abs(n))"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T26_LCPN_50-Pow.py",
+            "Source_Code": "res = helper(x, abs(n))",
+            "Mutate_Code": "res **= helper(x, abs(n))"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T26_LCPN_50-Pow.py",
+            "Source_Code": "res = helper(x, abs(n))",
+            "Mutate_Code": "res &= helper(x, abs(n))"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T26_LCPN_50-Pow.py",
+            "Source_Code": "res = helper(x, abs(n))",
+            "Mutate_Code": "res |= helper(x, abs(n))"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T26_LCPN_50-Pow.py",
+            "Source_Code": "res = helper(x, abs(n))",
+            "Mutate_Code": "res ^= helper(x, abs(n))"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T26_LCPN_50-Pow.py",
+            "Source_Code": "res = helper(x, abs(n))",
+            "Mutate_Code": "res >>= helper(x, abs(n))"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T26_LCPN_50-Pow.py",
+            "Source_Code": "res = helper(x, abs(n))",
+            "Mutate_Code": "res <<= helper(x, abs(n))"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T26_LCPN_50-Pow.py",
+            "Source_Code": "res = helper(x, abs(n))",
+            "Mutate_Code": "res += helper(x, abs(n))"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T26_LCPN_50-Pow.py",
+            "Source_Code": "res = helper(x, abs(n))",
+            "Mutate_Code": "res -= helper(x, abs(n))"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T26_LCPN_50-Pow.py",
+            "Source_Code": "res = helper(x, abs(n))",
+            "Mutate_Code": "res *= helper(x, abs(n))"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T26_LCPN_50-Pow.py",
+            "Source_Code": "res = helper(x, abs(n))",
+            "Mutate_Code": "res /= helper(x, abs(n))"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T26_LCPN_50-Pow.py",
+            "Source_Code": "res = helper(x, abs(n))",
+            "Mutate_Code": "res %= helper(x, abs(n))"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T26_LCPN_50-Pow.py",
+            "Source_Code": "res = helper(x, abs(n))",
+            "Mutate_Code": "res //= helper(x, abs(n))"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T26_LCPN_50-Pow.py",
+            "Source_Code": "res = helper(x, abs(n))",
+            "Mutate_Code": "res **= helper(x, abs(n))"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T26_LCPN_50-Pow.py",
+            "Source_Code": "res = helper(x, abs(n))",
+            "Mutate_Code": "res &= helper(x, abs(n))"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T26_LCPN_50-Pow.py",
+            "Source_Code": "res = helper(x, abs(n))",
+            "Mutate_Code": "res |= helper(x, abs(n))"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T26_LCPN_50-Pow.py",
+            "Source_Code": "res = helper(x, abs(n))",
+            "Mutate_Code": "res ^= helper(x, abs(n))"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T26_LCPN_50-Pow.py",
+            "Source_Code": "res = helper(x, abs(n))",
+            "Mutate_Code": "res >>= helper(x, abs(n))"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T26_LCPN_50-Pow.py",
+            "Source_Code": "res = helper(x, abs(n))",
+            "Mutate_Code": "res <<= helper(x, abs(n))"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T26_LCPN_50-Pow.py",
+            "Source_Code": "res = helper(x, abs(n))",
+            "Mutate_Code": "res == helper(x, abs(n))"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T26_LCPN_50-Pow.py",
+            "Source_Code": "res = helper(x, abs(n))",
+            "Mutate_Code": "res +=+= helper(x, abs(n))"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T26_LCPN_50-Pow.py",
+            "Source_Code": "res = helper(x, abs(n))",
+            "Mutate_Code": "res -=-= helper(x, abs(n))"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T26_LCPN_50-Pow.py",
+            "Source_Code": "res = helper(x, abs(n))",
+            "Mutate_Code": "res *=*= helper(x, abs(n))"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T26_LCPN_50-Pow.py",
+            "Source_Code": "res = helper(x, abs(n))",
+            "Mutate_Code": "res /=/= helper(x, abs(n))"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T26_LCPN_50-Pow.py",
+            "Source_Code": "res = helper(x, abs(n))",
+            "Mutate_Code": "res %=%= helper(x, abs(n))"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T26_LCPN_50-Pow.py",
+            "Source_Code": "res = helper(x, abs(n))",
+            "Mutate_Code": "res //=//= helper(x, abs(n))"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T26_LCPN_50-Pow.py",
+            "Source_Code": "res = helper(x, abs(n))",
+            "Mutate_Code": "res **=**= helper(x, abs(n))"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T26_LCPN_50-Pow.py",
+            "Source_Code": "res = helper(x, abs(n))",
+            "Mutate_Code": "res &=&= helper(x, abs(n))"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T26_LCPN_50-Pow.py",
+            "Source_Code": "res = helper(x, abs(n))",
+            "Mutate_Code": "res |=|= helper(x, abs(n))"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T26_LCPN_50-Pow.py",
+            "Source_Code": "res = helper(x, abs(n))",
+            "Mutate_Code": "res ^=^= helper(x, abs(n))"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T26_LCPN_50-Pow.py",
+            "Source_Code": "res = helper(x, abs(n))",
+            "Mutate_Code": "res >>=>>= helper(x, abs(n))"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T26_LCPN_50-Pow.py",
+            "Source_Code": "res = helper(x, abs(n))",
+            "Mutate_Code": "res <<=<<=helper(x, abs(n))"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T26_LCPN_50-Pow.py",
+            "Source_Code": "res = helper(x, abs(n))",
+            "Mutate_Code": "res == helper(x, abs(n))"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T26_LCPN_50-Pow.py",
+            "Source_Code": "res = helper(x, abs(n))",
+            "Mutate_Code": "res +=+= helper(x, abs(n))"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T26_LCPN_50-Pow.py",
+            "Source_Code": "res = helper(x, abs(n))",
+            "Mutate_Code": "res -=-= helper(x, abs(n))"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T26_LCPN_50-Pow.py",
+            "Source_Code": "res = helper(x, abs(n))",
+            "Mutate_Code": "res *=*= helper(x, abs(n))"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T26_LCPN_50-Pow.py",
+            "Source_Code": "res = helper(x, abs(n))",
+            "Mutate_Code": "res /=/= helper(x, abs(n))"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T26_LCPN_50-Pow.py",
+            "Source_Code": "res = helper(x, abs(n))",
+            "Mutate_Code": "res %=%= helper(x, abs(n))"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T26_LCPN_50-Pow.py",
+            "Source_Code": "res = helper(x, abs(n))",
+            "Mutate_Code": "res //=//= helper(x, abs(n))"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T26_LCPN_50-Pow.py",
+            "Source_Code": "res = helper(x, abs(n))",
+            "Mutate_Code": "res **=**= helper(x, abs(n))"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T26_LCPN_50-Pow.py",
+            "Source_Code": "res = helper(x, abs(n))",
+            "Mutate_Code": "res &=&= helper(x, abs(n))"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T26_LCPN_50-Pow.py",
+            "Source_Code": "res = helper(x, abs(n))",
+            "Mutate_Code": "res |=|= helper(x, abs(n))"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T26_LCPN_50-Pow.py",
+            "Source_Code": "res = helper(x, abs(n))",
+            "Mutate_Code": "res ^=^= helper(x, abs(n))"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T26_LCPN_50-Pow.py",
+            "Source_Code": "res = helper(x, abs(n))",
+            "Mutate_Code": "res >>=>>= helper(x, abs(n))"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T26_LCPN_50-Pow.py",
+            "Source_Code": "res = helper(x, abs(n))",
+            "Mutate_Code": "res <<=<<=helper(x, abs(n))"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T26_LCPN_50-Pow.py",
+            "Source_Code": "res = helper(x, abs(n))",
+            "Mutate_Code": "res = helper(x, abs( ))"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T26_LCPN_50-Pow.py",
+            "Source_Code": "res = helper(x, abs(n))",
+            "Mutate_Code": "res = helper(x, abs( ))"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T26_LCPN_50-Pow.py",
+            "Source_Code": "res = helper(x, abs(n))",
+            "Mutate_Code": "res = helper(x, abs( ))"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T26_LCPN_50-Pow.py",
+            "Source_Code": "res = helper(x, abs(n))",
+            "Mutate_Code": "res = helper(x, abs( ))"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T26_LCPN_50-Pow.py",
+            "Source_Code": "res = helper(x, abs(n))",
+            "Mutate_Code": "res = helper(x, abs( ))"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T26_LCPN_50-Pow.py",
+            "Source_Code": "res = helper(x, abs(n))",
+            "Mutate_Code": "res = helper(x, abs( ))"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T26_LCPN_50-Pow.py",
+            "Source_Code": "res = helper(x, abs(n))",
+            "Mutate_Code": "res = helper(x, abs( ))"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T26_LCPN_50-Pow.py",
+            "Source_Code": "return res if n >= 0 else 1 / res",
+            "Mutate_Code": "return res if n >= 0 else 1 res"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T26_LCPN_50-Pow.py",
+            "Source_Code": "return res if n >= 0 else 1 / res",
+            "Mutate_Code": "return res if n >= 0 else 1 + res"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T26_LCPN_50-Pow.py",
+            "Source_Code": "return res if n >= 0 else 1 / res",
+            "Mutate_Code": "return res if n >= 0 else 1 - res"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T26_LCPN_50-Pow.py",
+            "Source_Code": "return res if n >= 0 else 1 / res",
+            "Mutate_Code": "return res if n >= 0 else 1 * res"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T26_LCPN_50-Pow.py",
+            "Source_Code": "return res if n >= 0 else 1 / res",
+            "Mutate_Code": "return res if n >= 0 else 1 % res"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T26_LCPN_50-Pow.py",
+            "Source_Code": "return res if n >= 0 else 1 / res",
+            "Mutate_Code": "return res if n >= 0 else 1 ** res"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T26_LCPN_50-Pow.py",
+            "Source_Code": "return res if n >= 0 else 1 / res",
+            "Mutate_Code": "return res if n >= 0 else 1 // res"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T26_LCPN_50-Pow.py",
+            "Source_Code": "return res if n >= 0 else 1 / res",
+            "Mutate_Code": "return res if n >= 0 else 1 ++ res"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T26_LCPN_50-Pow.py",
+            "Source_Code": "return res if n >= 0 else 1 / res",
+            "Mutate_Code": "return res if n >= 0 else 1 -- res"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T26_LCPN_50-Pow.py",
+            "Source_Code": "return res if n >= 0 else 1 / res",
+            "Mutate_Code": "return res if n >= 0 else 1 ** res"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T26_LCPN_50-Pow.py",
+            "Source_Code": "return res if n >= 0 else 1 / res",
+            "Mutate_Code": "return res if n >= 0 else 1 // res"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T26_LCPN_50-Pow.py",
+            "Source_Code": "return res if n >= 0 else 1 / res",
+            "Mutate_Code": "return res if n >= 0 else 1 %% res"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T26_LCPN_50-Pow.py",
+            "Source_Code": "return res if n >= 0 else 1 / res",
+            "Mutate_Code": "return res if n >= 0 else 1 **** res"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T26_LCPN_50-Pow.py",
+            "Source_Code": "return res if n >= 0 else 1 / res",
+            "Mutate_Code": "return res if n >= 0 else 1 //// res"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T26_LCPN_50-Pow.py",
+            "Source_Code": "return res if n >= 0 else 1 / res",
+            "Mutate_Code": "return res if n   0 else 1 / res"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T26_LCPN_50-Pow.py",
+            "Source_Code": "return res if n >= 0 else 1 / res",
+            "Mutate_Code": "return res if n == 0 else 1 / res"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T26_LCPN_50-Pow.py",
+            "Source_Code": "return res if n >= 0 else 1 / res",
+            "Mutate_Code": "return res if n != 0 else 1 / res"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T26_LCPN_50-Pow.py",
+            "Source_Code": "return res if n >= 0 else 1 / res",
+            "Mutate_Code": "return res if n > 0 else 1 / res"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T26_LCPN_50-Pow.py",
+            "Source_Code": "return res if n >= 0 else 1 / res",
+            "Mutate_Code": "return res if n < 0 else 1 / res"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T26_LCPN_50-Pow.py",
+            "Source_Code": "return res if n >= 0 else 1 / res",
+            "Mutate_Code": "return res if n <= 0 else 1 / res"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T26_LCPN_50-Pow.py",
+            "Source_Code": "return res if n >= 0 else 1 / res",
+            "Mutate_Code": "return res if n  ====  0 else 1 / res"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T26_LCPN_50-Pow.py",
+            "Source_Code": "return res if n >= 0 else 1 / res",
+            "Mutate_Code": "return res if n  !==  0 else 1 / res"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T26_LCPN_50-Pow.py",
+            "Source_Code": "return res if n >= 0 else 1 / res",
+            "Mutate_Code": "return res if n  >>  0 else 1 / res"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T26_LCPN_50-Pow.py",
+            "Source_Code": "return res if n >= 0 else 1 / res",
+            "Mutate_Code": "return res if n  <<  0 else 1 / res"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T26_LCPN_50-Pow.py",
+            "Source_Code": "return res if n >= 0 else 1 / res",
+            "Mutate_Code": "return res if n  >=>=  0 else 1 / res"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T26_LCPN_50-Pow.py",
+            "Source_Code": "return res if n >= 0 else 1 / res",
+            "Mutate_Code": "return res if n  <=<=  0 else 1 / res"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T26_LCPN_50-Pow.py",
+            "Source_Code": "return res if n >= 0 else 1 / res",
+            "Mutate_Code": " res if n >= 0 else 1 / res"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T26_LCPN_50-Pow.py",
+            "Source_Code": "return res if n >= 0 else 1 / res",
+            "Mutate_Code": "passres if n >= 0 else 1 / res"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T26_LCPN_50-Pow.py",
+            "Source_Code": "return res if n >= 0 else 1 / res",
+            "Mutate_Code": "return returnres if n >= 0 else 1 / res"
+        }
+    }
+]

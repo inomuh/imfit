@@ -1,0 +1,3502 @@
+[
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T38_LCPN_76-Minimum-Window-Substring.py",
+            "Source_Code": "if t == \"\":",
+            "Mutate_Code": "if t   \"\":"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T38_LCPN_76-Minimum-Window-Substring.py",
+            "Source_Code": "if t == \"\":",
+            "Mutate_Code": "if t != \"\":"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T38_LCPN_76-Minimum-Window-Substring.py",
+            "Source_Code": "if t == \"\":",
+            "Mutate_Code": "if t > \"\":"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T38_LCPN_76-Minimum-Window-Substring.py",
+            "Source_Code": "if t == \"\":",
+            "Mutate_Code": "if t < \"\":"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T38_LCPN_76-Minimum-Window-Substring.py",
+            "Source_Code": "if t == \"\":",
+            "Mutate_Code": "if t >= \"\":"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T38_LCPN_76-Minimum-Window-Substring.py",
+            "Source_Code": "if t == \"\":",
+            "Mutate_Code": "if t <= \"\":"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T38_LCPN_76-Minimum-Window-Substring.py",
+            "Source_Code": "if t == \"\":",
+            "Mutate_Code": "if t  ====  \"\":"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T38_LCPN_76-Minimum-Window-Substring.py",
+            "Source_Code": "if t == \"\":",
+            "Mutate_Code": "if t  !==  \"\":"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T38_LCPN_76-Minimum-Window-Substring.py",
+            "Source_Code": "if t == \"\":",
+            "Mutate_Code": "if t  >>  \"\":"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T38_LCPN_76-Minimum-Window-Substring.py",
+            "Source_Code": "if t == \"\":",
+            "Mutate_Code": "if t  <<  \"\":"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T38_LCPN_76-Minimum-Window-Substring.py",
+            "Source_Code": "if t == \"\":",
+            "Mutate_Code": "if t  >=>=  \"\":"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T38_LCPN_76-Minimum-Window-Substring.py",
+            "Source_Code": "if t == \"\":",
+            "Mutate_Code": "if t  <=<=  \"\":"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T38_LCPN_76-Minimum-Window-Substring.py",
+            "Source_Code": "if t == \"\":",
+            "Mutate_Code": " "
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T38_LCPN_76-Minimum-Window-Substring.py",
+            "Source_Code": "if t == \"\":",
+            "Mutate_Code": "elif:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T38_LCPN_76-Minimum-Window-Substring.py",
+            "Source_Code": "if t == \"\":",
+            "Mutate_Code": "else:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T38_LCPN_76-Minimum-Window-Substring.py",
+            "Source_Code": "if t == \"\":",
+            "Mutate_Code": "if if"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T38_LCPN_76-Minimum-Window-Substring.py",
+            "Source_Code": "return \"\"",
+            "Mutate_Code": " \"\""
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T38_LCPN_76-Minimum-Window-Substring.py",
+            "Source_Code": "return \"\"",
+            "Mutate_Code": "pass\"\""
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T38_LCPN_76-Minimum-Window-Substring.py",
+            "Source_Code": "return \"\"",
+            "Mutate_Code": "return return\"\""
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T38_LCPN_76-Minimum-Window-Substring.py",
+            "Source_Code": "for c in t:",
+            "Mutate_Code": "for c t:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T38_LCPN_76-Minimum-Window-Substring.py",
+            "Source_Code": "for c in t:",
+            "Mutate_Code": "for c is t:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T38_LCPN_76-Minimum-Window-Substring.py",
+            "Source_Code": "for c in t:",
+            "Mutate_Code": "for c is not t:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T38_LCPN_76-Minimum-Window-Substring.py",
+            "Source_Code": "for c in t:",
+            "Mutate_Code": "for c in in t:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T38_LCPN_76-Minimum-Window-Substring.py",
+            "Source_Code": "for c in t:",
+            "Mutate_Code": "for c not in not in t:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T38_LCPN_76-Minimum-Window-Substring.py",
+            "Source_Code": "for c in t:",
+            "Mutate_Code": " "
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T38_LCPN_76-Minimum-Window-Substring.py",
+            "Source_Code": "for c in t:",
+            "Mutate_Code": "while True:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T38_LCPN_76-Minimum-Window-Substring.py",
+            "Source_Code": "for c in t:",
+            "Mutate_Code": "for for: c in t:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T38_LCPN_76-Minimum-Window-Substring.py",
+            "Source_Code": "countT[c] = 1 + countT.get(c, 0)",
+            "Mutate_Code": "countT[c] = 1 countT.get(c, 0)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T38_LCPN_76-Minimum-Window-Substring.py",
+            "Source_Code": "countT[c] = 1 + countT.get(c, 0)",
+            "Mutate_Code": "countT[c] = 1 - countT.get(c, 0)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T38_LCPN_76-Minimum-Window-Substring.py",
+            "Source_Code": "countT[c] = 1 + countT.get(c, 0)",
+            "Mutate_Code": "countT[c] = 1 * countT.get(c, 0)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T38_LCPN_76-Minimum-Window-Substring.py",
+            "Source_Code": "countT[c] = 1 + countT.get(c, 0)",
+            "Mutate_Code": "countT[c] = 1 / countT.get(c, 0)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T38_LCPN_76-Minimum-Window-Substring.py",
+            "Source_Code": "countT[c] = 1 + countT.get(c, 0)",
+            "Mutate_Code": "countT[c] = 1 % countT.get(c, 0)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T38_LCPN_76-Minimum-Window-Substring.py",
+            "Source_Code": "countT[c] = 1 + countT.get(c, 0)",
+            "Mutate_Code": "countT[c] = 1 ** countT.get(c, 0)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T38_LCPN_76-Minimum-Window-Substring.py",
+            "Source_Code": "countT[c] = 1 + countT.get(c, 0)",
+            "Mutate_Code": "countT[c] = 1 // countT.get(c, 0)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T38_LCPN_76-Minimum-Window-Substring.py",
+            "Source_Code": "countT[c] = 1 + countT.get(c, 0)",
+            "Mutate_Code": "countT[c] = 1 ++ countT.get(c, 0)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T38_LCPN_76-Minimum-Window-Substring.py",
+            "Source_Code": "countT[c] = 1 + countT.get(c, 0)",
+            "Mutate_Code": "countT[c] = 1 -- countT.get(c, 0)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T38_LCPN_76-Minimum-Window-Substring.py",
+            "Source_Code": "countT[c] = 1 + countT.get(c, 0)",
+            "Mutate_Code": "countT[c] = 1 ** countT.get(c, 0)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T38_LCPN_76-Minimum-Window-Substring.py",
+            "Source_Code": "countT[c] = 1 + countT.get(c, 0)",
+            "Mutate_Code": "countT[c] = 1 // countT.get(c, 0)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T38_LCPN_76-Minimum-Window-Substring.py",
+            "Source_Code": "countT[c] = 1 + countT.get(c, 0)",
+            "Mutate_Code": "countT[c] = 1 %% countT.get(c, 0)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T38_LCPN_76-Minimum-Window-Substring.py",
+            "Source_Code": "countT[c] = 1 + countT.get(c, 0)",
+            "Mutate_Code": "countT[c] = 1 **** countT.get(c, 0)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T38_LCPN_76-Minimum-Window-Substring.py",
+            "Source_Code": "countT[c] = 1 + countT.get(c, 0)",
+            "Mutate_Code": "countT[c] = 1 //// countT.get(c, 0)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T38_LCPN_76-Minimum-Window-Substring.py",
+            "Source_Code": "countT[c] = 1 + countT.get(c, 0)",
+            "Mutate_Code": "countT[c] 1 + countT.get(c, 0)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T38_LCPN_76-Minimum-Window-Substring.py",
+            "Source_Code": "countT[c] = 1 + countT.get(c, 0)",
+            "Mutate_Code": "countT[c] 1 + countT.get(c, 0)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T38_LCPN_76-Minimum-Window-Substring.py",
+            "Source_Code": "countT[c] = 1 + countT.get(c, 0)",
+            "Mutate_Code": "countT[c] += 1 + countT.get(c, 0)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T38_LCPN_76-Minimum-Window-Substring.py",
+            "Source_Code": "countT[c] = 1 + countT.get(c, 0)",
+            "Mutate_Code": "countT[c] -= 1 + countT.get(c, 0)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T38_LCPN_76-Minimum-Window-Substring.py",
+            "Source_Code": "countT[c] = 1 + countT.get(c, 0)",
+            "Mutate_Code": "countT[c] *= 1 + countT.get(c, 0)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T38_LCPN_76-Minimum-Window-Substring.py",
+            "Source_Code": "countT[c] = 1 + countT.get(c, 0)",
+            "Mutate_Code": "countT[c] /= 1 + countT.get(c, 0)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T38_LCPN_76-Minimum-Window-Substring.py",
+            "Source_Code": "countT[c] = 1 + countT.get(c, 0)",
+            "Mutate_Code": "countT[c] %= 1 + countT.get(c, 0)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T38_LCPN_76-Minimum-Window-Substring.py",
+            "Source_Code": "countT[c] = 1 + countT.get(c, 0)",
+            "Mutate_Code": "countT[c] //= 1 + countT.get(c, 0)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T38_LCPN_76-Minimum-Window-Substring.py",
+            "Source_Code": "countT[c] = 1 + countT.get(c, 0)",
+            "Mutate_Code": "countT[c] **= 1 + countT.get(c, 0)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T38_LCPN_76-Minimum-Window-Substring.py",
+            "Source_Code": "countT[c] = 1 + countT.get(c, 0)",
+            "Mutate_Code": "countT[c] &= 1 + countT.get(c, 0)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T38_LCPN_76-Minimum-Window-Substring.py",
+            "Source_Code": "countT[c] = 1 + countT.get(c, 0)",
+            "Mutate_Code": "countT[c] |= 1 + countT.get(c, 0)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T38_LCPN_76-Minimum-Window-Substring.py",
+            "Source_Code": "countT[c] = 1 + countT.get(c, 0)",
+            "Mutate_Code": "countT[c] ^= 1 + countT.get(c, 0)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T38_LCPN_76-Minimum-Window-Substring.py",
+            "Source_Code": "countT[c] = 1 + countT.get(c, 0)",
+            "Mutate_Code": "countT[c] >>= 1 + countT.get(c, 0)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T38_LCPN_76-Minimum-Window-Substring.py",
+            "Source_Code": "countT[c] = 1 + countT.get(c, 0)",
+            "Mutate_Code": "countT[c] <<= 1 + countT.get(c, 0)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T38_LCPN_76-Minimum-Window-Substring.py",
+            "Source_Code": "countT[c] = 1 + countT.get(c, 0)",
+            "Mutate_Code": "countT[c] += 1 + countT.get(c, 0)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T38_LCPN_76-Minimum-Window-Substring.py",
+            "Source_Code": "countT[c] = 1 + countT.get(c, 0)",
+            "Mutate_Code": "countT[c] -= 1 + countT.get(c, 0)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T38_LCPN_76-Minimum-Window-Substring.py",
+            "Source_Code": "countT[c] = 1 + countT.get(c, 0)",
+            "Mutate_Code": "countT[c] *= 1 + countT.get(c, 0)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T38_LCPN_76-Minimum-Window-Substring.py",
+            "Source_Code": "countT[c] = 1 + countT.get(c, 0)",
+            "Mutate_Code": "countT[c] /= 1 + countT.get(c, 0)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T38_LCPN_76-Minimum-Window-Substring.py",
+            "Source_Code": "countT[c] = 1 + countT.get(c, 0)",
+            "Mutate_Code": "countT[c] %= 1 + countT.get(c, 0)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T38_LCPN_76-Minimum-Window-Substring.py",
+            "Source_Code": "countT[c] = 1 + countT.get(c, 0)",
+            "Mutate_Code": "countT[c] //= 1 + countT.get(c, 0)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T38_LCPN_76-Minimum-Window-Substring.py",
+            "Source_Code": "countT[c] = 1 + countT.get(c, 0)",
+            "Mutate_Code": "countT[c] **= 1 + countT.get(c, 0)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T38_LCPN_76-Minimum-Window-Substring.py",
+            "Source_Code": "countT[c] = 1 + countT.get(c, 0)",
+            "Mutate_Code": "countT[c] &= 1 + countT.get(c, 0)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T38_LCPN_76-Minimum-Window-Substring.py",
+            "Source_Code": "countT[c] = 1 + countT.get(c, 0)",
+            "Mutate_Code": "countT[c] |= 1 + countT.get(c, 0)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T38_LCPN_76-Minimum-Window-Substring.py",
+            "Source_Code": "countT[c] = 1 + countT.get(c, 0)",
+            "Mutate_Code": "countT[c] ^= 1 + countT.get(c, 0)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T38_LCPN_76-Minimum-Window-Substring.py",
+            "Source_Code": "countT[c] = 1 + countT.get(c, 0)",
+            "Mutate_Code": "countT[c] >>= 1 + countT.get(c, 0)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T38_LCPN_76-Minimum-Window-Substring.py",
+            "Source_Code": "countT[c] = 1 + countT.get(c, 0)",
+            "Mutate_Code": "countT[c] <<= 1 + countT.get(c, 0)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T38_LCPN_76-Minimum-Window-Substring.py",
+            "Source_Code": "countT[c] = 1 + countT.get(c, 0)",
+            "Mutate_Code": "countT[c] == 1 + countT.get(c, 0)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T38_LCPN_76-Minimum-Window-Substring.py",
+            "Source_Code": "countT[c] = 1 + countT.get(c, 0)",
+            "Mutate_Code": "countT[c] +=+= 1 + countT.get(c, 0)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T38_LCPN_76-Minimum-Window-Substring.py",
+            "Source_Code": "countT[c] = 1 + countT.get(c, 0)",
+            "Mutate_Code": "countT[c] -=-= 1 + countT.get(c, 0)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T38_LCPN_76-Minimum-Window-Substring.py",
+            "Source_Code": "countT[c] = 1 + countT.get(c, 0)",
+            "Mutate_Code": "countT[c] *=*= 1 + countT.get(c, 0)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T38_LCPN_76-Minimum-Window-Substring.py",
+            "Source_Code": "countT[c] = 1 + countT.get(c, 0)",
+            "Mutate_Code": "countT[c] /=/= 1 + countT.get(c, 0)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T38_LCPN_76-Minimum-Window-Substring.py",
+            "Source_Code": "countT[c] = 1 + countT.get(c, 0)",
+            "Mutate_Code": "countT[c] %=%= 1 + countT.get(c, 0)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T38_LCPN_76-Minimum-Window-Substring.py",
+            "Source_Code": "countT[c] = 1 + countT.get(c, 0)",
+            "Mutate_Code": "countT[c] //=//= 1 + countT.get(c, 0)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T38_LCPN_76-Minimum-Window-Substring.py",
+            "Source_Code": "countT[c] = 1 + countT.get(c, 0)",
+            "Mutate_Code": "countT[c] **=**= 1 + countT.get(c, 0)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T38_LCPN_76-Minimum-Window-Substring.py",
+            "Source_Code": "countT[c] = 1 + countT.get(c, 0)",
+            "Mutate_Code": "countT[c] &=&= 1 + countT.get(c, 0)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T38_LCPN_76-Minimum-Window-Substring.py",
+            "Source_Code": "countT[c] = 1 + countT.get(c, 0)",
+            "Mutate_Code": "countT[c] |=|= 1 + countT.get(c, 0)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T38_LCPN_76-Minimum-Window-Substring.py",
+            "Source_Code": "countT[c] = 1 + countT.get(c, 0)",
+            "Mutate_Code": "countT[c] ^=^= 1 + countT.get(c, 0)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T38_LCPN_76-Minimum-Window-Substring.py",
+            "Source_Code": "countT[c] = 1 + countT.get(c, 0)",
+            "Mutate_Code": "countT[c] >>=>>= 1 + countT.get(c, 0)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T38_LCPN_76-Minimum-Window-Substring.py",
+            "Source_Code": "countT[c] = 1 + countT.get(c, 0)",
+            "Mutate_Code": "countT[c] <<=<<=1 + countT.get(c, 0)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T38_LCPN_76-Minimum-Window-Substring.py",
+            "Source_Code": "countT[c] = 1 + countT.get(c, 0)",
+            "Mutate_Code": "countT[c] == 1 + countT.get(c, 0)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T38_LCPN_76-Minimum-Window-Substring.py",
+            "Source_Code": "countT[c] = 1 + countT.get(c, 0)",
+            "Mutate_Code": "countT[c] +=+= 1 + countT.get(c, 0)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T38_LCPN_76-Minimum-Window-Substring.py",
+            "Source_Code": "countT[c] = 1 + countT.get(c, 0)",
+            "Mutate_Code": "countT[c] -=-= 1 + countT.get(c, 0)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T38_LCPN_76-Minimum-Window-Substring.py",
+            "Source_Code": "countT[c] = 1 + countT.get(c, 0)",
+            "Mutate_Code": "countT[c] *=*= 1 + countT.get(c, 0)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T38_LCPN_76-Minimum-Window-Substring.py",
+            "Source_Code": "countT[c] = 1 + countT.get(c, 0)",
+            "Mutate_Code": "countT[c] /=/= 1 + countT.get(c, 0)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T38_LCPN_76-Minimum-Window-Substring.py",
+            "Source_Code": "countT[c] = 1 + countT.get(c, 0)",
+            "Mutate_Code": "countT[c] %=%= 1 + countT.get(c, 0)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T38_LCPN_76-Minimum-Window-Substring.py",
+            "Source_Code": "countT[c] = 1 + countT.get(c, 0)",
+            "Mutate_Code": "countT[c] //=//= 1 + countT.get(c, 0)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T38_LCPN_76-Minimum-Window-Substring.py",
+            "Source_Code": "countT[c] = 1 + countT.get(c, 0)",
+            "Mutate_Code": "countT[c] **=**= 1 + countT.get(c, 0)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T38_LCPN_76-Minimum-Window-Substring.py",
+            "Source_Code": "countT[c] = 1 + countT.get(c, 0)",
+            "Mutate_Code": "countT[c] &=&= 1 + countT.get(c, 0)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T38_LCPN_76-Minimum-Window-Substring.py",
+            "Source_Code": "countT[c] = 1 + countT.get(c, 0)",
+            "Mutate_Code": "countT[c] |=|= 1 + countT.get(c, 0)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T38_LCPN_76-Minimum-Window-Substring.py",
+            "Source_Code": "countT[c] = 1 + countT.get(c, 0)",
+            "Mutate_Code": "countT[c] ^=^= 1 + countT.get(c, 0)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T38_LCPN_76-Minimum-Window-Substring.py",
+            "Source_Code": "countT[c] = 1 + countT.get(c, 0)",
+            "Mutate_Code": "countT[c] >>=>>= 1 + countT.get(c, 0)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T38_LCPN_76-Minimum-Window-Substring.py",
+            "Source_Code": "countT[c] = 1 + countT.get(c, 0)",
+            "Mutate_Code": "countT[c] <<=<<=1 + countT.get(c, 0)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T38_LCPN_76-Minimum-Window-Substring.py",
+            "Source_Code": "countT[c] = 1 + countT.get(c, 0)",
+            "Mutate_Code": "countT[c] = 1 + countT.get( )"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T38_LCPN_76-Minimum-Window-Substring.py",
+            "Source_Code": "have, need = 0, len(countT)",
+            "Mutate_Code": "have, need 0, len(countT)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T38_LCPN_76-Minimum-Window-Substring.py",
+            "Source_Code": "have, need = 0, len(countT)",
+            "Mutate_Code": "have, need 0, len(countT)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T38_LCPN_76-Minimum-Window-Substring.py",
+            "Source_Code": "have, need = 0, len(countT)",
+            "Mutate_Code": "have, need += 0, len(countT)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T38_LCPN_76-Minimum-Window-Substring.py",
+            "Source_Code": "have, need = 0, len(countT)",
+            "Mutate_Code": "have, need -= 0, len(countT)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T38_LCPN_76-Minimum-Window-Substring.py",
+            "Source_Code": "have, need = 0, len(countT)",
+            "Mutate_Code": "have, need *= 0, len(countT)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T38_LCPN_76-Minimum-Window-Substring.py",
+            "Source_Code": "have, need = 0, len(countT)",
+            "Mutate_Code": "have, need /= 0, len(countT)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T38_LCPN_76-Minimum-Window-Substring.py",
+            "Source_Code": "have, need = 0, len(countT)",
+            "Mutate_Code": "have, need %= 0, len(countT)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T38_LCPN_76-Minimum-Window-Substring.py",
+            "Source_Code": "have, need = 0, len(countT)",
+            "Mutate_Code": "have, need //= 0, len(countT)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T38_LCPN_76-Minimum-Window-Substring.py",
+            "Source_Code": "have, need = 0, len(countT)",
+            "Mutate_Code": "have, need **= 0, len(countT)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T38_LCPN_76-Minimum-Window-Substring.py",
+            "Source_Code": "have, need = 0, len(countT)",
+            "Mutate_Code": "have, need &= 0, len(countT)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T38_LCPN_76-Minimum-Window-Substring.py",
+            "Source_Code": "have, need = 0, len(countT)",
+            "Mutate_Code": "have, need |= 0, len(countT)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T38_LCPN_76-Minimum-Window-Substring.py",
+            "Source_Code": "have, need = 0, len(countT)",
+            "Mutate_Code": "have, need ^= 0, len(countT)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T38_LCPN_76-Minimum-Window-Substring.py",
+            "Source_Code": "have, need = 0, len(countT)",
+            "Mutate_Code": "have, need >>= 0, len(countT)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T38_LCPN_76-Minimum-Window-Substring.py",
+            "Source_Code": "have, need = 0, len(countT)",
+            "Mutate_Code": "have, need <<= 0, len(countT)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T38_LCPN_76-Minimum-Window-Substring.py",
+            "Source_Code": "have, need = 0, len(countT)",
+            "Mutate_Code": "have, need += 0, len(countT)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T38_LCPN_76-Minimum-Window-Substring.py",
+            "Source_Code": "have, need = 0, len(countT)",
+            "Mutate_Code": "have, need -= 0, len(countT)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T38_LCPN_76-Minimum-Window-Substring.py",
+            "Source_Code": "have, need = 0, len(countT)",
+            "Mutate_Code": "have, need *= 0, len(countT)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T38_LCPN_76-Minimum-Window-Substring.py",
+            "Source_Code": "have, need = 0, len(countT)",
+            "Mutate_Code": "have, need /= 0, len(countT)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T38_LCPN_76-Minimum-Window-Substring.py",
+            "Source_Code": "have, need = 0, len(countT)",
+            "Mutate_Code": "have, need %= 0, len(countT)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T38_LCPN_76-Minimum-Window-Substring.py",
+            "Source_Code": "have, need = 0, len(countT)",
+            "Mutate_Code": "have, need //= 0, len(countT)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T38_LCPN_76-Minimum-Window-Substring.py",
+            "Source_Code": "have, need = 0, len(countT)",
+            "Mutate_Code": "have, need **= 0, len(countT)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T38_LCPN_76-Minimum-Window-Substring.py",
+            "Source_Code": "have, need = 0, len(countT)",
+            "Mutate_Code": "have, need &= 0, len(countT)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T38_LCPN_76-Minimum-Window-Substring.py",
+            "Source_Code": "have, need = 0, len(countT)",
+            "Mutate_Code": "have, need |= 0, len(countT)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T38_LCPN_76-Minimum-Window-Substring.py",
+            "Source_Code": "have, need = 0, len(countT)",
+            "Mutate_Code": "have, need ^= 0, len(countT)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T38_LCPN_76-Minimum-Window-Substring.py",
+            "Source_Code": "have, need = 0, len(countT)",
+            "Mutate_Code": "have, need >>= 0, len(countT)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T38_LCPN_76-Minimum-Window-Substring.py",
+            "Source_Code": "have, need = 0, len(countT)",
+            "Mutate_Code": "have, need <<= 0, len(countT)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T38_LCPN_76-Minimum-Window-Substring.py",
+            "Source_Code": "have, need = 0, len(countT)",
+            "Mutate_Code": "have, need == 0, len(countT)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T38_LCPN_76-Minimum-Window-Substring.py",
+            "Source_Code": "have, need = 0, len(countT)",
+            "Mutate_Code": "have, need +=+= 0, len(countT)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T38_LCPN_76-Minimum-Window-Substring.py",
+            "Source_Code": "have, need = 0, len(countT)",
+            "Mutate_Code": "have, need -=-= 0, len(countT)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T38_LCPN_76-Minimum-Window-Substring.py",
+            "Source_Code": "have, need = 0, len(countT)",
+            "Mutate_Code": "have, need *=*= 0, len(countT)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T38_LCPN_76-Minimum-Window-Substring.py",
+            "Source_Code": "have, need = 0, len(countT)",
+            "Mutate_Code": "have, need /=/= 0, len(countT)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T38_LCPN_76-Minimum-Window-Substring.py",
+            "Source_Code": "have, need = 0, len(countT)",
+            "Mutate_Code": "have, need %=%= 0, len(countT)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T38_LCPN_76-Minimum-Window-Substring.py",
+            "Source_Code": "have, need = 0, len(countT)",
+            "Mutate_Code": "have, need //=//= 0, len(countT)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T38_LCPN_76-Minimum-Window-Substring.py",
+            "Source_Code": "have, need = 0, len(countT)",
+            "Mutate_Code": "have, need **=**= 0, len(countT)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T38_LCPN_76-Minimum-Window-Substring.py",
+            "Source_Code": "have, need = 0, len(countT)",
+            "Mutate_Code": "have, need &=&= 0, len(countT)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T38_LCPN_76-Minimum-Window-Substring.py",
+            "Source_Code": "have, need = 0, len(countT)",
+            "Mutate_Code": "have, need |=|= 0, len(countT)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T38_LCPN_76-Minimum-Window-Substring.py",
+            "Source_Code": "have, need = 0, len(countT)",
+            "Mutate_Code": "have, need ^=^= 0, len(countT)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T38_LCPN_76-Minimum-Window-Substring.py",
+            "Source_Code": "have, need = 0, len(countT)",
+            "Mutate_Code": "have, need >>=>>= 0, len(countT)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T38_LCPN_76-Minimum-Window-Substring.py",
+            "Source_Code": "have, need = 0, len(countT)",
+            "Mutate_Code": "have, need <<=<<=0, len(countT)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T38_LCPN_76-Minimum-Window-Substring.py",
+            "Source_Code": "have, need = 0, len(countT)",
+            "Mutate_Code": "have, need == 0, len(countT)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T38_LCPN_76-Minimum-Window-Substring.py",
+            "Source_Code": "have, need = 0, len(countT)",
+            "Mutate_Code": "have, need +=+= 0, len(countT)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T38_LCPN_76-Minimum-Window-Substring.py",
+            "Source_Code": "have, need = 0, len(countT)",
+            "Mutate_Code": "have, need -=-= 0, len(countT)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T38_LCPN_76-Minimum-Window-Substring.py",
+            "Source_Code": "have, need = 0, len(countT)",
+            "Mutate_Code": "have, need *=*= 0, len(countT)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T38_LCPN_76-Minimum-Window-Substring.py",
+            "Source_Code": "have, need = 0, len(countT)",
+            "Mutate_Code": "have, need /=/= 0, len(countT)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T38_LCPN_76-Minimum-Window-Substring.py",
+            "Source_Code": "have, need = 0, len(countT)",
+            "Mutate_Code": "have, need %=%= 0, len(countT)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T38_LCPN_76-Minimum-Window-Substring.py",
+            "Source_Code": "have, need = 0, len(countT)",
+            "Mutate_Code": "have, need //=//= 0, len(countT)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T38_LCPN_76-Minimum-Window-Substring.py",
+            "Source_Code": "have, need = 0, len(countT)",
+            "Mutate_Code": "have, need **=**= 0, len(countT)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T38_LCPN_76-Minimum-Window-Substring.py",
+            "Source_Code": "have, need = 0, len(countT)",
+            "Mutate_Code": "have, need &=&= 0, len(countT)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T38_LCPN_76-Minimum-Window-Substring.py",
+            "Source_Code": "have, need = 0, len(countT)",
+            "Mutate_Code": "have, need |=|= 0, len(countT)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T38_LCPN_76-Minimum-Window-Substring.py",
+            "Source_Code": "have, need = 0, len(countT)",
+            "Mutate_Code": "have, need ^=^= 0, len(countT)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T38_LCPN_76-Minimum-Window-Substring.py",
+            "Source_Code": "have, need = 0, len(countT)",
+            "Mutate_Code": "have, need >>=>>= 0, len(countT)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T38_LCPN_76-Minimum-Window-Substring.py",
+            "Source_Code": "have, need = 0, len(countT)",
+            "Mutate_Code": "have, need <<=<<=0, len(countT)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T38_LCPN_76-Minimum-Window-Substring.py",
+            "Source_Code": "have, need = 0, len(countT)",
+            "Mutate_Code": "have, need = 0, len( )"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T38_LCPN_76-Minimum-Window-Substring.py",
+            "Source_Code": "res, resLen = [-1, -1], float(\"infinity\")",
+            "Mutate_Code": "res, resLen [-1, -1], float(\"infinity\")"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T38_LCPN_76-Minimum-Window-Substring.py",
+            "Source_Code": "res, resLen = [-1, -1], float(\"infinity\")",
+            "Mutate_Code": "res, resLen [-1, -1], float(\"infinity\")"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T38_LCPN_76-Minimum-Window-Substring.py",
+            "Source_Code": "res, resLen = [-1, -1], float(\"infinity\")",
+            "Mutate_Code": "res, resLen += [-1, -1], float(\"infinity\")"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T38_LCPN_76-Minimum-Window-Substring.py",
+            "Source_Code": "res, resLen = [-1, -1], float(\"infinity\")",
+            "Mutate_Code": "res, resLen -= [-1, -1], float(\"infinity\")"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T38_LCPN_76-Minimum-Window-Substring.py",
+            "Source_Code": "res, resLen = [-1, -1], float(\"infinity\")",
+            "Mutate_Code": "res, resLen *= [-1, -1], float(\"infinity\")"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T38_LCPN_76-Minimum-Window-Substring.py",
+            "Source_Code": "res, resLen = [-1, -1], float(\"infinity\")",
+            "Mutate_Code": "res, resLen /= [-1, -1], float(\"infinity\")"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T38_LCPN_76-Minimum-Window-Substring.py",
+            "Source_Code": "res, resLen = [-1, -1], float(\"infinity\")",
+            "Mutate_Code": "res, resLen %= [-1, -1], float(\"infinity\")"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T38_LCPN_76-Minimum-Window-Substring.py",
+            "Source_Code": "res, resLen = [-1, -1], float(\"infinity\")",
+            "Mutate_Code": "res, resLen //= [-1, -1], float(\"infinity\")"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T38_LCPN_76-Minimum-Window-Substring.py",
+            "Source_Code": "res, resLen = [-1, -1], float(\"infinity\")",
+            "Mutate_Code": "res, resLen **= [-1, -1], float(\"infinity\")"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T38_LCPN_76-Minimum-Window-Substring.py",
+            "Source_Code": "res, resLen = [-1, -1], float(\"infinity\")",
+            "Mutate_Code": "res, resLen &= [-1, -1], float(\"infinity\")"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T38_LCPN_76-Minimum-Window-Substring.py",
+            "Source_Code": "res, resLen = [-1, -1], float(\"infinity\")",
+            "Mutate_Code": "res, resLen |= [-1, -1], float(\"infinity\")"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T38_LCPN_76-Minimum-Window-Substring.py",
+            "Source_Code": "res, resLen = [-1, -1], float(\"infinity\")",
+            "Mutate_Code": "res, resLen ^= [-1, -1], float(\"infinity\")"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T38_LCPN_76-Minimum-Window-Substring.py",
+            "Source_Code": "res, resLen = [-1, -1], float(\"infinity\")",
+            "Mutate_Code": "res, resLen >>= [-1, -1], float(\"infinity\")"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T38_LCPN_76-Minimum-Window-Substring.py",
+            "Source_Code": "res, resLen = [-1, -1], float(\"infinity\")",
+            "Mutate_Code": "res, resLen <<= [-1, -1], float(\"infinity\")"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T38_LCPN_76-Minimum-Window-Substring.py",
+            "Source_Code": "res, resLen = [-1, -1], float(\"infinity\")",
+            "Mutate_Code": "res, resLen += [-1, -1], float(\"infinity\")"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T38_LCPN_76-Minimum-Window-Substring.py",
+            "Source_Code": "res, resLen = [-1, -1], float(\"infinity\")",
+            "Mutate_Code": "res, resLen -= [-1, -1], float(\"infinity\")"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T38_LCPN_76-Minimum-Window-Substring.py",
+            "Source_Code": "res, resLen = [-1, -1], float(\"infinity\")",
+            "Mutate_Code": "res, resLen *= [-1, -1], float(\"infinity\")"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T38_LCPN_76-Minimum-Window-Substring.py",
+            "Source_Code": "res, resLen = [-1, -1], float(\"infinity\")",
+            "Mutate_Code": "res, resLen /= [-1, -1], float(\"infinity\")"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T38_LCPN_76-Minimum-Window-Substring.py",
+            "Source_Code": "res, resLen = [-1, -1], float(\"infinity\")",
+            "Mutate_Code": "res, resLen %= [-1, -1], float(\"infinity\")"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T38_LCPN_76-Minimum-Window-Substring.py",
+            "Source_Code": "res, resLen = [-1, -1], float(\"infinity\")",
+            "Mutate_Code": "res, resLen //= [-1, -1], float(\"infinity\")"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T38_LCPN_76-Minimum-Window-Substring.py",
+            "Source_Code": "res, resLen = [-1, -1], float(\"infinity\")",
+            "Mutate_Code": "res, resLen **= [-1, -1], float(\"infinity\")"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T38_LCPN_76-Minimum-Window-Substring.py",
+            "Source_Code": "res, resLen = [-1, -1], float(\"infinity\")",
+            "Mutate_Code": "res, resLen &= [-1, -1], float(\"infinity\")"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T38_LCPN_76-Minimum-Window-Substring.py",
+            "Source_Code": "res, resLen = [-1, -1], float(\"infinity\")",
+            "Mutate_Code": "res, resLen |= [-1, -1], float(\"infinity\")"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T38_LCPN_76-Minimum-Window-Substring.py",
+            "Source_Code": "res, resLen = [-1, -1], float(\"infinity\")",
+            "Mutate_Code": "res, resLen ^= [-1, -1], float(\"infinity\")"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T38_LCPN_76-Minimum-Window-Substring.py",
+            "Source_Code": "res, resLen = [-1, -1], float(\"infinity\")",
+            "Mutate_Code": "res, resLen >>= [-1, -1], float(\"infinity\")"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T38_LCPN_76-Minimum-Window-Substring.py",
+            "Source_Code": "res, resLen = [-1, -1], float(\"infinity\")",
+            "Mutate_Code": "res, resLen <<= [-1, -1], float(\"infinity\")"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T38_LCPN_76-Minimum-Window-Substring.py",
+            "Source_Code": "res, resLen = [-1, -1], float(\"infinity\")",
+            "Mutate_Code": "res, resLen == [-1, -1], float(\"infinity\")"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T38_LCPN_76-Minimum-Window-Substring.py",
+            "Source_Code": "res, resLen = [-1, -1], float(\"infinity\")",
+            "Mutate_Code": "res, resLen +=+= [-1, -1], float(\"infinity\")"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T38_LCPN_76-Minimum-Window-Substring.py",
+            "Source_Code": "res, resLen = [-1, -1], float(\"infinity\")",
+            "Mutate_Code": "res, resLen -=-= [-1, -1], float(\"infinity\")"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T38_LCPN_76-Minimum-Window-Substring.py",
+            "Source_Code": "res, resLen = [-1, -1], float(\"infinity\")",
+            "Mutate_Code": "res, resLen *=*= [-1, -1], float(\"infinity\")"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T38_LCPN_76-Minimum-Window-Substring.py",
+            "Source_Code": "res, resLen = [-1, -1], float(\"infinity\")",
+            "Mutate_Code": "res, resLen /=/= [-1, -1], float(\"infinity\")"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T38_LCPN_76-Minimum-Window-Substring.py",
+            "Source_Code": "res, resLen = [-1, -1], float(\"infinity\")",
+            "Mutate_Code": "res, resLen %=%= [-1, -1], float(\"infinity\")"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T38_LCPN_76-Minimum-Window-Substring.py",
+            "Source_Code": "res, resLen = [-1, -1], float(\"infinity\")",
+            "Mutate_Code": "res, resLen //=//= [-1, -1], float(\"infinity\")"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T38_LCPN_76-Minimum-Window-Substring.py",
+            "Source_Code": "res, resLen = [-1, -1], float(\"infinity\")",
+            "Mutate_Code": "res, resLen **=**= [-1, -1], float(\"infinity\")"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T38_LCPN_76-Minimum-Window-Substring.py",
+            "Source_Code": "res, resLen = [-1, -1], float(\"infinity\")",
+            "Mutate_Code": "res, resLen &=&= [-1, -1], float(\"infinity\")"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T38_LCPN_76-Minimum-Window-Substring.py",
+            "Source_Code": "res, resLen = [-1, -1], float(\"infinity\")",
+            "Mutate_Code": "res, resLen |=|= [-1, -1], float(\"infinity\")"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T38_LCPN_76-Minimum-Window-Substring.py",
+            "Source_Code": "res, resLen = [-1, -1], float(\"infinity\")",
+            "Mutate_Code": "res, resLen ^=^= [-1, -1], float(\"infinity\")"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T38_LCPN_76-Minimum-Window-Substring.py",
+            "Source_Code": "res, resLen = [-1, -1], float(\"infinity\")",
+            "Mutate_Code": "res, resLen >>=>>= [-1, -1], float(\"infinity\")"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T38_LCPN_76-Minimum-Window-Substring.py",
+            "Source_Code": "res, resLen = [-1, -1], float(\"infinity\")",
+            "Mutate_Code": "res, resLen <<=<<=[-1, -1], float(\"infinity\")"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T38_LCPN_76-Minimum-Window-Substring.py",
+            "Source_Code": "res, resLen = [-1, -1], float(\"infinity\")",
+            "Mutate_Code": "res, resLen == [-1, -1], float(\"infinity\")"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T38_LCPN_76-Minimum-Window-Substring.py",
+            "Source_Code": "res, resLen = [-1, -1], float(\"infinity\")",
+            "Mutate_Code": "res, resLen +=+= [-1, -1], float(\"infinity\")"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T38_LCPN_76-Minimum-Window-Substring.py",
+            "Source_Code": "res, resLen = [-1, -1], float(\"infinity\")",
+            "Mutate_Code": "res, resLen -=-= [-1, -1], float(\"infinity\")"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T38_LCPN_76-Minimum-Window-Substring.py",
+            "Source_Code": "res, resLen = [-1, -1], float(\"infinity\")",
+            "Mutate_Code": "res, resLen *=*= [-1, -1], float(\"infinity\")"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T38_LCPN_76-Minimum-Window-Substring.py",
+            "Source_Code": "res, resLen = [-1, -1], float(\"infinity\")",
+            "Mutate_Code": "res, resLen /=/= [-1, -1], float(\"infinity\")"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T38_LCPN_76-Minimum-Window-Substring.py",
+            "Source_Code": "res, resLen = [-1, -1], float(\"infinity\")",
+            "Mutate_Code": "res, resLen %=%= [-1, -1], float(\"infinity\")"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T38_LCPN_76-Minimum-Window-Substring.py",
+            "Source_Code": "res, resLen = [-1, -1], float(\"infinity\")",
+            "Mutate_Code": "res, resLen //=//= [-1, -1], float(\"infinity\")"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T38_LCPN_76-Minimum-Window-Substring.py",
+            "Source_Code": "res, resLen = [-1, -1], float(\"infinity\")",
+            "Mutate_Code": "res, resLen **=**= [-1, -1], float(\"infinity\")"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T38_LCPN_76-Minimum-Window-Substring.py",
+            "Source_Code": "res, resLen = [-1, -1], float(\"infinity\")",
+            "Mutate_Code": "res, resLen &=&= [-1, -1], float(\"infinity\")"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T38_LCPN_76-Minimum-Window-Substring.py",
+            "Source_Code": "res, resLen = [-1, -1], float(\"infinity\")",
+            "Mutate_Code": "res, resLen |=|= [-1, -1], float(\"infinity\")"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T38_LCPN_76-Minimum-Window-Substring.py",
+            "Source_Code": "res, resLen = [-1, -1], float(\"infinity\")",
+            "Mutate_Code": "res, resLen ^=^= [-1, -1], float(\"infinity\")"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T38_LCPN_76-Minimum-Window-Substring.py",
+            "Source_Code": "res, resLen = [-1, -1], float(\"infinity\")",
+            "Mutate_Code": "res, resLen >>=>>= [-1, -1], float(\"infinity\")"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T38_LCPN_76-Minimum-Window-Substring.py",
+            "Source_Code": "res, resLen = [-1, -1], float(\"infinity\")",
+            "Mutate_Code": "res, resLen <<=<<=[-1, -1], float(\"infinity\")"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T38_LCPN_76-Minimum-Window-Substring.py",
+            "Source_Code": "res, resLen = [-1, -1], float(\"infinity\")",
+            "Mutate_Code": "res, resLen = [-1, -1], float( )"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T38_LCPN_76-Minimum-Window-Substring.py",
+            "Source_Code": "for r in range(len(s)):",
+            "Mutate_Code": "for r range(len(s)):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T38_LCPN_76-Minimum-Window-Substring.py",
+            "Source_Code": "for r in range(len(s)):",
+            "Mutate_Code": "for r is range(len(s)):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T38_LCPN_76-Minimum-Window-Substring.py",
+            "Source_Code": "for r in range(len(s)):",
+            "Mutate_Code": "for r is not range(len(s)):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T38_LCPN_76-Minimum-Window-Substring.py",
+            "Source_Code": "for r in range(len(s)):",
+            "Mutate_Code": "for r in in range(len(s)):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T38_LCPN_76-Minimum-Window-Substring.py",
+            "Source_Code": "for r in range(len(s)):",
+            "Mutate_Code": "for r not in not in range(len(s)):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T38_LCPN_76-Minimum-Window-Substring.py",
+            "Source_Code": "for r in range(len(s)):",
+            "Mutate_Code": " "
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T38_LCPN_76-Minimum-Window-Substring.py",
+            "Source_Code": "for r in range(len(s)):",
+            "Mutate_Code": "while True:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T38_LCPN_76-Minimum-Window-Substring.py",
+            "Source_Code": "for r in range(len(s)):",
+            "Mutate_Code": "for for: r in range(len(s)):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T38_LCPN_76-Minimum-Window-Substring.py",
+            "Source_Code": "for r in range(len(s)):",
+            "Mutate_Code": "for r in range(len( )):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T38_LCPN_76-Minimum-Window-Substring.py",
+            "Source_Code": "for r in range(len(s)):",
+            "Mutate_Code": "for r in range( )):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T38_LCPN_76-Minimum-Window-Substring.py",
+            "Source_Code": "for r in range(len(s)):",
+            "Mutate_Code": "for r range(len(s)):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T38_LCPN_76-Minimum-Window-Substring.py",
+            "Source_Code": "for r in range(len(s)):",
+            "Mutate_Code": "for r is range(len(s)):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T38_LCPN_76-Minimum-Window-Substring.py",
+            "Source_Code": "for r in range(len(s)):",
+            "Mutate_Code": "for r is not range(len(s)):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T38_LCPN_76-Minimum-Window-Substring.py",
+            "Source_Code": "for r in range(len(s)):",
+            "Mutate_Code": "for r in in range(len(s)):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T38_LCPN_76-Minimum-Window-Substring.py",
+            "Source_Code": "for r in range(len(s)):",
+            "Mutate_Code": "for r not in not in range(len(s)):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T38_LCPN_76-Minimum-Window-Substring.py",
+            "Source_Code": "for r in range(len(s)):",
+            "Mutate_Code": " "
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T38_LCPN_76-Minimum-Window-Substring.py",
+            "Source_Code": "for r in range(len(s)):",
+            "Mutate_Code": "while True:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T38_LCPN_76-Minimum-Window-Substring.py",
+            "Source_Code": "for r in range(len(s)):",
+            "Mutate_Code": "for for: r in range(len(s)):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T38_LCPN_76-Minimum-Window-Substring.py",
+            "Source_Code": "for r in range(len(s)):",
+            "Mutate_Code": "for r in range(len( )):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T38_LCPN_76-Minimum-Window-Substring.py",
+            "Source_Code": "for r in range(len(s)):",
+            "Mutate_Code": "for r in range( )):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T38_LCPN_76-Minimum-Window-Substring.py",
+            "Source_Code": "for r in range(len(s)):",
+            "Mutate_Code": "for r range(len(s)):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T38_LCPN_76-Minimum-Window-Substring.py",
+            "Source_Code": "for r in range(len(s)):",
+            "Mutate_Code": "for r is range(len(s)):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T38_LCPN_76-Minimum-Window-Substring.py",
+            "Source_Code": "for r in range(len(s)):",
+            "Mutate_Code": "for r is not range(len(s)):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T38_LCPN_76-Minimum-Window-Substring.py",
+            "Source_Code": "for r in range(len(s)):",
+            "Mutate_Code": "for r in in range(len(s)):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T38_LCPN_76-Minimum-Window-Substring.py",
+            "Source_Code": "for r in range(len(s)):",
+            "Mutate_Code": "for r not in not in range(len(s)):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T38_LCPN_76-Minimum-Window-Substring.py",
+            "Source_Code": "for r in range(len(s)):",
+            "Mutate_Code": " "
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T38_LCPN_76-Minimum-Window-Substring.py",
+            "Source_Code": "for r in range(len(s)):",
+            "Mutate_Code": "while True:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T38_LCPN_76-Minimum-Window-Substring.py",
+            "Source_Code": "for r in range(len(s)):",
+            "Mutate_Code": "for for: r in range(len(s)):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T38_LCPN_76-Minimum-Window-Substring.py",
+            "Source_Code": "for r in range(len(s)):",
+            "Mutate_Code": "for r in range(len( )):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T38_LCPN_76-Minimum-Window-Substring.py",
+            "Source_Code": "for r in range(len(s)):",
+            "Mutate_Code": "for r in range( )):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T38_LCPN_76-Minimum-Window-Substring.py",
+            "Source_Code": "window[c] = 1 + window.get(c, 0)",
+            "Mutate_Code": "window[c] = 1 window.get(c, 0)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T38_LCPN_76-Minimum-Window-Substring.py",
+            "Source_Code": "window[c] = 1 + window.get(c, 0)",
+            "Mutate_Code": "window[c] = 1 - window.get(c, 0)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T38_LCPN_76-Minimum-Window-Substring.py",
+            "Source_Code": "window[c] = 1 + window.get(c, 0)",
+            "Mutate_Code": "window[c] = 1 * window.get(c, 0)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T38_LCPN_76-Minimum-Window-Substring.py",
+            "Source_Code": "window[c] = 1 + window.get(c, 0)",
+            "Mutate_Code": "window[c] = 1 / window.get(c, 0)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T38_LCPN_76-Minimum-Window-Substring.py",
+            "Source_Code": "window[c] = 1 + window.get(c, 0)",
+            "Mutate_Code": "window[c] = 1 % window.get(c, 0)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T38_LCPN_76-Minimum-Window-Substring.py",
+            "Source_Code": "window[c] = 1 + window.get(c, 0)",
+            "Mutate_Code": "window[c] = 1 ** window.get(c, 0)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T38_LCPN_76-Minimum-Window-Substring.py",
+            "Source_Code": "window[c] = 1 + window.get(c, 0)",
+            "Mutate_Code": "window[c] = 1 // window.get(c, 0)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T38_LCPN_76-Minimum-Window-Substring.py",
+            "Source_Code": "window[c] = 1 + window.get(c, 0)",
+            "Mutate_Code": "window[c] = 1 ++ window.get(c, 0)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T38_LCPN_76-Minimum-Window-Substring.py",
+            "Source_Code": "window[c] = 1 + window.get(c, 0)",
+            "Mutate_Code": "window[c] = 1 -- window.get(c, 0)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T38_LCPN_76-Minimum-Window-Substring.py",
+            "Source_Code": "window[c] = 1 + window.get(c, 0)",
+            "Mutate_Code": "window[c] = 1 ** window.get(c, 0)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T38_LCPN_76-Minimum-Window-Substring.py",
+            "Source_Code": "window[c] = 1 + window.get(c, 0)",
+            "Mutate_Code": "window[c] = 1 // window.get(c, 0)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T38_LCPN_76-Minimum-Window-Substring.py",
+            "Source_Code": "window[c] = 1 + window.get(c, 0)",
+            "Mutate_Code": "window[c] = 1 %% window.get(c, 0)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T38_LCPN_76-Minimum-Window-Substring.py",
+            "Source_Code": "window[c] = 1 + window.get(c, 0)",
+            "Mutate_Code": "window[c] = 1 **** window.get(c, 0)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T38_LCPN_76-Minimum-Window-Substring.py",
+            "Source_Code": "window[c] = 1 + window.get(c, 0)",
+            "Mutate_Code": "window[c] = 1 //// window.get(c, 0)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T38_LCPN_76-Minimum-Window-Substring.py",
+            "Source_Code": "window[c] = 1 + window.get(c, 0)",
+            "Mutate_Code": "window[c] 1 + window.get(c, 0)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T38_LCPN_76-Minimum-Window-Substring.py",
+            "Source_Code": "window[c] = 1 + window.get(c, 0)",
+            "Mutate_Code": "window[c] 1 + window.get(c, 0)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T38_LCPN_76-Minimum-Window-Substring.py",
+            "Source_Code": "window[c] = 1 + window.get(c, 0)",
+            "Mutate_Code": "window[c] += 1 + window.get(c, 0)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T38_LCPN_76-Minimum-Window-Substring.py",
+            "Source_Code": "window[c] = 1 + window.get(c, 0)",
+            "Mutate_Code": "window[c] -= 1 + window.get(c, 0)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T38_LCPN_76-Minimum-Window-Substring.py",
+            "Source_Code": "window[c] = 1 + window.get(c, 0)",
+            "Mutate_Code": "window[c] *= 1 + window.get(c, 0)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T38_LCPN_76-Minimum-Window-Substring.py",
+            "Source_Code": "window[c] = 1 + window.get(c, 0)",
+            "Mutate_Code": "window[c] /= 1 + window.get(c, 0)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T38_LCPN_76-Minimum-Window-Substring.py",
+            "Source_Code": "window[c] = 1 + window.get(c, 0)",
+            "Mutate_Code": "window[c] %= 1 + window.get(c, 0)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T38_LCPN_76-Minimum-Window-Substring.py",
+            "Source_Code": "window[c] = 1 + window.get(c, 0)",
+            "Mutate_Code": "window[c] //= 1 + window.get(c, 0)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T38_LCPN_76-Minimum-Window-Substring.py",
+            "Source_Code": "window[c] = 1 + window.get(c, 0)",
+            "Mutate_Code": "window[c] **= 1 + window.get(c, 0)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T38_LCPN_76-Minimum-Window-Substring.py",
+            "Source_Code": "window[c] = 1 + window.get(c, 0)",
+            "Mutate_Code": "window[c] &= 1 + window.get(c, 0)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T38_LCPN_76-Minimum-Window-Substring.py",
+            "Source_Code": "window[c] = 1 + window.get(c, 0)",
+            "Mutate_Code": "window[c] |= 1 + window.get(c, 0)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T38_LCPN_76-Minimum-Window-Substring.py",
+            "Source_Code": "window[c] = 1 + window.get(c, 0)",
+            "Mutate_Code": "window[c] ^= 1 + window.get(c, 0)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T38_LCPN_76-Minimum-Window-Substring.py",
+            "Source_Code": "window[c] = 1 + window.get(c, 0)",
+            "Mutate_Code": "window[c] >>= 1 + window.get(c, 0)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T38_LCPN_76-Minimum-Window-Substring.py",
+            "Source_Code": "window[c] = 1 + window.get(c, 0)",
+            "Mutate_Code": "window[c] <<= 1 + window.get(c, 0)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T38_LCPN_76-Minimum-Window-Substring.py",
+            "Source_Code": "window[c] = 1 + window.get(c, 0)",
+            "Mutate_Code": "window[c] += 1 + window.get(c, 0)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T38_LCPN_76-Minimum-Window-Substring.py",
+            "Source_Code": "window[c] = 1 + window.get(c, 0)",
+            "Mutate_Code": "window[c] -= 1 + window.get(c, 0)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T38_LCPN_76-Minimum-Window-Substring.py",
+            "Source_Code": "window[c] = 1 + window.get(c, 0)",
+            "Mutate_Code": "window[c] *= 1 + window.get(c, 0)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T38_LCPN_76-Minimum-Window-Substring.py",
+            "Source_Code": "window[c] = 1 + window.get(c, 0)",
+            "Mutate_Code": "window[c] /= 1 + window.get(c, 0)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T38_LCPN_76-Minimum-Window-Substring.py",
+            "Source_Code": "window[c] = 1 + window.get(c, 0)",
+            "Mutate_Code": "window[c] %= 1 + window.get(c, 0)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T38_LCPN_76-Minimum-Window-Substring.py",
+            "Source_Code": "window[c] = 1 + window.get(c, 0)",
+            "Mutate_Code": "window[c] //= 1 + window.get(c, 0)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T38_LCPN_76-Minimum-Window-Substring.py",
+            "Source_Code": "window[c] = 1 + window.get(c, 0)",
+            "Mutate_Code": "window[c] **= 1 + window.get(c, 0)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T38_LCPN_76-Minimum-Window-Substring.py",
+            "Source_Code": "window[c] = 1 + window.get(c, 0)",
+            "Mutate_Code": "window[c] &= 1 + window.get(c, 0)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T38_LCPN_76-Minimum-Window-Substring.py",
+            "Source_Code": "window[c] = 1 + window.get(c, 0)",
+            "Mutate_Code": "window[c] |= 1 + window.get(c, 0)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T38_LCPN_76-Minimum-Window-Substring.py",
+            "Source_Code": "window[c] = 1 + window.get(c, 0)",
+            "Mutate_Code": "window[c] ^= 1 + window.get(c, 0)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T38_LCPN_76-Minimum-Window-Substring.py",
+            "Source_Code": "window[c] = 1 + window.get(c, 0)",
+            "Mutate_Code": "window[c] >>= 1 + window.get(c, 0)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T38_LCPN_76-Minimum-Window-Substring.py",
+            "Source_Code": "window[c] = 1 + window.get(c, 0)",
+            "Mutate_Code": "window[c] <<= 1 + window.get(c, 0)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T38_LCPN_76-Minimum-Window-Substring.py",
+            "Source_Code": "window[c] = 1 + window.get(c, 0)",
+            "Mutate_Code": "window[c] == 1 + window.get(c, 0)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T38_LCPN_76-Minimum-Window-Substring.py",
+            "Source_Code": "window[c] = 1 + window.get(c, 0)",
+            "Mutate_Code": "window[c] +=+= 1 + window.get(c, 0)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T38_LCPN_76-Minimum-Window-Substring.py",
+            "Source_Code": "window[c] = 1 + window.get(c, 0)",
+            "Mutate_Code": "window[c] -=-= 1 + window.get(c, 0)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T38_LCPN_76-Minimum-Window-Substring.py",
+            "Source_Code": "window[c] = 1 + window.get(c, 0)",
+            "Mutate_Code": "window[c] *=*= 1 + window.get(c, 0)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T38_LCPN_76-Minimum-Window-Substring.py",
+            "Source_Code": "window[c] = 1 + window.get(c, 0)",
+            "Mutate_Code": "window[c] /=/= 1 + window.get(c, 0)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T38_LCPN_76-Minimum-Window-Substring.py",
+            "Source_Code": "window[c] = 1 + window.get(c, 0)",
+            "Mutate_Code": "window[c] %=%= 1 + window.get(c, 0)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T38_LCPN_76-Minimum-Window-Substring.py",
+            "Source_Code": "window[c] = 1 + window.get(c, 0)",
+            "Mutate_Code": "window[c] //=//= 1 + window.get(c, 0)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T38_LCPN_76-Minimum-Window-Substring.py",
+            "Source_Code": "window[c] = 1 + window.get(c, 0)",
+            "Mutate_Code": "window[c] **=**= 1 + window.get(c, 0)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T38_LCPN_76-Minimum-Window-Substring.py",
+            "Source_Code": "window[c] = 1 + window.get(c, 0)",
+            "Mutate_Code": "window[c] &=&= 1 + window.get(c, 0)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T38_LCPN_76-Minimum-Window-Substring.py",
+            "Source_Code": "window[c] = 1 + window.get(c, 0)",
+            "Mutate_Code": "window[c] |=|= 1 + window.get(c, 0)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T38_LCPN_76-Minimum-Window-Substring.py",
+            "Source_Code": "window[c] = 1 + window.get(c, 0)",
+            "Mutate_Code": "window[c] ^=^= 1 + window.get(c, 0)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T38_LCPN_76-Minimum-Window-Substring.py",
+            "Source_Code": "window[c] = 1 + window.get(c, 0)",
+            "Mutate_Code": "window[c] >>=>>= 1 + window.get(c, 0)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T38_LCPN_76-Minimum-Window-Substring.py",
+            "Source_Code": "window[c] = 1 + window.get(c, 0)",
+            "Mutate_Code": "window[c] <<=<<=1 + window.get(c, 0)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T38_LCPN_76-Minimum-Window-Substring.py",
+            "Source_Code": "window[c] = 1 + window.get(c, 0)",
+            "Mutate_Code": "window[c] == 1 + window.get(c, 0)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T38_LCPN_76-Minimum-Window-Substring.py",
+            "Source_Code": "window[c] = 1 + window.get(c, 0)",
+            "Mutate_Code": "window[c] +=+= 1 + window.get(c, 0)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T38_LCPN_76-Minimum-Window-Substring.py",
+            "Source_Code": "window[c] = 1 + window.get(c, 0)",
+            "Mutate_Code": "window[c] -=-= 1 + window.get(c, 0)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T38_LCPN_76-Minimum-Window-Substring.py",
+            "Source_Code": "window[c] = 1 + window.get(c, 0)",
+            "Mutate_Code": "window[c] *=*= 1 + window.get(c, 0)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T38_LCPN_76-Minimum-Window-Substring.py",
+            "Source_Code": "window[c] = 1 + window.get(c, 0)",
+            "Mutate_Code": "window[c] /=/= 1 + window.get(c, 0)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T38_LCPN_76-Minimum-Window-Substring.py",
+            "Source_Code": "window[c] = 1 + window.get(c, 0)",
+            "Mutate_Code": "window[c] %=%= 1 + window.get(c, 0)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T38_LCPN_76-Minimum-Window-Substring.py",
+            "Source_Code": "window[c] = 1 + window.get(c, 0)",
+            "Mutate_Code": "window[c] //=//= 1 + window.get(c, 0)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T38_LCPN_76-Minimum-Window-Substring.py",
+            "Source_Code": "window[c] = 1 + window.get(c, 0)",
+            "Mutate_Code": "window[c] **=**= 1 + window.get(c, 0)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T38_LCPN_76-Minimum-Window-Substring.py",
+            "Source_Code": "window[c] = 1 + window.get(c, 0)",
+            "Mutate_Code": "window[c] &=&= 1 + window.get(c, 0)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T38_LCPN_76-Minimum-Window-Substring.py",
+            "Source_Code": "window[c] = 1 + window.get(c, 0)",
+            "Mutate_Code": "window[c] |=|= 1 + window.get(c, 0)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T38_LCPN_76-Minimum-Window-Substring.py",
+            "Source_Code": "window[c] = 1 + window.get(c, 0)",
+            "Mutate_Code": "window[c] ^=^= 1 + window.get(c, 0)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T38_LCPN_76-Minimum-Window-Substring.py",
+            "Source_Code": "window[c] = 1 + window.get(c, 0)",
+            "Mutate_Code": "window[c] >>=>>= 1 + window.get(c, 0)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T38_LCPN_76-Minimum-Window-Substring.py",
+            "Source_Code": "window[c] = 1 + window.get(c, 0)",
+            "Mutate_Code": "window[c] <<=<<=1 + window.get(c, 0)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T38_LCPN_76-Minimum-Window-Substring.py",
+            "Source_Code": "window[c] = 1 + window.get(c, 0)",
+            "Mutate_Code": "window[c] = 1 + window.get( )"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T38_LCPN_76-Minimum-Window-Substring.py",
+            "Source_Code": "if c in countT and window[c] == countT[c]:",
+            "Mutate_Code": "if c in countT and window[c]   countT[c]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T38_LCPN_76-Minimum-Window-Substring.py",
+            "Source_Code": "if c in countT and window[c] == countT[c]:",
+            "Mutate_Code": "if c in countT and window[c] != countT[c]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T38_LCPN_76-Minimum-Window-Substring.py",
+            "Source_Code": "if c in countT and window[c] == countT[c]:",
+            "Mutate_Code": "if c in countT and window[c] > countT[c]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T38_LCPN_76-Minimum-Window-Substring.py",
+            "Source_Code": "if c in countT and window[c] == countT[c]:",
+            "Mutate_Code": "if c in countT and window[c] < countT[c]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T38_LCPN_76-Minimum-Window-Substring.py",
+            "Source_Code": "if c in countT and window[c] == countT[c]:",
+            "Mutate_Code": "if c in countT and window[c] >= countT[c]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T38_LCPN_76-Minimum-Window-Substring.py",
+            "Source_Code": "if c in countT and window[c] == countT[c]:",
+            "Mutate_Code": "if c in countT and window[c] <= countT[c]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T38_LCPN_76-Minimum-Window-Substring.py",
+            "Source_Code": "if c in countT and window[c] == countT[c]:",
+            "Mutate_Code": "if c in countT and window[c]  ====  countT[c]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T38_LCPN_76-Minimum-Window-Substring.py",
+            "Source_Code": "if c in countT and window[c] == countT[c]:",
+            "Mutate_Code": "if c in countT and window[c]  !==  countT[c]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T38_LCPN_76-Minimum-Window-Substring.py",
+            "Source_Code": "if c in countT and window[c] == countT[c]:",
+            "Mutate_Code": "if c in countT and window[c]  >>  countT[c]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T38_LCPN_76-Minimum-Window-Substring.py",
+            "Source_Code": "if c in countT and window[c] == countT[c]:",
+            "Mutate_Code": "if c in countT and window[c]  <<  countT[c]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T38_LCPN_76-Minimum-Window-Substring.py",
+            "Source_Code": "if c in countT and window[c] == countT[c]:",
+            "Mutate_Code": "if c in countT and window[c]  >=>=  countT[c]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T38_LCPN_76-Minimum-Window-Substring.py",
+            "Source_Code": "if c in countT and window[c] == countT[c]:",
+            "Mutate_Code": "if c in countT and window[c]  <=<=  countT[c]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T38_LCPN_76-Minimum-Window-Substring.py",
+            "Source_Code": "if c in countT and window[c] == countT[c]:",
+            "Mutate_Code": "if c in countT window[c] == countT[c]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T38_LCPN_76-Minimum-Window-Substring.py",
+            "Source_Code": "if c in countT and window[c] == countT[c]:",
+            "Mutate_Code": "if c in countT or window[c] == countT[c]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T38_LCPN_76-Minimum-Window-Substring.py",
+            "Source_Code": "if c in countT and window[c] == countT[c]:",
+            "Mutate_Code": "if c in countT not window[c] == countT[c]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T38_LCPN_76-Minimum-Window-Substring.py",
+            "Source_Code": "if c in countT and window[c] == countT[c]:",
+            "Mutate_Code": "if c in countT and and window[c] == countT[c]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T38_LCPN_76-Minimum-Window-Substring.py",
+            "Source_Code": "if c in countT and window[c] == countT[c]:",
+            "Mutate_Code": "if c in countT or or window[c] == countT[c]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T38_LCPN_76-Minimum-Window-Substring.py",
+            "Source_Code": "if c in countT and window[c] == countT[c]:",
+            "Mutate_Code": "if c in countT not not window[c] == countT[c]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T38_LCPN_76-Minimum-Window-Substring.py",
+            "Source_Code": "if c in countT and window[c] == countT[c]:",
+            "Mutate_Code": "if c countT and window[c] == countT[c]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T38_LCPN_76-Minimum-Window-Substring.py",
+            "Source_Code": "if c in countT and window[c] == countT[c]:",
+            "Mutate_Code": "if c is countT and window[c] == countT[c]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T38_LCPN_76-Minimum-Window-Substring.py",
+            "Source_Code": "if c in countT and window[c] == countT[c]:",
+            "Mutate_Code": "if c is not countT and window[c] == countT[c]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T38_LCPN_76-Minimum-Window-Substring.py",
+            "Source_Code": "if c in countT and window[c] == countT[c]:",
+            "Mutate_Code": "if c in in countT and window[c] == countT[c]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T38_LCPN_76-Minimum-Window-Substring.py",
+            "Source_Code": "if c in countT and window[c] == countT[c]:",
+            "Mutate_Code": "if c not in not in countT and window[c] == countT[c]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T38_LCPN_76-Minimum-Window-Substring.py",
+            "Source_Code": "if c in countT and window[c] == countT[c]:",
+            "Mutate_Code": " "
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T38_LCPN_76-Minimum-Window-Substring.py",
+            "Source_Code": "if c in countT and window[c] == countT[c]:",
+            "Mutate_Code": "elif:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T38_LCPN_76-Minimum-Window-Substring.py",
+            "Source_Code": "if c in countT and window[c] == countT[c]:",
+            "Mutate_Code": "else:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T38_LCPN_76-Minimum-Window-Substring.py",
+            "Source_Code": "if c in countT and window[c] == countT[c]:",
+            "Mutate_Code": "if if"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T38_LCPN_76-Minimum-Window-Substring.py",
+            "Source_Code": "if c in countT and window[c] == countT[c]:",
+            "Mutate_Code": "if c in countT and window[c]   countT[c]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T38_LCPN_76-Minimum-Window-Substring.py",
+            "Source_Code": "if c in countT and window[c] == countT[c]:",
+            "Mutate_Code": "if c in countT and window[c] != countT[c]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T38_LCPN_76-Minimum-Window-Substring.py",
+            "Source_Code": "if c in countT and window[c] == countT[c]:",
+            "Mutate_Code": "if c in countT and window[c] > countT[c]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T38_LCPN_76-Minimum-Window-Substring.py",
+            "Source_Code": "if c in countT and window[c] == countT[c]:",
+            "Mutate_Code": "if c in countT and window[c] < countT[c]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T38_LCPN_76-Minimum-Window-Substring.py",
+            "Source_Code": "if c in countT and window[c] == countT[c]:",
+            "Mutate_Code": "if c in countT and window[c] >= countT[c]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T38_LCPN_76-Minimum-Window-Substring.py",
+            "Source_Code": "if c in countT and window[c] == countT[c]:",
+            "Mutate_Code": "if c in countT and window[c] <= countT[c]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T38_LCPN_76-Minimum-Window-Substring.py",
+            "Source_Code": "if c in countT and window[c] == countT[c]:",
+            "Mutate_Code": "if c in countT and window[c]  ====  countT[c]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T38_LCPN_76-Minimum-Window-Substring.py",
+            "Source_Code": "if c in countT and window[c] == countT[c]:",
+            "Mutate_Code": "if c in countT and window[c]  !==  countT[c]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T38_LCPN_76-Minimum-Window-Substring.py",
+            "Source_Code": "if c in countT and window[c] == countT[c]:",
+            "Mutate_Code": "if c in countT and window[c]  >>  countT[c]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T38_LCPN_76-Minimum-Window-Substring.py",
+            "Source_Code": "if c in countT and window[c] == countT[c]:",
+            "Mutate_Code": "if c in countT and window[c]  <<  countT[c]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T38_LCPN_76-Minimum-Window-Substring.py",
+            "Source_Code": "if c in countT and window[c] == countT[c]:",
+            "Mutate_Code": "if c in countT and window[c]  >=>=  countT[c]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T38_LCPN_76-Minimum-Window-Substring.py",
+            "Source_Code": "if c in countT and window[c] == countT[c]:",
+            "Mutate_Code": "if c in countT and window[c]  <=<=  countT[c]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T38_LCPN_76-Minimum-Window-Substring.py",
+            "Source_Code": "if c in countT and window[c] == countT[c]:",
+            "Mutate_Code": "if c in countT window[c] == countT[c]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T38_LCPN_76-Minimum-Window-Substring.py",
+            "Source_Code": "if c in countT and window[c] == countT[c]:",
+            "Mutate_Code": "if c in countT or window[c] == countT[c]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T38_LCPN_76-Minimum-Window-Substring.py",
+            "Source_Code": "if c in countT and window[c] == countT[c]:",
+            "Mutate_Code": "if c in countT not window[c] == countT[c]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T38_LCPN_76-Minimum-Window-Substring.py",
+            "Source_Code": "if c in countT and window[c] == countT[c]:",
+            "Mutate_Code": "if c in countT and and window[c] == countT[c]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T38_LCPN_76-Minimum-Window-Substring.py",
+            "Source_Code": "if c in countT and window[c] == countT[c]:",
+            "Mutate_Code": "if c in countT or or window[c] == countT[c]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T38_LCPN_76-Minimum-Window-Substring.py",
+            "Source_Code": "if c in countT and window[c] == countT[c]:",
+            "Mutate_Code": "if c in countT not not window[c] == countT[c]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T38_LCPN_76-Minimum-Window-Substring.py",
+            "Source_Code": "if c in countT and window[c] == countT[c]:",
+            "Mutate_Code": "if c countT and window[c] == countT[c]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T38_LCPN_76-Minimum-Window-Substring.py",
+            "Source_Code": "if c in countT and window[c] == countT[c]:",
+            "Mutate_Code": "if c is countT and window[c] == countT[c]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T38_LCPN_76-Minimum-Window-Substring.py",
+            "Source_Code": "if c in countT and window[c] == countT[c]:",
+            "Mutate_Code": "if c is not countT and window[c] == countT[c]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T38_LCPN_76-Minimum-Window-Substring.py",
+            "Source_Code": "if c in countT and window[c] == countT[c]:",
+            "Mutate_Code": "if c in in countT and window[c] == countT[c]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T38_LCPN_76-Minimum-Window-Substring.py",
+            "Source_Code": "if c in countT and window[c] == countT[c]:",
+            "Mutate_Code": "if c not in not in countT and window[c] == countT[c]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T38_LCPN_76-Minimum-Window-Substring.py",
+            "Source_Code": "if c in countT and window[c] == countT[c]:",
+            "Mutate_Code": " "
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T38_LCPN_76-Minimum-Window-Substring.py",
+            "Source_Code": "if c in countT and window[c] == countT[c]:",
+            "Mutate_Code": "elif:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T38_LCPN_76-Minimum-Window-Substring.py",
+            "Source_Code": "if c in countT and window[c] == countT[c]:",
+            "Mutate_Code": "else:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T38_LCPN_76-Minimum-Window-Substring.py",
+            "Source_Code": "if c in countT and window[c] == countT[c]:",
+            "Mutate_Code": "if if"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T38_LCPN_76-Minimum-Window-Substring.py",
+            "Source_Code": "while have == need:",
+            "Mutate_Code": "while have   need:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T38_LCPN_76-Minimum-Window-Substring.py",
+            "Source_Code": "while have == need:",
+            "Mutate_Code": "while have != need:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T38_LCPN_76-Minimum-Window-Substring.py",
+            "Source_Code": "while have == need:",
+            "Mutate_Code": "while have > need:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T38_LCPN_76-Minimum-Window-Substring.py",
+            "Source_Code": "while have == need:",
+            "Mutate_Code": "while have < need:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T38_LCPN_76-Minimum-Window-Substring.py",
+            "Source_Code": "while have == need:",
+            "Mutate_Code": "while have >= need:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T38_LCPN_76-Minimum-Window-Substring.py",
+            "Source_Code": "while have == need:",
+            "Mutate_Code": "while have <= need:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T38_LCPN_76-Minimum-Window-Substring.py",
+            "Source_Code": "while have == need:",
+            "Mutate_Code": "while have  ====  need:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T38_LCPN_76-Minimum-Window-Substring.py",
+            "Source_Code": "while have == need:",
+            "Mutate_Code": "while have  !==  need:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T38_LCPN_76-Minimum-Window-Substring.py",
+            "Source_Code": "while have == need:",
+            "Mutate_Code": "while have  >>  need:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T38_LCPN_76-Minimum-Window-Substring.py",
+            "Source_Code": "while have == need:",
+            "Mutate_Code": "while have  <<  need:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T38_LCPN_76-Minimum-Window-Substring.py",
+            "Source_Code": "while have == need:",
+            "Mutate_Code": "while have  >=>=  need:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T38_LCPN_76-Minimum-Window-Substring.py",
+            "Source_Code": "while have == need:",
+            "Mutate_Code": "while have  <=<=  need:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T38_LCPN_76-Minimum-Window-Substring.py",
+            "Source_Code": "while have == need:",
+            "Mutate_Code": " "
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T38_LCPN_76-Minimum-Window-Substring.py",
+            "Source_Code": "while have == need:",
+            "Mutate_Code": "for "
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T38_LCPN_76-Minimum-Window-Substring.py",
+            "Source_Code": "while have == need:",
+            "Mutate_Code": "while while:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T38_LCPN_76-Minimum-Window-Substring.py",
+            "Source_Code": "if (r - l + 1) < resLen:",
+            "Mutate_Code": "if (r - l 1) < resLen:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T38_LCPN_76-Minimum-Window-Substring.py",
+            "Source_Code": "if (r - l + 1) < resLen:",
+            "Mutate_Code": "if (r l + 1) < resLen:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T38_LCPN_76-Minimum-Window-Substring.py",
+            "Source_Code": "if (r - l + 1) < resLen:",
+            "Mutate_Code": "if (r - l - 1) < resLen:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T38_LCPN_76-Minimum-Window-Substring.py",
+            "Source_Code": "if (r - l + 1) < resLen:",
+            "Mutate_Code": "if (r - l * 1) < resLen:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T38_LCPN_76-Minimum-Window-Substring.py",
+            "Source_Code": "if (r - l + 1) < resLen:",
+            "Mutate_Code": "if (r - l / 1) < resLen:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T38_LCPN_76-Minimum-Window-Substring.py",
+            "Source_Code": "if (r - l + 1) < resLen:",
+            "Mutate_Code": "if (r - l % 1) < resLen:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T38_LCPN_76-Minimum-Window-Substring.py",
+            "Source_Code": "if (r - l + 1) < resLen:",
+            "Mutate_Code": "if (r - l ** 1) < resLen:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T38_LCPN_76-Minimum-Window-Substring.py",
+            "Source_Code": "if (r - l + 1) < resLen:",
+            "Mutate_Code": "if (r - l // 1) < resLen:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T38_LCPN_76-Minimum-Window-Substring.py",
+            "Source_Code": "if (r - l + 1) < resLen:",
+            "Mutate_Code": "if (r + l + 1) < resLen:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T38_LCPN_76-Minimum-Window-Substring.py",
+            "Source_Code": "if (r - l + 1) < resLen:",
+            "Mutate_Code": "if (r * l + 1) < resLen:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T38_LCPN_76-Minimum-Window-Substring.py",
+            "Source_Code": "if (r - l + 1) < resLen:",
+            "Mutate_Code": "if (r / l + 1) < resLen:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T38_LCPN_76-Minimum-Window-Substring.py",
+            "Source_Code": "if (r - l + 1) < resLen:",
+            "Mutate_Code": "if (r % l + 1) < resLen:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T38_LCPN_76-Minimum-Window-Substring.py",
+            "Source_Code": "if (r - l + 1) < resLen:",
+            "Mutate_Code": "if (r ** l + 1) < resLen:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T38_LCPN_76-Minimum-Window-Substring.py",
+            "Source_Code": "if (r - l + 1) < resLen:",
+            "Mutate_Code": "if (r // l + 1) < resLen:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T38_LCPN_76-Minimum-Window-Substring.py",
+            "Source_Code": "if (r - l + 1) < resLen:",
+            "Mutate_Code": "if (r - l ++ 1) < resLen:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T38_LCPN_76-Minimum-Window-Substring.py",
+            "Source_Code": "if (r - l + 1) < resLen:",
+            "Mutate_Code": "if (r - l -- 1) < resLen:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T38_LCPN_76-Minimum-Window-Substring.py",
+            "Source_Code": "if (r - l + 1) < resLen:",
+            "Mutate_Code": "if (r - l ** 1) < resLen:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T38_LCPN_76-Minimum-Window-Substring.py",
+            "Source_Code": "if (r - l + 1) < resLen:",
+            "Mutate_Code": "if (r - l // 1) < resLen:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T38_LCPN_76-Minimum-Window-Substring.py",
+            "Source_Code": "if (r - l + 1) < resLen:",
+            "Mutate_Code": "if (r - l %% 1) < resLen:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T38_LCPN_76-Minimum-Window-Substring.py",
+            "Source_Code": "if (r - l + 1) < resLen:",
+            "Mutate_Code": "if (r - l **** 1) < resLen:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T38_LCPN_76-Minimum-Window-Substring.py",
+            "Source_Code": "if (r - l + 1) < resLen:",
+            "Mutate_Code": "if (r - l //// 1) < resLen:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T38_LCPN_76-Minimum-Window-Substring.py",
+            "Source_Code": "if (r - l + 1) < resLen:",
+            "Mutate_Code": "if (r ++ l + 1) < resLen:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T38_LCPN_76-Minimum-Window-Substring.py",
+            "Source_Code": "if (r - l + 1) < resLen:",
+            "Mutate_Code": "if (r -- l + 1) < resLen:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T38_LCPN_76-Minimum-Window-Substring.py",
+            "Source_Code": "if (r - l + 1) < resLen:",
+            "Mutate_Code": "if (r ** l + 1) < resLen:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T38_LCPN_76-Minimum-Window-Substring.py",
+            "Source_Code": "if (r - l + 1) < resLen:",
+            "Mutate_Code": "if (r // l + 1) < resLen:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T38_LCPN_76-Minimum-Window-Substring.py",
+            "Source_Code": "if (r - l + 1) < resLen:",
+            "Mutate_Code": "if (r %% l + 1) < resLen:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T38_LCPN_76-Minimum-Window-Substring.py",
+            "Source_Code": "if (r - l + 1) < resLen:",
+            "Mutate_Code": "if (r **** l + 1) < resLen:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T38_LCPN_76-Minimum-Window-Substring.py",
+            "Source_Code": "if (r - l + 1) < resLen:",
+            "Mutate_Code": "if (r //// l + 1) < resLen:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T38_LCPN_76-Minimum-Window-Substring.py",
+            "Source_Code": "if (r - l + 1) < resLen:",
+            "Mutate_Code": "if (r - l + 1)   resLen:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T38_LCPN_76-Minimum-Window-Substring.py",
+            "Source_Code": "if (r - l + 1) < resLen:",
+            "Mutate_Code": "if (r - l + 1) == resLen:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T38_LCPN_76-Minimum-Window-Substring.py",
+            "Source_Code": "if (r - l + 1) < resLen:",
+            "Mutate_Code": "if (r - l + 1) != resLen:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T38_LCPN_76-Minimum-Window-Substring.py",
+            "Source_Code": "if (r - l + 1) < resLen:",
+            "Mutate_Code": "if (r - l + 1) > resLen:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T38_LCPN_76-Minimum-Window-Substring.py",
+            "Source_Code": "if (r - l + 1) < resLen:",
+            "Mutate_Code": "if (r - l + 1) >= resLen:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T38_LCPN_76-Minimum-Window-Substring.py",
+            "Source_Code": "if (r - l + 1) < resLen:",
+            "Mutate_Code": "if (r - l + 1) <= resLen:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T38_LCPN_76-Minimum-Window-Substring.py",
+            "Source_Code": "if (r - l + 1) < resLen:",
+            "Mutate_Code": "if (r - l + 1)  ====  resLen:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T38_LCPN_76-Minimum-Window-Substring.py",
+            "Source_Code": "if (r - l + 1) < resLen:",
+            "Mutate_Code": "if (r - l + 1)  !==  resLen:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T38_LCPN_76-Minimum-Window-Substring.py",
+            "Source_Code": "if (r - l + 1) < resLen:",
+            "Mutate_Code": "if (r - l + 1)  >>  resLen:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T38_LCPN_76-Minimum-Window-Substring.py",
+            "Source_Code": "if (r - l + 1) < resLen:",
+            "Mutate_Code": "if (r - l + 1)  <<  resLen:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T38_LCPN_76-Minimum-Window-Substring.py",
+            "Source_Code": "if (r - l + 1) < resLen:",
+            "Mutate_Code": "if (r - l + 1)  >=>=  resLen:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T38_LCPN_76-Minimum-Window-Substring.py",
+            "Source_Code": "if (r - l + 1) < resLen:",
+            "Mutate_Code": "if (r - l + 1)  <=<=  resLen:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T38_LCPN_76-Minimum-Window-Substring.py",
+            "Source_Code": "if (r - l + 1) < resLen:",
+            "Mutate_Code": " "
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T38_LCPN_76-Minimum-Window-Substring.py",
+            "Source_Code": "if (r - l + 1) < resLen:",
+            "Mutate_Code": "elif:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T38_LCPN_76-Minimum-Window-Substring.py",
+            "Source_Code": "if (r - l + 1) < resLen:",
+            "Mutate_Code": "else:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T38_LCPN_76-Minimum-Window-Substring.py",
+            "Source_Code": "if (r - l + 1) < resLen:",
+            "Mutate_Code": "if if"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T38_LCPN_76-Minimum-Window-Substring.py",
+            "Source_Code": "if s[l] in countT and window[s[l]] < countT[s[l]]:",
+            "Mutate_Code": "if s[l] in countT and window[s[l]]   countT[s[l]]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T38_LCPN_76-Minimum-Window-Substring.py",
+            "Source_Code": "if s[l] in countT and window[s[l]] < countT[s[l]]:",
+            "Mutate_Code": "if s[l] in countT and window[s[l]] == countT[s[l]]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T38_LCPN_76-Minimum-Window-Substring.py",
+            "Source_Code": "if s[l] in countT and window[s[l]] < countT[s[l]]:",
+            "Mutate_Code": "if s[l] in countT and window[s[l]] != countT[s[l]]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T38_LCPN_76-Minimum-Window-Substring.py",
+            "Source_Code": "if s[l] in countT and window[s[l]] < countT[s[l]]:",
+            "Mutate_Code": "if s[l] in countT and window[s[l]] > countT[s[l]]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T38_LCPN_76-Minimum-Window-Substring.py",
+            "Source_Code": "if s[l] in countT and window[s[l]] < countT[s[l]]:",
+            "Mutate_Code": "if s[l] in countT and window[s[l]] >= countT[s[l]]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T38_LCPN_76-Minimum-Window-Substring.py",
+            "Source_Code": "if s[l] in countT and window[s[l]] < countT[s[l]]:",
+            "Mutate_Code": "if s[l] in countT and window[s[l]] <= countT[s[l]]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T38_LCPN_76-Minimum-Window-Substring.py",
+            "Source_Code": "if s[l] in countT and window[s[l]] < countT[s[l]]:",
+            "Mutate_Code": "if s[l] in countT and window[s[l]]  ====  countT[s[l]]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T38_LCPN_76-Minimum-Window-Substring.py",
+            "Source_Code": "if s[l] in countT and window[s[l]] < countT[s[l]]:",
+            "Mutate_Code": "if s[l] in countT and window[s[l]]  !==  countT[s[l]]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T38_LCPN_76-Minimum-Window-Substring.py",
+            "Source_Code": "if s[l] in countT and window[s[l]] < countT[s[l]]:",
+            "Mutate_Code": "if s[l] in countT and window[s[l]]  >>  countT[s[l]]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T38_LCPN_76-Minimum-Window-Substring.py",
+            "Source_Code": "if s[l] in countT and window[s[l]] < countT[s[l]]:",
+            "Mutate_Code": "if s[l] in countT and window[s[l]]  <<  countT[s[l]]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T38_LCPN_76-Minimum-Window-Substring.py",
+            "Source_Code": "if s[l] in countT and window[s[l]] < countT[s[l]]:",
+            "Mutate_Code": "if s[l] in countT and window[s[l]]  >=>=  countT[s[l]]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T38_LCPN_76-Minimum-Window-Substring.py",
+            "Source_Code": "if s[l] in countT and window[s[l]] < countT[s[l]]:",
+            "Mutate_Code": "if s[l] in countT and window[s[l]]  <=<=  countT[s[l]]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T38_LCPN_76-Minimum-Window-Substring.py",
+            "Source_Code": "if s[l] in countT and window[s[l]] < countT[s[l]]:",
+            "Mutate_Code": "if s[l] in countT window[s[l]] < countT[s[l]]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T38_LCPN_76-Minimum-Window-Substring.py",
+            "Source_Code": "if s[l] in countT and window[s[l]] < countT[s[l]]:",
+            "Mutate_Code": "if s[l] in countT or window[s[l]] < countT[s[l]]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T38_LCPN_76-Minimum-Window-Substring.py",
+            "Source_Code": "if s[l] in countT and window[s[l]] < countT[s[l]]:",
+            "Mutate_Code": "if s[l] in countT not window[s[l]] < countT[s[l]]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T38_LCPN_76-Minimum-Window-Substring.py",
+            "Source_Code": "if s[l] in countT and window[s[l]] < countT[s[l]]:",
+            "Mutate_Code": "if s[l] in countT and and window[s[l]] < countT[s[l]]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T38_LCPN_76-Minimum-Window-Substring.py",
+            "Source_Code": "if s[l] in countT and window[s[l]] < countT[s[l]]:",
+            "Mutate_Code": "if s[l] in countT or or window[s[l]] < countT[s[l]]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T38_LCPN_76-Minimum-Window-Substring.py",
+            "Source_Code": "if s[l] in countT and window[s[l]] < countT[s[l]]:",
+            "Mutate_Code": "if s[l] in countT not not window[s[l]] < countT[s[l]]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T38_LCPN_76-Minimum-Window-Substring.py",
+            "Source_Code": "if s[l] in countT and window[s[l]] < countT[s[l]]:",
+            "Mutate_Code": "if s[l] countT and window[s[l]] < countT[s[l]]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T38_LCPN_76-Minimum-Window-Substring.py",
+            "Source_Code": "if s[l] in countT and window[s[l]] < countT[s[l]]:",
+            "Mutate_Code": "if s[l] is countT and window[s[l]] < countT[s[l]]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T38_LCPN_76-Minimum-Window-Substring.py",
+            "Source_Code": "if s[l] in countT and window[s[l]] < countT[s[l]]:",
+            "Mutate_Code": "if s[l] is not countT and window[s[l]] < countT[s[l]]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T38_LCPN_76-Minimum-Window-Substring.py",
+            "Source_Code": "if s[l] in countT and window[s[l]] < countT[s[l]]:",
+            "Mutate_Code": "if s[l] in in countT and window[s[l]] < countT[s[l]]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T38_LCPN_76-Minimum-Window-Substring.py",
+            "Source_Code": "if s[l] in countT and window[s[l]] < countT[s[l]]:",
+            "Mutate_Code": "if s[l] not in not in countT and window[s[l]] < countT[s[l]]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T38_LCPN_76-Minimum-Window-Substring.py",
+            "Source_Code": "if s[l] in countT and window[s[l]] < countT[s[l]]:",
+            "Mutate_Code": " "
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T38_LCPN_76-Minimum-Window-Substring.py",
+            "Source_Code": "if s[l] in countT and window[s[l]] < countT[s[l]]:",
+            "Mutate_Code": "elif:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T38_LCPN_76-Minimum-Window-Substring.py",
+            "Source_Code": "if s[l] in countT and window[s[l]] < countT[s[l]]:",
+            "Mutate_Code": "else:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T38_LCPN_76-Minimum-Window-Substring.py",
+            "Source_Code": "if s[l] in countT and window[s[l]] < countT[s[l]]:",
+            "Mutate_Code": "if if"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T38_LCPN_76-Minimum-Window-Substring.py",
+            "Source_Code": "if s[l] in countT and window[s[l]] < countT[s[l]]:",
+            "Mutate_Code": "if s[l] in countT and window[s[l]]   countT[s[l]]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T38_LCPN_76-Minimum-Window-Substring.py",
+            "Source_Code": "if s[l] in countT and window[s[l]] < countT[s[l]]:",
+            "Mutate_Code": "if s[l] in countT and window[s[l]] == countT[s[l]]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T38_LCPN_76-Minimum-Window-Substring.py",
+            "Source_Code": "if s[l] in countT and window[s[l]] < countT[s[l]]:",
+            "Mutate_Code": "if s[l] in countT and window[s[l]] != countT[s[l]]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T38_LCPN_76-Minimum-Window-Substring.py",
+            "Source_Code": "if s[l] in countT and window[s[l]] < countT[s[l]]:",
+            "Mutate_Code": "if s[l] in countT and window[s[l]] > countT[s[l]]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T38_LCPN_76-Minimum-Window-Substring.py",
+            "Source_Code": "if s[l] in countT and window[s[l]] < countT[s[l]]:",
+            "Mutate_Code": "if s[l] in countT and window[s[l]] >= countT[s[l]]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T38_LCPN_76-Minimum-Window-Substring.py",
+            "Source_Code": "if s[l] in countT and window[s[l]] < countT[s[l]]:",
+            "Mutate_Code": "if s[l] in countT and window[s[l]] <= countT[s[l]]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T38_LCPN_76-Minimum-Window-Substring.py",
+            "Source_Code": "if s[l] in countT and window[s[l]] < countT[s[l]]:",
+            "Mutate_Code": "if s[l] in countT and window[s[l]]  ====  countT[s[l]]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T38_LCPN_76-Minimum-Window-Substring.py",
+            "Source_Code": "if s[l] in countT and window[s[l]] < countT[s[l]]:",
+            "Mutate_Code": "if s[l] in countT and window[s[l]]  !==  countT[s[l]]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T38_LCPN_76-Minimum-Window-Substring.py",
+            "Source_Code": "if s[l] in countT and window[s[l]] < countT[s[l]]:",
+            "Mutate_Code": "if s[l] in countT and window[s[l]]  >>  countT[s[l]]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T38_LCPN_76-Minimum-Window-Substring.py",
+            "Source_Code": "if s[l] in countT and window[s[l]] < countT[s[l]]:",
+            "Mutate_Code": "if s[l] in countT and window[s[l]]  <<  countT[s[l]]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T38_LCPN_76-Minimum-Window-Substring.py",
+            "Source_Code": "if s[l] in countT and window[s[l]] < countT[s[l]]:",
+            "Mutate_Code": "if s[l] in countT and window[s[l]]  >=>=  countT[s[l]]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T38_LCPN_76-Minimum-Window-Substring.py",
+            "Source_Code": "if s[l] in countT and window[s[l]] < countT[s[l]]:",
+            "Mutate_Code": "if s[l] in countT and window[s[l]]  <=<=  countT[s[l]]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T38_LCPN_76-Minimum-Window-Substring.py",
+            "Source_Code": "if s[l] in countT and window[s[l]] < countT[s[l]]:",
+            "Mutate_Code": "if s[l] in countT window[s[l]] < countT[s[l]]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T38_LCPN_76-Minimum-Window-Substring.py",
+            "Source_Code": "if s[l] in countT and window[s[l]] < countT[s[l]]:",
+            "Mutate_Code": "if s[l] in countT or window[s[l]] < countT[s[l]]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T38_LCPN_76-Minimum-Window-Substring.py",
+            "Source_Code": "if s[l] in countT and window[s[l]] < countT[s[l]]:",
+            "Mutate_Code": "if s[l] in countT not window[s[l]] < countT[s[l]]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T38_LCPN_76-Minimum-Window-Substring.py",
+            "Source_Code": "if s[l] in countT and window[s[l]] < countT[s[l]]:",
+            "Mutate_Code": "if s[l] in countT and and window[s[l]] < countT[s[l]]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T38_LCPN_76-Minimum-Window-Substring.py",
+            "Source_Code": "if s[l] in countT and window[s[l]] < countT[s[l]]:",
+            "Mutate_Code": "if s[l] in countT or or window[s[l]] < countT[s[l]]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T38_LCPN_76-Minimum-Window-Substring.py",
+            "Source_Code": "if s[l] in countT and window[s[l]] < countT[s[l]]:",
+            "Mutate_Code": "if s[l] in countT not not window[s[l]] < countT[s[l]]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T38_LCPN_76-Minimum-Window-Substring.py",
+            "Source_Code": "if s[l] in countT and window[s[l]] < countT[s[l]]:",
+            "Mutate_Code": "if s[l] countT and window[s[l]] < countT[s[l]]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T38_LCPN_76-Minimum-Window-Substring.py",
+            "Source_Code": "if s[l] in countT and window[s[l]] < countT[s[l]]:",
+            "Mutate_Code": "if s[l] is countT and window[s[l]] < countT[s[l]]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T38_LCPN_76-Minimum-Window-Substring.py",
+            "Source_Code": "if s[l] in countT and window[s[l]] < countT[s[l]]:",
+            "Mutate_Code": "if s[l] is not countT and window[s[l]] < countT[s[l]]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T38_LCPN_76-Minimum-Window-Substring.py",
+            "Source_Code": "if s[l] in countT and window[s[l]] < countT[s[l]]:",
+            "Mutate_Code": "if s[l] in in countT and window[s[l]] < countT[s[l]]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T38_LCPN_76-Minimum-Window-Substring.py",
+            "Source_Code": "if s[l] in countT and window[s[l]] < countT[s[l]]:",
+            "Mutate_Code": "if s[l] not in not in countT and window[s[l]] < countT[s[l]]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T38_LCPN_76-Minimum-Window-Substring.py",
+            "Source_Code": "if s[l] in countT and window[s[l]] < countT[s[l]]:",
+            "Mutate_Code": " "
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T38_LCPN_76-Minimum-Window-Substring.py",
+            "Source_Code": "if s[l] in countT and window[s[l]] < countT[s[l]]:",
+            "Mutate_Code": "elif:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T38_LCPN_76-Minimum-Window-Substring.py",
+            "Source_Code": "if s[l] in countT and window[s[l]] < countT[s[l]]:",
+            "Mutate_Code": "else:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T38_LCPN_76-Minimum-Window-Substring.py",
+            "Source_Code": "if s[l] in countT and window[s[l]] < countT[s[l]]:",
+            "Mutate_Code": "if if"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T38_LCPN_76-Minimum-Window-Substring.py",
+            "Source_Code": "return s[l : r + 1] if resLen != float(\"infinity\") else \"\"",
+            "Mutate_Code": "return s[l : r 1] if resLen != float(\"infinity\") else \"\""
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T38_LCPN_76-Minimum-Window-Substring.py",
+            "Source_Code": "return s[l : r + 1] if resLen != float(\"infinity\") else \"\"",
+            "Mutate_Code": "return s[l : r - 1] if resLen != float(\"infinity\") else \"\""
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T38_LCPN_76-Minimum-Window-Substring.py",
+            "Source_Code": "return s[l : r + 1] if resLen != float(\"infinity\") else \"\"",
+            "Mutate_Code": "return s[l : r * 1] if resLen != float(\"infinity\") else \"\""
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T38_LCPN_76-Minimum-Window-Substring.py",
+            "Source_Code": "return s[l : r + 1] if resLen != float(\"infinity\") else \"\"",
+            "Mutate_Code": "return s[l : r / 1] if resLen != float(\"infinity\") else \"\""
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T38_LCPN_76-Minimum-Window-Substring.py",
+            "Source_Code": "return s[l : r + 1] if resLen != float(\"infinity\") else \"\"",
+            "Mutate_Code": "return s[l : r % 1] if resLen != float(\"infinity\") else \"\""
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T38_LCPN_76-Minimum-Window-Substring.py",
+            "Source_Code": "return s[l : r + 1] if resLen != float(\"infinity\") else \"\"",
+            "Mutate_Code": "return s[l : r ** 1] if resLen != float(\"infinity\") else \"\""
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T38_LCPN_76-Minimum-Window-Substring.py",
+            "Source_Code": "return s[l : r + 1] if resLen != float(\"infinity\") else \"\"",
+            "Mutate_Code": "return s[l : r // 1] if resLen != float(\"infinity\") else \"\""
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T38_LCPN_76-Minimum-Window-Substring.py",
+            "Source_Code": "return s[l : r + 1] if resLen != float(\"infinity\") else \"\"",
+            "Mutate_Code": "return s[l : r ++ 1] if resLen != float(\"infinity\") else \"\""
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T38_LCPN_76-Minimum-Window-Substring.py",
+            "Source_Code": "return s[l : r + 1] if resLen != float(\"infinity\") else \"\"",
+            "Mutate_Code": "return s[l : r -- 1] if resLen != float(\"infinity\") else \"\""
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T38_LCPN_76-Minimum-Window-Substring.py",
+            "Source_Code": "return s[l : r + 1] if resLen != float(\"infinity\") else \"\"",
+            "Mutate_Code": "return s[l : r ** 1] if resLen != float(\"infinity\") else \"\""
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T38_LCPN_76-Minimum-Window-Substring.py",
+            "Source_Code": "return s[l : r + 1] if resLen != float(\"infinity\") else \"\"",
+            "Mutate_Code": "return s[l : r // 1] if resLen != float(\"infinity\") else \"\""
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T38_LCPN_76-Minimum-Window-Substring.py",
+            "Source_Code": "return s[l : r + 1] if resLen != float(\"infinity\") else \"\"",
+            "Mutate_Code": "return s[l : r %% 1] if resLen != float(\"infinity\") else \"\""
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T38_LCPN_76-Minimum-Window-Substring.py",
+            "Source_Code": "return s[l : r + 1] if resLen != float(\"infinity\") else \"\"",
+            "Mutate_Code": "return s[l : r **** 1] if resLen != float(\"infinity\") else \"\""
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T38_LCPN_76-Minimum-Window-Substring.py",
+            "Source_Code": "return s[l : r + 1] if resLen != float(\"infinity\") else \"\"",
+            "Mutate_Code": "return s[l : r //// 1] if resLen != float(\"infinity\") else \"\""
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T38_LCPN_76-Minimum-Window-Substring.py",
+            "Source_Code": "return s[l : r + 1] if resLen != float(\"infinity\") else \"\"",
+            "Mutate_Code": " s[l : r + 1] if resLen != float(\"infinity\") else \"\""
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T38_LCPN_76-Minimum-Window-Substring.py",
+            "Source_Code": "return s[l : r + 1] if resLen != float(\"infinity\") else \"\"",
+            "Mutate_Code": "passs[l : r + 1] if resLen != float(\"infinity\") else \"\""
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T38_LCPN_76-Minimum-Window-Substring.py",
+            "Source_Code": "return s[l : r + 1] if resLen != float(\"infinity\") else \"\"",
+            "Mutate_Code": "return returns[l : r + 1] if resLen != float(\"infinity\") else \"\""
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T38_LCPN_76-Minimum-Window-Substring.py",
+            "Source_Code": "return s[l : r + 1] if resLen != float(\"infinity\") else \"\"",
+            "Mutate_Code": "return s[l : r + 1] if resLen != float( ) else \"\""
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T38_LCPN_76-Minimum-Window-Substring.py",
+            "Source_Code": "return s[l : r + 1] if resLen != float(\"infinity\") else \"\"",
+            "Mutate_Code": "return s[l : r 1] if resLen != float(\"infinity\") else \"\""
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T38_LCPN_76-Minimum-Window-Substring.py",
+            "Source_Code": "return s[l : r + 1] if resLen != float(\"infinity\") else \"\"",
+            "Mutate_Code": "return s[l : r - 1] if resLen != float(\"infinity\") else \"\""
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T38_LCPN_76-Minimum-Window-Substring.py",
+            "Source_Code": "return s[l : r + 1] if resLen != float(\"infinity\") else \"\"",
+            "Mutate_Code": "return s[l : r * 1] if resLen != float(\"infinity\") else \"\""
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T38_LCPN_76-Minimum-Window-Substring.py",
+            "Source_Code": "return s[l : r + 1] if resLen != float(\"infinity\") else \"\"",
+            "Mutate_Code": "return s[l : r / 1] if resLen != float(\"infinity\") else \"\""
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T38_LCPN_76-Minimum-Window-Substring.py",
+            "Source_Code": "return s[l : r + 1] if resLen != float(\"infinity\") else \"\"",
+            "Mutate_Code": "return s[l : r % 1] if resLen != float(\"infinity\") else \"\""
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T38_LCPN_76-Minimum-Window-Substring.py",
+            "Source_Code": "return s[l : r + 1] if resLen != float(\"infinity\") else \"\"",
+            "Mutate_Code": "return s[l : r ** 1] if resLen != float(\"infinity\") else \"\""
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T38_LCPN_76-Minimum-Window-Substring.py",
+            "Source_Code": "return s[l : r + 1] if resLen != float(\"infinity\") else \"\"",
+            "Mutate_Code": "return s[l : r // 1] if resLen != float(\"infinity\") else \"\""
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T38_LCPN_76-Minimum-Window-Substring.py",
+            "Source_Code": "return s[l : r + 1] if resLen != float(\"infinity\") else \"\"",
+            "Mutate_Code": "return s[l : r ++ 1] if resLen != float(\"infinity\") else \"\""
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T38_LCPN_76-Minimum-Window-Substring.py",
+            "Source_Code": "return s[l : r + 1] if resLen != float(\"infinity\") else \"\"",
+            "Mutate_Code": "return s[l : r -- 1] if resLen != float(\"infinity\") else \"\""
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T38_LCPN_76-Minimum-Window-Substring.py",
+            "Source_Code": "return s[l : r + 1] if resLen != float(\"infinity\") else \"\"",
+            "Mutate_Code": "return s[l : r ** 1] if resLen != float(\"infinity\") else \"\""
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T38_LCPN_76-Minimum-Window-Substring.py",
+            "Source_Code": "return s[l : r + 1] if resLen != float(\"infinity\") else \"\"",
+            "Mutate_Code": "return s[l : r // 1] if resLen != float(\"infinity\") else \"\""
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T38_LCPN_76-Minimum-Window-Substring.py",
+            "Source_Code": "return s[l : r + 1] if resLen != float(\"infinity\") else \"\"",
+            "Mutate_Code": "return s[l : r %% 1] if resLen != float(\"infinity\") else \"\""
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T38_LCPN_76-Minimum-Window-Substring.py",
+            "Source_Code": "return s[l : r + 1] if resLen != float(\"infinity\") else \"\"",
+            "Mutate_Code": "return s[l : r **** 1] if resLen != float(\"infinity\") else \"\""
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T38_LCPN_76-Minimum-Window-Substring.py",
+            "Source_Code": "return s[l : r + 1] if resLen != float(\"infinity\") else \"\"",
+            "Mutate_Code": "return s[l : r //// 1] if resLen != float(\"infinity\") else \"\""
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T38_LCPN_76-Minimum-Window-Substring.py",
+            "Source_Code": "return s[l : r + 1] if resLen != float(\"infinity\") else \"\"",
+            "Mutate_Code": " s[l : r + 1] if resLen != float(\"infinity\") else \"\""
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T38_LCPN_76-Minimum-Window-Substring.py",
+            "Source_Code": "return s[l : r + 1] if resLen != float(\"infinity\") else \"\"",
+            "Mutate_Code": "passs[l : r + 1] if resLen != float(\"infinity\") else \"\""
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T38_LCPN_76-Minimum-Window-Substring.py",
+            "Source_Code": "return s[l : r + 1] if resLen != float(\"infinity\") else \"\"",
+            "Mutate_Code": "return returns[l : r + 1] if resLen != float(\"infinity\") else \"\""
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T38_LCPN_76-Minimum-Window-Substring.py",
+            "Source_Code": "return s[l : r + 1] if resLen != float(\"infinity\") else \"\"",
+            "Mutate_Code": "return s[l : r + 1] if resLen != float( ) else \"\""
+        }
+    }
+]

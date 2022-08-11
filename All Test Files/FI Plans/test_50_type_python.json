@@ -1,0 +1,912 @@
+[
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T50_LCPN_131-Palindrome-Partitioning.py",
+            "Source_Code": "if i >= len(s):",
+            "Mutate_Code": "if i   len(s):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T50_LCPN_131-Palindrome-Partitioning.py",
+            "Source_Code": "if i >= len(s):",
+            "Mutate_Code": "if i == len(s):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T50_LCPN_131-Palindrome-Partitioning.py",
+            "Source_Code": "if i >= len(s):",
+            "Mutate_Code": "if i != len(s):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T50_LCPN_131-Palindrome-Partitioning.py",
+            "Source_Code": "if i >= len(s):",
+            "Mutate_Code": "if i > len(s):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T50_LCPN_131-Palindrome-Partitioning.py",
+            "Source_Code": "if i >= len(s):",
+            "Mutate_Code": "if i < len(s):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T50_LCPN_131-Palindrome-Partitioning.py",
+            "Source_Code": "if i >= len(s):",
+            "Mutate_Code": "if i <= len(s):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T50_LCPN_131-Palindrome-Partitioning.py",
+            "Source_Code": "if i >= len(s):",
+            "Mutate_Code": "if i  ====  len(s):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T50_LCPN_131-Palindrome-Partitioning.py",
+            "Source_Code": "if i >= len(s):",
+            "Mutate_Code": "if i  !==  len(s):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T50_LCPN_131-Palindrome-Partitioning.py",
+            "Source_Code": "if i >= len(s):",
+            "Mutate_Code": "if i  >>  len(s):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T50_LCPN_131-Palindrome-Partitioning.py",
+            "Source_Code": "if i >= len(s):",
+            "Mutate_Code": "if i  <<  len(s):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T50_LCPN_131-Palindrome-Partitioning.py",
+            "Source_Code": "if i >= len(s):",
+            "Mutate_Code": "if i  >=>=  len(s):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T50_LCPN_131-Palindrome-Partitioning.py",
+            "Source_Code": "if i >= len(s):",
+            "Mutate_Code": "if i  <=<=  len(s):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T50_LCPN_131-Palindrome-Partitioning.py",
+            "Source_Code": "if i >= len(s):",
+            "Mutate_Code": " "
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T50_LCPN_131-Palindrome-Partitioning.py",
+            "Source_Code": "if i >= len(s):",
+            "Mutate_Code": "elif:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T50_LCPN_131-Palindrome-Partitioning.py",
+            "Source_Code": "if i >= len(s):",
+            "Mutate_Code": "else:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T50_LCPN_131-Palindrome-Partitioning.py",
+            "Source_Code": "if i >= len(s):",
+            "Mutate_Code": "if if"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T50_LCPN_131-Palindrome-Partitioning.py",
+            "Source_Code": "if i >= len(s):",
+            "Mutate_Code": "if i >= len( ):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T50_LCPN_131-Palindrome-Partitioning.py",
+            "Source_Code": "if i >= len(s):",
+            "Mutate_Code": "if i   len(s):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T50_LCPN_131-Palindrome-Partitioning.py",
+            "Source_Code": "if i >= len(s):",
+            "Mutate_Code": "if i == len(s):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T50_LCPN_131-Palindrome-Partitioning.py",
+            "Source_Code": "if i >= len(s):",
+            "Mutate_Code": "if i != len(s):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T50_LCPN_131-Palindrome-Partitioning.py",
+            "Source_Code": "if i >= len(s):",
+            "Mutate_Code": "if i > len(s):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T50_LCPN_131-Palindrome-Partitioning.py",
+            "Source_Code": "if i >= len(s):",
+            "Mutate_Code": "if i < len(s):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T50_LCPN_131-Palindrome-Partitioning.py",
+            "Source_Code": "if i >= len(s):",
+            "Mutate_Code": "if i <= len(s):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T50_LCPN_131-Palindrome-Partitioning.py",
+            "Source_Code": "if i >= len(s):",
+            "Mutate_Code": "if i  ====  len(s):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T50_LCPN_131-Palindrome-Partitioning.py",
+            "Source_Code": "if i >= len(s):",
+            "Mutate_Code": "if i  !==  len(s):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T50_LCPN_131-Palindrome-Partitioning.py",
+            "Source_Code": "if i >= len(s):",
+            "Mutate_Code": "if i  >>  len(s):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T50_LCPN_131-Palindrome-Partitioning.py",
+            "Source_Code": "if i >= len(s):",
+            "Mutate_Code": "if i  <<  len(s):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T50_LCPN_131-Palindrome-Partitioning.py",
+            "Source_Code": "if i >= len(s):",
+            "Mutate_Code": "if i  >=>=  len(s):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T50_LCPN_131-Palindrome-Partitioning.py",
+            "Source_Code": "if i >= len(s):",
+            "Mutate_Code": "if i  <=<=  len(s):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T50_LCPN_131-Palindrome-Partitioning.py",
+            "Source_Code": "if i >= len(s):",
+            "Mutate_Code": " "
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T50_LCPN_131-Palindrome-Partitioning.py",
+            "Source_Code": "if i >= len(s):",
+            "Mutate_Code": "elif:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T50_LCPN_131-Palindrome-Partitioning.py",
+            "Source_Code": "if i >= len(s):",
+            "Mutate_Code": "else:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T50_LCPN_131-Palindrome-Partitioning.py",
+            "Source_Code": "if i >= len(s):",
+            "Mutate_Code": "if if"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T50_LCPN_131-Palindrome-Partitioning.py",
+            "Source_Code": "if i >= len(s):",
+            "Mutate_Code": "if i >= len( ):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T50_LCPN_131-Palindrome-Partitioning.py",
+            "Source_Code": "res.append(part.copy())",
+            "Mutate_Code": "res.append( ))"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T50_LCPN_131-Palindrome-Partitioning.py",
+            "Source_Code": "for j in range(i, len(s)):",
+            "Mutate_Code": "for j range(i, len(s)):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T50_LCPN_131-Palindrome-Partitioning.py",
+            "Source_Code": "for j in range(i, len(s)):",
+            "Mutate_Code": "for j is range(i, len(s)):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T50_LCPN_131-Palindrome-Partitioning.py",
+            "Source_Code": "for j in range(i, len(s)):",
+            "Mutate_Code": "for j is not range(i, len(s)):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T50_LCPN_131-Palindrome-Partitioning.py",
+            "Source_Code": "for j in range(i, len(s)):",
+            "Mutate_Code": "for j in in range(i, len(s)):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T50_LCPN_131-Palindrome-Partitioning.py",
+            "Source_Code": "for j in range(i, len(s)):",
+            "Mutate_Code": "for j not in not in range(i, len(s)):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T50_LCPN_131-Palindrome-Partitioning.py",
+            "Source_Code": "for j in range(i, len(s)):",
+            "Mutate_Code": " "
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T50_LCPN_131-Palindrome-Partitioning.py",
+            "Source_Code": "for j in range(i, len(s)):",
+            "Mutate_Code": "while True:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T50_LCPN_131-Palindrome-Partitioning.py",
+            "Source_Code": "for j in range(i, len(s)):",
+            "Mutate_Code": "for for: j in range(i, len(s)):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T50_LCPN_131-Palindrome-Partitioning.py",
+            "Source_Code": "for j in range(i, len(s)):",
+            "Mutate_Code": "for j in range(i, len( )):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T50_LCPN_131-Palindrome-Partitioning.py",
+            "Source_Code": "for j in range(i, len(s)):",
+            "Mutate_Code": "for j in range( )):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T50_LCPN_131-Palindrome-Partitioning.py",
+            "Source_Code": "for j in range(i, len(s)):",
+            "Mutate_Code": "for j range(i, len(s)):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T50_LCPN_131-Palindrome-Partitioning.py",
+            "Source_Code": "for j in range(i, len(s)):",
+            "Mutate_Code": "for j is range(i, len(s)):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T50_LCPN_131-Palindrome-Partitioning.py",
+            "Source_Code": "for j in range(i, len(s)):",
+            "Mutate_Code": "for j is not range(i, len(s)):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T50_LCPN_131-Palindrome-Partitioning.py",
+            "Source_Code": "for j in range(i, len(s)):",
+            "Mutate_Code": "for j in in range(i, len(s)):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T50_LCPN_131-Palindrome-Partitioning.py",
+            "Source_Code": "for j in range(i, len(s)):",
+            "Mutate_Code": "for j not in not in range(i, len(s)):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T50_LCPN_131-Palindrome-Partitioning.py",
+            "Source_Code": "for j in range(i, len(s)):",
+            "Mutate_Code": " "
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T50_LCPN_131-Palindrome-Partitioning.py",
+            "Source_Code": "for j in range(i, len(s)):",
+            "Mutate_Code": "while True:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T50_LCPN_131-Palindrome-Partitioning.py",
+            "Source_Code": "for j in range(i, len(s)):",
+            "Mutate_Code": "for for: j in range(i, len(s)):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T50_LCPN_131-Palindrome-Partitioning.py",
+            "Source_Code": "for j in range(i, len(s)):",
+            "Mutate_Code": "for j in range(i, len( )):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T50_LCPN_131-Palindrome-Partitioning.py",
+            "Source_Code": "for j in range(i, len(s)):",
+            "Mutate_Code": "for j in range( )):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T50_LCPN_131-Palindrome-Partitioning.py",
+            "Source_Code": "for j in range(i, len(s)):",
+            "Mutate_Code": "for j range(i, len(s)):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T50_LCPN_131-Palindrome-Partitioning.py",
+            "Source_Code": "for j in range(i, len(s)):",
+            "Mutate_Code": "for j is range(i, len(s)):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T50_LCPN_131-Palindrome-Partitioning.py",
+            "Source_Code": "for j in range(i, len(s)):",
+            "Mutate_Code": "for j is not range(i, len(s)):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T50_LCPN_131-Palindrome-Partitioning.py",
+            "Source_Code": "for j in range(i, len(s)):",
+            "Mutate_Code": "for j in in range(i, len(s)):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T50_LCPN_131-Palindrome-Partitioning.py",
+            "Source_Code": "for j in range(i, len(s)):",
+            "Mutate_Code": "for j not in not in range(i, len(s)):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T50_LCPN_131-Palindrome-Partitioning.py",
+            "Source_Code": "for j in range(i, len(s)):",
+            "Mutate_Code": " "
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T50_LCPN_131-Palindrome-Partitioning.py",
+            "Source_Code": "for j in range(i, len(s)):",
+            "Mutate_Code": "while True:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T50_LCPN_131-Palindrome-Partitioning.py",
+            "Source_Code": "for j in range(i, len(s)):",
+            "Mutate_Code": "for for: j in range(i, len(s)):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T50_LCPN_131-Palindrome-Partitioning.py",
+            "Source_Code": "for j in range(i, len(s)):",
+            "Mutate_Code": "for j in range(i, len( )):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T50_LCPN_131-Palindrome-Partitioning.py",
+            "Source_Code": "for j in range(i, len(s)):",
+            "Mutate_Code": "for j in range( )):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T50_LCPN_131-Palindrome-Partitioning.py",
+            "Source_Code": "if Solution.isPali(s, i, j):",
+            "Mutate_Code": " "
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T50_LCPN_131-Palindrome-Partitioning.py",
+            "Source_Code": "if Solution.isPali(s, i, j):",
+            "Mutate_Code": "elif:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T50_LCPN_131-Palindrome-Partitioning.py",
+            "Source_Code": "if Solution.isPali(s, i, j):",
+            "Mutate_Code": "else:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T50_LCPN_131-Palindrome-Partitioning.py",
+            "Source_Code": "if Solution.isPali(s, i, j):",
+            "Mutate_Code": "if if"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T50_LCPN_131-Palindrome-Partitioning.py",
+            "Source_Code": "part.append(s[i : j + 1])",
+            "Mutate_Code": "part.append(s[i : j 1])"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T50_LCPN_131-Palindrome-Partitioning.py",
+            "Source_Code": "part.append(s[i : j + 1])",
+            "Mutate_Code": "part.append(s[i : j - 1])"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T50_LCPN_131-Palindrome-Partitioning.py",
+            "Source_Code": "part.append(s[i : j + 1])",
+            "Mutate_Code": "part.append(s[i : j * 1])"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T50_LCPN_131-Palindrome-Partitioning.py",
+            "Source_Code": "part.append(s[i : j + 1])",
+            "Mutate_Code": "part.append(s[i : j / 1])"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T50_LCPN_131-Palindrome-Partitioning.py",
+            "Source_Code": "part.append(s[i : j + 1])",
+            "Mutate_Code": "part.append(s[i : j % 1])"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T50_LCPN_131-Palindrome-Partitioning.py",
+            "Source_Code": "part.append(s[i : j + 1])",
+            "Mutate_Code": "part.append(s[i : j ** 1])"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T50_LCPN_131-Palindrome-Partitioning.py",
+            "Source_Code": "part.append(s[i : j + 1])",
+            "Mutate_Code": "part.append(s[i : j // 1])"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T50_LCPN_131-Palindrome-Partitioning.py",
+            "Source_Code": "part.append(s[i : j + 1])",
+            "Mutate_Code": "part.append(s[i : j ++ 1])"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T50_LCPN_131-Palindrome-Partitioning.py",
+            "Source_Code": "part.append(s[i : j + 1])",
+            "Mutate_Code": "part.append(s[i : j -- 1])"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T50_LCPN_131-Palindrome-Partitioning.py",
+            "Source_Code": "part.append(s[i : j + 1])",
+            "Mutate_Code": "part.append(s[i : j ** 1])"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T50_LCPN_131-Palindrome-Partitioning.py",
+            "Source_Code": "part.append(s[i : j + 1])",
+            "Mutate_Code": "part.append(s[i : j // 1])"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T50_LCPN_131-Palindrome-Partitioning.py",
+            "Source_Code": "part.append(s[i : j + 1])",
+            "Mutate_Code": "part.append(s[i : j %% 1])"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T50_LCPN_131-Palindrome-Partitioning.py",
+            "Source_Code": "part.append(s[i : j + 1])",
+            "Mutate_Code": "part.append(s[i : j **** 1])"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T50_LCPN_131-Palindrome-Partitioning.py",
+            "Source_Code": "part.append(s[i : j + 1])",
+            "Mutate_Code": "part.append(s[i : j //// 1])"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T50_LCPN_131-Palindrome-Partitioning.py",
+            "Source_Code": "part.append(s[i : j + 1])",
+            "Mutate_Code": "part.append( )"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T50_LCPN_131-Palindrome-Partitioning.py",
+            "Source_Code": "return res",
+            "Mutate_Code": " res"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T50_LCPN_131-Palindrome-Partitioning.py",
+            "Source_Code": "return res",
+            "Mutate_Code": "passres"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T50_LCPN_131-Palindrome-Partitioning.py",
+            "Source_Code": "return res",
+            "Mutate_Code": "return returnres"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T50_LCPN_131-Palindrome-Partitioning.py",
+            "Source_Code": "while l < r:",
+            "Mutate_Code": "while l   r:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T50_LCPN_131-Palindrome-Partitioning.py",
+            "Source_Code": "while l < r:",
+            "Mutate_Code": "while l == r:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T50_LCPN_131-Palindrome-Partitioning.py",
+            "Source_Code": "while l < r:",
+            "Mutate_Code": "while l != r:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T50_LCPN_131-Palindrome-Partitioning.py",
+            "Source_Code": "while l < r:",
+            "Mutate_Code": "while l > r:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T50_LCPN_131-Palindrome-Partitioning.py",
+            "Source_Code": "while l < r:",
+            "Mutate_Code": "while l >= r:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T50_LCPN_131-Palindrome-Partitioning.py",
+            "Source_Code": "while l < r:",
+            "Mutate_Code": "while l <= r:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T50_LCPN_131-Palindrome-Partitioning.py",
+            "Source_Code": "while l < r:",
+            "Mutate_Code": "while l  ====  r:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T50_LCPN_131-Palindrome-Partitioning.py",
+            "Source_Code": "while l < r:",
+            "Mutate_Code": "while l  !==  r:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T50_LCPN_131-Palindrome-Partitioning.py",
+            "Source_Code": "while l < r:",
+            "Mutate_Code": "while l  >>  r:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T50_LCPN_131-Palindrome-Partitioning.py",
+            "Source_Code": "while l < r:",
+            "Mutate_Code": "while l  <<  r:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T50_LCPN_131-Palindrome-Partitioning.py",
+            "Source_Code": "while l < r:",
+            "Mutate_Code": "while l  >=>=  r:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T50_LCPN_131-Palindrome-Partitioning.py",
+            "Source_Code": "while l < r:",
+            "Mutate_Code": "while l  <=<=  r:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T50_LCPN_131-Palindrome-Partitioning.py",
+            "Source_Code": "while l < r:",
+            "Mutate_Code": " "
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T50_LCPN_131-Palindrome-Partitioning.py",
+            "Source_Code": "while l < r:",
+            "Mutate_Code": "for "
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T50_LCPN_131-Palindrome-Partitioning.py",
+            "Source_Code": "while l < r:",
+            "Mutate_Code": "while while:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T50_LCPN_131-Palindrome-Partitioning.py",
+            "Source_Code": "if s[l] != s[r]:",
+            "Mutate_Code": " "
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T50_LCPN_131-Palindrome-Partitioning.py",
+            "Source_Code": "if s[l] != s[r]:",
+            "Mutate_Code": "elif:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T50_LCPN_131-Palindrome-Partitioning.py",
+            "Source_Code": "if s[l] != s[r]:",
+            "Mutate_Code": "else:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T50_LCPN_131-Palindrome-Partitioning.py",
+            "Source_Code": "if s[l] != s[r]:",
+            "Mutate_Code": "if if"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T50_LCPN_131-Palindrome-Partitioning.py",
+            "Source_Code": "return False",
+            "Mutate_Code": "return  "
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T50_LCPN_131-Palindrome-Partitioning.py",
+            "Source_Code": "return False",
+            "Mutate_Code": "return True"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T50_LCPN_131-Palindrome-Partitioning.py",
+            "Source_Code": "return False",
+            "Mutate_Code": "return False False"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T50_LCPN_131-Palindrome-Partitioning.py",
+            "Source_Code": "return False",
+            "Mutate_Code": " False"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T50_LCPN_131-Palindrome-Partitioning.py",
+            "Source_Code": "return False",
+            "Mutate_Code": "passFalse"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T50_LCPN_131-Palindrome-Partitioning.py",
+            "Source_Code": "return False",
+            "Mutate_Code": "return returnFalse"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T50_LCPN_131-Palindrome-Partitioning.py",
+            "Source_Code": "return False",
+            "Mutate_Code": "return  "
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T50_LCPN_131-Palindrome-Partitioning.py",
+            "Source_Code": "return False",
+            "Mutate_Code": "return True"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T50_LCPN_131-Palindrome-Partitioning.py",
+            "Source_Code": "return False",
+            "Mutate_Code": "return False False"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T50_LCPN_131-Palindrome-Partitioning.py",
+            "Source_Code": "return False",
+            "Mutate_Code": " False"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T50_LCPN_131-Palindrome-Partitioning.py",
+            "Source_Code": "return False",
+            "Mutate_Code": "passFalse"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T50_LCPN_131-Palindrome-Partitioning.py",
+            "Source_Code": "return False",
+            "Mutate_Code": "return returnFalse"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T50_LCPN_131-Palindrome-Partitioning.py",
+            "Source_Code": "return True",
+            "Mutate_Code": "return  "
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T50_LCPN_131-Palindrome-Partitioning.py",
+            "Source_Code": "return True",
+            "Mutate_Code": "return False"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T50_LCPN_131-Palindrome-Partitioning.py",
+            "Source_Code": "return True",
+            "Mutate_Code": "return True True"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T50_LCPN_131-Palindrome-Partitioning.py",
+            "Source_Code": "return True",
+            "Mutate_Code": " True"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T50_LCPN_131-Palindrome-Partitioning.py",
+            "Source_Code": "return True",
+            "Mutate_Code": "passTrue"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T50_LCPN_131-Palindrome-Partitioning.py",
+            "Source_Code": "return True",
+            "Mutate_Code": "return returnTrue"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T50_LCPN_131-Palindrome-Partitioning.py",
+            "Source_Code": "return True",
+            "Mutate_Code": "return  "
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T50_LCPN_131-Palindrome-Partitioning.py",
+            "Source_Code": "return True",
+            "Mutate_Code": "return False"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T50_LCPN_131-Palindrome-Partitioning.py",
+            "Source_Code": "return True",
+            "Mutate_Code": "return True True"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T50_LCPN_131-Palindrome-Partitioning.py",
+            "Source_Code": "return True",
+            "Mutate_Code": " True"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T50_LCPN_131-Palindrome-Partitioning.py",
+            "Source_Code": "return True",
+            "Mutate_Code": "passTrue"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T50_LCPN_131-Palindrome-Partitioning.py",
+            "Source_Code": "return True",
+            "Mutate_Code": "return returnTrue"
+        }
+    }
+]

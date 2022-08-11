@@ -1,0 +1,2627 @@
+[
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T45_LCPN_115-Distinct-Subsequences.py",
+            "Source_Code": "for i in range(len(s) + 1):",
+            "Mutate_Code": "for i in range(len(s) 1):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T45_LCPN_115-Distinct-Subsequences.py",
+            "Source_Code": "for i in range(len(s) + 1):",
+            "Mutate_Code": "for i in range(len(s) - 1):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T45_LCPN_115-Distinct-Subsequences.py",
+            "Source_Code": "for i in range(len(s) + 1):",
+            "Mutate_Code": "for i in range(len(s) * 1):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T45_LCPN_115-Distinct-Subsequences.py",
+            "Source_Code": "for i in range(len(s) + 1):",
+            "Mutate_Code": "for i in range(len(s) / 1):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T45_LCPN_115-Distinct-Subsequences.py",
+            "Source_Code": "for i in range(len(s) + 1):",
+            "Mutate_Code": "for i in range(len(s) % 1):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T45_LCPN_115-Distinct-Subsequences.py",
+            "Source_Code": "for i in range(len(s) + 1):",
+            "Mutate_Code": "for i in range(len(s) ** 1):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T45_LCPN_115-Distinct-Subsequences.py",
+            "Source_Code": "for i in range(len(s) + 1):",
+            "Mutate_Code": "for i in range(len(s) // 1):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T45_LCPN_115-Distinct-Subsequences.py",
+            "Source_Code": "for i in range(len(s) + 1):",
+            "Mutate_Code": "for i in range(len(s) ++ 1):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T45_LCPN_115-Distinct-Subsequences.py",
+            "Source_Code": "for i in range(len(s) + 1):",
+            "Mutate_Code": "for i in range(len(s) -- 1):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T45_LCPN_115-Distinct-Subsequences.py",
+            "Source_Code": "for i in range(len(s) + 1):",
+            "Mutate_Code": "for i in range(len(s) ** 1):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T45_LCPN_115-Distinct-Subsequences.py",
+            "Source_Code": "for i in range(len(s) + 1):",
+            "Mutate_Code": "for i in range(len(s) // 1):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T45_LCPN_115-Distinct-Subsequences.py",
+            "Source_Code": "for i in range(len(s) + 1):",
+            "Mutate_Code": "for i in range(len(s) %% 1):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T45_LCPN_115-Distinct-Subsequences.py",
+            "Source_Code": "for i in range(len(s) + 1):",
+            "Mutate_Code": "for i in range(len(s) **** 1):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T45_LCPN_115-Distinct-Subsequences.py",
+            "Source_Code": "for i in range(len(s) + 1):",
+            "Mutate_Code": "for i in range(len(s) //// 1):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T45_LCPN_115-Distinct-Subsequences.py",
+            "Source_Code": "for i in range(len(s) + 1):",
+            "Mutate_Code": "for i range(len(s) + 1):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T45_LCPN_115-Distinct-Subsequences.py",
+            "Source_Code": "for i in range(len(s) + 1):",
+            "Mutate_Code": "for i is range(len(s) + 1):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T45_LCPN_115-Distinct-Subsequences.py",
+            "Source_Code": "for i in range(len(s) + 1):",
+            "Mutate_Code": "for i is not range(len(s) + 1):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T45_LCPN_115-Distinct-Subsequences.py",
+            "Source_Code": "for i in range(len(s) + 1):",
+            "Mutate_Code": "for i in in range(len(s) + 1):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T45_LCPN_115-Distinct-Subsequences.py",
+            "Source_Code": "for i in range(len(s) + 1):",
+            "Mutate_Code": "for i not in not in range(len(s) + 1):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T45_LCPN_115-Distinct-Subsequences.py",
+            "Source_Code": "for i in range(len(s) + 1):",
+            "Mutate_Code": " "
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T45_LCPN_115-Distinct-Subsequences.py",
+            "Source_Code": "for i in range(len(s) + 1):",
+            "Mutate_Code": "while True:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T45_LCPN_115-Distinct-Subsequences.py",
+            "Source_Code": "for i in range(len(s) + 1):",
+            "Mutate_Code": "for for: i in range(len(s) + 1):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T45_LCPN_115-Distinct-Subsequences.py",
+            "Source_Code": "for i in range(len(s) + 1):",
+            "Mutate_Code": "for i in range(len( ) + 1):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T45_LCPN_115-Distinct-Subsequences.py",
+            "Source_Code": "for i in range(len(s) + 1):",
+            "Mutate_Code": "for i in range( ) + 1):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T45_LCPN_115-Distinct-Subsequences.py",
+            "Source_Code": "for i in range(len(s) + 1):",
+            "Mutate_Code": "for i in range(len(s) 1):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T45_LCPN_115-Distinct-Subsequences.py",
+            "Source_Code": "for i in range(len(s) + 1):",
+            "Mutate_Code": "for i in range(len(s) - 1):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T45_LCPN_115-Distinct-Subsequences.py",
+            "Source_Code": "for i in range(len(s) + 1):",
+            "Mutate_Code": "for i in range(len(s) * 1):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T45_LCPN_115-Distinct-Subsequences.py",
+            "Source_Code": "for i in range(len(s) + 1):",
+            "Mutate_Code": "for i in range(len(s) / 1):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T45_LCPN_115-Distinct-Subsequences.py",
+            "Source_Code": "for i in range(len(s) + 1):",
+            "Mutate_Code": "for i in range(len(s) % 1):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T45_LCPN_115-Distinct-Subsequences.py",
+            "Source_Code": "for i in range(len(s) + 1):",
+            "Mutate_Code": "for i in range(len(s) ** 1):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T45_LCPN_115-Distinct-Subsequences.py",
+            "Source_Code": "for i in range(len(s) + 1):",
+            "Mutate_Code": "for i in range(len(s) // 1):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T45_LCPN_115-Distinct-Subsequences.py",
+            "Source_Code": "for i in range(len(s) + 1):",
+            "Mutate_Code": "for i in range(len(s) ++ 1):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T45_LCPN_115-Distinct-Subsequences.py",
+            "Source_Code": "for i in range(len(s) + 1):",
+            "Mutate_Code": "for i in range(len(s) -- 1):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T45_LCPN_115-Distinct-Subsequences.py",
+            "Source_Code": "for i in range(len(s) + 1):",
+            "Mutate_Code": "for i in range(len(s) ** 1):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T45_LCPN_115-Distinct-Subsequences.py",
+            "Source_Code": "for i in range(len(s) + 1):",
+            "Mutate_Code": "for i in range(len(s) // 1):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T45_LCPN_115-Distinct-Subsequences.py",
+            "Source_Code": "for i in range(len(s) + 1):",
+            "Mutate_Code": "for i in range(len(s) %% 1):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T45_LCPN_115-Distinct-Subsequences.py",
+            "Source_Code": "for i in range(len(s) + 1):",
+            "Mutate_Code": "for i in range(len(s) **** 1):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T45_LCPN_115-Distinct-Subsequences.py",
+            "Source_Code": "for i in range(len(s) + 1):",
+            "Mutate_Code": "for i in range(len(s) //// 1):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T45_LCPN_115-Distinct-Subsequences.py",
+            "Source_Code": "for i in range(len(s) + 1):",
+            "Mutate_Code": "for i range(len(s) + 1):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T45_LCPN_115-Distinct-Subsequences.py",
+            "Source_Code": "for i in range(len(s) + 1):",
+            "Mutate_Code": "for i is range(len(s) + 1):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T45_LCPN_115-Distinct-Subsequences.py",
+            "Source_Code": "for i in range(len(s) + 1):",
+            "Mutate_Code": "for i is not range(len(s) + 1):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T45_LCPN_115-Distinct-Subsequences.py",
+            "Source_Code": "for i in range(len(s) + 1):",
+            "Mutate_Code": "for i in in range(len(s) + 1):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T45_LCPN_115-Distinct-Subsequences.py",
+            "Source_Code": "for i in range(len(s) + 1):",
+            "Mutate_Code": "for i not in not in range(len(s) + 1):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T45_LCPN_115-Distinct-Subsequences.py",
+            "Source_Code": "for i in range(len(s) + 1):",
+            "Mutate_Code": " "
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T45_LCPN_115-Distinct-Subsequences.py",
+            "Source_Code": "for i in range(len(s) + 1):",
+            "Mutate_Code": "while True:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T45_LCPN_115-Distinct-Subsequences.py",
+            "Source_Code": "for i in range(len(s) + 1):",
+            "Mutate_Code": "for for: i in range(len(s) + 1):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T45_LCPN_115-Distinct-Subsequences.py",
+            "Source_Code": "for i in range(len(s) + 1):",
+            "Mutate_Code": "for i in range(len( ) + 1):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T45_LCPN_115-Distinct-Subsequences.py",
+            "Source_Code": "for i in range(len(s) + 1):",
+            "Mutate_Code": "for i in range( ) + 1):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T45_LCPN_115-Distinct-Subsequences.py",
+            "Source_Code": "for i in range(len(s) + 1):",
+            "Mutate_Code": "for i in range(len(s) 1):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T45_LCPN_115-Distinct-Subsequences.py",
+            "Source_Code": "for i in range(len(s) + 1):",
+            "Mutate_Code": "for i in range(len(s) - 1):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T45_LCPN_115-Distinct-Subsequences.py",
+            "Source_Code": "for i in range(len(s) + 1):",
+            "Mutate_Code": "for i in range(len(s) * 1):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T45_LCPN_115-Distinct-Subsequences.py",
+            "Source_Code": "for i in range(len(s) + 1):",
+            "Mutate_Code": "for i in range(len(s) / 1):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T45_LCPN_115-Distinct-Subsequences.py",
+            "Source_Code": "for i in range(len(s) + 1):",
+            "Mutate_Code": "for i in range(len(s) % 1):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T45_LCPN_115-Distinct-Subsequences.py",
+            "Source_Code": "for i in range(len(s) + 1):",
+            "Mutate_Code": "for i in range(len(s) ** 1):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T45_LCPN_115-Distinct-Subsequences.py",
+            "Source_Code": "for i in range(len(s) + 1):",
+            "Mutate_Code": "for i in range(len(s) // 1):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T45_LCPN_115-Distinct-Subsequences.py",
+            "Source_Code": "for i in range(len(s) + 1):",
+            "Mutate_Code": "for i in range(len(s) ++ 1):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T45_LCPN_115-Distinct-Subsequences.py",
+            "Source_Code": "for i in range(len(s) + 1):",
+            "Mutate_Code": "for i in range(len(s) -- 1):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T45_LCPN_115-Distinct-Subsequences.py",
+            "Source_Code": "for i in range(len(s) + 1):",
+            "Mutate_Code": "for i in range(len(s) ** 1):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T45_LCPN_115-Distinct-Subsequences.py",
+            "Source_Code": "for i in range(len(s) + 1):",
+            "Mutate_Code": "for i in range(len(s) // 1):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T45_LCPN_115-Distinct-Subsequences.py",
+            "Source_Code": "for i in range(len(s) + 1):",
+            "Mutate_Code": "for i in range(len(s) %% 1):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T45_LCPN_115-Distinct-Subsequences.py",
+            "Source_Code": "for i in range(len(s) + 1):",
+            "Mutate_Code": "for i in range(len(s) **** 1):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T45_LCPN_115-Distinct-Subsequences.py",
+            "Source_Code": "for i in range(len(s) + 1):",
+            "Mutate_Code": "for i in range(len(s) //// 1):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T45_LCPN_115-Distinct-Subsequences.py",
+            "Source_Code": "for i in range(len(s) + 1):",
+            "Mutate_Code": "for i range(len(s) + 1):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T45_LCPN_115-Distinct-Subsequences.py",
+            "Source_Code": "for i in range(len(s) + 1):",
+            "Mutate_Code": "for i is range(len(s) + 1):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T45_LCPN_115-Distinct-Subsequences.py",
+            "Source_Code": "for i in range(len(s) + 1):",
+            "Mutate_Code": "for i is not range(len(s) + 1):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T45_LCPN_115-Distinct-Subsequences.py",
+            "Source_Code": "for i in range(len(s) + 1):",
+            "Mutate_Code": "for i in in range(len(s) + 1):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T45_LCPN_115-Distinct-Subsequences.py",
+            "Source_Code": "for i in range(len(s) + 1):",
+            "Mutate_Code": "for i not in not in range(len(s) + 1):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T45_LCPN_115-Distinct-Subsequences.py",
+            "Source_Code": "for i in range(len(s) + 1):",
+            "Mutate_Code": " "
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T45_LCPN_115-Distinct-Subsequences.py",
+            "Source_Code": "for i in range(len(s) + 1):",
+            "Mutate_Code": "while True:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T45_LCPN_115-Distinct-Subsequences.py",
+            "Source_Code": "for i in range(len(s) + 1):",
+            "Mutate_Code": "for for: i in range(len(s) + 1):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T45_LCPN_115-Distinct-Subsequences.py",
+            "Source_Code": "for i in range(len(s) + 1):",
+            "Mutate_Code": "for i in range(len( ) + 1):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T45_LCPN_115-Distinct-Subsequences.py",
+            "Source_Code": "for i in range(len(s) + 1):",
+            "Mutate_Code": "for i in range( ) + 1):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T45_LCPN_115-Distinct-Subsequences.py",
+            "Source_Code": "cache[(i, len(t))] = 1",
+            "Mutate_Code": "cache[(i, len(t))] 1"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T45_LCPN_115-Distinct-Subsequences.py",
+            "Source_Code": "cache[(i, len(t))] = 1",
+            "Mutate_Code": "cache[(i, len(t))] 1"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T45_LCPN_115-Distinct-Subsequences.py",
+            "Source_Code": "cache[(i, len(t))] = 1",
+            "Mutate_Code": "cache[(i, len(t))] += 1"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T45_LCPN_115-Distinct-Subsequences.py",
+            "Source_Code": "cache[(i, len(t))] = 1",
+            "Mutate_Code": "cache[(i, len(t))] -= 1"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T45_LCPN_115-Distinct-Subsequences.py",
+            "Source_Code": "cache[(i, len(t))] = 1",
+            "Mutate_Code": "cache[(i, len(t))] *= 1"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T45_LCPN_115-Distinct-Subsequences.py",
+            "Source_Code": "cache[(i, len(t))] = 1",
+            "Mutate_Code": "cache[(i, len(t))] /= 1"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T45_LCPN_115-Distinct-Subsequences.py",
+            "Source_Code": "cache[(i, len(t))] = 1",
+            "Mutate_Code": "cache[(i, len(t))] %= 1"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T45_LCPN_115-Distinct-Subsequences.py",
+            "Source_Code": "cache[(i, len(t))] = 1",
+            "Mutate_Code": "cache[(i, len(t))] //= 1"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T45_LCPN_115-Distinct-Subsequences.py",
+            "Source_Code": "cache[(i, len(t))] = 1",
+            "Mutate_Code": "cache[(i, len(t))] **= 1"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T45_LCPN_115-Distinct-Subsequences.py",
+            "Source_Code": "cache[(i, len(t))] = 1",
+            "Mutate_Code": "cache[(i, len(t))] &= 1"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T45_LCPN_115-Distinct-Subsequences.py",
+            "Source_Code": "cache[(i, len(t))] = 1",
+            "Mutate_Code": "cache[(i, len(t))] |= 1"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T45_LCPN_115-Distinct-Subsequences.py",
+            "Source_Code": "cache[(i, len(t))] = 1",
+            "Mutate_Code": "cache[(i, len(t))] ^= 1"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T45_LCPN_115-Distinct-Subsequences.py",
+            "Source_Code": "cache[(i, len(t))] = 1",
+            "Mutate_Code": "cache[(i, len(t))] >>= 1"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T45_LCPN_115-Distinct-Subsequences.py",
+            "Source_Code": "cache[(i, len(t))] = 1",
+            "Mutate_Code": "cache[(i, len(t))] <<= 1"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T45_LCPN_115-Distinct-Subsequences.py",
+            "Source_Code": "cache[(i, len(t))] = 1",
+            "Mutate_Code": "cache[(i, len(t))] += 1"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T45_LCPN_115-Distinct-Subsequences.py",
+            "Source_Code": "cache[(i, len(t))] = 1",
+            "Mutate_Code": "cache[(i, len(t))] -= 1"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T45_LCPN_115-Distinct-Subsequences.py",
+            "Source_Code": "cache[(i, len(t))] = 1",
+            "Mutate_Code": "cache[(i, len(t))] *= 1"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T45_LCPN_115-Distinct-Subsequences.py",
+            "Source_Code": "cache[(i, len(t))] = 1",
+            "Mutate_Code": "cache[(i, len(t))] /= 1"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T45_LCPN_115-Distinct-Subsequences.py",
+            "Source_Code": "cache[(i, len(t))] = 1",
+            "Mutate_Code": "cache[(i, len(t))] %= 1"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T45_LCPN_115-Distinct-Subsequences.py",
+            "Source_Code": "cache[(i, len(t))] = 1",
+            "Mutate_Code": "cache[(i, len(t))] //= 1"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T45_LCPN_115-Distinct-Subsequences.py",
+            "Source_Code": "cache[(i, len(t))] = 1",
+            "Mutate_Code": "cache[(i, len(t))] **= 1"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T45_LCPN_115-Distinct-Subsequences.py",
+            "Source_Code": "cache[(i, len(t))] = 1",
+            "Mutate_Code": "cache[(i, len(t))] &= 1"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T45_LCPN_115-Distinct-Subsequences.py",
+            "Source_Code": "cache[(i, len(t))] = 1",
+            "Mutate_Code": "cache[(i, len(t))] |= 1"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T45_LCPN_115-Distinct-Subsequences.py",
+            "Source_Code": "cache[(i, len(t))] = 1",
+            "Mutate_Code": "cache[(i, len(t))] ^= 1"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T45_LCPN_115-Distinct-Subsequences.py",
+            "Source_Code": "cache[(i, len(t))] = 1",
+            "Mutate_Code": "cache[(i, len(t))] >>= 1"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T45_LCPN_115-Distinct-Subsequences.py",
+            "Source_Code": "cache[(i, len(t))] = 1",
+            "Mutate_Code": "cache[(i, len(t))] <<= 1"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T45_LCPN_115-Distinct-Subsequences.py",
+            "Source_Code": "cache[(i, len(t))] = 1",
+            "Mutate_Code": "cache[(i, len(t))] == 1"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T45_LCPN_115-Distinct-Subsequences.py",
+            "Source_Code": "cache[(i, len(t))] = 1",
+            "Mutate_Code": "cache[(i, len(t))] +=+= 1"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T45_LCPN_115-Distinct-Subsequences.py",
+            "Source_Code": "cache[(i, len(t))] = 1",
+            "Mutate_Code": "cache[(i, len(t))] -=-= 1"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T45_LCPN_115-Distinct-Subsequences.py",
+            "Source_Code": "cache[(i, len(t))] = 1",
+            "Mutate_Code": "cache[(i, len(t))] *=*= 1"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T45_LCPN_115-Distinct-Subsequences.py",
+            "Source_Code": "cache[(i, len(t))] = 1",
+            "Mutate_Code": "cache[(i, len(t))] /=/= 1"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T45_LCPN_115-Distinct-Subsequences.py",
+            "Source_Code": "cache[(i, len(t))] = 1",
+            "Mutate_Code": "cache[(i, len(t))] %=%= 1"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T45_LCPN_115-Distinct-Subsequences.py",
+            "Source_Code": "cache[(i, len(t))] = 1",
+            "Mutate_Code": "cache[(i, len(t))] //=//= 1"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T45_LCPN_115-Distinct-Subsequences.py",
+            "Source_Code": "cache[(i, len(t))] = 1",
+            "Mutate_Code": "cache[(i, len(t))] **=**= 1"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T45_LCPN_115-Distinct-Subsequences.py",
+            "Source_Code": "cache[(i, len(t))] = 1",
+            "Mutate_Code": "cache[(i, len(t))] &=&= 1"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T45_LCPN_115-Distinct-Subsequences.py",
+            "Source_Code": "cache[(i, len(t))] = 1",
+            "Mutate_Code": "cache[(i, len(t))] |=|= 1"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T45_LCPN_115-Distinct-Subsequences.py",
+            "Source_Code": "cache[(i, len(t))] = 1",
+            "Mutate_Code": "cache[(i, len(t))] ^=^= 1"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T45_LCPN_115-Distinct-Subsequences.py",
+            "Source_Code": "cache[(i, len(t))] = 1",
+            "Mutate_Code": "cache[(i, len(t))] >>=>>= 1"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T45_LCPN_115-Distinct-Subsequences.py",
+            "Source_Code": "cache[(i, len(t))] = 1",
+            "Mutate_Code": "cache[(i, len(t))] <<=<<=1"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T45_LCPN_115-Distinct-Subsequences.py",
+            "Source_Code": "cache[(i, len(t))] = 1",
+            "Mutate_Code": "cache[(i, len(t))] == 1"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T45_LCPN_115-Distinct-Subsequences.py",
+            "Source_Code": "cache[(i, len(t))] = 1",
+            "Mutate_Code": "cache[(i, len(t))] +=+= 1"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T45_LCPN_115-Distinct-Subsequences.py",
+            "Source_Code": "cache[(i, len(t))] = 1",
+            "Mutate_Code": "cache[(i, len(t))] -=-= 1"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T45_LCPN_115-Distinct-Subsequences.py",
+            "Source_Code": "cache[(i, len(t))] = 1",
+            "Mutate_Code": "cache[(i, len(t))] *=*= 1"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T45_LCPN_115-Distinct-Subsequences.py",
+            "Source_Code": "cache[(i, len(t))] = 1",
+            "Mutate_Code": "cache[(i, len(t))] /=/= 1"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T45_LCPN_115-Distinct-Subsequences.py",
+            "Source_Code": "cache[(i, len(t))] = 1",
+            "Mutate_Code": "cache[(i, len(t))] %=%= 1"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T45_LCPN_115-Distinct-Subsequences.py",
+            "Source_Code": "cache[(i, len(t))] = 1",
+            "Mutate_Code": "cache[(i, len(t))] //=//= 1"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T45_LCPN_115-Distinct-Subsequences.py",
+            "Source_Code": "cache[(i, len(t))] = 1",
+            "Mutate_Code": "cache[(i, len(t))] **=**= 1"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T45_LCPN_115-Distinct-Subsequences.py",
+            "Source_Code": "cache[(i, len(t))] = 1",
+            "Mutate_Code": "cache[(i, len(t))] &=&= 1"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T45_LCPN_115-Distinct-Subsequences.py",
+            "Source_Code": "cache[(i, len(t))] = 1",
+            "Mutate_Code": "cache[(i, len(t))] |=|= 1"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T45_LCPN_115-Distinct-Subsequences.py",
+            "Source_Code": "cache[(i, len(t))] = 1",
+            "Mutate_Code": "cache[(i, len(t))] ^=^= 1"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T45_LCPN_115-Distinct-Subsequences.py",
+            "Source_Code": "cache[(i, len(t))] = 1",
+            "Mutate_Code": "cache[(i, len(t))] >>=>>= 1"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T45_LCPN_115-Distinct-Subsequences.py",
+            "Source_Code": "cache[(i, len(t))] = 1",
+            "Mutate_Code": "cache[(i, len(t))] <<=<<=1"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T45_LCPN_115-Distinct-Subsequences.py",
+            "Source_Code": "cache[(i, len(t))] = 1",
+            "Mutate_Code": "cache[(i, len( ))] = 1"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T45_LCPN_115-Distinct-Subsequences.py",
+            "Source_Code": "for j in range(len(t)):",
+            "Mutate_Code": "for j range(len(t)):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T45_LCPN_115-Distinct-Subsequences.py",
+            "Source_Code": "for j in range(len(t)):",
+            "Mutate_Code": "for j is range(len(t)):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T45_LCPN_115-Distinct-Subsequences.py",
+            "Source_Code": "for j in range(len(t)):",
+            "Mutate_Code": "for j is not range(len(t)):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T45_LCPN_115-Distinct-Subsequences.py",
+            "Source_Code": "for j in range(len(t)):",
+            "Mutate_Code": "for j in in range(len(t)):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T45_LCPN_115-Distinct-Subsequences.py",
+            "Source_Code": "for j in range(len(t)):",
+            "Mutate_Code": "for j not in not in range(len(t)):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T45_LCPN_115-Distinct-Subsequences.py",
+            "Source_Code": "for j in range(len(t)):",
+            "Mutate_Code": " "
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T45_LCPN_115-Distinct-Subsequences.py",
+            "Source_Code": "for j in range(len(t)):",
+            "Mutate_Code": "while True:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T45_LCPN_115-Distinct-Subsequences.py",
+            "Source_Code": "for j in range(len(t)):",
+            "Mutate_Code": "for for: j in range(len(t)):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T45_LCPN_115-Distinct-Subsequences.py",
+            "Source_Code": "for j in range(len(t)):",
+            "Mutate_Code": "for j in range(len( )):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T45_LCPN_115-Distinct-Subsequences.py",
+            "Source_Code": "for j in range(len(t)):",
+            "Mutate_Code": "for j in range( )):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T45_LCPN_115-Distinct-Subsequences.py",
+            "Source_Code": "for j in range(len(t)):",
+            "Mutate_Code": "for j range(len(t)):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T45_LCPN_115-Distinct-Subsequences.py",
+            "Source_Code": "for j in range(len(t)):",
+            "Mutate_Code": "for j is range(len(t)):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T45_LCPN_115-Distinct-Subsequences.py",
+            "Source_Code": "for j in range(len(t)):",
+            "Mutate_Code": "for j is not range(len(t)):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T45_LCPN_115-Distinct-Subsequences.py",
+            "Source_Code": "for j in range(len(t)):",
+            "Mutate_Code": "for j in in range(len(t)):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T45_LCPN_115-Distinct-Subsequences.py",
+            "Source_Code": "for j in range(len(t)):",
+            "Mutate_Code": "for j not in not in range(len(t)):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T45_LCPN_115-Distinct-Subsequences.py",
+            "Source_Code": "for j in range(len(t)):",
+            "Mutate_Code": " "
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T45_LCPN_115-Distinct-Subsequences.py",
+            "Source_Code": "for j in range(len(t)):",
+            "Mutate_Code": "while True:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T45_LCPN_115-Distinct-Subsequences.py",
+            "Source_Code": "for j in range(len(t)):",
+            "Mutate_Code": "for for: j in range(len(t)):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T45_LCPN_115-Distinct-Subsequences.py",
+            "Source_Code": "for j in range(len(t)):",
+            "Mutate_Code": "for j in range(len( )):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T45_LCPN_115-Distinct-Subsequences.py",
+            "Source_Code": "for j in range(len(t)):",
+            "Mutate_Code": "for j in range( )):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T45_LCPN_115-Distinct-Subsequences.py",
+            "Source_Code": "for j in range(len(t)):",
+            "Mutate_Code": "for j range(len(t)):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T45_LCPN_115-Distinct-Subsequences.py",
+            "Source_Code": "for j in range(len(t)):",
+            "Mutate_Code": "for j is range(len(t)):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T45_LCPN_115-Distinct-Subsequences.py",
+            "Source_Code": "for j in range(len(t)):",
+            "Mutate_Code": "for j is not range(len(t)):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T45_LCPN_115-Distinct-Subsequences.py",
+            "Source_Code": "for j in range(len(t)):",
+            "Mutate_Code": "for j in in range(len(t)):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T45_LCPN_115-Distinct-Subsequences.py",
+            "Source_Code": "for j in range(len(t)):",
+            "Mutate_Code": "for j not in not in range(len(t)):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T45_LCPN_115-Distinct-Subsequences.py",
+            "Source_Code": "for j in range(len(t)):",
+            "Mutate_Code": " "
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T45_LCPN_115-Distinct-Subsequences.py",
+            "Source_Code": "for j in range(len(t)):",
+            "Mutate_Code": "while True:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T45_LCPN_115-Distinct-Subsequences.py",
+            "Source_Code": "for j in range(len(t)):",
+            "Mutate_Code": "for for: j in range(len(t)):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T45_LCPN_115-Distinct-Subsequences.py",
+            "Source_Code": "for j in range(len(t)):",
+            "Mutate_Code": "for j in range(len( )):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T45_LCPN_115-Distinct-Subsequences.py",
+            "Source_Code": "for j in range(len(t)):",
+            "Mutate_Code": "for j in range( )):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T45_LCPN_115-Distinct-Subsequences.py",
+            "Source_Code": "cache[(len(s), j)] = 0",
+            "Mutate_Code": "cache[(len(s), j)] 0"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T45_LCPN_115-Distinct-Subsequences.py",
+            "Source_Code": "cache[(len(s), j)] = 0",
+            "Mutate_Code": "cache[(len(s), j)] 0"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T45_LCPN_115-Distinct-Subsequences.py",
+            "Source_Code": "cache[(len(s), j)] = 0",
+            "Mutate_Code": "cache[(len(s), j)] += 0"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T45_LCPN_115-Distinct-Subsequences.py",
+            "Source_Code": "cache[(len(s), j)] = 0",
+            "Mutate_Code": "cache[(len(s), j)] -= 0"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T45_LCPN_115-Distinct-Subsequences.py",
+            "Source_Code": "cache[(len(s), j)] = 0",
+            "Mutate_Code": "cache[(len(s), j)] *= 0"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T45_LCPN_115-Distinct-Subsequences.py",
+            "Source_Code": "cache[(len(s), j)] = 0",
+            "Mutate_Code": "cache[(len(s), j)] /= 0"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T45_LCPN_115-Distinct-Subsequences.py",
+            "Source_Code": "cache[(len(s), j)] = 0",
+            "Mutate_Code": "cache[(len(s), j)] %= 0"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T45_LCPN_115-Distinct-Subsequences.py",
+            "Source_Code": "cache[(len(s), j)] = 0",
+            "Mutate_Code": "cache[(len(s), j)] //= 0"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T45_LCPN_115-Distinct-Subsequences.py",
+            "Source_Code": "cache[(len(s), j)] = 0",
+            "Mutate_Code": "cache[(len(s), j)] **= 0"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T45_LCPN_115-Distinct-Subsequences.py",
+            "Source_Code": "cache[(len(s), j)] = 0",
+            "Mutate_Code": "cache[(len(s), j)] &= 0"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T45_LCPN_115-Distinct-Subsequences.py",
+            "Source_Code": "cache[(len(s), j)] = 0",
+            "Mutate_Code": "cache[(len(s), j)] |= 0"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T45_LCPN_115-Distinct-Subsequences.py",
+            "Source_Code": "cache[(len(s), j)] = 0",
+            "Mutate_Code": "cache[(len(s), j)] ^= 0"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T45_LCPN_115-Distinct-Subsequences.py",
+            "Source_Code": "cache[(len(s), j)] = 0",
+            "Mutate_Code": "cache[(len(s), j)] >>= 0"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T45_LCPN_115-Distinct-Subsequences.py",
+            "Source_Code": "cache[(len(s), j)] = 0",
+            "Mutate_Code": "cache[(len(s), j)] <<= 0"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T45_LCPN_115-Distinct-Subsequences.py",
+            "Source_Code": "cache[(len(s), j)] = 0",
+            "Mutate_Code": "cache[(len(s), j)] += 0"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T45_LCPN_115-Distinct-Subsequences.py",
+            "Source_Code": "cache[(len(s), j)] = 0",
+            "Mutate_Code": "cache[(len(s), j)] -= 0"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T45_LCPN_115-Distinct-Subsequences.py",
+            "Source_Code": "cache[(len(s), j)] = 0",
+            "Mutate_Code": "cache[(len(s), j)] *= 0"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T45_LCPN_115-Distinct-Subsequences.py",
+            "Source_Code": "cache[(len(s), j)] = 0",
+            "Mutate_Code": "cache[(len(s), j)] /= 0"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T45_LCPN_115-Distinct-Subsequences.py",
+            "Source_Code": "cache[(len(s), j)] = 0",
+            "Mutate_Code": "cache[(len(s), j)] %= 0"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T45_LCPN_115-Distinct-Subsequences.py",
+            "Source_Code": "cache[(len(s), j)] = 0",
+            "Mutate_Code": "cache[(len(s), j)] //= 0"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T45_LCPN_115-Distinct-Subsequences.py",
+            "Source_Code": "cache[(len(s), j)] = 0",
+            "Mutate_Code": "cache[(len(s), j)] **= 0"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T45_LCPN_115-Distinct-Subsequences.py",
+            "Source_Code": "cache[(len(s), j)] = 0",
+            "Mutate_Code": "cache[(len(s), j)] &= 0"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T45_LCPN_115-Distinct-Subsequences.py",
+            "Source_Code": "cache[(len(s), j)] = 0",
+            "Mutate_Code": "cache[(len(s), j)] |= 0"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T45_LCPN_115-Distinct-Subsequences.py",
+            "Source_Code": "cache[(len(s), j)] = 0",
+            "Mutate_Code": "cache[(len(s), j)] ^= 0"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T45_LCPN_115-Distinct-Subsequences.py",
+            "Source_Code": "cache[(len(s), j)] = 0",
+            "Mutate_Code": "cache[(len(s), j)] >>= 0"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T45_LCPN_115-Distinct-Subsequences.py",
+            "Source_Code": "cache[(len(s), j)] = 0",
+            "Mutate_Code": "cache[(len(s), j)] <<= 0"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T45_LCPN_115-Distinct-Subsequences.py",
+            "Source_Code": "cache[(len(s), j)] = 0",
+            "Mutate_Code": "cache[(len(s), j)] == 0"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T45_LCPN_115-Distinct-Subsequences.py",
+            "Source_Code": "cache[(len(s), j)] = 0",
+            "Mutate_Code": "cache[(len(s), j)] +=+= 0"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T45_LCPN_115-Distinct-Subsequences.py",
+            "Source_Code": "cache[(len(s), j)] = 0",
+            "Mutate_Code": "cache[(len(s), j)] -=-= 0"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T45_LCPN_115-Distinct-Subsequences.py",
+            "Source_Code": "cache[(len(s), j)] = 0",
+            "Mutate_Code": "cache[(len(s), j)] *=*= 0"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T45_LCPN_115-Distinct-Subsequences.py",
+            "Source_Code": "cache[(len(s), j)] = 0",
+            "Mutate_Code": "cache[(len(s), j)] /=/= 0"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T45_LCPN_115-Distinct-Subsequences.py",
+            "Source_Code": "cache[(len(s), j)] = 0",
+            "Mutate_Code": "cache[(len(s), j)] %=%= 0"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T45_LCPN_115-Distinct-Subsequences.py",
+            "Source_Code": "cache[(len(s), j)] = 0",
+            "Mutate_Code": "cache[(len(s), j)] //=//= 0"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T45_LCPN_115-Distinct-Subsequences.py",
+            "Source_Code": "cache[(len(s), j)] = 0",
+            "Mutate_Code": "cache[(len(s), j)] **=**= 0"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T45_LCPN_115-Distinct-Subsequences.py",
+            "Source_Code": "cache[(len(s), j)] = 0",
+            "Mutate_Code": "cache[(len(s), j)] &=&= 0"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T45_LCPN_115-Distinct-Subsequences.py",
+            "Source_Code": "cache[(len(s), j)] = 0",
+            "Mutate_Code": "cache[(len(s), j)] |=|= 0"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T45_LCPN_115-Distinct-Subsequences.py",
+            "Source_Code": "cache[(len(s), j)] = 0",
+            "Mutate_Code": "cache[(len(s), j)] ^=^= 0"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T45_LCPN_115-Distinct-Subsequences.py",
+            "Source_Code": "cache[(len(s), j)] = 0",
+            "Mutate_Code": "cache[(len(s), j)] >>=>>= 0"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T45_LCPN_115-Distinct-Subsequences.py",
+            "Source_Code": "cache[(len(s), j)] = 0",
+            "Mutate_Code": "cache[(len(s), j)] <<=<<=0"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T45_LCPN_115-Distinct-Subsequences.py",
+            "Source_Code": "cache[(len(s), j)] = 0",
+            "Mutate_Code": "cache[(len(s), j)] == 0"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T45_LCPN_115-Distinct-Subsequences.py",
+            "Source_Code": "cache[(len(s), j)] = 0",
+            "Mutate_Code": "cache[(len(s), j)] +=+= 0"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T45_LCPN_115-Distinct-Subsequences.py",
+            "Source_Code": "cache[(len(s), j)] = 0",
+            "Mutate_Code": "cache[(len(s), j)] -=-= 0"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T45_LCPN_115-Distinct-Subsequences.py",
+            "Source_Code": "cache[(len(s), j)] = 0",
+            "Mutate_Code": "cache[(len(s), j)] *=*= 0"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T45_LCPN_115-Distinct-Subsequences.py",
+            "Source_Code": "cache[(len(s), j)] = 0",
+            "Mutate_Code": "cache[(len(s), j)] /=/= 0"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T45_LCPN_115-Distinct-Subsequences.py",
+            "Source_Code": "cache[(len(s), j)] = 0",
+            "Mutate_Code": "cache[(len(s), j)] %=%= 0"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T45_LCPN_115-Distinct-Subsequences.py",
+            "Source_Code": "cache[(len(s), j)] = 0",
+            "Mutate_Code": "cache[(len(s), j)] //=//= 0"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T45_LCPN_115-Distinct-Subsequences.py",
+            "Source_Code": "cache[(len(s), j)] = 0",
+            "Mutate_Code": "cache[(len(s), j)] **=**= 0"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T45_LCPN_115-Distinct-Subsequences.py",
+            "Source_Code": "cache[(len(s), j)] = 0",
+            "Mutate_Code": "cache[(len(s), j)] &=&= 0"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T45_LCPN_115-Distinct-Subsequences.py",
+            "Source_Code": "cache[(len(s), j)] = 0",
+            "Mutate_Code": "cache[(len(s), j)] |=|= 0"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T45_LCPN_115-Distinct-Subsequences.py",
+            "Source_Code": "cache[(len(s), j)] = 0",
+            "Mutate_Code": "cache[(len(s), j)] ^=^= 0"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T45_LCPN_115-Distinct-Subsequences.py",
+            "Source_Code": "cache[(len(s), j)] = 0",
+            "Mutate_Code": "cache[(len(s), j)] >>=>>= 0"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T45_LCPN_115-Distinct-Subsequences.py",
+            "Source_Code": "cache[(len(s), j)] = 0",
+            "Mutate_Code": "cache[(len(s), j)] <<=<<=0"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T45_LCPN_115-Distinct-Subsequences.py",
+            "Source_Code": "cache[(len(s), j)] = 0",
+            "Mutate_Code": "cache[(len( ), j)] = 0"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T45_LCPN_115-Distinct-Subsequences.py",
+            "Source_Code": "for i in range(len(s) - 1, -1, -1):",
+            "Mutate_Code": "for i in range(len(s) 1, -1, -1):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T45_LCPN_115-Distinct-Subsequences.py",
+            "Source_Code": "for i in range(len(s) - 1, -1, -1):",
+            "Mutate_Code": "for i in range(len(s) + 1, -1, -1):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T45_LCPN_115-Distinct-Subsequences.py",
+            "Source_Code": "for i in range(len(s) - 1, -1, -1):",
+            "Mutate_Code": "for i in range(len(s) * 1, -1, -1):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T45_LCPN_115-Distinct-Subsequences.py",
+            "Source_Code": "for i in range(len(s) - 1, -1, -1):",
+            "Mutate_Code": "for i in range(len(s) / 1, -1, -1):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T45_LCPN_115-Distinct-Subsequences.py",
+            "Source_Code": "for i in range(len(s) - 1, -1, -1):",
+            "Mutate_Code": "for i in range(len(s) % 1, -1, -1):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T45_LCPN_115-Distinct-Subsequences.py",
+            "Source_Code": "for i in range(len(s) - 1, -1, -1):",
+            "Mutate_Code": "for i in range(len(s) ** 1, -1, -1):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T45_LCPN_115-Distinct-Subsequences.py",
+            "Source_Code": "for i in range(len(s) - 1, -1, -1):",
+            "Mutate_Code": "for i in range(len(s) // 1, -1, -1):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T45_LCPN_115-Distinct-Subsequences.py",
+            "Source_Code": "for i in range(len(s) - 1, -1, -1):",
+            "Mutate_Code": "for i in range(len(s) ++ 1, -1, -1):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T45_LCPN_115-Distinct-Subsequences.py",
+            "Source_Code": "for i in range(len(s) - 1, -1, -1):",
+            "Mutate_Code": "for i in range(len(s) -- 1, -1, -1):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T45_LCPN_115-Distinct-Subsequences.py",
+            "Source_Code": "for i in range(len(s) - 1, -1, -1):",
+            "Mutate_Code": "for i in range(len(s) ** 1, -1, -1):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T45_LCPN_115-Distinct-Subsequences.py",
+            "Source_Code": "for i in range(len(s) - 1, -1, -1):",
+            "Mutate_Code": "for i in range(len(s) // 1, -1, -1):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T45_LCPN_115-Distinct-Subsequences.py",
+            "Source_Code": "for i in range(len(s) - 1, -1, -1):",
+            "Mutate_Code": "for i in range(len(s) %% 1, -1, -1):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T45_LCPN_115-Distinct-Subsequences.py",
+            "Source_Code": "for i in range(len(s) - 1, -1, -1):",
+            "Mutate_Code": "for i in range(len(s) **** 1, -1, -1):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T45_LCPN_115-Distinct-Subsequences.py",
+            "Source_Code": "for i in range(len(s) - 1, -1, -1):",
+            "Mutate_Code": "for i in range(len(s) //// 1, -1, -1):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T45_LCPN_115-Distinct-Subsequences.py",
+            "Source_Code": "for i in range(len(s) - 1, -1, -1):",
+            "Mutate_Code": "for i range(len(s) - 1, -1, -1):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T45_LCPN_115-Distinct-Subsequences.py",
+            "Source_Code": "for i in range(len(s) - 1, -1, -1):",
+            "Mutate_Code": "for i is range(len(s) - 1, -1, -1):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T45_LCPN_115-Distinct-Subsequences.py",
+            "Source_Code": "for i in range(len(s) - 1, -1, -1):",
+            "Mutate_Code": "for i is not range(len(s) - 1, -1, -1):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T45_LCPN_115-Distinct-Subsequences.py",
+            "Source_Code": "for i in range(len(s) - 1, -1, -1):",
+            "Mutate_Code": "for i in in range(len(s) - 1, -1, -1):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T45_LCPN_115-Distinct-Subsequences.py",
+            "Source_Code": "for i in range(len(s) - 1, -1, -1):",
+            "Mutate_Code": "for i not in not in range(len(s) - 1, -1, -1):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T45_LCPN_115-Distinct-Subsequences.py",
+            "Source_Code": "for i in range(len(s) - 1, -1, -1):",
+            "Mutate_Code": " "
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T45_LCPN_115-Distinct-Subsequences.py",
+            "Source_Code": "for i in range(len(s) - 1, -1, -1):",
+            "Mutate_Code": "while True:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T45_LCPN_115-Distinct-Subsequences.py",
+            "Source_Code": "for i in range(len(s) - 1, -1, -1):",
+            "Mutate_Code": "for for: i in range(len(s) - 1, -1, -1):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T45_LCPN_115-Distinct-Subsequences.py",
+            "Source_Code": "for i in range(len(s) - 1, -1, -1):",
+            "Mutate_Code": "for i in range(len( ) - 1, -1, -1):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T45_LCPN_115-Distinct-Subsequences.py",
+            "Source_Code": "for i in range(len(s) - 1, -1, -1):",
+            "Mutate_Code": "for i in range( ) - 1, -1, -1):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T45_LCPN_115-Distinct-Subsequences.py",
+            "Source_Code": "for i in range(len(s) - 1, -1, -1):",
+            "Mutate_Code": "for i in range(len(s) 1, -1, -1):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T45_LCPN_115-Distinct-Subsequences.py",
+            "Source_Code": "for i in range(len(s) - 1, -1, -1):",
+            "Mutate_Code": "for i in range(len(s) + 1, -1, -1):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T45_LCPN_115-Distinct-Subsequences.py",
+            "Source_Code": "for i in range(len(s) - 1, -1, -1):",
+            "Mutate_Code": "for i in range(len(s) * 1, -1, -1):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T45_LCPN_115-Distinct-Subsequences.py",
+            "Source_Code": "for i in range(len(s) - 1, -1, -1):",
+            "Mutate_Code": "for i in range(len(s) / 1, -1, -1):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T45_LCPN_115-Distinct-Subsequences.py",
+            "Source_Code": "for i in range(len(s) - 1, -1, -1):",
+            "Mutate_Code": "for i in range(len(s) % 1, -1, -1):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T45_LCPN_115-Distinct-Subsequences.py",
+            "Source_Code": "for i in range(len(s) - 1, -1, -1):",
+            "Mutate_Code": "for i in range(len(s) ** 1, -1, -1):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T45_LCPN_115-Distinct-Subsequences.py",
+            "Source_Code": "for i in range(len(s) - 1, -1, -1):",
+            "Mutate_Code": "for i in range(len(s) // 1, -1, -1):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T45_LCPN_115-Distinct-Subsequences.py",
+            "Source_Code": "for i in range(len(s) - 1, -1, -1):",
+            "Mutate_Code": "for i in range(len(s) ++ 1, -1, -1):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T45_LCPN_115-Distinct-Subsequences.py",
+            "Source_Code": "for i in range(len(s) - 1, -1, -1):",
+            "Mutate_Code": "for i in range(len(s) -- 1, -1, -1):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T45_LCPN_115-Distinct-Subsequences.py",
+            "Source_Code": "for i in range(len(s) - 1, -1, -1):",
+            "Mutate_Code": "for i in range(len(s) ** 1, -1, -1):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T45_LCPN_115-Distinct-Subsequences.py",
+            "Source_Code": "for i in range(len(s) - 1, -1, -1):",
+            "Mutate_Code": "for i in range(len(s) // 1, -1, -1):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T45_LCPN_115-Distinct-Subsequences.py",
+            "Source_Code": "for i in range(len(s) - 1, -1, -1):",
+            "Mutate_Code": "for i in range(len(s) %% 1, -1, -1):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T45_LCPN_115-Distinct-Subsequences.py",
+            "Source_Code": "for i in range(len(s) - 1, -1, -1):",
+            "Mutate_Code": "for i in range(len(s) **** 1, -1, -1):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T45_LCPN_115-Distinct-Subsequences.py",
+            "Source_Code": "for i in range(len(s) - 1, -1, -1):",
+            "Mutate_Code": "for i in range(len(s) //// 1, -1, -1):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T45_LCPN_115-Distinct-Subsequences.py",
+            "Source_Code": "for i in range(len(s) - 1, -1, -1):",
+            "Mutate_Code": "for i range(len(s) - 1, -1, -1):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T45_LCPN_115-Distinct-Subsequences.py",
+            "Source_Code": "for i in range(len(s) - 1, -1, -1):",
+            "Mutate_Code": "for i is range(len(s) - 1, -1, -1):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T45_LCPN_115-Distinct-Subsequences.py",
+            "Source_Code": "for i in range(len(s) - 1, -1, -1):",
+            "Mutate_Code": "for i is not range(len(s) - 1, -1, -1):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T45_LCPN_115-Distinct-Subsequences.py",
+            "Source_Code": "for i in range(len(s) - 1, -1, -1):",
+            "Mutate_Code": "for i in in range(len(s) - 1, -1, -1):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T45_LCPN_115-Distinct-Subsequences.py",
+            "Source_Code": "for i in range(len(s) - 1, -1, -1):",
+            "Mutate_Code": "for i not in not in range(len(s) - 1, -1, -1):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T45_LCPN_115-Distinct-Subsequences.py",
+            "Source_Code": "for i in range(len(s) - 1, -1, -1):",
+            "Mutate_Code": " "
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T45_LCPN_115-Distinct-Subsequences.py",
+            "Source_Code": "for i in range(len(s) - 1, -1, -1):",
+            "Mutate_Code": "while True:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T45_LCPN_115-Distinct-Subsequences.py",
+            "Source_Code": "for i in range(len(s) - 1, -1, -1):",
+            "Mutate_Code": "for for: i in range(len(s) - 1, -1, -1):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T45_LCPN_115-Distinct-Subsequences.py",
+            "Source_Code": "for i in range(len(s) - 1, -1, -1):",
+            "Mutate_Code": "for i in range(len( ) - 1, -1, -1):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T45_LCPN_115-Distinct-Subsequences.py",
+            "Source_Code": "for i in range(len(s) - 1, -1, -1):",
+            "Mutate_Code": "for i in range( ) - 1, -1, -1):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T45_LCPN_115-Distinct-Subsequences.py",
+            "Source_Code": "for i in range(len(s) - 1, -1, -1):",
+            "Mutate_Code": "for i in range(len(s) 1, -1, -1):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T45_LCPN_115-Distinct-Subsequences.py",
+            "Source_Code": "for i in range(len(s) - 1, -1, -1):",
+            "Mutate_Code": "for i in range(len(s) + 1, -1, -1):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T45_LCPN_115-Distinct-Subsequences.py",
+            "Source_Code": "for i in range(len(s) - 1, -1, -1):",
+            "Mutate_Code": "for i in range(len(s) * 1, -1, -1):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T45_LCPN_115-Distinct-Subsequences.py",
+            "Source_Code": "for i in range(len(s) - 1, -1, -1):",
+            "Mutate_Code": "for i in range(len(s) / 1, -1, -1):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T45_LCPN_115-Distinct-Subsequences.py",
+            "Source_Code": "for i in range(len(s) - 1, -1, -1):",
+            "Mutate_Code": "for i in range(len(s) % 1, -1, -1):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T45_LCPN_115-Distinct-Subsequences.py",
+            "Source_Code": "for i in range(len(s) - 1, -1, -1):",
+            "Mutate_Code": "for i in range(len(s) ** 1, -1, -1):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T45_LCPN_115-Distinct-Subsequences.py",
+            "Source_Code": "for i in range(len(s) - 1, -1, -1):",
+            "Mutate_Code": "for i in range(len(s) // 1, -1, -1):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T45_LCPN_115-Distinct-Subsequences.py",
+            "Source_Code": "for i in range(len(s) - 1, -1, -1):",
+            "Mutate_Code": "for i in range(len(s) ++ 1, -1, -1):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T45_LCPN_115-Distinct-Subsequences.py",
+            "Source_Code": "for i in range(len(s) - 1, -1, -1):",
+            "Mutate_Code": "for i in range(len(s) -- 1, -1, -1):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T45_LCPN_115-Distinct-Subsequences.py",
+            "Source_Code": "for i in range(len(s) - 1, -1, -1):",
+            "Mutate_Code": "for i in range(len(s) ** 1, -1, -1):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T45_LCPN_115-Distinct-Subsequences.py",
+            "Source_Code": "for i in range(len(s) - 1, -1, -1):",
+            "Mutate_Code": "for i in range(len(s) // 1, -1, -1):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T45_LCPN_115-Distinct-Subsequences.py",
+            "Source_Code": "for i in range(len(s) - 1, -1, -1):",
+            "Mutate_Code": "for i in range(len(s) %% 1, -1, -1):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T45_LCPN_115-Distinct-Subsequences.py",
+            "Source_Code": "for i in range(len(s) - 1, -1, -1):",
+            "Mutate_Code": "for i in range(len(s) **** 1, -1, -1):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T45_LCPN_115-Distinct-Subsequences.py",
+            "Source_Code": "for i in range(len(s) - 1, -1, -1):",
+            "Mutate_Code": "for i in range(len(s) //// 1, -1, -1):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T45_LCPN_115-Distinct-Subsequences.py",
+            "Source_Code": "for i in range(len(s) - 1, -1, -1):",
+            "Mutate_Code": "for i range(len(s) - 1, -1, -1):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T45_LCPN_115-Distinct-Subsequences.py",
+            "Source_Code": "for i in range(len(s) - 1, -1, -1):",
+            "Mutate_Code": "for i is range(len(s) - 1, -1, -1):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T45_LCPN_115-Distinct-Subsequences.py",
+            "Source_Code": "for i in range(len(s) - 1, -1, -1):",
+            "Mutate_Code": "for i is not range(len(s) - 1, -1, -1):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T45_LCPN_115-Distinct-Subsequences.py",
+            "Source_Code": "for i in range(len(s) - 1, -1, -1):",
+            "Mutate_Code": "for i in in range(len(s) - 1, -1, -1):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T45_LCPN_115-Distinct-Subsequences.py",
+            "Source_Code": "for i in range(len(s) - 1, -1, -1):",
+            "Mutate_Code": "for i not in not in range(len(s) - 1, -1, -1):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T45_LCPN_115-Distinct-Subsequences.py",
+            "Source_Code": "for i in range(len(s) - 1, -1, -1):",
+            "Mutate_Code": " "
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T45_LCPN_115-Distinct-Subsequences.py",
+            "Source_Code": "for i in range(len(s) - 1, -1, -1):",
+            "Mutate_Code": "while True:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T45_LCPN_115-Distinct-Subsequences.py",
+            "Source_Code": "for i in range(len(s) - 1, -1, -1):",
+            "Mutate_Code": "for for: i in range(len(s) - 1, -1, -1):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T45_LCPN_115-Distinct-Subsequences.py",
+            "Source_Code": "for i in range(len(s) - 1, -1, -1):",
+            "Mutate_Code": "for i in range(len( ) - 1, -1, -1):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T45_LCPN_115-Distinct-Subsequences.py",
+            "Source_Code": "for i in range(len(s) - 1, -1, -1):",
+            "Mutate_Code": "for i in range( ) - 1, -1, -1):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T45_LCPN_115-Distinct-Subsequences.py",
+            "Source_Code": "for j in range(len(t) - 1, -1, -1):",
+            "Mutate_Code": "for j in range(len(t) 1, -1, -1):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T45_LCPN_115-Distinct-Subsequences.py",
+            "Source_Code": "for j in range(len(t) - 1, -1, -1):",
+            "Mutate_Code": "for j in range(len(t) + 1, -1, -1):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T45_LCPN_115-Distinct-Subsequences.py",
+            "Source_Code": "for j in range(len(t) - 1, -1, -1):",
+            "Mutate_Code": "for j in range(len(t) * 1, -1, -1):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T45_LCPN_115-Distinct-Subsequences.py",
+            "Source_Code": "for j in range(len(t) - 1, -1, -1):",
+            "Mutate_Code": "for j in range(len(t) / 1, -1, -1):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T45_LCPN_115-Distinct-Subsequences.py",
+            "Source_Code": "for j in range(len(t) - 1, -1, -1):",
+            "Mutate_Code": "for j in range(len(t) % 1, -1, -1):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T45_LCPN_115-Distinct-Subsequences.py",
+            "Source_Code": "for j in range(len(t) - 1, -1, -1):",
+            "Mutate_Code": "for j in range(len(t) ** 1, -1, -1):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T45_LCPN_115-Distinct-Subsequences.py",
+            "Source_Code": "for j in range(len(t) - 1, -1, -1):",
+            "Mutate_Code": "for j in range(len(t) // 1, -1, -1):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T45_LCPN_115-Distinct-Subsequences.py",
+            "Source_Code": "for j in range(len(t) - 1, -1, -1):",
+            "Mutate_Code": "for j in range(len(t) ++ 1, -1, -1):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T45_LCPN_115-Distinct-Subsequences.py",
+            "Source_Code": "for j in range(len(t) - 1, -1, -1):",
+            "Mutate_Code": "for j in range(len(t) -- 1, -1, -1):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T45_LCPN_115-Distinct-Subsequences.py",
+            "Source_Code": "for j in range(len(t) - 1, -1, -1):",
+            "Mutate_Code": "for j in range(len(t) ** 1, -1, -1):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T45_LCPN_115-Distinct-Subsequences.py",
+            "Source_Code": "for j in range(len(t) - 1, -1, -1):",
+            "Mutate_Code": "for j in range(len(t) // 1, -1, -1):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T45_LCPN_115-Distinct-Subsequences.py",
+            "Source_Code": "for j in range(len(t) - 1, -1, -1):",
+            "Mutate_Code": "for j in range(len(t) %% 1, -1, -1):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T45_LCPN_115-Distinct-Subsequences.py",
+            "Source_Code": "for j in range(len(t) - 1, -1, -1):",
+            "Mutate_Code": "for j in range(len(t) **** 1, -1, -1):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T45_LCPN_115-Distinct-Subsequences.py",
+            "Source_Code": "for j in range(len(t) - 1, -1, -1):",
+            "Mutate_Code": "for j in range(len(t) //// 1, -1, -1):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T45_LCPN_115-Distinct-Subsequences.py",
+            "Source_Code": "for j in range(len(t) - 1, -1, -1):",
+            "Mutate_Code": "for j range(len(t) - 1, -1, -1):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T45_LCPN_115-Distinct-Subsequences.py",
+            "Source_Code": "for j in range(len(t) - 1, -1, -1):",
+            "Mutate_Code": "for j is range(len(t) - 1, -1, -1):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T45_LCPN_115-Distinct-Subsequences.py",
+            "Source_Code": "for j in range(len(t) - 1, -1, -1):",
+            "Mutate_Code": "for j is not range(len(t) - 1, -1, -1):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T45_LCPN_115-Distinct-Subsequences.py",
+            "Source_Code": "for j in range(len(t) - 1, -1, -1):",
+            "Mutate_Code": "for j in in range(len(t) - 1, -1, -1):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T45_LCPN_115-Distinct-Subsequences.py",
+            "Source_Code": "for j in range(len(t) - 1, -1, -1):",
+            "Mutate_Code": "for j not in not in range(len(t) - 1, -1, -1):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T45_LCPN_115-Distinct-Subsequences.py",
+            "Source_Code": "for j in range(len(t) - 1, -1, -1):",
+            "Mutate_Code": " "
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T45_LCPN_115-Distinct-Subsequences.py",
+            "Source_Code": "for j in range(len(t) - 1, -1, -1):",
+            "Mutate_Code": "while True:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T45_LCPN_115-Distinct-Subsequences.py",
+            "Source_Code": "for j in range(len(t) - 1, -1, -1):",
+            "Mutate_Code": "for for: j in range(len(t) - 1, -1, -1):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T45_LCPN_115-Distinct-Subsequences.py",
+            "Source_Code": "for j in range(len(t) - 1, -1, -1):",
+            "Mutate_Code": "for j in range(len( ) - 1, -1, -1):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T45_LCPN_115-Distinct-Subsequences.py",
+            "Source_Code": "for j in range(len(t) - 1, -1, -1):",
+            "Mutate_Code": "for j in range( ) - 1, -1, -1):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T45_LCPN_115-Distinct-Subsequences.py",
+            "Source_Code": "for j in range(len(t) - 1, -1, -1):",
+            "Mutate_Code": "for j in range(len(t) 1, -1, -1):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T45_LCPN_115-Distinct-Subsequences.py",
+            "Source_Code": "for j in range(len(t) - 1, -1, -1):",
+            "Mutate_Code": "for j in range(len(t) + 1, -1, -1):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T45_LCPN_115-Distinct-Subsequences.py",
+            "Source_Code": "for j in range(len(t) - 1, -1, -1):",
+            "Mutate_Code": "for j in range(len(t) * 1, -1, -1):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T45_LCPN_115-Distinct-Subsequences.py",
+            "Source_Code": "for j in range(len(t) - 1, -1, -1):",
+            "Mutate_Code": "for j in range(len(t) / 1, -1, -1):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T45_LCPN_115-Distinct-Subsequences.py",
+            "Source_Code": "for j in range(len(t) - 1, -1, -1):",
+            "Mutate_Code": "for j in range(len(t) % 1, -1, -1):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T45_LCPN_115-Distinct-Subsequences.py",
+            "Source_Code": "for j in range(len(t) - 1, -1, -1):",
+            "Mutate_Code": "for j in range(len(t) ** 1, -1, -1):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T45_LCPN_115-Distinct-Subsequences.py",
+            "Source_Code": "for j in range(len(t) - 1, -1, -1):",
+            "Mutate_Code": "for j in range(len(t) // 1, -1, -1):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T45_LCPN_115-Distinct-Subsequences.py",
+            "Source_Code": "for j in range(len(t) - 1, -1, -1):",
+            "Mutate_Code": "for j in range(len(t) ++ 1, -1, -1):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T45_LCPN_115-Distinct-Subsequences.py",
+            "Source_Code": "for j in range(len(t) - 1, -1, -1):",
+            "Mutate_Code": "for j in range(len(t) -- 1, -1, -1):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T45_LCPN_115-Distinct-Subsequences.py",
+            "Source_Code": "for j in range(len(t) - 1, -1, -1):",
+            "Mutate_Code": "for j in range(len(t) ** 1, -1, -1):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T45_LCPN_115-Distinct-Subsequences.py",
+            "Source_Code": "for j in range(len(t) - 1, -1, -1):",
+            "Mutate_Code": "for j in range(len(t) // 1, -1, -1):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T45_LCPN_115-Distinct-Subsequences.py",
+            "Source_Code": "for j in range(len(t) - 1, -1, -1):",
+            "Mutate_Code": "for j in range(len(t) %% 1, -1, -1):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T45_LCPN_115-Distinct-Subsequences.py",
+            "Source_Code": "for j in range(len(t) - 1, -1, -1):",
+            "Mutate_Code": "for j in range(len(t) **** 1, -1, -1):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T45_LCPN_115-Distinct-Subsequences.py",
+            "Source_Code": "for j in range(len(t) - 1, -1, -1):",
+            "Mutate_Code": "for j in range(len(t) //// 1, -1, -1):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T45_LCPN_115-Distinct-Subsequences.py",
+            "Source_Code": "for j in range(len(t) - 1, -1, -1):",
+            "Mutate_Code": "for j range(len(t) - 1, -1, -1):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T45_LCPN_115-Distinct-Subsequences.py",
+            "Source_Code": "for j in range(len(t) - 1, -1, -1):",
+            "Mutate_Code": "for j is range(len(t) - 1, -1, -1):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T45_LCPN_115-Distinct-Subsequences.py",
+            "Source_Code": "for j in range(len(t) - 1, -1, -1):",
+            "Mutate_Code": "for j is not range(len(t) - 1, -1, -1):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T45_LCPN_115-Distinct-Subsequences.py",
+            "Source_Code": "for j in range(len(t) - 1, -1, -1):",
+            "Mutate_Code": "for j in in range(len(t) - 1, -1, -1):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T45_LCPN_115-Distinct-Subsequences.py",
+            "Source_Code": "for j in range(len(t) - 1, -1, -1):",
+            "Mutate_Code": "for j not in not in range(len(t) - 1, -1, -1):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T45_LCPN_115-Distinct-Subsequences.py",
+            "Source_Code": "for j in range(len(t) - 1, -1, -1):",
+            "Mutate_Code": " "
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T45_LCPN_115-Distinct-Subsequences.py",
+            "Source_Code": "for j in range(len(t) - 1, -1, -1):",
+            "Mutate_Code": "while True:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T45_LCPN_115-Distinct-Subsequences.py",
+            "Source_Code": "for j in range(len(t) - 1, -1, -1):",
+            "Mutate_Code": "for for: j in range(len(t) - 1, -1, -1):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T45_LCPN_115-Distinct-Subsequences.py",
+            "Source_Code": "for j in range(len(t) - 1, -1, -1):",
+            "Mutate_Code": "for j in range(len( ) - 1, -1, -1):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T45_LCPN_115-Distinct-Subsequences.py",
+            "Source_Code": "for j in range(len(t) - 1, -1, -1):",
+            "Mutate_Code": "for j in range( ) - 1, -1, -1):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T45_LCPN_115-Distinct-Subsequences.py",
+            "Source_Code": "for j in range(len(t) - 1, -1, -1):",
+            "Mutate_Code": "for j in range(len(t) 1, -1, -1):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T45_LCPN_115-Distinct-Subsequences.py",
+            "Source_Code": "for j in range(len(t) - 1, -1, -1):",
+            "Mutate_Code": "for j in range(len(t) + 1, -1, -1):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T45_LCPN_115-Distinct-Subsequences.py",
+            "Source_Code": "for j in range(len(t) - 1, -1, -1):",
+            "Mutate_Code": "for j in range(len(t) * 1, -1, -1):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T45_LCPN_115-Distinct-Subsequences.py",
+            "Source_Code": "for j in range(len(t) - 1, -1, -1):",
+            "Mutate_Code": "for j in range(len(t) / 1, -1, -1):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T45_LCPN_115-Distinct-Subsequences.py",
+            "Source_Code": "for j in range(len(t) - 1, -1, -1):",
+            "Mutate_Code": "for j in range(len(t) % 1, -1, -1):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T45_LCPN_115-Distinct-Subsequences.py",
+            "Source_Code": "for j in range(len(t) - 1, -1, -1):",
+            "Mutate_Code": "for j in range(len(t) ** 1, -1, -1):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T45_LCPN_115-Distinct-Subsequences.py",
+            "Source_Code": "for j in range(len(t) - 1, -1, -1):",
+            "Mutate_Code": "for j in range(len(t) // 1, -1, -1):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T45_LCPN_115-Distinct-Subsequences.py",
+            "Source_Code": "for j in range(len(t) - 1, -1, -1):",
+            "Mutate_Code": "for j in range(len(t) ++ 1, -1, -1):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T45_LCPN_115-Distinct-Subsequences.py",
+            "Source_Code": "for j in range(len(t) - 1, -1, -1):",
+            "Mutate_Code": "for j in range(len(t) -- 1, -1, -1):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T45_LCPN_115-Distinct-Subsequences.py",
+            "Source_Code": "for j in range(len(t) - 1, -1, -1):",
+            "Mutate_Code": "for j in range(len(t) ** 1, -1, -1):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T45_LCPN_115-Distinct-Subsequences.py",
+            "Source_Code": "for j in range(len(t) - 1, -1, -1):",
+            "Mutate_Code": "for j in range(len(t) // 1, -1, -1):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T45_LCPN_115-Distinct-Subsequences.py",
+            "Source_Code": "for j in range(len(t) - 1, -1, -1):",
+            "Mutate_Code": "for j in range(len(t) %% 1, -1, -1):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T45_LCPN_115-Distinct-Subsequences.py",
+            "Source_Code": "for j in range(len(t) - 1, -1, -1):",
+            "Mutate_Code": "for j in range(len(t) **** 1, -1, -1):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T45_LCPN_115-Distinct-Subsequences.py",
+            "Source_Code": "for j in range(len(t) - 1, -1, -1):",
+            "Mutate_Code": "for j in range(len(t) //// 1, -1, -1):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T45_LCPN_115-Distinct-Subsequences.py",
+            "Source_Code": "for j in range(len(t) - 1, -1, -1):",
+            "Mutate_Code": "for j range(len(t) - 1, -1, -1):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T45_LCPN_115-Distinct-Subsequences.py",
+            "Source_Code": "for j in range(len(t) - 1, -1, -1):",
+            "Mutate_Code": "for j is range(len(t) - 1, -1, -1):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T45_LCPN_115-Distinct-Subsequences.py",
+            "Source_Code": "for j in range(len(t) - 1, -1, -1):",
+            "Mutate_Code": "for j is not range(len(t) - 1, -1, -1):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T45_LCPN_115-Distinct-Subsequences.py",
+            "Source_Code": "for j in range(len(t) - 1, -1, -1):",
+            "Mutate_Code": "for j in in range(len(t) - 1, -1, -1):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T45_LCPN_115-Distinct-Subsequences.py",
+            "Source_Code": "for j in range(len(t) - 1, -1, -1):",
+            "Mutate_Code": "for j not in not in range(len(t) - 1, -1, -1):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T45_LCPN_115-Distinct-Subsequences.py",
+            "Source_Code": "for j in range(len(t) - 1, -1, -1):",
+            "Mutate_Code": " "
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T45_LCPN_115-Distinct-Subsequences.py",
+            "Source_Code": "for j in range(len(t) - 1, -1, -1):",
+            "Mutate_Code": "while True:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T45_LCPN_115-Distinct-Subsequences.py",
+            "Source_Code": "for j in range(len(t) - 1, -1, -1):",
+            "Mutate_Code": "for for: j in range(len(t) - 1, -1, -1):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T45_LCPN_115-Distinct-Subsequences.py",
+            "Source_Code": "for j in range(len(t) - 1, -1, -1):",
+            "Mutate_Code": "for j in range(len( ) - 1, -1, -1):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T45_LCPN_115-Distinct-Subsequences.py",
+            "Source_Code": "for j in range(len(t) - 1, -1, -1):",
+            "Mutate_Code": "for j in range( ) - 1, -1, -1):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T45_LCPN_115-Distinct-Subsequences.py",
+            "Source_Code": "if s[i] == t[j]:",
+            "Mutate_Code": "if s[i]   t[j]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T45_LCPN_115-Distinct-Subsequences.py",
+            "Source_Code": "if s[i] == t[j]:",
+            "Mutate_Code": "if s[i] != t[j]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T45_LCPN_115-Distinct-Subsequences.py",
+            "Source_Code": "if s[i] == t[j]:",
+            "Mutate_Code": "if s[i] > t[j]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T45_LCPN_115-Distinct-Subsequences.py",
+            "Source_Code": "if s[i] == t[j]:",
+            "Mutate_Code": "if s[i] < t[j]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T45_LCPN_115-Distinct-Subsequences.py",
+            "Source_Code": "if s[i] == t[j]:",
+            "Mutate_Code": "if s[i] >= t[j]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T45_LCPN_115-Distinct-Subsequences.py",
+            "Source_Code": "if s[i] == t[j]:",
+            "Mutate_Code": "if s[i] <= t[j]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T45_LCPN_115-Distinct-Subsequences.py",
+            "Source_Code": "if s[i] == t[j]:",
+            "Mutate_Code": "if s[i]  ====  t[j]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T45_LCPN_115-Distinct-Subsequences.py",
+            "Source_Code": "if s[i] == t[j]:",
+            "Mutate_Code": "if s[i]  !==  t[j]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T45_LCPN_115-Distinct-Subsequences.py",
+            "Source_Code": "if s[i] == t[j]:",
+            "Mutate_Code": "if s[i]  >>  t[j]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T45_LCPN_115-Distinct-Subsequences.py",
+            "Source_Code": "if s[i] == t[j]:",
+            "Mutate_Code": "if s[i]  <<  t[j]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T45_LCPN_115-Distinct-Subsequences.py",
+            "Source_Code": "if s[i] == t[j]:",
+            "Mutate_Code": "if s[i]  >=>=  t[j]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T45_LCPN_115-Distinct-Subsequences.py",
+            "Source_Code": "if s[i] == t[j]:",
+            "Mutate_Code": "if s[i]  <=<=  t[j]:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T45_LCPN_115-Distinct-Subsequences.py",
+            "Source_Code": "if s[i] == t[j]:",
+            "Mutate_Code": " "
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T45_LCPN_115-Distinct-Subsequences.py",
+            "Source_Code": "if s[i] == t[j]:",
+            "Mutate_Code": "elif:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T45_LCPN_115-Distinct-Subsequences.py",
+            "Source_Code": "if s[i] == t[j]:",
+            "Mutate_Code": "else:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T45_LCPN_115-Distinct-Subsequences.py",
+            "Source_Code": "if s[i] == t[j]:",
+            "Mutate_Code": "if if"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T45_LCPN_115-Distinct-Subsequences.py",
+            "Source_Code": "else:",
+            "Mutate_Code": " "
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T45_LCPN_115-Distinct-Subsequences.py",
+            "Source_Code": "else:",
+            "Mutate_Code": "if:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T45_LCPN_115-Distinct-Subsequences.py",
+            "Source_Code": "else:",
+            "Mutate_Code": "elif:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T45_LCPN_115-Distinct-Subsequences.py",
+            "Source_Code": "else:",
+            "Mutate_Code": "else else:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T45_LCPN_115-Distinct-Subsequences.py",
+            "Source_Code": "return cache[(0, 0)]",
+            "Mutate_Code": " cache[(0, 0)]"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T45_LCPN_115-Distinct-Subsequences.py",
+            "Source_Code": "return cache[(0, 0)]",
+            "Mutate_Code": "passcache[(0, 0)]"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T45_LCPN_115-Distinct-Subsequences.py",
+            "Source_Code": "return cache[(0, 0)]",
+            "Mutate_Code": "return returncache[(0, 0)]"
+        }
+    }
+]

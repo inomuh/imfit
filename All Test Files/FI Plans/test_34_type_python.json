@@ -1,0 +1,457 @@
+[
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T34_LCPN_66-Plus-One.py",
+            "Source_Code": "while one:",
+            "Mutate_Code": " "
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T34_LCPN_66-Plus-One.py",
+            "Source_Code": "while one:",
+            "Mutate_Code": "for "
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T34_LCPN_66-Plus-One.py",
+            "Source_Code": "while one:",
+            "Mutate_Code": "while while:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T34_LCPN_66-Plus-One.py",
+            "Source_Code": "if i < len(digits):",
+            "Mutate_Code": "if i   len(digits):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T34_LCPN_66-Plus-One.py",
+            "Source_Code": "if i < len(digits):",
+            "Mutate_Code": "if i == len(digits):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T34_LCPN_66-Plus-One.py",
+            "Source_Code": "if i < len(digits):",
+            "Mutate_Code": "if i != len(digits):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T34_LCPN_66-Plus-One.py",
+            "Source_Code": "if i < len(digits):",
+            "Mutate_Code": "if i > len(digits):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T34_LCPN_66-Plus-One.py",
+            "Source_Code": "if i < len(digits):",
+            "Mutate_Code": "if i >= len(digits):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T34_LCPN_66-Plus-One.py",
+            "Source_Code": "if i < len(digits):",
+            "Mutate_Code": "if i <= len(digits):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T34_LCPN_66-Plus-One.py",
+            "Source_Code": "if i < len(digits):",
+            "Mutate_Code": "if i  ====  len(digits):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T34_LCPN_66-Plus-One.py",
+            "Source_Code": "if i < len(digits):",
+            "Mutate_Code": "if i  !==  len(digits):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T34_LCPN_66-Plus-One.py",
+            "Source_Code": "if i < len(digits):",
+            "Mutate_Code": "if i  >>  len(digits):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T34_LCPN_66-Plus-One.py",
+            "Source_Code": "if i < len(digits):",
+            "Mutate_Code": "if i  <<  len(digits):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T34_LCPN_66-Plus-One.py",
+            "Source_Code": "if i < len(digits):",
+            "Mutate_Code": "if i  >=>=  len(digits):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T34_LCPN_66-Plus-One.py",
+            "Source_Code": "if i < len(digits):",
+            "Mutate_Code": "if i  <=<=  len(digits):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T34_LCPN_66-Plus-One.py",
+            "Source_Code": "if i < len(digits):",
+            "Mutate_Code": " "
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T34_LCPN_66-Plus-One.py",
+            "Source_Code": "if i < len(digits):",
+            "Mutate_Code": "elif:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T34_LCPN_66-Plus-One.py",
+            "Source_Code": "if i < len(digits):",
+            "Mutate_Code": "else:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T34_LCPN_66-Plus-One.py",
+            "Source_Code": "if i < len(digits):",
+            "Mutate_Code": "if if"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T34_LCPN_66-Plus-One.py",
+            "Source_Code": "if i < len(digits):",
+            "Mutate_Code": "if i < len( ):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T34_LCPN_66-Plus-One.py",
+            "Source_Code": "if i < len(digits):",
+            "Mutate_Code": "if i   len(digits):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T34_LCPN_66-Plus-One.py",
+            "Source_Code": "if i < len(digits):",
+            "Mutate_Code": "if i == len(digits):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T34_LCPN_66-Plus-One.py",
+            "Source_Code": "if i < len(digits):",
+            "Mutate_Code": "if i != len(digits):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T34_LCPN_66-Plus-One.py",
+            "Source_Code": "if i < len(digits):",
+            "Mutate_Code": "if i > len(digits):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T34_LCPN_66-Plus-One.py",
+            "Source_Code": "if i < len(digits):",
+            "Mutate_Code": "if i >= len(digits):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T34_LCPN_66-Plus-One.py",
+            "Source_Code": "if i < len(digits):",
+            "Mutate_Code": "if i <= len(digits):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T34_LCPN_66-Plus-One.py",
+            "Source_Code": "if i < len(digits):",
+            "Mutate_Code": "if i  ====  len(digits):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T34_LCPN_66-Plus-One.py",
+            "Source_Code": "if i < len(digits):",
+            "Mutate_Code": "if i  !==  len(digits):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T34_LCPN_66-Plus-One.py",
+            "Source_Code": "if i < len(digits):",
+            "Mutate_Code": "if i  >>  len(digits):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T34_LCPN_66-Plus-One.py",
+            "Source_Code": "if i < len(digits):",
+            "Mutate_Code": "if i  <<  len(digits):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T34_LCPN_66-Plus-One.py",
+            "Source_Code": "if i < len(digits):",
+            "Mutate_Code": "if i  >=>=  len(digits):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T34_LCPN_66-Plus-One.py",
+            "Source_Code": "if i < len(digits):",
+            "Mutate_Code": "if i  <=<=  len(digits):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T34_LCPN_66-Plus-One.py",
+            "Source_Code": "if i < len(digits):",
+            "Mutate_Code": " "
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T34_LCPN_66-Plus-One.py",
+            "Source_Code": "if i < len(digits):",
+            "Mutate_Code": "elif:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T34_LCPN_66-Plus-One.py",
+            "Source_Code": "if i < len(digits):",
+            "Mutate_Code": "else:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T34_LCPN_66-Plus-One.py",
+            "Source_Code": "if i < len(digits):",
+            "Mutate_Code": "if if"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T34_LCPN_66-Plus-One.py",
+            "Source_Code": "if i < len(digits):",
+            "Mutate_Code": "if i < len( ):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T34_LCPN_66-Plus-One.py",
+            "Source_Code": "if digits[i] == 9:",
+            "Mutate_Code": "if digits[i]   9:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T34_LCPN_66-Plus-One.py",
+            "Source_Code": "if digits[i] == 9:",
+            "Mutate_Code": "if digits[i] != 9:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T34_LCPN_66-Plus-One.py",
+            "Source_Code": "if digits[i] == 9:",
+            "Mutate_Code": "if digits[i] > 9:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T34_LCPN_66-Plus-One.py",
+            "Source_Code": "if digits[i] == 9:",
+            "Mutate_Code": "if digits[i] < 9:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T34_LCPN_66-Plus-One.py",
+            "Source_Code": "if digits[i] == 9:",
+            "Mutate_Code": "if digits[i] >= 9:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T34_LCPN_66-Plus-One.py",
+            "Source_Code": "if digits[i] == 9:",
+            "Mutate_Code": "if digits[i] <= 9:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T34_LCPN_66-Plus-One.py",
+            "Source_Code": "if digits[i] == 9:",
+            "Mutate_Code": "if digits[i]  ====  9:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T34_LCPN_66-Plus-One.py",
+            "Source_Code": "if digits[i] == 9:",
+            "Mutate_Code": "if digits[i]  !==  9:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T34_LCPN_66-Plus-One.py",
+            "Source_Code": "if digits[i] == 9:",
+            "Mutate_Code": "if digits[i]  >>  9:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T34_LCPN_66-Plus-One.py",
+            "Source_Code": "if digits[i] == 9:",
+            "Mutate_Code": "if digits[i]  <<  9:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T34_LCPN_66-Plus-One.py",
+            "Source_Code": "if digits[i] == 9:",
+            "Mutate_Code": "if digits[i]  >=>=  9:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T34_LCPN_66-Plus-One.py",
+            "Source_Code": "if digits[i] == 9:",
+            "Mutate_Code": "if digits[i]  <=<=  9:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T34_LCPN_66-Plus-One.py",
+            "Source_Code": "if digits[i] == 9:",
+            "Mutate_Code": " "
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T34_LCPN_66-Plus-One.py",
+            "Source_Code": "if digits[i] == 9:",
+            "Mutate_Code": "elif:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T34_LCPN_66-Plus-One.py",
+            "Source_Code": "if digits[i] == 9:",
+            "Mutate_Code": "else:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T34_LCPN_66-Plus-One.py",
+            "Source_Code": "if digits[i] == 9:",
+            "Mutate_Code": "if if"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T34_LCPN_66-Plus-One.py",
+            "Source_Code": "else:",
+            "Mutate_Code": " "
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T34_LCPN_66-Plus-One.py",
+            "Source_Code": "else:",
+            "Mutate_Code": "if:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T34_LCPN_66-Plus-One.py",
+            "Source_Code": "else:",
+            "Mutate_Code": "elif:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T34_LCPN_66-Plus-One.py",
+            "Source_Code": "else:",
+            "Mutate_Code": "else else:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T34_LCPN_66-Plus-One.py",
+            "Source_Code": "else:",
+            "Mutate_Code": " "
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T34_LCPN_66-Plus-One.py",
+            "Source_Code": "else:",
+            "Mutate_Code": "if:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T34_LCPN_66-Plus-One.py",
+            "Source_Code": "else:",
+            "Mutate_Code": "elif:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T34_LCPN_66-Plus-One.py",
+            "Source_Code": "else:",
+            "Mutate_Code": "else else:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T34_LCPN_66-Plus-One.py",
+            "Source_Code": "digits.append(one)",
+            "Mutate_Code": "digits.append( )"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T34_LCPN_66-Plus-One.py",
+            "Source_Code": "return digits[::-1]",
+            "Mutate_Code": " digits[::-1]"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T34_LCPN_66-Plus-One.py",
+            "Source_Code": "return digits[::-1]",
+            "Mutate_Code": "passdigits[::-1]"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T34_LCPN_66-Plus-One.py",
+            "Source_Code": "return digits[::-1]",
+            "Mutate_Code": "return returndigits[::-1]"
+        }
+    }
+]

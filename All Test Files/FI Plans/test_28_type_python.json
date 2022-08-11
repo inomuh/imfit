@@ -1,0 +1,562 @@
+[
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T28_LCPN_53-Maximum-Subarray.py",
+            "Source_Code": "for n in nums:",
+            "Mutate_Code": "for n nums:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T28_LCPN_53-Maximum-Subarray.py",
+            "Source_Code": "for n in nums:",
+            "Mutate_Code": "for n is nums:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T28_LCPN_53-Maximum-Subarray.py",
+            "Source_Code": "for n in nums:",
+            "Mutate_Code": "for n is not nums:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T28_LCPN_53-Maximum-Subarray.py",
+            "Source_Code": "for n in nums:",
+            "Mutate_Code": "for n in in nums:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T28_LCPN_53-Maximum-Subarray.py",
+            "Source_Code": "for n in nums:",
+            "Mutate_Code": "for n not in not in nums:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T28_LCPN_53-Maximum-Subarray.py",
+            "Source_Code": "for n in nums:",
+            "Mutate_Code": " "
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T28_LCPN_53-Maximum-Subarray.py",
+            "Source_Code": "for n in nums:",
+            "Mutate_Code": "while True:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T28_LCPN_53-Maximum-Subarray.py",
+            "Source_Code": "for n in nums:",
+            "Mutate_Code": "for for: n in nums:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T28_LCPN_53-Maximum-Subarray.py",
+            "Source_Code": "res = max(res, total)",
+            "Mutate_Code": "res max(res, total)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T28_LCPN_53-Maximum-Subarray.py",
+            "Source_Code": "res = max(res, total)",
+            "Mutate_Code": "res max(res, total)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T28_LCPN_53-Maximum-Subarray.py",
+            "Source_Code": "res = max(res, total)",
+            "Mutate_Code": "res += max(res, total)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T28_LCPN_53-Maximum-Subarray.py",
+            "Source_Code": "res = max(res, total)",
+            "Mutate_Code": "res -= max(res, total)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T28_LCPN_53-Maximum-Subarray.py",
+            "Source_Code": "res = max(res, total)",
+            "Mutate_Code": "res *= max(res, total)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T28_LCPN_53-Maximum-Subarray.py",
+            "Source_Code": "res = max(res, total)",
+            "Mutate_Code": "res /= max(res, total)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T28_LCPN_53-Maximum-Subarray.py",
+            "Source_Code": "res = max(res, total)",
+            "Mutate_Code": "res %= max(res, total)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T28_LCPN_53-Maximum-Subarray.py",
+            "Source_Code": "res = max(res, total)",
+            "Mutate_Code": "res //= max(res, total)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T28_LCPN_53-Maximum-Subarray.py",
+            "Source_Code": "res = max(res, total)",
+            "Mutate_Code": "res **= max(res, total)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T28_LCPN_53-Maximum-Subarray.py",
+            "Source_Code": "res = max(res, total)",
+            "Mutate_Code": "res &= max(res, total)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T28_LCPN_53-Maximum-Subarray.py",
+            "Source_Code": "res = max(res, total)",
+            "Mutate_Code": "res |= max(res, total)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T28_LCPN_53-Maximum-Subarray.py",
+            "Source_Code": "res = max(res, total)",
+            "Mutate_Code": "res ^= max(res, total)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T28_LCPN_53-Maximum-Subarray.py",
+            "Source_Code": "res = max(res, total)",
+            "Mutate_Code": "res >>= max(res, total)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T28_LCPN_53-Maximum-Subarray.py",
+            "Source_Code": "res = max(res, total)",
+            "Mutate_Code": "res <<= max(res, total)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T28_LCPN_53-Maximum-Subarray.py",
+            "Source_Code": "res = max(res, total)",
+            "Mutate_Code": "res += max(res, total)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T28_LCPN_53-Maximum-Subarray.py",
+            "Source_Code": "res = max(res, total)",
+            "Mutate_Code": "res -= max(res, total)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T28_LCPN_53-Maximum-Subarray.py",
+            "Source_Code": "res = max(res, total)",
+            "Mutate_Code": "res *= max(res, total)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T28_LCPN_53-Maximum-Subarray.py",
+            "Source_Code": "res = max(res, total)",
+            "Mutate_Code": "res /= max(res, total)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T28_LCPN_53-Maximum-Subarray.py",
+            "Source_Code": "res = max(res, total)",
+            "Mutate_Code": "res %= max(res, total)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T28_LCPN_53-Maximum-Subarray.py",
+            "Source_Code": "res = max(res, total)",
+            "Mutate_Code": "res //= max(res, total)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T28_LCPN_53-Maximum-Subarray.py",
+            "Source_Code": "res = max(res, total)",
+            "Mutate_Code": "res **= max(res, total)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T28_LCPN_53-Maximum-Subarray.py",
+            "Source_Code": "res = max(res, total)",
+            "Mutate_Code": "res &= max(res, total)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T28_LCPN_53-Maximum-Subarray.py",
+            "Source_Code": "res = max(res, total)",
+            "Mutate_Code": "res |= max(res, total)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T28_LCPN_53-Maximum-Subarray.py",
+            "Source_Code": "res = max(res, total)",
+            "Mutate_Code": "res ^= max(res, total)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T28_LCPN_53-Maximum-Subarray.py",
+            "Source_Code": "res = max(res, total)",
+            "Mutate_Code": "res >>= max(res, total)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T28_LCPN_53-Maximum-Subarray.py",
+            "Source_Code": "res = max(res, total)",
+            "Mutate_Code": "res <<= max(res, total)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T28_LCPN_53-Maximum-Subarray.py",
+            "Source_Code": "res = max(res, total)",
+            "Mutate_Code": "res == max(res, total)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T28_LCPN_53-Maximum-Subarray.py",
+            "Source_Code": "res = max(res, total)",
+            "Mutate_Code": "res +=+= max(res, total)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T28_LCPN_53-Maximum-Subarray.py",
+            "Source_Code": "res = max(res, total)",
+            "Mutate_Code": "res -=-= max(res, total)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T28_LCPN_53-Maximum-Subarray.py",
+            "Source_Code": "res = max(res, total)",
+            "Mutate_Code": "res *=*= max(res, total)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T28_LCPN_53-Maximum-Subarray.py",
+            "Source_Code": "res = max(res, total)",
+            "Mutate_Code": "res /=/= max(res, total)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T28_LCPN_53-Maximum-Subarray.py",
+            "Source_Code": "res = max(res, total)",
+            "Mutate_Code": "res %=%= max(res, total)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T28_LCPN_53-Maximum-Subarray.py",
+            "Source_Code": "res = max(res, total)",
+            "Mutate_Code": "res //=//= max(res, total)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T28_LCPN_53-Maximum-Subarray.py",
+            "Source_Code": "res = max(res, total)",
+            "Mutate_Code": "res **=**= max(res, total)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T28_LCPN_53-Maximum-Subarray.py",
+            "Source_Code": "res = max(res, total)",
+            "Mutate_Code": "res &=&= max(res, total)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T28_LCPN_53-Maximum-Subarray.py",
+            "Source_Code": "res = max(res, total)",
+            "Mutate_Code": "res |=|= max(res, total)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T28_LCPN_53-Maximum-Subarray.py",
+            "Source_Code": "res = max(res, total)",
+            "Mutate_Code": "res ^=^= max(res, total)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T28_LCPN_53-Maximum-Subarray.py",
+            "Source_Code": "res = max(res, total)",
+            "Mutate_Code": "res >>=>>= max(res, total)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T28_LCPN_53-Maximum-Subarray.py",
+            "Source_Code": "res = max(res, total)",
+            "Mutate_Code": "res <<=<<=max(res, total)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T28_LCPN_53-Maximum-Subarray.py",
+            "Source_Code": "res = max(res, total)",
+            "Mutate_Code": "res == max(res, total)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T28_LCPN_53-Maximum-Subarray.py",
+            "Source_Code": "res = max(res, total)",
+            "Mutate_Code": "res +=+= max(res, total)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T28_LCPN_53-Maximum-Subarray.py",
+            "Source_Code": "res = max(res, total)",
+            "Mutate_Code": "res -=-= max(res, total)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T28_LCPN_53-Maximum-Subarray.py",
+            "Source_Code": "res = max(res, total)",
+            "Mutate_Code": "res *=*= max(res, total)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T28_LCPN_53-Maximum-Subarray.py",
+            "Source_Code": "res = max(res, total)",
+            "Mutate_Code": "res /=/= max(res, total)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T28_LCPN_53-Maximum-Subarray.py",
+            "Source_Code": "res = max(res, total)",
+            "Mutate_Code": "res %=%= max(res, total)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T28_LCPN_53-Maximum-Subarray.py",
+            "Source_Code": "res = max(res, total)",
+            "Mutate_Code": "res //=//= max(res, total)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T28_LCPN_53-Maximum-Subarray.py",
+            "Source_Code": "res = max(res, total)",
+            "Mutate_Code": "res **=**= max(res, total)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T28_LCPN_53-Maximum-Subarray.py",
+            "Source_Code": "res = max(res, total)",
+            "Mutate_Code": "res &=&= max(res, total)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T28_LCPN_53-Maximum-Subarray.py",
+            "Source_Code": "res = max(res, total)",
+            "Mutate_Code": "res |=|= max(res, total)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T28_LCPN_53-Maximum-Subarray.py",
+            "Source_Code": "res = max(res, total)",
+            "Mutate_Code": "res ^=^= max(res, total)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T28_LCPN_53-Maximum-Subarray.py",
+            "Source_Code": "res = max(res, total)",
+            "Mutate_Code": "res >>=>>= max(res, total)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T28_LCPN_53-Maximum-Subarray.py",
+            "Source_Code": "res = max(res, total)",
+            "Mutate_Code": "res <<=<<=max(res, total)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T28_LCPN_53-Maximum-Subarray.py",
+            "Source_Code": "res = max(res, total)",
+            "Mutate_Code": "res = max( )"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T28_LCPN_53-Maximum-Subarray.py",
+            "Source_Code": "if total < 0:",
+            "Mutate_Code": "if total   0:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T28_LCPN_53-Maximum-Subarray.py",
+            "Source_Code": "if total < 0:",
+            "Mutate_Code": "if total == 0:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T28_LCPN_53-Maximum-Subarray.py",
+            "Source_Code": "if total < 0:",
+            "Mutate_Code": "if total != 0:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T28_LCPN_53-Maximum-Subarray.py",
+            "Source_Code": "if total < 0:",
+            "Mutate_Code": "if total > 0:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T28_LCPN_53-Maximum-Subarray.py",
+            "Source_Code": "if total < 0:",
+            "Mutate_Code": "if total >= 0:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T28_LCPN_53-Maximum-Subarray.py",
+            "Source_Code": "if total < 0:",
+            "Mutate_Code": "if total <= 0:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T28_LCPN_53-Maximum-Subarray.py",
+            "Source_Code": "if total < 0:",
+            "Mutate_Code": "if total  ====  0:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T28_LCPN_53-Maximum-Subarray.py",
+            "Source_Code": "if total < 0:",
+            "Mutate_Code": "if total  !==  0:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T28_LCPN_53-Maximum-Subarray.py",
+            "Source_Code": "if total < 0:",
+            "Mutate_Code": "if total  >>  0:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T28_LCPN_53-Maximum-Subarray.py",
+            "Source_Code": "if total < 0:",
+            "Mutate_Code": "if total  <<  0:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T28_LCPN_53-Maximum-Subarray.py",
+            "Source_Code": "if total < 0:",
+            "Mutate_Code": "if total  >=>=  0:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T28_LCPN_53-Maximum-Subarray.py",
+            "Source_Code": "if total < 0:",
+            "Mutate_Code": "if total  <=<=  0:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T28_LCPN_53-Maximum-Subarray.py",
+            "Source_Code": "if total < 0:",
+            "Mutate_Code": " "
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T28_LCPN_53-Maximum-Subarray.py",
+            "Source_Code": "if total < 0:",
+            "Mutate_Code": "elif:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T28_LCPN_53-Maximum-Subarray.py",
+            "Source_Code": "if total < 0:",
+            "Mutate_Code": "else:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T28_LCPN_53-Maximum-Subarray.py",
+            "Source_Code": "if total < 0:",
+            "Mutate_Code": "if if"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T28_LCPN_53-Maximum-Subarray.py",
+            "Source_Code": "return res",
+            "Mutate_Code": " res"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T28_LCPN_53-Maximum-Subarray.py",
+            "Source_Code": "return res",
+            "Mutate_Code": "passres"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T28_LCPN_53-Maximum-Subarray.py",
+            "Source_Code": "return res",
+            "Mutate_Code": "return returnres"
+        }
+    }
+]

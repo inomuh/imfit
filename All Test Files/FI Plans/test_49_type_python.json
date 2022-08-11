@@ -1,0 +1,1451 @@
+[
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T49_LCPN_128-Longest-consecutive-sequence.py",
+            "Source_Code": "numSet = set(nums)",
+            "Mutate_Code": "numSet set(nums)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T49_LCPN_128-Longest-consecutive-sequence.py",
+            "Source_Code": "numSet = set(nums)",
+            "Mutate_Code": "numSet set(nums)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T49_LCPN_128-Longest-consecutive-sequence.py",
+            "Source_Code": "numSet = set(nums)",
+            "Mutate_Code": "numSet += set(nums)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T49_LCPN_128-Longest-consecutive-sequence.py",
+            "Source_Code": "numSet = set(nums)",
+            "Mutate_Code": "numSet -= set(nums)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T49_LCPN_128-Longest-consecutive-sequence.py",
+            "Source_Code": "numSet = set(nums)",
+            "Mutate_Code": "numSet *= set(nums)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T49_LCPN_128-Longest-consecutive-sequence.py",
+            "Source_Code": "numSet = set(nums)",
+            "Mutate_Code": "numSet /= set(nums)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T49_LCPN_128-Longest-consecutive-sequence.py",
+            "Source_Code": "numSet = set(nums)",
+            "Mutate_Code": "numSet %= set(nums)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T49_LCPN_128-Longest-consecutive-sequence.py",
+            "Source_Code": "numSet = set(nums)",
+            "Mutate_Code": "numSet //= set(nums)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T49_LCPN_128-Longest-consecutive-sequence.py",
+            "Source_Code": "numSet = set(nums)",
+            "Mutate_Code": "numSet **= set(nums)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T49_LCPN_128-Longest-consecutive-sequence.py",
+            "Source_Code": "numSet = set(nums)",
+            "Mutate_Code": "numSet &= set(nums)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T49_LCPN_128-Longest-consecutive-sequence.py",
+            "Source_Code": "numSet = set(nums)",
+            "Mutate_Code": "numSet |= set(nums)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T49_LCPN_128-Longest-consecutive-sequence.py",
+            "Source_Code": "numSet = set(nums)",
+            "Mutate_Code": "numSet ^= set(nums)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T49_LCPN_128-Longest-consecutive-sequence.py",
+            "Source_Code": "numSet = set(nums)",
+            "Mutate_Code": "numSet >>= set(nums)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T49_LCPN_128-Longest-consecutive-sequence.py",
+            "Source_Code": "numSet = set(nums)",
+            "Mutate_Code": "numSet <<= set(nums)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T49_LCPN_128-Longest-consecutive-sequence.py",
+            "Source_Code": "numSet = set(nums)",
+            "Mutate_Code": "numSet += set(nums)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T49_LCPN_128-Longest-consecutive-sequence.py",
+            "Source_Code": "numSet = set(nums)",
+            "Mutate_Code": "numSet -= set(nums)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T49_LCPN_128-Longest-consecutive-sequence.py",
+            "Source_Code": "numSet = set(nums)",
+            "Mutate_Code": "numSet *= set(nums)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T49_LCPN_128-Longest-consecutive-sequence.py",
+            "Source_Code": "numSet = set(nums)",
+            "Mutate_Code": "numSet /= set(nums)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T49_LCPN_128-Longest-consecutive-sequence.py",
+            "Source_Code": "numSet = set(nums)",
+            "Mutate_Code": "numSet %= set(nums)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T49_LCPN_128-Longest-consecutive-sequence.py",
+            "Source_Code": "numSet = set(nums)",
+            "Mutate_Code": "numSet //= set(nums)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T49_LCPN_128-Longest-consecutive-sequence.py",
+            "Source_Code": "numSet = set(nums)",
+            "Mutate_Code": "numSet **= set(nums)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T49_LCPN_128-Longest-consecutive-sequence.py",
+            "Source_Code": "numSet = set(nums)",
+            "Mutate_Code": "numSet &= set(nums)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T49_LCPN_128-Longest-consecutive-sequence.py",
+            "Source_Code": "numSet = set(nums)",
+            "Mutate_Code": "numSet |= set(nums)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T49_LCPN_128-Longest-consecutive-sequence.py",
+            "Source_Code": "numSet = set(nums)",
+            "Mutate_Code": "numSet ^= set(nums)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T49_LCPN_128-Longest-consecutive-sequence.py",
+            "Source_Code": "numSet = set(nums)",
+            "Mutate_Code": "numSet >>= set(nums)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T49_LCPN_128-Longest-consecutive-sequence.py",
+            "Source_Code": "numSet = set(nums)",
+            "Mutate_Code": "numSet <<= set(nums)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T49_LCPN_128-Longest-consecutive-sequence.py",
+            "Source_Code": "numSet = set(nums)",
+            "Mutate_Code": "numSet == set(nums)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T49_LCPN_128-Longest-consecutive-sequence.py",
+            "Source_Code": "numSet = set(nums)",
+            "Mutate_Code": "numSet +=+= set(nums)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T49_LCPN_128-Longest-consecutive-sequence.py",
+            "Source_Code": "numSet = set(nums)",
+            "Mutate_Code": "numSet -=-= set(nums)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T49_LCPN_128-Longest-consecutive-sequence.py",
+            "Source_Code": "numSet = set(nums)",
+            "Mutate_Code": "numSet *=*= set(nums)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T49_LCPN_128-Longest-consecutive-sequence.py",
+            "Source_Code": "numSet = set(nums)",
+            "Mutate_Code": "numSet /=/= set(nums)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T49_LCPN_128-Longest-consecutive-sequence.py",
+            "Source_Code": "numSet = set(nums)",
+            "Mutate_Code": "numSet %=%= set(nums)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T49_LCPN_128-Longest-consecutive-sequence.py",
+            "Source_Code": "numSet = set(nums)",
+            "Mutate_Code": "numSet //=//= set(nums)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T49_LCPN_128-Longest-consecutive-sequence.py",
+            "Source_Code": "numSet = set(nums)",
+            "Mutate_Code": "numSet **=**= set(nums)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T49_LCPN_128-Longest-consecutive-sequence.py",
+            "Source_Code": "numSet = set(nums)",
+            "Mutate_Code": "numSet &=&= set(nums)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T49_LCPN_128-Longest-consecutive-sequence.py",
+            "Source_Code": "numSet = set(nums)",
+            "Mutate_Code": "numSet |=|= set(nums)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T49_LCPN_128-Longest-consecutive-sequence.py",
+            "Source_Code": "numSet = set(nums)",
+            "Mutate_Code": "numSet ^=^= set(nums)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T49_LCPN_128-Longest-consecutive-sequence.py",
+            "Source_Code": "numSet = set(nums)",
+            "Mutate_Code": "numSet >>=>>= set(nums)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T49_LCPN_128-Longest-consecutive-sequence.py",
+            "Source_Code": "numSet = set(nums)",
+            "Mutate_Code": "numSet <<=<<=set(nums)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T49_LCPN_128-Longest-consecutive-sequence.py",
+            "Source_Code": "numSet = set(nums)",
+            "Mutate_Code": "numSet == set(nums)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T49_LCPN_128-Longest-consecutive-sequence.py",
+            "Source_Code": "numSet = set(nums)",
+            "Mutate_Code": "numSet +=+= set(nums)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T49_LCPN_128-Longest-consecutive-sequence.py",
+            "Source_Code": "numSet = set(nums)",
+            "Mutate_Code": "numSet -=-= set(nums)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T49_LCPN_128-Longest-consecutive-sequence.py",
+            "Source_Code": "numSet = set(nums)",
+            "Mutate_Code": "numSet *=*= set(nums)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T49_LCPN_128-Longest-consecutive-sequence.py",
+            "Source_Code": "numSet = set(nums)",
+            "Mutate_Code": "numSet /=/= set(nums)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T49_LCPN_128-Longest-consecutive-sequence.py",
+            "Source_Code": "numSet = set(nums)",
+            "Mutate_Code": "numSet %=%= set(nums)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T49_LCPN_128-Longest-consecutive-sequence.py",
+            "Source_Code": "numSet = set(nums)",
+            "Mutate_Code": "numSet //=//= set(nums)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T49_LCPN_128-Longest-consecutive-sequence.py",
+            "Source_Code": "numSet = set(nums)",
+            "Mutate_Code": "numSet **=**= set(nums)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T49_LCPN_128-Longest-consecutive-sequence.py",
+            "Source_Code": "numSet = set(nums)",
+            "Mutate_Code": "numSet &=&= set(nums)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T49_LCPN_128-Longest-consecutive-sequence.py",
+            "Source_Code": "numSet = set(nums)",
+            "Mutate_Code": "numSet |=|= set(nums)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T49_LCPN_128-Longest-consecutive-sequence.py",
+            "Source_Code": "numSet = set(nums)",
+            "Mutate_Code": "numSet ^=^= set(nums)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T49_LCPN_128-Longest-consecutive-sequence.py",
+            "Source_Code": "numSet = set(nums)",
+            "Mutate_Code": "numSet >>=>>= set(nums)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T49_LCPN_128-Longest-consecutive-sequence.py",
+            "Source_Code": "numSet = set(nums)",
+            "Mutate_Code": "numSet <<=<<=set(nums)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T49_LCPN_128-Longest-consecutive-sequence.py",
+            "Source_Code": "numSet = set(nums)",
+            "Mutate_Code": "numSet = set( )"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T49_LCPN_128-Longest-consecutive-sequence.py",
+            "Source_Code": "for n in nums:",
+            "Mutate_Code": "for n nums:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T49_LCPN_128-Longest-consecutive-sequence.py",
+            "Source_Code": "for n in nums:",
+            "Mutate_Code": "for n is nums:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T49_LCPN_128-Longest-consecutive-sequence.py",
+            "Source_Code": "for n in nums:",
+            "Mutate_Code": "for n is not nums:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T49_LCPN_128-Longest-consecutive-sequence.py",
+            "Source_Code": "for n in nums:",
+            "Mutate_Code": "for n in in nums:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T49_LCPN_128-Longest-consecutive-sequence.py",
+            "Source_Code": "for n in nums:",
+            "Mutate_Code": "for n not in not in nums:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T49_LCPN_128-Longest-consecutive-sequence.py",
+            "Source_Code": "for n in nums:",
+            "Mutate_Code": " "
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T49_LCPN_128-Longest-consecutive-sequence.py",
+            "Source_Code": "for n in nums:",
+            "Mutate_Code": "while True:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T49_LCPN_128-Longest-consecutive-sequence.py",
+            "Source_Code": "for n in nums:",
+            "Mutate_Code": "for for: n in nums:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T49_LCPN_128-Longest-consecutive-sequence.py",
+            "Source_Code": "if (n - 1) not in numSet:",
+            "Mutate_Code": "if (n 1) not in numSet:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T49_LCPN_128-Longest-consecutive-sequence.py",
+            "Source_Code": "if (n - 1) not in numSet:",
+            "Mutate_Code": "if (n + 1) not in numSet:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T49_LCPN_128-Longest-consecutive-sequence.py",
+            "Source_Code": "if (n - 1) not in numSet:",
+            "Mutate_Code": "if (n * 1) not in numSet:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T49_LCPN_128-Longest-consecutive-sequence.py",
+            "Source_Code": "if (n - 1) not in numSet:",
+            "Mutate_Code": "if (n / 1) not in numSet:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T49_LCPN_128-Longest-consecutive-sequence.py",
+            "Source_Code": "if (n - 1) not in numSet:",
+            "Mutate_Code": "if (n % 1) not in numSet:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T49_LCPN_128-Longest-consecutive-sequence.py",
+            "Source_Code": "if (n - 1) not in numSet:",
+            "Mutate_Code": "if (n ** 1) not in numSet:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T49_LCPN_128-Longest-consecutive-sequence.py",
+            "Source_Code": "if (n - 1) not in numSet:",
+            "Mutate_Code": "if (n // 1) not in numSet:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T49_LCPN_128-Longest-consecutive-sequence.py",
+            "Source_Code": "if (n - 1) not in numSet:",
+            "Mutate_Code": "if (n ++ 1) not in numSet:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T49_LCPN_128-Longest-consecutive-sequence.py",
+            "Source_Code": "if (n - 1) not in numSet:",
+            "Mutate_Code": "if (n -- 1) not in numSet:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T49_LCPN_128-Longest-consecutive-sequence.py",
+            "Source_Code": "if (n - 1) not in numSet:",
+            "Mutate_Code": "if (n ** 1) not in numSet:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T49_LCPN_128-Longest-consecutive-sequence.py",
+            "Source_Code": "if (n - 1) not in numSet:",
+            "Mutate_Code": "if (n // 1) not in numSet:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T49_LCPN_128-Longest-consecutive-sequence.py",
+            "Source_Code": "if (n - 1) not in numSet:",
+            "Mutate_Code": "if (n %% 1) not in numSet:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T49_LCPN_128-Longest-consecutive-sequence.py",
+            "Source_Code": "if (n - 1) not in numSet:",
+            "Mutate_Code": "if (n **** 1) not in numSet:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T49_LCPN_128-Longest-consecutive-sequence.py",
+            "Source_Code": "if (n - 1) not in numSet:",
+            "Mutate_Code": "if (n //// 1) not in numSet:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T49_LCPN_128-Longest-consecutive-sequence.py",
+            "Source_Code": "if (n - 1) not in numSet:",
+            "Mutate_Code": "if (n - 1) in numSet:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T49_LCPN_128-Longest-consecutive-sequence.py",
+            "Source_Code": "if (n - 1) not in numSet:",
+            "Mutate_Code": "if (n - 1) and in numSet:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T49_LCPN_128-Longest-consecutive-sequence.py",
+            "Source_Code": "if (n - 1) not in numSet:",
+            "Mutate_Code": "if (n - 1) or in numSet:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T49_LCPN_128-Longest-consecutive-sequence.py",
+            "Source_Code": "if (n - 1) not in numSet:",
+            "Mutate_Code": "if (n - 1) and and in numSet:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T49_LCPN_128-Longest-consecutive-sequence.py",
+            "Source_Code": "if (n - 1) not in numSet:",
+            "Mutate_Code": "if (n - 1) or or in numSet:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T49_LCPN_128-Longest-consecutive-sequence.py",
+            "Source_Code": "if (n - 1) not in numSet:",
+            "Mutate_Code": "if (n - 1) not not in numSet:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T49_LCPN_128-Longest-consecutive-sequence.py",
+            "Source_Code": "if (n - 1) not in numSet:",
+            "Mutate_Code": "if (n - 1) not numSet:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T49_LCPN_128-Longest-consecutive-sequence.py",
+            "Source_Code": "if (n - 1) not in numSet:",
+            "Mutate_Code": "if (n - 1) numSet:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T49_LCPN_128-Longest-consecutive-sequence.py",
+            "Source_Code": "if (n - 1) not in numSet:",
+            "Mutate_Code": "if (n - 1) not is numSet:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T49_LCPN_128-Longest-consecutive-sequence.py",
+            "Source_Code": "if (n - 1) not in numSet:",
+            "Mutate_Code": "if (n - 1) not is not numSet:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T49_LCPN_128-Longest-consecutive-sequence.py",
+            "Source_Code": "if (n - 1) not in numSet:",
+            "Mutate_Code": "if (n - 1) is numSet:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T49_LCPN_128-Longest-consecutive-sequence.py",
+            "Source_Code": "if (n - 1) not in numSet:",
+            "Mutate_Code": "if (n - 1) is not numSet:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T49_LCPN_128-Longest-consecutive-sequence.py",
+            "Source_Code": "if (n - 1) not in numSet:",
+            "Mutate_Code": "if (n - 1) not in in numSet:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T49_LCPN_128-Longest-consecutive-sequence.py",
+            "Source_Code": "if (n - 1) not in numSet:",
+            "Mutate_Code": "if (n - 1) not not in not in numSet:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T49_LCPN_128-Longest-consecutive-sequence.py",
+            "Source_Code": "if (n - 1) not in numSet:",
+            "Mutate_Code": "if (n - 1) in in numSet:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T49_LCPN_128-Longest-consecutive-sequence.py",
+            "Source_Code": "if (n - 1) not in numSet:",
+            "Mutate_Code": "if (n - 1) not in not in numSet:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T49_LCPN_128-Longest-consecutive-sequence.py",
+            "Source_Code": "if (n - 1) not in numSet:",
+            "Mutate_Code": " "
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T49_LCPN_128-Longest-consecutive-sequence.py",
+            "Source_Code": "if (n - 1) not in numSet:",
+            "Mutate_Code": "elif:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T49_LCPN_128-Longest-consecutive-sequence.py",
+            "Source_Code": "if (n - 1) not in numSet:",
+            "Mutate_Code": "else:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T49_LCPN_128-Longest-consecutive-sequence.py",
+            "Source_Code": "if (n - 1) not in numSet:",
+            "Mutate_Code": "if if"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T49_LCPN_128-Longest-consecutive-sequence.py",
+            "Source_Code": "if (n - 1) not in numSet:",
+            "Mutate_Code": "if (n 1) not in numSet:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T49_LCPN_128-Longest-consecutive-sequence.py",
+            "Source_Code": "if (n - 1) not in numSet:",
+            "Mutate_Code": "if (n + 1) not in numSet:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T49_LCPN_128-Longest-consecutive-sequence.py",
+            "Source_Code": "if (n - 1) not in numSet:",
+            "Mutate_Code": "if (n * 1) not in numSet:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T49_LCPN_128-Longest-consecutive-sequence.py",
+            "Source_Code": "if (n - 1) not in numSet:",
+            "Mutate_Code": "if (n / 1) not in numSet:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T49_LCPN_128-Longest-consecutive-sequence.py",
+            "Source_Code": "if (n - 1) not in numSet:",
+            "Mutate_Code": "if (n % 1) not in numSet:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T49_LCPN_128-Longest-consecutive-sequence.py",
+            "Source_Code": "if (n - 1) not in numSet:",
+            "Mutate_Code": "if (n ** 1) not in numSet:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T49_LCPN_128-Longest-consecutive-sequence.py",
+            "Source_Code": "if (n - 1) not in numSet:",
+            "Mutate_Code": "if (n // 1) not in numSet:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T49_LCPN_128-Longest-consecutive-sequence.py",
+            "Source_Code": "if (n - 1) not in numSet:",
+            "Mutate_Code": "if (n ++ 1) not in numSet:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T49_LCPN_128-Longest-consecutive-sequence.py",
+            "Source_Code": "if (n - 1) not in numSet:",
+            "Mutate_Code": "if (n -- 1) not in numSet:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T49_LCPN_128-Longest-consecutive-sequence.py",
+            "Source_Code": "if (n - 1) not in numSet:",
+            "Mutate_Code": "if (n ** 1) not in numSet:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T49_LCPN_128-Longest-consecutive-sequence.py",
+            "Source_Code": "if (n - 1) not in numSet:",
+            "Mutate_Code": "if (n // 1) not in numSet:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T49_LCPN_128-Longest-consecutive-sequence.py",
+            "Source_Code": "if (n - 1) not in numSet:",
+            "Mutate_Code": "if (n %% 1) not in numSet:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T49_LCPN_128-Longest-consecutive-sequence.py",
+            "Source_Code": "if (n - 1) not in numSet:",
+            "Mutate_Code": "if (n **** 1) not in numSet:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T49_LCPN_128-Longest-consecutive-sequence.py",
+            "Source_Code": "if (n - 1) not in numSet:",
+            "Mutate_Code": "if (n //// 1) not in numSet:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T49_LCPN_128-Longest-consecutive-sequence.py",
+            "Source_Code": "if (n - 1) not in numSet:",
+            "Mutate_Code": "if (n - 1) in numSet:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T49_LCPN_128-Longest-consecutive-sequence.py",
+            "Source_Code": "if (n - 1) not in numSet:",
+            "Mutate_Code": "if (n - 1) and in numSet:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T49_LCPN_128-Longest-consecutive-sequence.py",
+            "Source_Code": "if (n - 1) not in numSet:",
+            "Mutate_Code": "if (n - 1) or in numSet:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T49_LCPN_128-Longest-consecutive-sequence.py",
+            "Source_Code": "if (n - 1) not in numSet:",
+            "Mutate_Code": "if (n - 1) and and in numSet:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T49_LCPN_128-Longest-consecutive-sequence.py",
+            "Source_Code": "if (n - 1) not in numSet:",
+            "Mutate_Code": "if (n - 1) or or in numSet:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T49_LCPN_128-Longest-consecutive-sequence.py",
+            "Source_Code": "if (n - 1) not in numSet:",
+            "Mutate_Code": "if (n - 1) not not in numSet:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T49_LCPN_128-Longest-consecutive-sequence.py",
+            "Source_Code": "if (n - 1) not in numSet:",
+            "Mutate_Code": "if (n - 1) not numSet:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T49_LCPN_128-Longest-consecutive-sequence.py",
+            "Source_Code": "if (n - 1) not in numSet:",
+            "Mutate_Code": "if (n - 1) numSet:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T49_LCPN_128-Longest-consecutive-sequence.py",
+            "Source_Code": "if (n - 1) not in numSet:",
+            "Mutate_Code": "if (n - 1) not is numSet:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T49_LCPN_128-Longest-consecutive-sequence.py",
+            "Source_Code": "if (n - 1) not in numSet:",
+            "Mutate_Code": "if (n - 1) not is not numSet:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T49_LCPN_128-Longest-consecutive-sequence.py",
+            "Source_Code": "if (n - 1) not in numSet:",
+            "Mutate_Code": "if (n - 1) is numSet:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T49_LCPN_128-Longest-consecutive-sequence.py",
+            "Source_Code": "if (n - 1) not in numSet:",
+            "Mutate_Code": "if (n - 1) is not numSet:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T49_LCPN_128-Longest-consecutive-sequence.py",
+            "Source_Code": "if (n - 1) not in numSet:",
+            "Mutate_Code": "if (n - 1) not in in numSet:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T49_LCPN_128-Longest-consecutive-sequence.py",
+            "Source_Code": "if (n - 1) not in numSet:",
+            "Mutate_Code": "if (n - 1) not not in not in numSet:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T49_LCPN_128-Longest-consecutive-sequence.py",
+            "Source_Code": "if (n - 1) not in numSet:",
+            "Mutate_Code": "if (n - 1) in in numSet:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T49_LCPN_128-Longest-consecutive-sequence.py",
+            "Source_Code": "if (n - 1) not in numSet:",
+            "Mutate_Code": "if (n - 1) not in not in numSet:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T49_LCPN_128-Longest-consecutive-sequence.py",
+            "Source_Code": "if (n - 1) not in numSet:",
+            "Mutate_Code": " "
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T49_LCPN_128-Longest-consecutive-sequence.py",
+            "Source_Code": "if (n - 1) not in numSet:",
+            "Mutate_Code": "elif:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T49_LCPN_128-Longest-consecutive-sequence.py",
+            "Source_Code": "if (n - 1) not in numSet:",
+            "Mutate_Code": "else:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T49_LCPN_128-Longest-consecutive-sequence.py",
+            "Source_Code": "if (n - 1) not in numSet:",
+            "Mutate_Code": "if if"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T49_LCPN_128-Longest-consecutive-sequence.py",
+            "Source_Code": "while (n + length) in numSet:",
+            "Mutate_Code": "while (n length) in numSet:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T49_LCPN_128-Longest-consecutive-sequence.py",
+            "Source_Code": "while (n + length) in numSet:",
+            "Mutate_Code": "while (n - length) in numSet:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T49_LCPN_128-Longest-consecutive-sequence.py",
+            "Source_Code": "while (n + length) in numSet:",
+            "Mutate_Code": "while (n * length) in numSet:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T49_LCPN_128-Longest-consecutive-sequence.py",
+            "Source_Code": "while (n + length) in numSet:",
+            "Mutate_Code": "while (n / length) in numSet:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T49_LCPN_128-Longest-consecutive-sequence.py",
+            "Source_Code": "while (n + length) in numSet:",
+            "Mutate_Code": "while (n % length) in numSet:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T49_LCPN_128-Longest-consecutive-sequence.py",
+            "Source_Code": "while (n + length) in numSet:",
+            "Mutate_Code": "while (n ** length) in numSet:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T49_LCPN_128-Longest-consecutive-sequence.py",
+            "Source_Code": "while (n + length) in numSet:",
+            "Mutate_Code": "while (n // length) in numSet:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T49_LCPN_128-Longest-consecutive-sequence.py",
+            "Source_Code": "while (n + length) in numSet:",
+            "Mutate_Code": "while (n ++ length) in numSet:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T49_LCPN_128-Longest-consecutive-sequence.py",
+            "Source_Code": "while (n + length) in numSet:",
+            "Mutate_Code": "while (n -- length) in numSet:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T49_LCPN_128-Longest-consecutive-sequence.py",
+            "Source_Code": "while (n + length) in numSet:",
+            "Mutate_Code": "while (n ** length) in numSet:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T49_LCPN_128-Longest-consecutive-sequence.py",
+            "Source_Code": "while (n + length) in numSet:",
+            "Mutate_Code": "while (n // length) in numSet:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T49_LCPN_128-Longest-consecutive-sequence.py",
+            "Source_Code": "while (n + length) in numSet:",
+            "Mutate_Code": "while (n %% length) in numSet:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T49_LCPN_128-Longest-consecutive-sequence.py",
+            "Source_Code": "while (n + length) in numSet:",
+            "Mutate_Code": "while (n **** length) in numSet:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T49_LCPN_128-Longest-consecutive-sequence.py",
+            "Source_Code": "while (n + length) in numSet:",
+            "Mutate_Code": "while (n //// length) in numSet:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T49_LCPN_128-Longest-consecutive-sequence.py",
+            "Source_Code": "while (n + length) in numSet:",
+            "Mutate_Code": "while (n + length) numSet:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T49_LCPN_128-Longest-consecutive-sequence.py",
+            "Source_Code": "while (n + length) in numSet:",
+            "Mutate_Code": "while (n + length) is numSet:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T49_LCPN_128-Longest-consecutive-sequence.py",
+            "Source_Code": "while (n + length) in numSet:",
+            "Mutate_Code": "while (n + length) is not numSet:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T49_LCPN_128-Longest-consecutive-sequence.py",
+            "Source_Code": "while (n + length) in numSet:",
+            "Mutate_Code": "while (n + length) in in numSet:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T49_LCPN_128-Longest-consecutive-sequence.py",
+            "Source_Code": "while (n + length) in numSet:",
+            "Mutate_Code": "while (n + length) not in not in numSet:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T49_LCPN_128-Longest-consecutive-sequence.py",
+            "Source_Code": "while (n + length) in numSet:",
+            "Mutate_Code": " "
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T49_LCPN_128-Longest-consecutive-sequence.py",
+            "Source_Code": "while (n + length) in numSet:",
+            "Mutate_Code": "for "
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T49_LCPN_128-Longest-consecutive-sequence.py",
+            "Source_Code": "while (n + length) in numSet:",
+            "Mutate_Code": "while while:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T49_LCPN_128-Longest-consecutive-sequence.py",
+            "Source_Code": "longest = max(length, longest)",
+            "Mutate_Code": "longest max(length, longest)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T49_LCPN_128-Longest-consecutive-sequence.py",
+            "Source_Code": "longest = max(length, longest)",
+            "Mutate_Code": "longest max(length, longest)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T49_LCPN_128-Longest-consecutive-sequence.py",
+            "Source_Code": "longest = max(length, longest)",
+            "Mutate_Code": "longest += max(length, longest)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T49_LCPN_128-Longest-consecutive-sequence.py",
+            "Source_Code": "longest = max(length, longest)",
+            "Mutate_Code": "longest -= max(length, longest)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T49_LCPN_128-Longest-consecutive-sequence.py",
+            "Source_Code": "longest = max(length, longest)",
+            "Mutate_Code": "longest *= max(length, longest)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T49_LCPN_128-Longest-consecutive-sequence.py",
+            "Source_Code": "longest = max(length, longest)",
+            "Mutate_Code": "longest /= max(length, longest)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T49_LCPN_128-Longest-consecutive-sequence.py",
+            "Source_Code": "longest = max(length, longest)",
+            "Mutate_Code": "longest %= max(length, longest)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T49_LCPN_128-Longest-consecutive-sequence.py",
+            "Source_Code": "longest = max(length, longest)",
+            "Mutate_Code": "longest //= max(length, longest)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T49_LCPN_128-Longest-consecutive-sequence.py",
+            "Source_Code": "longest = max(length, longest)",
+            "Mutate_Code": "longest **= max(length, longest)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T49_LCPN_128-Longest-consecutive-sequence.py",
+            "Source_Code": "longest = max(length, longest)",
+            "Mutate_Code": "longest &= max(length, longest)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T49_LCPN_128-Longest-consecutive-sequence.py",
+            "Source_Code": "longest = max(length, longest)",
+            "Mutate_Code": "longest |= max(length, longest)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T49_LCPN_128-Longest-consecutive-sequence.py",
+            "Source_Code": "longest = max(length, longest)",
+            "Mutate_Code": "longest ^= max(length, longest)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T49_LCPN_128-Longest-consecutive-sequence.py",
+            "Source_Code": "longest = max(length, longest)",
+            "Mutate_Code": "longest >>= max(length, longest)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T49_LCPN_128-Longest-consecutive-sequence.py",
+            "Source_Code": "longest = max(length, longest)",
+            "Mutate_Code": "longest <<= max(length, longest)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T49_LCPN_128-Longest-consecutive-sequence.py",
+            "Source_Code": "longest = max(length, longest)",
+            "Mutate_Code": "longest += max(length, longest)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T49_LCPN_128-Longest-consecutive-sequence.py",
+            "Source_Code": "longest = max(length, longest)",
+            "Mutate_Code": "longest -= max(length, longest)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T49_LCPN_128-Longest-consecutive-sequence.py",
+            "Source_Code": "longest = max(length, longest)",
+            "Mutate_Code": "longest *= max(length, longest)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T49_LCPN_128-Longest-consecutive-sequence.py",
+            "Source_Code": "longest = max(length, longest)",
+            "Mutate_Code": "longest /= max(length, longest)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T49_LCPN_128-Longest-consecutive-sequence.py",
+            "Source_Code": "longest = max(length, longest)",
+            "Mutate_Code": "longest %= max(length, longest)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T49_LCPN_128-Longest-consecutive-sequence.py",
+            "Source_Code": "longest = max(length, longest)",
+            "Mutate_Code": "longest //= max(length, longest)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T49_LCPN_128-Longest-consecutive-sequence.py",
+            "Source_Code": "longest = max(length, longest)",
+            "Mutate_Code": "longest **= max(length, longest)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T49_LCPN_128-Longest-consecutive-sequence.py",
+            "Source_Code": "longest = max(length, longest)",
+            "Mutate_Code": "longest &= max(length, longest)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T49_LCPN_128-Longest-consecutive-sequence.py",
+            "Source_Code": "longest = max(length, longest)",
+            "Mutate_Code": "longest |= max(length, longest)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T49_LCPN_128-Longest-consecutive-sequence.py",
+            "Source_Code": "longest = max(length, longest)",
+            "Mutate_Code": "longest ^= max(length, longest)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T49_LCPN_128-Longest-consecutive-sequence.py",
+            "Source_Code": "longest = max(length, longest)",
+            "Mutate_Code": "longest >>= max(length, longest)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T49_LCPN_128-Longest-consecutive-sequence.py",
+            "Source_Code": "longest = max(length, longest)",
+            "Mutate_Code": "longest <<= max(length, longest)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T49_LCPN_128-Longest-consecutive-sequence.py",
+            "Source_Code": "longest = max(length, longest)",
+            "Mutate_Code": "longest == max(length, longest)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T49_LCPN_128-Longest-consecutive-sequence.py",
+            "Source_Code": "longest = max(length, longest)",
+            "Mutate_Code": "longest +=+= max(length, longest)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T49_LCPN_128-Longest-consecutive-sequence.py",
+            "Source_Code": "longest = max(length, longest)",
+            "Mutate_Code": "longest -=-= max(length, longest)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T49_LCPN_128-Longest-consecutive-sequence.py",
+            "Source_Code": "longest = max(length, longest)",
+            "Mutate_Code": "longest *=*= max(length, longest)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T49_LCPN_128-Longest-consecutive-sequence.py",
+            "Source_Code": "longest = max(length, longest)",
+            "Mutate_Code": "longest /=/= max(length, longest)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T49_LCPN_128-Longest-consecutive-sequence.py",
+            "Source_Code": "longest = max(length, longest)",
+            "Mutate_Code": "longest %=%= max(length, longest)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T49_LCPN_128-Longest-consecutive-sequence.py",
+            "Source_Code": "longest = max(length, longest)",
+            "Mutate_Code": "longest //=//= max(length, longest)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T49_LCPN_128-Longest-consecutive-sequence.py",
+            "Source_Code": "longest = max(length, longest)",
+            "Mutate_Code": "longest **=**= max(length, longest)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T49_LCPN_128-Longest-consecutive-sequence.py",
+            "Source_Code": "longest = max(length, longest)",
+            "Mutate_Code": "longest &=&= max(length, longest)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T49_LCPN_128-Longest-consecutive-sequence.py",
+            "Source_Code": "longest = max(length, longest)",
+            "Mutate_Code": "longest |=|= max(length, longest)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T49_LCPN_128-Longest-consecutive-sequence.py",
+            "Source_Code": "longest = max(length, longest)",
+            "Mutate_Code": "longest ^=^= max(length, longest)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T49_LCPN_128-Longest-consecutive-sequence.py",
+            "Source_Code": "longest = max(length, longest)",
+            "Mutate_Code": "longest >>=>>= max(length, longest)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T49_LCPN_128-Longest-consecutive-sequence.py",
+            "Source_Code": "longest = max(length, longest)",
+            "Mutate_Code": "longest <<=<<=max(length, longest)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T49_LCPN_128-Longest-consecutive-sequence.py",
+            "Source_Code": "longest = max(length, longest)",
+            "Mutate_Code": "longest == max(length, longest)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T49_LCPN_128-Longest-consecutive-sequence.py",
+            "Source_Code": "longest = max(length, longest)",
+            "Mutate_Code": "longest +=+= max(length, longest)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T49_LCPN_128-Longest-consecutive-sequence.py",
+            "Source_Code": "longest = max(length, longest)",
+            "Mutate_Code": "longest -=-= max(length, longest)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T49_LCPN_128-Longest-consecutive-sequence.py",
+            "Source_Code": "longest = max(length, longest)",
+            "Mutate_Code": "longest *=*= max(length, longest)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T49_LCPN_128-Longest-consecutive-sequence.py",
+            "Source_Code": "longest = max(length, longest)",
+            "Mutate_Code": "longest /=/= max(length, longest)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T49_LCPN_128-Longest-consecutive-sequence.py",
+            "Source_Code": "longest = max(length, longest)",
+            "Mutate_Code": "longest %=%= max(length, longest)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T49_LCPN_128-Longest-consecutive-sequence.py",
+            "Source_Code": "longest = max(length, longest)",
+            "Mutate_Code": "longest //=//= max(length, longest)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T49_LCPN_128-Longest-consecutive-sequence.py",
+            "Source_Code": "longest = max(length, longest)",
+            "Mutate_Code": "longest **=**= max(length, longest)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T49_LCPN_128-Longest-consecutive-sequence.py",
+            "Source_Code": "longest = max(length, longest)",
+            "Mutate_Code": "longest &=&= max(length, longest)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T49_LCPN_128-Longest-consecutive-sequence.py",
+            "Source_Code": "longest = max(length, longest)",
+            "Mutate_Code": "longest |=|= max(length, longest)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T49_LCPN_128-Longest-consecutive-sequence.py",
+            "Source_Code": "longest = max(length, longest)",
+            "Mutate_Code": "longest ^=^= max(length, longest)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T49_LCPN_128-Longest-consecutive-sequence.py",
+            "Source_Code": "longest = max(length, longest)",
+            "Mutate_Code": "longest >>=>>= max(length, longest)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T49_LCPN_128-Longest-consecutive-sequence.py",
+            "Source_Code": "longest = max(length, longest)",
+            "Mutate_Code": "longest <<=<<=max(length, longest)"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T49_LCPN_128-Longest-consecutive-sequence.py",
+            "Source_Code": "longest = max(length, longest)",
+            "Mutate_Code": "longest = max( )"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T49_LCPN_128-Longest-consecutive-sequence.py",
+            "Source_Code": "return longest",
+            "Mutate_Code": " longest"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T49_LCPN_128-Longest-consecutive-sequence.py",
+            "Source_Code": "return longest",
+            "Mutate_Code": "passlongest"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T49_LCPN_128-Longest-consecutive-sequence.py",
+            "Source_Code": "return longest",
+            "Mutate_Code": "return returnlongest"
+        }
+    }
+]

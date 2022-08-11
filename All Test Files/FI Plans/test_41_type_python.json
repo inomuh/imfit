@@ -1,0 +1,2515 @@
+[
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T41_LCPN_84-Largest-Rectangle-in-Histogram.py",
+            "Source_Code": "for i, h in enumerate(heights):",
+            "Mutate_Code": "for i, h enumerate(heights):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T41_LCPN_84-Largest-Rectangle-in-Histogram.py",
+            "Source_Code": "for i, h in enumerate(heights):",
+            "Mutate_Code": "for i, h is enumerate(heights):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T41_LCPN_84-Largest-Rectangle-in-Histogram.py",
+            "Source_Code": "for i, h in enumerate(heights):",
+            "Mutate_Code": "for i, h is not enumerate(heights):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T41_LCPN_84-Largest-Rectangle-in-Histogram.py",
+            "Source_Code": "for i, h in enumerate(heights):",
+            "Mutate_Code": "for i, h in in enumerate(heights):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T41_LCPN_84-Largest-Rectangle-in-Histogram.py",
+            "Source_Code": "for i, h in enumerate(heights):",
+            "Mutate_Code": "for i, h not in not in enumerate(heights):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T41_LCPN_84-Largest-Rectangle-in-Histogram.py",
+            "Source_Code": "for i, h in enumerate(heights):",
+            "Mutate_Code": " "
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T41_LCPN_84-Largest-Rectangle-in-Histogram.py",
+            "Source_Code": "for i, h in enumerate(heights):",
+            "Mutate_Code": "while True:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T41_LCPN_84-Largest-Rectangle-in-Histogram.py",
+            "Source_Code": "for i, h in enumerate(heights):",
+            "Mutate_Code": "for for: i, h in enumerate(heights):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T41_LCPN_84-Largest-Rectangle-in-Histogram.py",
+            "Source_Code": "for i, h in enumerate(heights):",
+            "Mutate_Code": "for i, h in enumerate( ):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T41_LCPN_84-Largest-Rectangle-in-Histogram.py",
+            "Source_Code": "for i, h in enumerate(heights):",
+            "Mutate_Code": "for i, h enumerate(heights):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T41_LCPN_84-Largest-Rectangle-in-Histogram.py",
+            "Source_Code": "for i, h in enumerate(heights):",
+            "Mutate_Code": "for i, h is enumerate(heights):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T41_LCPN_84-Largest-Rectangle-in-Histogram.py",
+            "Source_Code": "for i, h in enumerate(heights):",
+            "Mutate_Code": "for i, h is not enumerate(heights):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T41_LCPN_84-Largest-Rectangle-in-Histogram.py",
+            "Source_Code": "for i, h in enumerate(heights):",
+            "Mutate_Code": "for i, h in in enumerate(heights):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T41_LCPN_84-Largest-Rectangle-in-Histogram.py",
+            "Source_Code": "for i, h in enumerate(heights):",
+            "Mutate_Code": "for i, h not in not in enumerate(heights):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T41_LCPN_84-Largest-Rectangle-in-Histogram.py",
+            "Source_Code": "for i, h in enumerate(heights):",
+            "Mutate_Code": " "
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T41_LCPN_84-Largest-Rectangle-in-Histogram.py",
+            "Source_Code": "for i, h in enumerate(heights):",
+            "Mutate_Code": "while True:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T41_LCPN_84-Largest-Rectangle-in-Histogram.py",
+            "Source_Code": "for i, h in enumerate(heights):",
+            "Mutate_Code": "for for: i, h in enumerate(heights):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T41_LCPN_84-Largest-Rectangle-in-Histogram.py",
+            "Source_Code": "for i, h in enumerate(heights):",
+            "Mutate_Code": "for i, h in enumerate( ):"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T41_LCPN_84-Largest-Rectangle-in-Histogram.py",
+            "Source_Code": "while stack and stack[-1][1] > h:",
+            "Mutate_Code": "while stack and stack[-1][1]   h:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T41_LCPN_84-Largest-Rectangle-in-Histogram.py",
+            "Source_Code": "while stack and stack[-1][1] > h:",
+            "Mutate_Code": "while stack and stack[-1][1] == h:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T41_LCPN_84-Largest-Rectangle-in-Histogram.py",
+            "Source_Code": "while stack and stack[-1][1] > h:",
+            "Mutate_Code": "while stack and stack[-1][1] != h:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T41_LCPN_84-Largest-Rectangle-in-Histogram.py",
+            "Source_Code": "while stack and stack[-1][1] > h:",
+            "Mutate_Code": "while stack and stack[-1][1] < h:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T41_LCPN_84-Largest-Rectangle-in-Histogram.py",
+            "Source_Code": "while stack and stack[-1][1] > h:",
+            "Mutate_Code": "while stack and stack[-1][1] >= h:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T41_LCPN_84-Largest-Rectangle-in-Histogram.py",
+            "Source_Code": "while stack and stack[-1][1] > h:",
+            "Mutate_Code": "while stack and stack[-1][1] <= h:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T41_LCPN_84-Largest-Rectangle-in-Histogram.py",
+            "Source_Code": "while stack and stack[-1][1] > h:",
+            "Mutate_Code": "while stack and stack[-1][1]  ====  h:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T41_LCPN_84-Largest-Rectangle-in-Histogram.py",
+            "Source_Code": "while stack and stack[-1][1] > h:",
+            "Mutate_Code": "while stack and stack[-1][1]  !==  h:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T41_LCPN_84-Largest-Rectangle-in-Histogram.py",
+            "Source_Code": "while stack and stack[-1][1] > h:",
+            "Mutate_Code": "while stack and stack[-1][1]  >>  h:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T41_LCPN_84-Largest-Rectangle-in-Histogram.py",
+            "Source_Code": "while stack and stack[-1][1] > h:",
+            "Mutate_Code": "while stack and stack[-1][1]  <<  h:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T41_LCPN_84-Largest-Rectangle-in-Histogram.py",
+            "Source_Code": "while stack and stack[-1][1] > h:",
+            "Mutate_Code": "while stack and stack[-1][1]  >=>=  h:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T41_LCPN_84-Largest-Rectangle-in-Histogram.py",
+            "Source_Code": "while stack and stack[-1][1] > h:",
+            "Mutate_Code": "while stack and stack[-1][1]  <=<=  h:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T41_LCPN_84-Largest-Rectangle-in-Histogram.py",
+            "Source_Code": "while stack and stack[-1][1] > h:",
+            "Mutate_Code": "while stack stack[-1][1] > h:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T41_LCPN_84-Largest-Rectangle-in-Histogram.py",
+            "Source_Code": "while stack and stack[-1][1] > h:",
+            "Mutate_Code": "while stack or stack[-1][1] > h:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T41_LCPN_84-Largest-Rectangle-in-Histogram.py",
+            "Source_Code": "while stack and stack[-1][1] > h:",
+            "Mutate_Code": "while stack not stack[-1][1] > h:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T41_LCPN_84-Largest-Rectangle-in-Histogram.py",
+            "Source_Code": "while stack and stack[-1][1] > h:",
+            "Mutate_Code": "while stack and and stack[-1][1] > h:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T41_LCPN_84-Largest-Rectangle-in-Histogram.py",
+            "Source_Code": "while stack and stack[-1][1] > h:",
+            "Mutate_Code": "while stack or or stack[-1][1] > h:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T41_LCPN_84-Largest-Rectangle-in-Histogram.py",
+            "Source_Code": "while stack and stack[-1][1] > h:",
+            "Mutate_Code": "while stack not not stack[-1][1] > h:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T41_LCPN_84-Largest-Rectangle-in-Histogram.py",
+            "Source_Code": "while stack and stack[-1][1] > h:",
+            "Mutate_Code": " "
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T41_LCPN_84-Largest-Rectangle-in-Histogram.py",
+            "Source_Code": "while stack and stack[-1][1] > h:",
+            "Mutate_Code": "for "
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T41_LCPN_84-Largest-Rectangle-in-Histogram.py",
+            "Source_Code": "while stack and stack[-1][1] > h:",
+            "Mutate_Code": "while while:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T41_LCPN_84-Largest-Rectangle-in-Histogram.py",
+            "Source_Code": "while stack and stack[-1][1] > h:",
+            "Mutate_Code": "while stack and stack[-1][1]   h:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T41_LCPN_84-Largest-Rectangle-in-Histogram.py",
+            "Source_Code": "while stack and stack[-1][1] > h:",
+            "Mutate_Code": "while stack and stack[-1][1] == h:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T41_LCPN_84-Largest-Rectangle-in-Histogram.py",
+            "Source_Code": "while stack and stack[-1][1] > h:",
+            "Mutate_Code": "while stack and stack[-1][1] != h:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T41_LCPN_84-Largest-Rectangle-in-Histogram.py",
+            "Source_Code": "while stack and stack[-1][1] > h:",
+            "Mutate_Code": "while stack and stack[-1][1] < h:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T41_LCPN_84-Largest-Rectangle-in-Histogram.py",
+            "Source_Code": "while stack and stack[-1][1] > h:",
+            "Mutate_Code": "while stack and stack[-1][1] >= h:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T41_LCPN_84-Largest-Rectangle-in-Histogram.py",
+            "Source_Code": "while stack and stack[-1][1] > h:",
+            "Mutate_Code": "while stack and stack[-1][1] <= h:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T41_LCPN_84-Largest-Rectangle-in-Histogram.py",
+            "Source_Code": "while stack and stack[-1][1] > h:",
+            "Mutate_Code": "while stack and stack[-1][1]  ====  h:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T41_LCPN_84-Largest-Rectangle-in-Histogram.py",
+            "Source_Code": "while stack and stack[-1][1] > h:",
+            "Mutate_Code": "while stack and stack[-1][1]  !==  h:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T41_LCPN_84-Largest-Rectangle-in-Histogram.py",
+            "Source_Code": "while stack and stack[-1][1] > h:",
+            "Mutate_Code": "while stack and stack[-1][1]  >>  h:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T41_LCPN_84-Largest-Rectangle-in-Histogram.py",
+            "Source_Code": "while stack and stack[-1][1] > h:",
+            "Mutate_Code": "while stack and stack[-1][1]  <<  h:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T41_LCPN_84-Largest-Rectangle-in-Histogram.py",
+            "Source_Code": "while stack and stack[-1][1] > h:",
+            "Mutate_Code": "while stack and stack[-1][1]  >=>=  h:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T41_LCPN_84-Largest-Rectangle-in-Histogram.py",
+            "Source_Code": "while stack and stack[-1][1] > h:",
+            "Mutate_Code": "while stack and stack[-1][1]  <=<=  h:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T41_LCPN_84-Largest-Rectangle-in-Histogram.py",
+            "Source_Code": "while stack and stack[-1][1] > h:",
+            "Mutate_Code": "while stack stack[-1][1] > h:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T41_LCPN_84-Largest-Rectangle-in-Histogram.py",
+            "Source_Code": "while stack and stack[-1][1] > h:",
+            "Mutate_Code": "while stack or stack[-1][1] > h:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T41_LCPN_84-Largest-Rectangle-in-Histogram.py",
+            "Source_Code": "while stack and stack[-1][1] > h:",
+            "Mutate_Code": "while stack not stack[-1][1] > h:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T41_LCPN_84-Largest-Rectangle-in-Histogram.py",
+            "Source_Code": "while stack and stack[-1][1] > h:",
+            "Mutate_Code": "while stack and and stack[-1][1] > h:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T41_LCPN_84-Largest-Rectangle-in-Histogram.py",
+            "Source_Code": "while stack and stack[-1][1] > h:",
+            "Mutate_Code": "while stack or or stack[-1][1] > h:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T41_LCPN_84-Largest-Rectangle-in-Histogram.py",
+            "Source_Code": "while stack and stack[-1][1] > h:",
+            "Mutate_Code": "while stack not not stack[-1][1] > h:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T41_LCPN_84-Largest-Rectangle-in-Histogram.py",
+            "Source_Code": "while stack and stack[-1][1] > h:",
+            "Mutate_Code": " "
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T41_LCPN_84-Largest-Rectangle-in-Histogram.py",
+            "Source_Code": "while stack and stack[-1][1] > h:",
+            "Mutate_Code": "for "
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T41_LCPN_84-Largest-Rectangle-in-Histogram.py",
+            "Source_Code": "while stack and stack[-1][1] > h:",
+            "Mutate_Code": "while while:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T41_LCPN_84-Largest-Rectangle-in-Histogram.py",
+            "Source_Code": "maxArea = max(maxArea, height * (i - index))",
+            "Mutate_Code": "maxArea = max(maxArea, height * (i index))"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T41_LCPN_84-Largest-Rectangle-in-Histogram.py",
+            "Source_Code": "maxArea = max(maxArea, height * (i - index))",
+            "Mutate_Code": "maxArea = max(maxArea, height (i - index))"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T41_LCPN_84-Largest-Rectangle-in-Histogram.py",
+            "Source_Code": "maxArea = max(maxArea, height * (i - index))",
+            "Mutate_Code": "maxArea = max(maxArea, height (i - index))"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T41_LCPN_84-Largest-Rectangle-in-Histogram.py",
+            "Source_Code": "maxArea = max(maxArea, height * (i - index))",
+            "Mutate_Code": "maxArea = max(maxArea, height * (i + index))"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T41_LCPN_84-Largest-Rectangle-in-Histogram.py",
+            "Source_Code": "maxArea = max(maxArea, height * (i - index))",
+            "Mutate_Code": "maxArea = max(maxArea, height * (i * index))"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T41_LCPN_84-Largest-Rectangle-in-Histogram.py",
+            "Source_Code": "maxArea = max(maxArea, height * (i - index))",
+            "Mutate_Code": "maxArea = max(maxArea, height * (i / index))"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T41_LCPN_84-Largest-Rectangle-in-Histogram.py",
+            "Source_Code": "maxArea = max(maxArea, height * (i - index))",
+            "Mutate_Code": "maxArea = max(maxArea, height * (i % index))"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T41_LCPN_84-Largest-Rectangle-in-Histogram.py",
+            "Source_Code": "maxArea = max(maxArea, height * (i - index))",
+            "Mutate_Code": "maxArea = max(maxArea, height * (i ** index))"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T41_LCPN_84-Largest-Rectangle-in-Histogram.py",
+            "Source_Code": "maxArea = max(maxArea, height * (i - index))",
+            "Mutate_Code": "maxArea = max(maxArea, height * (i // index))"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T41_LCPN_84-Largest-Rectangle-in-Histogram.py",
+            "Source_Code": "maxArea = max(maxArea, height * (i - index))",
+            "Mutate_Code": "maxArea = max(maxArea, height + (i - index))"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T41_LCPN_84-Largest-Rectangle-in-Histogram.py",
+            "Source_Code": "maxArea = max(maxArea, height * (i - index))",
+            "Mutate_Code": "maxArea = max(maxArea, height - (i - index))"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T41_LCPN_84-Largest-Rectangle-in-Histogram.py",
+            "Source_Code": "maxArea = max(maxArea, height * (i - index))",
+            "Mutate_Code": "maxArea = max(maxArea, height / (i - index))"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T41_LCPN_84-Largest-Rectangle-in-Histogram.py",
+            "Source_Code": "maxArea = max(maxArea, height * (i - index))",
+            "Mutate_Code": "maxArea = max(maxArea, height % (i - index))"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T41_LCPN_84-Largest-Rectangle-in-Histogram.py",
+            "Source_Code": "maxArea = max(maxArea, height * (i - index))",
+            "Mutate_Code": "maxArea = max(maxArea, height ** (i - index))"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T41_LCPN_84-Largest-Rectangle-in-Histogram.py",
+            "Source_Code": "maxArea = max(maxArea, height * (i - index))",
+            "Mutate_Code": "maxArea = max(maxArea, height // (i - index))"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T41_LCPN_84-Largest-Rectangle-in-Histogram.py",
+            "Source_Code": "maxArea = max(maxArea, height * (i - index))",
+            "Mutate_Code": "maxArea = max(maxArea, height + (i - index))"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T41_LCPN_84-Largest-Rectangle-in-Histogram.py",
+            "Source_Code": "maxArea = max(maxArea, height * (i - index))",
+            "Mutate_Code": "maxArea = max(maxArea, height - (i - index))"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T41_LCPN_84-Largest-Rectangle-in-Histogram.py",
+            "Source_Code": "maxArea = max(maxArea, height * (i - index))",
+            "Mutate_Code": "maxArea = max(maxArea, height / (i - index))"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T41_LCPN_84-Largest-Rectangle-in-Histogram.py",
+            "Source_Code": "maxArea = max(maxArea, height * (i - index))",
+            "Mutate_Code": "maxArea = max(maxArea, height % (i - index))"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T41_LCPN_84-Largest-Rectangle-in-Histogram.py",
+            "Source_Code": "maxArea = max(maxArea, height * (i - index))",
+            "Mutate_Code": "maxArea = max(maxArea, height ** (i - index))"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T41_LCPN_84-Largest-Rectangle-in-Histogram.py",
+            "Source_Code": "maxArea = max(maxArea, height * (i - index))",
+            "Mutate_Code": "maxArea = max(maxArea, height // (i - index))"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T41_LCPN_84-Largest-Rectangle-in-Histogram.py",
+            "Source_Code": "maxArea = max(maxArea, height * (i - index))",
+            "Mutate_Code": "maxArea = max(maxArea, height * (i ++ index))"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T41_LCPN_84-Largest-Rectangle-in-Histogram.py",
+            "Source_Code": "maxArea = max(maxArea, height * (i - index))",
+            "Mutate_Code": "maxArea = max(maxArea, height * (i -- index))"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T41_LCPN_84-Largest-Rectangle-in-Histogram.py",
+            "Source_Code": "maxArea = max(maxArea, height * (i - index))",
+            "Mutate_Code": "maxArea = max(maxArea, height * (i ** index))"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T41_LCPN_84-Largest-Rectangle-in-Histogram.py",
+            "Source_Code": "maxArea = max(maxArea, height * (i - index))",
+            "Mutate_Code": "maxArea = max(maxArea, height * (i // index))"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T41_LCPN_84-Largest-Rectangle-in-Histogram.py",
+            "Source_Code": "maxArea = max(maxArea, height * (i - index))",
+            "Mutate_Code": "maxArea = max(maxArea, height * (i %% index))"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T41_LCPN_84-Largest-Rectangle-in-Histogram.py",
+            "Source_Code": "maxArea = max(maxArea, height * (i - index))",
+            "Mutate_Code": "maxArea = max(maxArea, height * (i **** index))"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T41_LCPN_84-Largest-Rectangle-in-Histogram.py",
+            "Source_Code": "maxArea = max(maxArea, height * (i - index))",
+            "Mutate_Code": "maxArea = max(maxArea, height * (i //// index))"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T41_LCPN_84-Largest-Rectangle-in-Histogram.py",
+            "Source_Code": "maxArea = max(maxArea, height * (i - index))",
+            "Mutate_Code": "maxArea = max(maxArea, height ++ (i - index))"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T41_LCPN_84-Largest-Rectangle-in-Histogram.py",
+            "Source_Code": "maxArea = max(maxArea, height * (i - index))",
+            "Mutate_Code": "maxArea = max(maxArea, height -- (i - index))"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T41_LCPN_84-Largest-Rectangle-in-Histogram.py",
+            "Source_Code": "maxArea = max(maxArea, height * (i - index))",
+            "Mutate_Code": "maxArea = max(maxArea, height ** (i - index))"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T41_LCPN_84-Largest-Rectangle-in-Histogram.py",
+            "Source_Code": "maxArea = max(maxArea, height * (i - index))",
+            "Mutate_Code": "maxArea = max(maxArea, height // (i - index))"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T41_LCPN_84-Largest-Rectangle-in-Histogram.py",
+            "Source_Code": "maxArea = max(maxArea, height * (i - index))",
+            "Mutate_Code": "maxArea = max(maxArea, height %% (i - index))"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T41_LCPN_84-Largest-Rectangle-in-Histogram.py",
+            "Source_Code": "maxArea = max(maxArea, height * (i - index))",
+            "Mutate_Code": "maxArea = max(maxArea, height **** (i - index))"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T41_LCPN_84-Largest-Rectangle-in-Histogram.py",
+            "Source_Code": "maxArea = max(maxArea, height * (i - index))",
+            "Mutate_Code": "maxArea = max(maxArea, height //// (i - index))"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T41_LCPN_84-Largest-Rectangle-in-Histogram.py",
+            "Source_Code": "maxArea = max(maxArea, height * (i - index))",
+            "Mutate_Code": "maxArea = max(maxArea, height ++ (i - index))"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T41_LCPN_84-Largest-Rectangle-in-Histogram.py",
+            "Source_Code": "maxArea = max(maxArea, height * (i - index))",
+            "Mutate_Code": "maxArea = max(maxArea, height -- (i - index))"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T41_LCPN_84-Largest-Rectangle-in-Histogram.py",
+            "Source_Code": "maxArea = max(maxArea, height * (i - index))",
+            "Mutate_Code": "maxArea = max(maxArea, height ** (i - index))"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T41_LCPN_84-Largest-Rectangle-in-Histogram.py",
+            "Source_Code": "maxArea = max(maxArea, height * (i - index))",
+            "Mutate_Code": "maxArea = max(maxArea, height // (i - index))"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T41_LCPN_84-Largest-Rectangle-in-Histogram.py",
+            "Source_Code": "maxArea = max(maxArea, height * (i - index))",
+            "Mutate_Code": "maxArea = max(maxArea, height %% (i - index))"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T41_LCPN_84-Largest-Rectangle-in-Histogram.py",
+            "Source_Code": "maxArea = max(maxArea, height * (i - index))",
+            "Mutate_Code": "maxArea = max(maxArea, height **** (i - index))"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T41_LCPN_84-Largest-Rectangle-in-Histogram.py",
+            "Source_Code": "maxArea = max(maxArea, height * (i - index))",
+            "Mutate_Code": "maxArea = max(maxArea, height //// (i - index))"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T41_LCPN_84-Largest-Rectangle-in-Histogram.py",
+            "Source_Code": "maxArea = max(maxArea, height * (i - index))",
+            "Mutate_Code": "maxArea max(maxArea, height * (i - index))"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T41_LCPN_84-Largest-Rectangle-in-Histogram.py",
+            "Source_Code": "maxArea = max(maxArea, height * (i - index))",
+            "Mutate_Code": "maxArea max(maxArea, height * (i - index))"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T41_LCPN_84-Largest-Rectangle-in-Histogram.py",
+            "Source_Code": "maxArea = max(maxArea, height * (i - index))",
+            "Mutate_Code": "maxArea += max(maxArea, height * (i - index))"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T41_LCPN_84-Largest-Rectangle-in-Histogram.py",
+            "Source_Code": "maxArea = max(maxArea, height * (i - index))",
+            "Mutate_Code": "maxArea -= max(maxArea, height * (i - index))"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T41_LCPN_84-Largest-Rectangle-in-Histogram.py",
+            "Source_Code": "maxArea = max(maxArea, height * (i - index))",
+            "Mutate_Code": "maxArea *= max(maxArea, height * (i - index))"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T41_LCPN_84-Largest-Rectangle-in-Histogram.py",
+            "Source_Code": "maxArea = max(maxArea, height * (i - index))",
+            "Mutate_Code": "maxArea /= max(maxArea, height * (i - index))"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T41_LCPN_84-Largest-Rectangle-in-Histogram.py",
+            "Source_Code": "maxArea = max(maxArea, height * (i - index))",
+            "Mutate_Code": "maxArea %= max(maxArea, height * (i - index))"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T41_LCPN_84-Largest-Rectangle-in-Histogram.py",
+            "Source_Code": "maxArea = max(maxArea, height * (i - index))",
+            "Mutate_Code": "maxArea //= max(maxArea, height * (i - index))"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T41_LCPN_84-Largest-Rectangle-in-Histogram.py",
+            "Source_Code": "maxArea = max(maxArea, height * (i - index))",
+            "Mutate_Code": "maxArea **= max(maxArea, height * (i - index))"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T41_LCPN_84-Largest-Rectangle-in-Histogram.py",
+            "Source_Code": "maxArea = max(maxArea, height * (i - index))",
+            "Mutate_Code": "maxArea &= max(maxArea, height * (i - index))"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T41_LCPN_84-Largest-Rectangle-in-Histogram.py",
+            "Source_Code": "maxArea = max(maxArea, height * (i - index))",
+            "Mutate_Code": "maxArea |= max(maxArea, height * (i - index))"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T41_LCPN_84-Largest-Rectangle-in-Histogram.py",
+            "Source_Code": "maxArea = max(maxArea, height * (i - index))",
+            "Mutate_Code": "maxArea ^= max(maxArea, height * (i - index))"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T41_LCPN_84-Largest-Rectangle-in-Histogram.py",
+            "Source_Code": "maxArea = max(maxArea, height * (i - index))",
+            "Mutate_Code": "maxArea >>= max(maxArea, height * (i - index))"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T41_LCPN_84-Largest-Rectangle-in-Histogram.py",
+            "Source_Code": "maxArea = max(maxArea, height * (i - index))",
+            "Mutate_Code": "maxArea <<= max(maxArea, height * (i - index))"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T41_LCPN_84-Largest-Rectangle-in-Histogram.py",
+            "Source_Code": "maxArea = max(maxArea, height * (i - index))",
+            "Mutate_Code": "maxArea += max(maxArea, height * (i - index))"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T41_LCPN_84-Largest-Rectangle-in-Histogram.py",
+            "Source_Code": "maxArea = max(maxArea, height * (i - index))",
+            "Mutate_Code": "maxArea -= max(maxArea, height * (i - index))"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T41_LCPN_84-Largest-Rectangle-in-Histogram.py",
+            "Source_Code": "maxArea = max(maxArea, height * (i - index))",
+            "Mutate_Code": "maxArea *= max(maxArea, height * (i - index))"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T41_LCPN_84-Largest-Rectangle-in-Histogram.py",
+            "Source_Code": "maxArea = max(maxArea, height * (i - index))",
+            "Mutate_Code": "maxArea /= max(maxArea, height * (i - index))"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T41_LCPN_84-Largest-Rectangle-in-Histogram.py",
+            "Source_Code": "maxArea = max(maxArea, height * (i - index))",
+            "Mutate_Code": "maxArea %= max(maxArea, height * (i - index))"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T41_LCPN_84-Largest-Rectangle-in-Histogram.py",
+            "Source_Code": "maxArea = max(maxArea, height * (i - index))",
+            "Mutate_Code": "maxArea //= max(maxArea, height * (i - index))"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T41_LCPN_84-Largest-Rectangle-in-Histogram.py",
+            "Source_Code": "maxArea = max(maxArea, height * (i - index))",
+            "Mutate_Code": "maxArea **= max(maxArea, height * (i - index))"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T41_LCPN_84-Largest-Rectangle-in-Histogram.py",
+            "Source_Code": "maxArea = max(maxArea, height * (i - index))",
+            "Mutate_Code": "maxArea &= max(maxArea, height * (i - index))"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T41_LCPN_84-Largest-Rectangle-in-Histogram.py",
+            "Source_Code": "maxArea = max(maxArea, height * (i - index))",
+            "Mutate_Code": "maxArea |= max(maxArea, height * (i - index))"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T41_LCPN_84-Largest-Rectangle-in-Histogram.py",
+            "Source_Code": "maxArea = max(maxArea, height * (i - index))",
+            "Mutate_Code": "maxArea ^= max(maxArea, height * (i - index))"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T41_LCPN_84-Largest-Rectangle-in-Histogram.py",
+            "Source_Code": "maxArea = max(maxArea, height * (i - index))",
+            "Mutate_Code": "maxArea >>= max(maxArea, height * (i - index))"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T41_LCPN_84-Largest-Rectangle-in-Histogram.py",
+            "Source_Code": "maxArea = max(maxArea, height * (i - index))",
+            "Mutate_Code": "maxArea <<= max(maxArea, height * (i - index))"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T41_LCPN_84-Largest-Rectangle-in-Histogram.py",
+            "Source_Code": "maxArea = max(maxArea, height * (i - index))",
+            "Mutate_Code": "maxArea == max(maxArea, height * (i - index))"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T41_LCPN_84-Largest-Rectangle-in-Histogram.py",
+            "Source_Code": "maxArea = max(maxArea, height * (i - index))",
+            "Mutate_Code": "maxArea +=+= max(maxArea, height * (i - index))"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T41_LCPN_84-Largest-Rectangle-in-Histogram.py",
+            "Source_Code": "maxArea = max(maxArea, height * (i - index))",
+            "Mutate_Code": "maxArea -=-= max(maxArea, height * (i - index))"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T41_LCPN_84-Largest-Rectangle-in-Histogram.py",
+            "Source_Code": "maxArea = max(maxArea, height * (i - index))",
+            "Mutate_Code": "maxArea *=*= max(maxArea, height * (i - index))"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T41_LCPN_84-Largest-Rectangle-in-Histogram.py",
+            "Source_Code": "maxArea = max(maxArea, height * (i - index))",
+            "Mutate_Code": "maxArea /=/= max(maxArea, height * (i - index))"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T41_LCPN_84-Largest-Rectangle-in-Histogram.py",
+            "Source_Code": "maxArea = max(maxArea, height * (i - index))",
+            "Mutate_Code": "maxArea %=%= max(maxArea, height * (i - index))"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T41_LCPN_84-Largest-Rectangle-in-Histogram.py",
+            "Source_Code": "maxArea = max(maxArea, height * (i - index))",
+            "Mutate_Code": "maxArea //=//= max(maxArea, height * (i - index))"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T41_LCPN_84-Largest-Rectangle-in-Histogram.py",
+            "Source_Code": "maxArea = max(maxArea, height * (i - index))",
+            "Mutate_Code": "maxArea **=**= max(maxArea, height * (i - index))"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T41_LCPN_84-Largest-Rectangle-in-Histogram.py",
+            "Source_Code": "maxArea = max(maxArea, height * (i - index))",
+            "Mutate_Code": "maxArea &=&= max(maxArea, height * (i - index))"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T41_LCPN_84-Largest-Rectangle-in-Histogram.py",
+            "Source_Code": "maxArea = max(maxArea, height * (i - index))",
+            "Mutate_Code": "maxArea |=|= max(maxArea, height * (i - index))"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T41_LCPN_84-Largest-Rectangle-in-Histogram.py",
+            "Source_Code": "maxArea = max(maxArea, height * (i - index))",
+            "Mutate_Code": "maxArea ^=^= max(maxArea, height * (i - index))"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T41_LCPN_84-Largest-Rectangle-in-Histogram.py",
+            "Source_Code": "maxArea = max(maxArea, height * (i - index))",
+            "Mutate_Code": "maxArea >>=>>= max(maxArea, height * (i - index))"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T41_LCPN_84-Largest-Rectangle-in-Histogram.py",
+            "Source_Code": "maxArea = max(maxArea, height * (i - index))",
+            "Mutate_Code": "maxArea <<=<<=max(maxArea, height * (i - index))"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T41_LCPN_84-Largest-Rectangle-in-Histogram.py",
+            "Source_Code": "maxArea = max(maxArea, height * (i - index))",
+            "Mutate_Code": "maxArea == max(maxArea, height * (i - index))"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T41_LCPN_84-Largest-Rectangle-in-Histogram.py",
+            "Source_Code": "maxArea = max(maxArea, height * (i - index))",
+            "Mutate_Code": "maxArea +=+= max(maxArea, height * (i - index))"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T41_LCPN_84-Largest-Rectangle-in-Histogram.py",
+            "Source_Code": "maxArea = max(maxArea, height * (i - index))",
+            "Mutate_Code": "maxArea -=-= max(maxArea, height * (i - index))"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T41_LCPN_84-Largest-Rectangle-in-Histogram.py",
+            "Source_Code": "maxArea = max(maxArea, height * (i - index))",
+            "Mutate_Code": "maxArea *=*= max(maxArea, height * (i - index))"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T41_LCPN_84-Largest-Rectangle-in-Histogram.py",
+            "Source_Code": "maxArea = max(maxArea, height * (i - index))",
+            "Mutate_Code": "maxArea /=/= max(maxArea, height * (i - index))"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T41_LCPN_84-Largest-Rectangle-in-Histogram.py",
+            "Source_Code": "maxArea = max(maxArea, height * (i - index))",
+            "Mutate_Code": "maxArea %=%= max(maxArea, height * (i - index))"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T41_LCPN_84-Largest-Rectangle-in-Histogram.py",
+            "Source_Code": "maxArea = max(maxArea, height * (i - index))",
+            "Mutate_Code": "maxArea //=//= max(maxArea, height * (i - index))"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T41_LCPN_84-Largest-Rectangle-in-Histogram.py",
+            "Source_Code": "maxArea = max(maxArea, height * (i - index))",
+            "Mutate_Code": "maxArea **=**= max(maxArea, height * (i - index))"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T41_LCPN_84-Largest-Rectangle-in-Histogram.py",
+            "Source_Code": "maxArea = max(maxArea, height * (i - index))",
+            "Mutate_Code": "maxArea &=&= max(maxArea, height * (i - index))"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T41_LCPN_84-Largest-Rectangle-in-Histogram.py",
+            "Source_Code": "maxArea = max(maxArea, height * (i - index))",
+            "Mutate_Code": "maxArea |=|= max(maxArea, height * (i - index))"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T41_LCPN_84-Largest-Rectangle-in-Histogram.py",
+            "Source_Code": "maxArea = max(maxArea, height * (i - index))",
+            "Mutate_Code": "maxArea ^=^= max(maxArea, height * (i - index))"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T41_LCPN_84-Largest-Rectangle-in-Histogram.py",
+            "Source_Code": "maxArea = max(maxArea, height * (i - index))",
+            "Mutate_Code": "maxArea >>=>>= max(maxArea, height * (i - index))"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T41_LCPN_84-Largest-Rectangle-in-Histogram.py",
+            "Source_Code": "maxArea = max(maxArea, height * (i - index))",
+            "Mutate_Code": "maxArea <<=<<=max(maxArea, height * (i - index))"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T41_LCPN_84-Largest-Rectangle-in-Histogram.py",
+            "Source_Code": "maxArea = max(maxArea, height * (i - index))",
+            "Mutate_Code": "maxArea = max( ))"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T41_LCPN_84-Largest-Rectangle-in-Histogram.py",
+            "Source_Code": "stack.append((start, h))",
+            "Mutate_Code": "stack.append( ))"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T41_LCPN_84-Largest-Rectangle-in-Histogram.py",
+            "Source_Code": "for i, h in stack:",
+            "Mutate_Code": "for i, h stack:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T41_LCPN_84-Largest-Rectangle-in-Histogram.py",
+            "Source_Code": "for i, h in stack:",
+            "Mutate_Code": "for i, h is stack:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T41_LCPN_84-Largest-Rectangle-in-Histogram.py",
+            "Source_Code": "for i, h in stack:",
+            "Mutate_Code": "for i, h is not stack:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T41_LCPN_84-Largest-Rectangle-in-Histogram.py",
+            "Source_Code": "for i, h in stack:",
+            "Mutate_Code": "for i, h in in stack:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T41_LCPN_84-Largest-Rectangle-in-Histogram.py",
+            "Source_Code": "for i, h in stack:",
+            "Mutate_Code": "for i, h not in not in stack:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T41_LCPN_84-Largest-Rectangle-in-Histogram.py",
+            "Source_Code": "for i, h in stack:",
+            "Mutate_Code": " "
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T41_LCPN_84-Largest-Rectangle-in-Histogram.py",
+            "Source_Code": "for i, h in stack:",
+            "Mutate_Code": "while True:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T41_LCPN_84-Largest-Rectangle-in-Histogram.py",
+            "Source_Code": "for i, h in stack:",
+            "Mutate_Code": "for for: i, h in stack:"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T41_LCPN_84-Largest-Rectangle-in-Histogram.py",
+            "Source_Code": "maxArea = max(maxArea, h * (len(heights) - i))",
+            "Mutate_Code": "maxArea = max(maxArea, h * (len(heights) i))"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T41_LCPN_84-Largest-Rectangle-in-Histogram.py",
+            "Source_Code": "maxArea = max(maxArea, h * (len(heights) - i))",
+            "Mutate_Code": "maxArea = max(maxArea, h (len(heights) - i))"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T41_LCPN_84-Largest-Rectangle-in-Histogram.py",
+            "Source_Code": "maxArea = max(maxArea, h * (len(heights) - i))",
+            "Mutate_Code": "maxArea = max(maxArea, h (len(heights) - i))"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T41_LCPN_84-Largest-Rectangle-in-Histogram.py",
+            "Source_Code": "maxArea = max(maxArea, h * (len(heights) - i))",
+            "Mutate_Code": "maxArea = max(maxArea, h * (len(heights) + i))"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T41_LCPN_84-Largest-Rectangle-in-Histogram.py",
+            "Source_Code": "maxArea = max(maxArea, h * (len(heights) - i))",
+            "Mutate_Code": "maxArea = max(maxArea, h * (len(heights) * i))"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T41_LCPN_84-Largest-Rectangle-in-Histogram.py",
+            "Source_Code": "maxArea = max(maxArea, h * (len(heights) - i))",
+            "Mutate_Code": "maxArea = max(maxArea, h * (len(heights) / i))"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T41_LCPN_84-Largest-Rectangle-in-Histogram.py",
+            "Source_Code": "maxArea = max(maxArea, h * (len(heights) - i))",
+            "Mutate_Code": "maxArea = max(maxArea, h * (len(heights) % i))"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T41_LCPN_84-Largest-Rectangle-in-Histogram.py",
+            "Source_Code": "maxArea = max(maxArea, h * (len(heights) - i))",
+            "Mutate_Code": "maxArea = max(maxArea, h * (len(heights) ** i))"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T41_LCPN_84-Largest-Rectangle-in-Histogram.py",
+            "Source_Code": "maxArea = max(maxArea, h * (len(heights) - i))",
+            "Mutate_Code": "maxArea = max(maxArea, h * (len(heights) // i))"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T41_LCPN_84-Largest-Rectangle-in-Histogram.py",
+            "Source_Code": "maxArea = max(maxArea, h * (len(heights) - i))",
+            "Mutate_Code": "maxArea = max(maxArea, h + (len(heights) - i))"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T41_LCPN_84-Largest-Rectangle-in-Histogram.py",
+            "Source_Code": "maxArea = max(maxArea, h * (len(heights) - i))",
+            "Mutate_Code": "maxArea = max(maxArea, h - (len(heights) - i))"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T41_LCPN_84-Largest-Rectangle-in-Histogram.py",
+            "Source_Code": "maxArea = max(maxArea, h * (len(heights) - i))",
+            "Mutate_Code": "maxArea = max(maxArea, h / (len(heights) - i))"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T41_LCPN_84-Largest-Rectangle-in-Histogram.py",
+            "Source_Code": "maxArea = max(maxArea, h * (len(heights) - i))",
+            "Mutate_Code": "maxArea = max(maxArea, h % (len(heights) - i))"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T41_LCPN_84-Largest-Rectangle-in-Histogram.py",
+            "Source_Code": "maxArea = max(maxArea, h * (len(heights) - i))",
+            "Mutate_Code": "maxArea = max(maxArea, h ** (len(heights) - i))"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T41_LCPN_84-Largest-Rectangle-in-Histogram.py",
+            "Source_Code": "maxArea = max(maxArea, h * (len(heights) - i))",
+            "Mutate_Code": "maxArea = max(maxArea, h // (len(heights) - i))"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T41_LCPN_84-Largest-Rectangle-in-Histogram.py",
+            "Source_Code": "maxArea = max(maxArea, h * (len(heights) - i))",
+            "Mutate_Code": "maxArea = max(maxArea, h + (len(heights) - i))"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T41_LCPN_84-Largest-Rectangle-in-Histogram.py",
+            "Source_Code": "maxArea = max(maxArea, h * (len(heights) - i))",
+            "Mutate_Code": "maxArea = max(maxArea, h - (len(heights) - i))"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T41_LCPN_84-Largest-Rectangle-in-Histogram.py",
+            "Source_Code": "maxArea = max(maxArea, h * (len(heights) - i))",
+            "Mutate_Code": "maxArea = max(maxArea, h / (len(heights) - i))"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T41_LCPN_84-Largest-Rectangle-in-Histogram.py",
+            "Source_Code": "maxArea = max(maxArea, h * (len(heights) - i))",
+            "Mutate_Code": "maxArea = max(maxArea, h % (len(heights) - i))"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T41_LCPN_84-Largest-Rectangle-in-Histogram.py",
+            "Source_Code": "maxArea = max(maxArea, h * (len(heights) - i))",
+            "Mutate_Code": "maxArea = max(maxArea, h ** (len(heights) - i))"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T41_LCPN_84-Largest-Rectangle-in-Histogram.py",
+            "Source_Code": "maxArea = max(maxArea, h * (len(heights) - i))",
+            "Mutate_Code": "maxArea = max(maxArea, h // (len(heights) - i))"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T41_LCPN_84-Largest-Rectangle-in-Histogram.py",
+            "Source_Code": "maxArea = max(maxArea, h * (len(heights) - i))",
+            "Mutate_Code": "maxArea = max(maxArea, h * (len(heights) ++ i))"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T41_LCPN_84-Largest-Rectangle-in-Histogram.py",
+            "Source_Code": "maxArea = max(maxArea, h * (len(heights) - i))",
+            "Mutate_Code": "maxArea = max(maxArea, h * (len(heights) -- i))"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T41_LCPN_84-Largest-Rectangle-in-Histogram.py",
+            "Source_Code": "maxArea = max(maxArea, h * (len(heights) - i))",
+            "Mutate_Code": "maxArea = max(maxArea, h * (len(heights) ** i))"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T41_LCPN_84-Largest-Rectangle-in-Histogram.py",
+            "Source_Code": "maxArea = max(maxArea, h * (len(heights) - i))",
+            "Mutate_Code": "maxArea = max(maxArea, h * (len(heights) // i))"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T41_LCPN_84-Largest-Rectangle-in-Histogram.py",
+            "Source_Code": "maxArea = max(maxArea, h * (len(heights) - i))",
+            "Mutate_Code": "maxArea = max(maxArea, h * (len(heights) %% i))"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T41_LCPN_84-Largest-Rectangle-in-Histogram.py",
+            "Source_Code": "maxArea = max(maxArea, h * (len(heights) - i))",
+            "Mutate_Code": "maxArea = max(maxArea, h * (len(heights) **** i))"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T41_LCPN_84-Largest-Rectangle-in-Histogram.py",
+            "Source_Code": "maxArea = max(maxArea, h * (len(heights) - i))",
+            "Mutate_Code": "maxArea = max(maxArea, h * (len(heights) //// i))"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T41_LCPN_84-Largest-Rectangle-in-Histogram.py",
+            "Source_Code": "maxArea = max(maxArea, h * (len(heights) - i))",
+            "Mutate_Code": "maxArea = max(maxArea, h ++ (len(heights) - i))"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T41_LCPN_84-Largest-Rectangle-in-Histogram.py",
+            "Source_Code": "maxArea = max(maxArea, h * (len(heights) - i))",
+            "Mutate_Code": "maxArea = max(maxArea, h -- (len(heights) - i))"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T41_LCPN_84-Largest-Rectangle-in-Histogram.py",
+            "Source_Code": "maxArea = max(maxArea, h * (len(heights) - i))",
+            "Mutate_Code": "maxArea = max(maxArea, h ** (len(heights) - i))"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T41_LCPN_84-Largest-Rectangle-in-Histogram.py",
+            "Source_Code": "maxArea = max(maxArea, h * (len(heights) - i))",
+            "Mutate_Code": "maxArea = max(maxArea, h // (len(heights) - i))"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T41_LCPN_84-Largest-Rectangle-in-Histogram.py",
+            "Source_Code": "maxArea = max(maxArea, h * (len(heights) - i))",
+            "Mutate_Code": "maxArea = max(maxArea, h %% (len(heights) - i))"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T41_LCPN_84-Largest-Rectangle-in-Histogram.py",
+            "Source_Code": "maxArea = max(maxArea, h * (len(heights) - i))",
+            "Mutate_Code": "maxArea = max(maxArea, h **** (len(heights) - i))"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T41_LCPN_84-Largest-Rectangle-in-Histogram.py",
+            "Source_Code": "maxArea = max(maxArea, h * (len(heights) - i))",
+            "Mutate_Code": "maxArea = max(maxArea, h //// (len(heights) - i))"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T41_LCPN_84-Largest-Rectangle-in-Histogram.py",
+            "Source_Code": "maxArea = max(maxArea, h * (len(heights) - i))",
+            "Mutate_Code": "maxArea = max(maxArea, h ++ (len(heights) - i))"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T41_LCPN_84-Largest-Rectangle-in-Histogram.py",
+            "Source_Code": "maxArea = max(maxArea, h * (len(heights) - i))",
+            "Mutate_Code": "maxArea = max(maxArea, h -- (len(heights) - i))"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T41_LCPN_84-Largest-Rectangle-in-Histogram.py",
+            "Source_Code": "maxArea = max(maxArea, h * (len(heights) - i))",
+            "Mutate_Code": "maxArea = max(maxArea, h ** (len(heights) - i))"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T41_LCPN_84-Largest-Rectangle-in-Histogram.py",
+            "Source_Code": "maxArea = max(maxArea, h * (len(heights) - i))",
+            "Mutate_Code": "maxArea = max(maxArea, h // (len(heights) - i))"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T41_LCPN_84-Largest-Rectangle-in-Histogram.py",
+            "Source_Code": "maxArea = max(maxArea, h * (len(heights) - i))",
+            "Mutate_Code": "maxArea = max(maxArea, h %% (len(heights) - i))"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T41_LCPN_84-Largest-Rectangle-in-Histogram.py",
+            "Source_Code": "maxArea = max(maxArea, h * (len(heights) - i))",
+            "Mutate_Code": "maxArea = max(maxArea, h **** (len(heights) - i))"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T41_LCPN_84-Largest-Rectangle-in-Histogram.py",
+            "Source_Code": "maxArea = max(maxArea, h * (len(heights) - i))",
+            "Mutate_Code": "maxArea = max(maxArea, h //// (len(heights) - i))"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T41_LCPN_84-Largest-Rectangle-in-Histogram.py",
+            "Source_Code": "maxArea = max(maxArea, h * (len(heights) - i))",
+            "Mutate_Code": "maxArea max(maxArea, h * (len(heights) - i))"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T41_LCPN_84-Largest-Rectangle-in-Histogram.py",
+            "Source_Code": "maxArea = max(maxArea, h * (len(heights) - i))",
+            "Mutate_Code": "maxArea max(maxArea, h * (len(heights) - i))"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T41_LCPN_84-Largest-Rectangle-in-Histogram.py",
+            "Source_Code": "maxArea = max(maxArea, h * (len(heights) - i))",
+            "Mutate_Code": "maxArea += max(maxArea, h * (len(heights) - i))"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T41_LCPN_84-Largest-Rectangle-in-Histogram.py",
+            "Source_Code": "maxArea = max(maxArea, h * (len(heights) - i))",
+            "Mutate_Code": "maxArea -= max(maxArea, h * (len(heights) - i))"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T41_LCPN_84-Largest-Rectangle-in-Histogram.py",
+            "Source_Code": "maxArea = max(maxArea, h * (len(heights) - i))",
+            "Mutate_Code": "maxArea *= max(maxArea, h * (len(heights) - i))"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T41_LCPN_84-Largest-Rectangle-in-Histogram.py",
+            "Source_Code": "maxArea = max(maxArea, h * (len(heights) - i))",
+            "Mutate_Code": "maxArea /= max(maxArea, h * (len(heights) - i))"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T41_LCPN_84-Largest-Rectangle-in-Histogram.py",
+            "Source_Code": "maxArea = max(maxArea, h * (len(heights) - i))",
+            "Mutate_Code": "maxArea %= max(maxArea, h * (len(heights) - i))"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T41_LCPN_84-Largest-Rectangle-in-Histogram.py",
+            "Source_Code": "maxArea = max(maxArea, h * (len(heights) - i))",
+            "Mutate_Code": "maxArea //= max(maxArea, h * (len(heights) - i))"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T41_LCPN_84-Largest-Rectangle-in-Histogram.py",
+            "Source_Code": "maxArea = max(maxArea, h * (len(heights) - i))",
+            "Mutate_Code": "maxArea **= max(maxArea, h * (len(heights) - i))"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T41_LCPN_84-Largest-Rectangle-in-Histogram.py",
+            "Source_Code": "maxArea = max(maxArea, h * (len(heights) - i))",
+            "Mutate_Code": "maxArea &= max(maxArea, h * (len(heights) - i))"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T41_LCPN_84-Largest-Rectangle-in-Histogram.py",
+            "Source_Code": "maxArea = max(maxArea, h * (len(heights) - i))",
+            "Mutate_Code": "maxArea |= max(maxArea, h * (len(heights) - i))"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T41_LCPN_84-Largest-Rectangle-in-Histogram.py",
+            "Source_Code": "maxArea = max(maxArea, h * (len(heights) - i))",
+            "Mutate_Code": "maxArea ^= max(maxArea, h * (len(heights) - i))"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T41_LCPN_84-Largest-Rectangle-in-Histogram.py",
+            "Source_Code": "maxArea = max(maxArea, h * (len(heights) - i))",
+            "Mutate_Code": "maxArea >>= max(maxArea, h * (len(heights) - i))"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T41_LCPN_84-Largest-Rectangle-in-Histogram.py",
+            "Source_Code": "maxArea = max(maxArea, h * (len(heights) - i))",
+            "Mutate_Code": "maxArea <<= max(maxArea, h * (len(heights) - i))"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T41_LCPN_84-Largest-Rectangle-in-Histogram.py",
+            "Source_Code": "maxArea = max(maxArea, h * (len(heights) - i))",
+            "Mutate_Code": "maxArea += max(maxArea, h * (len(heights) - i))"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T41_LCPN_84-Largest-Rectangle-in-Histogram.py",
+            "Source_Code": "maxArea = max(maxArea, h * (len(heights) - i))",
+            "Mutate_Code": "maxArea -= max(maxArea, h * (len(heights) - i))"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T41_LCPN_84-Largest-Rectangle-in-Histogram.py",
+            "Source_Code": "maxArea = max(maxArea, h * (len(heights) - i))",
+            "Mutate_Code": "maxArea *= max(maxArea, h * (len(heights) - i))"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T41_LCPN_84-Largest-Rectangle-in-Histogram.py",
+            "Source_Code": "maxArea = max(maxArea, h * (len(heights) - i))",
+            "Mutate_Code": "maxArea /= max(maxArea, h * (len(heights) - i))"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T41_LCPN_84-Largest-Rectangle-in-Histogram.py",
+            "Source_Code": "maxArea = max(maxArea, h * (len(heights) - i))",
+            "Mutate_Code": "maxArea %= max(maxArea, h * (len(heights) - i))"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T41_LCPN_84-Largest-Rectangle-in-Histogram.py",
+            "Source_Code": "maxArea = max(maxArea, h * (len(heights) - i))",
+            "Mutate_Code": "maxArea //= max(maxArea, h * (len(heights) - i))"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T41_LCPN_84-Largest-Rectangle-in-Histogram.py",
+            "Source_Code": "maxArea = max(maxArea, h * (len(heights) - i))",
+            "Mutate_Code": "maxArea **= max(maxArea, h * (len(heights) - i))"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T41_LCPN_84-Largest-Rectangle-in-Histogram.py",
+            "Source_Code": "maxArea = max(maxArea, h * (len(heights) - i))",
+            "Mutate_Code": "maxArea &= max(maxArea, h * (len(heights) - i))"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T41_LCPN_84-Largest-Rectangle-in-Histogram.py",
+            "Source_Code": "maxArea = max(maxArea, h * (len(heights) - i))",
+            "Mutate_Code": "maxArea |= max(maxArea, h * (len(heights) - i))"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T41_LCPN_84-Largest-Rectangle-in-Histogram.py",
+            "Source_Code": "maxArea = max(maxArea, h * (len(heights) - i))",
+            "Mutate_Code": "maxArea ^= max(maxArea, h * (len(heights) - i))"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T41_LCPN_84-Largest-Rectangle-in-Histogram.py",
+            "Source_Code": "maxArea = max(maxArea, h * (len(heights) - i))",
+            "Mutate_Code": "maxArea >>= max(maxArea, h * (len(heights) - i))"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T41_LCPN_84-Largest-Rectangle-in-Histogram.py",
+            "Source_Code": "maxArea = max(maxArea, h * (len(heights) - i))",
+            "Mutate_Code": "maxArea <<= max(maxArea, h * (len(heights) - i))"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T41_LCPN_84-Largest-Rectangle-in-Histogram.py",
+            "Source_Code": "maxArea = max(maxArea, h * (len(heights) - i))",
+            "Mutate_Code": "maxArea == max(maxArea, h * (len(heights) - i))"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T41_LCPN_84-Largest-Rectangle-in-Histogram.py",
+            "Source_Code": "maxArea = max(maxArea, h * (len(heights) - i))",
+            "Mutate_Code": "maxArea +=+= max(maxArea, h * (len(heights) - i))"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T41_LCPN_84-Largest-Rectangle-in-Histogram.py",
+            "Source_Code": "maxArea = max(maxArea, h * (len(heights) - i))",
+            "Mutate_Code": "maxArea -=-= max(maxArea, h * (len(heights) - i))"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T41_LCPN_84-Largest-Rectangle-in-Histogram.py",
+            "Source_Code": "maxArea = max(maxArea, h * (len(heights) - i))",
+            "Mutate_Code": "maxArea *=*= max(maxArea, h * (len(heights) - i))"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T41_LCPN_84-Largest-Rectangle-in-Histogram.py",
+            "Source_Code": "maxArea = max(maxArea, h * (len(heights) - i))",
+            "Mutate_Code": "maxArea /=/= max(maxArea, h * (len(heights) - i))"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T41_LCPN_84-Largest-Rectangle-in-Histogram.py",
+            "Source_Code": "maxArea = max(maxArea, h * (len(heights) - i))",
+            "Mutate_Code": "maxArea %=%= max(maxArea, h * (len(heights) - i))"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T41_LCPN_84-Largest-Rectangle-in-Histogram.py",
+            "Source_Code": "maxArea = max(maxArea, h * (len(heights) - i))",
+            "Mutate_Code": "maxArea //=//= max(maxArea, h * (len(heights) - i))"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T41_LCPN_84-Largest-Rectangle-in-Histogram.py",
+            "Source_Code": "maxArea = max(maxArea, h * (len(heights) - i))",
+            "Mutate_Code": "maxArea **=**= max(maxArea, h * (len(heights) - i))"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T41_LCPN_84-Largest-Rectangle-in-Histogram.py",
+            "Source_Code": "maxArea = max(maxArea, h * (len(heights) - i))",
+            "Mutate_Code": "maxArea &=&= max(maxArea, h * (len(heights) - i))"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T41_LCPN_84-Largest-Rectangle-in-Histogram.py",
+            "Source_Code": "maxArea = max(maxArea, h * (len(heights) - i))",
+            "Mutate_Code": "maxArea |=|= max(maxArea, h * (len(heights) - i))"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T41_LCPN_84-Largest-Rectangle-in-Histogram.py",
+            "Source_Code": "maxArea = max(maxArea, h * (len(heights) - i))",
+            "Mutate_Code": "maxArea ^=^= max(maxArea, h * (len(heights) - i))"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T41_LCPN_84-Largest-Rectangle-in-Histogram.py",
+            "Source_Code": "maxArea = max(maxArea, h * (len(heights) - i))",
+            "Mutate_Code": "maxArea >>=>>= max(maxArea, h * (len(heights) - i))"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T41_LCPN_84-Largest-Rectangle-in-Histogram.py",
+            "Source_Code": "maxArea = max(maxArea, h * (len(heights) - i))",
+            "Mutate_Code": "maxArea <<=<<=max(maxArea, h * (len(heights) - i))"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T41_LCPN_84-Largest-Rectangle-in-Histogram.py",
+            "Source_Code": "maxArea = max(maxArea, h * (len(heights) - i))",
+            "Mutate_Code": "maxArea == max(maxArea, h * (len(heights) - i))"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T41_LCPN_84-Largest-Rectangle-in-Histogram.py",
+            "Source_Code": "maxArea = max(maxArea, h * (len(heights) - i))",
+            "Mutate_Code": "maxArea +=+= max(maxArea, h * (len(heights) - i))"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T41_LCPN_84-Largest-Rectangle-in-Histogram.py",
+            "Source_Code": "maxArea = max(maxArea, h * (len(heights) - i))",
+            "Mutate_Code": "maxArea -=-= max(maxArea, h * (len(heights) - i))"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T41_LCPN_84-Largest-Rectangle-in-Histogram.py",
+            "Source_Code": "maxArea = max(maxArea, h * (len(heights) - i))",
+            "Mutate_Code": "maxArea *=*= max(maxArea, h * (len(heights) - i))"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T41_LCPN_84-Largest-Rectangle-in-Histogram.py",
+            "Source_Code": "maxArea = max(maxArea, h * (len(heights) - i))",
+            "Mutate_Code": "maxArea /=/= max(maxArea, h * (len(heights) - i))"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T41_LCPN_84-Largest-Rectangle-in-Histogram.py",
+            "Source_Code": "maxArea = max(maxArea, h * (len(heights) - i))",
+            "Mutate_Code": "maxArea %=%= max(maxArea, h * (len(heights) - i))"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T41_LCPN_84-Largest-Rectangle-in-Histogram.py",
+            "Source_Code": "maxArea = max(maxArea, h * (len(heights) - i))",
+            "Mutate_Code": "maxArea //=//= max(maxArea, h * (len(heights) - i))"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T41_LCPN_84-Largest-Rectangle-in-Histogram.py",
+            "Source_Code": "maxArea = max(maxArea, h * (len(heights) - i))",
+            "Mutate_Code": "maxArea **=**= max(maxArea, h * (len(heights) - i))"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T41_LCPN_84-Largest-Rectangle-in-Histogram.py",
+            "Source_Code": "maxArea = max(maxArea, h * (len(heights) - i))",
+            "Mutate_Code": "maxArea &=&= max(maxArea, h * (len(heights) - i))"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T41_LCPN_84-Largest-Rectangle-in-Histogram.py",
+            "Source_Code": "maxArea = max(maxArea, h * (len(heights) - i))",
+            "Mutate_Code": "maxArea |=|= max(maxArea, h * (len(heights) - i))"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T41_LCPN_84-Largest-Rectangle-in-Histogram.py",
+            "Source_Code": "maxArea = max(maxArea, h * (len(heights) - i))",
+            "Mutate_Code": "maxArea ^=^= max(maxArea, h * (len(heights) - i))"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T41_LCPN_84-Largest-Rectangle-in-Histogram.py",
+            "Source_Code": "maxArea = max(maxArea, h * (len(heights) - i))",
+            "Mutate_Code": "maxArea >>=>>= max(maxArea, h * (len(heights) - i))"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T41_LCPN_84-Largest-Rectangle-in-Histogram.py",
+            "Source_Code": "maxArea = max(maxArea, h * (len(heights) - i))",
+            "Mutate_Code": "maxArea <<=<<=max(maxArea, h * (len(heights) - i))"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T41_LCPN_84-Largest-Rectangle-in-Histogram.py",
+            "Source_Code": "maxArea = max(maxArea, h * (len(heights) - i))",
+            "Mutate_Code": "maxArea = max(maxArea, h * (len( ) - i))"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T41_LCPN_84-Largest-Rectangle-in-Histogram.py",
+            "Source_Code": "maxArea = max(maxArea, h * (len(heights) - i))",
+            "Mutate_Code": "maxArea = max( ) - i))"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T41_LCPN_84-Largest-Rectangle-in-Histogram.py",
+            "Source_Code": "maxArea = max(maxArea, h * (len(heights) - i))",
+            "Mutate_Code": "maxArea = max(maxArea, h * (len(heights) i))"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T41_LCPN_84-Largest-Rectangle-in-Histogram.py",
+            "Source_Code": "maxArea = max(maxArea, h * (len(heights) - i))",
+            "Mutate_Code": "maxArea = max(maxArea, h (len(heights) - i))"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T41_LCPN_84-Largest-Rectangle-in-Histogram.py",
+            "Source_Code": "maxArea = max(maxArea, h * (len(heights) - i))",
+            "Mutate_Code": "maxArea = max(maxArea, h (len(heights) - i))"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T41_LCPN_84-Largest-Rectangle-in-Histogram.py",
+            "Source_Code": "maxArea = max(maxArea, h * (len(heights) - i))",
+            "Mutate_Code": "maxArea = max(maxArea, h * (len(heights) + i))"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T41_LCPN_84-Largest-Rectangle-in-Histogram.py",
+            "Source_Code": "maxArea = max(maxArea, h * (len(heights) - i))",
+            "Mutate_Code": "maxArea = max(maxArea, h * (len(heights) * i))"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T41_LCPN_84-Largest-Rectangle-in-Histogram.py",
+            "Source_Code": "maxArea = max(maxArea, h * (len(heights) - i))",
+            "Mutate_Code": "maxArea = max(maxArea, h * (len(heights) / i))"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T41_LCPN_84-Largest-Rectangle-in-Histogram.py",
+            "Source_Code": "maxArea = max(maxArea, h * (len(heights) - i))",
+            "Mutate_Code": "maxArea = max(maxArea, h * (len(heights) % i))"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T41_LCPN_84-Largest-Rectangle-in-Histogram.py",
+            "Source_Code": "maxArea = max(maxArea, h * (len(heights) - i))",
+            "Mutate_Code": "maxArea = max(maxArea, h * (len(heights) ** i))"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T41_LCPN_84-Largest-Rectangle-in-Histogram.py",
+            "Source_Code": "maxArea = max(maxArea, h * (len(heights) - i))",
+            "Mutate_Code": "maxArea = max(maxArea, h * (len(heights) // i))"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T41_LCPN_84-Largest-Rectangle-in-Histogram.py",
+            "Source_Code": "maxArea = max(maxArea, h * (len(heights) - i))",
+            "Mutate_Code": "maxArea = max(maxArea, h + (len(heights) - i))"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T41_LCPN_84-Largest-Rectangle-in-Histogram.py",
+            "Source_Code": "maxArea = max(maxArea, h * (len(heights) - i))",
+            "Mutate_Code": "maxArea = max(maxArea, h - (len(heights) - i))"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T41_LCPN_84-Largest-Rectangle-in-Histogram.py",
+            "Source_Code": "maxArea = max(maxArea, h * (len(heights) - i))",
+            "Mutate_Code": "maxArea = max(maxArea, h / (len(heights) - i))"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T41_LCPN_84-Largest-Rectangle-in-Histogram.py",
+            "Source_Code": "maxArea = max(maxArea, h * (len(heights) - i))",
+            "Mutate_Code": "maxArea = max(maxArea, h % (len(heights) - i))"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T41_LCPN_84-Largest-Rectangle-in-Histogram.py",
+            "Source_Code": "maxArea = max(maxArea, h * (len(heights) - i))",
+            "Mutate_Code": "maxArea = max(maxArea, h ** (len(heights) - i))"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T41_LCPN_84-Largest-Rectangle-in-Histogram.py",
+            "Source_Code": "maxArea = max(maxArea, h * (len(heights) - i))",
+            "Mutate_Code": "maxArea = max(maxArea, h // (len(heights) - i))"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T41_LCPN_84-Largest-Rectangle-in-Histogram.py",
+            "Source_Code": "maxArea = max(maxArea, h * (len(heights) - i))",
+            "Mutate_Code": "maxArea = max(maxArea, h + (len(heights) - i))"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T41_LCPN_84-Largest-Rectangle-in-Histogram.py",
+            "Source_Code": "maxArea = max(maxArea, h * (len(heights) - i))",
+            "Mutate_Code": "maxArea = max(maxArea, h - (len(heights) - i))"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T41_LCPN_84-Largest-Rectangle-in-Histogram.py",
+            "Source_Code": "maxArea = max(maxArea, h * (len(heights) - i))",
+            "Mutate_Code": "maxArea = max(maxArea, h / (len(heights) - i))"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T41_LCPN_84-Largest-Rectangle-in-Histogram.py",
+            "Source_Code": "maxArea = max(maxArea, h * (len(heights) - i))",
+            "Mutate_Code": "maxArea = max(maxArea, h % (len(heights) - i))"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T41_LCPN_84-Largest-Rectangle-in-Histogram.py",
+            "Source_Code": "maxArea = max(maxArea, h * (len(heights) - i))",
+            "Mutate_Code": "maxArea = max(maxArea, h ** (len(heights) - i))"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T41_LCPN_84-Largest-Rectangle-in-Histogram.py",
+            "Source_Code": "maxArea = max(maxArea, h * (len(heights) - i))",
+            "Mutate_Code": "maxArea = max(maxArea, h // (len(heights) - i))"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T41_LCPN_84-Largest-Rectangle-in-Histogram.py",
+            "Source_Code": "maxArea = max(maxArea, h * (len(heights) - i))",
+            "Mutate_Code": "maxArea = max(maxArea, h * (len(heights) ++ i))"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T41_LCPN_84-Largest-Rectangle-in-Histogram.py",
+            "Source_Code": "maxArea = max(maxArea, h * (len(heights) - i))",
+            "Mutate_Code": "maxArea = max(maxArea, h * (len(heights) -- i))"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T41_LCPN_84-Largest-Rectangle-in-Histogram.py",
+            "Source_Code": "maxArea = max(maxArea, h * (len(heights) - i))",
+            "Mutate_Code": "maxArea = max(maxArea, h * (len(heights) ** i))"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T41_LCPN_84-Largest-Rectangle-in-Histogram.py",
+            "Source_Code": "maxArea = max(maxArea, h * (len(heights) - i))",
+            "Mutate_Code": "maxArea = max(maxArea, h * (len(heights) // i))"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T41_LCPN_84-Largest-Rectangle-in-Histogram.py",
+            "Source_Code": "maxArea = max(maxArea, h * (len(heights) - i))",
+            "Mutate_Code": "maxArea = max(maxArea, h * (len(heights) %% i))"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T41_LCPN_84-Largest-Rectangle-in-Histogram.py",
+            "Source_Code": "maxArea = max(maxArea, h * (len(heights) - i))",
+            "Mutate_Code": "maxArea = max(maxArea, h * (len(heights) **** i))"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T41_LCPN_84-Largest-Rectangle-in-Histogram.py",
+            "Source_Code": "maxArea = max(maxArea, h * (len(heights) - i))",
+            "Mutate_Code": "maxArea = max(maxArea, h * (len(heights) //// i))"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T41_LCPN_84-Largest-Rectangle-in-Histogram.py",
+            "Source_Code": "maxArea = max(maxArea, h * (len(heights) - i))",
+            "Mutate_Code": "maxArea = max(maxArea, h ++ (len(heights) - i))"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T41_LCPN_84-Largest-Rectangle-in-Histogram.py",
+            "Source_Code": "maxArea = max(maxArea, h * (len(heights) - i))",
+            "Mutate_Code": "maxArea = max(maxArea, h -- (len(heights) - i))"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T41_LCPN_84-Largest-Rectangle-in-Histogram.py",
+            "Source_Code": "maxArea = max(maxArea, h * (len(heights) - i))",
+            "Mutate_Code": "maxArea = max(maxArea, h ** (len(heights) - i))"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T41_LCPN_84-Largest-Rectangle-in-Histogram.py",
+            "Source_Code": "maxArea = max(maxArea, h * (len(heights) - i))",
+            "Mutate_Code": "maxArea = max(maxArea, h // (len(heights) - i))"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T41_LCPN_84-Largest-Rectangle-in-Histogram.py",
+            "Source_Code": "maxArea = max(maxArea, h * (len(heights) - i))",
+            "Mutate_Code": "maxArea = max(maxArea, h %% (len(heights) - i))"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T41_LCPN_84-Largest-Rectangle-in-Histogram.py",
+            "Source_Code": "maxArea = max(maxArea, h * (len(heights) - i))",
+            "Mutate_Code": "maxArea = max(maxArea, h **** (len(heights) - i))"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T41_LCPN_84-Largest-Rectangle-in-Histogram.py",
+            "Source_Code": "maxArea = max(maxArea, h * (len(heights) - i))",
+            "Mutate_Code": "maxArea = max(maxArea, h //// (len(heights) - i))"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T41_LCPN_84-Largest-Rectangle-in-Histogram.py",
+            "Source_Code": "maxArea = max(maxArea, h * (len(heights) - i))",
+            "Mutate_Code": "maxArea = max(maxArea, h ++ (len(heights) - i))"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T41_LCPN_84-Largest-Rectangle-in-Histogram.py",
+            "Source_Code": "maxArea = max(maxArea, h * (len(heights) - i))",
+            "Mutate_Code": "maxArea = max(maxArea, h -- (len(heights) - i))"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T41_LCPN_84-Largest-Rectangle-in-Histogram.py",
+            "Source_Code": "maxArea = max(maxArea, h * (len(heights) - i))",
+            "Mutate_Code": "maxArea = max(maxArea, h ** (len(heights) - i))"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T41_LCPN_84-Largest-Rectangle-in-Histogram.py",
+            "Source_Code": "maxArea = max(maxArea, h * (len(heights) - i))",
+            "Mutate_Code": "maxArea = max(maxArea, h // (len(heights) - i))"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T41_LCPN_84-Largest-Rectangle-in-Histogram.py",
+            "Source_Code": "maxArea = max(maxArea, h * (len(heights) - i))",
+            "Mutate_Code": "maxArea = max(maxArea, h %% (len(heights) - i))"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T41_LCPN_84-Largest-Rectangle-in-Histogram.py",
+            "Source_Code": "maxArea = max(maxArea, h * (len(heights) - i))",
+            "Mutate_Code": "maxArea = max(maxArea, h **** (len(heights) - i))"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T41_LCPN_84-Largest-Rectangle-in-Histogram.py",
+            "Source_Code": "maxArea = max(maxArea, h * (len(heights) - i))",
+            "Mutate_Code": "maxArea = max(maxArea, h //// (len(heights) - i))"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T41_LCPN_84-Largest-Rectangle-in-Histogram.py",
+            "Source_Code": "maxArea = max(maxArea, h * (len(heights) - i))",
+            "Mutate_Code": "maxArea max(maxArea, h * (len(heights) - i))"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T41_LCPN_84-Largest-Rectangle-in-Histogram.py",
+            "Source_Code": "maxArea = max(maxArea, h * (len(heights) - i))",
+            "Mutate_Code": "maxArea max(maxArea, h * (len(heights) - i))"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T41_LCPN_84-Largest-Rectangle-in-Histogram.py",
+            "Source_Code": "maxArea = max(maxArea, h * (len(heights) - i))",
+            "Mutate_Code": "maxArea += max(maxArea, h * (len(heights) - i))"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T41_LCPN_84-Largest-Rectangle-in-Histogram.py",
+            "Source_Code": "maxArea = max(maxArea, h * (len(heights) - i))",
+            "Mutate_Code": "maxArea -= max(maxArea, h * (len(heights) - i))"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T41_LCPN_84-Largest-Rectangle-in-Histogram.py",
+            "Source_Code": "maxArea = max(maxArea, h * (len(heights) - i))",
+            "Mutate_Code": "maxArea *= max(maxArea, h * (len(heights) - i))"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T41_LCPN_84-Largest-Rectangle-in-Histogram.py",
+            "Source_Code": "maxArea = max(maxArea, h * (len(heights) - i))",
+            "Mutate_Code": "maxArea /= max(maxArea, h * (len(heights) - i))"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T41_LCPN_84-Largest-Rectangle-in-Histogram.py",
+            "Source_Code": "maxArea = max(maxArea, h * (len(heights) - i))",
+            "Mutate_Code": "maxArea %= max(maxArea, h * (len(heights) - i))"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T41_LCPN_84-Largest-Rectangle-in-Histogram.py",
+            "Source_Code": "maxArea = max(maxArea, h * (len(heights) - i))",
+            "Mutate_Code": "maxArea //= max(maxArea, h * (len(heights) - i))"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T41_LCPN_84-Largest-Rectangle-in-Histogram.py",
+            "Source_Code": "maxArea = max(maxArea, h * (len(heights) - i))",
+            "Mutate_Code": "maxArea **= max(maxArea, h * (len(heights) - i))"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T41_LCPN_84-Largest-Rectangle-in-Histogram.py",
+            "Source_Code": "maxArea = max(maxArea, h * (len(heights) - i))",
+            "Mutate_Code": "maxArea &= max(maxArea, h * (len(heights) - i))"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T41_LCPN_84-Largest-Rectangle-in-Histogram.py",
+            "Source_Code": "maxArea = max(maxArea, h * (len(heights) - i))",
+            "Mutate_Code": "maxArea |= max(maxArea, h * (len(heights) - i))"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T41_LCPN_84-Largest-Rectangle-in-Histogram.py",
+            "Source_Code": "maxArea = max(maxArea, h * (len(heights) - i))",
+            "Mutate_Code": "maxArea ^= max(maxArea, h * (len(heights) - i))"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T41_LCPN_84-Largest-Rectangle-in-Histogram.py",
+            "Source_Code": "maxArea = max(maxArea, h * (len(heights) - i))",
+            "Mutate_Code": "maxArea >>= max(maxArea, h * (len(heights) - i))"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T41_LCPN_84-Largest-Rectangle-in-Histogram.py",
+            "Source_Code": "maxArea = max(maxArea, h * (len(heights) - i))",
+            "Mutate_Code": "maxArea <<= max(maxArea, h * (len(heights) - i))"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T41_LCPN_84-Largest-Rectangle-in-Histogram.py",
+            "Source_Code": "maxArea = max(maxArea, h * (len(heights) - i))",
+            "Mutate_Code": "maxArea += max(maxArea, h * (len(heights) - i))"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T41_LCPN_84-Largest-Rectangle-in-Histogram.py",
+            "Source_Code": "maxArea = max(maxArea, h * (len(heights) - i))",
+            "Mutate_Code": "maxArea -= max(maxArea, h * (len(heights) - i))"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T41_LCPN_84-Largest-Rectangle-in-Histogram.py",
+            "Source_Code": "maxArea = max(maxArea, h * (len(heights) - i))",
+            "Mutate_Code": "maxArea *= max(maxArea, h * (len(heights) - i))"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T41_LCPN_84-Largest-Rectangle-in-Histogram.py",
+            "Source_Code": "maxArea = max(maxArea, h * (len(heights) - i))",
+            "Mutate_Code": "maxArea /= max(maxArea, h * (len(heights) - i))"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T41_LCPN_84-Largest-Rectangle-in-Histogram.py",
+            "Source_Code": "maxArea = max(maxArea, h * (len(heights) - i))",
+            "Mutate_Code": "maxArea %= max(maxArea, h * (len(heights) - i))"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T41_LCPN_84-Largest-Rectangle-in-Histogram.py",
+            "Source_Code": "maxArea = max(maxArea, h * (len(heights) - i))",
+            "Mutate_Code": "maxArea //= max(maxArea, h * (len(heights) - i))"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T41_LCPN_84-Largest-Rectangle-in-Histogram.py",
+            "Source_Code": "maxArea = max(maxArea, h * (len(heights) - i))",
+            "Mutate_Code": "maxArea **= max(maxArea, h * (len(heights) - i))"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T41_LCPN_84-Largest-Rectangle-in-Histogram.py",
+            "Source_Code": "maxArea = max(maxArea, h * (len(heights) - i))",
+            "Mutate_Code": "maxArea &= max(maxArea, h * (len(heights) - i))"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T41_LCPN_84-Largest-Rectangle-in-Histogram.py",
+            "Source_Code": "maxArea = max(maxArea, h * (len(heights) - i))",
+            "Mutate_Code": "maxArea |= max(maxArea, h * (len(heights) - i))"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T41_LCPN_84-Largest-Rectangle-in-Histogram.py",
+            "Source_Code": "maxArea = max(maxArea, h * (len(heights) - i))",
+            "Mutate_Code": "maxArea ^= max(maxArea, h * (len(heights) - i))"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T41_LCPN_84-Largest-Rectangle-in-Histogram.py",
+            "Source_Code": "maxArea = max(maxArea, h * (len(heights) - i))",
+            "Mutate_Code": "maxArea >>= max(maxArea, h * (len(heights) - i))"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T41_LCPN_84-Largest-Rectangle-in-Histogram.py",
+            "Source_Code": "maxArea = max(maxArea, h * (len(heights) - i))",
+            "Mutate_Code": "maxArea <<= max(maxArea, h * (len(heights) - i))"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T41_LCPN_84-Largest-Rectangle-in-Histogram.py",
+            "Source_Code": "maxArea = max(maxArea, h * (len(heights) - i))",
+            "Mutate_Code": "maxArea == max(maxArea, h * (len(heights) - i))"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T41_LCPN_84-Largest-Rectangle-in-Histogram.py",
+            "Source_Code": "maxArea = max(maxArea, h * (len(heights) - i))",
+            "Mutate_Code": "maxArea +=+= max(maxArea, h * (len(heights) - i))"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T41_LCPN_84-Largest-Rectangle-in-Histogram.py",
+            "Source_Code": "maxArea = max(maxArea, h * (len(heights) - i))",
+            "Mutate_Code": "maxArea -=-= max(maxArea, h * (len(heights) - i))"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T41_LCPN_84-Largest-Rectangle-in-Histogram.py",
+            "Source_Code": "maxArea = max(maxArea, h * (len(heights) - i))",
+            "Mutate_Code": "maxArea *=*= max(maxArea, h * (len(heights) - i))"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T41_LCPN_84-Largest-Rectangle-in-Histogram.py",
+            "Source_Code": "maxArea = max(maxArea, h * (len(heights) - i))",
+            "Mutate_Code": "maxArea /=/= max(maxArea, h * (len(heights) - i))"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T41_LCPN_84-Largest-Rectangle-in-Histogram.py",
+            "Source_Code": "maxArea = max(maxArea, h * (len(heights) - i))",
+            "Mutate_Code": "maxArea %=%= max(maxArea, h * (len(heights) - i))"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T41_LCPN_84-Largest-Rectangle-in-Histogram.py",
+            "Source_Code": "maxArea = max(maxArea, h * (len(heights) - i))",
+            "Mutate_Code": "maxArea //=//= max(maxArea, h * (len(heights) - i))"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T41_LCPN_84-Largest-Rectangle-in-Histogram.py",
+            "Source_Code": "maxArea = max(maxArea, h * (len(heights) - i))",
+            "Mutate_Code": "maxArea **=**= max(maxArea, h * (len(heights) - i))"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T41_LCPN_84-Largest-Rectangle-in-Histogram.py",
+            "Source_Code": "maxArea = max(maxArea, h * (len(heights) - i))",
+            "Mutate_Code": "maxArea &=&= max(maxArea, h * (len(heights) - i))"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T41_LCPN_84-Largest-Rectangle-in-Histogram.py",
+            "Source_Code": "maxArea = max(maxArea, h * (len(heights) - i))",
+            "Mutate_Code": "maxArea |=|= max(maxArea, h * (len(heights) - i))"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T41_LCPN_84-Largest-Rectangle-in-Histogram.py",
+            "Source_Code": "maxArea = max(maxArea, h * (len(heights) - i))",
+            "Mutate_Code": "maxArea ^=^= max(maxArea, h * (len(heights) - i))"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T41_LCPN_84-Largest-Rectangle-in-Histogram.py",
+            "Source_Code": "maxArea = max(maxArea, h * (len(heights) - i))",
+            "Mutate_Code": "maxArea >>=>>= max(maxArea, h * (len(heights) - i))"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T41_LCPN_84-Largest-Rectangle-in-Histogram.py",
+            "Source_Code": "maxArea = max(maxArea, h * (len(heights) - i))",
+            "Mutate_Code": "maxArea <<=<<=max(maxArea, h * (len(heights) - i))"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T41_LCPN_84-Largest-Rectangle-in-Histogram.py",
+            "Source_Code": "maxArea = max(maxArea, h * (len(heights) - i))",
+            "Mutate_Code": "maxArea == max(maxArea, h * (len(heights) - i))"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T41_LCPN_84-Largest-Rectangle-in-Histogram.py",
+            "Source_Code": "maxArea = max(maxArea, h * (len(heights) - i))",
+            "Mutate_Code": "maxArea +=+= max(maxArea, h * (len(heights) - i))"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T41_LCPN_84-Largest-Rectangle-in-Histogram.py",
+            "Source_Code": "maxArea = max(maxArea, h * (len(heights) - i))",
+            "Mutate_Code": "maxArea -=-= max(maxArea, h * (len(heights) - i))"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T41_LCPN_84-Largest-Rectangle-in-Histogram.py",
+            "Source_Code": "maxArea = max(maxArea, h * (len(heights) - i))",
+            "Mutate_Code": "maxArea *=*= max(maxArea, h * (len(heights) - i))"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T41_LCPN_84-Largest-Rectangle-in-Histogram.py",
+            "Source_Code": "maxArea = max(maxArea, h * (len(heights) - i))",
+            "Mutate_Code": "maxArea /=/= max(maxArea, h * (len(heights) - i))"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T41_LCPN_84-Largest-Rectangle-in-Histogram.py",
+            "Source_Code": "maxArea = max(maxArea, h * (len(heights) - i))",
+            "Mutate_Code": "maxArea %=%= max(maxArea, h * (len(heights) - i))"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T41_LCPN_84-Largest-Rectangle-in-Histogram.py",
+            "Source_Code": "maxArea = max(maxArea, h * (len(heights) - i))",
+            "Mutate_Code": "maxArea //=//= max(maxArea, h * (len(heights) - i))"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T41_LCPN_84-Largest-Rectangle-in-Histogram.py",
+            "Source_Code": "maxArea = max(maxArea, h * (len(heights) - i))",
+            "Mutate_Code": "maxArea **=**= max(maxArea, h * (len(heights) - i))"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T41_LCPN_84-Largest-Rectangle-in-Histogram.py",
+            "Source_Code": "maxArea = max(maxArea, h * (len(heights) - i))",
+            "Mutate_Code": "maxArea &=&= max(maxArea, h * (len(heights) - i))"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T41_LCPN_84-Largest-Rectangle-in-Histogram.py",
+            "Source_Code": "maxArea = max(maxArea, h * (len(heights) - i))",
+            "Mutate_Code": "maxArea |=|= max(maxArea, h * (len(heights) - i))"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T41_LCPN_84-Largest-Rectangle-in-Histogram.py",
+            "Source_Code": "maxArea = max(maxArea, h * (len(heights) - i))",
+            "Mutate_Code": "maxArea ^=^= max(maxArea, h * (len(heights) - i))"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T41_LCPN_84-Largest-Rectangle-in-Histogram.py",
+            "Source_Code": "maxArea = max(maxArea, h * (len(heights) - i))",
+            "Mutate_Code": "maxArea >>=>>= max(maxArea, h * (len(heights) - i))"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T41_LCPN_84-Largest-Rectangle-in-Histogram.py",
+            "Source_Code": "maxArea = max(maxArea, h * (len(heights) - i))",
+            "Mutate_Code": "maxArea <<=<<=max(maxArea, h * (len(heights) - i))"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T41_LCPN_84-Largest-Rectangle-in-Histogram.py",
+            "Source_Code": "maxArea = max(maxArea, h * (len(heights) - i))",
+            "Mutate_Code": "maxArea = max(maxArea, h * (len( ) - i))"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T41_LCPN_84-Largest-Rectangle-in-Histogram.py",
+            "Source_Code": "maxArea = max(maxArea, h * (len(heights) - i))",
+            "Mutate_Code": "maxArea = max( ) - i))"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T41_LCPN_84-Largest-Rectangle-in-Histogram.py",
+            "Source_Code": "return maxArea",
+            "Mutate_Code": " maxArea"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T41_LCPN_84-Largest-Rectangle-in-Histogram.py",
+            "Source_Code": "return maxArea",
+            "Mutate_Code": "passmaxArea"
+        }
+    },
+    {
+        "Fault": {
+            "File_Directory": "/home/ino/Desktop/50 LeetCode Problem Solution/T41_LCPN_84-Largest-Rectangle-in-Histogram.py",
+            "Source_Code": "return maxArea",
+            "Mutate_Code": "return returnmaxArea"
+        }
+    }
+]

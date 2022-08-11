@@ -13,8 +13,10 @@ import xml.etree.ElementTree as ET
 import random
 import pytest
 import astunparse
+from datetime import datetime
 
 from PySide6.QtWidgets import QApplication, QMainWindow, QFileDialog, QMessageBox
+from PySide6 import QtGui
 
 from PySide6 import *
 
@@ -23,8 +25,8 @@ from widgets import *
 
 from ui_main import Ui_MainWindow
 
-import IMFIT_functions
-import dbConnection
+import imfit_database_function
+import database_connection
 
 import scan_process
 import monitoring_process
@@ -32,6 +34,10 @@ import monitoring_process
 
 class MainWindow(QMainWindow):
     """IM-FIT UI Window"""
+
+    global connection
+    connection = database_connection.connect("postgres", "imfit_database", "admin")
+    connection.commit()
 
     global RUN_ORDER_LIST_JUST_PATH
     RUN_ORDER_LIST_JUST_PATH = []
@@ -91,14 +97,13 @@ class MainWindow(QMainWindow):
 
         # Take ".py" file for source code
         def get_file_py_for_source_code():
-            #
-            # Source code data will add to the database
-            #
+            global connection
+
             dialog = QFileDialog()
             dialog.setFileMode(QFileDialog.AnyFile)
             dialog.setNameFilter(("*.py"))
 
-            if dialog.exec_():
+            if dialog.exec():
                 file_name = dialog.selectedFiles()
                 # .py file is choosed by the user
                 if file_name[0].endswith(".py") or file_name[0].endswith(".txt"):
@@ -109,18 +114,24 @@ class MainWindow(QMainWindow):
                         self.ui.source_code_directory_text.setPlainText(
                             str(file_name[0])
                         )
+                        # source adds to the UI
                         self.ui.source_code_content.setPlainText(source_code_data)
+
+                        # IM-FIT DB
+                        source_code_file_full_directory = file_name[0].split("/")
+                        source_code_file_name = source_code_file_full_directory[-1]
+
+                        imfit_database_function.insert_sourcecode(
+                            connection, source_code_file_name, source_code_data
+                        )
 
         # Take ".py" file for test case
         def get_file_py_for_test_case():
-            #
-            # Test case file will add to the database
-            #
             dialog = QFileDialog()
             dialog.setFileMode(QFileDialog.AnyFile)
             dialog.setNameFilter(("*.py"))
 
-            if dialog.exec_():
+            if dialog.exec():
                 file_name = dialog.selectedFiles()
                 if file_name[0].endswith(".py"):
                     with open(file_name[0], mode="r", encoding="utf-8") as json_file:
@@ -130,14 +141,11 @@ class MainWindow(QMainWindow):
 
         # Take ".json" file for workload
         def workload_get_file_json():
-            #
-            # Workload file content will add to the database
-            #
             dialog = QFileDialog()
             dialog.setFileMode(QFileDialog.AnyFile)
             dialog.setNameFilter(("*.json"))
 
-            if dialog.exec_():
+            if dialog.exec():
                 file_name = dialog.selectedFiles()
 
                 if file_name[0].endswith(".json"):
@@ -152,7 +160,7 @@ class MainWindow(QMainWindow):
             dialog.setFileMode(QFileDialog.AnyFile)
             dialog.setNameFilter(("*.json"))
 
-            if dialog.exec_():
+            if dialog.exec():
                 file_name = dialog.selectedFiles()
 
                 if file_name[0].endswith(".json"):
@@ -163,7 +171,7 @@ class MainWindow(QMainWindow):
             dialog.setFileMode(QFileDialog.AnyFile)
             dialog.setNameFilter(("*.json"))
 
-            if dialog.exec_():
+            if dialog.exec():
                 file_name = dialog.selectedFiles()
 
                 if file_name[0].endswith(".json"):
@@ -177,7 +185,7 @@ class MainWindow(QMainWindow):
             dialog.setFileMode(QFileDialog.AnyFile)
             dialog.setNameFilter(("*.bag"))
 
-            if dialog.exec_():
+            if dialog.exec():
                 file_name = dialog.selectedFiles()
 
                 if file_name[0].endswith(".bag"):
@@ -324,6 +332,8 @@ class MainWindow(QMainWindow):
 
             left_join = old
             right_join = old
+            if not old:
+                old = " "
             groups = string.split(old)
             nth_split = [
                 left_join.join(groups[:replace_num]),
@@ -333,7 +343,6 @@ class MainWindow(QMainWindow):
 
         def mutation_process_function(target_text, start_json_value, finish_json_value):
             global source_and_mutate_code
-            source_and_mutate_code = []
 
             # try:
             # Fault Lİbrary JSON is opened
@@ -370,8 +379,6 @@ class MainWindow(QMainWindow):
                                     # list to use for execution
                                     source_and_mutate_code.append(target_text)
                                     source_and_mutate_code.append(mutated_line)
-                                else:
-                                    continue
 
             total_mut = self.ui.listWidget_4.count()
             self.ui.label_17.setText(str(total_mut))
@@ -389,7 +396,7 @@ class MainWindow(QMainWindow):
             fault_library_size = len(fault_list["all_faults"])
             return fault_library_size
 
-        def basla_func():
+        def start_mutation():
             with open("faultLibrary.json", encoding="utf-8") as file:
                 fault_list = json.load(file)
             fault_library_size = fault_lib_size()
@@ -398,12 +405,18 @@ class MainWindow(QMainWindow):
                 for i in range(0, len_selected_line_mutation):
                     line = self.ui.listWidget.item(i).text()
                     mutation_process_function(line, 0, fault_library_size)
+                all_faults_selected = "All faults selected to use for V&V process!"
+                imfit_database_function.insert_fault_names(
+                    connection, all_faults_selected
+                )
             else:
                 len_selected_line_mutation = self.ui.listWidget_7.count()
+                fault_name_list = []
                 for i in range(0, len_selected_line_mutation):
                     hata_ve_line = self.ui.listWidget_7.item(i).text()
                     split_hata_ve_line = hata_ve_line.split(" #==># ")
                     hata_ismi = split_hata_ve_line[1]
+                    fault_name_list.append(hata_ismi)
                     line = split_hata_ve_line[0]
                     for fault_number in range(fault_library_size):
                         fault_name_from_library = fault_list["all_faults"][
@@ -413,6 +426,7 @@ class MainWindow(QMainWindow):
                             mutation_process_function(
                                 line, fault_number, fault_number + 1
                             )
+                imfit_database_function.insert_fault_names(connection, fault_name_list)
 
         def random_hata_bas():
             fault_library_size = fault_lib_size()
@@ -421,9 +435,6 @@ class MainWindow(QMainWindow):
             mutation_process_function(target_text, random_fault, random_fault + 1)
 
         def execution_module_function():
-            #
-            # Execution settings, files, terminal outputs and metrics-states will add to the database
-            #
             global ROS_SOURCE_MUTANT
             global ROS_SOURCE_CODE
             ROS_SOURCE_MUTANT = []
@@ -432,6 +443,8 @@ class MainWindow(QMainWindow):
             killed_mutants_list = []
             survived_mutants_list = []
             equivalent_mutants_list = []
+
+            all_mutant_list_for_database = []
 
             error_code_list = []
 
@@ -645,27 +658,23 @@ class MainWindow(QMainWindow):
                                     self.ui.textEdit_18.toPlainText()
                                 )
 
-                                subprocess.run("python3 original_code.py", check=True)
-                                # cmd = ["python3", "original_code.py"]
-                                # try:
-                                # 	subprocess.run(cmd, stdout=subprocess.PIPE, shell=True,
-                                # timeout=int(time_limit_per_process))
-                                # except subprocess.TimeoutExpired:
-                                # 	pass
+                                subprocess.Popen("python3 original_code.py", shell=True)
 
                                 print("#" * 10)
                                 print("#       Original Code       #")
                                 print("#" * 10)
 
-                                # Directory liste içerisinden alınmalı
                                 fiplan_directory = self.ui.listWidget_6.item(0).text()
                                 with open(
                                     fiplan_directory, encoding="utf-8"
                                 ) as json_file:
                                     fault_list = json.load(json_file)
 
-                                # with open("faultPlans.json") as file:
-                                #     fault_list = json.load(file)
+                                file_name = (
+                                    self.ui.source_code_directory_text.toPlainText()
+                                )
+                                file_name_split = file_name.split("/")
+                                file_name_for_creating_mutant_file = file_name_split[-1]
 
                                 for i in range(0, mutation_list_size):
                                     target_line_from_json = fault_list[i]["Fault"][
@@ -678,7 +687,13 @@ class MainWindow(QMainWindow):
                                     main_mutation_process = source_code_text.replace(
                                         target_line_from_json, mutated_code_from_json
                                     )
-                                    fname = "fault" + str(i) + ".py"
+                                    fname = (
+                                        "Mutant_no_"
+                                        + str(i + 1)
+                                        + "_"
+                                        + file_name_for_creating_mutant_file
+                                    )
+                                    # fname = "fault" + str(i) + ".py"
                                     data = main_mutation_process
                                     with open(
                                         fname, mode="w", encoding="utf-8"
@@ -688,50 +703,50 @@ class MainWindow(QMainWindow):
                                     print("\n\nFault Number: ", i)
                                     print("\n############")
 
-                                    cmd = ["python3", "fault" + str(i) + ".py"]
+                                    cmd = ["python3", fname]
+
+                                    all_mutant_list_for_database.append(fname)
                                     try:
-                                        res = subprocess.run(
-                                            cmd,
-                                            stdout=subprocess.PIPE,
-                                            timeout=int(time_limit_per_process),
-                                            check=True,
+                                        subprocess.run(
+                                            cmd, timeout=int(time_limit_per_process)
                                         )
                                     except subprocess.TimeoutExpired:
                                         timeout_counter += 1
                                         execution_timeout_list.append(
-                                            "python3 fault" + str(i) + ".py"
+                                            "python3 " + fname
                                         )
                                         killed_mutants += 1
-                                        killed_mutants_list.append(
-                                            "python3 fault" + str(i) + ".py"
-                                        )
+                                        killed_mutants_list.append("python3 " + fname)
                                         # error_code_list.append(mutant_code_output)
                                         continue
                                     else:
 
-                                        mutant_code_execution = (
-                                            "python3 fault" + str(i) + ".py"
-                                        )
+                                        mutant_code_execution = "python3 " + fname
 
+                                        # This subprocess function runs mutant codes and takes their output.
                                         subprocess_output_status = (
                                             subprocess.getstatusoutput(
                                                 mutant_code_execution
                                             )
-                                        )  # Mutant kodları çalıştırıp çıktılarını alır.
+                                        )
                                         mutant_code_output = subprocess_output_status[1]
                                         error_code_list.append(mutant_code_output)
 
+                                        # This command detects coverage rate for the faults.
                                         coverage_run_process = (
                                             "coverage run fault" + str(i) + ".py"
-                                        )  # Çalıştırılacak "fault"ların isimleri oluşturulur.
+                                        )
                                         coverage_run_process_report = "coverage report"
 
+                                        # Faults are run individually.
                                         os.system(
                                             coverage_run_process
-                                        )  # Faultlar ayrı ayrı çalıştırılır
+                                        )
+
+                                        # Generates the coverage report of the run the fault.
                                         os.system(
                                             coverage_run_process_report
-                                        )  # Çalıştırılan "fault"un coverage raporunu oluşturur.
+                                        )
 
                                         if subprocess_output_status[0] != 0:
                                             print(mutant_code_output)
@@ -886,9 +901,7 @@ class MainWindow(QMainWindow):
                                     self.ui.listWidget_19.addItem(
                                         str(killed_mutants_list[i])
                                     )
-                                    print(
-                                        "" - "*10" - "*10" - "*10" - "*10" - "*10----"
-                                    )
+                                    print("-" * 10)
                                     error_output = error_code_list[i]
                                     error_output_split = error_output.split("\n")
                                     print(error_output_split[-1])
@@ -1012,6 +1025,14 @@ class MainWindow(QMainWindow):
 
                                 print("#" * 10)
                                 print("\n\n")
+
+            imfit_database_function.insert_execution_info(
+                connection,
+                str(all_mutant_list_for_database),
+                str(killed_mutants_list),
+                str(equivalent_mutants_list),
+                str(survived_mutants_list),
+            )
 
         def metric_info_selection():
             try:
@@ -1144,7 +1165,7 @@ class MainWindow(QMainWindow):
         self.ui.btn_create_custom.clicked.connect(self.buttonClick)
         self.ui.btn_select_fault.clicked.connect(fault_selection_from_library)
         self.ui.btn_remove_fault.clicked.connect(self.buttonClick)
-        self.ui.btn_start_mutation.clicked.connect(basla_func)
+        self.ui.btn_start_mutation.clicked.connect(start_mutation)
         self.ui.btn_save_fiplan.clicked.connect(self.buttonClick)
         self.ui.btn_remove_fiplan.clicked.connect(self.buttonClick)
 
@@ -1209,8 +1230,7 @@ class MainWindow(QMainWindow):
 
     def go_to_start_page(self):
         """GO to start page button"""
-        # connection = dbConnection.connect("VVToolDataBase","postgres","root")
-        # connection.commit()
+        global connection
 
         self.ui.stackedWidget.setCurrentWidget(self.ui.start)
         UIFunctions.resetStyle(self, self.ui.btn_home.styleSheet())
@@ -1221,11 +1241,10 @@ class MainWindow(QMainWindow):
 
         name = "Source Code Example"
         description = "Settings Example"
+        systemname = "system1"
 
-        # db_connection_status = False
-
-        # if db_connection_status is True:
-        #     IMFIT_functions.insert_system(connection, name, description)
+        now = datetime.now()
+        time = now.strftime("%H:%M:%S")
 
     # Splits source code to scan line by line
     def take_split_source_code(self):
@@ -1290,7 +1309,7 @@ class MainWindow(QMainWindow):
             faultable_line_number_list,
         ) = scan_process.scan_yes_wl_yes_cs(patterns, source_code_list, painted_lines)
 
-        self.scan_process_progress_bar()
+        # self.scan_process_progress_bar()
         self.paint_workload_lines(painted_lines)
         self.paint_sky_blue(faultable_line_number_list)
         self.add_fi_plan(faultable_line_list)
@@ -1350,6 +1369,10 @@ class MainWindow(QMainWindow):
             strip_painted_line = painted_line.strip()
             self.ui.listWidget.addItem(strip_painted_line)
 
+        imfit_database_function.insert_possible_code_lines(
+            connection, faultable_line_list
+        )
+
     # Function starts "No Workload, No Code Snipet" Scan Process
     def start_no_workload_no_code_snippet_process(self):
         """Function manages no workload, no code snippet scan process"""
@@ -1362,7 +1385,7 @@ class MainWindow(QMainWindow):
             source_code_list, code_snippet_regex_code_list
         )
         self.take_split_source_code()
-        self.scan_process_progress_bar()
+        # self.scan_process_progress_bar()
         self.paint_sky_blue(faultable_line_number_list)
         self.add_fi_plan(faultable_line_list)
 
@@ -1385,7 +1408,7 @@ class MainWindow(QMainWindow):
         ) = scan_process.yes_workload_no_snippet_target_line(
             patterns, painted_lines, split_text
         )
-        self.scan_process_progress_bar()
+        # self.scan_process_progress_bar()
         self.paint_workload_lines(painted_lines)
         self.paint_sky_blue(faultable_line_number_list)
         self.add_fi_plan(faultable_line_list)
@@ -1413,7 +1436,7 @@ class MainWindow(QMainWindow):
             faultable_line_list,
             faultable_line_number_list,
         ) = scan_process.find_target_no_workload_yes_code_snippet(split_text, patterns)
-        self.scan_process_progress_bar()
+        # self.scan_process_progress_bar()
         self.paint_sky_blue(faultable_line_number_list)
         self.add_fi_plan(faultable_line_list)
 
@@ -1423,7 +1446,7 @@ class MainWindow(QMainWindow):
         monitoring_rosbag_scenarios_list_size = self.ui.listWidget_12.count()
         for i in range(0, monitoring_rosbag_scenarios_list_size):
             line_of_rosbag_scenarios_list_line = self.ui.listWidget_12.item(i).text()
-            monitoring_rosbag_scenarios_list.append(line_of_rosbag_scanarios_list_line)
+            monitoring_rosbag_scenarios_list.append(line_of_rosbag_scenarios_list_line)
         return monitoring_rosbag_scenarios_list
 
     def monitoring_report_faults_list(self):
@@ -1455,7 +1478,7 @@ class MainWindow(QMainWindow):
         for i in range(0, monitoring_mutant_list_size):
             line_of_mutant_list = self.ui.listWidget_16.item(i).text()
             monitoring_mutant_list.append(line_of_mutant_list)
-        return monitroing_mutant_list
+        return monitoring_mutant_list
 
     def monitoring_report_metric_list(self):
         """Used metrics for the execution process and
@@ -1566,9 +1589,7 @@ class MainWindow(QMainWindow):
             self.ui.titleRightInfo.setText("START")
 
         if btnName == "btn_go_scan":
-            #
-            # The last file contents will add to the start page database table
-            #
+            global connection
 
             self.ui.stackedWidget.setCurrentWidget(self.ui.scan)
             UIFunctions.resetStyle(self, self.ui.btn_start.styleSheet())
@@ -1576,16 +1597,6 @@ class MainWindow(QMainWindow):
                 UIFunctions.selectMenu(self.ui.btn_scan.styleSheet())
             )
             self.ui.titleRightInfo.setText("SCAN")
-            # self.ui.textEdit_3.clear()
-
-            # check_source_code_text = self.ui.textEdit_4.toPlainText()
-            # check_workload_text = self.ui.textEdit_22.toPlainText()
-            # check_code_snippet_list = self.ui.listWidget_17.count()
-
-            # if check_source_code_text or check_workload_text or check_code_snippet_list:
-            #     self.ui.textEdit_4.clear()
-            #     self.ui.textEdit_22.clear()
-            #     self.ui.listWidget_17.clear()
 
             if self.ui.checkBox_3.isChecked() is True:
                 self.ui.textEdit_4.setPlainText(
@@ -1602,10 +1613,28 @@ class MainWindow(QMainWindow):
 
                     self.ui.listWidget_17.addItems(code_snippet_data_list)
 
+            selected_code_snippets = []
+            code_snippet_list_size = self.ui.listWidget_8.count()
+            if code_snippet_list_size != 0:
+                for selected_code_snippet_line_number in range(
+                    0, code_snippet_list_size
+                ):
+                    selected_line_content = self.ui.listWidget_8.item(
+                        selected_code_snippet_line_number
+                    ).text()
+                    selected_code_snippets.append(selected_line_content)
+                imfit_database_function.insert_code_snippets(
+                    connection, selected_code_snippets
+                )
+            else:
+                all_codes_selected = (
+                    "All code snippets selected to use for V&V process!"
+                )
+                imfit_database_function.insert_code_snippets(
+                    connection, all_codes_selected
+                )
+
         if btnName == "btn_go_fiplan":
-            #
-            # Scanned code will add to the database
-            #
             self.ui.stackedWidget.setCurrentWidget(self.ui.fiplan)
             UIFunctions.resetStyle(self, self.ui.btn_scan.styleSheet())
             self.ui.btn_fiplan.setStyleSheet(
@@ -1624,11 +1653,11 @@ class MainWindow(QMainWindow):
                 if number % 2 == 0:
                     self.ui.listWidget.item(number).setBackground(
                         QtGui.QColor(52, 59, 72)
-                    )  # Gri
+                    )  # Gray backgound
                 else:
                     self.ui.listWidget.item(number).setBackground(
                         QtGui.QColor(40, 44, 52)
-                    )  # Arka plan rengi
+                    )  # IM-FIT original backgound color
 
         if btnName == "btn_go_exe":
             self.ui.stackedWidget.setCurrentWidget(self.ui.execution)
@@ -1661,6 +1690,8 @@ class MainWindow(QMainWindow):
                 UIFunctions.selectMenu(self.ui.btn_monitoring.styleSheet())
             )
             self.ui.titleRightInfo.setText("MONITORING")
+            metric_list = self.monitoring_report_metric_list()
+            imfit_database_function.insert_metrics(connection, str(metric_list))
 
         if btnName == "btn_new_one":
             self.ui.stackedWidget.setCurrentWidget(self.ui.start)
@@ -1691,7 +1722,7 @@ class MainWindow(QMainWindow):
             dialog.setFileMode(QFileDialog.AnyFile)
             dialog.setNameFilter(("*.json"))
 
-            if dialog.exec_():
+            if dialog.exec():
                 file_name = dialog.selectedFiles()
 
                 if file_name[0].endswith(".json"):
@@ -1726,14 +1757,11 @@ class MainWindow(QMainWindow):
             self.ui.test_case_terminal.setPlainText(new_output)
 
         if btnName == "pushButton_10":
-            #
-            # Exe file data will add to the database
-            #
             dialog = QFileDialog()
             dialog.setFileMode(QFileDialog.AnyFile)
             dialog.setNameFilter("*.py *.launch")
 
-            if dialog.exec_():
+            if dialog.exec():
                 file_name = dialog.selectedFiles()
                 if file_name[0].endswith(".py") or file_name[0].endswith(".launch"):
 
@@ -1758,7 +1786,7 @@ class MainWindow(QMainWindow):
             dialog.setFileMode(QFileDialog.AnyFile)
             dialog.setNameFilter(("*.json"))
 
-            if dialog.exec_():
+            if dialog.exec():
                 file_name = dialog.selectedFiles()
                 if file_name[0].endswith(".json"):  # .json file is choosed by the user
                     with open(
@@ -1871,9 +1899,6 @@ class MainWindow(QMainWindow):
         # ROS PAGE at START PAGE
 
         if btnName == "ros_fiplan_save":
-            #
-            # ROS mutant codes and ROS FI Plan will add to the database
-            #
             if self.ui.textEdit_45.toPlainText() != "":
                 global ROS_SOURCE_MUTANT
                 ROS_SOURCE_MUTANT = []
@@ -2196,7 +2221,7 @@ class MainWindow(QMainWindow):
             dialog.setFileMode(QFileDialog.AnyFile)
             dialog.setNameFilter("*.py *.launch")
 
-            if dialog.exec_():
+            if dialog.exec():
                 file_name = dialog.selectedFiles()
                 if file_name[0].endswith(".py") or file_name[0].endswith(".launch"):
 
@@ -2284,7 +2309,7 @@ class MainWindow(QMainWindow):
             dialog.setFileMode(QFileDialog.AnyFile)
             dialog.setNameFilter(("*.json"))
 
-            if dialog.exec_():
+            if dialog.exec():
                 file_name = dialog.selectedFiles()
                 if file_name[0].endswith(".json"):
                     directory = file_name[0]
@@ -2321,7 +2346,7 @@ class MainWindow(QMainWindow):
             dialog.setFileMode(QFileDialog.AnyFile)
             dialog.setNameFilter("*.py *.launch *.test")
 
-            if dialog.exec_():
+            if dialog.exec():
                 file_name = dialog.selectedFiles()
                 if (
                     file_name[0].endswith(".py")
@@ -2371,16 +2396,13 @@ class MainWindow(QMainWindow):
 
         # Target ROS file is opened to apply mutation process
         if btnName == "open_target_ros":
-            #
-            # Target ROS file will add to the database
-            #
             size_target_ros_list = self.ui.listWidget_10.count()
 
             dialog = QFileDialog()
             dialog.setFileMode(QFileDialog.AnyFile)
             dialog.setNameFilter("*.py")
 
-            if dialog.exec_():
+            if dialog.exec():
                 file_name = dialog.selectedFiles()
                 if file_name[0].endswith(".py"):
                     if size_target_ros_list > 0:
@@ -2438,10 +2460,7 @@ class MainWindow(QMainWindow):
                 remove_ros_mutant()
 
         if btnName == "scan_ros_btn":
-            #
-            # Found lines from ROS system will add to the database
-            #
-            tam_konum = ""
+            full_location = ""
             total_ros_items = []
             file_location = self.ui.textEdit_47.toPlainText()
             split_file_location = file_location.split("/")
@@ -2488,7 +2507,7 @@ class MainWindow(QMainWindow):
 
                 key_list = ["type", "file"]
 
-                def mutate_all_keys(key_data_list, konum, target_file):
+                def mutate_all_keys(key_data_list, location, target_file):
                     """Mutation testing applies to  the all possible nodes"""
                     ros_launch_directory_path = self.ui.textEdit_47.toPlainText()
 
@@ -2499,20 +2518,23 @@ class MainWindow(QMainWindow):
                     for i in range(0, lenroot):
                         dictof = root[i].attrib
 
-                        key_list = list(dictof.keys())  # "file" keyleri
+                        # "file" keys
+                        key_list = list(dictof.keys())
 
                         for target_key in key_list:
                             if target_key == "type":
+                                # The list has Python type files
                                 python_files_list.append(
                                     dictof["type"]
-                                )  # python dosyalarını içeren liste
+                                )
 
                             elif target_key == "file":
+                                # The list has launch type files
                                 launch_files_list.append(
                                     dictof["file"]
-                                )  # launch dosyalarını içeren liste
+                                )
 
-                def open_python(konum, python_files_list):
+                def open_python(location, python_files_list):
                     is_ros_for_mutation_list_empty = self.ui.listWidget_10.count()
 
                     if is_ros_for_mutation_list_empty > 0:
@@ -2552,7 +2574,7 @@ class MainWindow(QMainWindow):
                     else:
                         for i in python_files_list:
                             with open(
-                                os.path.join(konum, i), mode="r", encoding="utf-8"
+                                os.path.join(location, i), mode="r", encoding="utf-8"
                             ) as x_file:
 
                                 pure_file_content = x_file.read()
@@ -2576,7 +2598,7 @@ class MainWindow(QMainWindow):
                                         )
                                         if check_rospy:
                                             line_and_location = []
-                                            target_ros_py_location = konum + "/" + i
+                                            target_ros_py_location = location + "/" + i
                                             ros_code_line = ros_code_line.lstrip()
                                             line_and_location = [
                                                 ros_code_line,
@@ -2592,7 +2614,7 @@ class MainWindow(QMainWindow):
                                                 str_line_and_location
                                             )
 
-                yeni_konum = ""
+                new_location = ""
 
                 complete_directory_path = self.ui.textEdit_47.toPlainText()
 
@@ -2603,26 +2625,26 @@ class MainWindow(QMainWindow):
                 )  # "eva_security_patrol_start.launch"
 
                 for i in range(0, 6):
-                    tam_konum += (
+                    full_location += (
                         split_complete_directory_path[i] + "/"
                     )  # "/home/ino/catkin_ws/src/eva_security/"
 
-                mutate_all_keys(key_list, tam_konum, target_file)
+                mutate_all_keys(key_list, full_location, target_file)
 
                 if launch_files_list:
                     for i in launch_files_list:
                         split_value = i.split("/")
                         target_file = split_value[-1]
-                        mutate_all_keys(key_list, tam_konum, target_file)
+                        mutate_all_keys(key_list, full_location, target_file)
 
                     for i in range(0, 7):
-                        yeni_konum += (
+                        new_location += (
                             split_complete_directory_path[i] + "/"
                         )  # "/home/ino/catkin_ws/src/eva_security/"
 
-                    kullanilacak_konum = yeni_konum + "scripts"
+                    selected_location = new_location + "scripts"
 
-                    open_python(kullanilacak_konum, python_files_list)
+                    open_python(selected_location, python_files_list)
 
             else:
                 for i in range(len_ros_code):
@@ -2926,7 +2948,7 @@ class MainWindow(QMainWindow):
                                         constant_mutate_function(target, loc)
                                         value_mutate_function(target, loc)
 
-                            elif selected_fault == "ROS Log Mutation":
+                            if selected_fault == "ROS Log Mutation":
                                 find_snip = ["rospy.Log", "rospy.log"]
                                 for snip in find_snip:
                                     result = re.findall(snip, target_line)
@@ -2941,7 +2963,7 @@ class MainWindow(QMainWindow):
                                         function_name_mutator(target, loc)
                                         value_mutate_function(target, loc)
 
-                            elif selected_fault == "ROS Time Mutation":
+                            if selected_fault == "ROS Time Mutation":
                                 find_snip = [
                                     "rospy.Time",
                                     "rospy.Dur",
@@ -2958,7 +2980,7 @@ class MainWindow(QMainWindow):
 
                                         value_mutate_function(target, loc)
 
-                            elif selected_fault == "ROS Parameter Mutation":
+                            if selected_fault == "ROS Parameter Mutation":
                                 find_snip = ["rospy.Par"]
                                 for snip in find_snip:
                                     result = re.findall(snip, target_line)
@@ -2972,7 +2994,7 @@ class MainWindow(QMainWindow):
                                         constant_mutate_function(target, loc)
                                         value_mutate_function(target, loc)
 
-                            elif selected_fault == "ROS Service Mutation":
+                            if selected_fault == "ROS Service Mutation":
                                 find_snip = ["rospy.Ser", "rospy.ser"]
                                 for snip in find_snip:
                                     result = re.findall(snip, target_line)
@@ -2987,7 +3009,7 @@ class MainWindow(QMainWindow):
                                         constant_mutate_function(target, loc)
                                         value_mutate_function(target, loc)
 
-                            elif selected_fault == "ROS Initializing Node Mutation":
+                            if selected_fault == "ROS Initializing Node Mutation":
                                 find_snip = ["rospy.init"]
                                 for snip in find_snip:
                                     result = re.findall(snip, target_line)
@@ -3117,14 +3139,6 @@ class MainWindow(QMainWindow):
                 UIFunctions.selectMenu(self.ui.btn_start.styleSheet())
             )
 
-        # patterns = []
-        # code_snippet_data_list = []
-        # painted_lines = []
-        # workload_function_name_list = []
-        # code_snippet_regex_code_list = []
-        # painted_line_for_mutation = []
-        # faultable_line_list = []
-
         if btnName == "btn_random_fault":
             pass
 
@@ -3133,7 +3147,7 @@ class MainWindow(QMainWindow):
             self.ui.leftMenuBg.hide()
             self.ui.titleRightInfo.setText("FAULT INJECTION PLAN - CREATE CUSTOM FAULT")
 
-        if btnName == "btn_remove_fault":  # Tekrar düzenlenecek
+        if btnName == "btn_remove_fault":
             global ZIPPED_LIST
 
             row = self.ui.listWidget_7.currentRow()
@@ -3143,11 +3157,8 @@ class MainWindow(QMainWindow):
                 del ZIPPED_LIST[row]
 
         if btnName == "btn_save_fiplan":
-            #
-            # Mutated codes and FI Plans will add to the database
-            #
-
             global source_and_mutate_code
+
             selected_task_list_size = self.ui.listWidget_4.count()
             created_fault_plan_list = []
 
@@ -3193,6 +3204,16 @@ class MainWindow(QMainWindow):
                 split_text = full_path.split("\n")
                 self.ui.listWidget_11.addItems(split_text)
                 self.ui.listWidget_6.addItems(split_text)
+
+                # mutation list postgresql
+                mutant_list_for_database = []
+                for i in range(0, selected_task_list_size):
+                    mutant_line_for_database = self.ui.listWidget_4.item(i).text()
+                    mutant_list_for_database.append(mutant_line_for_database)
+
+                imfit_database_function.insert_mutation_info(
+                    connection, mutant_list_for_database, text, fault_plan_json_format
+                )
 
         if btnName == "btn_remove_fiplan":
             row = self.ui.listWidget_11.currentRow()
@@ -3320,9 +3341,6 @@ class MainWindow(QMainWindow):
             self.ui.leftMenuBg.hide()
             self.ui.titleRightInfo.setText("EXECUTION - METRICS")
 
-        if btnName == "btn_start_exe":
-            pass
-
         # SELECT METRICS FROM EXECUTION PAGE
 
         if btnName == "saveMetrics":
@@ -3353,7 +3371,9 @@ class MainWindow(QMainWindow):
     def mousePressEvent(self, event):
         """Mouse press event method for UI"""
         # SET DRAG POS WINDOW
-        self.dragPos = event.globalPos()
+        global_position_event = event.globalPosition()
+        globalPos = global_position_event.toPoint()
+        self.dragPos = globalPos
 
 
 if __name__ == "__main__":
@@ -3362,4 +3382,4 @@ if __name__ == "__main__":
     window = MainWindow()
     window.show()
 
-    sys.exit(app.exec_())
+    sys.exit(app.exec())
