@@ -3,7 +3,6 @@
 #!/usr/bin/env python3
 
 import os
-from pickle import FALSE
 import re
 import sys
 import time
