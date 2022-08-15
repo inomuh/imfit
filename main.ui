@@ -7,7 +7,7 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>1444</width>
+    <width>1445</width>
     <height>721</height>
    </rect>
   </property>
@@ -1550,7 +1550,7 @@ Button */
                       <string notr="true">background: transparent;</string>
                      </property>
                      <property name="currentIndex">
-                      <number>4</number>
+                      <number>6</number>
                      </property>
                      <widget class="QWidget" name="home">
                       <property name="styleSheet">
@@ -2407,17 +2407,17 @@ p, li { white-space: pre-wrap; }
                              </item>
                              <item>
                               <property name="text">
+                               <string>yield</string>
+                              </property>
+                             </item>
+                             <item>
+                              <property name="text">
                                <string>abs()</string>
                               </property>
                              </item>
                              <item>
                               <property name="text">
                                <string>all()</string>
-                              </property>
-                             </item>
-                             <item>
-                              <property name="text">
-                               <string>any()</string>
                               </property>
                              </item>
                              <item>
@@ -2432,6 +2432,11 @@ p, li { white-space: pre-wrap; }
                              </item>
                              <item>
                               <property name="text">
+                               <string>bool()</string>
+                              </property>
+                             </item>
+                             <item>
+                              <property name="text">
                                <string>bytearray()</string>
                               </property>
                              </item>
@@ -2442,32 +2447,7 @@ p, li { white-space: pre-wrap; }
                              </item>
                              <item>
                               <property name="text">
-                               <string>bool()</string>
-                              </property>
-                             </item>
-                             <item>
-                              <property name="text">
-                               <string>callable()</string>
-                              </property>
-                             </item>
-                             <item>
-                              <property name="text">
                                <string>chr()</string>
-                              </property>
-                             </item>
-                             <item>
-                              <property name="text">
-                               <string>classmethod()</string>
-                              </property>
-                             </item>
-                             <item>
-                              <property name="text">
-                               <string>compile()</string>
-                              </property>
-                             </item>
-                             <item>
-                              <property name="text">
-                               <string>complex()</string>
                               </property>
                              </item>
                              <item>
@@ -2478,11 +2458,6 @@ p, li { white-space: pre-wrap; }
                              <item>
                               <property name="text">
                                <string>dict()</string>
-                              </property>
-                             </item>
-                             <item>
-                              <property name="text">
-                               <string>dir()</string>
                               </property>
                              </item>
                              <item>
@@ -2517,22 +2492,12 @@ p, li { white-space: pre-wrap; }
                              </item>
                              <item>
                               <property name="text">
-                               <string>format()</string>
-                              </property>
-                             </item>
-                             <item>
-                              <property name="text">
                                <string>frozenset()</string>
                               </property>
                              </item>
                              <item>
                               <property name="text">
                                <string>getattr()</string>
-                              </property>
-                             </item>
-                             <item>
-                              <property name="text">
-                               <string>globals()</string>
                               </property>
                              </item>
                              <item>
@@ -2562,22 +2527,12 @@ p, li { white-space: pre-wrap; }
                              </item>
                              <item>
                               <property name="text">
-                               <string>input()</string>
-                              </property>
-                             </item>
-                             <item>
-                              <property name="text">
                                <string>int()</string>
                               </property>
                              </item>
                              <item>
                               <property name="text">
                                <string>isinstance()</string>
-                              </property>
-                             </item>
-                             <item>
-                              <property name="text">
-                               <string>issubclass()</string>
                               </property>
                              </item>
                              <item>
@@ -2593,11 +2548,6 @@ p, li { white-space: pre-wrap; }
                              <item>
                               <property name="text">
                                <string>list()</string>
-                              </property>
-                             </item>
-                             <item>
-                              <property name="text">
-                               <string>locals()</string>
                               </property>
                              </item>
                              <item>
@@ -2623,11 +2573,6 @@ p, li { white-space: pre-wrap; }
                              <item>
                               <property name="text">
                                <string>next()</string>
-                              </property>
-                             </item>
-                             <item>
-                              <property name="text">
-                               <string>object()</string>
                               </property>
                              </item>
                              <item>
@@ -2662,11 +2607,6 @@ p, li { white-space: pre-wrap; }
                              </item>
                              <item>
                               <property name="text">
-                               <string>repr()</string>
-                              </property>
-                             </item>
-                             <item>
-                              <property name="text">
                                <string>reversed()</string>
                               </property>
                              </item>
@@ -2697,22 +2637,12 @@ p, li { white-space: pre-wrap; }
                              </item>
                              <item>
                               <property name="text">
-                               <string>staticmethod()</string>
-                              </property>
-                             </item>
-                             <item>
-                              <property name="text">
                                <string>str()</string>
                               </property>
                              </item>
                              <item>
                               <property name="text">
                                <string>sum()</string>
-                              </property>
-                             </item>
-                             <item>
-                              <property name="text">
-                               <string>super()</string>
                               </property>
                              </item>
                              <item>
@@ -2747,16 +2677,6 @@ p, li { white-space: pre-wrap; }
                              </item>
                              <item>
                               <property name="text">
-                               <string>clear()</string>
-                              </property>
-                             </item>
-                             <item>
-                              <property name="text">
-                               <string>copy()</string>
-                              </property>
-                             </item>
-                             <item>
-                              <property name="text">
                                <string>fromkeys()</string>
                               </property>
                              </item>
@@ -2767,52 +2687,12 @@ p, li { white-space: pre-wrap; }
                              </item>
                              <item>
                               <property name="text">
-                               <string>items()</string>
-                              </property>
-                             </item>
-                             <item>
-                              <property name="text">
-                               <string>keys()</string>
-                              </property>
-                             </item>
-                             <item>
-                              <property name="text">
-                               <string>pop()</string>
-                              </property>
-                             </item>
-                             <item>
-                              <property name="text">
-                               <string>popitem()</string>
-                              </property>
-                             </item>
-                             <item>
-                              <property name="text">
-                               <string>setdefault()</string>
-                              </property>
-                             </item>
-                             <item>
-                              <property name="text">
                                <string>update()</string>
                               </property>
                              </item>
                              <item>
                               <property name="text">
-                               <string>values()</string>
-                              </property>
-                             </item>
-                             <item>
-                              <property name="text">
                                <string>append()</string>
-                              </property>
-                             </item>
-                             <item>
-                              <property name="text">
-                               <string>clear()</string>
-                              </property>
-                             </item>
-                             <item>
-                              <property name="text">
-                               <string>copy()</string>
                               </property>
                              </item>
                              <item>
@@ -2832,12 +2712,162 @@ p, li { white-space: pre-wrap; }
                              </item>
                              <item>
                               <property name="text">
-                               <string>reverse()</string>
+                               <string>seek()</string>
                               </property>
                              </item>
                              <item>
                               <property name="text">
-                               <string>sort()</string>
+                               <string>truncate()</string>
+                              </property>
+                             </item>
+                             <item>
+                              <property name="text">
+                               <string>write()</string>
+                              </property>
+                             </item>
+                             <item>
+                              <property name="text">
+                               <string>writelines()</string>
+                              </property>
+                             </item>
+                             <item>
+                              <property name="text">
+                               <string>add()</string>
+                              </property>
+                             </item>
+                             <item>
+                              <property name="text">
+                               <string>difference()</string>
+                              </property>
+                             </item>
+                             <item>
+                              <property name="text">
+                               <string>difference_update()</string>
+                              </property>
+                             </item>
+                             <item>
+                              <property name="text">
+                               <string>discard()</string>
+                              </property>
+                             </item>
+                             <item>
+                              <property name="text">
+                               <string>intersection()</string>
+                              </property>
+                             </item>
+                             <item>
+                              <property name="text">
+                               <string>intersection_update()</string>
+                              </property>
+                             </item>
+                             <item>
+                              <property name="text">
+                               <string>isdisjoint()</string>
+                              </property>
+                             </item>
+                             <item>
+                              <property name="text">
+                               <string>issubset()</string>
+                              </property>
+                             </item>
+                             <item>
+                              <property name="text">
+                               <string>issuperset()</string>
+                              </property>
+                             </item>
+                             <item>
+                              <property name="text">
+                               <string>symmetric_difference()</string>
+                              </property>
+                             </item>
+                             <item>
+                              <property name="text">
+                               <string>symmetric_difference_update()</string>
+                              </property>
+                             </item>
+                             <item>
+                              <property name="text">
+                               <string>union()</string>
+                              </property>
+                             </item>
+                             <item>
+                              <property name="text">
+                               <string>update()</string>
+                              </property>
+                             </item>
+                             <item>
+                              <property name="text">
+                               <string>center()</string>
+                              </property>
+                             </item>
+                             <item>
+                              <property name="text">
+                               <string>endswith()</string>
+                              </property>
+                             </item>
+                             <item>
+                              <property name="text">
+                               <string>expandtabs()</string>
+                              </property>
+                             </item>
+                             <item>
+                              <property name="text">
+                               <string>find()</string>
+                              </property>
+                             </item>
+                             <item>
+                              <property name="text">
+                               <string>join()</string>
+                              </property>
+                             </item>
+                             <item>
+                              <property name="text">
+                               <string>ljust()</string>
+                              </property>
+                             </item>
+                             <item>
+                              <property name="text">
+                               <string>maketrans()</string>
+                              </property>
+                             </item>
+                             <item>
+                              <property name="text">
+                               <string>partition()</string>
+                              </property>
+                             </item>
+                             <item>
+                              <property name="text">
+                               <string>replace()</string>
+                              </property>
+                             </item>
+                             <item>
+                              <property name="text">
+                               <string>rfind()</string>
+                              </property>
+                             </item>
+                             <item>
+                              <property name="text">
+                               <string>rindex()</string>
+                              </property>
+                             </item>
+                             <item>
+                              <property name="text">
+                               <string>rjust()</string>
+                              </property>
+                             </item>
+                             <item>
+                              <property name="text">
+                               <string>rpartition()</string>
+                              </property>
+                             </item>
+                             <item>
+                              <property name="text">
+                               <string>startswith()</string>
+                              </property>
+                             </item>
+                             <item>
+                              <property name="text">
+                               <string>zfill()</string>
                               </property>
                              </item>
                              <item>
@@ -7227,78 +7257,218 @@ background-color: rgb(52, 59, 72);</string>
                      <widget class="QWidget" name="monitoring">
                       <layout class="QVBoxLayout" name="verticalLayout_10">
                        <item>
-                        <layout class="QGridLayout" name="gridLayout_9">
-                         <property name="leftMargin">
-                          <number>0</number>
-                         </property>
-                         <property name="topMargin">
-                          <number>0</number>
-                         </property>
-                         <property name="rightMargin">
-                          <number>0</number>
-                         </property>
-                         <property name="bottomMargin">
-                          <number>0</number>
-                         </property>
+                        <layout class="QGridLayout" name="gridLayout_53">
                          <property name="horizontalSpacing">
                           <number>20</number>
                          </property>
                          <property name="verticalSpacing">
                           <number>10</number>
                          </property>
-                         <item row="0" column="0" rowspan="7" colspan="5">
-                          <layout class="QGridLayout" name="gridLayout_20">
+                         <item row="1" column="1">
+                          <widget class="QListWidget" name="listWidget_19">
+                           <property name="styleSheet">
+                            <string notr="true">background-color: rgb(52, 59, 72);</string>
+                           </property>
+                          </widget>
+                         </item>
+                         <item row="0" column="1">
+                          <widget class="QLabel" name="label_74">
+                           <property name="styleSheet">
+                            <string notr="true">font: 13pt &quot;Ubuntu&quot;;</string>
+                           </property>
+                           <property name="text">
+                            <string>Killed Mutants Output:</string>
+                           </property>
+                          </widget>
+                         </item>
+                         <item row="1" column="0">
+                          <widget class="QListWidget" name="listWidget_16">
+                           <property name="styleSheet">
+                            <string notr="true">background-color: rgb(52, 59, 72);</string>
+                           </property>
+                          </widget>
+                         </item>
+                         <item row="2" column="0" colspan="2">
+                          <widget class="QLabel" name="label_45">
+                           <property name="styleSheet">
+                            <string notr="true">font: 13pt &quot;Ubuntu&quot;;</string>
+                           </property>
+                           <property name="text">
+                            <string>Mutants &amp; Faults:</string>
+                           </property>
+                          </widget>
+                         </item>
+                         <item row="0" column="0">
+                          <widget class="QLabel" name="label_73">
+                           <property name="styleSheet">
+                            <string notr="true">font: 13pt &quot;Ubuntu&quot;;</string>
+                           </property>
+                           <property name="text">
+                            <string>Mutant Lists:</string>
+                           </property>
+                          </widget>
+                         </item>
+                         <item row="1" column="2">
+                          <widget class="QLabel" name="label_47">
+                           <property name="sizePolicy">
+                            <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+                             <horstretch>0</horstretch>
+                             <verstretch>0</verstretch>
+                            </sizepolicy>
+                           </property>
+                           <property name="text">
+                            <string/>
+                           </property>
+                           <property name="pixmap">
+                            <pixmap>images/images/graphic.png</pixmap>
+                           </property>
+                           <property name="scaledContents">
+                            <bool>true</bool>
+                           </property>
+                          </widget>
+                         </item>
+                         <item row="3" column="0" rowspan="5" colspan="2">
+                          <widget class="QListWidget" name="listWidget_14">
+                           <property name="styleSheet">
+                            <string notr="true">background-color: rgb(52, 59, 72);</string>
+                           </property>
+                          </widget>
+                         </item>
+                         <item row="0" column="2">
+                          <widget class="QLabel" name="label_10">
+                           <property name="styleSheet">
+                            <string notr="true">font: 13pt &quot;Ubuntu&quot;;</string>
+                           </property>
+                           <property name="text">
+                            <string>Mutation Score</string>
+                           </property>
+                          </widget>
+                         </item>
+                         <item row="2" column="2" rowspan="6">
+                          <layout class="QGridLayout" name="gridLayout_44">
                            <property name="horizontalSpacing">
                             <number>20</number>
                            </property>
                            <property name="verticalSpacing">
-                            <number>10</number>
+                            <number>8</number>
                            </property>
-                           <item row="5" column="1">
-                            <widget class="QListWidget" name="listWidget_14">
+                           <item row="3" column="1">
+                            <widget class="QPushButton" name="btn_select_scenario">
+                             <property name="sizePolicy">
+                              <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+                               <horstretch>0</horstretch>
+                               <verstretch>0</verstretch>
+                              </sizepolicy>
+                             </property>
+                             <property name="minimumSize">
+                              <size>
+                               <width>200</width>
+                               <height>30</height>
+                              </size>
+                             </property>
+                             <property name="font">
+                              <font>
+                               <family>Segoe UI</family>
+                               <pointsize>10</pointsize>
+                               <weight>50</weight>
+                               <italic>false</italic>
+                               <bold>false</bold>
+                              </font>
+                             </property>
+                             <property name="cursor">
+                              <cursorShape>PointingHandCursor</cursorShape>
+                             </property>
                              <property name="styleSheet">
                               <string notr="true">background-color: rgb(52, 59, 72);</string>
                              </property>
+                             <property name="text">
+                              <string>Select Scenario</string>
+                             </property>
+                             <property name="icon">
+                              <iconset resource="resources.qrc">
+                               <normaloff>:/icons/images/icons/cil-folder-open.png</normaloff>:/icons/images/icons/cil-folder-open.png</iconset>
+                             </property>
                             </widget>
                            </item>
-                           <item row="0" column="2">
-                            <widget class="QLabel" name="label_10">
+                           <item row="1" column="1" colspan="2">
+                            <widget class="QListWidget" name="listWidget_12">
+                             <property name="sizePolicy">
+                              <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+                               <horstretch>0</horstretch>
+                               <verstretch>0</verstretch>
+                              </sizepolicy>
+                             </property>
+                             <property name="styleSheet">
+                              <string notr="true">background-color: rgb(52, 59, 72);</string>
+                             </property>
+                             <item>
+                              <property name="text">
+                               <string>rosbag_record01.bag</string>
+                              </property>
+                             </item>
+                             <item>
+                              <property name="text">
+                               <string>rosbag_record02.bag</string>
+                              </property>
+                             </item>
+                             <item>
+                              <property name="text">
+                               <string>rosbag_rercord03.bag</string>
+                              </property>
+                             </item>
+                             <item>
+                              <property name="text">
+                               <string>rosbag_record04.bag</string>
+                              </property>
+                             </item>
+                             <item>
+                              <property name="text">
+                               <string>rosbag_record05.bag</string>
+                              </property>
+                             </item>
+                            </widget>
+                           </item>
+                           <item row="0" column="1" colspan="2">
+                            <widget class="QLabel" name="label_3">
                              <property name="styleSheet">
                               <string notr="true">font: 13pt &quot;Ubuntu&quot;;</string>
                              </property>
                              <property name="text">
-                              <string>Mutation Score</string>
+                              <string>Rosbag Scenarios</string>
+                             </property>
+                            </widget>
+                           </item>
+                           <item row="3" column="2">
+                            <widget class="QPushButton" name="btn_run_scenario">
+                             <property name="sizePolicy">
+                              <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+                               <horstretch>0</horstretch>
+                               <verstretch>0</verstretch>
+                              </sizepolicy>
+                             </property>
+                             <property name="minimumSize">
+                              <size>
+                               <width>200</width>
+                               <height>30</height>
+                              </size>
+                             </property>
+                             <property name="cursor">
+                              <cursorShape>PointingHandCursor</cursorShape>
+                             </property>
+                             <property name="styleSheet">
+                              <string notr="true">background-color:black;
+color:white;</string>
+                             </property>
+                             <property name="text">
+                              <string>Run The Scenario</string>
+                             </property>
+                             <property name="icon">
+                              <iconset resource="resources.qrc">
+                               <normaloff>:/icons/images/icons/cil-media-play.png</normaloff>:/icons/images/icons/cil-media-play.png</iconset>
                              </property>
                             </widget>
                            </item>
                            <item row="0" column="0">
-                            <widget class="QLabel" name="label_8">
-                             <property name="styleSheet">
-                              <string notr="true">font: 13pt &quot;Ubuntu&quot;;</string>
-                             </property>
-                             <property name="text">
-                              <string>AST Daigram</string>
-                             </property>
-                            </widget>
-                           </item>
-                           <item row="2" column="1">
-                            <widget class="QLabel" name="label_74">
-                             <property name="styleSheet">
-                              <string notr="true">font: 13pt &quot;Ubuntu&quot;;</string>
-                             </property>
-                             <property name="text">
-                              <string>Killed Mutants Output:</string>
-                             </property>
-                            </widget>
-                           </item>
-                           <item row="3" column="1">
-                            <widget class="QListWidget" name="listWidget_19">
-                             <property name="styleSheet">
-                              <string notr="true">background-color: rgb(52, 59, 72);</string>
-                             </property>
-                            </widget>
-                           </item>
-                           <item row="4" column="0">
                             <widget class="QLabel" name="label_7">
                              <property name="styleSheet">
                               <string notr="true">font: 13pt &quot;Ubuntu&quot;;</string>
@@ -7308,93 +7478,25 @@ background-color: rgb(52, 59, 72);</string>
                              </property>
                             </widget>
                            </item>
-                           <item row="4" column="1">
-                            <widget class="QLabel" name="label_45">
-                             <property name="styleSheet">
-                              <string notr="true">font: 13pt &quot;Ubuntu&quot;;</string>
-                             </property>
-                             <property name="text">
-                              <string>Faults:</string>
-                             </property>
-                            </widget>
-                           </item>
-                           <item row="1" column="0" rowspan="3">
-                            <widget class="QTextEdit" name="textEdit_23">
-                             <property name="styleSheet">
-                              <string notr="true">background-color: rgb(52, 59, 72);</string>
-                             </property>
-                            </widget>
-                           </item>
-                           <item row="0" column="1">
-                            <widget class="QLabel" name="label_73">
-                             <property name="styleSheet">
-                              <string notr="true">font: 13pt &quot;Ubuntu&quot;;</string>
-                             </property>
-                             <property name="text">
-                              <string>Mutant Lists:</string>
-                             </property>
-                            </widget>
-                           </item>
-                           <item row="5" column="0">
-                            <widget class="QListWidget" name="listWidget_9">
-                             <property name="styleSheet">
-                              <string notr="true">background-color: rgb(52, 59, 72);</string>
-                             </property>
-                            </widget>
-                           </item>
-                           <item row="1" column="1">
-                            <widget class="QListWidget" name="listWidget_16">
-                             <property name="styleSheet">
-                              <string notr="true">background-color: rgb(52, 59, 72);</string>
-                             </property>
-                            </widget>
-                           </item>
-                           <item row="1" column="2" rowspan="5">
-                            <layout class="QGridLayout" name="gridLayout_44">
-                             <property name="spacing">
+                           <item row="5" column="0" colspan="3">
+                            <layout class="QGridLayout" name="gridLayout_9">
+                             <property name="horizontalSpacing">
                               <number>20</number>
                              </property>
-                             <item row="3" column="1">
-                              <widget class="QPushButton" name="btn_run_scenario">
-                               <property name="sizePolicy">
-                                <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
-                                 <horstretch>0</horstretch>
-                                 <verstretch>0</verstretch>
-                                </sizepolicy>
-                               </property>
-                               <property name="minimumSize">
-                                <size>
-                                 <width>200</width>
-                                 <height>30</height>
-                                </size>
-                               </property>
-                               <property name="cursor">
-                                <cursorShape>PointingHandCursor</cursorShape>
-                               </property>
-                               <property name="styleSheet">
-                                <string notr="true">background-color:black;
-color:white;</string>
-                               </property>
-                               <property name="text">
-                                <string>Run The Scenario</string>
-                               </property>
-                               <property name="icon">
-                                <iconset resource="resources.qrc">
-                                 <normaloff>:/icons/images/icons/cil-media-play.png</normaloff>:/icons/images/icons/cil-media-play.png</iconset>
-                               </property>
-                              </widget>
-                             </item>
-                             <item row="4" column="1">
+                             <property name="verticalSpacing">
+                              <number>10</number>
+                             </property>
+                             <item row="0" column="0" rowspan="2">
                               <widget class="QLabel" name="label_87">
                                <property name="text">
                                 <string>V&amp;V Report</string>
                                </property>
                               </widget>
                              </item>
-                             <item row="5" column="1">
+                             <item row="0" column="1" rowspan="2">
                               <widget class="QPushButton" name="btn_create_report">
                                <property name="sizePolicy">
-                                <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+                                <sizepolicy hsizetype="Expanding" vsizetype="Fixed">
                                  <horstretch>0</horstretch>
                                  <verstretch>0</verstretch>
                                 </sizepolicy>
@@ -7430,141 +7532,10 @@ color:white;</string>
                                </property>
                               </widget>
                              </item>
-                             <item row="8" column="1">
-                              <spacer name="verticalSpacer_5">
-                               <property name="orientation">
-                                <enum>Qt::Vertical</enum>
-                               </property>
-                               <property name="sizeHint" stdset="0">
-                                <size>
-                                 <width>20</width>
-                                 <height>40</height>
-                                </size>
-                               </property>
-                              </spacer>
-                             </item>
-                             <item row="2" column="0" rowspan="7">
-                              <widget class="QListWidget" name="listWidget_12">
-                               <property name="sizePolicy">
-                                <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
-                                 <horstretch>0</horstretch>
-                                 <verstretch>0</verstretch>
-                                </sizepolicy>
-                               </property>
-                               <property name="styleSheet">
-                                <string notr="true">background-color: rgb(52, 59, 72);</string>
-                               </property>
-                               <item>
-                                <property name="text">
-                                 <string>rosbag_record01.bag</string>
-                                </property>
-                               </item>
-                               <item>
-                                <property name="text">
-                                 <string>rosbag_record02.bag</string>
-                                </property>
-                               </item>
-                               <item>
-                                <property name="text">
-                                 <string>rosbag_rercord03.bag</string>
-                                </property>
-                               </item>
-                               <item>
-                                <property name="text">
-                                 <string>rosbag_record04.bag</string>
-                                </property>
-                               </item>
-                               <item>
-                                <property name="text">
-                                 <string>rosbag_record05.bag</string>
-                                </property>
-                               </item>
-                              </widget>
-                             </item>
-                             <item row="2" column="1">
-                              <widget class="QPushButton" name="btn_select_scenario">
-                               <property name="sizePolicy">
-                                <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
-                                 <horstretch>0</horstretch>
-                                 <verstretch>0</verstretch>
-                                </sizepolicy>
-                               </property>
-                               <property name="minimumSize">
-                                <size>
-                                 <width>200</width>
-                                 <height>30</height>
-                                </size>
-                               </property>
-                               <property name="font">
-                                <font>
-                                 <family>Segoe UI</family>
-                                 <pointsize>10</pointsize>
-                                 <weight>50</weight>
-                                 <italic>false</italic>
-                                 <bold>false</bold>
-                                </font>
-                               </property>
-                               <property name="cursor">
-                                <cursorShape>PointingHandCursor</cursorShape>
-                               </property>
-                               <property name="styleSheet">
-                                <string notr="true">background-color: rgb(52, 59, 72);</string>
-                               </property>
-                               <property name="text">
-                                <string>Select Scenario</string>
-                               </property>
-                               <property name="icon">
-                                <iconset resource="resources.qrc">
-                                 <normaloff>:/icons/images/icons/cil-folder-open.png</normaloff>:/icons/images/icons/cil-folder-open.png</iconset>
-                               </property>
-                              </widget>
-                             </item>
-                             <item row="7" column="1">
-                              <widget class="QLabel" name="label_77">
-                               <property name="sizePolicy">
-                                <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
-                                 <horstretch>0</horstretch>
-                                 <verstretch>0</verstretch>
-                                </sizepolicy>
-                               </property>
-                               <property name="text">
-                                <string/>
-                               </property>
-                              </widget>
-                             </item>
-                             <item row="0" column="0" colspan="2">
-                              <widget class="QLabel" name="label_47">
-                               <property name="sizePolicy">
-                                <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
-                                 <horstretch>0</horstretch>
-                                 <verstretch>0</verstretch>
-                                </sizepolicy>
-                               </property>
-                               <property name="text">
-                                <string/>
-                               </property>
-                               <property name="pixmap">
-                                <pixmap>images/images/graphic.png</pixmap>
-                               </property>
-                               <property name="scaledContents">
-                                <bool>true</bool>
-                               </property>
-                              </widget>
-                             </item>
-                             <item row="1" column="0" colspan="2">
-                              <widget class="QLabel" name="label_3">
-                               <property name="styleSheet">
-                                <string notr="true">font: 13pt &quot;Ubuntu&quot;;</string>
-                               </property>
-                               <property name="text">
-                                <string>Rosbag Scenarios</string>
-                               </property>
-                              </widget>
-                             </item>
-                             <item row="6" column="1">
+                             <item row="0" column="2" rowspan="2">
                               <widget class="QPushButton" name="btn_new_one">
                                <property name="sizePolicy">
-                                <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+                                <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
                                  <horstretch>0</horstretch>
                                  <verstretch>0</verstretch>
                                 </sizepolicy>
@@ -7582,7 +7553,7 @@ color:white;</string>
                                 <string notr="true">background-color: rgb(52, 59, 72);</string>
                                </property>
                                <property name="text">
-                                <string>Start To The New One</string>
+                                <string>Start The New One</string>
                                </property>
                                <property name="icon">
                                 <iconset resource="resources.qrc">
@@ -7591,6 +7562,13 @@ color:white;</string>
                               </widget>
                              </item>
                             </layout>
+                           </item>
+                           <item row="1" column="0" rowspan="3">
+                            <widget class="QListWidget" name="listWidget_9">
+                             <property name="styleSheet">
+                              <string notr="true">background-color: rgb(52, 59, 72);</string>
+                             </property>
+                            </widget>
                            </item>
                           </layout>
                          </item>
@@ -7617,7 +7595,24 @@ color:white;</string>
                          <property name="verticalSpacing">
                           <number>10</number>
                          </property>
+                         <item row="0" column="0">
+                          <widget class="QLabel" name="label_25">
+                           <property name="styleSheet">
+                            <string notr="true"/>
+                           </property>
+                           <property name="text">
+                            <string>Select Metrics &amp; States</string>
+                           </property>
+                          </widget>
+                         </item>
                          <item row="0" column="1">
+                          <widget class="QLabel" name="label_35">
+                           <property name="text">
+                            <string>Information</string>
+                           </property>
+                          </widget>
+                         </item>
+                         <item row="0" column="2">
                           <widget class="QLabel" name="label_37">
                            <property name="sizePolicy">
                             <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
@@ -7633,105 +7628,7 @@ color:white;</string>
                            </property>
                           </widget>
                          </item>
-                         <item row="5" column="0" colspan="2" alignment="Qt::AlignHCenter">
-                          <widget class="QTextEdit" name="textEdit_9">
-                           <property name="sizePolicy">
-                            <sizepolicy hsizetype="Fixed" vsizetype="Expanding">
-                             <horstretch>0</horstretch>
-                             <verstretch>0</verstretch>
-                            </sizepolicy>
-                           </property>
-                           <property name="minimumSize">
-                            <size>
-                             <width>500</width>
-                             <height>0</height>
-                            </size>
-                           </property>
-                           <property name="styleSheet">
-                            <string notr="true">background-color: rgb(52, 59, 72);</string>
-                           </property>
-                           <property name="html">
-                            <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
-&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
-p, li { white-space: pre-wrap; }
-&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'Segoe UI'; font-size:10pt; font-weight:400; font-style:normal;&quot;&gt;
-&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:12px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;br /&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
-                           </property>
-                          </widget>
-                         </item>
-                         <item row="0" column="0">
-                          <widget class="QLabel" name="label_25">
-                           <property name="styleSheet">
-                            <string notr="true"/>
-                           </property>
-                           <property name="text">
-                            <string>Select Metrics &amp; States</string>
-                           </property>
-                          </widget>
-                         </item>
-                         <item row="3" column="0" alignment="Qt::AlignHCenter">
-                          <widget class="QPushButton" name="btn_metric_list">
-                           <property name="sizePolicy">
-                            <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
-                             <horstretch>0</horstretch>
-                             <verstretch>0</verstretch>
-                            </sizepolicy>
-                           </property>
-                           <property name="minimumSize">
-                            <size>
-                             <width>120</width>
-                             <height>30</height>
-                            </size>
-                           </property>
-                           <property name="styleSheet">
-                            <string notr="true">background-color: rgb(52, 59, 72);</string>
-                           </property>
-                           <property name="text">
-                            <string>Select</string>
-                           </property>
-                           <property name="icon">
-                            <iconset resource="resources.qrc">
-                             <normaloff>:/icons/images/icons/cil-hand-point-up.png</normaloff>:/icons/images/icons/cil-hand-point-up.png</iconset>
-                           </property>
-                          </widget>
-                         </item>
-                         <item row="3" column="1" alignment="Qt::AlignHCenter">
-                          <widget class="QPushButton" name="saveMetrics">
-                           <property name="sizePolicy">
-                            <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
-                             <horstretch>0</horstretch>
-                             <verstretch>0</verstretch>
-                            </sizepolicy>
-                           </property>
-                           <property name="minimumSize">
-                            <size>
-                             <width>120</width>
-                             <height>30</height>
-                            </size>
-                           </property>
-                           <property name="cursor">
-                            <cursorShape>PointingHandCursor</cursorShape>
-                           </property>
-                           <property name="styleSheet">
-                            <string notr="true">background-color: rgb(52, 59, 72);</string>
-                           </property>
-                           <property name="text">
-                            <string>Save Metrics</string>
-                           </property>
-                           <property name="icon">
-                            <iconset resource="resources.qrc">
-                             <normaloff>:/icons/images/icons/cil-save.png</normaloff>:/icons/images/icons/cil-save.png</iconset>
-                           </property>
-                          </widget>
-                         </item>
-                         <item row="4" column="0" colspan="2" alignment="Qt::AlignHCenter">
-                          <widget class="QLabel" name="label_35">
-                           <property name="text">
-                            <string>Information</string>
-                           </property>
-                          </widget>
-                         </item>
-                         <item row="1" column="0" rowspan="2">
+                         <item row="1" column="0" rowspan="5">
                           <widget class="QListWidget" name="listWidget_18">
                            <property name="sizePolicy">
                             <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
@@ -7741,7 +7638,7 @@ p, li { white-space: pre-wrap; }
                            </property>
                            <property name="maximumSize">
                             <size>
-                             <width>500</width>
+                             <width>16777215</width>
                              <height>16777215</height>
                             </size>
                            </property>
@@ -7840,7 +7737,62 @@ p, li { white-space: pre-wrap; }
                            </item>
                           </widget>
                          </item>
-                         <item row="1" column="1" rowspan="2">
+                         <item row="6" column="0">
+                          <widget class="QPushButton" name="btn_metric_list">
+                           <property name="sizePolicy">
+                            <sizepolicy hsizetype="Expanding" vsizetype="Fixed">
+                             <horstretch>0</horstretch>
+                             <verstretch>0</verstretch>
+                            </sizepolicy>
+                           </property>
+                           <property name="minimumSize">
+                            <size>
+                             <width>120</width>
+                             <height>30</height>
+                            </size>
+                           </property>
+                           <property name="styleSheet">
+                            <string notr="true">background-color: rgb(52, 59, 72);</string>
+                           </property>
+                           <property name="text">
+                            <string>Select</string>
+                           </property>
+                           <property name="icon">
+                            <iconset resource="resources.qrc">
+                             <normaloff>:/icons/images/icons/cil-hand-point-up.png</normaloff>:/icons/images/icons/cil-hand-point-up.png</iconset>
+                           </property>
+                          </widget>
+                         </item>
+                         <item row="6" column="2">
+                          <widget class="QPushButton" name="saveMetrics">
+                           <property name="sizePolicy">
+                            <sizepolicy hsizetype="Expanding" vsizetype="Fixed">
+                             <horstretch>0</horstretch>
+                             <verstretch>0</verstretch>
+                            </sizepolicy>
+                           </property>
+                           <property name="minimumSize">
+                            <size>
+                             <width>120</width>
+                             <height>30</height>
+                            </size>
+                           </property>
+                           <property name="cursor">
+                            <cursorShape>PointingHandCursor</cursorShape>
+                           </property>
+                           <property name="styleSheet">
+                            <string notr="true">background-color: rgb(52, 59, 72);</string>
+                           </property>
+                           <property name="text">
+                            <string>Save Metrics</string>
+                           </property>
+                           <property name="icon">
+                            <iconset resource="resources.qrc">
+                             <normaloff>:/icons/images/icons/cil-save.png</normaloff>:/icons/images/icons/cil-save.png</iconset>
+                           </property>
+                          </widget>
+                         </item>
+                         <item row="1" column="2" rowspan="5">
                           <widget class="QListWidget" name="listWidget_15">
                            <property name="sizePolicy">
                             <sizepolicy hsizetype="Fixed" vsizetype="Expanding">
@@ -7856,6 +7808,32 @@ p, li { white-space: pre-wrap; }
                            </property>
                            <property name="styleSheet">
                             <string notr="true">background-color: rgb(52, 59, 72);</string>
+                           </property>
+                          </widget>
+                         </item>
+                         <item row="1" column="1" rowspan="6">
+                          <widget class="QTextEdit" name="textEdit_9">
+                           <property name="sizePolicy">
+                            <sizepolicy hsizetype="Fixed" vsizetype="Expanding">
+                             <horstretch>0</horstretch>
+                             <verstretch>0</verstretch>
+                            </sizepolicy>
+                           </property>
+                           <property name="minimumSize">
+                            <size>
+                             <width>500</width>
+                             <height>0</height>
+                            </size>
+                           </property>
+                           <property name="styleSheet">
+                            <string notr="true">background-color: rgb(52, 59, 72);</string>
+                           </property>
+                           <property name="html">
+                            <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'Segoe UI'; font-size:10pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:12px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;br /&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
                            </property>
                           </widget>
                          </item>
@@ -8174,12 +8152,12 @@ color:white;</string>
 &lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
 p, li { white-space: pre-wrap; }
 &lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'Segoe UI'; font-size:10pt; font-weight:400; font-style:normal;&quot;&gt;
-&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Droid Sans Mono','monospace','monospace','Droid Sans Fallback'; font-size:14px; color:#9cdcfe;&quot;&gt;&amp;quot;fault&amp;quot;&lt;/span&gt;&lt;span style=&quot; font-family:'Droid Sans Mono','monospace','monospace','Droid Sans Fallback'; font-size:14px; color:#d4d4d4;&quot;&gt;:{&lt;/span&gt;&lt;/p&gt;
-&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Droid Sans Mono','monospace','monospace','Droid Sans Fallback'; font-size:14px; color:#d4d4d4;&quot;&gt;            &lt;/span&gt;&lt;span style=&quot; font-family:'Droid Sans Mono','monospace','monospace','Droid Sans Fallback'; font-size:14px; color:#9cdcfe;&quot;&gt;&amp;quot;Fault_Name&amp;quot;&lt;/span&gt;&lt;span style=&quot; font-family:'Droid Sans Mono','monospace','monospace','Droid Sans Fallback'; font-size:14px; color:#d4d4d4;&quot;&gt;: &lt;/span&gt;&lt;span style=&quot; font-family:'Droid Sans Mono','monospace','monospace','Droid Sans Fallback'; font-size:14px; color:#ce9178;&quot;&gt;&amp;quot;(AOW) Arithmetic Operator Wrong&amp;quot;&lt;/span&gt;&lt;span style=&quot; font-family:'Droid Sans Mono','monospace','monospace','Droid Sans Fallback'; font-size:14px; color:#d4d4d4;&quot;&gt;,&lt;/span&gt;&lt;/p&gt;
-&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Droid Sans Mono','monospace','monospace','Droid Sans Fallback'; font-size:14px; color:#d4d4d4;&quot;&gt;            &lt;/span&gt;&lt;span style=&quot; font-family:'Droid Sans Mono','monospace','monospace','Droid Sans Fallback'; font-size:14px; color:#9cdcfe;&quot;&gt;&amp;quot;Target_to_Change&amp;quot;&lt;/span&gt;&lt;span style=&quot; font-family:'Droid Sans Mono','monospace','monospace','Droid Sans Fallback'; font-size:14px; color:#d4d4d4;&quot;&gt;: &lt;/span&gt;&lt;span style=&quot; font-family:'Droid Sans Mono','monospace','monospace','Droid Sans Fallback'; font-size:14px; color:#ce9178;&quot;&gt;&amp;quot;\\+,\\-,\\*,\\/,[%]{1},[**]{2},[\//]{2}&amp;quot;&lt;/span&gt;&lt;span style=&quot; font-family:'Droid Sans Mono','monospace','monospace','Droid Sans Fallback'; font-size:14px; color:#d4d4d4;&quot;&gt;,&lt;/span&gt;&lt;/p&gt;
-&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Droid Sans Mono','monospace','monospace','Droid Sans Fallback'; font-size:14px; color:#d4d4d4;&quot;&gt;            &lt;/span&gt;&lt;span style=&quot; font-family:'Droid Sans Mono','monospace','monospace','Droid Sans Fallback'; font-size:14px; color:#9cdcfe;&quot;&gt;&amp;quot;Changed&amp;quot;&lt;/span&gt;&lt;span style=&quot; font-family:'Droid Sans Mono','monospace','monospace','Droid Sans Fallback'; font-size:14px; color:#d4d4d4;&quot;&gt;:&lt;/span&gt;&lt;span style=&quot; font-family:'Droid Sans Mono','monospace','monospace','Droid Sans Fallback'; font-size:14px; color:#ce9178;&quot;&gt;&amp;quot;+,-,*,/,%,**,//&amp;quot;&lt;/span&gt;&lt;span style=&quot; font-family:'Droid Sans Mono','monospace','monospace','Droid Sans Fallback'; font-size:14px; color:#d4d4d4;&quot;&gt;,&lt;/span&gt;&lt;/p&gt;
-&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Droid Sans Mono','monospace','monospace','Droid Sans Fallback'; font-size:14px; color:#d4d4d4;&quot;&gt;            &lt;/span&gt;&lt;span style=&quot; font-family:'Droid Sans Mono','monospace','monospace','Droid Sans Fallback'; font-size:14px; color:#9cdcfe;&quot;&gt;&amp;quot;Explanation&amp;quot;&lt;/span&gt;&lt;span style=&quot; font-family:'Droid Sans Mono','monospace','monospace','Droid Sans Fallback'; font-size:14px; color:#d4d4d4;&quot;&gt;:&lt;/span&gt;&lt;span style=&quot; font-family:'Droid Sans Mono','monospace','monospace','Droid Sans Fallback'; font-size:14px; color:#ce9178;&quot;&gt;&amp;quot;Arithmetic Operators Wrong\nOriginal Code: x + y\nMutated Code: x - y&amp;quot;&lt;/span&gt;&lt;/p&gt;
-&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Droid Sans Mono','monospace','monospace','Droid Sans Fallback'; font-size:14px; color:#d4d4d4;&quot;&gt;            }&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Droid Sans Mono,monospace,monospace,Droid Sans Fallback'; font-size:14px; color:#9cdcfe;&quot;&gt;&amp;quot;fault&amp;quot;&lt;/span&gt;&lt;span style=&quot; font-family:'Droid Sans Mono,monospace,monospace,Droid Sans Fallback'; font-size:14px; color:#d4d4d4;&quot;&gt;:{&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Droid Sans Mono,monospace,monospace,Droid Sans Fallback'; font-size:14px; color:#d4d4d4;&quot;&gt;            &lt;/span&gt;&lt;span style=&quot; font-family:'Droid Sans Mono,monospace,monospace,Droid Sans Fallback'; font-size:14px; color:#9cdcfe;&quot;&gt;&amp;quot;Fault_Name&amp;quot;&lt;/span&gt;&lt;span style=&quot; font-family:'Droid Sans Mono,monospace,monospace,Droid Sans Fallback'; font-size:14px; color:#d4d4d4;&quot;&gt;: &lt;/span&gt;&lt;span style=&quot; font-family:'Droid Sans Mono,monospace,monospace,Droid Sans Fallback'; font-size:14px; color:#ce9178;&quot;&gt;&amp;quot;(AOW) Arithmetic Operator Wrong&amp;quot;&lt;/span&gt;&lt;span style=&quot; font-family:'Droid Sans Mono,monospace,monospace,Droid Sans Fallback'; font-size:14px; color:#d4d4d4;&quot;&gt;,&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Droid Sans Mono,monospace,monospace,Droid Sans Fallback'; font-size:14px; color:#d4d4d4;&quot;&gt;            &lt;/span&gt;&lt;span style=&quot; font-family:'Droid Sans Mono,monospace,monospace,Droid Sans Fallback'; font-size:14px; color:#9cdcfe;&quot;&gt;&amp;quot;Target_to_Change&amp;quot;&lt;/span&gt;&lt;span style=&quot; font-family:'Droid Sans Mono,monospace,monospace,Droid Sans Fallback'; font-size:14px; color:#d4d4d4;&quot;&gt;: &lt;/span&gt;&lt;span style=&quot; font-family:'Droid Sans Mono,monospace,monospace,Droid Sans Fallback'; font-size:14px; color:#ce9178;&quot;&gt;&amp;quot;\\+,\\-,\\*,\\/,[%]{1},[**]{2},[\//]{2}&amp;quot;&lt;/span&gt;&lt;span style=&quot; font-family:'Droid Sans Mono,monospace,monospace,Droid Sans Fallback'; font-size:14px; color:#d4d4d4;&quot;&gt;,&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Droid Sans Mono,monospace,monospace,Droid Sans Fallback'; font-size:14px; color:#d4d4d4;&quot;&gt;            &lt;/span&gt;&lt;span style=&quot; font-family:'Droid Sans Mono,monospace,monospace,Droid Sans Fallback'; font-size:14px; color:#9cdcfe;&quot;&gt;&amp;quot;Changed&amp;quot;&lt;/span&gt;&lt;span style=&quot; font-family:'Droid Sans Mono,monospace,monospace,Droid Sans Fallback'; font-size:14px; color:#d4d4d4;&quot;&gt;:&lt;/span&gt;&lt;span style=&quot; font-family:'Droid Sans Mono,monospace,monospace,Droid Sans Fallback'; font-size:14px; color:#ce9178;&quot;&gt;&amp;quot;+,-,*,/,%,**,//&amp;quot;&lt;/span&gt;&lt;span style=&quot; font-family:'Droid Sans Mono,monospace,monospace,Droid Sans Fallback'; font-size:14px; color:#d4d4d4;&quot;&gt;,&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Droid Sans Mono,monospace,monospace,Droid Sans Fallback'; font-size:14px; color:#d4d4d4;&quot;&gt;            &lt;/span&gt;&lt;span style=&quot; font-family:'Droid Sans Mono,monospace,monospace,Droid Sans Fallback'; font-size:14px; color:#9cdcfe;&quot;&gt;&amp;quot;Explanation&amp;quot;&lt;/span&gt;&lt;span style=&quot; font-family:'Droid Sans Mono,monospace,monospace,Droid Sans Fallback'; font-size:14px; color:#d4d4d4;&quot;&gt;:&lt;/span&gt;&lt;span style=&quot; font-family:'Droid Sans Mono,monospace,monospace,Droid Sans Fallback'; font-size:14px; color:#ce9178;&quot;&gt;&amp;quot;Arithmetic Operators Wrong\nOriginal Code: x + y\nMutated Code: x - y&amp;quot;&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Droid Sans Mono,monospace,monospace,Droid Sans Fallback'; font-size:14px; color:#d4d4d4;&quot;&gt;            }&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
                            </property>
                           </widget>
                          </item>
@@ -9363,12 +9341,12 @@ color:white;</string>
 &lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
 p, li { white-space: pre-wrap; }
 &lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'Segoe UI'; font-size:10pt; font-weight:400; font-style:normal;&quot;&gt;
-&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Droid Sans Mono','monospace','monospace','Droid Sans Fallback'; font-size:14px; color:#d4d4d4;&quot;&gt;{&lt;/span&gt;&lt;/p&gt;
-&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Droid Sans Mono','monospace','monospace','Droid Sans Fallback'; font-size:14px; color:#9cdcfe;&quot;&gt;    &amp;quot;Snippet_Name&amp;quot;&lt;/span&gt;&lt;span style=&quot; font-family:'Droid Sans Mono','monospace','monospace','Droid Sans Fallback'; font-size:14px; color:#d4d4d4;&quot;&gt;: &lt;/span&gt;&lt;span style=&quot; font-family:'Droid Sans Mono','monospace','monospace','Droid Sans Fallback'; font-size:14px; color:#ce9178;&quot;&gt;&amp;quot;if&amp;quot;&lt;/span&gt;&lt;span style=&quot; font-family:'Droid Sans Mono','monospace','monospace','Droid Sans Fallback'; font-size:14px; color:#d4d4d4;&quot;&gt;,&lt;/span&gt;&lt;/p&gt;
-&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Droid Sans Mono','monospace','monospace','Droid Sans Fallback'; font-size:14px; color:#9cdcfe;&quot;&gt;    &amp;quot;Title&amp;quot;&lt;/span&gt;&lt;span style=&quot; font-family:'Droid Sans Mono','monospace','monospace','Droid Sans Fallback'; font-size:14px; color:#d4d4d4;&quot;&gt;:&lt;/span&gt;&lt;span style=&quot; font-family:'Droid Sans Mono','monospace','monospace','Droid Sans Fallback'; font-size:14px; color:#ce9178;&quot;&gt;&amp;quot;Python if Statement Syntax&amp;quot;&lt;/span&gt;&lt;span style=&quot; font-family:'Droid Sans Mono','monospace','monospace','Droid Sans Fallback'; font-size:14px; color:#d4d4d4;&quot;&gt;,&lt;/span&gt;&lt;/p&gt;
-&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Droid Sans Mono','monospace','monospace','Droid Sans Fallback'; color:#9cdcfe;&quot;&gt;    &amp;quot;Process&amp;quot;&lt;/span&gt;&lt;span style=&quot; font-family:'Droid Sans Mono','monospace','monospace','Droid Sans Fallback'; color:#d4d4d4;&quot;&gt;:&lt;/span&gt;&lt;span style=&quot; font-family:'Droid Sans Mono','monospace','monospace','Droid Sans Fallback'; color:#ce9178;&quot;&gt;&amp;quot;if test expression:\n\tstatement(s)&amp;quot;&lt;/span&gt;&lt;/p&gt;
-&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Droid Sans Mono','monospace','monospace','Droid Sans Fallback'; font-size:14px; color:#9cdcfe;&quot;&gt;    &amp;quot;Regex_Code&amp;quot;&lt;/span&gt;&lt;span style=&quot; font-family:'Droid Sans Mono','monospace','monospace','Droid Sans Fallback'; font-size:14px; color:#d4d4d4;&quot;&gt;:&lt;/span&gt;&lt;span style=&quot; font-family:'Droid Sans Mono','monospace','monospace','Droid Sans Fallback'; font-size:14px; color:#ce9178;&quot;&gt;&amp;quot;if.*:&amp;quot;&lt;/span&gt;&lt;span style=&quot; font-family:'Droid Sans Mono','monospace','monospace','Droid Sans Fallback'; font-size:14px; color:#d4d4d4;&quot;&gt;,&lt;/span&gt;&lt;/p&gt;
-&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Droid Sans Mono','monospace','monospace','Droid Sans Fallback'; font-size:14px; color:#d4d4d4;&quot;&gt;}&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Droid Sans Mono,monospace,monospace,Droid Sans Fallback'; font-size:14px; color:#d4d4d4;&quot;&gt;{&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Droid Sans Mono,monospace,monospace,Droid Sans Fallback'; font-size:14px; color:#9cdcfe;&quot;&gt;    &amp;quot;Snippet_Name&amp;quot;&lt;/span&gt;&lt;span style=&quot; font-family:'Droid Sans Mono,monospace,monospace,Droid Sans Fallback'; font-size:14px; color:#d4d4d4;&quot;&gt;: &lt;/span&gt;&lt;span style=&quot; font-family:'Droid Sans Mono,monospace,monospace,Droid Sans Fallback'; font-size:14px; color:#ce9178;&quot;&gt;&amp;quot;if&amp;quot;&lt;/span&gt;&lt;span style=&quot; font-family:'Droid Sans Mono,monospace,monospace,Droid Sans Fallback'; font-size:14px; color:#d4d4d4;&quot;&gt;,&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Droid Sans Mono,monospace,monospace,Droid Sans Fallback'; font-size:14px; color:#9cdcfe;&quot;&gt;    &amp;quot;Title&amp;quot;&lt;/span&gt;&lt;span style=&quot; font-family:'Droid Sans Mono,monospace,monospace,Droid Sans Fallback'; font-size:14px; color:#d4d4d4;&quot;&gt;:&lt;/span&gt;&lt;span style=&quot; font-family:'Droid Sans Mono,monospace,monospace,Droid Sans Fallback'; font-size:14px; color:#ce9178;&quot;&gt;&amp;quot;Python if Statement Syntax&amp;quot;&lt;/span&gt;&lt;span style=&quot; font-family:'Droid Sans Mono,monospace,monospace,Droid Sans Fallback'; font-size:14px; color:#d4d4d4;&quot;&gt;,&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Droid Sans Mono,monospace,monospace,Droid Sans Fallback'; color:#9cdcfe;&quot;&gt;    &amp;quot;Process&amp;quot;&lt;/span&gt;&lt;span style=&quot; font-family:'Droid Sans Mono,monospace,monospace,Droid Sans Fallback'; color:#d4d4d4;&quot;&gt;:&lt;/span&gt;&lt;span style=&quot; font-family:'Droid Sans Mono,monospace,monospace,Droid Sans Fallback'; color:#ce9178;&quot;&gt;&amp;quot;if test expression:\n\tstatement(s)&amp;quot;&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Droid Sans Mono,monospace,monospace,Droid Sans Fallback'; font-size:14px; color:#9cdcfe;&quot;&gt;    &amp;quot;Regex_Code&amp;quot;&lt;/span&gt;&lt;span style=&quot; font-family:'Droid Sans Mono,monospace,monospace,Droid Sans Fallback'; font-size:14px; color:#d4d4d4;&quot;&gt;:&lt;/span&gt;&lt;span style=&quot; font-family:'Droid Sans Mono,monospace,monospace,Droid Sans Fallback'; font-size:14px; color:#ce9178;&quot;&gt;&amp;quot;if.*:&amp;quot;&lt;/span&gt;&lt;span style=&quot; font-family:'Droid Sans Mono,monospace,monospace,Droid Sans Fallback'; font-size:14px; color:#d4d4d4;&quot;&gt;,&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Droid Sans Mono,monospace,monospace,Droid Sans Fallback'; font-size:14px; color:#d4d4d4;&quot;&gt;}&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
                            </property>
                           </widget>
                          </item>
