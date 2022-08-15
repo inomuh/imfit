@@ -3,22 +3,31 @@
 ################################################################################
 ## Form generated from reading UI file 'main.ui'
 ##
-## Created by: Qt User Interface Compiler version 6.1.2
+## Created by: Qt User Interface Compiler version 6.2.4
 ##
 ## WARNING! All changes made in this file will be lost when recompiling UI file!
 ################################################################################
 
-from PySide6.QtCore import *  # type: ignore
-from PySide6.QtGui import *  # type: ignore
-from PySide6.QtWidgets import *  # type: ignore
-
+from PySide6.QtCore import (QCoreApplication, QDate, QDateTime, QLocale,
+    QMetaObject, QObject, QPoint, QRect,
+    QSize, QTime, QUrl, Qt)
+from PySide6.QtGui import (QBrush, QColor, QConicalGradient, QCursor,
+    QFont, QFontDatabase, QGradient, QIcon,
+    QImage, QKeySequence, QLinearGradient, QPainter,
+    QPalette, QPixmap, QRadialGradient, QTransform)
+from PySide6.QtWidgets import (QApplication, QCheckBox, QComboBox, QFrame,
+    QGridLayout, QHBoxLayout, QHeaderView, QLabel,
+    QLayout, QListWidget, QListWidgetItem, QMainWindow,
+    QPlainTextEdit, QProgressBar, QPushButton, QSizePolicy,
+    QSpacerItem, QStackedWidget, QTextEdit, QTreeView,
+    QVBoxLayout, QWidget)
 import resources_rc
 
 class Ui_MainWindow(object):
     def setupUi(self, MainWindow):
         if not MainWindow.objectName():
             MainWindow.setObjectName(u"MainWindow")
-        MainWindow.resize(1444, 721)
+        MainWindow.resize(1445, 721)
         sizePolicy = QSizePolicy(QSizePolicy.Expanding, QSizePolicy.Expanding)
         sizePolicy.setHorizontalStretch(0)
         sizePolicy.setVerticalStretch(0)
@@ -1246,6 +1255,12 @@ class Ui_MainWindow(object):
         self.gridLayout_22.addWidget(self.btn_remove_snip, 15, 4, 1, 1)
 
         self.code_snippet_list = QListWidget(self.start)
+        QListWidgetItem(self.code_snippet_list)
+        QListWidgetItem(self.code_snippet_list)
+        QListWidgetItem(self.code_snippet_list)
+        QListWidgetItem(self.code_snippet_list)
+        QListWidgetItem(self.code_snippet_list)
+        QListWidgetItem(self.code_snippet_list)
         QListWidgetItem(self.code_snippet_list)
         QListWidgetItem(self.code_snippet_list)
         QListWidgetItem(self.code_snippet_list)
@@ -3096,119 +3111,76 @@ class Ui_MainWindow(object):
         self.monitoring.setObjectName(u"monitoring")
         self.verticalLayout_10 = QVBoxLayout(self.monitoring)
         self.verticalLayout_10.setObjectName(u"verticalLayout_10")
-        self.gridLayout_9 = QGridLayout()
-        self.gridLayout_9.setObjectName(u"gridLayout_9")
-        self.gridLayout_9.setHorizontalSpacing(20)
-        self.gridLayout_9.setVerticalSpacing(10)
-        self.gridLayout_9.setContentsMargins(0, 0, 0, 0)
-        self.gridLayout_20 = QGridLayout()
-        self.gridLayout_20.setObjectName(u"gridLayout_20")
-        self.gridLayout_20.setHorizontalSpacing(20)
-        self.gridLayout_20.setVerticalSpacing(10)
-        self.listWidget_14 = QListWidget(self.monitoring)
-        self.listWidget_14.setObjectName(u"listWidget_14")
-        self.listWidget_14.setStyleSheet(u"background-color: rgb(52, 59, 72);")
+        self.gridLayout_53 = QGridLayout()
+        self.gridLayout_53.setObjectName(u"gridLayout_53")
+        self.gridLayout_53.setHorizontalSpacing(20)
+        self.gridLayout_53.setVerticalSpacing(10)
+        self.listWidget_19 = QListWidget(self.monitoring)
+        self.listWidget_19.setObjectName(u"listWidget_19")
+        self.listWidget_19.setStyleSheet(u"background-color: rgb(52, 59, 72);")
 
-        self.gridLayout_20.addWidget(self.listWidget_14, 5, 1, 1, 1)
-
-        self.label_10 = QLabel(self.monitoring)
-        self.label_10.setObjectName(u"label_10")
-        self.label_10.setStyleSheet(u"font: 13pt \"Ubuntu\";")
-
-        self.gridLayout_20.addWidget(self.label_10, 0, 2, 1, 1)
-
-        self.label_8 = QLabel(self.monitoring)
-        self.label_8.setObjectName(u"label_8")
-        self.label_8.setStyleSheet(u"font: 13pt \"Ubuntu\";")
-
-        self.gridLayout_20.addWidget(self.label_8, 0, 0, 1, 1)
+        self.gridLayout_53.addWidget(self.listWidget_19, 1, 1, 1, 1)
 
         self.label_74 = QLabel(self.monitoring)
         self.label_74.setObjectName(u"label_74")
         self.label_74.setStyleSheet(u"font: 13pt \"Ubuntu\";")
 
-        self.gridLayout_20.addWidget(self.label_74, 2, 1, 1, 1)
-
-        self.listWidget_19 = QListWidget(self.monitoring)
-        self.listWidget_19.setObjectName(u"listWidget_19")
-        self.listWidget_19.setStyleSheet(u"background-color: rgb(52, 59, 72);")
-
-        self.gridLayout_20.addWidget(self.listWidget_19, 3, 1, 1, 1)
-
-        self.label_7 = QLabel(self.monitoring)
-        self.label_7.setObjectName(u"label_7")
-        self.label_7.setStyleSheet(u"font: 13pt \"Ubuntu\";")
-
-        self.gridLayout_20.addWidget(self.label_7, 4, 0, 1, 1)
-
-        self.label_45 = QLabel(self.monitoring)
-        self.label_45.setObjectName(u"label_45")
-        self.label_45.setStyleSheet(u"font: 13pt \"Ubuntu\";")
-
-        self.gridLayout_20.addWidget(self.label_45, 4, 1, 1, 1)
-
-        self.textEdit_23 = QTextEdit(self.monitoring)
-        self.textEdit_23.setObjectName(u"textEdit_23")
-        self.textEdit_23.setStyleSheet(u"background-color: rgb(52, 59, 72);")
-
-        self.gridLayout_20.addWidget(self.textEdit_23, 1, 0, 3, 1)
-
-        self.label_73 = QLabel(self.monitoring)
-        self.label_73.setObjectName(u"label_73")
-        self.label_73.setStyleSheet(u"font: 13pt \"Ubuntu\";")
-
-        self.gridLayout_20.addWidget(self.label_73, 0, 1, 1, 1)
-
-        self.listWidget_9 = QListWidget(self.monitoring)
-        self.listWidget_9.setObjectName(u"listWidget_9")
-        self.listWidget_9.setStyleSheet(u"background-color: rgb(52, 59, 72);")
-
-        self.gridLayout_20.addWidget(self.listWidget_9, 5, 0, 1, 1)
+        self.gridLayout_53.addWidget(self.label_74, 0, 1, 1, 1)
 
         self.listWidget_16 = QListWidget(self.monitoring)
         self.listWidget_16.setObjectName(u"listWidget_16")
         self.listWidget_16.setStyleSheet(u"background-color: rgb(52, 59, 72);")
 
-        self.gridLayout_20.addWidget(self.listWidget_16, 1, 1, 1, 1)
+        self.gridLayout_53.addWidget(self.listWidget_16, 1, 0, 1, 1)
+
+        self.label_45 = QLabel(self.monitoring)
+        self.label_45.setObjectName(u"label_45")
+        self.label_45.setStyleSheet(u"font: 13pt \"Ubuntu\";")
+
+        self.gridLayout_53.addWidget(self.label_45, 2, 0, 1, 2)
+
+        self.label_73 = QLabel(self.monitoring)
+        self.label_73.setObjectName(u"label_73")
+        self.label_73.setStyleSheet(u"font: 13pt \"Ubuntu\";")
+
+        self.gridLayout_53.addWidget(self.label_73, 0, 0, 1, 1)
+
+        self.label_47 = QLabel(self.monitoring)
+        self.label_47.setObjectName(u"label_47")
+        sizePolicy.setHeightForWidth(self.label_47.sizePolicy().hasHeightForWidth())
+        self.label_47.setSizePolicy(sizePolicy)
+        self.label_47.setPixmap(QPixmap(u"images/images/graphic.png"))
+        self.label_47.setScaledContents(True)
+
+        self.gridLayout_53.addWidget(self.label_47, 1, 2, 1, 1)
+
+        self.listWidget_14 = QListWidget(self.monitoring)
+        self.listWidget_14.setObjectName(u"listWidget_14")
+        self.listWidget_14.setStyleSheet(u"background-color: rgb(52, 59, 72);")
+
+        self.gridLayout_53.addWidget(self.listWidget_14, 3, 0, 5, 2)
+
+        self.label_10 = QLabel(self.monitoring)
+        self.label_10.setObjectName(u"label_10")
+        self.label_10.setStyleSheet(u"font: 13pt \"Ubuntu\";")
+
+        self.gridLayout_53.addWidget(self.label_10, 0, 2, 1, 1)
 
         self.gridLayout_44 = QGridLayout()
-        self.gridLayout_44.setSpacing(20)
         self.gridLayout_44.setObjectName(u"gridLayout_44")
-        self.btn_run_scenario = QPushButton(self.monitoring)
-        self.btn_run_scenario.setObjectName(u"btn_run_scenario")
-        sizePolicy6.setHeightForWidth(self.btn_run_scenario.sizePolicy().hasHeightForWidth())
-        self.btn_run_scenario.setSizePolicy(sizePolicy6)
-        self.btn_run_scenario.setMinimumSize(QSize(200, 30))
-        self.btn_run_scenario.setCursor(QCursor(Qt.PointingHandCursor))
-        self.btn_run_scenario.setStyleSheet(u"background-color:black;\n"
-"color:white;")
-        self.btn_run_scenario.setIcon(icon17)
+        self.gridLayout_44.setHorizontalSpacing(20)
+        self.gridLayout_44.setVerticalSpacing(8)
+        self.btn_select_scenario = QPushButton(self.monitoring)
+        self.btn_select_scenario.setObjectName(u"btn_select_scenario")
+        sizePolicy6.setHeightForWidth(self.btn_select_scenario.sizePolicy().hasHeightForWidth())
+        self.btn_select_scenario.setSizePolicy(sizePolicy6)
+        self.btn_select_scenario.setMinimumSize(QSize(200, 30))
+        self.btn_select_scenario.setFont(font)
+        self.btn_select_scenario.setCursor(QCursor(Qt.PointingHandCursor))
+        self.btn_select_scenario.setStyleSheet(u"background-color: rgb(52, 59, 72);")
+        self.btn_select_scenario.setIcon(icon8)
 
-        self.gridLayout_44.addWidget(self.btn_run_scenario, 3, 1, 1, 1)
-
-        self.label_87 = QLabel(self.monitoring)
-        self.label_87.setObjectName(u"label_87")
-
-        self.gridLayout_44.addWidget(self.label_87, 4, 1, 1, 1)
-
-        self.btn_create_report = QPushButton(self.monitoring)
-        self.btn_create_report.setObjectName(u"btn_create_report")
-        sizePolicy6.setHeightForWidth(self.btn_create_report.sizePolicy().hasHeightForWidth())
-        self.btn_create_report.setSizePolicy(sizePolicy6)
-        self.btn_create_report.setMinimumSize(QSize(200, 50))
-        self.btn_create_report.setFont(font)
-        self.btn_create_report.setCursor(QCursor(Qt.PointingHandCursor))
-        self.btn_create_report.setStyleSheet(u"background-color: black;\n"
-"color:white;")
-        icon21 = QIcon()
-        icon21.addFile(u":/icons/images/icons/cil-task.png", QSize(), QIcon.Normal, QIcon.Off)
-        self.btn_create_report.setIcon(icon21)
-
-        self.gridLayout_44.addWidget(self.btn_create_report, 5, 1, 1, 1)
-
-        self.verticalSpacer_5 = QSpacerItem(20, 40, QSizePolicy.Minimum, QSizePolicy.Expanding)
-
-        self.gridLayout_44.addItem(self.verticalSpacer_5, 8, 1, 1, 1)
+        self.gridLayout_44.addWidget(self.btn_select_scenario, 3, 1, 1, 1)
 
         self.listWidget_12 = QListWidget(self.monitoring)
         QListWidgetItem(self.listWidget_12)
@@ -3221,46 +3193,60 @@ class Ui_MainWindow(object):
         self.listWidget_12.setSizePolicy(sizePolicy)
         self.listWidget_12.setStyleSheet(u"background-color: rgb(52, 59, 72);")
 
-        self.gridLayout_44.addWidget(self.listWidget_12, 2, 0, 7, 1)
-
-        self.btn_select_scenario = QPushButton(self.monitoring)
-        self.btn_select_scenario.setObjectName(u"btn_select_scenario")
-        sizePolicy6.setHeightForWidth(self.btn_select_scenario.sizePolicy().hasHeightForWidth())
-        self.btn_select_scenario.setSizePolicy(sizePolicy6)
-        self.btn_select_scenario.setMinimumSize(QSize(200, 30))
-        self.btn_select_scenario.setFont(font)
-        self.btn_select_scenario.setCursor(QCursor(Qt.PointingHandCursor))
-        self.btn_select_scenario.setStyleSheet(u"background-color: rgb(52, 59, 72);")
-        self.btn_select_scenario.setIcon(icon8)
-
-        self.gridLayout_44.addWidget(self.btn_select_scenario, 2, 1, 1, 1)
-
-        self.label_77 = QLabel(self.monitoring)
-        self.label_77.setObjectName(u"label_77")
-        sizePolicy1.setHeightForWidth(self.label_77.sizePolicy().hasHeightForWidth())
-        self.label_77.setSizePolicy(sizePolicy1)
-
-        self.gridLayout_44.addWidget(self.label_77, 7, 1, 1, 1)
-
-        self.label_47 = QLabel(self.monitoring)
-        self.label_47.setObjectName(u"label_47")
-        sizePolicy.setHeightForWidth(self.label_47.sizePolicy().hasHeightForWidth())
-        self.label_47.setSizePolicy(sizePolicy)
-        self.label_47.setPixmap(QPixmap(u"images/images/graphic.png"))
-        self.label_47.setScaledContents(True)
-
-        self.gridLayout_44.addWidget(self.label_47, 0, 0, 1, 2)
+        self.gridLayout_44.addWidget(self.listWidget_12, 1, 1, 1, 2)
 
         self.label_3 = QLabel(self.monitoring)
         self.label_3.setObjectName(u"label_3")
         self.label_3.setStyleSheet(u"font: 13pt \"Ubuntu\";")
 
-        self.gridLayout_44.addWidget(self.label_3, 1, 0, 1, 2)
+        self.gridLayout_44.addWidget(self.label_3, 0, 1, 1, 2)
+
+        self.btn_run_scenario = QPushButton(self.monitoring)
+        self.btn_run_scenario.setObjectName(u"btn_run_scenario")
+        sizePolicy6.setHeightForWidth(self.btn_run_scenario.sizePolicy().hasHeightForWidth())
+        self.btn_run_scenario.setSizePolicy(sizePolicy6)
+        self.btn_run_scenario.setMinimumSize(QSize(200, 30))
+        self.btn_run_scenario.setCursor(QCursor(Qt.PointingHandCursor))
+        self.btn_run_scenario.setStyleSheet(u"background-color:black;\n"
+"color:white;")
+        self.btn_run_scenario.setIcon(icon17)
+
+        self.gridLayout_44.addWidget(self.btn_run_scenario, 3, 2, 1, 1)
+
+        self.label_7 = QLabel(self.monitoring)
+        self.label_7.setObjectName(u"label_7")
+        self.label_7.setStyleSheet(u"font: 13pt \"Ubuntu\";")
+
+        self.gridLayout_44.addWidget(self.label_7, 0, 0, 1, 1)
+
+        self.gridLayout_9 = QGridLayout()
+        self.gridLayout_9.setObjectName(u"gridLayout_9")
+        self.gridLayout_9.setHorizontalSpacing(20)
+        self.gridLayout_9.setVerticalSpacing(10)
+        self.label_87 = QLabel(self.monitoring)
+        self.label_87.setObjectName(u"label_87")
+
+        self.gridLayout_9.addWidget(self.label_87, 0, 0, 2, 1)
+
+        self.btn_create_report = QPushButton(self.monitoring)
+        self.btn_create_report.setObjectName(u"btn_create_report")
+        sizePolicy2.setHeightForWidth(self.btn_create_report.sizePolicy().hasHeightForWidth())
+        self.btn_create_report.setSizePolicy(sizePolicy2)
+        self.btn_create_report.setMinimumSize(QSize(200, 50))
+        self.btn_create_report.setFont(font)
+        self.btn_create_report.setCursor(QCursor(Qt.PointingHandCursor))
+        self.btn_create_report.setStyleSheet(u"background-color: black;\n"
+"color:white;")
+        icon21 = QIcon()
+        icon21.addFile(u":/icons/images/icons/cil-task.png", QSize(), QIcon.Normal, QIcon.Off)
+        self.btn_create_report.setIcon(icon21)
+
+        self.gridLayout_9.addWidget(self.btn_create_report, 0, 1, 2, 1)
 
         self.btn_new_one = QPushButton(self.monitoring)
         self.btn_new_one.setObjectName(u"btn_new_one")
-        sizePolicy6.setHeightForWidth(self.btn_new_one.sizePolicy().hasHeightForWidth())
-        self.btn_new_one.setSizePolicy(sizePolicy6)
+        sizePolicy.setHeightForWidth(self.btn_new_one.sizePolicy().hasHeightForWidth())
+        self.btn_new_one.setSizePolicy(sizePolicy)
         self.btn_new_one.setMinimumSize(QSize(200, 50))
         self.btn_new_one.setCursor(QCursor(Qt.PointingHandCursor))
         self.btn_new_one.setStyleSheet(u"background-color: rgb(52, 59, 72);")
@@ -3268,16 +3254,22 @@ class Ui_MainWindow(object):
         icon22.addFile(u":/icons/images/icons/cil-star.png", QSize(), QIcon.Normal, QIcon.Off)
         self.btn_new_one.setIcon(icon22)
 
-        self.gridLayout_44.addWidget(self.btn_new_one, 6, 1, 1, 1)
+        self.gridLayout_9.addWidget(self.btn_new_one, 0, 2, 2, 1)
 
 
-        self.gridLayout_20.addLayout(self.gridLayout_44, 1, 2, 5, 1)
+        self.gridLayout_44.addLayout(self.gridLayout_9, 5, 0, 1, 3)
+
+        self.listWidget_9 = QListWidget(self.monitoring)
+        self.listWidget_9.setObjectName(u"listWidget_9")
+        self.listWidget_9.setStyleSheet(u"background-color: rgb(52, 59, 72);")
+
+        self.gridLayout_44.addWidget(self.listWidget_9, 1, 0, 3, 1)
 
 
-        self.gridLayout_9.addLayout(self.gridLayout_20, 0, 0, 7, 5)
+        self.gridLayout_53.addLayout(self.gridLayout_44, 2, 2, 6, 1)
 
 
-        self.verticalLayout_10.addLayout(self.gridLayout_9)
+        self.verticalLayout_10.addLayout(self.gridLayout_53)
 
         self.stackedWidget.addWidget(self.monitoring)
         self.selectMetrics = QWidget()
@@ -3289,57 +3281,24 @@ class Ui_MainWindow(object):
         self.gridLayout_14.setObjectName(u"gridLayout_14")
         self.gridLayout_14.setHorizontalSpacing(20)
         self.gridLayout_14.setVerticalSpacing(10)
-        self.label_37 = QLabel(self.selectMetrics)
-        self.label_37.setObjectName(u"label_37")
-        sizePolicy8.setHeightForWidth(self.label_37.sizePolicy().hasHeightForWidth())
-        self.label_37.setSizePolicy(sizePolicy8)
-        self.label_37.setStyleSheet(u"")
-
-        self.gridLayout_14.addWidget(self.label_37, 0, 1, 1, 1)
-
-        self.textEdit_9 = QTextEdit(self.selectMetrics)
-        self.textEdit_9.setObjectName(u"textEdit_9")
-        sizePolicy9 = QSizePolicy(QSizePolicy.Fixed, QSizePolicy.Expanding)
-        sizePolicy9.setHorizontalStretch(0)
-        sizePolicy9.setVerticalStretch(0)
-        sizePolicy9.setHeightForWidth(self.textEdit_9.sizePolicy().hasHeightForWidth())
-        self.textEdit_9.setSizePolicy(sizePolicy9)
-        self.textEdit_9.setMinimumSize(QSize(500, 0))
-        self.textEdit_9.setStyleSheet(u"background-color: rgb(52, 59, 72);")
-
-        self.gridLayout_14.addWidget(self.textEdit_9, 5, 0, 1, 2, Qt.AlignHCenter)
-
         self.label_25 = QLabel(self.selectMetrics)
         self.label_25.setObjectName(u"label_25")
         self.label_25.setStyleSheet(u"")
 
         self.gridLayout_14.addWidget(self.label_25, 0, 0, 1, 1)
 
-        self.btn_metric_list = QPushButton(self.selectMetrics)
-        self.btn_metric_list.setObjectName(u"btn_metric_list")
-        sizePolicy6.setHeightForWidth(self.btn_metric_list.sizePolicy().hasHeightForWidth())
-        self.btn_metric_list.setSizePolicy(sizePolicy6)
-        self.btn_metric_list.setMinimumSize(QSize(120, 30))
-        self.btn_metric_list.setStyleSheet(u"background-color: rgb(52, 59, 72);")
-        self.btn_metric_list.setIcon(icon5)
-
-        self.gridLayout_14.addWidget(self.btn_metric_list, 3, 0, 1, 1, Qt.AlignHCenter)
-
-        self.saveMetrics = QPushButton(self.selectMetrics)
-        self.saveMetrics.setObjectName(u"saveMetrics")
-        sizePolicy6.setHeightForWidth(self.saveMetrics.sizePolicy().hasHeightForWidth())
-        self.saveMetrics.setSizePolicy(sizePolicy6)
-        self.saveMetrics.setMinimumSize(QSize(120, 30))
-        self.saveMetrics.setCursor(QCursor(Qt.PointingHandCursor))
-        self.saveMetrics.setStyleSheet(u"background-color: rgb(52, 59, 72);")
-        self.saveMetrics.setIcon(icon6)
-
-        self.gridLayout_14.addWidget(self.saveMetrics, 3, 1, 1, 1, Qt.AlignHCenter)
-
         self.label_35 = QLabel(self.selectMetrics)
         self.label_35.setObjectName(u"label_35")
 
-        self.gridLayout_14.addWidget(self.label_35, 4, 0, 1, 2, Qt.AlignHCenter)
+        self.gridLayout_14.addWidget(self.label_35, 0, 1, 1, 1)
+
+        self.label_37 = QLabel(self.selectMetrics)
+        self.label_37.setObjectName(u"label_37")
+        sizePolicy8.setHeightForWidth(self.label_37.sizePolicy().hasHeightForWidth())
+        self.label_37.setSizePolicy(sizePolicy8)
+        self.label_37.setStyleSheet(u"")
+
+        self.gridLayout_14.addWidget(self.label_37, 0, 2, 1, 1)
 
         self.listWidget_18 = QListWidget(self.selectMetrics)
         font8 = QFont()
@@ -3366,19 +3325,52 @@ class Ui_MainWindow(object):
         self.listWidget_18.setObjectName(u"listWidget_18")
         sizePolicy.setHeightForWidth(self.listWidget_18.sizePolicy().hasHeightForWidth())
         self.listWidget_18.setSizePolicy(sizePolicy)
-        self.listWidget_18.setMaximumSize(QSize(500, 16777215))
+        self.listWidget_18.setMaximumSize(QSize(16777215, 16777215))
         self.listWidget_18.setStyleSheet(u"background-color: rgb(52, 59, 72);")
 
-        self.gridLayout_14.addWidget(self.listWidget_18, 1, 0, 2, 1)
+        self.gridLayout_14.addWidget(self.listWidget_18, 1, 0, 5, 1)
+
+        self.btn_metric_list = QPushButton(self.selectMetrics)
+        self.btn_metric_list.setObjectName(u"btn_metric_list")
+        sizePolicy2.setHeightForWidth(self.btn_metric_list.sizePolicy().hasHeightForWidth())
+        self.btn_metric_list.setSizePolicy(sizePolicy2)
+        self.btn_metric_list.setMinimumSize(QSize(120, 30))
+        self.btn_metric_list.setStyleSheet(u"background-color: rgb(52, 59, 72);")
+        self.btn_metric_list.setIcon(icon5)
+
+        self.gridLayout_14.addWidget(self.btn_metric_list, 6, 0, 1, 1)
+
+        self.saveMetrics = QPushButton(self.selectMetrics)
+        self.saveMetrics.setObjectName(u"saveMetrics")
+        sizePolicy2.setHeightForWidth(self.saveMetrics.sizePolicy().hasHeightForWidth())
+        self.saveMetrics.setSizePolicy(sizePolicy2)
+        self.saveMetrics.setMinimumSize(QSize(120, 30))
+        self.saveMetrics.setCursor(QCursor(Qt.PointingHandCursor))
+        self.saveMetrics.setStyleSheet(u"background-color: rgb(52, 59, 72);")
+        self.saveMetrics.setIcon(icon6)
+
+        self.gridLayout_14.addWidget(self.saveMetrics, 6, 2, 1, 1)
 
         self.listWidget_15 = QListWidget(self.selectMetrics)
         self.listWidget_15.setObjectName(u"listWidget_15")
+        sizePolicy9 = QSizePolicy(QSizePolicy.Fixed, QSizePolicy.Expanding)
+        sizePolicy9.setHorizontalStretch(0)
+        sizePolicy9.setVerticalStretch(0)
         sizePolicy9.setHeightForWidth(self.listWidget_15.sizePolicy().hasHeightForWidth())
         self.listWidget_15.setSizePolicy(sizePolicy9)
         self.listWidget_15.setMinimumSize(QSize(400, 200))
         self.listWidget_15.setStyleSheet(u"background-color: rgb(52, 59, 72);")
 
-        self.gridLayout_14.addWidget(self.listWidget_15, 1, 1, 2, 1)
+        self.gridLayout_14.addWidget(self.listWidget_15, 1, 2, 5, 1)
+
+        self.textEdit_9 = QTextEdit(self.selectMetrics)
+        self.textEdit_9.setObjectName(u"textEdit_9")
+        sizePolicy9.setHeightForWidth(self.textEdit_9.sizePolicy().hasHeightForWidth())
+        self.textEdit_9.setSizePolicy(sizePolicy9)
+        self.textEdit_9.setMinimumSize(QSize(500, 0))
+        self.textEdit_9.setStyleSheet(u"background-color: rgb(52, 59, 72);")
+
+        self.gridLayout_14.addWidget(self.textEdit_9, 1, 1, 6, 1)
 
 
         self.verticalLayout_52.addLayout(self.gridLayout_14)
@@ -4262,7 +4254,7 @@ class Ui_MainWindow(object):
 
         self.retranslateUi(MainWindow)
 
-        self.stackedWidget.setCurrentIndex(4)
+        self.stackedWidget.setCurrentIndex(6)
 
 
         QMetaObject.connectSlotsByName(MainWindow)
@@ -4402,181 +4394,193 @@ class Ui_MainWindow(object):
         ___qlistwidgetitem25 = self.code_snippet_list.item(25)
         ___qlistwidgetitem25.setText(QCoreApplication.translate("MainWindow", u"with", None));
         ___qlistwidgetitem26 = self.code_snippet_list.item(26)
-        ___qlistwidgetitem26.setText(QCoreApplication.translate("MainWindow", u"abs()", None));
+        ___qlistwidgetitem26.setText(QCoreApplication.translate("MainWindow", u"yield", None));
         ___qlistwidgetitem27 = self.code_snippet_list.item(27)
-        ___qlistwidgetitem27.setText(QCoreApplication.translate("MainWindow", u"all()", None));
+        ___qlistwidgetitem27.setText(QCoreApplication.translate("MainWindow", u"abs()", None));
         ___qlistwidgetitem28 = self.code_snippet_list.item(28)
-        ___qlistwidgetitem28.setText(QCoreApplication.translate("MainWindow", u"any()", None));
+        ___qlistwidgetitem28.setText(QCoreApplication.translate("MainWindow", u"all()", None));
         ___qlistwidgetitem29 = self.code_snippet_list.item(29)
         ___qlistwidgetitem29.setText(QCoreApplication.translate("MainWindow", u"ascii()", None));
         ___qlistwidgetitem30 = self.code_snippet_list.item(30)
         ___qlistwidgetitem30.setText(QCoreApplication.translate("MainWindow", u"bin()", None));
         ___qlistwidgetitem31 = self.code_snippet_list.item(31)
-        ___qlistwidgetitem31.setText(QCoreApplication.translate("MainWindow", u"bytearray()", None));
+        ___qlistwidgetitem31.setText(QCoreApplication.translate("MainWindow", u"bool()", None));
         ___qlistwidgetitem32 = self.code_snippet_list.item(32)
-        ___qlistwidgetitem32.setText(QCoreApplication.translate("MainWindow", u"bytes()", None));
+        ___qlistwidgetitem32.setText(QCoreApplication.translate("MainWindow", u"bytearray()", None));
         ___qlistwidgetitem33 = self.code_snippet_list.item(33)
-        ___qlistwidgetitem33.setText(QCoreApplication.translate("MainWindow", u"bool()", None));
+        ___qlistwidgetitem33.setText(QCoreApplication.translate("MainWindow", u"bytes()", None));
         ___qlistwidgetitem34 = self.code_snippet_list.item(34)
-        ___qlistwidgetitem34.setText(QCoreApplication.translate("MainWindow", u"callable()", None));
+        ___qlistwidgetitem34.setText(QCoreApplication.translate("MainWindow", u"chr()", None));
         ___qlistwidgetitem35 = self.code_snippet_list.item(35)
-        ___qlistwidgetitem35.setText(QCoreApplication.translate("MainWindow", u"chr()", None));
+        ___qlistwidgetitem35.setText(QCoreApplication.translate("MainWindow", u"delattr()", None));
         ___qlistwidgetitem36 = self.code_snippet_list.item(36)
-        ___qlistwidgetitem36.setText(QCoreApplication.translate("MainWindow", u"classmethod()", None));
+        ___qlistwidgetitem36.setText(QCoreApplication.translate("MainWindow", u"dict()", None));
         ___qlistwidgetitem37 = self.code_snippet_list.item(37)
-        ___qlistwidgetitem37.setText(QCoreApplication.translate("MainWindow", u"compile()", None));
+        ___qlistwidgetitem37.setText(QCoreApplication.translate("MainWindow", u"divmod()", None));
         ___qlistwidgetitem38 = self.code_snippet_list.item(38)
-        ___qlistwidgetitem38.setText(QCoreApplication.translate("MainWindow", u"complex()", None));
+        ___qlistwidgetitem38.setText(QCoreApplication.translate("MainWindow", u"enumerate()", None));
         ___qlistwidgetitem39 = self.code_snippet_list.item(39)
-        ___qlistwidgetitem39.setText(QCoreApplication.translate("MainWindow", u"delattr()", None));
+        ___qlistwidgetitem39.setText(QCoreApplication.translate("MainWindow", u"eval()", None));
         ___qlistwidgetitem40 = self.code_snippet_list.item(40)
-        ___qlistwidgetitem40.setText(QCoreApplication.translate("MainWindow", u"dict()", None));
+        ___qlistwidgetitem40.setText(QCoreApplication.translate("MainWindow", u"exec()", None));
         ___qlistwidgetitem41 = self.code_snippet_list.item(41)
-        ___qlistwidgetitem41.setText(QCoreApplication.translate("MainWindow", u"dir()", None));
+        ___qlistwidgetitem41.setText(QCoreApplication.translate("MainWindow", u"filter()", None));
         ___qlistwidgetitem42 = self.code_snippet_list.item(42)
-        ___qlistwidgetitem42.setText(QCoreApplication.translate("MainWindow", u"divmod()", None));
+        ___qlistwidgetitem42.setText(QCoreApplication.translate("MainWindow", u"float()", None));
         ___qlistwidgetitem43 = self.code_snippet_list.item(43)
-        ___qlistwidgetitem43.setText(QCoreApplication.translate("MainWindow", u"enumerate()", None));
+        ___qlistwidgetitem43.setText(QCoreApplication.translate("MainWindow", u"frozenset()", None));
         ___qlistwidgetitem44 = self.code_snippet_list.item(44)
-        ___qlistwidgetitem44.setText(QCoreApplication.translate("MainWindow", u"eval()", None));
+        ___qlistwidgetitem44.setText(QCoreApplication.translate("MainWindow", u"getattr()", None));
         ___qlistwidgetitem45 = self.code_snippet_list.item(45)
-        ___qlistwidgetitem45.setText(QCoreApplication.translate("MainWindow", u"exec()", None));
+        ___qlistwidgetitem45.setText(QCoreApplication.translate("MainWindow", u"hasattr()", None));
         ___qlistwidgetitem46 = self.code_snippet_list.item(46)
-        ___qlistwidgetitem46.setText(QCoreApplication.translate("MainWindow", u"filter()", None));
+        ___qlistwidgetitem46.setText(QCoreApplication.translate("MainWindow", u"hash()", None));
         ___qlistwidgetitem47 = self.code_snippet_list.item(47)
-        ___qlistwidgetitem47.setText(QCoreApplication.translate("MainWindow", u"float()", None));
+        ___qlistwidgetitem47.setText(QCoreApplication.translate("MainWindow", u"help()", None));
         ___qlistwidgetitem48 = self.code_snippet_list.item(48)
-        ___qlistwidgetitem48.setText(QCoreApplication.translate("MainWindow", u"format()", None));
+        ___qlistwidgetitem48.setText(QCoreApplication.translate("MainWindow", u"hex()", None));
         ___qlistwidgetitem49 = self.code_snippet_list.item(49)
-        ___qlistwidgetitem49.setText(QCoreApplication.translate("MainWindow", u"frozenset()", None));
+        ___qlistwidgetitem49.setText(QCoreApplication.translate("MainWindow", u"id()", None));
         ___qlistwidgetitem50 = self.code_snippet_list.item(50)
-        ___qlistwidgetitem50.setText(QCoreApplication.translate("MainWindow", u"getattr()", None));
+        ___qlistwidgetitem50.setText(QCoreApplication.translate("MainWindow", u"int()", None));
         ___qlistwidgetitem51 = self.code_snippet_list.item(51)
-        ___qlistwidgetitem51.setText(QCoreApplication.translate("MainWindow", u"globals()", None));
+        ___qlistwidgetitem51.setText(QCoreApplication.translate("MainWindow", u"isinstance()", None));
         ___qlistwidgetitem52 = self.code_snippet_list.item(52)
-        ___qlistwidgetitem52.setText(QCoreApplication.translate("MainWindow", u"hasattr()", None));
+        ___qlistwidgetitem52.setText(QCoreApplication.translate("MainWindow", u"iter()", None));
         ___qlistwidgetitem53 = self.code_snippet_list.item(53)
-        ___qlistwidgetitem53.setText(QCoreApplication.translate("MainWindow", u"hash()", None));
+        ___qlistwidgetitem53.setText(QCoreApplication.translate("MainWindow", u"len()", None));
         ___qlistwidgetitem54 = self.code_snippet_list.item(54)
-        ___qlistwidgetitem54.setText(QCoreApplication.translate("MainWindow", u"help()", None));
+        ___qlistwidgetitem54.setText(QCoreApplication.translate("MainWindow", u"list()", None));
         ___qlistwidgetitem55 = self.code_snippet_list.item(55)
-        ___qlistwidgetitem55.setText(QCoreApplication.translate("MainWindow", u"hex()", None));
+        ___qlistwidgetitem55.setText(QCoreApplication.translate("MainWindow", u"map()", None));
         ___qlistwidgetitem56 = self.code_snippet_list.item(56)
-        ___qlistwidgetitem56.setText(QCoreApplication.translate("MainWindow", u"id()", None));
+        ___qlistwidgetitem56.setText(QCoreApplication.translate("MainWindow", u"max()", None));
         ___qlistwidgetitem57 = self.code_snippet_list.item(57)
-        ___qlistwidgetitem57.setText(QCoreApplication.translate("MainWindow", u"input()", None));
+        ___qlistwidgetitem57.setText(QCoreApplication.translate("MainWindow", u"memoryview()", None));
         ___qlistwidgetitem58 = self.code_snippet_list.item(58)
-        ___qlistwidgetitem58.setText(QCoreApplication.translate("MainWindow", u"int()", None));
+        ___qlistwidgetitem58.setText(QCoreApplication.translate("MainWindow", u"min()", None));
         ___qlistwidgetitem59 = self.code_snippet_list.item(59)
-        ___qlistwidgetitem59.setText(QCoreApplication.translate("MainWindow", u"isinstance()", None));
+        ___qlistwidgetitem59.setText(QCoreApplication.translate("MainWindow", u"next()", None));
         ___qlistwidgetitem60 = self.code_snippet_list.item(60)
-        ___qlistwidgetitem60.setText(QCoreApplication.translate("MainWindow", u"issubclass()", None));
+        ___qlistwidgetitem60.setText(QCoreApplication.translate("MainWindow", u"oct()", None));
         ___qlistwidgetitem61 = self.code_snippet_list.item(61)
-        ___qlistwidgetitem61.setText(QCoreApplication.translate("MainWindow", u"iter()", None));
+        ___qlistwidgetitem61.setText(QCoreApplication.translate("MainWindow", u"open()", None));
         ___qlistwidgetitem62 = self.code_snippet_list.item(62)
-        ___qlistwidgetitem62.setText(QCoreApplication.translate("MainWindow", u"len()", None));
+        ___qlistwidgetitem62.setText(QCoreApplication.translate("MainWindow", u"ord()", None));
         ___qlistwidgetitem63 = self.code_snippet_list.item(63)
-        ___qlistwidgetitem63.setText(QCoreApplication.translate("MainWindow", u"list()", None));
+        ___qlistwidgetitem63.setText(QCoreApplication.translate("MainWindow", u"pow()", None));
         ___qlistwidgetitem64 = self.code_snippet_list.item(64)
-        ___qlistwidgetitem64.setText(QCoreApplication.translate("MainWindow", u"locals()", None));
+        ___qlistwidgetitem64.setText(QCoreApplication.translate("MainWindow", u"property()", None));
         ___qlistwidgetitem65 = self.code_snippet_list.item(65)
-        ___qlistwidgetitem65.setText(QCoreApplication.translate("MainWindow", u"map()", None));
+        ___qlistwidgetitem65.setText(QCoreApplication.translate("MainWindow", u"range()", None));
         ___qlistwidgetitem66 = self.code_snippet_list.item(66)
-        ___qlistwidgetitem66.setText(QCoreApplication.translate("MainWindow", u"max()", None));
+        ___qlistwidgetitem66.setText(QCoreApplication.translate("MainWindow", u"reversed()", None));
         ___qlistwidgetitem67 = self.code_snippet_list.item(67)
-        ___qlistwidgetitem67.setText(QCoreApplication.translate("MainWindow", u"memoryview()", None));
+        ___qlistwidgetitem67.setText(QCoreApplication.translate("MainWindow", u"round()", None));
         ___qlistwidgetitem68 = self.code_snippet_list.item(68)
-        ___qlistwidgetitem68.setText(QCoreApplication.translate("MainWindow", u"min()", None));
+        ___qlistwidgetitem68.setText(QCoreApplication.translate("MainWindow", u"set()", None));
         ___qlistwidgetitem69 = self.code_snippet_list.item(69)
-        ___qlistwidgetitem69.setText(QCoreApplication.translate("MainWindow", u"next()", None));
+        ___qlistwidgetitem69.setText(QCoreApplication.translate("MainWindow", u"setattr()", None));
         ___qlistwidgetitem70 = self.code_snippet_list.item(70)
-        ___qlistwidgetitem70.setText(QCoreApplication.translate("MainWindow", u"object()", None));
+        ___qlistwidgetitem70.setText(QCoreApplication.translate("MainWindow", u"slice()", None));
         ___qlistwidgetitem71 = self.code_snippet_list.item(71)
-        ___qlistwidgetitem71.setText(QCoreApplication.translate("MainWindow", u"oct()", None));
+        ___qlistwidgetitem71.setText(QCoreApplication.translate("MainWindow", u"sorted()", None));
         ___qlistwidgetitem72 = self.code_snippet_list.item(72)
-        ___qlistwidgetitem72.setText(QCoreApplication.translate("MainWindow", u"open()", None));
+        ___qlistwidgetitem72.setText(QCoreApplication.translate("MainWindow", u"str()", None));
         ___qlistwidgetitem73 = self.code_snippet_list.item(73)
-        ___qlistwidgetitem73.setText(QCoreApplication.translate("MainWindow", u"ord()", None));
+        ___qlistwidgetitem73.setText(QCoreApplication.translate("MainWindow", u"sum()", None));
         ___qlistwidgetitem74 = self.code_snippet_list.item(74)
-        ___qlistwidgetitem74.setText(QCoreApplication.translate("MainWindow", u"pow()", None));
+        ___qlistwidgetitem74.setText(QCoreApplication.translate("MainWindow", u"tuple()", None));
         ___qlistwidgetitem75 = self.code_snippet_list.item(75)
-        ___qlistwidgetitem75.setText(QCoreApplication.translate("MainWindow", u"property()", None));
+        ___qlistwidgetitem75.setText(QCoreApplication.translate("MainWindow", u"type()", None));
         ___qlistwidgetitem76 = self.code_snippet_list.item(76)
-        ___qlistwidgetitem76.setText(QCoreApplication.translate("MainWindow", u"range()", None));
+        ___qlistwidgetitem76.setText(QCoreApplication.translate("MainWindow", u"vars()", None));
         ___qlistwidgetitem77 = self.code_snippet_list.item(77)
-        ___qlistwidgetitem77.setText(QCoreApplication.translate("MainWindow", u"repr()", None));
+        ___qlistwidgetitem77.setText(QCoreApplication.translate("MainWindow", u"zip()", None));
         ___qlistwidgetitem78 = self.code_snippet_list.item(78)
-        ___qlistwidgetitem78.setText(QCoreApplication.translate("MainWindow", u"reversed()", None));
+        ___qlistwidgetitem78.setText(QCoreApplication.translate("MainWindow", u"count()", None));
         ___qlistwidgetitem79 = self.code_snippet_list.item(79)
-        ___qlistwidgetitem79.setText(QCoreApplication.translate("MainWindow", u"round()", None));
+        ___qlistwidgetitem79.setText(QCoreApplication.translate("MainWindow", u"index()", None));
         ___qlistwidgetitem80 = self.code_snippet_list.item(80)
-        ___qlistwidgetitem80.setText(QCoreApplication.translate("MainWindow", u"set()", None));
+        ___qlistwidgetitem80.setText(QCoreApplication.translate("MainWindow", u"fromkeys()", None));
         ___qlistwidgetitem81 = self.code_snippet_list.item(81)
-        ___qlistwidgetitem81.setText(QCoreApplication.translate("MainWindow", u"setattr()", None));
+        ___qlistwidgetitem81.setText(QCoreApplication.translate("MainWindow", u"get()", None));
         ___qlistwidgetitem82 = self.code_snippet_list.item(82)
-        ___qlistwidgetitem82.setText(QCoreApplication.translate("MainWindow", u"slice()", None));
+        ___qlistwidgetitem82.setText(QCoreApplication.translate("MainWindow", u"update()", None));
         ___qlistwidgetitem83 = self.code_snippet_list.item(83)
-        ___qlistwidgetitem83.setText(QCoreApplication.translate("MainWindow", u"sorted()", None));
+        ___qlistwidgetitem83.setText(QCoreApplication.translate("MainWindow", u"append()", None));
         ___qlistwidgetitem84 = self.code_snippet_list.item(84)
-        ___qlistwidgetitem84.setText(QCoreApplication.translate("MainWindow", u"staticmethod()", None));
+        ___qlistwidgetitem84.setText(QCoreApplication.translate("MainWindow", u"extend()", None));
         ___qlistwidgetitem85 = self.code_snippet_list.item(85)
-        ___qlistwidgetitem85.setText(QCoreApplication.translate("MainWindow", u"str()", None));
+        ___qlistwidgetitem85.setText(QCoreApplication.translate("MainWindow", u"insert()", None));
         ___qlistwidgetitem86 = self.code_snippet_list.item(86)
-        ___qlistwidgetitem86.setText(QCoreApplication.translate("MainWindow", u"sum()", None));
+        ___qlistwidgetitem86.setText(QCoreApplication.translate("MainWindow", u"remove()", None));
         ___qlistwidgetitem87 = self.code_snippet_list.item(87)
-        ___qlistwidgetitem87.setText(QCoreApplication.translate("MainWindow", u"super()", None));
+        ___qlistwidgetitem87.setText(QCoreApplication.translate("MainWindow", u"seek()", None));
         ___qlistwidgetitem88 = self.code_snippet_list.item(88)
-        ___qlistwidgetitem88.setText(QCoreApplication.translate("MainWindow", u"tuple()", None));
+        ___qlistwidgetitem88.setText(QCoreApplication.translate("MainWindow", u"truncate()", None));
         ___qlistwidgetitem89 = self.code_snippet_list.item(89)
-        ___qlistwidgetitem89.setText(QCoreApplication.translate("MainWindow", u"type()", None));
+        ___qlistwidgetitem89.setText(QCoreApplication.translate("MainWindow", u"write()", None));
         ___qlistwidgetitem90 = self.code_snippet_list.item(90)
-        ___qlistwidgetitem90.setText(QCoreApplication.translate("MainWindow", u"vars()", None));
+        ___qlistwidgetitem90.setText(QCoreApplication.translate("MainWindow", u"writelines()", None));
         ___qlistwidgetitem91 = self.code_snippet_list.item(91)
-        ___qlistwidgetitem91.setText(QCoreApplication.translate("MainWindow", u"zip()", None));
+        ___qlistwidgetitem91.setText(QCoreApplication.translate("MainWindow", u"add()", None));
         ___qlistwidgetitem92 = self.code_snippet_list.item(92)
-        ___qlistwidgetitem92.setText(QCoreApplication.translate("MainWindow", u"count()", None));
+        ___qlistwidgetitem92.setText(QCoreApplication.translate("MainWindow", u"difference()", None));
         ___qlistwidgetitem93 = self.code_snippet_list.item(93)
-        ___qlistwidgetitem93.setText(QCoreApplication.translate("MainWindow", u"index()", None));
+        ___qlistwidgetitem93.setText(QCoreApplication.translate("MainWindow", u"difference_update()", None));
         ___qlistwidgetitem94 = self.code_snippet_list.item(94)
-        ___qlistwidgetitem94.setText(QCoreApplication.translate("MainWindow", u"clear()", None));
+        ___qlistwidgetitem94.setText(QCoreApplication.translate("MainWindow", u"discard()", None));
         ___qlistwidgetitem95 = self.code_snippet_list.item(95)
-        ___qlistwidgetitem95.setText(QCoreApplication.translate("MainWindow", u"copy()", None));
+        ___qlistwidgetitem95.setText(QCoreApplication.translate("MainWindow", u"intersection()", None));
         ___qlistwidgetitem96 = self.code_snippet_list.item(96)
-        ___qlistwidgetitem96.setText(QCoreApplication.translate("MainWindow", u"fromkeys()", None));
+        ___qlistwidgetitem96.setText(QCoreApplication.translate("MainWindow", u"intersection_update()", None));
         ___qlistwidgetitem97 = self.code_snippet_list.item(97)
-        ___qlistwidgetitem97.setText(QCoreApplication.translate("MainWindow", u"get()", None));
+        ___qlistwidgetitem97.setText(QCoreApplication.translate("MainWindow", u"isdisjoint()", None));
         ___qlistwidgetitem98 = self.code_snippet_list.item(98)
-        ___qlistwidgetitem98.setText(QCoreApplication.translate("MainWindow", u"items()", None));
+        ___qlistwidgetitem98.setText(QCoreApplication.translate("MainWindow", u"issubset()", None));
         ___qlistwidgetitem99 = self.code_snippet_list.item(99)
-        ___qlistwidgetitem99.setText(QCoreApplication.translate("MainWindow", u"keys()", None));
+        ___qlistwidgetitem99.setText(QCoreApplication.translate("MainWindow", u"issuperset()", None));
         ___qlistwidgetitem100 = self.code_snippet_list.item(100)
-        ___qlistwidgetitem100.setText(QCoreApplication.translate("MainWindow", u"pop()", None));
+        ___qlistwidgetitem100.setText(QCoreApplication.translate("MainWindow", u"symmetric_difference()", None));
         ___qlistwidgetitem101 = self.code_snippet_list.item(101)
-        ___qlistwidgetitem101.setText(QCoreApplication.translate("MainWindow", u"popitem()", None));
+        ___qlistwidgetitem101.setText(QCoreApplication.translate("MainWindow", u"symmetric_difference_update()", None));
         ___qlistwidgetitem102 = self.code_snippet_list.item(102)
-        ___qlistwidgetitem102.setText(QCoreApplication.translate("MainWindow", u"setdefault()", None));
+        ___qlistwidgetitem102.setText(QCoreApplication.translate("MainWindow", u"union()", None));
         ___qlistwidgetitem103 = self.code_snippet_list.item(103)
         ___qlistwidgetitem103.setText(QCoreApplication.translate("MainWindow", u"update()", None));
         ___qlistwidgetitem104 = self.code_snippet_list.item(104)
-        ___qlistwidgetitem104.setText(QCoreApplication.translate("MainWindow", u"values()", None));
+        ___qlistwidgetitem104.setText(QCoreApplication.translate("MainWindow", u"center()", None));
         ___qlistwidgetitem105 = self.code_snippet_list.item(105)
-        ___qlistwidgetitem105.setText(QCoreApplication.translate("MainWindow", u"append()", None));
+        ___qlistwidgetitem105.setText(QCoreApplication.translate("MainWindow", u"endswith()", None));
         ___qlistwidgetitem106 = self.code_snippet_list.item(106)
-        ___qlistwidgetitem106.setText(QCoreApplication.translate("MainWindow", u"clear()", None));
+        ___qlistwidgetitem106.setText(QCoreApplication.translate("MainWindow", u"expandtabs()", None));
         ___qlistwidgetitem107 = self.code_snippet_list.item(107)
-        ___qlistwidgetitem107.setText(QCoreApplication.translate("MainWindow", u"copy()", None));
+        ___qlistwidgetitem107.setText(QCoreApplication.translate("MainWindow", u"find()", None));
         ___qlistwidgetitem108 = self.code_snippet_list.item(108)
-        ___qlistwidgetitem108.setText(QCoreApplication.translate("MainWindow", u"extend()", None));
+        ___qlistwidgetitem108.setText(QCoreApplication.translate("MainWindow", u"join()", None));
         ___qlistwidgetitem109 = self.code_snippet_list.item(109)
-        ___qlistwidgetitem109.setText(QCoreApplication.translate("MainWindow", u"insert()", None));
+        ___qlistwidgetitem109.setText(QCoreApplication.translate("MainWindow", u"ljust()", None));
         ___qlistwidgetitem110 = self.code_snippet_list.item(110)
-        ___qlistwidgetitem110.setText(QCoreApplication.translate("MainWindow", u"remove()", None));
+        ___qlistwidgetitem110.setText(QCoreApplication.translate("MainWindow", u"maketrans()", None));
         ___qlistwidgetitem111 = self.code_snippet_list.item(111)
-        ___qlistwidgetitem111.setText(QCoreApplication.translate("MainWindow", u"reverse()", None));
+        ___qlistwidgetitem111.setText(QCoreApplication.translate("MainWindow", u"partition()", None));
         ___qlistwidgetitem112 = self.code_snippet_list.item(112)
-        ___qlistwidgetitem112.setText(QCoreApplication.translate("MainWindow", u"sort()", None));
+        ___qlistwidgetitem112.setText(QCoreApplication.translate("MainWindow", u"replace()", None));
         ___qlistwidgetitem113 = self.code_snippet_list.item(113)
-        ___qlistwidgetitem113.setText(QCoreApplication.translate("MainWindow", u"CUSTOM SNIPPETS", None));
+        ___qlistwidgetitem113.setText(QCoreApplication.translate("MainWindow", u"rfind()", None));
+        ___qlistwidgetitem114 = self.code_snippet_list.item(114)
+        ___qlistwidgetitem114.setText(QCoreApplication.translate("MainWindow", u"rindex()", None));
+        ___qlistwidgetitem115 = self.code_snippet_list.item(115)
+        ___qlistwidgetitem115.setText(QCoreApplication.translate("MainWindow", u"rjust()", None));
+        ___qlistwidgetitem116 = self.code_snippet_list.item(116)
+        ___qlistwidgetitem116.setText(QCoreApplication.translate("MainWindow", u"rpartition()", None));
+        ___qlistwidgetitem117 = self.code_snippet_list.item(117)
+        ___qlistwidgetitem117.setText(QCoreApplication.translate("MainWindow", u"startswith()", None));
+        ___qlistwidgetitem118 = self.code_snippet_list.item(118)
+        ___qlistwidgetitem118.setText(QCoreApplication.translate("MainWindow", u"zfill()", None));
+        ___qlistwidgetitem119 = self.code_snippet_list.item(119)
+        ___qlistwidgetitem119.setText(QCoreApplication.translate("MainWindow", u"CUSTOM SNIPPETS", None));
         self.code_snippet_list.setSortingEnabled(__sortingEnabled)
 
         self.btn_clear_workload.setText(QCoreApplication.translate("MainWindow", u"Clear", None))
@@ -4616,18 +4620,18 @@ class Ui_MainWindow(object):
 
         __sortingEnabled1 = self.listWidget_34.isSortingEnabled()
         self.listWidget_34.setSortingEnabled(False)
-        ___qlistwidgetitem114 = self.listWidget_34.item(0)
-        ___qlistwidgetitem114.setText(QCoreApplication.translate("MainWindow", u"ROS Initializing Node Mutation", None));
-        ___qlistwidgetitem115 = self.listWidget_34.item(1)
-        ___qlistwidgetitem115.setText(QCoreApplication.translate("MainWindow", u"ROS Pub-Sub Mutation", None));
-        ___qlistwidgetitem116 = self.listWidget_34.item(2)
-        ___qlistwidgetitem116.setText(QCoreApplication.translate("MainWindow", u"ROS Time Mutation", None));
-        ___qlistwidgetitem117 = self.listWidget_34.item(3)
-        ___qlistwidgetitem117.setText(QCoreApplication.translate("MainWindow", u"ROS Service Mutation", None));
-        ___qlistwidgetitem118 = self.listWidget_34.item(4)
-        ___qlistwidgetitem118.setText(QCoreApplication.translate("MainWindow", u"ROS Parameter Mutation", None));
-        ___qlistwidgetitem119 = self.listWidget_34.item(5)
-        ___qlistwidgetitem119.setText(QCoreApplication.translate("MainWindow", u"ROS Log Mutation", None));
+        ___qlistwidgetitem120 = self.listWidget_34.item(0)
+        ___qlistwidgetitem120.setText(QCoreApplication.translate("MainWindow", u"ROS Initializing Node Mutation", None));
+        ___qlistwidgetitem121 = self.listWidget_34.item(1)
+        ___qlistwidgetitem121.setText(QCoreApplication.translate("MainWindow", u"ROS Pub-Sub Mutation", None));
+        ___qlistwidgetitem122 = self.listWidget_34.item(2)
+        ___qlistwidgetitem122.setText(QCoreApplication.translate("MainWindow", u"ROS Time Mutation", None));
+        ___qlistwidgetitem123 = self.listWidget_34.item(3)
+        ___qlistwidgetitem123.setText(QCoreApplication.translate("MainWindow", u"ROS Service Mutation", None));
+        ___qlistwidgetitem124 = self.listWidget_34.item(4)
+        ___qlistwidgetitem124.setText(QCoreApplication.translate("MainWindow", u"ROS Parameter Mutation", None));
+        ___qlistwidgetitem125 = self.listWidget_34.item(5)
+        ___qlistwidgetitem125.setText(QCoreApplication.translate("MainWindow", u"ROS Log Mutation", None));
         self.listWidget_34.setSortingEnabled(__sortingEnabled1)
 
         self.add_ros_btn.setText(QCoreApplication.translate("MainWindow", u"Select", None))
@@ -4673,374 +4677,374 @@ class Ui_MainWindow(object):
 
         __sortingEnabled2 = self.listWidget_3.isSortingEnabled()
         self.listWidget_3.setSortingEnabled(False)
-        ___qlistwidgetitem120 = self.listWidget_3.item(0)
-        ___qlistwidgetitem120.setText(QCoreApplication.translate("MainWindow", u"OPERATORS", None));
-        ___qlistwidgetitem121 = self.listWidget_3.item(1)
-        ___qlistwidgetitem121.setText(QCoreApplication.translate("MainWindow", u"(AOM) Arithmetic Operator Missing", None));
-        ___qlistwidgetitem122 = self.listWidget_3.item(2)
-        ___qlistwidgetitem122.setText(QCoreApplication.translate("MainWindow", u"(AOW) Arithmetic Operator Wrong", None));
-        ___qlistwidgetitem123 = self.listWidget_3.item(3)
-        ___qlistwidgetitem123.setText(QCoreApplication.translate("MainWindow", u"(AOE) Arithmetic Operator Extraneous", None));
-        ___qlistwidgetitem124 = self.listWidget_3.item(4)
-        ___qlistwidgetitem124.setText(QCoreApplication.translate("MainWindow", u"(COM) Comparison Operator Missing", None));
-        ___qlistwidgetitem125 = self.listWidget_3.item(5)
-        ___qlistwidgetitem125.setText(QCoreApplication.translate("MainWindow", u"(COW) Comparison Operator Wrong", None));
-        ___qlistwidgetitem126 = self.listWidget_3.item(6)
-        ___qlistwidgetitem126.setText(QCoreApplication.translate("MainWindow", u"(COE) Comparison Operator Extraneous", None));
-        ___qlistwidgetitem127 = self.listWidget_3.item(7)
-        ___qlistwidgetitem127.setText(QCoreApplication.translate("MainWindow", u"(AOM) Assignment Operator Missing", None));
-        ___qlistwidgetitem128 = self.listWidget_3.item(8)
-        ___qlistwidgetitem128.setText(QCoreApplication.translate("MainWindow", u"(AOW) Assignment Operator Wrong", None));
-        ___qlistwidgetitem129 = self.listWidget_3.item(9)
-        ___qlistwidgetitem129.setText(QCoreApplication.translate("MainWindow", u"(AOE) Assignment Operator Extraneous", None));
-        ___qlistwidgetitem130 = self.listWidget_3.item(10)
-        ___qlistwidgetitem130.setText(QCoreApplication.translate("MainWindow", u"(LOM) Logical Operator Missing", None));
-        ___qlistwidgetitem131 = self.listWidget_3.item(11)
-        ___qlistwidgetitem131.setText(QCoreApplication.translate("MainWindow", u"(LOW) Logical Operator Wrong", None));
-        ___qlistwidgetitem132 = self.listWidget_3.item(12)
-        ___qlistwidgetitem132.setText(QCoreApplication.translate("MainWindow", u"(LOE) Logical Operator Extraneous", None));
-        ___qlistwidgetitem133 = self.listWidget_3.item(13)
-        ___qlistwidgetitem133.setText(QCoreApplication.translate("MainWindow", u"(MOM) Membership Operator Missing", None));
-        ___qlistwidgetitem134 = self.listWidget_3.item(14)
-        ___qlistwidgetitem134.setText(QCoreApplication.translate("MainWindow", u"(MOW) Membership Operator Wrong", None));
-        ___qlistwidgetitem135 = self.listWidget_3.item(15)
-        ___qlistwidgetitem135.setText(QCoreApplication.translate("MainWindow", u"(MOE) Membership Operator Extraneous", None));
-        ___qlistwidgetitem136 = self.listWidget_3.item(16)
-        ___qlistwidgetitem136.setText(QCoreApplication.translate("MainWindow", u"(IOM) Identity Operator Missing", None));
-        ___qlistwidgetitem137 = self.listWidget_3.item(17)
-        ___qlistwidgetitem137.setText(QCoreApplication.translate("MainWindow", u"(IOW) Identity  Operator Wrong", None));
-        ___qlistwidgetitem138 = self.listWidget_3.item(18)
-        ___qlistwidgetitem138.setText(QCoreApplication.translate("MainWindow", u"(IOE) Identity Operator Extraneous", None));
-        ___qlistwidgetitem139 = self.listWidget_3.item(19)
-        ___qlistwidgetitem139.setText(QCoreApplication.translate("MainWindow", u"STATEMENTS", None));
-        ___qlistwidgetitem140 = self.listWidget_3.item(20)
-        ___qlistwidgetitem140.setText(QCoreApplication.translate("MainWindow", u"(bM) break Missing", None));
-        ___qlistwidgetitem141 = self.listWidget_3.item(21)
-        ___qlistwidgetitem141.setText(QCoreApplication.translate("MainWindow", u"(bW) break Wrong", None));
-        ___qlistwidgetitem142 = self.listWidget_3.item(22)
-        ___qlistwidgetitem142.setText(QCoreApplication.translate("MainWindow", u"(bE) break Extraneous", None));
-        ___qlistwidgetitem143 = self.listWidget_3.item(23)
-        ___qlistwidgetitem143.setText(QCoreApplication.translate("MainWindow", u"(cM) continue Missing", None));
-        ___qlistwidgetitem144 = self.listWidget_3.item(24)
-        ___qlistwidgetitem144.setText(QCoreApplication.translate("MainWindow", u"(cW) continue Wrong", None));
-        ___qlistwidgetitem145 = self.listWidget_3.item(25)
-        ___qlistwidgetitem145.setText(QCoreApplication.translate("MainWindow", u"(cE) continue Extraneous", None));
-        ___qlistwidgetitem146 = self.listWidget_3.item(26)
-        ___qlistwidgetitem146.setText(QCoreApplication.translate("MainWindow", u"(FM) False Missing", None));
-        ___qlistwidgetitem147 = self.listWidget_3.item(27)
-        ___qlistwidgetitem147.setText(QCoreApplication.translate("MainWindow", u"(FW) False Wrong", None));
-        ___qlistwidgetitem148 = self.listWidget_3.item(28)
-        ___qlistwidgetitem148.setText(QCoreApplication.translate("MainWindow", u"(FE) False Extraneous", None));
-        ___qlistwidgetitem149 = self.listWidget_3.item(29)
-        ___qlistwidgetitem149.setText(QCoreApplication.translate("MainWindow", u"(pM) pass Missing", None));
-        ___qlistwidgetitem150 = self.listWidget_3.item(30)
-        ___qlistwidgetitem150.setText(QCoreApplication.translate("MainWindow", u"(pW) pass Wrong", None));
-        ___qlistwidgetitem151 = self.listWidget_3.item(31)
-        ___qlistwidgetitem151.setText(QCoreApplication.translate("MainWindow", u"(pE) pass Extraneous", None));
-        ___qlistwidgetitem152 = self.listWidget_3.item(32)
-        ___qlistwidgetitem152.setText(QCoreApplication.translate("MainWindow", u"(TM) True Missing", None));
-        ___qlistwidgetitem153 = self.listWidget_3.item(33)
-        ___qlistwidgetitem153.setText(QCoreApplication.translate("MainWindow", u"(TW) True Wrong", None));
-        ___qlistwidgetitem154 = self.listWidget_3.item(34)
-        ___qlistwidgetitem154.setText(QCoreApplication.translate("MainWindow", u"(TE) True Extraneous", None));
-        ___qlistwidgetitem155 = self.listWidget_3.item(35)
-        ___qlistwidgetitem155.setText(QCoreApplication.translate("MainWindow", u"(aM) assert Missing", None));
-        ___qlistwidgetitem156 = self.listWidget_3.item(36)
-        ___qlistwidgetitem156.setText(QCoreApplication.translate("MainWindow", u"(aW) assert Wrong", None));
-        ___qlistwidgetitem157 = self.listWidget_3.item(37)
-        ___qlistwidgetitem157.setText(QCoreApplication.translate("MainWindow", u"(aE) assert Extraneous", None));
-        ___qlistwidgetitem158 = self.listWidget_3.item(38)
-        ___qlistwidgetitem158.setText(QCoreApplication.translate("MainWindow", u"(dM) del Missing", None));
-        ___qlistwidgetitem159 = self.listWidget_3.item(39)
-        ___qlistwidgetitem159.setText(QCoreApplication.translate("MainWindow", u"(dW) del Wrong", None));
-        ___qlistwidgetitem160 = self.listWidget_3.item(40)
-        ___qlistwidgetitem160.setText(QCoreApplication.translate("MainWindow", u"(dE) del Extraneous", None));
-        ___qlistwidgetitem161 = self.listWidget_3.item(41)
-        ___qlistwidgetitem161.setText(QCoreApplication.translate("MainWindow", u"(iM) if Missing", None));
-        ___qlistwidgetitem162 = self.listWidget_3.item(42)
-        ___qlistwidgetitem162.setText(QCoreApplication.translate("MainWindow", u"(iW) if Wrong", None));
-        ___qlistwidgetitem163 = self.listWidget_3.item(43)
-        ___qlistwidgetitem163.setText(QCoreApplication.translate("MainWindow", u"(iE) if Extraneous", None));
-        ___qlistwidgetitem164 = self.listWidget_3.item(44)
-        ___qlistwidgetitem164.setText(QCoreApplication.translate("MainWindow", u"(elM) elif Missing", None));
-        ___qlistwidgetitem165 = self.listWidget_3.item(45)
-        ___qlistwidgetitem165.setText(QCoreApplication.translate("MainWindow", u"(elW) elif Wrong", None));
-        ___qlistwidgetitem166 = self.listWidget_3.item(46)
-        ___qlistwidgetitem166.setText(QCoreApplication.translate("MainWindow", u"(elE) elif Extraneous", None));
-        ___qlistwidgetitem167 = self.listWidget_3.item(47)
-        ___qlistwidgetitem167.setText(QCoreApplication.translate("MainWindow", u"(elsM) else Missing", None));
-        ___qlistwidgetitem168 = self.listWidget_3.item(48)
-        ___qlistwidgetitem168.setText(QCoreApplication.translate("MainWindow", u"(elsW) else Wrong", None));
-        ___qlistwidgetitem169 = self.listWidget_3.item(49)
-        ___qlistwidgetitem169.setText(QCoreApplication.translate("MainWindow", u"(elsE) else Extraneous", None));
-        ___qlistwidgetitem170 = self.listWidget_3.item(50)
-        ___qlistwidgetitem170.setText(QCoreApplication.translate("MainWindow", u"(tryM) try Missing", None));
-        ___qlistwidgetitem171 = self.listWidget_3.item(51)
-        ___qlistwidgetitem171.setText(QCoreApplication.translate("MainWindow", u"(tryW) try Wrong", None));
-        ___qlistwidgetitem172 = self.listWidget_3.item(52)
-        ___qlistwidgetitem172.setText(QCoreApplication.translate("MainWindow", u"(tryE) try Extraneous", None));
-        ___qlistwidgetitem173 = self.listWidget_3.item(53)
-        ___qlistwidgetitem173.setText(QCoreApplication.translate("MainWindow", u"(excM) except Missing", None));
-        ___qlistwidgetitem174 = self.listWidget_3.item(54)
-        ___qlistwidgetitem174.setText(QCoreApplication.translate("MainWindow", u"(excW) except Wrong", None));
-        ___qlistwidgetitem175 = self.listWidget_3.item(55)
-        ___qlistwidgetitem175.setText(QCoreApplication.translate("MainWindow", u"(excE) except Extraneous", None));
-        ___qlistwidgetitem176 = self.listWidget_3.item(56)
-        ___qlistwidgetitem176.setText(QCoreApplication.translate("MainWindow", u"(finM) finally Missing", None));
-        ___qlistwidgetitem177 = self.listWidget_3.item(57)
-        ___qlistwidgetitem177.setText(QCoreApplication.translate("MainWindow", u"(finW) finally Wrong", None));
-        ___qlistwidgetitem178 = self.listWidget_3.item(58)
-        ___qlistwidgetitem178.setText(QCoreApplication.translate("MainWindow", u"(finE) finally Extraneous", None));
-        ___qlistwidgetitem179 = self.listWidget_3.item(59)
-        ___qlistwidgetitem179.setText(QCoreApplication.translate("MainWindow", u"(forM) for Missing", None));
-        ___qlistwidgetitem180 = self.listWidget_3.item(60)
-        ___qlistwidgetitem180.setText(QCoreApplication.translate("MainWindow", u"(forW) for Wrong", None));
-        ___qlistwidgetitem181 = self.listWidget_3.item(61)
-        ___qlistwidgetitem181.setText(QCoreApplication.translate("MainWindow", u"(forE) for Extraneous", None));
-        ___qlistwidgetitem182 = self.listWidget_3.item(62)
-        ___qlistwidgetitem182.setText(QCoreApplication.translate("MainWindow", u"(gM) global Missing", None));
-        ___qlistwidgetitem183 = self.listWidget_3.item(63)
-        ___qlistwidgetitem183.setText(QCoreApplication.translate("MainWindow", u"(gW) global Wrong", None));
-        ___qlistwidgetitem184 = self.listWidget_3.item(64)
-        ___qlistwidgetitem184.setText(QCoreApplication.translate("MainWindow", u"(gE) global Extraneous", None));
-        ___qlistwidgetitem185 = self.listWidget_3.item(65)
-        ___qlistwidgetitem185.setText(QCoreApplication.translate("MainWindow", u"(laM) lambda Missing", None));
-        ___qlistwidgetitem186 = self.listWidget_3.item(66)
-        ___qlistwidgetitem186.setText(QCoreApplication.translate("MainWindow", u"(laW) lambda Wrong", None));
-        ___qlistwidgetitem187 = self.listWidget_3.item(67)
-        ___qlistwidgetitem187.setText(QCoreApplication.translate("MainWindow", u"(laE) lambda Extraneous", None));
-        ___qlistwidgetitem188 = self.listWidget_3.item(68)
-        ___qlistwidgetitem188.setText(QCoreApplication.translate("MainWindow", u"(NoM) None Missing", None));
-        ___qlistwidgetitem189 = self.listWidget_3.item(69)
-        ___qlistwidgetitem189.setText(QCoreApplication.translate("MainWindow", u"(NoW) None Wrong", None));
-        ___qlistwidgetitem190 = self.listWidget_3.item(70)
-        ___qlistwidgetitem190.setText(QCoreApplication.translate("MainWindow", u"(NoE) None Extraneous", None));
-        ___qlistwidgetitem191 = self.listWidget_3.item(71)
-        ___qlistwidgetitem191.setText(QCoreApplication.translate("MainWindow", u"(nonM) nonlocal Missing", None));
-        ___qlistwidgetitem192 = self.listWidget_3.item(72)
-        ___qlistwidgetitem192.setText(QCoreApplication.translate("MainWindow", u"(nonW) nonlocal Wrong", None));
-        ___qlistwidgetitem193 = self.listWidget_3.item(73)
-        ___qlistwidgetitem193.setText(QCoreApplication.translate("MainWindow", u"(nonE) nonlocal Extraneous", None));
-        ___qlistwidgetitem194 = self.listWidget_3.item(74)
-        ___qlistwidgetitem194.setText(QCoreApplication.translate("MainWindow", u"(raM) raise Missing", None));
-        ___qlistwidgetitem195 = self.listWidget_3.item(75)
-        ___qlistwidgetitem195.setText(QCoreApplication.translate("MainWindow", u"(raW) raise Wrong", None));
-        ___qlistwidgetitem196 = self.listWidget_3.item(76)
-        ___qlistwidgetitem196.setText(QCoreApplication.translate("MainWindow", u"(raE) raise Extraneous", None));
-        ___qlistwidgetitem197 = self.listWidget_3.item(77)
-        ___qlistwidgetitem197.setText(QCoreApplication.translate("MainWindow", u"(retM) return Missing", None));
-        ___qlistwidgetitem198 = self.listWidget_3.item(78)
-        ___qlistwidgetitem198.setText(QCoreApplication.translate("MainWindow", u"(retW) return Wrong", None));
-        ___qlistwidgetitem199 = self.listWidget_3.item(79)
-        ___qlistwidgetitem199.setText(QCoreApplication.translate("MainWindow", u"(retE) return Extraneous", None));
-        ___qlistwidgetitem200 = self.listWidget_3.item(80)
-        ___qlistwidgetitem200.setText(QCoreApplication.translate("MainWindow", u"(whM) while Missing", None));
-        ___qlistwidgetitem201 = self.listWidget_3.item(81)
-        ___qlistwidgetitem201.setText(QCoreApplication.translate("MainWindow", u"(whW) while Wrong", None));
-        ___qlistwidgetitem202 = self.listWidget_3.item(82)
-        ___qlistwidgetitem202.setText(QCoreApplication.translate("MainWindow", u"(whE) while Extraneous", None));
-        ___qlistwidgetitem203 = self.listWidget_3.item(83)
-        ___qlistwidgetitem203.setText(QCoreApplication.translate("MainWindow", u"(wiM) with Missing", None));
-        ___qlistwidgetitem204 = self.listWidget_3.item(84)
-        ___qlistwidgetitem204.setText(QCoreApplication.translate("MainWindow", u"(wiW) with Wrong", None));
-        ___qlistwidgetitem205 = self.listWidget_3.item(85)
-        ___qlistwidgetitem205.setText(QCoreApplication.translate("MainWindow", u"(wiE) with Extraneous", None));
-        ___qlistwidgetitem206 = self.listWidget_3.item(86)
-        ___qlistwidgetitem206.setText(QCoreApplication.translate("MainWindow", u"(yiM) yield Missing", None));
-        ___qlistwidgetitem207 = self.listWidget_3.item(87)
-        ___qlistwidgetitem207.setText(QCoreApplication.translate("MainWindow", u"(yiW) yield Wrong", None));
-        ___qlistwidgetitem208 = self.listWidget_3.item(88)
-        ___qlistwidgetitem208.setText(QCoreApplication.translate("MainWindow", u"(yiE) yield Extraneous", None));
-        ___qlistwidgetitem209 = self.listWidget_3.item(89)
-        ___qlistwidgetitem209.setText(QCoreApplication.translate("MainWindow", u"FUNCTIONS", None));
-        ___qlistwidgetitem210 = self.listWidget_3.item(90)
-        ___qlistwidgetitem210.setText(QCoreApplication.translate("MainWindow", u"abs()", None));
-        ___qlistwidgetitem211 = self.listWidget_3.item(91)
-        ___qlistwidgetitem211.setText(QCoreApplication.translate("MainWindow", u"all()", None));
-        ___qlistwidgetitem212 = self.listWidget_3.item(92)
-        ___qlistwidgetitem212.setText(QCoreApplication.translate("MainWindow", u"ascii()", None));
-        ___qlistwidgetitem213 = self.listWidget_3.item(93)
-        ___qlistwidgetitem213.setText(QCoreApplication.translate("MainWindow", u"bin()", None));
-        ___qlistwidgetitem214 = self.listWidget_3.item(94)
-        ___qlistwidgetitem214.setText(QCoreApplication.translate("MainWindow", u"bool()", None));
-        ___qlistwidgetitem215 = self.listWidget_3.item(95)
-        ___qlistwidgetitem215.setText(QCoreApplication.translate("MainWindow", u"bytearray()", None));
-        ___qlistwidgetitem216 = self.listWidget_3.item(96)
-        ___qlistwidgetitem216.setText(QCoreApplication.translate("MainWindow", u"bytes()", None));
-        ___qlistwidgetitem217 = self.listWidget_3.item(97)
-        ___qlistwidgetitem217.setText(QCoreApplication.translate("MainWindow", u"chr()", None));
-        ___qlistwidgetitem218 = self.listWidget_3.item(98)
-        ___qlistwidgetitem218.setText(QCoreApplication.translate("MainWindow", u"delattr()", None));
-        ___qlistwidgetitem219 = self.listWidget_3.item(99)
-        ___qlistwidgetitem219.setText(QCoreApplication.translate("MainWindow", u"dict()", None));
-        ___qlistwidgetitem220 = self.listWidget_3.item(100)
-        ___qlistwidgetitem220.setText(QCoreApplication.translate("MainWindow", u"divmod()", None));
-        ___qlistwidgetitem221 = self.listWidget_3.item(101)
-        ___qlistwidgetitem221.setText(QCoreApplication.translate("MainWindow", u"enumerate()", None));
-        ___qlistwidgetitem222 = self.listWidget_3.item(102)
-        ___qlistwidgetitem222.setText(QCoreApplication.translate("MainWindow", u"eval()", None));
-        ___qlistwidgetitem223 = self.listWidget_3.item(103)
-        ___qlistwidgetitem223.setText(QCoreApplication.translate("MainWindow", u"exec()", None));
-        ___qlistwidgetitem224 = self.listWidget_3.item(104)
-        ___qlistwidgetitem224.setText(QCoreApplication.translate("MainWindow", u"filter()", None));
-        ___qlistwidgetitem225 = self.listWidget_3.item(105)
-        ___qlistwidgetitem225.setText(QCoreApplication.translate("MainWindow", u"float()", None));
-        ___qlistwidgetitem226 = self.listWidget_3.item(106)
-        ___qlistwidgetitem226.setText(QCoreApplication.translate("MainWindow", u"frozenset()", None));
-        ___qlistwidgetitem227 = self.listWidget_3.item(107)
-        ___qlistwidgetitem227.setText(QCoreApplication.translate("MainWindow", u"getattr()", None));
-        ___qlistwidgetitem228 = self.listWidget_3.item(108)
-        ___qlistwidgetitem228.setText(QCoreApplication.translate("MainWindow", u"hasattr()", None));
-        ___qlistwidgetitem229 = self.listWidget_3.item(109)
-        ___qlistwidgetitem229.setText(QCoreApplication.translate("MainWindow", u"hash()", None));
-        ___qlistwidgetitem230 = self.listWidget_3.item(110)
-        ___qlistwidgetitem230.setText(QCoreApplication.translate("MainWindow", u"help()", None));
-        ___qlistwidgetitem231 = self.listWidget_3.item(111)
-        ___qlistwidgetitem231.setText(QCoreApplication.translate("MainWindow", u"hex()", None));
-        ___qlistwidgetitem232 = self.listWidget_3.item(112)
-        ___qlistwidgetitem232.setText(QCoreApplication.translate("MainWindow", u"id()", None));
-        ___qlistwidgetitem233 = self.listWidget_3.item(113)
-        ___qlistwidgetitem233.setText(QCoreApplication.translate("MainWindow", u"int()", None));
-        ___qlistwidgetitem234 = self.listWidget_3.item(114)
-        ___qlistwidgetitem234.setText(QCoreApplication.translate("MainWindow", u"isinstance()", None));
-        ___qlistwidgetitem235 = self.listWidget_3.item(115)
-        ___qlistwidgetitem235.setText(QCoreApplication.translate("MainWindow", u"iter()", None));
-        ___qlistwidgetitem236 = self.listWidget_3.item(116)
-        ___qlistwidgetitem236.setText(QCoreApplication.translate("MainWindow", u"len()", None));
-        ___qlistwidgetitem237 = self.listWidget_3.item(117)
-        ___qlistwidgetitem237.setText(QCoreApplication.translate("MainWindow", u"list()", None));
-        ___qlistwidgetitem238 = self.listWidget_3.item(118)
-        ___qlistwidgetitem238.setText(QCoreApplication.translate("MainWindow", u"map()", None));
-        ___qlistwidgetitem239 = self.listWidget_3.item(119)
-        ___qlistwidgetitem239.setText(QCoreApplication.translate("MainWindow", u"max()", None));
-        ___qlistwidgetitem240 = self.listWidget_3.item(120)
-        ___qlistwidgetitem240.setText(QCoreApplication.translate("MainWindow", u"memoryview()", None));
-        ___qlistwidgetitem241 = self.listWidget_3.item(121)
-        ___qlistwidgetitem241.setText(QCoreApplication.translate("MainWindow", u"min()", None));
-        ___qlistwidgetitem242 = self.listWidget_3.item(122)
-        ___qlistwidgetitem242.setText(QCoreApplication.translate("MainWindow", u"next()", None));
-        ___qlistwidgetitem243 = self.listWidget_3.item(123)
-        ___qlistwidgetitem243.setText(QCoreApplication.translate("MainWindow", u"oct()", None));
-        ___qlistwidgetitem244 = self.listWidget_3.item(124)
-        ___qlistwidgetitem244.setText(QCoreApplication.translate("MainWindow", u"open()", None));
-        ___qlistwidgetitem245 = self.listWidget_3.item(125)
-        ___qlistwidgetitem245.setText(QCoreApplication.translate("MainWindow", u"ord()", None));
-        ___qlistwidgetitem246 = self.listWidget_3.item(126)
-        ___qlistwidgetitem246.setText(QCoreApplication.translate("MainWindow", u"pow()", None));
-        ___qlistwidgetitem247 = self.listWidget_3.item(127)
-        ___qlistwidgetitem247.setText(QCoreApplication.translate("MainWindow", u"property()", None));
-        ___qlistwidgetitem248 = self.listWidget_3.item(128)
-        ___qlistwidgetitem248.setText(QCoreApplication.translate("MainWindow", u"range()", None));
-        ___qlistwidgetitem249 = self.listWidget_3.item(129)
-        ___qlistwidgetitem249.setText(QCoreApplication.translate("MainWindow", u"reversed()", None));
-        ___qlistwidgetitem250 = self.listWidget_3.item(130)
-        ___qlistwidgetitem250.setText(QCoreApplication.translate("MainWindow", u"round()", None));
-        ___qlistwidgetitem251 = self.listWidget_3.item(131)
-        ___qlistwidgetitem251.setText(QCoreApplication.translate("MainWindow", u"set()", None));
-        ___qlistwidgetitem252 = self.listWidget_3.item(132)
-        ___qlistwidgetitem252.setText(QCoreApplication.translate("MainWindow", u"setattr()", None));
-        ___qlistwidgetitem253 = self.listWidget_3.item(133)
-        ___qlistwidgetitem253.setText(QCoreApplication.translate("MainWindow", u"slice()", None));
-        ___qlistwidgetitem254 = self.listWidget_3.item(134)
-        ___qlistwidgetitem254.setText(QCoreApplication.translate("MainWindow", u"sorted()", None));
-        ___qlistwidgetitem255 = self.listWidget_3.item(135)
-        ___qlistwidgetitem255.setText(QCoreApplication.translate("MainWindow", u"str()", None));
-        ___qlistwidgetitem256 = self.listWidget_3.item(136)
-        ___qlistwidgetitem256.setText(QCoreApplication.translate("MainWindow", u"sum()", None));
-        ___qlistwidgetitem257 = self.listWidget_3.item(137)
-        ___qlistwidgetitem257.setText(QCoreApplication.translate("MainWindow", u"tuple()", None));
-        ___qlistwidgetitem258 = self.listWidget_3.item(138)
-        ___qlistwidgetitem258.setText(QCoreApplication.translate("MainWindow", u"type()", None));
-        ___qlistwidgetitem259 = self.listWidget_3.item(139)
-        ___qlistwidgetitem259.setText(QCoreApplication.translate("MainWindow", u"vars()", None));
-        ___qlistwidgetitem260 = self.listWidget_3.item(140)
-        ___qlistwidgetitem260.setText(QCoreApplication.translate("MainWindow", u"zip()", None));
-        ___qlistwidgetitem261 = self.listWidget_3.item(141)
-        ___qlistwidgetitem261.setText(QCoreApplication.translate("MainWindow", u"count()", None));
-        ___qlistwidgetitem262 = self.listWidget_3.item(142)
-        ___qlistwidgetitem262.setText(QCoreApplication.translate("MainWindow", u"index()", None));
-        ___qlistwidgetitem263 = self.listWidget_3.item(143)
-        ___qlistwidgetitem263.setText(QCoreApplication.translate("MainWindow", u"fromkeys()", None));
-        ___qlistwidgetitem264 = self.listWidget_3.item(144)
-        ___qlistwidgetitem264.setText(QCoreApplication.translate("MainWindow", u"get()", None));
-        ___qlistwidgetitem265 = self.listWidget_3.item(145)
-        ___qlistwidgetitem265.setText(QCoreApplication.translate("MainWindow", u"update()", None));
-        ___qlistwidgetitem266 = self.listWidget_3.item(146)
-        ___qlistwidgetitem266.setText(QCoreApplication.translate("MainWindow", u"append()", None));
-        ___qlistwidgetitem267 = self.listWidget_3.item(147)
-        ___qlistwidgetitem267.setText(QCoreApplication.translate("MainWindow", u"extend()", None));
-        ___qlistwidgetitem268 = self.listWidget_3.item(148)
-        ___qlistwidgetitem268.setText(QCoreApplication.translate("MainWindow", u"insert()", None));
-        ___qlistwidgetitem269 = self.listWidget_3.item(149)
-        ___qlistwidgetitem269.setText(QCoreApplication.translate("MainWindow", u"remove()", None));
-        ___qlistwidgetitem270 = self.listWidget_3.item(150)
-        ___qlistwidgetitem270.setText(QCoreApplication.translate("MainWindow", u"seek()", None));
-        ___qlistwidgetitem271 = self.listWidget_3.item(151)
-        ___qlistwidgetitem271.setText(QCoreApplication.translate("MainWindow", u"truncate()", None));
-        ___qlistwidgetitem272 = self.listWidget_3.item(152)
-        ___qlistwidgetitem272.setText(QCoreApplication.translate("MainWindow", u"write()", None));
-        ___qlistwidgetitem273 = self.listWidget_3.item(153)
-        ___qlistwidgetitem273.setText(QCoreApplication.translate("MainWindow", u"writelines()", None));
-        ___qlistwidgetitem274 = self.listWidget_3.item(154)
-        ___qlistwidgetitem274.setText(QCoreApplication.translate("MainWindow", u"add()", None));
-        ___qlistwidgetitem275 = self.listWidget_3.item(155)
-        ___qlistwidgetitem275.setText(QCoreApplication.translate("MainWindow", u"difference()", None));
-        ___qlistwidgetitem276 = self.listWidget_3.item(156)
-        ___qlistwidgetitem276.setText(QCoreApplication.translate("MainWindow", u"difference_update()", None));
-        ___qlistwidgetitem277 = self.listWidget_3.item(157)
-        ___qlistwidgetitem277.setText(QCoreApplication.translate("MainWindow", u"discard()", None));
-        ___qlistwidgetitem278 = self.listWidget_3.item(158)
-        ___qlistwidgetitem278.setText(QCoreApplication.translate("MainWindow", u"intersection()", None));
-        ___qlistwidgetitem279 = self.listWidget_3.item(159)
-        ___qlistwidgetitem279.setText(QCoreApplication.translate("MainWindow", u"intersection_update()", None));
-        ___qlistwidgetitem280 = self.listWidget_3.item(160)
-        ___qlistwidgetitem280.setText(QCoreApplication.translate("MainWindow", u"isdisjoint()", None));
-        ___qlistwidgetitem281 = self.listWidget_3.item(161)
-        ___qlistwidgetitem281.setText(QCoreApplication.translate("MainWindow", u"issubset()", None));
-        ___qlistwidgetitem282 = self.listWidget_3.item(162)
-        ___qlistwidgetitem282.setText(QCoreApplication.translate("MainWindow", u"issuperset()", None));
-        ___qlistwidgetitem283 = self.listWidget_3.item(163)
-        ___qlistwidgetitem283.setText(QCoreApplication.translate("MainWindow", u"symetric_difference()", None));
-        ___qlistwidgetitem284 = self.listWidget_3.item(164)
-        ___qlistwidgetitem284.setText(QCoreApplication.translate("MainWindow", u"symetric_difference_update()", None));
-        ___qlistwidgetitem285 = self.listWidget_3.item(165)
-        ___qlistwidgetitem285.setText(QCoreApplication.translate("MainWindow", u"union()", None));
-        ___qlistwidgetitem286 = self.listWidget_3.item(166)
-        ___qlistwidgetitem286.setText(QCoreApplication.translate("MainWindow", u"update()", None));
-        ___qlistwidgetitem287 = self.listWidget_3.item(167)
-        ___qlistwidgetitem287.setText(QCoreApplication.translate("MainWindow", u"center()", None));
-        ___qlistwidgetitem288 = self.listWidget_3.item(168)
-        ___qlistwidgetitem288.setText(QCoreApplication.translate("MainWindow", u"endswith()", None));
-        ___qlistwidgetitem289 = self.listWidget_3.item(169)
-        ___qlistwidgetitem289.setText(QCoreApplication.translate("MainWindow", u"expandtabs()", None));
-        ___qlistwidgetitem290 = self.listWidget_3.item(170)
-        ___qlistwidgetitem290.setText(QCoreApplication.translate("MainWindow", u"find()", None));
-        ___qlistwidgetitem291 = self.listWidget_3.item(171)
-        ___qlistwidgetitem291.setText(QCoreApplication.translate("MainWindow", u"index()", None));
-        ___qlistwidgetitem292 = self.listWidget_3.item(172)
-        ___qlistwidgetitem292.setText(QCoreApplication.translate("MainWindow", u"join()", None));
-        ___qlistwidgetitem293 = self.listWidget_3.item(173)
-        ___qlistwidgetitem293.setText(QCoreApplication.translate("MainWindow", u"ljust()", None));
-        ___qlistwidgetitem294 = self.listWidget_3.item(174)
-        ___qlistwidgetitem294.setText(QCoreApplication.translate("MainWindow", u"maketrans()", None));
-        ___qlistwidgetitem295 = self.listWidget_3.item(175)
-        ___qlistwidgetitem295.setText(QCoreApplication.translate("MainWindow", u"partition()", None));
-        ___qlistwidgetitem296 = self.listWidget_3.item(176)
-        ___qlistwidgetitem296.setText(QCoreApplication.translate("MainWindow", u"replace()", None));
-        ___qlistwidgetitem297 = self.listWidget_3.item(177)
-        ___qlistwidgetitem297.setText(QCoreApplication.translate("MainWindow", u"rfind()", None));
-        ___qlistwidgetitem298 = self.listWidget_3.item(178)
-        ___qlistwidgetitem298.setText(QCoreApplication.translate("MainWindow", u"rindex()", None));
-        ___qlistwidgetitem299 = self.listWidget_3.item(179)
-        ___qlistwidgetitem299.setText(QCoreApplication.translate("MainWindow", u"rjust()", None));
-        ___qlistwidgetitem300 = self.listWidget_3.item(180)
-        ___qlistwidgetitem300.setText(QCoreApplication.translate("MainWindow", u"rpartition()", None));
-        ___qlistwidgetitem301 = self.listWidget_3.item(181)
-        ___qlistwidgetitem301.setText(QCoreApplication.translate("MainWindow", u"startswith()", None));
-        ___qlistwidgetitem302 = self.listWidget_3.item(182)
-        ___qlistwidgetitem302.setText(QCoreApplication.translate("MainWindow", u"zfill()", None));
-        ___qlistwidgetitem303 = self.listWidget_3.item(183)
-        ___qlistwidgetitem303.setText(QCoreApplication.translate("MainWindow", u"CREATED FAULTS", None));
+        ___qlistwidgetitem126 = self.listWidget_3.item(0)
+        ___qlistwidgetitem126.setText(QCoreApplication.translate("MainWindow", u"OPERATORS", None));
+        ___qlistwidgetitem127 = self.listWidget_3.item(1)
+        ___qlistwidgetitem127.setText(QCoreApplication.translate("MainWindow", u"(AOM) Arithmetic Operator Missing", None));
+        ___qlistwidgetitem128 = self.listWidget_3.item(2)
+        ___qlistwidgetitem128.setText(QCoreApplication.translate("MainWindow", u"(AOW) Arithmetic Operator Wrong", None));
+        ___qlistwidgetitem129 = self.listWidget_3.item(3)
+        ___qlistwidgetitem129.setText(QCoreApplication.translate("MainWindow", u"(AOE) Arithmetic Operator Extraneous", None));
+        ___qlistwidgetitem130 = self.listWidget_3.item(4)
+        ___qlistwidgetitem130.setText(QCoreApplication.translate("MainWindow", u"(COM) Comparison Operator Missing", None));
+        ___qlistwidgetitem131 = self.listWidget_3.item(5)
+        ___qlistwidgetitem131.setText(QCoreApplication.translate("MainWindow", u"(COW) Comparison Operator Wrong", None));
+        ___qlistwidgetitem132 = self.listWidget_3.item(6)
+        ___qlistwidgetitem132.setText(QCoreApplication.translate("MainWindow", u"(COE) Comparison Operator Extraneous", None));
+        ___qlistwidgetitem133 = self.listWidget_3.item(7)
+        ___qlistwidgetitem133.setText(QCoreApplication.translate("MainWindow", u"(AOM) Assignment Operator Missing", None));
+        ___qlistwidgetitem134 = self.listWidget_3.item(8)
+        ___qlistwidgetitem134.setText(QCoreApplication.translate("MainWindow", u"(AOW) Assignment Operator Wrong", None));
+        ___qlistwidgetitem135 = self.listWidget_3.item(9)
+        ___qlistwidgetitem135.setText(QCoreApplication.translate("MainWindow", u"(AOE) Assignment Operator Extraneous", None));
+        ___qlistwidgetitem136 = self.listWidget_3.item(10)
+        ___qlistwidgetitem136.setText(QCoreApplication.translate("MainWindow", u"(LOM) Logical Operator Missing", None));
+        ___qlistwidgetitem137 = self.listWidget_3.item(11)
+        ___qlistwidgetitem137.setText(QCoreApplication.translate("MainWindow", u"(LOW) Logical Operator Wrong", None));
+        ___qlistwidgetitem138 = self.listWidget_3.item(12)
+        ___qlistwidgetitem138.setText(QCoreApplication.translate("MainWindow", u"(LOE) Logical Operator Extraneous", None));
+        ___qlistwidgetitem139 = self.listWidget_3.item(13)
+        ___qlistwidgetitem139.setText(QCoreApplication.translate("MainWindow", u"(MOM) Membership Operator Missing", None));
+        ___qlistwidgetitem140 = self.listWidget_3.item(14)
+        ___qlistwidgetitem140.setText(QCoreApplication.translate("MainWindow", u"(MOW) Membership Operator Wrong", None));
+        ___qlistwidgetitem141 = self.listWidget_3.item(15)
+        ___qlistwidgetitem141.setText(QCoreApplication.translate("MainWindow", u"(MOE) Membership Operator Extraneous", None));
+        ___qlistwidgetitem142 = self.listWidget_3.item(16)
+        ___qlistwidgetitem142.setText(QCoreApplication.translate("MainWindow", u"(IOM) Identity Operator Missing", None));
+        ___qlistwidgetitem143 = self.listWidget_3.item(17)
+        ___qlistwidgetitem143.setText(QCoreApplication.translate("MainWindow", u"(IOW) Identity  Operator Wrong", None));
+        ___qlistwidgetitem144 = self.listWidget_3.item(18)
+        ___qlistwidgetitem144.setText(QCoreApplication.translate("MainWindow", u"(IOE) Identity Operator Extraneous", None));
+        ___qlistwidgetitem145 = self.listWidget_3.item(19)
+        ___qlistwidgetitem145.setText(QCoreApplication.translate("MainWindow", u"STATEMENTS", None));
+        ___qlistwidgetitem146 = self.listWidget_3.item(20)
+        ___qlistwidgetitem146.setText(QCoreApplication.translate("MainWindow", u"(bM) break Missing", None));
+        ___qlistwidgetitem147 = self.listWidget_3.item(21)
+        ___qlistwidgetitem147.setText(QCoreApplication.translate("MainWindow", u"(bW) break Wrong", None));
+        ___qlistwidgetitem148 = self.listWidget_3.item(22)
+        ___qlistwidgetitem148.setText(QCoreApplication.translate("MainWindow", u"(bE) break Extraneous", None));
+        ___qlistwidgetitem149 = self.listWidget_3.item(23)
+        ___qlistwidgetitem149.setText(QCoreApplication.translate("MainWindow", u"(cM) continue Missing", None));
+        ___qlistwidgetitem150 = self.listWidget_3.item(24)
+        ___qlistwidgetitem150.setText(QCoreApplication.translate("MainWindow", u"(cW) continue Wrong", None));
+        ___qlistwidgetitem151 = self.listWidget_3.item(25)
+        ___qlistwidgetitem151.setText(QCoreApplication.translate("MainWindow", u"(cE) continue Extraneous", None));
+        ___qlistwidgetitem152 = self.listWidget_3.item(26)
+        ___qlistwidgetitem152.setText(QCoreApplication.translate("MainWindow", u"(FM) False Missing", None));
+        ___qlistwidgetitem153 = self.listWidget_3.item(27)
+        ___qlistwidgetitem153.setText(QCoreApplication.translate("MainWindow", u"(FW) False Wrong", None));
+        ___qlistwidgetitem154 = self.listWidget_3.item(28)
+        ___qlistwidgetitem154.setText(QCoreApplication.translate("MainWindow", u"(FE) False Extraneous", None));
+        ___qlistwidgetitem155 = self.listWidget_3.item(29)
+        ___qlistwidgetitem155.setText(QCoreApplication.translate("MainWindow", u"(pM) pass Missing", None));
+        ___qlistwidgetitem156 = self.listWidget_3.item(30)
+        ___qlistwidgetitem156.setText(QCoreApplication.translate("MainWindow", u"(pW) pass Wrong", None));
+        ___qlistwidgetitem157 = self.listWidget_3.item(31)
+        ___qlistwidgetitem157.setText(QCoreApplication.translate("MainWindow", u"(pE) pass Extraneous", None));
+        ___qlistwidgetitem158 = self.listWidget_3.item(32)
+        ___qlistwidgetitem158.setText(QCoreApplication.translate("MainWindow", u"(TM) True Missing", None));
+        ___qlistwidgetitem159 = self.listWidget_3.item(33)
+        ___qlistwidgetitem159.setText(QCoreApplication.translate("MainWindow", u"(TW) True Wrong", None));
+        ___qlistwidgetitem160 = self.listWidget_3.item(34)
+        ___qlistwidgetitem160.setText(QCoreApplication.translate("MainWindow", u"(TE) True Extraneous", None));
+        ___qlistwidgetitem161 = self.listWidget_3.item(35)
+        ___qlistwidgetitem161.setText(QCoreApplication.translate("MainWindow", u"(aM) assert Missing", None));
+        ___qlistwidgetitem162 = self.listWidget_3.item(36)
+        ___qlistwidgetitem162.setText(QCoreApplication.translate("MainWindow", u"(aW) assert Wrong", None));
+        ___qlistwidgetitem163 = self.listWidget_3.item(37)
+        ___qlistwidgetitem163.setText(QCoreApplication.translate("MainWindow", u"(aE) assert Extraneous", None));
+        ___qlistwidgetitem164 = self.listWidget_3.item(38)
+        ___qlistwidgetitem164.setText(QCoreApplication.translate("MainWindow", u"(dM) del Missing", None));
+        ___qlistwidgetitem165 = self.listWidget_3.item(39)
+        ___qlistwidgetitem165.setText(QCoreApplication.translate("MainWindow", u"(dW) del Wrong", None));
+        ___qlistwidgetitem166 = self.listWidget_3.item(40)
+        ___qlistwidgetitem166.setText(QCoreApplication.translate("MainWindow", u"(dE) del Extraneous", None));
+        ___qlistwidgetitem167 = self.listWidget_3.item(41)
+        ___qlistwidgetitem167.setText(QCoreApplication.translate("MainWindow", u"(iM) if Missing", None));
+        ___qlistwidgetitem168 = self.listWidget_3.item(42)
+        ___qlistwidgetitem168.setText(QCoreApplication.translate("MainWindow", u"(iW) if Wrong", None));
+        ___qlistwidgetitem169 = self.listWidget_3.item(43)
+        ___qlistwidgetitem169.setText(QCoreApplication.translate("MainWindow", u"(iE) if Extraneous", None));
+        ___qlistwidgetitem170 = self.listWidget_3.item(44)
+        ___qlistwidgetitem170.setText(QCoreApplication.translate("MainWindow", u"(elM) elif Missing", None));
+        ___qlistwidgetitem171 = self.listWidget_3.item(45)
+        ___qlistwidgetitem171.setText(QCoreApplication.translate("MainWindow", u"(elW) elif Wrong", None));
+        ___qlistwidgetitem172 = self.listWidget_3.item(46)
+        ___qlistwidgetitem172.setText(QCoreApplication.translate("MainWindow", u"(elE) elif Extraneous", None));
+        ___qlistwidgetitem173 = self.listWidget_3.item(47)
+        ___qlistwidgetitem173.setText(QCoreApplication.translate("MainWindow", u"(elsM) else Missing", None));
+        ___qlistwidgetitem174 = self.listWidget_3.item(48)
+        ___qlistwidgetitem174.setText(QCoreApplication.translate("MainWindow", u"(elsW) else Wrong", None));
+        ___qlistwidgetitem175 = self.listWidget_3.item(49)
+        ___qlistwidgetitem175.setText(QCoreApplication.translate("MainWindow", u"(elsE) else Extraneous", None));
+        ___qlistwidgetitem176 = self.listWidget_3.item(50)
+        ___qlistwidgetitem176.setText(QCoreApplication.translate("MainWindow", u"(tryM) try Missing", None));
+        ___qlistwidgetitem177 = self.listWidget_3.item(51)
+        ___qlistwidgetitem177.setText(QCoreApplication.translate("MainWindow", u"(tryW) try Wrong", None));
+        ___qlistwidgetitem178 = self.listWidget_3.item(52)
+        ___qlistwidgetitem178.setText(QCoreApplication.translate("MainWindow", u"(tryE) try Extraneous", None));
+        ___qlistwidgetitem179 = self.listWidget_3.item(53)
+        ___qlistwidgetitem179.setText(QCoreApplication.translate("MainWindow", u"(excM) except Missing", None));
+        ___qlistwidgetitem180 = self.listWidget_3.item(54)
+        ___qlistwidgetitem180.setText(QCoreApplication.translate("MainWindow", u"(excW) except Wrong", None));
+        ___qlistwidgetitem181 = self.listWidget_3.item(55)
+        ___qlistwidgetitem181.setText(QCoreApplication.translate("MainWindow", u"(excE) except Extraneous", None));
+        ___qlistwidgetitem182 = self.listWidget_3.item(56)
+        ___qlistwidgetitem182.setText(QCoreApplication.translate("MainWindow", u"(finM) finally Missing", None));
+        ___qlistwidgetitem183 = self.listWidget_3.item(57)
+        ___qlistwidgetitem183.setText(QCoreApplication.translate("MainWindow", u"(finW) finally Wrong", None));
+        ___qlistwidgetitem184 = self.listWidget_3.item(58)
+        ___qlistwidgetitem184.setText(QCoreApplication.translate("MainWindow", u"(finE) finally Extraneous", None));
+        ___qlistwidgetitem185 = self.listWidget_3.item(59)
+        ___qlistwidgetitem185.setText(QCoreApplication.translate("MainWindow", u"(forM) for Missing", None));
+        ___qlistwidgetitem186 = self.listWidget_3.item(60)
+        ___qlistwidgetitem186.setText(QCoreApplication.translate("MainWindow", u"(forW) for Wrong", None));
+        ___qlistwidgetitem187 = self.listWidget_3.item(61)
+        ___qlistwidgetitem187.setText(QCoreApplication.translate("MainWindow", u"(forE) for Extraneous", None));
+        ___qlistwidgetitem188 = self.listWidget_3.item(62)
+        ___qlistwidgetitem188.setText(QCoreApplication.translate("MainWindow", u"(gM) global Missing", None));
+        ___qlistwidgetitem189 = self.listWidget_3.item(63)
+        ___qlistwidgetitem189.setText(QCoreApplication.translate("MainWindow", u"(gW) global Wrong", None));
+        ___qlistwidgetitem190 = self.listWidget_3.item(64)
+        ___qlistwidgetitem190.setText(QCoreApplication.translate("MainWindow", u"(gE) global Extraneous", None));
+        ___qlistwidgetitem191 = self.listWidget_3.item(65)
+        ___qlistwidgetitem191.setText(QCoreApplication.translate("MainWindow", u"(laM) lambda Missing", None));
+        ___qlistwidgetitem192 = self.listWidget_3.item(66)
+        ___qlistwidgetitem192.setText(QCoreApplication.translate("MainWindow", u"(laW) lambda Wrong", None));
+        ___qlistwidgetitem193 = self.listWidget_3.item(67)
+        ___qlistwidgetitem193.setText(QCoreApplication.translate("MainWindow", u"(laE) lambda Extraneous", None));
+        ___qlistwidgetitem194 = self.listWidget_3.item(68)
+        ___qlistwidgetitem194.setText(QCoreApplication.translate("MainWindow", u"(NoM) None Missing", None));
+        ___qlistwidgetitem195 = self.listWidget_3.item(69)
+        ___qlistwidgetitem195.setText(QCoreApplication.translate("MainWindow", u"(NoW) None Wrong", None));
+        ___qlistwidgetitem196 = self.listWidget_3.item(70)
+        ___qlistwidgetitem196.setText(QCoreApplication.translate("MainWindow", u"(NoE) None Extraneous", None));
+        ___qlistwidgetitem197 = self.listWidget_3.item(71)
+        ___qlistwidgetitem197.setText(QCoreApplication.translate("MainWindow", u"(nonM) nonlocal Missing", None));
+        ___qlistwidgetitem198 = self.listWidget_3.item(72)
+        ___qlistwidgetitem198.setText(QCoreApplication.translate("MainWindow", u"(nonW) nonlocal Wrong", None));
+        ___qlistwidgetitem199 = self.listWidget_3.item(73)
+        ___qlistwidgetitem199.setText(QCoreApplication.translate("MainWindow", u"(nonE) nonlocal Extraneous", None));
+        ___qlistwidgetitem200 = self.listWidget_3.item(74)
+        ___qlistwidgetitem200.setText(QCoreApplication.translate("MainWindow", u"(raM) raise Missing", None));
+        ___qlistwidgetitem201 = self.listWidget_3.item(75)
+        ___qlistwidgetitem201.setText(QCoreApplication.translate("MainWindow", u"(raW) raise Wrong", None));
+        ___qlistwidgetitem202 = self.listWidget_3.item(76)
+        ___qlistwidgetitem202.setText(QCoreApplication.translate("MainWindow", u"(raE) raise Extraneous", None));
+        ___qlistwidgetitem203 = self.listWidget_3.item(77)
+        ___qlistwidgetitem203.setText(QCoreApplication.translate("MainWindow", u"(retM) return Missing", None));
+        ___qlistwidgetitem204 = self.listWidget_3.item(78)
+        ___qlistwidgetitem204.setText(QCoreApplication.translate("MainWindow", u"(retW) return Wrong", None));
+        ___qlistwidgetitem205 = self.listWidget_3.item(79)
+        ___qlistwidgetitem205.setText(QCoreApplication.translate("MainWindow", u"(retE) return Extraneous", None));
+        ___qlistwidgetitem206 = self.listWidget_3.item(80)
+        ___qlistwidgetitem206.setText(QCoreApplication.translate("MainWindow", u"(whM) while Missing", None));
+        ___qlistwidgetitem207 = self.listWidget_3.item(81)
+        ___qlistwidgetitem207.setText(QCoreApplication.translate("MainWindow", u"(whW) while Wrong", None));
+        ___qlistwidgetitem208 = self.listWidget_3.item(82)
+        ___qlistwidgetitem208.setText(QCoreApplication.translate("MainWindow", u"(whE) while Extraneous", None));
+        ___qlistwidgetitem209 = self.listWidget_3.item(83)
+        ___qlistwidgetitem209.setText(QCoreApplication.translate("MainWindow", u"(wiM) with Missing", None));
+        ___qlistwidgetitem210 = self.listWidget_3.item(84)
+        ___qlistwidgetitem210.setText(QCoreApplication.translate("MainWindow", u"(wiW) with Wrong", None));
+        ___qlistwidgetitem211 = self.listWidget_3.item(85)
+        ___qlistwidgetitem211.setText(QCoreApplication.translate("MainWindow", u"(wiE) with Extraneous", None));
+        ___qlistwidgetitem212 = self.listWidget_3.item(86)
+        ___qlistwidgetitem212.setText(QCoreApplication.translate("MainWindow", u"(yiM) yield Missing", None));
+        ___qlistwidgetitem213 = self.listWidget_3.item(87)
+        ___qlistwidgetitem213.setText(QCoreApplication.translate("MainWindow", u"(yiW) yield Wrong", None));
+        ___qlistwidgetitem214 = self.listWidget_3.item(88)
+        ___qlistwidgetitem214.setText(QCoreApplication.translate("MainWindow", u"(yiE) yield Extraneous", None));
+        ___qlistwidgetitem215 = self.listWidget_3.item(89)
+        ___qlistwidgetitem215.setText(QCoreApplication.translate("MainWindow", u"FUNCTIONS", None));
+        ___qlistwidgetitem216 = self.listWidget_3.item(90)
+        ___qlistwidgetitem216.setText(QCoreApplication.translate("MainWindow", u"abs()", None));
+        ___qlistwidgetitem217 = self.listWidget_3.item(91)
+        ___qlistwidgetitem217.setText(QCoreApplication.translate("MainWindow", u"all()", None));
+        ___qlistwidgetitem218 = self.listWidget_3.item(92)
+        ___qlistwidgetitem218.setText(QCoreApplication.translate("MainWindow", u"ascii()", None));
+        ___qlistwidgetitem219 = self.listWidget_3.item(93)
+        ___qlistwidgetitem219.setText(QCoreApplication.translate("MainWindow", u"bin()", None));
+        ___qlistwidgetitem220 = self.listWidget_3.item(94)
+        ___qlistwidgetitem220.setText(QCoreApplication.translate("MainWindow", u"bool()", None));
+        ___qlistwidgetitem221 = self.listWidget_3.item(95)
+        ___qlistwidgetitem221.setText(QCoreApplication.translate("MainWindow", u"bytearray()", None));
+        ___qlistwidgetitem222 = self.listWidget_3.item(96)
+        ___qlistwidgetitem222.setText(QCoreApplication.translate("MainWindow", u"bytes()", None));
+        ___qlistwidgetitem223 = self.listWidget_3.item(97)
+        ___qlistwidgetitem223.setText(QCoreApplication.translate("MainWindow", u"chr()", None));
+        ___qlistwidgetitem224 = self.listWidget_3.item(98)
+        ___qlistwidgetitem224.setText(QCoreApplication.translate("MainWindow", u"delattr()", None));
+        ___qlistwidgetitem225 = self.listWidget_3.item(99)
+        ___qlistwidgetitem225.setText(QCoreApplication.translate("MainWindow", u"dict()", None));
+        ___qlistwidgetitem226 = self.listWidget_3.item(100)
+        ___qlistwidgetitem226.setText(QCoreApplication.translate("MainWindow", u"divmod()", None));
+        ___qlistwidgetitem227 = self.listWidget_3.item(101)
+        ___qlistwidgetitem227.setText(QCoreApplication.translate("MainWindow", u"enumerate()", None));
+        ___qlistwidgetitem228 = self.listWidget_3.item(102)
+        ___qlistwidgetitem228.setText(QCoreApplication.translate("MainWindow", u"eval()", None));
+        ___qlistwidgetitem229 = self.listWidget_3.item(103)
+        ___qlistwidgetitem229.setText(QCoreApplication.translate("MainWindow", u"exec()", None));
+        ___qlistwidgetitem230 = self.listWidget_3.item(104)
+        ___qlistwidgetitem230.setText(QCoreApplication.translate("MainWindow", u"filter()", None));
+        ___qlistwidgetitem231 = self.listWidget_3.item(105)
+        ___qlistwidgetitem231.setText(QCoreApplication.translate("MainWindow", u"float()", None));
+        ___qlistwidgetitem232 = self.listWidget_3.item(106)
+        ___qlistwidgetitem232.setText(QCoreApplication.translate("MainWindow", u"frozenset()", None));
+        ___qlistwidgetitem233 = self.listWidget_3.item(107)
+        ___qlistwidgetitem233.setText(QCoreApplication.translate("MainWindow", u"getattr()", None));
+        ___qlistwidgetitem234 = self.listWidget_3.item(108)
+        ___qlistwidgetitem234.setText(QCoreApplication.translate("MainWindow", u"hasattr()", None));
+        ___qlistwidgetitem235 = self.listWidget_3.item(109)
+        ___qlistwidgetitem235.setText(QCoreApplication.translate("MainWindow", u"hash()", None));
+        ___qlistwidgetitem236 = self.listWidget_3.item(110)
+        ___qlistwidgetitem236.setText(QCoreApplication.translate("MainWindow", u"help()", None));
+        ___qlistwidgetitem237 = self.listWidget_3.item(111)
+        ___qlistwidgetitem237.setText(QCoreApplication.translate("MainWindow", u"hex()", None));
+        ___qlistwidgetitem238 = self.listWidget_3.item(112)
+        ___qlistwidgetitem238.setText(QCoreApplication.translate("MainWindow", u"id()", None));
+        ___qlistwidgetitem239 = self.listWidget_3.item(113)
+        ___qlistwidgetitem239.setText(QCoreApplication.translate("MainWindow", u"int()", None));
+        ___qlistwidgetitem240 = self.listWidget_3.item(114)
+        ___qlistwidgetitem240.setText(QCoreApplication.translate("MainWindow", u"isinstance()", None));
+        ___qlistwidgetitem241 = self.listWidget_3.item(115)
+        ___qlistwidgetitem241.setText(QCoreApplication.translate("MainWindow", u"iter()", None));
+        ___qlistwidgetitem242 = self.listWidget_3.item(116)
+        ___qlistwidgetitem242.setText(QCoreApplication.translate("MainWindow", u"len()", None));
+        ___qlistwidgetitem243 = self.listWidget_3.item(117)
+        ___qlistwidgetitem243.setText(QCoreApplication.translate("MainWindow", u"list()", None));
+        ___qlistwidgetitem244 = self.listWidget_3.item(118)
+        ___qlistwidgetitem244.setText(QCoreApplication.translate("MainWindow", u"map()", None));
+        ___qlistwidgetitem245 = self.listWidget_3.item(119)
+        ___qlistwidgetitem245.setText(QCoreApplication.translate("MainWindow", u"max()", None));
+        ___qlistwidgetitem246 = self.listWidget_3.item(120)
+        ___qlistwidgetitem246.setText(QCoreApplication.translate("MainWindow", u"memoryview()", None));
+        ___qlistwidgetitem247 = self.listWidget_3.item(121)
+        ___qlistwidgetitem247.setText(QCoreApplication.translate("MainWindow", u"min()", None));
+        ___qlistwidgetitem248 = self.listWidget_3.item(122)
+        ___qlistwidgetitem248.setText(QCoreApplication.translate("MainWindow", u"next()", None));
+        ___qlistwidgetitem249 = self.listWidget_3.item(123)
+        ___qlistwidgetitem249.setText(QCoreApplication.translate("MainWindow", u"oct()", None));
+        ___qlistwidgetitem250 = self.listWidget_3.item(124)
+        ___qlistwidgetitem250.setText(QCoreApplication.translate("MainWindow", u"open()", None));
+        ___qlistwidgetitem251 = self.listWidget_3.item(125)
+        ___qlistwidgetitem251.setText(QCoreApplication.translate("MainWindow", u"ord()", None));
+        ___qlistwidgetitem252 = self.listWidget_3.item(126)
+        ___qlistwidgetitem252.setText(QCoreApplication.translate("MainWindow", u"pow()", None));
+        ___qlistwidgetitem253 = self.listWidget_3.item(127)
+        ___qlistwidgetitem253.setText(QCoreApplication.translate("MainWindow", u"property()", None));
+        ___qlistwidgetitem254 = self.listWidget_3.item(128)
+        ___qlistwidgetitem254.setText(QCoreApplication.translate("MainWindow", u"range()", None));
+        ___qlistwidgetitem255 = self.listWidget_3.item(129)
+        ___qlistwidgetitem255.setText(QCoreApplication.translate("MainWindow", u"reversed()", None));
+        ___qlistwidgetitem256 = self.listWidget_3.item(130)
+        ___qlistwidgetitem256.setText(QCoreApplication.translate("MainWindow", u"round()", None));
+        ___qlistwidgetitem257 = self.listWidget_3.item(131)
+        ___qlistwidgetitem257.setText(QCoreApplication.translate("MainWindow", u"set()", None));
+        ___qlistwidgetitem258 = self.listWidget_3.item(132)
+        ___qlistwidgetitem258.setText(QCoreApplication.translate("MainWindow", u"setattr()", None));
+        ___qlistwidgetitem259 = self.listWidget_3.item(133)
+        ___qlistwidgetitem259.setText(QCoreApplication.translate("MainWindow", u"slice()", None));
+        ___qlistwidgetitem260 = self.listWidget_3.item(134)
+        ___qlistwidgetitem260.setText(QCoreApplication.translate("MainWindow", u"sorted()", None));
+        ___qlistwidgetitem261 = self.listWidget_3.item(135)
+        ___qlistwidgetitem261.setText(QCoreApplication.translate("MainWindow", u"str()", None));
+        ___qlistwidgetitem262 = self.listWidget_3.item(136)
+        ___qlistwidgetitem262.setText(QCoreApplication.translate("MainWindow", u"sum()", None));
+        ___qlistwidgetitem263 = self.listWidget_3.item(137)
+        ___qlistwidgetitem263.setText(QCoreApplication.translate("MainWindow", u"tuple()", None));
+        ___qlistwidgetitem264 = self.listWidget_3.item(138)
+        ___qlistwidgetitem264.setText(QCoreApplication.translate("MainWindow", u"type()", None));
+        ___qlistwidgetitem265 = self.listWidget_3.item(139)
+        ___qlistwidgetitem265.setText(QCoreApplication.translate("MainWindow", u"vars()", None));
+        ___qlistwidgetitem266 = self.listWidget_3.item(140)
+        ___qlistwidgetitem266.setText(QCoreApplication.translate("MainWindow", u"zip()", None));
+        ___qlistwidgetitem267 = self.listWidget_3.item(141)
+        ___qlistwidgetitem267.setText(QCoreApplication.translate("MainWindow", u"count()", None));
+        ___qlistwidgetitem268 = self.listWidget_3.item(142)
+        ___qlistwidgetitem268.setText(QCoreApplication.translate("MainWindow", u"index()", None));
+        ___qlistwidgetitem269 = self.listWidget_3.item(143)
+        ___qlistwidgetitem269.setText(QCoreApplication.translate("MainWindow", u"fromkeys()", None));
+        ___qlistwidgetitem270 = self.listWidget_3.item(144)
+        ___qlistwidgetitem270.setText(QCoreApplication.translate("MainWindow", u"get()", None));
+        ___qlistwidgetitem271 = self.listWidget_3.item(145)
+        ___qlistwidgetitem271.setText(QCoreApplication.translate("MainWindow", u"update()", None));
+        ___qlistwidgetitem272 = self.listWidget_3.item(146)
+        ___qlistwidgetitem272.setText(QCoreApplication.translate("MainWindow", u"append()", None));
+        ___qlistwidgetitem273 = self.listWidget_3.item(147)
+        ___qlistwidgetitem273.setText(QCoreApplication.translate("MainWindow", u"extend()", None));
+        ___qlistwidgetitem274 = self.listWidget_3.item(148)
+        ___qlistwidgetitem274.setText(QCoreApplication.translate("MainWindow", u"insert()", None));
+        ___qlistwidgetitem275 = self.listWidget_3.item(149)
+        ___qlistwidgetitem275.setText(QCoreApplication.translate("MainWindow", u"remove()", None));
+        ___qlistwidgetitem276 = self.listWidget_3.item(150)
+        ___qlistwidgetitem276.setText(QCoreApplication.translate("MainWindow", u"seek()", None));
+        ___qlistwidgetitem277 = self.listWidget_3.item(151)
+        ___qlistwidgetitem277.setText(QCoreApplication.translate("MainWindow", u"truncate()", None));
+        ___qlistwidgetitem278 = self.listWidget_3.item(152)
+        ___qlistwidgetitem278.setText(QCoreApplication.translate("MainWindow", u"write()", None));
+        ___qlistwidgetitem279 = self.listWidget_3.item(153)
+        ___qlistwidgetitem279.setText(QCoreApplication.translate("MainWindow", u"writelines()", None));
+        ___qlistwidgetitem280 = self.listWidget_3.item(154)
+        ___qlistwidgetitem280.setText(QCoreApplication.translate("MainWindow", u"add()", None));
+        ___qlistwidgetitem281 = self.listWidget_3.item(155)
+        ___qlistwidgetitem281.setText(QCoreApplication.translate("MainWindow", u"difference()", None));
+        ___qlistwidgetitem282 = self.listWidget_3.item(156)
+        ___qlistwidgetitem282.setText(QCoreApplication.translate("MainWindow", u"difference_update()", None));
+        ___qlistwidgetitem283 = self.listWidget_3.item(157)
+        ___qlistwidgetitem283.setText(QCoreApplication.translate("MainWindow", u"discard()", None));
+        ___qlistwidgetitem284 = self.listWidget_3.item(158)
+        ___qlistwidgetitem284.setText(QCoreApplication.translate("MainWindow", u"intersection()", None));
+        ___qlistwidgetitem285 = self.listWidget_3.item(159)
+        ___qlistwidgetitem285.setText(QCoreApplication.translate("MainWindow", u"intersection_update()", None));
+        ___qlistwidgetitem286 = self.listWidget_3.item(160)
+        ___qlistwidgetitem286.setText(QCoreApplication.translate("MainWindow", u"isdisjoint()", None));
+        ___qlistwidgetitem287 = self.listWidget_3.item(161)
+        ___qlistwidgetitem287.setText(QCoreApplication.translate("MainWindow", u"issubset()", None));
+        ___qlistwidgetitem288 = self.listWidget_3.item(162)
+        ___qlistwidgetitem288.setText(QCoreApplication.translate("MainWindow", u"issuperset()", None));
+        ___qlistwidgetitem289 = self.listWidget_3.item(163)
+        ___qlistwidgetitem289.setText(QCoreApplication.translate("MainWindow", u"symetric_difference()", None));
+        ___qlistwidgetitem290 = self.listWidget_3.item(164)
+        ___qlistwidgetitem290.setText(QCoreApplication.translate("MainWindow", u"symetric_difference_update()", None));
+        ___qlistwidgetitem291 = self.listWidget_3.item(165)
+        ___qlistwidgetitem291.setText(QCoreApplication.translate("MainWindow", u"union()", None));
+        ___qlistwidgetitem292 = self.listWidget_3.item(166)
+        ___qlistwidgetitem292.setText(QCoreApplication.translate("MainWindow", u"update()", None));
+        ___qlistwidgetitem293 = self.listWidget_3.item(167)
+        ___qlistwidgetitem293.setText(QCoreApplication.translate("MainWindow", u"center()", None));
+        ___qlistwidgetitem294 = self.listWidget_3.item(168)
+        ___qlistwidgetitem294.setText(QCoreApplication.translate("MainWindow", u"endswith()", None));
+        ___qlistwidgetitem295 = self.listWidget_3.item(169)
+        ___qlistwidgetitem295.setText(QCoreApplication.translate("MainWindow", u"expandtabs()", None));
+        ___qlistwidgetitem296 = self.listWidget_3.item(170)
+        ___qlistwidgetitem296.setText(QCoreApplication.translate("MainWindow", u"find()", None));
+        ___qlistwidgetitem297 = self.listWidget_3.item(171)
+        ___qlistwidgetitem297.setText(QCoreApplication.translate("MainWindow", u"index()", None));
+        ___qlistwidgetitem298 = self.listWidget_3.item(172)
+        ___qlistwidgetitem298.setText(QCoreApplication.translate("MainWindow", u"join()", None));
+        ___qlistwidgetitem299 = self.listWidget_3.item(173)
+        ___qlistwidgetitem299.setText(QCoreApplication.translate("MainWindow", u"ljust()", None));
+        ___qlistwidgetitem300 = self.listWidget_3.item(174)
+        ___qlistwidgetitem300.setText(QCoreApplication.translate("MainWindow", u"maketrans()", None));
+        ___qlistwidgetitem301 = self.listWidget_3.item(175)
+        ___qlistwidgetitem301.setText(QCoreApplication.translate("MainWindow", u"partition()", None));
+        ___qlistwidgetitem302 = self.listWidget_3.item(176)
+        ___qlistwidgetitem302.setText(QCoreApplication.translate("MainWindow", u"replace()", None));
+        ___qlistwidgetitem303 = self.listWidget_3.item(177)
+        ___qlistwidgetitem303.setText(QCoreApplication.translate("MainWindow", u"rfind()", None));
+        ___qlistwidgetitem304 = self.listWidget_3.item(178)
+        ___qlistwidgetitem304.setText(QCoreApplication.translate("MainWindow", u"rindex()", None));
+        ___qlistwidgetitem305 = self.listWidget_3.item(179)
+        ___qlistwidgetitem305.setText(QCoreApplication.translate("MainWindow", u"rjust()", None));
+        ___qlistwidgetitem306 = self.listWidget_3.item(180)
+        ___qlistwidgetitem306.setText(QCoreApplication.translate("MainWindow", u"rpartition()", None));
+        ___qlistwidgetitem307 = self.listWidget_3.item(181)
+        ___qlistwidgetitem307.setText(QCoreApplication.translate("MainWindow", u"startswith()", None));
+        ___qlistwidgetitem308 = self.listWidget_3.item(182)
+        ___qlistwidgetitem308.setText(QCoreApplication.translate("MainWindow", u"zfill()", None));
+        ___qlistwidgetitem309 = self.listWidget_3.item(183)
+        ___qlistwidgetitem309.setText(QCoreApplication.translate("MainWindow", u"CREATED FAULTS", None));
         self.listWidget_3.setSortingEnabled(__sortingEnabled2)
 
         self.btn_select_fault.setText(QCoreApplication.translate("MainWindow", u"Select Fault", None))
@@ -5124,89 +5128,87 @@ class Ui_MainWindow(object):
 
         __sortingEnabled3 = self.listWidget_13.isSortingEnabled()
         self.listWidget_13.setSortingEnabled(False)
-        ___qlistwidgetitem304 = self.listWidget_13.item(0)
-        ___qlistwidgetitem304.setText(QCoreApplication.translate("MainWindow", u"Execution01", None));
-        ___qlistwidgetitem305 = self.listWidget_13.item(1)
-        ___qlistwidgetitem305.setText(QCoreApplication.translate("MainWindow", u"Execution02", None));
-        ___qlistwidgetitem306 = self.listWidget_13.item(2)
-        ___qlistwidgetitem306.setText(QCoreApplication.translate("MainWindow", u"Execution03", None));
+        ___qlistwidgetitem310 = self.listWidget_13.item(0)
+        ___qlistwidgetitem310.setText(QCoreApplication.translate("MainWindow", u"Execution01", None));
+        ___qlistwidgetitem311 = self.listWidget_13.item(1)
+        ___qlistwidgetitem311.setText(QCoreApplication.translate("MainWindow", u"Execution02", None));
+        ___qlistwidgetitem312 = self.listWidget_13.item(2)
+        ___qlistwidgetitem312.setText(QCoreApplication.translate("MainWindow", u"Execution03", None));
         self.listWidget_13.setSortingEnabled(__sortingEnabled3)
 
         self.btn_go_monitoring.setText(QCoreApplication.translate("MainWindow", u"Monitoring Page", None))
         self.pushButton_6.setText(QCoreApplication.translate("MainWindow", u"FI Plan Page", None))
-        self.label_10.setText(QCoreApplication.translate("MainWindow", u"Mutation Score", None))
-        self.label_8.setText(QCoreApplication.translate("MainWindow", u"AST Daigram", None))
         self.label_74.setText(QCoreApplication.translate("MainWindow", u"Killed Mutants Output:", None))
-        self.label_7.setText(QCoreApplication.translate("MainWindow", u"Metrics:", None))
-        self.label_45.setText(QCoreApplication.translate("MainWindow", u"Faults:", None))
+        self.label_45.setText(QCoreApplication.translate("MainWindow", u"Mutants & Faults:", None))
         self.label_73.setText(QCoreApplication.translate("MainWindow", u"Mutant Lists:", None))
-        self.btn_run_scenario.setText(QCoreApplication.translate("MainWindow", u"Run The Scenario", None))
-        self.label_87.setText(QCoreApplication.translate("MainWindow", u"V&V Report", None))
-        self.btn_create_report.setText(QCoreApplication.translate("MainWindow", u"Create Report", None))
+        self.label_47.setText("")
+        self.label_10.setText(QCoreApplication.translate("MainWindow", u"Mutation Score", None))
+        self.btn_select_scenario.setText(QCoreApplication.translate("MainWindow", u"Select Scenario", None))
 
         __sortingEnabled4 = self.listWidget_12.isSortingEnabled()
         self.listWidget_12.setSortingEnabled(False)
-        ___qlistwidgetitem307 = self.listWidget_12.item(0)
-        ___qlistwidgetitem307.setText(QCoreApplication.translate("MainWindow", u"rosbag_record01.bag", None));
-        ___qlistwidgetitem308 = self.listWidget_12.item(1)
-        ___qlistwidgetitem308.setText(QCoreApplication.translate("MainWindow", u"rosbag_record02.bag", None));
-        ___qlistwidgetitem309 = self.listWidget_12.item(2)
-        ___qlistwidgetitem309.setText(QCoreApplication.translate("MainWindow", u"rosbag_rercord03.bag", None));
-        ___qlistwidgetitem310 = self.listWidget_12.item(3)
-        ___qlistwidgetitem310.setText(QCoreApplication.translate("MainWindow", u"rosbag_record04.bag", None));
-        ___qlistwidgetitem311 = self.listWidget_12.item(4)
-        ___qlistwidgetitem311.setText(QCoreApplication.translate("MainWindow", u"rosbag_record05.bag", None));
+        ___qlistwidgetitem313 = self.listWidget_12.item(0)
+        ___qlistwidgetitem313.setText(QCoreApplication.translate("MainWindow", u"rosbag_record01.bag", None));
+        ___qlistwidgetitem314 = self.listWidget_12.item(1)
+        ___qlistwidgetitem314.setText(QCoreApplication.translate("MainWindow", u"rosbag_record02.bag", None));
+        ___qlistwidgetitem315 = self.listWidget_12.item(2)
+        ___qlistwidgetitem315.setText(QCoreApplication.translate("MainWindow", u"rosbag_rercord03.bag", None));
+        ___qlistwidgetitem316 = self.listWidget_12.item(3)
+        ___qlistwidgetitem316.setText(QCoreApplication.translate("MainWindow", u"rosbag_record04.bag", None));
+        ___qlistwidgetitem317 = self.listWidget_12.item(4)
+        ___qlistwidgetitem317.setText(QCoreApplication.translate("MainWindow", u"rosbag_record05.bag", None));
         self.listWidget_12.setSortingEnabled(__sortingEnabled4)
 
-        self.btn_select_scenario.setText(QCoreApplication.translate("MainWindow", u"Select Scenario", None))
-        self.label_77.setText("")
-        self.label_47.setText("")
         self.label_3.setText(QCoreApplication.translate("MainWindow", u"Rosbag Scenarios", None))
-        self.btn_new_one.setText(QCoreApplication.translate("MainWindow", u"Start To The New One", None))
+        self.btn_run_scenario.setText(QCoreApplication.translate("MainWindow", u"Run The Scenario", None))
+        self.label_7.setText(QCoreApplication.translate("MainWindow", u"Metrics:", None))
+        self.label_87.setText(QCoreApplication.translate("MainWindow", u"V&V Report", None))
+        self.btn_create_report.setText(QCoreApplication.translate("MainWindow", u"Create Report", None))
+        self.btn_new_one.setText(QCoreApplication.translate("MainWindow", u"Start The New One", None))
         self.selectMetrics.setStyleSheet("")
+        self.label_25.setText(QCoreApplication.translate("MainWindow", u"Select Metrics & States", None))
+        self.label_35.setText(QCoreApplication.translate("MainWindow", u"Information", None))
         self.label_37.setText(QCoreApplication.translate("MainWindow", u"Selected", None))
+
+        __sortingEnabled5 = self.listWidget_18.isSortingEnabled()
+        self.listWidget_18.setSortingEnabled(False)
+        ___qlistwidgetitem318 = self.listWidget_18.item(0)
+        ___qlistwidgetitem318.setText(QCoreApplication.translate("MainWindow", u"Metrics", None));
+        ___qlistwidgetitem319 = self.listWidget_18.item(1)
+        ___qlistwidgetitem319.setText(QCoreApplication.translate("MainWindow", u"Detected", None));
+        ___qlistwidgetitem320 = self.listWidget_18.item(2)
+        ___qlistwidgetitem320.setText(QCoreApplication.translate("MainWindow", u"Undetected", None));
+        ___qlistwidgetitem321 = self.listWidget_18.item(3)
+        ___qlistwidgetitem321.setText(QCoreApplication.translate("MainWindow", u"Covered", None));
+        ___qlistwidgetitem322 = self.listWidget_18.item(4)
+        ___qlistwidgetitem322.setText(QCoreApplication.translate("MainWindow", u"Valid", None));
+        ___qlistwidgetitem323 = self.listWidget_18.item(5)
+        ___qlistwidgetitem323.setText(QCoreApplication.translate("MainWindow", u"Total Mutants", None));
+        ___qlistwidgetitem324 = self.listWidget_18.item(6)
+        ___qlistwidgetitem324.setText(QCoreApplication.translate("MainWindow", u"Mutant States", None));
+        ___qlistwidgetitem325 = self.listWidget_18.item(7)
+        ___qlistwidgetitem325.setText(QCoreApplication.translate("MainWindow", u"Killed", None));
+        ___qlistwidgetitem326 = self.listWidget_18.item(8)
+        ___qlistwidgetitem326.setText(QCoreApplication.translate("MainWindow", u"Survived", None));
+        ___qlistwidgetitem327 = self.listWidget_18.item(9)
+        ___qlistwidgetitem327.setText(QCoreApplication.translate("MainWindow", u"No Coverage", None));
+        ___qlistwidgetitem328 = self.listWidget_18.item(10)
+        ___qlistwidgetitem328.setText(QCoreApplication.translate("MainWindow", u"Timeout", None));
+        ___qlistwidgetitem329 = self.listWidget_18.item(11)
+        ___qlistwidgetitem329.setText(QCoreApplication.translate("MainWindow", u"Runtime Error", None));
+        ___qlistwidgetitem330 = self.listWidget_18.item(12)
+        ___qlistwidgetitem330.setText(QCoreApplication.translate("MainWindow", u"Compile Error", None));
+        ___qlistwidgetitem331 = self.listWidget_18.item(13)
+        ___qlistwidgetitem331.setText(QCoreApplication.translate("MainWindow", u"Ignored", None));
+        self.listWidget_18.setSortingEnabled(__sortingEnabled5)
+
+        self.btn_metric_list.setText(QCoreApplication.translate("MainWindow", u"Select", None))
+        self.saveMetrics.setText(QCoreApplication.translate("MainWindow", u"Save Metrics", None))
         self.textEdit_9.setHtml(QCoreApplication.translate("MainWindow", u"<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
 "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
 "p, li { white-space: pre-wrap; }\n"
 "</style></head><body style=\" font-family:'Segoe UI'; font-size:10pt; font-weight:400; font-style:normal;\">\n"
 "<p style=\"-qt-paragraph-type:empty; margin-top:12px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><br /></p></body></html>", None))
-        self.label_25.setText(QCoreApplication.translate("MainWindow", u"Select Metrics & States", None))
-        self.btn_metric_list.setText(QCoreApplication.translate("MainWindow", u"Select", None))
-        self.saveMetrics.setText(QCoreApplication.translate("MainWindow", u"Save Metrics", None))
-        self.label_35.setText(QCoreApplication.translate("MainWindow", u"Information", None))
-
-        __sortingEnabled5 = self.listWidget_18.isSortingEnabled()
-        self.listWidget_18.setSortingEnabled(False)
-        ___qlistwidgetitem312 = self.listWidget_18.item(0)
-        ___qlistwidgetitem312.setText(QCoreApplication.translate("MainWindow", u"Metrics", None));
-        ___qlistwidgetitem313 = self.listWidget_18.item(1)
-        ___qlistwidgetitem313.setText(QCoreApplication.translate("MainWindow", u"Detected", None));
-        ___qlistwidgetitem314 = self.listWidget_18.item(2)
-        ___qlistwidgetitem314.setText(QCoreApplication.translate("MainWindow", u"Undetected", None));
-        ___qlistwidgetitem315 = self.listWidget_18.item(3)
-        ___qlistwidgetitem315.setText(QCoreApplication.translate("MainWindow", u"Covered", None));
-        ___qlistwidgetitem316 = self.listWidget_18.item(4)
-        ___qlistwidgetitem316.setText(QCoreApplication.translate("MainWindow", u"Valid", None));
-        ___qlistwidgetitem317 = self.listWidget_18.item(5)
-        ___qlistwidgetitem317.setText(QCoreApplication.translate("MainWindow", u"Total Mutants", None));
-        ___qlistwidgetitem318 = self.listWidget_18.item(6)
-        ___qlistwidgetitem318.setText(QCoreApplication.translate("MainWindow", u"Mutant States", None));
-        ___qlistwidgetitem319 = self.listWidget_18.item(7)
-        ___qlistwidgetitem319.setText(QCoreApplication.translate("MainWindow", u"Killed", None));
-        ___qlistwidgetitem320 = self.listWidget_18.item(8)
-        ___qlistwidgetitem320.setText(QCoreApplication.translate("MainWindow", u"Survived", None));
-        ___qlistwidgetitem321 = self.listWidget_18.item(9)
-        ___qlistwidgetitem321.setText(QCoreApplication.translate("MainWindow", u"No Coverage", None));
-        ___qlistwidgetitem322 = self.listWidget_18.item(10)
-        ___qlistwidgetitem322.setText(QCoreApplication.translate("MainWindow", u"Timeout", None));
-        ___qlistwidgetitem323 = self.listWidget_18.item(11)
-        ___qlistwidgetitem323.setText(QCoreApplication.translate("MainWindow", u"Runtime Error", None));
-        ___qlistwidgetitem324 = self.listWidget_18.item(12)
-        ___qlistwidgetitem324.setText(QCoreApplication.translate("MainWindow", u"Compile Error", None));
-        ___qlistwidgetitem325 = self.listWidget_18.item(13)
-        ___qlistwidgetitem325.setText(QCoreApplication.translate("MainWindow", u"Ignored", None));
-        self.listWidget_18.setSortingEnabled(__sortingEnabled5)
-
         self.btn_back_exe.setText(QCoreApplication.translate("MainWindow", u"Back To Execution Step", None))
         self.customFault.setStyleSheet("")
         self.btn_create_fault.setText(QCoreApplication.translate("MainWindow", u"Create Fault", None))
@@ -5227,16 +5229,16 @@ class Ui_MainWindow(object):
 "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
 "p, li { white-space: pre-wrap; }\n"
 "</style></head><body style=\" font-family:'Segoe UI'; font-size:10pt; font-weight:400; font-style:normal;\">\n"
-"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-family:'Droid Sans Mono','monospace','monospace','Droid Sans Fallback'; font-size:14px; color:#9cdcfe;\">&quot;fault&quot;</span><span style=\" font-family:'Droid Sans Mono','monospace','monospace','Droid Sans Fallback'; font-size:14px; color:#d4d4d4;\">:{</span></p>\n"
-"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-family:'Droid Sans Mono','monospace','monospace','Droid Sans Fallback'; font-size:14px; color:#d4d4d4;\">            </span><span style"
-                        "=\" font-family:'Droid Sans Mono','monospace','monospace','Droid Sans Fallback'; font-size:14px; color:#9cdcfe;\">&quot;Fault_Name&quot;</span><span style=\" font-family:'Droid Sans Mono','monospace','monospace','Droid Sans Fallback'; font-size:14px; color:#d4d4d4;\">: </span><span style=\" font-family:'Droid Sans Mono','monospace','monospace','Droid Sans Fallback'; font-size:14px; color:#ce9178;\">&quot;(AOW) Arithmetic Operator Wrong&quot;</span><span style=\" font-family:'Droid Sans Mono','monospace','monospace','Droid Sans Fallback'; font-size:14px; color:#d4d4d4;\">,</span></p>\n"
-"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-family:'Droid Sans Mono','monospace','monospace','Droid Sans Fallback'; font-size:14px; color:#d4d4d4;\">            </span><span style=\" font-family:'Droid Sans Mono','monospace','monospace','Droid Sans Fallback'; font-size:14px; color:#9cdcfe;\">&quot;Target_to_Change&quot;</span><span "
-                        "style=\" font-family:'Droid Sans Mono','monospace','monospace','Droid Sans Fallback'; font-size:14px; color:#d4d4d4;\">: </span><span style=\" font-family:'Droid Sans Mono','monospace','monospace','Droid Sans Fallback'; font-size:14px; color:#ce9178;\">&quot;\\\\+,\\\\-,\\\\*,\\\\/,[%]{1},[**]{2},[\\//]{2}&quot;</span><span style=\" font-family:'Droid Sans Mono','monospace','monospace','Droid Sans Fallback'; font-size:14px; color:#d4d4d4;\">,</span></p>\n"
-"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-family:'Droid Sans Mono','monospace','monospace','Droid Sans Fallback'; font-size:14px; color:#d4d4d4;\">            </span><span style=\" font-family:'Droid Sans Mono','monospace','monospace','Droid Sans Fallback'; font-size:14px; color:#9cdcfe;\">&quot;Changed&quot;</span><span style=\" font-family:'Droid Sans Mono','monospace','monospace','Droid Sans Fallback'; font-size:14px; color:#d4d4d4;\">:</span><span style=\""
-                        " font-family:'Droid Sans Mono','monospace','monospace','Droid Sans Fallback'; font-size:14px; color:#ce9178;\">&quot;+,-,*,/,%,**,//&quot;</span><span style=\" font-family:'Droid Sans Mono','monospace','monospace','Droid Sans Fallback'; font-size:14px; color:#d4d4d4;\">,</span></p>\n"
-"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-family:'Droid Sans Mono','monospace','monospace','Droid Sans Fallback'; font-size:14px; color:#d4d4d4;\">            </span><span style=\" font-family:'Droid Sans Mono','monospace','monospace','Droid Sans Fallback'; font-size:14px; color:#9cdcfe;\">&quot;Explanation&quot;</span><span style=\" font-family:'Droid Sans Mono','monospace','monospace','Droid Sans Fallback'; font-size:14px; color:#d4d4d4;\">:</span><span style=\" font-family:'Droid Sans Mono','monospace','monospace','Droid Sans Fallback'; font-size:14px; color:#ce9178;\">&quot;Arithmetic Operators Wrong\\nOriginal Code: x + y\\nMu"
-                        "tated Code: x - y&quot;</span></p>\n"
-"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-family:'Droid Sans Mono','monospace','monospace','Droid Sans Fallback'; font-size:14px; color:#d4d4d4;\">            }</span></p></body></html>", None))
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-family:'Droid Sans Mono,monospace,monospace,Droid Sans Fallback'; font-size:14px; color:#9cdcfe;\">&quot;fault&quot;</span><span style=\" font-family:'Droid Sans Mono,monospace,monospace,Droid Sans Fallback'; font-size:14px; color:#d4d4d4;\">:{</span></p>\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-family:'Droid Sans Mono,monospace,monospace,Droid Sans Fallback'; font-size:14px; color:#d4d4d4;\">            </span><span style=\" font-family:'D"
+                        "roid Sans Mono,monospace,monospace,Droid Sans Fallback'; font-size:14px; color:#9cdcfe;\">&quot;Fault_Name&quot;</span><span style=\" font-family:'Droid Sans Mono,monospace,monospace,Droid Sans Fallback'; font-size:14px; color:#d4d4d4;\">: </span><span style=\" font-family:'Droid Sans Mono,monospace,monospace,Droid Sans Fallback'; font-size:14px; color:#ce9178;\">&quot;(AOW) Arithmetic Operator Wrong&quot;</span><span style=\" font-family:'Droid Sans Mono,monospace,monospace,Droid Sans Fallback'; font-size:14px; color:#d4d4d4;\">,</span></p>\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-family:'Droid Sans Mono,monospace,monospace,Droid Sans Fallback'; font-size:14px; color:#d4d4d4;\">            </span><span style=\" font-family:'Droid Sans Mono,monospace,monospace,Droid Sans Fallback'; font-size:14px; color:#9cdcfe;\">&quot;Target_to_Change&quot;</span><span style=\" font-family:'Droid Sans Mono,monospace,monosp"
+                        "ace,Droid Sans Fallback'; font-size:14px; color:#d4d4d4;\">: </span><span style=\" font-family:'Droid Sans Mono,monospace,monospace,Droid Sans Fallback'; font-size:14px; color:#ce9178;\">&quot;\\\\+,\\\\-,\\\\*,\\\\/,[%]{1},[**]{2},[\\//]{2}&quot;</span><span style=\" font-family:'Droid Sans Mono,monospace,monospace,Droid Sans Fallback'; font-size:14px; color:#d4d4d4;\">,</span></p>\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-family:'Droid Sans Mono,monospace,monospace,Droid Sans Fallback'; font-size:14px; color:#d4d4d4;\">            </span><span style=\" font-family:'Droid Sans Mono,monospace,monospace,Droid Sans Fallback'; font-size:14px; color:#9cdcfe;\">&quot;Changed&quot;</span><span style=\" font-family:'Droid Sans Mono,monospace,monospace,Droid Sans Fallback'; font-size:14px; color:#d4d4d4;\">:</span><span style=\" font-family:'Droid Sans Mono,monospace,monospace,Droid Sans Fallback'; font-size:14px; co"
+                        "lor:#ce9178;\">&quot;+,-,*,/,%,**,//&quot;</span><span style=\" font-family:'Droid Sans Mono,monospace,monospace,Droid Sans Fallback'; font-size:14px; color:#d4d4d4;\">,</span></p>\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-family:'Droid Sans Mono,monospace,monospace,Droid Sans Fallback'; font-size:14px; color:#d4d4d4;\">            </span><span style=\" font-family:'Droid Sans Mono,monospace,monospace,Droid Sans Fallback'; font-size:14px; color:#9cdcfe;\">&quot;Explanation&quot;</span><span style=\" font-family:'Droid Sans Mono,monospace,monospace,Droid Sans Fallback'; font-size:14px; color:#d4d4d4;\">:</span><span style=\" font-family:'Droid Sans Mono,monospace,monospace,Droid Sans Fallback'; font-size:14px; color:#ce9178;\">&quot;Arithmetic Operators Wrong\\nOriginal Code: x + y\\nMutated Code: x - y&quot;</span></p>\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-b"
+                        "lock-indent:0; text-indent:0px;\"><span style=\" font-family:'Droid Sans Mono,monospace,monospace,Droid Sans Fallback'; font-size:14px; color:#d4d4d4;\">            }</span></p></body></html>", None))
         self.textEdit_11.setHtml(QCoreApplication.translate("MainWindow", u"<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
 "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
 "p, li { white-space: pre-wrap; }\n"
@@ -5303,15 +5305,15 @@ class Ui_MainWindow(object):
 "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
 "p, li { white-space: pre-wrap; }\n"
 "</style></head><body style=\" font-family:'Segoe UI'; font-size:10pt; font-weight:400; font-style:normal;\">\n"
-"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-family:'Droid Sans Mono','monospace','monospace','Droid Sans Fallback'; font-size:14px; color:#d4d4d4;\">{</span></p>\n"
-"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-family:'Droid Sans Mono','monospace','monospace','Droid Sans Fallback'; font-size:14px; color:#9cdcfe;\">    &quot;Snippet_Name&quot;</span><span style=\" font-family:'Droid Sans Mono','monospace','monospace','Droid Sans Fallback'; font-size:14px; color:#d4d4d4;\">: </span><span style"
-                        "=\" font-family:'Droid Sans Mono','monospace','monospace','Droid Sans Fallback'; font-size:14px; color:#ce9178;\">&quot;if&quot;</span><span style=\" font-family:'Droid Sans Mono','monospace','monospace','Droid Sans Fallback'; font-size:14px; color:#d4d4d4;\">,</span></p>\n"
-"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-family:'Droid Sans Mono','monospace','monospace','Droid Sans Fallback'; font-size:14px; color:#9cdcfe;\">    &quot;Title&quot;</span><span style=\" font-family:'Droid Sans Mono','monospace','monospace','Droid Sans Fallback'; font-size:14px; color:#d4d4d4;\">:</span><span style=\" font-family:'Droid Sans Mono','monospace','monospace','Droid Sans Fallback'; font-size:14px; color:#ce9178;\">&quot;Python if Statement Syntax&quot;</span><span style=\" font-family:'Droid Sans Mono','monospace','monospace','Droid Sans Fallback'; font-size:14px; color:#d4d4d4;\">,</span></p>\n"
-"<p style=\" margin-top:0px; m"
-                        "argin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-family:'Droid Sans Mono','monospace','monospace','Droid Sans Fallback'; color:#9cdcfe;\">    &quot;Process&quot;</span><span style=\" font-family:'Droid Sans Mono','monospace','monospace','Droid Sans Fallback'; color:#d4d4d4;\">:</span><span style=\" font-family:'Droid Sans Mono','monospace','monospace','Droid Sans Fallback'; color:#ce9178;\">&quot;if test expression:\\n\\tstatement(s)&quot;</span></p>\n"
-"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-family:'Droid Sans Mono','monospace','monospace','Droid Sans Fallback'; font-size:14px; color:#9cdcfe;\">    &quot;Regex_Code&quot;</span><span style=\" font-family:'Droid Sans Mono','monospace','monospace','Droid Sans Fallback'; font-size:14px; color:#d4d4d4;\">:</span><span style=\" font-family:'Droid Sans Mono','monospace','monospace','Droid Sans Fallback';"
-                        " font-size:14px; color:#ce9178;\">&quot;if.*:&quot;</span><span style=\" font-family:'Droid Sans Mono','monospace','monospace','Droid Sans Fallback'; font-size:14px; color:#d4d4d4;\">,</span></p>\n"
-"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-family:'Droid Sans Mono','monospace','monospace','Droid Sans Fallback'; font-size:14px; color:#d4d4d4;\">}</span></p></body></html>", None))
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-family:'Droid Sans Mono,monospace,monospace,Droid Sans Fallback'; font-size:14px; color:#d4d4d4;\">{</span></p>\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-family:'Droid Sans Mono,monospace,monospace,Droid Sans Fallback'; font-size:14px; color:#9cdcfe;\">    &quot;Snippet_Name&quot;</span><span style=\" font-family:'Droid Sans Mono,monospace,monospace,Droid Sans Fallback'; font-size:14px; color:#d4d4d4;\">: </span><span style=\" font-family:'D"
+                        "roid Sans Mono,monospace,monospace,Droid Sans Fallback'; font-size:14px; color:#ce9178;\">&quot;if&quot;</span><span style=\" font-family:'Droid Sans Mono,monospace,monospace,Droid Sans Fallback'; font-size:14px; color:#d4d4d4;\">,</span></p>\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-family:'Droid Sans Mono,monospace,monospace,Droid Sans Fallback'; font-size:14px; color:#9cdcfe;\">    &quot;Title&quot;</span><span style=\" font-family:'Droid Sans Mono,monospace,monospace,Droid Sans Fallback'; font-size:14px; color:#d4d4d4;\">:</span><span style=\" font-family:'Droid Sans Mono,monospace,monospace,Droid Sans Fallback'; font-size:14px; color:#ce9178;\">&quot;Python if Statement Syntax&quot;</span><span style=\" font-family:'Droid Sans Mono,monospace,monospace,Droid Sans Fallback'; font-size:14px; color:#d4d4d4;\">,</span></p>\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -"
+                        "qt-block-indent:0; text-indent:0px;\"><span style=\" font-family:'Droid Sans Mono,monospace,monospace,Droid Sans Fallback'; color:#9cdcfe;\">    &quot;Process&quot;</span><span style=\" font-family:'Droid Sans Mono,monospace,monospace,Droid Sans Fallback'; color:#d4d4d4;\">:</span><span style=\" font-family:'Droid Sans Mono,monospace,monospace,Droid Sans Fallback'; color:#ce9178;\">&quot;if test expression:\\n\\tstatement(s)&quot;</span></p>\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-family:'Droid Sans Mono,monospace,monospace,Droid Sans Fallback'; font-size:14px; color:#9cdcfe;\">    &quot;Regex_Code&quot;</span><span style=\" font-family:'Droid Sans Mono,monospace,monospace,Droid Sans Fallback'; font-size:14px; color:#d4d4d4;\">:</span><span style=\" font-family:'Droid Sans Mono,monospace,monospace,Droid Sans Fallback'; font-size:14px; color:#ce9178;\">&quot;if.*:&quot;</span><span style=\" font-family:'Droi"
+                        "d Sans Mono,monospace,monospace,Droid Sans Fallback'; font-size:14px; color:#d4d4d4;\">,</span></p>\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-family:'Droid Sans Mono,monospace,monospace,Droid Sans Fallback'; font-size:14px; color:#d4d4d4;\">}</span></p></body></html>", None))
         self.label_60.setText("")
         self.label_21.setText(QCoreApplication.translate("MainWindow", u"Title:", None))
         self.label_64.setText(QCoreApplication.translate("MainWindow", u"Process:", None))
