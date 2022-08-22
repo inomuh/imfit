@@ -15,6 +15,10 @@ import pytest
 import astunparse
 from datetime import datetime
 
+import matplotlib.pyplot as plt
+import numpy as np
+import squarify
+
 from PySide6.QtWidgets import QApplication, QMainWindow, QFileDialog, QMessageBox
 from PySide6 import QtGui
 
@@ -880,6 +884,9 @@ class MainWindow(QMainWindow):
                                 self.ui.listWidget_9.addItem(
                                     "Timeout: " + str(timeout_counter)
                                 )
+                                # Create graphics about mutation process
+                                self.create_bar_chart(mutation_score,killed_mutants, survivor_mutants, equivalent_mutants)
+                                self.create_pie_chart(killed_mutants, survivor_mutants, equivalent_mutants)
 
                                 print("\n")
                                 print("#" * 10)
@@ -960,8 +967,17 @@ class MainWindow(QMainWindow):
                                 )
                                 fault_name_list_size = len(fault_name_list)
                                 for i in range(0, fault_name_list_size):
-                                    added_line_mutants_faults = "Mutant_no_" + str(i + 1) + "_" + file_name_for_creating_mutant_file + " --> " + str(fault_name_list[i])
-                                    self.ui.listWidget_14.addItem(added_line_mutants_faults)
+                                    added_line_mutants_faults = (
+                                        "Mutant_no_"
+                                        + str(i + 1)
+                                        + "_"
+                                        + file_name_for_creating_mutant_file
+                                        + " --> "
+                                        + str(fault_name_list[i])
+                                    )
+                                    self.ui.listWidget_14.addItem(
+                                        added_line_mutants_faults
+                                    )
 
                             else:
                                 killed_counter = 0
@@ -1209,6 +1225,8 @@ class MainWindow(QMainWindow):
         self.ui.btn_select_scenario.clicked.connect(get_file_rosbag)
         self.ui.btn_run_scenario.clicked.connect(self.buttonClick)
         self.ui.btn_create_report.clicked.connect(self.create_v_and_v_report)
+        self.ui.bar_chart.clicked.connect(self.show_bar_chart)
+        self.ui.pie_chart.clicked.connect(self.show_pie_chart)
 
         # CREATE WORKLOAD PAGE BUTTONS
         self.ui.btn_changeDir.clicked.connect(self.buttonClick)
@@ -1250,6 +1268,51 @@ class MainWindow(QMainWindow):
         self.ui.btn_home.setStyleSheet(
             UIFunctions.selectMenu(self.ui.btn_home.styleSheet())
         )
+
+        # REFRESH AND RESET BUTTONS
+        self.ui.refresh_page.clicked.connect(self.refresh_page)
+        self.ui.reset_for_all.clicked.connect(self.reset_all)
+
+    def refresh_page_decision_box(self):
+        reply = QMessageBox.question(self, 'Refresh', 'Are you sure you want to refresh?',
+        QMessageBox.Yes | QMessageBox.No)
+        if reply == QMessageBox.Yes:
+            return True
+        else:
+            return False
+
+    
+    def refresh_page(self):
+        print("refresh page")
+        user_decision_to_refresh = self.refresh_page_decision_box()
+        if user_decision_to_refresh == False:
+            return None
+
+        page_index = self.ui.stackedWidget.currentIndex()
+        if page_index == 1:
+            self.refresh_start_page()
+        elif page_index == 2:
+            pass
+        else:
+            pass
+
+    def refresh_start_page(self):
+        self.ui.textEdit_21.clear()
+        self.ui.textEdit_40.clear()
+        self.ui.source_code_directory_text.clear()
+        self.ui.source_code_content.clear()
+        self.ui.test_case_directory_text.clear()
+        self.ui.test_case_content.clear()
+        self.ui.test_case_terminal.clear()
+        self.ui.textEdit_46.clear()
+        self.ui.textEdit_3.clear()
+        self.ui.textEdit_24.clear()
+        self.ui.listWidget_8.clear()
+
+
+
+    def reset_all(self):
+        print("reset all")
 
     def left_menu_execution_page(self):
         """Go to execution page from left menu"""
@@ -1539,6 +1602,113 @@ class MainWindow(QMainWindow):
             monitoring_rosbag_scenarios_list,
         )
         self.ui.label_77.setText("V&V Report is Created")
+
+    # Mutation Score Graphic Types
+
+    # Creating bar chart function
+    def create_bar_chart(
+        self, mutation_score, killed_mutant_number, survived_mutant_number, equvialent_mutant_number
+    ):
+        """Creating bar chart graphic"""
+        # Create bars
+        plt.clf()
+        bar_width = 1
+        bars1 = [mutation_score]
+        bars2 = [killed_mutant_number]
+        bars3 = [survived_mutant_number]
+        bars4 = [equvialent_mutant_number]
+        bars5 = bars1 + bars2 + bars3 + bars4
+
+        # The X position of bars
+        bar_1_x_position = [1]
+        bar_2_x_position = [2]
+        bar_3_x_position = [3]
+        bar_4_x_position = [4]
+        bar_5_x_position = (
+            bar_1_x_position + bar_2_x_position + bar_3_x_position + bar_4_x_position
+        )
+
+        # Create barplot
+        plt.bar(
+            bar_1_x_position,
+            bars1,
+            width=bar_width,
+            color=(0.3, 0.9, 0.2, 0.6),
+            label="Mutation Score",
+        )
+        plt.bar(
+            bar_2_x_position,
+            bars2,
+            width=bar_width,
+            color=(0.3, 0.7, 0.4, 0.6),
+            label="Killed Mutants",
+        )
+        plt.bar(
+            bar_3_x_position,
+            bars3,
+            width=bar_width,
+            color=(0.3, 0.5, 0.6, 0.6),
+            label="Survived Mutants",
+        )
+        plt.bar(
+            bar_4_x_position,
+            bars4,
+            width=bar_width,
+            color=(0.3, 0.3, 0.8, 0.6),
+            label="Equivalent Mutants",
+        )
+
+        # Create legend
+        plt.legend()
+
+        # Text below each barplot
+        plt.xticks(
+            [r + bar_width for r in range(len(bar_5_x_position))],
+            ["Mutation Score", "Killed", "Survived", "Equivalent"],
+        )
+
+        # Text on the top of each bar
+        for i, _ in enumerate(bar_5_x_position):
+            plt.text(
+                x=bar_5_x_position[i],
+                y=bars5[i] + 0.1,
+                s=str(bars5[i]),
+                fontdict=dict(fontsize=12),
+                ha="center",
+            )
+
+        # Graphic title
+        plt.title("Details of V&V Process")
+        plt.tight_layout()
+        plt.savefig("output1.jpg")
+
+    # Creating Pie Chart Function
+    def create_pie_chart(
+        self,killed_mutant_number, survived_mutant_number, equvialent_mutant_number
+    ):
+        """Creating pie chart"""
+        plt.clf()
+        chart = np.array(
+            [
+                killed_mutant_number,
+                survived_mutant_number,
+                equvialent_mutant_number,
+            ]
+        )
+        mylabels = [
+            "Killed: " + str(killed_mutant_number),
+            "Survived: " + str(survived_mutant_number),
+            "Equvialent: " + str(equvialent_mutant_number),
+        ]
+        plt.title("Details of V&V Process")
+        plt.pie(chart, labels=mylabels)
+        plt.savefig("output2.jpg")
+
+    def show_bar_chart(self):
+        self.ui.label_47.setPixmap(QPixmap("output1.jpg"))
+    
+    def show_pie_chart(self):
+        self.ui.label_47.setPixmap(QPixmap("output2.jpg"))
 
     # BUTTONS CLICK FUNCTIONS
     def buttonClick(self):
