@@ -1272,29 +1272,52 @@ class MainWindow(QMainWindow):
         # REFRESH AND RESET BUTTONS
         self.ui.refresh_page.clicked.connect(self.refresh_page)
         self.ui.reset_for_all.clicked.connect(self.reset_all)
-
-    def refresh_page_decision_box(self):
-        reply = QMessageBox.question(self, 'Refresh', 'Are you sure you want to refresh?',
-        QMessageBox.Yes | QMessageBox.No)
-        if reply == QMessageBox.Yes:
-            return True
-        else:
-            return False
-
     
     def refresh_page(self):
-        print("refresh page")
         user_decision_to_refresh = self.refresh_page_decision_box()
         if user_decision_to_refresh == False:
             return None
 
         page_index = self.ui.stackedWidget.currentIndex()
-        if page_index == 1:
+        if page_index == 1: # Start Page
             self.refresh_start_page()
-        elif page_index == 2:
-            pass
+        elif page_index == 2: # ROS Page
+            self.refresh_ros_page()
+        elif page_index == 3: # Scan Page
+            self.refresh_scan_page()
+        elif page_index == 4: # FI Plan Page
+            self.refresh_fiplan_page()
+        elif page_index == 5: # Execution Page
+            self.refresh_execution_page()
+        elif page_index == 6: # Monitoring Page
+            self.refresh_monitoring_page()
+        elif page_index == 7: # Metric Selection Page
+            self.refresh_select_metric_page()
+        elif page_index == 8: # Custom Fault Page
+            self.refresh_custom_fault_page()
+        elif page_index == 9: # Workload Creation Page
+            self.refresh_create_workload_page()
+        elif page_index == 10: # ROS Test Page
+            self.refresh_ros_test_page()
+        elif page_index == 11: # Code Snippet Creation Page
+            self.refresh_create_code_snippet_page()
         else:
-            pass
+            self.non_refreshed_page()
+    
+    def refresh_page_decision_box(self):
+        reply = QMessageBox.question(self, 'Refresh', 'Are you sure you want to refresh?',
+        QMessageBox.Yes | QMessageBox.No)
+        if reply == QMessageBox.Yes:
+            return True
+        return False
+
+    def non_refreshed_page(self):
+        message_box = QMessageBox()
+        message_box.setIcon(QMessageBox.Information)
+        message_box.setText("Refreshed!")
+        message_box.setWindowTitle("Refreshed!")
+        message_box.setStandardButtons(QMessageBox.Ok)
+        message_box.exec()
 
     def refresh_start_page(self):
         self.ui.textEdit_21.clear()
@@ -1309,10 +1332,164 @@ class MainWindow(QMainWindow):
         self.ui.textEdit_24.clear()
         self.ui.listWidget_8.clear()
 
+    def refresh_ros_page(self):
+        self.ui.textEdit_47.clear()
+        self.ui.label_86.clear()
+        self.ui.textEdit_20.clear()
+        self.ui.listWidget_10.clear()
+        self.ui.treeView.reset()
+        self.ui.listWidget_26.clear()
+        self.ui.listWidget_27.clear()
+        self.ui.listWidget_28.clear()
+        self.ui.listWidget_29.clear()
+        self.ui.listWidget_30.clear()
+        self.ui.listWidget_33.clear()
+        self.ui.listWidget_35.clear()
+        self.ui.listWidget_31.clear()
+        self.ui.listWidget_26.clear()
+        self.ui.listWidget_31.clear()
+        self.ui.textEdit_45.clear()
+        self.ui.listWidget_36.clear()
 
+    def refresh_scan_page(self):
+        self.ui.textEdit_4.clear()
+        self.ui.textEdit_22.clear()
+        self.ui.listWidget_17.clear()
+        self.ui.listWidget_2.clear()
+        self.ui.progressBar_2.setValue(0)
+
+    def refresh_fiplan_page(self):
+        self.ui.textEdit_13.clear()
+        self.ui.textEdit_17.clear()
+        self.ui.listWidget.clear()
+        self.ui.listWidget_7.clear()
+        self.ui.listWidget_4.clear()
+        self.ui.label_17.clear()
+        self.ui.textEdit_26.clear()
+        self.ui.listWidget_11.clear()
+
+    def refresh_execution_page(self):
+        self.ui.listWidget_6.clear()
+        self.ui.textEdit_6.clear()
+        self.ui.textEdit_18.setPlainText("1")
+        self.ui.textEdit_7.clear()
+        self.ui.textEdit_19.clear()
+        self.ui.listWidget_13.clear()
+
+    def refresh_monitoring_page(self):
+        self.ui.listWidget_16.clear()
+        self.ui.listWidget_19.clear()
+        self.ui.listWidget_14.clear()
+        self.ui.label_47.clear()
+        self.ui.listWidget_9.clear()
+        self.ui.listWidget_12.clear()
+
+    def refresh_select_metric_page(self):
+        self.ui.textEdit_9.clear()
+        self.ui.listWidget_15.clear()
+
+    def refresh_custom_fault_page(self):
+        self.ui.textEdit_11.clear()
+        self.ui.textEdit_30.clear()
+        self.ui.textEdit_31.clear()
+        self.ui.textEdit_32.clear()
+        self.ui.textEdit_34.clear()
+        self.ui.listWidget_5.clear()
+        self.ui.textEdit_10.clear()
+
+    def refresh_create_workload_page(self):
+        self.ui.textEdit_44.clear()
+        self.ui.plainTextEdit.clear()
+        self.ui.plainTextEdit_2.clear()
+        self.ui.listWidget_21.clear()
+        self.ui.listWidget_22.clear()
+        self.ui.textEdit_5.clear()
+        self.ui.label_4.setText("NOT SAVE!")
+        self.ui.textEdit_14.clear()
+
+    def refresh_ros_test_page(self):
+        self.ui.listWidget_20.clear()
+        self.ui.textEdit_43.clear()
+        self.ui.textEdit_12.clear()
+        self.ui.textEdit_41.clear()
+
+    def refresh_create_code_snippet_page(self):
+        self.ui.textEdit_2.clear()
+        self.ui.textEdit_27.clear()
+        self.ui.textEdit_28.clear()
+        self.ui.textEdit_29.clear()
+        self.ui.textEdit_25.clear()
+        self.ui.textEdit_16.clear()
+        self.ui.checkBox_6.setChecked(False)
 
     def reset_all(self):
-        print("reset all")
+        reset_decision = self.reset_all_decision_box()
+        if reset_decision == False:
+            return None
+        
+        # RESET PAGES
+        self.refresh_start_page()
+        self.refresh_ros_page()
+        self.refresh_scan_page()
+        self.refresh_fiplan_page()
+        self.refresh_execution_page()
+        self.refresh_monitoring_page()
+        self.refresh_select_metric_page()
+        self.refresh_custom_fault_page()
+        self.refresh_create_workload_page()
+        self.refresh_ros_test_page()
+        self.refresh_create_code_snippet_page()
+        
+        # RESET VARIABLES
+        self.reset_variables()
+
+        information_title = "Completed!"
+        information_text = "Reset process is done!"
+        self.show_information_box(information_title,information_text)
+
+    
+    def reset_all_decision_box(self):
+        reply = QMessageBox.question(self, 'Reset!', 'Are you sure you want to reset all?',
+        QMessageBox.Yes | QMessageBox.No)
+        if reply == QMessageBox.Yes:
+            return True
+        return False
+
+    def reset_variables(self):
+        global RUN_ORDER_LIST_JUST_PATH
+        RUN_ORDER_LIST_JUST_PATH = []
+
+        global ROS_SOURCE_CODE
+        ROS_SOURCE_CODE = ""
+
+        global POSSIBLE_MUTANT_LIST
+        POSSIBLE_MUTANT_LIST = []
+
+        global ZIPPED_LIST
+        ZIPPED_LIST = []
+
+        global ZIPPED_ROS_LIST
+        ZIPPED_ROS_LIST = []
+
+        global ROS_SOURCE_MUTANT
+        ROS_SOURCE_MUTANT = []
+
+        global source_and_mutate_code
+        source_and_mutate_code = []
+
+        global fault_name_list
+        fault_name_list = []
+
+        global fi_plan_directory_list
+        fi_plan_directory_list = []
+    
+    def show_information_box(self,information_title,information_text):
+        message_box = QMessageBox()
+        message_box.setIcon(QMessageBox.Information)
+        message_box.setText(information_text)
+        message_box.setWindowTitle(information_title)
+        message_box.setStandardButtons(QMessageBox.Ok)
+        message_box.exec()
 
     def left_menu_execution_page(self):
         """Go to execution page from left menu"""
@@ -1680,7 +1857,7 @@ class MainWindow(QMainWindow):
         # Graphic title
         plt.title("Details of V&V Process")
         plt.tight_layout()
-        plt.savefig("output1.jpg")
+        plt.savefig("output1.jpg",dpi = 70)
 
     # Creating Pie Chart Function
     def create_pie_chart(
@@ -1702,7 +1879,7 @@ class MainWindow(QMainWindow):
         ]
         plt.title("Details of V&V Process")
         plt.pie(chart, labels=mylabels)
-        plt.savefig("output2.jpg")
+        plt.savefig("output2.jpg",dpi = 70)
 
     def show_bar_chart(self):
         self.ui.label_47.setPixmap(QPixmap("output1.jpg"))

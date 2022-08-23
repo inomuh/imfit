@@ -27,13 +27,14 @@ class Ui_MainWindow(object):
     def setupUi(self, MainWindow):
         if not MainWindow.objectName():
             MainWindow.setObjectName(u"MainWindow")
-        MainWindow.resize(1445, 721)
-        sizePolicy = QSizePolicy(QSizePolicy.Expanding, QSizePolicy.Expanding)
+        MainWindow.resize(1443, 1000)
+        sizePolicy = QSizePolicy(QSizePolicy.Fixed, QSizePolicy.Fixed)
         sizePolicy.setHorizontalStretch(0)
         sizePolicy.setVerticalStretch(0)
         sizePolicy.setHeightForWidth(MainWindow.sizePolicy().hasHeightForWidth())
         MainWindow.setSizePolicy(sizePolicy)
-        MainWindow.setMinimumSize(QSize(0, 650))
+        MainWindow.setMinimumSize(QSize(1000, 1000))
+        MainWindow.setMaximumSize(QSize(1445, 1000))
         self.styleSheet = QWidget(MainWindow)
         self.styleSheet.setObjectName(u"styleSheet")
         font = QFont()
@@ -805,8 +806,11 @@ class Ui_MainWindow(object):
         self.horizontalLayout_3.setContentsMargins(0, 0, 0, 0)
         self.titleRightInfo = QLabel(self.leftBox)
         self.titleRightInfo.setObjectName(u"titleRightInfo")
-        sizePolicy.setHeightForWidth(self.titleRightInfo.sizePolicy().hasHeightForWidth())
-        self.titleRightInfo.setSizePolicy(sizePolicy)
+        sizePolicy4 = QSizePolicy(QSizePolicy.Expanding, QSizePolicy.Expanding)
+        sizePolicy4.setHorizontalStretch(0)
+        sizePolicy4.setVerticalStretch(0)
+        sizePolicy4.setHeightForWidth(self.titleRightInfo.sizePolicy().hasHeightForWidth())
+        self.titleRightInfo.setSizePolicy(sizePolicy4)
         self.titleRightInfo.setMaximumSize(QSize(16777215, 45))
         font3 = QFont()
         font3.setFamilies([u"URW Gothic"])
@@ -831,28 +835,38 @@ class Ui_MainWindow(object):
         self.horizontalLayout_2.setSpacing(5)
         self.horizontalLayout_2.setObjectName(u"horizontalLayout_2")
         self.horizontalLayout_2.setContentsMargins(0, 0, 0, 0)
-        self.settingsTopBtn = QPushButton(self.rightButtons)
-        self.settingsTopBtn.setObjectName(u"settingsTopBtn")
-        self.settingsTopBtn.setMinimumSize(QSize(28, 28))
-        self.settingsTopBtn.setMaximumSize(QSize(28, 28))
-        self.settingsTopBtn.setFont(font)
-        self.settingsTopBtn.setCursor(QCursor(Qt.PointingHandCursor))
-        self.settingsTopBtn.setStyleSheet(u"")
+        self.refresh_page = QPushButton(self.rightButtons)
+        self.refresh_page.setObjectName(u"refresh_page")
+        self.refresh_page.setMinimumSize(QSize(0, 0))
+        self.refresh_page.setMaximumSize(QSize(16777215, 16777215))
+        self.refresh_page.setFont(font)
+        self.refresh_page.setCursor(QCursor(Qt.PointingHandCursor))
+        self.refresh_page.setStyleSheet(u"")
         icon = QIcon()
         icon.addFile(u":/icons/images/icons/cil-loop-circular.png", QSize(), QIcon.Normal, QIcon.Off)
-        self.settingsTopBtn.setIcon(icon)
-        self.settingsTopBtn.setIconSize(QSize(20, 20))
+        self.refresh_page.setIcon(icon)
+        self.refresh_page.setIconSize(QSize(20, 20))
 
-        self.horizontalLayout_2.addWidget(self.settingsTopBtn)
+        self.horizontalLayout_2.addWidget(self.refresh_page)
+
+        self.reset_for_all = QPushButton(self.rightButtons)
+        self.reset_for_all.setObjectName(u"reset_for_all")
+        self.reset_for_all.setCursor(QCursor(Qt.PointingHandCursor))
+        icon1 = QIcon()
+        icon1.addFile(u":/icons/images/icons/cil-ban.png", QSize(), QIcon.Normal, QIcon.Off)
+        self.reset_for_all.setIcon(icon1)
+        self.reset_for_all.setIconSize(QSize(20, 20))
+
+        self.horizontalLayout_2.addWidget(self.reset_for_all)
 
         self.minimizeAppBtn = QPushButton(self.rightButtons)
         self.minimizeAppBtn.setObjectName(u"minimizeAppBtn")
         self.minimizeAppBtn.setMinimumSize(QSize(28, 28))
         self.minimizeAppBtn.setMaximumSize(QSize(28, 28))
         self.minimizeAppBtn.setCursor(QCursor(Qt.PointingHandCursor))
-        icon1 = QIcon()
-        icon1.addFile(u":/icons/images/icons/icon_minimize.png", QSize(), QIcon.Normal, QIcon.Off)
-        self.minimizeAppBtn.setIcon(icon1)
+        icon2 = QIcon()
+        icon2.addFile(u":/icons/images/icons/icon_minimize.png", QSize(), QIcon.Normal, QIcon.Off)
+        self.minimizeAppBtn.setIcon(icon2)
         self.minimizeAppBtn.setIconSize(QSize(20, 20))
 
         self.horizontalLayout_2.addWidget(self.minimizeAppBtn)
@@ -869,9 +883,9 @@ class Ui_MainWindow(object):
         font4.setStyleStrategy(QFont.PreferDefault)
         self.maximizeRestoreAppBtn.setFont(font4)
         self.maximizeRestoreAppBtn.setCursor(QCursor(Qt.PointingHandCursor))
-        icon2 = QIcon()
-        icon2.addFile(u":/icons/images/icons/icon_maximize.png", QSize(), QIcon.Normal, QIcon.Off)
-        self.maximizeRestoreAppBtn.setIcon(icon2)
+        icon3 = QIcon()
+        icon3.addFile(u":/icons/images/icons/icon_maximize.png", QSize(), QIcon.Normal, QIcon.Off)
+        self.maximizeRestoreAppBtn.setIcon(icon3)
         self.maximizeRestoreAppBtn.setIconSize(QSize(20, 20))
 
         self.horizontalLayout_2.addWidget(self.maximizeRestoreAppBtn)
@@ -881,9 +895,9 @@ class Ui_MainWindow(object):
         self.closeAppBtn.setMinimumSize(QSize(28, 28))
         self.closeAppBtn.setMaximumSize(QSize(28, 28))
         self.closeAppBtn.setCursor(QCursor(Qt.PointingHandCursor))
-        icon3 = QIcon()
-        icon3.addFile(u":/icons/images/icons/icon_close.png", QSize(), QIcon.Normal, QIcon.Off)
-        self.closeAppBtn.setIcon(icon3)
+        icon4 = QIcon()
+        icon4.addFile(u":/icons/images/icons/icon_close.png", QSize(), QIcon.Normal, QIcon.Off)
+        self.closeAppBtn.setIcon(icon4)
         self.closeAppBtn.setIconSize(QSize(20, 20))
 
         self.horizontalLayout_2.addWidget(self.closeAppBtn)
@@ -991,15 +1005,15 @@ class Ui_MainWindow(object):
 
         self.btn_go_start = QPushButton(self.home)
         self.btn_go_start.setObjectName(u"btn_go_start")
-        sizePolicy.setHeightForWidth(self.btn_go_start.sizePolicy().hasHeightForWidth())
-        self.btn_go_start.setSizePolicy(sizePolicy)
+        sizePolicy4.setHeightForWidth(self.btn_go_start.sizePolicy().hasHeightForWidth())
+        self.btn_go_start.setSizePolicy(sizePolicy4)
         self.btn_go_start.setMinimumSize(QSize(300, 30))
         self.btn_go_start.setMaximumSize(QSize(16777215, 30))
         self.btn_go_start.setCursor(QCursor(Qt.PointingHandCursor))
         self.btn_go_start.setStyleSheet(u"background-color: rgb(52, 59, 72);")
-        icon4 = QIcon()
-        icon4.addFile(u":/icons/images/icons/cil-arrow-circle-right.png", QSize(), QIcon.Normal, QIcon.Off)
-        self.btn_go_start.setIcon(icon4)
+        icon5 = QIcon()
+        icon5.addFile(u":/icons/images/icons/cil-arrow-circle-right.png", QSize(), QIcon.Normal, QIcon.Off)
+        self.btn_go_start.setIcon(icon5)
 
         self.verticalLayout_5.addWidget(self.btn_go_start)
 
@@ -1043,9 +1057,9 @@ class Ui_MainWindow(object):
         self.btn_select_snippet.setMinimumSize(QSize(0, 30))
         self.btn_select_snippet.setStyleSheet(u"background-color: rgb(52, 59, 72);\n"
 "")
-        icon5 = QIcon()
-        icon5.addFile(u":/icons/images/icons/cil-hand-point-up.png", QSize(), QIcon.Normal, QIcon.Off)
-        self.btn_select_snippet.setIcon(icon5)
+        icon6 = QIcon()
+        icon6.addFile(u":/icons/images/icons/cil-hand-point-up.png", QSize(), QIcon.Normal, QIcon.Off)
+        self.btn_select_snippet.setIcon(icon6)
 
         self.gridLayout_22.addWidget(self.btn_select_snippet, 14, 0, 1, 3)
 
@@ -1073,17 +1087,17 @@ class Ui_MainWindow(object):
         self.gridLayout_50.setObjectName(u"gridLayout_50")
         self.pushButton_4 = QPushButton(self.start)
         self.pushButton_4.setObjectName(u"pushButton_4")
-        sizePolicy4 = QSizePolicy(QSizePolicy.Expanding, QSizePolicy.Minimum)
-        sizePolicy4.setHorizontalStretch(0)
-        sizePolicy4.setVerticalStretch(0)
-        sizePolicy4.setHeightForWidth(self.pushButton_4.sizePolicy().hasHeightForWidth())
-        self.pushButton_4.setSizePolicy(sizePolicy4)
+        sizePolicy5 = QSizePolicy(QSizePolicy.Expanding, QSizePolicy.Minimum)
+        sizePolicy5.setHorizontalStretch(0)
+        sizePolicy5.setVerticalStretch(0)
+        sizePolicy5.setHeightForWidth(self.pushButton_4.sizePolicy().hasHeightForWidth())
+        self.pushButton_4.setSizePolicy(sizePolicy5)
         self.pushButton_4.setMinimumSize(QSize(100, 30))
         self.pushButton_4.setStyleSheet(u"background-color: rgb(52, 59, 72);\n"
 "")
-        icon6 = QIcon()
-        icon6.addFile(u":/icons/images/icons/cil-save.png", QSize(), QIcon.Normal, QIcon.Off)
-        self.pushButton_4.setIcon(icon6)
+        icon7 = QIcon()
+        icon7.addFile(u":/icons/images/icons/cil-save.png", QSize(), QIcon.Normal, QIcon.Off)
+        self.pushButton_4.setIcon(icon7)
 
         self.gridLayout_50.addWidget(self.pushButton_4, 2, 1, 1, 1)
 
@@ -1102,14 +1116,14 @@ class Ui_MainWindow(object):
 
         self.checkBox_15 = QCheckBox(self.start)
         self.checkBox_15.setObjectName(u"checkBox_15")
-        sizePolicy4.setHeightForWidth(self.checkBox_15.sizePolicy().hasHeightForWidth())
-        self.checkBox_15.setSizePolicy(sizePolicy4)
+        sizePolicy5.setHeightForWidth(self.checkBox_15.sizePolicy().hasHeightForWidth())
+        self.checkBox_15.setSizePolicy(sizePolicy5)
         self.checkBox_15.setMinimumSize(QSize(100, 30))
         self.checkBox_15.setStyleSheet(u"background-color: rgb(52, 59, 72);\n"
 "")
-        icon7 = QIcon()
-        icon7.addFile(u":/icons/images/icons/cil-pencil.png", QSize(), QIcon.Normal, QIcon.Off)
-        self.checkBox_15.setIcon(icon7)
+        icon8 = QIcon()
+        icon8.addFile(u":/icons/images/icons/cil-pencil.png", QSize(), QIcon.Normal, QIcon.Off)
+        self.checkBox_15.setIcon(icon8)
 
         self.gridLayout_50.addWidget(self.checkBox_15, 2, 0, 1, 1)
 
@@ -1134,14 +1148,14 @@ class Ui_MainWindow(object):
 
         self.btn_open_tc = QPushButton(self.start)
         self.btn_open_tc.setObjectName(u"btn_open_tc")
-        sizePolicy4.setHeightForWidth(self.btn_open_tc.sizePolicy().hasHeightForWidth())
-        self.btn_open_tc.setSizePolicy(sizePolicy4)
+        sizePolicy5.setHeightForWidth(self.btn_open_tc.sizePolicy().hasHeightForWidth())
+        self.btn_open_tc.setSizePolicy(sizePolicy5)
         self.btn_open_tc.setMinimumSize(QSize(80, 30))
         self.btn_open_tc.setMaximumSize(QSize(80, 30))
         self.btn_open_tc.setStyleSheet(u"background-color: rgb(52, 59, 72);")
-        icon8 = QIcon()
-        icon8.addFile(u":/icons/images/icons/cil-folder-open.png", QSize(), QIcon.Normal, QIcon.Off)
-        self.btn_open_tc.setIcon(icon8)
+        icon9 = QIcon()
+        icon9.addFile(u":/icons/images/icons/cil-folder-open.png", QSize(), QIcon.Normal, QIcon.Off)
+        self.btn_open_tc.setIcon(icon9)
 
         self.gridLayout_51.addWidget(self.btn_open_tc, 0, 2, 1, 1)
 
@@ -1171,30 +1185,30 @@ class Ui_MainWindow(object):
         self.gridLayout_47.setHorizontalSpacing(10)
         self.btn_create_code = QPushButton(self.start)
         self.btn_create_code.setObjectName(u"btn_create_code")
-        sizePolicy5 = QSizePolicy(QSizePolicy.Minimum, QSizePolicy.Minimum)
-        sizePolicy5.setHorizontalStretch(0)
-        sizePolicy5.setVerticalStretch(0)
-        sizePolicy5.setHeightForWidth(self.btn_create_code.sizePolicy().hasHeightForWidth())
-        self.btn_create_code.setSizePolicy(sizePolicy5)
+        sizePolicy6 = QSizePolicy(QSizePolicy.Minimum, QSizePolicy.Minimum)
+        sizePolicy6.setHorizontalStretch(0)
+        sizePolicy6.setVerticalStretch(0)
+        sizePolicy6.setHeightForWidth(self.btn_create_code.sizePolicy().hasHeightForWidth())
+        self.btn_create_code.setSizePolicy(sizePolicy6)
         self.btn_create_code.setMinimumSize(QSize(0, 30))
         self.btn_create_code.setStyleSheet(u"background-color: rgb(52, 59, 72);\n"
 "")
-        icon9 = QIcon()
-        icon9.addFile(u":/icons/images/icons/cil-code.png", QSize(), QIcon.Normal, QIcon.Off)
-        self.btn_create_code.setIcon(icon9)
+        icon10 = QIcon()
+        icon10.addFile(u":/icons/images/icons/cil-code.png", QSize(), QIcon.Normal, QIcon.Off)
+        self.btn_create_code.setIcon(icon10)
 
         self.gridLayout_47.addWidget(self.btn_create_code, 0, 0, 1, 1)
 
         self.btn_add_custom = QPushButton(self.start)
         self.btn_add_custom.setObjectName(u"btn_add_custom")
-        sizePolicy5.setHeightForWidth(self.btn_add_custom.sizePolicy().hasHeightForWidth())
-        self.btn_add_custom.setSizePolicy(sizePolicy5)
+        sizePolicy6.setHeightForWidth(self.btn_add_custom.sizePolicy().hasHeightForWidth())
+        self.btn_add_custom.setSizePolicy(sizePolicy6)
         self.btn_add_custom.setMinimumSize(QSize(0, 30))
         self.btn_add_custom.setStyleSheet(u"background-color: rgb(52, 59, 72);\n"
 "")
-        icon10 = QIcon()
-        icon10.addFile(u":/icons/images/icons/cil-plus.png", QSize(), QIcon.Normal, QIcon.Off)
-        self.btn_add_custom.setIcon(icon10)
+        icon11 = QIcon()
+        icon11.addFile(u":/icons/images/icons/cil-plus.png", QSize(), QIcon.Normal, QIcon.Off)
+        self.btn_add_custom.setIcon(icon11)
 
         self.gridLayout_47.addWidget(self.btn_add_custom, 0, 1, 1, 2)
 
@@ -1207,14 +1221,14 @@ class Ui_MainWindow(object):
         self.btn_select_workload = QPushButton(self.start)
         self.btn_select_workload.setObjectName(u"btn_select_workload")
         self.btn_select_workload.setEnabled(True)
-        sizePolicy4.setHeightForWidth(self.btn_select_workload.sizePolicy().hasHeightForWidth())
-        self.btn_select_workload.setSizePolicy(sizePolicy4)
+        sizePolicy5.setHeightForWidth(self.btn_select_workload.sizePolicy().hasHeightForWidth())
+        self.btn_select_workload.setSizePolicy(sizePolicy5)
         self.btn_select_workload.setMinimumSize(QSize(80, 30))
         self.btn_select_workload.setMaximumSize(QSize(80, 30))
         self.btn_select_workload.setFont(font)
         self.btn_select_workload.setCursor(QCursor(Qt.PointingHandCursor))
         self.btn_select_workload.setStyleSheet(u"background-color: rgb(52, 59, 72);")
-        self.btn_select_workload.setIcon(icon8)
+        self.btn_select_workload.setIcon(icon9)
 
         self.gridLayout_52.addWidget(self.btn_select_workload, 0, 2, 1, 1)
 
@@ -1242,15 +1256,15 @@ class Ui_MainWindow(object):
 
         self.btn_remove_snip = QPushButton(self.start)
         self.btn_remove_snip.setObjectName(u"btn_remove_snip")
-        sizePolicy5.setHeightForWidth(self.btn_remove_snip.sizePolicy().hasHeightForWidth())
-        self.btn_remove_snip.setSizePolicy(sizePolicy5)
+        sizePolicy6.setHeightForWidth(self.btn_remove_snip.sizePolicy().hasHeightForWidth())
+        self.btn_remove_snip.setSizePolicy(sizePolicy6)
         self.btn_remove_snip.setMinimumSize(QSize(0, 30))
         self.btn_remove_snip.setMaximumSize(QSize(16777215, 16777215))
         self.btn_remove_snip.setStyleSheet(u"background-color: rgb(52, 59, 72);\n"
 "")
-        icon11 = QIcon()
-        icon11.addFile(u":/icons/images/icons/cil-minus.png", QSize(), QIcon.Normal, QIcon.Off)
-        self.btn_remove_snip.setIcon(icon11)
+        icon12 = QIcon()
+        icon12.addFile(u":/icons/images/icons/cil-minus.png", QSize(), QIcon.Normal, QIcon.Off)
+        self.btn_remove_snip.setIcon(icon12)
 
         self.gridLayout_22.addWidget(self.btn_remove_snip, 15, 4, 1, 1)
 
@@ -1380,8 +1394,8 @@ class Ui_MainWindow(object):
         __qlistwidgetitem.setFont(font6);
         __qlistwidgetitem.setFlags(Qt.NoItemFlags);
         self.code_snippet_list.setObjectName(u"code_snippet_list")
-        sizePolicy.setHeightForWidth(self.code_snippet_list.sizePolicy().hasHeightForWidth())
-        self.code_snippet_list.setSizePolicy(sizePolicy)
+        sizePolicy4.setHeightForWidth(self.code_snippet_list.sizePolicy().hasHeightForWidth())
+        self.code_snippet_list.setSizePolicy(sizePolicy4)
         self.code_snippet_list.setMinimumSize(QSize(0, 0))
         self.code_snippet_list.setMaximumSize(QSize(16777215, 16777215))
         self.code_snippet_list.setStyleSheet(u"background-color: rgb(52, 59, 72);")
@@ -1393,35 +1407,35 @@ class Ui_MainWindow(object):
         self.gridLayout_49.setObjectName(u"gridLayout_49")
         self.btn_clear_workload = QPushButton(self.start)
         self.btn_clear_workload.setObjectName(u"btn_clear_workload")
-        sizePolicy4.setHeightForWidth(self.btn_clear_workload.sizePolicy().hasHeightForWidth())
-        self.btn_clear_workload.setSizePolicy(sizePolicy4)
+        sizePolicy5.setHeightForWidth(self.btn_clear_workload.sizePolicy().hasHeightForWidth())
+        self.btn_clear_workload.setSizePolicy(sizePolicy5)
         self.btn_clear_workload.setMinimumSize(QSize(100, 30))
         self.btn_clear_workload.setStyleSheet(u"background-color: rgb(52, 59, 72);")
-        icon12 = QIcon()
-        icon12.addFile(u":/icons/images/icons/cil-x.png", QSize(), QIcon.Normal, QIcon.Off)
-        self.btn_clear_workload.setIcon(icon12)
+        icon13 = QIcon()
+        icon13.addFile(u":/icons/images/icons/cil-x.png", QSize(), QIcon.Normal, QIcon.Off)
+        self.btn_clear_workload.setIcon(icon13)
 
         self.gridLayout_49.addWidget(self.btn_clear_workload, 1, 2, 1, 1)
 
         self.checkBox_5 = QCheckBox(self.start)
         self.checkBox_5.setObjectName(u"checkBox_5")
-        sizePolicy4.setHeightForWidth(self.checkBox_5.sizePolicy().hasHeightForWidth())
-        self.checkBox_5.setSizePolicy(sizePolicy4)
+        sizePolicy5.setHeightForWidth(self.checkBox_5.sizePolicy().hasHeightForWidth())
+        self.checkBox_5.setSizePolicy(sizePolicy5)
         self.checkBox_5.setMinimumSize(QSize(100, 30))
         self.checkBox_5.setMaximumSize(QSize(16777215, 16777215))
         self.checkBox_5.setStyleSheet(u"background-color: rgb(52, 59, 72);")
-        self.checkBox_5.setIcon(icon7)
+        self.checkBox_5.setIcon(icon8)
 
         self.gridLayout_49.addWidget(self.checkBox_5, 1, 1, 1, 1)
 
         self.btn_create_workload = QPushButton(self.start)
         self.btn_create_workload.setObjectName(u"btn_create_workload")
-        sizePolicy4.setHeightForWidth(self.btn_create_workload.sizePolicy().hasHeightForWidth())
-        self.btn_create_workload.setSizePolicy(sizePolicy4)
+        sizePolicy5.setHeightForWidth(self.btn_create_workload.sizePolicy().hasHeightForWidth())
+        self.btn_create_workload.setSizePolicy(sizePolicy5)
         self.btn_create_workload.setMinimumSize(QSize(100, 30))
         self.btn_create_workload.setCursor(QCursor(Qt.PointingHandCursor))
         self.btn_create_workload.setStyleSheet(u"background-color: rgb(52, 59, 72);")
-        self.btn_create_workload.setIcon(icon10)
+        self.btn_create_workload.setIcon(icon11)
 
         self.gridLayout_49.addWidget(self.btn_create_workload, 1, 0, 1, 1)
 
@@ -1438,15 +1452,15 @@ class Ui_MainWindow(object):
 
         self.try_test_case = QPushButton(self.start)
         self.try_test_case.setObjectName(u"try_test_case")
-        sizePolicy4.setHeightForWidth(self.try_test_case.sizePolicy().hasHeightForWidth())
-        self.try_test_case.setSizePolicy(sizePolicy4)
+        sizePolicy5.setHeightForWidth(self.try_test_case.sizePolicy().hasHeightForWidth())
+        self.try_test_case.setSizePolicy(sizePolicy5)
         self.try_test_case.setMinimumSize(QSize(30, 0))
         self.try_test_case.setMaximumSize(QSize(16777215, 30))
         self.try_test_case.setStyleSheet(u"background-color: rgb(52, 59, 72);\n"
 "")
-        icon13 = QIcon()
-        icon13.addFile(u":/icons/images/icons/cil-chevron-double-right.png", QSize(), QIcon.Normal, QIcon.Off)
-        self.try_test_case.setIcon(icon13)
+        icon14 = QIcon()
+        icon14.addFile(u":/icons/images/icons/cil-chevron-double-right.png", QSize(), QIcon.Normal, QIcon.Off)
+        self.try_test_case.setIcon(icon14)
 
         self.gridLayout_22.addWidget(self.try_test_case, 3, 0, 1, 3)
 
@@ -1458,8 +1472,8 @@ class Ui_MainWindow(object):
         self.gridLayout_48.setObjectName(u"gridLayout_48")
         self.source_code_directory_text = QTextEdit(self.start)
         self.source_code_directory_text.setObjectName(u"source_code_directory_text")
-        sizePolicy.setHeightForWidth(self.source_code_directory_text.sizePolicy().hasHeightForWidth())
-        self.source_code_directory_text.setSizePolicy(sizePolicy)
+        sizePolicy4.setHeightForWidth(self.source_code_directory_text.sizePolicy().hasHeightForWidth())
+        self.source_code_directory_text.setSizePolicy(sizePolicy4)
         self.source_code_directory_text.setMinimumSize(QSize(0, 30))
         self.source_code_directory_text.setMaximumSize(QSize(16777215, 30))
         self.source_code_directory_text.setStyleSheet(u"background-color: rgb(52, 59, 72);\n"
@@ -1475,23 +1489,23 @@ class Ui_MainWindow(object):
         self.gridLayout_34.setObjectName(u"gridLayout_34")
         self.checkBox_8 = QCheckBox(self.start)
         self.checkBox_8.setObjectName(u"checkBox_8")
-        sizePolicy4.setHeightForWidth(self.checkBox_8.sizePolicy().hasHeightForWidth())
-        self.checkBox_8.setSizePolicy(sizePolicy4)
+        sizePolicy5.setHeightForWidth(self.checkBox_8.sizePolicy().hasHeightForWidth())
+        self.checkBox_8.setSizePolicy(sizePolicy5)
         self.checkBox_8.setMinimumSize(QSize(0, 30))
         self.checkBox_8.setMaximumSize(QSize(16777215, 30))
         self.checkBox_8.setStyleSheet(u"background-color: rgb(52, 59, 72);")
-        self.checkBox_8.setIcon(icon7)
+        self.checkBox_8.setIcon(icon8)
 
         self.gridLayout_34.addWidget(self.checkBox_8, 0, 0, 1, 1)
 
         self.btn_clear_codes = QPushButton(self.start)
         self.btn_clear_codes.setObjectName(u"btn_clear_codes")
-        sizePolicy4.setHeightForWidth(self.btn_clear_codes.sizePolicy().hasHeightForWidth())
-        self.btn_clear_codes.setSizePolicy(sizePolicy4)
+        sizePolicy5.setHeightForWidth(self.btn_clear_codes.sizePolicy().hasHeightForWidth())
+        self.btn_clear_codes.setSizePolicy(sizePolicy5)
         self.btn_clear_codes.setMinimumSize(QSize(0, 30))
         self.btn_clear_codes.setMaximumSize(QSize(16777215, 30))
         self.btn_clear_codes.setStyleSheet(u"background-color: rgb(52, 59, 72);")
-        self.btn_clear_codes.setIcon(icon12)
+        self.btn_clear_codes.setIcon(icon13)
 
         self.gridLayout_34.addWidget(self.btn_clear_codes, 0, 1, 1, 1)
 
@@ -1507,17 +1521,14 @@ class Ui_MainWindow(object):
 
         self.btn_open_folder = QPushButton(self.start)
         self.btn_open_folder.setObjectName(u"btn_open_folder")
-        sizePolicy6 = QSizePolicy(QSizePolicy.Fixed, QSizePolicy.Fixed)
-        sizePolicy6.setHorizontalStretch(0)
-        sizePolicy6.setVerticalStretch(0)
-        sizePolicy6.setHeightForWidth(self.btn_open_folder.sizePolicy().hasHeightForWidth())
-        self.btn_open_folder.setSizePolicy(sizePolicy6)
+        sizePolicy.setHeightForWidth(self.btn_open_folder.sizePolicy().hasHeightForWidth())
+        self.btn_open_folder.setSizePolicy(sizePolicy)
         self.btn_open_folder.setMinimumSize(QSize(80, 30))
         self.btn_open_folder.setMaximumSize(QSize(80, 30))
         self.btn_open_folder.setFont(font)
         self.btn_open_folder.setCursor(QCursor(Qt.PointingHandCursor))
         self.btn_open_folder.setStyleSheet(u"background-color: rgb(52, 59, 72);")
-        self.btn_open_folder.setIcon(icon8)
+        self.btn_open_folder.setIcon(icon9)
 
         self.gridLayout_48.addWidget(self.btn_open_folder, 1, 2, 1, 1)
 
@@ -1552,7 +1563,7 @@ class Ui_MainWindow(object):
         self.pushButton_10.setMaximumSize(QSize(80, 30))
         self.pushButton_10.setStyleSheet(u"background-color: rgb(52, 59, 72);\n"
 "")
-        self.pushButton_10.setIcon(icon8)
+        self.pushButton_10.setIcon(icon9)
 
         self.gridLayout_36.addWidget(self.pushButton_10, 0, 2, 1, 1)
 
@@ -1596,21 +1607,21 @@ class Ui_MainWindow(object):
         self.btn_go_scan.setCursor(QCursor(Qt.PointingHandCursor))
         self.btn_go_scan.setStyleSheet(u"font: 11pt \"Ubuntu\";\n"
 "background-color: rgb(52, 59, 72);")
-        self.btn_go_scan.setIcon(icon4)
+        self.btn_go_scan.setIcon(icon5)
 
         self.gridLayout_35.addWidget(self.btn_go_scan, 0, 1, 1, 1, Qt.AlignRight)
 
         self.pushButton_5 = QPushButton(self.start)
         self.pushButton_5.setObjectName(u"pushButton_5")
-        sizePolicy6.setHeightForWidth(self.pushButton_5.sizePolicy().hasHeightForWidth())
-        self.pushButton_5.setSizePolicy(sizePolicy6)
+        sizePolicy.setHeightForWidth(self.pushButton_5.sizePolicy().hasHeightForWidth())
+        self.pushButton_5.setSizePolicy(sizePolicy)
         self.pushButton_5.setMinimumSize(QSize(200, 30))
         self.pushButton_5.setMaximumSize(QSize(200, 30))
         self.pushButton_5.setStyleSheet(u"font: 11pt \"Ubuntu\";\n"
 "background-color: rgb(52, 59, 72);")
-        icon14 = QIcon()
-        icon14.addFile(u":/icons/images/icons/cil-arrow-circle-left.png", QSize(), QIcon.Normal, QIcon.Off)
-        self.pushButton_5.setIcon(icon14)
+        icon15 = QIcon()
+        icon15.addFile(u":/icons/images/icons/cil-arrow-circle-left.png", QSize(), QIcon.Normal, QIcon.Off)
+        self.pushButton_5.setIcon(icon15)
 
         self.gridLayout_35.addWidget(self.pushButton_5, 0, 0, 1, 1, Qt.AlignLeft)
 
@@ -1636,7 +1647,7 @@ class Ui_MainWindow(object):
         self.ros_fiplan_remove.setMinimumSize(QSize(130, 30))
         self.ros_fiplan_remove.setMaximumSize(QSize(16777215, 30))
         self.ros_fiplan_remove.setStyleSheet(u"background-color: rgb(52, 59, 72);")
-        self.ros_fiplan_remove.setIcon(icon3)
+        self.ros_fiplan_remove.setIcon(icon4)
 
         self.gridLayout_10.addWidget(self.ros_fiplan_remove, 9, 5, 1, 3)
 
@@ -1661,7 +1672,7 @@ class Ui_MainWindow(object):
         self.ros_slct_fiplan.setMinimumSize(QSize(130, 30))
         self.ros_slct_fiplan.setMaximumSize(QSize(200, 30))
         self.ros_slct_fiplan.setStyleSheet(u"background-color: rgb(52, 59, 72);")
-        self.ros_slct_fiplan.setIcon(icon8)
+        self.ros_slct_fiplan.setIcon(icon9)
 
         self.gridLayout_42.addWidget(self.ros_slct_fiplan, 0, 0, 1, 1)
 
@@ -1670,7 +1681,7 @@ class Ui_MainWindow(object):
         self.ros_fiplan_save.setMinimumSize(QSize(130, 30))
         self.ros_fiplan_save.setMaximumSize(QSize(16777215, 30))
         self.ros_fiplan_save.setStyleSheet(u"background-color: rgb(52, 59, 72);")
-        self.ros_fiplan_save.setIcon(icon6)
+        self.ros_fiplan_save.setIcon(icon7)
 
         self.gridLayout_42.addWidget(self.ros_fiplan_save, 0, 1, 1, 1)
 
@@ -1679,9 +1690,9 @@ class Ui_MainWindow(object):
         self.ros_test_case.setMinimumSize(QSize(0, 30))
         self.ros_test_case.setStyleSheet(u"background-color: rgb(52, 59, 72);\n"
 "")
-        icon15 = QIcon()
-        icon15.addFile(u":/icons/images/icons/cil-notes.png", QSize(), QIcon.Normal, QIcon.Off)
-        self.ros_test_case.setIcon(icon15)
+        icon16 = QIcon()
+        icon16.addFile(u":/icons/images/icons/cil-notes.png", QSize(), QIcon.Normal, QIcon.Off)
+        self.ros_test_case.setIcon(icon16)
 
         self.gridLayout_42.addWidget(self.ros_test_case, 1, 0, 1, 2)
 
@@ -1700,7 +1711,7 @@ class Ui_MainWindow(object):
         self.remove_ros_mutant.setMinimumSize(QSize(0, 30))
         self.remove_ros_mutant.setMaximumSize(QSize(16777215, 30))
         self.remove_ros_mutant.setStyleSheet(u"background-color: rgb(52, 59, 72);")
-        self.remove_ros_mutant.setIcon(icon11)
+        self.remove_ros_mutant.setIcon(icon12)
 
         self.gridLayout_10.addWidget(self.remove_ros_mutant, 3, 5, 1, 3)
 
@@ -1730,12 +1741,12 @@ class Ui_MainWindow(object):
 
         self.select_trgt_btn = QPushButton(self.ros_page)
         self.select_trgt_btn.setObjectName(u"select_trgt_btn")
-        sizePolicy.setHeightForWidth(self.select_trgt_btn.sizePolicy().hasHeightForWidth())
-        self.select_trgt_btn.setSizePolicy(sizePolicy)
+        sizePolicy4.setHeightForWidth(self.select_trgt_btn.sizePolicy().hasHeightForWidth())
+        self.select_trgt_btn.setSizePolicy(sizePolicy4)
         self.select_trgt_btn.setMinimumSize(QSize(80, 30))
         self.select_trgt_btn.setMaximumSize(QSize(80, 30))
         self.select_trgt_btn.setStyleSheet(u"background-color: rgb(52, 59, 72);")
-        self.select_trgt_btn.setIcon(icon8)
+        self.select_trgt_btn.setIcon(icon9)
 
         self.gridLayout_28.addWidget(self.select_trgt_btn, 1, 2, 1, 1)
 
@@ -1790,7 +1801,7 @@ class Ui_MainWindow(object):
         self.open_target_ros.setMinimumSize(QSize(80, 30))
         self.open_target_ros.setMaximumSize(QSize(80, 30))
         self.open_target_ros.setStyleSheet(u"background-color: rgb(52, 59, 72);")
-        self.open_target_ros.setIcon(icon8)
+        self.open_target_ros.setIcon(icon9)
 
         self.gridLayout_29.addWidget(self.open_target_ros, 1, 2, 1, 1)
 
@@ -1847,8 +1858,8 @@ class Ui_MainWindow(object):
 
         self.label_89 = QLabel(self.ros_page)
         self.label_89.setObjectName(u"label_89")
-        sizePolicy.setHeightForWidth(self.label_89.sizePolicy().hasHeightForWidth())
-        self.label_89.setSizePolicy(sizePolicy)
+        sizePolicy4.setHeightForWidth(self.label_89.sizePolicy().hasHeightForWidth())
+        self.label_89.setSizePolicy(sizePolicy4)
         self.label_89.setMaximumSize(QSize(16777215, 30))
 
         self.gridLayout_31.addWidget(self.label_89, 0, 0, 1, 2)
@@ -1857,22 +1868,22 @@ class Ui_MainWindow(object):
         self.scan_ros_btn.setObjectName(u"scan_ros_btn")
         self.scan_ros_btn.setMinimumSize(QSize(0, 30))
         self.scan_ros_btn.setStyleSheet(u"background-color: rgb(52, 59, 72);")
-        icon16 = QIcon()
-        icon16.addFile(u":/icons/images/icons/cil-magnifying-glass.png", QSize(), QIcon.Normal, QIcon.Off)
-        self.scan_ros_btn.setIcon(icon16)
+        icon17 = QIcon()
+        icon17.addFile(u":/icons/images/icons/cil-magnifying-glass.png", QSize(), QIcon.Normal, QIcon.Off)
+        self.scan_ros_btn.setIcon(icon17)
 
         self.gridLayout_31.addWidget(self.scan_ros_btn, 6, 0, 1, 4)
 
         self.rosrun_btn = QPushButton(self.ros_page)
         self.rosrun_btn.setObjectName(u"rosrun_btn")
-        sizePolicy.setHeightForWidth(self.rosrun_btn.sizePolicy().hasHeightForWidth())
-        self.rosrun_btn.setSizePolicy(sizePolicy)
+        sizePolicy4.setHeightForWidth(self.rosrun_btn.sizePolicy().hasHeightForWidth())
+        self.rosrun_btn.setSizePolicy(sizePolicy4)
         self.rosrun_btn.setMinimumSize(QSize(0, 30))
         self.rosrun_btn.setMaximumSize(QSize(16777215, 30))
         self.rosrun_btn.setStyleSheet(u"background-color: rgb(52, 59, 72);")
-        icon17 = QIcon()
-        icon17.addFile(u":/icons/images/icons/cil-media-play.png", QSize(), QIcon.Normal, QIcon.Off)
-        self.rosrun_btn.setIcon(icon17)
+        icon18 = QIcon()
+        icon18.addFile(u":/icons/images/icons/cil-media-play.png", QSize(), QIcon.Normal, QIcon.Off)
+        self.rosrun_btn.setIcon(icon18)
 
         self.gridLayout_31.addWidget(self.rosrun_btn, 3, 2, 1, 1)
 
@@ -1913,7 +1924,7 @@ class Ui_MainWindow(object):
         self.add_ros_btn.setMinimumSize(QSize(0, 30))
         self.add_ros_btn.setMaximumSize(QSize(16777215, 30))
         self.add_ros_btn.setStyleSheet(u"background-color: rgb(52, 59, 72);")
-        self.add_ros_btn.setIcon(icon5)
+        self.add_ros_btn.setIcon(icon6)
 
         self.gridLayout_32.addWidget(self.add_ros_btn, 4, 1, 1, 1)
 
@@ -1922,7 +1933,7 @@ class Ui_MainWindow(object):
         self.mutate_ros_btn.setMinimumSize(QSize(0, 30))
         self.mutate_ros_btn.setMaximumSize(QSize(16777215, 30))
         self.mutate_ros_btn.setStyleSheet(u"background-color: rgb(52, 59, 72);")
-        self.mutate_ros_btn.setIcon(icon17)
+        self.mutate_ros_btn.setIcon(icon18)
 
         self.gridLayout_32.addWidget(self.mutate_ros_btn, 5, 2, 1, 1)
 
@@ -1949,7 +1960,7 @@ class Ui_MainWindow(object):
         self.remove_ros_btn.setMinimumSize(QSize(0, 30))
         self.remove_ros_btn.setMaximumSize(QSize(16777215, 30))
         self.remove_ros_btn.setStyleSheet(u"background-color: rgb(52, 59, 72);")
-        self.remove_ros_btn.setIcon(icon11)
+        self.remove_ros_btn.setIcon(icon12)
 
         self.gridLayout_32.addWidget(self.remove_ros_btn, 4, 2, 1, 1)
 
@@ -1964,22 +1975,22 @@ class Ui_MainWindow(object):
 
         self.remove_order_btn = QPushButton(self.ros_page)
         self.remove_order_btn.setObjectName(u"remove_order_btn")
-        sizePolicy.setHeightForWidth(self.remove_order_btn.sizePolicy().hasHeightForWidth())
-        self.remove_order_btn.setSizePolicy(sizePolicy)
+        sizePolicy4.setHeightForWidth(self.remove_order_btn.sizePolicy().hasHeightForWidth())
+        self.remove_order_btn.setSizePolicy(sizePolicy4)
         self.remove_order_btn.setMaximumSize(QSize(16777215, 30))
         self.remove_order_btn.setStyleSheet(u"background-color: rgb(52, 59, 72);")
-        self.remove_order_btn.setIcon(icon11)
+        self.remove_order_btn.setIcon(icon12)
 
         self.gridLayout_31.addWidget(self.remove_order_btn, 3, 3, 1, 1)
 
         self.add_order_btn = QPushButton(self.ros_page)
         self.add_order_btn.setObjectName(u"add_order_btn")
-        sizePolicy.setHeightForWidth(self.add_order_btn.sizePolicy().hasHeightForWidth())
-        self.add_order_btn.setSizePolicy(sizePolicy)
+        sizePolicy4.setHeightForWidth(self.add_order_btn.sizePolicy().hasHeightForWidth())
+        self.add_order_btn.setSizePolicy(sizePolicy4)
         self.add_order_btn.setMinimumSize(QSize(0, 30))
         self.add_order_btn.setMaximumSize(QSize(16777215, 30))
         self.add_order_btn.setStyleSheet(u"background-color: rgb(52, 59, 72);")
-        self.add_order_btn.setIcon(icon10)
+        self.add_order_btn.setIcon(icon11)
 
         self.gridLayout_31.addWidget(self.add_order_btn, 3, 0, 1, 2)
 
@@ -2065,7 +2076,7 @@ class Ui_MainWindow(object):
         self.back_start_page.setMinimumSize(QSize(200, 30))
         self.back_start_page.setMaximumSize(QSize(200, 30))
         self.back_start_page.setStyleSheet(u"background-color: rgb(52, 59, 72);")
-        self.back_start_page.setIcon(icon14)
+        self.back_start_page.setIcon(icon15)
 
         self.gridLayout_41.addWidget(self.back_start_page, 0, 0, 1, 1, Qt.AlignLeft)
 
@@ -2074,7 +2085,7 @@ class Ui_MainWindow(object):
         self.go_execution.setMinimumSize(QSize(200, 30))
         self.go_execution.setMaximumSize(QSize(200, 30))
         self.go_execution.setStyleSheet(u"background-color: rgb(52, 59, 72);")
-        self.go_execution.setIcon(icon4)
+        self.go_execution.setIcon(icon5)
 
         self.gridLayout_41.addWidget(self.go_execution, 0, 1, 1, 1, Qt.AlignRight)
 
@@ -2109,8 +2120,8 @@ class Ui_MainWindow(object):
 
         self.textEdit_4 = QTextEdit(self.scan)
         self.textEdit_4.setObjectName(u"textEdit_4")
-        sizePolicy.setHeightForWidth(self.textEdit_4.sizePolicy().hasHeightForWidth())
-        self.textEdit_4.setSizePolicy(sizePolicy)
+        sizePolicy4.setHeightForWidth(self.textEdit_4.sizePolicy().hasHeightForWidth())
+        self.textEdit_4.setSizePolicy(sizePolicy4)
         self.textEdit_4.setStyleSheet(u"background-color: rgb(52, 59, 72);")
 
         self.gridLayout_19.addWidget(self.textEdit_4, 1, 0, 1, 1)
@@ -2150,8 +2161,8 @@ class Ui_MainWindow(object):
 
         self.listWidget_17 = QListWidget(self.scan)
         self.listWidget_17.setObjectName(u"listWidget_17")
-        sizePolicy.setHeightForWidth(self.listWidget_17.sizePolicy().hasHeightForWidth())
-        self.listWidget_17.setSizePolicy(sizePolicy)
+        sizePolicy4.setHeightForWidth(self.listWidget_17.sizePolicy().hasHeightForWidth())
+        self.listWidget_17.setSizePolicy(sizePolicy4)
         self.listWidget_17.setMaximumSize(QSize(16777215, 16777215))
         self.listWidget_17.setStyleSheet(u"background-color: rgb(52, 59, 72);")
 
@@ -2165,8 +2176,8 @@ class Ui_MainWindow(object):
 
         self.progressBar_2 = QProgressBar(self.scan)
         self.progressBar_2.setObjectName(u"progressBar_2")
-        sizePolicy6.setHeightForWidth(self.progressBar_2.sizePolicy().hasHeightForWidth())
-        self.progressBar_2.setSizePolicy(sizePolicy6)
+        sizePolicy.setHeightForWidth(self.progressBar_2.sizePolicy().hasHeightForWidth())
+        self.progressBar_2.setSizePolicy(sizePolicy)
         self.progressBar_2.setMinimumSize(QSize(315, 30))
         self.progressBar_2.setStyleSheet(u"background-color:black;")
         self.progressBar_2.setValue(0)
@@ -2179,14 +2190,14 @@ class Ui_MainWindow(object):
 
         self.btn_scan_process = QPushButton(self.scan)
         self.btn_scan_process.setObjectName(u"btn_scan_process")
-        sizePolicy6.setHeightForWidth(self.btn_scan_process.sizePolicy().hasHeightForWidth())
-        self.btn_scan_process.setSizePolicy(sizePolicy6)
+        sizePolicy.setHeightForWidth(self.btn_scan_process.sizePolicy().hasHeightForWidth())
+        self.btn_scan_process.setSizePolicy(sizePolicy)
         self.btn_scan_process.setMinimumSize(QSize(150, 30))
         self.btn_scan_process.setFont(font)
         self.btn_scan_process.setCursor(QCursor(Qt.PointingHandCursor))
         self.btn_scan_process.setStyleSheet(u"background-color:black;\n"
 "color:white;")
-        self.btn_scan_process.setIcon(icon16)
+        self.btn_scan_process.setIcon(icon17)
 
         self.gridLayout_4.addWidget(self.btn_scan_process, 10, 3, 4, 1)
 
@@ -2198,27 +2209,27 @@ class Ui_MainWindow(object):
         self.gridLayout_38.setHorizontalSpacing(50)
         self.btn_go_fiplan = QPushButton(self.scan)
         self.btn_go_fiplan.setObjectName(u"btn_go_fiplan")
-        sizePolicy6.setHeightForWidth(self.btn_go_fiplan.sizePolicy().hasHeightForWidth())
-        self.btn_go_fiplan.setSizePolicy(sizePolicy6)
+        sizePolicy.setHeightForWidth(self.btn_go_fiplan.sizePolicy().hasHeightForWidth())
+        self.btn_go_fiplan.setSizePolicy(sizePolicy)
         self.btn_go_fiplan.setMinimumSize(QSize(200, 30))
         self.btn_go_fiplan.setMaximumSize(QSize(200, 30))
         self.btn_go_fiplan.setCursor(QCursor(Qt.PointingHandCursor))
         self.btn_go_fiplan.setStyleSheet(u"font: 11pt \"Ubuntu\";\n"
 "background-color: rgb(52, 59, 72);")
-        self.btn_go_fiplan.setIcon(icon4)
+        self.btn_go_fiplan.setIcon(icon5)
 
         self.gridLayout_38.addWidget(self.btn_go_fiplan, 0, 1, 1, 1, Qt.AlignRight)
 
         self.btn_back_code = QPushButton(self.scan)
         self.btn_back_code.setObjectName(u"btn_back_code")
-        sizePolicy6.setHeightForWidth(self.btn_back_code.sizePolicy().hasHeightForWidth())
-        self.btn_back_code.setSizePolicy(sizePolicy6)
+        sizePolicy.setHeightForWidth(self.btn_back_code.sizePolicy().hasHeightForWidth())
+        self.btn_back_code.setSizePolicy(sizePolicy)
         self.btn_back_code.setMinimumSize(QSize(200, 30))
         self.btn_back_code.setMaximumSize(QSize(200, 30))
         self.btn_back_code.setCursor(QCursor(Qt.PointingHandCursor))
         self.btn_back_code.setStyleSheet(u"font: 11pt \"Ubuntu\";\n"
 "background-color: rgb(52, 59, 72);")
-        self.btn_back_code.setIcon(icon14)
+        self.btn_back_code.setIcon(icon15)
 
         self.gridLayout_38.addWidget(self.btn_back_code, 0, 0, 1, 1, Qt.AlignLeft)
 
@@ -2240,7 +2251,7 @@ class Ui_MainWindow(object):
         self.btn_start_mutation.setMaximumSize(QSize(16777215, 30))
         self.btn_start_mutation.setStyleSheet(u"background-color: rgb(52, 59, 72);\n"
 "font: 13pt \"Ubuntu\";")
-        self.btn_start_mutation.setIcon(icon17)
+        self.btn_start_mutation.setIcon(icon18)
 
         self.gridLayout_7.addWidget(self.btn_start_mutation, 9, 2, 1, 1)
 
@@ -2276,9 +2287,9 @@ class Ui_MainWindow(object):
         self.btn_random_fault.setObjectName(u"btn_random_fault")
         self.btn_random_fault.setMinimumSize(QSize(0, 30))
         self.btn_random_fault.setStyleSheet(u"background-color: rgb(52, 59, 72);")
-        icon18 = QIcon()
-        icon18.addFile(u":/icons/images/icons/cil-laptop.png", QSize(), QIcon.Normal, QIcon.Off)
-        self.btn_random_fault.setIcon(icon18)
+        icon19 = QIcon()
+        icon19.addFile(u":/icons/images/icons/cil-laptop.png", QSize(), QIcon.Normal, QIcon.Off)
+        self.btn_random_fault.setIcon(icon19)
 
         self.gridLayout_7.addWidget(self.btn_random_fault, 1, 1, 1, 1)
 
@@ -2288,7 +2299,7 @@ class Ui_MainWindow(object):
         self.btn_create_custom.setSizePolicy(sizePolicy2)
         self.btn_create_custom.setMinimumSize(QSize(0, 30))
         self.btn_create_custom.setStyleSheet(u"background-color: rgb(52, 59, 72);")
-        self.btn_create_custom.setIcon(icon9)
+        self.btn_create_custom.setIcon(icon10)
 
         self.gridLayout_7.addWidget(self.btn_create_custom, 1, 2, 1, 1)
 
@@ -2306,7 +2317,7 @@ class Ui_MainWindow(object):
         self.btn_remove_fault.setObjectName(u"btn_remove_fault")
         self.btn_remove_fault.setMinimumSize(QSize(0, 30))
         self.btn_remove_fault.setStyleSheet(u"background-color: rgb(52, 59, 72);")
-        self.btn_remove_fault.setIcon(icon11)
+        self.btn_remove_fault.setIcon(icon12)
 
         self.gridLayout_25.addWidget(self.btn_remove_fault, 2, 0, 1, 1)
 
@@ -2595,7 +2606,7 @@ class Ui_MainWindow(object):
         self.btn_select_fault.setObjectName(u"btn_select_fault")
         self.btn_select_fault.setMinimumSize(QSize(0, 30))
         self.btn_select_fault.setStyleSheet(u"background-color: rgb(52, 59, 72);")
-        self.btn_select_fault.setIcon(icon5)
+        self.btn_select_fault.setIcon(icon6)
 
         self.gridLayout_27.addWidget(self.btn_select_fault, 2, 0, 1, 1)
 
@@ -2625,9 +2636,21 @@ class Ui_MainWindow(object):
         self.pushButton.setObjectName(u"pushButton")
         self.pushButton.setMinimumSize(QSize(0, 30))
         self.pushButton.setStyleSheet(u"background-color: rgb(52, 59, 72);")
-        self.pushButton.setIcon(icon11)
+        self.pushButton.setIcon(icon12)
 
         self.gridLayout_23.addWidget(self.pushButton, 2, 0, 3, 2)
+
+        self.btn_save_fiplan = QPushButton(self.fiplan)
+        self.btn_save_fiplan.setObjectName(u"btn_save_fiplan")
+        sizePolicy2.setHeightForWidth(self.btn_save_fiplan.sizePolicy().hasHeightForWidth())
+        self.btn_save_fiplan.setSizePolicy(sizePolicy2)
+        self.btn_save_fiplan.setMinimumSize(QSize(0, 0))
+        self.btn_save_fiplan.setMaximumSize(QSize(16777215, 30))
+        self.btn_save_fiplan.setCursor(QCursor(Qt.PointingHandCursor))
+        self.btn_save_fiplan.setStyleSheet(u"background-color: rgb(52, 59, 72);")
+        self.btn_save_fiplan.setIcon(icon7)
+
+        self.gridLayout_23.addWidget(self.btn_save_fiplan, 7, 1, 1, 1)
 
         self.btn_slct_fiplan = QPushButton(self.fiplan)
         self.btn_slct_fiplan.setObjectName(u"btn_slct_fiplan")
@@ -2636,9 +2659,63 @@ class Ui_MainWindow(object):
         self.btn_slct_fiplan.setMinimumSize(QSize(0, 30))
         self.btn_slct_fiplan.setCursor(QCursor(Qt.PointingHandCursor))
         self.btn_slct_fiplan.setStyleSheet(u"background-color: rgb(52, 59, 72);")
-        self.btn_slct_fiplan.setIcon(icon8)
+        self.btn_slct_fiplan.setIcon(icon9)
 
         self.gridLayout_23.addWidget(self.btn_slct_fiplan, 7, 0, 1, 1)
+
+        self.listWidget_4 = QListWidget(self.fiplan)
+        self.listWidget_4.setObjectName(u"listWidget_4")
+        self.listWidget_4.setMaximumSize(QSize(16777215, 16777215))
+        self.listWidget_4.setStyleSheet(u"background-color: rgb(52, 59, 72);")
+
+        self.gridLayout_23.addWidget(self.listWidget_4, 1, 0, 1, 3)
+
+        self.label_44 = QLabel(self.fiplan)
+        self.label_44.setObjectName(u"label_44")
+        sizePolicy8.setHeightForWidth(self.label_44.sizePolicy().hasHeightForWidth())
+        self.label_44.setSizePolicy(sizePolicy8)
+        self.label_44.setStyleSheet(u"font: 13pt \"Ubuntu\";")
+
+        self.gridLayout_23.addWidget(self.label_44, 2, 2, 3, 1)
+
+        self.label_17 = QLabel(self.fiplan)
+        self.label_17.setObjectName(u"label_17")
+
+        self.gridLayout_23.addWidget(self.label_17, 5, 1, 1, 1, Qt.AlignHCenter)
+
+        self.listWidget_11 = QListWidget(self.fiplan)
+        self.listWidget_11.setObjectName(u"listWidget_11")
+        sizePolicy4.setHeightForWidth(self.listWidget_11.sizePolicy().hasHeightForWidth())
+        self.listWidget_11.setSizePolicy(sizePolicy4)
+        self.listWidget_11.setMinimumSize(QSize(0, 0))
+        self.listWidget_11.setMaximumSize(QSize(16777215, 16777215))
+        self.listWidget_11.setStyleSheet(u"background-color: rgb(52, 59, 72);")
+
+        self.gridLayout_23.addWidget(self.listWidget_11, 5, 2, 2, 1)
+
+        self.label_76 = QLabel(self.fiplan)
+        self.label_76.setObjectName(u"label_76")
+        self.label_76.setMaximumSize(QSize(16777215, 30))
+        self.label_76.setStyleSheet(u"font: 13pt \"Ubuntu\";")
+
+        self.gridLayout_23.addWidget(self.label_76, 5, 0, 1, 1)
+
+        self.label_33 = QLabel(self.fiplan)
+        self.label_33.setObjectName(u"label_33")
+        self.label_33.setStyleSheet(u"font: 13pt \"Ubuntu\";")
+
+        self.gridLayout_23.addWidget(self.label_33, 6, 0, 1, 1)
+
+        self.btn_remove_fiplan = QPushButton(self.fiplan)
+        self.btn_remove_fiplan.setObjectName(u"btn_remove_fiplan")
+        sizePolicy2.setHeightForWidth(self.btn_remove_fiplan.sizePolicy().hasHeightForWidth())
+        self.btn_remove_fiplan.setSizePolicy(sizePolicy2)
+        self.btn_remove_fiplan.setMinimumSize(QSize(0, 30))
+        self.btn_remove_fiplan.setMaximumSize(QSize(16777215, 30))
+        self.btn_remove_fiplan.setStyleSheet(u"background-color: rgb(52, 59, 72);")
+        self.btn_remove_fiplan.setIcon(icon12)
+
+        self.gridLayout_23.addWidget(self.btn_remove_fiplan, 7, 2, 1, 1)
 
         self.textEdit_26 = QTextEdit(self.fiplan)
         self.textEdit_26.setObjectName(u"textEdit_26")
@@ -2651,72 +2728,6 @@ class Ui_MainWindow(object):
 
         self.gridLayout_23.addWidget(self.textEdit_26, 6, 1, 1, 1)
 
-        self.btn_save_fiplan = QPushButton(self.fiplan)
-        self.btn_save_fiplan.setObjectName(u"btn_save_fiplan")
-        sizePolicy2.setHeightForWidth(self.btn_save_fiplan.sizePolicy().hasHeightForWidth())
-        self.btn_save_fiplan.setSizePolicy(sizePolicy2)
-        self.btn_save_fiplan.setMinimumSize(QSize(0, 0))
-        self.btn_save_fiplan.setMaximumSize(QSize(16777215, 30))
-        self.btn_save_fiplan.setCursor(QCursor(Qt.PointingHandCursor))
-        self.btn_save_fiplan.setStyleSheet(u"background-color: rgb(52, 59, 72);")
-        self.btn_save_fiplan.setIcon(icon6)
-
-        self.gridLayout_23.addWidget(self.btn_save_fiplan, 7, 1, 1, 1)
-
-        self.label_33 = QLabel(self.fiplan)
-        self.label_33.setObjectName(u"label_33")
-        self.label_33.setStyleSheet(u"font: 13pt \"Ubuntu\";")
-
-        self.gridLayout_23.addWidget(self.label_33, 6, 0, 1, 1)
-
-        self.listWidget_11 = QListWidget(self.fiplan)
-        self.listWidget_11.setObjectName(u"listWidget_11")
-        sizePolicy.setHeightForWidth(self.listWidget_11.sizePolicy().hasHeightForWidth())
-        self.listWidget_11.setSizePolicy(sizePolicy)
-        self.listWidget_11.setMinimumSize(QSize(0, 0))
-        self.listWidget_11.setMaximumSize(QSize(16777215, 16777215))
-        self.listWidget_11.setStyleSheet(u"background-color: rgb(52, 59, 72);")
-
-        self.gridLayout_23.addWidget(self.listWidget_11, 5, 2, 2, 1)
-
-        self.btn_remove_fiplan = QPushButton(self.fiplan)
-        self.btn_remove_fiplan.setObjectName(u"btn_remove_fiplan")
-        sizePolicy2.setHeightForWidth(self.btn_remove_fiplan.sizePolicy().hasHeightForWidth())
-        self.btn_remove_fiplan.setSizePolicy(sizePolicy2)
-        self.btn_remove_fiplan.setMinimumSize(QSize(0, 30))
-        self.btn_remove_fiplan.setMaximumSize(QSize(16777215, 30))
-        self.btn_remove_fiplan.setStyleSheet(u"background-color: rgb(52, 59, 72);")
-        self.btn_remove_fiplan.setIcon(icon11)
-
-        self.gridLayout_23.addWidget(self.btn_remove_fiplan, 7, 2, 1, 1)
-
-        self.label_44 = QLabel(self.fiplan)
-        self.label_44.setObjectName(u"label_44")
-        sizePolicy8.setHeightForWidth(self.label_44.sizePolicy().hasHeightForWidth())
-        self.label_44.setSizePolicy(sizePolicy8)
-        self.label_44.setStyleSheet(u"font: 13pt \"Ubuntu\";")
-
-        self.gridLayout_23.addWidget(self.label_44, 2, 2, 3, 1)
-
-        self.listWidget_4 = QListWidget(self.fiplan)
-        self.listWidget_4.setObjectName(u"listWidget_4")
-        self.listWidget_4.setMaximumSize(QSize(16777215, 16777215))
-        self.listWidget_4.setStyleSheet(u"background-color: rgb(52, 59, 72);")
-
-        self.gridLayout_23.addWidget(self.listWidget_4, 1, 0, 1, 3)
-
-        self.label_76 = QLabel(self.fiplan)
-        self.label_76.setObjectName(u"label_76")
-        self.label_76.setMaximumSize(QSize(16777215, 30))
-        self.label_76.setStyleSheet(u"font: 13pt \"Ubuntu\";")
-
-        self.gridLayout_23.addWidget(self.label_76, 5, 0, 1, 1)
-
-        self.label_17 = QLabel(self.fiplan)
-        self.label_17.setObjectName(u"label_17")
-
-        self.gridLayout_23.addWidget(self.label_17, 5, 1, 1, 1, Qt.AlignHCenter)
-
 
         self.gridLayout_7.addLayout(self.gridLayout_23, 1, 3, 10, 3)
 
@@ -2728,26 +2739,26 @@ class Ui_MainWindow(object):
         self.gridLayout_39.setHorizontalSpacing(50)
         self.pushButton_7 = QPushButton(self.fiplan)
         self.pushButton_7.setObjectName(u"pushButton_7")
-        sizePolicy6.setHeightForWidth(self.pushButton_7.sizePolicy().hasHeightForWidth())
-        self.pushButton_7.setSizePolicy(sizePolicy6)
+        sizePolicy.setHeightForWidth(self.pushButton_7.sizePolicy().hasHeightForWidth())
+        self.pushButton_7.setSizePolicy(sizePolicy)
         self.pushButton_7.setMinimumSize(QSize(200, 30))
         self.pushButton_7.setMaximumSize(QSize(200, 30))
         self.pushButton_7.setStyleSheet(u"font: 11pt \"Ubuntu\";\n"
 "background-color: rgb(52, 59, 72);")
-        self.pushButton_7.setIcon(icon14)
+        self.pushButton_7.setIcon(icon15)
 
         self.gridLayout_39.addWidget(self.pushButton_7, 0, 0, 1, 1, Qt.AlignLeft)
 
         self.btn_go_exe = QPushButton(self.fiplan)
         self.btn_go_exe.setObjectName(u"btn_go_exe")
-        sizePolicy6.setHeightForWidth(self.btn_go_exe.sizePolicy().hasHeightForWidth())
-        self.btn_go_exe.setSizePolicy(sizePolicy6)
+        sizePolicy.setHeightForWidth(self.btn_go_exe.sizePolicy().hasHeightForWidth())
+        self.btn_go_exe.setSizePolicy(sizePolicy)
         self.btn_go_exe.setMinimumSize(QSize(200, 30))
         self.btn_go_exe.setMaximumSize(QSize(200, 30))
         self.btn_go_exe.setCursor(QCursor(Qt.PointingHandCursor))
         self.btn_go_exe.setStyleSheet(u"font: 11pt \"Ubuntu\";\n"
 "background-color: rgb(52, 59, 72);")
-        self.btn_go_exe.setIcon(icon4)
+        self.btn_go_exe.setIcon(icon5)
 
         self.gridLayout_39.addWidget(self.btn_go_exe, 0, 1, 1, 1, Qt.AlignRight)
 
@@ -2774,12 +2785,12 @@ class Ui_MainWindow(object):
 
         self.pushButton_9 = QPushButton(self.execution)
         self.pushButton_9.setObjectName(u"pushButton_9")
-        sizePolicy.setHeightForWidth(self.pushButton_9.sizePolicy().hasHeightForWidth())
-        self.pushButton_9.setSizePolicy(sizePolicy)
+        sizePolicy4.setHeightForWidth(self.pushButton_9.sizePolicy().hasHeightForWidth())
+        self.pushButton_9.setSizePolicy(sizePolicy4)
         self.pushButton_9.setMinimumSize(QSize(0, 30))
         self.pushButton_9.setMaximumSize(QSize(16777215, 30))
         self.pushButton_9.setStyleSheet(u"background-color: rgb(52, 59, 72);")
-        self.pushButton_9.setIcon(icon5)
+        self.pushButton_9.setIcon(icon6)
 
         self.gridLayout_6.addWidget(self.pushButton_9, 3, 0, 1, 1)
 
@@ -2865,13 +2876,13 @@ class Ui_MainWindow(object):
 
         self.btn_new_exe = QPushButton(self.execution)
         self.btn_new_exe.setObjectName(u"btn_new_exe")
-        sizePolicy.setHeightForWidth(self.btn_new_exe.sizePolicy().hasHeightForWidth())
-        self.btn_new_exe.setSizePolicy(sizePolicy)
+        sizePolicy4.setHeightForWidth(self.btn_new_exe.sizePolicy().hasHeightForWidth())
+        self.btn_new_exe.setSizePolicy(sizePolicy4)
         self.btn_new_exe.setMinimumSize(QSize(0, 0))
         self.btn_new_exe.setMaximumSize(QSize(16777215, 30))
         self.btn_new_exe.setCursor(QCursor(Qt.PointingHandCursor))
         self.btn_new_exe.setStyleSheet(u"background-color: rgb(52, 59, 72);")
-        self.btn_new_exe.setIcon(icon10)
+        self.btn_new_exe.setIcon(icon11)
 
         self.gridLayout_40.addWidget(self.btn_new_exe, 6, 0, 1, 2)
 
@@ -2882,14 +2893,14 @@ class Ui_MainWindow(object):
         self.pushButton_3.setMinimumSize(QSize(0, 30))
         self.pushButton_3.setMaximumSize(QSize(16777215, 30))
         self.pushButton_3.setStyleSheet(u"background-color: rgb(52, 59, 72);")
-        self.pushButton_3.setIcon(icon6)
+        self.pushButton_3.setIcon(icon7)
 
         self.gridLayout_40.addWidget(self.pushButton_3, 6, 2, 1, 2)
 
         self.textEdit_7 = QTextEdit(self.execution)
         self.textEdit_7.setObjectName(u"textEdit_7")
-        sizePolicy4.setHeightForWidth(self.textEdit_7.sizePolicy().hasHeightForWidth())
-        self.textEdit_7.setSizePolicy(sizePolicy4)
+        sizePolicy5.setHeightForWidth(self.textEdit_7.sizePolicy().hasHeightForWidth())
+        self.textEdit_7.setSizePolicy(sizePolicy5)
         self.textEdit_7.setMinimumSize(QSize(0, 30))
         self.textEdit_7.setMaximumSize(QSize(16777215, 30))
         self.textEdit_7.setStyleSheet(u"background-color: rgb(52, 59, 72);")
@@ -2910,15 +2921,15 @@ class Ui_MainWindow(object):
 
         self.btn_select_metrics = QPushButton(self.execution)
         self.btn_select_metrics.setObjectName(u"btn_select_metrics")
-        sizePolicy.setHeightForWidth(self.btn_select_metrics.sizePolicy().hasHeightForWidth())
-        self.btn_select_metrics.setSizePolicy(sizePolicy)
+        sizePolicy4.setHeightForWidth(self.btn_select_metrics.sizePolicy().hasHeightForWidth())
+        self.btn_select_metrics.setSizePolicy(sizePolicy4)
         self.btn_select_metrics.setMinimumSize(QSize(0, 30))
         self.btn_select_metrics.setMaximumSize(QSize(16777215, 30))
         self.btn_select_metrics.setCursor(QCursor(Qt.PointingHandCursor))
         self.btn_select_metrics.setStyleSheet(u"background-color: rgb(52, 59, 72);")
-        icon19 = QIcon()
-        icon19.addFile(u":/icons/images/icons/cil-equalizer.png", QSize(), QIcon.Normal, QIcon.Off)
-        self.btn_select_metrics.setIcon(icon19)
+        icon20 = QIcon()
+        icon20.addFile(u":/icons/images/icons/cil-equalizer.png", QSize(), QIcon.Normal, QIcon.Off)
+        self.btn_select_metrics.setIcon(icon20)
 
         self.gridLayout_40.addWidget(self.btn_select_metrics, 4, 3, 1, 1)
 
@@ -2997,8 +3008,8 @@ class Ui_MainWindow(object):
 
         self.checkBox = QCheckBox(self.execution)
         self.checkBox.setObjectName(u"checkBox")
-        sizePolicy6.setHeightForWidth(self.checkBox.sizePolicy().hasHeightForWidth())
-        self.checkBox.setSizePolicy(sizePolicy6)
+        sizePolicy.setHeightForWidth(self.checkBox.sizePolicy().hasHeightForWidth())
+        self.checkBox.setSizePolicy(sizePolicy)
         self.checkBox.setMinimumSize(QSize(200, 30))
         self.checkBox.setStyleSheet(u"background-color: rgb(52, 59, 72);")
 
@@ -3006,16 +3017,16 @@ class Ui_MainWindow(object):
 
         self.btn_start_exe = QPushButton(self.execution)
         self.btn_start_exe.setObjectName(u"btn_start_exe")
-        sizePolicy.setHeightForWidth(self.btn_start_exe.sizePolicy().hasHeightForWidth())
-        self.btn_start_exe.setSizePolicy(sizePolicy)
+        sizePolicy4.setHeightForWidth(self.btn_start_exe.sizePolicy().hasHeightForWidth())
+        self.btn_start_exe.setSizePolicy(sizePolicy4)
         self.btn_start_exe.setMinimumSize(QSize(150, 30))
         self.btn_start_exe.setMaximumSize(QSize(16777215, 30))
         self.btn_start_exe.setCursor(QCursor(Qt.PointingHandCursor))
         self.btn_start_exe.setStyleSheet(u"background-color:black;\n"
 "color:white;")
-        icon20 = QIcon()
-        icon20.addFile(u":/icons/images/icons/cil-caret-right.png", QSize(), QIcon.Normal, QIcon.Off)
-        self.btn_start_exe.setIcon(icon20)
+        icon21 = QIcon()
+        icon21.addFile(u":/icons/images/icons/cil-caret-right.png", QSize(), QIcon.Normal, QIcon.Off)
+        self.btn_start_exe.setIcon(icon21)
 
         self.gridLayout_40.addWidget(self.btn_start_exe, 7, 0, 1, 4)
 
@@ -3040,20 +3051,20 @@ class Ui_MainWindow(object):
 
         self.btn_remove_exe = QPushButton(self.execution)
         self.btn_remove_exe.setObjectName(u"btn_remove_exe")
-        sizePolicy.setHeightForWidth(self.btn_remove_exe.sizePolicy().hasHeightForWidth())
-        self.btn_remove_exe.setSizePolicy(sizePolicy)
+        sizePolicy4.setHeightForWidth(self.btn_remove_exe.sizePolicy().hasHeightForWidth())
+        self.btn_remove_exe.setSizePolicy(sizePolicy4)
         self.btn_remove_exe.setMinimumSize(QSize(150, 30))
         self.btn_remove_exe.setMaximumSize(QSize(16777215, 30))
         self.btn_remove_exe.setCursor(QCursor(Qt.PointingHandCursor))
         self.btn_remove_exe.setStyleSheet(u"background-color: rgb(52, 59, 72);")
-        self.btn_remove_exe.setIcon(icon1)
+        self.btn_remove_exe.setIcon(icon2)
 
         self.gridLayout_6.addWidget(self.btn_remove_exe, 3, 6, 1, 1)
 
         self.listWidget_6 = QListWidget(self.execution)
         self.listWidget_6.setObjectName(u"listWidget_6")
-        sizePolicy.setHeightForWidth(self.listWidget_6.sizePolicy().hasHeightForWidth())
-        self.listWidget_6.setSizePolicy(sizePolicy)
+        sizePolicy4.setHeightForWidth(self.listWidget_6.sizePolicy().hasHeightForWidth())
+        self.listWidget_6.setSizePolicy(sizePolicy4)
         self.listWidget_6.setStyleSheet(u"background-color: rgb(52, 59, 72);")
 
         self.gridLayout_6.addWidget(self.listWidget_6, 1, 0, 2, 1)
@@ -3063,8 +3074,8 @@ class Ui_MainWindow(object):
         QListWidgetItem(self.listWidget_13)
         QListWidgetItem(self.listWidget_13)
         self.listWidget_13.setObjectName(u"listWidget_13")
-        sizePolicy.setHeightForWidth(self.listWidget_13.sizePolicy().hasHeightForWidth())
-        self.listWidget_13.setSizePolicy(sizePolicy)
+        sizePolicy4.setHeightForWidth(self.listWidget_13.sizePolicy().hasHeightForWidth())
+        self.listWidget_13.setSizePolicy(sizePolicy4)
         self.listWidget_13.setMinimumSize(QSize(0, 0))
         self.listWidget_13.setStyleSheet(u"background-color: rgb(52, 59, 72);")
 
@@ -3080,26 +3091,26 @@ class Ui_MainWindow(object):
         self.gridLayout_43.setContentsMargins(0, -1, -1, -1)
         self.btn_go_monitoring = QPushButton(self.execution)
         self.btn_go_monitoring.setObjectName(u"btn_go_monitoring")
-        sizePolicy.setHeightForWidth(self.btn_go_monitoring.sizePolicy().hasHeightForWidth())
-        self.btn_go_monitoring.setSizePolicy(sizePolicy)
+        sizePolicy4.setHeightForWidth(self.btn_go_monitoring.sizePolicy().hasHeightForWidth())
+        self.btn_go_monitoring.setSizePolicy(sizePolicy4)
         self.btn_go_monitoring.setMinimumSize(QSize(200, 30))
         self.btn_go_monitoring.setMaximumSize(QSize(200, 30))
         self.btn_go_monitoring.setCursor(QCursor(Qt.PointingHandCursor))
         self.btn_go_monitoring.setStyleSheet(u"font: 11pt \"Ubuntu\";\n"
 "background-color: rgb(52, 59, 72);")
-        self.btn_go_monitoring.setIcon(icon4)
+        self.btn_go_monitoring.setIcon(icon5)
 
         self.gridLayout_43.addWidget(self.btn_go_monitoring, 0, 1, 1, 1, Qt.AlignRight)
 
         self.pushButton_6 = QPushButton(self.execution)
         self.pushButton_6.setObjectName(u"pushButton_6")
-        sizePolicy6.setHeightForWidth(self.pushButton_6.sizePolicy().hasHeightForWidth())
-        self.pushButton_6.setSizePolicy(sizePolicy6)
+        sizePolicy.setHeightForWidth(self.pushButton_6.sizePolicy().hasHeightForWidth())
+        self.pushButton_6.setSizePolicy(sizePolicy)
         self.pushButton_6.setMinimumSize(QSize(200, 30))
         self.pushButton_6.setMaximumSize(QSize(200, 30))
         self.pushButton_6.setStyleSheet(u"font: 11pt \"Ubuntu\";\n"
 "background-color: rgb(52, 59, 72);")
-        self.pushButton_6.setIcon(icon14)
+        self.pushButton_6.setIcon(icon15)
 
         self.gridLayout_43.addWidget(self.pushButton_6, 0, 0, 1, 1, Qt.AlignLeft)
 
@@ -3115,29 +3126,11 @@ class Ui_MainWindow(object):
         self.gridLayout_53.setObjectName(u"gridLayout_53")
         self.gridLayout_53.setHorizontalSpacing(20)
         self.gridLayout_53.setVerticalSpacing(10)
-        self.listWidget_19 = QListWidget(self.monitoring)
-        self.listWidget_19.setObjectName(u"listWidget_19")
-        self.listWidget_19.setStyleSheet(u"background-color: rgb(52, 59, 72);")
+        self.label_10 = QLabel(self.monitoring)
+        self.label_10.setObjectName(u"label_10")
+        self.label_10.setStyleSheet(u"font: 13pt \"Ubuntu\";")
 
-        self.gridLayout_53.addWidget(self.listWidget_19, 1, 1, 1, 1)
-
-        self.label_74 = QLabel(self.monitoring)
-        self.label_74.setObjectName(u"label_74")
-        self.label_74.setStyleSheet(u"font: 13pt \"Ubuntu\";")
-
-        self.gridLayout_53.addWidget(self.label_74, 0, 1, 1, 1)
-
-        self.listWidget_16 = QListWidget(self.monitoring)
-        self.listWidget_16.setObjectName(u"listWidget_16")
-        self.listWidget_16.setStyleSheet(u"background-color: rgb(52, 59, 72);")
-
-        self.gridLayout_53.addWidget(self.listWidget_16, 1, 0, 1, 1)
-
-        self.label_45 = QLabel(self.monitoring)
-        self.label_45.setObjectName(u"label_45")
-        self.label_45.setStyleSheet(u"font: 13pt \"Ubuntu\";")
-
-        self.gridLayout_53.addWidget(self.label_45, 2, 0, 1, 2)
+        self.gridLayout_53.addWidget(self.label_10, 0, 2, 1, 1)
 
         self.label_73 = QLabel(self.monitoring)
         self.label_73.setObjectName(u"label_73")
@@ -3145,55 +3138,21 @@ class Ui_MainWindow(object):
 
         self.gridLayout_53.addWidget(self.label_73, 0, 0, 1, 1)
 
-        self.label_47 = QLabel(self.monitoring)
-        self.label_47.setObjectName(u"label_47")
-        sizePolicy.setHeightForWidth(self.label_47.sizePolicy().hasHeightForWidth())
-        self.label_47.setSizePolicy(sizePolicy)
-        self.label_47.setPixmap(QPixmap(u"images/images/graphic.png"))
-        self.label_47.setScaledContents(True)
-
-        self.gridLayout_53.addWidget(self.label_47, 1, 2, 1, 1)
-
-        self.listWidget_14 = QListWidget(self.monitoring)
-        self.listWidget_14.setObjectName(u"listWidget_14")
-        self.listWidget_14.setStyleSheet(u"background-color: rgb(52, 59, 72);")
-
-        self.gridLayout_53.addWidget(self.listWidget_14, 3, 0, 5, 2)
-
-        self.label_10 = QLabel(self.monitoring)
-        self.label_10.setObjectName(u"label_10")
-        self.label_10.setStyleSheet(u"font: 13pt \"Ubuntu\";")
-
-        self.gridLayout_53.addWidget(self.label_10, 0, 2, 1, 1)
-
         self.gridLayout_44 = QGridLayout()
         self.gridLayout_44.setObjectName(u"gridLayout_44")
         self.gridLayout_44.setHorizontalSpacing(20)
         self.gridLayout_44.setVerticalSpacing(8)
         self.btn_select_scenario = QPushButton(self.monitoring)
         self.btn_select_scenario.setObjectName(u"btn_select_scenario")
-        sizePolicy6.setHeightForWidth(self.btn_select_scenario.sizePolicy().hasHeightForWidth())
-        self.btn_select_scenario.setSizePolicy(sizePolicy6)
+        sizePolicy.setHeightForWidth(self.btn_select_scenario.sizePolicy().hasHeightForWidth())
+        self.btn_select_scenario.setSizePolicy(sizePolicy)
         self.btn_select_scenario.setMinimumSize(QSize(200, 30))
         self.btn_select_scenario.setFont(font)
         self.btn_select_scenario.setCursor(QCursor(Qt.PointingHandCursor))
         self.btn_select_scenario.setStyleSheet(u"background-color: rgb(52, 59, 72);")
-        self.btn_select_scenario.setIcon(icon8)
+        self.btn_select_scenario.setIcon(icon9)
 
         self.gridLayout_44.addWidget(self.btn_select_scenario, 3, 1, 1, 1)
-
-        self.listWidget_12 = QListWidget(self.monitoring)
-        QListWidgetItem(self.listWidget_12)
-        QListWidgetItem(self.listWidget_12)
-        QListWidgetItem(self.listWidget_12)
-        QListWidgetItem(self.listWidget_12)
-        QListWidgetItem(self.listWidget_12)
-        self.listWidget_12.setObjectName(u"listWidget_12")
-        sizePolicy.setHeightForWidth(self.listWidget_12.sizePolicy().hasHeightForWidth())
-        self.listWidget_12.setSizePolicy(sizePolicy)
-        self.listWidget_12.setStyleSheet(u"background-color: rgb(52, 59, 72);")
-
-        self.gridLayout_44.addWidget(self.listWidget_12, 1, 1, 1, 2)
 
         self.label_3 = QLabel(self.monitoring)
         self.label_3.setObjectName(u"label_3")
@@ -3203,13 +3162,13 @@ class Ui_MainWindow(object):
 
         self.btn_run_scenario = QPushButton(self.monitoring)
         self.btn_run_scenario.setObjectName(u"btn_run_scenario")
-        sizePolicy6.setHeightForWidth(self.btn_run_scenario.sizePolicy().hasHeightForWidth())
-        self.btn_run_scenario.setSizePolicy(sizePolicy6)
+        sizePolicy.setHeightForWidth(self.btn_run_scenario.sizePolicy().hasHeightForWidth())
+        self.btn_run_scenario.setSizePolicy(sizePolicy)
         self.btn_run_scenario.setMinimumSize(QSize(200, 30))
         self.btn_run_scenario.setCursor(QCursor(Qt.PointingHandCursor))
         self.btn_run_scenario.setStyleSheet(u"background-color:black;\n"
 "color:white;")
-        self.btn_run_scenario.setIcon(icon17)
+        self.btn_run_scenario.setIcon(icon18)
 
         self.gridLayout_44.addWidget(self.btn_run_scenario, 3, 2, 1, 1)
 
@@ -3218,6 +3177,12 @@ class Ui_MainWindow(object):
         self.label_7.setStyleSheet(u"font: 13pt \"Ubuntu\";")
 
         self.gridLayout_44.addWidget(self.label_7, 0, 0, 1, 1)
+
+        self.listWidget_9 = QListWidget(self.monitoring)
+        self.listWidget_9.setObjectName(u"listWidget_9")
+        self.listWidget_9.setStyleSheet(u"background-color: rgb(52, 59, 72);")
+
+        self.gridLayout_44.addWidget(self.listWidget_9, 1, 0, 3, 1)
 
         self.gridLayout_9 = QGridLayout()
         self.gridLayout_9.setObjectName(u"gridLayout_9")
@@ -3237,36 +3202,110 @@ class Ui_MainWindow(object):
         self.btn_create_report.setCursor(QCursor(Qt.PointingHandCursor))
         self.btn_create_report.setStyleSheet(u"background-color: black;\n"
 "color:white;")
-        icon21 = QIcon()
-        icon21.addFile(u":/icons/images/icons/cil-task.png", QSize(), QIcon.Normal, QIcon.Off)
-        self.btn_create_report.setIcon(icon21)
+        icon22 = QIcon()
+        icon22.addFile(u":/icons/images/icons/cil-task.png", QSize(), QIcon.Normal, QIcon.Off)
+        self.btn_create_report.setIcon(icon22)
 
         self.gridLayout_9.addWidget(self.btn_create_report, 0, 1, 2, 1)
 
         self.btn_new_one = QPushButton(self.monitoring)
         self.btn_new_one.setObjectName(u"btn_new_one")
-        sizePolicy.setHeightForWidth(self.btn_new_one.sizePolicy().hasHeightForWidth())
-        self.btn_new_one.setSizePolicy(sizePolicy)
+        sizePolicy4.setHeightForWidth(self.btn_new_one.sizePolicy().hasHeightForWidth())
+        self.btn_new_one.setSizePolicy(sizePolicy4)
         self.btn_new_one.setMinimumSize(QSize(200, 50))
         self.btn_new_one.setCursor(QCursor(Qt.PointingHandCursor))
         self.btn_new_one.setStyleSheet(u"background-color: rgb(52, 59, 72);")
-        icon22 = QIcon()
-        icon22.addFile(u":/icons/images/icons/cil-star.png", QSize(), QIcon.Normal, QIcon.Off)
-        self.btn_new_one.setIcon(icon22)
+        icon23 = QIcon()
+        icon23.addFile(u":/icons/images/icons/cil-star.png", QSize(), QIcon.Normal, QIcon.Off)
+        self.btn_new_one.setIcon(icon23)
 
         self.gridLayout_9.addWidget(self.btn_new_one, 0, 2, 2, 1)
 
 
-        self.gridLayout_44.addLayout(self.gridLayout_9, 5, 0, 1, 3)
+        self.gridLayout_44.addLayout(self.gridLayout_9, 4, 0, 2, 3)
 
-        self.listWidget_9 = QListWidget(self.monitoring)
-        self.listWidget_9.setObjectName(u"listWidget_9")
-        self.listWidget_9.setStyleSheet(u"background-color: rgb(52, 59, 72);")
+        self.listWidget_12 = QListWidget(self.monitoring)
+        QListWidgetItem(self.listWidget_12)
+        QListWidgetItem(self.listWidget_12)
+        QListWidgetItem(self.listWidget_12)
+        QListWidgetItem(self.listWidget_12)
+        QListWidgetItem(self.listWidget_12)
+        self.listWidget_12.setObjectName(u"listWidget_12")
+        sizePolicy4.setHeightForWidth(self.listWidget_12.sizePolicy().hasHeightForWidth())
+        self.listWidget_12.setSizePolicy(sizePolicy4)
+        self.listWidget_12.setStyleSheet(u"background-color: rgb(52, 59, 72);")
 
-        self.gridLayout_44.addWidget(self.listWidget_9, 1, 0, 3, 1)
+        self.gridLayout_44.addWidget(self.listWidget_12, 1, 1, 2, 2)
 
 
-        self.gridLayout_53.addLayout(self.gridLayout_44, 2, 2, 6, 1)
+        self.gridLayout_53.addLayout(self.gridLayout_44, 3, 2, 6, 1)
+
+        self.gridLayout_55 = QGridLayout()
+        self.gridLayout_55.setObjectName(u"gridLayout_55")
+        self.gridLayout_55.setHorizontalSpacing(20)
+        self.gridLayout_55.setVerticalSpacing(6)
+        self.bar_chart = QPushButton(self.monitoring)
+        self.bar_chart.setObjectName(u"bar_chart")
+        self.bar_chart.setMinimumSize(QSize(0, 30))
+        self.bar_chart.setStyleSheet(u"background-color: rgb(52, 59, 72);")
+
+        self.gridLayout_55.addWidget(self.bar_chart, 0, 0, 1, 1)
+
+        self.pie_chart = QPushButton(self.monitoring)
+        self.pie_chart.setObjectName(u"pie_chart")
+        self.pie_chart.setMinimumSize(QSize(0, 30))
+        self.pie_chart.setStyleSheet(u"background-color: rgb(52, 59, 72);")
+
+        self.gridLayout_55.addWidget(self.pie_chart, 0, 1, 1, 1)
+
+
+        self.gridLayout_53.addLayout(self.gridLayout_55, 2, 2, 1, 1)
+
+        self.label_74 = QLabel(self.monitoring)
+        self.label_74.setObjectName(u"label_74")
+        self.label_74.setStyleSheet(u"font: 13pt \"Ubuntu\";")
+
+        self.gridLayout_53.addWidget(self.label_74, 0, 1, 1, 1)
+
+        self.label_47 = QLabel(self.monitoring)
+        self.label_47.setObjectName(u"label_47")
+        sizePolicy4.setHeightForWidth(self.label_47.sizePolicy().hasHeightForWidth())
+        self.label_47.setSizePolicy(sizePolicy4)
+        self.label_47.setMinimumSize(QSize(0, 0))
+        self.label_47.setMaximumSize(QSize(16777215, 480))
+        self.label_47.setStyleSheet(u"background-color: rgb(52, 59, 72);")
+        self.label_47.setScaledContents(True)
+
+        self.gridLayout_53.addWidget(self.label_47, 1, 2, 1, 1)
+
+        self.listWidget_19 = QListWidget(self.monitoring)
+        self.listWidget_19.setObjectName(u"listWidget_19")
+        self.listWidget_19.setStyleSheet(u"background-color: rgb(52, 59, 72);")
+
+        self.gridLayout_53.addWidget(self.listWidget_19, 1, 1, 2, 1)
+
+        self.listWidget_16 = QListWidget(self.monitoring)
+        self.listWidget_16.setObjectName(u"listWidget_16")
+        self.listWidget_16.setStyleSheet(u"background-color: rgb(52, 59, 72);")
+
+        self.gridLayout_53.addWidget(self.listWidget_16, 1, 0, 2, 1)
+
+        self.gridLayout_56 = QGridLayout()
+        self.gridLayout_56.setObjectName(u"gridLayout_56")
+        self.listWidget_14 = QListWidget(self.monitoring)
+        self.listWidget_14.setObjectName(u"listWidget_14")
+        self.listWidget_14.setStyleSheet(u"background-color: rgb(52, 59, 72);")
+
+        self.gridLayout_56.addWidget(self.listWidget_14, 1, 0, 1, 1)
+
+        self.label_45 = QLabel(self.monitoring)
+        self.label_45.setObjectName(u"label_45")
+        self.label_45.setStyleSheet(u"font: 13pt \"Ubuntu\";")
+
+        self.gridLayout_56.addWidget(self.label_45, 0, 0, 1, 1)
+
+
+        self.gridLayout_53.addLayout(self.gridLayout_56, 3, 0, 1, 2)
 
 
         self.verticalLayout_10.addLayout(self.gridLayout_53)
@@ -3323,8 +3362,8 @@ class Ui_MainWindow(object):
         QListWidgetItem(self.listWidget_18)
         QListWidgetItem(self.listWidget_18)
         self.listWidget_18.setObjectName(u"listWidget_18")
-        sizePolicy.setHeightForWidth(self.listWidget_18.sizePolicy().hasHeightForWidth())
-        self.listWidget_18.setSizePolicy(sizePolicy)
+        sizePolicy4.setHeightForWidth(self.listWidget_18.sizePolicy().hasHeightForWidth())
+        self.listWidget_18.setSizePolicy(sizePolicy4)
         self.listWidget_18.setMaximumSize(QSize(16777215, 16777215))
         self.listWidget_18.setStyleSheet(u"background-color: rgb(52, 59, 72);")
 
@@ -3336,7 +3375,7 @@ class Ui_MainWindow(object):
         self.btn_metric_list.setSizePolicy(sizePolicy2)
         self.btn_metric_list.setMinimumSize(QSize(120, 30))
         self.btn_metric_list.setStyleSheet(u"background-color: rgb(52, 59, 72);")
-        self.btn_metric_list.setIcon(icon5)
+        self.btn_metric_list.setIcon(icon6)
 
         self.gridLayout_14.addWidget(self.btn_metric_list, 6, 0, 1, 1)
 
@@ -3347,7 +3386,7 @@ class Ui_MainWindow(object):
         self.saveMetrics.setMinimumSize(QSize(120, 30))
         self.saveMetrics.setCursor(QCursor(Qt.PointingHandCursor))
         self.saveMetrics.setStyleSheet(u"background-color: rgb(52, 59, 72);")
-        self.saveMetrics.setIcon(icon6)
+        self.saveMetrics.setIcon(icon7)
 
         self.gridLayout_14.addWidget(self.saveMetrics, 6, 2, 1, 1)
 
@@ -3381,13 +3420,13 @@ class Ui_MainWindow(object):
 
         self.btn_back_exe = QPushButton(self.selectMetrics)
         self.btn_back_exe.setObjectName(u"btn_back_exe")
-        sizePolicy6.setHeightForWidth(self.btn_back_exe.sizePolicy().hasHeightForWidth())
-        self.btn_back_exe.setSizePolicy(sizePolicy6)
+        sizePolicy.setHeightForWidth(self.btn_back_exe.sizePolicy().hasHeightForWidth())
+        self.btn_back_exe.setSizePolicy(sizePolicy)
         self.btn_back_exe.setMinimumSize(QSize(200, 30))
         self.btn_back_exe.setCursor(QCursor(Qt.PointingHandCursor))
         self.btn_back_exe.setStyleSheet(u"background-color:black;\n"
 "color:white;")
-        self.btn_back_exe.setIcon(icon14)
+        self.btn_back_exe.setIcon(icon15)
 
         self.verticalLayout_52.addWidget(self.btn_back_exe, 0, Qt.AlignHCenter)
 
@@ -3408,7 +3447,7 @@ class Ui_MainWindow(object):
         self.btn_create_fault.setObjectName(u"btn_create_fault")
         self.btn_create_fault.setMinimumSize(QSize(0, 30))
         self.btn_create_fault.setStyleSheet(u"background-color: rgb(52, 59, 72);")
-        self.btn_create_fault.setIcon(icon10)
+        self.btn_create_fault.setIcon(icon11)
 
         self.gridLayout_3.addWidget(self.btn_create_fault, 0, 0, 1, 1)
 
@@ -3416,7 +3455,7 @@ class Ui_MainWindow(object):
         self.btn_delete_fault.setObjectName(u"btn_delete_fault")
         self.btn_delete_fault.setMinimumSize(QSize(0, 30))
         self.btn_delete_fault.setStyleSheet(u"background-color: rgb(52, 59, 72);")
-        self.btn_delete_fault.setIcon(icon12)
+        self.btn_delete_fault.setIcon(icon13)
 
         self.gridLayout_3.addWidget(self.btn_delete_fault, 0, 1, 1, 1)
 
@@ -3457,7 +3496,7 @@ class Ui_MainWindow(object):
         self.btn_back_fi.setCursor(QCursor(Qt.PointingHandCursor))
         self.btn_back_fi.setStyleSheet(u"background-color: black;\n"
 "color:white;")
-        self.btn_back_fi.setIcon(icon14)
+        self.btn_back_fi.setIcon(icon15)
 
         self.gridLayout_16.addWidget(self.btn_back_fi, 8, 8, 1, 1)
 
@@ -3539,19 +3578,19 @@ class Ui_MainWindow(object):
 
         self.label_41 = QLabel(self.customFault)
         self.label_41.setObjectName(u"label_41")
-        sizePolicy6.setHeightForWidth(self.label_41.sizePolicy().hasHeightForWidth())
-        self.label_41.setSizePolicy(sizePolicy6)
+        sizePolicy.setHeightForWidth(self.label_41.sizePolicy().hasHeightForWidth())
+        self.label_41.setSizePolicy(sizePolicy)
         self.label_41.setMaximumSize(QSize(100, 30))
 
         self.gridLayout_16.addWidget(self.label_41, 8, 1, 1, 1)
 
         self.btn_save_fault = QPushButton(self.customFault)
         self.btn_save_fault.setObjectName(u"btn_save_fault")
-        sizePolicy6.setHeightForWidth(self.btn_save_fault.sizePolicy().hasHeightForWidth())
-        self.btn_save_fault.setSizePolicy(sizePolicy6)
+        sizePolicy.setHeightForWidth(self.btn_save_fault.sizePolicy().hasHeightForWidth())
+        self.btn_save_fault.setSizePolicy(sizePolicy)
         self.btn_save_fault.setMinimumSize(QSize(120, 30))
         self.btn_save_fault.setStyleSheet(u"background-color: rgb(52, 59, 72);")
-        self.btn_save_fault.setIcon(icon6)
+        self.btn_save_fault.setIcon(icon7)
 
         self.gridLayout_16.addWidget(self.btn_save_fault, 8, 4, 1, 2)
 
@@ -3589,7 +3628,7 @@ class Ui_MainWindow(object):
         self.btn_remove_createdFault.setMinimumSize(QSize(0, 30))
         self.btn_remove_createdFault.setMaximumSize(QSize(16777215, 30))
         self.btn_remove_createdFault.setStyleSheet(u"background-color: rgb(52, 59, 72);")
-        self.btn_remove_createdFault.setIcon(icon11)
+        self.btn_remove_createdFault.setIcon(icon12)
 
         self.gridLayout_8.addWidget(self.btn_remove_createdFault, 4, 0, 1, 1)
 
@@ -3650,7 +3689,7 @@ class Ui_MainWindow(object):
         self.btn_workload_save.setMinimumSize(QSize(0, 30))
         self.btn_workload_save.setMaximumSize(QSize(16777215, 30))
         self.btn_workload_save.setStyleSheet(u"background-color: rgb(52, 59, 72);")
-        self.btn_workload_save.setIcon(icon6)
+        self.btn_workload_save.setIcon(icon7)
 
         self.gridLayout_5.addWidget(self.btn_workload_save, 9, 0, 1, 3)
 
@@ -3689,7 +3728,7 @@ class Ui_MainWindow(object):
         self.btn_changeDir.setMaximumSize(QSize(80, 30))
         self.btn_changeDir.setStyleSheet(u"background-color: rgb(52, 59, 72);\n"
 "")
-        self.btn_changeDir.setIcon(icon8)
+        self.btn_changeDir.setIcon(icon9)
 
         self.gridLayout_5.addWidget(self.btn_changeDir, 1, 2, 1, 1)
 
@@ -3754,20 +3793,20 @@ class Ui_MainWindow(object):
 
         self.btn_select_task = QPushButton(self.cWorkload)
         self.btn_select_task.setObjectName(u"btn_select_task")
-        sizePolicy.setHeightForWidth(self.btn_select_task.sizePolicy().hasHeightForWidth())
-        self.btn_select_task.setSizePolicy(sizePolicy)
+        sizePolicy4.setHeightForWidth(self.btn_select_task.sizePolicy().hasHeightForWidth())
+        self.btn_select_task.setSizePolicy(sizePolicy4)
         self.btn_select_task.setMinimumSize(QSize(0, 30))
         self.btn_select_task.setMaximumSize(QSize(16777215, 30))
         self.btn_select_task.setCursor(QCursor(Qt.PointingHandCursor))
         self.btn_select_task.setStyleSheet(u"background-color: rgb(52, 59, 72);")
-        self.btn_select_task.setIcon(icon5)
+        self.btn_select_task.setIcon(icon6)
 
         self.gridLayout_45.addWidget(self.btn_select_task, 6, 0, 1, 1)
 
         self.listWidget_22 = QListWidget(self.cWorkload)
         self.listWidget_22.setObjectName(u"listWidget_22")
-        sizePolicy.setHeightForWidth(self.listWidget_22.sizePolicy().hasHeightForWidth())
-        self.listWidget_22.setSizePolicy(sizePolicy)
+        sizePolicy4.setHeightForWidth(self.listWidget_22.sizePolicy().hasHeightForWidth())
+        self.listWidget_22.setSizePolicy(sizePolicy4)
         self.listWidget_22.setMinimumSize(QSize(0, 250))
         self.listWidget_22.setStyleSheet(u"background-color: rgb(52, 59, 72);")
 
@@ -3775,21 +3814,21 @@ class Ui_MainWindow(object):
 
         self.btn_take_tasks = QPushButton(self.cWorkload)
         self.btn_take_tasks.setObjectName(u"btn_take_tasks")
-        sizePolicy.setHeightForWidth(self.btn_take_tasks.sizePolicy().hasHeightForWidth())
-        self.btn_take_tasks.setSizePolicy(sizePolicy)
+        sizePolicy4.setHeightForWidth(self.btn_take_tasks.sizePolicy().hasHeightForWidth())
+        self.btn_take_tasks.setSizePolicy(sizePolicy4)
         self.btn_take_tasks.setMinimumSize(QSize(0, 30))
         self.btn_take_tasks.setMaximumSize(QSize(16777215, 30))
         self.btn_take_tasks.setStyleSheet(u"background-color: rgb(52, 59, 72);")
-        icon23 = QIcon()
-        icon23.addFile(u":/icons/images/icons/cil-vertical-align-bottom.png", QSize(), QIcon.Normal, QIcon.Off)
-        self.btn_take_tasks.setIcon(icon23)
+        icon24 = QIcon()
+        icon24.addFile(u":/icons/images/icons/cil-vertical-align-bottom.png", QSize(), QIcon.Normal, QIcon.Off)
+        self.btn_take_tasks.setIcon(icon24)
 
         self.gridLayout_45.addWidget(self.btn_take_tasks, 2, 0, 1, 1)
 
         self.listWidget_21 = QListWidget(self.cWorkload)
         self.listWidget_21.setObjectName(u"listWidget_21")
-        sizePolicy.setHeightForWidth(self.listWidget_21.sizePolicy().hasHeightForWidth())
-        self.listWidget_21.setSizePolicy(sizePolicy)
+        sizePolicy4.setHeightForWidth(self.listWidget_21.sizePolicy().hasHeightForWidth())
+        self.listWidget_21.setSizePolicy(sizePolicy4)
         self.listWidget_21.setMinimumSize(QSize(0, 200))
         self.listWidget_21.setStyleSheet(u"background-color: rgb(52, 59, 72);")
 
@@ -3806,24 +3845,24 @@ class Ui_MainWindow(object):
         self.gridLayout_46.setObjectName(u"gridLayout_46")
         self.btn_save_task = QPushButton(self.cWorkload)
         self.btn_save_task.setObjectName(u"btn_save_task")
-        sizePolicy.setHeightForWidth(self.btn_save_task.sizePolicy().hasHeightForWidth())
-        self.btn_save_task.setSizePolicy(sizePolicy)
+        sizePolicy4.setHeightForWidth(self.btn_save_task.sizePolicy().hasHeightForWidth())
+        self.btn_save_task.setSizePolicy(sizePolicy4)
         self.btn_save_task.setMinimumSize(QSize(120, 30))
         self.btn_save_task.setMaximumSize(QSize(16777215, 30))
         self.btn_save_task.setCursor(QCursor(Qt.PointingHandCursor))
         self.btn_save_task.setStyleSheet(u"background-color: rgb(52, 59, 72);")
-        self.btn_save_task.setIcon(icon6)
+        self.btn_save_task.setIcon(icon7)
 
         self.gridLayout_46.addWidget(self.btn_save_task, 0, 0, 1, 1)
 
         self.btn_remove_task = QPushButton(self.cWorkload)
         self.btn_remove_task.setObjectName(u"btn_remove_task")
-        sizePolicy.setHeightForWidth(self.btn_remove_task.sizePolicy().hasHeightForWidth())
-        self.btn_remove_task.setSizePolicy(sizePolicy)
+        sizePolicy4.setHeightForWidth(self.btn_remove_task.sizePolicy().hasHeightForWidth())
+        self.btn_remove_task.setSizePolicy(sizePolicy4)
         self.btn_remove_task.setMinimumSize(QSize(120, 30))
         self.btn_remove_task.setMaximumSize(QSize(16777215, 30))
         self.btn_remove_task.setStyleSheet(u"background-color: rgb(52, 59, 72);")
-        self.btn_remove_task.setIcon(icon11)
+        self.btn_remove_task.setIcon(icon12)
 
         self.gridLayout_46.addWidget(self.btn_remove_task, 0, 1, 1, 1)
 
@@ -3856,13 +3895,13 @@ class Ui_MainWindow(object):
 
         self.btn_back_start = QPushButton(self.cWorkload)
         self.btn_back_start.setObjectName(u"btn_back_start")
-        sizePolicy6.setHeightForWidth(self.btn_back_start.sizePolicy().hasHeightForWidth())
-        self.btn_back_start.setSizePolicy(sizePolicy6)
+        sizePolicy.setHeightForWidth(self.btn_back_start.sizePolicy().hasHeightForWidth())
+        self.btn_back_start.setSizePolicy(sizePolicy)
         self.btn_back_start.setMinimumSize(QSize(200, 30))
         self.btn_back_start.setCursor(QCursor(Qt.PointingHandCursor))
         self.btn_back_start.setStyleSheet(u"background-color: black;\n"
 "color:white;")
-        self.btn_back_start.setIcon(icon14)
+        self.btn_back_start.setIcon(icon15)
 
         self.verticalLayout_18.addWidget(self.btn_back_start, 0, Qt.AlignHCenter)
 
@@ -3898,7 +3937,7 @@ class Ui_MainWindow(object):
         self.ros_save_test_case.setMinimumSize(QSize(0, 30))
         self.ros_save_test_case.setMaximumSize(QSize(16777215, 30))
         self.ros_save_test_case.setStyleSheet(u"background-color: rgb(52, 59, 72);")
-        self.ros_save_test_case.setIcon(icon6)
+        self.ros_save_test_case.setIcon(icon7)
 
         self.gridLayout_18.addWidget(self.ros_save_test_case, 7, 1, 1, 1)
 
@@ -3915,7 +3954,7 @@ class Ui_MainWindow(object):
         self.ros_try_test_case.setMinimumSize(QSize(0, 30))
         self.ros_try_test_case.setMaximumSize(QSize(16777215, 30))
         self.ros_try_test_case.setStyleSheet(u"background-color: rgb(52, 59, 72);")
-        self.ros_try_test_case.setIcon(icon13)
+        self.ros_try_test_case.setIcon(icon14)
 
         self.gridLayout_18.addWidget(self.ros_try_test_case, 4, 1, 1, 1)
 
@@ -3946,7 +3985,7 @@ class Ui_MainWindow(object):
         self.open_ros_test_case.setMinimumSize(QSize(80, 30))
         self.open_ros_test_case.setMaximumSize(QSize(80, 30))
         self.open_ros_test_case.setStyleSheet(u"background-color: rgb(52, 59, 72);")
-        self.open_ros_test_case.setIcon(icon8)
+        self.open_ros_test_case.setIcon(icon9)
 
         self.gridLayout_54.addWidget(self.open_ros_test_case, 0, 2, 1, 1)
 
@@ -3982,7 +4021,7 @@ class Ui_MainWindow(object):
         self.back_to_start.setMinimumSize(QSize(0, 30))
         self.back_to_start.setMaximumSize(QSize(16777215, 30))
         self.back_to_start.setStyleSheet(u"background-color: rgb(52, 59, 72);")
-        self.back_to_start.setIcon(icon14)
+        self.back_to_start.setIcon(icon15)
 
         self.verticalLayout_21.addWidget(self.back_to_start)
 
@@ -4010,8 +4049,8 @@ class Ui_MainWindow(object):
 
         self.btn_save_snip = QPushButton(self.cSnippets)
         self.btn_save_snip.setObjectName(u"btn_save_snip")
-        sizePolicy.setHeightForWidth(self.btn_save_snip.sizePolicy().hasHeightForWidth())
-        self.btn_save_snip.setSizePolicy(sizePolicy)
+        sizePolicy4.setHeightForWidth(self.btn_save_snip.sizePolicy().hasHeightForWidth())
+        self.btn_save_snip.setSizePolicy(sizePolicy4)
         self.btn_save_snip.setMinimumSize(QSize(0, 30))
         self.btn_save_snip.setMaximumSize(QSize(16777215, 30))
         font9 = QFont()
@@ -4025,7 +4064,7 @@ class Ui_MainWindow(object):
         self.btn_save_snip.setFont(font9)
         self.btn_save_snip.setCursor(QCursor(Qt.PointingHandCursor))
         self.btn_save_snip.setStyleSheet(u"background-color: rgb(52, 59, 72);")
-        self.btn_save_snip.setIcon(icon6)
+        self.btn_save_snip.setIcon(icon7)
 
         self.gridLayout_11.addWidget(self.btn_save_snip, 15, 10, 1, 1)
 
@@ -4044,8 +4083,8 @@ class Ui_MainWindow(object):
 
         self.label_60 = QLabel(self.cSnippets)
         self.label_60.setObjectName(u"label_60")
-        sizePolicy.setHeightForWidth(self.label_60.sizePolicy().hasHeightForWidth())
-        self.label_60.setSizePolicy(sizePolicy)
+        sizePolicy4.setHeightForWidth(self.label_60.sizePolicy().hasHeightForWidth())
+        self.label_60.setSizePolicy(sizePolicy4)
         self.label_60.setMinimumSize(QSize(200, 30))
         self.label_60.setMaximumSize(QSize(16777215, 30))
         self.label_60.setAlignment(Qt.AlignCenter)
@@ -4079,12 +4118,12 @@ class Ui_MainWindow(object):
 
         self.btn_create_snip = QPushButton(self.cSnippets)
         self.btn_create_snip.setObjectName(u"btn_create_snip")
-        sizePolicy.setHeightForWidth(self.btn_create_snip.sizePolicy().hasHeightForWidth())
-        self.btn_create_snip.setSizePolicy(sizePolicy)
+        sizePolicy4.setHeightForWidth(self.btn_create_snip.sizePolicy().hasHeightForWidth())
+        self.btn_create_snip.setSizePolicy(sizePolicy4)
         self.btn_create_snip.setMinimumSize(QSize(200, 30))
         self.btn_create_snip.setMaximumSize(QSize(16777215, 30))
         self.btn_create_snip.setStyleSheet(u"background-color: rgb(52, 59, 72);")
-        self.btn_create_snip.setIcon(icon10)
+        self.btn_create_snip.setIcon(icon11)
 
         self.gridLayout_2.addWidget(self.btn_create_snip, 8, 0, 1, 1)
 
@@ -4096,12 +4135,12 @@ class Ui_MainWindow(object):
 
         self.btn_delete_snip = QPushButton(self.cSnippets)
         self.btn_delete_snip.setObjectName(u"btn_delete_snip")
-        sizePolicy.setHeightForWidth(self.btn_delete_snip.sizePolicy().hasHeightForWidth())
-        self.btn_delete_snip.setSizePolicy(sizePolicy)
+        sizePolicy4.setHeightForWidth(self.btn_delete_snip.sizePolicy().hasHeightForWidth())
+        self.btn_delete_snip.setSizePolicy(sizePolicy4)
         self.btn_delete_snip.setMinimumSize(QSize(200, 0))
         self.btn_delete_snip.setMaximumSize(QSize(16777215, 30))
         self.btn_delete_snip.setStyleSheet(u"background-color: rgb(52, 59, 72);")
-        self.btn_delete_snip.setIcon(icon12)
+        self.btn_delete_snip.setIcon(icon13)
 
         self.gridLayout_2.addWidget(self.btn_delete_snip, 8, 1, 1, 1)
 
@@ -4184,7 +4223,7 @@ class Ui_MainWindow(object):
         self.back_snip.setCursor(QCursor(Qt.PointingHandCursor))
         self.back_snip.setStyleSheet(u"background-color: black;\n"
 "color:white;")
-        self.back_snip.setIcon(icon14)
+        self.back_snip.setIcon(icon15)
 
         self.gridLayout_11.addWidget(self.back_snip, 17, 7, 1, 4)
 
@@ -4254,7 +4293,7 @@ class Ui_MainWindow(object):
 
         self.retranslateUi(MainWindow)
 
-        self.stackedWidget.setCurrentIndex(6)
+        self.stackedWidget.setCurrentIndex(9)
 
 
         QMetaObject.connectSlotsByName(MainWindow)
@@ -4275,9 +4314,13 @@ class Ui_MainWindow(object):
         self.btn_monitoring.setText(QCoreApplication.translate("MainWindow", u"Monitoring", None))
         self.titleRightInfo.setText(QCoreApplication.translate("MainWindow", u"IM-FIT", None))
 #if QT_CONFIG(tooltip)
-        self.settingsTopBtn.setToolTip(QCoreApplication.translate("MainWindow", u"Settings", None))
+        self.refresh_page.setToolTip(QCoreApplication.translate("MainWindow", u"Refresh", None))
 #endif // QT_CONFIG(tooltip)
-        self.settingsTopBtn.setText("")
+        self.refresh_page.setText(QCoreApplication.translate("MainWindow", u"Refresh", None))
+#if QT_CONFIG(tooltip)
+        self.reset_for_all.setToolTip(QCoreApplication.translate("MainWindow", u"Reset", None))
+#endif // QT_CONFIG(tooltip)
+        self.reset_for_all.setText(QCoreApplication.translate("MainWindow", u"Reset", None))
 #if QT_CONFIG(tooltip)
         self.minimizeAppBtn.setToolTip(QCoreApplication.translate("MainWindow", u"Minimize", None))
 #endif // QT_CONFIG(tooltip)
@@ -5050,16 +5093,16 @@ class Ui_MainWindow(object):
         self.btn_select_fault.setText(QCoreApplication.translate("MainWindow", u"Select Fault", None))
         self.checkBox_4.setText(QCoreApplication.translate("MainWindow", u"Apply Mutation for All Possible Line", None))
         self.pushButton.setText(QCoreApplication.translate("MainWindow", u"Remove Mutant Code Line", None))
-        self.btn_slct_fiplan.setText(QCoreApplication.translate("MainWindow", u"Add FI Plan", None))
 #if QT_CONFIG(tooltip)
         self.btn_save_fiplan.setToolTip(QCoreApplication.translate("MainWindow", u"Save Button", None))
 #endif // QT_CONFIG(tooltip)
         self.btn_save_fiplan.setText(QCoreApplication.translate("MainWindow", u"Save", None))
+        self.btn_slct_fiplan.setText(QCoreApplication.translate("MainWindow", u"Add FI Plan", None))
+        self.label_44.setText(QCoreApplication.translate("MainWindow", u"FI Plan List", None))
+        self.label_17.setText("")
+        self.label_76.setText(QCoreApplication.translate("MainWindow", u"Total Mutants:", None))
         self.label_33.setText(QCoreApplication.translate("MainWindow", u"FI Plan Name:", None))
         self.btn_remove_fiplan.setText(QCoreApplication.translate("MainWindow", u"Remove", None))
-        self.label_44.setText(QCoreApplication.translate("MainWindow", u"FI Plan List", None))
-        self.label_76.setText(QCoreApplication.translate("MainWindow", u"Total Mutants:", None))
-        self.label_17.setText("")
         self.pushButton_7.setText(QCoreApplication.translate("MainWindow", u"Scan Page", None))
         self.btn_go_exe.setText(QCoreApplication.translate("MainWindow", u"Execution Page", None))
         self.label_57.setText(QCoreApplication.translate("MainWindow", u"Execution Settings", None))
@@ -5138,12 +5181,15 @@ class Ui_MainWindow(object):
 
         self.btn_go_monitoring.setText(QCoreApplication.translate("MainWindow", u"Monitoring Page", None))
         self.pushButton_6.setText(QCoreApplication.translate("MainWindow", u"FI Plan Page", None))
-        self.label_74.setText(QCoreApplication.translate("MainWindow", u"Killed Mutants Output:", None))
-        self.label_45.setText(QCoreApplication.translate("MainWindow", u"Mutants & Faults:", None))
-        self.label_73.setText(QCoreApplication.translate("MainWindow", u"Mutant Lists:", None))
-        self.label_47.setText("")
         self.label_10.setText(QCoreApplication.translate("MainWindow", u"Mutation Score", None))
+        self.label_73.setText(QCoreApplication.translate("MainWindow", u"Mutant Lists:", None))
         self.btn_select_scenario.setText(QCoreApplication.translate("MainWindow", u"Select Scenario", None))
+        self.label_3.setText(QCoreApplication.translate("MainWindow", u"Rosbag Scenarios", None))
+        self.btn_run_scenario.setText(QCoreApplication.translate("MainWindow", u"Run The Scenario", None))
+        self.label_7.setText(QCoreApplication.translate("MainWindow", u"Metrics:", None))
+        self.label_87.setText(QCoreApplication.translate("MainWindow", u"V&V Report", None))
+        self.btn_create_report.setText(QCoreApplication.translate("MainWindow", u"Create Report", None))
+        self.btn_new_one.setText(QCoreApplication.translate("MainWindow", u"Start The New One", None))
 
         __sortingEnabled4 = self.listWidget_12.isSortingEnabled()
         self.listWidget_12.setSortingEnabled(False)
@@ -5159,12 +5205,11 @@ class Ui_MainWindow(object):
         ___qlistwidgetitem317.setText(QCoreApplication.translate("MainWindow", u"rosbag_record05.bag", None));
         self.listWidget_12.setSortingEnabled(__sortingEnabled4)
 
-        self.label_3.setText(QCoreApplication.translate("MainWindow", u"Rosbag Scenarios", None))
-        self.btn_run_scenario.setText(QCoreApplication.translate("MainWindow", u"Run The Scenario", None))
-        self.label_7.setText(QCoreApplication.translate("MainWindow", u"Metrics:", None))
-        self.label_87.setText(QCoreApplication.translate("MainWindow", u"V&V Report", None))
-        self.btn_create_report.setText(QCoreApplication.translate("MainWindow", u"Create Report", None))
-        self.btn_new_one.setText(QCoreApplication.translate("MainWindow", u"Start The New One", None))
+        self.bar_chart.setText(QCoreApplication.translate("MainWindow", u"Bar Chart", None))
+        self.pie_chart.setText(QCoreApplication.translate("MainWindow", u"Pie Chart", None))
+        self.label_74.setText(QCoreApplication.translate("MainWindow", u"Killed Mutants Output:", None))
+        self.label_47.setText("")
+        self.label_45.setText(QCoreApplication.translate("MainWindow", u"Mutants & Faults:", None))
         self.selectMetrics.setStyleSheet("")
         self.label_25.setText(QCoreApplication.translate("MainWindow", u"Select Metrics & States", None))
         self.label_35.setText(QCoreApplication.translate("MainWindow", u"Information", None))
@@ -5283,7 +5328,7 @@ class Ui_MainWindow(object):
         self.label_31.setText(QCoreApplication.translate("MainWindow", u"All Tasks:", None))
         self.btn_save_task.setText(QCoreApplication.translate("MainWindow", u"Save", None))
         self.btn_remove_task.setText(QCoreApplication.translate("MainWindow", u"Remove", None))
-        self.label_4.setText(QCoreApplication.translate("MainWindow", u"NOT SAVED!", None))
+        self.label_4.setText(QCoreApplication.translate("MainWindow", u"NOT SAVE!", None))
         self.label.setText(QCoreApplication.translate("MainWindow", u"Workload Name:", None))
         self.label_108.setText(QCoreApplication.translate("MainWindow", u"Details", None))
         self.btn_back_start.setText(QCoreApplication.translate("MainWindow", u"Back To Start Step", None))
