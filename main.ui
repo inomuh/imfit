@@ -7,20 +7,26 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>1445</width>
-    <height>721</height>
+    <width>1443</width>
+    <height>1000</height>
    </rect>
   </property>
   <property name="sizePolicy">
-   <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+   <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
     <horstretch>0</horstretch>
     <verstretch>0</verstretch>
    </sizepolicy>
   </property>
   <property name="minimumSize">
    <size>
-    <width>0</width>
-    <height>650</height>
+    <width>1000</width>
+    <height>1000</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>1445</width>
+    <height>1000</height>
    </size>
   </property>
   <property name="windowTitle">
@@ -1302,17 +1308,17 @@ Button */
                  <number>0</number>
                 </property>
                 <item>
-                 <widget class="QPushButton" name="settingsTopBtn">
+                 <widget class="QPushButton" name="refresh_page">
                   <property name="minimumSize">
                    <size>
-                    <width>28</width>
-                    <height>28</height>
+                    <width>0</width>
+                    <height>0</height>
                    </size>
                   </property>
                   <property name="maximumSize">
                    <size>
-                    <width>28</width>
-                    <height>28</height>
+                    <width>16777215</width>
+                    <height>16777215</height>
                    </size>
                   </property>
                   <property name="font">
@@ -1328,17 +1334,40 @@ Button */
                    <cursorShape>PointingHandCursor</cursorShape>
                   </property>
                   <property name="toolTip">
-                   <string>Settings</string>
+                   <string>Refresh</string>
                   </property>
                   <property name="styleSheet">
                    <string notr="true"/>
                   </property>
                   <property name="text">
-                   <string/>
+                   <string>Refresh</string>
                   </property>
                   <property name="icon">
                    <iconset resource="resources.qrc">
                     <normaloff>:/icons/images/icons/cil-loop-circular.png</normaloff>:/icons/images/icons/cil-loop-circular.png</iconset>
+                  </property>
+                  <property name="iconSize">
+                   <size>
+                    <width>20</width>
+                    <height>20</height>
+                   </size>
+                  </property>
+                 </widget>
+                </item>
+                <item>
+                 <widget class="QPushButton" name="reset_for_all">
+                  <property name="cursor">
+                   <cursorShape>PointingHandCursor</cursorShape>
+                  </property>
+                  <property name="toolTip">
+                   <string>Reset</string>
+                  </property>
+                  <property name="text">
+                   <string>Reset</string>
+                  </property>
+                  <property name="icon">
+                   <iconset resource="resources.qrc">
+                    <normaloff>:/icons/images/icons/cil-ban.png</normaloff>:/icons/images/icons/cil-ban.png</iconset>
                   </property>
                   <property name="iconSize">
                    <size>
@@ -1550,7 +1579,7 @@ Button */
                       <string notr="true">background: transparent;</string>
                      </property>
                      <property name="currentIndex">
-                      <number>6</number>
+                      <number>9</number>
                      </property>
                      <widget class="QWidget" name="home">
                       <property name="styleSheet">
@@ -6089,60 +6118,6 @@ font: 11pt &quot;Ubuntu&quot;;
                              </property>
                             </widget>
                            </item>
-                           <item row="7" column="0">
-                            <widget class="QPushButton" name="btn_slct_fiplan">
-                             <property name="sizePolicy">
-                              <sizepolicy hsizetype="Expanding" vsizetype="Fixed">
-                               <horstretch>0</horstretch>
-                               <verstretch>0</verstretch>
-                              </sizepolicy>
-                             </property>
-                             <property name="minimumSize">
-                              <size>
-                               <width>0</width>
-                               <height>30</height>
-                              </size>
-                             </property>
-                             <property name="cursor">
-                              <cursorShape>PointingHandCursor</cursorShape>
-                             </property>
-                             <property name="styleSheet">
-                              <string notr="true">background-color: rgb(52, 59, 72);</string>
-                             </property>
-                             <property name="text">
-                              <string>Add FI Plan</string>
-                             </property>
-                             <property name="icon">
-                              <iconset resource="resources.qrc">
-                               <normaloff>:/icons/images/icons/cil-folder-open.png</normaloff>:/icons/images/icons/cil-folder-open.png</iconset>
-                             </property>
-                            </widget>
-                           </item>
-                           <item row="6" column="1">
-                            <widget class="QTextEdit" name="textEdit_26">
-                             <property name="sizePolicy">
-                              <sizepolicy hsizetype="Expanding" vsizetype="Fixed">
-                               <horstretch>0</horstretch>
-                               <verstretch>0</verstretch>
-                              </sizepolicy>
-                             </property>
-                             <property name="maximumSize">
-                              <size>
-                               <width>16777215</width>
-                               <height>30</height>
-                              </size>
-                             </property>
-                             <property name="styleSheet">
-                              <string notr="true">background-color: rgb(52, 59, 72);</string>
-                             </property>
-                             <property name="verticalScrollBarPolicy">
-                              <enum>Qt::ScrollBarAlwaysOff</enum>
-                             </property>
-                             <property name="lineWrapMode">
-                              <enum>QTextEdit::NoWrap</enum>
-                             </property>
-                            </widget>
-                           </item>
                            <item row="7" column="1">
                             <widget class="QPushButton" name="btn_save_fiplan">
                              <property name="sizePolicy">
@@ -6181,13 +6156,68 @@ font: 11pt &quot;Ubuntu&quot;;
                              </property>
                             </widget>
                            </item>
-                           <item row="6" column="0">
-                            <widget class="QLabel" name="label_33">
+                           <item row="7" column="0">
+                            <widget class="QPushButton" name="btn_slct_fiplan">
+                             <property name="sizePolicy">
+                              <sizepolicy hsizetype="Expanding" vsizetype="Fixed">
+                               <horstretch>0</horstretch>
+                               <verstretch>0</verstretch>
+                              </sizepolicy>
+                             </property>
+                             <property name="minimumSize">
+                              <size>
+                               <width>0</width>
+                               <height>30</height>
+                              </size>
+                             </property>
+                             <property name="cursor">
+                              <cursorShape>PointingHandCursor</cursorShape>
+                             </property>
+                             <property name="styleSheet">
+                              <string notr="true">background-color: rgb(52, 59, 72);</string>
+                             </property>
+                             <property name="text">
+                              <string>Add FI Plan</string>
+                             </property>
+                             <property name="icon">
+                              <iconset resource="resources.qrc">
+                               <normaloff>:/icons/images/icons/cil-folder-open.png</normaloff>:/icons/images/icons/cil-folder-open.png</iconset>
+                             </property>
+                            </widget>
+                           </item>
+                           <item row="1" column="0" colspan="3">
+                            <widget class="QListWidget" name="listWidget_4">
+                             <property name="maximumSize">
+                              <size>
+                               <width>16777215</width>
+                               <height>16777215</height>
+                              </size>
+                             </property>
+                             <property name="styleSheet">
+                              <string notr="true">background-color: rgb(52, 59, 72);</string>
+                             </property>
+                            </widget>
+                           </item>
+                           <item row="2" column="2" rowspan="3">
+                            <widget class="QLabel" name="label_44">
+                             <property name="sizePolicy">
+                              <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
+                               <horstretch>0</horstretch>
+                               <verstretch>0</verstretch>
+                              </sizepolicy>
+                             </property>
                              <property name="styleSheet">
                               <string notr="true">font: 13pt &quot;Ubuntu&quot;;</string>
                              </property>
                              <property name="text">
-                              <string>FI Plan Name:</string>
+                              <string>FI Plan List</string>
+                             </property>
+                            </widget>
+                           </item>
+                           <item row="5" column="1" alignment="Qt::AlignHCenter">
+                            <widget class="QLabel" name="label_17">
+                             <property name="text">
+                              <string/>
                              </property>
                             </widget>
                            </item>
@@ -6213,6 +6243,32 @@ font: 11pt &quot;Ubuntu&quot;;
                              </property>
                              <property name="styleSheet">
                               <string notr="true">background-color: rgb(52, 59, 72);</string>
+                             </property>
+                            </widget>
+                           </item>
+                           <item row="5" column="0">
+                            <widget class="QLabel" name="label_76">
+                             <property name="maximumSize">
+                              <size>
+                               <width>16777215</width>
+                               <height>30</height>
+                              </size>
+                             </property>
+                             <property name="styleSheet">
+                              <string notr="true">font: 13pt &quot;Ubuntu&quot;;</string>
+                             </property>
+                             <property name="text">
+                              <string>Total Mutants:</string>
+                             </property>
+                            </widget>
+                           </item>
+                           <item row="6" column="0">
+                            <widget class="QLabel" name="label_33">
+                             <property name="styleSheet">
+                              <string notr="true">font: 13pt &quot;Ubuntu&quot;;</string>
+                             </property>
+                             <property name="text">
+                              <string>FI Plan Name:</string>
                              </property>
                             </widget>
                            </item>
@@ -6248,37 +6304,14 @@ font: 11pt &quot;Ubuntu&quot;;
                              </property>
                             </widget>
                            </item>
-                           <item row="2" column="2" rowspan="3">
-                            <widget class="QLabel" name="label_44">
+                           <item row="6" column="1">
+                            <widget class="QTextEdit" name="textEdit_26">
                              <property name="sizePolicy">
-                              <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
+                              <sizepolicy hsizetype="Expanding" vsizetype="Fixed">
                                <horstretch>0</horstretch>
                                <verstretch>0</verstretch>
                               </sizepolicy>
                              </property>
-                             <property name="styleSheet">
-                              <string notr="true">font: 13pt &quot;Ubuntu&quot;;</string>
-                             </property>
-                             <property name="text">
-                              <string>FI Plan List</string>
-                             </property>
-                            </widget>
-                           </item>
-                           <item row="1" column="0" colspan="3">
-                            <widget class="QListWidget" name="listWidget_4">
-                             <property name="maximumSize">
-                              <size>
-                               <width>16777215</width>
-                               <height>16777215</height>
-                              </size>
-                             </property>
-                             <property name="styleSheet">
-                              <string notr="true">background-color: rgb(52, 59, 72);</string>
-                             </property>
-                            </widget>
-                           </item>
-                           <item row="5" column="0">
-                            <widget class="QLabel" name="label_76">
                              <property name="maximumSize">
                               <size>
                                <width>16777215</width>
@@ -6286,17 +6319,13 @@ font: 11pt &quot;Ubuntu&quot;;
                               </size>
                              </property>
                              <property name="styleSheet">
-                              <string notr="true">font: 13pt &quot;Ubuntu&quot;;</string>
+                              <string notr="true">background-color: rgb(52, 59, 72);</string>
                              </property>
-                             <property name="text">
-                              <string>Total Mutants:</string>
+                             <property name="verticalScrollBarPolicy">
+                              <enum>Qt::ScrollBarAlwaysOff</enum>
                              </property>
-                            </widget>
-                           </item>
-                           <item row="5" column="1" alignment="Qt::AlignHCenter">
-                            <widget class="QLabel" name="label_17">
-                             <property name="text">
-                              <string/>
+                             <property name="lineWrapMode">
+                              <enum>QTextEdit::NoWrap</enum>
                              </property>
                             </widget>
                            </item>
@@ -7264,37 +7293,13 @@ background-color: rgb(52, 59, 72);</string>
                          <property name="verticalSpacing">
                           <number>10</number>
                          </property>
-                         <item row="1" column="1">
-                          <widget class="QListWidget" name="listWidget_19">
-                           <property name="styleSheet">
-                            <string notr="true">background-color: rgb(52, 59, 72);</string>
-                           </property>
-                          </widget>
-                         </item>
-                         <item row="0" column="1">
-                          <widget class="QLabel" name="label_74">
+                         <item row="0" column="2">
+                          <widget class="QLabel" name="label_10">
                            <property name="styleSheet">
                             <string notr="true">font: 13pt &quot;Ubuntu&quot;;</string>
                            </property>
                            <property name="text">
-                            <string>Killed Mutants Output:</string>
-                           </property>
-                          </widget>
-                         </item>
-                         <item row="1" column="0">
-                          <widget class="QListWidget" name="listWidget_16">
-                           <property name="styleSheet">
-                            <string notr="true">background-color: rgb(52, 59, 72);</string>
-                           </property>
-                          </widget>
-                         </item>
-                         <item row="2" column="0" colspan="2">
-                          <widget class="QLabel" name="label_45">
-                           <property name="styleSheet">
-                            <string notr="true">font: 13pt &quot;Ubuntu&quot;;</string>
-                           </property>
-                           <property name="text">
-                            <string>Mutants &amp; Faults:</string>
+                            <string>Mutation Score</string>
                            </property>
                           </widget>
                          </item>
@@ -7308,43 +7313,7 @@ background-color: rgb(52, 59, 72);</string>
                            </property>
                           </widget>
                          </item>
-                         <item row="1" column="2">
-                          <widget class="QLabel" name="label_47">
-                           <property name="sizePolicy">
-                            <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
-                             <horstretch>0</horstretch>
-                             <verstretch>0</verstretch>
-                            </sizepolicy>
-                           </property>
-                           <property name="text">
-                            <string/>
-                           </property>
-                           <property name="pixmap">
-                            <pixmap>images/images/graphic.png</pixmap>
-                           </property>
-                           <property name="scaledContents">
-                            <bool>true</bool>
-                           </property>
-                          </widget>
-                         </item>
-                         <item row="3" column="0" rowspan="5" colspan="2">
-                          <widget class="QListWidget" name="listWidget_14">
-                           <property name="styleSheet">
-                            <string notr="true">background-color: rgb(52, 59, 72);</string>
-                           </property>
-                          </widget>
-                         </item>
-                         <item row="0" column="2">
-                          <widget class="QLabel" name="label_10">
-                           <property name="styleSheet">
-                            <string notr="true">font: 13pt &quot;Ubuntu&quot;;</string>
-                           </property>
-                           <property name="text">
-                            <string>Mutation Score</string>
-                           </property>
-                          </widget>
-                         </item>
-                         <item row="2" column="2" rowspan="6">
+                         <item row="3" column="2" rowspan="6">
                           <layout class="QGridLayout" name="gridLayout_44">
                            <property name="horizontalSpacing">
                             <number>20</number>
@@ -7388,44 +7357,6 @@ background-color: rgb(52, 59, 72);</string>
                               <iconset resource="resources.qrc">
                                <normaloff>:/icons/images/icons/cil-folder-open.png</normaloff>:/icons/images/icons/cil-folder-open.png</iconset>
                              </property>
-                            </widget>
-                           </item>
-                           <item row="1" column="1" colspan="2">
-                            <widget class="QListWidget" name="listWidget_12">
-                             <property name="sizePolicy">
-                              <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
-                               <horstretch>0</horstretch>
-                               <verstretch>0</verstretch>
-                              </sizepolicy>
-                             </property>
-                             <property name="styleSheet">
-                              <string notr="true">background-color: rgb(52, 59, 72);</string>
-                             </property>
-                             <item>
-                              <property name="text">
-                               <string>rosbag_record01.bag</string>
-                              </property>
-                             </item>
-                             <item>
-                              <property name="text">
-                               <string>rosbag_record02.bag</string>
-                              </property>
-                             </item>
-                             <item>
-                              <property name="text">
-                               <string>rosbag_rercord03.bag</string>
-                              </property>
-                             </item>
-                             <item>
-                              <property name="text">
-                               <string>rosbag_record04.bag</string>
-                              </property>
-                             </item>
-                             <item>
-                              <property name="text">
-                               <string>rosbag_record05.bag</string>
-                              </property>
-                             </item>
                             </widget>
                            </item>
                            <item row="0" column="1" colspan="2">
@@ -7478,7 +7409,14 @@ color:white;</string>
                              </property>
                             </widget>
                            </item>
-                           <item row="5" column="0" colspan="3">
+                           <item row="1" column="0" rowspan="3">
+                            <widget class="QListWidget" name="listWidget_9">
+                             <property name="styleSheet">
+                              <string notr="true">background-color: rgb(52, 59, 72);</string>
+                             </property>
+                            </widget>
+                           </item>
+                           <item row="4" column="0" rowspan="2" colspan="3">
                             <layout class="QGridLayout" name="gridLayout_9">
                              <property name="horizontalSpacing">
                               <number>20</number>
@@ -7563,10 +7501,159 @@ color:white;</string>
                              </item>
                             </layout>
                            </item>
-                           <item row="1" column="0" rowspan="3">
-                            <widget class="QListWidget" name="listWidget_9">
+                           <item row="1" column="1" rowspan="2" colspan="2">
+                            <widget class="QListWidget" name="listWidget_12">
+                             <property name="sizePolicy">
+                              <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+                               <horstretch>0</horstretch>
+                               <verstretch>0</verstretch>
+                              </sizepolicy>
+                             </property>
                              <property name="styleSheet">
                               <string notr="true">background-color: rgb(52, 59, 72);</string>
+                             </property>
+                             <item>
+                              <property name="text">
+                               <string>rosbag_record01.bag</string>
+                              </property>
+                             </item>
+                             <item>
+                              <property name="text">
+                               <string>rosbag_record02.bag</string>
+                              </property>
+                             </item>
+                             <item>
+                              <property name="text">
+                               <string>rosbag_rercord03.bag</string>
+                              </property>
+                             </item>
+                             <item>
+                              <property name="text">
+                               <string>rosbag_record04.bag</string>
+                              </property>
+                             </item>
+                             <item>
+                              <property name="text">
+                               <string>rosbag_record05.bag</string>
+                              </property>
+                             </item>
+                            </widget>
+                           </item>
+                          </layout>
+                         </item>
+                         <item row="2" column="2">
+                          <layout class="QGridLayout" name="gridLayout_55">
+                           <property name="horizontalSpacing">
+                            <number>20</number>
+                           </property>
+                           <property name="verticalSpacing">
+                            <number>6</number>
+                           </property>
+                           <item row="0" column="0">
+                            <widget class="QPushButton" name="bar_chart">
+                             <property name="minimumSize">
+                              <size>
+                               <width>0</width>
+                               <height>30</height>
+                              </size>
+                             </property>
+                             <property name="styleSheet">
+                              <string notr="true">background-color: rgb(52, 59, 72);</string>
+                             </property>
+                             <property name="text">
+                              <string>Bar Chart</string>
+                             </property>
+                            </widget>
+                           </item>
+                           <item row="0" column="1">
+                            <widget class="QPushButton" name="pie_chart">
+                             <property name="minimumSize">
+                              <size>
+                               <width>0</width>
+                               <height>30</height>
+                              </size>
+                             </property>
+                             <property name="styleSheet">
+                              <string notr="true">background-color: rgb(52, 59, 72);</string>
+                             </property>
+                             <property name="text">
+                              <string>Pie Chart</string>
+                             </property>
+                            </widget>
+                           </item>
+                          </layout>
+                         </item>
+                         <item row="0" column="1">
+                          <widget class="QLabel" name="label_74">
+                           <property name="styleSheet">
+                            <string notr="true">font: 13pt &quot;Ubuntu&quot;;</string>
+                           </property>
+                           <property name="text">
+                            <string>Killed Mutants Output:</string>
+                           </property>
+                          </widget>
+                         </item>
+                         <item row="1" column="2">
+                          <widget class="QLabel" name="label_47">
+                           <property name="sizePolicy">
+                            <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+                             <horstretch>0</horstretch>
+                             <verstretch>0</verstretch>
+                            </sizepolicy>
+                           </property>
+                           <property name="minimumSize">
+                            <size>
+                             <width>0</width>
+                             <height>0</height>
+                            </size>
+                           </property>
+                           <property name="maximumSize">
+                            <size>
+                             <width>16777215</width>
+                             <height>480</height>
+                            </size>
+                           </property>
+                           <property name="styleSheet">
+                            <string notr="true">background-color: rgb(52, 59, 72);</string>
+                           </property>
+                           <property name="text">
+                            <string/>
+                           </property>
+                           <property name="scaledContents">
+                            <bool>true</bool>
+                           </property>
+                          </widget>
+                         </item>
+                         <item row="1" column="1" rowspan="2">
+                          <widget class="QListWidget" name="listWidget_19">
+                           <property name="styleSheet">
+                            <string notr="true">background-color: rgb(52, 59, 72);</string>
+                           </property>
+                          </widget>
+                         </item>
+                         <item row="1" column="0" rowspan="2">
+                          <widget class="QListWidget" name="listWidget_16">
+                           <property name="styleSheet">
+                            <string notr="true">background-color: rgb(52, 59, 72);</string>
+                           </property>
+                          </widget>
+                         </item>
+                         <item row="3" column="0" colspan="2">
+                          <layout class="QGridLayout" name="gridLayout_56">
+                           <item row="1" column="0">
+                            <widget class="QListWidget" name="listWidget_14">
+                             <property name="styleSheet">
+                              <string notr="true">background-color: rgb(52, 59, 72);</string>
+                             </property>
+                            </widget>
+                           </item>
+                           <item row="0" column="0">
+                            <widget class="QLabel" name="label_45">
+                             <property name="styleSheet">
+                              <string notr="true">font: 13pt &quot;Ubuntu&quot;;</string>
+                             </property>
+                             <property name="text">
+                              <string>Mutants &amp; Faults:</string>
                              </property>
                             </widget>
                            </item>
@@ -8893,7 +8980,7 @@ p, li { white-space: pre-wrap; }
                            <item row="5" column="3">
                             <widget class="QLabel" name="label_4">
                              <property name="text">
-                              <string>NOT SAVED!</string>
+                              <string>NOT SAVE!</string>
                              </property>
                             </widget>
                            </item>
