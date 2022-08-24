@@ -116,7 +116,7 @@ class MainWindow(QMainWindow):
         # Take ".py" file for source code
         def get_file_py_for_source_code():
             """Take Python-based source code to use for V&V process in IM-FIT"""
-            # global connection
+            global connection
 
             dialog = QFileDialog()
             dialog.setFileMode(QFileDialog.AnyFile)
@@ -143,9 +143,9 @@ class MainWindow(QMainWindow):
                         source_code_file_full_directory = file_name[0].split("/")
                         source_code_file_name = source_code_file_full_directory[-1]
 
-                        # imfit_database_function.insert_sourcecode(
-                        #     connection, source_code_file_name, source_code_data
-                        # )
+                        imfit_database_function.insert_sourcecode(
+                            connection, source_code_file_name, source_code_data
+                        )
 
         # Take ".py" file for test case
         def get_file_py_for_test_case():
@@ -1514,7 +1514,13 @@ class MainWindow(QMainWindow):
         systemname = "system1"
 
         now = datetime.now()
-        time = now.strftime("%H:%M:%S")
+        time = str(now.strftime("%H:%M:%S"))
+        print("Now",now)
+        print("Print",time)
+        imfit_database_function.insert_time(connection,now)
+        # imfit_database_function.get_systemid(
+        #         connection
+        # )
 
     # Splits source code to scan line by line
     def take_split_source_code(self):
@@ -1953,6 +1959,7 @@ class MainWindow(QMainWindow):
             )
             self.ui.titleRightInfo.setText("START")
 
+
         if btnName == "btn_go_start_2":
             self.ui.stackedWidget.setCurrentWidget(self.ui.start)
             UIFunctions.resetStyle(self, self.ui.btn_home.styleSheet())
@@ -1966,7 +1973,7 @@ class MainWindow(QMainWindow):
             self.ui.titleRightInfo.setText("START")
 
         if btnName == "btn_go_scan":
-            global connection
+            # global connection
 
             self.ui.stackedWidget.setCurrentWidget(self.ui.scan)
             UIFunctions.resetStyle(self, self.ui.btn_start.styleSheet())
