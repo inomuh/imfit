@@ -1,15 +1,53 @@
 """ IM-FIT Database Functions """
+from concurrent.futures import process
 import psycopg2
 
+global process_id
+global time
+
+# Returns system id
+def get_systemid(connection):
+    try:
+        cursor = connection.cursor()
+        cursor.execute("SELECT process_id FROM imfit_table WHERE time = %s" ,(time,))
+        myidtuple = cursor.fetchone()
+        myid = myidtuple[0]
+        cursor.close()
+        return myid
+    except(Exception, psycopg2.Error) as errorMsg:
+        print("A database-related error occured: ", errorMsg)
+        return []
+
+def set_process_id(connection, time):
+    global process_id
+    process_id = get_systemid(connection, time)
+    return process_id
+
+# Insert user's source code into database. Gets systemname paramater to find the which user is using
+def insert_time(connection, time):
+    """Source codes are added to the database by that function."""
+    try:
+        cursor = connection.cursor()
+        cursor.execute(
+            "INSERT INTO imfit_table(time) VALUES(%s)",
+            (time,),
+        )
+        connection.commit()
+        cursor.close()
+    except (Exception, psycopg2.Error) as error_message:
+        print("A database-related error occured: ", error_message)
 
 # Insert user's source code into database. Gets systemname paramater to find the which user is using
 def insert_sourcecode(connection, file_name, source_code):
     """Source codes are added to the database by that function."""
     try:
+        process_id
         cursor = connection.cursor()
         cursor.execute(
-            "INSERT INTO imfit_table(file_name,source_code) VALUES(%s, %s)",
-            (file_name, source_code),
+            """INSERT INTO imfit_table(file_name,source_code,process_id) SELECT %s, %s, %s
+            WHERE NOT EXISTS (SELECT 1 FROM imfit_table WHERE process_id = %s)
+            """,
+            (process_id, file_name, source_code, process_id),
         )
         connection.commit()
         cursor.close()
@@ -138,6 +176,16 @@ def insert_metrics(connection, metrics):
     try:
         cursor = connection.cursor()
         cursor.execute("INSERT INTO imfit_table(metrics) VALUES(%s)", (metrics,))
+        connection.commit()
+        cursor.close()
+    except (Exception, psycopg2.Error) as error_message:
+        print("A database-related error occured: ", error_message)
+
+
+def add_all_data(connection, file_name, source_code, code_snippets, possible_code_lines, fault_names, mutation_list, fiplan_name, fiplan_content, held_mutant_list, metrics, killed_mutants, equivalent_mutants, survived_mutants):
+    try:
+        cursor = connection.cursor()
+        cursor.execute("INSERT INTO imfit_table(file_name, source_code, code_snippets, possible_code_lines, fault_names, mutation_list, fiplan_name, fiplan_content, held_mutant_list, metrics, killed_mutants, equivalent_mutants, survived_mutants) VALUES(%s, %s, %s,%s, %s, %s,%s, %s, %s,%s, %s, %s,%s)", (file_name, source_code, code_snippets, possible_code_lines, fault_names, mutation_list, fiplan_name, fiplan_content, held_mutant_list, metrics, killed_mutants, equivalent_mutants, survived_mutants,))
         connection.commit()
         cursor.close()
     except (Exception, psycopg2.Error) as error_message:
