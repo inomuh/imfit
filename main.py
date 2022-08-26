@@ -76,18 +76,15 @@ class MainWindow(QMainWindow):
     global fiplan_name_for_db
     fiplan_name_for_db = ""
 
-    global mutant_list_for_database
-    mutant_list_for_database = []
-
     global all_mutant_list_for_db
     all_mutant_list_for_db = ""
-    
+
     global killed_mutants_list_for_db
     killed_mutants_list_for_db = ""
 
     global equivalent_mutants_list_for_db
     equivalent_mutants_list_for_db = ""
-    
+
     global survived_mutants_list_for_db
     survived_mutants_list_for_db = ""
 
@@ -140,8 +137,6 @@ class MainWindow(QMainWindow):
         # Take ".py" file for source code
         def get_file_py_for_source_code():
             """Take Python-based source code to use for V&V process in IM-FIT"""
-            #  global connection
-
             dialog = QFileDialog()
             dialog.setFileMode(QFileDialog.AnyFile)
             dialog.setNameFilter(("*.py"))
@@ -166,10 +161,6 @@ class MainWindow(QMainWindow):
                         # IM-FIT DB
                         source_code_file_full_directory = file_name[0].split("/")
                         source_code_file_name = source_code_file_full_directory[-1]
-
-                        # imfit_database_function.insert_sourcecode(
-                        #     connection, source_code_file_name, source_code_data
-                        # )
 
         # Take ".py" file for test case
         def get_file_py_for_test_case():
@@ -473,10 +464,6 @@ class MainWindow(QMainWindow):
                 for i in range(0, len_selected_line_mutation):
                     line = self.ui.listWidget.item(i).text()
                     mutation_process_function(line, 0, fault_library_size)
-                all_faults_selected = "All faults selected to use for V&V process!"
-                # imfit_database_function.insert_fault_names(
-                #     connection, all_faults_selected
-                # )
             else:
                 len_selected_line_mutation = self.ui.listWidget_7.count()
                 for i in range(0, len_selected_line_mutation):
@@ -494,7 +481,6 @@ class MainWindow(QMainWindow):
                             mutation_process_function(
                                 line, fault_number, fault_number + 1
                             )
-                # imfit_database_function.insert_fault_names(connection, fault_name_list)
 
         def random_hata_bas():
             fault_library_size = fault_lib_size()
@@ -916,8 +902,15 @@ class MainWindow(QMainWindow):
                                     "Timeout: " + str(timeout_counter)
                                 )
                                 # Create graphics about mutation process
-                                self.create_bar_chart(mutation_score,killed_mutants, survivor_mutants, equivalent_mutants)
-                                self.create_pie_chart(killed_mutants, survivor_mutants, equivalent_mutants)
+                                self.create_bar_chart(
+                                    mutation_score,
+                                    killed_mutants,
+                                    survivor_mutants,
+                                    equivalent_mutants,
+                                )
+                                self.create_pie_chart(
+                                    killed_mutants, survivor_mutants, equivalent_mutants
+                                )
 
                                 print("\n")
                                 print("#" * 10)
@@ -1103,14 +1096,6 @@ class MainWindow(QMainWindow):
                                 print("#" * 10)
                                 print("\n\n")
 
-            # imfit_database_function.insert_execution_info(
-            #     connection,
-            #     str(all_mutant_list),
-            #     str(killed_mutants_list),
-            #     str(equivalent_mutants_list),
-            #     str(survived_mutants_list),
-            # )
-
             all_mutant_list_for_db = str(all_mutant_list)
             killed_mutants_list_for_db = str(killed_mutants_list)
             equivalent_mutants_list_for_db = str(equivalent_mutants_list)
@@ -1178,7 +1163,7 @@ class MainWindow(QMainWindow):
         )
 
         # BUTTONS CLICK CONNECTS
-        
+
         # CLOSE BUTTON
         self.ui.closeAppBtn.clicked.connect(self.save_all_data_to_db)
 
@@ -1214,6 +1199,7 @@ class MainWindow(QMainWindow):
         self.ui.btn_open_tc.clicked.connect(get_file_py_for_test_case)
         self.ui.try_test_case.clicked.connect(self.buttonClick)
         self.ui.pushButton_10.clicked.connect(self.buttonClick)
+        self.ui.take_data_from_db.clicked.connect(self.take_data_from_db)
 
         # CODE SNIPPET BUTTON CONNECTS
         self.ui.btn_create_code.clicked.connect(self.buttonClick)
@@ -1311,41 +1297,45 @@ class MainWindow(QMainWindow):
         # REFRESH AND RESET BUTTONS
         self.ui.refresh_page.clicked.connect(self.refresh_page)
         self.ui.reset_for_all.clicked.connect(self.reset_all)
-    
+
     def refresh_page(self):
         user_decision_to_refresh = self.refresh_page_decision_box()
         if user_decision_to_refresh == False:
             return None
 
         page_index = self.ui.stackedWidget.currentIndex()
-        if page_index == 1: # Start Page
+        if page_index == 1:  # Start Page
             self.refresh_start_page()
-        elif page_index == 2: # ROS Page
+        elif page_index == 2:  # ROS Page
             self.refresh_ros_page()
-        elif page_index == 3: # Scan Page
+        elif page_index == 3:  # Scan Page
             self.refresh_scan_page()
-        elif page_index == 4: # FI Plan Page
+        elif page_index == 4:  # FI Plan Page
             self.refresh_fiplan_page()
-        elif page_index == 5: # Execution Page
+        elif page_index == 5:  # Execution Page
             self.refresh_execution_page()
-        elif page_index == 6: # Monitoring Page
+        elif page_index == 6:  # Monitoring Page
             self.refresh_monitoring_page()
-        elif page_index == 7: # Metric Selection Page
+        elif page_index == 7:  # Metric Selection Page
             self.refresh_select_metric_page()
-        elif page_index == 8: # Custom Fault Page
+        elif page_index == 8:  # Custom Fault Page
             self.refresh_custom_fault_page()
-        elif page_index == 9: # Workload Creation Page
+        elif page_index == 9:  # Workload Creation Page
             self.refresh_create_workload_page()
-        elif page_index == 10: # ROS Test Page
+        elif page_index == 10:  # ROS Test Page
             self.refresh_ros_test_page()
-        elif page_index == 11: # Code Snippet Creation Page
+        elif page_index == 11:  # Code Snippet Creation Page
             self.refresh_create_code_snippet_page()
         else:
             self.non_refreshed_page()
-    
+
     def refresh_page_decision_box(self):
-        reply = QMessageBox.question(self, 'Refresh', 'Are you sure you want to refresh?',
-        QMessageBox.Yes | QMessageBox.No)
+        reply = QMessageBox.question(
+            self,
+            "Refresh",
+            "Are you sure you want to refresh?",
+            QMessageBox.Yes | QMessageBox.No,
+        )
         if reply == QMessageBox.Yes:
             return True
         return False
@@ -1406,6 +1396,7 @@ class MainWindow(QMainWindow):
         self.ui.label_17.clear()
         self.ui.textEdit_26.clear()
         self.ui.listWidget_11.clear()
+        self.ui.listWidget_7.setEnabled(True)
 
     def refresh_execution_page(self):
         self.ui.listWidget_6.clear()
@@ -1422,6 +1413,7 @@ class MainWindow(QMainWindow):
         self.ui.label_47.clear()
         self.ui.listWidget_9.clear()
         self.ui.listWidget_12.clear()
+        self.ui.label_10.setText("Mutation Score")
 
     def refresh_select_metric_page(self):
         self.ui.textEdit_9.clear()
@@ -1465,7 +1457,7 @@ class MainWindow(QMainWindow):
         reset_decision = self.reset_all_decision_box()
         if reset_decision == False:
             return None
-        
+
         # RESET PAGES
         self.refresh_start_page()
         self.refresh_ros_page()
@@ -1478,18 +1470,21 @@ class MainWindow(QMainWindow):
         self.refresh_create_workload_page()
         self.refresh_ros_test_page()
         self.refresh_create_code_snippet_page()
-        
+
         # RESET VARIABLES
         self.reset_variables()
 
         information_title = "Completed!"
         information_text = "Reset process is done!"
-        self.show_information_box(information_title,information_text)
+        self.show_information_box(information_title, information_text)
 
-    
     def reset_all_decision_box(self):
-        reply = QMessageBox.question(self, 'Reset!', 'Are you sure you want to reset all?',
-        QMessageBox.Yes | QMessageBox.No)
+        reply = QMessageBox.question(
+            self,
+            "Reset!",
+            "Are you sure you want to reset all?",
+            QMessageBox.Yes | QMessageBox.No,
+        )
         if reply == QMessageBox.Yes:
             return True
         return False
@@ -1521,8 +1516,8 @@ class MainWindow(QMainWindow):
 
         global fi_plan_directory_list
         fi_plan_directory_list = []
-    
-    def show_information_box(self,information_title,information_text):
+
+    def show_information_box(self, information_title, information_text):
         message_box = QMessageBox()
         message_box.setIcon(QMessageBox.Information)
         message_box.setText(information_text)
@@ -1538,8 +1533,7 @@ class MainWindow(QMainWindow):
         self.ui.titleRightInfo.setText("EXECUTION")
 
     def go_to_start_page(self):
-        """GO to start page button"""
-        # global connection
+        """Go to start page button"""
 
         self.ui.stackedWidget.setCurrentWidget(self.ui.start)
         UIFunctions.resetStyle(self, self.ui.btn_home.styleSheet())
@@ -1548,16 +1542,66 @@ class MainWindow(QMainWindow):
         )
         self.ui.titleRightInfo.setText("START")
 
-        name = "Source Code Example"
-        description = "Settings Example"
-        systemname = "system1"
+    ### Taking data from database
+    def take_data_from_db(self):
+        global connection
+        postgresql_query = self.ui.textEdit_55.toPlainText()     
+        data_from_sql = imfit_database_function.take_data(connection, postgresql_query)
+        print(data_from_sql[0])
 
-        # now = datetime.now()
-        # time = str(now.strftime("%H:%M:%S"))
-        # imfit_database_function.insert_time(connection,now)
-        # imfit_database_function.get_systemid(
-        #         connection
-        # )
+    def poke_took_data_from_database(self,data_from_sql):
+        file_name_from_db = data_from_sql[1]
+        source_code_from_db = data_from_sql[2]
+        code_snippets_from_db = data_from_sql[3]
+        possible_code_lines_from_db = data_from_sql[4]
+        fault_names_from_db = data_from_sql[5]
+        mutation_list_from_db = data_from_sql[6]
+        fiplan_name_from_db = data_from_sql[7]
+        fiplan_content_from_db = data_from_sql[8]
+        held_mutant_list_from_db = data_from_sql[9]
+        metrics_from_db = data_from_sql[10]
+        killed_mutants_from_db = data_from_sql[11]
+        equivalent_mutants_from_db = data_from_sql[12]
+        survived_mutants_from_db = data_from_sql[13]
+    
+    def poke_file_name(file_name_from_db):
+        pass
+
+    def poke_source_code(source_code_from_db):
+        pass
+    
+    def poke_code_snippets(code_snippets_from_db):
+        pass
+
+    def poke_possible_lines(possible_code_lines_from_db):
+        pass
+
+    def poke_fault_names_from_db(fault_names_from_db):
+        pass
+
+    def poke_mutation_list_from_db(mutation_list_from_db):
+        pass
+
+    def poke_fiplan_name_from_db(fiplan_name_from_db):
+        pass
+
+    def poke_fiplan_content_from_db(fiplan_content_from_db):
+        pass
+
+    def poke_held_mutant_list_from_db(held_mutant_list_from_db):
+        pass
+
+    def poke_metrics_from_db(metrics_from_db):
+        pass
+
+    def poke_killed_mutants_from_db(killed_mutants_from_db):
+        pass
+
+    def poke_equivalent_mutants_from_db(equivalent_mutants_from_db):
+        pass
+
+    def poke_survived_mutants_from_db(survived_mutants_from_db):
+        pass
 
     # Splits source code to scan line by line
     def take_split_source_code(self):
@@ -1681,10 +1725,6 @@ class MainWindow(QMainWindow):
         for painted_line in faultable_line_list:
             strip_painted_line = painted_line.strip()
             self.ui.listWidget.addItem(strip_painted_line)
-
-        # imfit_database_function.insert_possible_code_lines(
-        #     connection, faultable_line_list
-        # )
 
     # Function starts "No Workload, No Code Snipet" Scan Process
     def start_no_workload_no_code_snippet_process(self):
@@ -1827,7 +1867,11 @@ class MainWindow(QMainWindow):
 
     # Creating bar chart function
     def create_bar_chart(
-        self, mutation_score, killed_mutant_number, survived_mutant_number, equvialent_mutant_number
+        self,
+        mutation_score,
+        killed_mutant_number,
+        survived_mutant_number,
+        equvialent_mutant_number,
     ):
         """Creating bar chart graphic"""
         # Create bars
@@ -1900,11 +1944,11 @@ class MainWindow(QMainWindow):
         # Graphic title
         plt.title("Details of V&V Process")
         plt.tight_layout()
-        plt.savefig("output1.jpg",dpi = 70)
+        plt.savefig("output1.jpg", dpi=70)
 
     # Creating Pie Chart Function
     def create_pie_chart(
-        self,killed_mutant_number, survived_mutant_number, equvialent_mutant_number
+        self, killed_mutant_number, survived_mutant_number, equvialent_mutant_number
     ):
         """Creating pie chart"""
         plt.clf()
@@ -1922,105 +1966,160 @@ class MainWindow(QMainWindow):
         ]
         plt.title("Details of V&V Process")
         plt.pie(chart, labels=mylabels)
-        plt.savefig("output2.jpg",dpi = 70)
+        plt.savefig("output2.jpg", dpi=70)
 
     def show_bar_chart(self):
         self.ui.label_47.setPixmap(QPixmap("output1.jpg"))
-    
+
     def show_pie_chart(self):
         self.ui.label_47.setPixmap(QPixmap("output2.jpg"))
 
     def save_all_data_to_db(self):
         global connection
-        global fault_plan_json_format_for_db
-        global fiplan_name_for_db
-        global mutant_list_for_database
-        global all_mutant_list_for_db
-        global killed_mutants_list_for_db
-        global equivalent_mutants_list_for_db
-        global survived_mutants_list_for_db
-        global metric_list
 
+        fault_plan_json_format_for_db = self.take_fault_plan_json_fotmat_for_db()
+        fiplan_name_for_db = self.take_fiplan_name_for_db()
+        all_mutant_list_for_db = self.take_all_mutant_list_for_db()
+        killed_mutants_list_for_db = self.take_killed_mutants_list_for_db()
+        equivalent_mutants_list_for_db = self.take_equivalent_mutants_list_for_db()
+        survived_mutants_list_for_db = self.take_survived_mutants_list_for_db()
+        metric_list = self.take_metric_list()
         selected_code_snippets_for_db = self.take_code_snippets_for_db()
-        source_code_file_name_for_db, source_code_data_for_db = self.take_source_code_name_and_content_for_db()
+        (
+            source_code_file_name_for_db,
+            source_code_data_for_db,
+        ) = self.take_source_code_name_and_content_for_db()
         possible_lines_for_db = self.take_possible_lines_for_db()
         selected_lines_and_faults = self.take_selected_fault_for_db()
         mutation_list_for_db = self.take_mutaion_list_for_db()
 
         imfit_database_function.add_all_data(
-            connection, source_code_file_name_for_db, source_code_data_for_db, selected_code_snippets_for_db, possible_lines_for_db, selected_lines_and_faults, mutation_list_for_db, fiplan_name_for_db, fault_plan_json_format_for_db, all_mutant_list_for_db, metric_list, killed_mutants_list_for_db, equivalent_mutants_list_for_db, survived_mutants_list_for_db
+            connection,
+            source_code_file_name_for_db,
+            source_code_data_for_db,
+            selected_code_snippets_for_db,
+            possible_lines_for_db,
+            selected_lines_and_faults,
+            mutation_list_for_db,
+            fiplan_name_for_db,
+            fault_plan_json_format_for_db,
+            all_mutant_list_for_db,
+            metric_list,
+            killed_mutants_list_for_db,
+            equivalent_mutants_list_for_db,
+            survived_mutants_list_for_db,
         )
+
+    def take_fault_plan_json_fotmat_for_db(self):
+        global fault_plan_json_format_for_db
+        try:
+            if fault_plan_json_format_for_db:
+                return fault_plan_json_format_for_db
+            return "Empty!"
+        except NameError:
+            return "Empty!"
+
+    def take_fiplan_name_for_db(self):
+        global fiplan_name_for_db
+        if fiplan_name_for_db:
+            return fiplan_name_for_db
+        return "Empty!"
+
+    def take_all_mutant_list_for_db(self):
+        global all_mutant_list_for_db
+        if all_mutant_list_for_db:
+            return all_mutant_list_for_db
+        return "Empty!"
+
+    def take_killed_mutants_list_for_db(self):
+        global killed_mutants_list_for_db
+        if killed_mutants_list_for_db:
+            return killed_mutants_list_for_db
+        return "Empty!"
+
+    def take_equivalent_mutants_list_for_db(self):
+        global equivalent_mutants_list_for_db
+        if equivalent_mutants_list_for_db:
+            return equivalent_mutants_list_for_db
+        return "Empty!"
+
+    def take_survived_mutants_list_for_db(self):
+        global survived_mutants_list_for_db
+        if survived_mutants_list_for_db:
+            return survived_mutants_list_for_db
+        return "Empty!"
+
+    def take_metric_list(self):
+        global metric_list
+        if metric_list:
+            return metric_list
+        return "Empty!"
 
     def take_source_code_name_and_content_for_db(self):
         # source adds to the UI
         source_code_data = self.ui.source_code_content.toPlainText()
 
         # IM-FIT DB
-        source_code_file_full_directory = self.ui.source_code_directory_text.toPlainText()
-        source_code_file_full_directory_split = source_code_file_full_directory.split("/")
+        source_code_file_full_directory = (
+            self.ui.source_code_directory_text.toPlainText()
+        )
+        source_code_file_full_directory_split = source_code_file_full_directory.split(
+            "/"
+        )
         source_code_file_name = source_code_file_full_directory_split[-1]
-
-        # imfit_database_function.insert_sourcecode(
-        #     connection, source_code_file_name, source_code_data
-        # )
 
         return source_code_file_name, source_code_data
 
-
-    def take_code_snippets_for_db(self): 
+    def take_code_snippets_for_db(self):
         code_snippet_list_size = self.ui.listWidget_8.count()
         if code_snippet_list_size:
             selected_code_snippets = []
-            for selected_code_snippet_line_number in range(
-                0, code_snippet_list_size
-            ):
+            for selected_code_snippet_line_number in range(0, code_snippet_list_size):
                 selected_line_content = self.ui.listWidget_8.item(
                     selected_code_snippet_line_number
                 ).text()
                 selected_code_snippets.append(selected_line_content)
-            # imfit_database_function.insert_code_snippets(
-            #     connection, selected_code_snippets
-            # )
             return selected_code_snippets
-        all_codes_selected = (
-            "All code snippets selected to use for V&V process!"
-        )
-        # imfit_database_function.insert_code_snippets(
-        #     connection, all_codes_selected
-        # )
-        return all_codes_selected
-
+        elif self.ui.checkBox_3.isChecked() is True and code_snippet_list_size == 0:
+            all_codes_selected = "All code snippets selected to use for V&V process!"
+            return all_codes_selected
+        else:
+            return "Empty!"
 
     def take_possible_lines_for_db(self):
         possible_lines_list_size = self.ui.listWidget.count()
         if possible_lines_list_size:
             possible_lines_list_from_ui = []
-            for i in range(0,possible_lines_list_size):
+            for i in range(0, possible_lines_list_size):
                 possible_lines_list_element = self.ui.listWidget.item(i).text()
                 possible_lines_list_from_ui.append(possible_lines_list_element)
             return possible_lines_list_from_ui
         return "Empty!"
 
     def take_selected_fault_for_db(self):
-        selected_line_and_fault_size = self.ui.listWidget_7.count()  
+        selected_line_and_fault_size = self.ui.listWidget_7.count()
         if selected_line_and_fault_size:
             selected_line_and_fault = []
-            for i in range(0,selected_line_and_fault_size):
-                selected_line_and_fault_list_element = self.ui.listWidget_7.item(i).text()
+            for i in range(0, selected_line_and_fault_size):
+                selected_line_and_fault_list_element = self.ui.listWidget_7.item(
+                    i
+                ).text()
                 selected_line_and_fault.append(selected_line_and_fault_list_element)
             return selected_line_and_fault
-        return "All faults selected to use for V&V process!"
-    
+        elif self.ui.checkBox_4.isChecked() is True:
+            return "All faults selected to use for V&V process!"
+        else:
+            return "Empty!"
+
     def take_mutaion_list_for_db(self):
         mutation_list_size = self.ui.listWidget_4.count()
         if mutation_list_size:
             mutation_list = []
-            for i in range(0,mutation_list_size):
+            for i in range(0, mutation_list_size):
                 mutation_list_element = self.ui.listWidget_4.item(i).text()
                 mutation_list.append(mutation_list_element)
             return mutation_list
         return "Empty!"
-
 
     # BUTTONS CLICK FUNCTIONS
     def buttonClick(self):
@@ -2088,7 +2187,6 @@ class MainWindow(QMainWindow):
             )
             self.ui.titleRightInfo.setText("START")
 
-
         if btnName == "btn_go_start_2":
             self.ui.stackedWidget.setCurrentWidget(self.ui.start)
             UIFunctions.resetStyle(self, self.ui.btn_home.styleSheet())
@@ -2136,16 +2234,10 @@ class MainWindow(QMainWindow):
                         selected_code_snippet_line_number
                     ).text()
                     selected_code_snippets.append(selected_line_content)
-                # imfit_database_function.insert_code_snippets(
-                #     connection, selected_code_snippets
-                # )
             else:
                 all_codes_selected = (
                     "All code snippets selected to use for V&V process!"
                 )
-                # imfit_database_function.insert_code_snippets(
-                #     connection, all_codes_selected
-                # )
 
         if btnName == "btn_go_fiplan":
             self.ui.stackedWidget.setCurrentWidget(self.ui.fiplan)
@@ -2205,7 +2297,6 @@ class MainWindow(QMainWindow):
             )
             self.ui.titleRightInfo.setText("MONITORING")
             metric_list = self.monitoring_report_metric_list()
-            # imfit_database_function.insert_metrics(connection, str(metric_list))
 
         if btnName == "btn_new_one":
             self.ui.stackedWidget.setCurrentWidget(self.ui.start)
@@ -3670,7 +3761,6 @@ class MainWindow(QMainWindow):
             global source_and_mutate_code
             global fault_plan_json_format_for_db
             global fiplan_name_for_db
-            global mutant_list_for_database
 
             selected_task_list_size = self.ui.listWidget_4.count()
             created_fault_plan_list = []
@@ -3717,15 +3807,6 @@ class MainWindow(QMainWindow):
                 split_text = full_path.split("\n")
                 self.ui.listWidget_11.addItems(split_text)
                 self.ui.listWidget_6.addItems(split_text)
-
-                # mutation list postgresql
-                for i in range(0, selected_task_list_size):
-                    mutant_line_for_database = self.ui.listWidget_4.item(i).text()
-                    mutant_list_for_database.append(mutant_line_for_database)
-
-                # imfit_database_function.insert_mutation_info(
-                #     connection, mutant_list_for_database, text, fault_plan_json_format
-                # )
 
                 fault_plan_json_format_for_db = fault_plan_json_format
                 fiplan_name_for_db = text
