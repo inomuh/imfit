@@ -499,9 +499,6 @@ class MainWindow(QMainWindow):
             global equivalent_mutants_list_for_db
             global survived_mutants_list_for_db
 
-            ROS_SOURCE_MUTANT = []
-            ROS_SOURCE_CODE = []
-
             killed_mutants_list = []
             survived_mutants_list = []
             equivalent_mutants_list = []
@@ -511,7 +508,7 @@ class MainWindow(QMainWindow):
             error_code_list = []
 
             killed_mutants = 0
-            survivor_mutants = 0
+            survived_mutants = 0
             equivalent_mutants = 0
             execution_timeout_list = []
             original_source_code_output = ""
@@ -566,7 +563,7 @@ class MainWindow(QMainWindow):
 
                                     print("\n\n############")
                                     print("Mutant:", fname)
-                                    print("#" * 10)
+                                    print("#" * 32)
 
                                     try:
                                         roscore_process = subprocess.Popen(["roscore"])
@@ -579,23 +576,23 @@ class MainWindow(QMainWindow):
                                         status_output.terminate()
                                         roscore_process.terminate()
                                         survived_counter += 1
-                                        print("#" * 10)
-                                        print("#       Survived Mutant          #")
-                                        print("#" * 10)
+                                        print("#" * 32)
+                                        print("#       Survived Mutant        #")
+                                        print("#" * 32)
                                         print("\n\n")
                                         print("-" * 10)
                                     else:
                                         status_output.terminate()
                                         roscore_process.terminate()
                                         killed_counter += 1
-                                        print("#" * 10)
+                                        print("#" * 32)
                                         print("#     Killed Mutant            #")
-                                        print("#" * 10)
+                                        print("#" * 32)
                                         print("\n\n")
                                         print("" - "*10")
                             print("\n\n############")
-                            print("#       Results            #")
-                            print("#" * 10)
+                            print("#         Results              #")
+                            print("#" * 32)
                             print("\n\n")
 
                             print("Total Killed Mutant(s):", killed_counter)
@@ -644,7 +641,7 @@ class MainWindow(QMainWindow):
 
                                 print("\n\n############")
                                 print("Mutant:", str(i))
-                                print("#" * 10)
+                                print("#" * 32)
 
                                 try:
 
@@ -659,20 +656,20 @@ class MainWindow(QMainWindow):
                                 except subprocess.TimeoutExpired:
                                     status_output.terminate()
                                     survived_counter += 1
-                                    print("#" * 10)
+                                    print("#" * 32)
                                     print("#      Survived Mutant        #")
-                                    print("#" * 10)
+                                    print("#" * 32)
                                     print("\n\n")
-                                    print("#" * 10)
+                                    print("#" * 32)
 
                                 else:
                                     status_output.terminate()
                                     killed_counter += 1
-                                    print("#" * 10)
+                                    print("#" * 32)
                                     print("#     Killed Mutant           #")
-                                    print("#" * 10)
+                                    print("#" * 32)
                                     print("\n\n")
-                                    print("#" * 10)
+                                    print("#" * 32)
 
                                 with open(
                                     directory, mode="w", encoding="utf-8"
@@ -681,7 +678,7 @@ class MainWindow(QMainWindow):
 
                             print("\n\n############")
                             print("#      Results            #")
-                            print("#" * 10)
+                            print("#" * 32)
                             print("\n\n")
 
                             print("Total Killed Mutant(s):", killed_counter)
@@ -693,7 +690,7 @@ class MainWindow(QMainWindow):
                                 * 100,
                             )
 
-                            print("#" * 10)
+                            print("#" * 32)
                             print("\n\n")
 
                         else:
@@ -721,9 +718,9 @@ class MainWindow(QMainWindow):
 
                                 subprocess.Popen("python3 original_code.py", shell=True)
 
-                                print("#" * 10)
+                                print("#" * 32)
                                 print("#       Original Code       #")
-                                print("#" * 10)
+                                print("#" * 32)
 
                                 fiplan_directory = self.ui.listWidget_6.item(0).text()
                                 with open(
@@ -807,9 +804,9 @@ class MainWindow(QMainWindow):
 
                                         if subprocess_output_status[0] != 0:
                                             print(mutant_code_output)
-                                            print("#" * 10)
+                                            print("#" * 32)
                                             print("#      Killed Mutant         #")
-                                            print("#" * 10)
+                                            print("#" * 32)
                                             killed_mutants += 1
                                             killed_mutants_list.append(
                                                 mutant_code_execution
@@ -823,11 +820,11 @@ class MainWindow(QMainWindow):
                                                 == original_source_code_output
                                             ):
                                                 print(mutant_code_output)
-                                                print("#" * 10)
+                                                print("#" * 32)
                                                 print(
                                                     "#          Equivalent Mutant           #"
                                                 )
-                                                print("#" * 10)
+                                                print("#" * 32)
                                                 equivalent_mutants += 1
                                                 equivalent_mutants_list.append(
                                                     mutant_code_execution
@@ -835,12 +832,12 @@ class MainWindow(QMainWindow):
 
                                             else:
                                                 print(mutant_code_output)
-                                                print("#" * 10)
+                                                print("#" * 32)
                                                 print(
-                                                    "#       Survivor Mutant          #"
+                                                    "#       Survived Mutant          #"
                                                 )
-                                                print("#" * 10)
-                                                survivor_mutants += 1
+                                                print("#" * 32)
+                                                survived_mutants += 1
                                                 survived_mutants_list.append(
                                                     mutant_code_execution
                                                 )
@@ -848,11 +845,11 @@ class MainWindow(QMainWindow):
                                 end_time = time.time()
 
                                 print("\n\n")
-                                print("#" * 10)
+                                print("#" * 32)
                                 print(
                                     "#                     RESULTS                        #"
                                 )
-                                print("#" * 10)
+                                print("#" * 32)
                                 print("\n")
 
                                 print("Process Time: ", end_time - start_time)
@@ -862,7 +859,7 @@ class MainWindow(QMainWindow):
                                 print("\n")
 
                                 mutation_score = (
-                                    killed_mutants / (killed_mutants + survivor_mutants)
+                                    killed_mutants / (killed_mutants + survived_mutants)
                                 ) * 100
 
                                 print("Mutation Score: %", mutation_score)
@@ -873,14 +870,14 @@ class MainWindow(QMainWindow):
                                 print(
                                     "Number of Total Mutants:",
                                     killed_mutants
-                                    + survivor_mutants
+                                    + survived_mutants
                                     + equivalent_mutants,
                                 )
                                 self.ui.listWidget_9.addItem(
                                     "All Mutants: "
                                     + str(
                                         killed_mutants
-                                        + survivor_mutants
+                                        + survived_mutants
                                         + equivalent_mutants
                                     )
                                 )
@@ -889,9 +886,9 @@ class MainWindow(QMainWindow):
                                 self.ui.listWidget_9.addItem(
                                     "Killed: " + str(killed_mutants)
                                 )
-                                print("Survivor Mutants: ", survivor_mutants)
+                                print("Survived Mutants: ", survived_mutants)
                                 self.ui.listWidget_9.addItem(
-                                    "Survived: " + str(survivor_mutants)
+                                    "Survived: " + str(survived_mutants)
                                 )
                                 print("Equivalent Mutants: ", equivalent_mutants)
                                 self.ui.listWidget_9.addItem(
@@ -905,19 +902,19 @@ class MainWindow(QMainWindow):
                                 self.create_bar_chart(
                                     mutation_score,
                                     killed_mutants,
-                                    survivor_mutants,
+                                    survived_mutants,
                                     equivalent_mutants,
                                 )
                                 self.create_pie_chart(
-                                    killed_mutants, survivor_mutants, equivalent_mutants
+                                    killed_mutants, survived_mutants, equivalent_mutants
                                 )
 
                                 print("\n")
-                                print("#" * 10)
+                                print("#" * 32)
                                 print(
                                     "#                      DETAILS                       #"
                                 )
-                                print("#" * 10)
+                                print("#" * 32)
                                 print("\n")
 
                                 killed_mutant_list_size = len(killed_mutants_list)
@@ -932,8 +929,8 @@ class MainWindow(QMainWindow):
 
                                 print("\n")
 
-                                print("Survivor Mutants List: ")
-                                self.ui.listWidget_16.addItem("Survivor Mutants List: ")
+                                print("Survived Mutants List: ")
+                                self.ui.listWidget_16.addItem("Survived Mutants List: ")
                                 for i in survived_mutants_list:
                                     print(i)
                                     self.ui.listWidget_16.addItem(str(i))
@@ -955,15 +952,15 @@ class MainWindow(QMainWindow):
                                     self.ui.listWidget_16.addItem(str(i))
 
                                 print("\n")
-                                print("#" * 10)
+                                print("#" * 32)
                                 print(
                                     "#             Outputs of Killed Mutants              #"
                                 )
-                                print("#" * 10)
+                                print("#" * 32)
 
                                 for i in range(killed_mutant_list_size):
                                     print("\n")
-                                    print("#" * 10)
+                                    print("#" * 32)
                                     print(killed_mutants_list[i])
                                     self.ui.listWidget_19.addItem(
                                         str(killed_mutants_list[i])
@@ -975,7 +972,7 @@ class MainWindow(QMainWindow):
                                     self.ui.listWidget_19.addItem(
                                         str(error_output_split[-1])
                                     )
-                                    print("#" * 10)
+                                    print("#" * 32)
                                 print("\n")
 
                                 if self.ui.checkBox_7.isChecked() is True:
@@ -1042,7 +1039,7 @@ class MainWindow(QMainWindow):
 
                                     print("\n\n############")
                                     print("Mutant:", (str(i)))
-                                    print("#" * 10)
+                                    print("#" * 32)
 
                                     try:
                                         status_output = subprocess.Popen(
@@ -1056,20 +1053,20 @@ class MainWindow(QMainWindow):
                                     except subprocess.TimeoutExpired:
                                         status_output.terminate()
                                         survived_counter += 1
-                                        print("#" * 10)
+                                        print("#" * 32)
                                         print("#       Survived Mutant        #")
-                                        print("#" * 10)
+                                        print("#" * 32)
                                         print("\n\n")
-                                        print("#" * 10)
+                                        print("#" * 32)
 
                                     else:
                                         status_output.terminate()
                                         killed_counter += 1
-                                        print("#" * 10)
+                                        print("#" * 32)
                                         print("#    Killed Mutant            #")
-                                        print("#" * 10)
+                                        print("#" * 32)
                                         print("\n\n")
-                                        print("#" * 10)
+                                        print("#" * 32)
 
                                     with open(
                                         directory, mode="w", encoding="utf-8"
@@ -1078,7 +1075,7 @@ class MainWindow(QMainWindow):
 
                                 print("\n\n############")
                                 print("#     Results            #")
-                                print("#" * 10)
+                                print("#" * 32)
                                 print("\n\n")
 
                                 print("Total Killed Mutant(s):", killed_counter)
@@ -1093,7 +1090,7 @@ class MainWindow(QMainWindow):
                                     * 100,
                                 )
 
-                                print("#" * 10)
+                                print("#" * 32)
                                 print("\n\n")
 
             all_mutant_list_for_db = str(all_mutant_list)
@@ -1545,11 +1542,11 @@ class MainWindow(QMainWindow):
     ### Taking data from database
     def take_data_from_db(self):
         global connection
-        postgresql_query = self.ui.textEdit_55.toPlainText()     
+        postgresql_query = self.ui.textEdit_55.toPlainText()
         data_from_sql = imfit_database_function.take_data(connection, postgresql_query)
         print(data_from_sql[0])
 
-    def poke_took_data_from_database(self,data_from_sql):
+    def poke_took_data_from_database(self, data_from_sql):
         file_name_from_db = data_from_sql[1]
         source_code_from_db = data_from_sql[2]
         code_snippets_from_db = data_from_sql[3]
@@ -1563,13 +1560,13 @@ class MainWindow(QMainWindow):
         killed_mutants_from_db = data_from_sql[11]
         equivalent_mutants_from_db = data_from_sql[12]
         survived_mutants_from_db = data_from_sql[13]
-    
+
     def poke_file_name(file_name_from_db):
         pass
 
     def poke_source_code(source_code_from_db):
         pass
-    
+
     def poke_code_snippets(code_snippets_from_db):
         pass
 
@@ -1959,10 +1956,25 @@ class MainWindow(QMainWindow):
                 equvialent_mutant_number,
             ]
         )
+        if killed_mutant_number:
+            killed_mutant_graph_string = "Killed: " + str(killed_mutant_number)
+        else:
+            killed_mutant_graph_string = ""
+
+        if survived_mutant_number:
+            survived_mutant_graph_string = "Survived: " + str(survived_mutant_number)
+        else:
+            survived_mutant_graph_string = ""
+
+        if equvialent_mutant_number:
+            equvialent_mutant_graph_string = "Equvialent: " + str(equvialent_mutant_number)
+        else:
+            equvialent_mutant_graph_string = ""
+
         mylabels = [
-            "Killed: " + str(killed_mutant_number),
-            "Survived: " + str(survived_mutant_number),
-            "Equvialent: " + str(equvialent_mutant_number),
+            killed_mutant_graph_string,
+            survived_mutant_graph_string,
+            equvialent_mutant_graph_string,
         ]
         plt.title("Details of V&V Process")
         plt.pie(chart, labels=mylabels)
@@ -1983,12 +1995,10 @@ class MainWindow(QMainWindow):
         killed_mutants_list_for_db = self.take_killed_mutants_list_for_db()
         equivalent_mutants_list_for_db = self.take_equivalent_mutants_list_for_db()
         survived_mutants_list_for_db = self.take_survived_mutants_list_for_db()
-        metric_list = self.take_metric_list()
+        metric_list = self.take_metric_list_for_db()
         selected_code_snippets_for_db = self.take_code_snippets_for_db()
-        (
-            source_code_file_name_for_db,
-            source_code_data_for_db,
-        ) = self.take_source_code_name_and_content_for_db()
+        source_code_file_name_for_db = self.take_source_code_name_for_db()
+        source_code_data_for_db = self.take_source_code_content_for_db()
         possible_lines_for_db = self.take_possible_lines_for_db()
         selected_lines_and_faults = self.take_selected_fault_for_db()
         mutation_list_for_db = self.take_mutaion_list_for_db()
@@ -2049,17 +2059,13 @@ class MainWindow(QMainWindow):
             return survived_mutants_list_for_db
         return "Empty!"
 
-    def take_metric_list(self):
+    def take_metric_list_for_db(self):
         global metric_list
         if metric_list:
             return metric_list
         return "Empty!"
 
-    def take_source_code_name_and_content_for_db(self):
-        # source adds to the UI
-        source_code_data = self.ui.source_code_content.toPlainText()
-
-        # IM-FIT DB
+    def take_source_code_name_for_db(self):
         source_code_file_full_directory = (
             self.ui.source_code_directory_text.toPlainText()
         )
@@ -2067,8 +2073,15 @@ class MainWindow(QMainWindow):
             "/"
         )
         source_code_file_name = source_code_file_full_directory_split[-1]
+        if source_code_file_name:
+            return source_code_file_name
+        return "Empty!"
 
-        return source_code_file_name, source_code_data
+    def take_source_code_content_for_db(self):
+        source_code_data = self.ui.source_code_content.toPlainText()
+        if source_code_data:
+            return source_code_data
+        return "Empty!"
 
     def take_code_snippets_for_db(self):
         code_snippet_list_size = self.ui.listWidget_8.count()
@@ -2506,7 +2519,6 @@ class MainWindow(QMainWindow):
         if btnName == "ros_fiplan_save":
             if self.ui.textEdit_45.toPlainText() != "":
                 global ROS_SOURCE_MUTANT
-                ROS_SOURCE_MUTANT = []
 
                 global fi_plan_directory_list
 
@@ -2531,6 +2543,8 @@ class MainWindow(QMainWindow):
 
                     len_ros_source_mutant = len(ROS_SOURCE_MUTANT)
 
+                    print(len_ros_source_mutant)
+
                     for i in range(0, len_ros_source_mutant):
 
                         if i % 3 == 0:
@@ -2543,7 +2557,7 @@ class MainWindow(QMainWindow):
                                         "File_Directory": file_directory,
                                         "Source_Code": original_code,
                                         "Mutate_Code": mutant_code,
-                                        "Exe_File:": self.ui.label_86.text(),
+                                        "Exe_File": self.ui.label_86.text(),
                                     }
                                 }
 
@@ -2555,13 +2569,13 @@ class MainWindow(QMainWindow):
                                 #     file.seek(0)
                                 #     json.dump(file_data, file, indent=4)
 
-                                def write_json(new_data, filename):
+                                def write_json(new_data, ros_fiplan_name):
                                     desired_dir = path_name
                                     full_path = os.path.join(
                                         desired_dir, ros_fiplan_name
                                     )
                                     with open(
-                                        full_path, mode="w", encoding="utf-8"
+                                        full_path, mode="w+", encoding="utf-8"
                                     ) as file:
                                         # file_data["fault_plans"].append(created_fault)
                                         # file.seek(0)
@@ -2569,9 +2583,9 @@ class MainWindow(QMainWindow):
                                         file.write(json_string)
                                     return full_path
 
-                    ros_fi_plan_path = write_json(mut_list, ros_fiplan_name)
-                    # ROS FI Plan Name and Directory Path added to the list
-                    fi_plan_directory_list.append(ros_fi_plan_path)
+                                ros_fi_plan_path = write_json(mut_list, ros_fiplan_name)
+                                # ROS FI Plan Name and Directory Path added to the list
+                                fi_plan_directory_list.append(ros_fi_plan_path)
 
                     split_text = str(fi_plan_directory_list[-1]).split("\n")
                     self.ui.listWidget_36.addItems(split_text)
@@ -2685,7 +2699,7 @@ class MainWindow(QMainWindow):
                 )
 
                 folder_name = split_roslaunch_folder_directory_path[-3]
-                print(folder_name)
+                print("Folder Name#############",folder_name)
 
                 ros_exe_file_name = self.ui.label_86.text()
 
@@ -3047,7 +3061,6 @@ class MainWindow(QMainWindow):
 
             def remove_ros_mutant():
                 global ROS_SOURCE_MUTANT
-                ROS_SOURCE_MUTANT = []
 
                 row = self.ui.listWidget_31.currentRow()
                 row_text = self.ui.listWidget_31.item(row).text()
@@ -3320,11 +3333,6 @@ class MainWindow(QMainWindow):
                 def constant_mutate_function(target_line, loc):
                     global ZIPPED_ROS_LIST
                     global POSSIBLE_MUTANT_LIST
-
-                    ZIPPED_ROS_LIST = []
-                    POSSIBLE_MUTANT_LIST = []
-
-                    ROS_SOURCE_MUTANT = []
 
                     constant_list = []
 

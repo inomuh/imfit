@@ -866,14 +866,6 @@
         },
         {
             "Snippets": {
-                "Snippet_Name": "index()",
-                "Regex_Code": "index\\(([^)]+|)\\)",
-                "Title": "Syntax of while Loop in Python",
-                "Process": "while test_expression:\nBody of while"
-            }
-        },
-        {
-            "Snippets": {
                 "Snippet_Name": "join()",
                 "Regex_Code": "join\\(([^)]+|)\\)",
                 "Title": "Syntax of while Loop in Python",
