@@ -2,199 +2,199 @@
     "all_faults": [
         {
             "fault": {
-                "Fault_Name": "(AOM) Arithmetic Operator Delete",
-                "Target_to_Change": "\\+,\\-,\\*,\\/,[%]{1},[**]{2},[//]{2}",
+                "Fault_Name": "(AOM) Arithmetic Operator Missing",
+                "Target_to_Change": " \\+ , \\- , \\* , \\/ , \\% , \\** , \\// ",
                 "Changed": " ",
-                "Explanation": "Arithmetic Operators Delete\nOriginal Code: x + y\nMutated Code: x   y"
+                "Explanation": "Arithmetic Operators Missing\nOriginal Code: x + y\nMutated Code: x   y"
             }
         },
         {
             "fault": {
-                "Fault_Name": "(AOW) Arithmetic Operator Change",
-                "Target_to_Change": "\\+,\\-,\\*,\\/,[%]{1},[**]{2},[//]{2}",
-                "Changed": "+,-,*,/,%,**,//",
-                "Explanation": "Arithmetic Operators Change\nOriginal Code: x + y\nMutated Code: x - y"
+                "Fault_Name": "(AOW) Arithmetic Operator Wrong",
+                "Target_to_Change": " \\+ , \\- , \\* , \\/ , \\% , \\** , \\// ",
+                "Changed": " + , - , * , / , % , ** , // ",
+                "Explanation": "Arithmetic Operators Wrong\nOriginal Code: x + y\nMutated Code: x - y"
             }
         },
         {
             "fault": {
-                "Fault_Name": "(AOE) Arithmetic Operator External",
-                "Target_to_Change": "\\+,\\-,\\*,\\/,[%]{1},[**]{2},[//]{2}",
-                "Changed": "++,--,**,//,%%,****,////",
-                "Explanation": "Arithmetic Operators External\nOriginal Code: x + y\nMutated Code: x +- y"
+                "Fault_Name": "(AOE) Arithmetic Operator Extraneous",
+                "Target_to_Change": " \\+ , \\- , \\* , \\/ , \\% , \\** , \\// ",
+                "Changed": " ++ , -- , ** , // , %% , **** , //// ",
+                "Explanation": "Arithmetic Operators Extraneous\nOriginal Code: x + y\nMutated Code: x +- y"
             }
         },
         {
             "fault": {
-                "Fault_Name": "(AOM) Assignment Operator Delete",
-                "Target_to_Change": "[=]{1},[\\+=]{2},[\\-=]{2},[\\*=]{2},[/=]{2},[%=]{2},[//=]{3},[**=]{3},[\\&=]{2},[\\|=]{2},[\\^=]{2},[>>=]{3},[<<=]{3}",
+                "Fault_Name": "(AOM) Assignment Operator Missing",
+                "Target_to_Change": " \\= , \\+= , \\-= , \\*= , \\/= , \\%= , \\//= , \\**= , \\&= , \\|= , \\^= , \\>>= , \\<<= ",
                 "Changed": " ",
-                "Explanation": "Assignment Operators Delete\nOriginal Code: x += y\nMutated Code: x   y"
+                "Explanation": "Assignment Operators Missing\nOriginal Code: x += y\nMutated Code: x   y"
             }
         },
         {
             "fault": {
-                "Fault_Name": "(AOW) Assignment Operator Change",
-                "Target_to_Change": "[=]{1},[\\+=]{2},[\\-=]{2},[\\*=]{2},[/=]{2},[%=]{2},[//=]{3},[**=]{3},[\\&=]{2},[\\|=]{2},[\\^=]{2},[>>=]{3},[<<=]{3}",
-                "Changed": "=,+=,-=,*=,/=,%=,//=,**=,&=,|=,^=,>>=,<<=",
-                "Explanation": "Assignment Operators Change\nOriginal Code: x += y\nMutated Code: x -= y"
+                "Fault_Name": "(AOW) Assignment Operator Wrong",
+                "Target_to_Change": " \\= , \\+= , \\-= , \\*= , \\/= , \\%= , \\//= , \\**= , \\&= , \\|= , \\^= , \\>>= , \\<<= ",
+                "Changed": " = , += , -= , *= , /= , %= , //= , **= , &= , |= , ^= , >>= , <<= ",
+                "Explanation": "Assignment Operators Wrong\nOriginal Code: x += y\nMutated Code: x -= y"
             }
         },
         {
             "fault": {
-                "Fault_Name": "(AOE) Assignment Operator External",
-                "Target_to_Change": "[=]{1},[\\+=]{2},[\\-=]{2},[\\*=]{2},[/=]{2},[%=]{2},[//=]{3},[**=]{3},[\\&=]{2},[\\|=]{2},[\\^=]{2},[>>=]{3},[<<=]{3}",
-                "Changed": "==,+=+=,-=-=,*=*=,/=/=,%=%=,//=//=,**=**=,&=&=,|=|=,^=^=,>>=>>=,<<=<<=",
-                "Explanation": "Assignment Operators External\nOriginal Code: x += y\nMutated Code: x +== y"
+                "Fault_Name": "(AOE) Assignment Operator Extraneous",
+                "Target_to_Change": " \\= , \\+= , \\-= , \\*= , \\/= , \\%= , \\//= , \\**= , \\&= , \\|= , \\^= , \\>>= , \\<<= ",
+                "Changed": " == , +=+= , -=-= , *=*= , /=/= , %=%= , //=//= , **=**= , &=&= , |=|= , ^=^= , >>=>>= , <<=<<=",
+                "Explanation": "Assignment Operators Extraneous\nOriginal Code: x += y\nMutated Code: x +== y"
             }
         },
         {
             "fault": {
-                "Fault_Name": "(COM) Comparison Operator Delete",
-                "Target_to_Change": "[==]{2},[!=]{2},[>]{1},[<]{1},[>=]{2},[<=]{2}",
+                "Fault_Name": "(COM) Comparison Operator Missing",
+                "Target_to_Change": "=?[<>]=?|==",
                 "Changed": " ",
-                "Explanation": "Comparison Operators Delete\nOriginal Code: x != y\nMutated Code: x   y"
+                "Explanation": "Comparison Operators Missing\nOriginal Code: x != y\nMutated Code: x   y"
             }
         },
         {
             "fault": {
-                "Fault_Name": "(COW) Comparison Operator Change",
-                "Target_to_Change": "[==]{2},[!=]{2},[>]{1},[<]{1},[>=]{2},[<=]{2}",
+                "Fault_Name": "(COW) Comparison Operator Wrong",
+                "Target_to_Change": "=?[<>]=?|==",
                 "Changed": "==,!=,>,<,>=,<=",
-                "Explanation": "Comparison Operators Change\nOriginal Code: x != y\nMutated Code: x == y"
+                "Explanation": "Comparison Operators Wrong\nOriginal Code: x != y\nMutated Code: x == y"
             }
         },
         {
             "fault": {
-                "Fault_Name": "(COE) Comparison Operator External",
-                "Target_to_Change": "[==]{2},[!=]{2},[>]{1},[<]{1},[>=]{2},[<=]{2}",
-                "Changed": "====,!==,>>,<<,>=>=,<=<=",
-                "Explanation": "Comparison Operators External\nOriginal Code: x != y\nMutated Code: x !== y"
+                "Fault_Name": "(COE) Comparison Operator Extraneous",
+                "Target_to_Change": "=?[<>]=?|==",
+                "Changed": " ==== , !== , >> , << , >=>= , <=<= ",
+                "Explanation": "Comparison Operators Extraneous\nOriginal Code: x != y\nMutated Code: x !== y"
             }
         },
         {
             "fault": {
-                "Fault_Name": "(LOM) Logical Operator Delete",
-                "Target_to_Change": "[ and ]{5},[ or ]{4},[ not ]{5}",
+                "Fault_Name": "(LOM) Logical Operator Missing",
+                "Target_to_Change": " and , or , not ",
                 "Changed": " ",
                 "Explanation": "Logical Operators Delete\nOriginal Code: x < 5 and  x < 10\nMutated Code: x < 5   x < 10"
             }
         },
         {
             "fault": {
-                "Fault_Name": "(LOW) Logical Operator Change",
-                "Target_to_Change": "[ and ]{5},[ or ]{4},[ not ]{5}",
+                "Fault_Name": "(LOW) Logical Operator Wrong",
+                "Target_to_Change": " and , or , not ",
                 "Changed": " and , or , not ",
                 "Explanation": "Logical Operators Change\nOriginal Code: x < 5 and  x < 10\nMutated Code: x < 5 or x < 10"
             }
         },
         {
             "fault": {
-                "Fault_Name": "(LOE) Logical Operator External",
-                "Target_to_Change": "[ and ]{5},[ or ]{4},[ not ]{5}",
+                "Fault_Name": "(LOE) Logical Operator Extraneous",
+                "Target_to_Change": " and , or , not ",
                 "Changed": " and and , or or , not not ",
                 "Explanation": "Logical Operators External\nOriginal Code: x < 5 and  x < 10\nMutated Code: x < 5 and and x < 10"
             }
         },
         {
             "fault": {
-                "Fault_Name": "(IOM) Identity Operator Delete",
-                "Target_to_Change": "[ is ]{4},[ is not ]{8}",
+                "Fault_Name": "(IOM) Identity Operator Missing",
+                "Target_to_Change": " is , is not ",
                 "Changed": " ",
                 "Explanation": "Identity Operators Delete\nOriginal Code: x is y\nMutated Code: x   y"
             }
         },
         {
             "fault": {
-                "Fault_Name": "(IOW) Identity  Operator Change",
-                "Target_to_Change": "[ is ]{4},[ is not ]{8}",
+                "Fault_Name": "(IOW) Identity  Operator Wrong",
+                "Target_to_Change": " is , is not ",
                 "Changed": " is , is not ",
                 "Explanation": "Identity Operators Change\nOriginal Code: x is y\nMutated Code: x is not y"
             }
         },
         {
             "fault": {
-                "Fault_Name": "(IOE) Identity Operator External",
-                "Target_to_Change": "[ is ]{4},[ is not ]{8}",
+                "Fault_Name": "(IOE) Identity Operator Extraneous",
+                "Target_to_Change": " is , is not ",
                 "Changed": " is is , is not is not ",
                 "Explanation": "Identity Operators External\nOriginal Code: x is y\nMutated Code: x is not is y"
             }
         },
         {
             "fault": {
-                "Fault_Name": "(MOM) Membership Operator Delete",
-                "Target_to_Change": "[ in ]{4},[ not in ]{8}",
+                "Fault_Name": "(MOM) Membership Operator Missing",
+                "Target_to_Change": " in , not in ",
                 "Changed": " ",
                 "Explanation": "Membership Operators Delete\nOriginal Code: x in y\nMutated Code: x   y"
             }
         },
         {
             "fault": {
-                "Fault_Name": "(MOW) Membership Operator Change",
-                "Target_to_Change": "[ in ]{4},[ not in ]{8}",
+                "Fault_Name": "(MOW) Membership Operator Wrong",
+                "Target_to_Change": " in , not in ",
                 "Changed": " is , is not ",
                 "Explanation": "Membership Operators Change\nOriginal Code: x in y\nMutated Code: x not in y"
             }
         },
         {
             "fault": {
-                "Fault_Name": "(MOE) Membership Operator External",
-                "Target_to_Change": "[ in ]{4},[ not in ]{8}",
+                "Fault_Name": "(MOE) Membership Operator Extraneous",
+                "Target_to_Change": " in , not in ",
                 "Changed": " in in , not in not in ",
                 "Explanation": "Membership Operators External\nOriginal Code: x in y\nMutated Code: x in not in y"
             }
         },
         {
             "fault": {
-                "Fault_Name": "(bM) break Delete",
-                "Target_to_Change": "[ in ]{4},[ not in ]{8}",
+                "Fault_Name": "(bM) break Missing",
+                "Target_to_Change": " break",
                 "Changed": " ",
                 "Explanation": "break Statements Delete\nOriginal Code: break\nMutated Code: "
             }
         },
         {
             "fault": {
-                "Fault_Name": "(bW) break Change",
-                "Target_to_Change": "[ in ]{4},[ not in ]{8}",
+                "Fault_Name": "(bW) break Wrong",
+                "Target_to_Change": " break",
                 "Changed": "continue",
                 "Explanation": "break Statements Change\nOriginal Code: break\nMutated Code: continue"
             }
         },
         {
             "fault": {
-                "Fault_Name": "(bE) break External",
-                "Target_to_Change": "[ in ]{4},[ not in ]{8}",
+                "Fault_Name": "(bE) break Extraneous",
+                "Target_to_Change": " break",
                 "Changed": "break break",
                 "Explanation": "break Statements External\nOriginal Code: break\nMutated Code: break break"
             }
         },
         {
             "fault": {
-                "Fault_Name": "(cM) continue Delete",
-                "Target_to_Change": "continue",
+                "Fault_Name": "(cM) continue Missing",
+                "Target_to_Change": " continue",
                 "Changed": " ",
                 "Explanation": "continue Statements Delete\nOriginal Code: continue\nMutated Code: "
             }
         },
         {
             "fault": {
-                "Fault_Name": "(cW) continue Change",
-                "Target_to_Change": "continue",
+                "Fault_Name": "(cW) continue Wrong",
+                "Target_to_Change": " continue",
                 "Changed": "break",
                 "Explanation": "continue Statements Change\nOriginal Code: continue\nMutated Code: break"
             }
         },
         {
             "fault": {
-                "Fault_Name": "(cE) continue External",
-                "Target_to_Change": "continue",
+                "Fault_Name": "(cE) continue Extraneous",
+                "Target_to_Change": " continue",
                 "Changed": "continue continue",
                 "Explanation": "continue Statements Change\nOriginal Code: continue\nMutated Code: continue continue"
             }
         },
         {
             "fault": {
-                "Fault_Name": "(FM) False Delete",
+                "Fault_Name": "(FM) False Missing",
                 "Target_to_Change": "False",
                 "Changed": " ",
                 "Explanation": "False Statements Delete\nOriginal Code: False\nMutated Code: "
@@ -202,7 +202,7 @@
         },
         {
             "fault": {
-                "Fault_Name": "(FW) False Change",
+                "Fault_Name": "(FW) False Wrong",
                 "Target_to_Change": "False",
                 "Changed": "True",
                 "Explanation": "False Statements Change\nOriginal Code: False\nMutated Code: True"
@@ -210,7 +210,7 @@
         },
         {
             "fault": {
-                "Fault_Name": "(FE) False External",
+                "Fault_Name": "(FE) False Extraneous",
                 "Target_to_Change": "False",
                 "Changed": "False False",
                 "Explanation": "False Statements External\nOriginal Code: False\nMutated Code: False False"
@@ -218,31 +218,31 @@
         },
         {
             "fault": {
-                "Fault_Name": "(pM) pass Delete",
-                "Target_to_Change": "pass",
+                "Fault_Name": "(pM) pass Missing",
+                "Target_to_Change": " pass",
                 "Changed": " ",
                 "Explanation": "pass Statements Delete\nOriginal Code: pass\nMutated Code: "
             }
         },
         {
             "fault": {
-                "Fault_Name": "(pW) pass Change",
-                "Target_to_Change": "pass",
+                "Fault_Name": "(pW) pass Wrong",
+                "Target_to_Change": " pass",
                 "Changed": "return, break, continue",
                 "Explanation": "pass Statements Change\nOriginal Code: break\nMutated Code: continue"
             }
         },
         {
             "fault": {
-                "Fault_Name": "(pE) pass External",
-                "Target_to_Change": "pass",
+                "Fault_Name": "(pE) pass Extraneous",
+                "Target_to_Change": " pass",
                 "Changed": "pass pass",
                 "Explanation": "pass Statements External\nOriginal Code: pass\nMutated Code: pass pass"
             }
         },
         {
             "fault": {
-                "Fault_Name": "(TM) True Delete",
+                "Fault_Name": "(TM) True Missing",
                 "Target_to_Change": "True",
                 "Changed": " ",
                 "Explanation": "True Statements External\nOriginal Code: True\nMutated Code: "
@@ -250,7 +250,7 @@
         },
         {
             "fault": {
-                "Fault_Name": "(TW) True Change",
+                "Fault_Name": "(TW) True Wrong",
                 "Target_to_Change": "True",
                 "Changed": "False",
                 "Explanation": "True Statements Change\nOriginal Code: True\nMutated Code: False"
@@ -258,7 +258,7 @@
         },
         {
             "fault": {
-                "Fault_Name": "(TE) True External",
+                "Fault_Name": "(TE) True Extraneous",
                 "Target_to_Change": "True",
                 "Changed": "True True",
                 "Explanation": "True Statements Change\nOriginal Code: True\nMutated Code: True True"
@@ -266,51 +266,1227 @@
         },
         {
             "fault": {
-                "Fault_Name": "ROS Initializing Node Mutation",
-                "Target_to_Change": "pass",
-                "Changed": "pass pass",
-                "Explanation": "pass Statements External\nOriginal Code: pass\nMutated Code: pass pass"
+                "Fault_Name": "(aM) assert Missing",
+                "Target_to_Change": "assert ",
+                "Changed": " ",
+                "Explanation": "False Statements Delete\nOriginal Code: False\nMutated Code: "
             }
         },
         {
             "fault": {
-                "Fault_Name": "ROS Pub-Sub Mutation",
-                "Target_to_Change": "pass",
-                "Changed": "pass pass",
-                "Explanation": "pass Statements External\nOriginal Code: pass\nMutated Code: pass pass"
+                "Fault_Name": "(aW) assert Wrong",
+                "Target_to_Change": "assert ",
+                "Changed": "yield ",
+                "Explanation": "False Statements Change\nOriginal Code: False\nMutated Code: True"
             }
         },
         {
             "fault": {
-                "Fault_Name": "ROS Time Mutation",
-                "Target_to_Change": "pass",
-                "Changed": "pass pass",
-                "Explanation": "pass Statements External\nOriginal Code: pass\nMutated Code: pass pass"
+                "Fault_Name": "(aE) assert Extraneous",
+                "Target_to_Change": "assert ",
+                "Changed": "assert assert",
+                "Explanation": "False Statements External\nOriginal Code: False\nMutated Code: False False"
             }
         },
         {
             "fault": {
-                "Fault_Name": "ROS Service Mutation",
-                "Target_to_Change": "pass",
-                "Changed": "pass pass",
-                "Explanation": "pass Statements External\nOriginal Code: pass\nMutated Code: pass pass"
+                "Fault_Name": "(dM) del Missing",
+                "Target_to_Change": "del ",
+                "Changed": " ",
+                "Explanation": "False Statements Delete\nOriginal Code: False\nMutated Code: "
             }
         },
         {
             "fault": {
-                "Fault_Name": "ROS Parameter Mutation",
-                "Target_to_Change": "pass",
-                "Changed": "pass pass",
-                "Explanation": "pass Statements External\nOriginal Code: pass\nMutated Code: pass pass"
+                "Fault_Name": "(dW) del Wrong",
+                "Target_to_Change": "del ",
+                "Changed": "delete",
+                "Explanation": "False Statements Change\nOriginal Code: False\nMutated Code: True"
             }
         },
         {
             "fault": {
-                "Fault_Name": "ROS Log Mutation",
-                "Target_to_Change": "pass",
-                "Changed": "pass pass",
-                "Explanation": "pass Statements External\nOriginal Code: pass\nMutated Code: pass pass"
+                "Fault_Name": "(dE) del Extraneous",
+                "Target_to_Change": "del ",
+                "Changed": "del del",
+                "Explanation": "False Statements External\nOriginal Code: False\nMutated Code: False False"
             }
-        }        
+        },
+        {
+            "fault": {
+                "Fault_Name": "(iM) if Missing",
+                "Target_to_Change": "if.*:",
+                "Changed": " ",
+                "Explanation": "False Statements Delete\nOriginal Code: False\nMutated Code: "
+            }
+        },
+        {
+            "fault": {
+                "Fault_Name": "(iW) if Wrong",
+                "Target_to_Change": "if.*:",
+                "Changed": "elif:,else:",
+                "Explanation": "False Statements Change\nOriginal Code: False\nMutated Code: True"
+            }
+        },
+        {
+            "fault": {
+                "Fault_Name": "(iE) if Extraneous",
+                "Target_to_Change": "if.*:",
+                "Changed": "if if",
+                "Explanation": "False Statements External\nOriginal Code: False\nMutated Code: False False"
+            }
+        },
+        {
+            "fault": {
+                "Fault_Name": "(elM) elif Missing",
+                "Target_to_Change": "elif.*:",
+                "Changed": " ",
+                "Explanation": "False Statements Delete\nOriginal Code: False\nMutated Code: "
+            }
+        },
+        {
+            "fault": {
+                "Fault_Name": "(elW) elif Wrong",
+                "Target_to_Change": "elif.*:",
+                "Changed": "if:,else:",
+                "Explanation": "False Statements Change\nOriginal Code: False\nMutated Code: True"
+            }
+        },
+        {
+            "fault": {
+                "Fault_Name": "(elE) elif Extraneous",
+                "Target_to_Change": "elif.*:",
+                "Changed": "elif elif",
+                "Explanation": "False Statements External\nOriginal Code: False\nMutated Code: False False"
+            }
+        },
+        {
+            "fault": {
+                "Fault_Name": "(elsM) else Missing",
+                "Target_to_Change": "else:",
+                "Changed": " ",
+                "Explanation": "False Statements Delete\nOriginal Code: False\nMutated Code: "
+            }
+        },
+        {
+            "fault": {
+                "Fault_Name": "(elsW) else Wrong",
+                "Target_to_Change": "else:",
+                "Changed": "if:,elif:",
+                "Explanation": "False Statements Change\nOriginal Code: False\nMutated Code: True"
+            }
+        },
+        {
+            "fault": {
+                "Fault_Name": "(elsE) else Extraneous",
+                "Target_to_Change": "else:",
+                "Changed": "else else:",
+                "Explanation": "False Statements External\nOriginal Code: False\nMutated Code: False False"
+            }
+        },
+        {
+            "fault": {
+                "Fault_Name": "(tryM) try Missing",
+                "Target_to_Change": "try:",
+                "Changed": " ",
+                "Explanation": "False Statements Delete\nOriginal Code: False\nMutated Code: "
+            }
+        },
+        {
+            "fault": {
+                "Fault_Name": "(tryW) try Wrong",
+                "Target_to_Change": "try:",
+                "Changed": "except:",
+                "Explanation": "False Statements Change\nOriginal Code: False\nMutated Code: True"
+            }
+        },
+        {
+            "fault": {
+                "Fault_Name": "(tryE) try Extraneous",
+                "Target_to_Change": "try:",
+                "Changed": "try try:",
+                "Explanation": "False Statements External\nOriginal Code: False\nMutated Code: False False"
+            }
+        },
+        {
+            "fault": {
+                "Fault_Name": "(excM) except Missing",
+                "Target_to_Change": "except.*:",
+                "Changed": " ",
+                "Explanation": "False Statements Delete\nOriginal Code: False\nMutated Code: "
+            }
+        },
+        {
+            "fault": {
+                "Fault_Name": "(excW) except Wrong",
+                "Target_to_Change": "except.*:",
+                "Changed": "try:",
+                "Explanation": "False Statements Change\nOriginal Code: False\nMutated Code: True"
+            }
+        },
+        {
+            "fault": {
+                "Fault_Name": "(excE) except Extraneous",
+                "Target_to_Change": "except.*:",
+                "Changed": "except except:",
+                "Explanation": "False Statements External\nOriginal Code: False\nMutated Code: False False"
+            }
+        },
+        {
+            "fault": {
+                "Fault_Name": "(finM) finally Missing",
+                "Target_to_Change": "finally:",
+                "Changed": " ",
+                "Explanation": "False Statements Delete\nOriginal Code: False\nMutated Code: "
+            }
+        },
+        {
+            "fault": {
+                "Fault_Name": "(finW) finally Wrong",
+                "Target_to_Change": "finally:",
+                "Changed": "except:",
+                "Explanation": "False Statements Change\nOriginal Code: False\nMutated Code: True"
+            }
+        },
+        {
+            "fault": {
+                "Fault_Name": "(finE) finally Extraneous",
+                "Target_to_Change": "finally:",
+                "Changed": "finally finally:",
+                "Explanation": "False Statements External\nOriginal Code: False\nMutated Code: False False"
+            }
+        },
+        {
+            "fault": {
+                "Fault_Name": "(forM) for Missing",
+                "Target_to_Change": "for.*:",
+                "Changed": " ",
+                "Explanation": "False Statements Delete\nOriginal Code: False\nMutated Code: "
+            }
+        },
+        {
+            "fault": {
+                "Fault_Name": "(forW) for Wrong",
+                "Target_to_Change": "for.*:",
+                "Changed": "while True:",
+                "Explanation": "False Statements Change\nOriginal Code: False\nMutated Code: True"
+            }
+        },
+        {
+            "fault": {
+                "Fault_Name": "(forE) for Extraneous",
+                "Target_to_Change": "for",
+                "Changed": "for for:",
+                "Explanation": "False Statements External\nOriginal Code: False\nMutated Code: False False"
+            }
+        },
+        {
+            "fault": {
+                "Fault_Name": "(gM) global Missing",
+                "Target_to_Change": "global ",
+                "Changed": " ",
+                "Explanation": "False Statements Delete\nOriginal Code: False\nMutated Code: "
+            }
+        },
+        {
+            "fault": {
+                "Fault_Name": "(gW) global Wrong",
+                "Target_to_Change": "global ",
+                "Changed": "globale ",
+                "Explanation": "False Statements Change\nOriginal Code: False\nMutated Code: True"
+            }
+        },
+        {
+            "fault": {
+                "Fault_Name": "(gE) global Extraneous",
+                "Target_to_Change": "global ",
+                "Changed": "global global ",
+                "Explanation": "False Statements External\nOriginal Code: False\nMutated Code: False False"
+            }
+        },
+        {
+            "fault": {
+                "Fault_Name": "(laM) lambda Missing",
+                "Target_to_Change": "lambda ",
+                "Changed": " ",
+                "Explanation": "False Statements Delete\nOriginal Code: False\nMutated Code: "
+            }
+        },
+        {
+            "fault": {
+                "Fault_Name": "(laW) lambda Wrong",
+                "Target_to_Change": "lambda ",
+                "Changed": "global",
+                "Explanation": "False Statements Change\nOriginal Code: False\nMutated Code: True"
+            }
+        },
+        {
+            "fault": {
+                "Fault_Name": "(laE) lambda Extraneous",
+                "Target_to_Change": "lambda ",
+                "Changed": "lambda lambda",
+                "Explanation": "False Statements External\nOriginal Code: False\nMutated Code: False False"
+            }
+        },
+        {
+            "fault": {
+                "Fault_Name": "(NoM) None Missing",
+                "Target_to_Change": "None",
+                "Changed": " ",
+                "Explanation": "False Statements Delete\nOriginal Code: False\nMutated Code: "
+            }
+        },
+        {
+            "fault": {
+                "Fault_Name": "(NoW) None Wrong",
+                "Target_to_Change": "None",
+                "Changed": "True",
+                "Explanation": "False Statements Change\nOriginal Code: False\nMutated Code: True"
+            }
+        },
+        {
+            "fault": {
+                "Fault_Name": "(NoE) None Extraneous",
+                "Target_to_Change": "None",
+                "Changed": "None None",
+                "Explanation": "False Statements External\nOriginal Code: False\nMutated Code: False False"
+            }
+        },
+        {
+            "fault": {
+                "Fault_Name": "(nonM) nonlocal Missing",
+                "Target_to_Change": "nonlocal ",
+                "Changed": " ",
+                "Explanation": "False Statements Delete\nOriginal Code: False\nMutated Code: "
+            }
+        },
+        {
+            "fault": {
+                "Fault_Name": "(nonW) nonlocal Wrong",
+                "Target_to_Change": "nonlocal ",
+                "Changed": "global ",
+                "Explanation": "False Statements Change\nOriginal Code: False\nMutated Code: True"
+            }
+        },
+        {
+            "fault": {
+                "Fault_Name": "(nonE) nonlocal Extraneous",
+                "Target_to_Change": "nonlocal ",
+                "Changed": "nonlocal nonlocal ",
+                "Explanation": "False Statements External\nOriginal Code: False\nMutated Code: False False"
+            }
+        },
+        {
+            "fault": {
+                "Fault_Name": "(raM) raise Missing",
+                "Target_to_Change": "raise ",
+                "Changed": " ",
+                "Explanation": "False Statements Delete\nOriginal Code: False\nMutated Code: "
+            }
+        },
+        {
+            "fault": {
+                "Fault_Name": "(raW) raise Wrong",
+                "Target_to_Change": "raise ",
+                "Changed": "yield",
+                "Explanation": "False Statements Change\nOriginal Code: False\nMutated Code: True"
+            }
+        },
+        {
+            "fault": {
+                "Fault_Name": "(raE) raise Extraneous",
+                "Target_to_Change": "raise ",
+                "Changed": "raise raise ",
+                "Explanation": "False Statements External\nOriginal Code: False\nMutated Code: False False"
+            }
+        },
+        {
+            "fault": {
+                "Fault_Name": "(retM) return Missing",
+                "Target_to_Change": "return ",
+                "Changed": " ",
+                "Explanation": "False Statements Delete\nOriginal Code: False\nMutated Code: "
+            }
+        },
+        {
+            "fault": {
+                "Fault_Name": "(retW) return Wrong",
+                "Target_to_Change": "return ",
+                "Changed": "pass",
+                "Explanation": "False Statements Change\nOriginal Code: False\nMutated Code: True"
+            }
+        },
+        {
+            "fault": {
+                "Fault_Name": "(retE) return Extraneous",
+                "Target_to_Change": "return ",
+                "Changed": "return return",
+                "Explanation": "False Statements External\nOriginal Code: False\nMutated Code: False False"
+            }
+        },
+        {
+            "fault": {
+                "Fault_Name": "(whM) while Missing",
+                "Target_to_Change": "while.*:",
+                "Changed": " ",
+                "Explanation": "False Statements Delete\nOriginal Code: False\nMutated Code: "
+            }
+        },
+        {
+            "fault": {
+                "Fault_Name": "(whW) while Wrong",
+                "Target_to_Change": "while.*:",
+                "Changed": "for ",
+                "Explanation": "False Statements Change\nOriginal Code: False\nMutated Code: True"
+            }
+        },
+        {
+            "fault": {
+                "Fault_Name": "(whE) while Extraneous",
+                "Target_to_Change": "while.*:",
+                "Changed": "while while:",
+                "Explanation": "False Statements External\nOriginal Code: False\nMutated Code: False False"
+            }
+        },
+        {
+            "fault": {
+                "Fault_Name": "(wiM) with Missing",
+                "Target_to_Change": "with.*:",
+                "Changed": " ",
+                "Explanation": "False Statements Delete\nOriginal Code: False\nMutated Code: "
+            }
+        },
+        {
+            "fault": {
+                "Fault_Name": "(wiW) with Wrong",
+                "Target_to_Change": "with.*:",
+                "Changed": "open",
+                "Explanation": "False Statements Change\nOriginal Code: False\nMutated Code: True"
+            }
+        },
+        {
+            "fault": {
+                "Fault_Name": "(wiE) with Extraneous",
+                "Target_to_Change": "with.*:",
+                "Changed": "with with",
+                "Explanation": "False Statements External\nOriginal Code: False\nMutated Code: False False"
+            }
+        },
+        {
+            "fault": {
+                "Fault_Name": "(yiM) yield Missing",
+                "Target_to_Change": "yield ",
+                "Changed": " ",
+                "Explanation": "False Statements Delete\nOriginal Code: False\nMutated Code: "
+            }
+        },
+        {
+            "fault": {
+                "Fault_Name": "(yiW) yield Wrong",
+                "Target_to_Change": "yield ",
+                "Changed": "raise",
+                "Explanation": "False Statements Change\nOriginal Code: False\nMutated Code: True"
+            }
+        },
+        {
+            "fault": {
+                "Fault_Name": "(yiE) yield Extraneous",
+                "Target_to_Change": "yield ",
+                "Changed": "yield ",
+                "Explanation": "False Statements External\nOriginal Code: False\nMutated Code: False False"
+            }
+        },
+        {
+            "fault": {
+                "Fault_Name": "abs()",
+                "Target_to_Change": "abs\\(([^)]+|)\\)",
+                "Changed": " ",
+                "Explanation": "Comparison Operators Extraneous\nOriginal Code: x != y\nMutated Code: x !== y"
+            }
+        },
+        {
+            "fault": {
+                "Fault_Name": "abs()",
+                "Target_to_Change": "abs\\(([^)]+|)\\)",
+                "Changed": " ",
+                "Explanation": "Comparison Operators Extraneous\nOriginal Code: x != y\nMutated Code: x !== y"
+            }
+        },
+        {
+            "fault": {
+                "Fault_Name": "abs()",
+                "Target_to_Change": "abs\\(([^)]+|)\\)",
+                "Changed": " ",
+                "Explanation": "Comparison Operators Extraneous\nOriginal Code: x != y\nMutated Code: x !== y"
+            }
+        },
+        {
+            "fault": {
+                "Fault_Name": "abs()",
+                "Target_to_Change": "abs\\(([^)]+|)\\)",
+                "Changed": " ",
+                "Explanation": "Comparison Operators Extraneous\nOriginal Code: x != y\nMutated Code: x !== y"
+            }
+        },
+        {
+            "fault": {
+                "Fault_Name": "abs()",
+                "Target_to_Change": "abs\\(([^)]+|)\\)",
+                "Changed": " ",
+                "Explanation": "Comparison Operators Extraneous\nOriginal Code: x != y\nMutated Code: x !== y"
+            }
+        },
+        {
+            "fault": {
+                "Fault_Name": "abs()",
+                "Target_to_Change": "abs\\(([^)]+|)\\)",
+                "Changed": " ",
+                "Explanation": "Comparison Operators Extraneous\nOriginal Code: x != y\nMutated Code: x !== y"
+            }
+        },
+        {
+            "fault": {
+                "Fault_Name": "abs()",
+                "Target_to_Change": "abs\\(([^)]+|)\\)",
+                "Changed": " ",
+                "Explanation": "Comparison Operators Extraneous\nOriginal Code: x != y\nMutated Code: x !== y"
+            }
+        },
+        {
+            "fault": {
+                "Fault_Name": "all()",
+                "Target_to_Change": "all\\(([^)]+|)\\)",
+                "Changed": " ",
+                "Explanation": "Comparison Operators Extraneous\nOriginal Code: x != y\nMutated Code: x !== y"
+            }
+        },
+        {
+            "fault": {
+                "Fault_Name": "ascii()",
+                "Target_to_Change": "ascii\\(([^)]+|)\\)",
+                "Changed": " ",
+                "Explanation": "Comparison Operators Extraneous\nOriginal Code: x != y\nMutated Code: x !== y"
+            }
+        },
+        {
+            "fault": {
+                "Fault_Name": "bin()",
+                "Target_to_Change": "bin\\(([^)]+|)\\)",
+                "Changed": " ",
+                "Explanation": "Comparison Operators Extraneous\nOriginal Code: x != y\nMutated Code: x !== y"
+            }
+        },
+        {
+            "fault": {
+                "Fault_Name": "bool()",
+                "Target_to_Change": "bool\\(([^)]+|)\\)",
+                "Changed": " ",
+                "Explanation": "Comparison Operators Extraneous\nOriginal Code: x != y\nMutated Code: x !== y"
+            }
+        },
+        {
+            "fault": {
+                "Fault_Name": "bytearray()",
+                "Target_to_Change": "bytearray\\(([^)]+|)\\)",
+                "Changed": " ",
+                "Explanation": "Comparison Operators Extraneous\nOriginal Code: x != y\nMutated Code: x !== y"
+            }
+        },
+        {
+            "fault": {
+                "Fault_Name": "bytes()",
+                "Target_to_Change": "bytes\\(([^)]+|)\\)",
+                "Changed": " ",
+                "Explanation": "Comparison Operators Extraneous\nOriginal Code: x != y\nMutated Code: x !== y"
+            }
+        },
+        {
+            "fault": {
+                "Fault_Name": "chr()",
+                "Target_to_Change": "chr\\(([^)]+|)\\)",
+                "Changed": " ",
+                "Explanation": "Comparison Operators Extraneous\nOriginal Code: x != y\nMutated Code: x !== y"
+            }
+        },
+        {
+            "fault": {
+                "Fault_Name": "delattr()",
+                "Target_to_Change": "delattr\\(([^)]+|)\\)",
+                "Changed": " ",
+                "Explanation": "Comparison Operators Extraneous\nOriginal Code: x != y\nMutated Code: x !== y"
+            }
+        },
+        {
+            "fault": {
+                "Fault_Name": "dict()",
+                "Target_to_Change": "dict\\(([^)]+|)\\)",
+                "Changed": " ",
+                "Explanation": "Comparison Operators Extraneous\nOriginal Code: x != y\nMutated Code: x !== y"
+            }
+        },
+        {
+            "fault": {
+                "Fault_Name": "divmod()",
+                "Target_to_Change": "divmod\\(([^)]+|)\\)",
+                "Changed": " ",
+                "Explanation": "Comparison Operators Extraneous\nOriginal Code: x != y\nMutated Code: x !== y"
+            }
+        },
+        {
+            "fault": {
+                "Fault_Name": "enumerate()",
+                "Target_to_Change": "enumerate\\(([^)]+|)\\)",
+                "Changed": " ",
+                "Explanation": "Comparison Operators Extraneous\nOriginal Code: x != y\nMutated Code: x !== y"
+            }
+        },
+        {
+            "fault": {
+                "Fault_Name": "eval()",
+                "Target_to_Change": "eval\\(([^)]+|)\\)",
+                "Changed": " ",
+                "Explanation": "Comparison Operators Extraneous\nOriginal Code: x != y\nMutated Code: x !== y"
+            }
+        },
+        {
+            "fault": {
+                "Fault_Name": "exec()",
+                "Target_to_Change": "exec\\(([^)]+|)\\)",
+                "Changed": " ",
+                "Explanation": "Comparison Operators Extraneous\nOriginal Code: x != y\nMutated Code: x !== y"
+            }
+        },
+        {
+            "fault": {
+                "Fault_Name": "filter()",
+                "Target_to_Change": "filter\\(([^)]+|)\\)",
+                "Changed": " ",
+                "Explanation": "Comparison Operators Extraneous\nOriginal Code: x != y\nMutated Code: x !== y"
+            }
+        },
+        {
+            "fault": {
+                "Fault_Name": "float()",
+                "Target_to_Change": "float\\(([^)]+|)\\)",
+                "Changed": " ",
+                "Explanation": "Comparison Operators Extraneous\nOriginal Code: x != y\nMutated Code: x !== y"
+            }
+        },
+        {
+            "fault": {
+                "Fault_Name": "frozenset()",
+                "Target_to_Change": "frozenset\\(([^)]+|)\\)",
+                "Changed": " ",
+                "Explanation": "Comparison Operators Extraneous\nOriginal Code: x != y\nMutated Code: x !== y"
+            }
+        },
+        {
+            "fault": {
+                "Fault_Name": "getattr()",
+                "Target_to_Change": "getattr\\(([^)]+|)\\)",
+                "Changed": " ",
+                "Explanation": "Comparison Operators Extraneous\nOriginal Code: x != y\nMutated Code: x !== y"
+            }
+        },
+        {
+            "fault": {
+                "Fault_Name": "hasattr()",
+                "Target_to_Change": "hasattr\\(([^)]+|)\\)",
+                "Changed": " ",
+                "Explanation": "Comparison Operators Extraneous\nOriginal Code: x != y\nMutated Code: x !== y"
+            }
+        },
+        {
+            "fault": {
+                "Fault_Name": "hash()",
+                "Target_to_Change": "hash\\(([^)]+|)\\)",
+                "Changed": " ",
+                "Explanation": "Comparison Operators Extraneous\nOriginal Code: x != y\nMutated Code: x !== y"
+            }
+        },
+        {
+            "fault": {
+                "Fault_Name": "help()",
+                "Target_to_Change": "help\\(([^)]+|)\\)",
+                "Changed": " ",
+                "Explanation": "Comparison Operators Extraneous\nOriginal Code: x != y\nMutated Code: x !== y"
+            }
+        },
+        {
+            "fault": {
+                "Fault_Name": "hex()",
+                "Target_to_Change": "hex\\(([^)]+|)\\)",
+                "Changed": " ",
+                "Explanation": "Comparison Operators Extraneous\nOriginal Code: x != y\nMutated Code: x !== y"
+            }
+        },
+        {
+            "fault": {
+                "Fault_Name": "id()",
+                "Target_to_Change": "id\\(([^)]+|)\\)",
+                "Changed": " ",
+                "Explanation": "Comparison Operators Extraneous\nOriginal Code: x != y\nMutated Code: x !== y"
+            }
+        },
+        {
+            "fault": {
+                "Fault_Name": "int()",
+                "Target_to_Change": "int\\(([^)]+|)\\)",
+                "Changed": " ",
+                "Explanation": "Comparison Operators Extraneous\nOriginal Code: x != y\nMutated Code: x !== y"
+            }
+        },
+        {
+            "fault": {
+                "Fault_Name": "isinstance()",
+                "Target_to_Change": "isinstance\\(([^)]+|)\\)",
+                "Changed": " ",
+                "Explanation": "Comparison Operators Extraneous\nOriginal Code: x != y\nMutated Code: x !== y"
+            }
+        },
+        {
+            "fault": {
+                "Fault_Name": "iter()",
+                "Target_to_Change": "iter\\(([^)]+|)\\)",
+                "Changed": " ",
+                "Explanation": "Comparison Operators Extraneous\nOriginal Code: x != y\nMutated Code: x !== y"
+            }
+        },
+        {
+            "fault": {
+                "Fault_Name": "len()",
+                "Target_to_Change": "len\\(([^)]+|)\\)",
+                "Changed": " ",
+                "Explanation": "Comparison Operators Extraneous\nOriginal Code: x != y\nMutated Code: x !== y"
+            }
+        },
+        {
+            "fault": {
+                "Fault_Name": "list()",
+                "Target_to_Change": "list\\(([^)]+|)\\)",
+                "Changed": " ",
+                "Explanation": "Comparison Operators Extraneous\nOriginal Code: x != y\nMutated Code: x !== y"
+            }
+        },
+        {
+            "fault": {
+                "Fault_Name": "map()",
+                "Target_to_Change": "map\\(([^)]+|)\\)",
+                "Changed": " ",
+                "Explanation": "Comparison Operators Extraneous\nOriginal Code: x != y\nMutated Code: x !== y"
+            }
+        },
+        {
+            "fault": {
+                "Fault_Name": "max()",
+                "Target_to_Change": "max\\(([^)]+|)\\)",
+                "Changed": " ",
+                "Explanation": "Comparison Operators Extraneous\nOriginal Code: x != y\nMutated Code: x !== y"
+            }
+        },
+        {
+            "fault": {
+                "Fault_Name": "memoryview()",
+                "Target_to_Change": "memoryview\\(([^)]+|)\\)",
+                "Changed": " ",
+                "Explanation": "Comparison Operators Extraneous\nOriginal Code: x != y\nMutated Code: x !== y"
+            }
+        },
+        {
+            "fault": {
+                "Fault_Name": "min()",
+                "Target_to_Change": "min\\(([^)]+|)\\)",
+                "Changed": " ",
+                "Explanation": "Comparison Operators Extraneous\nOriginal Code: x != y\nMutated Code: x !== y"
+            }
+        },
+        {
+            "fault": {
+                "Fault_Name": "next()",
+                "Target_to_Change": "next\\(([^)]+|)\\)",
+                "Changed": " ",
+                "Explanation": "Comparison Operators Extraneous\nOriginal Code: x != y\nMutated Code: x !== y"
+            }
+        },
+        {
+            "fault": {
+                "Fault_Name": "oct()",
+                "Target_to_Change": "oct\\(([^)]+|)\\)",
+                "Changed": " ",
+                "Explanation": "Comparison Operators Extraneous\nOriginal Code: x != y\nMutated Code: x !== y"
+            }
+        },
+        {
+            "fault": {
+                "Fault_Name": "open()",
+                "Target_to_Change": "open\\(([^)]+|)\\)",
+                "Changed": " ",
+                "Explanation": "Comparison Operators Extraneous\nOriginal Code: x != y\nMutated Code: x !== y"
+            }
+        },
+        {
+            "fault": {
+                "Fault_Name": "ord()",
+                "Target_to_Change": "ord\\(([^)]+|)\\)",
+                "Changed": " ",
+                "Explanation": "Comparison Operators Extraneous\nOriginal Code: x != y\nMutated Code: x !== y"
+            }
+        },
+        {
+            "fault": {
+                "Fault_Name": "pow()",
+                "Target_to_Change": "pow\\(([^)]+|)\\)",
+                "Changed": " ",
+                "Explanation": "Comparison Operators Extraneous\nOriginal Code: x != y\nMutated Code: x !== y"
+            }
+        },
+        {
+            "fault": {
+                "Fault_Name": "property()",
+                "Target_to_Change": "property\\(([^)]+|)\\)",
+                "Changed": " ",
+                "Explanation": "Comparison Operators Extraneous\nOriginal Code: x != y\nMutated Code: x !== y"
+            }
+        },
+        {
+            "fault": {
+                "Fault_Name": "range()",
+                "Target_to_Change": "range\\(([^)]+|)\\)",
+                "Changed": " ",
+                "Explanation": "while test_expression:\nBody of while"
+            }
+        },
+        {
+            "fault": {
+                "Fault_Name": "reversed()",
+                "Target_to_Change": "reversed\\(([^)]+|)\\)",
+                "Changed": " ",
+                "Explanation": "while test_expression:\nBody of while"
+            }
+        },
+        {
+            "fault": {
+                "Fault_Name": "round()",
+                "Target_to_Change": "round\\(([^)]+|)\\)",
+                "Changed": " ",
+                "Explanation": "while test_expression:\nBody of while"
+            }
+        },
+        {
+            "fault": {
+                "Fault_Name": "set()",
+                "Target_to_Change": "set\\(([^)]+|)\\)",
+                "Changed": " ",
+                "Explanation": "while test_expression:\nBody of while"
+            }
+        },
+        {
+            "fault": {
+                "Fault_Name": "setattr()",
+                "Target_to_Change": "setattr\\(([^)]+|)\\)",
+                "Changed": " ",
+                "Explanation": "while test_expression:\nBody of while"
+            }
+        },
+        {
+            "fault": {
+                "Fault_Name": "slice()",
+                "Target_to_Change": "slice\\(([^)]+|)\\)",
+                "Changed": " ",
+                "Explanation": "while test_expression:\nBody of while"
+            }
+        },
+        {
+            "fault": {
+                "Fault_Name": "sorted()",
+                "Target_to_Change": "sorted\\(([^)]+|)\\)",
+                "Changed": " ",
+                "Explanation": "while test_expression:\nBody of while"
+            }
+        },
+        {
+            "fault": {
+                "Fault_Name": "str()",
+                "Target_to_Change": "str\\(([^)]+|)\\)",
+                "Changed": " ",
+                "Explanation": "while test_expression:\nBody of while"
+            }
+        },
+        {
+            "fault": {
+                "Fault_Name": "sum()",
+                "Target_to_Change": "sum\\(([^)]+|)\\)",
+                "Changed": " ",
+                "Explanation": "while test_expression:\nBody of while"
+            }
+        },
+        {
+            "fault": {
+                "Fault_Name": "tuple()",
+                "Target_to_Change": "tuple\\(([^)]+|)\\)",
+                "Changed": " ",
+                "Explanation": "while test_expression:\nBody of while"
+            }
+        },
+        {
+            "fault": {
+                "Fault_Name": "type()",
+                "Target_to_Change": "type\\(([^)]+|)\\)",
+                "Changed": " ",
+                "Explanation": "while test_expression:\nBody of while"
+            }
+        },
+        {
+            "fault": {
+                "Fault_Name": "vars()",
+                "Target_to_Change": "vars\\(([^)]+|)\\)",
+                "Changed": " ",
+                "Explanation": "while test_expression:\nBody of while"
+            }
+        },
+        {
+            "fault": {
+                "Fault_Name": "zip()",
+                "Target_to_Change": "zip\\(([^)]+|)\\)",
+                "Changed": " ",
+                "Explanation": "while test_expression:\nBody of while"
+            }
+        },
+        {
+            "fault": {
+                "Fault_Name": "count()",
+                "Target_to_Change": "count\\(([^)]+|)\\)",
+                "Changed": " ",
+                "Explanation": "while test_expression:\nBody of while"
+            }
+        },
+        {
+            "fault": {
+                "Fault_Name": "index()",
+                "Target_to_Change": "index\\(([^)]+|)\\)",
+                "Changed": " ",
+                "Explanation": "while test_expression:\nBody of while"
+            }
+        },
+        {
+            "fault": {
+                "Fault_Name": "fromkeys()",
+                "Target_to_Change": "fromkeys\\(([^)]+|)\\)",
+                "Changed": " ",
+                "Explanation": "while test_expression:\nBody of while"
+            }
+        },
+        {
+            "fault": {
+                "Fault_Name": "get()",
+                "Target_to_Change": "get\\(([^)]+|)\\)",
+                "Changed": " ",
+                "Explanation": "while test_expression:\nBody of while"
+            }
+        },
+        {
+            "fault": {
+                "Fault_Name": "update()",
+                "Target_to_Change": "update\\(([^)]+|)\\)",
+                "Changed": " ",
+                "Explanation": "while test_expression:\nBody of while"
+            }
+        },
+        {
+            "fault": {
+                "Fault_Name": "append()",
+                "Target_to_Change": "append\\(([^)]+|)\\)",
+                "Changed": " ",
+                "Explanation": "while test_expression:\nBody of while"
+            }
+        },
+        {
+            "fault": {
+                "Fault_Name": "extend()",
+                "Target_to_Change": "extend\\(([^)]+|)\\)",
+                "Changed": " ",
+                "Explanation": "while test_expression:\nBody of while"
+            }
+        },
+        {
+            "fault": {
+                "Fault_Name": "insert()",
+                "Target_to_Change": "insert\\(([^)]+|)\\)",
+                "Changed": " ",
+                "Explanation": "while test_expression:\nBody of while"
+            }
+        },
+        {
+            "fault": {
+                "Fault_Name": "remove()",
+                "Target_to_Change": "remove\\(([^)]+|)\\)",
+                "Changed": " ",
+                "Explanation": "while test_expression:\nBody of while"
+            }
+        },
+        {
+            "fault": {
+                "Fault_Name": "seek()",
+                "Target_to_Change": "seek\\(([^)]+|)\\)",
+                "Changed": " ",
+                "Explanation": "while test_expression:\nBody of while"
+            }
+        },
+        {
+            "fault": {
+                "Fault_Name": "truncate()",
+                "Target_to_Change": "truncate\\(([^)]+|)\\)",
+                "Changed": " ",
+                "Explanation": "while test_expression:\nBody of while"
+            }
+        },
+        {
+            "fault": {
+                "Fault_Name": "write()",
+                "Target_to_Change": "write\\(([^)]+|)\\)",
+                "Changed": " ",
+                "Explanation": "while test_expression:\nBody of while"
+            }
+        },
+        {
+            "fault": {
+                "Fault_Name": "writelines()",
+                "Target_to_Change": "writelines\\(([^)]+|)\\)",
+                "Changed": " ",
+                "Explanation": "while test_expression:\nBody of while"
+            }
+        },
+        {
+            "fault": {
+                "Fault_Name": "add()",
+                "Target_to_Change": "add\\(([^)]+|)\\)",
+                "Changed": " ",
+                "Explanation": "while test_expression:\nBody of while"
+            }
+        },
+        {
+            "fault": {
+                "Fault_Name": "difference()",
+                "Target_to_Change": "difference\\(([^)]+|)\\)",
+                "Changed": " ",
+                "Explanation": "while test_expression:\nBody of while"
+            }
+        },
+        {
+            "fault": {
+                "Fault_Name": "difference_update()",
+                "Target_to_Change": "difference_update\\(([^)]+|)\\)",
+                "Changed": " ",
+                "Explanation": "while test_expression:\nBody of while"
+            }
+        },
+        {
+            "fault": {
+                "Fault_Name": "discard()",
+                "Target_to_Change": "discard\\(([^)]+|)\\)",
+                "Changed": " ",
+                "Explanation": "while test_expression:\nBody of while"
+            }
+        },
+        {
+            "fault": {
+                "Fault_Name": "intersection()",
+                "Target_to_Change": "intersection\\(([^)]+|)\\)",
+                "Changed": " ",
+                "Explanation": "while test_expression:\nBody of while"
+            }
+        },
+        {
+            "fault": {
+                "Fault_Name": "intersection_update()",
+                "Target_to_Change": "intersection_update\\(([^)]+|)\\)",
+                "Changed": " ",
+                "Explanation": "while test_expression:\nBody of while"
+            }
+        },
+        {
+            "fault": {
+                "Fault_Name": "isdisjoint()",
+                "Target_to_Change": "isdisjoint\\(([^)]+|)\\)",
+                "Changed": " ",
+                "Explanation": "while test_expression:\nBody of while"
+            }
+        },
+        {
+            "fault": {
+                "Fault_Name": "issubset()",
+                "Target_to_Change": "issubset\\(([^)]+|)\\)",
+                "Changed": " ",
+                "Explanation": "while test_expression:\nBody of while"
+            }
+        },
+        {
+            "fault": {
+                "Fault_Name": "issuperset()",
+                "Target_to_Change": "issuperset\\(([^)]+|)\\)",
+                "Changed": " ",
+                "Explanation": "while test_expression:\nBody of while"
+            }
+        },
+        {
+            "fault": {
+                "Fault_Name": "symmetric_difference()",
+                "Target_to_Change": "symmetric_difference\\(([^)]+|)\\)",
+                "Changed": " ",
+                "Explanation": "while test_expression:\nBody of while"
+            }
+        },
+        {
+            "fault": {
+                "Fault_Name": "symmetric_difference_update()",
+                "Target_to_Change": "symmetric_difference_update\\(([^)]+|)\\)",
+                "Changed": " ",
+                "Explanation": "while test_expression:\nBody of while"
+            }
+        },
+        {
+            "fault": {
+                "Fault_Name": "union()",
+                "Target_to_Change": "union\\(([^)]+|)\\)",
+                "Changed": " ",
+                "Explanation": "while test_expression:\nBody of while"
+            }
+        },
+        {
+            "fault": {
+                "Fault_Name": "update()",
+                "Target_to_Change": "update\\(([^)]+|)\\)",
+                "Changed": " ",
+                "Explanation": "while test_expression:\nBody of while"
+            }
+        },
+        {
+            "fault": {
+                "Fault_Name": "center()",
+                "Target_to_Change": "center\\(([^)]+|)\\)",
+                "Changed": " ",
+                "Explanation": "while test_expression:\nBody of while"
+            }
+        },
+        {
+            "fault": {
+                "Fault_Name": "endswith()",
+                "Target_to_Change": "endswith\\(([^)]+|)\\)",
+                "Changed": " ",
+                "Explanation": "while test_expression:\nBody of while"
+            }
+        },
+        {
+            "fault": {
+                "Fault_Name": "expandtabs()",
+                "Target_to_Change": "expandtabs\\(([^)]+|)\\)",
+                "Changed": " ",
+                "Explanation": "while test_expression:\nBody of while"
+            }
+        },
+        {
+            "fault": {
+                "Fault_Name": "find()",
+                "Target_to_Change": "find\\(([^)]+|)\\)",
+                "Changed": " ",
+                "Explanation": "while test_expression:\nBody of while"
+            }
+        },
+        {
+            "fault": {
+                "Fault_Name": "index()",
+                "Target_to_Change": "index\\(([^)]+|)\\)",
+                "Changed": " ",
+                "Explanation": "while test_expression:\nBody of while"
+            }
+        },
+        {
+            "fault": {
+                "Fault_Name": "join()",
+                "Target_to_Change": "join\\(([^)]+|)\\)",
+                "Changed": " ",
+                "Explanation": "while test_expression:\nBody of while"
+            }
+        },
+        {
+            "fault": {
+                "Fault_Name": "ljust()",
+                "Target_to_Change": "ljust\\(([^)]+|)\\)",
+                "Changed": " ",
+                "Explanation": "while test_expression:\nBody of while"
+            }
+        },
+        {
+            "fault": {
+                "Fault_Name": "maketrans()",
+                "Target_to_Change": "maketrans\\(([^)]+|)\\)",
+                "Changed": " ",
+                "Explanation": "while test_expression:\nBody of while"
+            }
+        },
+        {
+            "fault": {
+                "Fault_Name": "partition()",
+                "Target_to_Change": "partition\\(([^)]+|)\\)",
+                "Changed": " ",
+                "Explanation": "while test_expression:\nBody of while"
+            }
+        },
+        {
+            "fault": {
+                "Fault_Name": "replace()",
+                "Target_to_Change": "replace\\(([^)]+|)\\)",
+                "Changed": " ",
+                "Explanation": "while test_expression:\nBody of while"
+            }
+        },
+        {
+            "fault": {
+                "Fault_Name": "rfind()",
+                "Target_to_Change": "rfind\\(([^)]+|)\\)",
+                "Changed": " ",
+                "Explanation": "while test_expression:\nBody of while"
+            }
+        },
+        {
+            "fault": {
+                "Fault_Name": "rindex()",
+                "Target_to_Change": "rindex\\(([^)]+|)\\)",
+                "Changed": " ",
+                "Explanation": "while test_expression:\nBody of while"
+            }
+        },
+        {
+            "fault": {
+                "Fault_Name": "rjust()",
+                "Target_to_Change": "rjust\\(([^)]+|)\\)",
+                "Changed": " ",
+                "Explanation": "while test_expression:\nBody of while"
+            }
+        },
+        {
+            "fault": {
+                "Fault_Name": "rpartition()",
+                "Target_to_Change": "rpartition\\(([^)]+|)\\)",
+                "Changed": " ",
+                "Explanation": "while test_expression:\nBody of while"
+            }
+        },
+        {
+            "fault": {
+                "Fault_Name": "startswith()",
+                "Target_to_Change": "startswith\\(([^)]+|)\\)",
+                "Changed": " ",
+                "Explanation": "while test_expression:\nBody of while"
+            }
+        },
+        {
+            "fault": {
+                "Fault_Name": "zfill()",
+                "Target_to_Change": "zfill\\(([^)]+|)\\)",
+                "Changed": " ",
+                "Explanation": "while test_expression:\nBody of while"
+            }
+        }
     ]
 }
