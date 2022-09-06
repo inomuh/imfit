@@ -91,6 +91,15 @@ class MainWindow(QMainWindow):
     global metric_list
     metric_list = ""
 
+    global killed_mutant_ros_fi_plan_line
+    killed_mutant_ros_fi_plan_line = ""
+
+    global survived_mutant_ros_fi_plan_line
+    survived_mutant_ros_fi_plan_line = ""
+
+    global mutation_score_ros_fi_plan_line
+    mutation_score_ros_fi_plan_line = ""
+
     def __init__(self, parent=None):
         super(MainWindow, self).__init__(parent)
 
@@ -491,6 +500,9 @@ class MainWindow(QMainWindow):
         def execution_module_function():
             global ROS_SOURCE_MUTANT
             global ROS_SOURCE_CODE
+            
+            # print("ROS_SOURCE_CODE",ROS_SOURCE_CODE)
+            # print("ROS_SOURCE_MUTANT",ROS_SOURCE_MUTANT)
 
             global fault_name_list
 
@@ -498,6 +510,10 @@ class MainWindow(QMainWindow):
             global killed_mutants_list_for_db
             global equivalent_mutants_list_for_db
             global survived_mutants_list_for_db
+
+            global killed_mutant_ros_fi_plan_line
+            global survived_mutant_ros_fi_plan_line
+            global mutation_score_ros_fi_plan_line
 
             killed_mutants_list = []
             survived_mutants_list = []
@@ -538,15 +554,25 @@ class MainWindow(QMainWindow):
                             # Length of ROS source mutant list
                             len_ros_source_mutant = len(ROS_SOURCE_MUTANT)
 
-                            working_directory = self.ui.textEdit_47.toPlainText()
+                            ros_working_directory = self.ui.textEdit_20.toPlainText()
+                            working_package_full_path_split = (
+                                ros_working_directory.split("/")
+                            )
+                            working_package_full_path_split.pop(-1)
+
+                            working_directory = ""
+
+                            for i in working_package_full_path_split:
+                                if not i == "":
+                                    working_directory += "/" + i
 
                             for i in range(len_ros_source_mutant):
-                                if i % 2 == 1:
+                                if i % 3 == 2:
                                     new_data = ROS_SOURCE_CODE.replace(
                                         ROS_SOURCE_MUTANT[i - 1], ROS_SOURCE_MUTANT[i]
                                     )
 
-                                    fname = "mutant" + str(int(i / 2)) + ".py"
+                                    fname = "mutant" + str(int(i / 3)) + ".py"
 
                                     complete_name = os.path.join(
                                         working_directory, fname
@@ -561,15 +587,21 @@ class MainWindow(QMainWindow):
                                         ["chmod", "+x", fname], cwd=working_directory
                                     )
 
-                                    print("\n\n############")
+                                    print("#" * 32)
                                     print("Mutant:", fname)
                                     print("#" * 32)
 
                                     try:
                                         roscore_process = subprocess.Popen(["roscore"])
                                         time.sleep(5)
+                                        print("working_package_full_path_split[-3]",working_package_full_path_split[-2])
+                                        print("fname",fname)
                                         status_output = subprocess.Popen(
-                                            ["rosrun", "deneme_paket", fname]
+                                            [
+                                                "rosrun",
+                                                working_package_full_path_split[-2],
+                                                fname,
+                                            ]
                                         )
                                         status_output.wait(timeout=5)
                                     except subprocess.TimeoutExpired:
@@ -586,11 +618,11 @@ class MainWindow(QMainWindow):
                                         roscore_process.terminate()
                                         killed_counter += 1
                                         print("#" * 32)
-                                        print("#     Killed Mutant            #")
+                                        print("#       Killed Mutant          #")
                                         print("#" * 32)
                                         print("\n\n")
-                                        print("" - "*10")
-                            print("\n\n############")
+                                        print("-" * 10)
+                            print("#" * 32)
                             print("#         Results              #")
                             print("#" * 32)
                             print("\n\n")
@@ -604,7 +636,13 @@ class MainWindow(QMainWindow):
                                 * 100,
                             )
 
-                            print("" - "*10\n\n")
+                            print("-" * 32)
+                            print("\n\n")
+
+
+                            killed_mutant_ros_fi_plan_line = killed_counter
+                            survived_mutant_ros_fi_plan_line = survived_counter
+                            mutation_score_ros_fi_plan_line = (killed_counter / (killed_counter + survived_counter)) * 100
 
                         elif find_file_type[0] == "_type_launch.json":
                             killed_counter = 0
@@ -639,7 +677,7 @@ class MainWindow(QMainWindow):
                                 ) as file:
                                     file.write(mutation_process)
 
-                                print("\n\n############")
+                                print("#" * 32)
                                 print("Mutant:", str(i))
                                 print("#" * 32)
 
@@ -676,7 +714,7 @@ class MainWindow(QMainWindow):
                                 ) as file:
                                     file.write(python_file_content)
 
-                            print("\n\n############")
+                            print("#" * 32)
                             print("#      Results            #")
                             print("#" * 32)
                             print("\n\n")
@@ -1063,7 +1101,7 @@ class MainWindow(QMainWindow):
                                         status_output.terminate()
                                         killed_counter += 1
                                         print("#" * 32)
-                                        print("#    Killed Mutant            #")
+                                        print("#     Killed Mutant            #")
                                         print("#" * 32)
                                         print("\n\n")
                                         print("#" * 32)
@@ -1073,8 +1111,9 @@ class MainWindow(QMainWindow):
                                     ) as file:
                                         file.write(python_file_content)
 
-                                print("\n\n############")
-                                print("#     Results            #")
+                                print("\n\n")
+                                print("#" * 32)
+                                print("#           Results            #")
                                 print("#" * 32)
                                 print("\n\n")
 
@@ -1967,7 +2006,9 @@ class MainWindow(QMainWindow):
             survived_mutant_graph_string = ""
 
         if equvialent_mutant_number:
-            equvialent_mutant_graph_string = "Equvialent: " + str(equvialent_mutant_number)
+            equvialent_mutant_graph_string = "Equvialent: " + str(
+                equvialent_mutant_number
+            )
         else:
             equvialent_mutant_graph_string = ""
 
@@ -2002,6 +2043,25 @@ class MainWindow(QMainWindow):
         possible_lines_for_db = self.take_possible_lines_for_db()
         selected_lines_and_faults = self.take_selected_fault_for_db()
         mutation_list_for_db = self.take_mutaion_list_for_db()
+        # ROS Page
+        ros_launch_file_name_for_db = self.take_ros_launch_file_name_for_db()
+        ros_launch_file_content_for_db = self.take_ros_launch_file_content_for_db()
+        ros_rospy_file_name_for_db = self.take_ros_rospy_file_name_for_db()
+        ros_rospy_file_content_for_db = self.take_ros_rospy_file_content_for_db()
+        ros_node_list_for_db = self.take_ros_node_list_for_db()
+        ros_topic_list_for_db = self.take_ros_topic_list_for_db()
+        ros_service_list_for_db = self.take_ros_service_list_for_db()
+        ros_parameter_list_for_db = self.take_ros_parameter_list_for_db()
+        ros_found_lines_for_mutation_for_db = self.take_ros_found_lines_for_mutation_for_db()
+        ros_selected_line_and_fault_for_mutation_for_db = self.take_ros_selected_line_and_fault_for_mutation_for_db()
+        ros_mutant_codes_for_db = self.take_ros_mutant_codes_for_db()
+        ros_mutant_number_for_db = self.take_ros_mutant_number_for_db()
+        ros_fiplan_list_for_db = self.take_ros_fiplan_list_for_db()
+        ros_killed_mutant_score_for_db = self.take_ros_killed_mutant_score_for_db()
+        ros_survived_mutant_score_for_db = self.take_ros_survived_mutant_score_for_db()
+        ros_mutation_score_for_db = self.take_ros_mutation_score_for_db()
+
+
 
         imfit_database_function.add_all_data(
             connection,
@@ -2018,6 +2078,22 @@ class MainWindow(QMainWindow):
             killed_mutants_list_for_db,
             equivalent_mutants_list_for_db,
             survived_mutants_list_for_db,
+            ros_launch_file_name_for_db,
+            ros_launch_file_content_for_db,
+            ros_rospy_file_name_for_db,
+            ros_rospy_file_content_for_db,
+            ros_node_list_for_db,
+            ros_topic_list_for_db,
+            ros_service_list_for_db,
+            ros_parameter_list_for_db,
+            ros_found_lines_for_mutation_for_db,
+            ros_selected_line_and_fault_for_mutation_for_db,
+            ros_mutant_codes_for_db,
+            ros_mutant_number_for_db,
+            ros_fiplan_list_for_db,
+            ros_killed_mutant_score_for_db,
+            ros_survived_mutant_score_for_db,
+            ros_mutation_score_for_db,
         )
 
     def take_fault_plan_json_fotmat_for_db(self):
@@ -2132,6 +2208,146 @@ class MainWindow(QMainWindow):
                 mutation_list_element = self.ui.listWidget_4.item(i).text()
                 mutation_list.append(mutation_list_element)
             return mutation_list
+        return "Empty!"
+
+
+    # ROS Page
+    def take_ros_launch_file_name_for_db(self):
+        ros_launch_name = self.ui.label_86.text()
+        if ros_launch_name:
+            return ros_launch_name
+        return "Empty!"
+
+    def take_ros_launch_file_content_for_db(self):
+        ros_launch_file_content_list_length = self.ui.listWidget_32.count()
+        if ros_launch_file_content_list_length:
+            ros_content_list = []
+            for i in range(0,ros_launch_file_content_list_length):
+                ros_launch_content_line = self.ui.listWidget_32.item(i).text()
+                ros_content_list.append(ros_launch_content_line)
+            return ros_content_list
+        return "Empty!"
+
+    def take_ros_rospy_file_name_for_db(self):
+        rospy_file_directory = self.ui.textEdit_20.toPlainText()
+        if rospy_file_directory:
+            split_rospy_file_directory = rospy_file_directory.split("\n")
+            rospy_file_name = split_rospy_file_directory[-1]
+            return rospy_file_name
+        return "Empty!"
+
+    def take_ros_rospy_file_content_for_db(self):
+        rospy_file_content_list_length = self.ui.listWidget_10.count()
+        if rospy_file_content_list_length:
+            rospy_content_list = []
+            for i in range(0,rospy_file_content_list_length):
+                rospy_file_content_line = self.ui.listWidget_10.item(i).text()
+                rospy_content_list.append(rospy_file_content_line)
+            return rospy_content_list
+        return "Empty!"
+
+    def take_ros_node_list_for_db(self):
+        ros_node_list_length = self.ui.listWidget_27.count()
+        if ros_node_list_length:
+            ros_node_list = []
+            for i in range(0,ros_node_list_length):
+                node_list_content_line = self.ui.listWidget_27.item(i).text()
+                ros_node_list.append(node_list_content_line)
+            return ros_node_list
+        return "Empty!"
+    
+    def take_ros_topic_list_for_db(self):
+        ros_topic_list_length = self.ui.listWidget_28.count()
+        if ros_topic_list_length:
+            ros_topic_list = []
+            for i in range(0,ros_topic_list_length):
+                topic_list_content_line = self.ui.listWidget_28.item(i).text()
+                ros_topic_list.append(topic_list_content_line)
+            return ros_topic_list
+        return "Empty!"
+    
+    def take_ros_service_list_for_db(self):
+        ros_service_list_length = self.ui.listWidget_29.count()
+        if ros_service_list_length:
+            ros_service_list = []
+            for i in range(0,ros_service_list_length):
+                service_list_content_line = self.ui.listWidget_29.item(i).text()
+                ros_service_list.append(service_list_content_line)
+            return ros_service_list
+        return "Empty!"
+
+    def take_ros_parameter_list_for_db(self):
+        ros_parameter_list_length = self.ui.listWidget_30.count()
+        if ros_parameter_list_length:
+            ros_parameter_list = []
+            for i in range(0,ros_parameter_list_length):
+                parameter_list_content_line = self.ui.listWidget_30.item(i).text()
+                ros_parameter_list.append(parameter_list_content_line)
+            return ros_parameter_list
+        return "Empty!" 
+        
+    def take_ros_found_lines_for_mutation_for_db(self):
+        ros_found_lines_list_length = self.ui.listWidget_33.count()
+        if ros_found_lines_list_length:
+            ros_found_lines_list = []
+            for i in range(0,ros_found_lines_list_length):
+                ros_found_line = self.ui.listWidget_33.item(i).text()
+                ros_found_lines_list.append(ros_found_line)
+            return ros_found_lines_list
+        return "Empty!"
+    
+    def take_ros_selected_line_and_fault_for_mutation_for_db(self):
+        selected_line_and_fault_list_length = self.ui.listWidget_35.count()
+        if selected_line_and_fault_list_length:
+            selected_line_and_fault_list = []
+            for i in range(0,selected_line_and_fault_list_length):
+                selected_line_and_fault_line = self.ui.listWidget_35.item(i).text()
+                selected_line_and_fault_list.append(selected_line_and_fault_line)
+            return selected_line_and_fault_list
+        return "All faults used for ROS mutation process!"
+
+    def take_ros_mutant_codes_for_db(self):
+        ros_mutant_codes_list_length = self.ui.listWidget_31.count()
+        if ros_mutant_codes_list_length:
+            ros_mutant_codes_list = []
+            for i in range(0,ros_mutant_codes_list_length):
+                ros_mutant_line = self.ui.listWidget_31.item(i).text()
+                ros_mutant_codes_list.append(ros_mutant_line)
+            return ros_mutant_codes_list
+        return "Empty!"
+    
+    def take_ros_mutant_number_for_db(self):
+        ros_mutant_number = self.ui.label_81.text()
+        if ros_mutant_number:
+            return ros_mutant_number
+        return "Empty!"
+
+    def take_ros_fiplan_list_for_db(self):
+        ros_fi_plan_list_length = self.ui.listWidget_36.count()
+        if ros_fi_plan_list_length:
+            ros_fi_plan_list = []
+            for i in range(0,ros_fi_plan_list_length):
+                ros_fi_plan_line = self.ui.listWidget_36.item(i).text()
+                ros_fi_plan_list.append(ros_fi_plan_line)
+            return ros_fi_plan_list
+        return "Empty!"
+    
+    def take_ros_killed_mutant_score_for_db(self):
+        global killed_mutant_ros_fi_plan_line
+        if killed_mutant_ros_fi_plan_line:
+            return killed_mutant_ros_fi_plan_line
+        return "Empty!"
+    
+    def take_ros_survived_mutant_score_for_db(self):
+        global survived_mutant_ros_fi_plan_line
+        if survived_mutant_ros_fi_plan_line:
+            return survived_mutant_ros_fi_plan_line
+        return "Empty!"
+
+    def take_ros_mutation_score_for_db(self):
+        global mutation_score_ros_fi_plan_line
+        if mutation_score_ros_fi_plan_line:
+            return mutation_score_ros_fi_plan_line
         return "Empty!"
 
     # BUTTONS CLICK FUNCTIONS
@@ -2529,10 +2745,8 @@ class MainWindow(QMainWindow):
 
                 directory = self.ui.textEdit_47.toPlainText()
 
-                split_directory = directory.split("/")
-
                 if path_name != "":
-                    if split_directory[-2] == "launch":
+                    if directory:
                         ros_fiplan_name = (
                             self.ui.textEdit_45.toPlainText() + "_type_launch.json"
                         )
@@ -2543,7 +2757,7 @@ class MainWindow(QMainWindow):
 
                     len_ros_source_mutant = len(ROS_SOURCE_MUTANT)
 
-                    print(len_ros_source_mutant)
+                    print("len_ros_source_mutant",len_ros_source_mutant)
 
                     for i in range(0, len_ros_source_mutant):
 
@@ -2612,51 +2826,90 @@ class MainWindow(QMainWindow):
             def rospy_run():
                 """main func"""
                 global RUN_ORDER_LIST_JUST_PATH
-                RUN_ORDER_LIST_JUST_PATH = []
-                global ros_process
 
-                len_run_order_list_just_path = len(RUN_ORDER_LIST_JUST_PATH)
-                roscore_process = subprocess.Popen(["roscore"])
-                time.sleep(5)
+                if RUN_ORDER_LIST_JUST_PATH:
+                    len_run_order_list_just_path = len(RUN_ORDER_LIST_JUST_PATH)
+                    roscore_process = subprocess.Popen(["roscore"])
+                    time.sleep(5)
 
-                message_box.setIcon(QMessageBox.Information)
-                message_box.setText("Roscore is ready!")
-                message_box.setWindowTitle("Ready!")
-                message_box.setStandardButtons(QMessageBox.Ok)
-                message_box.exec()
+                    message_box.setIcon(QMessageBox.Information)
+                    message_box.setText("Roscore is ready!")
+                    message_box.setWindowTitle("Ready!")
+                    message_box.setStandardButtons(QMessageBox.Ok)
+                    message_box.exec()
 
-                for i in range(len_run_order_list_just_path):
-                    if i % 2 == 0:
-                        ros_directory = RUN_ORDER_LIST_JUST_PATH[i]
-                        split_rospy_file_name = ros_directory.split("/")
-                        package_name = split_rospy_file_name[-3]
+                    for i in range(len_run_order_list_just_path):
+                        if i % 2 == 0:
+                            ros_directory = RUN_ORDER_LIST_JUST_PATH[i]
+                            split_rospy_file_name = ros_directory.split("/")
+                            package_name = split_rospy_file_name[-3]
 
-                    else:
-                        rospy_file_name = RUN_ORDER_LIST_JUST_PATH[i]
-                        if i == 1:
-                            target_ros_process = subprocess.Popen(
-                                ["rosrun", package_name, rospy_file_name]
-                            )
                         else:
-                            ros_subprocess = subprocess.Popen(
-                                ["rosrun", package_name, rospy_file_name]
-                            )
-                            try:
-                                print("Running in process", target_ros_process.pid)
-                                target_ros_process.wait(timeout=5)
-                            except subprocess.TimeoutExpired:
-                                rosnode_list = subprocess.getoutput("rosnode list")
-                                rostopic_list = subprocess.getoutput("rostopic list")
-                                rosparam_list = subprocess.getoutput("rosparam list")
-                                rosservice_list = subprocess.getoutput(
-                                    "rosservice list"
+                            rospy_file_name = RUN_ORDER_LIST_JUST_PATH[i]
+                            if i == 1:
+                                target_ros_process = subprocess.Popen(
+                                    ["rosrun", package_name, rospy_file_name]
                                 )
-                                # rosmsg_list = subprocess.getoutput('rosmsg list')
-                                # rossrv_list = subprocess.getoutput('rossrv list')
-                                print("Timed out - killing", target_ros_process.pid)
-                                target_ros_process.terminate()
-                                ros_subprocess.terminate()
-                                roscore_process.terminate()
+                            else:
+                                ros_subprocess = subprocess.Popen(
+                                    ["rosrun", package_name, rospy_file_name]
+                                )
+                                try:
+                                    print("Running in process", target_ros_process.pid)
+                                    target_ros_process.wait(timeout=5)
+                                except subprocess.TimeoutExpired:
+                                    rosnode_list = subprocess.getoutput("rosnode list")
+                                    rostopic_list = subprocess.getoutput(
+                                        "rostopic list"
+                                    )
+                                    rosparam_list = subprocess.getoutput(
+                                        "rosparam list"
+                                    )
+                                    rosservice_list = subprocess.getoutput(
+                                        "rosservice list"
+                                    )
+                                    # rosmsg_list = subprocess.getoutput('rosmsg list')
+                                    # rossrv_list = subprocess.getoutput('rossrv list')
+                                    print("Timed out - killing", target_ros_process.pid)
+                                    target_ros_process.terminate()
+                                    ros_subprocess.terminate()
+                                    roscore_process.terminate()
+                else:
+                    roscore_process = subprocess.Popen(["roscore"])
+                    time.sleep(5)
+
+                    message_box.setIcon(QMessageBox.Information)
+                    message_box.setText("Roscore is ready!")
+                    message_box.setWindowTitle("Ready!")
+                    message_box.setStandardButtons(QMessageBox.Ok)
+                    message_box.exec()
+
+                    one_ros_file_directory_text = self.ui.textEdit_20.toPlainText()
+                    one_ros_file_directory_split = one_ros_file_directory_text.split(
+                        "/"
+                    )
+                    print("File name:", one_ros_file_directory_split[-1])
+                    print("Package name:", one_ros_file_directory_split[-3])
+
+                    rospy_file_name = one_ros_file_directory_split[-1]
+                    package_name = one_ros_file_directory_split[-3]
+
+                    target_ros_process = subprocess.Popen(
+                        ["rosrun", package_name, rospy_file_name]
+                    )
+                    try:
+                        print("Running in process", target_ros_process.pid)
+                        target_ros_process.wait(timeout=5)
+                    except subprocess.TimeoutExpired:
+                        rosnode_list = subprocess.getoutput("rosnode list")
+                        rostopic_list = subprocess.getoutput("rostopic list")
+                        rosparam_list = subprocess.getoutput("rosparam list")
+                        rosservice_list = subprocess.getoutput("rosservice list")
+                        # rosmsg_list = subprocess.getoutput('rosmsg list')
+                        # rossrv_list = subprocess.getoutput('rossrv list')
+                        print("Timed out - killing", target_ros_process.pid)
+                        target_ros_process.terminate()
+                        roscore_process.terminate()
 
                 time.sleep(1)
                 print("Process Done")
@@ -2699,7 +2952,7 @@ class MainWindow(QMainWindow):
                 )
 
                 folder_name = split_roslaunch_folder_directory_path[-3]
-                print("Folder Name#############",folder_name)
+                print("Folder Name#############", folder_name)
 
                 ros_exe_file_name = self.ui.label_86.text()
 
@@ -2748,6 +3001,8 @@ class MainWindow(QMainWindow):
                 # print(rossrv_list)
 
             directory = self.ui.textEdit_47.toPlainText()
+            if directory == "":
+                directory = self.ui.textEdit_20.toPlainText()
             split_directory = directory.split("/")
 
             if split_directory[-2] == "launch":
@@ -3078,13 +3333,15 @@ class MainWindow(QMainWindow):
                 remove_ros_mutant()
 
         if btnName == "scan_ros_btn":
+
             full_location = ""
             total_ros_items = []
             file_location = self.ui.textEdit_47.toPlainText()
-            split_file_location = file_location.split("/")
+            if file_location:
+                split_file_location = file_location.split("/")
 
-            find_scripts_type = re.findall("scripts", split_file_location[-2])
-            find_src_type = re.findall("src", split_file_location[-2])
+                find_scripts_type = re.findall("scripts", split_file_location[-2])
+                find_src_type = re.findall("src", split_file_location[-2])
 
             len_node_list = self.ui.listWidget_27.count()
             len_topic_list = self.ui.listWidget_28.count()
@@ -3098,10 +3355,7 @@ class MainWindow(QMainWindow):
 
             for i in range(len_topic_list):
                 topic_list_item = self.ui.listWidget_28.item(i).text()
-                if find_scripts_type or find_src_type:
-                    topic_list_item = topic_list_item[1:]
-                else:
-                    topic_list_item = topic_list_item
+                topic_list_item = topic_list_item[1:]
                 total_ros_items.append(topic_list_item)
 
             for i in range(len_service_list):
@@ -3114,155 +3368,173 @@ class MainWindow(QMainWindow):
                 param_list_item = param_list_item[1:]
                 total_ros_items.append(param_list_item)
 
-            len_ros_code = self.ui.listWidget_32.count()
+            len_ros_code = self.ui.listWidget_10.count()
 
             directory = self.ui.textEdit_47.toPlainText()
             split_directory = directory.split("/")
 
-            if split_directory[-2] == "launch":
-                python_files_list = []
-                launch_files_list = []
+            print(split_directory)
 
-                key_list = ["type", "file"]
+            if split_directory[0] != "":
+                if split_directory[-1] == "launch" or split_directory[-2] == "launch":
+                    python_files_list = []
+                    launch_files_list = []
 
-                def mutate_all_keys(key_data_list, location, target_file):
-                    """Mutation testing applies to  the all possible nodes"""
-                    ros_launch_directory_path = self.ui.textEdit_47.toPlainText()
+                    key_list = ["type", "file"]
 
-                    os.chdir(ros_launch_directory_path)
-                    tree = ET.parse(target_file)
-                    root = tree.getroot()
-                    lenroot = len(root)
-                    for i in range(0, lenroot):
-                        dictof = root[i].attrib
+                    def mutate_all_keys(key_data_list, location, target_file):
+                        """Mutation testing applies to  the all possible nodes"""
+                        ros_launch_directory_path = self.ui.textEdit_47.toPlainText()
 
-                        # "file" keys
-                        key_list = list(dictof.keys())
+                        os.chdir(ros_launch_directory_path)
+                        tree = ET.parse(target_file)
+                        root = tree.getroot()
+                        lenroot = len(root)
+                        for i in range(0, lenroot):
+                            dictof = root[i].attrib
 
-                        for target_key in key_list:
-                            if target_key == "type":
-                                # The list has Python type files
-                                python_files_list.append(dictof["type"])
+                            # "file" keys
+                            key_list = list(dictof.keys())
 
-                            elif target_key == "file":
-                                # The list has launch type files
-                                launch_files_list.append(dictof["file"])
-
-                def open_python(location, python_files_list):
-                    is_ros_for_mutation_list_empty = self.ui.listWidget_10.count()
-
-                    if is_ros_for_mutation_list_empty > 0:
-                        target_ros_py_location = self.ui.textEdit_20.toPlainText()
-                        target_ros_file_size = self.ui.listWidget_10.count()
-
-                        for line_number in range(0, target_ros_file_size):
-                            ros_file_line = self.ui.listWidget_10.item(
-                                line_number
-                            ).text()
-                            for pattern in total_ros_items:
-                                find_possible_line = re.findall(
-                                    pattern, ros_file_line, re.MULTILINE
-                                )
-                                check_rospy = re.findall(
-                                    "rospy", ros_file_line, re.MULTILINE
-                                )
-                                if find_possible_line and check_rospy:
-                                    self.ui.listWidget_10.item(
-                                        line_number
-                                    ).setBackground(
-                                        QtGui.QColor(102, 0, 102)
-                                    )  # Mor renge boyar
-                                    line_and_location = []
-                                    line_and_location = [
-                                        ros_file_line.strip(),
-                                        " Directory: ",
-                                        target_ros_py_location,
-                                    ]
-                                    str_line_and_location = (
-                                        line_and_location[0]
-                                        + line_and_location[1]
-                                        + line_and_location[2]
+                            for target_key in key_list:
+                                if target_key == "type":
+                                    file_type_info_from_launch = dictof["type"]
+                                    find_python_type_info = re.findall(
+                                        ".py", file_type_info_from_launch
                                     )
-                                    self.ui.listWidget_33.addItem(str_line_and_location)
+                                    if find_python_type_info:
+                                        # The list has Python type files
+                                        python_files_list.append(
+                                            file_type_info_from_launch
+                                        )
 
-                    else:
-                        for i in python_files_list:
-                            with open(
-                                os.path.join(location, i), mode="r", encoding="utf-8"
-                            ) as x_file:
+                                elif target_key == "file":
+                                    # The list has launch type files
+                                    launch_files_list.append(dictof["file"])
 
-                                pure_file_content = x_file.read()
+                    def open_python(location, python_files_list):
+                        is_ros_for_mutation_list_empty = self.ui.listWidget_10.count()
 
-                            split_file_content = pure_file_content.split("\n")
+                        if is_ros_for_mutation_list_empty > 0:
+                            target_ros_py_location = self.ui.textEdit_20.toPlainText()
+                            target_ros_file_size = self.ui.listWidget_10.count()
 
-                            lstrip_lines = []
-
-                            for line in split_file_content:
-                                changed_line = line.lstrip()
-                                lstrip_lines.append(changed_line)
-
-                            for ros_code_line in lstrip_lines:
+                            for line_number in range(0, target_ros_file_size):
+                                ros_file_line = self.ui.listWidget_10.item(
+                                    line_number
+                                ).text()
                                 for pattern in total_ros_items:
                                     find_possible_line = re.findall(
-                                        pattern, ros_code_line, re.MULTILINE
+                                        pattern, ros_file_line, re.MULTILINE
                                     )
-                                    if find_possible_line:
-                                        check_rospy = re.findall(
-                                            "rospy", ros_code_line, re.MULTILINE
+                                    check_rospy = re.findall(
+                                        "rospy", ros_file_line, re.MULTILINE
+                                    )
+                                    if find_possible_line and check_rospy:
+                                        self.ui.listWidget_10.item(
+                                            line_number
+                                        ).setBackground(
+                                            QtGui.QColor(102, 0, 102)
+                                        )  # Mor renge boyar
+                                        line_and_location = []
+                                        line_and_location = [
+                                            ros_file_line.strip(),
+                                            " Directory: ",
+                                            target_ros_py_location,
+                                        ]
+                                        str_line_and_location = (
+                                            line_and_location[0]
+                                            + line_and_location[1]
+                                            + line_and_location[2]
                                         )
-                                        if check_rospy:
-                                            line_and_location = []
-                                            target_ros_py_location = location + "/" + i
-                                            ros_code_line = ros_code_line.lstrip()
-                                            line_and_location = [
-                                                ros_code_line,
-                                                " Directory: ",
-                                                target_ros_py_location,
-                                            ]
-                                            str_line_and_location = (
-                                                line_and_location[0]
-                                                + line_and_location[1]
-                                                + line_and_location[2]
+                                        self.ui.listWidget_33.addItem(
+                                            str_line_and_location
+                                        )
+
+                        else:
+                            for i in python_files_list:
+                                with open(
+                                    os.path.join(location, i),
+                                    mode="r",
+                                    encoding="utf-8",
+                                ) as x_file:
+
+                                    pure_file_content = x_file.read()
+
+                                split_file_content = pure_file_content.split("\n")
+
+                                lstrip_lines = []
+
+                                for line in split_file_content:
+                                    changed_line = line.lstrip()
+                                    lstrip_lines.append(changed_line)
+
+                                for ros_code_line in lstrip_lines:
+                                    for pattern in total_ros_items:
+                                        find_possible_line = re.findall(
+                                            pattern, ros_code_line, re.MULTILINE
+                                        )
+                                        if find_possible_line:
+                                            check_rospy = re.findall(
+                                                "rospy", ros_code_line, re.MULTILINE
                                             )
-                                            self.ui.listWidget_33.addItem(
-                                                str_line_and_location
-                                            )
+                                            if check_rospy:
+                                                line_and_location = []
+                                                target_ros_py_location = (
+                                                    location + "/" + i
+                                                )
+                                                ros_code_line = ros_code_line.lstrip()
+                                                line_and_location = [
+                                                    ros_code_line,
+                                                    " Directory: ",
+                                                    target_ros_py_location,
+                                                ]
+                                                str_line_and_location = (
+                                                    line_and_location[0]
+                                                    + line_and_location[1]
+                                                    + line_and_location[2]
+                                                )
+                                                self.ui.listWidget_33.addItem(
+                                                    str_line_and_location
+                                                )
 
-                new_location = ""
+                    new_location = ""
 
-                complete_directory_path = self.ui.textEdit_47.toPlainText()
+                    complete_directory_path = self.ui.textEdit_47.toPlainText()
 
-                split_complete_directory_path = complete_directory_path.split("/")
+                    split_complete_directory_path = complete_directory_path.split("/")
 
-                target_file = (
-                    self.ui.label_86.text()
-                )  # "eva_security_patrol_start.launch"
+                    target_file = (
+                        self.ui.label_86.text()
+                    )  # "eva_security_patrol_start.launch"
 
-                for i in range(0, 6):
-                    full_location += (
-                        split_complete_directory_path[i] + "/"
-                    )  # "/home/ino/catkin_ws/src/eva_security/"
-
-                mutate_all_keys(key_list, full_location, target_file)
-
-                if launch_files_list:
-                    for i in launch_files_list:
-                        split_value = i.split("/")
-                        target_file = split_value[-1]
-                        mutate_all_keys(key_list, full_location, target_file)
-
-                    for i in range(0, 7):
-                        new_location += (
+                    for i in range(0, 6):
+                        full_location += (
                             split_complete_directory_path[i] + "/"
                         )  # "/home/ino/catkin_ws/src/eva_security/"
 
-                    selected_location = new_location + "scripts"
+                    mutate_all_keys(key_list, full_location, target_file)
 
-                    open_python(selected_location, python_files_list)
+                    if launch_files_list:
+                        for i in launch_files_list:
+                            split_value = i.split("/")
+                            target_file = split_value[-1]
+                            mutate_all_keys(key_list, full_location, target_file)
+
+                        for i in range(0, 7):
+                            new_location += (
+                                split_complete_directory_path[i] + "/"
+                            )  # "/home/ino/catkin_ws/src/eva_security/"
+
+                        selected_location = new_location + "scripts"
+
+                        open_python(selected_location, python_files_list)
 
             else:
-                for i in range(len_ros_code):
-                    ros_code_line = self.ui.listWidget_32.item(i).text()
+                single_ros__process_folder_name = self.ui.textEdit_20.toPlainText()
+
+                for i in range(0, len_ros_code):
+                    ros_code_line = self.ui.listWidget_10.item(i).text()
                     for pattern in total_ros_items:
                         find_possible_line = re.findall(
                             pattern, ros_code_line, re.MULTILINE
@@ -3272,9 +3544,7 @@ class MainWindow(QMainWindow):
                                 "rospy", ros_code_line, re.MULTILINE
                             )
                             if check_rospy:
-                                folder_name = self.ui.textEdit_47.toPlainText()
-                                file_name = self.ui.label_86.text
-                                complete_name = folder_name + file_name
+                                complete_name = single_ros__process_folder_name
 
                                 ros_code_line = ros_code_line.lstrip()
                                 ros_line_and_directory = (
@@ -3289,7 +3559,12 @@ class MainWindow(QMainWindow):
             length_mutant_codes_list = self.ui.listWidget_31.count()
 
             directory = self.ui.textEdit_47.toPlainText()
-            split_directory = directory.split("/")
+
+            if directory:
+                split_directory = directory.split("/")
+            else:
+                directory = self.ui.textEdit_20.toPlainText()
+                split_directory = directory.split("/")
 
             if length_mutant_codes_list:
                 self.ui.listWidget_31.clear()
@@ -3371,7 +3646,7 @@ class MainWindow(QMainWindow):
                                 or ros_result[0] == "rospy.Pub"
                             ):
                                 POSSIBLE_MUTANT_LIST = [
-                                    "/" + self.ui.listWidget_28.item(x).text()
+                                    self.ui.listWidget_28.item(x).text()
                                     for x in range(self.ui.listWidget_28.count())
                                 ]
                             elif (
