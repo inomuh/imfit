@@ -1579,7 +1579,7 @@ Button */
                       <string notr="true">background: transparent;</string>
                      </property>
                      <property name="currentIndex">
-                      <number>9</number>
+                      <number>6</number>
                      </property>
                      <widget class="QWidget" name="home">
                       <property name="styleSheet">
@@ -3255,7 +3255,67 @@ p, li { white-space: pre-wrap; }
                            </item>
                            <item row="0" column="0" colspan="3">
                             <layout class="QGridLayout" name="gridLayout_36">
-                             <item row="0" column="1">
+                             <item row="1" column="0">
+                              <widget class="QLabel" name="label_58">
+                               <property name="minimumSize">
+                                <size>
+                                 <width>30</width>
+                                 <height>0</height>
+                                </size>
+                               </property>
+                               <property name="maximumSize">
+                                <size>
+                                 <width>16777215</width>
+                                 <height>30</height>
+                                </size>
+                               </property>
+                               <property name="text">
+                                <string>Exe File:</string>
+                               </property>
+                              </widget>
+                             </item>
+                             <item row="1" column="2">
+                              <widget class="QPushButton" name="pushButton_10">
+                               <property name="minimumSize">
+                                <size>
+                                 <width>80</width>
+                                 <height>30</height>
+                                </size>
+                               </property>
+                               <property name="maximumSize">
+                                <size>
+                                 <width>80</width>
+                                 <height>30</height>
+                                </size>
+                               </property>
+                               <property name="styleSheet">
+                                <string notr="true">background-color: rgb(52, 59, 72);
+</string>
+                               </property>
+                               <property name="text">
+                                <string>Open</string>
+                               </property>
+                               <property name="icon">
+                                <iconset resource="resources.qrc">
+                                 <normaloff>:/icons/images/icons/cil-folder-open.png</normaloff>:/icons/images/icons/cil-folder-open.png</iconset>
+                               </property>
+                              </widget>
+                             </item>
+                             <item row="2" column="0" colspan="3">
+                              <widget class="QTextEdit" name="textEdit_40">
+                               <property name="minimumSize">
+                                <size>
+                                 <width>400</width>
+                                 <height>0</height>
+                                </size>
+                               </property>
+                               <property name="styleSheet">
+                                <string notr="true">background-color: rgb(52, 59, 72);
+</string>
+                               </property>
+                              </widget>
+                             </item>
+                             <item row="1" column="1">
                               <widget class="QTextEdit" name="textEdit_21">
                                <property name="minimumSize">
                                 <size>
@@ -3285,62 +3345,40 @@ p, li { white-space: pre-wrap; }
                               </widget>
                              </item>
                              <item row="0" column="2">
-                              <widget class="QPushButton" name="pushButton_10">
-                               <property name="minimumSize">
-                                <size>
-                                 <width>80</width>
-                                 <height>30</height>
-                                </size>
-                               </property>
-                               <property name="maximumSize">
-                                <size>
-                                 <width>80</width>
-                                 <height>30</height>
-                                </size>
-                               </property>
-                               <property name="styleSheet">
-                                <string notr="true">background-color: rgb(52, 59, 72);
-</string>
-                               </property>
-                               <property name="text">
-                                <string>Open</string>
-                               </property>
-                               <property name="icon">
-                                <iconset resource="resources.qrc">
-                                 <normaloff>:/icons/images/icons/cil-folder-open.png</normaloff>:/icons/images/icons/cil-folder-open.png</iconset>
-                               </property>
-                              </widget>
-                             </item>
-                             <item row="0" column="0">
-                              <widget class="QLabel" name="label_58">
-                               <property name="minimumSize">
-                                <size>
-                                 <width>30</width>
-                                 <height>0</height>
-                                </size>
-                               </property>
+                              <widget class="QPushButton" name="take_data_from_db">
                                <property name="maximumSize">
                                 <size>
                                  <width>16777215</width>
                                  <height>30</height>
                                 </size>
                                </property>
+                               <property name="styleSheet">
+                                <string notr="true">background-color: rgb(52, 59, 72);
+</string>
+                               </property>
                                <property name="text">
-                                <string>Exe File:</string>
+                                <string>Take Data</string>
                                </property>
                               </widget>
                              </item>
-                             <item row="1" column="0" colspan="3">
-                              <widget class="QTextEdit" name="textEdit_40">
-                               <property name="minimumSize">
+                             <item row="0" column="1">
+                              <widget class="QTextEdit" name="textEdit_55">
+                               <property name="maximumSize">
                                 <size>
-                                 <width>400</width>
-                                 <height>0</height>
+                                 <width>16777215</width>
+                                 <height>30</height>
                                 </size>
                                </property>
                                <property name="styleSheet">
                                 <string notr="true">background-color: rgb(52, 59, 72);
 </string>
+                               </property>
+                              </widget>
+                             </item>
+                             <item row="0" column="0">
+                              <widget class="QLabel" name="label_111">
+                               <property name="text">
+                                <string>SQL Query:</string>
                                </property>
                               </widget>
                              </item>
@@ -7473,7 +7511,7 @@ color:white;</string>
                              <item row="0" column="2" rowspan="2">
                               <widget class="QPushButton" name="btn_new_one">
                                <property name="sizePolicy">
-                                <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+                                <sizepolicy hsizetype="Expanding" vsizetype="Fixed">
                                  <horstretch>0</horstretch>
                                  <verstretch>0</verstretch>
                                 </sizepolicy>
@@ -9091,6 +9129,13 @@ color:white;</string>
                          </item>
                          <item row="1" column="1">
                           <layout class="QGridLayout" name="gridLayout_18">
+                           <item row="3" column="1">
+                            <widget class="QTextEdit" name="textEdit_12">
+                             <property name="styleSheet">
+                              <string notr="true">background-color: rgb(52, 59, 72);</string>
+                             </property>
+                            </widget>
+                           </item>
                            <item row="7" column="1">
                             <widget class="QPushButton" name="ros_save_test_case">
                              <property name="minimumSize">
@@ -9165,45 +9210,6 @@ color:white;</string>
                              <property name="icon">
                               <iconset resource="resources.qrc">
                                <normaloff>:/icons/images/icons/cil-chevron-double-right.png</normaloff>:/icons/images/icons/cil-chevron-double-right.png</iconset>
-                             </property>
-                            </widget>
-                           </item>
-                           <item row="6" column="1">
-                            <widget class="QTextEdit" name="textEdit_41">
-                             <property name="styleSheet">
-                              <string notr="true">background-color: rgb(52, 59, 72);</string>
-                             </property>
-                            </widget>
-                           </item>
-                           <item row="3" column="1">
-                            <widget class="QTextEdit" name="textEdit_12">
-                             <property name="styleSheet">
-                              <string notr="true">background-color: rgb(52, 59, 72);</string>
-                             </property>
-                            </widget>
-                           </item>
-                           <item row="0" column="1">
-                            <widget class="QLabel" name="label_18">
-                             <property name="minimumSize">
-                              <size>
-                               <width>0</width>
-                               <height>30</height>
-                              </size>
-                             </property>
-                             <property name="maximumSize">
-                              <size>
-                               <width>16777215</width>
-                               <height>30</height>
-                              </size>
-                             </property>
-                             <property name="sizeIncrement">
-                              <size>
-                               <width>0</width>
-                               <height>30</height>
-                              </size>
-                             </property>
-                             <property name="text">
-                              <string>Create/Open Test Case</string>
                              </property>
                             </widget>
                            </item>
@@ -9283,6 +9289,38 @@ color:white;</string>
                               </widget>
                              </item>
                             </layout>
+                           </item>
+                           <item row="0" column="1">
+                            <widget class="QLabel" name="label_18">
+                             <property name="minimumSize">
+                              <size>
+                               <width>0</width>
+                               <height>30</height>
+                              </size>
+                             </property>
+                             <property name="maximumSize">
+                              <size>
+                               <width>16777215</width>
+                               <height>30</height>
+                              </size>
+                             </property>
+                             <property name="sizeIncrement">
+                              <size>
+                               <width>0</width>
+                               <height>30</height>
+                              </size>
+                             </property>
+                             <property name="text">
+                              <string>Create/Open Test Case</string>
+                             </property>
+                            </widget>
+                           </item>
+                           <item row="6" column="1">
+                            <widget class="QTextEdit" name="textEdit_41">
+                             <property name="styleSheet">
+                              <string notr="true">background-color: rgb(52, 59, 72);</string>
+                             </property>
+                            </widget>
                            </item>
                           </layout>
                          </item>

@@ -1583,61 +1583,103 @@ class MainWindow(QMainWindow):
         global connection
         postgresql_query = self.ui.textEdit_55.toPlainText()
         data_from_sql = imfit_database_function.take_data(connection, postgresql_query)
-        print(data_from_sql[0])
+        # select * from imfit_table where process_id = 480
+        self.poke_took_data_from_database(data_from_sql)
 
     def poke_took_data_from_database(self, data_from_sql):
         file_name_from_db = data_from_sql[1]
+        self.poke_file_name(file_name_from_db)
         source_code_from_db = data_from_sql[2]
+        self.poke_source_code(source_code_from_db)
         code_snippets_from_db = data_from_sql[3]
+        self.poke_code_snippets(code_snippets_from_db)
         possible_code_lines_from_db = data_from_sql[4]
+        self.poke_possible_lines(possible_code_lines_from_db)
         fault_names_from_db = data_from_sql[5]
+        self.poke_fault_names_from_db(fault_names_from_db)
         mutation_list_from_db = data_from_sql[6]
+        self.poke_mutation_list_from_db(mutation_list_from_db)
         fiplan_name_from_db = data_from_sql[7]
+        self.poke_fiplan_name_from_db(fiplan_name_from_db)
         fiplan_content_from_db = data_from_sql[8]
+        self.poke_fiplan_content_from_db(fiplan_content_from_db)
         held_mutant_list_from_db = data_from_sql[9]
+        self.poke_held_mutant_list_from_db(held_mutant_list_from_db)
         metrics_from_db = data_from_sql[10]
+        self.poke_metrics_from_db(metrics_from_db)
         killed_mutants_from_db = data_from_sql[11]
+        self.poke_killed_mutants_from_db(killed_mutants_from_db)
         equivalent_mutants_from_db = data_from_sql[12]
+        self.poke_equivalent_mutants_from_db(equivalent_mutants_from_db)
         survived_mutants_from_db = data_from_sql[13]
+        self.poke_survived_mutants_from_db(survived_mutants_from_db)
 
-    def poke_file_name(file_name_from_db):
+    def poke_file_name(self,file_name_from_db):
+        self.ui.source_code_directory_text.setPlainText(file_name_from_db)
+
+    def poke_source_code(self,source_code_from_db):
+        self.ui.source_code_content.setPlainText(source_code_from_db)
+
+    def poke_code_snippets(self,code_snippets_from_db):
+        if code_snippets_from_db == "All code snippets selected to use for V&V process!":
+            code_snippet_list = []
+            code_snippet_list_length = self.ui.code_snippet_list.count()
+            for i in range(0,code_snippet_list_length):
+                code_snippet_list_line = self.ui.code_snippet_list.item(i).text()
+                code_snippet_list.append(code_snippet_list_line)
+            for code_snippet_element in code_snippet_list:
+                self.ui.listWidget_8.addItem(code_snippet_element)
+        else:
+            for i in code_snippets_from_db:
+                self.ui.listWidget_8.addItem(i)
+        # Global değerlerin yeniden düzenlenmesi
+
+    def poke_possible_lines(self,possible_code_lines_from_db):
+        for possible_code_lines_element in possible_code_lines_from_db:
+            self.ui.listWidget.addItem(possible_code_lines_element)
+
+    def poke_fault_names_from_db(self,fault_names_from_db):
+        if fault_names_from_db == "All faults selected to use for V&V process!":
+            fault_names_list = []
+            # Global değişkenler değiştirilecek
+
+    def poke_mutation_list_from_db(self,mutation_list_from_db):
+        if mutation_list_from_db != "Empty!":
+            for mutant_code_lines in mutation_list_from_db:
+                self.ui.listWidget_7.addItem(mutant_code_lines)
+                # line_and_fault = text_selected_line_and_fault.split("\n")
+
+                # self.ui.listWidget_7.addItems(line_and_fault)
+
+    def poke_fiplan_name_from_db(self,fiplan_name_from_db):
+        if fiplan_name_from_db != "Empty!":
+            for fi_plan_name in fiplan_name_from_db:
+                self.ui.listWidget_11.addItem(fi_plan_name)
+
+    def poke_fiplan_content_from_db(self,fiplan_content_from_db):
+        # FI Plan content global değişkene aktarılacak
         pass
 
-    def poke_source_code(source_code_from_db):
+    def poke_held_mutant_list_from_db(self,held_mutant_list_from_db):
+        # Tutulan mutantlar global değişkene aktarılacak
         pass
 
-    def poke_code_snippets(code_snippets_from_db):
-        pass
+    def poke_metrics_from_db(self,metrics_from_db):
+        if metrics_from_db != "Empty!":
+            for fi_plan_name in metrics_from_db:
+                self.ui.listWidget.addItem(fi_plan_name)
 
-    def poke_possible_lines(possible_code_lines_from_db):
+    def poke_killed_mutants_from_db(self,killed_mutants_from_db):
         pass
+        #Global killed atanacak
 
-    def poke_fault_names_from_db(fault_names_from_db):
+    def poke_equivalent_mutants_from_db(self,equivalent_mutants_from_db):
         pass
+        #Global eq atanacak
 
-    def poke_mutation_list_from_db(mutation_list_from_db):
+    def poke_survived_mutants_from_db(self,survived_mutants_from_db):
         pass
-
-    def poke_fiplan_name_from_db(fiplan_name_from_db):
-        pass
-
-    def poke_fiplan_content_from_db(fiplan_content_from_db):
-        pass
-
-    def poke_held_mutant_list_from_db(held_mutant_list_from_db):
-        pass
-
-    def poke_metrics_from_db(metrics_from_db):
-        pass
-
-    def poke_killed_mutants_from_db(killed_mutants_from_db):
-        pass
-
-    def poke_equivalent_mutants_from_db(equivalent_mutants_from_db):
-        pass
-
-    def poke_survived_mutants_from_db(survived_mutants_from_db):
-        pass
+    # Global survived atanacak
 
     # Splits source code to scan line by line
     def take_split_source_code(self):
@@ -2304,7 +2346,10 @@ class MainWindow(QMainWindow):
                 selected_line_and_fault_line = self.ui.listWidget_35.item(i).text()
                 selected_line_and_fault_list.append(selected_line_and_fault_line)
             return selected_line_and_fault_list
-        return "All faults used for ROS mutation process!"
+        elif selected_line_and_fault_list_length == 0 and self.ui.checkBox_9.isChecked() is True:
+            return "All faults used for ROS mutation process!"
+        else:
+            return "Empty!"
 
     def take_ros_mutant_codes_for_db(self):
         ros_mutant_codes_list_length = self.ui.listWidget_31.count()
