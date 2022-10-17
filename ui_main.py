@@ -1545,6 +1545,31 @@ class Ui_MainWindow(object):
 
         self.gridLayout_36 = QGridLayout()
         self.gridLayout_36.setObjectName(u"gridLayout_36")
+        self.label_58 = QLabel(self.start)
+        self.label_58.setObjectName(u"label_58")
+        self.label_58.setMinimumSize(QSize(30, 0))
+        self.label_58.setMaximumSize(QSize(16777215, 30))
+
+        self.gridLayout_36.addWidget(self.label_58, 1, 0, 1, 1)
+
+        self.pushButton_10 = QPushButton(self.start)
+        self.pushButton_10.setObjectName(u"pushButton_10")
+        self.pushButton_10.setMinimumSize(QSize(80, 30))
+        self.pushButton_10.setMaximumSize(QSize(80, 30))
+        self.pushButton_10.setStyleSheet(u"background-color: rgb(52, 59, 72);\n"
+"")
+        self.pushButton_10.setIcon(icon9)
+
+        self.gridLayout_36.addWidget(self.pushButton_10, 1, 2, 1, 1)
+
+        self.textEdit_40 = QTextEdit(self.start)
+        self.textEdit_40.setObjectName(u"textEdit_40")
+        self.textEdit_40.setMinimumSize(QSize(400, 0))
+        self.textEdit_40.setStyleSheet(u"background-color: rgb(52, 59, 72);\n"
+"")
+
+        self.gridLayout_36.addWidget(self.textEdit_40, 2, 0, 1, 3)
+
         self.textEdit_21 = QTextEdit(self.start)
         self.textEdit_21.setObjectName(u"textEdit_21")
         self.textEdit_21.setMinimumSize(QSize(0, 30))
@@ -1555,32 +1580,28 @@ class Ui_MainWindow(object):
         self.textEdit_21.setLineWrapMode(QTextEdit.NoWrap)
         self.textEdit_21.setReadOnly(True)
 
-        self.gridLayout_36.addWidget(self.textEdit_21, 0, 1, 1, 1)
+        self.gridLayout_36.addWidget(self.textEdit_21, 1, 1, 1, 1)
 
-        self.pushButton_10 = QPushButton(self.start)
-        self.pushButton_10.setObjectName(u"pushButton_10")
-        self.pushButton_10.setMinimumSize(QSize(80, 30))
-        self.pushButton_10.setMaximumSize(QSize(80, 30))
-        self.pushButton_10.setStyleSheet(u"background-color: rgb(52, 59, 72);\n"
-"")
-        self.pushButton_10.setIcon(icon9)
-
-        self.gridLayout_36.addWidget(self.pushButton_10, 0, 2, 1, 1)
-
-        self.label_58 = QLabel(self.start)
-        self.label_58.setObjectName(u"label_58")
-        self.label_58.setMinimumSize(QSize(30, 0))
-        self.label_58.setMaximumSize(QSize(16777215, 30))
-
-        self.gridLayout_36.addWidget(self.label_58, 0, 0, 1, 1)
-
-        self.textEdit_40 = QTextEdit(self.start)
-        self.textEdit_40.setObjectName(u"textEdit_40")
-        self.textEdit_40.setMinimumSize(QSize(400, 0))
-        self.textEdit_40.setStyleSheet(u"background-color: rgb(52, 59, 72);\n"
+        self.take_data_from_db = QPushButton(self.start)
+        self.take_data_from_db.setObjectName(u"take_data_from_db")
+        self.take_data_from_db.setMaximumSize(QSize(16777215, 30))
+        self.take_data_from_db.setStyleSheet(u"background-color: rgb(52, 59, 72);\n"
 "")
 
-        self.gridLayout_36.addWidget(self.textEdit_40, 1, 0, 1, 3)
+        self.gridLayout_36.addWidget(self.take_data_from_db, 0, 2, 1, 1)
+
+        self.textEdit_55 = QTextEdit(self.start)
+        self.textEdit_55.setObjectName(u"textEdit_55")
+        self.textEdit_55.setMaximumSize(QSize(16777215, 30))
+        self.textEdit_55.setStyleSheet(u"background-color: rgb(52, 59, 72);\n"
+"")
+
+        self.gridLayout_36.addWidget(self.textEdit_55, 0, 1, 1, 1)
+
+        self.label_111 = QLabel(self.start)
+        self.label_111.setObjectName(u"label_111")
+
+        self.gridLayout_36.addWidget(self.label_111, 0, 0, 1, 1)
 
 
         self.gridLayout_48.addLayout(self.gridLayout_36, 0, 0, 1, 3)
@@ -3210,8 +3231,8 @@ class Ui_MainWindow(object):
 
         self.btn_new_one = QPushButton(self.monitoring)
         self.btn_new_one.setObjectName(u"btn_new_one")
-        sizePolicy4.setHeightForWidth(self.btn_new_one.sizePolicy().hasHeightForWidth())
-        self.btn_new_one.setSizePolicy(sizePolicy4)
+        sizePolicy2.setHeightForWidth(self.btn_new_one.sizePolicy().hasHeightForWidth())
+        self.btn_new_one.setSizePolicy(sizePolicy2)
         self.btn_new_one.setMinimumSize(QSize(200, 50))
         self.btn_new_one.setCursor(QCursor(Qt.PointingHandCursor))
         self.btn_new_one.setStyleSheet(u"background-color: rgb(52, 59, 72);")
@@ -3932,6 +3953,12 @@ class Ui_MainWindow(object):
 
         self.gridLayout_18 = QGridLayout()
         self.gridLayout_18.setObjectName(u"gridLayout_18")
+        self.textEdit_12 = QTextEdit(self.rospagetest)
+        self.textEdit_12.setObjectName(u"textEdit_12")
+        self.textEdit_12.setStyleSheet(u"background-color: rgb(52, 59, 72);")
+
+        self.gridLayout_18.addWidget(self.textEdit_12, 3, 1, 1, 1)
+
         self.ros_save_test_case = QPushButton(self.rospagetest)
         self.ros_save_test_case.setObjectName(u"ros_save_test_case")
         self.ros_save_test_case.setMinimumSize(QSize(0, 30))
@@ -3957,26 +3984,6 @@ class Ui_MainWindow(object):
         self.ros_try_test_case.setIcon(icon14)
 
         self.gridLayout_18.addWidget(self.ros_try_test_case, 4, 1, 1, 1)
-
-        self.textEdit_41 = QTextEdit(self.rospagetest)
-        self.textEdit_41.setObjectName(u"textEdit_41")
-        self.textEdit_41.setStyleSheet(u"background-color: rgb(52, 59, 72);")
-
-        self.gridLayout_18.addWidget(self.textEdit_41, 6, 1, 1, 1)
-
-        self.textEdit_12 = QTextEdit(self.rospagetest)
-        self.textEdit_12.setObjectName(u"textEdit_12")
-        self.textEdit_12.setStyleSheet(u"background-color: rgb(52, 59, 72);")
-
-        self.gridLayout_18.addWidget(self.textEdit_12, 3, 1, 1, 1)
-
-        self.label_18 = QLabel(self.rospagetest)
-        self.label_18.setObjectName(u"label_18")
-        self.label_18.setMinimumSize(QSize(0, 30))
-        self.label_18.setMaximumSize(QSize(16777215, 30))
-        self.label_18.setSizeIncrement(QSize(0, 30))
-
-        self.gridLayout_18.addWidget(self.label_18, 0, 1, 1, 1)
 
         self.gridLayout_54 = QGridLayout()
         self.gridLayout_54.setObjectName(u"gridLayout_54")
@@ -4009,6 +4016,20 @@ class Ui_MainWindow(object):
 
 
         self.gridLayout_18.addLayout(self.gridLayout_54, 1, 1, 2, 1)
+
+        self.label_18 = QLabel(self.rospagetest)
+        self.label_18.setObjectName(u"label_18")
+        self.label_18.setMinimumSize(QSize(0, 30))
+        self.label_18.setMaximumSize(QSize(16777215, 30))
+        self.label_18.setSizeIncrement(QSize(0, 30))
+
+        self.gridLayout_18.addWidget(self.label_18, 0, 1, 1, 1)
+
+        self.textEdit_41 = QTextEdit(self.rospagetest)
+        self.textEdit_41.setObjectName(u"textEdit_41")
+        self.textEdit_41.setStyleSheet(u"background-color: rgb(52, 59, 72);")
+
+        self.gridLayout_18.addWidget(self.textEdit_41, 6, 1, 1, 1)
 
 
         self.gridLayout_12.addLayout(self.gridLayout_18, 1, 1, 1, 1)
@@ -4293,7 +4314,7 @@ class Ui_MainWindow(object):
 
         self.retranslateUi(MainWindow)
 
-        self.stackedWidget.setCurrentIndex(9)
+        self.stackedWidget.setCurrentIndex(6)
 
 
         QMetaObject.connectSlotsByName(MainWindow)
@@ -4634,8 +4655,10 @@ class Ui_MainWindow(object):
         self.btn_clear_codes.setText(QCoreApplication.translate("MainWindow", u"Clear Source Codes", None))
         self.label_9.setText(QCoreApplication.translate("MainWindow", u"Source Code", None))
         self.btn_open_folder.setText(QCoreApplication.translate("MainWindow", u"Open", None))
-        self.pushButton_10.setText(QCoreApplication.translate("MainWindow", u"Open", None))
         self.label_58.setText(QCoreApplication.translate("MainWindow", u"Exe File:", None))
+        self.pushButton_10.setText(QCoreApplication.translate("MainWindow", u"Open", None))
+        self.take_data_from_db.setText(QCoreApplication.translate("MainWindow", u"Take Data", None))
+        self.label_111.setText(QCoreApplication.translate("MainWindow", u"SQL Query:", None))
         self.btn_go_scan.setText(QCoreApplication.translate("MainWindow", u"Scan Page", None))
         self.pushButton_5.setText(QCoreApplication.translate("MainWindow", u"Home Page", None))
         self.label_103.setText(QCoreApplication.translate("MainWindow", u"FI Plan Name:", None))
@@ -5337,9 +5360,9 @@ class Ui_MainWindow(object):
         self.ros_save_test_case.setText(QCoreApplication.translate("MainWindow", u"Save Test Case", None))
         self.label_78.setText(QCoreApplication.translate("MainWindow", u"Terminal", None))
         self.ros_try_test_case.setText(QCoreApplication.translate("MainWindow", u"Try Test Case", None))
-        self.label_18.setText(QCoreApplication.translate("MainWindow", u"Create/Open Test Case", None))
         self.open_ros_test_case.setText(QCoreApplication.translate("MainWindow", u"Open", None))
         self.label_80.setText(QCoreApplication.translate("MainWindow", u"Test Case File", None))
+        self.label_18.setText(QCoreApplication.translate("MainWindow", u"Create/Open Test Case", None))
         self.back_to_start.setText(QCoreApplication.translate("MainWindow", u"Back", None))
         self.cSnippets.setStyleSheet("")
         self.label_23.setText(QCoreApplication.translate("MainWindow", u"File Name:", None))
