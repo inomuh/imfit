@@ -187,6 +187,22 @@ class MainWindow(QMainWindow):
                         self.ui.test_case_directory_text.setPlainText(str(file_name[0]))
                         self.ui.test_case_content.setPlainText(data)
 
+        # Take ".py" file for Docker Page
+        def get_file_py_for_docker_page():
+            """ Take Python-based ROS Source Code """
+            dialog = QFileDialog()
+            dialog.setFileMode(QFileDialog.AnyFile)
+            dialog.setNameFilter(("*.py"))
+
+            if dialog.exec():
+                file_name = dialog.selectedFiles()
+                control_status = control_file_directory(file_name[0])
+                if file_name[0].endswith(".py") and control_status == True:
+                    with open(file_name[0], mode="r", encoding="utf-8") as json_file:
+                        data = json_file.read()
+                        self.ui.textEdit_48.setPlainText(str(file_name[0]))
+                        self.ui.textEdit_49.setPlainText(data)
+
         # Take ".json" file for workload
         def workload_get_file_json():
             """Take JSON-based workload files to use for V&V process in IM-FIT"""
@@ -251,9 +267,9 @@ class MainWindow(QMainWindow):
                 if file_name[0].endswith(".bag") and control_status == True:
                     with open(file_name[0], mode="r", encoding="utf-8") as file:
                         data = file.read()
-                        self.ui.textEditor.setPlainText(data)
-
-        # EDIT BUTTONS
+                        self.ui.textEditor.setPlainText(data)        
+        
+        # EDIT BUTTONS FOR START PAGE
 
         # Source Code Edit Checkbox on START PAGE
         def edit_source_code():
@@ -498,6 +514,8 @@ class MainWindow(QMainWindow):
             mutation_process_function(target_text, random_fault, random_fault + 1)
 
         def execution_module_function():
+            if self.ui.checkBox_10.isChecked() is True:
+                self.execute_docker_containers()
             global ROS_SOURCE_MUTANT
             global ROS_SOURCE_CODE
             
@@ -594,7 +612,7 @@ class MainWindow(QMainWindow):
                                     try:
                                         roscore_process = subprocess.Popen(["roscore"])
                                         time.sleep(5)
-                                        print("working_package_full_path_split[-3]",working_package_full_path_split[-2])
+                                        # print("working_package_full_path_split[-3]",working_package_full_path_split[-2])
                                         print("fname",fname)
                                         status_output = subprocess.Popen(
                                             [
@@ -791,20 +809,36 @@ class MainWindow(QMainWindow):
                                     )
                                     # fname = "fault" + str(i) + ".py"
                                     data = main_mutation_process
-                                    with open(
-                                        fname, mode="w", encoding="utf-8"
-                                    ) as file:
-                                        file.write(data)
+
+                                    mutant_save_location = self.ui.textEdit_52.toPlainText()
+                                    if mutant_save_location != "":
+                                        mutant_save_location_and_mutant_file = os.path.join(
+                                            mutant_save_location, fname
+                                        )
+                                        with open(
+                                                mutant_save_location_and_mutant_file, mode="w", encoding="utf-8"
+                                            ) as file:
+                                                file.write(data)
+                                    else:
+                                        with open(
+                                            fname, mode="w", encoding="utf-8"
+                                        ) as file:
+                                            file.write(data)
 
                                     print("\n\nFault Number: ", i)
                                     print("\n############")
 
-                                    cmd = ["python3", fname]
+
+                                    if mutant_save_location != "":
+                                        cmd = ["python3", fname]
+                                    else:
+                                        cmd = ["python3", fname]
+                                        mutant_save_location = os.getcwd()
 
                                     all_mutant_list.append(fname)
                                     try:
                                         subprocess.run(
-                                            cmd, timeout=int(time_limit_per_process)
+                                            cmd, cwd = mutant_save_location ,timeout=int(time_limit_per_process)
                                         )
                                     except subprocess.TimeoutExpired:
                                         timeout_counter += 1
@@ -816,7 +850,7 @@ class MainWindow(QMainWindow):
                                         # error_code_list.append(mutant_code_output)
                                         continue
                                     else:
-
+                                        os.chdir(mutant_save_location)
                                         mutant_code_execution = "python3 " + fname
 
                                         # This subprocess function runs mutant codes and takes their output.
@@ -1205,6 +1239,7 @@ class MainWindow(QMainWindow):
 
         # LEFT MENU BUTTON CONNECTS
         self.ui.btn_home.clicked.connect(self.buttonClick)
+        # self.ui.btn_docker.clicked.connect(self.buttonClick)
         self.ui.btn_start.clicked.connect(self.buttonClick)
         self.ui.btn_scan.clicked.connect(self.buttonClick)
         self.ui.btn_fiplan.clicked.connect(self.buttonClick)
@@ -1221,6 +1256,15 @@ class MainWindow(QMainWindow):
         self.ui.btn_new_one.clicked.connect(self.buttonClick)
         self.ui.back_start_page.clicked.connect(self.buttonClick)
         self.ui.go_execution.clicked.connect(self.buttonClick)
+
+        # DOCKER PAGE BUTTON CONNECTS
+        self.ui.pushButton_2.clicked.connect(get_file_py_for_docker_page)
+        self.ui.pushButton_11.clicked.connect(self.show_all_docker_images)
+        self.ui.pushButton_12.clicked.connect(self.show_all_active_containers)
+        self.ui.pushButton_8.clicked.connect(self.create_docker_container)
+        self.ui.pushButton_13.clicked.connect(self.all_containers_stop)
+        self.ui.pushButton_14.clicked.connect(self.fault_injection_for_docker_files)
+        self.ui.pushButton_15.clicked.connect(self.execute_docker_containers)
 
         # START PAGE BUTTON CONNECTS
         self.ui.btn_open_folder.clicked.connect(get_file_py_for_source_code)
@@ -1281,7 +1325,17 @@ class MainWindow(QMainWindow):
         self.ui.btn_remove_exe.clicked.connect(self.buttonClick)
         self.ui.btn_select_metrics.clicked.connect(self.buttonClick)
         self.ui.btn_start_exe.clicked.connect(execution_module_function)
+        self.ui.pushButton_16.clicked.connect(self.buttonClick)
+        # DOCKER SETTINGS BUTTONS
+        self.ui.btn_create_container.clicked.connect(self.create_docker_container)
+        self.ui.btn_kill_containers.clicked.connect(self.buttonClick)
+        self.ui.btn_show_di.clicked.connect(self.show_all_docker_images)
+        self.ui.btn_show_con.clicked.connect(self.show_all_active_containers)
 
+        self.ui.pushButton_13.clicked.connect(self.all_containers_stop)
+        self.ui.pushButton_14.clicked.connect(self.fault_injection_for_docker_files)
+        self.ui.pushButton_15.clicked.connect(self.execute_docker_containers)
+        
         # MONITORING PAGE BUTTONS
         self.ui.btn_select_scenario.clicked.connect(get_file_rosbag)
         self.ui.btn_run_scenario.clicked.connect(self.buttonClick)
@@ -1744,7 +1798,7 @@ class MainWindow(QMainWindow):
             faultable_line_number_list,
         ) = scan_process.scan_yes_wl_yes_cs(patterns, source_code_list, painted_lines)
 
-        # self.scan_process_progress_bar()
+        self.scan_process_progress_bar()
         self.paint_workload_lines(painted_lines)
         self.paint_sky_blue(faultable_line_number_list)
         self.add_fi_plan(faultable_line_list)
@@ -2395,6 +2449,108 @@ class MainWindow(QMainWindow):
             return mutation_score_ros_fi_plan_line
         return "Empty!"
 
+    # DOCKER PAGE FUNCTIONS
+
+    # "See All Images" button function
+    def show_all_docker_images(self):
+        docker_output = subprocess.getoutput("docker image ls")
+        self.ui.textEdit_53.setPlainText(docker_output)
+
+    # "See All Active Containers" button function
+    def show_all_active_containers(self):
+        docker_output = subprocess.getoutput("docker ps")
+        self.ui.textEdit_54.setPlainText(docker_output)
+
+    # Controller function for  the create container event
+    def check_creation_of_container(self):
+        docker_image_name_check = self.ui.textEdit_56.toPlainText()
+        docker_image_version_check = self.ui.textEdit_57.toPlainText()
+        docker_image_number_check = self.ui.textEdit_58.toPlainText()
+
+        if docker_image_name_check and docker_image_version_check and docker_image_number_check:
+            return True
+        return False
+    
+    def terminal_message(self, s):
+        self.ui.plainTextEdit_4.appendPlainText(s)
+    
+    def handle_stderr(self):
+        data = self.p.readAllStandardError()
+        stderr = bytes(data).decode("utf8")
+        self.terminal_message(stderr)
+
+    def handle_stdout(self):
+        data = self.p.readAllStandardOutput()
+        stdout = bytes(data).decode("utf8")
+        self.terminal_message(stdout)
+
+    def handle_state(self, state):
+        states = {
+            QProcess.NotRunning: 'Not running',
+            QProcess.Starting: 'Starting',
+            QProcess.Running: 'Running',
+        }
+        state_name = states[state]
+        self.terminal_message(f"State changed: {state_name}")
+
+    def process_finished(self):
+        self.terminal_message("Process finished.")
+        self.p = None
+
+    
+    # "Create Container" button function
+    def create_docker_container(self):
+        if self.check_creation_of_container():
+            docker_name= self.ui.textEdit_56.toPlainText()
+            docker_version = self.ui.textEdit_57.toPlainText()
+            docker_number = self.ui.textEdit_58.toPlainText()
+            data = docker_name + "\n" +docker_version + "\n" + docker_number
+            with open("srvt_docker_info.txt", mode="w", encoding="utf-8") as file1:
+                file1.write(data)
+
+            # if self.p is None:  # No process running.
+            self.terminal_message("Docker Creation Process")
+            self.p = QProcess()  # Keep a reference to the QProcess (e.g. on self) while it's running.
+            self.p.readyReadStandardOutput.connect(self.handle_stdout)
+            self.p.readyReadStandardError.connect(self.handle_stderr)
+            self.p.stateChanged.connect(self.handle_state)
+            self.p.finished.connect(self.process_finished)  # Clean up once complete.
+            self.p.start("python3", ['/home/ino/Desktop/AKE/SRVTDockerWorks/srvt_docker_connection/srvt_docker_multicontainer.py'])
+            #  subprocess.call(['python3', '/home/ino/Desktop/AKE/SRVTDockerWorks/srvt_docker_connection/srvt_docker_multicontainer.py'])
+        else:
+            message_box = QMessageBox()
+            message_box.setIcon(QMessageBox.Warning)
+            message_box.setText("Missing Information")
+            message_box.setWindowTitle("Warning!")
+            message_box.setStandardButtons(QMessageBox.Ok)
+            message_box.exec()
+
+
+    # "All Containers Stop/Kill" button function
+    def all_containers_stop(self):
+        pass
+
+    # "Fault Injection" button function
+    def fault_injection_for_docker_files(self):
+        self.terminal_message("Fault Injection process")
+        self.p = QProcess()  # Keep a reference to the QProcess (e.g. on self) while it's running.
+        self.p.readyReadStandardOutput.connect(self.handle_stdout)
+        self.p.readyReadStandardError.connect(self.handle_stderr)
+        self.p.stateChanged.connect(self.handle_state)
+        self.p.finished.connect(self.process_finished)  # Clean up once complete.
+        self.p.start('python3', ['/home/ino/Desktop/AKE/SRVTDockerWorks/srvt_docker_mutation_inject/srvt_injection.py'])
+
+    # "Execute Docker Containers" button function
+    def execute_docker_containers(self):
+        self.fault_injection_for_docker_files()
+        self.terminal_message("Executing process")
+        self.p = QProcess()  # Keep a reference to the QProcess (e.g. on self) while it's running.
+        self.p.readyReadStandardOutput.connect(self.handle_stdout)
+        self.p.readyReadStandardError.connect(self.handle_stderr)
+        self.p.stateChanged.connect(self.handle_state)
+        self.p.finished.connect(self.process_finished)  # Clean up once complete.
+        self.p.start('python3', ['/home/ino/Desktop/AKE/SRVTDockerWorks/srvt_docker_connection/srvt_docker_launchers_controller.py'])
+
     # BUTTONS CLICK FUNCTIONS
     def buttonClick(self):
         """Button click function"""
@@ -2408,6 +2564,13 @@ class MainWindow(QMainWindow):
             UIFunctions.resetStyle(self, btnName)
             btn.setStyleSheet(UIFunctions.selectMenu(btn.styleSheet()))
             self.ui.titleRightInfo.setText("HOME")
+
+        # DOCKER PAGE
+        # if btnName == "btn_docker":
+        #     self.ui.stackedWidget.setCurrentWidget(self.ui.docker_page)
+        #     UIFunctions.resetStyle(self, btnName)
+        #     btn.setStyleSheet(UIFunctions.selectMenu(btn.styleSheet()))
+        #     self.ui.titleRightInfo.setText("DOCKER")
 
         # START PAGE
         if btnName == "btn_start":
@@ -2775,7 +2938,7 @@ class MainWindow(QMainWindow):
             self.ui.leftMenuBg.show()
             self.ui.titleRightInfo.setText("START")
 
-        # ROS PAGE at START PAGE
+        # ROS PAGE on START PAGE
 
         if btnName == "ros_fiplan_save":
             if self.ui.textEdit_45.toPlainText() != "":
@@ -2801,8 +2964,6 @@ class MainWindow(QMainWindow):
                         )
 
                     len_ros_source_mutant = len(ROS_SOURCE_MUTANT)
-
-                    print("len_ros_source_mutant",len_ros_source_mutant)
 
                     for i in range(0, len_ros_source_mutant):
 
@@ -3420,7 +3581,7 @@ class MainWindow(QMainWindow):
 
             print(split_directory)
 
-            if split_directory[0] != "":
+            if split_directory[1] != "":
                 if split_directory[-1] == "launch" or split_directory[-2] == "launch":
                     python_files_list = []
                     launch_files_list = []
@@ -4265,6 +4426,18 @@ class MainWindow(QMainWindow):
             self.ui.leftMenuBg.hide()
             self.ui.titleRightInfo.setText("EXECUTION - METRICS")
 
+        if btnName == "btn_create_container":
+            pass
+        
+        if btnName == "btn_kill_containers":
+            pass
+
+        if btnName == "btn_show_di":
+            pass
+
+        if btnName == "btn_show_con":
+            pass
+
         # SELECT METRICS FROM EXECUTION PAGE
 
         if btnName == "saveMetrics":
@@ -4274,6 +4447,22 @@ class MainWindow(QMainWindow):
             self.ui.stackedWidget.setCurrentWidget(self.ui.execution)
             self.ui.leftMenuBg.show()
             self.ui.titleRightInfo.setText("EXECUTION")
+
+        if btnName == "pushButton_16":
+            mutant_folder_directory = QFileDialog.getExistingDirectory(self,"Select Folder")
+            # mutant folder directory is added on the "target location" textEdit
+            self.ui.textEdit_52.setPlainText(mutant_folder_directory)
+            # directory = file_name[0]
+            model = QFileSystemModel()
+            # directory is added
+            model.setRootPath(mutant_folder_directory)
+            self.ui.treeView_2.setModel(model)
+            self.ui.treeView_2.setRootIndex(model.index(mutant_folder_directory))
+            self.ui.treeView_2.setSortingEnabled(True)
+            self.ui.treeView_2.hideColumn(1)
+            self.ui.treeView_2.hideColumn(2)
+            self.ui.treeView_2.hideColumn(3)
+
 
         # MONITORING PAGE
 
